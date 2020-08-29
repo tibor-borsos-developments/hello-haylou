@@ -1,0 +1,343 @@
+<resources>
+    <string name="app_name">Hello Haylou</string>
+
+    <string name="menu_nav_home">Haylou</string>
+    <string name="menu_nav_notification">Notificación</string>
+    <string name="menu_nav_call">Panggilan</string>
+    <string name="menu_nav_more">Lebih</string>
+    <string name="menu_nav_theme">Tema</string>
+    <string name="menu_nav_premium_mode">Mode premium</string>
+    <string name="menu_nav_feedback">Umpan balik</string>
+    <string name="menu_nav_privacy_policy">Kebijakan Privasi</string>
+    <string name="menu_nav_settings" type="string">@string/settings_name</string>
+
+    <string name="setting_name">Atur</string>
+    <string name="settings_name">Pengaturan</string>
+    <string name="info_name">Informasi</string>
+
+<!--    <string name="mi_band_battery">Battery level・last charging time・estimated remaining time</string>-->
+    <string name="device_battery">Battery level・last charging time</string>
+    <string name="device_state_connected_disconnected_last_time">Last connection and disconnection time</string>
+    <string name="device_mac_address">Alamat MAC</string>
+
+    <string name="device_search">Haylou search</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="device_mac_address_invalid">Alamat MAC tidak valid</string>
+
+    <string name="device_state_connected">Tersambung</string>
+    <string name="device_state_disconnected">Terputus</string>
+    <string name="device_state_bonded">Perangkat tersambung</string>
+    <string name="device_state_not_bonded">Perangkat tidak tersambung</string>
+
+
+    <string name="pref_text_title">Text display</string>
+    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
+    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
+    <string name="pref_text_emoticon_title">Emoji conversion</string>
+    <string name="pref_text_emoticon_summary_on">Convert emoji to emoticon</string>
+    <string name="pref_text_uppercase_title">Uppercase conversion</string>
+    <string name="pref_text_uppercase_summary_on">Convert lowercase to uppercase</string>
+    <string name="pref_text_line_separator_title">Line separator replacement</string>
+    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
+    <string name="pref_text_line_separator_value_title">Replacement characters</string>
+
+    <!-- Battery -->
+    <string name="battery_details">Battery usage</string>
+
+    <string name="mi_band_battery_settings">Pengaturan baterau</string>
+    <string name="mi_band_battery_notification">Low battery level notification</string>
+    <string name="mi_band_battery_notification_level">Low battery level</string>
+    <string name="mi_band_battery_notification_repeat_interval">Repeat interval</string>
+    <string name="mi_band_battery_notification_shade">Notify me on the phone</string>
+    <string name="mi_band_battery_notification_shade_ongoing">Persistent (ongoing) notification</string>
+    <string name="mi_band_battery_notification_shade_message">Level baterai lemah %1$,d%%</string>
+    <string name="mi_band_battery_notification_mi_band">Notify me on the bracelet</string>
+    <string name="mi_band_battery_notification_mi_band_message">Battery: %1$,d%%</string>
+
+    <!-- PreferenceScreen -->
+    <string name="pref_connected">Koneksi</string>
+
+    <string name="pref_connected_have_notif_interval_title">Jeda pengulangan pengingat</string>
+    <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
+
+    <string name="pref_cat_call">Panggilan masuk</string>
+    <string name="pref_call_summary_on">Jangan lupa mematikan tanda panggilan masuk pada apl Haylou Sport</string>
+    <string name="pref_call_text_title">Tampilkan identitas pemanggil</string>
+
+    <string name="pref_call_notification_rejected">Show notification about rejected call</string>
+    <string name="pref_call_notification_rejected_message">Rejected call</string>
+    <string name="pref_call_notification_rejected_action">Call</string>
+
+    <string name="pref_call_net_text_title">Tanda panggilan internet masuk</string>
+
+    <string name="pref_cat_call_missed">Panggilan tidak terjawab</string>
+    <string name="pref_call_missed_title">Tanda panggilan tidak terjawab</string>
+
+    <string name="pref_call_missed_alert_title">Tanda %1$s</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="pref_battery_phone">Phone battery</string>
+    <string name="pref_battery_phone_summary">Low and full battery level notifications</string>
+    <string name="pref_cat_battery_phone_low">Low battery level</string>
+    <string name="pref_battery_phone_low_title">Low battery indicator</string>
+    <string name="pref_battery_phone_low_level_title">Battery level threshold</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">Repeat interval</string>
+    <string name="pref_cat_battery_phone_full">Full battery level</string>
+    <string name="pref_battery_phone_full_title">Full battery indicator</string>
+    <string name="pref_battery_phone_full_plugged_ac">AC charger power source</string>
+    <string name="pref_battery_phone_full_plugged_usb">USB port power source</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Wireless power source</string>
+
+    <string name="pref_battery_phone_message">Phone battery:\n %1$,d%%</string>
+
+    <string name="pref_language">Bahasa</string>
+    <string name="pref_cat_language">Aplikasi</string>
+    <string name="pref_language_title">Bahasa</string>
+
+    <!-- Snackbar Messages -->
+    <string name="message_enable_bluetooth">Aktifkan Bluetooth dan dekatkan perangkat Haylou ke telepon</string>
+    <string name="message_discover_mi_band">Haylou belum diatur, sambungkan terlebih dahulu</string>
+    <string name="message_discovering_mi_band">Menyambungkan Haylou (mungkin memerlukan 1 menit) &#8230;</string>
+    <string name="message_discovered_mi_band">%1$s Tersambung</string>
+    <string name="message_discovered_no_mi_band">Haylou tidak ditemukan</string>
+    <string name="message_discovered_not_found_mi_band">Jika Haylou tidak ditemukan, nyalakan: Haylou Sport - Mainkan - tidak dapat ditemukan atau sandingkan perangkat di pengaturan Bluetooth</string>
+    <string name="message_enable_notification_listener_access">Aktifkan akses notifikasi: Pengaturan - Pemberitahuan - Akses notifikasi</string>
+    <string name="message_enable_notification_listener_access_4_4">Aktifkan akses notifikasi: Pengaturan - Keamanan - Akses notifikasi</string>
+    <string name="message_open_settings">Pengaturan</string>
+
+    <string name="message_deleted">Terhapus</string>
+    <string name="message_undo">Ulang</string>
+
+    <string name="message_app_chooser_no_selected">Pilih aplikasi</string>
+
+    <string name="message_notification_free_groups">Mode normal dapat menggunakan hingga %1$,d grup</string>
+    <string name="message_notification_free_app">Up to 1 application can be selected in normal mode</string>
+    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in normal mode</string>   <!-- %1$s = 2 or more  -->
+
+    <string name="message_notification_free_text">Up to 1 text can be recorded in normal mode</string>
+
+    <string name="message_time_alarm_mi_band_off">Alarm mati</string>
+
+    <string name="message_premium_mode_only">Fitur ini hanya tersedia di mode premium</string>
+    <string name="message_internet_error">Tidak ada koneksi internet</string>
+
+    <string name="message_no_data">No data available</string>
+
+    <string name="message_new_message">A new message is received, view it on the phone.</string>
+
+    <!-- Dialog -->
+    <string name="dialog_welcome_title">Selamat Datang!</string>
+    <string name="dialog_welcome_message"><![CDATA[Perangkat yang didukung:
+    <br>• <b>Haylou Solar (LS05)</b>
+    <br>• <b>Haylou Smart Watch 2 (LS02)</b>
+    <br>• <b>Haylou Smart Watch (LS01)</b>
+    <p>Hello Haylou requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
+    <p>Jika Haylou tidak terdeteksi, anda bisa mengatur alamat MAC secara manual pada menu rincian/lanjutan.</p>
+    <p><b>If you have a connection problem:</b>
+    <br>- Recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon).
+    <br>- Phone/battery optimization: set Mi Bandage app to not optimized.
+    <br>- Phone/apps: clear Bluetooth Share and other \'Bluetooth\' apps data.
+    ]]></string>
+
+
+    <!-- Notification Dialog -->
+    <string name="notification_group_nav_setting">Atur</string>
+    <string name="notification_group_nav_filter">Menyaring pemberitahuan</string>
+    <string name="notification_group_nav_correction">Correction</string>
+
+    <string name="notification_group_name">Nama</string>
+    <string name="notification_group_monitoring">Pemantau pemberitahuan</string>
+    <string name="notification_group_monitoring_disabled">Matikan pemberitahuan (sembunyikan pemberitahuan aplikasi)</string>
+    <string name="notification_group_text">Text display</string>
+    <string name="notification_group_alert_title">Tanda %1$s</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="notification_group_text_app_name">Nama aplikasi</string>
+    <string name="notification_group_text_name">Nama</string>
+    <string name="notification_group_text_title">Judul</string>
+    <string name="notification_group_text_content">Isi</string>
+    <string name="notification_group_text_big_content">Konten lengkap</string>
+    <string name="notification_group_text_content_slice_title">Text length</string>
+    <string name="notification_group_display_time_title">Waktu tampilan</string>
+    <string name="notification_group_display_notification_title">Display notification</string>
+    <string name="notification_group_immediate">Nyalakan tanda langsung ketika ada pemberitahuan masuk</string>
+    <string name="notification_group_connecting">Saat menyambungkan perangkat</string>
+    <string name="notification_group_reminder">Tanda pengingat</string>
+    <string name="notification_group_ongoing">Tanda pemberitahuan yang sedang berlangsung (permanen)</string>
+    <string name="notification_group_screen_off">Tanda saja ketika layar mati</string>
+    <string name="notification_group_repeat_title">Ulangi sinyal</string>
+    <string name="notification_group_wakelock">Hidupkan layar perangkat</string>
+    <string name="notification_group_grouped_display_title">Display setting for the group notifications</string>
+    <string name="notification_group_grouped_sort_order_title">Sort order for the group notifications</string>
+
+    <string name="notification_group_filter">Menyaring pemberitahuan</string>
+    <string name="notification_group_filter_title">Title filtering</string>
+    <string name="notification_group_filter_content">Content filtering</string>
+    <string name="notification_group_filter_regex">Regex</string>
+    <string name="notification_group_filter_hint">Tanda saja ketika ada pemberitahuan (case insensitive)</string>
+    <string name="notification_group_filter_contains">Berisi frase apapun</string>
+    <string name="notification_group_filter_not_contains">Tidak mengandung frase</string>
+
+    <string name="notification_group_sample_sms">SMS</string>
+    <string name="notification_group_sample_facebook">Messenger</string>
+    <string name="notification_group_sample_whatsapp">WhatsApp</string>
+
+    <string name="notification_group_correction">Text correction</string>
+    <string name="notification_group_correction_title">Title correction</string>
+    <string name="notification_group_correction_content">Content correction</string>
+    <string name="notification_group_correction_regex">Regex</string>
+    <string name="notification_group_correction_hint">Case insensitive</string>
+    <string name="notification_group_correction_items">Texts to be corrected</string>
+    <string name="notification_group_correction_find">Find</string>
+    <string name="notification_group_correction_replace">Replace with</string>
+
+    <string name="notification_regex_hint">Non-alphanumeric characters have a special meaning, if you don\'t know the Regex, do not tick it</string>
+
+    <string name="notification_confirm_close">Anda yakin ingin membuang perubahan?</string>
+
+    <string name="notification_edit_play_text_title">Notification title</string>
+    <string name="notification_edit_play_text_content">Notification content:
+    Lorem ipsum, atau ringkasnya lipsum, adalah teks standar yang ditempatkan untuk mendemostrasikan elemen grafis atau presentasi visual seperti font, tipografi, dan tata letak.
+        \n Maksud penggunaan lipsum adalah agar pengamat tidak terlalu berkonsentrasi kepada arti harfiah per kalimat, melainkan lebih kepada elemen desain dari teks yang dipresentasi.
+    </string>
+    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> Ikon: pilih ikon ini untuk menampilkan judul/konten pemberitahuan.]]></string>
+
+    <!-- MiBandageApp chooser dialog -->
+    <string name="app_chooser">Pemilih apl</string>
+    <string name="action_search">Cari</string>
+    <string name="action_filter_notification">Filter pemberitahuan</string>
+
+    <string name="touch_tab_control">Kontrol</string>
+
+    <!-- Theme -->
+    <string name="theme_tab_theme">Tema</string>
+
+    <string name="theme_title">Pilih tema</string>
+    <string name="theme_background_color_title">Warna latar belakang</string>
+
+    <string name="theme_widget_background_color_title">Warna</string>
+
+    <string name="theme_notification_title">Tampilkan status dipanel pemberitahuan</string>
+
+    <string name="theme_cat_color_setting">Color setting</string>
+
+
+    <!-- Premium mode -->
+    <string name="purchase_policy_title">Syarat dan ketentuan mode premium:</string>
+    <string name="purchase_policy"><![CDATA[
+        <p>• Saya telah menggunakan aplikasi ini, dan berjalan dengan baik.</p>
+        <p>• Saya sadar bahwa saya tidak dapat meminta kompensasi atau pengembalian karena bug, kesalahan perangkat lunak yang disebabkan oleh perubahan perangkat lunak, lingkungan perangkat keras atau penggunaan aplikasi lainnya.</p>
+        <p>• Semua penjualan bersifat final/selesai dan tidak dapat dikembalikan (kecuali kebijakan pengembalian Google).</p>
+        <p>• Garansi tidak disertakan.</p>
+        <p><i>Buka ulang aplikasi setelah pembelian.</i></p>
+    ]]></string>
+
+    <!--<string name="purchase_price">Harga:</string>-->
+    <string name="purchase_agree">Saya menyetujui syarat dan ketentuan.</string>
+    <string name="purchase_order_id">ID Pesanan</string>
+    <string name="purchase_order_id_help">Salin dari:
+        \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <string name="purchase_button_purchase">Beli</string>
+
+    <!-- Feedback -->
+    <string name="action_log_notification">Log</string>
+
+    <string name="feedback_google_play_title">Beri nilai aplikasi</string>
+    <string name="feedback_request_feature_title">Permintaan fitur, dan laporan bug</string>
+    <string name="feedback_request_feature_summary">Proses e-mail otomatis, Anda tidak akan mendapat respons</string>
+    <string name="feedback_translation_title">Hello Haylou translation</string>
+    <string name="feedback_translation_title_summary">Please help in translation</string>
+
+    <!-- Privacy policy -->
+    <string name="privacy_policy_tab_privacy_policy">Kebijakan Privasi</string>
+    <string name="privacy_policy_tab_eu_consent">EU user consent</string>
+
+    <string name="privacy_policy_collect_title">Information we collect</string>
+    <string name="privacy_policy_collect"><![CDATA[
+        <p>• We only collect anonymous information.</p>
+        <p>• We collect information at the application level about the services that you use and how you use them (Google Firebase Platform).</p>
+        <p>• We collect information at the application level like bugs, errors and crashes to provide improvements (Google Firebase Platform).</p>
+        <p>• Google Firebase Platform collects information anonymously. It reports trends without identifying individual users.</p>
+        • We do not share any data with other companies and organizations.
+    ]]></string>
+
+    <string name="privacy_policy_not_collect_title">Information we do not collect</string>
+    <string name="privacy_policy_not_collect"><![CDATA[
+        <p>• We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address, IP address or MAC address.</p>
+        • We do not collect personal health data, contacts and phone notification text.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">Privacy policy of third party service providers</string>
+    <string name="privacy_policy_links"><![CDATA[
+        <a href="https://policies.google.com/privacy">Google Play Services</a>
+        <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
+        <p><a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a></p>
+        <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
+    ]]></string>
+
+    <string name="privacy_policy_eu_consent_title">Status</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Personalized, relevant ads</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Non-personalized ads that are less relevant</string>
+    <string name="privacy_policy_eu_consent_title_unknown">Tidak dikenal</string>
+
+    <string name="privacy_policy_eu_consent_setting">Atur</string>
+
+
+    <!-- Custom vibration dialog -->
+    <string name="custom_vibration_title">Pengaturan getaran</string>
+
+
+    <!-- Others -->
+    <string name="ad_attribution">Ad</string>
+    <string name="on">Aktif</string>
+    <string name="off">Mati</string>
+    <string name="unknown">Tidak dikenal</string>
+    <string name="maximum">Maksimum</string>
+    <string name="default_">Default</string>
+
+    <string name="action_dismiss">Tutup</string>
+    <string name="action_setting">Atur</string>
+    <string name="action_delete">Hapus</string>
+    <string name="action_filter_no">Tidak ada filter</string>
+    <string name="action_save">Simpen</string>
+    <string name="action_test">Test</string>
+    <string name="action_discard">Hapus</string>
+    <string name="action_keep_editing">Simpan pengeditan</string>
+    <string name="action_new">New</string>
+    <string name="action_start_stop">Start/Stop</string>
+
+    <string name="required_value">Dibutuhkan</string>
+
+    <!-- Constante -->
+    <string name="const_time_abbreviation_day">h</string>
+    <string name="const_time_abbreviation_hour">j</string>
+    <string name="const_time_abbreviation_minute">m</string>
+
+    <string name="const_unit_dbm">dBm</string>
+
+    <plurals name="plural_time_hour">
+        <item quantity="zero">%d hour</item>
+        <item quantity="one">%d hour</item>
+        <item quantity="two">%d hours</item>
+        <item quantity="few">%d hours</item>
+        <item quantity="many">%d hours</item>
+        <item quantity="other">%d hours</item>
+    </plurals>
+
+    <plurals name="plural_time_minute">
+        <item quantity="zero">%d menit</item>
+        <item quantity="one">%d menit</item>
+        <item quantity="two">%d menit</item>
+        <item quantity="few">%d menit</item>
+        <item quantity="many">%d menit</item>
+        <item quantity="other">%d menit</item>
+    </plurals>
+
+    <plurals name="plural_time_second">
+        <item quantity="zero">%d detik</item>
+        <item quantity="one">%d detik</item>
+        <item quantity="two">%d detik</item>
+        <item quantity="few">%d detik</item>
+        <item quantity="many">%d detik</item>
+        <item quantity="other">%d detik</item>
+    </plurals>
+
+</resources>

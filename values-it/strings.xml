@@ -1,0 +1,344 @@
+<resources>
+    <string name="app_name">Hello Haylou</string>
+
+    <string name="menu_nav_home">Haylou</string>
+    <string name="menu_nav_notification">Notifiche</string>
+    <string name="menu_nav_call">Chiamata</string>
+    <string name="menu_nav_more">Di Più</string>
+    <string name="menu_nav_theme">Tema</string>
+    <string name="menu_nav_premium_mode">Modalità Premium</string>
+    <string name="menu_nav_feedback">Feedback</string>
+    <string name="menu_nav_privacy_policy">Norme sulla privacy</string>
+    <string name="menu_nav_settings" type="string">@string/settings_name</string>
+
+    <string name="setting_name">Impostazioni</string>
+    <string name="settings_name">Impostazioni</string>
+    <string name="info_name">Informazioni</string>
+
+<!--    <string name="mi_band_battery">Livello batteria・ultima ricarica・durata stimata rimanente</string>-->
+    <string name="device_battery">Livello batteria・ultima ricarica</string>
+    <string name="device_state_connected_disconnected_last_time">Potenza segnale・tempo dall\'ultima connessione e disconnessione</string>
+    <string name="device_mac_address">MAC address</string>
+
+    <string name="device_search">Haylou search</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="device_mac_address_invalid">MAC address non valido</string>
+
+    <string name="device_state_connected">Connessa</string>
+    <string name="device_state_disconnected">Disconnessa</string>
+    <string name="device_state_bonded">Dispositivo associato</string>
+    <string name="device_state_not_bonded">Dispositivo non associato</string>
+
+
+    <string name="pref_text_title">Icona con testi</string>
+    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
+    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
+    <string name="pref_text_emoticon_title">Converti emoji</string>
+    <string name="pref_text_emoticon_summary_on">Converti emoji in emoticon</string>
+    <string name="pref_text_uppercase_title">Converti maiuscole</string>
+    <string name="pref_text_uppercase_summary_on">Converti lettere minuscole in maiuscole</string>
+    <string name="pref_text_line_separator_title">Line separator replacement</string>
+    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
+    <string name="pref_text_line_separator_value_title">Replacement characters</string>
+
+    <!-- Battery -->
+    <string name="battery_details">Utilizzo batteria</string>
+
+    <string name="mi_band_battery_settings">Impostazioni batteria</string>
+    <string name="mi_band_battery_notification">Notifica basso livello batteria</string>
+    <string name="mi_band_battery_notification_level">Basso livello batteria</string>
+    <string name="mi_band_battery_notification_repeat_interval">Intervallo ripetizione</string>
+    <string name="mi_band_battery_notification_shade">Notifica sul telefono</string>
+    <string name="mi_band_battery_notification_shade_ongoing">Notifica persistente (continua)</string>
+    <string name="mi_band_battery_notification_shade_message">Livello batteria minore del %1$,d%%</string>
+    <string name="mi_band_battery_notification_mi_band">Notifica sul Band/Amazfit</string>
+    <string name="mi_band_battery_notification_mi_band_message">Batteria: %1$,d%%</string>
+
+    <!-- PreferenceScreen -->
+    <string name="pref_connected">Connessione</string>
+
+    <string name="pref_connected_have_notif_interval_title">Intervallo promemoria notifica</string>
+    <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
+
+    <string name="pref_cat_call">Ricezione chiamate</string>
+    <string name="pref_call_summary_on">Ricorda di disattivare la notifica per le chiamate ricevute dall\'app Haylou Sport</string>
+    <string name="pref_call_text_title">Mostra ID chiamante</string>
+
+    <string name="pref_call_notification_rejected">Mostra informazioni sulle chiamate rifiutate</string>
+    <string name="pref_call_notification_rejected_message">Chiamata rifiutata</string>
+    <string name="pref_call_notification_rejected_action">Chiamata</string>
+
+    <string name="pref_call_net_text_title">ID chiamante per chiamate voip</string>
+
+    <string name="pref_cat_call_missed">Chiamate perse</string>
+    <string name="pref_call_missed_title">Notifica chiamata persa</string>
+
+    <string name="pref_call_missed_alert_title">Notifica %1$s</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="pref_battery_phone">Batteria smartphone</string>
+    <string name="pref_battery_phone_summary">Notifiche per batteria scarica e carica</string>
+    <string name="pref_cat_battery_phone_low">Batteria scarica</string>
+    <string name="pref_battery_phone_low_title">Notifica batteria scarica</string>
+    <string name="pref_battery_phone_low_level_title">Batteria scarica</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">Intervallo ripetizione</string>
+    <string name="pref_cat_battery_phone_full">Batteria carica</string>
+    <string name="pref_battery_phone_full_title">Notifica batteria carica</string>
+    <string name="pref_battery_phone_full_plugged_ac">Sorgente di carica: caricatore AC</string>
+    <string name="pref_battery_phone_full_plugged_usb">Sorgente di carica: presa USB</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Sorgente di carica: wireless</string>
+
+    <string name="pref_battery_phone_message">Batteria smartphone:\n %1$,d%%</string>
+
+    <string name="pref_language">Lingua</string>
+    <string name="pref_cat_language">App</string>
+    <string name="pref_language_title">Lingua</string>
+
+    <!-- Snackbar Messages -->
+    <string name="message_enable_bluetooth">Per favore, attiva il Bluetooth e tieni vicino la Band</string>
+    <string name="message_discover_mi_band">Haylou non configurata, per favore esegui l\'accoppiamento</string>
+    <string name="message_discovering_mi_band">Ricerca Haylou (può richiedere 1 minuto) &#8230;</string>
+    <string name="message_discovered_mi_band">%1$s trovata</string>
+    <string name="message_discovered_no_mi_band">Haylou non trovata</string>
+    <string name="message_discovered_not_found_mi_band">Se la Haylou non viene trovata, attiva "Haylou Sport/Funzioni/Rilevabile" oppure effettua l\'accoppiamento nelle impostazioni Bluetooth</string>
+    <string name="message_enable_notification_listener_access">Abilita accesso notifiche: Impostazioni/Notifiche/Accesso notifiche</string>
+    <string name="message_enable_notification_listener_access_4_4">Abilita accesso notifiche: Impostazioni/Sicurezza/Accesso notifiche</string>
+    <string name="message_open_settings">Impostazioni</string>
+
+    <string name="message_deleted">Cancellato</string>
+    <string name="message_undo">Annulla</string>
+
+    <string name="message_app_chooser_no_selected">Scegli un\'applicazione</string>
+
+    <string name="message_notification_free_groups">In modalità free puoi settare al massimo %1$,d gruppi</string>
+    <string name="message_notification_free_app">Up to 1 application can be selected in normal mode</string>
+    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in normal mode</string>   <!-- %1$s = 2 or more  -->
+
+    <string name="message_notification_free_text">Up to 1 text can be recorded in normal mode</string>
+
+    <string name="message_time_alarm_mi_band_off">Disattiva sveglia</string>
+
+    <string name="message_premium_mode_only">Questa funzione è disponibile solo in versione premium</string>
+    <string name="message_internet_error">Manca connessione internet</string>
+
+    <string name="message_no_data">Nessun dato disponibile</string>
+
+    <string name="message_new_message">Hai ricevuto un nuovo messaggio, guardalo sul telefono.</string>
+
+    <!-- Dialog -->
+    <string name="dialog_welcome_title">Benvenuto!</string>
+    <string name="dialog_welcome_message"><![CDATA[Dispositivi supportati:
+    <br>• <b>Haylou Solar (LS05)</b>
+    <br>• <b>Haylou Smart Watch 2 (LS02)</b>
+    <br>• <b>Haylou Smart Watch (LS01)</b>
+    <p>Hello Haylou requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
+    <p>Se la Haylou non viene trovata, puoi impostare manualmente l\'indirizzo MAC dal menu dettagli.</p>
+    <p><b>Se hai un problema di connessione:</b>
+    <br>- Schermata app recenti: blocca Mi Bandage (pressione prolungata sull\'app e tocca l\'icona di blocco - lucchetto).
+    <br>- Ottimizzazioni telefono/batteria: imposta Mi Bandage come "non ottimizzata".
+    <br>- Telefono/app: cancella dati di Condivisione Bluetooth e altre app \'Bluetooth\' in generale.
+    ]]></string>
+
+
+    <!-- Notification Dialog -->
+    <string name="notification_group_nav_setting">Impostazioni</string>
+    <string name="notification_group_nav_filter">Filtra notifiche</string>
+    <string name="notification_group_nav_correction">Correzioni</string>
+
+    <string name="notification_group_name">Nome</string>
+    <string name="notification_group_monitoring">Abilita notifiche</string>
+    <string name="notification_group_monitoring_disabled">Disabilita notifiche (non mostrare le notifiche dell\'applicazioni)</string>
+    <string name="notification_group_text">Visualizza testi</string>
+    <string name="notification_group_alert_title">Notifica %1$s</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="notification_group_text_app_name">Nome dell\'applicazione</string>
+    <string name="notification_group_text_name">Nome</string>
+    <string name="notification_group_text_title">Titolo</string>
+    <string name="notification_group_text_content">Contenuto</string>
+    <string name="notification_group_text_big_content">Contenuto completo</string>
+    <string name="notification_group_text_content_slice_title">Lunghezza testo</string>
+    <string name="notification_group_display_time_title">Tempo di visualizzazione</string>
+    <string name="notification_group_display_notification_title">Visualizza notifica</string>
+    <string name="notification_group_immediate">Segnala immediatamente alla ricezione della notifica</string>
+    <string name="notification_group_connecting">Quando connesso al dispositivo</string>
+    <string name="notification_group_reminder">Promemoria notifica</string>
+    <string name="notification_group_ongoing">Segnala notifiche continue (permanenti)</string>
+    <string name="notification_group_screen_off">Notifica solo a schermo spento</string>
+    <string name="notification_group_repeat_title">Ripeti i segnali</string>
+    <string name="notification_group_wakelock">Attiva schermo dispositivo</string>
+    <string name="notification_group_grouped_display_title">Opzioni di visualizzazione delle notifiche raggruppate</string>
+    <string name="notification_group_grouped_sort_order_title">Ordinamento delle notifiche raggruppate</string>
+
+    <string name="notification_group_filter">Filtra notifiche</string>
+    <string name="notification_group_filter_title">Filtra titolo</string>
+    <string name="notification_group_filter_content">Filtra contenuto</string>
+    <string name="notification_group_filter_regex">Regex</string>
+    <string name="notification_group_filter_hint">Segnala solo quando il titolo o il contenuto della notifica (nessuna distinzione tra maiuscole e minuscole)</string>
+    <string name="notification_group_filter_contains">Contiene il testo:</string>
+    <string name="notification_group_filter_not_contains">Non contiene il testo:</string>
+
+    <string name="notification_group_sample_sms">SMS</string>
+    <string name="notification_group_sample_facebook">Messenger</string>
+    <string name="notification_group_sample_whatsapp">WhatsApp</string>
+
+    <string name="notification_group_correction">Correzione testo</string>
+    <string name="notification_group_correction_title">Correzione titolo</string>
+    <string name="notification_group_correction_content">Correzione contenuto</string>
+    <string name="notification_group_correction_regex">Regex</string>
+    <string name="notification_group_correction_hint">Nessuna distinzione tra maiuscole e minuscole</string>
+    <string name="notification_group_correction_items">Testo da correggere</string>
+    <string name="notification_group_correction_find">Cerca</string>
+    <string name="notification_group_correction_replace">Sostituisci con</string>
+
+    <string name="notification_regex_hint">I caratteri non-alfanumerici hanno un significato speciale; se non conosci il Regex, non modificare nulla!</string>
+
+    <string name="notification_confirm_close">Sei sicuro di voler annullare le modifiche?</string>
+
+   <string name="notification_edit_play_text_title">Titolo notifica</string>
+   <string name="notification_edit_play_text_content">Contenuto notifica:
+    Il lorem ipsum è un testo segnaposto utilizzato da grafici, designer, programmatori e tipografi come riempitivo per bozzetti e prove grafiche[1]. È un testo privo di senso, composto da parole (o parti di parole) in lingua latina, riprese pseudocasualmente da uno scritto di Cicerone del 45 a.C, a volte alterate con l\'inserzione di passaggi ironici.
+      \n La caratteristica principale è data dal fatto che offre una distribuzione delle lettere uniforme, apparendo come un normale blocco di testo leggibile.
+    </string>
+   <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> icona: scegli questa icona per mostrare il titolo delle notifiche/contentuto.]]></string>
+
+    <!-- MiBandageApp chooser dialog -->
+    <string name="app_chooser">Scegli App</string>
+    <string name="action_search">Cerca</string>
+    <string name="action_filter_notification">Filtra notifiche</string>
+
+    <string name="touch_tab_control">Controlli</string>
+
+
+    <!-- Theme -->
+    <string name="theme_tab_theme">Tema</string>
+
+    <string name="theme_title">Scegli un tema</string>
+    <string name="theme_background_color_title">Colore sfondo</string>
+
+    <string name="theme_widget_background_color_title">Colore</string>
+
+    <string name="theme_notification_title">Mostra stato app come notifica persistente</string>
+
+    <string name="theme_cat_color_setting">Color setting</string>
+
+
+    <!-- Premium mode -->
+    <string name="purchase_policy_title">Termini e condizioni della modalità Premium</string>
+    <string name="purchase_policy"><![CDATA[
+        <p>• Io ho testato l\'app e funziona correttamente.</p>
+        <p>• Sono consapevole che non posso richiedere un rimborso a causa di bug, errori software causati da modifiche al software e/o all\'hardware, o per l\'uso di altre applicazioni.</p>
+        <p>• Tutto il denaro speso è definitivo e non può venire rimborsato (tranne quando ricadono nelle casistiche coperte dalle politiche sul rimborso di Google).</p>
+        <p>• Nessuna garanzia è inclusa.</p>
+        <br><p><i>Dopo l\'acquisto bisogna riavviare l\'app.</i></p>
+    ]]></string>
+
+    <!--<string name="purchase_price">Prezzo:</string>-->
+    <string name="purchase_agree">Accetto i termini e le condizioni.</string>
+    <string name="purchase_order_id">ID Ordine</string>
+    <string name="purchase_order_id_help">Copia da:
+        \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <string name="purchase_button_purchase">Acquista</string>
+
+    <!-- Feedback -->
+    <string name="action_log_notification">Log</string>
+
+    <string name="feedback_google_play_title">Valuta l\'app</string>
+    <string name="feedback_request_feature_title">Richiesta funzionalità aggiuntive, segnalazione malfunzionamenti</string>
+    <string name="feedback_request_feature_summary">Processo con email automatica, non riceverai risposta</string>
+    <string name="feedback_translation_title">Traduzione Hello Haylou</string>
+    <string name="feedback_translation_title_summary">Aiutatemi a tradurre Mi Bandage!</string>
+
+    <!-- Privacy policy -->
+    <string name="privacy_policy_tab_privacy_policy">Norme sulla privacy</string>
+    <string name="privacy_policy_tab_eu_consent">Consenso utenti EU</string>
+
+    <string name="privacy_policy_collect_title">Raccolta Informazioni</string>
+    <string name="privacy_policy_collect"><![CDATA[
+        <p>• Raccogliamo solo informazioni anonime.</p>
+        <p>• Raccogliamo informazioni a livello applicazione, riguardo ai servizi che usi e come li usi (Piattaforma Google Firebase).</p>
+        <p>• Raccogliamo informazioni a livello applicazione come bug, errori e crash per permetterci di migliorare l\'app (Piattaforma Google Firebase).</p>
+        <p>• La piattaforma Google Firebase raccoglie informazioni anonime, creando report senza identificare gli utenti.</p>
+        • Non condividiamo nessun dato con altre compagnie e organizzazioni.
+    ]]></string>
+
+    <string name="privacy_policy_not_collect_title">Informazioni che non raccogliamo</string>
+    <string name="privacy_policy_not_collect"><![CDATA[
+        <p>• Non raccogliamo dati identificativi personali. In altre parole, non raccogliamo informazioni come il tuo nome, indirizzo, numero di telefono, email, indirizzo IP, o indirizzo MAC.</p>
+        • Non raccogliamo dati sulla salute, contatti e testi delle notifiche.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">Privacy policy di servizi forniti da terze parti</string>
+    <string name="privacy_policy_links"><![CDATA[
+        <a href="https://policies.google.com/privacy">Google Play Services</a>
+        <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
+        <p><a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a></p>
+        <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
+    ]]></string>
+
+    <string name="privacy_policy_eu_consent_title">Stato</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Pubblicità personalizzate, rilevanti</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Pubblicità non personalizzate, meno rilevanti</string>
+    <string name="privacy_policy_eu_consent_title_unknown">Sconosciuto</string>
+
+    <string name="privacy_policy_eu_consent_setting">Impostazioni</string>
+
+
+    <!-- Custom vibration dialog -->
+    <string name="custom_vibration_title">Impostazioni vibrazione</string>
+
+
+    <!-- Others -->
+    <string name="ad_attribution">Ad</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="unknown">Sconosciuto</string>
+    <string name="maximum">Max</string>
+    <string name="default_">Predefinito</string>
+
+    <string name="action_dismiss">Abbandona</string>
+    <string name="action_setting">Impostazioni</string>
+    <string name="action_delete">Cancella</string>
+    <string name="action_filter_no">Nessun filtro</string>
+    <string name="action_save">Salva</string>
+    <string name="action_test">Prova</string>
+    <string name="action_discard">Ignora</string>
+    <string name="action_keep_editing">Continua la modifica</string>
+    <string name="action_new">Nuovo</string>
+    <string name="action_start_stop">Inizia/Termina</string>
+
+    <string name="required_value">Richiesto</string>
+
+    <!-- Constante -->
+    <string name="const_time_abbreviation_day">g</string>
+    <string name="const_time_abbreviation_hour">o</string>
+    <string name="const_time_abbreviation_minute">m</string>
+
+    <string name="const_unit_dbm">dBm</string>
+
+    <plurals name="plural_time_hour">
+        <item quantity="zero">%d ore</item>
+        <item quantity="one">%d ora</item>
+        <item quantity="two">%d ore</item>
+        <item quantity="few">%d ore</item>
+        <item quantity="many">%d ore</item>
+        <item quantity="other">%d ore</item>
+    </plurals>
+
+    <plurals name="plural_time_minute">
+        <item quantity="zero">%d minuti</item>
+        <item quantity="one">%d minuto</item>
+        <item quantity="two">%d minuti</item>
+        <item quantity="few">%d minuti</item>
+        <item quantity="many">%d minuti</item>
+        <item quantity="other">%d minuti</item>
+    </plurals>
+
+    <plurals name="plural_time_second">
+        <item quantity="zero">%d secondi</item>
+        <item quantity="one">%d secondo</item>
+        <item quantity="two">%d secondi</item>
+        <item quantity="few">%d secondi</item>
+        <item quantity="many">%d secondi</item>
+        <item quantity="other">%d secondi</item>
+    </plurals>
+
+</resources>

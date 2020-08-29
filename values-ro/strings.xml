@@ -1,0 +1,342 @@
+<resources>
+    <string name="app_name">Hello Hayloue</string>
+
+    <string name="menu_nav_home">Haylou</string>
+    <string name="menu_nav_notification">Notificări</string>
+    <string name="menu_nav_call">Apel</string>
+    <string name="menu_nav_more">Mai Mult</string>
+    <string name="menu_nav_theme">Temă</string>
+    <string name="menu_nav_premium_mode">Mod premium</string>
+    <string name="menu_nav_feedback">Feedback</string>
+    <string name="menu_nav_privacy_policy">Politica de confidentialitate</string>
+    <string name="menu_nav_settings" type="string">@string/settings_name</string>
+
+    <string name="setting_name">Setare</string>
+    <string name="settings_name">Setări</string>
+    <string name="info_name">Informații</string>
+
+<!--    <string name="mi_band_battery">Nivelul bateriei・data ultimei încărcări・estimarea timpului rămas</string>-->
+    <string name="device_battery">Nivelul bateriei・data ultimei încărcări</string>
+    <string name="device_state_connected_disconnected_last_time">Data ultimei conectări și deconectări</string>
+    <string name="device_mac_address">Adresa MAC</string>
+
+    <string name="device_search">Haylou search</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="device_mac_address_invalid">Adresa MAC este invalidă</string>
+
+    <string name="device_state_connected">Conectat</string>
+    <string name="device_state_disconnected">Deconectat</string>
+    <string name="device_state_bonded">Dispozitiv împerecheat</string>
+    <string name="device_state_not_bonded">Dispozitiv neîmperecheat</string>
+
+
+    <string name="pref_text_title">Afișare text</string>
+    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
+    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
+    <string name="pref_text_emoticon_title">Conversie emoji</string>
+    <string name="pref_text_emoticon_summary_on">Convertește emoji în emoticon</string>
+    <string name="pref_text_uppercase_title">Conversie majuscule</string>
+    <string name="pref_text_uppercase_summary_on">Convertește litere mici în litere mari</string>
+    <string name="pref_text_line_separator_title">Line separator replacement</string>
+    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
+    <string name="pref_text_line_separator_value_title">Replacement characters</string>
+
+    <!-- Battery -->
+    <string name="battery_details">Utilizarea bateriei</string>
+
+    <string name="mi_band_battery_settings">Setări baterie</string>
+    <string name="mi_band_battery_notification">Notificare nivel scăzut baterie</string>
+    <string name="mi_band_battery_notification_level">Prag nivel baterie</string>
+    <string name="mi_band_battery_notification_repeat_interval">Interval repetare</string>
+    <string name="mi_band_battery_notification_shade">Anunță-mă pe telefon</string>
+    <string name="mi_band_battery_notification_shade_ongoing">Notificare persistentă (continuă)</string>
+    <string name="mi_band_battery_notification_shade_message">Nivelul bateriei este scăzut: %1$,d%%</string>
+    <string name="mi_band_battery_notification_mi_band">Anunță-mă pe brățară</string>
+    <string name="mi_band_battery_notification_mi_band_message">Baterie: %1$,d%%</string>
+
+    <!-- PreferenceScreen -->
+    <string name="pref_connected">Conexiune</string>
+
+    <string name="pref_connected_have_notif_interval_title">Interval repetare reamintiri</string>
+    <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
+
+    <string name="pref_cat_call">Apel primit</string>
+    <string name="pref_call_summary_on">Nu uita să dezactivezi alertele de apel primit în aplicația Haylou Sport</string>
+    <string name="pref_call_text_title">Afișează identitatea apelantului</string>
+
+    <string name="pref_call_notification_rejected">Show notification about rejected call</string>
+    <string name="pref_call_notification_rejected_message">Rejected call</string>
+    <string name="pref_call_notification_rejected_action">Call</string>
+
+    <string name="pref_call_net_text_title">Semnalul de apel primit pe Internet</string>
+
+    <string name="pref_cat_call_missed">Apel pierdut</string>
+    <string name="pref_call_missed_title">Semnal apel pierdut</string>
+
+    <string name="pref_call_missed_alert_title">Semnal %1$s</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="pref_battery_phone">Bateria telefonului</string>
+    <string name="pref_battery_phone_summary">Notificări nivel baterie scăzut și complet</string>
+    <string name="pref_cat_battery_phone_low">Nivel scăzut al bateriei</string>
+    <string name="pref_battery_phone_low_title">Notificare nivel scăzut al bateriei</string>
+    <string name="pref_battery_phone_low_level_title">Prag pentru nivelul bateriei</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">Interval repetare</string>
+    <string name="pref_cat_battery_phone_full">Nivel complet al bateriei</string>
+    <string name="pref_battery_phone_full_title">Notificare nivel complet al bateriei</string>
+    <string name="pref_battery_phone_full_plugged_ac">Sursă de alimentare AC</string>
+    <string name="pref_battery_phone_full_plugged_usb">Sursă de alimentare port USB</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Sursă de alimentare fără fir</string>
+
+    <string name="pref_battery_phone_message">Baterie telefon:\n %1$,d%%</string>
+
+    <string name="pref_language">Limbă</string>
+    <string name="pref_cat_language">Aplicație</string>
+    <string name="pref_language_title">Limbă</string>
+
+    <!-- Snackbar Messages -->
+    <string name="message_enable_bluetooth">Activează Bluetooth și adu brățara mai aproape de telefon</string>
+    <string name="message_discover_mi_band">Banda nu este setată, te rog fă-o detectabilă</string>
+    <string name="message_discovering_mi_band">Detectează brățara (poate dura un minut) &#8230;</string>
+    <string name="message_discovered_mi_band">Conectarea cu %1$s a reușit</string>
+    <string name="message_discovered_no_mi_band">Conectarea a eșuat</string>
+    <string name="message_discovered_not_found_mi_band">Dacă brățara nu a fost găsită, activează: Haylou Sport/ Play /Detectabil sau împerechează în setările Bluetooth ale telefonului</string>
+    <string name="message_enable_notification_listener_access">Activează accesul la notificări: Setări/ Notificări/ Acces notificare</string>
+    <string name="message_enable_notification_listener_access_4_4">Activează accesul la notificări: Setări/ Securitate/ Acces notificare</string>
+    <string name="message_open_settings">Setări</string>
+
+    <string name="message_deleted">Șters</string>
+    <string name="message_undo">Anulare modificări</string>
+
+    <string name="message_app_chooser_no_selected">Selectează o aplicație</string>
+
+    <string name="message_notification_free_groups">Se pot folosi până la %1$,d groupuri în modul normal</string>
+    <string name="message_notification_free_app">Up to 1 application can be selected in normal mode</string>
+    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in normal mode</string>   <!-- %1$s = 2 or more  -->
+
+    <string name="message_notification_free_text">Up to 1 text can be recorded in normal mode</string>
+
+    <string name="message_time_alarm_mi_band_off">Alarmă oprită</string>
+
+    <string name="message_premium_mode_only">Această funcție este disponibilă numai în modul premium</string>
+    <string name="message_internet_error">Lipsă conexiune la internet</string>
+
+    <string name="message_no_data">Nu sunt date disponibile</string>
+
+    <string name="message_new_message">Se primește un mesaj nou, vezi pe telefon.</string>
+
+    <!-- Dialog -->
+    <string name="dialog_welcome_title">Bun venit!</string>
+    <string name="dialog_welcome_message"><![CDATA[Dispozitive acceptate:
+    <br>• <b>Haylou Solar (LS05)</b>
+    <br>• <b>Haylou Smart Watch 2 (LS02)</b>
+    <br>• <b>Haylou Smart Watch (LS01)</b>
+    <p>Hello Haylou requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
+    <p>Dacă brățara nu este găsită, poți seta manual adresa MAC atunci când o detectezi.</p>
+    <p><b>Dacă ai probleme de conectare:</b>
+    <br>- Ecranul aplicațiilor recente: blochează Mi Bandage (trage în jos aplicația și apasă pe pictograma blocare).
+    <br>- Optimizarea telefonului/ bateriei: setează aplicația Mi Bandage pentru a nu fi optimizată.
+    <br>- Telefon/ aplicații: șterge datele aplicației Bluetooth Share și a altor aplicații \'Bluetooth\'.
+    </p>]]></string>
+
+    <!-- Notification Dialog -->
+    <string name="notification_group_nav_setting">Setări</string>
+    <string name="notification_group_nav_filter">Filtru</string>
+    <string name="notification_group_nav_correction">Corecție</string>
+
+    <string name="notification_group_name">Nume</string>
+    <string name="notification_group_monitoring">Monitorizare notificări</string>
+    <string name="notification_group_monitoring_disabled">Dezactivează notificările (nu se afișează notificările aplicației)</string>
+    <string name="notification_group_alert_title">Semnal %1$s</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="notification_group_text">Afișare text</string>
+    <string name="notification_group_text_app_name">Nume aplicație</string>
+    <string name="notification_group_text_name">Nume</string>
+    <string name="notification_group_text_title">Titlu</string>
+    <string name="notification_group_text_content">Conținut</string>
+    <string name="notification_group_text_big_content">Conținut complet</string>
+    <string name="notification_group_text_content_slice_title">Lungime text</string>
+    <string name="notification_group_display_time_title">Timp de afișare</string>
+    <string name="notification_group_display_notification_title">Display notification</string>
+    <string name="notification_group_immediate">Semnal imediat când este primită notificarea</string>
+    <string name="notification_group_connecting">Când se conectează la telefon</string>
+    <string name="notification_group_reminder">Semnal reamintire</string>
+    <string name="notification_group_ongoing">Semnal persistent de notificare (continuu)</string>
+    <string name="notification_group_screen_off">Semnal numai când ecranul este oprit</string>
+    <string name="notification_group_repeat_title">Repeată semnale</string>
+    <string name="notification_group_wakelock">Aprinde ecranul telefonului</string>
+    <string name="notification_group_grouped_display_title">Display setting for the group notifications</string>
+    <string name="notification_group_grouped_sort_order_title">Sort order for the group notifications</string>
+
+    <string name="notification_group_filter">Filtrează notificări</string>
+    <string name="notification_group_filter_title">Titlul filtrului</string>
+    <string name="notification_group_filter_content">Conținutul filtrului</string>
+    <string name="notification_group_filter_regex">Regex</string>
+    <string name="notification_group_filter_hint">Semnal numai atunci când titlul sau conținutul notificării (case insensitive)</string>
+    <string name="notification_group_filter_contains">Conține oricare din expresiile</string>
+    <string name="notification_group_filter_not_contains">Nu conține niciuna din expresiile</string>
+
+    <string name="notification_group_sample_sms">SMS</string>
+    <string name="notification_group_sample_facebook">Messenger</string>
+    <string name="notification_group_sample_whatsapp">WhatsApp</string>
+
+    <string name="notification_group_correction">Corectare text</string>
+    <string name="notification_group_correction_title">Corectare titlu</string>
+    <string name="notification_group_correction_content">Corectare conținut</string>
+    <string name="notification_group_correction_regex">Regex</string>
+    <string name="notification_group_correction_hint">Case insensitive</string>
+    <string name="notification_group_correction_items">Textul de corectat</string>
+    <string name="notification_group_correction_find">Caută</string>
+    <string name="notification_group_correction_replace">Înlocuiește cu</string>
+
+    <string name="notification_regex_hint">Caracterele non-alfanumerice au un înțeles special, dacă nu cunoști Regex-ul, nu îl bifa</string>
+
+    <string name="notification_confirm_close">Sigur dorești să renunți la modificări?</string>
+
+    <string name="notification_edit_play_text_title">Titlu notificări</string>
+    <string name="notification_edit_play_text_content">Conținutul notificării:
+    În publicarea și designul grafic, lorem ipsum este un text de umplutură sau un text folosit în mod obișnuit pentru a demonstra elementele textuale ale unui document grafic sau unei prezentări vizuale.
+         \ nÎnlocuirea conținutului semnificativ cu textul înlocuitor permite designerilor să proiecteze forma conținutului înainte ca conținutul în sine să fi fost produs.
+    </string>
+    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> pictogramă: alege această pictogramă pentru a afișa titlul/conținutul notificării.]]></string>
+
+    <!-- MiBandageApp chooser dialog -->
+    <string name="app_chooser">Selector de aplicații</string>
+    <string name="action_search">Căutare</string>
+    <string name="action_filter_notification">Filtru notificare</string>
+
+    <string name="touch_tab_control">Control</string>
+
+    <!-- Theme -->
+    <string name="theme_tab_theme">Teme</string>
+
+    <string name="theme_title">Selectează o temă</string>
+    <string name="theme_background_color_title">Culoare de fundal</string>
+
+    <string name="theme_widget_background_color_title">Culoare</string>
+
+    <string name="theme_notification_title">Afișează statusul în perdeaua de notificări</string>
+
+    <string name="theme_cat_color_setting">Color setting</string>
+
+
+    <!-- Premium mode -->
+    <string name="purchase_policy_title">Termeni și condiții pentru modul Premium</string>
+    <string name="purchase_policy"><![CDATA[
+        <p>• Am testat aplicația și funcționează corect.</p>
+        <p>• Sunt conștient de faptul că nu pot solicita despăgubiri sau restituiri datorate bug-urilor, erorilor cauzate de modificările software-ului, mediului hardware sau folosind alte aplicații.</p>
+        <p>• Toate vânzările sunt finale și nu pot fi restituite (cu excepția politicii de rambursare Google).</p>
+        <p>• Nu este inclusă nici o garanție.</p>
+        <br><p><i>După cumpărare, trebuie să repornești aplicația.</i></p>
+    ]]></string>
+
+    <!--<string name="purchase_price">Price:</string>-->
+    <string name="purchase_agree">Sunt de acord cu Termenii și condițiile.</string>
+    <string name="purchase_order_id">ID comandă</string>
+    <string name="purchase_order_id_help">Copiază din:
+        \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <string name="purchase_button_purchase">Cumpărare</string>
+
+    <!-- Feedback -->
+    <string name="action_log_notification">Jurnal</string>
+
+    <string name="feedback_google_play_title">Evaluează această aplicație</string>
+    <string name="feedback_request_feature_title">Solicitare de funcții, raport de erori</string>
+    <string name="feedback_request_feature_summary">Prelucrare automată a poștei electronice, este posibil să nu primiți un răspuns</string>
+    <string name="feedback_translation_title">Hello Haylou translation</string>
+    <string name="feedback_translation_title_summary">Please help in translation</string>
+
+    <!-- Privacy policy -->
+    <string name="privacy_policy_tab_privacy_policy">Politica de confidentialitate</string>
+    <string name="privacy_policy_tab_eu_consent">Consimțământul utilizatorilor UE</string>
+
+    <string name="privacy_policy_collect_title">Informațiile pe care le colectăm</string>
+    <string name="privacy_policy_collect"><![CDATA[
+        <p>• Colectăm doar informații anonime.</p>
+        <p>• Colectăm informații la nivelul aplicației cu privire la serviciile pe care le utilizezi și la modul în care le folosești (Platforma Google Firebase).</p>
+        <p>• Colectăm informații la nivel de aplicație cum ar fi bug-uri, erori și blocaje pentru a oferi îmbunătățiri (Platforma Google Firebase).</p>
+        <p>• Platforma Google Firebase colectează informații anonim. Aceasta raportează tendințele fără a identifica utilizatorii individuali.</p>
+        • Nu distribuim niciun fel de date altor companii și organizații.
+    ]]></string>
+
+    <string name="privacy_policy_not_collect_title">Informațiile pe care nu le colectăm</string>
+    <string name="privacy_policy_not_collect"><![CDATA[
+        <p>• Nu colectăm informații personale identificabile despre tine. Cu alte cuvinte, nu colectăm informații cum ar fi numele, adresa, numărul de telefon, adresa de e-mail, adresa IP sau adresa MAC.</p>
+        • Nu colectăm date despre sănătatea personală, contacte și textele de notificare de pe telefon.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">Privacy policy of third party service providers</string>
+    <string name="privacy_policy_links"><![CDATA[
+        <a href="https://policies.google.com/privacy">Google Play Services</a>
+        <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
+        <p><a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a></p>
+        <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
+    ]]></string>
+
+    <string name="privacy_policy_eu_consent_title">Status</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Anunțuri personalizate și relevante</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Anunțuri nepersonalizate și care sunt mai puțin relevante</string>
+    <string name="privacy_policy_eu_consent_title_unknown">Necunoscut</string>
+
+    <string name="privacy_policy_eu_consent_setting">Setări</string>
+
+
+    <!-- Custom vibration dialog -->
+    <string name="custom_vibration_title">Setări vibrații</string>
+
+
+    <!-- Others -->
+    <string name="ad_attribution">Ad</string>
+    <string name="on">Pornit</string>
+    <string name="off">Oprit</string>
+    <string name="unknown">Necunoscut</string>
+    <string name="maximum">Maxim</string>
+    <string name="default_">Implicit</string>
+
+    <string name="action_dismiss">Înlătură</string>
+    <string name="action_setting">Setări</string>
+    <string name="action_delete">Șterge</string>
+    <string name="action_filter_no">Niciun filtru</string>
+    <string name="action_save">Salvează</string>
+    <string name="action_test">Test</string>
+    <string name="action_discard">Renunță</string>
+    <string name="action_keep_editing">Editează în continuare</string>
+    <string name="action_new">New</string>
+    <string name="action_start_stop">Start/Stop</string>
+
+    <string name="required_value">Obligatoriu</string>
+
+    <!-- Constante -->
+    <string name="const_time_abbreviation_day">z</string>
+    <string name="const_time_abbreviation_hour">h</string>
+    <string name="const_time_abbreviation_minute">m</string>
+
+    <string name="const_unit_dbm">dBm</string>
+
+    <plurals name="plural_time_hour">
+        <item quantity="zero">%d ore</item>
+        <item quantity="one">%d oră</item>
+        <item quantity="two">%d ore</item>
+        <item quantity="few">%d ore</item>
+        <item quantity="many">%d ore</item>
+        <item quantity="other">%d ore</item>
+    </plurals>
+
+    <plurals name="plural_time_minute">
+        <item quantity="zero">%d minut</item>
+        <item quantity="one">%d minut</item>
+        <item quantity="two">%d minute</item>
+        <item quantity="few">%d minute</item>
+        <item quantity="many">%d minute</item>
+        <item quantity="other">%d minute</item>
+    </plurals>
+
+    <plurals name="plural_time_second">
+        <item quantity="zero">%d seconde</item>
+        <item quantity="one">%d secondă</item>
+        <item quantity="two">%d seconde</item>
+        <item quantity="few">%d seconde</item>
+        <item quantity="many">%d seconde</item>
+        <item quantity="other">%d seconde</item>
+    </plurals>
+
+</resources>

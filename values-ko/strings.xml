@@ -1,0 +1,343 @@
+<resources>
+    <string name="app_name">Hello Haylou</string>
+
+    <string name="menu_nav_home">Haylou</string>
+    <string name="menu_nav_notification">알림</string>
+    <string name="menu_nav_call">수신 전화 알림</string>
+    <string name="menu_nav_more">더</string>
+    <string name="menu_nav_theme">테마</string>
+    <string name="menu_nav_premium_mode">프리미엄 모드</string>
+    <string name="menu_nav_feedback">피드백</string>
+    <string name="menu_nav_privacy_policy">개인 정보 정책</string>
+    <string name="menu_nav_settings" type="string">@string/settings_name</string>
+
+    <string name="setting_name">설정</string>
+    <string name="settings_name">설정</string>
+    <string name="info_name">정보</string>
+
+<!--    <string name="mi_band_battery">배터리 잔량・마지막 충전 시간・예상 잔여 시간</string>-->
+    <string name="device_battery">배터리 잔량・마지막 충전 시간</string>
+    <string name="device_state_connected_disconnected_last_time">마지막 연결 및 연결 해제 시간</string>
+    <string name="device_mac_address">MAC 주소</string>
+
+    <string name="device_search">Haylou search</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="device_mac_address_invalid">MAC 주소가 유효하지 않음</string>
+
+    <string name="device_state_connected">연결됨</string>
+    <string name="device_state_disconnected">연결 해제됨</string>
+    <string name="device_state_bonded">페어링된 기기</string>
+    <string name="device_state_not_bonded">페어링되지 않은 기기</string>
+
+
+    <string name="pref_text_title">텍스트 표시</string>
+    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
+    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
+    <string name="pref_text_emoticon_title">이모지 변환</string>
+    <string name="pref_text_emoticon_summary_on">이모지를 이모티콘으로 변환</string>
+    <string name="pref_text_uppercase_title">대문자 변환</string>
+    <string name="pref_text_uppercase_summary_on">소문자를 대문자로 변환</string>
+    <string name="pref_text_line_separator_title">Line separator replacement</string>
+    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
+    <string name="pref_text_line_separator_value_title">Replacement characters</string>
+
+    <!-- Battery -->
+    <string name="battery_details">배터리 사용량</string>
+
+    <string name="mi_band_battery_settings">배터리 설정</string>
+    <string name="mi_band_battery_notification">배터리 부족 알림</string>
+    <string name="mi_band_battery_notification_level">배터리 부족을 알려줄 잔량</string>
+    <string name="mi_band_battery_notification_repeat_interval">반복 주기</string>
+    <string name="mi_band_battery_notification_shade">폰에 알려주기</string>
+    <string name="mi_band_battery_notification_shade_ongoing">Persistent (ongoing) notification</string>
+    <string name="mi_band_battery_notification_shade_message">배터리 부족: %1$,d%%</string>
+    <string name="mi_band_battery_notification_mi_band">팔찌에 알려주기</string>
+    <string name="mi_band_battery_notification_mi_band_message">배터리: %1$,d%%</string>
+
+    <!-- PreferenceScreen -->
+    <string name="pref_connected">연결</string>
+
+    <string name="pref_connected_have_notif_interval_title">Reminder repeat interval</string>
+    <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
+
+    <string name="pref_cat_call">수신 전화</string>
+    <string name="pref_call_summary_on">활성화 (반드시 Mi 피트 앱에서 수신 전화를 끄세요)</string>
+    <string name="pref_call_text_title">수신자 번호 표시</string>
+
+    <string name="pref_call_notification_rejected">거절된 전화에 대한 알림 표시</string>
+    <string name="pref_call_notification_rejected_message">거절된 전화</string>
+    <string name="pref_call_notification_rejected_action">전화</string>
+
+    <string name="pref_call_net_text_title">Incoming internet call 신호</string>
+
+    <string name="pref_cat_call_missed">부재중 전화</string>
+    <string name="pref_call_missed_title">부재중 전화 신호</string>
+
+    <string name="pref_call_missed_alert_title">%1$s 신호</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="pref_battery_phone">폰 배터리</string>
+    <string name="pref_battery_phone_summary">낮고 높은 배터리 잔량 알림</string>
+    <string name="pref_cat_battery_phone_low">배터리 부족</string>
+    <string name="pref_battery_phone_low_title">배터리 부족 알림</string>
+    <string name="pref_battery_phone_low_level_title">Battery level threshold</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">반복 주기</string>
+    <string name="pref_cat_battery_phone_full">배터리 완전 충전</string>
+    <string name="pref_battery_phone_full_title">배터리 완전 충전 알림</string>
+    <string name="pref_battery_phone_full_plugged_ac">AC 충전기 충전</string>
+    <string name="pref_battery_phone_full_plugged_usb">USB 포트 충전</string>
+    <string name="pref_battery_phone_full_plugged_wireless">무선 충전</string>
+
+    <string name="pref_battery_phone_message">폰 배터리:\n %1$,d%%</string>
+
+    <string name="pref_language">언어</string>
+    <string name="pref_cat_language">앱</string>
+    <string name="pref_language_title">언어</string>
+
+    <!-- Snackbar Messages -->
+    <string name="message_enable_bluetooth">블루투스를 활성화하고 밴드 기기를 폰에 가까이 가져와 주세요</string>
+    <string name="message_discover_mi_band">밴드가 설정되지 않았으므로, 그것을 찾아주세요</string>
+    <string name="message_discovering_mi_band">밴드 찾는 중 (1분이 소요될 수 있습니다) &#8230;</string>
+    <string name="message_discovered_mi_band">%1$s 연결 성공</string>
+    <string name="message_discovered_no_mi_band">밴드 연결 실패</string>
+    <string name="message_discovered_not_found_mi_band">밴드를 찾지 못한 경우, Mi 피트/Play/발견 가능을 활성화하거나 폰 블루투스 설정에서 페어링하세요</string>
+    <string name="message_enable_notification_listener_access">알림 접근 활성화: 설정/알림/알림 접근</string>
+    <string name="message_enable_notification_listener_access_4_4">알림 접근 활성화: 설정/보안/알림 접근</string>
+    <string name="message_open_settings">설정</string>
+
+    <string name="message_deleted">삭제됨</string>
+    <string name="message_undo">되돌리기</string>
+
+    <string name="message_app_chooser_no_selected">애플리케이션 선택</string>
+
+    <string name="message_notification_free_groups">일반 모드에서는 최대 %1$,d개의 그룹을 사용할 수 있습니다</string>
+    <string name="message_notification_free_app">Up to 1 application can be selected in normal mode</string>
+    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in normal mode</string>   <!-- %1$s = 2 or more  -->
+
+    <string name="message_notification_free_text">Up to 1 text can be recorded in normal mode</string>
+
+    <string name="message_time_alarm_mi_band_off">Alarm off</string>
+
+    <string name="message_premium_mode_only">이 기능은 프리미엄 모드에서만 사용 가능합니다</string>
+    <string name="message_internet_error">인터넷 연결 없음</string>
+
+    <string name="message_no_data">No data available</string>
+
+    <string name="message_new_message">A new message is received, view it on the phone.</string>
+
+    <!-- Dialog -->
+    <string name="dialog_welcome_title">환영합니다!</string>
+    <string name="dialog_welcome_message"><![CDATA[지원되는 기기:
+    <br>• <b>Haylou Solar (LS05)</b>
+    <br>• <b>Haylou Smart Watch 2 (LS02)</b>
+    <br>• <b>Haylou Smart Watch (LS01)</b>
+    <p>Hello Haylou requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
+    <p>If Haylou is not found, then you can set the MAC address manually when you discover.</p>
+    <p><b>If you have a 연결 problem:</b>
+    <br>- Recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon).
+    <br>- Phone/battery optimization: set Mi Bandage app to not optimized.
+    <br>- Phone/apps: clear Bluetooth Share and other \'Bluetooth\' apps data.
+]]></string>
+
+
+    <!-- Notification Dialog -->
+    <string name="notification_group_nav_setting">설정</string>
+    <string name="notification_group_nav_filter">필터</string>
+    <string name="notification_group_nav_correction">Correction</string>
+
+    <string name="notification_group_name">이름</string>
+    <string name="notification_group_monitoring">Monitoring notifications</string>
+    <string name="notification_group_monitoring_disabled">Disable notifications (do not show the 애플리케이션 notifications)</string>
+    <string name="notification_group_alert_title">%1$s 신호</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="notification_group_text">텍스트 표시</string>
+    <string name="notification_group_text_app_name">앱 이름</string>
+    <string name="notification_group_text_name">이름</string>
+    <string name="notification_group_text_title">제목</string>
+    <string name="notification_group_text_content">내용</string>
+    <string name="notification_group_text_big_content">전체 내용</string>
+    <string name="notification_group_text_content_slice_title">텍스트 길이</string>
+    <string name="notification_group_display_time_title">표시 시간</string>
+    <string name="notification_group_display_notification_title">알림 표시</string>
+    <string name="notification_group_immediate">Immediate 신호 when notification is received</string>
+    <string name="notification_group_connecting">When connecting to phone</string>
+    <string name="notification_group_reminder">리마인더 신호</string>
+    <string name="notification_group_ongoing">신호 persistent (ongoing) 알림</string>
+    <string name="notification_group_screen_off">화면이 꺼져있을 때에만 신호</string>
+    <string name="notification_group_repeat_title">신호 반복</string>
+    <string name="notification_group_wakelock">Wake up the phone screen</string>
+    <string name="notification_group_grouped_display_title">Display setting for the group notifications</string>
+    <string name="notification_group_grouped_sort_order_title">Sort order for the group notifications</string>
+
+    <string name="notification_group_filter">Filter notification</string>
+    <string name="notification_group_filter_title">Title filter</string>
+    <string name="notification_group_filter_content">Content filter</string>
+    <string name="notification_group_filter_regex">정규 표현식</string>
+    <string name="notification_group_filter_hint">신호 only when the title or content of the notification (case insensitive)</string>
+    <string name="notification_group_filter_contains">Contains any phrases</string>
+    <string name="notification_group_filter_not_contains">Contains none phrases</string>
+
+    <string name="notification_group_sample_sms">SMS</string>
+    <string name="notification_group_sample_facebook">Messenger</string>
+    <string name="notification_group_sample_whatsapp">WhatsApp</string>
+
+    <string name="notification_group_correction">Text correction</string>
+    <string name="notification_group_correction_title">Title correction</string>
+    <string name="notification_group_correction_content">Content correction</string>
+    <string name="notification_group_correction_regex">정규표현식</string>
+    <string name="notification_group_correction_hint">Case insensitive</string>
+    <string name="notification_group_correction_items">Texts to be corrected</string>
+    <string name="notification_group_correction_find">Find</string>
+    <string name="notification_group_correction_replace">Replace with</string>
+
+    <string name="notification_regex_hint">알파벳이나 숫자가 아닌 문자들은 특별한 의미를 가지고 있으므로, 정규표현식을 알지 못하는 경우, 작동시키지 마세요</string>
+
+    <string name="notification_confirm_close">Are you sure you want to discard the changes?</string>
+
+    <string name="notification_edit_play_text_title">Notification title</string>
+    <string name="notification_edit_play_text_content">Notification content:
+    In publishing and graphic design, lorem ipsum is a filler text or greeking commonly used to demonstrate the textual elements of a graphic document or visual presentation.
+        \nReplacing meaningful content with placeholder text allows designers to design the form of the content before the content itself has been produced.
+    </string>
+    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> icon: choose this icon to show the notifications title/content.]]></string>
+
+    <!-- MiBandageApp chooser dialog -->
+    <string name="app_chooser">앱 선택기</string>
+    <string name="action_search">검색</string>
+    <string name="action_filter_notification">알림 필터</string>
+
+    <string name="touch_tab_control">제어</string>
+
+
+    <!-- Theme -->
+    <string name="theme_tab_theme">테마</string>
+
+    <string name="theme_title">테마 선택</string>
+    <string name="theme_background_color_title">배경 색</string>
+
+    <string name="theme_widget_background_color_title">색</string>
+
+    <string name="theme_notification_title">Show status in notification shade</string>
+
+    <string name="theme_cat_color_setting">Color setting</string>
+
+
+    <!-- Premium mode -->
+    <string name="purchase_policy_title">프리미엄 모드 이용 약관</string>
+    <string name="purchase_policy"><![CDATA[
+        <p>• 저는 앱의 작동을 확인하였으며 그것은 적절히 작동하고 있습니다. (I have tested the app and it is working properly.)</p>
+        <p>• 저는 제가 버그, 소프트웨어의 변경으로 인한 소프트웨어 오류, 하드웨어 환경 또는 다른 애플리케이션 사용으로 인한 배상이나 환불을 요구할 수 없다는 것을 알고 있습니다. (I am aware of that I can not require compensation or refund due to bugs, software errors caused by changes in the software, hardware environment or using other 애플리케이션s.</p>
+        <p>• 모든 판매는 최종적이며 환불될 수 없습니다(Google 환불 정책 제외). (All sales are final and can not be refund (except Google refund policy).)</p>
+        <p>• 보장이 포함되어 있지 않습니다. (There is no warranty included.)</p>
+        <br><p><i>구매 후에는 앱을 다시 시작해야 합니다.</i></p>
+    ]]></string>
+
+    <!--<string name="purchase_price">Price:</string>-->
+    <string name="purchase_agree">이용 약관에 동의합니다.</string>
+    <string name="purchase_order_id">주문 ID</string>
+    <string name="purchase_order_id_help">아래에서 복사하세요:
+        \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <string name="purchase_button_purchase">구매</string>
+
+    <!-- Feedback -->
+    <string name="action_log_notification">기록</string>
+
+    <string name="feedback_google_play_title">이 앱 평가하기</string>
+    <string name="feedback_request_feature_title">기능 요청, 버그 제보</string>
+    <string name="feedback_request_feature_summary">자동 이메일 처리, 응답을 받지 못할 수 있습니다</string>
+    <string name="feedback_translation_title">Hello Haylou translation</string>
+    <string name="feedback_translation_title_summary">Please help in translation</string>
+
+    <!-- Privacy policy -->
+    <string name="privacy_policy_tab_privacy_policy">개인 정보 정책</string>
+    <string name="privacy_policy_tab_eu_consent">유럽 사용자 동의</string>
+
+    <string name="privacy_policy_collect_title">수집하는 정보</string>
+    <string name="privacy_policy_collect"><![CDATA[
+        <p>• 저희는 익명 정보만 수집합니다.</p>
+        <p>• 저희는 애플리케이션 레벨에서 당신이 사용하는 서비스와 그것들을 어떻게 사용하는 지에 대한 정보를 수집합니다 (Google Firebase Platform).</p>
+        <p>• 저희는 개선을 제공하기 위해 애플리케이션 레벨에서 버그, 오류 및 크래쉬와 같은 정보를 수집합니다 (Google Firebase Platform).</p>
+        <p>• Google Firebase Platform collects information anonymously. It reports trends without identifying individual users.</p>
+        • We do not share any data with other companies and organizations.
+    ]]></string>
+
+    <string name="privacy_policy_not_collect_title">수집하지 않는 정보</string>
+    <string name="privacy_policy_not_collect"><![CDATA[
+        <p>• We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address, IP address or MAC address.</p>
+        • We do not collect personal health data, contacts and phone notification text.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">Privacy policy of third party service providers</string>
+    <string name="privacy_policy_links"><![CDATA[
+        <a href="https://policies.google.com/privacy">Google Play Services</a>
+        <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
+        <p><a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a></p>
+        <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
+    ]]></string>
+
+    <string name="privacy_policy_eu_consent_title">상태</string>
+    <string name="privacy_policy_eu_consent_title_personalized">개인화된, 관련있는 광고</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">관련성이 적은 개인화되지 않은 광고</string>
+    <string name="privacy_policy_eu_consent_title_unknown">알 수 없음</string>
+
+    <string name="privacy_policy_eu_consent_setting">설정</string>
+
+
+    <!-- Custom vibration dialog -->
+    <string name="custom_vibration_title">진동 설정</string>
+
+
+    <!-- Others -->
+    <string name="ad_attribution">Ad</string>
+    <string name="on">활성화</string>
+    <string name="off">비활성화</string>
+    <string name="unknown">알 수 없음</string>
+    <string name="maximum">최대</string>
+    <string name="default_">기본</string>
+
+    <string name="action_dismiss">닫기</string>
+    <string name="action_setting">설정</string>
+    <string name="action_delete">삭제</string>
+    <string name="action_filter_no">필터 없음</string>
+    <string name="action_save">저장</string>
+    <string name="action_test">작동 확인</string>
+    <string name="action_discard">수정 취소</string>
+    <string name="action_keep_editing">수정 계속하기</string>
+    <string name="action_new">New</string>
+    <string name="action_start_stop">Start/Stop</string>
+
+    <string name="required_value">요구사항</string>
+
+    <!-- Constante -->
+    <string name="const_time_abbreviation_day">d</string>
+    <string name="const_time_abbreviation_hour">h</string>
+    <string name="const_time_abbreviation_minute">m</string>
+
+    <string name="const_unit_dbm">dBm</string>
+
+    <plurals name="plural_time_hour">
+        <item quantity="zero">%d시간</item>
+        <item quantity="one">%d시간</item>
+        <item quantity="two">%d시간</item>
+        <item quantity="few">%d시간</item>
+        <item quantity="many">%d시간</item>
+        <item quantity="other">%d시간</item>
+    </plurals>
+
+    <plurals name="plural_time_minute">
+        <item quantity="zero">%d분</item>
+        <item quantity="one">%d분</item>
+        <item quantity="two">%d분</item>
+        <item quantity="few">%d분</item>
+        <item quantity="many">%d분</item>
+        <item quantity="other">%d분</item>
+    </plurals>
+
+    <plurals name="plural_time_second">
+        <item quantity="zero">%d초</item>
+        <item quantity="one">%d초</item>
+        <item quantity="two">%d초</item>
+        <item quantity="few">%d초</item>
+        <item quantity="many">%d초</item>
+        <item quantity="other">%d초</item>
+    </plurals>
+</resources>

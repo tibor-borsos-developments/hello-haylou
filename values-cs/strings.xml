@@ -1,0 +1,340 @@
+<resources>
+    <string name="app_name">Hello Haylou</string>
+
+    <string name="menu_nav_home">Haylou</string>
+    <string name="menu_nav_notification">Oznámení</string>
+    <string name="menu_nav_call">Hovor</string>
+    <string name="menu_nav_more">Více</string>
+    <string name="menu_nav_theme">Styly</string>
+    <string name="menu_nav_premium_mode">Prémiový režim</string>
+    <string name="menu_nav_feedback">Zpětná vazba</string>
+    <string name="menu_nav_privacy_policy">Zásady ochrany soukromí</string>
+    <string name="menu_nav_settings" type="string">@string/settings_name</string>
+
+    <string name="setting_name">Nastavení</string>
+    <string name="settings_name">Nastavení</string>
+    <string name="info_name">Informace</string>
+
+<!--    <string name="mi_band_battery">Úroveň baterie・čas nabíjení・odhadovaný zbývající čas</string>-->
+    <string name="device_battery">Úroveň baterie・čas nabíjení</string>
+    <string name="device_state_connected_disconnected_last_time">Poslední čas připojení a odpojení</string>
+    <string name="device_mac_address">MAC adresa</string>
+
+    <string name="device_search">Haylou search</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="device_mac_address_invalid">MAC adresa je neplatná</string>
+
+    <string name="device_state_connected">Připojeno</string>
+    <string name="device_state_disconnected">Odpojeno</string>
+    <string name="device_state_bonded">Spárované zařízení</string>
+    <string name="device_state_not_bonded">Není spárováno zařízení</string>
+
+
+    <string name="pref_text_title">Textové ikony</string>
+    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
+    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
+    <string name="pref_text_emoticon_title">Převod smajlíků</string>
+    <string name="pref_text_emoticon_summary_on">Převod znaků na emotikony</string>
+    <string name="pref_text_uppercase_title">Konverze velkých písmen</string>
+    <string name="pref_text_uppercase_summary_on">Převod malých písmen na velká písmena</string>
+    <string name="pref_text_line_separator_title">Line separator replacement</string>
+    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
+    <string name="pref_text_line_separator_value_title">Replacement characters</string>
+
+    <!-- Battery -->
+    <string name="battery_details">Detaily baterie</string>
+
+    <string name="mi_band_battery_settings">Nastavení baterie</string>
+    <string name="mi_band_battery_notification">Oznámení nízké úrovně baterie</string>
+    <string name="mi_band_battery_notification_level">Nastavení hodnoty nízké úrovně baterie</string>
+    <string name="mi_band_battery_notification_repeat_interval">Interval opakování</string>
+    <string name="mi_band_battery_notification_shade">Upozornění na zařízení</string>
+    <string name="mi_band_battery_notification_shade_ongoing">Trvalé (probihající) upozornění</string>
+    <string name="mi_band_battery_notification_shade_message">Úroveň baterie je nižší než %1$,d%%</string>
+    <string name="mi_band_battery_notification_mi_band">Upozornění na náramku</string>
+    <string name="mi_band_battery_notification_mi_band_message">Baterie: %1$,d%%</string>
+
+    <!-- PreferenceScreen -->
+    <string name="pref_connected">Připojení</string>
+
+    <string name="pref_connected_have_notif_interval_title">Interval opakování připomenutí</string>
+    <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
+
+    <string name="pref_cat_call">Příchozí hovor</string>
+    <string name="pref_call_summary_on">Nezapomeňte vypnout upozornění na příchozí volání v aplikaci Haylou Sport</string>
+    <string name="pref_call_text_title">Zobrazte ID volajícího</string>
+
+    <string name="pref_call_notification_rejected">Show notification about rejected call</string>
+    <string name="pref_call_notification_rejected_message">Rejected call</string>
+    <string name="pref_call_notification_rejected_action">Call</string>
+
+    <string name="pref_call_net_text_title">Oznámení příchozího internetového volání</string>
+
+    <string name="pref_cat_call_missed">Zmeškaný hovor</string>
+    <string name="pref_call_missed_title">Oznámení zmeškaného hovoru</string>
+
+    <string name="pref_call_missed_alert_title">Oznámení na %1$s</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="pref_battery_phone">Baterie zařízení</string>
+    <string name="pref_battery_phone_summary">Oznámení nabité a vybité baterie</string>
+    <string name="pref_cat_battery_phone_low">Nízká úroveň baterie</string>
+    <string name="pref_battery_phone_low_title">Oznámení při nízké úrovni baterie</string>
+    <string name="pref_battery_phone_low_level_title">Úroveň nabité baterie</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">Interval opakování oznámení</string>
+    <string name="pref_cat_battery_phone_full">Nabitá baterie</string>
+    <string name="pref_battery_phone_full_title">Oznámení plně nabité baterie</string>
+    <string name="pref_battery_phone_full_plugged_ac">Nabíječka</string>
+    <string name="pref_battery_phone_full_plugged_usb">USB port</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Bezdrátový zdroj napětí</string>
+
+    <string name="pref_battery_phone_message">Baterie zařízení:\n %1$,d%%</string>
+
+    <string name="pref_language">Jazyk</string>
+    <string name="pref_cat_language">Aplikace</string>
+    <string name="pref_language_title">Jazyk</string>
+
+    <!-- Snackbar Messages -->
+    <string name="message_enable_bluetooth">Prosím aktivujte Bluetooth a dejte náramek blíž k telefonu</string>
+    <string name="message_discover_mi_band">Náramek není nastaven, prosím vyhledejte ho</string>
+    <string name="message_discovering_mi_band">Hledání náramku (může trvat pár minut) &#8230;</string>
+    <string name="message_discovered_mi_band">%1$s připojen</string>
+    <string name="message_discovered_no_mi_band">Připojení náramku selhalo</string>
+    <string name="message_discovered_not_found_mi_band">Pokud nebyl náramek nalezen, zapněte: Haylou Sport/Play/Objevte nebo spárujte náramek s Bluetooth Vašeho zařízení</string>
+    <string name="message_enable_notification_listener_access">Povolte přístup k oznámení: Nastavení/oznámení/přístup k oznámení</string>
+    <string name="message_enable_notification_listener_access_4_4">Povolte přístup k oznámení: Nastavení/zabezpečení/přístup k oznámení</string>
+    <string name="message_open_settings">Nastavení</string>
+
+    <string name="message_deleted">Vymazat</string>
+    <string name="message_undo">Vrátit</string>
+
+    <string name="message_app_chooser_no_selected">Vyberte aplikaci</string>
+
+    <string name="message_notification_free_groups">V normálním režimu lze použít až %1$,d skupin</string>
+    <string name="message_notification_free_app">Up to 1 application can be selected in normal mode</string>
+    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in normal mode</string>   <!-- %1$s = 2 or more  -->
+
+    <string name="message_notification_free_text">Up to 1 text can be recorded in normal mode</string>
+
+    <string name="message_time_alarm_mi_band_off">Budík vypnut</string>
+
+    <string name="message_premium_mode_only">Tato funkce je k dispozici pouze v prémiovém režimu</string>
+    <string name="message_internet_error">Nemáte připojení k internetu</string>
+
+    <string name="message_no_data">Žádné údaje nejsou k dispozici</string>
+
+    <string name="message_new_message">Přišla nová zpráva, zobrazte ji na telefonu.</string>
+
+    <!-- Dialog -->
+    <string name="dialog_welcome_title">Vítejte!</string>
+    <string name="dialog_welcome_message"><![CDATA[Podporovaná zařízení:
+    <br>• <b>Haylou Solar (LS05)</b>
+    <br>• <b>Haylou Smart Watch 2 (LS02)</b>
+    <br>• <b>Haylou Smart Watch (LS01)</b>
+    <p>Hello Haylou requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
+    <p>Pokud není nalezen chytrý náramek, můžete nastavit MAC adresu ručně v nabídce podrobností.</p>
+    <p><b>Pokud máte problém s připojením, postupujte dle instrukcí uvedených níže:</b>
+    <br>- Obrazovka přehledu aplikací (recent apps screen): Uzavřete aplikaci Mi Bandage (přetáhněte směrem pryč z obrazovky, nebo klikněte na ikonu křížku).
+    <br>- Nastavení/baterie/optimalizace výdrže baterie: zvolte aplikaci Mi Bandage a vyberte neoptimalizovat.
+    <br>- Nastavení/aplikace: vymažte data aplikace Sdílení Bluetooth a ostatních Bluetooth aplikací.
+    ]]></string>
+
+    <!-- Notification Dialog -->
+    <string name="notification_group_nav_setting">Nastavení</string>
+    <string name="notification_group_nav_filter">Filtrování oznámení</string>
+    <string name="notification_group_nav_correction">Correction</string>
+
+    <string name="notification_group_name">Jméno</string>
+    <string name="notification_group_monitoring">Zobrazování oznámení</string>
+    <string name="notification_group_monitoring_disabled">Zakázat oznámení (nezobrazovat oznámení aplikací)</string>
+    <string name="notification_group_alert_title">Oznámení na %1$s</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="notification_group_text">Text obrazovky</string>
+    <string name="notification_group_text_app_name">Název aplikace</string>
+    <string name="notification_group_text_name">Jméno</string>
+    <string name="notification_group_text_title">Název</string>
+    <string name="notification_group_text_content">Obsah</string>
+    <string name="notification_group_text_big_content">Celý obsah</string>
+    <string name="notification_group_text_content_slice_title">Délka textu</string>
+    <string name="notification_group_display_time_title">Čas zobrazení</string>
+    <string name="notification_group_display_notification_title">Display notification</string>
+    <string name="notification_group_immediate">Okamžité oznámení při přijetí notifikace</string>
+    <string name="notification_group_connecting">Při připojení k zařízení</string>
+    <string name="notification_group_reminder">Připomenutí oznámení</string>
+    <string name="notification_group_ongoing">Probíhající (trvalé) oznámení notifikací</string>
+    <string name="notification_group_screen_off">Oznámení pouze tehdy, když je obrazovka vypnutá</string>
+    <string name="notification_group_repeat_title">Opakujte signály</string>
+    <string name="notification_group_wakelock">Probudit obrazovku zařízení</string>
+    <string name="notification_group_grouped_display_title">Display setting for the group notifications</string>
+    <string name="notification_group_grouped_sort_order_title">Sort order for the group notifications</string>
+
+    <string name="notification_group_filter">Filtrování oznámení</string>
+    <string name="notification_group_filter_title">Název filtru</string>
+    <string name="notification_group_filter_content">Obsah filtru</string>
+    <string name="notification_group_filter_regex">Regex</string>
+    <string name="notification_group_filter_hint">Oznámení pouze v případě, že název nebo obsah oznámení(malá a velká písmena)</string>
+    <string name="notification_group_filter_contains">Obsahuje fráze</string>
+    <string name="notification_group_filter_not_contains">Neobsahuje fráze</string>
+
+    <string name="notification_group_sample_sms">SMS</string>
+    <string name="notification_group_sample_facebook">Messenger</string>
+    <string name="notification_group_sample_whatsapp">WhatsApp</string>
+
+    <string name="notification_group_correction">Text correction</string>
+    <string name="notification_group_correction_title">Title correction</string>
+    <string name="notification_group_correction_content">Content correction</string>
+    <string name="notification_group_correction_regex">Regex</string>
+    <string name="notification_group_correction_hint">Case insensitive</string>
+    <string name="notification_group_correction_items">Texts to be corrected</string>
+    <string name="notification_group_correction_find">Find</string>
+    <string name="notification_group_correction_replace">Replace with</string>
+
+    <string name="notification_regex_hint">Non-alphanumeric characters have a special meaning, if you don\'t know the Regex, do not tick it</string>
+
+    <string name="notification_confirm_close">Opravdu chcete změny vyřadit?</string>
+
+    <string name="notification_edit_play_text_title">Název oznámení</string>
+    <string name="notification_edit_play_text_content">Obsah oznámení:
+    Lorem ipsum (zkráceně lipsum) je označení pro standardní pseudolatinský text užívaný v grafickém designu a navrhování jako demonstrativní výplňový text při vytváření pracovních ukázek grafických návrhů (např. fontů nebo rozvržení časopisů či HTML stránek).
+        \nLipsum tak pracovně znázorňuje text v ukázkových maketách (tzv. mock-up) předtím, než bude do hotového návrhu vložen smysluplný obsah.
+    </string>
+    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> ikona: Tuto ikonu vyberte, abyste zobrazili název oznámení/obsah.]]></string>
+
+    <!-- MiBandageApp chooser dialog -->
+    <string name="app_chooser">Výběr aplikace</string>
+    <string name="action_search">Vyhledávání</string>
+    <string name="action_filter_notification">Filtr oznámení</string>
+
+    <string name="touch_tab_control">Ovládání</string>
+
+    <!-- Theme -->
+    <string name="theme_tab_theme">Styly</string>
+
+    <string name="theme_title">Vyberte styl</string>
+    <string name="theme_background_color_title">Barva pozadí</string>
+
+    <string name="theme_widget_background_color_title">Barva</string>
+
+    <string name="theme_notification_title">Zobrazit stav v notifikační liště</string>
+
+    <string name="theme_cat_color_setting">Color setting</string>
+
+
+    <!-- Premium mode -->
+    <string name="purchase_policy_title">Smluvní podmínky prémiového režimu</string>
+    <string name="purchase_policy"><![CDATA[
+        <p>• Zkoušel jsem aplikaci a pracuje správně.</p>
+        <p>• Jsem si vědom, že nemohu požadovat náhradu nebo vrácení peněz kvůli chybám, softwarovým chybám způsobeným změnami softwaru, hardwarovým prostředím nebo použitím jiných aplikací.</p>
+        <p>• Všechny tržby jsou konečné a nelze je vrátit (s výjimkou zásad pro vrácení peněz Google).</p>
+        <p>• Neexistuje žádná záruka.</p>
+        <br><p><i>Po zakoupení musíte restartovat aplikaci.</i></p>
+    ]]></string>
+
+    <!--<string name="purchase_price">Cena:</string>-->
+    <string name="purchase_agree">Souhlasím s podmínkami.</string>
+    <string name="purchase_order_id">číslo objednávky</string>
+    <string name="purchase_order_id_help">Kopírovat z:
+        \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <string name="purchase_button_purchase">Koupit</string>
+
+    <!-- Feedback -->
+    <string name="action_log_notification">Log</string>
+
+    <string name="feedback_google_play_title">Ohodnoťte tuto aplikaci</string>
+    <string name="feedback_request_feature_title">Požadavek na funkci, hlášení o chybě</string>
+    <string name="feedback_request_feature_summary">Automatické zpracování e-mailu, nemusíte dostat odpověď</string>
+    <string name="feedback_translation_title">Hello Haylou translation</string>
+    <string name="feedback_translation_title_summary">Please help in translation</string>
+
+    <!-- Privacy policy -->
+    <string name="privacy_policy_tab_privacy_policy">Zásady ochrany soukromí</string>
+    <string name="privacy_policy_tab_eu_consent">EU user consent</string>
+
+    <string name="privacy_policy_collect_title">Information we collect</string>
+    <string name="privacy_policy_collect"><![CDATA[
+        <p>• We only collect anonymous information.</p>
+        <p>• We collect information at the application level about the services that you use and how you use them (Google Firebase Platform).</p>
+        <p>• We collect information at the application level like bugs, errors and crashes to provide improvements (Google Firebase Platform).</p>
+        <p>• Google Firebase Platform collects information anonymously. It reports trends without identifying individual users.</p>
+        • We do not share any data with other companies and organizations.
+    ]]></string>
+
+    <string name="privacy_policy_not_collect_title">Information we do not collect</string>
+    <string name="privacy_policy_not_collect"><![CDATA[
+        <p>• We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address, IP address or MAC address.</p>
+        • We do not collect personal health data, contacts and phone notification text.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">Privacy policy of third party service providers</string>
+    <string name="privacy_policy_links"><![CDATA[
+        <a href="https://policies.google.com/privacy">Google Play Services</a>
+        <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
+        <p><a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a></p>
+        <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
+    ]]></string>
+
+    <string name="privacy_policy_eu_consent_title">Status</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Personalized, relevant ads</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Non-personalized ads that are less relevant</string>
+    <string name="privacy_policy_eu_consent_title_unknown">Neznámý</string>
+
+    <string name="privacy_policy_eu_consent_setting">Nastavení</string>
+
+    <!-- Custom vibration dialog -->
+    <string name="custom_vibration_title">Nastavení vibraci</string>
+
+    <!-- Others -->
+    <string name="ad_attribution">Ad</string>
+    <string name="on">Zapnuto</string>
+    <string name="off">Vypnuto</string>
+    <string name="unknown">Neznámý</string>
+    <string name="maximum">Maximum</string>
+    <string name="default_">Default</string>
+
+    <string name="action_dismiss">Odmítnout</string>
+    <string name="action_setting">Nastavení</string>
+    <string name="action_delete">Vymazat</string>
+    <string name="action_filter_no">Žádný filtr</string>
+    <string name="action_save">Uložit</string>
+    <string name="action_test">Test</string>
+    <string name="action_discard">Zahodit</string>
+    <string name="action_keep_editing">Dále upravovat</string>
+    <string name="action_new">New</string>
+    <string name="action_start_stop">Start/Stop</string>
+
+    <string name="required_value">Požadováno</string>
+
+    <!-- Constante -->
+    <string name="const_time_abbreviation_day">d</string>
+    <string name="const_time_abbreviation_hour">h</string>
+    <string name="const_time_abbreviation_minute">m</string>
+
+    <string name="const_unit_dbm">dBm</string>
+
+    <plurals name="plural_time_hour">
+        <item quantity="zero">%d hodin</item>
+        <item quantity="one">%d hodina</item>
+        <item quantity="two">%d hodiny</item>
+        <item quantity="few">%d hodin</item>
+        <item quantity="many">%d hodin</item>
+        <item quantity="other">%d hodina</item>
+    </plurals>
+
+    <plurals name="plural_time_minute">
+        <item quantity="zero">%d minut</item>
+        <item quantity="one">%d minuta</item>
+        <item quantity="two">%d minuty</item>
+        <item quantity="few">%d minut</item>
+        <item quantity="many">%d minut</item>
+        <item quantity="other">%d minut</item>
+    </plurals>
+
+    <plurals name="plural_time_second">
+        <item quantity="zero">%d sekund</item>
+        <item quantity="one">%d sekunda</item>
+        <item quantity="two">%d sekundy</item>
+        <item quantity="few">%d sekund</item>
+        <item quantity="many">%d sekund</item>
+        <item quantity="other">%d sekund</item>
+    </plurals>
+
+</resources>

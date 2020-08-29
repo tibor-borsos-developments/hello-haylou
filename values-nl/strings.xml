@@ -1,0 +1,345 @@
+﻿<resources>
+    <string name="app_name">Hello Haylou</string>
+
+    <string name="menu_nav_home">Haylou</string>
+    <string name="menu_nav_notification">Melding</string>
+    <string name="menu_nav_call">Bellen</string>
+    <string name="menu_nav_more">Meer</string>
+    <string name="menu_nav_theme">Thema</string>
+    <string name="menu_nav_premium_mode">Premium mode</string>
+    <string name="menu_nav_feedback">Terugkoppeling</string>
+    <string name="menu_nav_privacy_policy">Privacybeleid</string>
+    <string name="menu_nav_settings" type="string">@string/settings_name</string>
+
+    <string name="setting_name">Instellingen</string>
+    <string name="settings_name">Instellingen</string>
+    <string name="info_name">Informatie</string>
+
+<!--    <string name="mi_band_battery">Batterij niveau・vorige laadtijd・geschatte resterende tijd</string>-->
+    <string name="device_battery">Batterij niveau・vorige laadtijd</string>
+    <string name="device_state_connected_disconnected_last_time">Vorige verbonden  en niet verbonden tijd</string>
+    <string name="device_mac_address">MAC adres</string>
+
+    <string name="device_search">Haylou search</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="device_mac_address_invalid">MAC adres is onjuist</string>
+
+    <string name="device_state_connected">Verbonden</string>
+    <string name="device_state_disconnected">Niet verbonden</string>
+    <string name="device_state_bonded">Gekoppeld Apparaat</string>
+    <string name="device_state_not_bonded">Niet gekoppeld Apparaat</string>
+
+
+    <string name="pref_text_title">Tekst scherm</string>
+    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
+    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
+    <string name="pref_text_emoticon_title">Emoji conversie</string>
+    <string name="pref_text_emoticon_summary_on">Converteer emoji naar emoticon</string>
+    <string name="pref_text_uppercase_title">Hoofdletter conversie</string>
+    <string name="pref_text_uppercase_summary_on">Converteer kleine letters naar Hoofdletters</string>
+    <string name="pref_text_line_separator_title">Line separator replacement</string>
+    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
+    <string name="pref_text_line_separator_value_title">Replacement characters</string>
+
+    <!-- Battery -->
+    <string name="battery_details">Energie verbruik</string>
+
+    <string name="mi_band_battery_settings">Batterij instellingen</string>
+    <string name="mi_band_battery_notification">Melding laag batterijniveau</string>
+    <string name="mi_band_battery_notification_level">Batterijniveau drempel</string>
+    <string name="mi_band_battery_notification_repeat_interval">Herhaal interval</string>
+    <string name="mi_band_battery_notification_shade">Meldingen op telefoon</string>
+    <string name="mi_band_battery_notification_shade_ongoing">Aanhoudende meldingen</string>
+    <string name="mi_band_battery_notification_shade_message">Laag Batterijniveau: %1$,d%%</string>
+    <string name="mi_band_battery_notification_mi_band">Berichten op armband</string>
+    <string name="mi_band_battery_notification_mi_band_message">Batterij: %1$,d%%</string>
+
+    <!-- PreferenceScreen -->
+    <string name="pref_connected">Verbinding</string>
+
+    <string name="pref_connected_have_notif_interval_title">Herinnering interval herhaling</string>
+    <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
+
+    <string name="pref_cat_call">Binnenkomend gesprek</string>
+    <string name="pref_call_summary_on">Vergeet niet om waarschuwingen voor inkomende oproepen uit te schakelen op de Haylou Sport app</string>
+    <string name="pref_call_text_title">Toon beller ID</string>
+
+    <string name="pref_call_notification_rejected">Show notification about rejected call</string>
+    <string name="pref_call_notification_rejected_message">Rejected call</string>
+    <string name="pref_call_notification_rejected_action">Call</string>
+
+    <string name="pref_call_net_text_title">Inkomend internet oproep signaal</string>
+
+    <string name="pref_cat_call_missed">Gemiste oproep</string>
+    <string name="pref_call_missed_title">Gemiste oproep signaal</string>
+
+    <string name="pref_call_missed_alert_title">%1$s signal</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="pref_battery_phone">Telefoonbatterij</string>
+    <string name="pref_battery_phone_summary">Meldingen leeg en vol van het batterijniveau</string>
+    <string name="pref_cat_battery_phone_low">Laag batterijniveau</string>
+    <string name="pref_battery_phone_low_title">Laag batterijniveau melding</string>
+    <string name="pref_battery_phone_low_level_title">Batterijniveau drempel</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">Interval herhaling</string>
+    <string name="pref_cat_battery_phone_full">Vol batterijniveau</string>
+    <string name="pref_battery_phone_full_title">Vol batterijniveau melding</string>
+    <string name="pref_battery_phone_full_plugged_ac">AC Voedingsbron</string>
+    <string name="pref_battery_phone_full_plugged_usb">Voedingsbron USB poort</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Draadloze voedingsbron</string>
+
+    <string name="pref_battery_phone_message">Phone battery:\n %1$,d%%</string>
+
+    <string name="pref_language">Taal</string>
+    <string name="pref_cat_language">App</string>
+    <string name="pref_language_title">Taal</string>
+
+    <!-- Snackbar Messages -->
+    <string name="message_enable_bluetooth">Schakel Bluetooth in en zorg dat het Haylou apparaat en telefoon dicht bij elkaar zijn</string>
+    <string name="message_discover_mi_band">Haylou is niet ingesteld, zoek apparaat</string>
+    <string name="message_discovering_mi_band">Haylou zoeken (kan 1 minuut duren) &#8230;</string>
+    <string name="message_discovered_mi_band">%1$s verbinden met is gelukt</string>
+    <string name="message_discovered_no_mi_band">Haylou verbinden mislukt</string>
+    <string name="message_discovered_not_found_mi_band">Als Haylou niet is gevonden, schakel dan in: Haylou Sport/Play/Zoeken of koppel met de Bluetooth instellingen op de telefoon</string>
+    <string name="message_enable_notification_listener_access">Meldingstoegang inschakelen: Instellingen/Meldingen/Toegang tot meldingen</string>
+    <string name="message_enable_notification_listener_access_4_4">Meldingstoegang inschakelen: Instellingen/Beveiliging/Toegang tot meldingen</string>
+    <string name="message_open_settings">Instellingen</string>
+
+    <string name="message_deleted">Verwijderd</string>
+    <string name="message_undo">Ongedaan maken</string>
+
+    <string name="message_app_chooser_no_selected">Selecteer een applicatie</string>
+
+    <string name="message_notification_free_groups">Up to %1$,d groepen kunnen worden gebruikt in Normale modus</string>
+    <string name="message_notification_free_app">Up to 1 application can be selected in normal mode</string>
+    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in normal mode</string>   <!-- %1$s = 2 or more  -->
+
+    <string name="message_notification_free_text">Up to 1 text can be recorded in normal mode</string>
+
+    <string name="message_time_alarm_mi_band_off">Alarm uit</string>
+
+    <string name="message_premium_mode_only">Deze functie is alleen beschikbaar in premium modus</string>
+    <string name="message_internet_error">Geen internetverbinding</string>
+
+    <string name="message_no_data">Geen gegevens beschikbaar</string>
+
+    <string name="message_new_message">Nieuw bericht ontvangen, bekijk het op de telefoon.</string>
+
+    <!-- Dialog -->
+    <string name="dialog_welcome_title">Welkom!</string>
+    <string name="dialog_welcome_message"><![CDATA[Ondersteunde apparaten:
+    <br>• <b>Haylou Solar (LS05)</b>
+    <br>• <b>Haylou Smart Watch 2 (LS02)</b>
+    <br>• <b>Haylou Smart Watch (LS01)</b>
+    <p>Hello Haylou requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
+    <p>Als Haylou niet wordt gevonden kunt u het MAC-adres handmatig instellen, kijk hier.</p>
+    <p><b>Bij verbindingsproblemen:</b>
+    <br>- Vorige app scherm: vergrendel de Mi Bandage (klik op de app en klik op het vergrendelpictogram).
+    <br>- Telefoon/batterij optimalisatie: stel Mi Bandage app in op niet geoptimaliseerd.
+    <br>- Telefoon/apps: \"Bluetooth delen\" en \"Bluetooth\app gegevens\" wissen.
+    ]]></string>
+
+
+    <!-- Notification Dialog -->
+    <string name="notification_group_nav_setting">Instellingen</string>
+    <string name="notification_group_nav_filter">Filter</string>
+    <string name="notification_group_nav_correction">Wijzigen</string>
+
+    <string name="notification_group_name">Naam</string>
+    <string name="notification_group_monitoring">Meldingen volgen</string>
+    <string name="notification_group_monitoring_disabled">Meldingen uitschakelen (laat de app meldingen niet zien)</string>
+    <string name="notification_group_alert_title">%1$s signal</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="notification_group_text">Tekst scherm</string>
+    <string name="notification_group_text_app_name">App naam</string>
+    <string name="notification_group_text_name">Naam</string>
+    <string name="notification_group_text_title">Titel</string>
+    <string name="notification_group_text_content">Content</string>
+    <string name="notification_group_text_big_content">Full content</string>
+    <string name="notification_group_text_content_slice_title">De tekstlengte</string>
+    <string name="notification_group_display_time_title">Tijd weergeven</string>
+    <string name="notification_group_display_notification_title">Display notification</string>
+    <string name="notification_group_immediate">Als melding is ontvangen, direct signaal</string>
+    <string name="notification_group_connecting">bij het verbinden met de telefoon</string>
+    <string name="notification_group_reminder">Herinnering signaal</string>
+    <string name="notification_group_ongoing">Aanhoudend signaal bij continue meldingen</string>
+    <string name="notification_group_screen_off">Alleen signaal als het scherm uit staat</string>
+    <string name="notification_group_repeat_title">Herhaal signalen</string>
+    <string name="notification_group_wakelock">Tonen telefoonscherm</string>
+    <string name="notification_group_grouped_display_title">Display setting for the group notifications</string>
+    <string name="notification_group_grouped_sort_order_title">Sort order for the group notifications</string>
+
+    <string name="notification_group_filter">Meldings Filter</string>
+    <string name="notification_group_filter_title">Titel filter</string>
+    <string name="notification_group_filter_content">Inhoud filter</string>
+    <string name="notification_group_filter_regex">Regex</string>
+    <string name="notification_group_filter_hint">Alleen signaal bij titel of inhoud van melding (niet hoofdletter gevoelig)</string>
+    <string name="notification_group_filter_contains">Bevat uitdrukkingen</string>
+    <string name="notification_group_filter_not_contains">Bevat geen uitdrukkingen</string>
+
+    <string name="notification_group_sample_sms">SMS</string>
+    <string name="notification_group_sample_facebook">Messenger</string>
+    <string name="notification_group_sample_whatsapp">WhatsApp</string>
+
+    <string name="notification_group_correction">Tekst correctie</string>
+    <string name="notification_group_correction_title">Titel correctie</string>
+    <string name="notification_group_correction_content">Inhoud correctie</string>
+    <string name="notification_group_correction_regex">Regex</string>
+    <string name="notification_group_correction_hint">Hoofdletter gevoelig</string>
+    <string name="notification_group_correction_items">Teksten die gecorrigeerd moeten worden</string>
+    <string name="notification_group_correction_find">Zoeken</string>
+    <string name="notification_group_correction_replace">Vervangen met</string>
+
+    <string name="notification_regex_hint">Niet alfanumerieke tekens hebben een speciale betekenis, als u de Regex niet kent, niet aanvinken</string>
+
+    <string name="notification_confirm_close">Weet je zeker dat je de wijzigingen wilt verwijderen?</string>
+
+    <string name="notification_edit_play_text_title">Meldingstitel</string>
+    <string name="notification_edit_play_text_content">Meldings inhoud:
+    Bij publicatie en grafisch ontwerpen is lorem ipsum een opvultekst van griekse tekst die vaak wordt gebruikt om de tekstuele elementen van een grafisch document of visuele presentatie te demonstreren.
+        \nDoor het tekstelement hiervan te voorzien kan de ontwerper vooraf het element alvast vormgeven voordat het daadwerklijke gebruikt word.
+    </string>
+    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> icon: Om de titel/inhoud van de melding te tonen activeer dit pictogram.]]></string>
+
+
+    <!-- MiBandageApp chooser dialog -->
+    <string name="app_chooser">App Kiezer</string>
+    <string name="action_search">Zoeken</string>
+    <string name="action_filter_notification">Meldings filter</string>
+
+    <string name="touch_tab_control">Beheren</string>
+
+
+    <!-- Theme -->
+    <string name="theme_tab_theme">Thema</string>
+
+    <string name="theme_title">Selecteer een thema</string>
+    <string name="theme_background_color_title">Achtergrond kleur</string>
+
+    <string name="theme_widget_background_color_title">Kleur</string>
+
+    <string name="theme_notification_title">Toon status in meldings balk</string>
+
+    <string name="theme_cat_color_setting">Color setting</string>
+
+
+    <!-- Premium mode -->
+    <string name="purchase_policy_title">Algemene voorwaarden van de Premium modus</string>
+    <string name="purchase_policy"><![CDATA[
+        <p>• Ik heb de app getest en deze werkt naar behoren.</p>
+        <p>• Ik ben me ervan bewust dat ik geen compensatie of terugbetaling kan eisen vanwege bugs, softwarefouten veroorzaakt door wijzigingen in de software, hardware omgeving of met behulp van andere applicaties.</p>
+        <p>• Alle aankopen zijn definitief en kunnen niet worden terugbetaald (met uitzondering van het restitutiebeleid van Google).</p>
+        <p>• Er is geen garantie inbegrepen.</p>
+        <br><p><i>Na aankoop moet je de app opnieuw opstarten.</i></p>
+    ]]></string>
+
+    <!--<string name="purchase_price">Prijs:</string>-->
+    <string name="purchase_agree">Ik ga akkoord met de algemene voorwaarden.</string>
+    <string name="purchase_order_id">Order ID</string>
+    <string name="purchase_order_id_help">Copie van:
+        \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <string name="purchase_button_purchase">Kopen</string>
+
+    <!-- Feedback -->
+    <string name="action_log_notification">Log</string>
+
+    <string name="feedback_google_play_title">Beoordeel dezes app</string>
+    <string name="feedback_request_feature_title">Functie aanvulling, bugrapport</string>
+    <string name="feedback_request_feature_summary">Automatische e-mailverwerking, u krijgt mogelijk geen reactie</string>
+    <string name="feedback_translation_title">Hello Haylou translation</string>
+    <string name="feedback_translation_title_summary">Please help in translation</string>
+
+    <!-- Privacy policy -->
+    <string name="privacy_policy_tab_privacy_policy">Privacybeleid</string>
+    <string name="privacy_policy_tab_eu_consent">EU toestemming van de gebruiker</string>
+
+    <string name="privacy_policy_collect_title">Informatie die we verzamelen</string>
+    <string name="privacy_policy_collect"><![CDATA[
+        <p>• We verzamelen alleen anonieme informatie.</p>
+        <p>• We verzamelen informatie op applicatieniveau over de services die u gebruikt en hoe u ze gebruikt (Google Firebase Platform).</p>
+        <p>• We verzamelen informatie op applicatieniveau zoals bugs, fouten en crashes om verbeteringen aan te brengen (Google Firebase Platform).</p>
+        <p>• Google Firebase Platform verzamelt informatie anoniem. Het rapporteert trends zonder individuele gebruikers te identificeren.</p>
+        • We delen geen gegevens met andere bedrijven en organisaties.
+    ]]></string>
+
+    <string name="privacy_policy_not_collect_title">Informatie die we niet verzamelen</string>
+    <string name="privacy_policy_not_collect"><![CDATA[
+        <p>• We verzamelen geen persoonlijk identificeerbare informatie over u. Met andere woorden, wij verzamelen geen informatie zoals uw naam, adres, telefoonnummer, e-mailadres, IP-adres of MAC-adres.</p>
+        • We verzamelen geen persoonlijke gezondheidsgegevens, contacten en telefonische meldingsteksten.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">Privacy policy of third party service providers</string>
+    <string name="privacy_policy_links"><![CDATA[
+        <a href="https://policies.google.com/privacy">Google Play Services</a>
+        <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
+        <p><a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a></p>
+        <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
+    ]]></string>
+
+    <string name="privacy_policy_eu_consent_title">Status</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Gepersonaliseerde relevante toevoegingen</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Niet gepersonaliseerde toevoegingen die minder belangrijk zijn</string>
+    <string name="privacy_policy_eu_consent_title_unknown">Onbekend</string>
+
+    <string name="privacy_policy_eu_consent_setting">Instellingen</string>
+
+
+    <!-- Custom vibration dialog -->
+    <string name="custom_vibration_title">Trilling instelling</string>
+
+
+    <!-- Others -->
+    <string name="ad_attribution">Ad</string>
+    <string name="on">Aan</string>
+    <string name="off">Uit</string>
+    <string name="unknown">Onbekend</string>
+    <string name="maximum">Maximaal</string>
+    <string name="default_">Standaard</string>
+
+    <string name="action_dismiss">Afwijzen</string>
+    <string name="action_setting">Instellingen</string>
+    <string name="action_delete">Verwijder</string>
+    <string name="action_filter_no">Geen filter</string>
+    <string name="action_save">Bewaar</string>
+    <string name="action_test">Test</string>
+    <string name="action_discard">Afwijzen</string>
+    <string name="action_keep_editing">Bewerking bewaren</string>
+    <string name="action_new">New</string>
+    <string name="action_start_stop">Start/Stop</string>
+
+    <string name="required_value">Benodigd</string>
+
+    <!-- Constante -->
+    <string name="const_time_abbreviation_day">d</string>
+    <string name="const_time_abbreviation_hour">u</string>
+    <string name="const_time_abbreviation_minute">m</string>
+
+    <string name="const_unit_dbm">dBm</string>
+
+    <plurals name="plural_time_hour">
+        <item quantity="zero">%d uur</item>
+        <item quantity="one">%d uur</item>
+        <item quantity="two">%d uren</item>
+        <item quantity="few">%d uur</item>
+        <item quantity="many">%d uren</item>
+        <item quantity="other">%d uren</item>
+    </plurals>
+
+    <plurals name="plural_time_minute">
+        <item quantity="zero">%d minuten</item>
+        <item quantity="one">%d minuut</item>
+        <item quantity="two">%d minuten</item>
+        <item quantity="few">%d minuten</item>
+        <item quantity="many">%d minuten</item>
+        <item quantity="other">%d minuten</item>
+    </plurals>
+
+    <plurals name="plural_time_second">
+        <item quantity="zero">%d seconden</item>
+        <item quantity="one">%d seconde</item>
+        <item quantity="two">%d seconden</item>
+        <item quantity="few">%d seconden</item>
+        <item quantity="many">%d seconden</item>
+        <item quantity="other">%d seconden</item>
+    </plurals>
+
+</resources>

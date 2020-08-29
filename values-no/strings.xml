@@ -1,0 +1,342 @@
+<resources>
+    <string name="app_name">Hello Haylou</string>
+
+    <string name="menu_nav_home">Haylou</string>
+    <string name="menu_nav_notification">Notifikasjon</string>
+    <string name="menu_nav_call">Anrop</string>
+    <string name="menu_nav_more">Mer</string>
+    <string name="menu_nav_theme">Stil</string>
+    <string name="menu_nav_premium_mode">Premium modus</string>
+    <string name="menu_nav_feedback">Tilbakemelding</string>
+    <string name="menu_nav_privacy_policy">Personvern policy</string>
+    <string name="menu_nav_settings" type="string">@string/settings_name</string>
+
+    <string name="setting_name">Instilling</string>
+    <string name="settings_name">Instillinger</string>
+    <string name="info_name">Informasjon</string>
+
+<!--    <string name="mi_band_battery">Batteri-level・siste lade tid・beregnet gjenværende tid</string>-->
+    <string name="device_battery">Batteri-level・siste lade tid</string>
+    <string name="device_state_connected_disconnected_last_time">Siste tilkoblings og frakoblings-tid</string>
+    <string name="device_mac_address">MAC address</string>
+
+    <string name="device_search">Haylou search</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="device_mac_address_invalid">MAC-addressen er ubrukelig</string>
+
+    <string name="device_state_connected">Tilkoblet</string>
+    <string name="device_state_disconnected">Frakoblet</string>
+    <string name="device_state_bonded">Parret enhet</string>
+    <string name="device_state_not_bonded">Ikke parret enhet</string>
+
+
+    <string name="pref_text_title">Text utseende</string>
+    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
+    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
+    <string name="pref_text_emoticon_title">Emoji Konvertering</string>
+    <string name="pref_text_emoticon_summary_on">Konvertere emoji til emoticon</string>
+    <string name="pref_text_uppercase_title">Blokkbokstav Konverteringer</string>
+    <string name="pref_text_uppercase_summary_on">Konvertere småbokstaver til blokkbokstaver</string>
+    <string name="pref_text_line_separator_title">Line separator replacement</string>
+    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
+    <string name="pref_text_line_separator_value_title">Replacement characters</string>
+
+    <!-- Battery -->
+    <string name="battery_details">Batteri detaljer</string>
+
+    <string name="mi_band_battery_settings">Batteri-instilling</string>
+    <string name="mi_band_battery_notification">Lavt batteri-level notifikasjon</string>
+    <string name="mi_band_battery_notification_level">Igjenværende atteri-level</string>
+    <string name="mi_band_battery_notification_repeat_interval">Repetere interval</string>
+    <string name="mi_band_battery_notification_shade">Notifiser på telefonen</string>
+    <string name="mi_band_battery_notification_shade_ongoing">Vedværende (pågående) notifikasjon</string>
+    <string name="mi_band_battery_notification_shade_message">Batteri-level er lavere enn %1$,d%%</string>
+    <string name="mi_band_battery_notification_mi_band">Notifiser på armklokka</string>
+    <string name="mi_band_battery_notification_mi_band_message">Batteri: %1$,d%%</string>
+
+    <!-- Skjerm-instilling -->
+    <string name="pref_connected">Tilkobling</string>
+
+    <string name="pref_connected_have_notif_interval_title">Påminnelse gjentakelses-interval</string>
+    <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
+
+    <string name="pref_cat_call">Inkommende anrop</string>
+    <string name="pref_call_summary_on">Ikke glem å skru av inkommende anrops-varsler på Haylou Sport appen</string>
+    <string name="pref_call_text_title">Vis alle anrops-IDer</string>
+
+    <string name="pref_call_notification_rejected">Show notification about rejected call</string>
+    <string name="pref_call_notification_rejected_message">Rejected call</string>
+    <string name="pref_call_notification_rejected_action">Call</string>
+
+    <string name="pref_call_net_text_title">Inkommende internett-anrop signal</string>
+
+    <string name="pref_cat_call_missed">Tapt anrop</string>
+    <string name="pref_call_missed_title">Tapt anrop signal</string>
+
+    <string name="pref_call_missed_alert_title">%1$s-signal</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="pref_battery_phone">Telefon batteri</string>
+    <string name="pref_battery_phone_summary">Lavt og fullt batteri level-notifikasjon</string>
+    <string name="pref_cat_battery_phone_low">Lavt batteri-level</string>
+    <string name="pref_battery_phone_low_title">Lavt batteri-notifikasjon</string>
+    <string name="pref_battery_phone_low_level_title">Batteri level avstand</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">Gjentagelses-intervall</string>
+    <string name="pref_cat_battery_phone_full">Fullt batteryi level</string>
+    <string name="pref_battery_phone_full_title">Fullt batteri-notifikasjon</string>
+    <string name="pref_battery_phone_full_plugged_ac">AC lader strøm adapter</string>
+    <string name="pref_battery_phone_full_plugged_usb">USB strøm uttak</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Trådløs strøm mottak</string>
+
+    <string name="pref_battery_phone_message">Telefon batteri:\n %1$,d%%</string>
+
+    <string name="pref_language">Språk</string>
+    <string name="pref_cat_language">App</string>
+    <string name="pref_language_title">Språk</string>
+
+    <!-- Snackbar Meldinger -->
+    <string name="message_enable_bluetooth">Venligst aktivere Bluetooth og hold Bandet nærmere telefonen</string>
+    <string name="message_discover_mi_band">Haylou er ikke funnet, søk etter det</string>
+    <string name="message_discovering_mi_band">Oppdager Haylou (det kan kanskje ta 1 minutt) &#8230;</string>
+    <string name="message_discovered_mi_band">%1$s tilkobling suksess</string>
+    <string name="message_discovered_no_mi_band">Haylou tilkobling feilet</string>
+    <string name="message_discovered_not_found_mi_band">Hvis Banded ikke er funnet, skru på: Haylou Sport/Play/Oppdag tilgjengelighet eller parre på telefonens Bluetooth instilling</string>
+    <string name="message_enable_notification_listener_access">Aktivere notifikasjon rilgang: Instillinger/Notifikasjoner/Notifikasjon tilgang</string>
+    <string name="message_enable_notification_listener_access_4_4">Aktiver notifikasjon tilgang: Instillinger/Sikkerhet/Notifikasjon tilgang</string>
+    <string name="message_open_settings">Instillinger</string>
+
+    <string name="message_deleted">Slettet</string>
+    <string name="message_undo">Angre</string>
+
+    <string name="message_app_chooser_no_selected">Velg en applikasjon</string>
+
+    <string name="message_notification_free_groups">Opp til %1$,d grupper kan bli brukt i normal modus</string>
+    <string name="message_notification_free_app">Up to 1 application can be selected in normal mode</string>
+    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in normal mode</string>   <!-- %1$s = 2 or more  -->
+
+    <string name="message_notification_free_text">Up to 1 text can be recorded in normal mode</string>
+
+    <string name="message_time_alarm_mi_band_off">Alarm av</string>
+
+    <string name="message_premium_mode_only">Denne egenskapen er bare tilgjengelig i premium modusen</string>
+    <string name="message_internet_error">IInternett feil</string>
+
+    <string name="message_no_data">Ingen data tilgjengelig</string>
+
+    <string name="message_new_message">En ny melding er motatt, se den på telefonen.</string>
+
+    <!-- Dialog -->
+    <string name="dialog_welcome_title">Velkommen!</string>
+    <string name="dialog_welcome_message"><![CDATA[Supportede enheter:
+    <br>• <b>Haylou Solar (LS05)</b>
+    <br>• <b>Haylou Smart Watch 2 (LS02)</b>
+    <br>• <b>Haylou Smart Watch (LS01)</b>
+    <p>Hello Haylou requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
+    <p>hvis Bandetvikke er funnet, da kan du sette MAC addressen manuelt når du utforsker.</p>
+    <p><b>hvis du har et tilkoblings problem:</b>
+    <br>- Seneste app-skjerm: lås Mi Bandage (skyv ned appen og trykk på lås ikonet).
+    <br>- Telefon/batteri optimalisering: sett Mi Bandage app til å ikke bli optimalisert.
+    <br>- Telefon/apper: rens Bluetooth Deling og andre \'Bluetooth\' app data.
+    ]]></string>
+
+
+    <!-- Notifikasjon Dialog -->
+    <string name="notification_group_nav_setting">Instillinger</string>
+    <string name="notification_group_nav_filter">Filter notifikasjon</string>
+    <string name="notification_group_nav_correction">Correction</string>
+
+    <string name="notification_group_name">Navn</string>
+    <string name="notification_group_monitoring">Monitorering notifikasjoner</string>
+    <string name="notification_group_monitoring_disabled">Deaktivert notifikasjoner (ikke vis applikasjon notifikasjoner)</string>
+    <string name="notification_group_alert_title">%1$s signal</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="notification_group_text">Vis Text</string>
+    <string name="notification_group_text_app_name">Programnavn</string>
+    <string name="notification_group_text_name">Navn</string>
+    <string name="notification_group_text_title">Tittel</string>
+    <string name="notification_group_text_content">Kontent</string>
+    <string name="notification_group_text_big_content">Full content</string>
+    <string name="notification_group_text_content_slice_title">Text lengde</string>
+    <string name="notification_group_display_time_title">Visningstid</string>
+    <string name="notification_group_display_notification_title">Display notification</string>
+    <string name="notification_group_immediate">Umiddelbart signal når notifikasjon er mottatt</string>
+    <string name="notification_group_connecting">Tilkobles til telefon</string>
+    <string name="notification_group_reminder">Påminnelse av signal</string>
+    <string name="notification_group_ongoing">Kjørende signal (ennå pågående) notifikasjoner</string>
+    <string name="notification_group_screen_off">Signaler bare når skjermen er av</string>
+    <string name="notification_group_repeat_title">Gjenta signaler</string>
+    <string name="notification_group_wakelock">Vekke opp telefonens skjerm</string>
+    <string name="notification_group_grouped_display_title">Display setting for the group notifications</string>
+    <string name="notification_group_grouped_sort_order_title">Sort order for the group notifications</string>
+
+    <string name="notification_group_filter">Filter notifikasjon</string>
+    <string name="notification_group_filter_title">Tittel filter</string>
+    <string name="notification_group_filter_content">Kontent filter</string>
+    <string name="notification_group_filter_regex">Regex</string>
+    <string name="notification_group_filter_hint">Signaler bare når notifikasjon tittelen eller kontenten (ikke bokstav sensitiv)</string>
+    <string name="notification_group_filter_contains">Hver inneholder fraser</string>
+    <string name="notification_group_filter_not_contains">Inneholder ingen frase</string>
+
+    <string name="notification_group_sample_sms">SMS</string>
+    <string name="notification_group_sample_facebook">Messenger</string>
+    <string name="notification_group_sample_whatsapp">WhatsApp</string>
+
+    <string name="notification_group_correction">Tekst korreksjon</string>
+    <string name="notification_group_correction_title">Tittel på korreksjon</string>
+    <string name="notification_group_correction_content">innhold korreksjon</string>
+    <string name="notification_group_correction_regex">Regex</string>
+    <string name="notification_group_correction_hint">ikke bokstav sensitiv</string>
+    <string name="notification_group_correction_items">Tekst til å rette på</string>
+    <string name="notification_group_correction_find">Finn</string>
+    <string name="notification_group_correction_replace">Bytte med</string>
+
+    <string name="notification_regex_hint">Ikke-alphanumretiske karakterer har en spesiell betydning, hvis du ikke vet Regexen, ikke marker det</string>
+
+    <string name="notification_confirm_close">Er du sikker på at du vil kaste bort endringene?</string>
+
+    <string name="notification_edit_play_text_title">Notifikasjon tittel</string>
+    <string name="notification_edit_play_text_content">Notifikasjon kontent:
+    Ved publisering og grafisk design, lorem ipsum er en fyllende text eller greeking som vanligvis pleide å demonstrere de textuelle elementer av et grafisk dokument eller visuell presentasjon.
+        \n Erstatter meningsfull kontent med stedsholder-text muliggjør designere å designe formen av kontentet før kontentet selv har vært produsert.
+    </string>
+    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> icon: velg dette ikonet for å vise notifikasjonene tittel/kontent.]]></string>
+
+    <!-- MiBandage App-velger dialog -->
+    <string name="app_chooser">App-velger</string>
+    <string name="action_search">Søk</string>
+    <string name="action_filter_notification">Notifikasjon filter</string>
+
+    <string name="touch_tab_control">Kontroll</string>
+
+    <!-- Theme -->
+    <string name="theme_tab_theme">Stil</string>
+
+    <string name="theme_title">Velg en stil</string>
+    <string name="theme_background_color_title">Bakgrunn farge</string>
+
+    <string name="theme_widget_background_color_title">Farge</string>
+
+    <string name="theme_notification_title">Vise status på notifikasjons-hylla</string>
+
+    <string name="theme_cat_color_setting">Color setting</string>
+
+
+    <!-- Premium modus -->
+    <string name="purchase_policy_title">vilkår og betingelser of Premium modus</string>
+    <string name="purchase_policy"><![CDATA[
+        <p>• Jeg har testet appen og den virker skikkelig.</p>
+        <p>• Jeg er oppmerksom på at Jeg ikke kan forvente kompensasjon eller tilbakebetaling grunnet bugs, software feil på grunn av endringer i softwaren, hardwaren området rundt eller å bruke andre applikasjoner.</p>
+        <p>• Alle salg er endelige og kan ikke bli gitt tilbake penger for(untatt Google penger tilbake policy).</p>
+        <p>• Det er ingen garanti inkludert.</p>
+        <br><p><i>Etter å ha kjøpt må du omstarte appen.</i></p>
+    ]]></string>
+
+    <!--<string name="kjøp_pris">Pris:</string>-->
+    <string name="purchase_agree">Jeg godtar alle vilkår og betingelser.</string>
+    <string name="purchase_order_id">Kjøps ID</string>
+    <string name="purchase_order_id_help">Kopiere fra:
+        \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <string name="purchase_button_purchase">Kjøp</string>
+
+    <!-- Feedback -->
+    <string name="action_log_notification">Notifikasjon logg</string>
+
+    <string name="feedback_google_play_title">Bedøm denne appen</string>
+    <string name="feedback_request_feature_title">Egenskaps forespørsel, bug rapport</string>
+    <string name="feedback_request_feature_summary">Automatisk e-mail prossesjon, du får kanskje ikke respons</string>
+    <string name="feedback_translation_title">Hello Haylou translation</string>
+    <string name="feedback_translation_title_summary">Please help in translation</string>
+
+    <!-- Privacy policy -->
+    <string name="privacy_policy_tab_privacy_policy">Personvern policy</string>
+    <string name="privacy_policy_tab_eu_consent">EU bruker vilkår</string>
+
+    <string name="privacy_policy_collect_title">Informasjon vi samler inn</string>
+    <string name="privacy_policy_collect"><![CDATA[
+        <p>• Vi samler bare inn anonym informasjon.</p>
+        <p>• Vi samler informasjon på appens level om servicen som du bruker og hvordan du bruker dem (Google Firebase Platform).</p>
+        <p>• Vi samler informasjon i applikasjonens level som bugs, feil og krasj for å gjøre forbedrelser. (Google Firebase Platform).</p>
+        <p>• Google Firebase Platform samler informasjon anonymt. det rapporterer trender uten å identifisere individuelle brukere.</p>
+        • Vi deler ikke noe data med andre bedrifter eller organisasjoner.
+    ]]></string>
+
+    <string name="privacy_policy_not_collect_title">Informasjon vi ikke samler inn</string>
+    <string name="privacy_policy_not_collect"><![CDATA[
+        <p>• Vi samler ikke inn personlig identifiserbar informasjon om deg. For å si det med andre ord, Vi samler ikke inn informasjon som foreksempel navnet ditt, addresse, telefon nummer, email addresse, IP addresse eller MAC addresse.</p>
+        • Vi samler ikke inn personlig helse data, kontakter eller telefon notifikasjons text.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">Privacy policy of third party service providers</string>
+    <string name="privacy_policy_links"><![CDATA[
+        <a href="https://policies.google.com/privacy">Google Play Services</a>
+        <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
+        <p><a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a></p>
+        <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
+    ]]></string>
+
+    <string name="privacy_policy_eu_consent_title">Status</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Personaliserte, relevante reklamer</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Ikke-personaliserte reklamer som er Mindre relevant</string>
+    <string name="privacy_policy_eu_consent_title_unknown">Ukjent</string>
+
+    <string name="privacy_policy_eu_consent_setting">Innstillinger</string>
+
+
+    <!-- Custom vibration dialog -->
+    <string name="custom_vibration_title">Vibration setting</string>
+
+
+    <!-- Others -->
+    <string name="ad_attribution">Ad</string>
+    <string name="on">På</string>
+    <string name="off">Av</string>
+    <string name="unknown">Ukjent</string>
+    <string name="maximum">Maksimum</string>
+    <string name="default_">Default</string>
+
+    <string name="action_dismiss">Avvis</string>
+    <string name="action_setting">Indtilling</string>
+    <string name="action_delete">Slett</string>
+    <string name="action_filter_no">Ingen filter</string>
+    <string name="action_save">Lagre</string>
+    <string name="action_test">Test</string>
+    <string name="action_discard">Forkaste</string>
+    <string name="action_keep_editing">Fortsett å redigere</string>
+    <string name="action_new">New</string>
+    <string name="action_start_stop">Start/Stop</string>
+
+    <string name="required_value">Påkrevd</string>
+
+    <!-- Constante -->
+    <string name="const_time_abbreviation_day">d</string>
+    <string name="const_time_abbreviation_hour">h</string>
+    <string name="const_time_abbreviation_minute">m</string>
+
+    <string name="const_unit_dbm">dBm</string>
+
+    <plurals name="plural_time_hour">
+        <item quantity="zero">%d hour</item>
+        <item quantity="one">%d time</item>
+        <item quantity="two">%d timer</item>
+        <item quantity="few">%d timer</item>
+        <item quantity="many">%d timer</item>
+        <item quantity="other">%d timer</item>
+    </plurals>
+
+    <plurals name="plural_time_minute">
+        <item quantity="zero">%d minutt</item>
+        <item quantity="one">%d minutt</item>
+        <item quantity="two">%d minutter</item>
+        <item quantity="few">%d minutter</item>
+        <item quantity="many">%d minutter</item>
+        <item quantity="other">%d minutter</item>
+    </plurals>
+
+    <plurals name="plural_time_second">
+        <item quantity="zero">%d sekund</item>
+        <item quantity="one">%d sekund</item>
+        <item quantity="two">%d sekunder</item>
+        <item quantity="few">%d sekunder</item>
+        <item quantity="many">%d sekunder</item>
+        <item quantity="other">%d sekunder</item>
+    </plurals>
+</resources>

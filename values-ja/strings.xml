@@ -1,0 +1,344 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">HHello Haylou</string>
+
+    <string name="menu_nav_home">Haylou</string>
+    <string name="menu_nav_notification">通知</string>
+    <string name="menu_nav_call">通話</string>
+    <string name="menu_nav_more">もっと</string>
+    <string name="menu_nav_theme">テーマ</string>
+    <string name="menu_nav_premium_mode">プレミアムモード</string>
+    <string name="menu_nav_feedback">フィードバック</string>
+    <string name="menu_nav_privacy_policy">プライバシーポリシー</string>
+    <string name="menu_nav_settings" type="string">@string/settings_name</string>
+
+    <string name="setting_name">設定</string>
+    <string name="settings_name">設定</string>
+    <string name="info_name">情報</string>
+
+<!--    <string name="mi_band_battery">バッテリー残量・最後に充電した時間・推定残り時間</string>-->
+    <string name="device_battery">バッテリー残量・最後に充電した時間</string>
+    <string name="device_state_connected_disconnected_last_time">最後に接続、切断された時間</string>
+    <string name="device_mac_address">MACアドレス</string>
+
+    <string name="device_search">Haylou search</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="device_mac_address_invalid">MACアドレスが無効です</string>
+
+    <string name="device_state_connected">接続済み</string>
+    <string name="device_state_disconnected">未接続</string>
+    <string name="device_state_bonded">ペアリングされたデバイス</string>
+    <string name="device_state_not_bonded">未ペアリングのデバイス</string>
+
+
+    <string name="pref_text_title">テキスト表示</string>
+    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
+    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
+    <string name="pref_text_emoticon_title">絵文字の変換</string>
+    <string name="pref_text_emoticon_summary_on">絵文字を顔文字に変換します</string>
+    <string name="pref_text_uppercase_title">大文字に変換</string>
+    <string name="pref_text_uppercase_summary_on">小文字を大文字に変換します</string>
+    <string name="pref_text_line_separator_title">Line separator replacement</string>
+    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
+    <string name="pref_text_line_separator_value_title">Replacement characters</string>
+
+    <!-- Battery -->
+    <string name="battery_details">バッテリーの使用状況</string>
+
+    <string name="mi_band_battery_settings">バッテリーの設定</string>
+    <string name="mi_band_battery_notification">残量低下通知</string>
+    <string name="mi_band_battery_notification_level">通知するバッテリー残量</string>
+    <string name="mi_band_battery_notification_repeat_interval">繰り返し間隔</string>
+    <string name="mi_band_battery_notification_shade">端末に通知</string>
+    <string name="mi_band_battery_notification_shade_ongoing">通知を固定</string>
+    <string name="mi_band_battery_notification_shade_message">バッテリー残量低下：%1$,d%%</string>
+    <string name="mi_band_battery_notification_mi_band">バンドに通知</string>
+    <string name="mi_band_battery_notification_mi_band_message">バッテリー：%1$,d%%</string>
+
+    <!-- PreferenceScreen -->
+    <string name="pref_connected">接続時の設定</string>
+
+    <string name="pref_connected_have_notif_interval_title">リマインダーの繰り返し間隔</string>
+    <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
+
+    <string name="pref_cat_call">着信</string>
+    <string name="pref_call_summary_on">必ずHaylou Sportで着信通知をオフにしてください。</string>
+    <string name="pref_call_text_title">発信者のIDを表示</string>
+
+    <string name="pref_call_notification_rejected">着信拒否の通知を表示</string>
+    <string name="pref_call_notification_rejected_message">着信拒否</string>
+    <string name="pref_call_notification_rejected_action">通話</string>
+
+    <string name="pref_call_net_text_title">インターネット通話の着信通知</string>
+
+    <string name="pref_cat_call_missed">不在着信</string>
+    <string name="pref_call_missed_title">不在着信通知</string>
+
+    <string name="pref_call_missed_alert_title">%1$sの通知</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="pref_battery_phone">端末のバッテリー</string>
+    <string name="pref_battery_phone_summary">残量低下・フル充電通知</string>
+    <string name="pref_cat_battery_phone_low">残量低下</string>
+    <string name="pref_battery_phone_low_title">残量低下通知</string>
+    <string name="pref_battery_phone_low_level_title">通知するバッテリー残量</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">繰り返し間隔</string>
+    <string name="pref_cat_battery_phone_full">フル充電</string>
+    <string name="pref_battery_phone_full_title">フル充電通知</string>
+    <string name="pref_battery_phone_full_plugged_ac">AC充電器</string>
+    <string name="pref_battery_phone_full_plugged_usb">USBポート</string>
+    <string name="pref_battery_phone_full_plugged_wireless">ワイヤレス充電器</string>
+
+    <string name="pref_battery_phone_message">端末のバッテリー：\n %1$,d%%</string>
+
+    <string name="pref_language">言語</string>
+    <string name="pref_cat_language">アプリ</string>
+    <string name="pref_language_title">言語</string>
+
+    <!-- Snackbar Messages -->
+    <string name="message_enable_bluetooth">Bluetoothをオンにして、バンドを端末に近づけてください</string>
+    <string name="message_discover_mi_band">バンドを検出してください</string>
+    <string name="message_discovering_mi_band">バンドを検出中（1分程度かかることがあります）&#8230;</string>
+    <string name="message_discovered_mi_band">%1$sの接続に成功しました</string>
+    <string name="message_discovered_no_mi_band">バンドの接続に失敗しました</string>
+    <string name="message_discovered_not_found_mi_band">バンドが検出されない場合は、Haylou Sportのマイデバイスの設定から「検出可能」をオンにするか、端末のBluetooth設定でバンドをペアリングしてください</string>
+    <string name="message_enable_notification_listener_access">端末の通知設定で通知へのアクセスを許可してください</string>
+    <string name="message_enable_notification_listener_access_4_4">端末のセキュリティ設定で通知へのアクセスを許可してください</string>
+    <string name="message_open_settings">設定</string>
+
+    <string name="message_deleted">削除しました</string>
+    <string name="message_undo">取り消しました</string>
+
+    <string name="message_app_chooser_no_selected">アプリを選択してください</string>
+
+    <string name="message_notification_free_groups">ノーマルモードでは通知グループは最大%1$,d個まで使用可能です</string>
+    <string name="message_notification_free_app">Up to 1 application can be selected in normal mode</string>
+    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in normal mode</string>   <!-- %1$s = 2 or more  -->
+
+    <string name="message_notification_free_text">Up to 1 text can be recorded in normal mode</string>
+
+    <string name="message_time_alarm_mi_band_off">アラームがオフになりました</string>
+
+    <string name="message_premium_mode_only">この機能はプレミアムモードでのみ利用可能です</string>
+    <string name="message_internet_error">インターネット接続がありません</string>
+
+    <string name="message_no_data">利用可能なデータなし</string>
+
+    <string name="message_new_message">新着メッセージがあります。端末で確認してください。</string>
+
+    <!-- Dialog -->
+    <string name="dialog_welcome_title">ようこそ！</string>
+    <string name="dialog_welcome_message"><![CDATA[サポートされているデバイス：
+    <br>• <b>Haylou Solar (LS05)</b>
+    <br>• <b>Haylou Smart Watch 2 (LS02)</b>
+    <br>• <b>Haylou Smart Watch (LS01)</b>
+    <p>Hello Haylou requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
+    <p>バンドが見つからない場合はMACアドレス</p>
+    <p><b>接続できない場合：</b>
+    <br>- Mi Bandageをタスクロック
+    <br>- 「バッテリー最適化を無視」をMi Bandageに許可
+    <br>- Bluetooth Shareやその他のBluetoothアプリのデータを消去
+    </p>]]></string>
+
+
+    <!-- Notification Dialog -->
+    <string name="notification_group_nav_setting">設定</string>
+    <string name="notification_group_nav_filter">フィルタ</string>
+    <string name="notification_group_nav_correction">修正</string>
+
+    <string name="notification_group_name">グループ名</string>
+    <string name="notification_group_monitoring">通知を監視</string>
+    <string name="notification_group_monitoring_disabled">通知を無効化（アプリからの通知を送信しない）</string>
+    <string name="notification_group_alert_title">%1$sの通知</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="notification_group_text">表示するテキスト</string>
+    <string name="notification_group_text_app_name">アプリ名</string>
+    <string name="notification_group_text_name">名前</string>
+    <string name="notification_group_text_title">タイトル</string>
+    <string name="notification_group_text_content">内容</string>
+    <string name="notification_group_text_big_content">完全なコンテンツ</string>
+    <string name="notification_group_text_content_slice_title">テキストの長さ</string>
+    <string name="notification_group_display_time_title">表示時間</string>
+    <string name="notification_group_display_notification_title">通知の表示</string>
+    <string name="notification_group_immediate">通知をすぐに送信</string>
+    <string name="notification_group_connecting">端末の接続中に通知を送信</string>
+    <string name="notification_group_reminder">リマインダーの通知を送信</string>
+    <string name="notification_group_ongoing">固定された通知を送信</string>
+    <string name="notification_group_screen_off">画面オフ時のみ通知を送信</string>
+    <string name="notification_group_repeat_title">通知の繰り返し</string>
+    <string name="notification_group_wakelock">端末の画面を点灯</string>
+    <string name="notification_group_grouped_display_title">通知グループの表示設定</string>
+    <string name="notification_group_grouped_sort_order_title">通知グループの並べ替え</string>
+
+    <string name="notification_group_filter">通知のフィルタ</string>
+    <string name="notification_group_filter_title">タイトルのフィルタ</string>
+    <string name="notification_group_filter_content">内容のフィルタ</string>
+    <string name="notification_group_filter_regex">正規表現（Regex）</string>
+    <string name="notification_group_filter_hint">通知のタイトルまたは内容が次の条件を満たすときのみ通知を送信（大文字・小文字の区別なし）</string>
+    <string name="notification_group_filter_contains">以下の語句のいずれかを含むとき</string>
+    <string name="notification_group_filter_not_contains">以下の語句のいずれも含まないとき</string>
+
+    <string name="notification_group_sample_sms">SMS</string>
+    <string name="notification_group_sample_facebook">Messenger</string>
+    <string name="notification_group_sample_whatsapp">WhatsApp</string>
+
+    <string name="notification_group_correction">テキストの修正</string>
+    <string name="notification_group_correction_title">タイトルの修正</string>
+    <string name="notification_group_correction_content">内容の修正</string>
+    <string name="notification_group_correction_regex">正規表現（Regex）</string>
+    <string name="notification_group_correction_hint">大文字・小文字の区別なし</string>
+    <string name="notification_group_correction_items">修正するテキスト</string>
+    <string name="notification_group_correction_find">検索</string>
+    <string name="notification_group_correction_replace">置換</string>
+
+    <string name="notification_regex_hint">英数字以外の文字を使って形式を指定する方法です。使用しない場合はオフにしてください</string>
+
+    <string name="notification_confirm_close">変更を破棄しますか？</string>
+
+    <string name="notification_edit_play_text_title">通知のタイトル</string>
+    <string name="notification_edit_play_text_content">通知の内容：
+    親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。なぜそんな無闇をしたと聞く人があるかも知れぬ。
+    \n別段深い理由でもない。新築の二階から首を出していたら、同級生の一人が冗談に、いくら威張っても、そこから飛び降りる事は出来まい。弱虫やーい。と囃したからである。
+    </string>
+    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT">通知のタイトルまたは内容を表示するにはこのアイコンを選択してください。]]></string>
+
+    <!-- MiBandageApp chooser dialog -->
+    <string name="app_chooser">アプリ選択</string>
+    <string name="action_search">検索</string>
+    <string name="action_filter_notification">通知フィルタ</string>
+
+    <string name="touch_tab_control">操作</string>
+
+
+    <!-- Theme -->
+    <string name="theme_tab_theme">テーマ</string>
+
+    <string name="theme_title">テーマを選択</string>
+    <string name="theme_background_color_title">背景色</string>
+
+    <string name="theme_widget_background_color_title">色</string>
+
+    <string name="theme_notification_title">通知パネルにステータスを表示</string>
+
+    <string name="theme_cat_color_setting">Color setting</string>
+
+
+    <!-- Premium mode -->
+    <string name="purchase_policy_title">プレミアムモードの利用規約</string>
+    <string name="purchase_policy"><![CDATA[
+        <p>• 正常に動作することを確認済みです。</p>
+        <p>• 設定変更や他のアプリの使用によるソフトウェアのエラー、バグに対する賠償や払い戻しは受け付けかねます。</p>
+        <p>• 購入は払い戻しできません（Googleの払い戻しポリシーを除く）。</p>
+        <p>• 保証は含まれません。</p>
+        <br><p><b>購入後はアプリを再起動してください。<b></p>
+    ]]></string>
+
+    <!--<string name="purchase_price">価格：</string>-->
+    <string name="purchase_agree">利用規約に同意する</string>
+    <string name="purchase_order_id">オーダーID</string>
+    <string name="purchase_order_id_help">以下からコピーしてください。
+        \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <string name="purchase_button_purchase">購入</string>
+
+    <!-- Feedback -->
+    <string name="action_log_notification">ログ</string>
+
+    <string name="feedback_google_play_title">アプリを評価</string>
+    <string name="feedback_request_feature_title">機能のリクエスト・バグの報告</string>
+    <string name="feedback_request_feature_summary">メールは自動処理のため返信はありません</string>
+    <string name="feedback_translation_title">Hello Haylouの翻訳</string>
+    <string name="feedback_translation_title_summary">翻訳にご協力ください</string>
+
+    <!-- Privacy policy -->
+    <string name="privacy_policy_tab_privacy_policy">プライバシーポリシー</string>
+    <string name="privacy_policy_tab_eu_consent">EUユーザーの同意</string>
+
+    <string name="privacy_policy_collect_title">収集する情報</string>
+    <string name="privacy_policy_collect"><![CDATA[
+        <p>• 匿名の情報のみ収集します。</p>
+        <p>• お使いのサービスについての情報をGoogle Firebaseからアプリケーションレベルで収集します。</p>
+        <p>• 品質向上のため、バグやエラー、クラッシュなどの情報をGoogle Firebaseからアプリケーションレベルで収集します。</p>
+        <p>• Google Firebaseは匿名で情報を収集し、個人を特定することなくユーザーの動向を報告します。</p>
+        • 他の会社や組織に対しデータを共有することはありません。
+    ]]></string>
+
+    <string name="privacy_policy_not_collect_title">収集しない情報</string>
+    <string name="privacy_policy_not_collect"><![CDATA[
+        <p>• 個人を特定できる情報（氏名、住所、電話番号、メールアドレス、IPアドレス、MACアドレスなど）は収集しません。</p>
+        • 個人の健康データや連絡先、通知のテキストは収集しません。
+    ]]></string>
+
+    <string name="privacy_policy_links_title">外部ｻｰﾋﾞｽﾌﾟﾛﾊﾞｲﾀﾞのﾌﾟﾗｲﾊﾞｼｰﾎﾟﾘｼｰ</string>
+    <string name="privacy_policy_links"><![CDATA[
+        <a href="https://policies.google.com/privacy">Google Play開発者サービス</a>
+        <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
+        <p><a href="https://firebase.google.com/policies/analytics">Googleアナリティクス</a></p>
+        <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
+    ]]></string>
+
+    <string name="privacy_policy_eu_consent_title">ステータス</string>
+    <string name="privacy_policy_eu_consent_title_personalized">パーソナライズ広告</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">関連性の低い広告</string>
+    <string name="privacy_policy_eu_consent_title_unknown">不明</string>
+
+    <string name="privacy_policy_eu_consent_setting">設定</string>
+
+
+    <!-- Custom vibration dialog -->
+    <string name="custom_vibration_title">バイブレーション設定</string>
+
+
+    <!-- Others -->
+    <string name="ad_attribution">Ad</string>
+    <string name="on">オン</string>
+    <string name="off">オフ</string>
+    <string name="unknown">不明</string>
+    <string name="maximum">最大</string>
+    <string name="default_">デフォルト</string>
+
+    <string name="action_dismiss">中止</string>
+    <string name="action_setting">設定</string>
+    <string name="action_delete">削除</string>
+    <string name="action_filter_no">フィルタなし</string>
+    <string name="action_save">保存</string>
+    <string name="action_test">テスト</string>
+    <string name="action_discard">破棄</string>
+    <string name="action_keep_editing">編集を続行</string>
+    <string name="action_new">新規</string>
+    <string name="action_start_stop">開始/停止</string>
+
+    <string name="required_value">必須</string>
+
+    <!-- Constante -->
+    <string name="const_time_abbreviation_day">d</string>
+    <string name="const_time_abbreviation_hour">h</string>
+    <string name="const_time_abbreviation_minute">m</string>
+
+    <string name="const_unit_dbm">dBm</string>
+
+    <plurals name="plural_time_hour">
+        <item quantity="zero">%d時間</item>
+        <item quantity="one">%d時間</item>
+        <item quantity="two">%d時間</item>
+        <item quantity="few">%d時間</item>
+        <item quantity="many">%d時間</item>
+        <item quantity="other">%d時間</item>
+    </plurals>
+
+    <plurals name="plural_time_minute">
+        <item quantity="zero">%d分</item>
+        <item quantity="one">%d分</item>
+        <item quantity="two">%d分</item>
+        <item quantity="few">%d分</item>
+        <item quantity="many">%d分</item>
+        <item quantity="other">%d分</item>
+    </plurals>
+
+    <plurals name="plural_time_second">
+        <item quantity="zero">%d秒</item>
+        <item quantity="one">%d秒</item>
+        <item quantity="two">%d秒</item>
+        <item quantity="few">%d秒</item>
+        <item quantity="many">%d秒</item>
+        <item quantity="other">%d秒</item>
+    </plurals>
+
+</resources>

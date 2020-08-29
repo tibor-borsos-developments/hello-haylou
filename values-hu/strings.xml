@@ -1,0 +1,353 @@
+<resources>
+    <string name="app_name">Hello Haylou</string>
+
+    <string name="menu_nav_home">Haylou</string>
+    <string name="menu_nav_notification">Értesítés</string>
+    <string name="menu_nav_call">Hívás</string>
+    <string name="menu_nav_more">Továbbiak</string>
+    <string name="menu_nav_theme">Téma</string>
+    <string name="menu_nav_premium_mode">Prémium mód</string>
+    <string name="menu_nav_feedback">Visszajelzés</string>
+    <string name="menu_nav_privacy_policy">Adatvédelmi irányelvek</string>
+    <string name="menu_nav_settings" translatable="true" type="string">@string/settings_name</string>
+
+    <string name="setting_name">Beállítás</string>
+    <string name="settings_name">Beállítások</string>
+    <string name="info_name">Információ</string>
+
+<!--    <string name="mi_band_battery">Akkumulátor állapota・töltés időpontja・becsült hátralévő idő</string>-->
+    <string name="device_battery">Akkumulátor állapota・töltés időpontja</string>
+    <string name="device_state_connected_disconnected_last_time">Utolsó csatlakozás és kapcsolatbontás időpontja</string>
+    <string name="device_mac_address">MAC cím</string>
+
+    <string name="device_search">Haylou keresés</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="device_mac_address_invalid">MAC cím érvénytelen</string>
+
+    <string name="device_state_connected">Csatlakozva</string>
+    <string name="device_state_disconnected">Nincs csatlakozva</string>
+    <string name="device_state_bonded">Párosított eszköz</string>
+    <string name="device_state_not_bonded">Nem párosított eszköz</string>
+
+
+    <string name="pref_text_title">Szöveg megjelenítés</string>
+    <string name="pref_text_alphanumeric_title">Alfanumerikus és ASCII karakterek </string>
+    <string name="pref_text_alphanumeric_summary_on">Csak az alfanumerikus és ASCII karakterek megjelenítése</string>
+    <string name="pref_text_emoticon_title">Emoji átalakítás</string>
+    <string name="pref_text_emoticon_summary_on">Emoji átalakítása hangulatjellé</string>
+    <string name="pref_text_uppercase_title">Nagybetűsre átalakítás</string>
+    <string name="pref_text_uppercase_summary_on">Kisbetűk átalakítása nagybetűsre</string>
+    <string name="pref_text_line_separator_title">Sorelválasztó helyettesítés</string>
+    <string name="pref_text_line_separator_summary_on">Alapértelmezett sorelválasztó helyettesítése más karakterrel</string>
+    <string name="pref_text_line_separator_value_title">Helyetesítő karakterek</string>
+
+    <!-- Battery -->
+    <string name="battery_details">Akkumulátorhasználat</string>
+
+    <string name="mi_band_battery_settings">Akkumulátor beállítások</string>
+    <string name="mi_band_battery_notification">Alacsony töltöttség értesítés</string>
+    <string name="mi_band_battery_notification_level">Töltöttség küszöbértéke</string>
+    <string name="mi_band_battery_notification_repeat_interval">Értesítés ismétlés időköze</string>
+    <string name="mi_band_battery_notification_shade">Értesítés a telefonon</string>
+    <string name="mi_band_battery_notification_shade_ongoing">Állandó értesítés (ami nem törlődik)</string>
+    <string name="mi_band_battery_notification_shade_message">Akkumulátor töltöttség: %1$,d%%</string>
+    <string name="mi_band_battery_notification_mi_band">Értesítés a karkötőn</string>
+    <string name="mi_band_battery_notification_mi_band_message">Akkumulátor: %1$,d%%</string>
+
+    <!-- PreferenceScreen -->
+    <string name="pref_connected">Csatlakozás</string>
+
+    <string name="pref_connected_have_notif_interval_title">Emlékeztető jelzések ismétlésének időköze</string>
+    <string name="pref_connected_have_notif_interval_summary">Értesítés/emlékeztető jelzés funkció használja ezt az időzítése</string>
+
+    <string name="pref_cat_call">Bejövő hívás</string>
+    <string name="pref_call_summary_on">Ne felejtsd el kikapcsolni a Haylou Sport applikációban</string>
+    <string name="pref_call_text_title">Hívó fél megjelenítés</string>
+
+    <string name="pref_call_net_text_title">Bejövő netes hívás jelzése</string>
+
+    <string name="pref_call_notification_rejected">Értesítés elutasított hívásról</string>
+    <string name="pref_call_notification_rejected_message">Elutasított hívás</string>
+    <string name="pref_call_notification_rejected_action">Hívás</string>
+
+    <string name="pref_cat_call_missed">Nem fogadott hívás</string>
+    <string name="pref_call_missed_title">Nem fogadott hívás jelzése</string>
+
+    <string name="pref_call_missed_alert_title">%1$s jelzés</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="pref_battery_phone">Telefon akkumulátor</string>
+    <string name="pref_battery_phone_summary">Alacsony töltöttség és a töltés végeztének jelzése</string>
+    <string name="pref_cat_battery_phone_low">Alacsony töltöttség</string>
+    <string name="pref_battery_phone_low_title">Alacsony töltöttség jelzése</string>
+    <string name="pref_battery_phone_low_level_title">Töltöttség küszöbértéke</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">Értesítés ismétlés időköze</string>
+    <string name="pref_cat_battery_phone_full">Teljes töltöttség</string>
+    <string name="pref_battery_phone_full_title">Töltés végeztének jelzése</string>
+    <string name="pref_battery_phone_full_plugged_ac">Hálózatról töltés</string>
+    <string name="pref_battery_phone_full_plugged_usb">USB-ről töltés</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Vezeték nélküli töltés</string>
+
+    <string name="pref_battery_phone_message">Telefon akkumulátor:\n %1$,d%%</string>
+
+    <string name="pref_language">Nyelv</string>
+    <string name="pref_cat_language">App</string>
+    <string name="pref_language_title">Nyelv</string>
+
+    <!-- Snackbar Messages -->
+    <string name="message_discover_mi_band">Haylou még nincs beállítva, keresd meg</string>
+    <string name="message_discovering_mi_band">Haylou keresése folyamatban (1 percig is eltarthat) &#8230;</string>
+    <string name="message_discovered_mi_band">%1$s csatlakoztatása sikeres</string>
+    <string name="message_discovered_no_mi_band">Haylou csatlakoztatása nem sikerült</string>
+    <string name="message_discovered_not_found_mi_band">Ha Haylou nem található, kapcsold be: Haylou Sport/Értesítések/Felfedezhetőség illetve párosítsd a telefon Bluetooth beállításoknál</string>
+    <string name="message_enable_bluetooth">Kapcsold be a Bluetooth-ot és tartsd közel a Band-t</string>
+    <string name="message_enable_notification_listener_access">Engedélyezd a hozzáférést az értesítésekhez: Értesítések/Hozzáférés értesítésekhez</string>
+    <string name="message_enable_notification_listener_access_4_4">Engedélyezd a hozzáférést az értesítésekhez: Biztonság/Hozzáférés az értesítésekhez</string>
+    <string name="message_open_settings">Beállítások</string>
+
+    <string name="message_deleted">Törölve</string>
+    <string name="message_undo">Visszavonás</string>
+
+    <string name="message_app_chooser_no_selected">Válassz ki egy applikációt</string>
+
+    <string name="message_notification_free_groups">Maximum %1$,d csoport használható normál módban</string>
+    <string name="message_notification_free_app">Maximum 1 applikáció választható normál módban</string>
+    <string name="message_notification_free_apps">Maximum %1$,d applikáció választható normál módban</string>
+
+    <string name="message_notification_free_text">Maximum 1 szöveg rögzíthető normál módban</string>
+
+    <string name="message_time_alarm_mi_band_off">Ébresztő ki</string>
+
+    <string name="message_premium_mode_only">A funkció csak prémium módban érhető el</string>
+    <string name="message_internet_error">Nincs internet kapcsolat</string>
+
+    <string name="message_no_data">Nincs adat</string>
+
+    <string name="message_new_message">Új üzenet érkezett, megtekinthető a telefonon.</string>
+
+    <!-- Welcome Dialog -->
+    <string name="dialog_welcome_title">Üdvözöllek!</string>
+    <string name="dialog_welcome_message"><![CDATA[Támogatott eszközök:
+    <br>• <b>Haylou Solar (LS05)</b>
+    <br>• <b>Haylou Smart Watch 2 (LS02)</b>
+    <br>• <b>Haylou Smart Watch (LS01)</b>
+    <p>A működéséhez szükséges a Haylou applikáció telepítése ezen a telefonon. Először a Haylou applikáción belül kell az óra párosítását elvégezni.</p>
+    <p>Ha a Haylou keresése eredménytelen, a MAC cím kézzel is megadható a kereséskor.</p>
+    <p><b>Kapcsolódási probléma megoldása:</b>
+    <br>- Futó alkalmazások képernyő: zárold az app-ot (lefele seprés az app-on, majd lezárás menü).
+    <br>- Telefon akkumulátor optimalizálása kikapcsolása.
+    <br>- Telefon/alkalmazások: Bluetooth Share és egyéb \'Bluetooth\' app. adatok törlése.</p>
+]]></string>
+
+
+    <!-- Notification Dialog -->
+    <string name="notification_group_nav_setting">Beállítás</string>
+    <string name="notification_group_nav_filter">Szűrés</string>
+    <string name="notification_group_nav_correction">Szövegjavítás</string>
+
+    <string name="notification_group_name">Megnevezés</string>
+    <string name="notification_group_monitoring">Értesítések figyelése</string>
+    <string name="notification_group_monitoring_disabled">Értesítések kizárása (az applikációkhoz tartozó értesítések ne jelenjenek meg)</string>
+    <string name="notification_group_alert_title">%1$s jelzés</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="notification_group_text">Szöveges megjelenítés</string>
+    <string name="notification_group_text_app_name">Applikáció név</string>
+    <string name="notification_group_text_name">Megnevezés</string>
+    <string name="notification_group_text_title">Cím</string>
+    <string name="notification_group_text_content">Tartalom</string>
+    <string name="notification_group_text_big_content">Teljes tartalom</string>
+    <string name="notification_group_text_content_slice_title">Szöveghosszúság</string>
+    <string name="notification_group_display_time_title">Megjelenítés ideje</string>
+    <string name="notification_group_display_notification_title">Értesítés megjelenítés</string>
+    <string name="notification_group_immediate">Azonnali jelzés értesítés beérkezésekor</string>
+    <string name="notification_group_connecting">Csatlakozáskori jelzés</string>
+    <string name="notification_group_reminder">Emlékeztető jelzés</string>
+    <string name="notification_group_ongoing">Állandó értesítések (amik nem törlődnek az értesítési sávról) jelzése</string>
+    <string name="notification_group_screen_off">Jelzés csak ha a képernyő kikapcsolva</string>
+    <string name="notification_group_repeat_title">Jelzések ismétlése</string>
+    <string name="notification_group_wakelock">Telefon felébresztése</string>
+    <string name="notification_group_grouped_display_title">Megjelenítési beállítás a csoportos értesítésekhez</string>
+    <string name="notification_group_grouped_sort_order_title">Rendezési sorrend a csoportos értesítésekhez</string>
+
+    <string name="notification_group_filter">Értesítés szűrése</string>
+    <string name="notification_group_filter_title">Cím szűrése</string>
+    <string name="notification_group_filter_content">Tartalom szűrése</string>
+    <string name="notification_group_filter_regex">Regex</string>
+    <string name="notification_group_filter_hint">Jelzés csak ha az értesítés címe vagy tartalma (kis-nagybetű érzéketlen)</string>
+    <string name="notification_group_filter_contains">Tartalmazza valamelyik szövegrészletet</string>
+    <string name="notification_group_filter_not_contains">Nem tartalmazza egyik szövegrészletet sem</string>
+
+    <string name="notification_group_sample_sms">SMS</string>
+    <string name="notification_group_sample_facebook">Messenger</string>
+    <string name="notification_group_sample_whatsapp">WhatsApp</string>
+
+    <string name="notification_group_correction">Értesítés szövegének javítása</string>
+    <string name="notification_group_correction_title">Cím javítása</string>
+    <string name="notification_group_correction_content">Tartalom javítása</string>
+    <string name="notification_group_correction_regex">Regex</string>
+    <string name="notification_group_correction_hint">Kis-nagybetű érzéketlen</string>
+    <string name="notification_group_correction_items">Javítandó szövegek</string>
+    <string name="notification_group_correction_find">Keresett szöveg</string>
+    <string name="notification_group_correction_replace">Csere erre</string>
+
+    <string name="notification_regex_hint">A nem alfanumerikus karakterek speciális jelentéssel bírnak, ha nem ismered a Regex-t, ne jelöld be</string>
+
+    <string name="notification_confirm_close">Biztos, hogy elveti a módosításokat?</string>
+
+    <string name="notification_edit_play_text_title">Értesítés címe</string>
+    <string name="notification_edit_play_text_content">Értesítés tartalma:
+    \nMijú-miújság?
+    \nItt a cicuskád!
+    \nNem, még nem alszom!
+    \nMég ébren álmodozom!
+    \nHogy-hogy miről?
+    \nAzt neked tudnod kell!
+    \nHát persze, hogy vártam, hogy te hívj fel!
+    \nAzt hogy, itt vagy, újra velem, könnyebben képzelem így el!
+    \nZöld szemed villog a sötétben,
+    \nA karmod visszahúzva egészen,
+    \nAmíg a bajszod csiklandoz kellemesen,
+    \nvégig egy szót se szólsz, csak dorombolsz!
+    \nSimogat szerelmesen!
+    </string>
+    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> ikon: értesítés címének, tartalmának megjelenítéshez válaszd ezt az ikont.]]></string>
+
+    <!-- App chooser dialog -->
+    <string name="app_chooser">Applikáció választó</string>
+    <string name="action_search">Keresés</string>
+    <string name="action_filter_notification">Értesítés szűrő</string>
+
+    <string name="touch_tab_control">Vezérlés</string>
+
+    <!-- Theme -->
+    <string name="theme_tab_theme">Téma</string>
+
+    <string name="theme_title">Téma kiválasztása</string>
+    <string name="theme_background_color_title">Háttérszín</string>
+
+    <string name="theme_widget_background_color_title">Szín</string>
+
+    <string name="theme_notification_title">Állapot megjelenítése az értesítési felületen</string>
+
+    <string name="theme_cat_color_setting">Szín beállítás</string>
+
+
+    <!-- Premium mode -->
+    <string name="purchase_policy_title">Prémium mód megvásárlásának feltételei</string>
+    <string name="purchase_policy"><![CDATA[
+        <p>• Az applikációt kipróbáltam, működését megfelelőnek találtam.</p>
+        <p>• A szoftver, hardver környezetben bekövetkező változások és más applikációk használata miatt fellépő funkcióvesztésért, programhibákért a jelenlegi applikáció fejlesztőjével szemben kártérítéssel, visszatérítéssel nem élek.</p>
+        <p>• Minden értékesítés végleges és nincs helye visszatérítésnek (Google visszatérítési irányelvek kivételével).</p>
+        <p>• Az applikáció nem tartalmaz garanciát.</p>
+        <br><p><i>Vásárlás után az applikáció újraindítása szükséges.</i></p>
+    ]]></string>
+
+    <!--<string name="purchase_price">Ár:</string>-->
+    <string name="purchase_agree">Egyetértek a vásárlási feltételekkel.</string>
+    <string name="purchase_order_id">Tranzakcióazonosító</string>
+    <string name="purchase_order_id_help">Megtalálható:
+        \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <string name="purchase_button_purchase">Vásárlás</string>
+
+    <!-- Feedback -->
+    <string name="action_log_notification">Napló</string>
+
+    <string name="feedback_google_play_title">Alkalmazás értékelés</string>
+    <string name="feedback_request_feature_title">Funkció kérés, hiba bejelentés</string>
+    <string name="feedback_request_feature_summary">Automatikus e-mail feldolgozás, nem biztos, hogy fogsz választ kapni</string>
+    <string name="feedback_translation_title">Hello Haylou fordítás</string>
+    <string name="feedback_translation_title_summary">Kérlek segíts a fordításban</string>
+
+    <!-- Privacy policy -->
+    <string name="privacy_policy_tab_privacy_policy">Adatvédelmi irányelvek</string>
+    <string name="privacy_policy_tab_eu_consent">EU-beli felhasználók hozzájárulása</string>
+
+    <string name="privacy_policy_collect_title">Gyűjtött információk</string>
+    <string name="privacy_policy_collect"><![CDATA[
+        <p>• Csak névtelen adatokat gyűjtünk.</p>
+        <p>• Információkat gyűjtünk az alkalmazás szintjén az Ön által használt szolgáltatásokról és azok használatáról (Google Firebase Platform).</p>
+        <p>• Információkat gyűjtünk az alkalmazás szintjén a programhibákról és az alkalmazás összeomlásokról a javításokhoz (Google Firebase Platform).</p>
+        <p>• Google Firebase Platform csak névtelen adatokat gyűjt. Trend jelentéseket készít a felhasználók azonosítása nélkül.</p>
+        • Nem osztunk meg semmilyen adatot más cégekkel vagy szervezetekkel.
+    ]]></string>
+
+    <string name="privacy_policy_not_collect_title">Nem gyűjtött információk</string>
+    <string name="privacy_policy_not_collect"><![CDATA[
+        <p>• Nem gyűjtünk személyazonosításra alkalmas adatokat Önről. Más szavakkal, nem gyűjtünk olyan adatokat, mint például az Ön nevét, címét, telefonszámát, e-mail címét, IP címét vagy MAC címét.</p>
+        • Nem gyűjtünk személyes egészségügyi adatokat, névjegyeket és eszközön megjelenő értesítés szövegeket.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">Harmadik fél szolgáltatóinak adatvédelmi politikája</string>
+    <string name="privacy_policy_links"><![CDATA[
+        <a href="https://policies.google.com/privacy">Google Play Services</a>
+        <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
+        <p><a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a></p>
+        <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
+    ]]></string>
+
+    <string name="privacy_policy_eu_consent_title">Státusz</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Személyre szabott, releváns hirdetések</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Nem személyre szabott, kevésbé releváns hirdetések</string>
+    <string name="privacy_policy_eu_consent_title_unknown">Nincs beállítva</string>
+
+    <string name="privacy_policy_eu_consent_setting">Beállítás</string>
+
+
+    <!-- Custom vibration dialog -->
+    <string name="custom_vibration_title">Rezgés beállítás</string>
+
+
+    <!-- Others -->
+    <string name="ad_attribution">Hirdetés</string>
+    <string name="on">Be</string>
+    <string name="off">Ki</string>
+    <string name="unknown">Ismeretlen</string>
+    <string name="maximum">Maximális</string>
+    <string name="default_">Alapértelmezett</string>
+
+    <string name="action_dismiss">Bezár</string>
+    <string name="action_setting">Beállítás</string>
+    <string name="action_delete">Töröl</string>
+    <string name="action_filter_no">Nincs szűrő</string>
+    <string name="action_save">Ment</string>
+    <string name="action_test">Teszt</string>
+    <string name="action_discard">Elvet</string>
+    <string name="action_keep_editing">Szerk. folytat</string>
+    <string name="action_new">Új</string>
+    <string name="action_start_stop">Indít/Leállít</string>
+
+    <string name="required_value">Megadása kötelező</string>
+
+    <!-- Constante -->
+    <string name="const_time_abbreviation_day">n</string>
+    <string name="const_time_abbreviation_hour">ó</string>
+    <string name="const_time_abbreviation_minute">p</string>
+
+    <string name="const_unit_dbm">dBm</string>
+
+    <plurals name="plural_time_hour">
+        <item quantity="zero">%d óra</item>
+        <item quantity="one">%d óra</item>
+        <item quantity="two">%d óra</item>
+        <item quantity="few">%d óra</item>
+        <item quantity="many">%d óra</item>
+        <item quantity="other">%d óra</item>
+    </plurals>
+
+    <plurals name="plural_time_minute">
+        <item quantity="zero">%d perc</item>
+        <item quantity="one">%d perc</item>
+        <item quantity="two">%d perc</item>
+        <item quantity="few">%d perc</item>
+        <item quantity="many">%d perc</item>
+        <item quantity="other">%d perc</item>
+    </plurals>
+
+    <plurals name="plural_time_second">
+        <item quantity="zero">%d másodperc</item>
+        <item quantity="one">%d másodperc</item>
+        <item quantity="two">%d másodperc</item>
+        <item quantity="few">%d másodperc</item>
+        <item quantity="many">%d másodperc</item>
+        <item quantity="other">%d másodperc</item>
+    </plurals>
+</resources>

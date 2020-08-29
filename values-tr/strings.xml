@@ -1,0 +1,342 @@
+<resources>
+    <string name="app_name">Hello Haylou</string>
+
+    <string name="menu_nav_home">Haylou</string>
+    <string name="menu_nav_notification">Bildirimler</string>
+    <string name="menu_nav_call">Arama</string>
+    <string name="menu_nav_more">Daha</string>
+    <string name="menu_nav_theme">Tema</string>
+    <string name="menu_nav_premium_mode">Premium</string>
+    <string name="menu_nav_feedback">Önerileriniz</string>
+    <string name="menu_nav_privacy_policy">Gizlilik Politikası</string>
+    <string name="menu_nav_settings" type="string">@string/settings_name</string>
+
+    <string name="setting_name">Ayarlar</string>
+    <string name="settings_name">Ayarlar</string>
+    <string name="info_name">Bilgi</string>
+
+<!--    <string name="mi_band_battery">Şarj・şarj zamanı・tahmini kalan</string>-->
+    <string name="device_battery">Şarj・şarj zamanı</string>
+    <string name="device_state_connected_disconnected_last_time">Son bağlanma ve kopma anları</string>
+    <string name="device_mac_address">MAC adresi</string>
+
+    <string name="device_search">Haylou search</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="device_mac_address_invalid">MAC adresi yanlış</string>
+
+    <string name="device_state_connected">Bağlı</string>
+    <string name="device_state_disconnected">Bağlı değil</string>
+    <string name="device_state_bonded">Eşleştirilmiş cihaz</string>
+    <string name="device_state_not_bonded">Eşleştirilmemiş cihaz</string>
+
+
+    <string name="pref_text_title">Altyazılı simge</string>
+    <string name="pref_text_emoticon_title">Emoji dönüştürme</string>
+    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
+    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
+    <string name="pref_text_emoticon_summary_on">Emoji yi emoticon\'a dönüştür</string>
+    <string name="pref_text_uppercase_title">Büyük harfe dönüştürme</string>
+    <string name="pref_text_uppercase_summary_on">Küçük harfleri büyük harfe dönüştür</string>
+    <string name="pref_text_line_separator_title">Line separator replacement</string>
+    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
+    <string name="pref_text_line_separator_value_title">Replacement characters</string>
+
+    <!-- Battery -->
+    <string name="battery_details">Şarj detayları</string>
+
+    <string name="mi_band_battery_settings">Şarj seviyesi uyarı ayarları</string>
+    <string name="mi_band_battery_notification">Düşük batarya seviyesi bildirimi</string>
+    <string name="mi_band_battery_notification_level">Düşük batarya seviyesi</string>
+    <string name="mi_band_battery_notification_repeat_interval">Tekrarlama aralığı</string>
+    <string name="mi_band_battery_notification_shade">Telefonda bildir</string>
+    <string name="mi_band_battery_notification_shade_ongoing">Kalıcı bildirim</string>
+    <string name="mi_band_battery_notification_shade_message">Düşük şarj seviyesi %1$,d%%</string>
+    <string name="mi_band_battery_notification_mi_band">Bileklikte bildir</string>
+    <string name="mi_band_battery_notification_mi_band_message">Pil: %1$,d%%</string>
+
+    <!-- PreferenceScreen -->
+    <string name="pref_connected">Bağlanınca</string>
+
+    <string name="pref_connected_have_notif_interval_title">Hangi aralıkta hatırlatma bildirimi tekrarlansın</string>
+    <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
+
+    <string name="pref_cat_call">Gelen arama</string>
+    <string name="pref_call_summary_on">Haylou Sport uygulamasında gelen çağrı uyarılarını kapatmayı unutmayın, yoksa çift bildirim gelir</string>
+    <string name="pref_call_text_title">Arayan bilgisini göster</string>
+
+    <string name="pref_call_notification_rejected">Reddedilmiş çağrılar içim bildirim göster</string>
+    <string name="pref_call_notification_rejected_message">Reddedilmiş çağrı</string>
+    <string name="pref_call_notification_rejected_action">Ara</string>
+
+    <string name="pref_call_net_text_title">İnternet aramaları bildirimi</string>
+
+    <string name="pref_cat_call_missed">Cevapsız arama</string>
+    <string name="pref_call_missed_title">Cevapsız arama bildirimi</string>
+
+    <string name="pref_call_missed_alert_title">%1$s sinyali</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="pref_battery_phone">Pil</string>
+    <string name="pref_battery_phone_summary">Pil seviyesi düşük veya tam dolu bildirimleri</string>
+    <string name="pref_cat_battery_phone_low">Düşük pil seviyesi</string>
+    <string name="pref_battery_phone_low_title">Düşük pil seviyesi bildirimi</string>
+    <string name="pref_battery_phone_low_level_title">Düşük pil seviyesi</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">Tekrarlama aralığı</string>
+    <string name="pref_cat_battery_phone_full">Tam dolu seviyesi</string>
+    <string name="pref_battery_phone_full_title">Tam dolu pil bildirimleri</string>
+    <string name="pref_battery_phone_full_plugged_ac">Adaptörden doluyor</string>
+    <string name="pref_battery_phone_full_plugged_usb">USB \'den doluyor</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Kablosuz doluyor</string>
+
+    <string name="pref_battery_phone_message">Pil:\n %1$,d%%</string>
+
+    <string name="pref_language">Dil</string>
+    <string name="pref_cat_language">Uygulama</string>
+    <string name="pref_language_title">Aktif dil</string>
+
+    <!-- Snackbar Messages -->
+    <string name="message_enable_bluetooth">Lütfen Bluetooth\'u etkinleştirin ve bilekliği telefona yakın tutun</string>
+    <string name="message_discover_mi_band">Bileklik tespit edilemedi, lütfen tekrar deneyin</string>
+    <string name="message_discovering_mi_band">Bileklik tespit ediliyor (1 dk sürebilir) &#8230;</string>
+    <string name="message_discovered_mi_band">%1$s tespit edildi</string>
+    <string name="message_discovered_no_mi_band">Bileklik tespit edilemedi</string>
+    <string name="message_discovered_not_found_mi_band">Eğer Bileklik tespit edilemez ise, Bluetooth ayarlarını kontrol edin</string>
+    <string name="message_enable_notification_listener_access">Bildirim erişimi verin: Ayarlar/Bildirim/Bildirim erişimi</string>
+    <string name="message_enable_notification_listener_access_4_4">Bildirim erişimi verin: Ayarlar/Güvenlik/Bildirim erişimi</string>
+    <string name="message_open_settings">Ayarlar</string>
+
+    <string name="message_deleted">Silindi</string>
+    <string name="message_undo">Geri al</string>
+
+    <string name="message_app_chooser_no_selected">Bir uygulama seçin</string>
+
+    <string name="message_notification_free_groups">Normal modda en fazla %1$,d grup kullanılabilir</string>
+    <string name="message_notification_free_app">Up to 1 application can be selected in normal mode</string>
+    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in normal mode</string>   <!-- %1$s = 2 or more  -->
+
+    <string name="message_notification_free_text">Up to 1 text can be recorded in normal mode</string>
+
+    <string name="message_time_alarm_mi_band_off">Alarm kapalı</string>
+
+    <string name="message_premium_mode_only">Bu özellik yanlız premium mod ile kullanılabilir</string>
+    <string name="message_internet_error">İnternet bağlantınız yok</string>
+
+    <string name="message_no_data">Veri yok</string>
+
+    <string name="message_new_message">Yeni bir mesaj alındı, telefondan bakın.</string>
+
+    <!-- Dialog -->
+    <string name="dialog_welcome_title">Hoşgeldiniz!</string>
+    <string name="dialog_welcome_message"><![CDATA[Desteklenen Cihazlar:
+    <br>• <b>Haylou Solar (LS05)</b>
+    <br>• <b>Haylou Smart Watch 2 (LS02)</b>
+    <br>• <b>Haylou Smart Watch (LS01)</b>
+    <p>Hello Haylou requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
+    <p>Haylou bulunamazsa, ayrıntılar menüsünde MAC adresini manuel olarak ayarlayabilirsiniz.</p>
+    <p><b>Eğer bağlantı sorunu varsa:</b>
+    <br>- Son uygulamalarda Mi Bandage uygulamasını kilitleyin.
+    <br>- Mi Bandage uygulamasını pil optimizasyonunu Optimizasyon Etme olarak değiştirin.
+    <br>- Bluetooth uygulaması verileri ve ön belleği temizleyin.
+    </p>]]></string>
+
+
+    <!-- Notification Dialog -->
+    <string name="notification_group_nav_setting">Ayarlar</string>
+    <string name="notification_group_nav_filter">Bildirimleri filtrele</string>
+    <string name="notification_group_nav_correction">Düzeltme</string>
+
+    <string name="notification_group_name">Grup İsmi</string>
+    <string name="notification_group_monitoring">Telefondaki bildirimleri izle</string>
+    <string name="notification_group_monitoring_disabled">Telefondaki bildirimleri izleme kapalı (Telefondaki bildirimler gösterilmez)</string>
+    <string name="notification_group_text">Metin görüntüleme</string>
+    <string name="notification_group_alert_title">%1$s bildirimi</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="notification_group_text_app_name">Uygulama Adı</string>
+    <string name="notification_group_text_name">Grup İsmi</string>
+    <string name="notification_group_text_title">Başlık</string>
+    <string name="notification_group_text_content">İçerik</string>
+    <string name="notification_group_text_big_content">Tüm içerik</string>
+    <string name="notification_group_text_content_slice_title">Metin uzunluğu</string>
+    <string name="notification_group_display_time_title">Görüntüleme süresi</string>
+    <string name="notification_group_display_notification_title">Görüntülenen mesajın başlığı</string>
+    <string name="notification_group_immediate">Anında bildirim göster</string>
+    <string name="notification_group_connecting">Telefona bağlanıca bildirim göster</string>
+    <string name="notification_group_reminder">Hatırlatma bildirimi</string>
+    <string name="notification_group_ongoing">Sürekli bildirim yapılsın</string>
+    <string name="notification_group_screen_off">Bildirimi sadece telefon ekranı kapalıysa göster</string>
+    <string name="notification_group_repeat_title">Tekrar sinyalleri</string>
+    <string name="notification_group_wakelock">Telefon ekranını aç</string>
+    <string name="notification_group_grouped_display_title">Grup bildirim ayarları</string>
+    <string name="notification_group_grouped_sort_order_title">Mesajların gösterim sırası</string>
+
+    <string name="notification_group_filter">Bildirimleri filtrele</string>
+    <string name="notification_group_filter_title">Başlık filtresi</string>
+    <string name="notification_group_filter_content">İçerik filtresi</string>
+    <string name="notification_group_filter_regex">Regex</string>
+    <string name="notification_group_filter_hint">Sadece filtreye uyan bildirimler gösterilir (küçük/büyük harf duyarlı)</string>
+    <string name="notification_group_filter_contains">İçinde geçenler</string>
+    <string name="notification_group_filter_not_contains">İçinde geçmeyenler</string>
+
+    <string name="notification_group_sample_sms">SMS</string>
+    <string name="notification_group_sample_facebook">Messenger</string>
+    <string name="notification_group_sample_whatsapp">WhatsApp</string>
+
+    <string name="notification_group_correction">Yazı düzeltme</string>
+    <string name="notification_group_correction_title">Başlık düzeltme</string>
+    <string name="notification_group_correction_content">İçerik düzeltme</string>
+    <string name="notification_group_correction_regex">Regex</string>
+    <string name="notification_group_correction_hint">Büyük / küçük harf duyarlı</string>
+    <string name="notification_group_correction_items">Yazı düzeltildi</string>
+    <string name="notification_group_correction_find">Bul</string>
+    <string name="notification_group_correction_replace">ile değiştir</string>
+
+    <string name="notification_regex_hint">Alfasayısal olmayan karakterler özel bir anlama sahiptir, Regex\'i bilmiyorsanız, işaretlemeyin</string>
+
+    <string name="notification_confirm_close">Değişiklikleri silmek istediğinizden emin misiniz?</string>
+
+    <string name="notification_edit_play_text_title">Bildirim başlığı</string>
+    <string name="notification_edit_play_text_content">Bildirim içeriği:
+    Lorem Ipsum, masaüstü yayıncılık ve basın yayın sektöründe kullanılan taklit yazı bloğu olarak tanımlanır. Lipsum, oluşturulacak şablon ve taslaklarda içerik yerine geçerek yazı bloğunu doldurmak için kullanılır.
+    \n Lipsum, 1500\'lerin başlarında bir matbaacının font model kitabı oluşturmak için, bir yazı tipi kütüphanesindeki harflerin sıralamasını bozarak yerleştirdiğinden bu yana endüstri standardı haline gelmiştir.
+    </string>
+    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> simge: bildirimlerin başlığını/içeriğini göstermek için bu simgeyi seçin.]]></string>
+
+    <!-- MiBandageApp chooser dialog -->
+    <string name="app_chooser">Uygulama seçici</string>
+    <string name="action_search">Ara</string>
+    <string name="action_filter_notification">Bildirim Filtreleri</string>
+
+    <string name="touch_tab_control">Kontrol</string>
+
+    <!-- Theme -->
+    <string name="theme_tab_theme">Tema</string>
+
+    <string name="theme_title">Aktif tema</string>
+    <string name="theme_background_color_title">Arka plan rengi</string>
+
+    <string name="theme_widget_background_color_title">Renk</string>
+
+    <string name="theme_notification_title">Bildirim çubuğunda durum gösterilsin</string>
+
+    <string name="theme_cat_color_setting">Color setting</string>
+
+
+    <!-- Premium mode -->
+    <string name="purchase_policy_title">Premium şartları ve koşulları</string>
+    <string name="purchase_policy"><![CDATA[
+        <p>• Uygulamayı test ettim ve düzgün çalışıyor.</p>
+        <p>• Hatalar, yazılımdaki değişikliklerden kaynaklanan yazılım hataları, donanım ortamı veya diğer uygulamaları kullanarak tazminat veya geri ödeme talep edemediğimin farkındayım.</p>
+        <p>• Tüm satışlar kesindir ve geri ödeme yapılamaz (Google geri ödeme politikası hariç).</p>
+        <p>• Herhangi bir garanti içermez.</p>
+        <br><p><i>Satınalma işlemi sonunda uygulamayı tekrar başlatmalısınız.</i></p>
+    ]]></string>
+
+    <!--<string name="purchase_price">Fiyat:</string>-->
+    <string name="purchase_agree">Hükümler ve koşulları onaylıyorum.</string>
+    <string name="purchase_order_id">Satış No:</string>
+    <string name="purchase_order_id_help">Adresinden kopyala:
+        \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <string name="purchase_button_purchase">Satınal</string>
+
+    <!-- Feedback -->
+    <string name="action_log_notification">Kayıt</string>
+
+    <string name="feedback_google_play_title">Uygulamayı değerlendir</string>
+    <string name="feedback_request_feature_title">İstekleriniz, hata bildirimleri</string>
+    <string name="feedback_request_feature_summary">mailiniz otomatik işlenir, yanıt alamayabilirsiniz</string>
+    <string name="feedback_translation_title">Hello Haylou çeviri</string>
+    <string name="feedback_translation_title_summary">Çeviriye katkıda bulunun</string>
+
+    <!-- Privacy policy -->
+    <string name="privacy_policy_tab_privacy_policy">Gizlilik Politikası</string>
+    <string name="privacy_policy_tab_eu_consent">AB kullanıcı izni</string>
+
+    <string name="privacy_policy_collect_title">Topladığımız bilgiler</string>
+    <string name="privacy_policy_collect"><![CDATA[
+        <p>• Sadece anonim bilgileri topluyoruz.</p>
+        <p>• Uygulama düzeyinde, kullandığınız hizmetler ve bunları nasıl kullandığınız hakkında bilgi toplarız (Google Firebase Platform).</p>
+        <p>• Uygulama düzeyinde, iyileştirmeler sağlamak için hatalar, hatalar ve çökmeler gibi uygulama düzeyinde bilgi toplarız (Google Firebase Platformu).</p>
+        <p>• Google Firebase Platformu, isimsiz olarak bilgi toplar. Bireysel kullanıcıları tanımlamaksızın eğilimleri rapor eder.</p>
+        • Herhangi bir veriyi diğer şirket ve kuruluşlarla paylaşmayız.
+    ]]></string>
+
+    <string name="privacy_policy_not_collect_title">Toplamadığımız bilgiler</string>
+    <string name="privacy_policy_not_collect"><![CDATA[
+        <p>• Sizinle ilgili kişisel olarak tanımlanabilir bilgiler toplamıyoruz. Diğer bir deyişle, adınız, adresiniz, telefon numaranız, e-posta adresiniz, IP adresiniz veya MAC adresiniz gibi bilgileri toplamıyoruz.</p>
+        • Kişisel sağlık verilerini, kişileri ve telefon bildirim metnini toplamıyoruz.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">3. Parti Servis Sağlayıcıları Güvenlik Politikası</string>
+    <string name="privacy_policy_links"><![CDATA[
+        <a href="https://policies.google.com/privacy">Google Play Services</a>
+        <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
+        <p><a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a></p>
+        <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
+    ]]></string>
+
+    <string name="privacy_policy_eu_consent_title">Durum</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Kişiselleştirilmiş, alakalı reklamlar</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Daha az alakalı olmayan kişiselleştirilmiş reklamlar</string>
+    <string name="privacy_policy_eu_consent_title_unknown">Bilinmeyen</string>
+
+    <string name="privacy_policy_eu_consent_setting">Ayarlar</string>
+
+
+    <!-- Custom vibration dialog -->
+    <string name="custom_vibration_title">Titreşim ayarları</string>
+
+
+    <!-- Others -->
+    <string name="ad_attribution">Ad</string>
+    <string name="on">Açık</string>
+    <string name="off">Kapalı</string>
+    <string name="unknown">Bilinmeyen</string>
+    <string name="maximum">Maksimum</string>
+    <string name="default_">Varsayılan</string>
+
+    <string name="action_dismiss">Vazgeç</string>
+    <string name="action_setting">Ayarlar</string>
+    <string name="action_delete">Sil</string>
+    <string name="action_filter_no">Tümü</string>
+    <string name="action_save">Kaydet</string>
+    <string name="action_test">Test</string>
+    <string name="action_discard">Sil</string>
+    <string name="action_keep_editing">Düzenlemeye devam et</string>
+    <string name="action_new">Yeni</string>
+    <string name="action_start_stop">Başla/Dur</string>
+
+    <string name="required_value">Gerekli</string>
+
+    <!-- Constante -->
+    <string name="const_time_abbreviation_day">g</string>
+    <string name="const_time_abbreviation_hour">s</string>
+    <string name="const_time_abbreviation_minute">dk</string>
+
+    <string name="const_unit_dbm">dBm</string>
+
+    <plurals name="plural_time_hour">
+        <item quantity="zero">%d saat</item>
+        <item quantity="one">%d saat</item>
+        <item quantity="two">%d saat</item>
+        <item quantity="few">%d saat</item>
+        <item quantity="many">%d saat</item>
+        <item quantity="other">%d saat</item>
+    </plurals>
+
+    <plurals name="plural_time_minute">
+        <item quantity="zero">%d dakika</item>
+        <item quantity="one">%d dakika</item>
+        <item quantity="two">%d dakika</item>
+        <item quantity="few">%d dakika</item>
+        <item quantity="many">%d dakika</item>
+        <item quantity="other">%d dakika</item>
+    </plurals>
+
+    <plurals name="plural_time_second">
+        <item quantity="zero">%d saniye</item>
+        <item quantity="one">%d saniye</item>
+        <item quantity="two">%d saniye</item>
+        <item quantity="few">%d saniye</item>
+        <item quantity="many">%d saniye</item>
+        <item quantity="other">%d saniye</item>
+    </plurals>
+</resources>

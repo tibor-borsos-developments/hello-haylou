@@ -1,0 +1,342 @@
+<resources>
+    <string name="app_name">Hello Haylou</string>
+
+    <string name="menu_nav_home">Haylou</string>
+    <string name="menu_nav_notification">通知</string>
+    <string name="menu_nav_call">呼叫</string>
+    <string name="menu_nav_more">更多</string>
+    <string name="menu_nav_theme">主题</string>
+    <string name="menu_nav_premium_mode">高级模式</string>
+    <string name="menu_nav_feedback">反馈</string>
+    <string name="menu_nav_privacy_policy">隐私权政策</string>
+    <string name="menu_nav_settings" type="string">@string/settings_name</string>
+
+    <string name="setting_name">设置</string>
+    <string name="settings_name">设置</string>
+    <string name="info_name">信息</string>
+
+<!--    <string name="mi_band_battery">电池电量・最后充电时间・预计剩余时间</string>-->
+    <string name="device_battery">电池电量・最后充电时间</string>
+    <string name="device_state_connected_disconnected_last_time">上次连接和断开时间</string>
+    <string name="device_mac_address">MAC 地址</string>
+
+    <string name="device_search">Haylou search</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="device_mac_address_invalid">MAC 地址无效</string>
+
+    <string name="device_state_connected">已连接</string>
+    <string name="device_state_disconnected">断开连接</string>
+    <string name="device_state_bonded">配对设备</string>
+    <string name="device_state_not_bonded">未配对设备</string>
+
+
+    <string name="pref_text_title">文字图标</string>
+    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
+    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
+    <string name="pref_text_emoticon_title">Emoji 转换</string>
+    <string name="pref_text_emoticon_summary_on">将 Emoji 转化为文字</string>
+    <string name="pref_text_uppercase_title">大写字母转换</string>
+    <string name="pref_text_uppercase_summary_on">将小写字母转化为大写字母</string>
+    <string name="pref_text_line_separator_title">Line separator replacement</string>
+    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
+    <string name="pref_text_line_separator_value_title">Replacement characters</string>
+
+    <!-- Battery -->
+    <string name="battery_details">电池使用情况</string>
+
+    <string name="mi_band_battery_settings">电池设置</string>
+    <string name="mi_band_battery_notification">电量不足通知</string>
+    <string name="mi_band_battery_notification_level">电量阈值</string>
+    <string name="mi_band_battery_notification_repeat_interval">重复间隔</string>
+    <string name="mi_band_battery_notification_shade">在手机上通知</string>
+    <string name="mi_band_battery_notification_shade_ongoing">持续(不断的)通知</string>
+    <string name="mi_band_battery_notification_shade_message">电池电量低于 %1$,d%%</string>
+    <string name="mi_band_battery_notification_mi_band">在手环上通知</string>
+    <string name="mi_band_battery_notification_mi_band_message">电量: %1$,d%%</string>
+
+    <!-- PreferenceScreen -->
+    <string name="pref_connected">连接</string>
+
+    <string name="pref_connected_have_notif_interval_title">提醒重复间隔</string>
+    <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
+
+    <string name="pref_cat_call">来电</string>
+    <string name="pref_call_summary_on">开 (不要忘记关闭 Haylou Sport 里的提醒)</string>
+    <string name="pref_call_text_title">来电显示</string>
+
+    <string name="pref_call_notification_rejected">Show notification about rejected call</string>
+    <string name="pref_call_notification_rejected_message">Rejected call</string>
+    <string name="pref_call_notification_rejected_action">Call</string>
+
+    <string name="pref_call_net_text_title">网络电话呼入</string>
+
+    <string name="pref_cat_call_missed">未接来电</string>
+    <string name="pref_call_missed_title">未接来电通知</string>
+
+    <string name="pref_call_missed_alert_title">%1$s 信号</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="pref_battery_phone">手机电量</string>
+    <string name="pref_battery_phone_summary">低电量或充满电时提示</string>
+    <string name="pref_cat_battery_phone_low">低电量</string>
+    <string name="pref_battery_phone_low_title">电量不足通知</string>
+    <string name="pref_battery_phone_low_level_title">电量阈值</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">重复间隔</string>
+    <string name="pref_cat_battery_phone_full">充满电</string>
+    <string name="pref_battery_phone_full_title">电池已满提示</string>
+    <string name="pref_battery_phone_full_plugged_ac">交流电源</string>
+    <string name="pref_battery_phone_full_plugged_usb">USB 充电</string>
+    <string name="pref_battery_phone_full_plugged_wireless">无线充电</string>
+
+    <string name="pref_battery_phone_message">手机电量:\n %1$,d%%</string>
+
+    <string name="pref_language">语言</string>
+    <string name="pref_cat_language">应用</string>
+    <string name="pref_language_title">语言</string>
+
+    <!-- Snackbar Messages -->
+    <string name="message_enable_bluetooth">请打开蓝牙并将手环靠近手机</string>
+    <string name="message_discover_mi_band">没有设置手环，请寻找</string>
+    <string name="message_discovering_mi_band">正在查找手环(可能需要1分钟) &#8230;</string>
+    <string name="message_discovered_mi_band">%1$s 连接成功</string>
+    <string name="message_discovered_no_mi_band">连接失败</string>
+    <string name="message_discovered_not_found_mi_band">如果找不到手环请打开: 小米运动/我的/小米手环/蓝牙广播 或在手机蓝牙里设置</string>
+    <string name="message_enable_notification_listener_access">启用通知访问: 设置/通知/通知访问</string>
+    <string name="message_enable_notification_listener_access_4_4">启用通知访问: 设置/通知/通知访问</string>
+    <string name="message_open_settings">设置</string>
+
+    <string name="message_deleted">删除</string>
+    <string name="message_undo">撤销</string>
+
+    <string name="message_app_chooser_no_selected">选择应用</string>
+
+    <string name="message_notification_free_groups">最多 %1$,d 组可以在普通模式下使用</string>
+    <string name="message_notification_free_app">Up to 1 application can be selected in normal mode</string>
+    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in normal mode</string>   <!-- %1$s = 2 or more  -->
+
+    <string name="message_notification_free_text">Up to 1 text can be recorded in normal mode</string>
+
+    <string name="message_time_alarm_mi_band_off">关闭闹钟</string>
+
+    <string name="message_premium_mode_only">此功能仅在高级模式可以</string>
+    <string name="message_internet_error">没有网络连接</string>
+
+    <string name="message_no_data">没有可用的数据</string>
+
+    <string name="message_new_message">收到一条新信息，在手机上查看.</string>
+
+    <!-- Dialog -->
+    <string name="dialog_welcome_title">欢迎!</string>
+    <string name="dialog_welcome_message"><![CDATA[Supported devices:
+    <br>• <b>Haylou Solar (LS05)</b>
+    <br>• <b>Haylou Smart Watch 2 (LS02)</b>
+    <br>• <b>Haylou Smart Watch (LS01)</b>
+    <p>Hello Haylou requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
+    <p>如果使用多个手环应用,它们会互相干扰，请关闭其他应用.</p>
+    <p>如果未找到手环,你可以手动设置 MAC 地址(MAC 地址可在 小米运动/我的/手环 中查看).</p>
+    <p><b>如果你有连接问题:</b>
+    <br>- 查看运用内 <i>设置/诊断</i> 选型
+    <br>- 最近的应用程序界面:锁定 Mi Bandage(下拉该应用并点击锁的图标).
+    <br>- 手机电池设置/电池优化: 设置 Mi Bandage 应用为未优化.
+    </p>]]></string>
+
+
+    <!-- Notification Dialog -->
+    <string name="notification_group_nav_setting">设置</string>
+    <string name="notification_group_nav_filter">通知过滤</string>
+    <string name="notification_group_nav_correction">通知修改</string>
+
+    <string name="notification_group_name">名称</string>
+    <string name="notification_group_monitoring">监控通知</string>
+    <string name="notification_group_monitoring_disabled">禁用通知(不显示应用通知)</string>
+    <string name="notification_group_alert_title">%1$s 信号</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="notification_group_text">文字显示</string>
+    <string name="notification_group_text_app_name">应用名称</string>
+    <string name="notification_group_text_name">名称</string>
+    <string name="notification_group_text_title">标题</string>
+    <string name="notification_group_text_content">内容</string>
+    <string name="notification_group_text_big_content">全部内容</string>
+    <string name="notification_group_text_content_slice_title">文字长度</string>
+    <string name="notification_group_display_time_title">显示时间</string>
+    <string name="notification_group_display_notification_title">显示通知</string>
+    <string name="notification_group_immediate">收到通知时立即</string>
+    <string name="notification_group_connecting">连接到电话时</string>
+    <string name="notification_group_reminder">提醒信号</string>
+    <string name="notification_group_ongoing">持续(不断的)通知</string>
+    <string name="notification_group_screen_off">仅在熄屏时通知</string>
+    <string name="notification_group_repeat_title">重复信号</string>
+    <string name="notification_group_wakelock">唤醒手机屏幕</string>
+    <string name="notification_group_grouped_display_title">Display setting for the group notifications</string>
+    <string name="notification_group_grouped_sort_order_title">Sort order for the group notifications</string>
+
+    <string name="notification_group_filter">通知过滤</string>
+    <string name="notification_group_filter_title">标题过滤器</string>
+    <string name="notification_group_filter_content">内容过滤器</string>
+    <string name="notification_group_filter_regex">正则表达式</string>
+    <string name="notification_group_filter_hint">仅通知标题或内容(不区分大小写)</string>
+    <string name="notification_group_filter_contains">包含任何短语</string>
+    <string name="notification_group_filter_not_contains">包含这些短语</string>
+
+    <string name="notification_group_sample_sms">SMS</string>
+    <string name="notification_group_sample_facebook">Messenger</string>
+    <string name="notification_group_sample_whatsapp">WhatsApp</string>
+
+    <string name="notification_group_correction">文本修改</string>
+    <string name="notification_group_correction_title">标题修改</string>
+    <string name="notification_group_correction_content">内容修改</string>
+    <string name="notification_group_correction_regex">正则表达式</string>
+    <string name="notification_group_correction_hint">事件延迟</string>
+    <string name="notification_group_correction_items">需要修改的文本</string>
+    <string name="notification_group_correction_find">查找</string>
+    <string name="notification_group_correction_replace">替换</string>
+
+    <string name="notification_regex_hint">如果你不懂正则表达式请不要勾选</string>
+
+    <string name="notification_confirm_close">你确定要放弃更改吗?</string>
+
+    <string name="notification_edit_play_text_title">通知标题</string>
+    <string name="notification_edit_play_text_content">通知正文:
+    北京市，简称“京”，是中華人民共和國首都、直辖市、中国国家中心城市和京津冀城市群的重要组成部分，是中國的政治、文化、科技创新和国际交往中心，具有重要的国际影响力.
+    </string>
+    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> 图标：选择此图标来显示通知标题/内容.]]></string>
+
+    <!-- MiBandageApp chooser dialog -->
+    <string name="app_chooser">选择应用</string>
+    <string name="action_search">搜索</string>
+    <string name="action_filter_notification">通知过滤器</string>
+
+    <string name="touch_tab_control">控制</string>
+
+    <!-- Theme -->
+    <string name="theme_tab_theme">主题</string>
+
+    <string name="theme_title">选择主题</string>
+    <string name="theme_background_color_title">背景颜色</string>
+
+    <string name="theme_widget_background_color_title">颜色</string>
+
+    <string name="theme_notification_title">在通知栏显示状态</string>
+
+    <string name="theme_cat_color_setting">Color setting</string>
+
+
+    <!-- Premium mode -->
+    <string name="purchase_policy_title">高级模式的条款和条件</string>
+    <string name="purchase_policy"><![CDATA[
+        <p>• 我测试应用能正常工作.</p>
+        <p>• 由于软件硬件或其他应用等使用环境引起的变化可能会导致的错误和问题，我不会要求退款或赔偿.</p>
+        <p>• 购买后无法退款(google退款政策除外).</p>
+        <p>• 不包括保修.</p>
+        <br><p><i>购买后你可能需要重启应用.</i></p>
+    ]]></string>
+
+    <!--<string name="purchase_price">价钱:</string>-->
+    <string name="purchase_agree">我同意条款和条件.</string>
+    <string name="purchase_order_id">订单ID</string>
+    <string name="purchase_order_id_help">复制自:
+        \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <string name="purchase_button_purchase">购买</string>
+
+    <!-- Feedback -->
+    <string name="action_log_notification">通知日志</string>
+
+    <string name="feedback_google_play_title">为此应用评分</string>
+    <string name="feedback_request_feature_title">功能请求及错误报告</string>
+    <string name="feedback_request_feature_summary">邮件会自动处理因此你可能不会收到回信</string>
+    <string name="feedback_translation_title">Hello Haylou 翻译</string>
+    <string name="feedback_translation_title_summary">请帮助我们翻译</string>
+
+    <!-- Privacy policy -->
+    <string name="privacy_policy_tab_privacy_policy">隐私权政策</string>
+    <string name="privacy_policy_tab_eu_consent">欧盟用户许可</string>
+
+    <string name="privacy_policy_collect_title">我们收集以下信息</string>
+    <string name="privacy_policy_collect"><![CDATA[
+        <p>• 我们只匿名收集信息.</p>
+        <p>• 我们收集使用了那些功能以及如何使用它们 (通过 Google Firebase Platform).</p>
+        <p>• 我们收集应用的 bug,错误和崩溃信息，以改进应用体验 (通过 Google Firebase Platform).</p>
+        <p>• Google Firebase Platform 将会收集匿名信息.这些信息不包括可以可以识别用户的数据.</p>
+        • 我们不会和其他公司或组织共享这些信息.
+    ]]></string>
+
+    <string name="privacy_policy_not_collect_title">我们不收集以下信息</string>
+    <string name="privacy_policy_not_collect"><![CDATA[
+        <p>• 我们不会收集你的个人信息.换句话说,我们不会收集你的名字,住址,手机号,邮箱地址,IP 地址和 MAC 地址.</p>
+        • 我们不会收集你的个人健康数据,短信和手机通知内容.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">Privacy policy of third party service providers</string>
+    <string name="privacy_policy_links"><![CDATA[
+        <a href="https://policies.google.com/privacy">Google Play Services</a>
+        <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
+        <p><a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a></p>
+        <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
+    ]]></string>
+
+    <string name="privacy_policy_eu_consent_title">状态</string>
+    <string name="privacy_policy_eu_consent_title_personalized">关联个人的广告</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">不关联个人的广告</string>
+    <string name="privacy_policy_eu_consent_title_unknown">未知</string>
+
+    <string name="privacy_policy_eu_consent_setting">设置</string>
+
+
+    <!-- Custom vibration dialog -->
+    <string name="custom_vibration_title">震动设置</string>
+
+
+    <!-- Others -->
+    <string name="ad_attribution">Ad</string>
+    <string name="on">开启</string>
+    <string name="off">关闭</string>
+    <string name="unknown">未知</string>
+    <string name="maximum">最大值</string>
+    <string name="default_">默认</string>
+
+    <string name="action_dismiss">关闭</string>
+    <string name="action_setting">设置</string>
+    <string name="action_delete">删除</string>
+    <string name="action_filter_no">无过滤器</string>
+    <string name="action_save">保存</string>
+    <string name="action_test">测试</string>
+    <string name="action_discard">放弃</string>
+    <string name="action_keep_editing">继续编辑</string>
+    <string name="action_new">New</string>
+    <string name="action_start_stop">Start/Stop</string>
+
+    <string name="required_value">必填</string>
+
+    <!-- Constante -->
+    <string name="const_time_abbreviation_day">d</string>
+    <string name="const_time_abbreviation_hour">h</string>
+    <string name="const_time_abbreviation_minute">m</string>
+
+    <string name="const_unit_dbm">dBm</string>
+
+    <plurals name="plural_time_hour">
+        <item quantity="zero">%d 小时</item>
+        <item quantity="one">%d 小时</item>
+        <item quantity="two">%d 小时</item>
+        <item quantity="few">%d 小时</item>
+        <item quantity="many">%d 小时</item>
+        <item quantity="other">%d 小时</item>
+    </plurals>
+
+    <plurals name="plural_time_minute">
+        <item quantity="zero">%d 分钟</item>
+        <item quantity="one">%d 分钟</item>
+        <item quantity="two">%d 分钟</item>
+        <item quantity="few">%d 分钟</item>
+        <item quantity="many">%d 分钟</item>
+        <item quantity="other">%d 分钟</item>
+    </plurals>
+
+    <plurals name="plural_time_second">
+        <item quantity="zero">%d 秒</item>
+        <item quantity="one">%d 秒</item>
+        <item quantity="two">%d 秒</item>
+        <item quantity="few">%d 秒</item>
+        <item quantity="many">%d 秒</item>
+        <item quantity="other">%d 秒</item>
+    </plurals>
+</resources>

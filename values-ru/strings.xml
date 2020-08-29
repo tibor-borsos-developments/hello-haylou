@@ -1,0 +1,341 @@
+<resources>
+    <string name="app_name">Hello Haylou</string>
+
+    <string name="menu_nav_home">Haylou</string>
+    <string name="menu_nav_notification">Уведомления</string>
+    <string name="menu_nav_call">Вызов</string>
+    <string name="menu_nav_more">Больше</string>
+    <string name="menu_nav_theme">Настройки темы</string>
+    <string name="menu_nav_premium_mode">Премиум</string>
+    <string name="menu_nav_feedback">Обратная связь</string>
+    <string name="menu_nav_privacy_policy">Политика конфиденциальности</string>
+    <string name="menu_nav_settings" type="string">@string/settings_name</string>
+
+    <string name="setting_name">Настройки</string>
+    <string name="settings_name">Настройки</string>
+    <string name="info_name">Информация</string>
+
+<!--    <string name="mi_band_battery">Уровень заряда・время последней зарядки・ожидаемое время работы</string>-->
+    <string name="device_battery">Уровень заряда・время последней зарядки</string>
+    <string name="device_state_connected_disconnected_last_time">Время последнего соединения и его разрыва</string>
+    <string name="device_mac_address">MAC адрес</string>
+
+    <string name="device_search">Haylou search</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="device_mac_address_invalid">Неверный MAC адрес</string>
+
+    <string name="device_state_connected">Подключен</string>
+    <string name="device_state_disconnected">Отключен</string>
+    <string name="device_state_bonded">Соединённое устройство</string>
+    <string name="device_state_not_bonded">Не соединённое устройство</string>
+
+    <string name="pref_text_title">Настройки текста</string>
+    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
+    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
+    <string name="pref_text_emoticon_title">Преобразование Emoji</string>
+    <string name="pref_text_emoticon_summary_on">Преобразование emoji в emoticon</string>
+    <string name="pref_text_uppercase_title">Преобразование в прописные</string>
+    <string name="pref_text_uppercase_summary_on">Преобразование нижнего регистра в верхний</string>
+    <string name="pref_text_line_separator_title">Line separator replacement</string>
+    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
+    <string name="pref_text_line_separator_value_title">Replacement characters</string>
+
+    <!-- Battery -->
+    <string name="battery_details">История батареи</string>
+
+    <string name="mi_band_battery_settings">Настройки батареи</string>
+    <string name="mi_band_battery_notification">Уведомление о низком заряде</string>
+    <string name="mi_band_battery_notification_level">Низкий уровень</string>
+    <string name="mi_band_battery_notification_repeat_interval">Периодичность</string>
+    <string name="mi_band_battery_notification_shade">Уведомление на устройстве</string>
+    <string name="mi_band_battery_notification_shade_ongoing">Постоянное уведомление</string>
+    <string name="mi_band_battery_notification_shade_message">Низкий заряд %1$,d%%</string>
+    <string name="mi_band_battery_notification_mi_band">Уведомление на браслете</string>
+    <string name="mi_band_battery_notification_mi_band_message">Батарея: %1$,d%%</string>
+
+    <!-- PreferenceScreen -->
+    <string name="pref_connected">Настройки соединения</string>
+
+    <string name="pref_connected_have_notif_interval_title">Интервал повторения уведомлений</string>
+    <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
+
+    <string name="pref_cat_call">Входящий звонок</string>
+    <string name="pref_call_summary_on">Включено (не забудьте отключить эти уведомления в Haylou Sport)</string>
+    <string name="pref_call_text_title">Показывать звонящего</string>
+
+    <string name="pref_call_notification_rejected">Уведомление о сброшенном звонке</string>
+    <string name="pref_call_notification_rejected_message">Сброшенный звонок</string>
+    <string name="pref_call_notification_rejected_action">Звонок</string>
+
+    <string name="pref_call_net_text_title">Входящий интернет-вызов</string>
+
+    <string name="pref_cat_call_missed">Пропущенный звонок</string>
+    <string name="pref_call_missed_title">Уведомление о пропущенном звонке</string>
+
+    <string name="pref_call_missed_alert_title">Уведомление %1$s</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="pref_battery_phone">Аккумулятор устройства</string>
+    <string name="pref_battery_phone_summary">Уведомления низкого и полного заряда</string>
+    <string name="pref_cat_battery_phone_low">Низкий уровень заряда</string>
+    <string name="pref_battery_phone_low_title">Уведомление о низком заряде</string>
+    <string name="pref_battery_phone_low_level_title">Низкий уровень</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">Периодичность</string>
+    <string name="pref_cat_battery_phone_full">Аккумулятор заряжен</string>
+    <string name="pref_battery_phone_full_title">Уведомление о полном заряде</string>
+    <string name="pref_battery_phone_full_plugged_ac">Зарядка от сети</string>
+    <string name="pref_battery_phone_full_plugged_usb">Зарядка от USB</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Беспроводная зарядка</string>
+
+    <string name="pref_battery_phone_message">Батарея телефона:\n %1$,d%%</string>
+
+    <string name="pref_language">Язык</string>
+    <string name="pref_cat_language">Приложение</string>
+    <string name="pref_language_title">Язык</string>
+
+    <!-- Snackbar Messages -->
+    <string name="message_enable_bluetooth">Пожалуйста, включите Bluetooth и поднесите браслет ближе к устройству</string>
+    <string name="message_discover_mi_band">Браслет не выбран, пожалуйста, подключите его</string>
+    <string name="message_discovering_mi_band">Поиск браслета (это может занять около минуты) &#8230;</string>
+    <string name="message_discovered_mi_band">%1$s подключён</string>
+    <string name="message_discovered_no_mi_band">не подключён</string>
+    <string name="message_discovered_not_found_mi_band">Если браслет не обнаружен, включите: Haylou Sport/Уведомления/Видимость или свяжите через настройки Bluetooth устройства</string>
+    <string name="message_enable_notification_listener_access">Разрешите доступ к уведомлениям</string>
+    <string name="message_enable_notification_listener_access_4_4">Разрешите доступ к уведомлениям</string>
+    <string name="message_open_settings">Настройки</string>
+
+    <string name="message_deleted">Удалено</string>
+    <string name="message_undo">Отменить</string>
+
+    <string name="message_app_chooser_no_selected">Выберете приложение</string>
+
+    <string name="message_notification_free_groups">Максимум %1$,d групп</string>
+    <string name="message_notification_free_app">Up to 1 application can be selected in normal mode</string>
+    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in normal mode</string>   <!-- %1$s = 2 or more  -->
+
+    <string name="message_notification_free_text">Up to 1 text can be recorded in normal mode</string>
+
+    <string name="message_time_alarm_mi_band_off">Будильник выключен</string>
+
+    <string name="message_premium_mode_only">Эта функция доступна только в премиуме</string>
+    <string name="message_internet_error">Нет подключения к Интернету</string>
+
+    <string name="message_no_data">Нет данных</string>
+
+    <string name="message_new_message">Получено новое сообщение, просмотрите на телефоне.</string>
+
+    <!-- Dialog -->
+    <string name="dialog_welcome_title">Добро пожаловать!</string>
+    <string name="dialog_welcome_message"><![CDATA[Поддерживаемые устройства:
+    <br>• <b>Haylou Solar (LS05)</b>
+    <br>• <b>Haylou Smart Watch 2 (LS02)</b>
+    <br>• <b>Haylou Smart Watch (LS01)</b>
+    <p>Hello Haylou requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
+    <p>Если браслет не обнаружен, вы можете установить MAC вручную в настройках.</p>
+    <p><b>При проблемах с подключением:</b>
+    <br>- Закрепите Mi Bandage в окне недавних приложений (потяните приложение вниз и нажмите замок)
+    <br>- Отключите для Mi Bandage оптимизацию энергопотребления в настройках аккумулятора/энергосбережения
+    <br>- Приложения: очистите данные Bluetooth Share и других приложений \'Bluetooth\'
+    </p>]]></string>
+
+
+    <!-- Notification Dialog -->
+    <string name="notification_group_nav_setting">Настройки</string>
+    <string name="notification_group_nav_filter">Фильтр</string>
+    <string name="notification_group_nav_correction">Преобразование</string>
+
+    <string name="notification_group_name">Название группы</string>
+    <string name="notification_group_monitoring">Управлять уведомлениями</string>
+    <string name="notification_group_monitoring_disabled">Исключить уведомления (не отображать уведомления приложений)</string>
+    <string name="notification_group_text">Отображение текста</string>
+    <string name="notification_group_alert_title">Уведомления %1$s</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="notification_group_text_app_name">Название приложения</string>
+    <string name="notification_group_text_name">Название группы</string>
+    <string name="notification_group_text_title">Заголовок</string>
+    <string name="notification_group_text_content">Содержимое</string>
+    <string name="notification_group_text_big_content">Целиком</string>
+    <string name="notification_group_text_content_slice_title">Длина текста</string>
+    <string name="notification_group_display_time_title">Время отображения</string>
+    <string name="notification_group_display_notification_title">Отображение уведомления</string>
+    <string name="notification_group_immediate">Мгновенное уведомление</string>
+    <string name="notification_group_connecting">При подключении к устройству</string>
+    <string name="notification_group_reminder">Периодические уведомления</string>
+    <string name="notification_group_ongoing">Постоянные уведомления</string>
+    <string name="notification_group_screen_off">Уведомлять только при выключенном экране</string>
+    <string name="notification_group_repeat_title">Повтор сигналов</string>
+    <string name="notification_group_wakelock">Активировать экран устройства</string>
+    <string name="notification_group_grouped_display_title">Отображение групп уведомлений</string>
+    <string name="notification_group_grouped_sort_order_title">Порядок уведомлений в группе</string>
+
+    <string name="notification_group_filter">Фильтр</string>
+    <string name="notification_group_filter_title">Фильтровать заголовок</string>
+    <string name="notification_group_filter_content">Фильтровать содержимое</string>
+    <string name="notification_group_filter_regex">Регулярные выражения</string>
+    <string name="notification_group_filter_hint">Уведомлять, если в уведомлении (без учёта регистра)</string>
+    <string name="notification_group_filter_contains">Есть любая фраза</string>
+    <string name="notification_group_filter_not_contains">Нет ни одной фразы</string>
+
+    <string name="notification_group_sample_sms">SMS</string>
+    <string name="notification_group_sample_facebook">Messenger</string>
+    <string name="notification_group_sample_whatsapp">WhatsApp</string>
+
+    <string name="notification_group_correction">Преобразование текста</string>
+    <string name="notification_group_correction_title">Изменение заголовка</string>
+    <string name="notification_group_correction_content">Изменение содержимого</string>
+    <string name="notification_group_correction_regex">Регулярные выражения</string>
+    <string name="notification_group_correction_hint">Без учёта регистра</string>
+    <string name="notification_group_correction_items">Текст, требующий изменений</string>
+    <string name="notification_group_correction_find">Найти</string>
+    <string name="notification_group_correction_replace">Заменить</string>
+
+    <string name="notification_regex_hint">Не буквенно-цифровые символы будут иметь специальное значение, если вы не знаете, что это, не включайте</string>
+
+    <string name="notification_confirm_close">Вы действительно хотите отменить изменения?</string>
+
+    <string name="notification_edit_play_text_title">Заголовок уведомл.</string>
+    <string name="notification_edit_play_text_content">Текст уведомления:
+    Lorem ipsum - классическая панграмма, условный, зачастую бессмысленный текст-заполнитель, вставляемый в макет страницы. Используется в качестве заполнителя по крайней мере с XVI века.
+        \nЯвляется искажённым отрывком из философского трактата Марка Туллия Цицерона «О пределах добра и зла», написанного в 45 году до н. э. на латинском языке, обнаружение сходства атрибутируется Ричарду МакКлинтоку.
+    </string>
+    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT">: выберите эту иконку, для отображения заголовка/текста уведомлений.]]></string>
+
+    <!-- MiBandageApp chooser dialog -->
+    <string name="app_chooser">Выбор приложения</string>
+    <string name="action_search">Поиск</string>
+    <string name="action_filter_notification">Активные сейчас уведомления</string>
+
+    <string name="touch_tab_control">Контроль</string>
+
+    <!-- Theme -->
+    <string name="theme_tab_theme">Тема</string>
+
+    <string name="theme_title">Выберите тему</string>
+    <string name="theme_background_color_title">Цвет фона</string>
+
+    <string name="theme_widget_background_color_title">Цвет</string>
+
+    <string name="theme_notification_title">Отображение статуса подключения в уведомлении</string>
+
+    <string name="theme_cat_color_setting">Color setting</string>
+
+
+    <!-- Premium mode -->
+    <string name="purchase_policy_title">Правила и условия премиума</string>
+    <string name="purchase_policy"><![CDATA[
+        <p>• Вы протестировали приложение, оно работает правильно.</p>
+        <p>• Вы предупреждены, что не можете требовать возмещения средств из-за багов, ошибок приложения, вызванных изменениями в приложении, вашими устройствами или другими приложениями.</p>
+        <p>• Все покупки окончательны и возврату не подлежат (кроме возврата от Google Play).</p>
+        <p>• Гарантия не предоставляется.</p>
+        <br><p><i>После покупки перезагрузите приложение.</i></p>
+    ]]></string>
+
+    <!--<string name="purchase_price">Цена:</string>-->
+    <string name="purchase_agree">Я согласен с правилами и условиями.</string>
+    <string name="purchase_order_id">ID заказа</string>
+    <string name="purchase_order_id_help">Скопируйте из:
+        \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <string name="purchase_button_purchase">Приобрести</string>
+
+    <!-- Feedback -->
+    <string name="action_log_notification">Логировать уведомления</string>
+
+    <string name="feedback_google_play_title">Оцените приложение</string>
+    <string name="feedback_request_feature_title">Запрос функций, отправка ошибок</string>
+    <string name="feedback_request_feature_summary">Автоматическая обработка электронной почты, без ответа (Английский настоятельно рекомендуется)</string>
+    <string name="feedback_translation_title">Перевод Hello Haylou</string>
+    <string name="feedback_translation_title_summary">Можете помочь с переводом</string>
+
+    <!-- Privacy policy -->
+    <string name="privacy_policy_tab_privacy_policy">Политика конфиденциальности</string>
+    <string name="privacy_policy_tab_eu_consent">Соглашение европейского пользователя</string>
+
+    <string name="privacy_policy_collect_title">Информация, собираемая нами</string>
+    <string name="privacy_policy_collect"><![CDATA[
+        <p>• Мы собираем только анонимную информацию.</p>
+        <p>• Мы собираем информацию на уровне приложения о сервисах используемых вами и способе их использования (платформа Google Firebase).</p>
+        <p>• Мы собираем информацию на уровне приложения о багах, ошибках и падениях для предоставления улучшений (платформа Google Firebase).</p>
+        <p>• Платформа Google Firebase собирает информацию анонимно. Она предоставляет информацию о трендах без идентификации отдельных пользователей.</p>
+        • Мы не делимся информацией с другими компаниями и организациями.
+    ]]></string>
+
+    <string name="privacy_policy_not_collect_title">Информация, не собираемая нами</string>
+    <string name="privacy_policy_not_collect"><![CDATA[
+        <p>• Мы не собираем информацию, способную вас идентифицировать. Другими словами мы не собираем такую информацию, как ваше имя, адрес, номер телефона, адрес электронной почты, IP или MAC адреса.</p>
+        • Мы не собираем информацию о вашем здоровье, контактах и тексте уведомлений.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">Политика конфиденциальности сторонних сервисов</string>
+    <string name="privacy_policy_links"><![CDATA[
+        <a href="https://policies.google.com/privacy">Google Play Services</a>
+        <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
+        <p><a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a></p>
+        <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
+    ]]></string>
+
+    <string name="privacy_policy_eu_consent_title">Статус</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Персонализированная реклама</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Не персонализированная реклама, менее точна</string>
+    <string name="privacy_policy_eu_consent_title_unknown">Неизвестно</string>
+
+    <string name="privacy_policy_eu_consent_setting">Настройки</string>
+
+
+    <!-- Custom vibration dialog -->
+    <string name="custom_vibration_title">Настройки вибрации</string>
+
+
+    <!-- Others -->
+    <string name="ad_attribution">Ad</string>
+    <string name="on">Включено</string>
+    <string name="off">Отключено</string>
+    <string name="unknown">Неизвестно</string>
+    <string name="maximum">Полностью</string>
+    <string name="default_">По умолчанию</string>
+
+    <string name="action_dismiss">Отклонить</string>
+    <string name="action_setting">Настройки</string>
+    <string name="action_delete">Удалить</string>
+    <string name="action_filter_no">Без фильтра</string>
+    <string name="action_save">Сохранить</string>
+    <string name="action_test">Тестировать</string>
+    <string name="action_discard">Отменить</string>
+    <string name="action_keep_editing">Продолжить</string>
+    <string name="action_new">Новый</string>
+    <string name="action_start_stop">Пуск/Пауза</string>
+
+    <string name="required_value">Необходимо указать</string>
+
+    <!-- Constante -->
+    <string name="const_time_abbreviation_day">д</string>
+    <string name="const_time_abbreviation_hour">ч</string>
+    <string name="const_time_abbreviation_minute">м</string>
+
+    <string name="const_unit_dbm">дБм</string>
+
+    <plurals name="plural_time_hour">
+        <item quantity="zero">%d часов</item>
+        <item quantity="one">%d час</item>
+        <item quantity="two">%d часа</item>
+        <item quantity="few">%d часа</item>
+        <item quantity="many">%d часов</item>
+        <item quantity="other">%d часов</item>
+    </plurals>
+
+    <plurals name="plural_time_minute">
+        <item quantity="zero">%d минут</item>
+        <item quantity="one">%d минута</item>
+        <item quantity="two">%d минуты</item>
+        <item quantity="few">%d минуты</item>
+        <item quantity="many">%d минут</item>
+        <item quantity="other">%d минут</item>
+    </plurals>
+
+    <plurals name="plural_time_second">
+        <item quantity="zero">%d секунд</item>
+        <item quantity="one">%d секунда</item>
+        <item quantity="two">%d секунды</item>
+        <item quantity="few">%d секунды</item>
+        <item quantity="many">%d секунд</item>
+        <item quantity="other">%d секунд</item>
+    </plurals>
+</resources>

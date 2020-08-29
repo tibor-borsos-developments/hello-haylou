@@ -1,0 +1,345 @@
+<resources>
+    <string name="app_name">Hello Haylou</string>
+
+    <string name="menu_nav_home">Haylou</string>
+    <string name="menu_nav_notification">Thông báo</string>
+    <string name="menu_nav_call">Cuộc gọi</string>
+    <string name="menu_nav_more">Hơn</string>
+    <string name="menu_nav_theme">Theme</string>
+    <string name="menu_nav_premium_mode">Phiên bản nâng cấp</string>
+    <string name="menu_nav_feedback">Phản hồi</string>
+    <string name="menu_nav_privacy_policy">Chính sách bảo mật</string>
+    <string name="menu_nav_settings" type="string">@string/settings_name</string>
+
+    <string name="setting_name">Cài đặt</string>
+    <string name="settings_name">Cài đặt</string>
+    <string name="info_name">Thông tin</string>
+
+<!--    <string name="mi_band_battery">Mức pin・Lần sạc cuối・Thời gian còn lại</string>-->
+    <string name="device_battery">Mức pin・Lần sạc cuối</string>
+    <string name="device_state_connected_disconnected_last_time">Lần cuối nhìn thấy thiết bị</string>
+    <string name="device_mac_address">Địa chỉ MAC</string>
+
+    <string name="device_search">Haylou search</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="device_mac_address_invalid">Địa chỉ MAC không hợp lệ</string>
+
+    <string name="device_state_connected">Đã kết nối</string>
+    <string name="device_state_disconnected">Ngắt kết nối</string>
+    <string name="device_state_bonded">Thiết bị đã ghép nối</string>
+    <string name="device_state_not_bonded">Thiết bị không kết nối</string>
+
+
+    <string name="pref_text_title">Cài đặt biểu tượng văn bản</string>
+    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
+    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
+    <string name="pref_text_emoticon_title">Chuyển đổi biểu tượng</string>
+    <string name="pref_text_emoticon_summary_on">Chuyển emoji thành emoticon</string>
+    <string name="pref_text_uppercase_title">Chuyển đổi chữ HOA</string>
+    <string name="pref_text_uppercase_summary_on">Chuyển chữ thường thành chữ hoa</string>
+    <string name="pref_text_line_separator_title">Line separator replacement</string>
+    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
+    <string name="pref_text_line_separator_value_title">Replacement characters</string>
+
+    <!-- Battery -->
+    <string name="battery_details">Sử dụng Pin</string>
+
+    <string name="mi_band_battery_settings">Cài đặt Pin</string>
+    <string name="mi_band_battery_notification">Thông báo Pin yếu</string>
+    <string name="mi_band_battery_notification_level">Mức pin yếu</string>
+    <string name="mi_band_battery_notification_repeat_interval">Lặp lại</string>
+    <string name="mi_band_battery_notification_shade">Thông báo trên điện thoại</string>
+    <string name="mi_band_battery_notification_shade_ongoing">Thông báo liên tục</string>
+    <string name="mi_band_battery_notification_shade_message">Mức pin thấp: %1$,d%%</string>
+    <string name="mi_band_battery_notification_mi_band">Cảnh báo trên vòng đeo tay</string>
+    <string name="mi_band_battery_notification_mi_band_message">Pin: %1$,d%%</string>
+
+    <!-- PreferenceScreen -->
+    <string name="pref_connected">Cài đặt kết nối</string>
+
+    <string name="pref_connected_have_notif_interval_title">Khoảng thời gian lặp lại nhắc nhở</string>
+    <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
+
+    <string name="pref_cat_call">Cuộc gọi đến</string>
+    <string name="pref_call_summary_on">Nhớ tắt thông báo cuộc gọi đến trong ứng dụng Haylou Sport</string>
+    <string name="pref_call_text_title">Hiện tên/Số người gọi</string>
+
+    <string name="pref_call_notification_rejected">Show notification about rejected call</string>
+    <string name="pref_call_notification_rejected_message">Rejected call</string>
+    <string name="pref_call_notification_rejected_action">Call</string>
+
+    <string name="pref_call_net_text_title">Tín hiệu cuộc gọi internet</string>
+
+    <string name="pref_cat_call_missed">Cuộc gọi nhỡ</string>
+    <string name="pref_call_missed_title">Tín hiệu cuộc gọi nhỡ</string>
+
+    <string name="pref_call_missed_alert_title">Tín hiệu %1$s</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="pref_battery_phone">Pin điện thoại</string>
+    <string name="pref_battery_phone_summary">Cảnh báo Pin yếu và Pin đầy</string>
+    <string name="pref_cat_battery_phone_low">Mức pin yếu</string>
+    <string name="pref_battery_phone_low_title">Chỉ báo pin yếu</string>
+    <string name="pref_battery_phone_low_level_title">Ngưỡng pin thấp</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">Khoảng lặp lại</string>
+    <string name="pref_cat_battery_phone_full">Mức pin đầy</string>
+    <string name="pref_battery_phone_full_title">Thông báo pin đầy</string>
+    <string name="pref_battery_phone_full_plugged_ac">Nguồn sạc AC</string>
+    <string name="pref_battery_phone_full_plugged_usb">Nguồn sạc USB</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Nguồn sạc không dây</string>
+
+    <string name="pref_battery_phone_message">Pin điện thoại:\n %1$,d%%</string>
+
+    <string name="pref_language">Cài đặt ngôn ngữ</string>
+    <string name="pref_cat_language">Ứng dụng</string>
+    <string name="pref_language_title">Ngôn ngữ</string>
+
+    <!-- Snackbar Messages -->
+    <string name="message_enable_bluetooth">Vui lòng kích hoạt Bluetooth và mang Haylou gần hơn với điện thoại</string>
+    <string name="message_discover_mi_band">Haylou chưa được cài đặt, hãy kết nối với nó</string>
+    <string name="message_discovering_mi_band">Tìm Haylou (có thể mất 1 phút) &#8230;</string>
+    <string name="message_discovered_mi_band">Phát hiện %1$s</string>
+    <string name="message_discovered_no_mi_band">Haylou không được tìm thấy</string>
+    <string name="message_discovered_not_found_mi_band">Nếu Haylou không được tìm thấy, bật: Haylou Sport/cài đặt … hoặc ghép nối tại cài đặt Bluetooth</string>
+    <string name="message_enable_notification_listener_access">Kích hoạt tính năng truy cập thông báo: Cài đặt/Bảo mật/Truy cập thông báo</string>
+    <string name="message_enable_notification_listener_access_4_4">Kích hoạt tính năng truy cập thông báo: Cài đặt/Bảo mật/Truy cập thông báo</string>
+    <string name="message_open_settings">Các cài đặt</string>
+
+    <string name="message_deleted">Đã xóa</string>
+    <string name="message_undo">Làm lại</string>
+
+    <string name="message_app_chooser_no_selected">Chọn một ứng dụng</string>
+
+    <string name="message_notification_free_groups">Lên đến %1$,d nhóm có thể được sử dụng</string>
+    <string name="message_notification_free_app">Up to 1 application can be selected in normal mode</string>
+    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in normal mode</string>   <!-- %1$s = 2 or more  -->
+
+    <string name="message_notification_free_text">Up to 1 text can be recorded in normal mode</string>
+
+
+    <string name="message_time_alarm_mi_band_off">Tắt báo thức</string>
+
+    <string name="message_premium_mode_only">Tính năng này chỉ có sẵn trong bản nâng cấp</string>
+    <string name="message_internet_error">Không có mạng</string>
+
+    <string name="message_no_data">Không có dữ liệu</string>
+
+    <string name="message_new_message">Nhận được 1 tin nhắn, xem trên điện thoại.</string>
+
+    <!-- Dialog -->
+    <string name="dialog_welcome_title">Chào mừng!</string>
+    <string name="dialog_welcome_message"><![CDATA[Thiết bị hỗ trợ:
+    <br>• <b>Haylou Solar (LS05)</b>
+    <br>• <b>Haylou Smart Watch 2 (LS02)</b>
+    <br>• <b>Haylou Smart Watch (LS01)</b>
+    <p>Hello Haylou requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
+    <p>Nếu không tìm thấy Band, bạn có thể nhập MAC thủ công.</p>
+    <p><b>Nếu có vấn đề kết nối:</b>
+    <br>- Màn hình ứng dụng gần đây: khoá Mi Bandage (kéo xuống và ấn vào biểu tượng cái khoá).
+    <br>- Tối ưu điện thoại/Pin: cho phép Mi Bandage không cần tối ưu.
+    <br>- Điện thoại/Ứng dụng: Xoá Chia sẻ Bluetooth và dữ liệu ứng dụng \'Bluetooth\'.
+    </p>]]></string>
+
+
+    <!-- Notification Dialog -->
+    <string name="notification_group_nav_setting">Cài đặt</string>
+    <string name="notification_group_nav_filter">Lọc thông báo</string>
+    <string name="notification_group_nav_correction">Sửa lỗi</string>
+
+    <string name="notification_group_name">Tên</string>
+    <string name="notification_group_monitoring">Giám sát thông báo</string>
+    <string name="notification_group_monitoring_disabled">Vô hiệu hóa các thông báo (không hiển thị các thông báo ứng dụng)</string>
+    <string name="notification_group_text">Hiển thị chữ</string>
+    <string name="notification_group_alert_title">Tín hiệu %1$s</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="notification_group_text_title">Tiêu đề</string>
+    <string name="notification_group_text_app_name">Tên ứng dụng</string>
+    <string name="notification_group_text_name">Tên</string>
+    <string name="notification_group_text_content">Nội dung</string>
+    <string name="notification_group_text_big_content">Nội dung đầy đủ</string>
+    <string name="notification_group_text_content_slice_title">Độ dài văn bản</string>
+    <string name="notification_group_display_time_title">Hiển thị thời gian</string>
+    <string name="notification_group_display_notification_title">Display notification</string>
+    <string name="notification_group_immediate">Phát tín hiệu ngay lập tức khi nhận được thông báo</string>
+    <string name="notification_group_connecting">Khi kết nối với thiết bị</string>
+    <string name="notification_group_reminder">Tín hiệu nhắc nhở</string>
+    <string name="notification_group_ongoing">Tín hiệu liên tục thông báo (thường xuyên)</string>
+    <string name="notification_group_screen_off">Tín hiệu chỉ khi màn hình tắt</string>
+    <string name="notification_group_repeat_title">Lặp lại tín hiệu</string>
+    <string name="notification_group_wakelock">Đánh thức màn hình thiết bị</string>
+    <string name="notification_group_grouped_display_title">Display setting for the group notifications</string>
+    <string name="notification_group_grouped_sort_order_title">Sort order for the group notifications</string>
+
+    <string name="notification_group_filter">Lọc thông báo</string>
+    <string name="notification_group_filter_title">Lọc Tiêu đề</string>
+    <string name="notification_group_filter_content">Lọc nội dung</string>
+    <string name="notification_group_filter_regex">Regex</string>
+    <string name="notification_group_filter_hint">Chỉ báo hiệu khi thông báo</string>
+    <string name="notification_group_filter_contains">Chứa bất kỳ cụm từ nào</string>
+    <string name="notification_group_filter_not_contains">Không chứa cụm từ nào</string>
+
+    <string name="notification_group_sample_sms">SMS</string>
+    <string name="notification_group_sample_facebook">Messenger</string>
+    <string name="notification_group_sample_whatsapp">WhatsApp</string>
+
+    <string name="notification_group_correction">Sửa chữ</string>
+    <string name="notification_group_correction_title">Sửa tiêu đề</string>
+    <string name="notification_group_correction_content">Sửa nội dung</string>
+    <string name="notification_group_correction_regex">Regex</string>
+    <string name="notification_group_correction_hint">Trường hợp không nhạy cảm</string>
+    <string name="notification_group_correction_items">Các nội dung cần sửa</string>
+    <string name="notification_group_correction_find">Tìm kiếm</string>
+    <string name="notification_group_correction_replace">Thay thế bởi</string>
+
+    <string name="notification_regex_hint">Các ký tự không phải là chữ và số có một ý nghĩa đặc biệt, nếu bạn không biết Regex, đừng đánh dấu nó</string>
+
+    <string name="notification_confirm_close">Bạn có chắc chắn muốn hủy thay đổi không?</string>
+
+    <string name="notification_edit_play_text_title">Tiêu đề thông báo</string>
+    <string name="notification_edit_play_text_content">Nội dung thông báo:
+	Bản dịch được thực hiện bởi Nguyễn Mạnh Hưng (fb.com/HungMN00), đóng góp cho tác giả phi lợi nhuận, hi vọng các bạn Việt Nam sử dụng ứng dụng này một cách hiệu quả. Xin cảm ơn!
+		\nHà Nội là thủ đô của nước Cộng hòa xã hội chủ nghĩa Việt Nam và cũng là kinh đô của hầu hết các vương triều phong kiến Việt trước đây. Do đó, lịch sử Hà Nội gắn liền với sự thăng trầm của lịch sử Việt Nam qua các thời kỳ.
+        \nHà Nội là thành phố lớn thứ 2 cả nước, sau Thành phố Hồ Chí Minh, đồng thời cũng là địa phương đứng thứ nhì về dân số với 7.742.200 người (năm 2017), sau Thành phố Hồ Chí Minh.
+        \nTuy nhiên, nếu tính những người cư trú không đăng ký thì dân số thực tế của thành phố này năm 2017 là hơn 8 triệu người. Hiện nay, thủ đô Hà Nội và Thành phố Hồ Chí Minh là đô thị loại đặc biệt của Việt Nam.
+    </string>
+    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> biểu tượng: chọn biểu tượng này để hiển thị tiêu đề/nội dung thông báo.]]></string>
+
+    <!-- MiBandageApp chooser dialog -->
+    <string name="app_chooser">Chọn ứng dụng</string>
+    <string name="action_search">Tìm kiếm</string>
+    <string name="action_filter_notification">Lọc thông báo</string>
+
+    <string name="touch_tab_control">Điều khiển</string>
+
+    <!-- Theme -->
+    <string name="theme_tab_theme">Theme</string>
+
+    <string name="theme_title">Chọn một theme</string>
+    <string name="theme_background_color_title">Màu nền</string>
+
+    <string name="theme_widget_background_color_title">Màu</string>
+
+    <string name="theme_notification_title">Hiện trạng thái trong vùng thông báo</string>
+
+    <string name="theme_cat_color_setting">Color setting</string>
+
+
+    <!-- Premium mode -->
+    <string name="purchase_policy_title">Điều khoản và thoả thuận Chế độ Cao cấp</string>
+    <string name="purchase_policy"><![CDATA[
+        <p>• Tớ đã kiểm tra và đương nhiên là ứng dụng hoạt động tốt.</p>
+        <p>• Tớ biết rằng tớ không thể yêu cầu bồi thường hoặc hoàn tiền do lỗi, phần mềm lỗi do thay đổi trong phần mềm, môi trường phần cứng hoặc dùng với ứng dụng khác.</p>
+        <p>• Sau khi đã hoàn tất mua ứng dụng thì không được hoàn tiền (Cái này là luật của chị Google, em cũng éo rõ).</p>
+        <p>• Đương nhiên là éo có bảo hành đi kèm đâu, nhưng sau khi mua ứng dụng thì bạn được dùng trọn đời và nhận được các bản nâng cấp về sau này MIỄN PHÍ.</p>
+        <p><i>Sau khi mua thì bạn nên khởi động lại để ứng dụng nhận bản quyền.</i></p>
+    ]]></string>
+
+    <!--<string name="purchase_price">Giá bán:</string>-->
+    <string name="purchase_agree">Tôi đồng ý với các Điều khoản và Điều kiện.</string>
+    <string name="purchase_order_id">ID đơn hàng</string>
+    <string name="purchase_order_id_help">Sao chép từ:
+        \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <string name="purchase_button_purchase">Mua</string>
+
+    <!-- Feedback -->
+    <string name="action_log_notification">Log</string>
+
+    <string name="feedback_google_play_title">Đánh giá ứng dụng này</string>
+    <string name="feedback_request_feature_title">Yêu cầu tính năng</string>
+    <string name="feedback_request_feature_summary">Xử lý e-mail tự động, bạn sẽ không nhận được phản hồi</string>
+    <string name="feedback_translation_title">Hello Haylou translation</string>
+    <string name="feedback_translation_title_summary">Please help in translation</string>
+
+    <!-- Privacy policy -->
+    <string name="privacy_policy_tab_privacy_policy">Chính sách bảo mật</string>
+    <string name="privacy_policy_tab_eu_consent">EU user consent</string>
+
+    <string name="privacy_policy_collect_title">Thông tin mà chúng tôi thu thập</string>
+    <string name="privacy_policy_collect"><![CDATA[
+        <p>• Chỉ có dữ liệu ẩn danh.</p>
+        <p>• We collect information at the application level about the services that you use and how you use them (Google Firebase Platform).</p>
+        <p>• We collect information at the application level like bugs, errors and crashes to provide improvements (Google Firebase Platform).</p>
+        <p>• Google Firebase Platform collects information anonymously. It reports trends without identifying individual users.</p>
+        • Những cái này chỉ để chúng tớ nâng cấp phần mềm, éo có buôn bán gì cho bên thứ 3 đâu.
+    ]]></string>
+
+    <string name="privacy_policy_not_collect_title">Thông tin mà chúng tôi không thu thập</string>
+    <string name="privacy_policy_not_collect"><![CDATA[
+        <p>• Chúng tớ không lấy thông tin cá nhân như tên, tuổi, mail, địa chỉ, số ĐT, IP hoặc MAC.</p>
+        • Chúng tớ không thu thập dữ liệu sức khoẻ cá nhân, danh bạ và tin nhắn.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">Privacy policy of third party service providers</string>
+    <string name="privacy_policy_links"><![CDATA[
+        <a href="https://policies.google.com/privacy">Google Play Services</a>
+        <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
+        <p><a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a></p>
+        <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
+    ]]></string>
+
+    <string name="privacy_policy_eu_consent_title">Trạng thái</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Cá nhân hoá quảng cáo</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Quảng cáo không cá nhân hoá hoặc không liên quan</string>
+    <string name="privacy_policy_eu_consent_title_unknown">Không xác định</string>
+
+    <string name="privacy_policy_eu_consent_setting">Cài đặt</string>
+
+    <!-- Custom vibration dialog -->
+    <string name="custom_vibration_title">Cài đặt rung</string>
+
+
+    <!-- Others -->
+    <string name="ad_attribution">Ad</string>
+    <string name="on">Bật</string>
+    <string name="off">Tắt</string>
+    <string name="unknown">Không xác định</string>
+    <string name="maximum">Tối đa</string>
+    <string name="default_">Mặc định</string>
+
+    <string name="action_dismiss">Bỏ qua</string>
+    <string name="action_setting">Cài đặt</string>
+    <string name="action_delete">Xóa</string>
+    <string name="action_filter_no">Không lọc</string>
+    <string name="action_save">Lưu</string>
+    <string name="action_test">Test</string>
+    <string name="action_discard">Hủy</string>
+    <string name="action_keep_editing">Tiếp tục chỉnh sửa</string>
+    <string name="action_new">Mới</string>
+    <string name="action_start_stop">Start/Stop</string>
+
+    <string name="required_value">Bắt buộc</string>
+
+    <!-- Constante -->
+    <string name="const_time_abbreviation_day">d</string>
+    <string name="const_time_abbreviation_hour">h</string>
+    <string name="const_time_abbreviation_minute">m</string>
+
+    <string name="const_unit_dbm">dBm</string>
+
+    <plurals name="plural_time_hour">
+        <item quantity="zero">%d hour</item>
+        <item quantity="one">%d hour</item>
+        <item quantity="two">%d hours</item>
+        <item quantity="few">%d hours</item>
+        <item quantity="many">%d hours</item>
+        <item quantity="other">%d hours</item>
+    </plurals>
+
+    <plurals name="plural_time_minute">
+        <item quantity="zero">%d phút</item>
+        <item quantity="one">%d phút</item>
+        <item quantity="two">%d phút</item>
+        <item quantity="few">%d phút</item>
+        <item quantity="many">%d phút</item>
+        <item quantity="other">%d phút</item>
+    </plurals>
+
+    <plurals name="plural_time_second">
+        <item quantity="zero">%d giây</item>
+        <item quantity="one">%d giây</item>
+        <item quantity="two">%d giây</item>
+        <item quantity="few">%d giây</item>
+        <item quantity="many">%d giây</item>
+        <item quantity="other">%d giây</item>
+    </plurals>
+
+</resources>
