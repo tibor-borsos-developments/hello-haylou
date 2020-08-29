@@ -11,8 +11,8 @@ Haylou Smart Watch support, extends the capability of the Haylou apps
 
 ## Please help in translation
 
-### How to create a pull request
-[Step 4. Open a Pull Request](https://guides.github.com/activities/hello-world/)
+### Edit online
+[Editing files in another user's repository](https://docs.github.com/en/github/managing-files-in-a-repository/editing-files-in-another-users-repository)
 
 <br>
 <br>
