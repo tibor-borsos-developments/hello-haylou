@@ -1,0 +1,397 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Hello Haylou</string>
+
+    <string name="menu_nav_home">Бандажі</string>
+    <string name="menu_nav_notification">Сповіщення</string>
+    <string name="menu_nav_call">Виклики</string>
+    <string name="menu_nav_step">Активність</string>
+    <string name="menu_nav_pulse">Пульс</string>
+    <string name="menu_nav_more">Більше</string>
+    <string name="menu_nav_text_display">Налашування тексту</string>
+    <string name="menu_nav_theme">Тема</string>
+    <string name="menu_nav_premium_mode">Преміум</string>
+    <string name="menu_nav_feedback">Зворотній зв\'язок</string>
+    <string name="menu_nav_privacy_policy">Політика конфіденційності</string>
+    <string name="menu_nav_settings" type="string">@string/settings_name</string>
+
+    <string name="setting_name">Налаштування</string>
+    <string name="settings_name">Налаштування</string>
+    <string name="info_name">Інформація</string>
+
+<!--    <string name="mi_band_tracker_title">Кроки・відстань・калорії・мета・пульс</string>-->
+    <string name="mi_band_tracker_title">Кроки・мета・пульс</string>
+    <string name="device_battery">Рівень заряду・час останнього зарядження</string>
+    <string name="device_state_connected_disconnected_last_time">Час останніх з\'єднання/роз\'єднання</string>
+    <string name="device_mac_address">MAC адреса</string>
+
+    <string name="device_search">Haylou search</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="device_mac_address_invalid">Невірна MAC адреса</string>
+
+    <string name="device_state_connected">Підключений</string>
+    <string name="device_state_disconnected">Відключений</string>
+    <string name="device_state_bonded">Зв\'язаний пристрій</string>
+    <string name="device_state_not_bonded">Не зв\'язаний пристрій</string>
+
+
+    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
+    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
+    <string name="pref_text_emoticon_title">Перетворення смайлів</string>
+    <string name="pref_text_emoticon_summary_on">Перетворювати графічні смайли на текстові</string>
+    <string name="pref_text_uppercase_title">Перетворення до верхнього регістру</string>
+    <string name="pref_text_uppercase_summary_on">Перетворювати нижній регістр у верхній</string>
+    <string name="pref_text_line_separator_title">Line separator replacement</string>
+    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
+    <string name="pref_text_line_separator_value_title">Replacement characters</string>
+    <string name="pref_text_char_replacement_title">Заміна символів, смайлів</string>
+    <string name="pref_text_char_replacement_summary_on">Замінити один символ іншим</string>
+    <string name="pref_text_char_replacement_find">Знайти</string>
+    <string name="pref_text_char_replacement_replace">Замінити</string>
+
+    <!-- Battery -->
+    <string name="battery_details">Використання заряду</string>
+
+    <string name="mi_band_battery_settings">Налаштування батареї</string>
+    <string name="mi_band_battery_notification">Сповіщення про низький заряд</string>
+    <string name="mi_band_battery_notification_level">Рівень низького заряду</string>
+    <string name="mi_band_battery_notification_repeat_interval">Інтервал повторення</string>
+    <string name="mi_band_battery_notification_shade">Сповіщати на телефоні</string>
+    <string name="mi_band_battery_notification_shade_ongoing">Постійне сповіщення</string>
+    <string name="mi_band_battery_notification_shade_message">Низьки заряд: %1$,d%%</string>
+    <string name="mi_band_battery_notification_mi_band">Сповіщати на браслеті</string>
+    <string name="mi_band_battery_notification_mi_band_message">Заряд: %1$,d%%</string>
+
+    <!-- PreferenceScreen -->
+    <string name="pref_connected">З\'єднання</string>
+
+    <string name="pref_connected_have_notif_interval_title">Інтервал повтору нагадувань</string>
+    <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
+
+    <string name="pref_cat_call">Вхідний виклик</string>
+    <string name="pref_call_summary_on">Вимкніть сповіщення про вхідні виклики у Haylou</string>
+    <string name="pref_call_text_title">Відображати дані абонента</string>
+
+    <string name="pref_call_notification_rejected">Сповіщення про відхилені виклики</string>
+    <string name="pref_call_notification_rejected_message">Відхилений виклик</string>
+    <string name="pref_call_notification_rejected_action">Виклик</string>
+
+    <string name="pref_call_net_text_title">Вхідні виклики з інтернету + дані абонента</string>
+
+    <string name="pref_cat_call_missed">Пропущений виклик</string>
+    <string name="pref_call_missed_title">Сповіщення про пропущені виклики</string>
+
+    <string name="pref_call_missed_alert_title">Сповіщення %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+
+    <string name="pref_battery_phone">Акумулятор телефона</string>
+    <string name="pref_battery_phone_summary">Сповіщення про низький та повний заряд</string>
+    <string name="pref_cat_battery_phone_low">Низький рівень заряду</string>
+    <string name="pref_battery_phone_low_title">Сповіщення про низький заряд</string>
+    <string name="pref_battery_phone_low_level_title">Поріг низького рівня заряду</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">Інтервал повторення</string>
+    <string name="pref_cat_battery_phone_full">Повний заряд</string>
+    <string name="pref_battery_phone_full_title">>Сповіщення про повний заряд</string>
+    <string name="pref_battery_phone_full_plugged_ac">Заряджання від електромережі</string>
+    <string name="pref_battery_phone_full_plugged_usb">Заряджання від порту USB</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Бездротове заряджання</string>
+
+    <string name="pref_battery_phone_message">Заряд телефона:\n %1$,d%%</string>
+
+    <string name="pref_language">Вибір мови</string>
+    <string name="pref_cat_language">Мова додатка</string>
+    <string name="pref_language_title">Вибір мови</string>
+
+    <!-- Snackbar Messages -->
+    <string name="message_enable_bluetooth">Будьласка, увімкніть Bluetooth, та піднесіть браслет ближче до телефона</string>
+    <string name="message_discover_mi_band">Браслет не під\'єднано, будьласка, під\'єднайте його</string>
+    <string name="message_discovering_mi_band">Пошук браслета (це може зайняти 1 хвилину) &#8230;</string>
+    <string name="message_discovered_mi_band">%1$s під\'єднано успішно</string>
+    <string name="message_discovered_no_mi_band">Під\'єднання невдале</string>
+    <string name="message_discovered_not_found_mi_band">Якщо браслет не знайдено, увімкніть: Mi Fit/Профіль/Видимість, або під\'єднайте через налаштування Bluetooth телефону</string>
+    <string name="message_enable_notification_listener_access">Увімкніть доступ до сповіщень: Налаштування/Сповіщення/Доступ до сповіщень</string>
+    <string name="message_enable_notification_listener_access_4_4">Увімкніть доступ до сповіщень: Налаштування/Безпека/Доступ до сповіщень</string>
+    <string name="message_open_settings">Налаштування</string>
+
+    <string name="message_deleted">Видалено</string>
+    <string name="message_undo">Відмінити дію</string>
+
+    <string name="message_app_chooser_no_selected">Оберіть додаток</string>
+
+    <string name="message_notification_free_groups">До %1$,d груп може бути використано у нормальному режимі</string>
+    <string name="message_notification_free_app">Up to 1 application can be selected in normal mode</string>
+    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in normal mode</string>   <!-- %1$s = 2 or more  -->
+
+    <string name="message_notification_free_text">Up to 1 text can be recorded in normal mode</string>
+
+    <string name="message_time_alarm_mi_band_off">Будильник вимкнено</string>
+
+    <string name="message_premium_mode_only">Ця функція доступна тільки у преміум режимі</string>
+    <string name="message_internet_error">Немає зв\'язку з інтернетом</string>
+
+    <string name="message_in_progress">В процесі…</string>
+    <string name="message_no_data">Немає даних</string>
+
+    <string name="message_new_message">Отримано нове повідомлення, перегляньте на телефоні.</string>
+
+    <!-- Dialog -->
+    <string name="dialog_welcome_title">Ласкаво просимо!</string>
+    <string name="dialog_welcome_message"><![CDATA[Підтримувані пристрої:
+    <br>• <b>Haylou Solar (LS05)</b>
+    <br>• <b>Haylou Smart Watch 2 (LS02)</b>
+    <br>• <b>Haylou Smart Watch (LS01)</b>
+    <p>Hello Haylou requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
+    <p>Якщо браслет не знайдено, ви можете вказати MAC адресу вручну при пошуку.</p>
+    <p><b>Якщо у вас проблеми з підключенням:</b>
+    <br>- Нещодавні додатки: зафіксуйте Mi Bandage (потягніть донизу та торкніться значка із замком).
+    <br>- Телефон/Оптимізація акумулятора: вимкніть оптимізацію для додатка Mi Bandage.
+    <br>- Телефон/Додатки: очистіть дані додатку Bluetooth Share та інших додатків \'Bluetooth\'.
+    ]]></string>
+
+    <!-- Notification Dialog -->
+    <string name="notification_group_nav_setting">Налаштування</string>
+    <string name="notification_group_nav_filter">Фільтр</string>
+    <string name="notification_group_nav_correction">Виправлення</string>
+
+    <string name="notification_group_name">Назва</string>
+    <string name="notification_group_monitoring">Налаштування сповіщень</string>
+    <string name="notification_group_monitoring_disabled">Вимкнути сповіщення (не показувати сповіщення додатку)</string>
+    <string name="notification_group_alert_title">Сповіщеня %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="notification_group_text">Текст сповіщення</string>
+    <string name="notification_group_text_app_name">Назва додатку</string>
+    <string name="notification_group_text_name">Назва</string>
+    <string name="notification_group_text_title">Заголовок</string>
+    <string name="notification_group_text_content">Вміст</string>
+    <string name="notification_group_text_big_content">Повний вміст</string>
+    <string name="notification_group_text_content_slice_title">Довжина тексту</string>
+    <string name="notification_group_display_time_title">Час відображення</string>
+    <string name="notification_group_display_notification_title">Відображати сповіщення</string>
+    <string name="notification_group_immediate">Негайно сповіщати при надходженні</string>
+    <string name="notification_group_connecting">Сповіщати при під\'єднанні</string>
+    <string name="notification_group_reminder">Нагадувати</string>
+    <string name="notification_group_ongoing">Постійне сповіщення</string>
+    <string name="notification_group_screen_off">Сповіщати лише при вимкненому екрані</string>
+    <string name="notification_group_repeat_title">Повторювати сповіщення</string>
+    <string name="notification_group_wakelock">Вмикати екран телефона</string>
+    <string name="notification_group_grouped_display_title">Налаштування відображення для групи сповіщень</string>
+    <string name="notification_group_grouped_sort_order_title">Порядок сортування групи сповіщень</string>
+
+    <string name="notification_group_filter">Фільтр сповіщень</string>
+    <string name="notification_group_filter_title">Фільтр заголовку</string>
+    <string name="notification_group_filter_content">Фільтр вмісту</string>
+    <string name="notification_group_filter_regex">Регулярний вираз</string>
+    <string name="notification_group_filter_hint">Сповіщати тільки коли заголовок або вміст сповіщення (регістронезалежний)</string>
+    <string name="notification_group_filter_contains">Містить буд-яку фразу</string>
+    <string name="notification_group_filter_not_contains">Не містить жодної фрази</string>
+
+    <string name="notification_group_sample_sms">Сповіщення СМС</string>
+    <string name="notification_group_sample_facebook">Сповіщення Messenger</string>
+    <string name="notification_group_sample_whatsapp">Сповіщення WhatsApp</string>
+
+    <string name="notification_group_correction">Виправлення тексту</string>
+    <string name="notification_group_correction_title">Виправлення заголовку</string>
+    <string name="notification_group_correction_content">Виправлення вмісту</string>
+    <string name="notification_group_correction_regex">Регулярний вираз</string>
+    <string name="notification_group_correction_hint">Регістронезалежний</string>
+    <string name="notification_group_correction_items">Текст для виправлення</string>
+    <string name="notification_group_correction_find">Знайти</string>
+    <string name="notification_group_correction_replace">Замінити на</string>
+
+    <string name="notification_regex_hint">Небуквено-цифрові символи матимуть спеціальні значення, якщо ви не знайомі з регулярними виразами - не вмикайте</string>
+
+    <string name="notification_confirm_close">Скасувати зміни, ви впевнені?</string>
+
+    <string name="notification_edit_play_text_title">Заголовок сповіщення</string>
+    <string name="notification_edit_play_text_content">Вміст сповіщення:
+    Lorem ipsum – назва класичного тексту-«риби». «Риба» – слово з жаргону дизайнерів, що позначає умовний, часто безглуздий текст, що вставляється в макет сторінки.
+        \nLorem ipsum являє собою спотворений уривок з філософського трактату Цицерона «Про межі добра і зла», написаного в 45 році до нашої ери латинською мовою.
+    </string>
+    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT">: оберіть значок для відображення заголовку/вмісту сповіщення.]]></string>
+
+    <!-- MiBandageApp chooser dialog -->
+    <string name="app_chooser">Вибір додатку</string>
+    <string name="action_search">Пошук</string>
+    <string name="action_filter_notification">Фільтр сповіщень</string>
+
+    <string name="touch_tab_control">Керування</string>
+
+    <!-- Activity -->
+    <string name="step_tab_day">Денні графіки</string>
+    <string name="step_tab_week">Тижневі графіки</string>
+    <string name="step_tab_month">Місячні графіки</string>
+
+    <string name="step_details">Подробиці активностей</string>
+
+    <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
+    <string name="mi_band_tracker_distance_meter_title">%1$,d м</string> <!-- meter -->
+    <string name="mi_band_tracker_distance_mile_title">%,.2f миль</string> <!-- mile -->
+    <string name="mi_band_tracker_calorie_title">%1$,d ккал</string> <!-- kilo calorie -->
+
+    <string name="action_tracker_step">Кроки</string>
+    <string name="action_tracker_distance">Відстань</string>
+    <string name="action_tracker_calorie">Калорії</string>
+
+    <string name="step_goal_default_title">Мета за замовчанням</string>
+
+
+    <!-- Pulse   -->
+    <string name="pulse_tab_day">Денні графіки</string>
+    <string name="pulse_tab_week">Тижневі графіки</string>
+    <string name="pulse_tab_month">Місячні графіки</string>
+
+    <string name="pulse_details">Подробиці вимірювань</string>
+
+
+    <!-- Theme -->
+    <string name="theme_tab_theme">Тема</string>
+
+    <string name="theme_title">Оберіть тему</string>
+    <string name="theme_background_color_title">Колір тла</string>
+
+    <string name="theme_widget_background_color_title">Колір</string>
+
+    <string name="theme_notification_title">Показувати стан у постійному сповіщенні</string>
+
+    <string name="theme_cat_color_setting">Color setting</string>
+
+
+    <!-- Premium mode -->
+    <string name="purchase_policy_title">Умови преміум-режиму</string>
+    <string name="purchase_policy"><![CDATA[
+        <p>- Я перевірив додаток, він працює належним чином.</p>
+        <p>- Я попереджений, що не можу вимагати повернення коштів через помилки у додатку, що викликані змінами у додатку, апаратним оточенням або використанням інших додатків.</p>
+        <p>- Усі продажі остаточні і поверненню не підлягають (за виключенням політики відшкодування Google).</p>
+        <p>- Гарантія не надається.</p>
+        <br><p><i>Після покупки треба перезапустити додаток.</i></p>
+    ]]></string>
+
+    <!--<string name="purchase_price">Ціна:</string>-->
+    <string name="purchase_agree">Я згоден з умовами.</string>
+    <string name="purchase_order_id">ID замовлення</string>
+    <string name="purchase_order_id_help">Скопіюйте з:
+        \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <string name="purchase_button_purchase">Придбати</string>
+
+    <!-- Feedback -->
+    <string name="action_log_notification">Журнал</string>
+
+    <string name="feedback_google_play_title">Оцініть додаток</string>
+    <string name="feedback_request_feature_title">Запит на функції, повідомлення про помилки</string>
+    <string name="feedback_request_feature_summary">Автоматична обробка листів, відповідь може не надійти</string>
+    <string name="feedback_translation_title">Переклад Mi Bandage</string>
+    <string name="feedback_translation_title_summary">Будьласка допоможіть перекласти</string>
+
+    <!-- Privacy policy -->
+    <string name="privacy_policy_tab_privacy_policy">Політика конфіденційності</string>
+    <string name="privacy_policy_tab_eu_consent">Угода європейського користувача</string>
+
+    <string name="privacy_policy_collect_title">Інформація що збирається</string>
+    <string name="privacy_policy_collect"><![CDATA[
+        <p>- Ми збираємо тільки анонімну інформацію.</p>
+        <p>- Ми збираємо інформацію на рівні додатка про служби, що використовуються, та яким чином (платформа Google Firebase).</p>
+        <p>- Ми збираємо інформацію на рівні додатка таку як помилки та збої, задля покращень додатка (платформа Google Firebase).</p>
+        <p>- Платформа Google Firebase збирає інформацію анонімно. Вона звітує про тенденції без ідентифікації користувачів.</p>
+        - Ми не надаємо інформацію іншим компаніям та організаціям.
+    ]]></string>
+
+    <string name="privacy_policy_not_collect_title">Інформація що не збирається</string>
+    <string name="privacy_policy_not_collect"><![CDATA[
+        <p>- Ми не збираємо інформацію про вас, що ідентифікує особу. Іншими словами, ми не збираємо таку інформацію, як ваше ім’я, адреса, номер телефону, електронна адреса, IP-адреса або MAC-адреса.</p>
+        - Ми не збираємо особисті дані про здоров’я, контакти та тексти сповіщень.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">Політика конфіденційності сторонніх постачальників послуг</string>
+    <string name="privacy_policy_links"><![CDATA[
+        <a href="https://policies.google.com/privacy">Google Play Services</a>
+        <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
+        <p><a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a></p>
+        <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
+    ]]></string>
+
+    <string name="privacy_policy_eu_consent_title">Стан</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Персоналізовані, релевантні оголошення</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Неперсоналізовані оголошення, що менш релевантні</string>
+    <string name="privacy_policy_eu_consent_title_unknown">Невідомо</string>
+
+    <string name="privacy_policy_eu_consent_setting">Налаштування</string>
+
+    <!-- Vibration dialog -->
+    <string name="custom_vibration_title">Налаштування вібрації</string>
+
+    <!-- Others -->
+    <string name="ad_attribution">Реклама</string>
+    <string name="on">Увімкнено</string>
+    <string name="off">Вимкнено</string>
+    <string name="unknown">Невідомо</string>
+    <string name="maximum">Найбільше</string>
+    <string name="default_">Default</string>
+
+
+    <string name="action_dismiss">Відхилити</string>
+    <string name="action_setting">Налаштування</string>
+    <string name="action_delete">Видалити</string>
+<!--    <string name="action_export">Експорт</string>-->
+    <string name="action_filter_no">Без фільтру</string>
+    <string name="action_save">Зберегти</string>
+    <string name="action_test">Тест</string>
+    <string name="action_discard">Скасувати</string>
+    <string name="action_keep_editing">Продовжити редагування</string>
+    <string name="action_new">Новий</string>
+    <string name="action_start_stop">Старт/Стоп</string>
+
+    <string name="action_chart">Графік</string>
+    <string name="action_zoom_in">Zoom in</string>
+    <string name="action_chart_sort_time_asc">Час, зрост.</string>
+    <string name="action_chart_sort_time_desc">Час, зменш.</string>
+    <string name="action_chart_sort_step_asc">Кроки зрост.</string>
+    <string name="action_chart_sort_step_desc">Кроки зменш.</string>
+    <string name="action_chart_sort_pulse_asc">Пульс зрост.</string>
+    <string name="action_chart_sort_pulse_desc">Пульс зменш.</string>
+    <string name="action_chart_monthly_calendar">Календар</string>
+    <string name="action_chart_monthly_compact">Компактно</string>
+
+    <string name="required_value">Необхідно</string>
+
+    <!-- Constante -->
+    <string name="const_time_abbreviation_day">д</string>
+    <string name="const_time_abbreviation_hour">г</string>
+    <string name="const_time_abbreviation_minute">хв</string>
+    <string name="const_time_abbreviation_sec">с</string>
+    <string name="const_time_abbreviation_milli_sec">мс</string>
+
+    <string name="const_number">%1$,d</string>
+    <string name="const_unit_meter">м</string>
+    <string name="const_unit_centimeter">см</string>
+    <string name="const_unit_mile">mi</string>
+    <string name="const_unit_kilogram">кг</string>
+    <string name="const_unit_kcal">ккал</string>
+    <string name="const_unit_dbm">дБм</string>
+
+
+    <plurals name="plural_time_hour">
+        <item quantity="zero">%d годин</item>
+        <item quantity="one">%d година</item>
+        <item quantity="two">%d години</item>
+        <item quantity="few">%d годин</item>
+        <item quantity="many">%d годин</item>
+        <item quantity="other">%d годин</item>
+    </plurals>
+
+    <plurals name="plural_time_minute">
+        <item quantity="zero">%d хвилин</item>
+        <item quantity="one">%d хвилина</item>
+        <item quantity="two">%d хвилини</item>
+        <item quantity="few">%d хвилин</item>
+        <item quantity="many">%d хвилин</item>
+        <item quantity="other">%d хвилин</item>
+    </plurals>
+
+    <plurals name="plural_time_second">
+        <item quantity="zero">%d секунд</item>
+        <item quantity="one">%d секунда</item>
+        <item quantity="two">%d секунди</item>
+        <item quantity="few">%d секунд</item>
+        <item quantity="many">%d секунд</item>
+        <item quantity="other">%d секунд</item>
+    </plurals>
+
+</resources>
