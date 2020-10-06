@@ -4,7 +4,10 @@
     <string name="menu_nav_home">Haylou</string>
     <string name="menu_nav_notification">Ειδοποίηση</string>
     <string name="menu_nav_call">Κλήση</string>
+    <string name="menu_nav_step">Δραστηριότητα</string>
+    <string name="menu_nav_pulse">Παρακολούθηση παλμών</string>
     <string name="menu_nav_more">Περισσότερο</string>
+    <string name="menu_nav_text_display">Ρυθμίσεις εικονιδίων κειμένου</string>
     <string name="menu_nav_theme">Pυθμίσεις θέματος</string>
     <string name="menu_nav_premium_mode">Λειτουργία Premium</string>
     <string name="menu_nav_feedback">Σχόλια</string>
@@ -15,6 +18,8 @@
     <string name="settings_name">Ρυθμίσεις</string>
     <string name="info_name">Πληροφορίες</string>
 
+<!--    <string name="mi_band_tracker_title">Βήματα・απόσταση・θερμίδες・στόχος・παλμός</string>-->
+    <string name="mi_band_tracker_title">Βήματα・στόχος・παλμός</string>
 <!--    <string name="mi_band_battery">Επίπεδο μπαταρίας・χρόνος φόρτισης・εκτιμώμενος χρόνος που απομένει</string>-->
     <string name="device_battery">Επίπεδο μπαταρίας・χρόνος φόρτισης</string>
     <string name="device_state_connected_disconnected_last_time">Τελευταίος χρόνος σύνδεσης και αποσύνδεσης</string>
@@ -30,7 +35,6 @@
     <string name="device_state_not_bonded">Ασύνδετη συσκευή</string>
 
 
-    <string name="pref_text_title">Ρυθμίσεις εικονιδίων κειμένου</string>
     <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
     <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
     <string name="pref_text_emoticon_title">Μετατροπή Emoji</string>
@@ -40,6 +44,10 @@
     <string name="pref_text_line_separator_title">Line separator replacement</string>
     <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
     <string name="pref_text_line_separator_value_title">Replacement characters</string>
+    <string name="pref_text_char_replacement_title">Character, emoj replacement</string>
+    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
+    <string name="pref_text_char_replacement_find">Εύρεση</string>
+    <string name="pref_text_char_replacement_replace">Αντικατέστησε με</string>
 
     <!-- Battery -->
     <string name="battery_details">Πληροφορίες μπαταρίας</string>
@@ -120,6 +128,7 @@
     <string name="message_premium_mode_only">Αυτή η λειτουργία είναι διαθέσιμη μόνο στη λειτουργία premium</string>
     <string name="message_internet_error">Δεν υπάρχει σύνδεση στο internet</string>
 
+    <string name="message_in_progress">Σε εξέλιξη…</string>
     <string name="message_no_data">Δεν υπάρχουν διαθέσιμα δεδομένα</string>
 
     <string name="message_new_message">Λάβατε ένα νέο μήνυμα, μπορείτε να το δείτε στο τηλέφωνο σας.</string>
@@ -205,6 +214,33 @@
     <string name="action_filter_notification">Φίλτρο ειδοποιήσεων</string>
 
     <string name="touch_tab_control">Έλεγχος</string>
+
+    <!-- Activity -->
+    <string name="step_tab_day">Ημερήσια διαγράμματα</string>
+    <string name="step_tab_week">Εβδομαδιαία διαγράμματα</string>
+    <string name="step_tab_month">Μηνιαία διαγράμματα</string>
+
+    <string name="step_details">Λεπτομέρειες βημάτων</string>
+
+    <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
+    <string name="mi_band_tracker_distance_meter_title">%1$,d μ</string> <!-- meter -->
+    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
+    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
+
+    <string name="action_tracker_step">Βήματα</string>
+    <string name="action_tracker_distance">Απόσταση</string>
+    <string name="action_tracker_calorie">Θερμίδες</string>
+
+    <string name="step_goal_default_title">Προεπιλεγμένος στόχος</string>
+
+
+    <!-- Pulse -->
+    <string name="pulse_tab_day">Ημερήσια διαγράμματα</string>
+    <string name="pulse_tab_week">Eβδομαδιαία διαγράμματα</string>
+    <string name="pulse_tab_month">Μηνιαία διαγράμματα</string>
+
+    <string name="pulse_details">Λεπτομέρειες παλμού</string>
+
 
     <!-- Theme -->
     <string name="theme_tab_theme">Θέμα</string>
@@ -304,13 +340,32 @@
     <string name="action_new">New</string>
     <string name="action_start_stop">Start/Stop</string>
 
+    <string name="action_chart">Διάγραμμα</string>
+    <string name="action_zoom_in">Zoom in</string>
+    <string name="action_chart_sort_time_asc">Ώρα αύξουσα</string>
+    <string name="action_chart_sort_time_desc">Ώρα φθίνουσα</string>
+    <string name="action_chart_sort_step_asc">Βήμα αύξων</string>
+    <string name="action_chart_sort_step_desc">Βήμα φθίνων</string>
+    <string name="action_chart_sort_pulse_asc">Παλμός αύξων</string>
+    <string name="action_chart_sort_pulse_desc">Παλμός φθίνων</string>
+    <string name="action_chart_monthly_calendar">Calendar</string>
+    <string name="action_chart_monthly_compact">Compact</string>
+
     <string name="required_value">Απαιτείται</string>
 
     <!-- Constante -->
     <string name="const_time_abbreviation_day">η</string>
     <string name="const_time_abbreviation_hour">ω</string>
     <string name="const_time_abbreviation_minute">λ</string>
+    <string name="const_time_abbreviation_sec">δ</string>
+    <string name="const_time_abbreviation_milli_sec">μδ</string>
 
+    <string name="const_number">%1$,d</string>
+    <string name="const_unit_meter">μ</string>
+    <string name="const_unit_centimeter">εκ</string>
+    <string name="const_unit_mile">mi</string>
+    <string name="const_unit_kilogram">kg</string>
+    <string name="const_unit_kcal">kcal</string>
     <string name="const_unit_dbm">dBm</string>
 
     <plurals name="plural_time_hour">

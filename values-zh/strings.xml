@@ -4,7 +4,10 @@
     <string name="menu_nav_home">Haylou</string>
     <string name="menu_nav_notification">通知</string>
     <string name="menu_nav_call">呼叫</string>
+    <string name="menu_nav_step">活动</string>
+    <string name="menu_nav_pulse">心率</string>
     <string name="menu_nav_more">更多</string>
+    <string name="menu_nav_text_display">文字图标</string>
     <string name="menu_nav_theme">主题</string>
     <string name="menu_nav_premium_mode">高级模式</string>
     <string name="menu_nav_feedback">反馈</string>
@@ -15,6 +18,8 @@
     <string name="settings_name">设置</string>
     <string name="info_name">信息</string>
 
+<!--    <string name="mi_band_tracker_title">步数・距离・卡路里・目标・心率</string>-->
+    <string name="mi_band_tracker_title">步数・目标・心率</string>
 <!--    <string name="mi_band_battery">电池电量・最后充电时间・预计剩余时间</string>-->
     <string name="device_battery">电池电量・最后充电时间</string>
     <string name="device_state_connected_disconnected_last_time">上次连接和断开时间</string>
@@ -30,7 +35,6 @@
     <string name="device_state_not_bonded">未配对设备</string>
 
 
-    <string name="pref_text_title">文字图标</string>
     <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
     <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
     <string name="pref_text_emoticon_title">Emoji 转换</string>
@@ -40,6 +44,10 @@
     <string name="pref_text_line_separator_title">Line separator replacement</string>
     <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
     <string name="pref_text_line_separator_value_title">Replacement characters</string>
+    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
+    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
+    <string name="pref_text_char_replacement_find">查找</string>
+    <string name="pref_text_char_replacement_replace">替换</string>
 
     <!-- Battery -->
     <string name="battery_details">电池使用情况</string>
@@ -120,6 +128,7 @@
     <string name="message_premium_mode_only">此功能仅在高级模式可以</string>
     <string name="message_internet_error">没有网络连接</string>
 
+    <string name="message_in_progress">进行中…</string>
     <string name="message_no_data">没有可用的数据</string>
 
     <string name="message_new_message">收到一条新信息，在手机上查看.</string>
@@ -205,6 +214,33 @@
     <string name="action_filter_notification">通知过滤器</string>
 
     <string name="touch_tab_control">控制</string>
+
+    <!-- Activity -->
+    <string name="step_tab_day">每日图表</string>
+    <string name="step_tab_week">每周图表</string>
+    <string name="step_tab_month">每月图表</string>
+
+    <string name="step_details">活动详情</string>
+
+    <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
+    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
+    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
+    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
+
+    <string name="action_tracker_step">步数</string>
+    <string name="action_tracker_distance">距离</string>
+    <string name="action_tracker_calorie">卡路里</string>
+
+    <string name="step_goal_default_title">默认目标</string>
+
+
+    <!-- Pulse -->
+    <string name="pulse_tab_day">每日图表</string>
+    <string name="pulse_tab_week">每周图表</string>
+    <string name="pulse_tab_month">每月图表</string>
+
+    <string name="pulse_details">心率细节</string>
+
 
     <!-- Theme -->
     <string name="theme_tab_theme">主题</string>
@@ -304,13 +340,32 @@
     <string name="action_new">New</string>
     <string name="action_start_stop">Start/Stop</string>
 
+    <string name="action_chart">图表</string>
+    <string name="action_zoom_in">Zoom in</string>
+    <string name="action_chart_sort_time_asc">时间升序</string>
+    <string name="action_chart_sort_time_desc">时间降序</string>
+    <string name="action_chart_sort_step_asc">逐步升序</string>
+    <string name="action_chart_sort_step_desc">降序</string>
+    <string name="action_chart_sort_pulse_asc">心率升序</string>
+    <string name="action_chart_sort_pulse_desc">心率降序</string>
+    <string name="action_chart_monthly_calendar">Calendar</string>
+    <string name="action_chart_monthly_compact">Compact</string>
+
     <string name="required_value">必填</string>
 
     <!-- Constante -->
     <string name="const_time_abbreviation_day">d</string>
     <string name="const_time_abbreviation_hour">h</string>
     <string name="const_time_abbreviation_minute">m</string>
+    <string name="const_time_abbreviation_sec">s</string>
+    <string name="const_time_abbreviation_milli_sec">ms</string>
 
+    <string name="const_number">%1$,d</string>
+    <string name="const_unit_meter">m</string>
+    <string name="const_unit_centimeter">cm</string>
+    <string name="const_unit_mile">mi</string>
+    <string name="const_unit_kilogram">kg</string>
+    <string name="const_unit_kcal">kcal</string>
     <string name="const_unit_dbm">dBm</string>
 
     <plurals name="plural_time_hour">

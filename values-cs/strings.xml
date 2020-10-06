@@ -4,7 +4,10 @@
     <string name="menu_nav_home">Haylou</string>
     <string name="menu_nav_notification">Oznámení</string>
     <string name="menu_nav_call">Hovor</string>
+    <string name="menu_nav_step">Aktivita</string>
+    <string name="menu_nav_pulse">Tep</string>
     <string name="menu_nav_more">Více</string>
+    <string name="menu_nav_text_display">Textové ikony</string>
     <string name="menu_nav_theme">Styly</string>
     <string name="menu_nav_premium_mode">Prémiový režim</string>
     <string name="menu_nav_feedback">Zpětná vazba</string>
@@ -15,6 +18,8 @@
     <string name="settings_name">Nastavení</string>
     <string name="info_name">Informace</string>
 
+<!--    <string name="mi_band_tracker_title">Kroky・vzdálenost・kalorie・cíl・tep</string>-->
+    <string name="mi_band_tracker_title">Kroky・cíl・tep</string>
 <!--    <string name="mi_band_battery">Úroveň baterie・čas nabíjení・odhadovaný zbývající čas</string>-->
     <string name="device_battery">Úroveň baterie・čas nabíjení</string>
     <string name="device_state_connected_disconnected_last_time">Poslední čas připojení a odpojení</string>
@@ -30,7 +35,6 @@
     <string name="device_state_not_bonded">Není spárováno zařízení</string>
 
 
-    <string name="pref_text_title">Textové ikony</string>
     <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
     <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
     <string name="pref_text_emoticon_title">Převod smajlíků</string>
@@ -40,6 +44,10 @@
     <string name="pref_text_line_separator_title">Line separator replacement</string>
     <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
     <string name="pref_text_line_separator_value_title">Replacement characters</string>
+    <string name="pref_text_char_replacement_title">Character, emoj replacement</string>
+    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
+    <string name="pref_text_char_replacement_find">Find</string>
+    <string name="pref_text_char_replacement_replace">Replace with</string>
 
     <!-- Battery -->
     <string name="battery_details">Detaily baterie</string>
@@ -120,6 +128,7 @@
     <string name="message_premium_mode_only">Tato funkce je k dispozici pouze v prémiovém režimu</string>
     <string name="message_internet_error">Nemáte připojení k internetu</string>
 
+    <string name="message_in_progress">Probíhá…</string>
     <string name="message_no_data">Žádné údaje nejsou k dispozici</string>
 
     <string name="message_new_message">Přišla nová zpráva, zobrazte ji na telefonu.</string>
@@ -204,6 +213,33 @@
     <string name="action_filter_notification">Filtr oznámení</string>
 
     <string name="touch_tab_control">Ovládání</string>
+
+    <!-- Activity -->
+    <string name="step_tab_day">Denní grafy</string>
+    <string name="step_tab_week">Týdenní grafy</string>
+    <string name="step_tab_month">Měsíční grafy</string>
+
+    <string name="step_details">Podrobnosti aktivit</string>
+
+    <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
+    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
+    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
+    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
+
+    <string name="action_tracker_step">Kroky</string>
+    <string name="action_tracker_distance">Vzdálenost</string>
+    <string name="action_tracker_calorie">Kalorie</string>
+
+    <string name="step_goal_default_title">Výchozí cíl</string>
+
+
+    <!-- Pulse -->
+    <string name="pulse_tab_day">Denní grafy</string>
+    <string name="pulse_tab_week">Týdenní grafy</string>
+    <string name="pulse_tab_month">Měsíční grafy</string>
+
+    <string name="pulse_details">Podrobnosti tepu</string>
+
 
     <!-- Theme -->
     <string name="theme_tab_theme">Styly</string>
@@ -301,13 +337,32 @@
     <string name="action_new">New</string>
     <string name="action_start_stop">Start/Stop</string>
 
+    <string name="action_chart">Graf</string>
+    <string name="action_zoom_in">Zoom in</string>
+    <string name="action_chart_sort_time_asc">Čas stoupající</string>
+    <string name="action_chart_sort_time_desc">Čas klesající</string>
+    <string name="action_chart_sort_step_asc">Krok stoupající</string>
+    <string name="action_chart_sort_step_desc">Krok klesající</string>
+    <string name="action_chart_sort_pulse_asc">Tlak stoupající</string>
+    <string name="action_chart_sort_pulse_desc">Tlak klesající</string>
+    <string name="action_chart_monthly_calendar">Calendar</string>
+    <string name="action_chart_monthly_compact">Compact</string>
+
     <string name="required_value">Požadováno</string>
 
     <!-- Constante -->
     <string name="const_time_abbreviation_day">d</string>
     <string name="const_time_abbreviation_hour">h</string>
     <string name="const_time_abbreviation_minute">m</string>
+    <string name="const_time_abbreviation_sec">s</string>
+    <string name="const_time_abbreviation_milli_sec">ms</string>
 
+    <string name="const_number">%1$,d</string>
+    <string name="const_unit_meter">m</string>
+    <string name="const_unit_centimeter">cm</string>
+    <string name="const_unit_mile">mi</string>
+    <string name="const_unit_kilogram">kg</string>
+    <string name="const_unit_kcal">kcal</string>
     <string name="const_unit_dbm">dBm</string>
 
     <plurals name="plural_time_hour">

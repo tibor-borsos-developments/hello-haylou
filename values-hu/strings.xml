@@ -4,7 +4,10 @@
     <string name="menu_nav_home">Haylou</string>
     <string name="menu_nav_notification">Értesítés</string>
     <string name="menu_nav_call">Hívás</string>
+    <string name="menu_nav_step">Aktivitás</string>
+    <string name="menu_nav_pulse">Pulzus</string>
     <string name="menu_nav_more">Továbbiak</string>
+    <string name="menu_nav_text_display">Szöveg megjelenítés</string>
     <string name="menu_nav_theme">Téma</string>
     <string name="menu_nav_premium_mode">Prémium mód</string>
     <string name="menu_nav_feedback">Visszajelzés</string>
@@ -15,6 +18,8 @@
     <string name="settings_name">Beállítások</string>
     <string name="info_name">Információ</string>
 
+<!--    <string name="mi_band_tracker_title">Lépésszám・távolság・kalória・célkitűzés・pulzus</string>-->
+    <string name="mi_band_tracker_title">Lépésszám・célkitűzés・pulzus</string>
 <!--    <string name="mi_band_battery">Akkumulátor állapota・töltés időpontja・becsült hátralévő idő</string>-->
     <string name="device_battery">Akkumulátor állapota・töltés időpontja</string>
     <string name="device_state_connected_disconnected_last_time">Utolsó csatlakozás és kapcsolatbontás időpontja</string>
@@ -30,7 +35,6 @@
     <string name="device_state_not_bonded">Nem párosított eszköz</string>
 
 
-    <string name="pref_text_title">Szöveg megjelenítés</string>
     <string name="pref_text_alphanumeric_title">Alfanumerikus és ASCII karakterek </string>
     <string name="pref_text_alphanumeric_summary_on">Csak az alfanumerikus és ASCII karakterek megjelenítése</string>
     <string name="pref_text_emoticon_title">Emoji átalakítás</string>
@@ -40,6 +44,10 @@
     <string name="pref_text_line_separator_title">Sorelválasztó helyettesítés</string>
     <string name="pref_text_line_separator_summary_on">Alapértelmezett sorelválasztó helyettesítése más karakterrel</string>
     <string name="pref_text_line_separator_value_title">Helyetesítő karakterek</string>
+    <string name="pref_text_char_replacement_title">Karakter, emoji helyettesítés</string>
+    <string name="pref_text_char_replacement_summary_on">Karakter helyettesítése más karakterrel</string>
+    <string name="pref_text_char_replacement_find">Keresett karakter</string>
+    <string name="pref_text_char_replacement_replace">Csere erre</string>
 
     <!-- Battery -->
     <string name="battery_details">Akkumulátorhasználat</string>
@@ -58,7 +66,7 @@
     <string name="pref_connected">Csatlakozás</string>
 
     <string name="pref_connected_have_notif_interval_title">Emlékeztető jelzések ismétlésének időköze</string>
-    <string name="pref_connected_have_notif_interval_summary">Értesítés/emlékeztető jelzés funkció használja ezt az időzítése</string>
+    <string name="pref_connected_have_notif_interval_summary">Értesítés/emlékeztető jelzés funkció használja ezt az időzítést</string>
 
     <string name="pref_cat_call">Bejövő hívás</string>
     <string name="pref_call_summary_on">Ne felejtsd el kikapcsolni a Haylou Sport applikációban</string>
@@ -100,7 +108,7 @@
     <string name="message_discovered_no_mi_band">Haylou csatlakoztatása nem sikerült</string>
     <string name="message_discovered_not_found_mi_band">Ha Haylou nem található, kapcsold be: Haylou Sport/Értesítések/Felfedezhetőség illetve párosítsd a telefon Bluetooth beállításoknál</string>
     <string name="message_enable_bluetooth">Kapcsold be a Bluetooth-ot és tartsd közel a Band-t</string>
-    <string name="message_enable_notification_listener_access">Engedélyezd a hozzáférést az értesítésekhez: Értesítések/Hozzáférés értesítésekhez</string>
+    <string name="message_enable_notification_listener_access">Engedélyezd a hozzáférést az értesítésekhez: Telefon/Beállítások/Hozzáférés értesítésekhez</string>
     <string name="message_enable_notification_listener_access_4_4">Engedélyezd a hozzáférést az értesítésekhez: Biztonság/Hozzáférés az értesítésekhez</string>
     <string name="message_open_settings">Beállítások</string>
 
@@ -120,6 +128,7 @@
     <string name="message_premium_mode_only">A funkció csak prémium módban érhető el</string>
     <string name="message_internet_error">Nincs internet kapcsolat</string>
 
+    <string name="message_in_progress">Folyamatban…</string>
     <string name="message_no_data">Nincs adat</string>
 
     <string name="message_new_message">Új üzenet érkezett, megtekinthető a telefonon.</string>
@@ -216,6 +225,33 @@
     <string name="action_filter_notification">Értesítés szűrő</string>
 
     <string name="touch_tab_control">Vezérlés</string>
+
+    <!-- Activity -->
+    <string name="step_tab_day">Napi graf.</string>
+    <string name="step_tab_week">Heti graf.</string>
+    <string name="step_tab_month">Havi graf.</string>
+
+    <string name="step_details">Aktivitás részletek</string>
+
+    <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
+    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
+    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
+    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
+
+    <string name="action_tracker_step">Lépésszám</string>
+    <string name="action_tracker_distance">Távolság</string>
+    <string name="action_tracker_calorie">Kalória</string>
+
+    <string name="step_goal_default_title">Alapértelmezett célkitűzés</string>
+
+
+    <!-- Pulse -->
+    <string name="pulse_tab_day">Napi graf.</string>
+    <string name="pulse_tab_week">Heti graf.</string>
+    <string name="pulse_tab_month">Havi graf.</string>
+
+    <string name="pulse_details">Pulzus részletek</string>
+
 
     <!-- Theme -->
     <string name="theme_tab_theme">Téma</string>
@@ -315,15 +351,33 @@
     <string name="action_new">Új</string>
     <string name="action_start_stop">Indít/Leállít</string>
 
+    <string name="action_chart">Grafikon</string>
+    <string name="action_zoom_in">Ráközelít</string>
+    <string name="action_chart_sort_time_asc">Idő növekvő</string>
+    <string name="action_chart_sort_time_desc">Idő csökkenő</string>
+    <string name="action_chart_sort_step_asc">Lépés növekvő</string>
+    <string name="action_chart_sort_step_desc">Lépés csökkenő</string>
+    <string name="action_chart_sort_pulse_asc">Pulzus növekvő</string>
+    <string name="action_chart_sort_pulse_desc">Pulzus csökkenő</string>
+    <string name="action_chart_monthly_calendar">Naptár</string>
+    <string name="action_chart_monthly_compact">Kompakt</string>
+
     <string name="required_value">Megadása kötelező</string>
 
     <!-- Constante -->
     <string name="const_time_abbreviation_day">n</string>
     <string name="const_time_abbreviation_hour">ó</string>
     <string name="const_time_abbreviation_minute">p</string>
+    <string name="const_time_abbreviation_sec">m</string>
+    <string name="const_time_abbreviation_milli_sec">emp</string>
 
+    <string name="const_number">%1$,d</string>
+    <string name="const_unit_meter">m</string>
+    <string name="const_unit_centimeter">cm</string>
+    <string name="const_unit_mile">mi</string>
+    <string name="const_unit_kilogram">kg</string>
+    <string name="const_unit_kcal">kcal</string>
     <string name="const_unit_dbm">dBm</string>
-
     <plurals name="plural_time_hour">
         <item quantity="zero">%d óra</item>
         <item quantity="one">%d óra</item>

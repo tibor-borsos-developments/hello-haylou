@@ -4,7 +4,10 @@
     <string name="menu_nav_home">Haylou</string>
     <string name="menu_nav_notification">通知</string>
     <string name="menu_nav_call">通話</string>
+    <string name="menu_nav_step">アクティビティ</string>
+    <string name="menu_nav_pulse">心拍数</string>
     <string name="menu_nav_more">もっと</string>
+    <string name="menu_nav_text_display">テキスト表示</string>
     <string name="menu_nav_theme">テーマ</string>
     <string name="menu_nav_premium_mode">プレミアムモード</string>
     <string name="menu_nav_feedback">フィードバック</string>
@@ -15,6 +18,8 @@
     <string name="settings_name">設定</string>
     <string name="info_name">情報</string>
 
+<!--    <string name="mi_band_tracker_title">歩数・距離・カロリー・目標・心拍数</string>-->
+    <string name="mi_band_tracker_title">歩数・目標・心拍数</string>
 <!--    <string name="mi_band_battery">バッテリー残量・最後に充電した時間・推定残り時間</string>-->
     <string name="device_battery">バッテリー残量・最後に充電した時間</string>
     <string name="device_state_connected_disconnected_last_time">最後に接続、切断された時間</string>
@@ -30,7 +35,6 @@
     <string name="device_state_not_bonded">未ペアリングのデバイス</string>
 
 
-    <string name="pref_text_title">テキスト表示</string>
     <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
     <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
     <string name="pref_text_emoticon_title">絵文字の変換</string>
@@ -40,6 +44,10 @@
     <string name="pref_text_line_separator_title">Line separator replacement</string>
     <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
     <string name="pref_text_line_separator_value_title">Replacement characters</string>
+    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
+    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
+    <string name="pref_text_char_replacement_find">検索</string>
+    <string name="pref_text_char_replacement_replace">検索</string>
 
     <!-- Battery -->
     <string name="battery_details">バッテリーの使用状況</string>
@@ -120,6 +128,7 @@
     <string name="message_premium_mode_only">この機能はプレミアムモードでのみ利用可能です</string>
     <string name="message_internet_error">インターネット接続がありません</string>
 
+    <string name="message_in_progress">処理中…</string>
     <string name="message_no_data">利用可能なデータなし</string>
 
     <string name="message_new_message">新着メッセージがあります。端末で確認してください。</string>
@@ -205,6 +214,32 @@
     <string name="action_filter_notification">通知フィルタ</string>
 
     <string name="touch_tab_control">操作</string>
+
+    <!-- Activity -->
+    <string name="step_tab_day">日別</string>
+    <string name="step_tab_week">週別</string>
+    <string name="step_tab_month">月別</string>
+
+    <string name="step_details">アクティビティの詳細</string>
+
+    <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
+    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
+    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
+    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
+
+    <string name="action_tracker_step">歩数</string>
+    <string name="action_tracker_distance">距離</string>
+    <string name="action_tracker_calorie">カロリー</string>
+
+    <string name="step_goal_default_title">目標</string>
+
+
+    <!-- Pulse -->
+    <string name="pulse_tab_day">日別</string>
+    <string name="pulse_tab_week">週別</string>
+    <string name="pulse_tab_month">月別</string>
+
+    <string name="pulse_details">心拍数の詳細</string>
 
 
     <!-- Theme -->
@@ -305,13 +340,32 @@
     <string name="action_new">新規</string>
     <string name="action_start_stop">開始/停止</string>
 
+    <string name="action_chart">チャート</string>
+    <string name="action_zoom_in">Zoom in</string>
+    <string name="action_chart_sort_time_asc">時間/昇順</string>
+    <string name="action_chart_sort_time_desc">時間/降順</string>
+    <string name="action_chart_sort_step_asc">歩数/昇順</string>
+    <string name="action_chart_sort_step_desc">歩数/降順</string>
+    <string name="action_chart_sort_pulse_asc">心拍数/昇順</string>
+    <string name="action_chart_sort_pulse_desc">心拍数/降順</string>
+    <string name="action_chart_monthly_calendar">カレンダー</string>
+    <string name="action_chart_monthly_compact">コンパクト</string>
+
     <string name="required_value">必須</string>
 
     <!-- Constante -->
     <string name="const_time_abbreviation_day">d</string>
     <string name="const_time_abbreviation_hour">h</string>
     <string name="const_time_abbreviation_minute">m</string>
+    <string name="const_time_abbreviation_sec">s</string>
+    <string name="const_time_abbreviation_milli_sec">ms</string>
 
+    <string name="const_number">%1$,d</string>
+    <string name="const_unit_meter">m</string>
+    <string name="const_unit_centimeter">cm</string>
+    <string name="const_unit_mile">mi</string>
+    <string name="const_unit_kilogram">kg</string>
+    <string name="const_unit_kcal">kcal</string>
     <string name="const_unit_dbm">dBm</string>
 
     <plurals name="plural_time_hour">

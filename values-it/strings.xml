@@ -4,7 +4,10 @@
     <string name="menu_nav_home">Haylou</string>
     <string name="menu_nav_notification">Notifiche</string>
     <string name="menu_nav_call">Chiamata</string>
+    <string name="menu_nav_step">Attività</string>
+    <string name="menu_nav_pulse">Battiti</string>
     <string name="menu_nav_more">Di Più</string>
+    <string name="menu_nav_text_display">Icona con testi</string>
     <string name="menu_nav_theme">Tema</string>
     <string name="menu_nav_premium_mode">Modalità Premium</string>
     <string name="menu_nav_feedback">Feedback</string>
@@ -15,6 +18,8 @@
     <string name="settings_name">Impostazioni</string>
     <string name="info_name">Informazioni</string>
 
+<!--    <string name="mi_band_tracker_title">Passi・distanza・calorie・obiettivo・battiti</string>-->
+    <string name="mi_band_tracker_title">Passi・obiettivo・battiti</string>
 <!--    <string name="mi_band_battery">Livello batteria・ultima ricarica・durata stimata rimanente</string>-->
     <string name="device_battery">Livello batteria・ultima ricarica</string>
     <string name="device_state_connected_disconnected_last_time">Potenza segnale・tempo dall\'ultima connessione e disconnessione</string>
@@ -30,7 +35,6 @@
     <string name="device_state_not_bonded">Dispositivo non associato</string>
 
 
-    <string name="pref_text_title">Icona con testi</string>
     <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
     <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
     <string name="pref_text_emoticon_title">Converti emoji</string>
@@ -40,6 +44,10 @@
     <string name="pref_text_line_separator_title">Line separator replacement</string>
     <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
     <string name="pref_text_line_separator_value_title">Replacement characters</string>
+    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
+    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
+    <string name="pref_text_char_replacement_find">Cerca</string>
+    <string name="pref_text_char_replacement_replace">Sostituisci con</string>
 
     <!-- Battery -->
     <string name="battery_details">Utilizzo batteria</string>
@@ -120,6 +128,7 @@
     <string name="message_premium_mode_only">Questa funzione è disponibile solo in versione premium</string>
     <string name="message_internet_error">Manca connessione internet</string>
 
+    <string name="message_in_progress">In corso…</string>
     <string name="message_no_data">Nessun dato disponibile</string>
 
     <string name="message_new_message">Hai ricevuto un nuovo messaggio, guardalo sul telefono.</string>
@@ -205,6 +214,32 @@
     <string name="action_filter_notification">Filtra notifiche</string>
 
     <string name="touch_tab_control">Controlli</string>
+
+    <!-- Activity -->
+    <string name="step_tab_day">Grafico giornaliero</string>
+    <string name="step_tab_week">Grafico settimanale</string>
+    <string name="step_tab_month">Grafico mensile</string>
+
+    <string name="step_details">Dettaglio passi</string>
+
+    <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
+    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
+    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
+    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
+
+    <string name="action_tracker_step">Passi</string>
+    <string name="action_tracker_distance">Distanza</string>
+    <string name="action_tracker_calorie">Calorie</string>
+
+    <string name="step_goal_default_title">Obiettivo predefinito</string>
+
+
+    <!-- Pulse -->
+    <string name="pulse_tab_day">Grafico giornaliero</string>
+    <string name="pulse_tab_week">Grafico settimanale</string>
+    <string name="pulse_tab_month">Grafico mensile</string>
+
+    <string name="pulse_details">Dettagli pulsazioni</string>
 
 
     <!-- Theme -->
@@ -305,13 +340,32 @@
     <string name="action_new">Nuovo</string>
     <string name="action_start_stop">Inizia/Termina</string>
 
+    <string name="action_chart">Grafico</string>
+    <string name="action_zoom_in">Zoom in</string>
+    <string name="action_chart_sort_time_asc">Tempo crescente</string>
+    <string name="action_chart_sort_time_desc">Tempo decrescente</string>
+    <string name="action_chart_sort_step_asc">Passi crescenti</string>
+    <string name="action_chart_sort_step_desc">Passi decrescenti</string>
+    <string name="action_chart_sort_pulse_asc">Battiti crescenti</string>
+    <string name="action_chart_sort_pulse_desc">Battiti decrescenti</string>
+    <string name="action_chart_monthly_calendar">Calendario</string>
+    <string name="action_chart_monthly_compact">Compatto</string>
+
     <string name="required_value">Richiesto</string>
 
     <!-- Constante -->
     <string name="const_time_abbreviation_day">g</string>
     <string name="const_time_abbreviation_hour">o</string>
     <string name="const_time_abbreviation_minute">m</string>
+    <string name="const_time_abbreviation_sec">s</string>
+    <string name="const_time_abbreviation_milli_sec">ms</string>
 
+    <string name="const_number">%1$,d</string>
+    <string name="const_unit_meter">m</string>
+    <string name="const_unit_centimeter">cm</string>
+    <string name="const_unit_mile">mi</string>
+    <string name="const_unit_kilogram">kg</string>
+    <string name="const_unit_kcal">kcal</string>
     <string name="const_unit_dbm">dBm</string>
 
     <plurals name="plural_time_hour">

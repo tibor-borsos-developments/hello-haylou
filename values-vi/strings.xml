@@ -4,7 +4,10 @@
     <string name="menu_nav_home">Haylou</string>
     <string name="menu_nav_notification">Thông báo</string>
     <string name="menu_nav_call">Cuộc gọi</string>
+    <string name="menu_nav_step">Giám sát bước chân</string>
+    <string name="menu_nav_pulse">Giám sát nhịp tim</string>
     <string name="menu_nav_more">Hơn</string>
+    <string name="menu_nav_text_display">Cài đặt biểu tượng văn bản</string>
     <string name="menu_nav_theme">Theme</string>
     <string name="menu_nav_premium_mode">Phiên bản nâng cấp</string>
     <string name="menu_nav_feedback">Phản hồi</string>
@@ -15,6 +18,8 @@
     <string name="settings_name">Cài đặt</string>
     <string name="info_name">Thông tin</string>
 
+<!--    <string name="mi_band_tracker_title">Bước・khoảng cách・calo・Thành tích・Nhịp tim</string>-->
+    <string name="mi_band_tracker_title">Bước・Thành tích・Nhịp tim</string>
 <!--    <string name="mi_band_battery">Mức pin・Lần sạc cuối・Thời gian còn lại</string>-->
     <string name="device_battery">Mức pin・Lần sạc cuối</string>
     <string name="device_state_connected_disconnected_last_time">Lần cuối nhìn thấy thiết bị</string>
@@ -30,7 +35,6 @@
     <string name="device_state_not_bonded">Thiết bị không kết nối</string>
 
 
-    <string name="pref_text_title">Cài đặt biểu tượng văn bản</string>
     <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
     <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
     <string name="pref_text_emoticon_title">Chuyển đổi biểu tượng</string>
@@ -40,6 +44,10 @@
     <string name="pref_text_line_separator_title">Line separator replacement</string>
     <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
     <string name="pref_text_line_separator_value_title">Replacement characters</string>
+    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
+    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
+    <string name="pref_text_char_replacement_find">Tìm kiếm</string>
+    <string name="pref_text_char_replacement_replace">Thay thế bởi</string>
 
     <!-- Battery -->
     <string name="battery_details">Sử dụng Pin</string>
@@ -121,6 +129,7 @@
     <string name="message_premium_mode_only">Tính năng này chỉ có sẵn trong bản nâng cấp</string>
     <string name="message_internet_error">Không có mạng</string>
 
+    <string name="message_in_progress">Đang thực hiện…</string>
     <string name="message_no_data">Không có dữ liệu</string>
 
     <string name="message_new_message">Nhận được 1 tin nhắn, xem trên điện thoại.</string>
@@ -208,6 +217,33 @@
     <string name="action_filter_notification">Lọc thông báo</string>
 
     <string name="touch_tab_control">Điều khiển</string>
+
+    <!-- Activity -->
+    <string name="step_tab_day">Biểu đồ hàng ngày</string>
+    <string name="step_tab_week">Biểu đồ theo tuần</string>
+    <string name="step_tab_month">Monthly charts</string>
+
+    <string name="step_details">Chi tiết bước chân</string>
+
+    <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
+    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
+    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
+    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
+
+    <string name="action_tracker_step">Bước</string>
+    <string name="action_tracker_distance">Khoảng cách</string>
+    <string name="action_tracker_calorie">Calories</string>
+
+    <string name="step_goal_default_title">Mốc thành tích mặc định</string>
+
+
+    <!-- Pulse -->
+    <string name="pulse_tab_day">Biểu đồ hàng ngày</string>
+    <string name="pulse_tab_week">Biểu đồ theo tuần</string>
+    <string name="pulse_tab_month">Biểu đồ theo tháng</string>
+
+    <string name="pulse_details">Chi tiết nhịp tim</string>
+
 
     <!-- Theme -->
     <string name="theme_tab_theme">Theme</string>
@@ -306,13 +342,32 @@
     <string name="action_new">Mới</string>
     <string name="action_start_stop">Start/Stop</string>
 
+    <string name="action_chart">Biểu đồ</string>
+    <string name="action_zoom_in">Zoom in</string>
+    <string name="action_chart_sort_time_asc">Thời gian tăng dần</string>
+    <string name="action_chart_sort_time_desc">Thời gian giảm dần</string>
+    <string name="action_chart_sort_step_asc">Bước tăng dần</string>
+    <string name="action_chart_sort_step_desc">Bước giảm dần</string>
+    <string name="action_chart_sort_pulse_asc">Nhịp tim tăng dần</string>
+    <string name="action_chart_sort_pulse_desc">Nhịp tim giảm dần</string>
+    <string name="action_chart_monthly_calendar">Calendar</string>
+    <string name="action_chart_monthly_compact">Compact</string>
+
     <string name="required_value">Bắt buộc</string>
 
     <!-- Constante -->
     <string name="const_time_abbreviation_day">d</string>
     <string name="const_time_abbreviation_hour">h</string>
     <string name="const_time_abbreviation_minute">m</string>
+    <string name="const_time_abbreviation_sec">s</string>
+    <string name="const_time_abbreviation_milli_sec">ms</string>
 
+    <string name="const_number">%1$,d</string>
+    <string name="const_unit_meter">m</string>
+    <string name="const_unit_centimeter">cm</string>
+    <string name="const_unit_mile">mi</string>
+    <string name="const_unit_kilogram">kg</string>
+    <string name="const_unit_kcal">kcal</string>
     <string name="const_unit_dbm">dBm</string>
 
     <plurals name="plural_time_hour">

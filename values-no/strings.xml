@@ -4,7 +4,10 @@
     <string name="menu_nav_home">Haylou</string>
     <string name="menu_nav_notification">Notifikasjon</string>
     <string name="menu_nav_call">Anrop</string>
+    <string name="menu_nav_step">Aktivitet</string>
+    <string name="menu_nav_pulse">Puls</string>
     <string name="menu_nav_more">Mer</string>
+    <string name="menu_nav_text_display">Text utseende</string>
     <string name="menu_nav_theme">Stil</string>
     <string name="menu_nav_premium_mode">Premium modus</string>
     <string name="menu_nav_feedback">Tilbakemelding</string>
@@ -15,6 +18,8 @@
     <string name="settings_name">Instillinger</string>
     <string name="info_name">Informasjon</string>
 
+<!--    <string name="mi_band_tracker_title">Skritt・distanse・kalorier・mål・puls</string>-->
+    <string name="mi_band_tracker_title">Skritt・mål・puls</string>
 <!--    <string name="mi_band_battery">Batteri-level・siste lade tid・beregnet gjenværende tid</string>-->
     <string name="device_battery">Batteri-level・siste lade tid</string>
     <string name="device_state_connected_disconnected_last_time">Siste tilkoblings og frakoblings-tid</string>
@@ -30,7 +35,6 @@
     <string name="device_state_not_bonded">Ikke parret enhet</string>
 
 
-    <string name="pref_text_title">Text utseende</string>
     <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
     <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
     <string name="pref_text_emoticon_title">Emoji Konvertering</string>
@@ -40,6 +44,10 @@
     <string name="pref_text_line_separator_title">Line separator replacement</string>
     <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
     <string name="pref_text_line_separator_value_title">Replacement characters</string>
+    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
+    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
+    <string name="pref_text_char_replacement_find">Finn</string>
+    <string name="pref_text_char_replacement_replace">Bytte med</string>
 
     <!-- Battery -->
     <string name="battery_details">Batteri detaljer</string>
@@ -120,6 +128,7 @@
     <string name="message_premium_mode_only">Denne egenskapen er bare tilgjengelig i premium modusen</string>
     <string name="message_internet_error">IInternett feil</string>
 
+    <string name="message_in_progress">Under prosess…</string>
     <string name="message_no_data">Ingen data tilgjengelig</string>
 
     <string name="message_new_message">En ny melding er motatt, se den på telefonen.</string>
@@ -205,6 +214,33 @@
     <string name="action_filter_notification">Notifikasjon filter</string>
 
     <string name="touch_tab_control">Kontroll</string>
+
+    <!-- Activity -->
+    <string name="step_tab_day">Daglige skritt</string>
+    <string name="step_tab_week">Ukentlige skritt</string>
+    <string name="step_tab_month">Månedlige skritt</string>
+
+    <string name="step_details">Skritt detailer</string>
+
+    <string name="mi_band_tracker_step_title">%1$,d</string> <!-- ingen -->
+    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
+    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
+    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo kalori -->
+
+    <string name="action_tracker_step">Skritt</string>
+    <string name="action_tracker_distance">Distanse</string>
+    <string name="action_tracker_calorie">Kalorier</string>
+
+    <string name="step_goal_default_title">generelle skritt-mål</string>
+
+
+    <!-- Pulse -->
+    <string name="pulse_tab_day">Daglige kart</string>
+    <string name="pulse_tab_week">Ukentlig kart</string>
+    <string name="pulse_tab_month">Månedlig kart</string>
+
+    <string name="pulse_details">Puls detaljer</string>
+
 
     <!-- Theme -->
     <string name="theme_tab_theme">Stil</string>
@@ -304,13 +340,32 @@
     <string name="action_new">New</string>
     <string name="action_start_stop">Start/Stop</string>
 
+    <string name="action_chart">Kart</string>
+    <string name="action_zoom_in">Zoom in</string>
+    <string name="action_chart_sort_time_asc">Tid økende</string>
+    <string name="action_chart_sort_time_desc">Tid synkende</string>
+    <string name="action_chart_sort_step_asc">Skritt økende</string>
+    <string name="action_chart_sort_step_desc">Skritt mindre</string>
+    <string name="action_chart_sort_pulse_asc">Puls stigende</string>
+    <string name="action_chart_sort_pulse_desc">Puls synkende</string>
+    <string name="action_chart_monthly_calendar">Calendar</string>
+    <string name="action_chart_monthly_compact">Compact</string>
+
     <string name="required_value">Påkrevd</string>
 
     <!-- Constante -->
     <string name="const_time_abbreviation_day">d</string>
     <string name="const_time_abbreviation_hour">h</string>
     <string name="const_time_abbreviation_minute">m</string>
+    <string name="const_time_abbreviation_sec">s</string>
+    <string name="const_time_abbreviation_milli_sec">ms</string>
 
+    <string name="const_number">%1$,d</string>
+    <string name="const_unit_meter">m</string>
+    <string name="const_unit_centimeter">cm</string>
+    <string name="const_unit_mile">mi</string>
+    <string name="const_unit_kilogram">kg</string>
+    <string name="const_unit_kcal">kcal</string>
     <string name="const_unit_dbm">dBm</string>
 
     <plurals name="plural_time_hour">

@@ -4,7 +4,10 @@
     <string name="menu_nav_home">Haylou</string>
     <string name="menu_nav_notification">알림</string>
     <string name="menu_nav_call">수신 전화 알림</string>
+    <string name="menu_nav_step">활동</string>
+    <string name="menu_nav_pulse">심박수</string>
     <string name="menu_nav_more">더</string>
+    <string name="menu_nav_text_display">텍스트 표시</string>
     <string name="menu_nav_theme">테마</string>
     <string name="menu_nav_premium_mode">프리미엄 모드</string>
     <string name="menu_nav_feedback">피드백</string>
@@ -15,6 +18,8 @@
     <string name="settings_name">설정</string>
     <string name="info_name">정보</string>
 
+<!--    <string name="mi_band_tracker_title">걸음수・거리・칼로리・목표・심박수</string>-->
+    <string name="mi_band_tracker_title">걸음수・목표・심박수</string>
 <!--    <string name="mi_band_battery">배터리 잔량・마지막 충전 시간・예상 잔여 시간</string>-->
     <string name="device_battery">배터리 잔량・마지막 충전 시간</string>
     <string name="device_state_connected_disconnected_last_time">마지막 연결 및 연결 해제 시간</string>
@@ -30,7 +35,6 @@
     <string name="device_state_not_bonded">페어링되지 않은 기기</string>
 
 
-    <string name="pref_text_title">텍스트 표시</string>
     <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
     <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
     <string name="pref_text_emoticon_title">이모지 변환</string>
@@ -40,6 +44,10 @@
     <string name="pref_text_line_separator_title">Line separator replacement</string>
     <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
     <string name="pref_text_line_separator_value_title">Replacement characters</string>
+    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
+    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
+    <string name="pref_text_char_replacement_find">Find</string>
+    <string name="pref_text_char_replacement_replace">Replace with</string>
 
     <!-- Battery -->
     <string name="battery_details">배터리 사용량</string>
@@ -62,7 +70,7 @@
 
     <string name="pref_cat_call">수신 전화</string>
     <string name="pref_call_summary_on">활성화 (반드시 Mi 피트 앱에서 수신 전화를 끄세요)</string>
-    <string name="pref_call_text_title">수신자 번호 표시</string>
+    <string name="pref_call_text_title">발신자 번호 표시</string>
 
     <string name="pref_call_notification_rejected">거절된 전화에 대한 알림 표시</string>
     <string name="pref_call_notification_rejected_message">거절된 전화</string>
@@ -120,6 +128,7 @@
     <string name="message_premium_mode_only">이 기능은 프리미엄 모드에서만 사용 가능합니다</string>
     <string name="message_internet_error">인터넷 연결 없음</string>
 
+    <string name="message_in_progress">진행 중…</string>
     <string name="message_no_data">No data available</string>
 
     <string name="message_new_message">A new message is received, view it on the phone.</string>
@@ -206,6 +215,31 @@
 
     <string name="touch_tab_control">제어</string>
 
+    <!-- Activity -->
+    <string name="step_tab_day">Daily charts</string>
+    <string name="step_tab_week">Weekly charts</string>
+    <string name="step_tab_month">Monthly charts</string>
+
+    <string name="step_details">Activity details</string>
+
+    <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
+    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
+    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
+    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
+
+    <string name="action_tracker_step">Steps</string>
+    <string name="action_tracker_distance">Distance</string>
+    <string name="action_tracker_calorie">Calories</string>
+
+    <string name="step_goal_default_title">Default goal</string>
+
+
+    <!-- Pulse -->
+    <string name="pulse_tab_day">일간 차트</string>
+    <string name="pulse_tab_week">주간 차트</string>
+    <string name="pulse_tab_month">월간 차트</string>
+
+    <string name="pulse_details">Pulse details</string>
 
     <!-- Theme -->
     <string name="theme_tab_theme">테마</string>
@@ -305,13 +339,32 @@
     <string name="action_new">New</string>
     <string name="action_start_stop">Start/Stop</string>
 
+    <string name="action_chart">차트</string>
+    <string name="action_zoom_in">Zoom in</string>
+    <string name="action_chart_sort_time_asc">Time ascending</string>
+    <string name="action_chart_sort_time_desc">Time descending</string>
+    <string name="action_chart_sort_step_asc">Step ascending</string>
+    <string name="action_chart_sort_step_desc">Step descending</string>
+    <string name="action_chart_sort_pulse_asc">Pulse ascending</string>
+    <string name="action_chart_sort_pulse_desc">Pulse descending</string>
+    <string name="action_chart_monthly_calendar">Calendar</string>
+    <string name="action_chart_monthly_compact">Compact</string>
+
     <string name="required_value">요구사항</string>
 
     <!-- Constante -->
     <string name="const_time_abbreviation_day">d</string>
     <string name="const_time_abbreviation_hour">h</string>
     <string name="const_time_abbreviation_minute">m</string>
+    <string name="const_time_abbreviation_sec">s</string>
+    <string name="const_time_abbreviation_milli_sec">ms</string>
 
+    <string name="const_number">%1$,d</string>
+    <string name="const_unit_meter">m</string>
+    <string name="const_unit_centimeter">cm</string>
+    <string name="const_unit_mile">mi</string>
+    <string name="const_unit_kilogram">kg</string>
+    <string name="const_unit_kcal">kcal</string>
     <string name="const_unit_dbm">dBm</string>
 
     <plurals name="plural_time_hour">

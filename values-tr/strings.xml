@@ -4,7 +4,10 @@
     <string name="menu_nav_home">Haylou</string>
     <string name="menu_nav_notification">Bildirimler</string>
     <string name="menu_nav_call">Arama</string>
+    <string name="menu_nav_step">Adım sayar</string>
+    <string name="menu_nav_pulse">Nabız ölçer</string>
     <string name="menu_nav_more">Daha</string>
+    <string name="menu_nav_text_display">Altyazılı simge</string>
     <string name="menu_nav_theme">Tema</string>
     <string name="menu_nav_premium_mode">Premium</string>
     <string name="menu_nav_feedback">Önerileriniz</string>
@@ -15,6 +18,8 @@
     <string name="settings_name">Ayarlar</string>
     <string name="info_name">Bilgi</string>
 
+<!--    <string name="mi_band_tracker_title">Adım・mesafe・kalori・hedef・nabız</string>-->
+    <string name="mi_band_tracker_title">Adım・hedef・nabız</string>
 <!--    <string name="mi_band_battery">Şarj・şarj zamanı・tahmini kalan</string>-->
     <string name="device_battery">Şarj・şarj zamanı</string>
     <string name="device_state_connected_disconnected_last_time">Son bağlanma ve kopma anları</string>
@@ -30,7 +35,6 @@
     <string name="device_state_not_bonded">Eşleştirilmemiş cihaz</string>
 
 
-    <string name="pref_text_title">Altyazılı simge</string>
     <string name="pref_text_emoticon_title">Emoji dönüştürme</string>
     <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
     <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
@@ -40,6 +44,10 @@
     <string name="pref_text_line_separator_title">Line separator replacement</string>
     <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
     <string name="pref_text_line_separator_value_title">Replacement characters</string>
+    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
+    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
+    <string name="pref_text_char_replacement_find">Bul</string>
+    <string name="pref_text_char_replacement_replace">Ile değiştir</string>
 
     <!-- Battery -->
     <string name="battery_details">Şarj detayları</string>
@@ -120,6 +128,7 @@
     <string name="message_premium_mode_only">Bu özellik yanlız premium mod ile kullanılabilir</string>
     <string name="message_internet_error">İnternet bağlantınız yok</string>
 
+    <string name="message_in_progress">İşleniyor…</string>
     <string name="message_no_data">Veri yok</string>
 
     <string name="message_new_message">Yeni bir mesaj alındı, telefondan bakın.</string>
@@ -186,7 +195,7 @@
     <string name="notification_group_correction_hint">Büyük / küçük harf duyarlı</string>
     <string name="notification_group_correction_items">Yazı düzeltildi</string>
     <string name="notification_group_correction_find">Bul</string>
-    <string name="notification_group_correction_replace">ile değiştir</string>
+    <string name="notification_group_correction_replace">Ile değiştir</string>
 
     <string name="notification_regex_hint">Alfasayısal olmayan karakterler özel bir anlama sahiptir, Regex\'i bilmiyorsanız, işaretlemeyin</string>
 
@@ -205,6 +214,33 @@
     <string name="action_filter_notification">Bildirim Filtreleri</string>
 
     <string name="touch_tab_control">Kontrol</string>
+
+    <!-- Activity -->
+    <string name="step_tab_day">Günlük graf.</string>
+    <string name="step_tab_week">Haftalık graf.</string>
+    <string name="step_tab_month">Aylık graf.</string>
+
+    <string name="step_details">Aktivite detayları</string>
+
+    <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
+    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
+    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
+    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
+
+    <string name="action_tracker_step">Adım</string>
+    <string name="action_tracker_distance">Mesafe</string>
+    <string name="action_tracker_calorie">Kalori</string>
+
+    <string name="step_goal_default_title">Varsayılan hedef</string>
+
+
+    <!-- Pulse -->
+    <string name="pulse_tab_day">Günlük graf.</string>
+    <string name="pulse_tab_week">Haftalık graf.</string>
+    <string name="pulse_tab_month">Aylık graf.</string>
+
+    <string name="pulse_details">Nabız detayları</string>
+
 
     <!-- Theme -->
     <string name="theme_tab_theme">Tema</string>
@@ -304,14 +340,34 @@
     <string name="action_new">Yeni</string>
     <string name="action_start_stop">Başla/Dur</string>
 
+    <string name="action_chart">Grafik</string>
+    <string name="action_zoom_in">Zoom in</string>
+    <string name="action_chart_sort_time_asc">Zaman artan</string>
+    <string name="action_chart_sort_time_desc">Zaman azalan</string>
+    <string name="action_chart_sort_step_asc">Adım artan</string>
+    <string name="action_chart_sort_step_desc">Adım azalan</string>
+    <string name="action_chart_sort_pulse_asc">Nabız artan</string>
+    <string name="action_chart_sort_pulse_desc">Nabız azalan</string>
+    <string name="action_chart_monthly_calendar">Takvim</string>
+    <string name="action_chart_monthly_compact">Sıkıştır</string>
+
     <string name="required_value">Gerekli</string>
 
     <!-- Constante -->
     <string name="const_time_abbreviation_day">g</string>
     <string name="const_time_abbreviation_hour">s</string>
     <string name="const_time_abbreviation_minute">dk</string>
+    <string name="const_time_abbreviation_sec">sn</string>
+    <string name="const_time_abbreviation_milli_sec">ms</string>
 
+    <string name="const_number">%1$,d</string>
+    <string name="const_unit_meter">m</string>
+    <string name="const_unit_centimeter">cm</string>
+    <string name="const_unit_mile">mi</string>
+    <string name="const_unit_kilogram">kg</string>
+    <string name="const_unit_kcal">kcal</string>
     <string name="const_unit_dbm">dBm</string>
+
 
     <plurals name="plural_time_hour">
         <item quantity="zero">%d saat</item>

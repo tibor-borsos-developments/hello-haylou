@@ -4,7 +4,10 @@
     <string name="menu_nav_home">Haylou</string>
     <string name="menu_nav_notification">Melding</string>
     <string name="menu_nav_call">Bellen</string>
+    <string name="menu_nav_step">Activiteit</string>
+    <string name="menu_nav_pulse">Hartslag</string>
     <string name="menu_nav_more">Meer</string>
+    <string name="menu_nav_text_display">Tekst scherm</string>
     <string name="menu_nav_theme">Thema</string>
     <string name="menu_nav_premium_mode">Premium mode</string>
     <string name="menu_nav_feedback">Terugkoppeling</string>
@@ -15,6 +18,8 @@
     <string name="settings_name">Instellingen</string>
     <string name="info_name">Informatie</string>
 
+<!--    <string name="mi_band_tracker_title">Stappen・afstand・calorieën・doel・hartslag</string>-->
+    <string name="mi_band_tracker_title">Stappen・doel・hartslag</string>
 <!--    <string name="mi_band_battery">Batterij niveau・vorige laadtijd・geschatte resterende tijd</string>-->
     <string name="device_battery">Batterij niveau・vorige laadtijd</string>
     <string name="device_state_connected_disconnected_last_time">Vorige verbonden  en niet verbonden tijd</string>
@@ -30,7 +35,6 @@
     <string name="device_state_not_bonded">Niet gekoppeld Apparaat</string>
 
 
-    <string name="pref_text_title">Tekst scherm</string>
     <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
     <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
     <string name="pref_text_emoticon_title">Emoji conversie</string>
@@ -40,6 +44,10 @@
     <string name="pref_text_line_separator_title">Line separator replacement</string>
     <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
     <string name="pref_text_line_separator_value_title">Replacement characters</string>
+    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
+    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
+    <string name="pref_text_char_replacement_find">Zoeken</string>
+    <string name="pref_text_char_replacement_replace">Vervangen met</string>
 
     <!-- Battery -->
     <string name="battery_details">Energie verbruik</string>
@@ -120,6 +128,7 @@
     <string name="message_premium_mode_only">Deze functie is alleen beschikbaar in premium modus</string>
     <string name="message_internet_error">Geen internetverbinding</string>
 
+    <string name="message_in_progress">Bezig….</string>
     <string name="message_no_data">Geen gegevens beschikbaar</string>
 
     <string name="message_new_message">Nieuw bericht ontvangen, bekijk het op de telefoon.</string>
@@ -198,6 +207,32 @@
         \nDoor het tekstelement hiervan te voorzien kan de ontwerper vooraf het element alvast vormgeven voordat het daadwerklijke gebruikt word.
     </string>
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> icon: Om de titel/inhoud van de melding te tonen activeer dit pictogram.]]></string>
+
+    <!-- Activity -->
+    <string name="step_tab_day">Dag tabel</string>
+    <string name="step_tab_week">Week tabel</string>
+    <string name="step_tab_month">Maand tabel</string>
+
+    <string name="step_details">Details Activiteiten</string>
+
+    <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
+    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
+    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
+    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
+
+    <string name="action_tracker_step">Stappen</string>
+    <string name="action_tracker_distance">Afstand</string>
+    <string name="action_tracker_calorie">Calorieën</string>
+
+    <string name="step_goal_default_title">Standaard doel</string>
+
+
+    <!-- Pulse -->
+    <string name="pulse_tab_day">Dag tabel</string>
+    <string name="pulse_tab_week">Week tabel</string>
+    <string name="pulse_tab_month">Maand tabel</string>
+
+    <string name="pulse_details">Hartslag details</string>
 
 
     <!-- MiBandageApp chooser dialog -->
@@ -306,13 +341,32 @@
     <string name="action_new">New</string>
     <string name="action_start_stop">Start/Stop</string>
 
+    <string name="action_chart">Tabel</string>
+    <string name="action_zoom_in">Zoom in</string>
+    <string name="action_chart_sort_time_asc">Tijd oplopend</string>
+    <string name="action_chart_sort_time_desc">Tijd aflopend</string>
+    <string name="action_chart_sort_step_asc">Stappen oplopend</string>
+    <string name="action_chart_sort_step_desc">Stappen aflopend</string>
+    <string name="action_chart_sort_pulse_asc">Hartslag oplopend</string>
+    <string name="action_chart_sort_pulse_desc">Hartslag aflopend</string>
+    <string name="action_chart_monthly_calendar">Calendar</string>
+    <string name="action_chart_monthly_compact">Compact</string>
+
     <string name="required_value">Benodigd</string>
 
     <!-- Constante -->
     <string name="const_time_abbreviation_day">d</string>
     <string name="const_time_abbreviation_hour">u</string>
     <string name="const_time_abbreviation_minute">m</string>
+    <string name="const_time_abbreviation_sec">s</string>
+    <string name="const_time_abbreviation_milli_sec">ms</string>
 
+    <string name="const_number">%1$,d</string>
+    <string name="const_unit_meter">m</string>
+    <string name="const_unit_centimeter">cm</string>
+    <string name="const_unit_mile">mi</string>
+    <string name="const_unit_kilogram">kg</string>
+    <string name="const_unit_kcal">kcal</string>
     <string name="const_unit_dbm">dBm</string>
 
     <plurals name="plural_time_hour">

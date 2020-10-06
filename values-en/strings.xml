@@ -4,7 +4,10 @@
     <string name="menu_nav_home">Haylou</string>
     <string name="menu_nav_notification">Notification</string>
     <string name="menu_nav_call">Call</string>
+    <string name="menu_nav_step">Activity</string>
+    <string name="menu_nav_pulse">Pulse</string>
     <string name="menu_nav_more">More</string>
+    <string name="menu_nav_text_display">Text display</string>
     <string name="menu_nav_theme">Theme</string>
     <string name="menu_nav_premium_mode">Premium mode</string>
     <string name="menu_nav_feedback">Feedback</string>
@@ -15,6 +18,8 @@
     <string name="settings_name">Settings</string>
     <string name="info_name">Information</string>
 
+<!--    <string name="mi_band_tracker_title">Steps・distance・calories・goal・pulse</string>-->
+    <string name="mi_band_tracker_title">Steps・goal・pulse</string>
 <!--    <string name="mi_band_battery">Battery level・last charging time・estimated remaining time</string>-->
     <string name="device_battery">Battery level・last charging time</string>
     <string name="device_state_connected_disconnected_last_time">Last connection and disconnection time</string>
@@ -30,7 +35,6 @@
     <string name="device_state_not_bonded">Not paired device</string>
 
 
-    <string name="pref_text_title">Text display</string>
     <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
     <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
     <string name="pref_text_emoticon_title">Emoji conversion</string>
@@ -40,6 +44,10 @@
     <string name="pref_text_line_separator_title">Line separator replacement</string>
     <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
     <string name="pref_text_line_separator_value_title">Replacement characters</string>
+    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
+    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
+    <string name="pref_text_char_replacement_find">Find</string>
+    <string name="pref_text_char_replacement_replace">Replace with</string>
 
     <!-- Battery -->
     <string name="battery_details">Battery usage</string>
@@ -100,7 +108,7 @@
     <string name="message_discovered_mi_band">%1$s connection succeeded</string>
     <string name="message_discovered_no_mi_band">Haylou connection failed</string>
     <string name="message_discovered_not_found_mi_band">If Haylou was not found, turn on: Haylou Sport/Play/Discoverable or pair at the phone Bluetooth settings</string>
-    <string name="message_enable_notification_listener_access">Enable notification access: Settings/Notifications/Notification access</string>
+    <string name="message_enable_notification_listener_access">Enable notification access: Phone/Settings/Notification access</string>
     <string name="message_enable_notification_listener_access_4_4">Enable notification access: Settings/Security/Notification access</string>
     <string name="message_open_settings">Settings</string>
 
@@ -120,6 +128,7 @@
     <string name="message_premium_mode_only">This feature is only available in premium mode</string>
     <string name="message_internet_error">Not have internet connection</string>
 
+    <string name="message_in_progress">In progress…</string>
     <string name="message_no_data">No data available</string>
 
     <string name="message_new_message">A new message is received, view it on the phone.</string>
@@ -137,7 +146,6 @@
     <br>- Phone/battery optimization: set Mi Bandage app to not optimized.
     <br>- Phone/apps: clear Bluetooth Share and other \'Bluetooth\' apps data.
     ]]></string>
-
 
     <!-- Notification Dialog -->
     <string name="notification_group_nav_setting">Setting</string>
@@ -205,6 +213,33 @@
     <string name="action_filter_notification">Notification filter</string>
 
     <string name="touch_tab_control">Control</string>
+
+    <!-- Activity -->
+    <string name="step_tab_day">Daily charts</string>
+    <string name="step_tab_week">Weekly charts</string>
+    <string name="step_tab_month">Monthly charts</string>
+
+    <string name="step_details">Activity details</string>
+
+    <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
+    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
+    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
+    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
+
+    <string name="action_tracker_step">Steps</string>
+    <string name="action_tracker_distance">Distance</string>
+    <string name="action_tracker_calorie">Calories</string>
+
+    <string name="step_goal_default_title">Default goal</string>
+
+
+    <!-- Pulse -->
+    <string name="pulse_tab_day">Daily charts</string>
+    <string name="pulse_tab_week">Weekly charts</string>
+    <string name="pulse_tab_month">Monthly charts</string>
+
+    <string name="pulse_details">Pulse details</string>
+
 
     <!-- Theme -->
     <string name="theme_tab_theme">Theme</string>
@@ -304,13 +339,32 @@
     <string name="action_new">New</string>
     <string name="action_start_stop">Start/Stop</string>
 
+    <string name="action_chart">Chart</string>
+    <string name="action_zoom_in">Zoom in</string>
+    <string name="action_chart_sort_time_asc">Time ascending</string>
+    <string name="action_chart_sort_time_desc">Time descending</string>
+    <string name="action_chart_sort_step_asc">Step ascending</string>
+    <string name="action_chart_sort_step_desc">Step descending</string>
+    <string name="action_chart_sort_pulse_asc">Pulse ascending</string>
+    <string name="action_chart_sort_pulse_desc">Pulse descending</string>
+    <string name="action_chart_monthly_calendar">Calendar</string>
+    <string name="action_chart_monthly_compact">Compact</string>
+
     <string name="required_value">Required</string>
 
     <!-- Constante -->
     <string name="const_time_abbreviation_day">d</string>
     <string name="const_time_abbreviation_hour">h</string>
     <string name="const_time_abbreviation_minute">m</string>
+    <string name="const_time_abbreviation_sec">s</string>
+    <string name="const_time_abbreviation_milli_sec">ms</string>
 
+    <string name="const_number">%1$,d</string>
+    <string name="const_unit_meter">m</string>
+    <string name="const_unit_centimeter">cm</string>
+    <string name="const_unit_mile">mi</string>
+    <string name="const_unit_kilogram">kg</string>
+    <string name="const_unit_kcal">kcal</string>
     <string name="const_unit_dbm">dBm</string>
 
     <plurals name="plural_time_hour">

@@ -4,7 +4,10 @@
     <string name="menu_nav_home">Haylou</string>
     <string name="menu_nav_notification">Уведомления</string>
     <string name="menu_nav_call">Вызов</string>
+    <string name="menu_nav_step">Активность</string>
+    <string name="menu_nav_pulse">Пульс</string>
     <string name="menu_nav_more">Больше</string>
+    <string name="menu_nav_text_display">Настройки текста</string>
     <string name="menu_nav_theme">Настройки темы</string>
     <string name="menu_nav_premium_mode">Премиум</string>
     <string name="menu_nav_feedback">Обратная связь</string>
@@ -15,6 +18,8 @@
     <string name="settings_name">Настройки</string>
     <string name="info_name">Информация</string>
 
+<!--    <string name="mi_band_tracker_title">Шаги・расстояние・калории・цель・пульс</string>-->
+    <string name="mi_band_tracker_title">Шаги・цель・пульс</string>
 <!--    <string name="mi_band_battery">Уровень заряда・время последней зарядки・ожидаемое время работы</string>-->
     <string name="device_battery">Уровень заряда・время последней зарядки</string>
     <string name="device_state_connected_disconnected_last_time">Время последнего соединения и его разрыва</string>
@@ -29,7 +34,7 @@
     <string name="device_state_bonded">Соединённое устройство</string>
     <string name="device_state_not_bonded">Не соединённое устройство</string>
 
-    <string name="pref_text_title">Настройки текста</string>
+
     <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
     <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
     <string name="pref_text_emoticon_title">Преобразование Emoji</string>
@@ -39,6 +44,10 @@
     <string name="pref_text_line_separator_title">Line separator replacement</string>
     <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
     <string name="pref_text_line_separator_value_title">Replacement characters</string>
+    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
+    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
+    <string name="pref_text_char_replacement_find">Найти</string>
+    <string name="pref_text_char_replacement_replace">Заменить</string>
 
     <!-- Battery -->
     <string name="battery_details">История батареи</string>
@@ -119,6 +128,7 @@
     <string name="message_premium_mode_only">Эта функция доступна только в премиуме</string>
     <string name="message_internet_error">Нет подключения к Интернету</string>
 
+    <string name="message_in_progress">В процессе…</string>
     <string name="message_no_data">Нет данных</string>
 
     <string name="message_new_message">Получено новое сообщение, просмотрите на телефоне.</string>
@@ -204,6 +214,33 @@
     <string name="action_filter_notification">Активные сейчас уведомления</string>
 
     <string name="touch_tab_control">Контроль</string>
+
+    <!-- Activity -->
+    <string name="step_tab_day">День</string>
+    <string name="step_tab_week">Неделя</string>
+    <string name="step_tab_month">Месяц</string>
+
+    <string name="step_details">Шаги</string>
+
+    <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
+    <string name="mi_band_tracker_distance_meter_title">%1$,d м</string> <!-- meter -->
+    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
+    <string name="mi_band_tracker_calorie_title">%1$,d ккал</string> <!-- kilo calorie -->
+
+    <string name="action_tracker_step">Шаги</string>
+    <string name="action_tracker_distance">Расстояние</string>
+    <string name="action_tracker_calorie">Калории</string>
+
+    <string name="step_goal_default_title">Цель по умолчанию</string>
+
+
+    <!-- Pulse -->
+    <string name="pulse_tab_day">День</string>
+    <string name="pulse_tab_week">Неделя</string>
+    <string name="pulse_tab_month">Месяц</string>
+
+    <string name="pulse_details">Список измерений</string>
+
 
     <!-- Theme -->
     <string name="theme_tab_theme">Тема</string>
@@ -303,13 +340,32 @@
     <string name="action_new">Новый</string>
     <string name="action_start_stop">Пуск/Пауза</string>
 
+    <string name="action_chart">График</string>
+    <string name="action_zoom_in">Zoom in</string>
+    <string name="action_chart_sort_time_asc">Время, по возрастанию</string>
+    <string name="action_chart_sort_time_desc">Время, по убыванию</string>
+    <string name="action_chart_sort_step_asc">Шаги, по возрастанию</string>
+    <string name="action_chart_sort_step_desc">Шаги, по убыванию</string>
+    <string name="action_chart_sort_pulse_asc">Пульс, по возрастанию</string>
+    <string name="action_chart_sort_pulse_desc">Пульс, по убыванию</string>
+    <string name="action_chart_monthly_calendar">Календарь</string>
+    <string name="action_chart_monthly_compact">Компактно</string>
+
     <string name="required_value">Необходимо указать</string>
 
     <!-- Constante -->
     <string name="const_time_abbreviation_day">д</string>
     <string name="const_time_abbreviation_hour">ч</string>
     <string name="const_time_abbreviation_minute">м</string>
+    <string name="const_time_abbreviation_sec">с</string>
+    <string name="const_time_abbreviation_milli_sec">мс</string>
 
+    <string name="const_number">%1$,d</string>
+    <string name="const_unit_meter">м</string>
+    <string name="const_unit_centimeter">см</string>
+    <string name="const_unit_mile">mi</string>
+    <string name="const_unit_kilogram">кг</string>
+    <string name="const_unit_kcal">ккал</string>
     <string name="const_unit_dbm">дБм</string>
 
     <plurals name="plural_time_hour">
