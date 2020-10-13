@@ -25,7 +25,8 @@
     <string name="device_state_connected_disconnected_last_time">Τελευταίος χρόνος σύνδεσης και αποσύνδεσης</string>
     <string name="device_mac_address">Διεύθυνση MAC</string>
 
-    <string name="device_search">Haylou search</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="device_search">Haylou search</string>
+    <string name="device_setting">Haylou ρυθμίσεις</string>
 
     <string name="device_mac_address_invalid">Η MAC διεύθυνση δεν είναι έγκυρη</string>
 
@@ -35,19 +36,38 @@
     <string name="device_state_not_bonded">Ασύνδετη συσκευή</string>
 
 
-    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
-    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
-    <string name="pref_text_emoticon_title">Μετατροπή Emoji</string>
-    <string name="pref_text_emoticon_summary_on">Μετατροπή Emoji σε emoticon</string>
-    <string name="pref_text_uppercase_title">Μετατροπή κεφαλαία</string>
-    <string name="pref_text_uppercase_summary_on">Μετατρέψτε πεζά σε κεφαλαία</string>
-    <string name="pref_text_line_separator_title">Line separator replacement</string>
-    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
-    <string name="pref_text_line_separator_value_title">Replacement characters</string>
-    <string name="pref_text_char_replacement_title">Character, emoj replacement</string>
-    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
-    <string name="pref_text_char_replacement_find">Εύρεση</string>
-    <string name="pref_text_char_replacement_replace">Αντικατέστησε με</string>
+    <!-- Hello Haylou setting -->
+    <string name="mi_band_setting_button_title">%1$s ρυθμίσεις・Προφίλ・Μήνυμα・Κλήση・Μενού</string>
+    <string name="mi_band_setting_title">%1$s ρυθμίσεις</string>
+
+    <string name="mi_band_setting_menu_profile">Προφίλ</string>
+    <string name="mi_band_setting_menu_setting">@string/setting_name</string>
+    <string name="mi_band_setting_menu_text">Μήνυμα</string>
+    <string name="mi_band_setting_menu_call">Κλήση</string>
+    <string name="mi_band_setting_menu_menu">Μενού</string>
+
+    <string name="mi_band_setting_auth_mi_fit">%1$s cooperation</string> <!-- Haylou Fit-->
+    <string name="mi_band_setting_auth_mi_fit_hint">Το Hello Haylou  απαιτεί την εγκατάσταση της επίσημης εφαρμογής %1$s στην ίδια συσκευή. Στην αρχή θα πρέπει να αντιστοιχίσετε %2$s με την εφαρμογή %1$s, μετά θα μπορείτε να χρησιμοποιήσετε το Hello Haylou. If you want to use %1$s, choose this.</string>
+    <string name="mi_band_setting_auth_standalone">Standalone</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$st app is not required for the Hello Haylou to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted.</string>
+
+    <string name="mi_band_setting_auth_key">Authentication key</string>
+    <string name="mi_band_setting_auth_request">Key request</string>
+    <string name="mi_band_setting_auth_pair">Σύζευξη</string>
+    <string name="mi_band_setting_auth_unpair">Unpair</string>
+
+    <string name="message_auth_request">It is paired, if you do not know the key, use the unpair</string>
+
+    <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
+    <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Invalid authentication key</string>
+
+    <string name="pref_disconnected">Αποσύνδεση</string>
+
+    <string name="mi_band_setting_time_24h">Μορφή ώρας 24 ωρών</string>
+    <string name="mi_band_setting_lift_wrist">Σήκωσε τον καρπό για να δείς πληροφορίες</string>
+
 
     <!-- Battery -->
     <string name="battery_details">Πληροφορίες μπαταρίας</string>
@@ -142,8 +162,8 @@
     <p>Hello Haylou requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
     <p>Αν το Haylou δεν ανιχνευθεί, τότε μπορείτε να ρυθμίσετε τη διεύθυνση MAC χειροκίνητα από το μενού λεπτομέρειες.</p>
     <p><b>Εάν έχετε πρόβλημα σύνδεσης:</b>
-    <br>- Στην οθόνη των πρόσφατων εφαρμογών: κλειδώστε το Bandage Mi (τραβήξτε την εφαρμογή προς τα κάτω και κάντε κλικ στο εικονίδιο κλειδώματος).
-    <br>- Ρυθμίσεις τηλεφώνου/μπαταρίας/βελτιστοποίηση μπαταρίας: Μη ρυθμίσετε βελτιστοποίηση στην εφαρμογή Bandage Mi.
+    <br>- Στην οθόνη των πρόσφατων εφαρμογών: κλειδώστε το Hello Haylou (τραβήξτε την εφαρμογή προς τα κάτω και κάντε κλικ στο εικονίδιο κλειδώματος).
+    <br>- Ρυθμίσεις τηλεφώνου/μπαταρίας/βελτιστοποίηση μπαταρίας: Μη ρυθμίσετε βελτιστοποίηση στην εφαρμογή Hello Haylou.
     <br>- Τηλέφωνο/εφαρμογές: καθαρισμός Bluetooth διαμοιρασμού και άλλα\'Bluetooth\' δεδομένα εφαρμογών.
     ]]></string>
 
@@ -208,7 +228,7 @@
     </string>
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> icon: επιλέξτε αυτό το εικονίδιο για να εμφανιστεί στις ειδοποιήσεις τίτλο/περιεχόμενο.]]></string>
 
-    <!-- MiBandageApp chooser dialog -->
+    <!-- App chooser dialog -->
     <string name="app_chooser">Επιλογέας εφαρμογής</string>
     <string name="action_search">Αναζήτηση</string>
     <string name="action_filter_notification">Φίλτρο ειδοποιήσεων</string>
@@ -240,6 +260,23 @@
     <string name="pulse_tab_month">Μηνιαία διαγράμματα</string>
 
     <string name="pulse_details">Λεπτομέρειες παλμού</string>
+
+    <string name="pulse_continuous_title">Συνεχής μέτρηση παλμών</string>
+
+    <!-- Text display -->
+    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
+    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
+    <string name="pref_text_emoticon_title">Μετατροπή Emoji</string>
+    <string name="pref_text_emoticon_summary_on">Μετατροπή Emoji σε emoticon</string>
+    <string name="pref_text_uppercase_title">Μετατροπή κεφαλαία</string>
+    <string name="pref_text_uppercase_summary_on">Μετατρέψτε πεζά σε κεφαλαία</string>
+    <string name="pref_text_line_separator_title">Line separator replacement</string>
+    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
+    <string name="pref_text_line_separator_value_title">Replacement characters</string>
+    <string name="pref_text_char_replacement_title">Character, emoj replacement</string>
+    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
+    <string name="pref_text_char_replacement_find">Εύρεση</string>
+    <string name="pref_text_char_replacement_replace">Αντικατέστησε με</string>
 
 
     <!-- Theme -->
@@ -325,8 +362,22 @@
     <string name="ad_attribution">Ad</string>
     <string name="on">Ενεργό</string>
     <string name="off">Ανενεργό</string>
+    <string name="none">Κανένας</string>
+    <string name="date">Ημερομηνία</string>
+    <string name="time">Χρόνος</string>
+    <string name="bpm">BPM</string>
+    <string name="time_start">Ώρα έναρξης</string>
+    <string name="time_end">Ώρα λήξης</string>
+    <string name="ringer_mode_vibrate">Δόνηση</string>
+    <string name="ringer_mode_silent">Αθόρυβο</string>
+    <string name="ringer_mode_dnd_priority_only">Μην ενοχλείτε (priority only)</string>
+    <string name="ringer_mode_dnd_alarms_only">Μην ενοχλείτε (μόνο ξυπνητήρια)</string>
+    <string name="ringer_mode_dnd_total_silence">Μην ενοχλείτε (total silence)</string>
     <string name="unknown">Αγνωστος</string>
     <string name="maximum">Το μέγιστο</string>
+    <string name="all_day">Ολοήμερη μέτρηση</string>
+    <string name="timed">Timed</string>
+    <string name="file_name">Όνομα αρχείου</string>
     <string name="default_">Προεπιλογή</string>
 
     <string name="action_dismiss">Απόρριψη</string>
@@ -350,6 +401,10 @@
     <string name="action_chart_sort_pulse_desc">Παλμός φθίνων</string>
     <string name="action_chart_monthly_calendar">Calendar</string>
     <string name="action_chart_monthly_compact">Compact</string>
+
+    <string name="activity_progress_title_prepare">Προετοιμασία συγχρονισμού…</string>
+    <string name="activity_progress_title_sync">Συγχρονισμός δεδομένων…</string>
+    <string name="activity_progress_title_save">Αποθήκευση δεδομένων…</string>
 
     <string name="required_value">Απαιτείται</string>
 

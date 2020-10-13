@@ -25,7 +25,8 @@
     <string name="device_state_connected_disconnected_last_time">Potenza segnale・tempo dall\'ultima connessione e disconnessione</string>
     <string name="device_mac_address">MAC address</string>
 
-    <string name="device_search">Haylou search</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="device_search">Haylou search</string>
+    <string name="device_setting">Impostazioni Haylou</string>
 
     <string name="device_mac_address_invalid">MAC address non valido</string>
 
@@ -35,19 +36,38 @@
     <string name="device_state_not_bonded">Dispositivo non associato</string>
 
 
-    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
-    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
-    <string name="pref_text_emoticon_title">Converti emoji</string>
-    <string name="pref_text_emoticon_summary_on">Converti emoji in emoticon</string>
-    <string name="pref_text_uppercase_title">Converti maiuscole</string>
-    <string name="pref_text_uppercase_summary_on">Converti lettere minuscole in maiuscole</string>
-    <string name="pref_text_line_separator_title">Line separator replacement</string>
-    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
-    <string name="pref_text_line_separator_value_title">Replacement characters</string>
-    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
-    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
-    <string name="pref_text_char_replacement_find">Cerca</string>
-    <string name="pref_text_char_replacement_replace">Sostituisci con</string>
+    <!-- Haylou setting -->
+    <string name="mi_band_setting_button_title">Impostazioni %1$s・Profilo・Messaggio・Chiamata・Menu</string>
+    <string name="mi_band_setting_title">Impostazioni %1$s</string>
+
+    <string name="mi_band_setting_menu_profile">Profilo</string>
+    <string name="mi_band_setting_menu_setting">@string/setting_name</string>
+    <string name="mi_band_setting_menu_text">Messaggio</string>
+    <string name="mi_band_setting_menu_call">Chiamata</string>
+    <string name="mi_band_setting_menu_menu">Menu</string>
+
+    <string name="mi_band_setting_auth_mi_fit">Cooperazione con %1$s</string> <!-- Haylou Fit-->
+    <string name="mi_band_setting_auth_mi_fit_hint">Hello Haylou richiede l\'installazione dell\'app ufficiale %1$s sullo stesso dispositivo. Per prima cosa devi collegare %2$s nell\'app %1$s, dopo puoi usare Hello Haylou. Se vuoi utilizzare %1$s, scegli questo.</string>
+    <string name="mi_band_setting_auth_standalone">Standalone</string>
+    <string name="mi_band_setting_auth_standalone_hint">L\'app %1$s non è richiesta per far funzionare Hello Haylou. Dopo l\'accoppiamento, disinstallare l\'app %1$s. Nel caso si desideri ripristinare la cooperazione con %1$s, sarà necessario riaccoppiare %2$s nell\'app %1$s. If you use the unpair function, the data on the smartwatch will be deleted.</string>
+
+    <string name="mi_band_setting_auth_key">Chiave di autenticazione</string>
+    <string name="mi_band_setting_auth_request">Key request</string>
+    <string name="mi_band_setting_auth_pair">Associa</string>
+    <string name="mi_band_setting_auth_unpair">Unpair</string>
+
+    <string name="message_auth_request">It is paired, if you do not know the key, use the unpair</string>
+
+    <string name="message_mi_band_setting_auth_press_band_button">Premere il pulsante su %1$s per accoppiare</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_success">%1$s accoppiato con successo</string>
+    <string name="message_mi_band_setting_auth_fail">Accoppiamento con %1$s fallito</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Chiave di autenticazione non valida</string>
+
+    <string name="pref_disconnected">Disconnessione</string>
+
+    <string name="mi_band_setting_time_24h">Formato orario di 24 ore</string>
+    <string name="mi_band_setting_lift_wrist">Solleva il polso per visualizzare le info</string>
+
 
     <!-- Battery -->
     <string name="battery_details">Utilizzo batteria</string>
@@ -142,8 +162,8 @@
     <p>Hello Haylou requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
     <p>Se la Haylou non viene trovata, puoi impostare manualmente l\'indirizzo MAC dal menu dettagli.</p>
     <p><b>Se hai un problema di connessione:</b>
-    <br>- Schermata app recenti: blocca Mi Bandage (pressione prolungata sull\'app e tocca l\'icona di blocco - lucchetto).
-    <br>- Ottimizzazioni telefono/batteria: imposta Mi Bandage come "non ottimizzata".
+    <br>- Schermata app recenti: blocca Hello Haylou (pressione prolungata sull\'app e tocca l\'icona di blocco - lucchetto).
+    <br>- Ottimizzazioni telefono/batteria: imposta Hello Haylou come "non ottimizzata".
     <br>- Telefono/app: cancella dati di Condivisione Bluetooth e altre app \'Bluetooth\' in generale.
     ]]></string>
 
@@ -208,7 +228,7 @@
     </string>
    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> icona: scegli questa icona per mostrare il titolo delle notifiche/contentuto.]]></string>
 
-    <!-- MiBandageApp chooser dialog -->
+    <!-- App chooser dialog -->
     <string name="app_chooser">Scegli App</string>
     <string name="action_search">Cerca</string>
     <string name="action_filter_notification">Filtra notifiche</string>
@@ -240,6 +260,24 @@
     <string name="pulse_tab_month">Grafico mensile</string>
 
     <string name="pulse_details">Dettagli pulsazioni</string>
+
+    <string name="pulse_continuous_title">Misurazione battiti continua</string>
+
+
+    <!-- Text display -->
+    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
+    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
+    <string name="pref_text_emoticon_title">Converti emoji</string>
+    <string name="pref_text_emoticon_summary_on">Converti emoji in emoticon</string>
+    <string name="pref_text_uppercase_title">Converti maiuscole</string>
+    <string name="pref_text_uppercase_summary_on">Converti lettere minuscole in maiuscole</string>
+    <string name="pref_text_line_separator_title">Line separator replacement</string>
+    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
+    <string name="pref_text_line_separator_value_title">Replacement characters</string>
+    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
+    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
+    <string name="pref_text_char_replacement_find">Cerca</string>
+    <string name="pref_text_char_replacement_replace">Sostituisci con</string>
 
 
     <!-- Theme -->
@@ -280,7 +318,7 @@
     <string name="feedback_request_feature_title">Richiesta funzionalità aggiuntive, segnalazione malfunzionamenti</string>
     <string name="feedback_request_feature_summary">Processo con email automatica, non riceverai risposta</string>
     <string name="feedback_translation_title">Traduzione Hello Haylou</string>
-    <string name="feedback_translation_title_summary">Aiutatemi a tradurre Mi Bandage!</string>
+    <string name="feedback_translation_title_summary">Aiutatemi a tradurre Hello Haylou!</string>
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Norme sulla privacy</string>
@@ -325,8 +363,22 @@
     <string name="ad_attribution">Ad</string>
     <string name="on">On</string>
     <string name="off">Off</string>
+    <string name="none">Nessuna</string>
+    <string name="bpm">BPM</string>
+    <string name="date">Data</string>
+    <string name="time">Orario</string>
+    <string name="time_start">Orario inizio</string>
+    <string name="time_end">Orario fine</string>
+    <string name="ringer_mode_vibrate">Vibrazione</string>
+    <string name="ringer_mode_silent">Muto</string>
+    <string name="ringer_mode_dnd_priority_only">Non disturbare (solo con priorità)</string>
+    <string name="ringer_mode_dnd_alarms_only">Non disturbare (solo sveglie)</string>
+    <string name="ringer_mode_dnd_total_silence">Non disturbare (silenzio totale)</string>
     <string name="unknown">Sconosciuto</string>
     <string name="maximum">Max</string>
+    <string name="all_day">Tutto il giorno</string>
+    <string name="timed">Timed</string>
+    <string name="file_name">Nome file</string>
     <string name="default_">Predefinito</string>
 
     <string name="action_dismiss">Abbandona</string>
@@ -350,6 +402,10 @@
     <string name="action_chart_sort_pulse_desc">Battiti decrescenti</string>
     <string name="action_chart_monthly_calendar">Calendario</string>
     <string name="action_chart_monthly_compact">Compatto</string>
+
+    <string name="activity_progress_title_prepare">Sincronizzazione in corso…</string>
+    <string name="activity_progress_title_sync">Sincronizzazione al…</string>
+    <string name="activity_progress_title_save">Salvataggio al…</string>
 
     <string name="required_value">Richiesto</string>
 

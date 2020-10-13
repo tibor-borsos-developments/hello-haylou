@@ -25,7 +25,8 @@
     <string name="device_state_connected_disconnected_last_time">Last connection and disconnection time</string>
     <string name="device_mac_address">Alamat MAC</string>
 
-    <string name="device_search">Haylou search</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="device_search">Haylou search</string>
+    <string name="device_setting">Pengaturan Haylou</string>
 
     <string name="device_mac_address_invalid">Alamat MAC tidak valid</string>
 
@@ -35,19 +36,38 @@
     <string name="device_state_not_bonded">Perangkat tidak tersambung</string>
 
 
-    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
-    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
-    <string name="pref_text_emoticon_title">Emoji conversion</string>
-    <string name="pref_text_emoticon_summary_on">Convert emoji to emoticon</string>
-    <string name="pref_text_uppercase_title">Uppercase conversion</string>
-    <string name="pref_text_uppercase_summary_on">Convert lowercase to uppercase</string>
-    <string name="pref_text_line_separator_title">Line separator replacement</string>
-    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
-    <string name="pref_text_line_separator_value_title">Replacement characters</string>
-    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
-    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
-    <string name="pref_text_char_replacement_find">Find</string>
-    <string name="pref_text_char_replacement_replace">Replace with</string>
+    <!-- Haylou setting -->
+    <string name="mi_band_setting_button_title">Pengaturan %1$s・Profil・Teks・Panggilan・Menu</string>
+    <string name="mi_band_setting_title">Pengaturan %1$s</string>
+
+    <string name="mi_band_setting_menu_profile">Profil</string>
+    <string name="mi_band_setting_menu_setting">@string/setting_name</string>
+    <string name="mi_band_setting_menu_text">Teks</string>
+    <string name="mi_band_setting_menu_call">Panggilan</string>
+    <string name="mi_band_setting_menu_menu">Menu</string>
+
+    <string name="mi_band_setting_auth_mi_fit">%1$s cooperation</string> <!-- Haylou Fit-->
+    <string name="mi_band_setting_auth_mi_fit_hint">Hello Haylou membutuhkan aplikasi %1$s yang telah terpasang di perangkat yang sama. Pertama tama, mungkin anda perlu untuk menghubungkan %2$s ke Aplikasi %1$s, lalu anda baru bisa memakai Hello Haylou. If you want to use %1$s, choose this.</string>
+    <string name="mi_band_setting_auth_standalone">Standalone</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the Hello Haylou to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted.</string>
+
+    <string name="mi_band_setting_auth_key">Authentication key</string>
+    <string name="mi_band_setting_auth_request">Key request</string>
+    <string name="mi_band_setting_auth_pair">Pasang</string>
+    <string name="mi_band_setting_auth_unpair">Unpair</string>
+
+    <string name="message_auth_request">It is paired, if you do not know the key, use the unpair</string>
+
+    <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
+    <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Invalid authentication key</string>
+
+    <string name="pref_disconnected">Pemutusan</string>
+
+    <string name="mi_band_setting_time_24h">Format waktu 24 jam</string>
+    <string name="mi_band_setting_lift_wrist">Angkat lengan untuk melihat info</string>
+
 
     <!-- Battery -->
     <string name="battery_details">Battery usage</string>
@@ -142,8 +162,8 @@
     <p>Hello Haylou requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
     <p>Jika Haylou tidak terdeteksi, anda bisa mengatur alamat MAC secara manual pada menu rincian/lanjutan.</p>
     <p><b>If you have a connection problem:</b>
-    <br>- Recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon).
-    <br>- Phone/battery optimization: set Mi Bandage app to not optimized.
+    <br>- Recent apps screen: lock the Hello Haylou (pull down the app and click on lock icon).
+    <br>- Phone/battery optimization: set Hello Haylou app to not optimized.
     <br>- Phone/apps: clear Bluetooth Share and other \'Bluetooth\' apps data.
     ]]></string>
 
@@ -208,7 +228,7 @@
     </string>
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> Ikon: pilih ikon ini untuk menampilkan judul/konten pemberitahuan.]]></string>
 
-    <!-- MiBandageApp chooser dialog -->
+    <!-- App chooser dialog -->
     <string name="app_chooser">Pemilih apl</string>
     <string name="action_search">Cari</string>
     <string name="action_filter_notification">Filter pemberitahuan</string>
@@ -240,6 +260,23 @@
     <string name="pulse_tab_month">Bagan bulanan</string>
 
     <string name="pulse_details">Rincian detak jantung</string>
+
+    <string name="pulse_continuous_title">Continuous pulse measurement</string>
+
+    <!-- Text display -->
+    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
+    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
+    <string name="pref_text_emoticon_title">Emoji conversion</string>
+    <string name="pref_text_emoticon_summary_on">Convert emoji to emoticon</string>
+    <string name="pref_text_uppercase_title">Uppercase conversion</string>
+    <string name="pref_text_uppercase_summary_on">Convert lowercase to uppercase</string>
+    <string name="pref_text_line_separator_title">Line separator replacement</string>
+    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
+    <string name="pref_text_line_separator_value_title">Replacement characters</string>
+    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
+    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
+    <string name="pref_text_char_replacement_find">Find</string>
+    <string name="pref_text_char_replacement_replace">Replace with</string>
 
 
     <!-- Theme -->
@@ -322,11 +359,24 @@
 
 
     <!-- Others -->
-    <string name="ad_attribution">Ad</string>
     <string name="on">Aktif</string>
     <string name="off">Mati</string>
+    <string name="none">Tidak ada</string>
+    <string name="bpm">BPM</string>
+    <string name="date">Tanggal</string>
+    <string name="time">Waktu</string>
+    <string name="time_start">Waktu mulai</string>
+    <string name="time_end">Waktu berakhir</string>
+    <string name="ringer_mode_vibrate">Getar</string>
+    <string name="ringer_mode_silent">Diam</string>
+    <string name="ringer_mode_dnd_priority_only">Jangan ganggu (hanya prioritas)</string>
+    <string name="ringer_mode_dnd_alarms_only">Jangan ganggu (hanya alarm)</string>
+    <string name="ringer_mode_dnd_total_silence">Jangan ganggu (senyap total)</string>
     <string name="unknown">Tidak dikenal</string>
     <string name="maximum">Maksimum</string>
+    <string name="all_day">Seharian</string>
+    <string name="timed">Timed</string>
+    <string name="file_name">File name</string>
     <string name="default_">Default</string>
 
     <string name="action_dismiss">Tutup</string>
@@ -341,8 +391,6 @@
     <string name="action_start_stop">Start/Stop</string>
 
     <string name="action_chart">Grafik</string>
-
-    <string name="required_value">Dibutuhkan</string>
     <string name="action_zoom_in">Zoom in</string>
     <string name="action_chart_sort_time_asc">Waktu naik</string>
     <string name="action_chart_sort_time_desc">Waktu turun</string>
@@ -352,6 +400,12 @@
     <string name="action_chart_sort_pulse_desc">Detak turun</string>
     <string name="action_chart_monthly_calendar">Calendar</string>
     <string name="action_chart_monthly_compact">Compact</string>
+
+    <string name="activity_progress_title_prepare">Menyiapkan sinkronisasi…</string>
+    <string name="activity_progress_title_sync">Sinkronisasi data…</string>
+    <string name="activity_progress_title_save">Penghematan data…</string>
+
+    <string name="required_value">Dibutuhkan</string>
 
     <!-- Constante -->
     <string name="const_time_abbreviation_day">h</string>

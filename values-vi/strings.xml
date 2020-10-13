@@ -25,7 +25,8 @@
     <string name="device_state_connected_disconnected_last_time">Lần cuối nhìn thấy thiết bị</string>
     <string name="device_mac_address">Địa chỉ MAC</string>
 
-    <string name="device_search">Haylou search</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="device_search">Haylou search</string>
+    <string name="device_setting">Cài đặt Haylou</string>
 
     <string name="device_mac_address_invalid">Địa chỉ MAC không hợp lệ</string>
 
@@ -35,19 +36,38 @@
     <string name="device_state_not_bonded">Thiết bị không kết nối</string>
 
 
-    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
-    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
-    <string name="pref_text_emoticon_title">Chuyển đổi biểu tượng</string>
-    <string name="pref_text_emoticon_summary_on">Chuyển emoji thành emoticon</string>
-    <string name="pref_text_uppercase_title">Chuyển đổi chữ HOA</string>
-    <string name="pref_text_uppercase_summary_on">Chuyển chữ thường thành chữ hoa</string>
-    <string name="pref_text_line_separator_title">Line separator replacement</string>
-    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
-    <string name="pref_text_line_separator_value_title">Replacement characters</string>
-    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
-    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
-    <string name="pref_text_char_replacement_find">Tìm kiếm</string>
-    <string name="pref_text_char_replacement_replace">Thay thế bởi</string>
+    <!--Haylou setting -->
+    <string name="mi_band_setting_button_title">Cài đặt %1$s・Hồ sơ・Tin nhắn・Cuộc gọi・Các mục menu ẩn</string>
+    <string name="mi_band_setting_title">Cài đặt %1$s</string>
+
+    <string name="mi_band_setting_menu_profile">Hồ sơ</string>
+    <string name="mi_band_setting_menu_setting">@string/setting_name</string>
+    <string name="mi_band_setting_menu_text">Tin nhắn</string>
+    <string name="mi_band_setting_menu_call">Cuộc gọi</string>
+    <string name="mi_band_setting_menu_menu">Các mục menu ẩn</string>
+
+    <string name="mi_band_setting_auth_mi_fit">Đồng bộ với %1$s</string> <!-- Haylou Fit-->
+    <string name="mi_band_setting_auth_mi_fit_hint">Hello Haylou cần cài đặt %1$s trên cùng điện thoại. Đầu tiên, bạn cần kết nối %2$s với %1$s, sau đó có thể sử dụng Hello Haylou. Nếu bạn muốn dùng %1$s, chọn mục này.</string>
+    <string name="mi_band_setting_auth_standalone">Hoạt động độc lập</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the Hello Haylou to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted.</string>
+
+    <string name="mi_band_setting_auth_key">Authentication key</string>
+    <string name="mi_band_setting_auth_request">Key request</string>
+    <string name="mi_band_setting_auth_pair">Ghép nối</string>
+    <string name="mi_band_setting_auth_unpair">Unpair</string>
+
+    <string name="message_auth_request">It is paired, if you do not know the key, use the unpair</string>
+
+    <string name="message_mi_band_setting_auth_press_band_button">Bấm nút %1$s để kết nối</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
+    <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Invalid authentication key</string>
+
+    <string name="pref_disconnected">Ngắt kết nốii</string>
+
+    <string name="mi_band_setting_time_24h">Định dạng thời gian 24 giờ</string>
+    <string name="mi_band_setting_lift_wrist">Nâng cổ tay để xem thông tin</string>
+
 
     <!-- Battery -->
     <string name="battery_details">Sử dụng Pin</string>
@@ -143,8 +163,8 @@
     <p>Hello Haylou requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
     <p>Nếu không tìm thấy Band, bạn có thể nhập MAC thủ công.</p>
     <p><b>Nếu có vấn đề kết nối:</b>
-    <br>- Màn hình ứng dụng gần đây: khoá Mi Bandage (kéo xuống và ấn vào biểu tượng cái khoá).
-    <br>- Tối ưu điện thoại/Pin: cho phép Mi Bandage không cần tối ưu.
+    <br>- Màn hình ứng dụng gần đây: khoá Hello Haylou (kéo xuống và ấn vào biểu tượng cái khoá).
+    <br>- Tối ưu điện thoại/Pin: cho phép Hello Haylou không cần tối ưu.
     <br>- Điện thoại/Ứng dụng: Xoá Chia sẻ Bluetooth và dữ liệu ứng dụng \'Bluetooth\'.
     </p>]]></string>
 
@@ -211,7 +231,7 @@
     </string>
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> biểu tượng: chọn biểu tượng này để hiển thị tiêu đề/nội dung thông báo.]]></string>
 
-    <!-- MiBandageApp chooser dialog -->
+    <!-- App chooser dialog -->
     <string name="app_chooser">Chọn ứng dụng</string>
     <string name="action_search">Tìm kiếm</string>
     <string name="action_filter_notification">Lọc thông báo</string>
@@ -243,6 +263,24 @@
     <string name="pulse_tab_month">Biểu đồ theo tháng</string>
 
     <string name="pulse_details">Chi tiết nhịp tim</string>
+
+    <string name="pulse_continuous_title">Đo nhịp tim Liên tục</string>
+
+
+    <!-- Text display -->
+    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
+    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
+    <string name="pref_text_emoticon_title">Chuyển đổi biểu tượng</string>
+    <string name="pref_text_emoticon_summary_on">Chuyển emoji thành emoticon</string>
+    <string name="pref_text_uppercase_title">Chuyển đổi chữ HOA</string>
+    <string name="pref_text_uppercase_summary_on">Chuyển chữ thường thành chữ hoa</string>
+    <string name="pref_text_line_separator_title">Line separator replacement</string>
+    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
+    <string name="pref_text_line_separator_value_title">Replacement characters</string>
+    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
+    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
+    <string name="pref_text_char_replacement_find">Tìm kiếm</string>
+    <string name="pref_text_char_replacement_replace">Thay thế bởi</string>
 
 
     <!-- Theme -->
@@ -327,8 +365,22 @@
     <string name="ad_attribution">Ad</string>
     <string name="on">Bật</string>
     <string name="off">Tắt</string>
+    <string name="none">Không</string>
+    <string name="bpm">BPM</string>
+    <string name="date">Ngày</string>
+    <string name="time">Thời gian</string>
+    <string name="time_start">Thời gian bắt đầu</string>
+    <string name="time_end">Thời gian kết thúc</string>
+    <string name="ringer_mode_vibrate">Rung</string>
+    <string name="ringer_mode_silent">Yên lặng</string>
+    <string name="ringer_mode_dnd_priority_only">Không làm phiền (Chỉ ưu tiên)</string>
+    <string name="ringer_mode_dnd_alarms_only">Không làm phiền (Chỉ báo thức)</string>
+    <string name="ringer_mode_dnd_total_silence">Không làm phiền (Yên lặng)</string>
     <string name="unknown">Không xác định</string>
     <string name="maximum">Tối đa</string>
+    <string name="all_day">Cả ngày</string>
+    <string name="timed">Timed</string>
+    <string name="file_name">Tên file</string>
     <string name="default_">Mặc định</string>
 
     <string name="action_dismiss">Bỏ qua</string>
@@ -352,6 +404,10 @@
     <string name="action_chart_sort_pulse_desc">Nhịp tim giảm dần</string>
     <string name="action_chart_monthly_calendar">Calendar</string>
     <string name="action_chart_monthly_compact">Compact</string>
+
+    <string name="activity_progress_title_prepare">Chuẩn bị đồng bộ…</string>
+    <string name="activity_progress_title_sync">Đồng bộ dữ liệu…</string>
+    <string name="activity_progress_title_save">Lưu dữ liệu…</string>
 
     <string name="required_value">Bắt buộc</string>
 

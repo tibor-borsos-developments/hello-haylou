@@ -25,7 +25,8 @@
     <string name="device_state_connected_disconnected_last_time">最後に接続、切断された時間</string>
     <string name="device_mac_address">MACアドレス</string>
 
-    <string name="device_search">Haylou search</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="device_search">Haylou search</string>
+    <string name="device_setting">Haylouの設定</string>
 
     <string name="device_mac_address_invalid">MACアドレスが無効です</string>
 
@@ -35,19 +36,37 @@
     <string name="device_state_not_bonded">未ペアリングのデバイス</string>
 
 
-    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
-    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
-    <string name="pref_text_emoticon_title">絵文字の変換</string>
-    <string name="pref_text_emoticon_summary_on">絵文字を顔文字に変換します</string>
-    <string name="pref_text_uppercase_title">大文字に変換</string>
-    <string name="pref_text_uppercase_summary_on">小文字を大文字に変換します</string>
-    <string name="pref_text_line_separator_title">Line separator replacement</string>
-    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
-    <string name="pref_text_line_separator_value_title">Replacement characters</string>
-    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
-    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
-    <string name="pref_text_char_replacement_find">検索</string>
-    <string name="pref_text_char_replacement_replace">検索</string>
+    <!-- Haylou setting -->
+    <string name="mi_band_setting_button_title">%1$sの設定・ﾌﾟﾛﾌｨｰﾙ・テキスト・通話・メニュー</string>
+    <string name="mi_band_setting_title">%1$sの設定</string>
+
+    <string name="mi_band_setting_menu_profile">ﾌﾟﾛﾌｨｰﾙ</string>
+    <string name="mi_band_setting_menu_setting">@string/setting_name</string>
+    <string name="mi_band_setting_menu_text">テキスト</string>
+    <string name="mi_band_setting_menu_call">通話</string>
+    <string name="mi_band_setting_menu_menu">メニュー</string>
+
+    <string name="mi_band_setting_auth_mi_fit">%1$sとの連携</string> <!-- Haylou Fit-->
+    <string name="mi_band_setting_auth_mi_fit_hint">%1$sのインストールが必要です。Hello Haylouを使用する前に%1$sで%2$sをペアリングしてください。</string>
+    <string name="mi_band_setting_auth_standalone">スタンドアロンモード</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the Hello Haylou to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application.If you use the unpair function, the data on the smartwatch will be deleted.</string>
+
+    <string name="mi_band_setting_auth_key">認証キー</string>
+    <string name="mi_band_setting_auth_request">Key request</string>
+    <string name="mi_band_setting_auth_pair">ペアリング</string>
+    <string name="mi_band_setting_auth_unpair">Unpair</string>
+
+    <string name="message_auth_request">It is paired, if you do not know the key, use the unpair</string>
+
+    <string name="message_mi_band_setting_auth_press_band_button">%1$sのボタンを押してペアリングしてください</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_success">%1$sのペアリングに成功しました</string>
+    <string name="message_mi_band_setting_auth_fail">%1$sのペアリングに失敗しました</string>
+    <string name="message_mi_band_setting_auth_key_invalid">認証キーが無効です</string>
+
+    <string name="pref_disconnected">切断</string>
+
+    <string name="mi_band_setting_time_24h">24時間表記</string>
+    <string name="mi_band_setting_lift_wrist">手首を持ち上げて情報を表示</string>
 
     <!-- Battery -->
     <string name="battery_details">バッテリーの使用状況</string>
@@ -142,8 +161,8 @@
     <p>Hello Haylou requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
     <p>バンドが見つからない場合はMACアドレス</p>
     <p><b>接続できない場合：</b>
-    <br>- Mi Bandageをタスクロック
-    <br>- 「バッテリー最適化を無視」をMi Bandageに許可
+    <br>- Hello Haylouをタスクロック
+    <br>- 「バッテリー最適化を無視」をHello Haylouに許可
     <br>- Bluetooth Shareやその他のBluetoothアプリのデータを消去
     </p>]]></string>
 
@@ -208,7 +227,7 @@
     </string>
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT">通知のタイトルまたは内容を表示するにはこのアイコンを選択してください。]]></string>
 
-    <!-- MiBandageApp chooser dialog -->
+    <!-- App chooser dialog -->
     <string name="app_chooser">アプリ選択</string>
     <string name="action_search">検索</string>
     <string name="action_filter_notification">通知フィルタ</string>
@@ -240,6 +259,23 @@
     <string name="pulse_tab_month">月別</string>
 
     <string name="pulse_details">心拍数の詳細</string>
+
+    <string name="pulse_continuous_title">連続測定</string>
+
+    <!-- Text display -->
+    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
+    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
+    <string name="pref_text_emoticon_title">絵文字の変換</string>
+    <string name="pref_text_emoticon_summary_on">絵文字を顔文字に変換します</string>
+    <string name="pref_text_uppercase_title">大文字に変換</string>
+    <string name="pref_text_uppercase_summary_on">小文字を大文字に変換します</string>
+    <string name="pref_text_line_separator_title">Line separator replacement</string>
+    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
+    <string name="pref_text_line_separator_value_title">Replacement characters</string>
+    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
+    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
+    <string name="pref_text_char_replacement_find">検索</string>
+    <string name="pref_text_char_replacement_replace">検索</string>
 
 
     <!-- Theme -->
@@ -325,8 +361,22 @@
     <string name="ad_attribution">Ad</string>
     <string name="on">オン</string>
     <string name="off">オフ</string>
+    <string name="none">なし</string>
+    <string name="bpm">BPM</string>
+    <string name="date">日付</string>
+    <string name="time">時間</string>
+    <string name="time_start">開始時間</string>
+    <string name="time_end">終了時間</string>
+    <string name="ringer_mode_vibrate">バイブレーション</string>
+    <string name="ringer_mode_silent">サイレント</string>
+    <string name="ringer_mode_dnd_priority_only">DND（高優先度の通知のみ）</string>
+    <string name="ringer_mode_dnd_alarms_only">DND（アラームのみ）</string>
+    <string name="ringer_mode_dnd_total_silence">DND（サイレント）</string>
     <string name="unknown">不明</string>
     <string name="maximum">最大</string>
+    <string name="all_day">終日</string>
+    <string name="timed">Timed</string>
+    <string name="file_name">ファイル名</string>
     <string name="default_">デフォルト</string>
 
     <string name="action_dismiss">中止</string>
@@ -350,6 +400,10 @@
     <string name="action_chart_sort_pulse_desc">心拍数/降順</string>
     <string name="action_chart_monthly_calendar">カレンダー</string>
     <string name="action_chart_monthly_compact">コンパクト</string>
+
+    <string name="activity_progress_title_prepare">同期の準備中…</string>
+    <string name="activity_progress_title_sync">データ同期中…</string>
+    <string name="activity_progress_title_save">データ保存中…</string>
 
     <string name="required_value">必須</string>
 

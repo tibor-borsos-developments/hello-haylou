@@ -25,7 +25,8 @@
     <string name="device_state_connected_disconnected_last_time">Data ultimei conectări și deconectări</string>
     <string name="device_mac_address">Adresa MAC</string>
 
-    <string name="device_search">Haylou search</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="device_search">Haylou search</string>
+    <string name="device_setting">Setări Haylou</string>
 
     <string name="device_mac_address_invalid">Adresa MAC este invalidă</string>
 
@@ -35,19 +36,38 @@
     <string name="device_state_not_bonded">Dispozitiv neîmperecheat</string>
 
 
-    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
-    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
-    <string name="pref_text_emoticon_title">Conversie emoji</string>
-    <string name="pref_text_emoticon_summary_on">Convertește emoji în emoticon</string>
-    <string name="pref_text_uppercase_title">Conversie majuscule</string>
-    <string name="pref_text_uppercase_summary_on">Convertește litere mici în litere mari</string>
-    <string name="pref_text_line_separator_title">Line separator replacement</string>
-    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
-    <string name="pref_text_line_separator_value_title">Replacement characters</string>
-    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
-    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
-    <string name="pref_text_char_replacement_find">Caută</string>
-    <string name="pref_text_char_replacement_replace">Înlocuiește cu</string>
+    <!-- Haylou setting -->
+    <string name="mi_band_setting_button_title">Setări %1$s・Profil・Text・Apel・Meniu</string>
+    <string name="mi_band_setting_title">Setări %1$s</string>
+
+    <string name="mi_band_setting_menu_profile">Profil</string>
+    <string name="mi_band_setting_menu_setting">@string/setting_name</string>
+    <string name="mi_band_setting_menu_text">Text</string>
+    <string name="mi_band_setting_menu_call">Apel</string>
+    <string name="mi_band_setting_menu_menu">Meniu</string>
+
+    <string name="mi_band_setting_auth_mi_fit">%1$s cooperation</string> <!-- Haylou Fit-->
+    <string name="mi_band_setting_auth_mi_fit_hint">Hello Haylou necesită instalarea aplicației oficiale %1$s pe același telefon. La început trebuie să împerechezi %2$s în aplicația %1$s, apoi poți folosi Hello Haylou. If you want to use %1$s, choose this.</string>
+    <string name="mi_band_setting_auth_standalone">Standalone</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the Hello Haylou to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted.</string>
+
+    <string name="mi_band_setting_auth_key">Authentication key</string>
+    <string name="mi_band_setting_auth_request">Key request</string>
+    <string name="mi_band_setting_auth_pair">Asociază</string>
+    <string name="mi_band_setting_auth_unpair">Unpair</string>
+
+    <string name="message_auth_request">It is paired, if you do not know the key, use the unpair</string>
+
+    <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Mi Band 3, Zepp Bip ... -->
+    <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
+    <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Invalid authentication key</string>
+
+    <string name="pref_disconnected">Deconectare</string>
+
+    <string name="mi_band_setting_time_24h">Formatul de 24 de ore</string>
+    <string name="mi_band_setting_lift_wrist">Ridică încheietura mâinii pentru a vedea informații</string>
+
 
     <!-- Battery -->
     <string name="battery_details">Utilizarea bateriei</string>
@@ -142,8 +162,8 @@
     <p>Hello Haylou requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
     <p>Dacă brățara nu este găsită, poți seta manual adresa MAC atunci când o detectezi.</p>
     <p><b>Dacă ai probleme de conectare:</b>
-    <br>- Ecranul aplicațiilor recente: blochează Mi Bandage (trage în jos aplicația și apasă pe pictograma blocare).
-    <br>- Optimizarea telefonului/ bateriei: setează aplicația Mi Bandage pentru a nu fi optimizată.
+    <br>- Ecranul aplicațiilor recente: blochează Hello Haylou (trage în jos aplicația și apasă pe pictograma blocare).
+    <br>- Optimizarea telefonului/ bateriei: setează aplicația Hello Haylou pentru a nu fi optimizată.
     <br>- Telefon/ aplicații: șterge datele aplicației Bluetooth Share și a altor aplicații \'Bluetooth\'.
     </p>]]></string>
 
@@ -207,7 +227,7 @@
     </string>
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> pictogramă: alege această pictogramă pentru a afișa titlul/conținutul notificării.]]></string>
 
-    <!-- MiBandageApp chooser dialog -->
+    <!-- App chooser dialog -->
     <string name="app_chooser">Selector de aplicații</string>
     <string name="action_search">Căutare</string>
     <string name="action_filter_notification">Filtru notificare</string>
@@ -239,6 +259,24 @@
     <string name="pulse_tab_month">Grafice lunare</string>
 
     <string name="pulse_details">Detalii puls</string>
+
+    <string name="pulse_continuous_title">Măsurare continuă a pulsului</string>
+
+
+    <!-- Text display -->
+    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
+    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
+    <string name="pref_text_emoticon_title">Conversie emoji</string>
+    <string name="pref_text_emoticon_summary_on">Convertește emoji în emoticon</string>
+    <string name="pref_text_uppercase_title">Conversie majuscule</string>
+    <string name="pref_text_uppercase_summary_on">Convertește litere mici în litere mari</string>
+    <string name="pref_text_line_separator_title">Line separator replacement</string>
+    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
+    <string name="pref_text_line_separator_value_title">Replacement characters</string>
+    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
+    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
+    <string name="pref_text_char_replacement_find">Caută</string>
+    <string name="pref_text_char_replacement_replace">Înlocuiește cu</string>
 
 
     <!-- Theme -->
@@ -324,8 +362,22 @@
     <string name="ad_attribution">Ad</string>
     <string name="on">Pornit</string>
     <string name="off">Oprit</string>
+    <string name="none">Niciuna</string>
+    <string name="bpm">BPM</string>
+    <string name="date">Dată</string>
+    <string name="time">Timp</string>
+    <string name="time_start">Timp pornire</string>
+    <string name="time_end">Timp oprire</string>
+    <string name="ringer_mode_vibrate">Vibrații</string>
+    <string name="ringer_mode_silent">Mut</string>
+    <string name="ringer_mode_dnd_priority_only">Nu deranja (numai pentru prioritate)</string>
+    <string name="ringer_mode_dnd_alarms_only">Nu deranjați (numai alarmele)</string>
+    <string name="ringer_mode_dnd_total_silence">Nu deranja (liniște totală)</string>
     <string name="unknown">Necunoscut</string>
     <string name="maximum">Maxim</string>
+    <string name="all_day">Toată ziua</string>
+    <string name="timed">Timed</string>
+    <string name="file_name">Nume fișier</string>
     <string name="default_">Implicit</string>
 
     <string name="action_dismiss">Înlătură</string>
@@ -349,6 +401,10 @@
     <string name="action_chart_sort_pulse_desc">Puls descendent</string>
     <string name="action_chart_monthly_calendar">Calendar</string>
     <string name="action_chart_monthly_compact">Compact</string>
+
+    <string name="activity_progress_title_prepare">Se pregătește pentru sincronizare …</string>
+    <string name="activity_progress_title_sync">Sincronizarea datelor…</string>
+    <string name="activity_progress_title_save">Salvarea datelor…</string>
 
     <string name="required_value">Obligatoriu</string>
 

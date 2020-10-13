@@ -24,7 +24,8 @@
     <string name="device_state_connected_disconnected_last_time">Час останніх з\'єднання/роз\'єднання</string>
     <string name="device_mac_address">MAC адреса</string>
 
-    <string name="device_search">Haylou search</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="device_search">Haylou search</string>
+    <string name="device_setting">Налаштування Haylou</string>
 
     <string name="device_mac_address_invalid">Невірна MAC адреса</string>
 
@@ -34,19 +35,38 @@
     <string name="device_state_not_bonded">Не зв\'язаний пристрій</string>
 
 
-    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
-    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
-    <string name="pref_text_emoticon_title">Перетворення смайлів</string>
-    <string name="pref_text_emoticon_summary_on">Перетворювати графічні смайли на текстові</string>
-    <string name="pref_text_uppercase_title">Перетворення до верхнього регістру</string>
-    <string name="pref_text_uppercase_summary_on">Перетворювати нижній регістр у верхній</string>
-    <string name="pref_text_line_separator_title">Line separator replacement</string>
-    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
-    <string name="pref_text_line_separator_value_title">Replacement characters</string>
-    <string name="pref_text_char_replacement_title">Заміна символів, смайлів</string>
-    <string name="pref_text_char_replacement_summary_on">Замінити один символ іншим</string>
-    <string name="pref_text_char_replacement_find">Знайти</string>
-    <string name="pref_text_char_replacement_replace">Замінити</string>
+    <!-- Haylou setting -->
+    <string name="mi_band_setting_button_title">Налаштування %1$s・Профіль・Текст・Дзвінки・Меню</string>
+    <string name="mi_band_setting_title">Налаштування %1$s</string>
+
+    <string name="mi_band_setting_menu_profile">Профіль</string>
+    <string name="mi_band_setting_menu_setting">@string/setting_name</string>
+    <string name="mi_band_setting_menu_text">Текст</string>
+    <string name="mi_band_setting_menu_call">Дзвінки</string>
+    <string name="mi_band_setting_menu_menu">Меню</string>
+
+    <string name="mi_band_setting_auth_mi_fit">Взаємодія з %1$s</string> <!-- Haylou Fit-->
+    <string name="mi_band_setting_auth_mi_fit_hint">Hello Haylou потребує втановленого додатку %1$s на тому ж телефоні. Спочатку ви маєте зв\'язати %2$s з додатком %1$s, потім ви зможете використовувати Hello Haylou. Оберіть цей пункт, якщо бажаєте використовувати додаток %1$s.</string>
+    <string name="mi_band_setting_auth_standalone">Автономна взаємодія</string>
+    <string name="mi_band_setting_auth_standalone_hint">Для роботи Hello Haylou, не потрібний додаток %1$s. Після зв\'язування, видаліть додаток %1$s. Для відновлення взаємодії з %1$s, буде потрібно знову зв\'язати %2$s з додатком %1$s. If you use the unpair function, the data on the smartwatch will be deleted.</string>
+
+    <string name="mi_band_setting_auth_key">Ключ автентифікації</string>
+    <string name="mi_band_setting_auth_request">Key request</string>
+    <string name="mi_band_setting_auth_pair">Парування</string>
+    <string name="mi_band_setting_auth_unpair">Unpair</string>
+
+    <string name="message_auth_request">It is paired, if you do not know the key, use the unpair</string>
+
+    <string name="message_mi_band_setting_auth_press_band_button">Щоб зв\'язати, натисніть кнопку на %1$s</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_success">%1$s зв\'язаний успішно</string>
+    <string name="message_mi_band_setting_auth_fail">помилка зв\'язування з %1$s</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Невірний ключ автентифікації</string>
+
+    <string name="pref_disconnected">Роз\'єднання</string>
+
+    <string name="mi_band_setting_time_24h">24-годинний формат</string>
+    <string name="mi_band_setting_lift_wrist">Підніміть зап\'ясток для перегляду</string>
+
 
     <!-- Battery -->
     <string name="battery_details">Використання заряду</string>
@@ -80,7 +100,7 @@
     <string name="pref_cat_call_missed">Пропущений виклик</string>
     <string name="pref_call_missed_title">Сповіщення про пропущені виклики</string>
 
-    <string name="pref_call_missed_alert_title">Сповіщення %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_call_missed_alert_title">Сповіщення %1$s</string>
 
     <string name="pref_battery_phone">Акумулятор телефона</string>
     <string name="pref_battery_phone_summary">Сповіщення про низький та повний заряд</string>
@@ -106,7 +126,7 @@
     <string name="message_discovering_mi_band">Пошук браслета (це може зайняти 1 хвилину) &#8230;</string>
     <string name="message_discovered_mi_band">%1$s під\'єднано успішно</string>
     <string name="message_discovered_no_mi_band">Під\'єднання невдале</string>
-    <string name="message_discovered_not_found_mi_band">Якщо браслет не знайдено, увімкніть: Mi Fit/Профіль/Видимість, або під\'єднайте через налаштування Bluetooth телефону</string>
+    <string name="message_discovered_not_found_mi_band">Якщо браслет не знайдено, увімкніть: Haylou Fit/Профіль/Видимість, або під\'єднайте через налаштування Bluetooth телефону</string>
     <string name="message_enable_notification_listener_access">Увімкніть доступ до сповіщень: Налаштування/Сповіщення/Доступ до сповіщень</string>
     <string name="message_enable_notification_listener_access_4_4">Увімкніть доступ до сповіщень: Налаштування/Безпека/Доступ до сповіщень</string>
     <string name="message_open_settings">Налаштування</string>
@@ -141,8 +161,8 @@
     <p>Hello Haylou requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
     <p>Якщо браслет не знайдено, ви можете вказати MAC адресу вручну при пошуку.</p>
     <p><b>Якщо у вас проблеми з підключенням:</b>
-    <br>- Нещодавні додатки: зафіксуйте Mi Bandage (потягніть донизу та торкніться значка із замком).
-    <br>- Телефон/Оптимізація акумулятора: вимкніть оптимізацію для додатка Mi Bandage.
+    <br>- Нещодавні додатки: зафіксуйте Hello Haylou (потягніть донизу та торкніться значка із замком).
+    <br>- Телефон/Оптимізація акумулятора: вимкніть оптимізацію для додатка Hello Haylou.
     <br>- Телефон/Додатки: очистіть дані додатку Bluetooth Share та інших додатків \'Bluetooth\'.
     ]]></string>
 
@@ -154,7 +174,7 @@
     <string name="notification_group_name">Назва</string>
     <string name="notification_group_monitoring">Налаштування сповіщень</string>
     <string name="notification_group_monitoring_disabled">Вимкнути сповіщення (не показувати сповіщення додатку)</string>
-    <string name="notification_group_alert_title">Сповіщеня %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="notification_group_alert_title">Сповіщеня %1$s</string> <!-- %1$s = Haylou Smart Watch -->
     <string name="notification_group_text">Текст сповіщення</string>
     <string name="notification_group_text_app_name">Назва додатку</string>
     <string name="notification_group_text_name">Назва</string>
@@ -206,7 +226,7 @@
     </string>
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT">: оберіть значок для відображення заголовку/вмісту сповіщення.]]></string>
 
-    <!-- MiBandageApp chooser dialog -->
+    <!-- App chooser dialog -->
     <string name="app_chooser">Вибір додатку</string>
     <string name="action_search">Пошук</string>
     <string name="action_filter_notification">Фільтр сповіщень</string>
@@ -232,12 +252,29 @@
     <string name="step_goal_default_title">Мета за замовчанням</string>
 
 
-    <!-- Pulse   -->
+    <!-- Pulse -->
     <string name="pulse_tab_day">Денні графіки</string>
     <string name="pulse_tab_week">Тижневі графіки</string>
     <string name="pulse_tab_month">Місячні графіки</string>
 
     <string name="pulse_details">Подробиці вимірювань</string>
+
+    <string name="pulse_continuous_title">Безперервне вимірювання пульсу</string>
+
+    <!-- Text display -->
+    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
+    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
+    <string name="pref_text_emoticon_title">Перетворення смайлів</string>
+    <string name="pref_text_emoticon_summary_on">Перетворювати графічні смайли на текстові</string>
+    <string name="pref_text_uppercase_title">Перетворення до верхнього регістру</string>
+    <string name="pref_text_uppercase_summary_on">Перетворювати нижній регістр у верхній</string>
+    <string name="pref_text_line_separator_title">Line separator replacement</string>
+    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
+    <string name="pref_text_line_separator_value_title">Replacement characters</string>
+    <string name="pref_text_char_replacement_title">Заміна символів, смайлів</string>
+    <string name="pref_text_char_replacement_summary_on">Замінити один символ іншим</string>
+    <string name="pref_text_char_replacement_find">Знайти</string>
+    <string name="pref_text_char_replacement_replace">Замінити</string>
 
 
     <!-- Theme -->
@@ -277,7 +314,7 @@
     <string name="feedback_google_play_title">Оцініть додаток</string>
     <string name="feedback_request_feature_title">Запит на функції, повідомлення про помилки</string>
     <string name="feedback_request_feature_summary">Автоматична обробка листів, відповідь може не надійти</string>
-    <string name="feedback_translation_title">Переклад Mi Bandage</string>
+    <string name="feedback_translation_title">Переклад Hello Haylou</string>
     <string name="feedback_translation_title_summary">Будьласка допоможіть перекласти</string>
 
     <!-- Privacy policy -->
@@ -321,8 +358,22 @@
     <string name="ad_attribution">Реклама</string>
     <string name="on">Увімкнено</string>
     <string name="off">Вимкнено</string>
+    <string name="none">Немає</string>
+    <string name="bpm">уд/хв</string>
+    <string name="date">Дата</string>
+    <string name="time">Час</string>
+    <string name="time_start">Час початку</string>
+    <string name="time_end">Час завершення</string>
+    <string name="ringer_mode_vibrate">Вібрація</string>
+    <string name="ringer_mode_silent">Приглушити</string>
+    <string name="ringer_mode_dnd_priority_only">Не турбувати (тільки приорітетні)</string>
+    <string name="ringer_mode_dnd_alarms_only">Не турбувати (тільки будильники)</string>
+    <string name="ringer_mode_dnd_total_silence">Не турбувати (повна тиша)</string>
     <string name="unknown">Невідомо</string>
     <string name="maximum">Найбільше</string>
+    <string name="all_day">Весь день</string>
+    <string name="timed">Timed</string>
+    <string name="file_name">Назва файла</string>
     <string name="default_">Default</string>
 
 
@@ -348,6 +399,10 @@
     <string name="action_chart_sort_pulse_desc">Пульс зменш.</string>
     <string name="action_chart_monthly_calendar">Календар</string>
     <string name="action_chart_monthly_compact">Компактно</string>
+
+    <string name="activity_progress_title_prepare">Підготовка до синхронізації…</string>
+    <string name="activity_progress_title_sync">Синхронізація даних…</string>
+    <string name="activity_progress_title_save">Збереження даних…</string>
 
     <string name="required_value">Необхідно</string>
 

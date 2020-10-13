@@ -25,7 +25,8 @@
     <string name="device_state_connected_disconnected_last_time">Utolsó csatlakozás és kapcsolatbontás időpontja</string>
     <string name="device_mac_address">MAC cím</string>
 
-    <string name="device_search">Haylou keresés</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="device_search">Haylou keresés</string>
+    <string name="device_setting">Haylou beállítás</string>
 
     <string name="device_mac_address_invalid">MAC cím érvénytelen</string>
 
@@ -34,20 +35,38 @@
     <string name="device_state_bonded">Párosított eszköz</string>
     <string name="device_state_not_bonded">Nem párosított eszköz</string>
 
+    <!-- Haylou setting -->
+    <string name="mi_band_setting_button_title">%1$s beállítások・Profil・Szöveg・Hívás・Menü</string>
+    <string name="mi_band_setting_title">%1$s beállítások</string>
 
-    <string name="pref_text_alphanumeric_title">Alfanumerikus és ASCII karakterek </string>
-    <string name="pref_text_alphanumeric_summary_on">Csak az alfanumerikus és ASCII karakterek megjelenítése</string>
-    <string name="pref_text_emoticon_title">Emoji átalakítás</string>
-    <string name="pref_text_emoticon_summary_on">Emoji átalakítása hangulatjellé</string>
-    <string name="pref_text_uppercase_title">Nagybetűsre átalakítás</string>
-    <string name="pref_text_uppercase_summary_on">Kisbetűk átalakítása nagybetűsre</string>
-    <string name="pref_text_line_separator_title">Sorelválasztó helyettesítés</string>
-    <string name="pref_text_line_separator_summary_on">Alapértelmezett sorelválasztó helyettesítése más karakterrel</string>
-    <string name="pref_text_line_separator_value_title">Helyetesítő karakterek</string>
-    <string name="pref_text_char_replacement_title">Karakter, emoji helyettesítés</string>
-    <string name="pref_text_char_replacement_summary_on">Karakter helyettesítése más karakterrel</string>
-    <string name="pref_text_char_replacement_find">Keresett karakter</string>
-    <string name="pref_text_char_replacement_replace">Csere erre</string>
+    <string name="mi_band_setting_menu_profile">Profil</string>
+    <string name="mi_band_setting_menu_setting">@string/setting_name</string>
+    <string name="mi_band_setting_menu_text">Szöveg</string>
+    <string name="mi_band_setting_menu_call">Hívás</string>
+    <string name="mi_band_setting_menu_menu">Menü</string>
+
+    <string name="mi_band_setting_auth_mi_fit">%1$s együttműködés</string> <!-- Haylou Fit-->
+    <string name="mi_band_setting_auth_mi_fit_hint">A működéséhez szükséges a %1$s applikáció telepítése ezen a telefonon. Először a %1$s applikáción belül kell a %2$s párosítását elvégezni. Ha a %1$s applikációt is használni szeretnéd ezt válasszd.</string>
+    <string name="mi_band_setting_auth_standalone">Önálló működés</string>
+    <string name="mi_band_setting_auth_standalone_hint">Nincs szükség a %1$s applikációra a működéshez. Párosítás után töröld a %1$s applikációt. %1$s együttműködés visszaállításakor a %2$s újra párosítását el kell végezni a %1$s applikációban. Leválasztás használatakor az okosóra adatai törlődnek.</string>
+
+    <string name="mi_band_setting_auth_key">Hitelesítési kulcs</string>
+    <string name="mi_band_setting_auth_request">Kulcs kérés</string>
+    <string name="mi_band_setting_auth_pair">Párosít</string>
+    <string name="mi_band_setting_auth_unpair">Leválaszt</string>
+
+    <string name="message_auth_request">Párosítva van, ha nem ismered a kulcsot, használd a leválasztást</string>
+
+    <string name="message_mi_band_setting_auth_press_band_button">Nyomg meg %1$s gombot a párosításhoz</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_success">%1$s sikeresen párosítva</string>
+    <string name="message_mi_band_setting_auth_fail">%1$s párosítása nem sikerült</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Érvénytelen hitelesítési kulcs</string>
+
+    <string name="pref_disconnected">Kapcsolatbontás</string>
+
+    <string name="mi_band_setting_time_24h">24 órás időformátum</string>
+    <string name="mi_band_setting_lift_wrist">Információk megtekintése csukló felemelésével</string>
+
 
     <!-- Battery -->
     <string name="battery_details">Akkumulátorhasználat</string>
@@ -252,6 +271,23 @@
 
     <string name="pulse_details">Pulzus részletek</string>
 
+    <string name="pulse_continuous_title">Folyamatos pulzusmérés</string>
+
+    <!-- Text display -->
+    <string name="pref_text_alphanumeric_title">Alfanumerikus és ASCII karakterek </string>
+    <string name="pref_text_alphanumeric_summary_on">Csak az alfanumerikus és ASCII karakterek megjelenítése</string>
+    <string name="pref_text_emoticon_title">Emoji átalakítás</string>
+    <string name="pref_text_emoticon_summary_on">Emoji átalakítása hangulatjellé</string>
+    <string name="pref_text_uppercase_title">Nagybetűsre átalakítás</string>
+    <string name="pref_text_uppercase_summary_on">Kisbetűk átalakítása nagybetűsre</string>
+    <string name="pref_text_line_separator_title">Sorelválasztó helyettesítés</string>
+    <string name="pref_text_line_separator_summary_on">Alapértelmezett sorelválasztó helyettesítése más karakterrel</string>
+    <string name="pref_text_line_separator_value_title">Helyetesítő karakterek</string>
+    <string name="pref_text_char_replacement_title">Karakter, emoji helyettesítés</string>
+    <string name="pref_text_char_replacement_summary_on">Karakter helyettesítése más karakterrel</string>
+    <string name="pref_text_char_replacement_find">Keresett karakter</string>
+    <string name="pref_text_char_replacement_replace">Csere erre</string>
+
 
     <!-- Theme -->
     <string name="theme_tab_theme">Téma</string>
@@ -336,8 +372,22 @@
     <string name="ad_attribution">Hirdetés</string>
     <string name="on">Be</string>
     <string name="off">Ki</string>
+    <string name="none">Nincs</string>
+    <string name="bpm">BPM</string>
+    <string name="date">Dátum</string>
+    <string name="time">Időpont</string>
+    <string name="time_start">Kezdési időpont</string>
+    <string name="time_end">Befejezési időpont</string>
+    <string name="ringer_mode_vibrate">Vibrálás</string>
+    <string name="ringer_mode_silent">Néma</string>
+    <string name="ringer_mode_dnd_priority_only">Ne zavarjanak (csak prioritás)</string>
+    <string name="ringer_mode_dnd_alarms_only">Ne zavarjanak (csak ébresztés)</string>
+    <string name="ringer_mode_dnd_total_silence">Ne zavarjanak (teljes némítás)</string>
     <string name="unknown">Ismeretlen</string>
     <string name="maximum">Maximális</string>
+    <string name="all_day">Egész napos</string>
+    <string name="timed">Időzített</string>
+    <string name="file_name">Fájl név</string>
     <string name="default_">Alapértelmezett</string>
 
     <string name="action_dismiss">Bezár</string>
@@ -361,6 +411,10 @@
     <string name="action_chart_sort_pulse_desc">Pulzus csökkenő</string>
     <string name="action_chart_monthly_calendar">Naptár</string>
     <string name="action_chart_monthly_compact">Kompakt</string>
+
+    <string name="activity_progress_title_prepare">Felkészülés a szinkronizálásra…</string>
+    <string name="activity_progress_title_sync">Adatszinkronizálás…</string>
+    <string name="activity_progress_title_save">Adatmentés…</string>
 
     <string name="required_value">Megadása kötelező</string>
 

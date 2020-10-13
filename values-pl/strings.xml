@@ -25,7 +25,8 @@
     <string name="device_state_connected_disconnected_last_time">Czas ostatniego podłączenia i rozłączenia</string>
     <string name="device_mac_address">Adres MAC</string>
 
-    <string name="device_search">Haylou search</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="device_search">Haylou search</string>
+    <string name="device_setting">Ustawienia Haylou</string>
 
     <string name="device_mac_address_invalid">Adres MAC jest nieprawidłowy</string>
 
@@ -35,19 +36,38 @@
     <string name="device_state_not_bonded">Urządzenie niesparowane</string>
 
 
-    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
-    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
-    <string name="pref_text_emoticon_title">Konwersja Emoji</string>
-    <string name="pref_text_emoticon_summary_on">Konwertuj Emoji do emotikony</string>
-    <string name="pref_text_uppercase_title">Konwersja do dużych liter</string>
-    <string name="pref_text_uppercase_summary_on">Konwertuj małe litery do dużych</string>
-    <string name="pref_text_line_separator_title">Line separator replacement</string>
-    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
-    <string name="pref_text_line_separator_value_title">Replacement characters</string>
-    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
-    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
-    <string name="pref_text_char_replacement_find">Znajdź</string>
-    <string name="pref_text_char_replacement_replace">Zastąp</string>
+    <!-- Haylou setting -->
+    <string name="mi_band_setting_button_title">Ustawienia %1$s・Profil・Tekst・Dzwonienie・Menu</string>
+    <string name="mi_band_setting_title">Ustawienia %1$s</string>
+
+    <string name="mi_band_setting_menu_profile">Profil</string>
+    <string name="mi_band_setting_menu_setting">@string/setting_name</string>
+    <string name="mi_band_setting_menu_text">Tekst</string>
+    <string name="mi_band_setting_menu_call">Dzwonienie</string>
+    <string name="mi_band_setting_menu_menu">Menu</string>
+
+    <string name="mi_band_setting_auth_mi_fit">Współpraca z %1$s</string> <!-- Haylou Fit-->
+    <string name="mi_band_setting_auth_mi_fit_hint">Hello Haylou wymaga instalacji oficjalnej aplikacji %1$s na tym samym telefonie. Najpierw musisz sparować %2$s w aplikacji %1$s, potem możesz użyć Hello Haylou. Wybierz, jeśli chcesz używać %1$s.</string>
+    <string name="mi_band_setting_auth_standalone">Samodzielny</string>
+    <string name="mi_band_setting_auth_standalone_hint">Aplikacja %1$s nie jest wymagana do działania Hello Haylou. Po sparowaniu odinstaluj aplikację %1$s. Podczas przywracania współpracy %1$s konieczne będzie ponowne sparowanie %2$s w aplikacji %1$s. If you use the unpair function, the data on the smartwatch will be deleted.</string>
+
+    <string name="mi_band_setting_auth_key">Klucz uwierzytelniania</string>
+    <string name="mi_band_setting_auth_request">Key request</string>
+    <string name="mi_band_setting_auth_pair">Sparuj</string>
+    <string name="mi_band_setting_auth_unpair">Unpair</string>
+
+    <string name="message_auth_request">It is paired, if you do not know the key, use the unpair</string>
+
+    <string name="message_mi_band_setting_auth_press_band_button">Wciśnij przycisk %1$s aby sparować</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_success">Paroawnia %1$s powiodło się</string>
+    <string name="message_mi_band_setting_auth_fail">Parowanie %1$s nie powiodło się</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Nieprawidłowy klucz uwierzytelniający</string>
+
+    <string name="pref_disconnected">Rozłączenie</string>
+
+    <string name="mi_band_setting_time_24h">24-godzinny format czasu</string>
+    <string name="mi_band_setting_lift_wrist">Podnieś nadgarstek, aby wyświetlić informacje</string>
+
 
     <!-- Battery -->
     <string name="battery_details">Użycie baterii</string>
@@ -142,8 +162,8 @@
     <p>Hello Haylou requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
     <p>Jeśli Opaska nie zostanie znaleziona, możesz ustawić adres MAC ręcznie po wykryciu.</p>
     <p><b>Jeśli masz problem z połączeniem:</b>
-    <br>- Ekran ostatnich aplikacji: zablokuj Mi Bandage (przesuń aplikację w dół i kliknij ikonę blokady)
-    <br>- Optymalizacja telefonu/baterii: ustaw aplikację Mi Bandage na niezoptymalizowaną
+    <br>- Ekran ostatnich aplikacji: zablokuj Hello Haylou (przesuń aplikację w dół i kliknij ikonę blokady)
+    <br>- Optymalizacja telefonu/baterii: ustaw aplikację Hello Haylou na niezoptymalizowaną
     <br>- Telefon/aplikacje: wyczyść dane udostępniania Bluetooth i inne aplikacje \'Bluetooth\'
     ]]></string>
 
@@ -208,7 +228,7 @@
     </string>
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> ikona: wybierz tę ikonę, aby wyświetlić tytuł/treść powiadomień.]]></string>
 
-    <!-- MiBandageApp chooser dialog -->
+    <!-- App chooser dialog -->
     <string name="app_chooser">Wybór aplikacji</string>
     <string name="action_search">Szukaj</string>
     <string name="action_filter_notification">Filtr powiadomień</string>
@@ -240,6 +260,24 @@
     <string name="pulse_tab_month">Miesięczne wykresy</string>
 
     <string name="pulse_details">Szczegóły tętna</string>
+
+    <string name="pulse_continuous_title">Ciągły pomiar tętna</string>
+
+
+    <!-- Text display -->
+    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
+    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
+    <string name="pref_text_emoticon_title">Konwersja Emoji</string>
+    <string name="pref_text_emoticon_summary_on">Konwertuj Emoji do emotikony</string>
+    <string name="pref_text_uppercase_title">Konwersja do dużych liter</string>
+    <string name="pref_text_uppercase_summary_on">Konwertuj małe litery do dużych</string>
+    <string name="pref_text_line_separator_title">Line separator replacement</string>
+    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
+    <string name="pref_text_line_separator_value_title">Replacement characters</string>
+    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
+    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
+    <string name="pref_text_char_replacement_find">Znajdź</string>
+    <string name="pref_text_char_replacement_replace">Zastąp</string>
 
 
     <!-- Theme -->
@@ -325,8 +363,22 @@
     <string name="ad_attribution">Ad</string>
     <string name="on">Włącz</string>
     <string name="off">Wyłącz</string>
+    <string name="none">Brak</string>
+    <string name="bpm">BPM</string>
+    <string name="date">Data</string>
+    <string name="time">Czas</string>
+    <string name="time_start">Czas rozpoczęcia</string>
+    <string name="time_end">Czas zakończenia</string>
+    <string name="ringer_mode_vibrate">Wibruj</string>
+    <string name="ringer_mode_silent">Wycisz</string>
+    <string name="ringer_mode_dnd_priority_only">Nie przeszkadzać (tylko priorytety)</string>
+    <string name="ringer_mode_dnd_alarms_only">Nie przeszkadzać (tylko alarmy)</string>
+    <string name="ringer_mode_dnd_total_silence">Nie przeszkadzać (całkowita cisza)</string>
     <string name="unknown">Nieznany</string>
     <string name="maximum">Maksymalny</string>
+    <string name="all_day">Cały dzień</string>
+    <string name="timed">Timed</string>
+    <string name="file_name">Nazwa pliku</string>
     <string name="default_">Domyślny</string>
 
     <string name="action_dismiss">Odwołaj</string>
@@ -350,6 +402,10 @@
     <string name="action_chart_sort_pulse_desc">Tętno malejąco</string>
     <string name="action_chart_monthly_calendar">Kalendarz</string>
     <string name="action_chart_monthly_compact">Kompaktowy</string>
+
+    <string name="activity_progress_title_prepare">Przygotowanie do synchronizacji…</string>
+    <string name="activity_progress_title_sync">Synchronizacja danych…</string>
+    <string name="activity_progress_title_save">Zapisywanie danych…</string>
 
     <string name="required_value">Wymagany</string>
 

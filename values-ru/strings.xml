@@ -25,7 +25,8 @@
     <string name="device_state_connected_disconnected_last_time">Время последнего соединения и его разрыва</string>
     <string name="device_mac_address">MAC адрес</string>
 
-    <string name="device_search">Haylou search</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="device_search">Haylou search</string>
+    <string name="device_setting">Настройки Haylou</string>
 
     <string name="device_mac_address_invalid">Неверный MAC адрес</string>
 
@@ -35,19 +36,38 @@
     <string name="device_state_not_bonded">Не соединённое устройство</string>
 
 
-    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
-    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
-    <string name="pref_text_emoticon_title">Преобразование Emoji</string>
-    <string name="pref_text_emoticon_summary_on">Преобразование emoji в emoticon</string>
-    <string name="pref_text_uppercase_title">Преобразование в прописные</string>
-    <string name="pref_text_uppercase_summary_on">Преобразование нижнего регистра в верхний</string>
-    <string name="pref_text_line_separator_title">Line separator replacement</string>
-    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
-    <string name="pref_text_line_separator_value_title">Replacement characters</string>
-    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
-    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
-    <string name="pref_text_char_replacement_find">Найти</string>
-    <string name="pref_text_char_replacement_replace">Заменить</string>
+    <!-- Haylou setting -->
+    <string name="mi_band_setting_button_title">Настройки %1$sk・Профиль・Текст・Вызов・Меню</string>
+    <string name="mi_band_setting_title">Настройки %1$s</string>
+
+    <string name="mi_band_setting_menu_profile">Профиль</string>
+    <string name="mi_band_setting_menu_setting">@string/setting_name</string>
+    <string name="mi_band_setting_menu_text">Текст</string>
+    <string name="mi_band_setting_menu_call">Вызов</string>
+    <string name="mi_band_setting_menu_menu">Меню</string>
+
+    <string name="mi_band_setting_auth_mi_fit">Взаимодействие с %1$s</string> <!-- Haylou Fit-->
+    <string name="mi_band_setting_auth_mi_fit_hint">Hello Haylou требуется приложение %1$s на устройстве. Сначала подключите %2$s к %1$s, потом пользуйтесь Hello Haylou. Выберите этот пункт для использования вместе с %1$s.</string>
+    <string name="mi_band_setting_auth_standalone">Автономно</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$s не нужен для работы Hello Haylou. После соединения удалите %1$s или отвяжите браслет от него. Для восстановления привязки к %1$s вам нужно заново привязать %2$s в %1$s. If you use the unpair function, the data on the smartwatch will be deleted.</string>
+
+    <string name="mi_band_setting_auth_key">Ключ аутентификации</string>
+    <string name="mi_band_setting_auth_request">Key request</string>
+    <string name="mi_band_setting_auth_pair">Подключить</string>
+    <string name="mi_band_setting_auth_unpair">Unpair</string>
+
+    <string name="message_auth_request">It is paired, if you do not know the key, use the unpair</string>
+
+    <string name="message_mi_band_setting_auth_press_band_button">Нажмите кнопку %1$s для соединения</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_success">%1$s успешно привязан</string>
+    <string name="message_mi_band_setting_auth_fail">Привязка %1$s не удалась</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Не верный ключ аутентификации</string>
+
+    <string name="pref_disconnected">Отключение</string>
+
+    <string name="mi_band_setting_time_24h">24-часовой формат</string>
+    <string name="mi_band_setting_lift_wrist">Поворот запястья</string>
+
 
     <!-- Battery -->
     <string name="battery_details">История батареи</string>
@@ -142,8 +162,8 @@
     <p>Hello Haylou requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
     <p>Если браслет не обнаружен, вы можете установить MAC вручную в настройках.</p>
     <p><b>При проблемах с подключением:</b>
-    <br>- Закрепите Mi Bandage в окне недавних приложений (потяните приложение вниз и нажмите замок)
-    <br>- Отключите для Mi Bandage оптимизацию энергопотребления в настройках аккумулятора/энергосбережения
+    <br>- Закрепите Hello Haylou в окне недавних приложений (потяните приложение вниз и нажмите замок)
+    <br>- Отключите для Hello Haylou оптимизацию энергопотребления в настройках аккумулятора/энергосбережения
     <br>- Приложения: очистите данные Bluetooth Share и других приложений \'Bluetooth\'
     </p>]]></string>
 
@@ -208,7 +228,7 @@
     </string>
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT">: выберите эту иконку, для отображения заголовка/текста уведомлений.]]></string>
 
-    <!-- MiBandageApp chooser dialog -->
+    <!-- App chooser dialog -->
     <string name="app_chooser">Выбор приложения</string>
     <string name="action_search">Поиск</string>
     <string name="action_filter_notification">Активные сейчас уведомления</string>
@@ -240,6 +260,24 @@
     <string name="pulse_tab_month">Месяц</string>
 
     <string name="pulse_details">Список измерений</string>
+
+    <string name="pulse_continuous_title">Постоянное измерение пульса</string>
+
+
+    <!-- Text display -->
+    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
+    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
+    <string name="pref_text_emoticon_title">Преобразование Emoji</string>
+    <string name="pref_text_emoticon_summary_on">Преобразование emoji в emoticon</string>
+    <string name="pref_text_uppercase_title">Преобразование в прописные</string>
+    <string name="pref_text_uppercase_summary_on">Преобразование нижнего регистра в верхний</string>
+    <string name="pref_text_line_separator_title">Line separator replacement</string>
+    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
+    <string name="pref_text_line_separator_value_title">Replacement characters</string>
+    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
+    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
+    <string name="pref_text_char_replacement_find">Найти</string>
+    <string name="pref_text_char_replacement_replace">Заменить</string>
 
 
     <!-- Theme -->
@@ -322,11 +360,25 @@
 
 
     <!-- Others -->
-    <string name="ad_attribution">Ad</string>
+    <string name="ad_attribution">Реклама</string>
     <string name="on">Включено</string>
     <string name="off">Отключено</string>
+    <string name="none">Нет</string>
+    <string name="bpm">у/м</string>
+    <string name="date">Дата</string>
+    <string name="time">Время</string>
+    <string name="time_start">Время начала</string>
+    <string name="time_end">Время окончания</string>
+    <string name="ringer_mode_vibrate">Вибрация</string>
+    <string name="ringer_mode_silent">Без звука</string>
+    <string name="ringer_mode_dnd_priority_only">Не беспокоить (только приоритет)</string>
+    <string name="ringer_mode_dnd_alarms_only">Не беспокоить (только будильник)</string>
+    <string name="ringer_mode_dnd_total_silence">Не беспокоить (полная тишина)</string>
     <string name="unknown">Неизвестно</string>
     <string name="maximum">Полностью</string>
+    <string name="all_day">Весь день</string>
+    <string name="timed">Timed</string>
+    <string name="file_name">Имя файла</string>
     <string name="default_">По умолчанию</string>
 
     <string name="action_dismiss">Отклонить</string>
@@ -350,6 +402,10 @@
     <string name="action_chart_sort_pulse_desc">Пульс, по убыванию</string>
     <string name="action_chart_monthly_calendar">Календарь</string>
     <string name="action_chart_monthly_compact">Компактно</string>
+
+    <string name="activity_progress_title_prepare">Подготовка к синхронизации…</string>
+    <string name="activity_progress_title_sync">Синхронизация данных…</string>
+    <string name="activity_progress_title_save">Сохранение данных…</string>
 
     <string name="required_value">Необходимо указать</string>
 

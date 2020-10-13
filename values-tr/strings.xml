@@ -25,7 +25,8 @@
     <string name="device_state_connected_disconnected_last_time">Son bağlanma ve kopma anları</string>
     <string name="device_mac_address">MAC adresi</string>
 
-    <string name="device_search">Haylou search</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="device_search">Haylou search</string>
+    <string name="device_setting">Haylou ayarları</string>
 
     <string name="device_mac_address_invalid">MAC adresi yanlış</string>
 
@@ -35,21 +36,40 @@
     <string name="device_state_not_bonded">Eşleştirilmemiş cihaz</string>
 
 
-    <string name="pref_text_emoticon_title">Emoji dönüştürme</string>
-    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
-    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
-    <string name="pref_text_emoticon_summary_on">Emoji yi emoticon\'a dönüştür</string>
-    <string name="pref_text_uppercase_title">Büyük harfe dönüştürme</string>
-    <string name="pref_text_uppercase_summary_on">Küçük harfleri büyük harfe dönüştür</string>
-    <string name="pref_text_line_separator_title">Line separator replacement</string>
-    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
-    <string name="pref_text_line_separator_value_title">Replacement characters</string>
-    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
-    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
-    <string name="pref_text_char_replacement_find">Bul</string>
-    <string name="pref_text_char_replacement_replace">Ile değiştir</string>
+    <!-- Haylou setting -->
+    <string name="mi_band_setting_button_title">%1$s ayarları・Profil・Gösterim・Arama・Ekran</string>
+    <string name="mi_band_setting_title">%1$s ayarları</string>
 
-    <!-- Battery -->
+    <string name="mi_band_setting_menu_profile">Profil</string>
+    <string name="mi_band_setting_menu_setting">@string/setting_name</string>
+    <string name="mi_band_setting_menu_text">Gösterim</string>
+    <string name="mi_band_setting_menu_call">Arama</string>
+    <string name="mi_band_setting_menu_menu">Ekran</string>
+
+    <string name="mi_band_setting_auth_mi_fit">%1$s ile birlikte</string> <!-- Haylou Fit-->
+    <string name="mi_band_setting_auth_mi_fit_hint">Hello Haylou, resmi %1$s uygulamasının aynı cihaza kurulmasını gerektirir. İlk önce %2$s\'yi %1$s uygulamasında eşleştirmeniz gerekir, o zaman Hello Haylou\'ı kullanabilirsiniz. Eğer %1$s\'i kullanmak istiyorsanız bunu seçiniz.</string>
+    <string name="mi_band_setting_auth_standalone">Bağımsız</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the Hello Haylou to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted.</string>
+
+    <string name="message_auth_request">It is paired, if you do not know the key, use the unpair</string>
+
+    <string name="mi_band_setting_auth_key">Doğrulama Kodu</string>
+    <string name="mi_band_setting_auth_request">Key request</string>
+    <string name="mi_band_setting_auth_pair">Eşleştir</string>
+    <string name="mi_band_setting_auth_unpair">Unpair</string>
+
+    <string name="message_mi_band_setting_auth_press_band_button">Eşleştirme için %1$s düğmesine basın</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_success">%1$s eşleşmesi başarılı</string>
+    <string name="message_mi_band_setting_auth_fail">%1$s eşleşmesi başarısız</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Geçersiz doğrulama kodu</string>
+
+    <string name="pref_disconnected">Kopukluk</string>
+
+    <string name="mi_band_setting_time_24h">24 saatlik zaman biçimi</string>
+    <string name="mi_band_setting_lift_wrist">Bilgiliyi görüntülemek için bileğinizi kaldırın</string>
+
+
+     <!-- Battery -->
     <string name="battery_details">Şarj detayları</string>
 
     <string name="mi_band_battery_settings">Şarj seviyesi uyarı ayarları</string>
@@ -142,8 +162,8 @@
     <p>Hello Haylou requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
     <p>Haylou bulunamazsa, ayrıntılar menüsünde MAC adresini manuel olarak ayarlayabilirsiniz.</p>
     <p><b>Eğer bağlantı sorunu varsa:</b>
-    <br>- Son uygulamalarda Mi Bandage uygulamasını kilitleyin.
-    <br>- Mi Bandage uygulamasını pil optimizasyonunu Optimizasyon Etme olarak değiştirin.
+    <br>- Son uygulamalarda Hello Haylou uygulamasını kilitleyin.
+    <br>- Hello Haylou uygulamasını pil optimizasyonunu Optimizasyon Etme olarak değiştirin.
     <br>- Bluetooth uygulaması verileri ve ön belleği temizleyin.
     </p>]]></string>
 
@@ -208,7 +228,7 @@
     </string>
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> simge: bildirimlerin başlığını/içeriğini göstermek için bu simgeyi seçin.]]></string>
 
-    <!-- MiBandageApp chooser dialog -->
+    <!-- App chooser dialog -->
     <string name="app_chooser">Uygulama seçici</string>
     <string name="action_search">Ara</string>
     <string name="action_filter_notification">Bildirim Filtreleri</string>
@@ -240,6 +260,24 @@
     <string name="pulse_tab_month">Aylık graf.</string>
 
     <string name="pulse_details">Nabız detayları</string>
+
+    <string name="pulse_continuous_title">Sürekli nabız ölçümü</string>
+
+
+    <!-- Text display -->
+    <string name="pref_text_emoticon_title">Emoji dönüştürme</string>
+    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
+    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
+    <string name="pref_text_emoticon_summary_on">Emoji yi emoticon\'a dönüştür</string>
+    <string name="pref_text_uppercase_title">Büyük harfe dönüştürme</string>
+    <string name="pref_text_uppercase_summary_on">Küçük harfleri büyük harfe dönüştür</string>
+    <string name="pref_text_line_separator_title">Line separator replacement</string>
+    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
+    <string name="pref_text_line_separator_value_title">Replacement characters</string>
+    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
+    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
+    <string name="pref_text_char_replacement_find">Bul</string>
+    <string name="pref_text_char_replacement_replace">Ile değiştir</string>
 
 
     <!-- Theme -->
@@ -325,8 +363,22 @@
     <string name="ad_attribution">Ad</string>
     <string name="on">Açık</string>
     <string name="off">Kapalı</string>
+    <string name="none">Yok</string>
+    <string name="bpm">BPM</string>
+    <string name="date">Tarih</string>
+    <string name="time">Zaman</string>
+    <string name="time_start">Başlangıç</string>
+    <string name="time_end">Bitiş</string>
+    <string name="ringer_mode_vibrate">Titreşim</string>
+    <string name="ringer_mode_silent">Sessiz</string>
+    <string name="ringer_mode_dnd_priority_only">Rahatsısz etme (yalnızca öncelik)</string>
+    <string name="ringer_mode_dnd_alarms_only">Rahatsısz etme (yalnızca alarmlar)</string>
+    <string name="ringer_mode_dnd_total_silence">Rahatsısz etme (tamamen sessiz)</string>
     <string name="unknown">Bilinmeyen</string>
     <string name="maximum">Maksimum</string>
+    <string name="all_day">Tüm gün</string>
+    <string name="timed">Timed</string>
+    <string name="file_name">Dosya adı</string>
     <string name="default_">Varsayılan</string>
 
     <string name="action_dismiss">Vazgeç</string>
@@ -350,6 +402,10 @@
     <string name="action_chart_sort_pulse_desc">Nabız azalan</string>
     <string name="action_chart_monthly_calendar">Takvim</string>
     <string name="action_chart_monthly_compact">Sıkıştır</string>
+
+    <string name="activity_progress_title_prepare">Veri aktarımı hazırlanıyor…</string>
+    <string name="activity_progress_title_sync">Veri aktarılıyor…</string>
+    <string name="activity_progress_title_save">Veri kaydediliyor…</string>
 
     <string name="required_value">Gerekli</string>
 

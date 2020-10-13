@@ -25,7 +25,8 @@
     <string name="device_state_connected_disconnected_last_time">Poslední čas připojení a odpojení</string>
     <string name="device_mac_address">MAC adresa</string>
 
-    <string name="device_search">Haylou search</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="device_search">Haylou search</string>
+    <string name="device_setting">Nastavení Haylou</string>
 
     <string name="device_mac_address_invalid">MAC adresa je neplatná</string>
 
@@ -35,19 +36,38 @@
     <string name="device_state_not_bonded">Není spárováno zařízení</string>
 
 
-    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
-    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
-    <string name="pref_text_emoticon_title">Převod smajlíků</string>
-    <string name="pref_text_emoticon_summary_on">Převod znaků na emotikony</string>
-    <string name="pref_text_uppercase_title">Konverze velkých písmen</string>
-    <string name="pref_text_uppercase_summary_on">Převod malých písmen na velká písmena</string>
-    <string name="pref_text_line_separator_title">Line separator replacement</string>
-    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
-    <string name="pref_text_line_separator_value_title">Replacement characters</string>
-    <string name="pref_text_char_replacement_title">Character, emoj replacement</string>
-    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
-    <string name="pref_text_char_replacement_find">Find</string>
-    <string name="pref_text_char_replacement_replace">Replace with</string>
+    <!-- Haylou setting -->
+    <string name="mi_band_setting_button_title">Nastavení %1$s・Profil・Text・Hovor・Menu</string>
+    <string name="mi_band_setting_title">Nastavení %1$s</string>
+
+    <string name="mi_band_setting_menu_profile">Profil</string>
+    <string name="mi_band_setting_menu_setting">@string/setting_name</string>
+    <string name="mi_band_setting_menu_text">Text</string>
+    <string name="mi_band_setting_menu_call">Hovor</string>
+    <string name="mi_band_setting_menu_menu">Menu</string>
+
+    <string name="mi_band_setting_auth_mi_fit">Spolupráce s %1$s</string> <!-- Haylou Fit-->
+    <string name="mi_band_setting_auth_mi_fit_hint">Hello Haylou vyžaduje instalaci oficiální aplikace %1$s na stejném zařízení. Nejprve musíte spárovat %2$s v aplikaci %1$s, poté můžete použít aplikaci Hello Haylou Zvolte tuto možnost, pokud chcete použít %1$s.</string>
+    <string name="mi_band_setting_auth_standalone">Samostatný</string>
+    <string name="mi_band_setting_auth_standalone_hint">Aplikace %1$s není nutná pro práci Hello Haylou. Po párování odinstalujte aplikaci %1$s nebo odpojte zařízení. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted.</string>
+
+    <string name="mi_band_setting_auth_key">Authentication key</string>
+    <string name="mi_band_setting_auth_request">Key request</string>
+    <string name="mi_band_setting_auth_pair">Spárovat</string>
+    <string name="mi_band_setting_auth_unpair">Unpair</string>
+
+    <string name="message_auth_request">It is paired, if you do not know the key, use the unpair</string>
+
+    <string name="message_mi_band_setting_auth_press_band_button">Pro spárování stiskni tlačítko %1$s</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
+    <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Invalid authentication key</string>
+
+    <string name="pref_disconnected">Odpojení</string>
+
+    <string name="mi_band_setting_time_24h">24hodinový formát času</string>
+    <string name="mi_band_setting_lift_wrist">Zvednutí zápěstí pro zobrazení informací</string>
+
 
     <!-- Battery -->
     <string name="battery_details">Detaily baterie</string>
@@ -142,8 +162,8 @@
     <p>Hello Haylou requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
     <p>Pokud není nalezen chytrý náramek, můžete nastavit MAC adresu ručně v nabídce podrobností.</p>
     <p><b>Pokud máte problém s připojením, postupujte dle instrukcí uvedených níže:</b>
-    <br>- Obrazovka přehledu aplikací (recent apps screen): Uzavřete aplikaci Mi Bandage (přetáhněte směrem pryč z obrazovky, nebo klikněte na ikonu křížku).
-    <br>- Nastavení/baterie/optimalizace výdrže baterie: zvolte aplikaci Mi Bandage a vyberte neoptimalizovat.
+    <br>- Obrazovka přehledu aplikací (recent apps screen): Uzavřete aplikaci Hello Haylou (přetáhněte směrem pryč z obrazovky, nebo klikněte na ikonu křížku).
+    <br>- Nastavení/baterie/optimalizace výdrže baterie: zvolte aplikaci Hello Haylou a vyberte neoptimalizovat.
     <br>- Nastavení/aplikace: vymažte data aplikace Sdílení Bluetooth a ostatních Bluetooth aplikací.
     ]]></string>
 
@@ -207,7 +227,7 @@
     </string>
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> ikona: Tuto ikonu vyberte, abyste zobrazili název oznámení/obsah.]]></string>
 
-    <!-- MiBandageApp chooser dialog -->
+    <!-- App chooser dialog -->
     <string name="app_chooser">Výběr aplikace</string>
     <string name="action_search">Vyhledávání</string>
     <string name="action_filter_notification">Filtr oznámení</string>
@@ -239,6 +259,23 @@
     <string name="pulse_tab_month">Měsíční grafy</string>
 
     <string name="pulse_details">Podrobnosti tepu</string>
+
+    <string name="pulse_continuous_title">Nepřetržité měření tepu</string>
+
+    <!-- Text display -->
+    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
+    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
+    <string name="pref_text_emoticon_title">Převod smajlíků</string>
+    <string name="pref_text_emoticon_summary_on">Převod znaků na emotikony</string>
+    <string name="pref_text_uppercase_title">Konverze velkých písmen</string>
+    <string name="pref_text_uppercase_summary_on">Převod malých písmen na velká písmena</string>
+    <string name="pref_text_line_separator_title">Line separator replacement</string>
+    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
+    <string name="pref_text_line_separator_value_title">Replacement characters</string>
+    <string name="pref_text_char_replacement_title">Character, emoj replacement</string>
+    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
+    <string name="pref_text_char_replacement_find">Find</string>
+    <string name="pref_text_char_replacement_replace">Replace with</string>
 
 
     <!-- Theme -->
@@ -322,8 +359,22 @@
     <string name="ad_attribution">Ad</string>
     <string name="on">Zapnuto</string>
     <string name="off">Vypnuto</string>
+    <string name="none">Žádný</string>
+    <string name="bpm">BPM</string>
+    <string name="date">Datum</string>
+    <string name="time">Čas</string>
+    <string name="time_start">Čas zahájení</string>
+    <string name="time_end">Čas ukončení</string>
+    <string name="ringer_mode_vibrate">Vibrace</string>
+    <string name="ringer_mode_silent">Ztlumit</string>
+    <string name="ringer_mode_dnd_priority_only">Nerušit (pouze budíky)</string>
+    <string name="ringer_mode_dnd_alarms_only">Nerušit (pouze prioritní)</string>
+    <string name="ringer_mode_dnd_total_silence">Nerušit (úplné ticho)</string>
     <string name="unknown">Neznámý</string>
     <string name="maximum">Maximum</string>
+    <string name="all_day">Celý den</string>
+    <string name="timed">Timed</string>
+    <string name="file_name">Název souboru</string>
     <string name="default_">Default</string>
 
     <string name="action_dismiss">Odmítnout</string>
@@ -347,6 +398,10 @@
     <string name="action_chart_sort_pulse_desc">Tlak klesající</string>
     <string name="action_chart_monthly_calendar">Calendar</string>
     <string name="action_chart_monthly_compact">Compact</string>
+
+    <string name="activity_progress_title_prepare">Příprava na synchronizaci…</string>
+    <string name="activity_progress_title_sync">Synchronizace dat…</string>
+    <string name="activity_progress_title_save">Ukládání dat…</string>
 
     <string name="required_value">Požadováno</string>
 

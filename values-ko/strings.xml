@@ -25,7 +25,8 @@
     <string name="device_state_connected_disconnected_last_time">마지막 연결 및 연결 해제 시간</string>
     <string name="device_mac_address">MAC 주소</string>
 
-    <string name="device_search">Haylou search</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="device_search">Haylou search</string>
+    <string name="device_setting">Haylou 설정</string>
 
     <string name="device_mac_address_invalid">MAC 주소가 유효하지 않음</string>
 
@@ -35,19 +36,38 @@
     <string name="device_state_not_bonded">페어링되지 않은 기기</string>
 
 
-    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
-    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
-    <string name="pref_text_emoticon_title">이모지 변환</string>
-    <string name="pref_text_emoticon_summary_on">이모지를 이모티콘으로 변환</string>
-    <string name="pref_text_uppercase_title">대문자 변환</string>
-    <string name="pref_text_uppercase_summary_on">소문자를 대문자로 변환</string>
-    <string name="pref_text_line_separator_title">Line separator replacement</string>
-    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
-    <string name="pref_text_line_separator_value_title">Replacement characters</string>
-    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
-    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
-    <string name="pref_text_char_replacement_find">Find</string>
-    <string name="pref_text_char_replacement_replace">Replace with</string>
+    <!--Haylou setting -->
+    <string name="mi_band_setting_button_title">%1$s 설정・프로필・본문・수신 전화 알림・메뉴</string>
+    <string name="mi_band_setting_title">%1$s 설정</string>
+
+    <string name="mi_band_setting_menu_profile">프로필</string>
+    <string name="mi_band_setting_menu_setting">@string/setting_name</string>
+    <string name="mi_band_setting_menu_text">본문</string>
+    <string name="mi_band_setting_menu_call">수신 전화 알림</string>
+    <string name="mi_band_setting_menu_menu">메뉴</string>
+
+    <string name="mi_band_setting_auth_mi_fit">%1$s(와)과 함께 사용하기</string> <!-- Haylou Fit-->
+    <string name="mi_band_setting_auth_mi_fit_hint">Hello Haylou(은)는 같은 폰에 %1$s 앱의 설치를 요구합니다. 먼저 %1$s(을)를 %2$s 애플리케이션에 연결해야, Hello Haylou(을)를 사용할 수 있습니다. %1$s 앱을 사용하고 싶으면, 이것을 선택하세요.</string>
+    <string name="mi_band_setting_auth_standalone">독립</string>
+    <string name="mi_band_setting_auth_standalone_hint">Hello Haylou(이)가 작동하기 위해 %1$s앱이 요구되지 않습니다. 페어링 후에, %1$s 앱을 삭제하. %1$s(와)과 함께 사용하기를 복원할 때, %2$s(을)를 %1$s 애플리케이션에 다시 연결해야 합니다. If you use the unpair function, the data on the smartwatch will be deleted.</string>
+
+    <string name="mi_band_setting_auth_key">인증 키</string>
+    <string name="mi_band_setting_auth_request">Key request</string>
+    <string name="mi_band_setting_auth_pair">페어링</string>
+    <string name="mi_band_setting_auth_unpair">Unpair</string>
+
+    <string name="message_auth_request">It is paired, if you do not know the key, use the unpair</string>
+
+    <string name="message_mi_band_setting_auth_press_band_button">페어링하려면 %1$s 버튼을 누르세요</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_success">%1$s 페어링 성공</string>
+    <string name="message_mi_band_setting_auth_fail">%1$s 페어링 실패</string>
+    <string name="message_mi_band_setting_auth_key_invalid">유효하지 않은 인증 키</string>
+
+    <string name="pref_disconnected">연결 해제</string>
+
+    <string name="mi_band_setting_time_24h">24시간 형식</string>
+    <string name="mi_band_setting_lift_wrist">손목을 들어올리면 화면 밝히기</string>
+
 
     <!-- Battery -->
     <string name="battery_details">배터리 사용량</string>
@@ -142,8 +162,8 @@
     <p>Hello Haylou requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
     <p>If Haylou is not found, then you can set the MAC address manually when you discover.</p>
     <p><b>If you have a 연결 problem:</b>
-    <br>- Recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon).
-    <br>- Phone/battery optimization: set Mi Bandage app to not optimized.
+    <br>- Recent apps screen: lock the Hello Haylou (pull down the app and click on lock icon).
+    <br>- Phone/battery optimization: set Hello Haylou app to not optimized.
     <br>- Phone/apps: clear Bluetooth Share and other \'Bluetooth\' apps data.
 ]]></string>
 
@@ -208,7 +228,7 @@
     </string>
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> icon: choose this icon to show the notifications title/content.]]></string>
 
-    <!-- MiBandageApp chooser dialog -->
+    <!-- App chooser dialog -->
     <string name="app_chooser">앱 선택기</string>
     <string name="action_search">검색</string>
     <string name="action_filter_notification">알림 필터</string>
@@ -240,6 +260,24 @@
     <string name="pulse_tab_month">월간 차트</string>
 
     <string name="pulse_details">Pulse details</string>
+
+    <string name="pulse_continuous_title">Continuous pulse measurement</string>
+
+    <!-- Text display -->
+    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
+    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
+    <string name="pref_text_emoticon_title">이모지 변환</string>
+    <string name="pref_text_emoticon_summary_on">이모지를 이모티콘으로 변환</string>
+    <string name="pref_text_uppercase_title">대문자 변환</string>
+    <string name="pref_text_uppercase_summary_on">소문자를 대문자로 변환</string>
+    <string name="pref_text_line_separator_title">Line separator replacement</string>
+    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
+    <string name="pref_text_line_separator_value_title">Replacement characters</string>
+    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
+    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
+    <string name="pref_text_char_replacement_find">Find</string>
+    <string name="pref_text_char_replacement_replace">Replace with</string>
+
 
     <!-- Theme -->
     <string name="theme_tab_theme">테마</string>
@@ -324,8 +362,22 @@
     <string name="ad_attribution">Ad</string>
     <string name="on">활성화</string>
     <string name="off">비활성화</string>
+    <string name="none">없음</string>
+    <string name="bpm">BPM</string>
+    <string name="date">날짜</string>
+    <string name="time">시간</string>
+    <string name="time_start">시작 시간</string>
+    <string name="time_end">종료 시간</string>
+    <string name="ringer_mode_vibrate">진동</string>
+    <string name="ringer_mode_silent">음소거</string>
+    <string name="ringer_mode_dnd_priority_only">방해 금지 (우선사항만)</string>
+    <string name="ringer_mode_dnd_alarms_only">방해 금지 (알람만)</string>
+    <string name="ringer_mode_dnd_total_silence">방해 금지 (완전한 무음)</string>
     <string name="unknown">알 수 없음</string>
     <string name="maximum">최대</string>
+    <string name="all_day">All-day</string>
+    <string name="timed">Timed</string>
+    <string name="file_name">File name</string>
     <string name="default_">기본</string>
 
     <string name="action_dismiss">닫기</string>
@@ -349,6 +401,10 @@
     <string name="action_chart_sort_pulse_desc">Pulse descending</string>
     <string name="action_chart_monthly_calendar">Calendar</string>
     <string name="action_chart_monthly_compact">Compact</string>
+
+    <string name="activity_progress_title_prepare">Preparing for synchronization…</string>
+    <string name="activity_progress_title_sync">Data synchronization…</string>
+    <string name="activity_progress_title_save">Data saving…</string>
 
     <string name="required_value">요구사항</string>
 
