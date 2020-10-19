@@ -6,6 +6,7 @@
     <string name="menu_nav_call">Apel</string>
     <string name="menu_nav_step">Activități</string>
     <string name="menu_nav_pulse">Puls</string>
+    <string name="menu_nav_alarm">Alarmă</string>
     <string name="menu_nav_more">Mai Mult</string>
     <string name="menu_nav_text_display">Afișare text</string>
     <string name="menu_nav_theme">Temă</string>
@@ -23,11 +24,12 @@
 <!--    <string name="mi_band_battery">Nivelul bateriei・data ultimei încărcări・estimarea timpului rămas</string>-->
     <string name="device_battery">Nivelul bateriei・data ultimei încărcări</string>
     <string name="device_state_connected_disconnected_last_time">Data ultimei conectări și deconectări</string>
-    <string name="device_mac_address">Adresa MAC</string>
+    <string name="device_alarm">Alarma următoare</string>
 
     <string name="device_search">Haylou search</string>
     <string name="device_setting">Setări Haylou</string>
 
+    <string name="device_mac_address">Adresa MAC</string>
     <string name="device_mac_address_invalid">Adresa MAC este invalidă</string>
 
     <string name="device_state_connected">Conectat</string>
@@ -40,8 +42,9 @@
     <string name="mi_band_setting_button_title">Setări %1$s・Profil・Text・Apel・Meniu</string>
     <string name="mi_band_setting_title">Setări %1$s</string>
 
-    <string name="mi_band_setting_menu_profile">Profil</string>
+    <string name="mi_band_setting_menu_connection">Conexiune</string>
     <string name="mi_band_setting_menu_setting">@string/setting_name</string>
+    <string name="mi_band_setting_menu_profile">Profil</string>
     <string name="mi_band_setting_menu_text">Text</string>
     <string name="mi_band_setting_menu_call">Apel</string>
     <string name="mi_band_setting_menu_menu">Meniu</string>
@@ -49,7 +52,7 @@
     <string name="mi_band_setting_auth_mi_fit">%1$s cooperation</string> <!-- Haylou Fit-->
     <string name="mi_band_setting_auth_mi_fit_hint">Hello Haylou necesită instalarea aplicației oficiale %1$s pe același telefon. La început trebuie să împerechezi %2$s în aplicația %1$s, apoi poți folosi Hello Haylou. If you want to use %1$s, choose this.</string>
     <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the Hello Haylou to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted.</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the Hello Haylou to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted.  The %2$s screen must be turned on while performing operations.</string>
 
     <string name="mi_band_setting_auth_key">Authentication key</string>
     <string name="mi_band_setting_auth_request">Key request</string>
@@ -68,6 +71,13 @@
     <string name="mi_band_setting_time_24h">Formatul de 24 de ore</string>
     <string name="mi_band_setting_lift_wrist">Ridică încheietura mâinii pentru a vedea informații</string>
 
+    <string name="mi_band_setting_gender">Sex</string>
+    <string name="mi_band_setting_gender_male">Masculin</string>
+    <string name="mi_band_setting_gender_female">Feminin</string>
+    <string name="mi_band_setting_birthday">Data naşterii</string>
+    <string name="mi_band_setting_height">Înălţime</string>
+    <string name="mi_band_setting_weight">Greutate</string>
+
 
     <!-- Battery -->
     <string name="battery_details">Utilizarea bateriei</string>
@@ -83,8 +93,6 @@
     <string name="mi_band_battery_notification_mi_band_message">Baterie: %1$,d%%</string>
 
     <!-- PreferenceScreen -->
-    <string name="pref_connected">Conexiune</string>
-
     <string name="pref_connected_have_notif_interval_title">Interval repetare reamintiri</string>
     <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
 
@@ -143,10 +151,16 @@
 
     <string name="message_notification_free_text">Up to 1 text can be recorded in normal mode</string>
 
+    <string name="message_time_alarm_free_counter">Pot fi utilizate până la 1 alarme în modul normal</string>
+    <string name="message_time_alarm_max_counter">Se pot folosi maxim %1$d alarme</string>
+    <string name="message_time_alarm_enabled">Alarmă activată</string>
+    <string name="message_time_alarm_disabled">Alarmă dezactivată</string>
     <string name="message_time_alarm_mi_band_off">Alarmă oprită</string>
 
     <string name="message_premium_mode_only">Această funcție este disponibilă numai în modul premium</string>
+    <string name="message_general_error">Setarea a eșuat (conexiunea s-a pierdut), încearcă din nou</string>
     <string name="message_internet_error">Lipsă conexiune la internet</string>
+    <string name="message_gps_enable">Activează GPS</string>
 
     <string name="message_in_progress">În curs…</string>
     <string name="message_no_data">Nu sunt date disponibile</string>
@@ -261,6 +275,14 @@
     <string name="pulse_details">Detalii puls</string>
 
     <string name="pulse_continuous_title">Măsurare continuă a pulsului</string>
+
+
+    <!-- Alarm -->
+    <string name="action_time_alarm_sort_state_asc">State ascending</string>
+    <string name="action_time_alarm_sort_watch_asc">Watch ascending</string>
+    <string name="action_time_alarm_sort_name_asc">Name ascending</string>
+
+    <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Haylou Smart Watch ... -->
 
 
     <!-- Text display -->
@@ -383,13 +405,19 @@
     <string name="action_dismiss">Înlătură</string>
     <string name="action_setting">Setări</string>
     <string name="action_delete">Șterge</string>
+    <string name="action_export">Exportă</string>
+    <string name="action_synchronization">Sincronizează</string>
     <string name="action_filter_no">Niciun filtru</string>
+    <string name="action_bluetooth">Bluetooth</string>
+    <string name="action_launch_mi_fit">Mi Fit</string>
+    <string name="action_launch_amazfit">Zepp</string>
     <string name="action_save">Salvează</string>
     <string name="action_test">Test</string>
     <string name="action_discard">Renunță</string>
     <string name="action_keep_editing">Editează în continuare</string>
     <string name="action_new">New</string>
     <string name="action_start_stop">Start/Stop</string>
+    <string name="synchronized_from_watch">Synchronized from watch</string>
 
     <string name="action_chart">Grafic</string>
     <string name="action_zoom_in">Zoom in</string>

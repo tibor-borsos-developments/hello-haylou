@@ -6,6 +6,7 @@
     <string name="menu_nav_call">Dzwonienie</string>
     <string name="menu_nav_step">Aktywność</string>
     <string name="menu_nav_pulse">Tętno</string>
+    <string name="menu_nav_alarm">Alarm</string>
     <string name="menu_nav_more">Więcej</string>
     <string name="menu_nav_text_display">Wyświetlanie tekstu</string>
     <string name="menu_nav_theme">Motyw</string>
@@ -23,11 +24,12 @@
 <!--    <string name="mi_band_battery">Poziom baterii・czas ostatniego ładowania・szacowany pozostały czas</string>-->
     <string name="device_battery">Poziom baterii・czas ostatniego ładowania</string>
     <string name="device_state_connected_disconnected_last_time">Czas ostatniego podłączenia i rozłączenia</string>
-    <string name="device_mac_address">Adres MAC</string>
+    <string name="device_alarm">Następny alarm</string>
 
     <string name="device_search">Haylou search</string>
     <string name="device_setting">Ustawienia Haylou</string>
 
+    <string name="device_mac_address">Adres MAC</string>
     <string name="device_mac_address_invalid">Adres MAC jest nieprawidłowy</string>
 
     <string name="device_state_connected">Połączony</string>
@@ -40,8 +42,9 @@
     <string name="mi_band_setting_button_title">Ustawienia %1$s・Profil・Tekst・Dzwonienie・Menu</string>
     <string name="mi_band_setting_title">Ustawienia %1$s</string>
 
-    <string name="mi_band_setting_menu_profile">Profil</string>
+    <string name="mi_band_setting_menu_connection">Połączenie</string>
     <string name="mi_band_setting_menu_setting">@string/setting_name</string>
+    <string name="mi_band_setting_menu_profile">Profil</string>
     <string name="mi_band_setting_menu_text">Tekst</string>
     <string name="mi_band_setting_menu_call">Dzwonienie</string>
     <string name="mi_band_setting_menu_menu">Menu</string>
@@ -49,7 +52,7 @@
     <string name="mi_band_setting_auth_mi_fit">Współpraca z %1$s</string> <!-- Haylou Fit-->
     <string name="mi_band_setting_auth_mi_fit_hint">Hello Haylou wymaga instalacji oficjalnej aplikacji %1$s na tym samym telefonie. Najpierw musisz sparować %2$s w aplikacji %1$s, potem możesz użyć Hello Haylou. Wybierz, jeśli chcesz używać %1$s.</string>
     <string name="mi_band_setting_auth_standalone">Samodzielny</string>
-    <string name="mi_band_setting_auth_standalone_hint">Aplikacja %1$s nie jest wymagana do działania Hello Haylou. Po sparowaniu odinstaluj aplikację %1$s. Podczas przywracania współpracy %1$s konieczne będzie ponowne sparowanie %2$s w aplikacji %1$s. If you use the unpair function, the data on the smartwatch will be deleted.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Aplikacja %1$s nie jest wymagana do działania Hello Haylou. Po sparowaniu odinstaluj aplikację %1$s. Podczas przywracania współpracy %1$s konieczne będzie ponowne sparowanie %2$s w aplikacji %1$s. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
 
     <string name="mi_band_setting_auth_key">Klucz uwierzytelniania</string>
     <string name="mi_band_setting_auth_request">Key request</string>
@@ -68,6 +71,13 @@
     <string name="mi_band_setting_time_24h">24-godzinny format czasu</string>
     <string name="mi_band_setting_lift_wrist">Podnieś nadgarstek, aby wyświetlić informacje</string>
 
+    <string name="mi_band_setting_gender">Płeć</string>
+    <string name="mi_band_setting_gender_male">Mężczyzna</string>
+    <string name="mi_band_setting_gender_female">Kobieta</string>
+    <string name="mi_band_setting_birthday">Data urodzenia</string>
+    <string name="mi_band_setting_height">Wzrost</string>
+    <string name="mi_band_setting_weight">Waga</string>
+
 
     <!-- Battery -->
     <string name="battery_details">Użycie baterii</string>
@@ -83,8 +93,6 @@
     <string name="mi_band_battery_notification_mi_band_message">Bateria: %1$,d%%</string>
 
     <!-- PreferenceScreen -->
-    <string name="pref_connected">Połączenie</string>
-
     <string name="pref_connected_have_notif_interval_title">Interwał powtórzeń przypomnienia</string>
     <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
 
@@ -143,10 +151,16 @@
 
     <string name="message_notification_free_text">Up to 1 text can be recorded in normal mode</string>
 
+    <string name="message_time_alarm_free_counter">W trybie normalnym można użyć maksymalnie 1 alarmów</string>
+    <string name="message_time_alarm_max_counter">Można użyć maksymalnie %1$d alarmów</string>
+    <string name="message_time_alarm_enabled">Alarm włączony</string>
+    <string name="message_time_alarm_disabled">Alarm wyłączony</string>
     <string name="message_time_alarm_mi_band_off">Alarm wyłączony</string>
 
     <string name="message_premium_mode_only">Ta funkcja jest dostępna tylko w trybie premium</string>
+    <string name="message_general_error">Ustawienie nie powiodło się (utracono połączenie), spróbuj ponownie</string>
     <string name="message_internet_error">Nie ma połączenia z Internetem</string>
+    <string name="message_gps_enable">Włącz GPS</string>
 
     <string name="message_in_progress">W trakcie…</string>
     <string name="message_no_data">Brak dostępnych danych</string>
@@ -262,6 +276,14 @@
     <string name="pulse_details">Szczegóły tętna</string>
 
     <string name="pulse_continuous_title">Ciągły pomiar tętna</string>
+
+
+    <!-- Alarm -->
+    <string name="action_time_alarm_sort_state_asc">Stan rosnąco</string>
+    <string name="action_time_alarm_sort_watch_asc">Zegar rosnąco</string>
+    <string name="action_time_alarm_sort_name_asc">Nazwa rosnąco</string>
+
+    <string name="message_time_alarm_sync">Synchronizuj alarmy %1$s (usuwanie i ustawianie alarmów na Twoim smartwatchu)</string> <!-- %1$s = Haylou Smart Watch ... -->
 
 
     <!-- Text display -->
@@ -384,13 +406,19 @@
     <string name="action_dismiss">Odwołaj</string>
     <string name="action_setting">Ustawienia</string>
     <string name="action_delete">Usuń</string>
+    <string name="action_export">Eksportuj</string>
+    <string name="action_synchronization">Synchronizacja</string>
     <string name="action_filter_no">Brak filtrowania</string>
+    <string name="action_bluetooth">Bluetooth</string>
+    <string name="action_launch_mi_fit">Mi Fit</string>
+    <string name="action_launch_amazfit">Zepp</string>
     <string name="action_save">Zapisz</string>
     <string name="action_test">Testuj</string>
     <string name="action_discard">Odrzuć</string>
     <string name="action_keep_editing">Edytuj dalej</string>
     <string name="action_new">Nowy</string>
     <string name="action_start_stop">Start/Stop</string>
+    <string name="synchronized_from_watch">Zsynchronizowano z zegarka</string>
 
     <string name="action_chart">Wykres</string>
     <string name="action_zoom_in">Zoom in</string>

@@ -6,6 +6,7 @@
     <string name="menu_nav_call">Arama</string>
     <string name="menu_nav_step">Adım sayar</string>
     <string name="menu_nav_pulse">Nabız ölçer</string>
+    <string name="menu_nav_alarm">Alarm</string>
     <string name="menu_nav_more">Daha</string>
     <string name="menu_nav_text_display">Altyazılı simge</string>
     <string name="menu_nav_theme">Tema</string>
@@ -23,11 +24,12 @@
 <!--    <string name="mi_band_battery">Şarj・şarj zamanı・tahmini kalan</string>-->
     <string name="device_battery">Şarj・şarj zamanı</string>
     <string name="device_state_connected_disconnected_last_time">Son bağlanma ve kopma anları</string>
-    <string name="device_mac_address">MAC adresi</string>
+    <string name="device_alarm">Sonraki alarm</string>
 
     <string name="device_search">Haylou search</string>
     <string name="device_setting">Haylou ayarları</string>
 
+    <string name="device_mac_address">MAC adresi</string>
     <string name="device_mac_address_invalid">MAC adresi yanlış</string>
 
     <string name="device_state_connected">Bağlı</string>
@@ -40,8 +42,9 @@
     <string name="mi_band_setting_button_title">%1$s ayarları・Profil・Gösterim・Arama・Ekran</string>
     <string name="mi_band_setting_title">%1$s ayarları</string>
 
-    <string name="mi_band_setting_menu_profile">Profil</string>
+    <string name="mi_band_setting_menu_connection">Bağlanınca</string>
     <string name="mi_band_setting_menu_setting">@string/setting_name</string>
+    <string name="mi_band_setting_menu_profile">Profil</string>
     <string name="mi_band_setting_menu_text">Gösterim</string>
     <string name="mi_band_setting_menu_call">Arama</string>
     <string name="mi_band_setting_menu_menu">Ekran</string>
@@ -49,7 +52,7 @@
     <string name="mi_band_setting_auth_mi_fit">%1$s ile birlikte</string> <!-- Haylou Fit-->
     <string name="mi_band_setting_auth_mi_fit_hint">Hello Haylou, resmi %1$s uygulamasının aynı cihaza kurulmasını gerektirir. İlk önce %2$s\'yi %1$s uygulamasında eşleştirmeniz gerekir, o zaman Hello Haylou\'ı kullanabilirsiniz. Eğer %1$s\'i kullanmak istiyorsanız bunu seçiniz.</string>
     <string name="mi_band_setting_auth_standalone">Bağımsız</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the Hello Haylou to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted.</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the Hello Haylou to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted.  The %2$s screen must be turned on while performing operations.</string>
 
     <string name="message_auth_request">It is paired, if you do not know the key, use the unpair</string>
 
@@ -68,6 +71,13 @@
     <string name="mi_band_setting_time_24h">24 saatlik zaman biçimi</string>
     <string name="mi_band_setting_lift_wrist">Bilgiliyi görüntülemek için bileğinizi kaldırın</string>
 
+    <string name="mi_band_setting_gender">Cinsiyet</string>
+    <string name="mi_band_setting_gender_male">Bay</string>
+    <string name="mi_band_setting_gender_female">Bayan</string>
+    <string name="mi_band_setting_birthday">Doğum tarihi</string>
+    <string name="mi_band_setting_height">Boy</string>
+    <string name="mi_band_setting_weight">Kilo</string>
+
 
      <!-- Battery -->
     <string name="battery_details">Şarj detayları</string>
@@ -83,8 +93,6 @@
     <string name="mi_band_battery_notification_mi_band_message">Pil: %1$,d%%</string>
 
     <!-- PreferenceScreen -->
-    <string name="pref_connected">Bağlanınca</string>
-
     <string name="pref_connected_have_notif_interval_title">Hangi aralıkta hatırlatma bildirimi tekrarlansın</string>
     <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
 
@@ -143,10 +151,17 @@
 
     <string name="message_notification_free_text">Up to 1 text can be recorded in normal mode</string>
 
+    <string name="message_time_alarm_free_counter">Normal modda en fazla 1 alarm kullanılabilir</string>
+    <string name="message_time_alarm_max_counter">Maksimum %1$d alarm kullanılabilir</string>
+    <string name="message_time_alarm_enabled">Alarm aktif</string>
+    <string name="message_time_alarm_disabled">Alarm pasif</string>
     <string name="message_time_alarm_mi_band_off">Alarm kapalı</string>
 
     <string name="message_premium_mode_only">Bu özellik yanlız premium mod ile kullanılabilir</string>
+    <string name="message_feature_is_not_supported">%1$s bu özelliği desteklemiyor</string>
+    <string name="message_general_error">İşlem başarısız oldu (bağlantı tutarsız), lütfen tekrar deneyin</string>
     <string name="message_internet_error">İnternet bağlantınız yok</string>
+    <string name="message_gps_enable">GPS\'i etkinleştir</string>
 
     <string name="message_in_progress">İşleniyor…</string>
     <string name="message_no_data">Veri yok</string>
@@ -262,6 +277,14 @@
     <string name="pulse_details">Nabız detayları</string>
 
     <string name="pulse_continuous_title">Sürekli nabız ölçümü</string>
+
+
+    <!-- Alarm -->
+    <string name="action_time_alarm_sort_state_asc">Duruna göre artan</string>
+    <string name="action_time_alarm_sort_watch_asc">Saate göre artan</string>
+    <string name="action_time_alarm_sort_name_asc">İsme göre artan</string>
+
+    <string name="message_time_alarm_sync">%1$s alarmlarını senkronize et. (Akıllı saatinizdeki alarmları otomatik siler veya ekler)</string> <!-- %1$s =Haylou Smart Watch ... -->
 
 
     <!-- Text display -->
@@ -384,13 +407,19 @@
     <string name="action_dismiss">Vazgeç</string>
     <string name="action_setting">Ayarlar</string>
     <string name="action_delete">Sil</string>
+    <string name="action_export">Dışarı ver</string>
+    <string name="action_synchronization">Senkronizasyon</string>
     <string name="action_filter_no">Tümü</string>
+    <string name="action_bluetooth">Bluetooth</string>
+    <string name="action_launch_mi_fit">Mi Fit</string>
+    <string name="action_launch_amazfit">Zepp</string>
     <string name="action_save">Kaydet</string>
     <string name="action_test">Test</string>
     <string name="action_discard">Sil</string>
     <string name="action_keep_editing">Düzenlemeye devam et</string>
     <string name="action_new">Yeni</string>
     <string name="action_start_stop">Başla/Dur</string>
+    <string name="synchronized_from_watch">Saatten senkronize et</string>
 
     <string name="action_chart">Grafik</string>
     <string name="action_zoom_in">Zoom in</string>

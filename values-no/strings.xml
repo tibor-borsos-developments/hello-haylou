@@ -6,6 +6,7 @@
     <string name="menu_nav_call">Anrop</string>
     <string name="menu_nav_step">Aktivitet</string>
     <string name="menu_nav_pulse">Puls</string>
+    <string name="menu_nav_alarm">Alarm</string>
     <string name="menu_nav_more">Mer</string>
     <string name="menu_nav_text_display">Text utseende</string>
     <string name="menu_nav_theme">Stil</string>
@@ -23,11 +24,12 @@
 <!--    <string name="mi_band_battery">Batteri-level・siste lade tid・beregnet gjenværende tid</string>-->
     <string name="device_battery">Batteri-level・siste lade tid</string>
     <string name="device_state_connected_disconnected_last_time">Siste tilkoblings og frakoblings-tid</string>
-    <string name="device_mac_address">MAC address</string>
+    <string name="device_alarm">Neste alarm</string>
 
     <string name="device_search">Haylou search</string>
     <string name="device_setting">Haylou-instillinger</string>
 
+    <string name="device_mac_address">MAC address</string>
     <string name="device_mac_address_invalid">MAC-addressen er ubrukelig</string>
 
     <string name="device_state_connected">Tilkoblet</string>
@@ -35,13 +37,21 @@
     <string name="device_state_bonded">Parret enhet</string>
     <string name="device_state_not_bonded">Ikke parret enhet</string>
 
+    <string name="mi_band_setting_gender">Kjønn</string>
+    <string name="mi_band_setting_gender_male">Mann</string>
+    <string name="mi_band_setting_gender_female">Hunn</string>
+    <string name="mi_band_setting_birthday">Fødselsdato</string>
+    <string name="mi_band_setting_height">Høyde</string>
+    <string name="mi_band_setting_weight">Vekt</string>
+
 
     <!-- Haylou setting -->
     <string name="mi_band_setting_button_title">%1$s-instillinger・Profil・Text・Anrop・Meny</string>
     <string name="mi_band_setting_title">%1$s-instillinger</string>
 
-    <string name="mi_band_setting_menu_profile">Profil</string>
+    <string name="mi_band_setting_menu_connection">Tilkobling</string>
     <string name="mi_band_setting_menu_setting">@string/setting_name</string>
+    <string name="mi_band_setting_menu_profile">Profil</string>
     <string name="mi_band_setting_menu_text">Text</string>
     <string name="mi_band_setting_menu_call">Anrop</string>
     <string name="mi_band_setting_menu_menu">Meny</string>
@@ -49,7 +59,7 @@
     <string name="mi_band_setting_auth_mi_fit">%1$s cooperation</string> <!-- Haylou Fit-->
     <string name="mi_band_setting_auth_mi_fit_hint">Hello Haylou behøver installasjon av den offisielle %1$s appen på den samme telefonen. først må du parre %2$s i %1$s appen, så kan du bruke Hello Haylou. If you want to use %1$s, choose this.</string>
     <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the Hello Haylou to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted.</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the Hello Haylou to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
 
     <string name="mi_band_setting_auth_key">Authentication key</string>
     <string name="mi_band_setting_auth_request">Key request</string>
@@ -83,8 +93,6 @@
     <string name="mi_band_battery_notification_mi_band_message">Batteri: %1$,d%%</string>
 
     <!-- Skjerm-instilling -->
-    <string name="pref_connected">Tilkobling</string>
-
     <string name="pref_connected_have_notif_interval_title">Påminnelse gjentakelses-interval</string>
     <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
 
@@ -143,10 +151,16 @@
 
     <string name="message_notification_free_text">Up to 1 text can be recorded in normal mode</string>
 
+    <string name="message_time_alarm_free_counter">Opp til 1 alarmer kan bli brukt i normal modus</string>
+    <string name="message_time_alarm_max_counter">Maximum %1$d alarmer kan bli brukt</string>
+    <string name="message_time_alarm_enabled">Alarm aktivert</string>
+    <string name="message_time_alarm_disabled">Alarm deaktivert</string>
     <string name="message_time_alarm_mi_band_off">Alarm av</string>
 
     <string name="message_premium_mode_only">Denne egenskapen er bare tilgjengelig i premium modusen</string>
+    <string name="message_general_error">Itilkobling feilet (tilkobling mistet), prøv igjen</string>
     <string name="message_internet_error">IInternett feil</string>
+    <string name="message_gps_enable">Enable the GPS</string>
 
     <string name="message_in_progress">Under prosess…</string>
     <string name="message_no_data">Ingen data tilgjengelig</string>
@@ -262,6 +276,14 @@
     <string name="pulse_details">Puls detaljer</string>
 
     <string name="pulse_continuous_title">Sammenhengende puls measurementering</string>
+
+
+    <!-- Alarm -->
+    <string name="action_time_alarm_sort_state_asc">State ascending</string>
+    <string name="action_time_alarm_sort_watch_asc">Watch ascending</string>
+    <string name="action_time_alarm_sort_name_asc">Name ascending</string>
+
+    <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Haylou Smart Watch ... -->
 
 
     <!-- Text display -->
@@ -384,13 +406,20 @@
     <string name="action_dismiss">Avvis</string>
     <string name="action_setting">Indtilling</string>
     <string name="action_delete">Slett</string>
+    <string name="action_export">Exportere</string>
+    <string name="action_synchronization">Synchronization</string>
     <string name="action_filter_no">Ingen filter</string>
+    <string name="action_bluetooth">Bluetooth</string>
+    <string name="action_launch_mi_fit">Mi Fit</string>
+    <string name="action_launch_amazfit">Zepp</string>
     <string name="action_save">Lagre</string>
     <string name="action_test">Test</string>
     <string name="action_discard">Forkaste</string>
     <string name="action_keep_editing">Fortsett å redigere</string>
     <string name="action_new">New</string>
     <string name="action_start_stop">Start/Stop</string>
+    <string name="synchronized_from_watch">Synchronized from watch</string>
+
 
     <string name="action_chart">Kart</string>
     <string name="action_zoom_in">Zoom in</string>

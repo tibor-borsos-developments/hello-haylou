@@ -6,6 +6,7 @@
     <string name="menu_nav_call">Hívás</string>
     <string name="menu_nav_step">Aktivitás</string>
     <string name="menu_nav_pulse">Pulzus</string>
+    <string name="menu_nav_alarm">Ébresztő</string>
     <string name="menu_nav_more">Továbbiak</string>
     <string name="menu_nav_text_display">Szöveg megjelenítés</string>
     <string name="menu_nav_theme">Téma</string>
@@ -23,11 +24,12 @@
 <!--    <string name="mi_band_battery">Akkumulátor állapota・töltés időpontja・becsült hátralévő idő</string>-->
     <string name="device_battery">Akkumulátor állapota・töltés időpontja</string>
     <string name="device_state_connected_disconnected_last_time">Utolsó csatlakozás és kapcsolatbontás időpontja</string>
-    <string name="device_mac_address">MAC cím</string>
+    <string name="device_alarm">Következő ébresztő</string>
 
     <string name="device_search">Haylou keresés</string>
     <string name="device_setting">Haylou beállítás</string>
 
+    <string name="device_mac_address">MAC cím</string>
     <string name="device_mac_address_invalid">MAC cím érvénytelen</string>
 
     <string name="device_state_connected">Csatlakozva</string>
@@ -39,8 +41,9 @@
     <string name="mi_band_setting_button_title">%1$s beállítások・Profil・Szöveg・Hívás・Menü</string>
     <string name="mi_band_setting_title">%1$s beállítások</string>
 
-    <string name="mi_band_setting_menu_profile">Profil</string>
+    <string name="mi_band_setting_menu_connection">Csatlakozás</string>
     <string name="mi_band_setting_menu_setting">@string/setting_name</string>
+    <string name="mi_band_setting_menu_profile">Profil</string>
     <string name="mi_band_setting_menu_text">Szöveg</string>
     <string name="mi_band_setting_menu_call">Hívás</string>
     <string name="mi_band_setting_menu_menu">Menü</string>
@@ -48,7 +51,7 @@
     <string name="mi_band_setting_auth_mi_fit">%1$s együttműködés</string> <!-- Haylou Fit-->
     <string name="mi_band_setting_auth_mi_fit_hint">A működéséhez szükséges a %1$s applikáció telepítése ezen a telefonon. Először a %1$s applikáción belül kell a %2$s párosítását elvégezni. Ha a %1$s applikációt is használni szeretnéd ezt válasszd.</string>
     <string name="mi_band_setting_auth_standalone">Önálló működés</string>
-    <string name="mi_band_setting_auth_standalone_hint">Nincs szükség a %1$s applikációra a működéshez. Párosítás után töröld a %1$s applikációt. %1$s együttműködés visszaállításakor a %2$s újra párosítását el kell végezni a %1$s applikációban. Leválasztás használatakor az okosóra adatai törlődnek.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Nincs szükség a %1$s applikációra a működéshez. Párosítás után töröld a %1$s applikációt. %1$s együttműködés visszaállításakor a %2$s újra párosítását el kell végezni a %1$s applikációban. Leválasztás használatakor az okosóra adatai törlődnek. %2$s képernyő legyen bekapcsolva a műveletek végrehajtása közben.</string>
 
     <string name="mi_band_setting_auth_key">Hitelesítési kulcs</string>
     <string name="mi_band_setting_auth_request">Kulcs kérés</string>
@@ -67,6 +70,13 @@
     <string name="mi_band_setting_time_24h">24 órás időformátum</string>
     <string name="mi_band_setting_lift_wrist">Információk megtekintése csukló felemelésével</string>
 
+    <string name="mi_band_setting_gender">Nem</string>
+    <string name="mi_band_setting_gender_male">Férfi</string>
+    <string name="mi_band_setting_gender_female">Nő</string>
+    <string name="mi_band_setting_birthday">Születésnap</string>
+    <string name="mi_band_setting_height">Magasság</string>
+    <string name="mi_band_setting_weight">Súly</string>
+
 
     <!-- Battery -->
     <string name="battery_details">Akkumulátorhasználat</string>
@@ -82,8 +92,6 @@
     <string name="mi_band_battery_notification_mi_band_message">Akkumulátor: %1$,d%%</string>
 
     <!-- PreferenceScreen -->
-    <string name="pref_connected">Csatlakozás</string>
-
     <string name="pref_connected_have_notif_interval_title">Emlékeztető jelzések ismétlésének időköze</string>
     <string name="pref_connected_have_notif_interval_summary">Értesítés/emlékeztető jelzés funkció használja ezt az időzítést</string>
 
@@ -142,10 +150,17 @@
 
     <string name="message_notification_free_text">Maximum 1 szöveg rögzíthető normál módban</string>
 
+    <string name="message_time_alarm_free_counter">Maximum 1 ébresztő használható normál módban</string>
+    <string name="message_time_alarm_max_counter">Maximum %1$d ébresztő használható</string>
+    <string name="message_time_alarm_enabled">Ébresztő beállítva</string>
+    <string name="message_time_alarm_disabled">Ébresztő letiltva</string>
     <string name="message_time_alarm_mi_band_off">Ébresztő ki</string>
 
     <string name="message_premium_mode_only">A funkció csak prémium módban érhető el</string>
+    <string name="message_feature_is_not_supported">%1$s nem támogatja ezt a funkciót</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="message_general_error">Beállítás nem sikerült (kapcsolat megszakadt), próbáld újra</string>
     <string name="message_internet_error">Nincs internet kapcsolat</string>
+    <string name="message_gps_enable">GPS engedélyezése</string>
 
     <string name="message_in_progress">Folyamatban…</string>
     <string name="message_no_data">Nincs adat</string>
@@ -262,6 +277,14 @@
     <string name="action_tracker_calorie">Kalória</string>
 
     <string name="step_goal_default_title">Alapértelmezett célkitűzés</string>
+
+
+    <!-- Alarm -->
+    <string name="action_time_alarm_sort_state_asc">Állapot növekvő</string>
+    <string name="action_time_alarm_sort_watch_asc">Óra növekvő</string>
+    <string name="action_time_alarm_sort_name_asc">Név növekvő</string>
+
+    <string name="message_time_alarm_sync">%1$s ébresztők szinkronizálása (ébresztők törlése és beállítása az órán)</string> <!-- %1$s = Haylou Smart Watch ... -->
 
 
     <!-- Pulse -->
@@ -393,13 +416,19 @@
     <string name="action_dismiss">Bezár</string>
     <string name="action_setting">Beállítás</string>
     <string name="action_delete">Töröl</string>
+    <string name="action_export">Export</string>
+    <string name="action_synchronization">Szinkronizálás</string>
     <string name="action_filter_no">Nincs szűrő</string>
+    <string name="action_bluetooth">Bluetooth</string>
+    <string name="action_launch_mi_fit">Mi Fit</string>
+    <string name="action_launch_amazfit">Zepp</string>
     <string name="action_save">Ment</string>
     <string name="action_test">Teszt</string>
     <string name="action_discard">Elvet</string>
     <string name="action_keep_editing">Szerk. folytat</string>
     <string name="action_new">Új</string>
     <string name="action_start_stop">Indít/Leállít</string>
+
 
     <string name="action_chart">Grafikon</string>
     <string name="action_zoom_in">Ráközelít</string>

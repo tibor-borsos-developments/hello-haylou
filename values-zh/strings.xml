@@ -6,6 +6,7 @@
     <string name="menu_nav_call">呼叫</string>
     <string name="menu_nav_step">活动</string>
     <string name="menu_nav_pulse">心率</string>
+    <string name="menu_nav_alarm">闹钟</string>
     <string name="menu_nav_more">更多</string>
     <string name="menu_nav_text_display">文字图标</string>
     <string name="menu_nav_theme">主题</string>
@@ -18,16 +19,17 @@
     <string name="settings_name">设置</string>
     <string name="info_name">信息</string>
 
-<!--    <string name="mi_band_tracker_title">步数・距离・卡路里・目标・心率</string>-->
+    <!--    <string name="mi_band_tracker_title">步数・距离・卡路里・目标・心率</string>-->
     <string name="mi_band_tracker_title">步数・目标・心率</string>
-<!--    <string name="mi_band_battery">电池电量・最后充电时间・预计剩余时间</string>-->
+    <!--    <string name="mi_band_battery">电池电量・最后充电时间・预计剩余时间</string>-->
     <string name="device_battery">电池电量・最后充电时间</string>
     <string name="device_state_connected_disconnected_last_time">上次连接和断开时间</string>
-    <string name="device_mac_address">MAC 地址</string>
+    <string name="device_alarm">下一个闹钟</string>
 
     <string name="device_search">Haylou search</string>
     <string name="device_setting">Haylou 设置</string>
 
+    <string name="device_mac_address">MAC 地址</string>
     <string name="device_mac_address_invalid">MAC 地址无效</string>
 
     <string name="device_state_connected">已连接</string>
@@ -40,8 +42,9 @@
     <string name="mi_band_setting_button_title">%1$s 设置・个人信息・文字・呼叫・菜单</string>
     <string name="mi_band_setting_title">%1$s 设置</string>
 
-    <string name="mi_band_setting_menu_profile">个人信息</string>
+    <string name="mi_band_setting_menu_connection">连接</string>
     <string name="mi_band_setting_menu_setting">@string/setting_name</string>
+    <string name="mi_band_setting_menu_profile">个人信息</string>
     <string name="mi_band_setting_menu_text">文字</string>
     <string name="mi_band_setting_menu_call">呼叫</string>
     <string name="mi_band_setting_menu_menu">菜单</string>
@@ -49,7 +52,7 @@
     <string name="mi_band_setting_auth_mi_fit">与 %1$s 协作</string> <!-- Haylou Fit-->
     <string name="mi_band_setting_auth_mi_fit_hint">Hello Haylou requires the installation of the %1$s app on the same phone. At first you have to pair %2$s in %1$s app, then you can use Hello Haylou. If you want to use %1$s application, choose this.</string>
     <string name="mi_band_setting_auth_standalone">独立模式</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the Hello Haylou to work. After the pairing, uninstall the %1$s. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted.</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the Hello Haylou to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted.  The %2$s screen must be turned on while performing operations.</string>
 
     <string name="mi_band_setting_auth_key">Authentication key</string>
     <string name="mi_band_setting_auth_request">Key request</string>
@@ -68,6 +71,13 @@
     <string name="mi_band_setting_time_24h">24小时时间格式</string>
     <string name="mi_band_setting_lift_wrist">举起手腕时点亮屏幕</string>
 
+    <string name="mi_band_setting_gender">性别</string>
+    <string name="mi_band_setting_gender_male">男</string>
+    <string name="mi_band_setting_gender_female">女</string>
+    <string name="mi_band_setting_birthday">出生年月</string>
+    <string name="mi_band_setting_height">身高</string>
+    <string name="mi_band_setting_weight">体重</string>
+
 
     <!-- Battery -->
     <string name="battery_details">电池使用情况</string>
@@ -83,8 +93,6 @@
     <string name="mi_band_battery_notification_mi_band_message">电量: %1$,d%%</string>
 
     <!-- PreferenceScreen -->
-    <string name="pref_connected">连接</string>
-
     <string name="pref_connected_have_notif_interval_title">提醒重复间隔</string>
     <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
 
@@ -143,10 +151,17 @@
 
     <string name="message_notification_free_text">Up to 1 text can be recorded in normal mode</string>
 
+    <string name="message_time_alarm_free_counter">普通模式下最多可使用1个闹钟</string>
+    <string name="message_time_alarm_max_counter">最多可使用%1$d个闹钟</string>
+    <string name="message_time_alarm_enabled">开启闹钟</string>
+    <string name="message_time_alarm_disabled">禁用闹钟</string>
     <string name="message_time_alarm_mi_band_off">关闭闹钟</string>
 
     <string name="message_premium_mode_only">此功能仅在高级模式可以</string>
+    <string name="message_feature_is_not_supported">%1$s 不支持这个特性</string>
+    <string name="message_general_error">设置失败(连接丢失),请重试</string>
     <string name="message_internet_error">没有网络连接</string>
+    <string name="message_gps_enable">启用 GPS</string>
 
     <string name="message_in_progress">进行中…</string>
     <string name="message_no_data">没有可用的数据</string>
@@ -261,6 +276,15 @@
     <string name="pulse_details">心率细节</string>
 
     <string name="pulse_continuous_title">持续测量心率</string>
+
+
+    <!-- Alarm -->
+    <string name="action_time_alarm_sort_state_asc">State ascending</string>
+    <string name="action_time_alarm_sort_watch_asc">Watch ascending</string>
+    <string name="action_time_alarm_sort_name_asc">Name ascending</string>
+
+    <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Haylou Smart Watch ... -->
+
 
     <!-- Text display -->
     <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
@@ -382,13 +406,19 @@
     <string name="action_dismiss">关闭</string>
     <string name="action_setting">设置</string>
     <string name="action_delete">删除</string>
+    <string name="action_export">导出</string>
+    <string name="action_synchronization">同步</string>
     <string name="action_filter_no">无过滤器</string>
+    <string name="action_bluetooth">蓝牙</string>
+    <string name="action_launch_mi_fit">Mi Fit</string>
+    <string name="action_launch_amazfit">Zepp</string>
     <string name="action_save">保存</string>
     <string name="action_test">测试</string>
     <string name="action_discard">放弃</string>
     <string name="action_keep_editing">继续编辑</string>
-    <string name="action_new">New</string>
+    <string name="action_new">新</string>
     <string name="action_start_stop">Start/Stop</string>
+    <string name="synchronized_from_watch">Synchronized from watch</string>
 
     <string name="action_chart">图表</string>
     <string name="action_zoom_in">Zoom in</string>

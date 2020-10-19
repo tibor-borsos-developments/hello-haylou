@@ -6,6 +6,7 @@
     <string name="menu_nav_call">Вызов</string>
     <string name="menu_nav_step">Активность</string>
     <string name="menu_nav_pulse">Пульс</string>
+    <string name="menu_nav_alarm">Будильник</string>
     <string name="menu_nav_more">Больше</string>
     <string name="menu_nav_text_display">Настройки текста</string>
     <string name="menu_nav_theme">Настройки темы</string>
@@ -23,11 +24,12 @@
 <!--    <string name="mi_band_battery">Уровень заряда・время последней зарядки・ожидаемое время работы</string>-->
     <string name="device_battery">Уровень заряда・время последней зарядки</string>
     <string name="device_state_connected_disconnected_last_time">Время последнего соединения и его разрыва</string>
-    <string name="device_mac_address">MAC адрес</string>
+    <string name="device_alarm">Следующий будильник</string>
 
     <string name="device_search">Haylou search</string>
     <string name="device_setting">Настройки Haylou</string>
 
+    <string name="device_mac_address">MAC адрес</string>
     <string name="device_mac_address_invalid">Неверный MAC адрес</string>
 
     <string name="device_state_connected">Подключен</string>
@@ -40,8 +42,9 @@
     <string name="mi_band_setting_button_title">Настройки %1$sk・Профиль・Текст・Вызов・Меню</string>
     <string name="mi_band_setting_title">Настройки %1$s</string>
 
-    <string name="mi_band_setting_menu_profile">Профиль</string>
+    <string name="mi_band_setting_menu_connection">Настройки соединения</string>
     <string name="mi_band_setting_menu_setting">@string/setting_name</string>
+    <string name="mi_band_setting_menu_profile">Профиль</string>
     <string name="mi_band_setting_menu_text">Текст</string>
     <string name="mi_band_setting_menu_call">Вызов</string>
     <string name="mi_band_setting_menu_menu">Меню</string>
@@ -49,7 +52,7 @@
     <string name="mi_band_setting_auth_mi_fit">Взаимодействие с %1$s</string> <!-- Haylou Fit-->
     <string name="mi_band_setting_auth_mi_fit_hint">Hello Haylou требуется приложение %1$s на устройстве. Сначала подключите %2$s к %1$s, потом пользуйтесь Hello Haylou. Выберите этот пункт для использования вместе с %1$s.</string>
     <string name="mi_band_setting_auth_standalone">Автономно</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$s не нужен для работы Hello Haylou. После соединения удалите %1$s или отвяжите браслет от него. Для восстановления привязки к %1$s вам нужно заново привязать %2$s в %1$s. If you use the unpair function, the data on the smartwatch will be deleted.</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$s не нужен для работы Hello Haylou. После соединения удалите %1$s или отвяжите браслет от него. Для восстановления привязки к %1$s вам нужно заново привязать %2$s в %1$s. If you use the unpair function, the data on the smartwatch will be deleted.  The %2$s screen must be turned on while performing operations.</string>
 
     <string name="mi_band_setting_auth_key">Ключ аутентификации</string>
     <string name="mi_band_setting_auth_request">Key request</string>
@@ -68,6 +71,13 @@
     <string name="mi_band_setting_time_24h">24-часовой формат</string>
     <string name="mi_band_setting_lift_wrist">Поворот запястья</string>
 
+    <string name="mi_band_setting_gender">Пол</string>
+    <string name="mi_band_setting_gender_male">Мужской</string>
+    <string name="mi_band_setting_gender_female">Женский</string>
+    <string name="mi_band_setting_birthday">Дата рождения</string>
+    <string name="mi_band_setting_height">Рост</string>
+    <string name="mi_band_setting_weight">Вес</string>
+
 
     <!-- Battery -->
     <string name="battery_details">История батареи</string>
@@ -83,8 +93,6 @@
     <string name="mi_band_battery_notification_mi_band_message">Батарея: %1$,d%%</string>
 
     <!-- PreferenceScreen -->
-    <string name="pref_connected">Настройки соединения</string>
-
     <string name="pref_connected_have_notif_interval_title">Интервал повторения уведомлений</string>
     <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
 
@@ -143,10 +151,17 @@
 
     <string name="message_notification_free_text">Up to 1 text can be recorded in normal mode</string>
 
+    <string name="message_time_alarm_free_counter">До 1 будильников может быть уставлено в обычном режиме</string>
+    <string name="message_time_alarm_max_counter">Максимум %1$d будильников может быть уставлено</string>
+    <string name="message_time_alarm_enabled">Будильник включён</string>
+    <string name="message_time_alarm_disabled">Будильник выключен</string>
     <string name="message_time_alarm_mi_band_off">Будильник выключен</string>
 
     <string name="message_premium_mode_only">Эта функция доступна только в премиуме</string>
+    <string name="message_feature_is_not_supported">%1$s не поддерживает данную функцию</string>
+    <string name="message_general_error">Ошибка (соединение потеряно), попробуйте снова</string>
     <string name="message_internet_error">Нет подключения к Интернету</string>
+    <string name="message_gps_enable">Включите определение местоположения</string>
 
     <string name="message_in_progress">В процессе…</string>
     <string name="message_no_data">Нет данных</string>
@@ -262,6 +277,14 @@
     <string name="pulse_details">Список измерений</string>
 
     <string name="pulse_continuous_title">Постоянное измерение пульса</string>
+
+
+    <!-- Alarm -->
+    <string name="action_time_alarm_sort_state_asc">State ascending</string>
+    <string name="action_time_alarm_sort_watch_asc">Watch ascending</string>
+    <string name="action_time_alarm_sort_name_asc">Name ascending</string>
+
+    <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Haylou Smart Watch ... -->
 
 
     <!-- Text display -->
@@ -384,13 +407,19 @@
     <string name="action_dismiss">Отклонить</string>
     <string name="action_setting">Настройки</string>
     <string name="action_delete">Удалить</string>
+    <string name="action_export">Экспорт</string>
+    <string name="action_synchronization">Синхронизация</string>
     <string name="action_filter_no">Без фильтра</string>
+    <string name="action_bluetooth">Bluetooth</string>
+    <string name="action_launch_mi_fit">Mi Fit</string>
+    <string name="action_launch_amazfit">Zepp</string>
     <string name="action_save">Сохранить</string>
     <string name="action_test">Тестировать</string>
     <string name="action_discard">Отменить</string>
     <string name="action_keep_editing">Продолжить</string>
     <string name="action_new">Новый</string>
     <string name="action_start_stop">Пуск/Пауза</string>
+    <string name="synchronized_from_watch">Синхронизировано с браслета</string>
 
     <string name="action_chart">График</string>
     <string name="action_zoom_in">Zoom in</string>

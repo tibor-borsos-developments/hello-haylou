@@ -6,6 +6,7 @@
     <string name="menu_nav_call">Panggilan</string>
     <string name="menu_nav_step">Pemantau aktifitas</string>
     <string name="menu_nav_pulse">Pemantau detak</string>
+    <string name="menu_nav_alarm">Alarm</string>
     <string name="menu_nav_more">Lebih</string>
     <string name="menu_nav_text_display">Text display</string>
     <string name="menu_nav_theme">Tema</string>
@@ -23,11 +24,12 @@
 <!--    <string name="mi_band_battery">Battery level・last charging time・estimated remaining time</string>-->
     <string name="device_battery">Battery level・last charging time</string>
     <string name="device_state_connected_disconnected_last_time">Last connection and disconnection time</string>
-    <string name="device_mac_address">Alamat MAC</string>
+    <string name="device_alarm">Next alarm</string>
 
     <string name="device_search">Haylou search</string>
     <string name="device_setting">Pengaturan Haylou</string>
 
+    <string name="device_mac_address">Alamat MAC</string>
     <string name="device_mac_address_invalid">Alamat MAC tidak valid</string>
 
     <string name="device_state_connected">Tersambung</string>
@@ -40,8 +42,9 @@
     <string name="mi_band_setting_button_title">Pengaturan %1$s・Profil・Teks・Panggilan・Menu</string>
     <string name="mi_band_setting_title">Pengaturan %1$s</string>
 
-    <string name="mi_band_setting_menu_profile">Profil</string>
+    <string name="mi_band_setting_menu_connection">Koneksi</string>
     <string name="mi_band_setting_menu_setting">@string/setting_name</string>
+    <string name="mi_band_setting_menu_profile">Profil</string>
     <string name="mi_band_setting_menu_text">Teks</string>
     <string name="mi_band_setting_menu_call">Panggilan</string>
     <string name="mi_band_setting_menu_menu">Menu</string>
@@ -49,7 +52,7 @@
     <string name="mi_band_setting_auth_mi_fit">%1$s cooperation</string> <!-- Haylou Fit-->
     <string name="mi_band_setting_auth_mi_fit_hint">Hello Haylou membutuhkan aplikasi %1$s yang telah terpasang di perangkat yang sama. Pertama tama, mungkin anda perlu untuk menghubungkan %2$s ke Aplikasi %1$s, lalu anda baru bisa memakai Hello Haylou. If you want to use %1$s, choose this.</string>
     <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the Hello Haylou to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted.</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the Hello Haylou to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
 
     <string name="mi_band_setting_auth_key">Authentication key</string>
     <string name="mi_band_setting_auth_request">Key request</string>
@@ -68,6 +71,13 @@
     <string name="mi_band_setting_time_24h">Format waktu 24 jam</string>
     <string name="mi_band_setting_lift_wrist">Angkat lengan untuk melihat info</string>
 
+    <string name="mi_band_setting_gender">Jenis kelamin</string>
+    <string name="mi_band_setting_gender_male">Pria</string>
+    <string name="mi_band_setting_gender_female">Wanita</string>
+    <string name="mi_band_setting_birthday">Tanggal lahir</string>
+    <string name="mi_band_setting_height">Tinggi</string>
+    <string name="mi_band_setting_weight">Berat</string>
+
 
     <!-- Battery -->
     <string name="battery_details">Battery usage</string>
@@ -83,8 +93,6 @@
     <string name="mi_band_battery_notification_mi_band_message">Battery: %1$,d%%</string>
 
     <!-- PreferenceScreen -->
-    <string name="pref_connected">Koneksi</string>
-
     <string name="pref_connected_have_notif_interval_title">Jeda pengulangan pengingat</string>
     <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
 
@@ -142,11 +150,17 @@
     <string name="message_notification_free_apps">Up to %1$,d applications can be selected in normal mode</string>   <!-- %1$s = 2 or more  -->
 
     <string name="message_notification_free_text">Up to 1 text can be recorded in normal mode</string>
-
+    <string name="message_time_alarm_free_counter">Mode normal hanya bisa menggunakan sampai 1 alarm</string>
+    <string name="message_time_alarm_max_counter">Maksimal %1$d alarm yang bisa digunakan</string>
+    <string name="message_time_alarm_enabled">Alarm diaktifkan</string>
+    <string name="message_time_alarm_disabled">Alarm dimatikan</string>
     <string name="message_time_alarm_mi_band_off">Alarm mati</string>
 
     <string name="message_premium_mode_only">Fitur ini hanya tersedia di mode premium</string>
+    <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
+    <string name="message_general_error">Pengaturan gagal (koneksi hilang), coba lagi</string>
     <string name="message_internet_error">Tidak ada koneksi internet</string>
+    <string name="message_gps_enable">Enable the GPS</string>
 
     <string name="message_in_progress">Dalam proses…</string>
     <string name="message_no_data">No data available</string>
@@ -262,6 +276,16 @@
     <string name="pulse_details">Rincian detak jantung</string>
 
     <string name="pulse_continuous_title">Continuous pulse measurement</string>
+
+
+    <!-- Alarm -->
+    <string name="action_time_alarm_sort_state_asc">State ascending</string>
+    <string name="action_time_alarm_sort_watch_asc">Watch ascending</string>
+    <string name="action_time_alarm_sort_name_asc">Name ascending</string>
+
+    <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Haylou Smart Watch ... -->
+
+
 
     <!-- Text display -->
     <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
@@ -382,13 +406,19 @@
     <string name="action_dismiss">Tutup</string>
     <string name="action_setting">Atur</string>
     <string name="action_delete">Hapus</string>
+    <string name="action_export">Ekspor</string>
+    <string name="action_synchronization">Synchronization</string>
     <string name="action_filter_no">Tidak ada filter</string>
+    <string name="action_bluetooth">Bluetooth</string>
+    <string name="action_launch_mi_fit">Mi Fit</string>
+    <string name="action_launch_amazfit">Zepp</string>
     <string name="action_save">Simpen</string>
     <string name="action_test">Test</string>
     <string name="action_discard">Hapus</string>
     <string name="action_keep_editing">Simpan pengeditan</string>
     <string name="action_new">New</string>
     <string name="action_start_stop">Start/Stop</string>
+    <string name="synchronized_from_watch">Synchronized from watch</string>
 
     <string name="action_chart">Grafik</string>
     <string name="action_zoom_in">Zoom in</string>
