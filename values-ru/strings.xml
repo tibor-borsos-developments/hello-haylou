@@ -7,6 +7,8 @@
     <string name="menu_nav_step">Активность</string>
     <string name="menu_nav_pulse">Пульс</string>
     <string name="menu_nav_alarm">Будильник</string>
+    <string name="menu_nav_dnd">Режим \"Не беспокоить\"</string>
+    <string name="menu_nav_touch">Касания</string>
     <string name="menu_nav_more">Больше</string>
     <string name="menu_nav_text_display">Настройки текста</string>
     <string name="menu_nav_theme">Настройки темы</string>
@@ -37,6 +39,7 @@
     <string name="device_state_bonded">Соединённое устройство</string>
     <string name="device_state_not_bonded">Не соединённое устройство</string>
 
+    <string name="pref_dnd_title">Режим \"Не беспокоить\"</string>
 
     <!-- Haylou setting -->
     <string name="mi_band_setting_button_title">Настройки %1$sk・Профиль・Текст・Вызов・Меню</string>
@@ -151,6 +154,8 @@
 
     <string name="message_app_chooser_no_selected">Выберете приложение</string>
 
+    <string name="message_free_counter">Up to 1 setting can be used in normal mode</string>
+
     <string name="message_notification_free_groups">Максимум %1$,d групп</string>
     <string name="message_notification_free_app">Up to 1 application can be selected in normal mode</string>
     <string name="message_notification_free_apps">Up to %1$,d applications can be selected in normal mode</string>   <!-- %1$s = 2 or more  -->
@@ -254,7 +259,7 @@
     <string name="action_search">Поиск</string>
     <string name="action_filter_notification">Активные сейчас уведомления</string>
 
-    <string name="touch_tab_control">Контроль</string>
+    <string name="main_control">Контроль</string>
 
     <!-- Activity -->
     <string name="step_tab_day">День</string>
@@ -292,10 +297,142 @@
 
     <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Haylou Smart Watch ... -->
 
-    <string name="info_dialog_time"><![CDATA[
+    <string name="info_dialog_alarm"><![CDATA[
         <p>When using collaboration mode, the settings of the original application and the Hello Haylou application can overwrite and delete each other\'s settings.</p>
         <p>The last operation performed will take effect.</p>
     ]]></string>
+
+
+    <!-- Do not disturb -->
+    <string name="pref_dnd_summary">Переключатели в режиме \"Не беспокоить\"</string>
+    <string name="pref_dnd_enable_bluetooth">При включении режима \"Не беспокоить\" выключить Bluetooth, при отключении - включить</string>
+
+    <string name="info_dialog_dnd"><![CDATA[
+        <p>If you are using cooperation mode, in the official <device_type> application the do not disturb (DnD) mode must be between 00:00 and 23:59 and its status must be turned off.</p>
+    ]]></string> <!-- %1$s Haylou fit-->
+
+
+    <!-- Touch monitoring -->
+    <string name="touch_tab_function">Функции</string>
+    <string name="touch_tab_control">Касания</string>
+    <string name="touch_tab_testing">Тестирование</string>
+    <string name="touch_tab_setting">@string/setting_name</string>
+
+    <string name="touch_function_summary">Настройте функции если вы используете автономный режим или не хотите настраивать их в Mi Fit</string>
+    <string name="touch_function">Функция %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function_as_touch">Использовать функции как касания</string>
+
+    <string name="touch_headline_incoming_call_title">Входящий звонок</string>
+    <string name="touch_headline_other_function_title">Другие функции</string>
+    <string name="touch_headline_call_title">Звонки</string>
+    <string name="touch_headline_music_title">Плеер</string>
+    <string name="touch_headline_time_title">Таймер/секундомер</string>
+    <string name="touch_headline_other_title">Другое</string>
+
+    <string name="touch_call_answer_title">Ответ на звонок</string>
+    <string name="touch_call_answer_speakerphone_title">Громкая связь</string>
+
+    <string name="touch_call_end_title">Сброс звонка, окончание</string>
+
+    <string name="touch_call_mute_title">Переключение звука звонка</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Только при входящем звонке</string>
+    <string name="touch_call_mute_recognition_title">При входящем звонке</string>
+    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/ещё/Поиск устройства</string>
+
+    <string name="touch_device_location_title">Найти устройство</string>
+    <string name="touch_device_location_not_muted_only_title">Подчиняться беззвучному режиму</string>
+
+    <string name="touch_call_mute_toggle_title">Переключение звука звонка</string>
+
+    <string name="touch_music_function_title">Музыка</string>
+    <string name="touch_music_function_launch">Начните воспроизведение нажав кнопку, если плеер не распознан</string>
+    <string name="touch_music_function_mi_band_message_launch">Начните воспроизведение нажав кнопку</string>
+    <string name="touch_music_function_mi_band_message_no_track_title">Нет имени трека</string>
+
+    <string name="touch_call_out_title">Исходящий звонок</string>
+    <string name="touch_call_out_no_contact">Выберите контакт</string>
+    <string name="touch_call_out_summary">Нажмите дважды, чтобы ответить на звонок</string>
+    <string name="touch_call_out_summary_support_call_display_button">Нажмите кнопку, чтобы ответить на звонок</string>
+    <string name="touch_call_out_speakerphone_title">Громкая связь</string>
+    <string name="touch_call_out_call_text">Исходящий: %1$s</string>
+
+    <string name="touch_weather_title">Прогноз погоды</string>
+    <string name="touch_weather_location">Местоположение</string>
+    <string name="touch_weather_precipitation">Осадки</string>
+    <string name="touch_weather_cloud_cover">Облачность</string>
+    <string name="touch_weather_wind">Ветер</string>
+
+    <string name="touch_repeat_notif_title">Повторить уведомления</string>
+    <string name="touch_repeat_notif_clear_all">Очистить уведомления после повтора</string>
+
+    <string name="touch_clear_notif_title">Очистить уведомления</string>
+
+    <string name="touch_music_play_pause_title">Воспроизведение - пауза</string>
+    <string name="touch_music_skip_previous_title">Предыдущий трек</string>
+    <string name="touch_music_skip_next_title">Следующий трек</string>
+    <string name="touch_music_headset_only_title">Только при подключённой гарнитуре</string>
+    <string name="touch_music_launch">Начать воспроизведение</string>
+    <string name="touch_music_volume_up_title">Повысить громкость</string>
+    <string name="touch_music_volume_down_title">Понизить громкость</string>
+    <string name="touch_music_track_info_title">Информация о треке</string>
+
+    <string name="touch_time_launch_title">Запустить</string>
+    <string name="touch_time_launch_type_timer_title">Таймер</string>
+    <string name="touch_time_launch_type_stopper_title">Секундомер</string>
+    <string name="touch_time_launch_type_interval_title">Интервал</string>
+    <string name="touch_time_launch_restart">Перезапустить, если включён</string>
+    <string name="touch_time_reminder_title">Оставшееся/прошедшее время</string>
+
+    <string name="touch_google_assistant_title">Ассистент Google</string>
+
+    <string name="touch_flashlight_title">Фонарик</string>
+
+    <string name="touch_camera_title">Сделать фото</string>
+    <string name="touch_camera_front_title">Фронтальная</string>
+    <string name="touch_camera_rear_title">Задняя</string>
+    <string name="touch_camera_install_title">Установить</string>
+
+    <string name="touch_app_launcher1_title">Запуск приложений</string>
+    <string name="touch_app_launcher_package_no_title">Выберете приложение</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">Если экран не заблокирован</string>
+
+    <string name="touch_broadcast1_title">Отправить Broadcast</string>
+    <string name="touch_broadcast1_action_title">Действие Intent</string>
+    <string name="touch_broadcast1_package_title">Имя компонента Intent</string>
+
+    <string name="touch_http_request1_title">1. HTTP запрос</string>
+    <string name="touch_http_request2_title">2. HTTP запрос</string>
+    <string name="touch_http_request_url_title">URL</string>
+    <string name="touch_http_request_method_title">Метод</string>
+    <string name="touch_http_request_body_title">Тело</string>
+    <string name="touch_http_request_show_response_title">Показывать ответ</string>
+
+    <string name="touch_tasker_launcher1_title">1. Tasker</string>
+    <string name="touch_tasker_launcher2_title">2. Tasker</string>
+    <string name="touch_tasker_launcher_no_permission_title">Необходимо соблюдать порядок установки для использования. Сначала Tasker, потом Mi Bandage.</string>
+    <string name="touch_tasker_launcher_no_access_title">Разрешить внешний доступ (Allow external access)</string>
+    <string name="touch_tasker_launcher_no_task_title">Выбрать действие</string>
+
+    <string name="touch_testing_title">Касания</string>
+    <string name="touch_testing_second">с</string>
+
+    <string name="touch_setting_detection_time_title">Время распознавания касаний</string>
+    <string name="touch_setting_detection_time_music_hint">Если вы уменьшите значение, экран музыки должен быть закрыт быстрее</string>
+    <string name="touch_setting_detection_time_button_hint">При низком значении, нажимайте кнопку чаще</string>
+
+    <string name="touch_setting_detection_method_title">Способ определения касаний</string>
+
+    <string name="touch_setting_recognition_start_title">Начало распознавания касаний</string>
+    <string name="touch_setting_recognition_start_trigger_title">Триггер</string>
+    <string name="touch_setting_recognition_time_title">Время распознавания</string>
+
+    <string name="touch_setting_recognition_mi_band_signal_title">Уведомления %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_setting_recognition_succeeded_title">Последовательность распознана</string>
+    <string name="touch_setting_recognition_failed_title">Последовательность не распознана</string>
+
+    <string name="info_dialog_touch"><![CDATA[
+        <p><Works properly in standalone mode. If you use cooperation mode, the official <app_official> application will also handle these functions, so proper operation cannot be guaranteed.</p>
+    ]]></string> <!-- %1$s Haylou fit-->
 
 
     <!-- Text display -->
@@ -414,6 +551,8 @@
     <string name="timed">Timed</string>
     <string name="file_name">Имя файла</string>
     <string name="default_">По умолчанию</string>
+    <string name="invalid_setting">Invalid setting</string>
+    <string name="ringtone">Рингтон</string>
 
     <string name="action_dismiss">Отклонить</string>
     <string name="action_setting">Настройки</string>

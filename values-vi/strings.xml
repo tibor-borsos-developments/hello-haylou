@@ -7,6 +7,8 @@
     <string name="menu_nav_step">Giám sát bước chân</string>
     <string name="menu_nav_pulse">Giám sát nhịp tim</string>
     <string name="menu_nav_alarm">Báo thức</string>
+    <string name="menu_nav_dnd">Chế độ không làm phiền</string>
+    <string name="menu_nav_touch">Giám sát chạm</string>
     <string name="menu_nav_more">Hơn</string>
     <string name="menu_nav_text_display">Cài đặt biểu tượng văn bản</string>
     <string name="menu_nav_theme">Theme</string>
@@ -36,6 +38,8 @@
     <string name="device_state_disconnected">Ngắt kết nối</string>
     <string name="device_state_bonded">Thiết bị đã ghép nối</string>
     <string name="device_state_not_bonded">Thiết bị không kết nối</string>
+
+    <string name="pref_dnd_title">Chế độ không làm phiền</string>
 
 
     <!--Haylou setting -->
@@ -151,6 +155,8 @@
 
     <string name="message_app_chooser_no_selected">Chọn một ứng dụng</string>
 
+    <string name="message_free_counter">Up to 1 setting can be used in normal mode</string>
+
     <string name="message_notification_free_groups">Lên đến %1$,d nhóm có thể được sử dụng</string>
     <string name="message_notification_free_app">Up to 1 application can be selected in normal mode</string>
     <string name="message_notification_free_apps">Up to %1$,d applications can be selected in normal mode</string>   <!-- %1$s = 2 or more  -->
@@ -256,7 +262,7 @@
     <string name="action_search">Tìm kiếm</string>
     <string name="action_filter_notification">Lọc thông báo</string>
 
-    <string name="touch_tab_control">Điều khiển</string>
+    <string name="main_control">Điều khiển</string>
 
     <!-- Activity -->
     <string name="step_tab_day">Biểu đồ hàng ngày</string>
@@ -294,10 +300,142 @@
 
     <string name="message_time_alarm_sync">Đồng bộ báo thức %1$s (xóa và cài đặt báo thức trên smartwatch của bạn)</string> <!-- %1$s = Haylou Smart Watch... -->
 
-    <string name="info_dialog_time"><![CDATA[
+    <string name="info_dialog_alarm"><![CDATA[
         <p>When using collaboration mode, the settings of the original application and the Hello Haylou application can overwrite and delete each other\'s settings.</p>
         <p>The last operation performed will take effect.</p>
     ]]></string>
+
+
+    <!-- Do not disturb -->
+    <string name="pref_dnd_summary">Trạng thái của bộ điều khiển ở chế độ không làm phiền</string>
+    <string name="pref_dnd_enable_bluetooth">Bắt đầu chế độ không làm phiền thì tắt Bluetooth, hết chế độ thì bật Bluetooth</string>
+
+    <string name="info_dialog_dnd"><![CDATA[
+        <p>If you are using cooperation mode, in the official <device_type> application the do not disturb (DnD) mode must be between 00:00 and 23:59 and its status must be turned off.</p>
+    ]]></string> <!-- %1$s Haylou fit-->
+
+
+    <!-- Touch monitoring -->
+    <string name="touch_tab_function">Function</string>
+    <string name="touch_tab_control">Điều khiển</string>
+    <string name="touch_tab_testing">Thử nghiệm</string>
+    <string name="touch_tab_setting">@string/setting_name</string>
+
+    <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
+    <string name="touch_function">%1$s function</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function_as_touch">Use function as a touch in the control menu</string>
+
+    <string name="touch_headline_incoming_call_title">Incoming call</string>
+    <string name="touch_headline_other_function_title">Other functions</string>
+    <string name="touch_headline_call_title">Điều khiển cuộc gọi</string>
+    <string name="touch_headline_music_title">Điều khiển phát nhạc</string>
+    <string name="touch_headline_time_title">Điều khiển hẹn giờ, đồng hồ bấm giờ</string>
+    <string name="touch_headline_other_title">Các điều khiển khác</string>
+
+    <string name="touch_call_answer_title">Trả lời cuộc gọi</string>
+    <string name="touch_call_answer_speakerphone_title">Loa ngoài</string>
+
+    <string name="touch_call_end_title">Từ chối cuộc gọi, kết thúc</string>
+
+    <string name="touch_call_mute_title">Tắt tiếng cuộc gọi</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Chỉ khi bạn có một cuộc gọi đến</string>
+    <string name="touch_call_mute_recognition_title">Chỉ trong cuộc gọi</string>
+    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/Thêm/Tìm thiết bị</string>
+
+    <string name="touch_device_location_title">Tìm thiết bị của tôi</string>
+    <string name="touch_device_location_not_muted_only_title">Chỉ phát tiếng nếu không im lặng</string>
+
+    <string name="touch_call_mute_toggle_title">Tắt tiếng cuộc gọi</string>
+
+    <string name="touch_music_function_title">Âm nhạc</string>
+    <string name="touch_music_function_launch">Start music with the play button if no music player is recognized</string>
+    <string name="touch_music_function_mi_band_message_launch">Start music with the play button</string>
+    <string name="touch_music_function_mi_band_message_no_track_title">Can\'t get the song name</string>
+
+    <string name="touch_call_out_title">Gọi</string>
+    <string name="touch_call_out_no_contact">Chọn 1 liên lạc</string>
+    <string name="touch_call_out_summary">Nhấn đúp để trả lời cuộc gọi</string>
+    <string name="touch_call_out_summary_support_call_display_button">Nhấn nút để trả lời cuộc gọi</string>
+    <string name="touch_call_out_speakerphone_title">Loa ngoài</string>
+    <string name="touch_call_out_call_text">Gọi: %1$s</string>
+
+    <string name="touch_weather_title">Dự báo thời tiết</string>
+    <string name="touch_weather_location">Vị trí</string>
+    <string name="touch_weather_precipitation">Precipitation</string>
+    <string name="touch_weather_cloud_cover">Cloud cover</string>
+    <string name="touch_weather_wind">Gió</string>
+
+    <string name="touch_repeat_notif_title">Lặp lại thông báo</string>
+    <string name="touch_repeat_notif_clear_all">Xóa tất cả các thông báo sau khi lặp lại</string>
+
+    <string name="touch_clear_notif_title">Xóa thông báo</string>
+
+    <string name="touch_music_play_pause_title">Bắt đầu phát nhạc, chơi, dừng</string>
+    <string name="touch_music_skip_previous_title">Chơi nhạc, bài hát trước</string>
+    <string name="touch_music_skip_next_title">Bắt đầu phát nhạc, bài hát tiếp theo</string>
+    <string name="touch_music_headset_only_title">Chỉ khi tai nghe được kết nối</string>
+    <string name="touch_music_launch">Bắt đầu phát nhạc</string>
+    <string name="touch_music_volume_up_title">Tăng âm lượng nhạc</string>
+    <string name="touch_music_volume_down_title">Giảm âm lượng nhạc</string>
+    <string name="touch_music_track_info_title">Hiển thị thông tin bài hát.</string>
+
+    <string name="touch_time_launch_title">Giám sát thời gian</string>
+    <string name="touch_time_launch_type_timer_title">Hẹn giờ</string>
+    <string name="touch_time_launch_type_stopper_title">Đồng hố bấm giờ</string>
+    <string name="touch_time_launch_type_interval_title">Khoảng</string>
+    <string name="touch_time_launch_restart">Khởi động lại nếu nó đang được tiến hành</string>
+    <string name="touch_time_reminder_title">Hiển thị thời gian còn lại/trôi qua</string>
+
+    <string name="touch_google_assistant_title">Google Assistant</string>
+
+    <string name="touch_flashlight_title">Flashlight toggle</string>
+
+    <string name="touch_camera_title">Chụp ảnh</string>
+    <string name="touch_camera_front_title">Cam trước</string>
+    <string name="touch_camera_rear_title">Cam chính</string>
+    <string name="touch_camera_install_title">Cài đặt</string>
+
+    <string name="touch_app_launcher1_title">Trình khởi chạy ứng dụng</string>
+    <string name="touch_app_launcher_package_no_title">Chọn một ứng dụng</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">Chỉ khi màn hình không bị khóa</string>
+
+    <string name="touch_broadcast1_title">Send Broadcast</string>
+    <string name="touch_broadcast1_action_title">Intent action</string>
+    <string name="touch_broadcast1_package_title">Intent package name</string>
+
+    <string name="touch_http_request1_title">1. HTTP request</string>
+    <string name="touch_http_request2_title">2. HTTP request</string>
+    <string name="touch_http_request_url_title">URL</string>
+    <string name="touch_http_request_method_title">Method</string>
+    <string name="touch_http_request_body_title">Body</string>
+    <string name="touch_http_request_show_response_title">Show the response</string>
+
+    <string name="touch_tasker_launcher1_title">1. Trình khởi chạy tác vụ</string>
+    <string name="touch_tasker_launcher2_title">2. Trình khởi chạy tác vụ</string>
+    <string name="touch_tasker_launcher_no_permission_title">Đầu tiên bạn phải cài đặt Tasker, sau đó đến Mi Bandage</string>
+    <string name="touch_tasker_launcher_no_access_title">Cho phép truy cập bên ngoài</string>
+    <string name="touch_tasker_launcher_no_task_title">Chọn một nhiệm vụ</string>
+
+    <string name="touch_testing_title">Giám sát chạm</string>
+    <string name="touch_testing_second">giây.</string>
+
+    <string name="touch_setting_detection_time_title">Touch detection time</string>
+    <string name="touch_setting_detection_time_music_hint">If it has a lower value, the music screen should be closed faster</string>
+    <string name="touch_setting_detection_time_button_hint">If it has a lower value, press the button faster</string>
+
+    <string name="touch_setting_detection_method_title">Phương pháp phát hiện cảm ứng</string>
+
+    <string name="touch_setting_recognition_start_title">Bắt đầu nhận dạng</string>
+    <string name="touch_setting_recognition_start_trigger_title">Trigger</string>
+    <string name="touch_setting_recognition_time_title">Thời gian nhận dạng</string>
+
+    <string name="touch_setting_recognition_mi_band_signal_title">Tín hiệu %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_setting_recognition_succeeded_title">Ghi nhận mẫu chạm</string>
+    <string name="touch_setting_recognition_failed_title">Tín hiệu không nhận ra cử chỉ</string>
+
+    <string name="info_dialog_touch"><![CDATA[
+        <p><Works properly in standalone mode. If you use cooperation mode, the official <app_official> application will also handle these functions, so proper operation cannot be guaranteed.</p>
+    ]]></string> <!-- %1$s Haylou fit-->
 
 
     <!-- Text display -->
@@ -415,6 +553,8 @@
     <string name="timed">Timed</string>
     <string name="file_name">Tên file</string>
     <string name="default_">Mặc định</string>
+    <string name="invalid_setting">Invalid setting</string>
+    <string name="ringtone">Nhạc chuông</string>
 
     <string name="action_dismiss">Bỏ qua</string>
     <string name="action_setting">Cài đặt</string>

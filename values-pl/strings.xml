@@ -7,6 +7,8 @@
     <string name="menu_nav_step">Aktywność</string>
     <string name="menu_nav_pulse">Tętno</string>
     <string name="menu_nav_alarm">Alarm</string>
+    <string name="menu_nav_dnd">Tryb Nie przeszkadzać</string>
+    <string name="menu_nav_touch">Dotknięcia</string>
     <string name="menu_nav_more">Więcej</string>
     <string name="menu_nav_text_display">Wyświetlanie tekstu</string>
     <string name="menu_nav_theme">Motyw</string>
@@ -36,6 +38,8 @@
     <string name="device_state_disconnected">Rozłączony</string>
     <string name="device_state_bonded">Urządzenie sparowane</string>
     <string name="device_state_not_bonded">Urządzenie niesparowane</string>
+
+    <string name="pref_dnd_title">Tryb Nie przeszkadzać</string>
 
 
     <!-- Haylou setting -->
@@ -151,6 +155,8 @@
 
     <string name="message_app_chooser_no_selected">Wybierz aplikację</string>
 
+    <string name="message_free_counter">Up to 1 setting can be used in normal mode</string>
+
     <string name="message_notification_free_groups">W trybie normalnym można używać do %1$,d grup</string>
     <string name="message_notification_free_app">Up to 1 application can be selected in normal mode</string>
     <string name="message_notification_free_apps">Up to %1$,d applications can be selected in normal mode</string>   <!-- %1$s = 2 or more  -->
@@ -253,7 +259,7 @@
     <string name="action_search">Szukaj</string>
     <string name="action_filter_notification">Filtr powiadomień</string>
 
-    <string name="touch_tab_control">Kontrola</string>
+    <string name="main_control">Kontrola</string>
 
     <!-- Activity -->
     <string name="step_tab_day">Dzienne wykresy</string>
@@ -291,10 +297,142 @@
 
     <string name="message_time_alarm_sync">Synchronizuj alarmy %1$s (usuwanie i ustawianie alarmów na Twoim smartwatchu)</string> <!-- %1$s = Haylou Smart Watch ... -->
 
-    <string name="info_dialog_time"><![CDATA[
+    <string name="info_dialog_alarm"><![CDATA[
         <p>When using collaboration mode, the settings of the original application and the Hello Haylou application can overwrite and delete each other\'s settings.</p>
         <p>The last operation performed will take effect.</p>
     ]]></string>
+
+
+    <!-- Do not disturb -->
+    <string name="pref_dnd_summary">Stan ustawień w trybie Nie przeszkadzać</string>
+    <string name="pref_dnd_enable_bluetooth">Na początku trybu Nie przeszkadzać wyłącz Bluetooth, na końcu włącz Bluetooth</string>
+
+    <string name="info_dialog_dnd"><![CDATA[
+        <p>If you are using cooperation mode, in the official <device_type> application the do not disturb (DnD) mode must be between 00:00 and 23:59 and its status must be turned off.</p>
+    ]]></string> <!-- %1$s Haylou fit-->
+
+
+    <!-- Touch monitoring -->
+    <string name="touch_tab_function">Funkcja</string>
+    <string name="touch_tab_control">Kontrola</string>
+    <string name="touch_tab_testing">Testowanie</string>
+    <string name="touch_tab_setting">@string/setting_name</string>
+
+    <string name="touch_function_summary">Ustaw te funkcje jeśli używasz trybu samodzielnego lub nie jest odpowiednio zarządzany przez Mi Fit</string>
+    <string name="touch_function">Funkcja %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function_as_touch">Użyj funkcji jako dotyku w menu sterowania</string>
+
+    <string name="touch_headline_incoming_call_title">Połączenie przychodzące</string>
+    <string name="touch_headline_other_function_title">Inne funkcje</string>
+    <string name="touch_headline_call_title">Kontrola połączeń</string>
+    <string name="touch_headline_music_title">Kontrola muzyki</string>
+    <string name="touch_headline_time_title">Kontrola timera/stopera</string>
+    <string name="touch_headline_other_title">Inne kontrole</string>
+
+    <string name="touch_call_answer_title">Odbieranie połączeń</string>
+    <string name="touch_call_answer_speakerphone_title">Głośnik telefonu</string>
+
+    <string name="touch_call_end_title">Odrzucanie, kończenie połączenia</string>
+
+    <string name="touch_call_mute_title">Wyciszenie połączenia</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Tylko jeśli masz połączenie przychodzące</string>
+    <string name="touch_call_mute_recognition_title">Podczas połączenia przychodzącego</string>
+    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/Więcej/Znajdź urządzenie</string>
+
+    <string name="touch_device_location_title">Znajdź mój telefon</string>
+    <string name="touch_device_location_not_muted_only_title">Dźwięk tylko wtedy, gdy nie jest wyciszony lub w trybie Nie przeszkadzać</string>
+
+    <string name="touch_call_mute_toggle_title">Wyciszenie połączenia</string>
+
+    <string name="touch_music_function_title">Muzyka</string>
+    <string name="touch_music_function_launch">Rozpocznij odtwarzanie muzyki za pomocą przycisku odtwarzania, jeśli nie zostanie rozpoznany żaden odtwarzacz muzyki</string>
+    <string name="touch_music_function_mi_band_message_launch">Rozpocznij muzykę za pomocą przycisku odtwarzania</string>
+    <string name="touch_music_function_mi_band_message_no_track_title">Nie można uzyskać nazwy utworu</string>
+
+    <string name="touch_call_out_title">Dzwonienie</string>
+    <string name="touch_call_out_no_contact">Wybierz kontakt</string>
+    <string name="touch_call_out_summary">Naciśnij dwukrotnie, aby odebrać połączenie</string>
+    <string name="touch_call_out_summary_support_call_display_button">Naciśnij przycisk, aby odebrać połączenie</string>
+    <string name="touch_call_out_speakerphone_title">Głośnik telefonu</string>
+    <string name="touch_call_out_call_text">Dzwonienie: %1$s</string>
+
+    <string name="touch_weather_title">Prognoza pogody</string>
+    <string name="touch_weather_location">Lokalizacja</string>
+    <string name="touch_weather_precipitation">Opad atmosferyczny</string>
+    <string name="touch_weather_cloud_cover">Zachmurzenie</string>
+    <string name="touch_weather_wind">Wiatr</string>
+
+    <string name="touch_repeat_notif_title">Powtarzaj powiadomienia</string>
+    <string name="touch_repeat_notif_clear_all">Wyczyść wszystkie powiadomienia po powtórzeniu</string>
+
+    <string name="touch_clear_notif_title">Wyczyść powiadomienia z telefonu</string>
+
+    <string name="touch_music_play_pause_title">Rozpoczęcie odtwarzania muzyki, odtwarzanie, pauza</string>
+    <string name="touch_music_skip_previous_title">Rozpoczęcie muzyki, poprzednia piosenka</string>
+    <string name="touch_music_skip_next_title">Rozpoczęcie muzyki, następna piosenka</string>
+    <string name="touch_music_headset_only_title">Tylko wtedy, gdy zestaw słuchawkowy jest podłączony</string>
+    <string name="touch_music_launch">Rozpocznij odtwarzanie muzyki</string>
+    <string name="touch_music_volume_up_title">Zwiększenie głośności muzyki</string>
+    <string name="touch_music_volume_down_title">Zmniejszenie głośności muzyki</string>
+    <string name="touch_music_track_info_title">Pokaż informacje o utworze</string>
+
+    <string name="touch_time_launch_title">Monitorowanie czasu rozpoczęcia</string>
+    <string name="touch_time_launch_type_timer_title">Timer</string>
+    <string name="touch_time_launch_type_stopper_title">Stoper</string>
+    <string name="touch_time_launch_type_interval_title">Interwał</string>
+    <string name="touch_time_launch_restart">Zrestartuj, jeśli jest w toku</string>
+    <string name="touch_time_reminder_title">Pokaż czas pozostały/który minął</string>
+
+    <string name="touch_google_assistant_title">Asystent Google</string>
+
+    <string name="touch_flashlight_title">Przełącznik latarki</string>
+
+    <string name="touch_camera_title">Zrób zdjęcie</string>
+    <string name="touch_camera_front_title">Przedni</string>
+    <string name="touch_camera_rear_title">Tylny</string>
+    <string name="touch_camera_install_title">Instaluj</string>
+
+    <string name="touch_app_launcher1_title">Launcher aplikacji</string>
+    <string name="touch_app_launcher_package_no_title">Wybierz aplikację</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">Tylko jeśli ekran nie jest zablokowany</string>
+
+    <string name="touch_broadcast1_title">Wyślij transmisję</string>
+    <string name="touch_broadcast1_action_title">Zamierzone działanie</string>
+    <string name="touch_broadcast1_package_title">Nazwa zamierzonego pakietu</string>
+
+    <string name="touch_http_request1_title">1. Żądanie HTTP</string>
+    <string name="touch_http_request2_title">2. Żądanie HTTP</string>
+    <string name="touch_http_request_url_title">URL</string>
+    <string name="touch_http_request_method_title">Metoda</string>
+    <string name="touch_http_request_body_title">Element</string>
+    <string name="touch_http_request_show_response_title">Pokaż odpowiedź</string>
+
+    <string name="touch_tasker_launcher1_title">1. Launcher zadań Tasker\'a</string>
+    <string name="touch_tasker_launcher2_title">2. Launcher zadań Tasker\'a</string>
+    <string name="touch_tasker_launcher_no_permission_title">Najpierw musisz zainstalować Tasker\'a, później Mi Bandage</string>
+    <string name="touch_tasker_launcher_no_access_title">Zezwalaj na dostęp zewnętrzny</string>
+    <string name="touch_tasker_launcher_no_task_title">Wybierz zadanie</string>
+
+    <string name="touch_testing_title">Monitorowanie dotknięć</string>
+    <string name="touch_testing_second">sek.</string>
+
+    <string name="touch_setting_detection_time_title">Czas wykrywania dotyku</string>
+    <string name="touch_setting_detection_time_music_hint">Jeśli ma niższą wartość, ekran powinien zostać zamknięty szybciej</string>
+    <string name="touch_setting_detection_time_button_hint">Jeśli ma niższą wartość, naciśnij przycisk szybciej</string>
+
+    <string name="touch_setting_detection_method_title">Metoda wykrywania dotyku</string>
+
+    <string name="touch_setting_recognition_start_title">Uruchom rozpoznawanie dotknięć</string>
+    <string name="touch_setting_recognition_start_trigger_title">Wyzwalacz</string>
+    <string name="touch_setting_recognition_time_title">Czas rozpoznania</string>
+
+    <string name="touch_setting_recognition_mi_band_signal_title">Sygnał na %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_setting_recognition_succeeded_title">Rozpoznany wzór dotknięć</string>
+    <string name="touch_setting_recognition_failed_title">Nierozopoznany wzór dotknięć</string>
+
+    <string name="info_dialog_touch"><![CDATA[
+        <p><Works properly in standalone mode. If you use cooperation mode, the official <app_official> application will also handle these functions, so proper operation cannot be guaranteed.</p>
+    ]]></string> <!-- %1$s Haylou fit-->
 
 
     <!-- Text display -->
@@ -413,6 +551,8 @@
     <string name="timed">Timed</string>
     <string name="file_name">Nazwa pliku</string>
     <string name="default_">Domyślny</string>
+    <string name="invalid_setting">Invalid setting</string>
+    <string name="ringtone">Dzwonek</string>
 
     <string name="action_dismiss">Odwołaj</string>
     <string name="action_setting">Ustawienia</string>

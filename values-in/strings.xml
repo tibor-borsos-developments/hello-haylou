@@ -7,6 +7,8 @@
     <string name="menu_nav_step">Pemantau aktifitas</string>
     <string name="menu_nav_pulse">Pemantau detak</string>
     <string name="menu_nav_alarm">Alarm</string>
+    <string name="menu_nav_dnd">Mode jangan ganggu</string>
+    <string name="menu_nav_touch">Pemantau sentuhan</string>
     <string name="menu_nav_more">Lebih</string>
     <string name="menu_nav_text_display">Text display</string>
     <string name="menu_nav_theme">Tema</string>
@@ -36,6 +38,8 @@
     <string name="device_state_disconnected">Terputus</string>
     <string name="device_state_bonded">Perangkat tersambung</string>
     <string name="device_state_not_bonded">Perangkat tidak tersambung</string>
+
+    <string name="pref_dnd_title">Mode jangan ganggu</string>
 
 
     <!-- Haylou setting -->
@@ -151,6 +155,8 @@
 
     <string name="message_app_chooser_no_selected">Pilih aplikasi</string>
 
+    <string name="message_free_counter">Up to 1 setting can be used in normal mode</string>
+
     <string name="message_notification_free_groups">Mode normal dapat menggunakan hingga %1$,d grup</string>
     <string name="message_notification_free_app">Up to 1 application can be selected in normal mode</string>
     <string name="message_notification_free_apps">Up to %1$,d applications can be selected in normal mode</string>   <!-- %1$s = 2 or more  -->
@@ -253,7 +259,7 @@
     <string name="action_search">Cari</string>
     <string name="action_filter_notification">Filter pemberitahuan</string>
 
-    <string name="touch_tab_control">Kontrol</string>
+    <string name="main_control">Kontrol</string>
 
     <!-- Activity -->
     <string name="step_tab_day">Bagan harian</string>
@@ -291,10 +297,142 @@
 
     <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Haylou Smart Watch ... -->
 
-    <string name="info_dialog_time"><![CDATA[
+    <string name="info_dialog_alarm"><![CDATA[
         <p>When using collaboration mode, the settings of the original application and the Hello Haylou application can overwrite and delete each other\'s settings.</p>
         <p>The last operation performed will take effect.</p>
     ]]></string>
+
+
+    <!-- Do not disturb -->
+    <string name="pref_dnd_summary">State of controllers in do not disturb mode</string>
+    <string name="pref_dnd_enable_bluetooth">Matikan Bluetooth pada permulaan mode jangan ganggu, dan hidupkan kembali setelah mode jangan ganggu berakhir</string>
+
+    <string name="info_dialog_dnd"><![CDATA[
+        <p>If you are using cooperation mode, in the official <device_type> application the do not disturb (DnD) mode must be between 00:00 and 23:59 and its status must be turned off.</p>
+    ]]></string> <!-- %1$s Haylou fit-->
+
+
+    <!-- Touch monitoring -->
+    <string name="touch_tab_function">Function</string>
+    <string name="touch_tab_control">Kontrol</string>
+    <string name="touch_tab_testing">Coba</string>
+    <string name="touch_tab_setting">@string/setting_name</string>
+
+    <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
+    <string name="touch_function">%1$s function</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function_as_touch">Use function as a touch in the control menu</string>
+
+    <string name="touch_headline_incoming_call_title">Incoming call</string>
+    <string name="touch_headline_other_function_title">Other functions</string>
+    <string name="touch_headline_call_title">Kontrol panggilan</string>
+    <string name="touch_headline_music_title">Kontrol musik</string>
+    <string name="touch_headline_time_title">Kontrol Timer/stopwatch</string>
+    <string name="touch_headline_other_title">Kontrol lain</string>
+
+    <string name="touch_call_answer_title">Jawab panggilan</string>
+    <string name="touch_call_answer_speakerphone_title">Pengeras suara telpon</string>
+
+    <string name="touch_call_end_title">Tolak panggilan, berakhir</string>
+
+    <string name="touch_call_mute_title">Tombol bisukan panggilan</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Hanya ketika ada panggilan masuk</string>
+    <string name="touch_call_mute_recognition_title">On incoming call</string>
+    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/More/Find device</string>
+
+    <string name="touch_device_location_title">Temukan perangkat saya</string>
+    <string name="touch_device_location_not_muted_only_title">Suara saja ketika tidak dibisukan</string>
+
+    <string name="touch_call_mute_toggle_title">Tombol bisukan panggilan</string>
+
+    <string name="touch_music_function_title">Musik</string>
+    <string name="touch_music_function_launch">Start music with the play button if no music player is recognized</string>
+    <string name="touch_music_function_mi_band_message_launch">Start music with the play button</string>
+    <string name="touch_music_function_mi_band_message_no_track_title">Can\'t get the song name</string>
+
+    <string name="touch_call_out_title">Call out</string>
+    <string name="touch_call_out_no_contact">Select an contact</string>
+    <string name="touch_call_out_summary">Double press to answer the call</string>
+    <string name="touch_call_out_summary_support_call_display_button">Press the button to answer the call</string>
+    <string name="touch_call_out_speakerphone_title">Pengeras suara telpon</string>
+    <string name="touch_call_out_call_text">Call out: %1$s</string>
+
+    <string name="touch_weather_title">Prakiraan Cuaca</string>
+    <string name="touch_weather_location">Lokasi</string>
+    <string name="touch_weather_precipitation">Pengendapan</string>
+    <string name="touch_weather_cloud_cover">Penutupan awan</string>
+    <string name="touch_weather_wind">Angin</string>
+
+    <string name="touch_repeat_notif_title">Ulangi notifikasi</string>
+    <string name="touch_repeat_notif_clear_all">Hapus semua pemberitahuan setelah pengulangan</string>
+
+    <string name="touch_clear_notif_title">Bersihkan pemberitahuan</string>
+
+    <string name="touch_music_play_pause_title">Mulai musik, mainkan, jeda</string>
+    <string name="touch_music_skip_previous_title">Mulai musik, lagu sebelumnya</string>
+    <string name="touch_music_skip_next_title">Mulai musik, lagu selanjutnya</string>
+    <string name="touch_music_headset_only_title">Hanya jika headset tersambung</string>
+    <string name="touch_music_launch">Start music</string>
+    <string name="touch_music_volume_up_title">Volume musik naik</string>
+    <string name="touch_music_volume_down_title">Volume musik turun</string>
+    <string name="touch_music_track_info_title">Tampilkan info musik.</string>
+
+    <string name="touch_time_launch_title">Mulai pemantauan waktu</string>
+    <string name="touch_time_launch_type_timer_title">Timer</string>
+    <string name="touch_time_launch_type_stopper_title">Stopwatch</string>
+    <string name="touch_time_launch_type_interval_title">Interval</string>
+    <string name="touch_time_launch_restart">Restart if it is in progress</string>
+    <string name="touch_time_reminder_title">Tampilkan waktu sisa/berlalu</string>
+
+    <string name="touch_google_assistant_title">Google Assistant</string>
+
+    <string name="touch_flashlight_title">Flashlight toggle</string>
+
+    <string name="touch_camera_title">Take a photo</string>
+    <string name="touch_camera_front_title">Front</string>
+    <string name="touch_camera_rear_title">Rear</string>
+    <string name="touch_camera_install_title">Install</string>
+
+    <string name="touch_app_launcher1_title">Peluncur apl</string>
+    <string name="touch_app_launcher_package_no_title">Pilih aplikasi</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">Hanya jika layar tidak terkunci</string>
+
+    <string name="touch_broadcast1_title">Send Broadcast</string>
+    <string name="touch_broadcast1_action_title">Intent action</string>
+    <string name="touch_broadcast1_package_title">Intent package name</string>
+
+    <string name="touch_http_request1_title">1. HTTP request</string>
+    <string name="touch_http_request2_title">2. HTTP request</string>
+    <string name="touch_http_request_url_title">URL</string>
+    <string name="touch_http_request_method_title">Method</string>
+    <string name="touch_http_request_body_title">Body</string>
+    <string name="touch_http_request_show_response_title">Show the response</string>
+
+    <string name="touch_tasker_launcher1_title">1. Tasker peluncur kegiatan</string>
+    <string name="touch_tasker_launcher2_title">2. Tasker peluncur kegiatan</string>
+    <string name="touch_tasker_launcher_no_permission_title">Anda harus memasang Tasker terlebih dahulu, lalu Mi Bandage</string>
+    <string name="touch_tasker_launcher_no_access_title">Ijinkan akses eksternal</string>
+    <string name="touch_tasker_launcher_no_task_title">Pilih kegiatan</string>
+
+    <string name="touch_testing_title">Pemantau sentuhan</string>
+    <string name="touch_testing_second">det.</string>
+
+    <string name="touch_setting_detection_time_title">Touch detection time</string>
+    <string name="touch_setting_detection_time_music_hint">If it has a lower value, the music screen should be closed faster</string>
+    <string name="touch_setting_detection_time_button_hint">If it has a lower value, press the button faster</string>
+
+    <string name="touch_setting_detection_method_title">Touch detection method</string>
+
+    <string name="touch_setting_recognition_start_title">Start touch recognition</string>
+    <string name="touch_setting_recognition_start_trigger_title">Trigger</string>
+    <string name="touch_setting_recognition_time_title">Recognition time</string>
+
+    <string name="touch_setting_recognition_mi_band_signal_title">Tanda %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_setting_recognition_succeeded_title">Sinyal pola sentuh dikenali</string>
+    <string name="touch_setting_recognition_failed_title">Sinyal pola sentuh tidak dikenali</string>
+
+    <string name="info_dialog_touch"><![CDATA[
+        <p><Works properly in standalone mode. If you use cooperation mode, the official <app_official> application will also handle these functions, so proper operation cannot be guaranteed.</p>
+    ]]></string> <!-- %1$s Haylou fit-->
 
 
     <!-- Text display -->
@@ -412,6 +550,8 @@
     <string name="timed">Timed</string>
     <string name="file_name">File name</string>
     <string name="default_">Default</string>
+    <string name="invalid_setting">Invalid setting</string>
+    <string name="ringtone">Nada dering</string>
 
     <string name="action_dismiss">Tutup</string>
     <string name="action_setting">Atur</string>

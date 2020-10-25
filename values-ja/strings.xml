@@ -7,6 +7,8 @@
     <string name="menu_nav_step">アクティビティ</string>
     <string name="menu_nav_pulse">心拍数</string>
     <string name="menu_nav_alarm">アラーム</string>
+    <string name="menu_nav_dnd">DND（おやすみモード）</string>
+    <string name="menu_nav_touch">タッチ</string>
     <string name="menu_nav_more">もっと</string>
     <string name="menu_nav_text_display">テキスト表示</string>
     <string name="menu_nav_theme">テーマ</string>
@@ -36,6 +38,8 @@
     <string name="device_state_disconnected">未接続</string>
     <string name="device_state_bonded">ペアリングされたデバイス</string>
     <string name="device_state_not_bonded">未ペアリングのデバイス</string>
+
+    <string name="pref_dnd_title">DND（おやすみモード）</string>
 
 
     <!-- Haylou setting -->
@@ -151,6 +155,8 @@
 
     <string name="message_app_chooser_no_selected">アプリを選択してください</string>
 
+    <string name="message_free_counter">Up to 1 setting can be used in normal mode</string>
+
     <string name="message_notification_free_groups">ノーマルモードでは通知グループは最大%1$,d個まで使用可能です</string>
     <string name="message_notification_free_app">Up to 1 application can be selected in normal mode</string>
     <string name="message_notification_free_apps">Up to %1$,d applications can be selected in normal mode</string>   <!-- %1$s = 2 or more  -->
@@ -253,7 +259,7 @@
     <string name="action_search">検索</string>
     <string name="action_filter_notification">通知フィルタ</string>
 
-    <string name="touch_tab_control">操作</string>
+    <string name="main_control">操作</string>
 
     <!-- Activity -->
     <string name="step_tab_day">日別</string>
@@ -291,10 +297,142 @@
 
     <string name="message_time_alarm_sync">%1$sのアラームを同期しますか？</string> <!-- %1$s = Haylou Smart Watch ... -->
 
-    <string name="info_dialog_time"><![CDATA[
+    <string name="info_dialog_alarm"><![CDATA[
         <p>When using collaboration mode, the settings of the original application and the Hello Haylou application can overwrite and delete each other\'s settings.</p>
         <p>The last operation performed will take effect.</p>
     ]]></string>
+
+
+    <!-- Do not disturb -->
+    <string name="pref_dnd_summary">DND時の挙動設定</string>
+    <string name="pref_dnd_enable_bluetooth">DND開始時にBluetoothオフ、終了時オン</string>
+
+    <string name="info_dialog_dnd"><![CDATA[
+        <p>If you are using cooperation mode, in the official <device_type> application the do not disturb (DnD) mode must be between 00:00 and 23:59 and its status must be turned off.</p>
+    ]]></string> <!-- %1$s Haylou fit-->
+
+
+    <!-- Touch monitoring -->
+    <string name="touch_tab_function">機能</string>
+    <string name="touch_tab_control">操作</string>
+    <string name="touch_tab_testing">テスト</string>
+    <string name="touch_tab_setting">@string/setting_name</string>
+
+    <string name="touch_function_summary">スタンドアロンモードを使っている場合や、Mi Fitが正しく機能しない場合に設定してください</string>
+    <string name="touch_function">%1$sの機能を使用する</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function_as_touch">操作タブでタッチを割り当てる</string>
+
+    <string name="touch_headline_incoming_call_title">着信</string>
+    <string name="touch_headline_other_function_title">その他の機能</string>
+    <string name="touch_headline_call_title">通話の操作</string>
+    <string name="touch_headline_music_title">音楽の操作</string>
+    <string name="touch_headline_time_title">タイマー・ストップウォッチの操作</string>
+    <string name="touch_headline_other_title">その他の操作</string>
+
+    <string name="touch_call_answer_title">着信の応答</string>
+    <string name="touch_call_answer_speakerphone_title">スピーカー</string>
+
+    <string name="touch_call_end_title">着信を拒否・終了</string>
+
+    <string name="touch_call_mute_title">通話をミュート</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">着信時のみ</string>
+    <string name="touch_call_mute_recognition_title">着信時</string>
+    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/その他/端末を探す</string>
+
+    <string name="touch_device_location_title">端末を探す</string>
+    <string name="touch_device_location_not_muted_only_title">ミュート・DND時は鳴動しない</string>
+
+    <string name="touch_call_mute_toggle_title">端末のミュート</string>
+
+    <string name="touch_music_function_title">音楽</string>
+    <string name="touch_music_function_launch">音楽プレーヤーが認識されない場合に、再生ボタンで音楽を再生</string>
+    <string name="touch_music_function_mi_band_message_launch">音楽を再生します</string>
+    <string name="touch_music_function_mi_band_message_no_track_title">曲名が取得できません</string>
+
+    <string name="touch_call_out_title">発信</string>
+    <string name="touch_call_out_no_contact">連絡先を選択</string>
+    <string name="touch_call_out_summary">2回押して電話に出る</string>
+    <string name="touch_call_out_summary_support_call_display_button">ボタンを押して電話に出る</string>
+    <string name="touch_call_out_speakerphone_title">スピーカー</string>
+    <string name="touch_call_out_call_text">発信：%1$s</string>
+
+    <string name="touch_weather_title">天気</string>
+    <string name="touch_weather_location">現在地を更新</string>
+    <string name="touch_weather_precipitation">降水量</string>
+    <string name="touch_weather_cloud_cover">雲量</string>
+    <string name="touch_weather_wind">風</string>
+
+    <string name="touch_repeat_notif_title">通知を繰り返す</string>
+    <string name="touch_repeat_notif_clear_all">繰り返した後通知をすべて消去</string>
+
+    <string name="touch_clear_notif_title">端末から通知を消去</string>
+
+    <string name="touch_music_play_pause_title">再生・停止</string>
+    <string name="touch_music_skip_previous_title">前の曲</string>
+    <string name="touch_music_skip_next_title">次の曲</string>
+    <string name="touch_music_headset_only_title">ヘッドセット接続時のみ</string>
+    <string name="touch_music_launch">音楽プレーヤーを開く</string>
+    <string name="touch_music_volume_up_title">音量を上げる</string>
+    <string name="touch_music_volume_down_title">音量を下げる</string>
+    <string name="touch_music_track_info_title">トラック情報を表示</string>
+
+    <string name="touch_time_launch_title">時計を起動</string>
+    <string name="touch_time_launch_type_timer_title">ﾀｲﾏｰ</string>
+    <string name="touch_time_launch_type_stopper_title">ｽﾄｯﾌﾟｳｫｯﾁ</string>
+    <string name="touch_time_launch_type_interval_title">ｲﾝﾀｰﾊﾞﾙ</string>
+    <string name="touch_time_launch_restart">進行中の場合は再スタート</string>
+    <string name="touch_time_reminder_title">残り時間・経過時間を表示</string>
+
+    <string name="touch_google_assistant_title">Googleアシスタント</string>
+
+    <string name="touch_flashlight_title">懐中電灯</string>
+
+    <string name="touch_camera_title">写真を撮影</string>
+    <string name="touch_camera_front_title">フロントカメラ</string>
+    <string name="touch_camera_rear_title">リアカメラ</string>
+    <string name="touch_camera_install_title">インストール</string>
+
+    <string name="touch_app_launcher1_title">アプリを起動</string>
+    <string name="touch_app_launcher_package_no_title">アプリを選択</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">画面ロック解除時のみ</string>
+
+    <string name="touch_broadcast1_title">ブロードキャストを送信</string>
+    <string name="touch_broadcast1_action_title">インテントのアクション</string>
+    <string name="touch_broadcast1_package_title">インテントのパッケージ名</string>
+
+    <string name="touch_http_request1_title">1. HTTPリクエスト</string>
+    <string name="touch_http_request2_title">2. HTTPリクエスト</string>
+    <string name="touch_http_request_url_title">URL</string>
+    <string name="touch_http_request_method_title">Method</string>
+    <string name="touch_http_request_body_title">Body</string>
+    <string name="touch_http_request_show_response_title">レスポンスを表示</string>
+
+    <string name="touch_tasker_launcher1_title">1. Taskerでタスクを実行</string>
+    <string name="touch_tasker_launcher2_title">2. Taskerでタスクを実行</string>
+    <string name="touch_tasker_launcher_no_permission_title">TaskerをMi Bandageの後にインストールしてください</string>
+    <string name="touch_tasker_launcher_no_access_title">外部ストレージへのアクセスを許可してください</string>
+    <string name="touch_tasker_launcher_no_task_title">タスクを選択してください</string>
+
+    <string name="touch_testing_title">タッチを監視中…</string>
+    <string name="touch_testing_second">秒</string>
+
+    <string name="touch_setting_detection_time_title">タッチの検出時間</string>
+    <string name="touch_setting_detection_time_music_hint">値が小さいほど、音楽操作画面を素早く閉じる必要があります</string>
+    <string name="touch_setting_detection_time_button_hint">値が小さいほど、ボタンを素早く押す必要があります</string>
+
+    <string name="touch_setting_detection_method_title">タッチの検出方法</string>
+
+    <string name="touch_setting_recognition_start_title">タッチの認識開始</string>
+    <string name="touch_setting_recognition_start_trigger_title">トリガー</string>
+    <string name="touch_setting_recognition_time_title">認識時間</string>
+
+    <string name="touch_setting_recognition_mi_band_signal_title">%1$sへの通知</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_setting_recognition_succeeded_title">タッチのパターン認識成功</string>
+    <string name="touch_setting_recognition_failed_title">タッチのパターン認識失敗</string>
+
+    <string name="info_dialog_touch"><![CDATA[
+        <p><Works properly in standalone mode. If you use cooperation mode, the official <app_official> application will also handle these functions, so proper operation cannot be guaranteed.</p>
+    ]]></string> <!-- %1$s Haylou fit-->
 
 
     <!-- Text display -->
@@ -413,6 +551,8 @@
     <string name="timed">Timed</string>
     <string name="file_name">ファイル名</string>
     <string name="default_">デフォルト</string>
+    <string name="invalid_setting">設定が無効です</string>
+    <string name="ringtone">着信音</string>
 
     <string name="action_dismiss">中止</string>
     <string name="action_setting">設定</string>

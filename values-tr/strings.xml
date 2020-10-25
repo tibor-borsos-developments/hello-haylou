@@ -7,6 +7,8 @@
     <string name="menu_nav_step">Adım sayar</string>
     <string name="menu_nav_pulse">Nabız ölçer</string>
     <string name="menu_nav_alarm">Alarm</string>
+    <string name="menu_nav_dnd">Rahatsız etmeyin modu</string>
+    <string name="menu_nav_touch">Dokunma ile kontrol</string>
     <string name="menu_nav_more">Daha</string>
     <string name="menu_nav_text_display">Altyazılı simge</string>
     <string name="menu_nav_theme">Tema</string>
@@ -36,6 +38,8 @@
     <string name="device_state_disconnected">Bağlı değil</string>
     <string name="device_state_bonded">Eşleştirilmiş cihaz</string>
     <string name="device_state_not_bonded">Eşleştirilmemiş cihaz</string>
+
+    <string name="pref_dnd_title">Rahatsız etmeyin modu</string>
 
 
     <!-- Haylou setting -->
@@ -151,6 +155,8 @@
 
     <string name="message_app_chooser_no_selected">Bir uygulama seçin</string>
 
+    <string name="message_free_counter">Up to 1 setting can be used in normal mode</string>
+
     <string name="message_notification_free_groups">Normal modda en fazla %1$,d grup kullanılabilir</string>
     <string name="message_notification_free_app">Up to 1 application can be selected in normal mode</string>
     <string name="message_notification_free_apps">Up to %1$,d applications can be selected in normal mode</string>   <!-- %1$s = 2 or more  -->
@@ -254,7 +260,7 @@
     <string name="action_search">Ara</string>
     <string name="action_filter_notification">Bildirim Filtreleri</string>
 
-    <string name="touch_tab_control">Kontrol</string>
+    <string name="main_control">Kontrol</string>
 
     <!-- Activity -->
     <string name="step_tab_day">Günlük graf.</string>
@@ -292,10 +298,142 @@
 
     <string name="message_time_alarm_sync">%1$s alarmlarını senkronize et. (Akıllı saatinizdeki alarmları otomatik siler veya ekler)</string> <!-- %1$s =Haylou Smart Watch ... -->
 
-    <string name="info_dialog_time"><![CDATA[
+    <string name="info_dialog_alarm"><![CDATA[
         <p>When using collaboration mode, the settings of the original application and the Hello Haylou application can overwrite and delete each other\'s settings.</p>
         <p>The last operation performed will take effect.</p>
     ]]></string>
+
+
+    <!-- Do not disturb -->
+    <string name="pref_dnd_summary">Rahatsız etmeyin modunda denetleyicilerin durumu</string>
+    <string name="pref_dnd_enable_bluetooth">Bluetooth\'u başında kapat, sonunda aç</string>
+
+    <string name="info_dialog_dnd"><![CDATA[
+        <p>If you are using cooperation mode, in the official <device_type> application the do not disturb (DnD) mode must be between 00:00 and 23:59 and its status must be turned off.</p>
+    ]]></string> <!-- %1$s Haylou fit-->
+
+
+    <!-- Touch monitoring -->
+    <string name="touch_tab_function">Fonksiyon</string>
+    <string name="touch_tab_control">Kontrol</string>
+    <string name="touch_tab_testing">Test</string>
+    <string name="touch_tab_setting">@string/setting_name</string>
+
+    <string name="touch_function_summary">Bu seçenekleri Mi Bandage uygulamasını tek başına kullanıyorsanız veya Mi Fit tarafından düzgün yönetilmiyorsa seçiniz</string>
+    <string name="touch_function">%1$s özelliği</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function_as_touch">Kontrol menüsünde dokunma özelliği olarak kullan</string>
+
+    <string name="touch_headline_incoming_call_title">Gelen çağrı</string>
+    <string name="touch_headline_other_function_title">Diyer özellikler</string>
+    <string name="touch_headline_call_title">Çağrı</string>
+    <string name="touch_headline_music_title">Müzik</string>
+    <string name="touch_headline_time_title">Alarm/Saat</string>
+    <string name="touch_headline_other_title">Diğer</string>
+
+    <string name="touch_call_answer_title">Çağrıyı cevapla</string>
+    <string name="touch_call_answer_speakerphone_title">Hoparlör ile</string>
+
+    <string name="touch_call_end_title">Çağrıyı reddet</string>
+
+    <string name="touch_call_mute_title">Çağrıyı sessize al</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Yalnızca gelen bir aramanız varsa</string>
+    <string name="touch_call_mute_recognition_title">Gelen çağrılarda</string>
+    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/Diğer/Cihaz bul</string>
+
+    <string name="touch_device_location_title">Telefonumu bul</string>
+    <string name="touch_device_location_not_muted_only_title">Rahatsız etmeyin modunda ve telefon zaten sessizde değilse</string>
+
+    <string name="touch_call_mute_toggle_title">Çağrıyı sessize al</string>
+
+    <string name="touch_music_function_title">Müzik</string>
+    <string name="touch_music_function_launch">Herhangi bir müzik tanımlanmamışsa Oynat tuşuna basıp müziği başlat</string>
+    <string name="touch_music_function_mi_band_message_launch">Oynat tuşu ile müziği başlat</string>
+    <string name="touch_music_function_mi_band_message_no_track_title">Şarkı ismine ulaşılamıyor</string>
+
+    <string name="touch_call_out_title">Arama</string>
+    <string name="touch_call_out_no_contact">Kişi seç</string>
+    <string name="touch_call_out_summary">Çağrıyı cevaplamak için çift tıkla</string>
+    <string name="touch_call_out_summary_support_call_display_button">Çağrıyı cevaplamak için düğmeye bas</string>
+    <string name="touch_call_out_speakerphone_title">Hoparlör ile</string>
+    <string name="touch_call_out_call_text">Arama: %1$s</string>
+
+    <string name="touch_weather_title">Hava Durumu Tahmini</string>
+    <string name="touch_weather_location">Yer</string>
+    <string name="touch_weather_precipitation">Yağış</string>
+    <string name="touch_weather_cloud_cover">Bulut örtüsü</string>
+    <string name="touch_weather_wind">Rüzgar</string>
+
+    <string name="touch_repeat_notif_title">Bildirimleri tekrarla</string>
+    <string name="touch_repeat_notif_clear_all">Tekrardan sonra tüm bildirimleri temizle</string>
+
+    <string name="touch_clear_notif_title">Bildirimleri temizle</string>
+
+    <string name="touch_music_play_pause_title">Müzik aç, başla, durakla</string>
+    <string name="touch_music_skip_previous_title">Müzik aç, önceki şarkı</string>
+    <string name="touch_music_skip_next_title">Müzik aç, sonraki şarkı</string>
+    <string name="touch_music_headset_only_title">Yanlız kulaklık takılı ise</string>
+    <string name="touch_music_launch">Müziği başlat</string>
+    <string name="touch_music_volume_up_title">Müzik sesi aç</string>
+    <string name="touch_music_volume_down_title">Müzik sesi kıs</string>
+    <string name="touch_music_track_info_title">Çalan şarkı bilgisi.</string>
+
+    <string name="touch_time_launch_title">Zaman izleme</string>
+    <string name="touch_time_launch_type_timer_title">Kronometre</string>
+    <string name="touch_time_launch_type_stopper_title">Zamanlama</string>
+    <string name="touch_time_launch_type_interval_title">Aralık</string>
+    <string name="touch_time_launch_restart">İşlem devam ediyorsa yeniden başlatın</string>
+    <string name="touch_time_reminder_title">Kalan/geçen süreyi göster</string>
+
+    <string name="touch_google_assistant_title">Google Assistant</string>
+
+    <string name="touch_flashlight_title">Feneri aç/kapat</string>
+
+    <string name="touch_camera_title">Resim çek</string>
+    <string name="touch_camera_front_title">Ön kamera</string>
+    <string name="touch_camera_rear_title">Arka kamera</string>
+    <string name="touch_camera_install_title">Kurulum</string>
+
+    <string name="touch_app_launcher1_title">Uygulama başlatıcı</string>
+    <string name="touch_app_launcher_package_no_title">Bir uygulama seçin</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">Telefon ekranı kapalı değilse çalışır</string>
+
+    <string name="touch_broadcast1_title">Yayını gönder</string>
+    <string name="touch_broadcast1_action_title">Kasıtlı eylem</string>
+    <string name="touch_broadcast1_package_title">Eylem adı</string>
+
+    <string name="touch_http_request1_title">1. HTTP talebi</string>
+    <string name="touch_http_request2_title">2. HTTP talebi</string>
+    <string name="touch_http_request_url_title">URL</string>
+    <string name="touch_http_request_method_title">Metod</string>
+    <string name="touch_http_request_body_title">Gövde</string>
+    <string name="touch_http_request_show_response_title">Yanıtı göster</string>
+
+    <string name="touch_tasker_launcher1_title">1. Tasker görev başlatıcı</string>
+    <string name="touch_tasker_launcher2_title">2. Tasker görev başlatıcı</string>
+    <string name="touch_tasker_launcher_no_permission_title">Önce Tasker kurululmalı, ardından Mi Bandage kurulmalıdır.</string>
+    <string name="touch_tasker_launcher_no_access_title">Harici erişimi izin ver</string>
+    <string name="touch_tasker_launcher_no_task_title">Bir görev seçin</string>
+
+    <string name="touch_testing_title">Dokunma izleme</string>
+    <string name="touch_testing_second">sn.</string>
+
+    <string name="touch_setting_detection_time_title">Dokunma algılama zamanı</string>
+    <string name="touch_setting_detection_time_music_hint">Eğer düşük bir değeri varsa, müzik ekranı daha çabuk kapanır</string>
+    <string name="touch_setting_detection_time_button_hint">Eğer düşük bir değeri varsa, düğmeye daha seri basın</string>
+
+    <string name="touch_setting_detection_method_title">Dokunma algılama metodu</string>
+
+    <string name="touch_setting_recognition_start_title">Dokunmatik tanımayı başlat</string>
+    <string name="touch_setting_recognition_start_trigger_title">Tetikleme</string>
+    <string name="touch_setting_recognition_time_title">Tanımlanan süre</string>
+
+    <string name="touch_setting_recognition_mi_band_signal_title">%1$s bildirimi</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_setting_recognition_succeeded_title">Tanınabilir dokunmatik desen</string>
+    <string name="touch_setting_recognition_failed_title">Tanımlanamayan dokunma deseni</string>
+
+    <string name="info_dialog_touch"><![CDATA[
+        <p><Works properly in standalone mode. If you use cooperation mode, the official <app_official> application will also handle these functions, so proper operation cannot be guaranteed.</p>
+    ]]></string> <!-- %1$s Haylou fit-->
 
 
     <!-- Text display -->
@@ -414,6 +552,8 @@
     <string name="timed">Timed</string>
     <string name="file_name">Dosya adı</string>
     <string name="default_">Varsayılan</string>
+    <string name="invalid_setting">Invalid setting</string>
+    <string name="ringtone">Zil sesi çal</string>
 
     <string name="action_dismiss">Vazgeç</string>
     <string name="action_setting">Ayarlar</string>

@@ -7,6 +7,8 @@
     <string name="menu_nav_step">活动</string>
     <string name="menu_nav_pulse">心率</string>
     <string name="menu_nav_alarm">闹钟</string>
+    <string name="menu_nav_dnd">勿扰模式</string>
+    <string name="menu_nav_touch">触摸</string>
     <string name="menu_nav_more">更多</string>
     <string name="menu_nav_text_display">文字图标</string>
     <string name="menu_nav_theme">主题</string>
@@ -36,6 +38,8 @@
     <string name="device_state_disconnected">断开连接</string>
     <string name="device_state_bonded">配对设备</string>
     <string name="device_state_not_bonded">未配对设备</string>
+
+    <string name="pref_dnd_title">勿扰模式</string>
 
 
     <!-- Haylou setting -->
@@ -151,6 +155,8 @@
 
     <string name="message_app_chooser_no_selected">选择应用</string>
 
+    <string name="message_free_counter">Up to 1 setting can be used in normal mode</string>
+
     <string name="message_notification_free_groups">最多 %1$,d 组可以在普通模式下使用</string>
     <string name="message_notification_free_app">Up to 1 application can be selected in normal mode</string>
     <string name="message_notification_free_apps">Up to %1$,d applications can be selected in normal mode</string>   <!-- %1$s = 2 or more  -->
@@ -253,7 +259,7 @@
     <string name="action_search">搜索</string>
     <string name="action_filter_notification">通知过滤器</string>
 
-    <string name="touch_tab_control">控制</string>
+    <string name="main_control">控制</string>
 
     <!-- Activity -->
     <string name="step_tab_day">每日图表</string>
@@ -291,10 +297,142 @@
 
     <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Haylou Smart Watch ... -->
 
-    <string name="info_dialog_time"><![CDATA[
+    <string name="info_dialog_alarm"><![CDATA[
         <p>When using collaboration mode, the settings of the original application and the Hello Haylou application can overwrite and delete each other\'s settings.</p>
         <p>The last operation performed will take effect.</p>
     ]]></string>
+
+
+    <!-- Do not disturb -->
+    <string name="pref_dnd_summary">勿扰模式状态</string>
+    <string name="pref_dnd_enable_bluetooth">在 DnD 模式开始时关闭蓝牙,结束后再打开蓝牙</string>
+
+    <string name="info_dialog_dnd"><![CDATA[
+        <p>If you are using cooperation mode, in the official <device_type> application the do not disturb (DnD) mode must be between 00:00 and 23:59 and its status must be turned off.</p>
+    ]]></string> <!-- %1$s Haylou fit-->
+
+
+    <!-- Touch monitoring -->
+    <string name="touch_tab_function">Function</string>
+    <string name="touch_tab_control">控制</string>
+    <string name="touch_tab_testing">测试</string>
+    <string name="touch_tab_setting">@string/setting_name</string>
+
+    <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
+    <string name="touch_function">%1$s function</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function_as_touch">Use function as a touch in the control menu</string>
+
+    <string name="touch_headline_incoming_call_title">Incoming call</string>
+    <string name="touch_headline_other_function_title">Other functions</string>
+    <string name="touch_headline_call_title">呼叫控制</string>
+    <string name="touch_headline_music_title">音乐控制</string>
+    <string name="touch_headline_time_title">定时器/秒表控制</string>
+    <string name="touch_headline_other_title">其他控制</string>
+
+    <string name="touch_call_answer_title">呼叫应答</string>
+    <string name="touch_call_answer_speakerphone_title">免提</string>
+
+    <string name="touch_call_end_title">接听，结束</string>
+
+    <string name="touch_call_mute_title">切换到静音模式</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">只当你有来电时</string>
+    <string name="touch_call_mute_recognition_title">来电</string>
+    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/More/Find device</string>
+
+    <string name="touch_device_location_title">查找我的手机</string>
+    <string name="touch_device_location_not_muted_only_title">只有在未静音或未处于 DnD 模式时才发声</string>
+
+    <string name="touch_call_mute_toggle_title">切换到静音模式</string>
+
+    <string name="touch_music_function_title">音乐</string>
+    <string name="touch_music_function_launch">Start music with the play button if no music player is recognized</string>
+    <string name="touch_music_function_mi_band_message_launch">Start music with the play button</string>
+    <string name="touch_music_function_mi_band_message_no_track_title">Can\'t get the song name</string>
+
+    <string name="touch_call_out_title">呼出</string>
+    <string name="touch_call_out_no_contact">选择一个联系人</string>
+    <string name="touch_call_out_summary">双击按钮接听电话</string>
+    <string name="touch_call_out_summary_support_call_display_button">单击按钮接听电话</string>
+    <string name="touch_call_out_speakerphone_title">免提</string>
+    <string name="touch_call_out_call_text">呼叫: %1$s</string>
+
+    <string name="touch_weather_title">天气预报</string>
+    <string name="touch_weather_location">位置</string>
+    <string name="touch_weather_precipitation">沉淀</string>
+    <string name="touch_weather_cloud_cover">Cloud cover</string>
+    <string name="touch_weather_wind">风</string>
+
+    <string name="touch_repeat_notif_title">重复通知</string>
+    <string name="touch_repeat_notif_clear_all">清除所有重复通知</string>
+
+    <string name="touch_clear_notif_title">清除通知</string>
+
+    <string name="touch_music_play_pause_title">音乐开启后，播放/暂停</string>
+    <string name="touch_music_skip_previous_title">音乐开启后,上一首</string>
+    <string name="touch_music_skip_next_title">音乐开启后,下一首</string>
+    <string name="touch_music_headset_only_title">仅当连接耳机时启用</string>
+    <string name="touch_music_launch">启动音乐</string>
+    <string name="touch_music_volume_up_title">音乐音量</string>
+    <string name="touch_music_volume_down_title">音乐音量降低</string>
+    <string name="touch_music_track_info_title">显示音乐信息.</string>
+
+    <string name="touch_time_launch_title">开始时间监控</string>
+    <string name="touch_time_launch_type_timer_title">定时器</string>
+    <string name="touch_time_launch_type_stopper_title">秒表</string>
+    <string name="touch_time_launch_type_interval_title">区间</string>
+    <string name="touch_time_launch_restart">重新启动</string>
+    <string name="touch_time_reminder_title">显示剩余时间</string>
+
+    <string name="touch_google_assistant_title">Google Assistant</string>
+
+    <string name="touch_flashlight_title">Flashlight toggle</string>
+
+    <string name="touch_camera_title">拍照</string>
+    <string name="touch_camera_front_title">前置摄像头</string>
+    <string name="touch_camera_rear_title">后置摄像头</string>
+    <string name="touch_camera_install_title">Install</string>
+
+    <string name="touch_app_launcher1_title">应用启动器</string>
+    <string name="touch_app_launcher_package_no_title">选择应用</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">只有当屏幕未锁定时</string>
+
+    <string name="touch_broadcast1_title">Send Broadcast</string>
+    <string name="touch_broadcast1_action_title">Intent action</string>
+    <string name="touch_broadcast1_package_title">Intent package name</string>
+
+    <string name="touch_http_request1_title">1. HTTP request</string>
+    <string name="touch_http_request2_title">2. HTTP request</string>
+    <string name="touch_http_request_url_title">URL</string>
+    <string name="touch_http_request_method_title">Method</string>
+    <string name="touch_http_request_body_title">Body</string>
+    <string name="touch_http_request_show_response_title">Show the response</string>
+
+    <string name="touch_tasker_launcher1_title">1. Tasker 任务启动器</string>
+    <string name="touch_tasker_launcher2_title">2. Tasker 任务启动器</string>
+    <string name="touch_tasker_launcher_no_permission_title">你需要先安装 Tasker,之后 Mi Bandage 中设置</string>
+    <string name="touch_tasker_launcher_no_access_title">允许外部访问</string>
+    <string name="touch_tasker_launcher_no_task_title">选择任务</string>
+
+    <string name="touch_testing_title">触摸监控</string>
+    <string name="touch_testing_second">sec.</string>
+
+    <string name="touch_setting_detection_time_title">触摸检查时间</string>
+    <string name="touch_setting_detection_time_music_hint">If it has a lower value, then music screen should be closed faster</string>
+    <string name="touch_setting_detection_time_button_hint">If it has a lower value, press the button faster</string>
+
+    <string name="touch_setting_detection_method_title">触摸截取方式</string>
+
+    <string name="touch_setting_recognition_start_title">开始触摸识别</string>
+    <string name="touch_setting_recognition_start_trigger_title">触发器</string>
+    <string name="touch_setting_recognition_time_title">识别时间</string>
+
+    <string name="touch_setting_recognition_mi_band_signal_title">%1$s 通知</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_setting_recognition_succeeded_title">可识别的触摸模式</string>
+    <string name="touch_setting_recognition_failed_title">不可识别的触摸模式</string>
+
+    <string name="info_dialog_touch"><![CDATA[
+        <p><Works properly in standalone mode. If you use cooperation mode, the official <app_official> application will also handle these functions, so proper operation cannot be guaranteed.</p>
+    ]]></string> <!-- %1$s Haylou fit-->
 
 
     <!-- Text display -->
@@ -413,6 +551,8 @@
     <string name="timed">Timed</string>
     <string name="file_name">文件名</string>
     <string name="default_">默认</string>
+    <string name="invalid_setting">Invalid setting</string>
+    <string name="ringtone">铃声</string>
 
     <string name="action_dismiss">关闭</string>
     <string name="action_setting">设置</string>

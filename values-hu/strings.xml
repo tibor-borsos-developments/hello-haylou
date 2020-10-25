@@ -7,6 +7,8 @@
     <string name="menu_nav_step">Aktivitás</string>
     <string name="menu_nav_pulse">Pulzus</string>
     <string name="menu_nav_alarm">Ébresztő</string>
+    <string name="menu_nav_dnd">Ne zavarj mód</string>
+    <string name="menu_nav_touch">Érintés</string>
     <string name="menu_nav_more">Továbbiak</string>
     <string name="menu_nav_text_display">Szöveg megjelenítés</string>
     <string name="menu_nav_theme">Téma</string>
@@ -36,6 +38,8 @@
     <string name="device_state_disconnected">Nincs csatlakozva</string>
     <string name="device_state_bonded">Párosított eszköz</string>
     <string name="device_state_not_bonded">Nem párosított eszköz</string>
+
+    <string name="pref_dnd_title">Ne zavarj mód</string>
 
     <!-- Haylou setting -->
     <string name="mi_band_setting_button_title">%1$s beállítások・Profil・Szöveg・Hívás・Menü</string>
@@ -72,7 +76,7 @@
     <string name="mi_band_setting_time_24h">24 órás időformátum</string>
     <string name="mi_band_setting_lift_wrist">Képernyő megtekintése csukló felemelésével</string>
     <string name="mi_band_setting_screen_on_duration">Képernyő időtartam</string>
-    <string name="mi_band_setting_idle_alert">Tétlenségi figyelmeztetés</string>
+    <string name="mi_band_setting_idle_alert">Tétlenség figyelmeztetés</string>
     <string name="mi_band_setting_idle_alert_time">Tétlenségi idő</string>
     <string name="mi_band_setting_idle_alert_dnd">Ne figyelmeztessen pihenőidőben (12:00-14:00)</string>
 
@@ -149,6 +153,8 @@
     <string name="message_undo">Visszavonás</string>
 
     <string name="message_app_chooser_no_selected">Válassz ki egy applikációt</string>
+
+    <string name="message_free_counter">Maximum 1 beállítás használható normál módban</string>
 
     <string name="message_notification_free_groups">Maximum %1$,d csoport használható normál módban</string>
     <string name="message_notification_free_app">Maximum 1 applikáció választható normál módban</string>
@@ -264,7 +270,7 @@
     <string name="action_search">Keresés</string>
     <string name="action_filter_notification">Értesítés szűrő</string>
 
-    <string name="touch_tab_control">Vezérlés</string>
+    <string name="main_control">Vezérlés</string>
 
     <!-- Activity -->
     <string name="step_tab_day">Napi graf.</string>
@@ -285,19 +291,6 @@
     <string name="step_goal_default_title">Alapértelmezett célkitűzés</string>
 
 
-    <!-- Alarm -->
-    <string name="action_time_alarm_sort_state_asc">Állapot növekvő</string>
-    <string name="action_time_alarm_sort_watch_asc">Óra növekvő</string>
-    <string name="action_time_alarm_sort_name_asc">Név növekvő</string>
-
-    <string name="message_time_alarm_sync">%1$s ébresztők szinkronizálása (ébresztők törlése és beállítása az órán)</string> <!-- %1$s = Haylou Smart Watch ... -->
-
-    <string name="info_dialog_time"><![CDATA[
-        <p>Együttműködési mód használata esetén az eredeti alkalmazás és a Hello Haylou alkalmazás beállításai felülírhatják és törölhetik egymás beállításait.</p>
-        <p>Az utoljára végrehajtott művelet lesz érvényben.</p>
-    ]]></string>
-
-
     <!-- Pulse -->
     <string name="pulse_tab_day">Napi graf.</string>
     <string name="pulse_tab_week">Heti graf.</string>
@@ -306,6 +299,151 @@
     <string name="pulse_details">Pulzus részletek</string>
 
     <string name="pulse_continuous_title">Folyamatos pulzusmérés</string>
+
+
+    <!-- Alarm -->
+    <string name="action_time_alarm_sort_state_asc">Állapot növekvő</string>
+    <string name="action_time_alarm_sort_watch_asc">Óra növekvő</string>
+    <string name="action_time_alarm_sort_name_asc">Név növekvő</string>
+
+    <string name="message_time_alarm_sync">%1$s ébresztők szinkronizálása (ébresztők törlése és beállítása az órán)</string> <!-- %1$s = Haylou Smart Watch ... -->
+
+    <string name="info_dialog_alarm"><![CDATA[
+        <p>Együttműködési mód használata esetén az eredeti alkalmazás és a Hello Haylou alkalmazás beállításai felülírhatják és törölhetik egymás beállításait.</p>
+        <p>Az utoljára végrehajtott művelet lesz érvényben.</p>
+    ]]></string>
+
+
+    <!-- Do not disturb -->
+    <string name="pref_dnd_summary">Vezérlők állapota ne zavarj módban</string>
+    <string name="pref_dnd_enable_bluetooth">Ne zavarj mód kezdésekor a Bluetooth kikapcsolása, befejezésekor bekapcsolása</string>
+
+    <string name="info_dialog_dnd"><![CDATA[
+        <p>Ha együttműködési módot használsz, akkor a hivatalos <device_type> alkalmazásban a ne zavarj mód (DnD) időpontja legyen 00:00-23:59 és az állapota legyen kikapcsolva.</p>
+    ]]></string> <!-- %1$s Haylou fit-->
+
+
+    <!-- Touch monitoring -->
+    <string name="touch_tab_function">Funkció</string>
+    <string name="touch_tab_control">Vezérlés</string>
+    <string name="touch_tab_testing">Tesztelés</string>
+    <string name="touch_tab_setting">@string/setting_name</string>
+
+    <string name="touch_function_summary">Ezeket a funkciókat akkor állítsd be, ha önálló működést használsz vagy a Mi Fit nem kezeli megfelelően</string>
+    <string name="touch_function">%1$s funkció</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function_as_touch">Funkció használata érintésként a vezérlés menüben</string>
+
+    <string name="touch_headline_incoming_call_title">Bejövő hívás</string>
+    <string name="touch_headline_other_function_title">Egyéb funkciók</string>
+    <string name="touch_headline_call_title">Hívás vezérlés</string>
+    <string name="touch_headline_music_title">Zene vezérlés</string>
+    <string name="touch_headline_time_title">Időzítő/stopperóra vezérlés</string>
+    <string name="touch_headline_other_title">Egyéb vezérlések</string>
+
+    <string name="touch_call_answer_title">Hívásfogadás</string>
+    <string name="touch_call_answer_speakerphone_title">Kihangosítás</string>
+
+    <string name="touch_call_end_title">Híváselutasítás, befejezés</string>
+
+    <string name="touch_call_mute_title">Hívásnémítás</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Csak bejövő híváskor</string>
+    <string name="touch_call_mute_recognition_title">Bejövő híváskor</string>
+    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/More/Find device</string>
+
+    <string name="touch_device_location_title">Telefon helyzetjelző</string>
+    <string name="touch_device_location_not_muted_only_title">Hang csak ha nincs némítva vagy ne zavarj módban</string>
+
+    <string name="touch_call_mute_toggle_title">Telefon némítás kapcsoló</string>
+
+    <string name="touch_music_function_title">Zene</string>
+    <string name="touch_music_function_launch">Zene indítása lejátszás gombbal, ha nincs felismert zenelejátszó</string>
+    <string name="touch_music_function_mi_band_message_launch">Zene indítása lejátszás gombbal</string>
+    <string name="touch_music_function_mi_band_message_no_track_title">Dal neve nem elérhető</string>
+
+    <string name="touch_call_out_title">Hívásindítás</string>
+    <string name="touch_call_out_no_contact">Válassz ki egy névjegyet</string>
+    <string name="touch_call_out_summary">Dupla érintés indítja a tényleges hívást</string>
+    <string name="touch_call_out_summary_support_call_display_button">Gombnyomás indítja a tényleges hívást</string>
+    <string name="touch_call_out_speakerphone_title">Kihangosítás</string>
+    <string name="touch_call_out_call_text">Hívásindítás: %1$s</string>
+
+    <string name="touch_weather_title">Időjárás előrejelzés</string>
+    <string name="touch_weather_location">Helymeghatározás</string>
+    <string name="touch_weather_precipitation">Csapadék</string>
+    <string name="touch_weather_cloud_cover">Felhőtakaró</string>
+    <string name="touch_weather_wind">Szél</string>
+
+    <string name="touch_repeat_notif_title">Értesítések ismétlése</string>
+    <string name="touch_repeat_notif_clear_all">Értesítések törlése ismétlés után</string>
+
+    <string name="touch_clear_notif_title">Értesítések törlése a telefonról</string>
+
+    <string name="touch_music_play_pause_title">Zene indít, játszik, szünet</string>
+    <string name="touch_music_skip_previous_title">Zene indít, előző</string>
+    <string name="touch_music_skip_next_title">Zene indít, következő</string>
+    <string name="touch_music_headset_only_title">Csak ha fejhallgató csatlakoztatva</string>
+    <string name="touch_music_launch">Zene indítás</string>
+    <string name="touch_music_volume_up_title">Zene hangerő növelés</string>
+    <string name="touch_music_volume_down_title">Zene hangerő csökkentés</string>
+    <string name="touch_music_track_info_title">Zene info. megjelenítés</string>
+
+    <string name="touch_time_launch_title">Idő figyelés indító</string>
+    <string name="touch_time_launch_type_timer_title">Időzítő</string>
+    <string name="touch_time_launch_type_stopper_title">Stopperóra</string>
+    <string name="touch_time_launch_type_interval_title">Intervallum</string>
+    <string name="touch_time_launch_restart">Folyamatban lévő újraindítása</string>
+    <string name="touch_time_reminder_title">Hátralévő/eltelt idő</string>
+
+    <string name="touch_google_assistant_title">Google Asszisztens</string>
+
+    <string name="touch_flashlight_title">Zseblámpa kapcsoló</string>
+
+    <string name="touch_camera_title">Fénykép készítés</string>
+    <string name="touch_camera_front_title">Előlapi</string>
+    <string name="touch_camera_rear_title">Hátlapi</string>
+    <string name="touch_camera_install_title">Telepítés</string>
+
+    <string name="touch_app_launcher1_title">Applikáció indító</string>
+    <string name="touch_app_launcher_package_no_title">Válassz ki egy applikációt</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">Csak ha nincs képernyő zárolva</string>
+
+    <string name="touch_broadcast1_title">Broadcast küldése</string>
+    <string name="touch_broadcast1_action_title">Intent akció</string>
+    <string name="touch_broadcast1_package_title">Intent csomag név</string>
+
+    <string name="touch_http_request1_title">1. HTTP kérés</string>
+    <string name="touch_http_request2_title">2. HTTP kérés</string>
+    <string name="touch_http_request_url_title">URL</string>
+    <string name="touch_http_request_method_title">Metódus</string>
+    <string name="touch_http_request_body_title">Tartalma</string>
+    <string name="touch_http_request_show_response_title">Válasz megjelenítése</string>
+
+    <string name="touch_tasker_launcher1_title">1. Tasker feladat indító</string>
+    <string name="touch_tasker_launcher2_title">2. Tasker feladat indító</string>
+    <string name="touch_tasker_launcher_no_permission_title">Először a Tasker applikációt telepítsd utánna a Mi Bandage-t</string>
+    <string name="touch_tasker_launcher_no_access_title">Engedélyezd a külső hozzáférést (Allow external access)</string>
+    <string name="touch_tasker_launcher_no_task_title">Válassz ki egy feladatot</string>
+
+    <string name="touch_testing_title">Érintés figyelő</string>
+    <string name="touch_testing_second">mp.</string>
+
+    <string name="touch_setting_detection_time_title">Érintés érzékelési idő</string>
+    <string name="touch_setting_detection_time_music_hint">Ha alacsonyabb értéke van, akkor a zene képernyőt gyorsabban kell zárni</string>
+    <string name="touch_setting_detection_time_button_hint">Ha alacsonyabb értéke van, akkor a gombot gyorsabban kell nyomni</string>
+
+    <string name="touch_setting_detection_method_title">Érintés érzékelési módszer</string>
+
+    <string name="touch_setting_recognition_start_title">Érintés felismerés indítás</string>
+    <string name="touch_setting_recognition_start_trigger_title">Ravasz</string>
+    <string name="touch_setting_recognition_time_title">Figyelés ideje</string>
+
+    <string name="touch_setting_recognition_mi_band_signal_title">%1$s jelzés</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_setting_recognition_succeeded_title">Felismert érintés minta</string>
+    <string name="touch_setting_recognition_failed_title">Nem felismert érintés minta</string>
+
+    <string name="info_dialog_touch"><![CDATA[
+        <p>Önálló módban működik megfelelően. Együttműködési mód használata esetén a hivatalos <app_official> alkalmazás is kezelni fogja ezeket a funkciókat ezért a megfelelő működés nem biztosítható.</p>
+    ]]></string> <!-- %1$s Haylou fit-->
 
     <!-- Text display -->
     <string name="pref_text_alphanumeric_title">Alfanumerikus és ASCII karakterek </string>
@@ -423,6 +561,8 @@
     <string name="timed">Időzített</string>
     <string name="file_name">Fájl név</string>
     <string name="default_">Alapértelmezett</string>
+    <string name="invalid_setting">Érvénytelen beállítás</string>
+    <string name="ringtone">Csengőhang</string>
 
     <string name="action_dismiss">Bezár</string>
     <string name="action_setting">Beállítás</string>

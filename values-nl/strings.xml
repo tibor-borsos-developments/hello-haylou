@@ -7,6 +7,8 @@
     <string name="menu_nav_step">Activiteit</string>
     <string name="menu_nav_pulse">Hartslag</string>
     <string name="menu_nav_alarm">Alarm</string>
+    <string name="menu_nav_dnd">Niet Storen mode</string>
+    <string name="menu_nav_touch">Beheer instellingen</string>
     <string name="menu_nav_more">Meer</string>
     <string name="menu_nav_text_display">Tekst scherm</string>
     <string name="menu_nav_theme">Thema</string>
@@ -36,6 +38,8 @@
     <string name="device_state_disconnected">Niet verbonden</string>
     <string name="device_state_bonded">Gekoppeld Apparaat</string>
     <string name="device_state_not_bonded">Niet gekoppeld Apparaat</string>
+
+    <string name="pref_dnd_title">Niet Storen mode</string>
 
 
     <!-- Haylou setting -->
@@ -150,6 +154,8 @@
     <string name="message_undo">Ongedaan maken</string>
 
     <string name="message_app_chooser_no_selected">Selecteer een applicatie</string>
+
+    <string name="message_free_counter">Up to 1 setting can be used in normal mode</string>
 
     <string name="message_notification_free_groups">Up to %1$,d groepen kunnen worden gebruikt in Normale modus</string>
     <string name="message_notification_free_app">Up to 1 application can be selected in normal mode</string>
@@ -286,10 +292,142 @@
 
     <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Haylou Smart Watch ... -->
 
-    <string name="info_dialog_time"><![CDATA[
+    <string name="info_dialog_alarm"><![CDATA[
         <p>When using collaboration mode, the settings of the original application and the Hello Haylou application can overwrite and delete each other\'s settings.</p>
         <p>The last operation performed will take effect.</p>
     ]]></string>
+
+
+    <!-- Do not disturb -->
+    <string name="pref_dnd_summary">Controle instellingen tijdens Niet Storen modus</string>
+    <string name="pref_dnd_enable_bluetooth">Aan het begin van de NS modus Bluetooth uitschakelen, bij einde Bluetooth inschakelen</string>
+
+    <string name="info_dialog_dnd"><![CDATA[
+        <p>If you are using cooperation mode, in the official <device_type> application the do not disturb (DnD) mode must be between 00:00 and 23:59 and its status must be turned off.</p>
+    ]]></string> <!-- %1$s Haylou fit-->
+
+
+    <!-- Touch monitoring -->
+    <string name="touch_tab_function">Function</string>
+    <string name="touch_tab_control">Beheren</string>
+    <string name="touch_tab_testing">Testen</string>
+    <string name="touch_tab_setting">@string/setting_name</string>
+
+    <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
+    <string name="touch_function">%1$s function</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function_as_touch">Use function as a touch in the control menu</string>
+
+    <string name="touch_headline_incoming_call_title">Incoming call</string>
+    <string name="touch_headline_other_function_title">Other functions</string>
+    <string name="touch_headline_call_title">Bellen beheren</string>
+    <string name="touch_headline_music_title">Muziek beheren</string>
+    <string name="touch_headline_time_title">Timer/stopwatch beheren</string>
+    <string name="touch_headline_other_title">Anders beheer</string>
+
+    <string name="touch_call_answer_title">Oproep beantwoorden</string>
+    <string name="touch_call_answer_speakerphone_title">Telefoon luidspreker</string>
+
+    <string name="touch_call_end_title">Oproep weigeren, beëindigen</string>
+
+    <string name="touch_call_mute_title">Oproep dempenregeling</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Alleen als je een inkomende oproep hebt</string>
+    <string name="touch_call_mute_recognition_title">Bij inkomende oproep</string>
+    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/More/Find device</string>
+
+    <string name="touch_device_location_title">vind mijn telefoon</string>
+    <string name="touch_device_location_not_muted_only_title">Alleen geluid als het niet is gedempt of in NS mode</string>
+
+    <string name="touch_call_mute_toggle_title">Oproep dempenregeling</string>
+
+    <string name="touch_music_function_title">Muziek</string>
+    <string name="touch_music_function_launch">Start music with the play button if no music player is recognized</string>
+    <string name="touch_music_function_mi_band_message_launch">Start music with the play button</string>
+    <string name="touch_music_function_mi_band_message_no_track_title">Can\'t get the song name</string>
+
+    <string name="touch_call_out_title">Oproepen</string>
+    <string name="touch_call_out_no_contact">Een contact kiezen</string>
+    <string name="touch_call_out_summary">Druk tweemaal om de oproep te beantwoorden</string>
+    <string name="touch_call_out_summary_support_call_display_button">Druk knop om de oproep te beantwoorden</string>
+    <string name="touch_call_out_speakerphone_title">Telefoon luidspreker</string>
+    <string name="touch_call_out_call_text">Oproepen: %1$s</string>
+
+    <string name="touch_weather_title">Weersverwachting</string>
+    <string name="touch_weather_location">Locatie</string>
+    <string name="touch_weather_precipitation">Neerslag</string>
+    <string name="touch_weather_cloud_cover">Bewolking</string>
+    <string name="touch_weather_wind">Wind</string>
+
+    <string name="touch_repeat_notif_title">Herhalings meldingen</string>
+    <string name="touch_repeat_notif_clear_all">Wis alle meldingen na herhaling</string>
+
+    <string name="touch_clear_notif_title">Meldingen van telefoon wissen</string>
+
+    <string name="touch_music_play_pause_title">Muziek start, afspelen, pauze</string>
+    <string name="touch_music_skip_previous_title">Muziek start, vorig nummer</string>
+    <string name="touch_music_skip_next_title">Muziek start, volgend nummer</string>
+    <string name="touch_music_headset_only_title">Alleen als de hoofdtelefoon is aangesloten</string>
+    <string name="touch_music_launch">Start muziek</string>
+    <string name="touch_music_volume_up_title">Muziek volume ophoog</string>
+    <string name="touch_music_volume_down_title">Muziek volume omlaag</string>
+    <string name="touch_music_track_info_title">Toon muziek nummer info.</string>
+
+    <string name="touch_time_launch_title">Start tijd controle</string>
+    <string name="touch_time_launch_type_timer_title">Timer</string>
+    <string name="touch_time_launch_type_stopper_title">Stopwatch</string>
+    <string name="touch_time_launch_type_interval_title">Interval</string>
+    <string name="touch_time_launch_restart">Herstart indien in gebruik</string>
+    <string name="touch_time_reminder_title">Resterende/verstreken tijd weergeven</string>
+
+    <string name="touch_google_assistant_title">Google Assistant</string>
+
+    <string name="touch_flashlight_title">Flashlight toggle</string>
+
+    <string name="touch_camera_title">Maak foto</string>
+    <string name="touch_camera_front_title">Voorzijde</string>
+    <string name="touch_camera_rear_title">Achterzijde</string>
+    <string name="touch_camera_install_title">Installeren</string>
+
+    <string name="touch_app_launcher1_title">App starter</string>
+    <string name="touch_app_launcher_package_no_title">Selecteer een app</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">Alleen als het scherm niet is vergrendeld</string>
+
+    <string name="touch_broadcast1_title">Send Broadcast</string>
+    <string name="touch_broadcast1_action_title">Intent action</string>
+    <string name="touch_broadcast1_package_title">Intent package name</string>
+
+    <string name="touch_http_request1_title">1. HTTP request</string>
+    <string name="touch_http_request2_title">2. HTTP request</string>
+    <string name="touch_http_request_url_title">URL</string>
+    <string name="touch_http_request_method_title">Method</string>
+    <string name="touch_http_request_body_title">Body</string>
+    <string name="touch_http_request_show_response_title">Show the response</string>
+
+    <string name="touch_tasker_launcher1_title">1. Taken taak starter</string>
+    <string name="touch_tasker_launcher2_title">2. Taken taak starter</string>
+    <string name="touch_tasker_launcher_no_permission_title">Taken direct instellen na Mi Bandage</string>
+    <string name="touch_tasker_launcher_no_access_title">Externe toegang toestaan</string>
+    <string name="touch_tasker_launcher_no_task_title">Selecteer een taak</string>
+
+    <string name="touch_testing_title">Aanraak beheer</string>
+    <string name="touch_testing_second">sec.</string>
+
+    <string name="touch_setting_detection_time_title">Touch detection time</string>
+    <string name="touch_setting_detection_time_music_hint">If it has a lower value, the music screen should be closed faster</string>
+    <string name="touch_setting_detection_time_button_hint">If it has a lower value, press the button faster</string>
+
+    <string name="touch_setting_detection_method_title">Aanraak detectie methode</string>
+
+    <string name="touch_setting_recognition_start_title">Start de aanraakherkenning</string>
+    <string name="touch_setting_recognition_start_trigger_title">Oorzaak</string>
+    <string name="touch_setting_recognition_time_title">herkenningstijd</string>
+
+    <string name="touch_setting_recognition_mi_band_signal_title">%1$s signaal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_setting_recognition_succeeded_title">Herkenbaar aanraakpatroon</string>
+    <string name="touch_setting_recognition_failed_title">Niet Herkent aanraakpatroon</string>
+
+    <string name="info_dialog_touch"><![CDATA[
+        <p><Works properly in standalone mode. If you use cooperation mode, the official <app_official> application will also handle these functions, so proper operation cannot be guaranteed.</p>
+    ]]></string> <!-- %1$s Haylou fit-->
 
 
     <!-- Text display -->
@@ -313,7 +451,7 @@
     <string name="action_search">Zoeken</string>
     <string name="action_filter_notification">Meldings filter</string>
 
-    <string name="touch_tab_control">Beheren</string>
+    <string name="main_control">Beheren</string>
 
 
     <!-- Theme -->
@@ -416,6 +554,8 @@
     <string name="timed">Timed</string>
     <string name="file_name">Bestandsnaam</string>
     <string name="default_">Standaard</string>
+    <string name="invalid_setting">Invalid setting</string>
+    <string name="ringtone">Beltone</string>
 
     <string name="action_dismiss">Afwijzen</string>
     <string name="action_setting">Instellingen</string>

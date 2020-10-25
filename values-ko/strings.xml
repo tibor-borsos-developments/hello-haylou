@@ -7,6 +7,8 @@
     <string name="menu_nav_step">활동</string>
     <string name="menu_nav_pulse">심박수</string>
     <string name="menu_nav_alarm">알람</string>
+    <string name="menu_nav_dnd">방해 금지 모드</string>
+    <string name="menu_nav_touch">터치</string>
     <string name="menu_nav_more">더</string>
     <string name="menu_nav_text_display">텍스트 표시</string>
     <string name="menu_nav_theme">테마</string>
@@ -36,6 +38,8 @@
     <string name="device_state_disconnected">연결 해제됨</string>
     <string name="device_state_bonded">페어링된 기기</string>
     <string name="device_state_not_bonded">페어링되지 않은 기기</string>
+
+    <string name="pref_dnd_title">방해 금지 모드</string>
 
 
     <!--Haylou setting -->
@@ -151,6 +155,8 @@
 
     <string name="message_app_chooser_no_selected">애플리케이션 선택</string>
 
+    <string name="message_free_counter">Up to 1 setting can be used in normal mode</string>
+
     <string name="message_notification_free_groups">일반 모드에서는 최대 %1$,d개의 그룹을 사용할 수 있습니다</string>
     <string name="message_notification_free_app">Up to 1 application can be selected in normal mode</string>
     <string name="message_notification_free_apps">Up to %1$,d applications can be selected in normal mode</string>   <!-- %1$s = 2 or more  -->
@@ -254,7 +260,7 @@
     <string name="action_search">검색</string>
     <string name="action_filter_notification">알림 필터</string>
 
-    <string name="touch_tab_control">제어</string>
+    <string name="main_control">제어</string>
 
     <!-- Activity -->
     <string name="step_tab_day">Daily charts</string>
@@ -292,10 +298,142 @@
 
     <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Haylou Smart Watch ... -->
 
-    <string name="info_dialog_time"><![CDATA[
+    <string name="info_dialog_alarm"><![CDATA[
         <p>When using collaboration mode, the settings of the original application and the Hello Haylou application can overwrite and delete each other\'s settings.</p>
         <p>The last operation performed will take effect.</p>
     ]]></string>
+
+
+    <!-- Do not disturb -->
+    <string name="pref_dnd_summary">State of controllers in 방해 금지 모드</string>
+    <string name="pref_dnd_enable_bluetooth">방해 금지 모드가 시작될 때 블루투스를 끄고, 종료될 때 블루투스 켜기</string>
+
+    <string name="info_dialog_dnd"><![CDATA[
+        <p>If you are using cooperation mode, in the official <device_type> application the do not disturb (DnD) mode must be between 00:00 and 23:59 and its status must be turned off.</p>
+    ]]></string> <!-- %1$s Haylou fit-->
+
+
+    <!-- Touch monitoring -->
+    <string name="touch_tab_function">기능</string>
+    <string name="touch_tab_control">제어</string>
+    <string name="touch_tab_testing">작동 확인</string>
+    <string name="touch_tab_setting">@string/setting_name</string>
+
+    <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi 피트</string>
+    <string name="touch_function">%1$s 기능</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function_as_touch">Use function as a touch in the control menu</string>
+
+    <string name="touch_headline_incoming_call_title">Incoming call</string>
+    <string name="touch_headline_other_function_title">Other functions</string>
+    <string name="touch_headline_call_title">전화 제어</string>
+    <string name="touch_headline_music_title">음악 제어</string>
+    <string name="touch_headline_time_title">타이머/스톱워치 제어</string>
+    <string name="touch_headline_other_title">기타 제어</string>
+
+    <string name="touch_call_answer_title">전화 회신</string>
+    <string name="touch_call_answer_speakerphone_title">스피커폰</string>
+
+    <string name="touch_call_end_title">전화 거절, 종료</string>
+
+    <string name="touch_call_mute_title">전화 음소거</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">수신 전화가 왔을 때만</string>
+    <string name="touch_call_mute_recognition_title">수신 전화가 왔을 때</string>
+    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/더보기/기기 찾기</string>
+
+    <string name="touch_device_location_title">내 폰 찾기</string>
+    <string name="touch_device_location_not_muted_only_title">Sound only if it is not muted or in DnD mode</string>
+
+    <string name="touch_call_mute_toggle_title">폰 음소거 toggle</string>
+
+    <string name="touch_music_function_title">Musica</string>
+    <string name="touch_music_function_launch">Start music with the play button if no music player is recognized</string>
+    <string name="touch_music_function_mi_band_message_launch">Start music with the play button</string>
+    <string name="touch_music_function_mi_band_message_no_track_title">Can\'t get the song name</string>
+
+    <string name="touch_call_out_title">Call out</string>
+    <string name="touch_call_out_no_contact">Select an contact</string>
+    <string name="touch_call_out_summary">Double press to answer the call</string>
+    <string name="touch_call_out_summary_support_call_display_button">Press the button to answer the call</string>
+    <string name="touch_call_out_speakerphone_title">Speakerphone</string>
+    <string name="touch_call_out_call_text">Call out: %1$s</string>
+
+    <string name="touch_weather_title">일기 예보</string>
+    <string name="touch_weather_location">위치 업데이트</string>
+    <string name="touch_weather_precipitation">침적</string>
+    <string name="touch_weather_cloud_cover">구름 cover</string>
+    <string name="touch_weather_wind">바람</string>
+
+    <string name="touch_repeat_notif_title">Repeat notifications</string>
+    <string name="touch_repeat_notif_clear_all">Clear all notifications after repetition</string>
+
+    <string name="touch_clear_notif_title">Clear notifications from phone</string>
+
+    <string name="touch_music_play_pause_title">Music start, play, pause</string>
+    <string name="touch_music_skip_previous_title">Music start, previous song</string>
+    <string name="touch_music_skip_next_title">Music start, next song</string>
+    <string name="touch_music_headset_only_title">Only if the headset is connected</string>
+    <string name="touch_music_launch">Start music</string>
+    <string name="touch_music_volume_up_title">Music volume up</string>
+    <string name="touch_music_volume_down_title">Music volume down</string>
+    <string name="touch_music_track_info_title">Show music track info.</string>
+
+    <string name="touch_time_launch_title">Start time monitoring</string>
+    <string name="touch_time_launch_type_timer_title">타이머</string>
+    <string name="touch_time_launch_type_stopper_title">스톱워치</string>
+    <string name="touch_time_launch_type_interval_title">반복 알림</string>
+    <string name="touch_time_launch_restart">Restart if it is in progress</string>
+    <string name="touch_time_reminder_title">남은/지난 시간 표시</string>
+
+    <string name="touch_google_assistant_title">Google Assistant</string>
+
+    <string name="touch_flashlight_title">Flashlight toggle</string>
+
+    <string name="touch_camera_title">사진 촬영</string>
+    <string name="touch_camera_front_title">전면</string>
+    <string name="touch_camera_rear_title">후면</string>
+    <string name="touch_camera_install_title">설치</string>
+
+    <string name="touch_app_launcher1_title">앱 실행기</string>
+    <string name="touch_app_launcher_package_no_title">애플리케이션 선택</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">화면이 잠기지 않은 경우에만</string>
+
+    <string name="touch_broadcast1_title">Send Broadcast</string>
+    <string name="touch_broadcast1_action_title">Intent action</string>
+    <string name="touch_broadcast1_package_title">Intent package name</string>
+
+    <string name="touch_http_request1_title">1. HTTP request</string>
+    <string name="touch_http_request2_title">2. HTTP request</string>
+    <string name="touch_http_request_url_title">URL</string>
+    <string name="touch_http_request_method_title">Method</string>
+    <string name="touch_http_request_body_title">Body</string>
+    <string name="touch_http_request_show_response_title">Show the response</string>
+
+    <string name="touch_tasker_launcher1_title">1. Tasker task 런처</string>
+    <string name="touch_tasker_launcher2_title">2. Tasker task 런처</string>
+    <string name="touch_tasker_launcher_no_permission_title">You have to install Tasker first, after Mi Bandage</string>
+    <string name="touch_tasker_launcher_no_access_title">Allow external access</string>
+    <string name="touch_tasker_launcher_no_task_title">Select an task</string>
+
+    <string name="touch_testing_title">터치 모니터링</string>
+    <string name="touch_testing_second">초</string>
+
+    <string name="touch_setting_detection_time_title">터치 감지 시간</string>
+    <string name="touch_setting_detection_time_music_hint">If it has a lower value, the music screen should be closed faster</string>
+    <string name="touch_setting_detection_time_button_hint">If it has a lower value, press the button faster</string>
+
+    <string name="touch_setting_detection_method_title">터치 감지 수단</string>
+
+    <string name="touch_setting_recognition_start_title">터치 인식 시작</string>
+    <string name="touch_setting_recognition_start_trigger_title">Trigger</string>
+    <string name="touch_setting_recognition_time_title">인식 시간</string>
+
+    <string name="touch_setting_recognition_mi_band_signal_title">%1$s 신호</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_setting_recognition_succeeded_title">인식 가능한 터치 패턴</string>
+    <string name="touch_setting_recognition_failed_title">인식 불가능한 터치 패턴</string>
+
+    <string name="info_dialog_touch"><![CDATA[
+        <p><Works properly in standalone mode. If you use cooperation mode, the official <app_official> application will also handle these functions, so proper operation cannot be guaranteed.</p>
+    ]]></string> <!-- %1$s Haylou fit-->
 
 
     <!-- Text display -->
@@ -414,6 +552,8 @@
     <string name="timed">Timed</string>
     <string name="file_name">File name</string>
     <string name="default_">기본</string>
+    <string name="invalid_setting">Invalid setting</string>
+    <string name="ringtone">벨소리</string>
 
     <string name="action_dismiss">닫기</string>
     <string name="action_setting">설정</string>

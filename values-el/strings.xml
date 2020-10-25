@@ -7,6 +7,8 @@
     <string name="menu_nav_step">Δραστηριότητα</string>
     <string name="menu_nav_pulse">Παρακολούθηση παλμών</string>
     <string name="menu_nav_alarm">Ειδοποίηση</string>
+    <string name="menu_nav_dnd">Λειτουργία μην ενοχλείτε</string>
+    <string name="menu_nav_touch">Παρακολούθηση αφής</string>
     <string name="menu_nav_more">Περισσότερο</string>
     <string name="menu_nav_text_display">Ρυθμίσεις εικονιδίων κειμένου</string>
     <string name="menu_nav_theme">Pυθμίσεις θέματος</string>
@@ -36,6 +38,8 @@
     <string name="device_state_disconnected">Ξεσυνδεδεμένο</string>
     <string name="device_state_bonded">Συνδεδεμένη συσκευή</string>
     <string name="device_state_not_bonded">Ασύνδετη συσκευή</string>
+
+    <string name="pref_dnd_title">Λειτουργία μην ενοχλείτε</string>
 
 
     <!-- Hello Haylou setting -->
@@ -151,6 +155,8 @@
 
     <string name="message_app_chooser_no_selected">Επιλέξτε μια εφαρμογή</string>
 
+    <string name="message_free_counter">Up to 1 setting can be used in normal mode</string>
+
     <string name="message_notification_free_groups">Μπορούν να χρησιμοποιηθούν μέχρι %1$,d ομάδες</string>
     <string name="message_notification_free_app">Up to 1 application can be selected in normal mode</string>
     <string name="message_notification_free_apps">Up to %1$,d applications can be selected in normal mode</string>   <!-- %1$s = 2 or more  -->
@@ -254,7 +260,7 @@
     <string name="action_search">Αναζήτηση</string>
     <string name="action_filter_notification">Φίλτρο ειδοποιήσεων</string>
 
-    <string name="touch_tab_control">Έλεγχος</string>
+    <string name="main_control">Έλεγχος</string>
 
     <!-- Activity -->
     <string name="step_tab_day">Ημερήσια διαγράμματα</string>
@@ -292,10 +298,138 @@
 
     <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Haylou Smart Watch ... -->
 
-    <string name="info_dialog_time"><![CDATA[
+    <string name="info_dialog_alarm"><![CDATA[
         <p>When using collaboration mode, the settings of the original application and the Hello Haylou application can overwrite and delete each other\'s settings.</p>
         <p>The last operation performed will take effect.</p>
     ]]></string>
+
+
+    <!-- Do not disturb -->
+    <string name="pref_dnd_summary">Κατάσταση των ελεγκτών στη λειτουργία μην ενοχλείτε</string>
+    <string name="pref_dnd_enable_bluetooth">Στην αρχή της λειτουργίας Dnd απενεργοποιήσε το Bluetooth, στο τέλος ενεργοποιήσε το Bluetooth</string>
+
+    <string name="info_dialog_dnd"><![CDATA[
+        <p>If you are using cooperation mode, in the official <device_type> application the do not disturb (DnD) mode must be between 00:00 and 23:59 and its status must be turned off.</p>
+    ]]></string> <!-- %1$s Haylou fit-->
+
+
+    <!-- Touch monitoring -->
+    <!-- Touch monitoring -->
+    <string name="touch_headline_call_title">Έλεγχος κλήσης</string>
+    <string name="touch_headline_music_title">Έλεγχος μουσικής</string>
+    <string name="touch_headline_time_title">Έλεγχος αντιστροφής μέτρησης/χρονόμετρου</string>
+    <string name="touch_headline_other_title">Άλλοι έλεγχοι</string>
+
+    <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
+    <string name="touch_function">%1$s function</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function_as_touch">Use function as a touch in the control menu</string>
+
+    <string name="touch_headline_incoming_call_title">Incoming call</string>
+    <string name="touch_headline_other_function_title">Other functions</string>
+    <string name="touch_call_answer_title">Απάντηση κλήσης</string>
+    <string name="touch_call_answer_speakerphone_title">Μεγάφωνο</string>
+
+    <string name="touch_call_end_title">Απόρριψη/αποσύνδεση κλήσης</string>
+
+    <string name="touch_call_mute_title">Εναλλαγή σίγασης κλήσης</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Μόνο εάν έχετε εισερχόμενη κλήση</string>
+    <string name="touch_call_mute_recognition_title">Στην εισερχόμενη κλήση</string>
+    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/More/Find device</string>
+
+    <string name="touch_device_location_title">Εύρεση της συσκευής μου</string>
+    <string name="touch_device_location_not_muted_only_title">Ήχος εφόσον δεν είναι σε σίγαση</string>
+
+    <string name="touch_call_mute_toggle_title">Εναλλαγή σίγασης κλήσης</string>
+
+    <string name="touch_music_function_title">Μουσικη</string>
+    <string name="touch_music_function_launch">Start music with the play button if no music player is recognized</string>
+    <string name="touch_music_function_mi_band_message_launch">Start music with the play button</string>
+    <string name="touch_music_function_mi_band_message_no_track_title">Can\'t get the song name</string>
+
+    <string name="touch_call_out_title">Εξερχόμενη κλήση</string>
+    <string name="touch_call_out_no_contact">Επιλέξτε μια επαφή</string>
+    <string name="touch_call_out_summary">Πατήστε δύο φορές το κουμπί για να απαντήσετε στην κλήση</string>
+    <string name="touch_call_out_summary_support_call_display_button">Πατήστε το κουμπί για να απαντήσετε στην κλήση</string>
+    <string name="touch_call_out_speakerphone_title">Μεγάφωνο</string>
+    <string name="touch_call_out_call_text">Εξερχόμενη κλήση: %1$s</string>
+
+    <string name="touch_weather_title">Δελτίο καιρού</string>
+    <string name="touch_weather_location">Τοποθεσία</string>
+    <string name="touch_weather_precipitation">Κατακρήμνιση</string>
+    <string name="touch_weather_cloud_cover">Νεφοκάλυψη</string>
+    <string name="touch_weather_wind">Ανεμος</string>
+
+    <string name="touch_repeat_notif_title">Επανάληψη ειδοποιήσης</string>
+    <string name="touch_repeat_notif_clear_all">Καθαρίστε όλες τις ειδοποιήσεις μετά την επανάληψη</string>
+
+    <string name="touch_clear_notif_title">Καθαρισμός ειδοποιήσεων</string>
+
+    <string name="touch_music_play_pause_title">Έναρξη μουσικής, αναπαραγωγή, παύση</string>
+    <string name="touch_music_skip_previous_title">Έναρξη μουσικής, προηγούμενο τραγούδι</string>
+    <string name="touch_music_skip_next_title">Έναρξη μουσικής, επόμενο τραγούδι</string>
+    <string name="touch_music_headset_only_title">Μόνο αν τα ακουστικά είναι συνδεδεμένα</string>
+    <string name="touch_music_launch">Έναρξη μουσικής</string>
+    <string name="touch_music_volume_up_title">Αύξηση έντασης μουσικής</string>
+    <string name="touch_music_volume_down_title">Μείωση έντασης μουσικής</string>
+    <string name="touch_music_track_info_title">Εμφάνιση πληροφοριών μουσικού κομματιού.</string>
+
+    <string name="touch_time_launch_title">Παρακολούθηση χρόνου έναρξης</string>
+    <string name="touch_time_launch_type_timer_title">Αντίστροφή μέτρηση</string>
+    <string name="touch_time_launch_type_stopper_title">Χρονόμετρο</string>
+    <string name="touch_time_launch_type_interval_title">Διάστημα</string>
+    <string name="touch_time_launch_restart">Κάντε επανεκκίνηση εάν είναι σε εξέλιξη</string>
+    <string name="touch_time_reminder_title">Εμφάνιση τρέχων/υπολειπόμενου χρόνου</string>
+
+    <string name="touch_google_assistant_title">Google Assistant</string>
+
+    <string name="touch_flashlight_title">Flashlight toggle</string>
+
+    <string name="touch_camera_title">Βγάλε μια φωτογραφία</string>
+    <string name="touch_camera_front_title">Εμπρός</string>
+    <string name="touch_camera_rear_title">Πίσω</string>
+    <string name="touch_camera_install_title">εγκατάσταση</string>
+
+    <string name="touch_app_launcher1_title">Εκκίνηση εφαρμογής</string>
+    <string name="touch_app_launcher_package_no_title">Επιλέξτε μια εφαρμογή</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">Μόνο αν η οθόνη δεν είναι κλειδωμένη</string>
+
+    <string name="touch_broadcast1_title">Send Broadcast</string>
+    <string name="touch_broadcast1_action_title">Intent action</string>
+    <string name="touch_broadcast1_package_title">Intent package name</string>
+
+    <string name="touch_http_request1_title">1. HTTP request</string>
+    <string name="touch_http_request2_title">2. HTTP request</string>
+    <string name="touch_http_request_url_title">URL</string>
+    <string name="touch_http_request_method_title">Method</string>
+    <string name="touch_http_request_body_title">Body</string>
+    <string name="touch_http_request_show_response_title">Show the response</string>
+
+    <string name="touch_tasker_launcher1_title">1. Εκκίνηση εργασίας tasker</string>
+    <string name="touch_tasker_launcher2_title">2. Εκκίνηση εργασίας tasker</string>
+    <string name="touch_tasker_launcher_no_permission_title">Θα πρέπει να εγκαταστήσετε το Tasker πρώτα και μετά Mi Bandage</string>
+    <string name="touch_tasker_launcher_no_access_title">Επέτρεψε την εξωτερική πρόσβαση (Allow external access)</string>
+    <string name="touch_tasker_launcher_no_task_title">Επιλογή εργασίας</string>
+
+    <string name="touch_testing_title">Παρακολούθηση αφής</string>
+    <string name="touch_testing_second">δευτ.</string>
+
+    <string name="touch_setting_detection_time_title">Touch detection time</string>
+    <string name="touch_setting_detection_time_music_hint">If it has a lower value, the music screen should be closed faster</string>
+    <string name="touch_setting_detection_time_button_hint">If it has a lower value, press the button faster</string>
+
+    <string name="touch_setting_detection_method_title">Touch detection method</string>
+
+    <string name="touch_setting_recognition_start_title">Ξεκινήστε την αναγνώριση αφής</string>
+    <string name="touch_setting_recognition_start_trigger_title">Έναυσμα</string>
+    <string name="touch_setting_recognition_time_title">Χρόνος αναγνώρισης</string>
+
+    <string name="touch_setting_recognition_mi_band_signal_title">Σήμα %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_setting_recognition_succeeded_title">Αναγνωρίσιμο μοτίβο αφής</string>
+    <string name="touch_setting_recognition_failed_title">Μη αναγνωρίσιμο μοτίβο αφής</string>
+
+    <string name="info_dialog_touch"><![CDATA[
+        <p><Works properly in standalone mode. If you use cooperation mode, the official <app_official> application will also handle these functions, so proper operation cannot be guaranteed.</p>
+    ]]></string> <!-- %1$s Haylou fit-->
 
 
     <!-- Text display -->
@@ -414,6 +548,8 @@
     <string name="timed">Timed</string>
     <string name="file_name">Όνομα αρχείου</string>
     <string name="default_">Προεπιλογή</string>
+    <string name="invalid_setting">Invalid setting</string>
+    <string name="ringtone">Ήχος κλήσης</string>
 
     <string name="action_dismiss">Απόρριψη</string>
     <string name="action_setting">Ρυθμίσεις</string>

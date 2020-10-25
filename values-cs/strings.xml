@@ -7,6 +7,8 @@
     <string name="menu_nav_step">Aktivita</string>
     <string name="menu_nav_pulse">Tep</string>
     <string name="menu_nav_alarm">Budík</string>
+    <string name="menu_nav_dnd">Režim nerušit (DnD)</string>
+    <string name="menu_nav_touch">Dotek</string>
     <string name="menu_nav_more">Více</string>
     <string name="menu_nav_text_display">Textové ikony</string>
     <string name="menu_nav_theme">Styly</string>
@@ -37,6 +39,7 @@
     <string name="device_state_bonded">Spárované zařízení</string>
     <string name="device_state_not_bonded">Není spárováno zařízení</string>
 
+    <string name="pref_dnd_title">Režim nerušit (DnD)</string>
 
     <!-- Haylou setting -->
     <string name="mi_band_setting_button_title">Nastavení %1$s・Profil・Text・Hovor・Menu</string>
@@ -151,6 +154,8 @@
 
     <string name="message_app_chooser_no_selected">Vyberte aplikaci</string>
 
+    <string name="message_free_counter">Up to 1 setting can be used in normal mode</string>
+
     <string name="message_notification_free_groups">V normálním režimu lze použít až %1$,d skupin</string>
     <string name="message_notification_free_app">Up to 1 application can be selected in normal mode</string>
     <string name="message_notification_free_apps">Up to %1$,d applications can be selected in normal mode</string>   <!-- %1$s = 2 or more  -->
@@ -254,7 +259,7 @@
     <string name="action_search">Vyhledávání</string>
     <string name="action_filter_notification">Filtr oznámení</string>
 
-    <string name="touch_tab_control">Ovládání</string>
+    <string name="main_control">Ovládání</string>
 
     <!-- Activity -->
     <string name="step_tab_day">Denní grafy</string>
@@ -292,10 +297,142 @@
 
     <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Haylou Smart Watch ... -->
 
-    <string name="info_dialog_time"><![CDATA[
+    <string name="info_dialog_alarm"><![CDATA[
         <p>When using collaboration mode, the settings of the original application and the Hello Haylou application can overwrite and delete each other\'s settings.</p>
         <p>The last operation performed will take effect.</p>
     ]]></string>
+
+
+    <!-- Do not disturb -->
+    <string name="pref_dnd_summary">Nastavení v režimu nerušit</string>
+    <string name="pref_dnd_enable_bluetooth">Na začátku režimu DnD vypněte Bluetooth, na konci Bluetooth zapněte</string>
+
+    <string name="info_dialog_dnd"><![CDATA[
+        <p>If you are using cooperation mode, in the official <device_type> application the do not disturb (DnD) mode must be between 00:00 and 23:59 and its status must be turned off.</p>
+    ]]></string> <!-- %1$s Haylou fit-->
+
+
+    <!-- Touch monitoring -->
+    <string name="touch_tab_function">Function</string>
+    <string name="touch_tab_control">Ovládání</string>
+    <string name="touch_tab_testing">Testování</string>
+    <string name="touch_tab_setting">@string/setting_name</string>
+
+    <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
+    <string name="touch_function">%1$s function</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function_as_touch">Use function as a touch in the control menu</string>
+
+    <string name="touch_headline_incoming_call_title">Incoming call</string>
+    <string name="touch_headline_other_function_title">Other functions</string>
+    <string name="touch_headline_call_title">Ovládání hovorů</string>
+    <string name="touch_headline_music_title">Ovládání hudby</string>
+    <string name="touch_headline_time_title">Ovládání časovače/stopek</string>
+    <string name="touch_headline_other_title">Další ovládací prvky</string>
+
+    <string name="touch_call_answer_title">Zpětné volání</string>
+    <string name="touch_call_answer_speakerphone_title">Hlasité volání</string>
+
+    <string name="touch_call_end_title">Odmítnutí hovoru, ukončení</string>
+
+    <string name="touch_call_mute_title">Zavoleju</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Pouze pokud máte příchozí hovor</string>
+    <string name="touch_call_mute_recognition_title">Při příchozím hovoru</string>
+    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/More/Find device</string>
+
+    <string name="touch_device_location_title">Najit zařízení</string>
+    <string name="touch_device_location_not_muted_only_title">Zvuk pouze v případě, pokud není ztlumený nebo v režimu DnD</string>
+
+    <string name="touch_call_mute_toggle_title">Přepínač ztlumení hovoru</string>
+
+    <string name="touch_music_function_title">Hudba</string>
+    <string name="touch_music_function_launch">Start music with the play button if no music player is recognized</string>
+    <string name="touch_music_function_mi_band_message_launch">Start music with the play button</string>
+    <string name="touch_music_function_mi_band_message_no_track_title">Can\'t get the song name</string>
+
+    <string name="touch_call_out_title">Zavolat</string>
+    <string name="touch_call_out_no_contact">Zvolit kontakt</string>
+    <string name="touch_call_out_summary">Dvojklik pro přijmutí hovoru</string>
+    <string name="touch_call_out_summary_support_call_display_button">Zmáčknout tlačítko pro přijmutí hovoru</string>
+    <string name="touch_call_out_speakerphone_title">Hlasité volání</string>
+    <string name="touch_call_out_call_text">Zavolat: %1$s</string>
+
+    <string name="touch_weather_title">Předpověď počasí</string>
+    <string name="touch_weather_location">Umístění</string>
+    <string name="touch_weather_precipitation">Srážky</string>
+    <string name="touch_weather_cloud_cover">Oblačnost</string>
+    <string name="touch_weather_wind">Vítr</string>
+
+    <string name="touch_repeat_notif_title">Opakovat oznámení</string>
+    <string name="touch_repeat_notif_clear_all">Vymazat všechny notifikace po opakování</string>
+
+    <string name="touch_clear_notif_title">Vymazat notofikace z telefonu</string>
+
+    <string name="touch_music_play_pause_title">Zapnutí hudby, přehrát, pauza</string>
+    <string name="touch_music_skip_previous_title">Zapnutí hudby, předchozí skladba</string>
+    <string name="touch_music_skip_next_title">Zapnutí hudby, další skladba</string>
+    <string name="touch_music_headset_only_title">Pouze pokud sluchátka jsou připojené</string>
+    <string name="touch_music_launch">Zapnutí hudby</string>
+    <string name="touch_music_volume_up_title">Zvýšit hlasitost hudby</string>
+    <string name="touch_music_volume_down_title">Snížit hlasitost hudby</string>
+    <string name="touch_music_track_info_title">Zobrazit informace o hudební skladbě.</string>
+
+    <string name="touch_time_launch_title">Monitorování počátečního času</string>
+    <string name="touch_time_launch_type_timer_title">Časovač</string>
+    <string name="touch_time_launch_type_stopper_title">Stopky</string>
+    <string name="touch_time_launch_type_interval_title">Interval</string>
+    <string name="touch_time_launch_restart">Restartovat (pokud běží)</string>
+    <string name="touch_time_reminder_title">Zobrazit zbývající/uplynulý čas</string>
+
+    <string name="touch_google_assistant_title">Google Assistant</string>
+
+    <string name="touch_flashlight_title">Flashlight toggle</string>
+
+    <string name="touch_camera_title">Udělat foto</string>
+    <string name="touch_camera_front_title">Přední</string>
+    <string name="touch_camera_rear_title">Zadní</string>
+    <string name="touch_camera_install_title">Instalovat</string>
+
+    <string name="touch_app_launcher1_title">Spouštěč aplikací</string>
+    <string name="touch_app_launcher_package_no_title">Vyberte aplikaci</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">Pouze pokud obrazovka není uzamčena</string>
+
+    <string name="touch_broadcast1_title">Send Broadcast</string>
+    <string name="touch_broadcast1_action_title">Intent action</string>
+    <string name="touch_broadcast1_package_title">Intent package name</string>
+
+    <string name="touch_http_request1_title">1. HTTP request</string>
+    <string name="touch_http_request2_title">2. HTTP request</string>
+    <string name="touch_http_request_url_title">URL</string>
+    <string name="touch_http_request_method_title">Method</string>
+    <string name="touch_http_request_body_title">Body</string>
+    <string name="touch_http_request_show_response_title">Show the response</string>
+
+    <string name="touch_tasker_launcher1_title">1. Spouštěč úkolů Tasker</string>
+    <string name="touch_tasker_launcher2_title">2. Spouštěč úkolů Tasker</string>
+    <string name="touch_tasker_launcher_no_permission_title">Nejprve musíte nainstalovat Tasker, poté Mi Bandage</string>
+    <string name="touch_tasker_launcher_no_access_title">Povolit externí přístup</string>
+    <string name="touch_tasker_launcher_no_task_title">Zvolit úkol</string>
+
+    <string name="touch_testing_title">Záznam dotyku</string>
+    <string name="touch_testing_second">sek.</string>
+
+    <string name="touch_setting_detection_time_title">Touch detection time</string>
+    <string name="touch_setting_detection_time_music_hint">If it has a lower value, the music screen should be closed faster</string>
+    <string name="touch_setting_detection_time_button_hint">If it has a lower value, press the button faster</string>
+
+    <string name="touch_setting_detection_method_title">Metoda detekce dotyku</string>
+
+    <string name="touch_setting_recognition_start_title">Spusťte rozpoznání dotyku</string>
+    <string name="touch_setting_recognition_start_trigger_title">Spoušť</string>
+    <string name="touch_setting_recognition_time_title">Doba rozpoznávání</string>
+
+    <string name="touch_setting_recognition_mi_band_signal_title">Oznámení na %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_setting_recognition_succeeded_title">Rozpoznatelný dotyk</string>
+    <string name="touch_setting_recognition_failed_title">Nerozpoznatelný dotyk</string>
+
+    <string name="info_dialog_touch"><![CDATA[
+        <p><Works properly in standalone mode. If you use cooperation mode, the official <app_official> application will also handle these functions, so proper operation cannot be guaranteed.</p>
+    ]]></string> <!-- %1$s Haylou fit-->
 
 
     <!-- Text display -->
@@ -413,6 +550,8 @@
     <string name="timed">Timed</string>
     <string name="file_name">Název souboru</string>
     <string name="default_">Default</string>
+    <string name="invalid_setting">Invalid setting</string>
+    <string name="ringtone">Vyzvánění</string>
 
     <string name="action_dismiss">Odmítnout</string>
     <string name="action_setting">Nastavení</string>
