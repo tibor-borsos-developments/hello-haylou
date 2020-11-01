@@ -168,6 +168,9 @@
     <string name="message_time_alarm_disabled">Будильник выключен</string>
     <string name="message_time_alarm_mi_band_off">Будильник выключен</string>
 
+    <string name="message_touch_pattern_error">Заданная последовательность похожа на последовательность другой функции, запишите другую</string>
+    <string name="message_touch_free_patterns">Максимум %1$,d функции</string>
+
     <string name="message_premium_mode_only">Эта функция доступна только в премиуме</string>
     <string name="message_feature_is_not_supported">%1$s не поддерживает данную функцию</string>
     <string name="message_general_error">Ошибка (соединение потеряно), попробуйте снова</string>
@@ -342,7 +345,9 @@
     <string name="touch_device_location_title">Найти устройство</string>
     <string name="touch_device_location_not_muted_only_title">Подчиняться беззвучному режиму</string>
 
-    <string name="touch_call_mute_toggle_title">Переключение звука звонка</string>
+    <string name="touch_mute_toggle_title">Переключение звука звонка</string>
+    <string name="touch_mute_toggle_ringer_mode_title">Mute mode</string>
+    <string name="touch_mute_toggle_mute_off_title">Mute off</string>
 
     <string name="touch_music_title">Музыка</string>
     <string name="touch_music_function_launch">Начните воспроизведение нажав кнопку, если плеер не распознан</string>
@@ -432,6 +437,10 @@
 
     <string name="info_dialog_touch"><![CDATA[
         <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
+        <b><u>Recognised touches</u></b>
+        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next"> music control
+        <br><img src="ic_touch_find"> find my phone
+        <p>Multiple touches can be recorded for a function.</p>
     ]]></string> <!-- %1$s Haylou fit-->
 
 
@@ -574,6 +583,10 @@
 
     <string name="action_chart">График</string>
     <string name="action_zoom_in">Zoom in</string>
+    <string name="action_chart_normalize_minute">Измеренные значения</string>
+    <string name="action_chart_normalize_quarter_hourly">Средние значения (15 м)</string>
+    <string name="action_chart_normalize_half_hourly">Средние значения (30 м)</string>
+    <string name="action_chart_normalize_hourly">Средние значения (1 ч)</string>
     <string name="action_chart_sort_time_asc">Время, по возрастанию</string>
     <string name="action_chart_sort_time_desc">Время, по убыванию</string>
     <string name="action_chart_sort_step_asc">Шаги, по возрастанию</string>

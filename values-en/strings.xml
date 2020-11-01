@@ -168,6 +168,9 @@
     <string name="message_time_alarm_disabled">Alarm disabled</string>
     <string name="message_time_alarm_mi_band_off">Alarm off</string>
 
+    <string name="message_touch_pattern_error">The specified pattern is similar to a sample of another function, record another</string>
+    <string name="message_touch_free_patterns">You can not use more than %1$,d controls in normal mode</string>
+
     <string name="message_premium_mode_only">This feature is only available in premium mode</string>
     <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
     <string name="message_general_error">Setting failed (connection lost), try again</string>
@@ -341,7 +344,9 @@
     <string name="touch_device_location_title">Find my phone</string>
     <string name="touch_device_location_not_muted_only_title">Sound only if it is not muted or in DnD mode</string>
 
-    <string name="touch_call_mute_toggle_title">Phone mute toggle</string>
+    <string name="touch_mute_toggle_title">Phone mute toggle</string>
+    <string name="touch_mute_toggle_ringer_mode_title">Mute mode</string>
+    <string name="touch_mute_toggle_mute_off_title">Mute off</string>
 
     <string name="touch_music_title">Music</string>
     <string name="touch_music_function_launch">Start music with the play button if no music player is recognized</string>
@@ -431,6 +436,10 @@
 
     <string name="info_dialog_touch"><![CDATA[
         <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
+        <b><u>Recognised touches</u></b>
+        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next"> music control
+        <br><img src="ic_touch_find"> find my phone
+        <p>Multiple touches can be recorded for a function.</p>
     ]]></string> <!-- %1$s Haylou fit-->
 
     <!-- Text display -->
@@ -572,6 +581,10 @@
 
     <string name="action_chart">Chart</string>
     <string name="action_zoom_in">Zoom in</string>
+    <string name="action_chart_normalize_minute">Measured values</string>
+    <string name="action_chart_normalize_quarter_hourly">Quarter-hourly values</string>
+    <string name="action_chart_normalize_half_hourly">Half-hourly values</string>
+    <string name="action_chart_normalize_hourly">Hourly values</string>
     <string name="action_chart_sort_time_asc">Time ascending</string>
     <string name="action_chart_sort_time_desc">Time descending</string>
     <string name="action_chart_sort_step_asc">Step ascending</string>
@@ -629,4 +642,8 @@
         <item quantity="other">%d seconds</item>
     </plurals>
 
+    <string name="problem.lvl" translatable="false">problem.lvl</string>
+    <string name="s_837" translatable="false">3</string>
+    <string name="s_482" translatable="false">8</string>
+    <string name="s_1333" translatable="false">6</string>
 </resources>

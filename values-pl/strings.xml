@@ -169,6 +169,9 @@
     <string name="message_time_alarm_disabled">Alarm wyłączony</string>
     <string name="message_time_alarm_mi_band_off">Alarm wyłączony</string>
 
+    <string name="message_touch_pattern_error">Podany wzór jest podobny do wzoru innej funkcji, nagraj inny</string>
+    <string name="message_touch_free_patterns">Nie możesz użyć więcej niż %1$,d funkcji w trybie normalnym</string>
+
     <string name="message_premium_mode_only">Ta funkcja jest dostępna tylko w trybie premium</string>
     <string name="message_general_error">Ustawienie nie powiodło się (utracono połączenie), spróbuj ponownie</string>
     <string name="message_internet_error">Nie ma połączenia z Internetem</string>
@@ -342,7 +345,9 @@
     <string name="touch_device_location_title">Znajdź mój telefon</string>
     <string name="touch_device_location_not_muted_only_title">Dźwięk tylko wtedy, gdy nie jest wyciszony lub w trybie Nie przeszkadzać</string>
 
-    <string name="touch_call_mute_toggle_title">Wyciszenie połączenia</string>
+    <string name="touch_mute_toggle_title">Wyciszenie połączenia</string>
+    <string name="touch_mute_toggle_ringer_mode_title">Mute mode</string>
+    <string name="touch_mute_toggle_mute_off_title">Mute off</string>
 
     <string name="touch_music_title">Muzyka</string>
     <string name="touch_music_function_launch">Rozpocznij odtwarzanie muzyki za pomocą przycisku odtwarzania, jeśli nie zostanie rozpoznany żaden odtwarzacz muzyki</string>
@@ -432,6 +437,10 @@
 
     <string name="info_dialog_touch"><![CDATA[
         <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
+        <b><u>Recognised touches</u></b>
+        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next"> music control
+        <br><img src="ic_touch_find"> find my phone
+        <p>Multiple touches can be recorded for a function.</p>
     ]]></string> <!-- %1$s Haylou fit-->
 
 
@@ -574,6 +583,10 @@
 
     <string name="action_chart">Wykres</string>
     <string name="action_zoom_in">Zoom in</string>
+    <string name="action_chart_normalize_minute">Mierzone wartości</string>
+    <string name="action_chart_normalize_quarter_hourly">Wartości kwadransowe</string>
+    <string name="action_chart_normalize_half_hourly">Wartości półgodzinne</string>
+    <string name="action_chart_normalize_hourly">Wartości godzinne</string>
     <string name="action_chart_sort_time_asc">Czas rosnąco</string>
     <string name="action_chart_sort_time_desc">Czas malejąco</string>
     <string name="action_chart_sort_step_asc">Kroki rosnąco</string>

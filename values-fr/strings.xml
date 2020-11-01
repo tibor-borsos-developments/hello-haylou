@@ -169,6 +169,9 @@
     <string name="message_time_alarm_disabled">Alarme désactivée</string>
     <string name="message_time_alarm_mi_band_off">Alarme off</string>
 
+    <string name="message_touch_pattern_error">Le motif défini est identique à un autre d\'une autre fonction, veuillez le changer</string>
+    <string name="message_touch_free_patterns">Vous ne pouvez pas utiliser plus de %1$,d fonctions en mode normal</string>
+
     <string name="message_premium_mode_only">Cette fonction est uniquement disponible en mode premium</string>
     <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
     <string name="message_general_error">Échec du réglage (connexion perdue), veuillez réessayer</string>
@@ -343,7 +346,9 @@
     <string name="touch_device_location_title">Trouver mon mobile</string>
     <string name="touch_device_location_not_muted_only_title">Émettre un son s\'il n\'est pas en muet ou en mode DnD</string>
 
-    <string name="touch_call_mute_toggle_title">Appels basculés en muet</string>
+    <string name="touch_mute_toggle_title">Appels basculés en muet</string>
+    <string name="touch_mute_toggle_ringer_mode_title">Mute mode</string>
+    <string name="touch_mute_toggle_mute_off_title">Mute off</string>
 
     <string name="touch_music_title">La musique</string>
     <string name="touch_music_function_launch">Start music with the play button if no music player is recognized</string>
@@ -433,6 +438,10 @@
 
     <string name="info_dialog_touch"><![CDATA[
         <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
+        <b><u>Recognised touches</u></b>
+        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next"> music control
+        <br><img src="ic_touch_find"> find my phone
+        <p>Multiple touches can be recorded for a function.</p>
     ]]></string> <!-- %1$s Haylou fit-->
 
 
@@ -575,6 +584,10 @@
 
     <string name="action_chart">Graph</string>
     <string name="action_zoom_in">Zoom in</string>
+    <string name="action_chart_normalize_minute">Valeurs mesurées</string>
+    <string name="action_chart_normalize_quarter_hourly">Tous les quarts d\'heure</string>
+    <string name="action_chart_normalize_half_hourly">Toutes les demi-heures</string>
+    <string name="action_chart_normalize_hourly">Toutes les heures</string>
     <string name="action_chart_sort_time_asc">Temps croissant</string>
     <string name="action_chart_sort_time_desc">Temps décroissant</string>
     <string name="action_chart_sort_step_asc">Pas croissant</string>

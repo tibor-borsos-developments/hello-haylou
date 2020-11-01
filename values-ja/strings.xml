@@ -168,6 +168,9 @@
     <string name="message_time_alarm_disabled">アラームが無効になりました</string>
     <string name="message_time_alarm_mi_band_off">アラームがオフになりました</string>
 
+    <string name="message_touch_pattern_error">パターンが類似しています。別のパターンを記録してください</string>
+    <string name="message_touch_free_patterns">ノーマルモードでは%1$,d個以上のパターンは使用できません</string>
+
     <string name="message_premium_mode_only">この機能はプレミアムモードでのみ利用可能です</string>
     <string name="message_feature_is_not_supported">%1$sはこの機能をサポートしていません</string>
     <string name="message_general_error">設定に失敗しました（接続が切断されました）。再試行してください</string>
@@ -342,7 +345,9 @@
     <string name="touch_device_location_title">端末を探す</string>
     <string name="touch_device_location_not_muted_only_title">ミュート・DND時は鳴動しない</string>
 
-    <string name="touch_call_mute_toggle_title">端末のミュート</string>
+    <string name="touch_mute_toggle_title">端末のミュート</string>
+    <string name="touch_mute_toggle_ringer_mode_title">Mute mode</string>
+    <string name="touch_mute_toggle_mute_off_title">Mute off</string>
 
     <string name="touch_music_title">音楽</string>
     <string name="touch_music_function_launch">音楽プレーヤーが認識されない場合に、再生ボタンで音楽を再生</string>
@@ -432,6 +437,10 @@
 
     <string name="info_dialog_touch"><![CDATA[
         <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
+        <b><u>Recognised touches</u></b>
+        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next"> music control
+        <br><img src="ic_touch_find"> find my phone
+        <p>Multiple touches can be recorded for a function.</p>
     ]]></string> <!-- %1$s Haylou fit-->
 
 
@@ -574,6 +583,10 @@
 
     <string name="action_chart">チャート</string>
     <string name="action_zoom_in">Zoom in</string>
+    <string name="action_chart_normalize_minute">測定値</string>
+    <string name="action_chart_normalize_quarter_hourly">15分毎の値</string>
+    <string name="action_chart_normalize_half_hourly">30分毎の値</string>
+    <string name="action_chart_normalize_hourly">1時間毎の値</string>
     <string name="action_chart_sort_time_asc">時間/昇順</string>
     <string name="action_chart_sort_time_desc">時間/降順</string>
     <string name="action_chart_sort_step_asc">歩数/昇順</string>

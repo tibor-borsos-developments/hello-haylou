@@ -169,6 +169,9 @@
     <string name="message_time_alarm_disabled">Alarmă dezactivată</string>
     <string name="message_time_alarm_mi_band_off">Alarmă oprită</string>
 
+    <string name="message_touch_pattern_error">Modelul specificat este similar cu o bucată a altei funcții, înregistrează altul</string>
+    <string name="message_touch_free_patterns">Nu poți folosi mai mult de %1$,d funcții în modul normal</string>
+
     <string name="message_premium_mode_only">Această funcție este disponibilă numai în modul premium</string>
     <string name="message_general_error">Setarea a eșuat (conexiunea s-a pierdut), încearcă din nou</string>
     <string name="message_internet_error">Lipsă conexiune la internet</string>
@@ -341,7 +344,9 @@
     <string name="touch_device_location_title">Găsește-mi telefonul</string>
     <string name="touch_device_location_not_muted_only_title">Sunet numai dacă nu este pe mut sau în modul DnD</string>
 
-    <string name="touch_call_mute_toggle_title">Comutator apel silențios</string>
+    <string name="touch_mute_toggle_title">Comutator apel silențios</string>
+    <string name="touch_mute_toggle_ringer_mode_title">Mute mode</string>
+    <string name="touch_mute_toggle_mute_off_title">Mute off</string>
 
     <string name="touch_music_title">Muzică</string>
     <string name="touch_music_function_launch">Start music with the play button if no music player is recognized</string>
@@ -431,6 +436,10 @@
 
     <string name="info_dialog_touch"><![CDATA[
         <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
+        <b><u>Recognised touches</u></b>
+        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next"> music control
+        <br><img src="ic_touch_find"> find my phone
+        <p>Multiple touches can be recorded for a function.</p>
     ]]></string> <!-- %1$s Haylou fit-->
 
 
@@ -573,6 +582,10 @@
 
     <string name="action_chart">Grafic</string>
     <string name="action_zoom_in">Zoom in</string>
+    <string name="action_chart_normalize_minute">Valori măsurate</string>
+    <string name="action_chart_normalize_quarter_hourly">Valori la sfert de oră</string>
+    <string name="action_chart_normalize_half_hourly">Valori la jumătate de oră</string>
+    <string name="action_chart_normalize_hourly">Valori la fiecare oră</string>
     <string name="action_chart_sort_time_asc">Timp ascendent</string>
     <string name="action_chart_sort_time_desc">Timp descendent</string>
     <string name="action_chart_sort_step_asc">Pași ascendent</string>

@@ -169,6 +169,9 @@
     <string name="message_time_alarm_disabled">Ειδοποίηση απενεργοποιημένη</string>
     <string name="message_time_alarm_mi_band_off">Αφύπνιση εκτός λειτουργίας</string>
 
+    <string name="message_touch_pattern_error">Το καθορισμένο μοτίβο είναι παρόμοιο με ένα δείγμα κάποιας άλλης λειτουργίας, καταγράψτε άλλο</string>
+    <string name="message_touch_free_patterns">Μπορούν να χρησιμοποιηθούν μέχρι %1$,d λειτουργίες</string>
+
     <string name="message_premium_mode_only">Αυτή η λειτουργία είναι διαθέσιμη μόνο στη λειτουργία premium</string>
     <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
     <string name="message_general_error">Η ρύθμιση απέτυχε (η σύνδεση χάθηκε), δοκιμάστε ξανά</string>
@@ -339,7 +342,9 @@
     <string name="touch_device_location_title">Εύρεση της συσκευής μου</string>
     <string name="touch_device_location_not_muted_only_title">Ήχος εφόσον δεν είναι σε σίγαση</string>
 
-    <string name="touch_call_mute_toggle_title">Εναλλαγή σίγασης κλήσης</string>
+    <string name="touch_mute_toggle_title">Εναλλαγή σίγασης κλήσης</string>
+    <string name="touch_mute_toggle_ringer_mode_title">Mute mode</string>
+    <string name="touch_mute_toggle_mute_off_title">Mute off</string>
 
     <string name="touch_music_title">Μουσικη</string>
     <string name="touch_music_function_launch">Start music with the play button if no music player is recognized</string>
@@ -429,6 +434,10 @@
 
     <string name="info_dialog_touch"><![CDATA[
         <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
+        <b><u>Recognised touches</u></b>
+        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next"> music control
+        <br><img src="ic_touch_find"> find my phone
+        <p>Multiple touches can be recorded for a function.</p>
     ]]></string> <!-- %1$s Haylou fit-->
 
 
@@ -571,6 +580,10 @@
 
     <string name="action_chart">Διάγραμμα</string>
     <string name="action_zoom_in">Zoom in</string>
+    <string name="action_chart_normalize_minute">Μετρούμενες τιμές</string>
+    <string name="action_chart_normalize_quarter_hourly">Τιμές δεκαπέντε λεπτών</string>
+    <string name="action_chart_normalize_half_hourly">Τιμές μισής ώρας</string>
+    <string name="action_chart_normalize_hourly">Ωριαίες τιμές</string>
     <string name="action_chart_sort_time_asc">Ώρα αύξουσα</string>
     <string name="action_chart_sort_time_desc">Ώρα φθίνουσα</string>
     <string name="action_chart_sort_step_asc">Βήμα αύξων</string>

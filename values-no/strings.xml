@@ -169,6 +169,9 @@
     <string name="message_time_alarm_disabled">Alarm deaktivert</string>
     <string name="message_time_alarm_mi_band_off">Alarm av</string>
 
+    <string name="message_touch_pattern_error">Det spesifiserte mønsteret ligner for eksempel mønsteret til en annen funksjon, ta opp en annen</string>
+    <string name="message_touch_free_patterns">Du kan ikke bruke mer enn %1$,d funksjoner i normal modus</string>
+
     <string name="message_premium_mode_only">Denne egenskapen er bare tilgjengelig i premium modusen</string>
     <string name="message_general_error">Itilkobling feilet (tilkobling mistet), prøv igjen</string>
     <string name="message_internet_error">IInternett feil</string>
@@ -342,7 +345,9 @@
     <string name="touch_device_location_title">Finn min telefon</string>
     <string name="touch_device_location_not_muted_only_title">Lag lyd bare hvis den ikke er på lydsøs eller i DnD mode</string>
 
-    <string name="touch_call_mute_toggle_title">Call mute toggle</string>
+    <string name="touch_mute_toggle_title">Call mute toggle</string>
+    <string name="touch_mute_toggle_ringer_mode_title">Mute mode</string>
+    <string name="touch_mute_toggle_mute_off_title">Mute off</string>
 
     <string name="touch_music_title">Musikk</string>
     <string name="touch_music_function_launch">Start music with the play button if no music player is recognized</string>
@@ -432,6 +437,10 @@
 
     <string name="info_dialog_touch"><![CDATA[
         <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
+        <b><u>Recognised touches</u></b>
+        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next"> music control
+        <br><img src="ic_touch_find"> find my phone
+        <p>Multiple touches can be recorded for a function.</p>
     ]]></string> <!-- %1$s Haylou fit-->
 
 
@@ -575,6 +584,10 @@
 
     <string name="action_chart">Kart</string>
     <string name="action_zoom_in">Zoom in</string>
+    <string name="action_chart_normalize_minute">målte valuer</string>
+    <string name="action_chart_normalize_quarter_hourly">Kvartal-timelige valuer</string>
+    <string name="action_chart_normalize_half_hourly">Halv-timelige valuer</string>
+    <string name="action_chart_normalize_hourly">Time valuer</string>
     <string name="action_chart_sort_time_asc">Tid økende</string>
     <string name="action_chart_sort_time_desc">Tid synkende</string>
     <string name="action_chart_sort_step_asc">Skritt økende</string>

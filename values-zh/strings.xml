@@ -169,6 +169,9 @@
     <string name="message_time_alarm_disabled">禁用闹钟</string>
     <string name="message_time_alarm_mi_band_off">关闭闹钟</string>
 
+    <string name="message_touch_pattern_error">新动作与已有动作相似，请重新录制</string>
+    <string name="message_touch_free_patterns">在普通模式下不能使用多于 %1$,d 的函数</string>
+
     <string name="message_premium_mode_only">此功能仅在高级模式可以</string>
     <string name="message_feature_is_not_supported">%1$s 不支持这个特性</string>
     <string name="message_general_error">设置失败(连接丢失),请重试</string>
@@ -342,7 +345,9 @@
     <string name="touch_device_location_title">查找我的手机</string>
     <string name="touch_device_location_not_muted_only_title">只有在未静音或未处于 DnD 模式时才发声</string>
 
-    <string name="touch_call_mute_toggle_title">切换到静音模式</string>
+    <string name="touch_mute_toggle_title">切换到静音模式</string>
+    <string name="touch_mute_toggle_ringer_mode_title">Mute mode</string>
+    <string name="touch_mute_toggle_mute_off_title">Mute off</string>
 
     <string name="touch_music_title">音乐</string>
     <string name="touch_music_function_launch">Start music with the play button if no music player is recognized</string>
@@ -431,7 +436,11 @@
     <string name="touch_setting_recognition_failed_title">不可识别的触摸模式</string>
 
     <string name="info_dialog_touch"><![CDATA[
-        <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
+        <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.
+        <b><u>Recognised touches</u></b>
+        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next"> music control
+        <br><img src="ic_touch_find"> find my phone
+        <p>Multiple touches can be recorded for a function.</p>
     ]]></string> <!-- %1$s Haylou fit-->
 
 
@@ -574,6 +583,10 @@
 
     <string name="action_chart">图表</string>
     <string name="action_zoom_in">Zoom in</string>
+    <string name="action_chart_normalize_minute">测量值</string>
+    <string name="action_chart_normalize_quarter_hourly">1/4小时值</string>
+    <string name="action_chart_normalize_half_hourly">半小时值</string>
+    <string name="action_chart_normalize_hourly">小时值</string>
     <string name="action_chart_sort_time_asc">时间升序</string>
     <string name="action_chart_sort_time_desc">时间降序</string>
     <string name="action_chart_sort_step_asc">逐步升序</string>

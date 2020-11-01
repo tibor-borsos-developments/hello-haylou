@@ -169,6 +169,9 @@
     <string name="message_time_alarm_disabled">Alarma desactivada</string>
     <string name="message_time_alarm_mi_band_off">Alarma apagada</string>
 
+    <string name="message_touch_pattern_error">El patrón especificado es similar a otro, registre otro</string>
+    <string name="message_touch_free_patterns">Se pueden utilizar hasta %1$,d funciones en modo normal</string>
+
     <string name="message_premium_mode_only">Función sólo disponible en modo premium</string>
     <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
     <string name="message_general_error">Se ha producido un error en la configuración (Pérdida de conexión), reintente de nuevo</string>
@@ -344,7 +347,9 @@
     <string name="touch_device_location_title">Encontrar mi dispositivo</string>
     <string name="touch_device_location_not_muted_only_title">Sonido, sólo si no está en silencio o en modo no molestar</string>
 
-    <string name="touch_call_mute_toggle_title">Silenciar llamada</string>
+    <string name="touch_mute_toggle_title">Silenciar llamada</string>
+    <string name="touch_mute_toggle_ringer_mode_title">Mute mode</string>
+    <string name="touch_mute_toggle_mute_off_title">Mute off</string>
 
     <string name="touch_music_title">Música</string>
     <string name="touch_music_function_launch">Start music with the play button if no music player is recognized</string>
@@ -434,6 +439,10 @@
 
     <string name="info_dialog_touch"><![CDATA[
         <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
+        <b><u>Recognised touches</u></b>
+        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next"> music control
+        <br><img src="ic_touch_find"> find my phone
+        <p>Multiple touches can be recorded for a function.</p>
     ]]></string> <!-- %1$s Haylou fit-->
 
 
@@ -575,6 +584,10 @@
 
     <string name="action_chart">Gráfico</string>
     <string name="action_zoom_in">Zoom in</string>
+    <string name="action_chart_normalize_minute">Valores medidos</string>
+    <string name="action_chart_normalize_quarter_hourly">Valores Cada cuarto de hora</string>
+    <string name="action_chart_normalize_half_hourly">Valores cada media hora</string>
+    <string name="action_chart_normalize_hourly">Hora media</string>
     <string name="action_chart_sort_time_asc">Tiempo ascendente</string>
     <string name="action_chart_sort_time_desc">Tiempo descendente</string>
     <string name="action_chart_sort_step_asc">Paso ascendente</string>

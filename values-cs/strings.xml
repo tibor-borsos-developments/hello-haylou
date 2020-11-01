@@ -168,6 +168,9 @@
     <string name="message_time_alarm_disabled">Budík zakázán</string>
     <string name="message_time_alarm_mi_band_off">Budík vypnut</string>
 
+    <string name="message_touch_pattern_error">Zadaný vzorec je podobný vzorci jiné funkce, zaznamenejte jinou</string>
+    <string name="message_touch_free_patterns">V normálním režimu lze použít až %1$,d funkce</string>
+
     <string name="message_premium_mode_only">Tato funkce je k dispozici pouze v prémiovém režimu</string>
     <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
     <string name="message_general_error">Nastavení se nezdařilo (spojení bylo ztraceno), zkuste to znovu</string>
@@ -342,7 +345,9 @@
     <string name="touch_device_location_title">Najit zařízení</string>
     <string name="touch_device_location_not_muted_only_title">Zvuk pouze v případě, pokud není ztlumený nebo v režimu DnD</string>
 
-    <string name="touch_call_mute_toggle_title">Přepínač ztlumení hovoru</string>
+    <string name="touch_mute_toggle_title">Přepínač ztlumení hovoru</string>
+    <string name="touch_mute_toggle_ringer_mode_title">Mute mode</string>
+    <string name="touch_mute_toggle_mute_off_title">Mute off</string>
 
     <string name="touch_music_title">Hudba</string>
     <string name="touch_music_function_launch">Start music with the play button if no music player is recognized</string>
@@ -432,6 +437,10 @@
 
     <string name="info_dialog_touch"><![CDATA[
         <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
+        <b><u>Recognised touches</u></b>
+        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next"> music control
+        <br><img src="ic_touch_find"> find my phone
+        <p>Multiple touches can be recorded for a function.</p>
     ]]></string> <!-- %1$s Haylou fit-->
 
 
@@ -573,6 +582,10 @@
 
     <string name="action_chart">Graf</string>
     <string name="action_zoom_in">Zoom in</string>
+    <string name="action_chart_normalize_minute">Naměřené hodnoty</string>
+    <string name="action_chart_normalize_quarter_hourly">Čtvrthodinové hodnoty</string>
+    <string name="action_chart_normalize_half_hourly">Půlhodinové hodnoty</string>
+    <string name="action_chart_normalize_hourly">Hodinové hodnoty</string>
     <string name="action_chart_sort_time_asc">Čas stoupající</string>
     <string name="action_chart_sort_time_desc">Čas klesající</string>
     <string name="action_chart_sort_step_asc">Krok stoupající</string>

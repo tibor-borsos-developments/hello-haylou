@@ -169,6 +169,9 @@
     <string name="message_time_alarm_disabled">Alarm pasif</string>
     <string name="message_time_alarm_mi_band_off">Alarm kapalı</string>
 
+    <string name="message_touch_pattern_error">Yaptığınız desen başka bir iş için yaptığınız desen ile nerdeyse aynı, başka bir desen belirleyin</string>
+    <string name="message_touch_free_patterns">Normal modda en fazla %1$,d işlev kullanılabilir</string>
+
     <string name="message_premium_mode_only">Bu özellik yanlız premium mod ile kullanılabilir</string>
     <string name="message_feature_is_not_supported">%1$s bu özelliği desteklemiyor</string>
     <string name="message_general_error">İşlem başarısız oldu (bağlantı tutarsız), lütfen tekrar deneyin</string>
@@ -343,7 +346,9 @@
     <string name="touch_device_location_title">Telefonumu bul</string>
     <string name="touch_device_location_not_muted_only_title">Rahatsız etmeyin modunda ve telefon zaten sessizde değilse</string>
 
-    <string name="touch_call_mute_toggle_title">Çağrıyı sessize al</string>
+    <string name="touch_mute_toggle_title">Çağrıyı sessize al</string>
+    <string name="touch_mute_toggle_ringer_mode_title">Mute mode</string>
+    <string name="touch_mute_toggle_mute_off_title">Mute off</string>
 
     <string name="touch_music_title">Müzik</string>
     <string name="touch_music_function_launch">Herhangi bir müzik tanımlanmamışsa Oynat tuşuna basıp müziği başlat</string>
@@ -433,6 +438,10 @@
 
     <string name="info_dialog_touch"><![CDATA[
         <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
+        <b><u>Recognised touches</u></b>
+        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next"> music control
+        <br><img src="ic_touch_find"> find my phone
+        <p>Multiple touches can be recorded for a function.</p>
     ]]></string> <!-- %1$s Haylou fit-->
 
 
@@ -575,6 +584,10 @@
 
     <string name="action_chart">Grafik</string>
     <string name="action_zoom_in">Zoom in</string>
+    <string name="action_chart_normalize_minute">Ölçülen değerler</string>
+    <string name="action_chart_normalize_quarter_hourly">Çeyrek saatlik değerler</string>
+    <string name="action_chart_normalize_half_hourly">Yarım saatlik değerler</string>
+    <string name="action_chart_normalize_hourly">Saatlik ortalama</string>
     <string name="action_chart_sort_time_asc">Zaman artan</string>
     <string name="action_chart_sort_time_desc">Zaman azalan</string>
     <string name="action_chart_sort_step_asc">Adım artan</string>
