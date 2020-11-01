@@ -1,0 +1,645 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">Hello Haylou</string>
+
+    <string name="menu_nav_home">Haylou</string>
+    <string name="menu_nav_notification">Notification</string>
+    <string name="menu_nav_call">Call</string>
+    <string name="menu_nav_step">Activity</string>
+    <string name="menu_nav_pulse">Pulse</string>
+    <string name="menu_nav_alarm">Alarm</string>
+    <string name="menu_nav_dnd">Do not disturb mode</string>
+    <string name="menu_nav_touch">Touch</string>
+    <string name="menu_nav_more">More</string>
+    <string name="menu_nav_text_display">Text display</string>
+    <string name="menu_nav_theme">Theme</string>
+    <string name="menu_nav_premium_mode">Premium mode</string>
+    <string name="menu_nav_feedback">Feedback</string>
+    <string name="menu_nav_privacy_policy">Privacy policy</string>
+    <string name="menu_nav_settings" type="string">@string/settings_name</string>
+
+    <string name="setting_name">Setting</string>
+    <string name="settings_name">Settings</string>
+    <string name="info_name">Information</string>
+
+    <!--    <string name="mi_band_tracker_title">Steps・distance・calories・goal・pulse</string>-->
+    <string name="mi_band_tracker_title">Steps・goal・pulse</string>
+    <!--    <string name="mi_band_battery">Battery level・last charging time・estimated remaining time</string>-->
+    <string name="device_battery">Battery level・last charging time</string>
+    <string name="device_state_connected_disconnected_last_time">Last connection and disconnection time</string>
+    <string name="device_alarm">Next alarm</string>
+
+    <string name="device_search">Haylou search</string>
+    <string name="device_setting">Haylou setting</string>
+
+    <string name="device_mac_address">MAC address</string>
+    <string name="device_mac_address_invalid">MAC address is invalid</string>
+
+    <string name="device_state_connected">Connected</string>
+    <string name="device_state_disconnected">Disconnected</string>
+    <string name="device_state_bonded">Paired device</string>
+    <string name="device_state_not_bonded">Not paired device</string>
+
+    <string name="pref_dnd_title">Do not disturb mode</string>
+
+    <!-- Haylou setting -->
+    <string name="mi_band_setting_button_title">%1$s settings・Profile・Text・Call・Menu</string>
+    <string name="mi_band_setting_title">%1$s settings</string>
+
+    <string name="mi_band_setting_menu_connection">Connection</string>
+    <string name="mi_band_setting_menu_setting">@string/setting_name</string>
+    <string name="mi_band_setting_menu_profile">Profile</string>
+    <string name="mi_band_setting_menu_text">Text</string>
+    <string name="mi_band_setting_menu_call">Call</string>
+    <string name="mi_band_setting_menu_menu">Menu</string>
+
+    <string name="mi_band_setting_auth_mi_fit">%1$s cooperation</string> <!-- Haylou Fit-->
+    <string name="mi_band_setting_auth_mi_fit_hint">Hello Haylou requires the installation of the %1$s app on the same phone. At first you have to pair %2$s in %1$s app, then you can use Hello Haylou. If you want to use %1$s application, choose this.</string>
+    <string name="mi_band_setting_auth_standalone">Standalone</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the Hello Haylou to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
+
+    <string name="mi_band_setting_auth_key">Authentication key</string>
+    <string name="mi_band_setting_auth_request">Key request</string>
+    <string name="mi_band_setting_auth_pair">Pair</string>
+    <string name="mi_band_setting_auth_unpair">Unpair</string>
+
+    <string name="message_auth_request">It is paired, if you do not know the key, use the unpair</string>
+
+    <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
+    <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Invalid authentication key</string>
+
+    <string name="pref_disconnected">Disconnection</string>
+
+    <string name="mi_band_setting_dial">Dial</string>
+    <string name="mi_band_setting_language">Language</string>
+    <string name="mi_band_setting_time_24h">24-hour time format</string>
+    <string name="mi_band_setting_screen_on_duration">Screen on duration</string>
+    <string name="mi_band_setting_lift_wrist">Lift wrist to view info</string>
+    <string name="mi_band_setting_idle_alert">Sedentary reminder</string>
+    <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
+    <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest (12:00-14:00)</string>
+
+    <string name="mi_band_setting_gender">Gender</string>
+    <string name="mi_band_setting_gender_male">Male</string>
+    <string name="mi_band_setting_gender_female">Female</string>
+    <string name="mi_band_setting_birthday">Date of birth</string>
+    <string name="mi_band_setting_height">Height</string>
+    <string name="mi_band_setting_weight">Weight</string>
+
+
+    <!-- Battery -->
+    <string name="battery_details">Battery usage</string>
+
+    <string name="mi_band_battery_settings">Battery settings</string>
+    <string name="mi_band_battery_notification">Low battery level notification</string>
+    <string name="mi_band_battery_notification_level">Battery level threshold</string>
+    <string name="mi_band_battery_notification_repeat_interval">Repeat interval</string>
+    <string name="mi_band_battery_notification_shade">Notify me on the phone</string>
+    <string name="mi_band_battery_notification_shade_ongoing">Persistent (ongoing) notification</string>
+    <string name="mi_band_battery_notification_shade_message">Battery level is low: %1$,d%%</string>
+    <string name="mi_band_battery_notification_mi_band">Notify me on the bracelet</string>
+    <string name="mi_band_battery_notification_mi_band_message">Battery: %1$,d%%</string>
+
+    <!-- PreferenceScreen -->
+    <string name="pref_connected_have_notif_interval_title">Reminder repeat interval</string>
+    <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
+
+    <string name="pref_cat_call">Incoming call</string>
+    <string name="pref_call_summary_on">Do not forget to turn off incoming call alerts on Haylou Sport app</string>
+    <string name="pref_call_text_title">Display caller ID</string>
+
+    <string name="pref_call_notification_rejected">Show notification about rejected call</string>
+    <string name="pref_call_notification_rejected_message">Rejected call</string>
+    <string name="pref_call_notification_rejected_action">Call</string>
+
+    <string name="pref_call_net_text_title">Incoming internet call signal</string>
+
+    <string name="pref_cat_call_missed">Missed call</string>
+    <string name="pref_call_missed_title">Missed call signal</string>
+
+    <string name="pref_call_missed_alert_title">%1$s signal</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="pref_battery_phone">Phone battery</string>
+    <string name="pref_battery_phone_summary">Low and full battery level notifications</string>
+    <string name="pref_cat_battery_phone_low">Low battery level</string>
+    <string name="pref_battery_phone_low_title">Low battery notification</string>
+    <string name="pref_battery_phone_low_level_title">Battery level threshold</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">Repeat interval</string>
+    <string name="pref_cat_battery_phone_full">Full battery level</string>
+    <string name="pref_battery_phone_full_title">Full battery notification</string>
+    <string name="pref_battery_phone_full_plugged_ac">AC charger power source</string>
+    <string name="pref_battery_phone_full_plugged_usb">USB port power source</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Wireless power source</string>
+
+    <string name="pref_battery_phone_message">Phone battery:\n %1$,d%%</string>
+
+    <string name="pref_language">Language</string>
+    <string name="pref_cat_language">App</string>
+    <string name="pref_language_title">Language</string>
+
+    <!-- Snackbar Messages -->
+    <string name="message_enable_bluetooth">Please enable Bluetooth and bring the Haylou device closer to the phone</string>
+    <string name="message_discover_mi_band">Haylou is not set, please discover it</string>
+    <string name="message_discovering_mi_band">Discovering Haylou (it may take 1 minute) …</string>
+    <string name="message_discovered_mi_band">%1$s connection succeeded</string>
+    <string name="message_discovered_no_mi_band">Haylou connection failed</string>
+    <string name="message_discovered_not_found_mi_band">If Haylou was not found, turn on: Haylou Sport/Play/Discoverable or pair at the phone Bluetooth settings</string>
+    <string name="message_enable_notification_listener_access">Enable notification access: Phone/Settings/Notification access</string>
+    <string name="message_enable_notification_listener_access_4_4">Enable notification access: Settings/Security/Notification access</string>
+    <string name="message_open_settings">Settings</string>
+
+    <string name="message_deleted">Deleted</string>
+    <string name="message_undo">Undo</string>
+
+    <string name="message_app_chooser_no_selected">Select an application</string>
+
+    <string name="message_free_counter">Up to 1 setting can be used in normal mode</string>
+
+    <string name="message_notification_free_groups">Up to %1$,d groups can be used in normal mode</string>
+    <string name="message_notification_free_app">Up to 1 application can be selected in normal mode</string>
+    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in normal mode</string>   <!-- %1$s = 2 or more  -->
+
+    <string name="message_notification_free_text">Up to 1 text can be recorded in normal mode</string>
+
+    <string name="message_time_alarm_free_counter">Up to 1 alarm can be used in normal mode</string>
+    <string name="message_time_alarm_max_counter">Maximum %1$d alarms can be used</string>
+    <string name="message_time_alarm_enabled">Alarm enabled</string>
+    <string name="message_time_alarm_disabled">Alarm disabled</string>
+    <string name="message_time_alarm_mi_band_off">Alarm off</string>
+
+    <string name="message_touch_pattern_error">The specified pattern is similar to a sample of another function, record another</string>
+    <string name="message_touch_free_patterns">You can not use more than %1$,d controls in normal mode</string>
+
+    <string name="message_premium_mode_only">This feature is only available in premium mode</string>
+    <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
+    <string name="message_general_error">Setting failed (connection lost), try again</string>
+    <string name="message_internet_error">Not have internet connection</string>
+    <string name="message_gps_enable">Enable the GPS</string>
+
+    <string name="message_in_progress">In progress…</string>
+    <string name="message_no_data">No data available</string>
+
+    <string name="message_new_message">A new message is received, view it on the phone.</string>
+
+    <!-- Dialog -->
+    <string name="dialog_welcome_title">Welcome!</string>
+    <string name="dialog_welcome_message"><![CDATA[Supported devices:
+    <br>• <b>Haylou Solar (LS05)</b>
+    <br>• <b>Haylou Smart Watch 2 (LS02)</b>
+    <br>• <b>Haylou Smart Watch (LS01)</b>
+    <p>Hello Haylou requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
+    <p>If Haylou is not found, then you can set the MAC address manually when you discover.</p>
+    <p><b>If you have a connection problem:</b>
+    <br>- Recent apps screen: lock the Hello Haylou (pull down the app and click on lock icon).
+    <br>- Phone/battery optimization: set Hello Haylou app to not optimized.
+    <br>- Phone/apps: clear Bluetooth Share and other \'Bluetooth\' apps data.
+    ]]></string>
+
+    <!-- Notification Dialog -->
+    <string name="notification_group_nav_setting">Setting</string>
+    <string name="notification_group_nav_filter">Filter</string>
+    <string name="notification_group_nav_correction">Correction</string>
+
+    <string name="notification_group_name">Name</string>
+    <string name="notification_group_monitoring">Monitoring notifications</string>
+    <string name="notification_group_monitoring_disabled">Disable notifications (do not show the application notifications)</string>
+    <string name="notification_group_alert_title">%1$s signal</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="notification_group_text">Text display</string>
+    <string name="notification_group_text_app_name">App name</string>
+    <string name="notification_group_text_name">Name</string>
+    <string name="notification_group_text_title">Title</string>
+    <string name="notification_group_text_content">Content</string>
+    <string name="notification_group_text_big_content">Full content</string>
+    <string name="notification_group_text_content_slice_title">Text length</string>
+    <string name="notification_group_display_time_title">Display time</string>
+    <string name="notification_group_display_notification_title">Display notification</string>
+    <string name="notification_group_immediate">Immediate signal when notification is received</string>
+    <string name="notification_group_connecting">When connecting to phone</string>
+    <string name="notification_group_reminder">Reminder signal</string>
+    <string name="notification_group_ongoing">Signal persistent (ongoing) notifications</string>
+    <string name="notification_group_screen_off">Signal only when the screen is off</string>
+    <string name="notification_group_repeat_title">Repeat signals</string>
+    <string name="notification_group_wakelock">Wake up the phone screen</string>
+    <string name="notification_group_grouped_display_title">Display setting for the group notifications</string>
+    <string name="notification_group_grouped_sort_order_title">Sort order for the group notifications</string>
+
+    <string name="notification_group_filter">Filter notification</string>
+    <string name="notification_group_filter_title">Title filter</string>
+    <string name="notification_group_filter_content">Content filter</string>
+    <string name="notification_group_filter_regex">Regex</string>
+    <string name="notification_group_filter_hint">Signal only when the title or content of the notification (case insensitive)</string>
+    <string name="notification_group_filter_contains">Contains any phrases</string>
+    <string name="notification_group_filter_not_contains">Contains none phrases</string>
+
+    <string name="notification_group_sample_sms">SMS</string>
+    <string name="notification_group_sample_facebook">Messenger</string>
+    <string name="notification_group_sample_whatsapp">WhatsApp</string>
+
+    <string name="notification_group_correction">Text correction</string>
+    <string name="notification_group_correction_title">Title correction</string>
+    <string name="notification_group_correction_content">Content correction</string>
+    <string name="notification_group_correction_regex">Regex</string>
+    <string name="notification_group_correction_hint">Case insensitive</string>
+    <string name="notification_group_correction_items">Texts to be corrected</string>
+    <string name="notification_group_correction_find">Find</string>
+    <string name="notification_group_correction_replace">Replace with</string>
+
+    <string name="notification_regex_hint">Non-alphanumeric characters have a special meaning, if you don\'t know the Regex, do not tick it</string>
+
+    <string name="notification_confirm_close">Are you sure you want to discard the changes?</string>
+
+    <string name="notification_edit_play_text_title">Notification title</string>
+    <string name="notification_edit_play_text_content">Notification content:
+    In publishing and graphic design, lorem ipsum is a filler text or greeking commonly used to demonstrate the textual elements of a graphic document or visual presentation.
+        \nReplacing meaningful content with placeholder text allows designers to design the form of the content before the content itself has been produced.
+    </string>
+    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> icon: choose this icon to show the notifications title/content.]]></string>
+
+    <!-- App chooser dialog -->
+    <string name="app_chooser">App chooser</string>
+    <string name="action_search">Search</string>
+    <string name="action_filter_notification">Notification filter</string>
+
+    <string name="main_control">Control</string>
+
+    <!-- Activity -->
+    <string name="step_tab_day">Daily charts</string>
+    <string name="step_tab_week">Weekly charts</string>
+    <string name="step_tab_month">Monthly charts</string>
+
+    <string name="step_details">Activity details</string>
+
+    <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
+    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
+    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
+    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
+
+    <string name="action_tracker_step">Steps</string>
+    <string name="action_tracker_distance">Distance</string>
+    <string name="action_tracker_calorie">Calories</string>
+
+    <string name="step_goal_default_title">Default goal</string>
+
+
+    <!-- Pulse -->
+    <string name="pulse_tab_day">Daily charts</string>
+    <string name="pulse_tab_week">Weekly charts</string>
+    <string name="pulse_tab_month">Monthly charts</string>
+
+    <string name="pulse_details">Pulse details</string>
+
+    <string name="pulse_continuous_title">Continuous pulse measurement</string>
+
+
+    <!-- Alarm -->
+    <string name="action_time_alarm_sort_state_asc">State ascending</string>
+    <string name="action_time_alarm_sort_watch_asc">Watch ascending</string>
+    <string name="action_time_alarm_sort_name_asc">Name ascending</string>
+
+    <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Haylou Smart watch ... -->
+
+    <string name="info_dialog_alarm"><![CDATA[
+        <p>When using collaboration mode, the settings of the original application and the Hello Haylou application can overwrite and delete each other\'s settings.</p>
+        <p>The last operation performed will take effect.</p>
+    ]]></string>
+
+
+    <!-- Do not disturb -->
+    <string name="pref_dnd_summary">State of controllers in do not disturb mode</string>
+    <string name="pref_dnd_enable_bluetooth">At the start of the DnD mode turn Bluetooth off, at the end turn Bluetooth on</string>
+
+    <string name="info_dialog_dnd"><![CDATA[
+        <p>If you are using cooperation mode, in the official <device_type/> application the do not disturb (DnD) mode must be between 00:00 and 23:59 and its status must be turned off.</p>
+    ]]></string> <!-- %1$s Haylou fit-->
+
+
+    <!-- Touch monitoring -->
+    <string name="touch_tab_function">Function</string>
+    <string name="touch_tab_control">Control</string>
+    <string name="touch_tab_testing">Testing</string>
+    <string name="touch_tab_setting">@string/setting_name</string>
+
+    <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
+    <string name="touch_function">%1$s function</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function_as_touch">Use function as a touch in the control menu</string>
+
+    <string name="touch_headline_incoming_call_title">Incoming call</string>
+    <string name="touch_headline_other_function_title">Other functions</string>
+    <string name="touch_headline_call_title">Call control</string>
+    <string name="touch_headline_music_title">Music control</string>
+    <string name="touch_headline_time_title">Timer/stopwatch control</string>
+    <string name="touch_headline_other_title">Other controls</string>
+
+    <string name="touch_call_answer_title">Call answering</string>
+    <string name="touch_call_answer_speakerphone_title">Speakerphone</string>
+
+    <string name="touch_call_end_title">Call rejecting, ending</string>
+
+    <string name="touch_call_mute_title">Call mute</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Only if you have an incoming call</string>
+    <string name="touch_call_mute_recognition_title">On incoming call</string>
+    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/More/Find device</string>
+
+    <string name="touch_device_location_title">Find my phone</string>
+    <string name="touch_device_location_not_muted_only_title">Sound only if it is not muted or in DnD mode</string>
+
+    <string name="touch_mute_toggle_title">Phone mute toggle</string>
+    <string name="touch_mute_toggle_ringer_mode_title">Mute mode</string>
+    <string name="touch_mute_toggle_mute_off_title">Mute off</string>
+
+    <string name="touch_music_title">Music</string>
+    <string name="touch_music_function_launch">Start music with the play button if no music player is recognized</string>
+    <string name="touch_music_function_mi_band_message_launch">Start music with the play button</string>
+    <string name="touch_music_function_mi_band_message_no_track_title">Can\'t get the song name</string>
+
+    <string name="touch_call_out_title">Call out</string>
+    <string name="touch_call_out_no_contact">Select an contact</string>
+    <string name="touch_call_out_summary">Double press to answer the call</string>
+    <string name="touch_call_out_summary_support_call_display_button">Press the button to answer the call</string>
+    <string name="touch_call_out_speakerphone_title">Speakerphone</string>
+    <string name="touch_call_out_call_text">Call out: %1$s</string>
+
+    <string name="touch_weather_title">Weather forecast</string>
+    <string name="touch_weather_location">Location update</string>
+    <string name="touch_weather_precipitation">Precipitation</string>
+    <string name="touch_weather_cloud_cover">Cloud cover</string>
+    <string name="touch_weather_wind">Wind</string>
+
+    <string name="touch_repeat_notif_title">Repeat notifications</string>
+    <string name="touch_repeat_notif_clear_all">Clear all notifications after repetition</string>
+
+    <string name="touch_clear_notif_title">Clear notifications from phone</string>
+
+    <string name="touch_music_play_pause_title">Music start, play, pause</string>
+    <string name="touch_music_skip_previous_title">Music start, previous song</string>
+    <string name="touch_music_skip_next_title">Music start, next song</string>
+    <string name="touch_music_headset_only_title">Only if the headset is connected</string>
+    <string name="touch_music_launch">Start music</string>
+    <string name="touch_music_volume_up_title">Music volume up</string>
+    <string name="touch_music_volume_down_title">Music volume down</string>
+    <string name="touch_music_track_info_title">Show music track info.</string>
+
+    <string name="touch_time_launch_title">Start time monitoring</string>
+    <string name="touch_time_launch_type_timer_title">Timer</string>
+    <string name="touch_time_launch_type_stopper_title">Stopwatch</string>
+    <string name="touch_time_launch_type_interval_title">Interval</string>
+    <string name="touch_time_launch_restart">Restart if it is in progress</string>
+    <string name="touch_time_reminder_title">Show remaining/elapsed time</string>
+
+    <string name="touch_google_assistant_title">Google Assistant</string>
+
+    <string name="touch_flashlight_title">Flashlight toggle</string>
+
+    <string name="touch_camera_title">Take a photo</string>
+    <string name="touch_camera_front_title">Front</string>
+    <string name="touch_camera_rear_title">Rear</string>
+    <string name="touch_camera_install_title">Install</string>
+
+    <string name="touch_app_launcher1_title">App launcher</string>
+    <string name="touch_app_launcher_package_no_title">Select an application</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">Only if the screen is not locked</string>
+
+    <string name="touch_broadcast1_title">Send Broadcast</string>
+    <string name="touch_broadcast1_action_title">Intent action</string>
+    <string name="touch_broadcast1_package_title">Intent package name</string>
+
+    <string name="touch_http_request1_title">1. HTTP request</string>
+    <string name="touch_http_request2_title">2. HTTP request</string>
+    <string name="touch_http_request_url_title">URL</string>
+    <string name="touch_http_request_method_title">Method</string>
+    <string name="touch_http_request_body_title">Body</string>
+    <string name="touch_http_request_show_response_title">Show the response</string>
+
+    <string name="touch_tasker_launcher1_title">1. Tasker task launcher</string>
+    <string name="touch_tasker_launcher2_title">2. Tasker task launcher</string>
+    <string name="touch_tasker_launcher_no_permission_title">You have to install Tasker first, after Mi Bandage</string>
+    <string name="touch_tasker_launcher_no_access_title">Allow external access</string>
+    <string name="touch_tasker_launcher_no_task_title">Select an task</string>
+
+    <string name="touch_testing_title">Touch monitoring</string>
+    <string name="touch_testing_second">sec.</string>
+
+    <string name="touch_setting_detection_time_title">Touch detection time</string>
+    <string name="touch_setting_detection_time_music_hint">If it has a lower value, the music screen should be closed faster</string>
+    <string name="touch_setting_detection_time_button_hint">If it has a lower value, press the button faster</string>
+
+    <string name="touch_setting_detection_method_title">Touch detection method</string>
+
+    <string name="touch_setting_recognition_start_title">Start touch recognition</string>
+    <string name="touch_setting_recognition_start_trigger_title">Trigger</string>
+    <string name="touch_setting_recognition_time_title">Recognition time</string>
+
+    <string name="touch_setting_recognition_mi_band_signal_title">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_setting_recognition_succeeded_title">Recognisable touch pattern</string>
+    <string name="touch_setting_recognition_failed_title">Not recognisable touch pattern</string>
+
+    <string name="info_dialog_touch"><![CDATA[
+        <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
+        <b><u>Recognised touches</u></b>
+        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next"> music control
+        <br><img src="ic_touch_find"> find my phone
+        <p>Multiple touches can be recorded for a function.</p>
+    ]]></string> <!-- %1$s Haylou fit-->
+
+    <!-- Text display -->
+    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
+    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
+    <string name="pref_text_emoticon_title">Emoji conversion</string>
+    <string name="pref_text_emoticon_summary_on">Convert emoji to emoticon</string>
+    <string name="pref_text_uppercase_title">Uppercase conversion</string>
+    <string name="pref_text_uppercase_summary_on">Convert lowercase to uppercase</string>
+    <string name="pref_text_line_separator_title">Line separator replacement</string>
+    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
+    <string name="pref_text_line_separator_value_title">Replacement characters</string>
+    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
+    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
+    <string name="pref_text_char_replacement_find">Find</string>
+    <string name="pref_text_char_replacement_replace">Replace with</string>
+
+
+    <!-- Theme -->
+    <string name="theme_tab_theme">Theme</string>
+
+    <string name="theme_title">Select a theme</string>
+    <string name="theme_background_color_title">Background color</string>
+
+    <string name="theme_widget_background_color_title">Color</string>
+
+    <string name="theme_notification_title">Show status in notification shade</string>
+
+    <string name="theme_cat_color_setting">Color setting</string>
+
+
+    <!-- Premium mode -->
+    <string name="purchase_policy_title">Terms and conditions of Premium mode</string>
+    <string name="purchase_policy"><![CDATA[
+        <p>• I have tested the app and it is working properly.</p>
+        <p>• I am aware of that I can not require compensation or refund due to bugs, software errors caused by changes in the software, hardware environment or using other applications.</p>
+        <p>• All sales are final and can not be refund (except Google refund policy).</p>
+        <p>• There is no warranty included.</p>
+        <br><p><i>After purchasing you need to restart the app.</i></p>
+    ]]></string>
+
+    <!--<string name="purchase_price">Price:</string>-->
+    <string name="purchase_agree">I agree to the terms and conditions.</string>
+    <string name="purchase_order_id">Order ID</string>
+    <string name="purchase_order_id_help">Copy from:
+        \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <string name="purchase_button_purchase">Purchase</string>
+
+    <!-- Feedback -->
+    <string name="action_log_notification">Log</string>
+
+    <string name="feedback_google_play_title">Rate this app</string>
+    <string name="feedback_request_feature_title">Feature request, bug report</string>
+    <string name="feedback_request_feature_summary">Automatic e-mail processing, you may not get an response</string>
+    <string name="feedback_translation_title">Hello Haylou translation</string>
+    <string name="feedback_translation_title_summary">Please help in translation</string>
+
+    <!-- Privacy policy -->
+    <string name="privacy_policy_tab_privacy_policy">Privacy policy</string>
+    <string name="privacy_policy_tab_eu_consent">EU user consent</string>
+
+    <string name="privacy_policy_collect_title">Information we collect</string>
+    <string name="privacy_policy_collect"><![CDATA[
+        <p>• We only collect anonymous information.</p>
+        <p>• We collect information at the application level about the services that you use and how you use them (Google Firebase Platform).</p>
+        <p>• We collect information at the application level like bugs, errors and crashes to provide improvements (Google Firebase Platform).</p>
+        <p>• Google Firebase Platform collects information anonymously. It reports trends without identifying individual users.</p>
+        • We do not share any data with other companies and organizations.
+    ]]></string>
+
+    <string name="privacy_policy_not_collect_title">Information we do not collect</string>
+    <string name="privacy_policy_not_collect"><![CDATA[
+        <p>• We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address, IP address or MAC address.</p>
+        • We do not collect personal health data, contacts and phone notification text.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">Privacy policy of third party service providers</string>
+    <string name="privacy_policy_links"><![CDATA[
+        <a href="https://policies.google.com/privacy">Google Play Services</a>
+        <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
+        <p><a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a></p>
+        <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
+    ]]></string>
+
+    <string name="privacy_policy_eu_consent_title">Status</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Personalized, relevant ads</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Non-personalized ads that are less relevant</string>
+    <string name="privacy_policy_eu_consent_title_unknown">Unknown</string>
+
+    <string name="privacy_policy_eu_consent_setting">Setting</string>
+
+
+    <!-- Custom vibration dialog -->
+    <string name="custom_vibration_title">Vibration setting</string>
+
+
+    <!-- Others -->
+    <string name="ad_attribution">Ad</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="none">None</string>
+    <string name="bpm">BPM</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="time_start">Start time</string>
+    <string name="time_end">End time</string>
+    <string name="ringer_mode_vibrate">Vibrate</string>
+    <string name="ringer_mode_silent">Mute</string>
+    <string name="ringer_mode_dnd_priority_only">Do not disturb (priority only)</string>
+    <string name="ringer_mode_dnd_alarms_only">Do not disturb (alarms only)</string>
+    <string name="ringer_mode_dnd_total_silence">Do not disturb (total silence)</string>
+    <string name="unknown">Unknown</string>
+    <string name="maximum">Maximum</string>
+    <string name="all_day">All-day</string>
+    <string name="timed">Timed</string>
+    <string name="file_name">File name</string>
+    <string name="default_">Default</string>
+    <string name="invalid_setting">Invalid setting</string>
+    <string name="ringtone">Ringtone</string>
+    <string name="uninstalled">Uninstalled</string>
+
+    <string name="action_dismiss">Dismiss</string>
+    <string name="action_setting">Setting</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_export">Export</string>
+    <string name="action_synchronization">Synchronization</string>
+    <string name="action_filter_no">No filter</string>
+    <string name="action_bluetooth">Bluetooth</string>
+    <string name="action_launch_mi_fit">Mi Fit</string>
+    <string name="action_launch_amazfit">Zepp</string>
+    <string name="action_save">Save</string>
+    <string name="action_test">Test</string>
+    <string name="action_discard">Discard</string>
+    <string name="action_keep_editing">Keep editing</string>
+    <string name="action_new">New</string>
+    <string name="action_start_stop">Start/Stop</string>
+    <string name="synchronized_from_watch">Synchronized from watch</string>
+
+    <string name="action_chart">Chart</string>
+    <string name="action_zoom_in">Zoom in</string>
+    <string name="action_chart_normalize_minute">Measured values</string>
+    <string name="action_chart_normalize_quarter_hourly">Quarter-hourly values</string>
+    <string name="action_chart_normalize_half_hourly">Half-hourly values</string>
+    <string name="action_chart_normalize_hourly">Hourly values</string>
+    <string name="action_chart_sort_time_asc">Time ascending</string>
+    <string name="action_chart_sort_time_desc">Time descending</string>
+    <string name="action_chart_sort_step_asc">Step ascending</string>
+    <string name="action_chart_sort_step_desc">Step descending</string>
+    <string name="action_chart_sort_pulse_asc">Pulse ascending</string>
+    <string name="action_chart_sort_pulse_desc">Pulse descending</string>
+    <string name="action_chart_monthly_calendar">Calendar</string>
+    <string name="action_chart_monthly_compact">Compact</string>
+
+    <string name="activity_progress_title_prepare">Preparing for synchronization…</string>
+    <string name="activity_progress_title_sync">Data synchronization…</string>
+    <string name="activity_progress_title_save">Data saving…</string>
+
+    <string name="required_value">Required</string>
+
+    <!-- Constante -->
+    <string name="const_time_abbreviation_day">d</string>
+    <string name="const_time_abbreviation_hour">h</string>
+    <string name="const_time_abbreviation_minute">m</string>
+    <string name="const_time_abbreviation_sec">s</string>
+    <string name="const_time_abbreviation_milli_sec">ms</string>
+
+    <string name="const_number">%1$,d</string>
+    <string name="const_unit_meter">m</string>
+    <string name="const_unit_centimeter">cm</string>
+    <string name="const_unit_mile">mi</string>
+    <string name="const_unit_kilogram">kg</string>
+    <string name="const_unit_kcal">kcal</string>
+    <string name="const_unit_dbm">dBm</string>
+
+    <plurals name="plural_time_hour">
+        <item quantity="zero">%d hour</item>
+        <item quantity="one">%d hour</item>
+        <item quantity="two">%d hours</item>
+        <item quantity="few">%d hours</item>
+        <item quantity="many">%d hours</item>
+        <item quantity="other">%d hours</item>
+    </plurals>
+
+    <plurals name="plural_time_minute">
+        <item quantity="zero">%d minute</item>
+        <item quantity="one">%d minute</item>
+        <item quantity="two">%d minutes</item>
+        <item quantity="few">%d minutes</item>
+        <item quantity="many">%d minutes</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
+
+    <plurals name="plural_time_second">
+        <item quantity="zero">%d second</item>
+        <item quantity="one">%d second</item>
+        <item quantity="two">%d seconds</item>
+        <item quantity="few">%d seconds</item>
+        <item quantity="many">%d seconds</item>
+        <item quantity="other">%d seconds</item>
+    </plurals>
+
+</resources>
