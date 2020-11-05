@@ -106,21 +106,6 @@
     <string name="pref_connected_have_notif_interval_title">Tempo para repetir o lembrete</string>
     <string name="pref_connected_have_notif_interval_summary">A função de sinal de notificação/lembrete usa este tempo</string>
 
-    <string name="pref_cat_call">Chamada recebida</string>
-    <string name="pref_call_summary_on">Não se esqueça de desligar \'incoming call alerts\' na aplicação \'Haylou Sport\'</string>
-    <string name="pref_call_text_title">Exibir o número do contato</string>
-
-    <string name="pref_call_notification_rejected">Exibir notificações sobre chamadas rejeitadas</string>
-    <string name="pref_call_notification_rejected_message">Chamada rejeitada</string>
-    <string name="pref_call_notification_rejected_action">Chamada</string>
-
-    <string name="pref_call_net_text_title">Notificar chamada online recebida</string>
-
-    <string name="pref_cat_call_missed">Chamada perdida</string>
-    <string name="pref_call_missed_title">Notificar chamada perdida</string>
-
-    <string name="pref_call_missed_alert_title">Aviso da %1$s</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
-
     <string name="pref_battery_phone">Bateria do dispositivo</string>
     <string name="pref_battery_phone_summary">Notificações de bateria Baixa e Cheia</string>
     <string name="pref_cat_battery_phone_low">Nível de bateria baixo</string>
@@ -258,6 +243,35 @@
     </string>
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> ícone: escolha este ícone para mostrar o título/conteúdo das notificações]]></string>
 
+
+    <!-- Call -->
+    <string name="pref_cat_call">Chamada recebida</string>
+    <string name="pref_call_summary_on">Não se esqueça de desligar \'incoming call alerts\' na aplicação \'Haylou Sport\'</string>
+    <string name="pref_call_text_title">Exibir o número do contato</string>
+
+    <string name="pref_call_notification_rejected">Exibir notificações sobre chamadas rejeitadas</string>
+    <string name="pref_call_notification_rejected_message">Chamada rejeitada</string>
+    <string name="pref_call_notification_rejected_action">Chamada</string>
+
+    <string name="pref_call_net_text_title">Notificar chamada online recebida</string>
+
+    <string name="pref_cat_call_missed">Chamada perdida</string>
+    <string name="pref_call_missed_title">Notificar chamada perdida</string>
+
+    <string name="pref_call_missed_alert_title">Aviso da %1$s</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="call_reject_button_action">Botão \'Rejeitar\'</string>
+
+    <string name="touch_call_answer_title">Atender</string>
+    <string name="touch_call_answer_speakerphone_title">Viva-voz</string>
+
+    <string name="touch_call_end_title">Rejeitar/Terminar</string>
+
+    <string name="touch_call_mute_title">Silenciar</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Só se estiver a receber uma chamada</string>
+    <string name="touch_call_mute_recognition_title">Em chamada recebida</string>
+
+
     <!-- App chooser dialog -->
     <string name="app_chooser">Escolher aplicação</string>
     <string name="action_search">Procurar</string>
@@ -332,16 +346,6 @@
     <string name="touch_headline_music_title">Controlar multimídia</string>
     <string name="touch_headline_time_title">Controlar Cronômetro/Temporizador</string>
     <string name="touch_headline_other_title">Outros controles</string>
-
-    <string name="touch_call_answer_title">Atender</string>
-    <string name="touch_call_answer_speakerphone_title">Viva-voz</string>
-
-    <string name="touch_call_end_title">Rejeitar/Terminar</string>
-
-    <string name="touch_call_mute_title">Silenciar</string>
-    <string name="touch_call_mute_only_call_state_ringing_title">Só se estiver a receber uma chamada</string>
-    <string name="touch_call_mute_recognition_title">Em chamada recebida</string>
-    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/Mais/Encontrar dispositivo</string>
 
     <string name="touch_device_location_title">Localizar o meu dispositivo</string>
     <string name="touch_device_location_not_muted_only_title">Emitir som apenas se não estiver silenciado ou em modo DND</string>
@@ -437,12 +441,15 @@
     <string name="touch_setting_recognition_failed_title">Padrão touch não reconhecido</string>
 
     <string name="info_dialog_touch"><![CDATA[
-        <p>Funciona corretamente no modo autônomo. Se você usar o modo de cooperação, o aplicativo oficial <app_official/> também lidará com essas funções, portanto, a operação adequada não pode ser garantida.</p>
+        <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
         <b><u>Recognised touches</u></b>
-        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next"> music control
-        <br><img src="ic_touch_find"> find my phone
+        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next">
+        <br><device_type/> music control
+        <p><img src="ic_touch_find">
+        <br><device_type/> find my phone
+        </p>
         <p>Multiple touches can be recorded for a function.</p>
-    ]]></string> <!-- %1$s Haylou fit-->
+    ]]></string>
 
 
     <!-- Text display -->
@@ -562,6 +569,7 @@
     <string name="invalid_setting">Configuração inválida</string>
     <string name="ringtone">Tom de toque</string>
     <string name="uninstalled">Uninstalled</string>
+    <string name="value">Value</string>
 
     <string name="action_dismiss">Recusar</string>
     <string name="action_setting">Definições</string>
@@ -578,6 +586,7 @@
     <string name="action_keep_editing">Continuar a editar</string>
     <string name="action_new">Novo</string>
     <string name="action_start_stop">Iniciar/Parar</string>
+    <string name="action_contacts">Contacts</string>
     <string name="synchronized_from_watch">Sincronizado do relógio</string>
 
     <string name="action_chart">Gráfico</string>

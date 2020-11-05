@@ -106,21 +106,6 @@
     <string name="pref_connected_have_notif_interval_title">Interval repetare reamintiri</string>
     <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
 
-    <string name="pref_cat_call">Apel primit</string>
-    <string name="pref_call_summary_on">Nu uita să dezactivezi alertele de apel primit în aplicația Haylou Sport</string>
-    <string name="pref_call_text_title">Afișează identitatea apelantului</string>
-
-    <string name="pref_call_notification_rejected">Show notification about rejected call</string>
-    <string name="pref_call_notification_rejected_message">Rejected call</string>
-    <string name="pref_call_notification_rejected_action">Call</string>
-
-    <string name="pref_call_net_text_title">Semnalul de apel primit pe Internet</string>
-
-    <string name="pref_cat_call_missed">Apel pierdut</string>
-    <string name="pref_call_missed_title">Semnal apel pierdut</string>
-
-    <string name="pref_call_missed_alert_title">Semnal %1$s</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
-
     <string name="pref_battery_phone">Bateria telefonului</string>
     <string name="pref_battery_phone_summary">Notificări nivel baterie scăzut și complet</string>
     <string name="pref_cat_battery_phone_low">Nivel scăzut al bateriei</string>
@@ -256,6 +241,35 @@
     </string>
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> pictogramă: alege această pictogramă pentru a afișa titlul/conținutul notificării.]]></string>
 
+
+    <!-- Call -->
+    <string name="pref_cat_call">Apel primit</string>
+    <string name="pref_call_summary_on">Nu uita să dezactivezi alertele de apel primit în aplicația Haylou Sport</string>
+    <string name="pref_call_text_title">Afișează identitatea apelantului</string>
+
+    <string name="pref_call_notification_rejected">Show notification about rejected call</string>
+    <string name="pref_call_notification_rejected_message">Rejected call</string>
+    <string name="pref_call_notification_rejected_action">Call</string>
+
+    <string name="pref_call_net_text_title">Semnalul de apel primit pe Internet</string>
+
+    <string name="pref_cat_call_missed">Apel pierdut</string>
+    <string name="pref_call_missed_title">Semnal apel pierdut</string>
+
+    <string name="pref_call_missed_alert_title">Semnal %1$s</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="call_reject_button_action">Butonul de respingere</string>
+
+    <string name="touch_call_answer_title">Răspuns la apel</string>
+    <string name="touch_call_answer_speakerphone_title">Difuzor</string>
+
+    <string name="touch_call_end_title">Respingere, oprire apel</string>
+
+    <string name="touch_call_mute_title">Comutator apel silențios</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Doar dacă primești un apel</string>
+    <string name="touch_call_mute_recognition_title">În timpul unui apel primit</string>
+
+
     <!-- App chooser dialog -->
     <string name="app_chooser">Selector de aplicații</string>
     <string name="action_search">Căutare</string>
@@ -330,16 +344,6 @@
     <string name="touch_headline_music_title">Control muzică</string>
     <string name="touch_headline_time_title">Control temporizator/ cronometru</string>
     <string name="touch_headline_other_title">Alte controale</string>
-
-    <string name="touch_call_answer_title">Răspuns la apel</string>
-    <string name="touch_call_answer_speakerphone_title">Difuzor</string>
-
-    <string name="touch_call_end_title">Respingere, oprire apel</string>
-
-    <string name="touch_call_mute_title">Comutator apel silențios</string>
-    <string name="touch_call_mute_only_call_state_ringing_title">Doar dacă primești un apel</string>
-    <string name="touch_call_mute_recognition_title">În timpul unui apel primit</string>
-    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/More/Find device</string>
 
     <string name="touch_device_location_title">Găsește-mi telefonul</string>
     <string name="touch_device_location_not_muted_only_title">Sunet numai dacă nu este pe mut sau în modul DnD</string>
@@ -437,10 +441,13 @@
     <string name="info_dialog_touch"><![CDATA[
         <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
         <b><u>Recognised touches</u></b>
-        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next"> music control
-        <br><img src="ic_touch_find"> find my phone
+        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next">
+        <br><device_type/> music control
+        <p><img src="ic_touch_find">
+        <br><device_type/> find my phone
+        </p>
         <p>Multiple touches can be recorded for a function.</p>
-    ]]></string> <!-- %1$s Haylou fit-->
+    ]]></string>
 
 
     <!-- Text display -->
@@ -562,6 +569,7 @@
     <string name="invalid_setting">Invalid setting</string>
     <string name="ringtone">Sonerie apel</string>
     <string name="uninstalled">Uninstalled</string>
+    <string name="value">Value</string>
 
     <string name="action_dismiss">Înlătură</string>
     <string name="action_setting">Setări</string>
@@ -578,6 +586,7 @@
     <string name="action_keep_editing">Editează în continuare</string>
     <string name="action_new">New</string>
     <string name="action_start_stop">Start/Stop</string>
+    <string name="action_contacts">Contacts</string>
     <string name="synchronized_from_watch">Synchronized from watch</string>
 
     <string name="action_chart">Grafic</string>

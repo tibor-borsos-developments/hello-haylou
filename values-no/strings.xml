@@ -106,21 +106,6 @@
     <string name="pref_connected_have_notif_interval_title">Påminnelse gjentakelses-interval</string>
     <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
 
-    <string name="pref_cat_call">Inkommende anrop</string>
-    <string name="pref_call_summary_on">Ikke glem å skru av inkommende anrops-varsler på Haylou Sport appen</string>
-    <string name="pref_call_text_title">Vis alle anrops-IDer</string>
-
-    <string name="pref_call_notification_rejected">Show notification about rejected call</string>
-    <string name="pref_call_notification_rejected_message">Rejected call</string>
-    <string name="pref_call_notification_rejected_action">Call</string>
-
-    <string name="pref_call_net_text_title">Inkommende internett-anrop signal</string>
-
-    <string name="pref_cat_call_missed">Tapt anrop</string>
-    <string name="pref_call_missed_title">Tapt anrop signal</string>
-
-    <string name="pref_call_missed_alert_title">%1$s-signal</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
-
     <string name="pref_battery_phone">Telefon batteri</string>
     <string name="pref_battery_phone_summary">Lavt og fullt batteri level-notifikasjon</string>
     <string name="pref_cat_battery_phone_low">Lavt batteri-level</string>
@@ -257,6 +242,35 @@
     </string>
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> icon: velg dette ikonet for å vise notifikasjonene tittel/kontent.]]></string>
 
+
+    <!-- Call -->
+    <string name="pref_cat_call">Inkommende anrop</string>
+    <string name="pref_call_summary_on">Ikke glem å skru av inkommende anrops-varsler på Haylou Sport appen</string>
+    <string name="pref_call_text_title">Vis alle anrops-IDer</string>
+
+    <string name="pref_call_notification_rejected">Show notification about rejected call</string>
+    <string name="pref_call_notification_rejected_message">Rejected call</string>
+    <string name="pref_call_notification_rejected_action">Call</string>
+
+    <string name="pref_call_net_text_title">Inkommende internett-anrop signal</string>
+
+    <string name="pref_cat_call_missed">Tapt anrop</string>
+    <string name="pref_call_missed_title">Tapt anrop signal</string>
+
+    <string name="pref_call_missed_alert_title">%1$s-signal</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="call_reject_button_action">Avvis knappen</string>
+
+    <string name="touch_call_answer_title">Svar på anrop</string>
+    <string name="touch_call_answer_speakerphone_title">Høyttaler</string>
+
+    <string name="touch_call_end_title">Avvis anrop, ending</string>
+
+    <string name="touch_call_mute_title">Call mute</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Bare hvis du har et inkommende anrop</string>
+    <string name="touch_call_mute_recognition_title">Ved innkommende anrop</string>
+
+
     <!-- MiBandage App-velger dialog -->
     <string name="app_chooser">App-velger</string>
     <string name="action_search">Søk</string>
@@ -331,16 +345,6 @@
     <string name="touch_headline_music_title">Musikk kontroll</string>
     <string name="touch_headline_time_title">Timer/stoppeklokke kontroll</string>
     <string name="touch_headline_other_title">Andre kontroller</string>
-
-    <string name="touch_call_answer_title">Svar på anrop</string>
-    <string name="touch_call_answer_speakerphone_title">Høyttaler</string>
-
-    <string name="touch_call_end_title">Avvis anrop, ending</string>
-
-    <string name="touch_call_mute_title">Call mute</string>
-    <string name="touch_call_mute_only_call_state_ringing_title">Bare hvis du har et inkommende anrop</string>
-    <string name="touch_call_mute_recognition_title">Ved innkommende anrop</string>
-    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/More/Find device</string>
 
     <string name="touch_device_location_title">Finn min telefon</string>
     <string name="touch_device_location_not_muted_only_title">Lag lyd bare hvis den ikke er på lydsøs eller i DnD mode</string>
@@ -438,10 +442,13 @@
     <string name="info_dialog_touch"><![CDATA[
         <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
         <b><u>Recognised touches</u></b>
-        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next"> music control
-        <br><img src="ic_touch_find"> find my phone
+        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next">
+        <br><device_type/> music control
+        <p><img src="ic_touch_find">
+        <br><device_type/> find my phone
+        </p>
         <p>Multiple touches can be recorded for a function.</p>
-    ]]></string> <!-- %1$s Haylou fit-->
+    ]]></string>
 
 
     <!-- Text display -->
@@ -563,6 +570,7 @@
     <string name="invalid_setting">Invalid setting</string>
     <string name="ringtone">Ringetone</string>
     <string name="uninstalled">Uninstalled</string>
+    <string name="value">Value</string>
 
     <string name="action_dismiss">Avvis</string>
     <string name="action_setting">Indtilling</string>
@@ -579,6 +587,7 @@
     <string name="action_keep_editing">Fortsett å redigere</string>
     <string name="action_new">New</string>
     <string name="action_start_stop">Start/Stop</string>
+    <string name="action_contacts">Contacts</string>
     <string name="synchronized_from_watch">Synchronized from watch</string>
 
 

@@ -106,21 +106,6 @@
     <string name="pref_connected_have_notif_interval_title">リマインダーの繰り返し間隔</string>
     <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
 
-    <string name="pref_cat_call">着信</string>
-    <string name="pref_call_summary_on">必ずHaylou Sportで着信通知をオフにしてください。</string>
-    <string name="pref_call_text_title">発信者のIDを表示</string>
-
-    <string name="pref_call_notification_rejected">着信拒否の通知を表示</string>
-    <string name="pref_call_notification_rejected_message">着信拒否</string>
-    <string name="pref_call_notification_rejected_action">通話</string>
-
-    <string name="pref_call_net_text_title">インターネット通話の着信通知</string>
-
-    <string name="pref_cat_call_missed">不在着信</string>
-    <string name="pref_call_missed_title">不在着信通知</string>
-
-    <string name="pref_call_missed_alert_title">%1$sの通知</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
-
     <string name="pref_battery_phone">端末のバッテリー</string>
     <string name="pref_battery_phone_summary">残量低下・フル充電通知</string>
     <string name="pref_cat_battery_phone_low">残量低下</string>
@@ -257,6 +242,35 @@
     </string>
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT">通知のタイトルまたは内容を表示するにはこのアイコンを選択してください。]]></string>
 
+
+    <!-- Call -->
+    <string name="pref_cat_call">着信</string>
+    <string name="pref_call_summary_on">必ずHaylou Sportで着信通知をオフにしてください。</string>
+    <string name="pref_call_text_title">発信者のIDを表示</string>
+
+    <string name="pref_call_notification_rejected">着信拒否の通知を表示</string>
+    <string name="pref_call_notification_rejected_message">着信拒否</string>
+    <string name="pref_call_notification_rejected_action">通話</string>
+
+    <string name="pref_call_net_text_title">インターネット通話の着信通知</string>
+
+    <string name="pref_cat_call_missed">不在着信</string>
+    <string name="pref_call_missed_title">不在着信通知</string>
+
+    <string name="pref_call_missed_alert_title">%1$sの通知</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="call_reject_button_action">着信拒否ボタン</string>
+
+    <string name="touch_call_answer_title">着信の応答</string>
+    <string name="touch_call_answer_speakerphone_title">スピーカー</string>
+
+    <string name="touch_call_end_title">着信を拒否・終了</string>
+
+    <string name="touch_call_mute_title">通話をミュート</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">着信時のみ</string>
+    <string name="touch_call_mute_recognition_title">着信時</string>
+
+
     <!-- App chooser dialog -->
     <string name="app_chooser">アプリ選択</string>
     <string name="action_search">検索</string>
@@ -332,15 +346,6 @@
     <string name="touch_headline_time_title">タイマー・ストップウォッチの操作</string>
     <string name="touch_headline_other_title">その他の操作</string>
 
-    <string name="touch_call_answer_title">着信の応答</string>
-    <string name="touch_call_answer_speakerphone_title">スピーカー</string>
-
-    <string name="touch_call_end_title">着信を拒否・終了</string>
-
-    <string name="touch_call_mute_title">通話をミュート</string>
-    <string name="touch_call_mute_only_call_state_ringing_title">着信時のみ</string>
-    <string name="touch_call_mute_recognition_title">着信時</string>
-    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/その他/端末を探す</string>
 
     <string name="touch_device_location_title">端末を探す</string>
     <string name="touch_device_location_not_muted_only_title">ミュート・DND時は鳴動しない</string>
@@ -438,10 +443,13 @@
     <string name="info_dialog_touch"><![CDATA[
         <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
         <b><u>Recognised touches</u></b>
-        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next"> music control
-        <br><img src="ic_touch_find"> find my phone
+        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next">
+        <br><device_type/> music control
+        <p><img src="ic_touch_find">
+        <br><device_type/> find my phone
+        </p>
         <p>Multiple touches can be recorded for a function.</p>
-    ]]></string> <!-- %1$s Haylou fit-->
+    ]]></string>
 
 
     <!-- Text display -->
@@ -563,6 +571,7 @@
     <string name="invalid_setting">設定が無効です</string>
     <string name="ringtone">着信音</string>
     <string name="uninstalled">Uninstalled</string>
+    <string name="value">Value</string>
 
     <string name="action_dismiss">中止</string>
     <string name="action_setting">設定</string>
@@ -579,6 +588,7 @@
     <string name="action_keep_editing">編集を続行</string>
     <string name="action_new">新規</string>
     <string name="action_start_stop">開始/停止</string>
+    <string name="action_contacts">Contacts</string>
     <string name="synchronized_from_watch">バンドから同期</string>
 
     <string name="action_chart">チャート</string>

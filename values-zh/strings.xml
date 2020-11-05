@@ -106,21 +106,6 @@
     <string name="pref_connected_have_notif_interval_title">提醒重复间隔</string>
     <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
 
-    <string name="pref_cat_call">来电</string>
-    <string name="pref_call_summary_on">开 (不要忘记关闭 Haylou Sport 里的提醒)</string>
-    <string name="pref_call_text_title">来电显示</string>
-
-    <string name="pref_call_notification_rejected">Show notification about rejected call</string>
-    <string name="pref_call_notification_rejected_message">Rejected call</string>
-    <string name="pref_call_notification_rejected_action">Call</string>
-
-    <string name="pref_call_net_text_title">网络电话呼入</string>
-
-    <string name="pref_cat_call_missed">未接来电</string>
-    <string name="pref_call_missed_title">未接来电通知</string>
-
-    <string name="pref_call_missed_alert_title">%1$s 信号</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
-
     <string name="pref_battery_phone">手机电量</string>
     <string name="pref_battery_phone_summary">低电量或充满电时提示</string>
     <string name="pref_cat_battery_phone_low">低电量</string>
@@ -257,6 +242,35 @@
     </string>
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> 图标：选择此图标来显示通知标题/内容.]]></string>
 
+
+    <!-- Call -->
+    <string name="pref_cat_call">来电</string>
+    <string name="pref_call_summary_on">开 (不要忘记关闭 Haylou Sport 里的提醒)</string>
+    <string name="pref_call_text_title">来电显示</string>
+
+    <string name="pref_call_notification_rejected">Show notification about rejected call</string>
+    <string name="pref_call_notification_rejected_message">Rejected call</string>
+    <string name="pref_call_notification_rejected_action">Call</string>
+
+    <string name="pref_call_net_text_title">网络电话呼入</string>
+
+    <string name="pref_cat_call_missed">未接来电</string>
+    <string name="pref_call_missed_title">未接来电通知</string>
+
+    <string name="pref_call_missed_alert_title">%1$s 信号</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="call_reject_button_action">Reject button action</string>
+
+    <string name="touch_call_answer_title">呼叫应答</string>
+    <string name="touch_call_answer_speakerphone_title">免提</string>
+
+    <string name="touch_call_end_title">接听，结束</string>
+
+    <string name="touch_call_mute_title">切换到静音模式</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">只当你有来电时</string>
+    <string name="touch_call_mute_recognition_title">来电</string>
+
+
     <!-- App chooser dialog -->
     <string name="app_chooser">选择应用</string>
     <string name="action_search">搜索</string>
@@ -331,16 +345,6 @@
     <string name="touch_headline_music_title">音乐控制</string>
     <string name="touch_headline_time_title">定时器/秒表控制</string>
     <string name="touch_headline_other_title">其他控制</string>
-
-    <string name="touch_call_answer_title">呼叫应答</string>
-    <string name="touch_call_answer_speakerphone_title">免提</string>
-
-    <string name="touch_call_end_title">接听，结束</string>
-
-    <string name="touch_call_mute_title">切换到静音模式</string>
-    <string name="touch_call_mute_only_call_state_ringing_title">只当你有来电时</string>
-    <string name="touch_call_mute_recognition_title">来电</string>
-    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/More/Find device</string>
 
     <string name="touch_device_location_title">查找我的手机</string>
     <string name="touch_device_location_not_muted_only_title">只有在未静音或未处于 DnD 模式时才发声</string>
@@ -436,12 +440,15 @@
     <string name="touch_setting_recognition_failed_title">不可识别的触摸模式</string>
 
     <string name="info_dialog_touch"><![CDATA[
-        <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.
+        <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
         <b><u>Recognised touches</u></b>
-        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next"> music control
-        <br><img src="ic_touch_find"> find my phone
+        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next">
+        <br><device_type/> music control
+        <p><img src="ic_touch_find">
+        <br><device_type/> find my phone
+        </p>
         <p>Multiple touches can be recorded for a function.</p>
-    ]]></string> <!-- %1$s Haylou fit-->
+    ]]></string>
 
 
     <!-- Text display -->
@@ -563,6 +570,7 @@
     <string name="invalid_setting">Invalid setting</string>
     <string name="ringtone">铃声</string>
     <string name="uninstalled">Uninstalled</string>
+    <string name="value">Value</string>
 
     <string name="action_dismiss">关闭</string>
     <string name="action_setting">设置</string>
@@ -579,6 +587,7 @@
     <string name="action_keep_editing">继续编辑</string>
     <string name="action_new">新</string>
     <string name="action_start_stop">Start/Stop</string>
+    <string name="action_contacts">Contacts</string>
     <string name="synchronized_from_watch">Synchronized from watch</string>
 
     <string name="action_chart">图表</string>

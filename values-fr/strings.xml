@@ -106,21 +106,6 @@
     <string name="pref_connected_have_notif_interval_title">Intervalle de répétition du rappel</string>
     <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
 
-    <string name="pref_cat_call">Appels entrant</string>
-    <string name="pref_call_summary_on">Ne pas oublier de couper les alertes sur appels entrant sur l\'appli Haylou Sport</string>
-    <string name="pref_call_text_title">Afficher l\'identité de l\'appelant</string>
-
-    <string name="pref_call_notification_rejected">Show notification about rejected call</string>
-    <string name="pref_call_notification_rejected_message">Rejected call</string>
-    <string name="pref_call_notification_rejected_action">Call</string>
-
-    <string name="pref_call_net_text_title">Alerte sur appels internet entrants</string>
-
-    <string name="pref_cat_call_missed">Appels manqués</string>
-    <string name="pref_call_missed_title">Alerte sur appels manqués</string>
-
-    <string name="pref_call_missed_alert_title">Alertes du %1$s</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
-
     <string name="pref_battery_phone">Batterie du portable</string>
     <string name="pref_battery_phone_summary">Notifications de niveau faible et plein de la batterie</string>
     <string name="pref_cat_battery_phone_low">Niveau de batterie faible</string>
@@ -286,6 +271,33 @@
     <string name="pulse_continuous_title">Mesure du pouls en continue</string>
 
 
+    <!-- Call -->
+    <string name="pref_cat_call">Appels entrant</string>
+    <string name="pref_call_summary_on">Ne pas oublier de couper les alertes sur appels entrant sur l\'appli Haylou Sport</string>
+    <string name="pref_call_text_title">Afficher l\'identité de l\'appelant</string>
+
+    <string name="pref_call_notification_rejected">Show notification about rejected call</string>
+    <string name="pref_call_notification_rejected_message">Rejected call</string>
+    <string name="pref_call_notification_rejected_action">Call</string>
+
+    <string name="pref_call_net_text_title">Alerte sur appels internet entrants</string>
+
+    <string name="pref_cat_call_missed">Appels manqués</string>
+    <string name="pref_call_missed_title">Alerte sur appels manqués</string>
+
+    <string name="pref_call_missed_alert_title">Alertes du %1$s</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="call_reject_button_action">Bouton de rejet</string>
+
+    <string name="touch_call_answer_title">Appels décrochés</string>
+    <string name="touch_call_answer_speakerphone_title">Haut parleur</string>
+
+    <string name="touch_call_end_title">Appels rejetés, terminés</string>
+
+    <string name="touch_call_mute_title">Appels basculés en muet</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Uniquement si vous avez un appel entrant</string>
+    <string name="touch_call_mute_recognition_title">Sur appel entrant</string>
+
+
     <!-- Pulse -->
     <string name="pulse_tab_day">Graphs quotidien</string>
     <string name="pulse_tab_week">Graphs semaine</string>
@@ -332,16 +344,6 @@
     <string name="touch_headline_music_title">Contrôle de la musique</string>
     <string name="touch_headline_time_title">Contrôle du chronomètre minuteur</string>
     <string name="touch_headline_other_title">Autres contrôles</string>
-
-    <string name="touch_call_answer_title">Appels décrochés</string>
-    <string name="touch_call_answer_speakerphone_title">Haut parleur</string>
-
-    <string name="touch_call_end_title">Appels rejetés, terminés</string>
-
-    <string name="touch_call_mute_title">Appels basculés en muet</string>
-    <string name="touch_call_mute_only_call_state_ringing_title">Uniquement si vous avez un appel entrant</string>
-    <string name="touch_call_mute_recognition_title">Sur appel entrant</string>
-    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/More/Find device</string>
 
     <string name="touch_device_location_title">Trouver mon mobile</string>
     <string name="touch_device_location_not_muted_only_title">Émettre un son s\'il n\'est pas en muet ou en mode DnD</string>
@@ -439,10 +441,13 @@
     <string name="info_dialog_touch"><![CDATA[
         <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
         <b><u>Recognised touches</u></b>
-        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next"> music control
-        <br><img src="ic_touch_find"> find my phone
+        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next">
+        <br><device_type/> music control
+        <p><img src="ic_touch_find">
+        <br><device_type/> find my phone
+        </p>
         <p>Multiple touches can be recorded for a function.</p>
-    ]]></string> <!-- %1$s Haylou fit-->
+    ]]></string>
 
 
     <!-- Text display -->
@@ -564,6 +569,7 @@
     <string name="invalid_setting">Invalid setting</string>
     <string name="ringtone">Type de sonnerie</string>
     <string name="uninstalled">Uninstalled</string>
+    <string name="value">Value</string>
 
     <string name="action_dismiss">Rejeter</string>
     <string name="action_setting">Réglage</string>
@@ -580,6 +586,7 @@
     <string name="action_keep_editing">Continuer à modifier</string>
     <string name="action_new">New</string>
     <string name="action_start_stop">Start/Stop</string>
+    <string name="action_contacts">Contacts</string>
     <string name="synchronized_from_watch">Synchronized from watch</string>
 
     <string name="action_chart">Graph</string>

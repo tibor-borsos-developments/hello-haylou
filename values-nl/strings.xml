@@ -106,21 +106,6 @@
     <string name="pref_connected_have_notif_interval_title">Herinnering interval herhaling</string>
     <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
 
-    <string name="pref_cat_call">Binnenkomend gesprek</string>
-    <string name="pref_call_summary_on">Vergeet niet om waarschuwingen voor inkomende oproepen uit te schakelen op de Haylou Sport app</string>
-    <string name="pref_call_text_title">Toon beller ID</string>
-
-    <string name="pref_call_notification_rejected">Show notification about rejected call</string>
-    <string name="pref_call_notification_rejected_message">Rejected call</string>
-    <string name="pref_call_notification_rejected_action">Call</string>
-
-    <string name="pref_call_net_text_title">Inkomend internet oproep signaal</string>
-
-    <string name="pref_cat_call_missed">Gemiste oproep</string>
-    <string name="pref_call_missed_title">Gemiste oproep signaal</string>
-
-    <string name="pref_call_missed_alert_title">%1$s signal</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
-
     <string name="pref_battery_phone">Telefoonbatterij</string>
     <string name="pref_battery_phone_summary">Meldingen leeg en vol van het batterijniveau</string>
     <string name="pref_cat_battery_phone_low">Laag batterijniveau</string>
@@ -259,6 +244,35 @@
     </string>
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> icon: Om de titel/inhoud van de melding te tonen activeer dit pictogram.]]></string>
 
+
+    <!-- Call -->
+    <string name="pref_cat_call">Binnenkomend gesprek</string>
+    <string name="pref_call_summary_on">Vergeet niet om waarschuwingen voor inkomende oproepen uit te schakelen op de Haylou Sport app</string>
+    <string name="pref_call_text_title">Toon beller ID</string>
+
+    <string name="pref_call_notification_rejected">Show notification about rejected call</string>
+    <string name="pref_call_notification_rejected_message">Rejected call</string>
+    <string name="pref_call_notification_rejected_action">Call</string>
+
+    <string name="pref_call_net_text_title">Inkomend internet oproep signaal</string>
+
+    <string name="pref_cat_call_missed">Gemiste oproep</string>
+    <string name="pref_call_missed_title">Gemiste oproep signaal</string>
+
+    <string name="pref_call_missed_alert_title">%1$s signal</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="call_reject_button_action">Reject knop</string>
+
+    <string name="touch_call_answer_title">Oproep beantwoorden</string>
+    <string name="touch_call_answer_speakerphone_title">Telefoon luidspreker</string>
+
+    <string name="touch_call_end_title">Oproep weigeren, beëindigen</string>
+
+    <string name="touch_call_mute_title">Oproep dempenregeling</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Alleen als je een inkomende oproep hebt</string>
+    <string name="touch_call_mute_recognition_title">Bij inkomende oproep</string>
+
+
     <!-- Activity -->
     <string name="step_tab_day">Dag tabel</string>
     <string name="step_tab_week">Week tabel</string>
@@ -326,16 +340,6 @@
     <string name="touch_headline_music_title">Muziek beheren</string>
     <string name="touch_headline_time_title">Timer/stopwatch beheren</string>
     <string name="touch_headline_other_title">Anders beheer</string>
-
-    <string name="touch_call_answer_title">Oproep beantwoorden</string>
-    <string name="touch_call_answer_speakerphone_title">Telefoon luidspreker</string>
-
-    <string name="touch_call_end_title">Oproep weigeren, beëindigen</string>
-
-    <string name="touch_call_mute_title">Oproep dempenregeling</string>
-    <string name="touch_call_mute_only_call_state_ringing_title">Alleen als je een inkomende oproep hebt</string>
-    <string name="touch_call_mute_recognition_title">Bij inkomende oproep</string>
-    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/More/Find device</string>
 
     <string name="touch_device_location_title">vind mijn telefoon</string>
     <string name="touch_device_location_not_muted_only_title">Alleen geluid als het niet is gedempt of in NS mode</string>
@@ -433,10 +437,13 @@
     <string name="info_dialog_touch"><![CDATA[
         <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
         <b><u>Recognised touches</u></b>
-        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next"> music control
-        <br><img src="ic_touch_find"> find my phone
+        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next">
+        <br><device_type/> music control
+        <p><img src="ic_touch_find">
+        <br><device_type/> find my phone
+        </p>
         <p>Multiple touches can be recorded for a function.</p>
-    ]]></string> <!-- %1$s Haylou fit-->
+    ]]></string>
 
 
     <!-- Text display -->
@@ -566,6 +573,7 @@
     <string name="invalid_setting">Invalid setting</string>
     <string name="ringtone">Beltone</string>
     <string name="uninstalled">Uninstalled</string>
+    <string name="value">Value</string>
 
     <string name="action_dismiss">Afwijzen</string>
     <string name="action_setting">Instellingen</string>
@@ -582,6 +590,7 @@
     <string name="action_keep_editing">Bewerking bewaren</string>
     <string name="action_new">New</string>
     <string name="action_start_stop">Start/Stop</string>
+    <string name="action_contacts">Contacts</string>
     <string name="synchronized_from_watch">Synchronized from watch</string>
 
 

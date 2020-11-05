@@ -106,21 +106,6 @@
     <string name="pref_connected_have_notif_interval_title">Hangi aralıkta hatırlatma bildirimi tekrarlansın</string>
     <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
 
-    <string name="pref_cat_call">Gelen arama</string>
-    <string name="pref_call_summary_on">Haylou Sport uygulamasında gelen çağrı uyarılarını kapatmayı unutmayın, yoksa çift bildirim gelir</string>
-    <string name="pref_call_text_title">Arayan bilgisini göster</string>
-
-    <string name="pref_call_notification_rejected">Reddedilmiş çağrılar içim bildirim göster</string>
-    <string name="pref_call_notification_rejected_message">Reddedilmiş çağrı</string>
-    <string name="pref_call_notification_rejected_action">Ara</string>
-
-    <string name="pref_call_net_text_title">İnternet aramaları bildirimi</string>
-
-    <string name="pref_cat_call_missed">Cevapsız arama</string>
-    <string name="pref_call_missed_title">Cevapsız arama bildirimi</string>
-
-    <string name="pref_call_missed_alert_title">%1$s sinyali</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
-
     <string name="pref_battery_phone">Pil</string>
     <string name="pref_battery_phone_summary">Pil seviyesi düşük veya tam dolu bildirimleri</string>
     <string name="pref_cat_battery_phone_low">Düşük pil seviyesi</string>
@@ -258,6 +243,34 @@
     </string>
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> simge: bildirimlerin başlığını/içeriğini göstermek için bu simgeyi seçin.]]></string>
 
+    <!-- Call -->
+    <string name="pref_cat_call">Gelen arama</string>
+    <string name="pref_call_summary_on">Haylou Sport uygulamasında gelen çağrı uyarılarını kapatmayı unutmayın, yoksa çift bildirim gelir</string>
+    <string name="pref_call_text_title">Arayan bilgisini göster</string>
+
+    <string name="pref_call_notification_rejected">Reddedilmiş çağrılar içim bildirim göster</string>
+    <string name="pref_call_notification_rejected_message">Reddedilmiş çağrı</string>
+    <string name="pref_call_notification_rejected_action">Ara</string>
+
+    <string name="pref_call_net_text_title">İnternet aramaları bildirimi</string>
+
+    <string name="pref_cat_call_missed">Cevapsız arama</string>
+    <string name="pref_call_missed_title">Cevapsız arama bildirimi</string>
+
+    <string name="pref_call_missed_alert_title">%1$s sinyali</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="call_reject_button_action">Reddet düğmesi</string>
+
+    <string name="touch_call_answer_title">Çağrıyı cevapla</string>
+    <string name="touch_call_answer_speakerphone_title">Hoparlör ile</string>
+
+    <string name="touch_call_end_title">Çağrıyı reddet</string>
+
+    <string name="touch_call_mute_title">Çağrıyı sessize al</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Yalnızca gelen bir aramanız varsa</string>
+    <string name="touch_call_mute_recognition_title">Gelen çağrılarda</string>
+
+
     <!-- App chooser dialog -->
     <string name="app_chooser">Uygulama seçici</string>
     <string name="action_search">Ara</string>
@@ -332,16 +345,6 @@
     <string name="touch_headline_music_title">Müzik</string>
     <string name="touch_headline_time_title">Alarm/Saat</string>
     <string name="touch_headline_other_title">Diğer</string>
-
-    <string name="touch_call_answer_title">Çağrıyı cevapla</string>
-    <string name="touch_call_answer_speakerphone_title">Hoparlör ile</string>
-
-    <string name="touch_call_end_title">Çağrıyı reddet</string>
-
-    <string name="touch_call_mute_title">Çağrıyı sessize al</string>
-    <string name="touch_call_mute_only_call_state_ringing_title">Yalnızca gelen bir aramanız varsa</string>
-    <string name="touch_call_mute_recognition_title">Gelen çağrılarda</string>
-    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/Diğer/Cihaz bul</string>
 
     <string name="touch_device_location_title">Telefonumu bul</string>
     <string name="touch_device_location_not_muted_only_title">Rahatsız etmeyin modunda ve telefon zaten sessizde değilse</string>
@@ -439,10 +442,13 @@
     <string name="info_dialog_touch"><![CDATA[
         <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
         <b><u>Recognised touches</u></b>
-        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next"> music control
-        <br><img src="ic_touch_find"> find my phone
+        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next">
+        <br><device_type/> music control
+        <p><img src="ic_touch_find">
+        <br><device_type/> find my phone
+        </p>
         <p>Multiple touches can be recorded for a function.</p>
-    ]]></string> <!-- %1$s Haylou fit-->
+    ]]></string>
 
 
     <!-- Text display -->
@@ -564,6 +570,7 @@
     <string name="invalid_setting">Invalid setting</string>
     <string name="ringtone">Zil sesi çal</string>
     <string name="uninstalled">Uninstalled</string>
+    <string name="value">Value</string>
 
     <string name="action_dismiss">Vazgeç</string>
     <string name="action_setting">Ayarlar</string>
@@ -580,6 +587,7 @@
     <string name="action_keep_editing">Düzenlemeye devam et</string>
     <string name="action_new">Yeni</string>
     <string name="action_start_stop">Başla/Dur</string>
+    <string name="action_contacts">Contacts</string>
     <string name="synchronized_from_watch">Saatten senkronize et</string>
 
     <string name="action_chart">Grafik</string>

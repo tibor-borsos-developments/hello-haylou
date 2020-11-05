@@ -106,21 +106,6 @@
     <string name="pref_connected_have_notif_interval_title">Інтервал повтору нагадувань</string>
     <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
 
-    <string name="pref_cat_call">Вхідний виклик</string>
-    <string name="pref_call_summary_on">Вимкніть сповіщення про вхідні виклики у Haylou</string>
-    <string name="pref_call_text_title">Відображати дані абонента</string>
-
-    <string name="pref_call_notification_rejected">Сповіщення про відхилені виклики</string>
-    <string name="pref_call_notification_rejected_message">Відхилений виклик</string>
-    <string name="pref_call_notification_rejected_action">Виклик</string>
-
-    <string name="pref_call_net_text_title">Вхідні виклики з інтернету + дані абонента</string>
-
-    <string name="pref_cat_call_missed">Пропущений виклик</string>
-    <string name="pref_call_missed_title">Сповіщення про пропущені виклики</string>
-
-    <string name="pref_call_missed_alert_title">Сповіщення %1$s</string>
-
     <string name="pref_battery_phone">Акумулятор телефона</string>
     <string name="pref_battery_phone_summary">Сповіщення про низький та повний заряд</string>
     <string name="pref_cat_battery_phone_low">Низький рівень заряду</string>
@@ -257,6 +242,35 @@
     </string>
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT">: оберіть значок для відображення заголовку/вмісту сповіщення.]]></string>
 
+
+    <!-- Call -->
+    <string name="pref_cat_call">Вхідний виклик</string>
+    <string name="pref_call_summary_on">Вимкніть сповіщення про вхідні виклики у Haylou</string>
+    <string name="pref_call_text_title">Відображати дані абонента</string>
+
+    <string name="pref_call_notification_rejected">Сповіщення про відхилені виклики</string>
+    <string name="pref_call_notification_rejected_message">Відхилений виклик</string>
+    <string name="pref_call_notification_rejected_action">Виклик</string>
+
+    <string name="pref_call_net_text_title">Вхідні виклики з інтернету + дані абонента</string>
+
+    <string name="pref_cat_call_missed">Пропущений виклик</string>
+    <string name="pref_call_missed_title">Сповіщення про пропущені виклики</string>
+
+    <string name="pref_call_missed_alert_title">Сповіщення %1$s</string>
+
+    <string name="call_reject_button_action">Кнопка відхилити</string>
+
+    <string name="touch_call_answer_title">Відповідь на виклик</string>
+    <string name="touch_call_answer_speakerphone_title">Гучний зв\'язок</string>
+
+    <string name="touch_call_end_title">Відхилення, завершення виклику</string>
+
+    <string name="touch_call_mute_title">Приглушення дзвінка</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Тільки при вхідному виклику</string>
+    <string name="touch_call_mute_recognition_title">При вхідному виклику</string>
+
+
     <!-- App chooser dialog -->
     <string name="app_chooser">Вибір додатку</string>
     <string name="action_search">Пошук</string>
@@ -331,16 +345,6 @@
     <string name="touch_headline_music_title">Керування музикою</string>
     <string name="touch_headline_time_title">Керування секундоміром/таймером</string>
     <string name="touch_headline_other_title">Керування іншим</string>
-
-    <string name="touch_call_answer_title">Відповідь на виклик</string>
-    <string name="touch_call_answer_speakerphone_title">Гучний зв\'язок</string>
-
-    <string name="touch_call_end_title">Відхилення, завершення виклику</string>
-
-    <string name="touch_call_mute_title">Приглушення дзвінка</string>
-    <string name="touch_call_mute_only_call_state_ringing_title">Тільки при вхідному виклику</string>
-    <string name="touch_call_mute_recognition_title">При вхідному виклику</string>
-    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/Ще/Пошук пристрою</string>
 
     <string name="touch_device_location_title">Знайти телефон</string>
     <string name="touch_device_location_not_muted_only_title">Відтворити тільки якщо увімкнені звуки та не в режимі \"Не турбувати\"</string>
@@ -438,10 +442,13 @@
     <string name="info_dialog_touch"><![CDATA[
         <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
         <b><u>Recognised touches</u></b>
-        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next"> music control
-        <br><img src="ic_touch_find"> find my phone
+        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next">
+        <br><device_type/> music control
+        <p><img src="ic_touch_find">
+        <br><device_type/> find my phone
+        </p>
         <p>Multiple touches can be recorded for a function.</p>
-    ]]></string> <!-- %1$s Haylou fit-->
+    ]]></string>
 
 
     <!-- Text display -->
@@ -561,6 +568,7 @@
     <string name="invalid_setting">Invalid setting</string>
     <string name="ringtone">Мелодія дзвінка</string>
     <string name="uninstalled">Uninstalled</string>
+    <string name="value">Value</string>
 
     <string name="action_dismiss">Відхилити</string>
     <string name="action_setting">Налаштування</string>
@@ -577,6 +585,7 @@
     <string name="action_keep_editing">Продовжити редагування</string>
     <string name="action_new">Новий</string>
     <string name="action_start_stop">Старт/Стоп</string>
+    <string name="action_contacts">Contacts</string>
     <string name="synchronized_from_watch">Синхронізовано з годинника</string>
 
     <string name="action_chart">Графік</string>

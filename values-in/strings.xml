@@ -106,21 +106,6 @@
     <string name="pref_connected_have_notif_interval_title">Jeda pengulangan pengingat</string>
     <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
 
-    <string name="pref_cat_call">Panggilan masuk</string>
-    <string name="pref_call_summary_on">Jangan lupa mematikan tanda panggilan masuk pada apl Haylou Sport</string>
-    <string name="pref_call_text_title">Tampilkan identitas pemanggil</string>
-
-    <string name="pref_call_notification_rejected">Show notification about rejected call</string>
-    <string name="pref_call_notification_rejected_message">Rejected call</string>
-    <string name="pref_call_notification_rejected_action">Call</string>
-
-    <string name="pref_call_net_text_title">Tanda panggilan internet masuk</string>
-
-    <string name="pref_cat_call_missed">Panggilan tidak terjawab</string>
-    <string name="pref_call_missed_title">Tanda panggilan tidak terjawab</string>
-
-    <string name="pref_call_missed_alert_title">Tanda %1$s</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
-
     <string name="pref_battery_phone">Phone battery</string>
     <string name="pref_battery_phone_summary">Low and full battery level notifications</string>
     <string name="pref_cat_battery_phone_low">Low battery level</string>
@@ -257,6 +242,35 @@
     </string>
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> Ikon: pilih ikon ini untuk menampilkan judul/konten pemberitahuan.]]></string>
 
+
+    <!-- Call -->
+    <string name="pref_cat_call">Panggilan masuk</string>
+    <string name="pref_call_summary_on">Jangan lupa mematikan tanda panggilan masuk pada apl Haylou Sport</string>
+    <string name="pref_call_text_title">Tampilkan identitas pemanggil</string>
+
+    <string name="pref_call_notification_rejected">Show notification about rejected call</string>
+    <string name="pref_call_notification_rejected_message">Rejected call</string>
+    <string name="pref_call_notification_rejected_action">Call</string>
+
+    <string name="pref_call_net_text_title">Tanda panggilan internet masuk</string>
+
+    <string name="pref_cat_call_missed">Panggilan tidak terjawab</string>
+    <string name="pref_call_missed_title">Tanda panggilan tidak terjawab</string>
+
+    <string name="pref_call_missed_alert_title">Tanda %1$s</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="call_reject_button_action">Reject button action</string>
+
+    <string name="touch_call_answer_title">Jawab panggilan</string>
+    <string name="touch_call_answer_speakerphone_title">Pengeras suara telpon</string>
+
+    <string name="touch_call_end_title">Tolak panggilan, berakhir</string>
+
+    <string name="touch_call_mute_title">Tombol bisukan panggilan</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Hanya ketika ada panggilan masuk</string>
+    <string name="touch_call_mute_recognition_title">On incoming call</string>
+
+
     <!-- App chooser dialog -->
     <string name="app_chooser">Pemilih apl</string>
     <string name="action_search">Cari</string>
@@ -331,16 +345,6 @@
     <string name="touch_headline_music_title">Kontrol musik</string>
     <string name="touch_headline_time_title">Kontrol Timer/stopwatch</string>
     <string name="touch_headline_other_title">Kontrol lain</string>
-
-    <string name="touch_call_answer_title">Jawab panggilan</string>
-    <string name="touch_call_answer_speakerphone_title">Pengeras suara telpon</string>
-
-    <string name="touch_call_end_title">Tolak panggilan, berakhir</string>
-
-    <string name="touch_call_mute_title">Tombol bisukan panggilan</string>
-    <string name="touch_call_mute_only_call_state_ringing_title">Hanya ketika ada panggilan masuk</string>
-    <string name="touch_call_mute_recognition_title">On incoming call</string>
-    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/More/Find device</string>
 
     <string name="touch_device_location_title">Temukan perangkat saya</string>
     <string name="touch_device_location_not_muted_only_title">Suara saja ketika tidak dibisukan</string>
@@ -438,10 +442,13 @@
     <string name="info_dialog_touch"><![CDATA[
         <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
         <b><u>Recognised touches</u></b>
-        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next"> music control
-        <br><img src="ic_touch_find"> find my phone
+        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next">
+        <br><device_type/> music control
+        <p><img src="ic_touch_find">
+        <br><device_type/> find my phone
+        </p>
         <p>Multiple touches can be recorded for a function.</p>
-    ]]></string> <!-- %1$s Haylou fit-->
+    ]]></string>
 
 
     <!-- Text display -->
@@ -562,6 +569,7 @@
     <string name="invalid_setting">Invalid setting</string>
     <string name="ringtone">Nada dering</string>
     <string name="uninstalled">Uninstalled</string>
+    <string name="value">Value</string>
 
     <string name="action_dismiss">Tutup</string>
     <string name="action_setting">Atur</string>
@@ -578,6 +586,7 @@
     <string name="action_keep_editing">Simpan pengeditan</string>
     <string name="action_new">New</string>
     <string name="action_start_stop">Start/Stop</string>
+    <string name="action_contacts">Contacts</string>
     <string name="synchronized_from_watch">Synchronized from watch</string>
 
     <string name="action_chart">Grafik</string>

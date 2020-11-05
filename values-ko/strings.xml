@@ -106,21 +106,6 @@
     <string name="pref_connected_have_notif_interval_title">Reminder repeat interval</string>
     <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
 
-    <string name="pref_cat_call">수신 전화</string>
-    <string name="pref_call_summary_on">활성화 (반드시 Mi 피트 앱에서 수신 전화를 끄세요)</string>
-    <string name="pref_call_text_title">발신자 번호 표시</string>
-
-    <string name="pref_call_notification_rejected">거절된 전화에 대한 알림 표시</string>
-    <string name="pref_call_notification_rejected_message">거절된 전화</string>
-    <string name="pref_call_notification_rejected_action">전화</string>
-
-    <string name="pref_call_net_text_title">Incoming internet call 신호</string>
-
-    <string name="pref_cat_call_missed">부재중 전화</string>
-    <string name="pref_call_missed_title">부재중 전화 신호</string>
-
-    <string name="pref_call_missed_alert_title">%1$s 신호</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
-
     <string name="pref_battery_phone">폰 배터리</string>
     <string name="pref_battery_phone_summary">낮고 높은 배터리 잔량 알림</string>
     <string name="pref_cat_battery_phone_low">배터리 부족</string>
@@ -258,6 +243,35 @@
     </string>
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> icon: choose this icon to show the notifications title/content.]]></string>
 
+
+    <!-- Call -->
+    <string name="pref_cat_call">수신 전화</string>
+    <string name="pref_call_summary_on">활성화 (반드시 Mi 피트 앱에서 수신 전화를 끄세요)</string>
+    <string name="pref_call_text_title">발신자 번호 표시</string>
+
+    <string name="pref_call_notification_rejected">거절된 전화에 대한 알림 표시</string>
+    <string name="pref_call_notification_rejected_message">거절된 전화</string>
+    <string name="pref_call_notification_rejected_action">전화</string>
+
+    <string name="pref_call_net_text_title">Incoming internet call 신호</string>
+
+    <string name="pref_cat_call_missed">부재중 전화</string>
+    <string name="pref_call_missed_title">부재중 전화 신호</string>
+
+    <string name="pref_call_missed_alert_title">%1$s 신호</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="call_reject_button_action">거절 버튼</string>
+
+    <string name="touch_call_answer_title">전화 회신</string>
+    <string name="touch_call_answer_speakerphone_title">스피커폰</string>
+
+    <string name="touch_call_end_title">전화 거절, 종료</string>
+
+    <string name="touch_call_mute_title">전화 음소거</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">수신 전화가 왔을 때만</string>
+    <string name="touch_call_mute_recognition_title">수신 전화가 왔을 때</string>
+
+
     <!-- App chooser dialog -->
     <string name="app_chooser">앱 선택기</string>
     <string name="action_search">검색</string>
@@ -332,16 +346,6 @@
     <string name="touch_headline_music_title">음악 제어</string>
     <string name="touch_headline_time_title">타이머/스톱워치 제어</string>
     <string name="touch_headline_other_title">기타 제어</string>
-
-    <string name="touch_call_answer_title">전화 회신</string>
-    <string name="touch_call_answer_speakerphone_title">스피커폰</string>
-
-    <string name="touch_call_end_title">전화 거절, 종료</string>
-
-    <string name="touch_call_mute_title">전화 음소거</string>
-    <string name="touch_call_mute_only_call_state_ringing_title">수신 전화가 왔을 때만</string>
-    <string name="touch_call_mute_recognition_title">수신 전화가 왔을 때</string>
-    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/더보기/기기 찾기</string>
 
     <string name="touch_device_location_title">내 폰 찾기</string>
     <string name="touch_device_location_not_muted_only_title">Sound only if it is not muted or in DnD mode</string>
@@ -439,10 +443,13 @@
     <string name="info_dialog_touch"><![CDATA[
         <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
         <b><u>Recognised touches</u></b>
-        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next"> music control
-        <br><img src="ic_touch_find"> find my phone
+        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next">
+        <br><device_type/> music control
+        <p><img src="ic_touch_find">
+        <br><device_type/> find my phone
+        </p>
         <p>Multiple touches can be recorded for a function.</p>
-    ]]></string> <!-- %1$s Haylou fit-->
+    ]]></string>
 
 
     <!-- Text display -->
@@ -564,6 +571,7 @@
     <string name="invalid_setting">Invalid setting</string>
     <string name="ringtone">벨소리</string>
     <string name="uninstalled">Uninstalled</string>
+    <string name="value">Value</string>
 
     <string name="action_dismiss">닫기</string>
     <string name="action_setting">설정</string>
@@ -580,6 +588,7 @@
     <string name="action_keep_editing">수정 계속하기</string>
     <string name="action_new">New</string>
     <string name="action_start_stop">Start/Stop</string>
+    <string name="action_contacts">Contacts</string>
     <string name="synchronized_from_watch">Synchronized from watch</string>
 
     <string name="action_chart">차트</string>

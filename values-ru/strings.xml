@@ -105,21 +105,6 @@
     <string name="pref_connected_have_notif_interval_title">Интервал повторения уведомлений</string>
     <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
 
-    <string name="pref_cat_call">Входящий звонок</string>
-    <string name="pref_call_summary_on">Включено (не забудьте отключить эти уведомления в Haylou Sport)</string>
-    <string name="pref_call_text_title">Показывать звонящего</string>
-
-    <string name="pref_call_notification_rejected">Уведомление о сброшенном звонке</string>
-    <string name="pref_call_notification_rejected_message">Сброшенный звонок</string>
-    <string name="pref_call_notification_rejected_action">Звонок</string>
-
-    <string name="pref_call_net_text_title">Входящий интернет-вызов</string>
-
-    <string name="pref_cat_call_missed">Пропущенный звонок</string>
-    <string name="pref_call_missed_title">Уведомление о пропущенном звонке</string>
-
-    <string name="pref_call_missed_alert_title">Уведомление %1$s</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
-
     <string name="pref_battery_phone">Аккумулятор устройства</string>
     <string name="pref_battery_phone_summary">Уведомления низкого и полного заряда</string>
     <string name="pref_cat_battery_phone_low">Низкий уровень заряда</string>
@@ -257,6 +242,35 @@
     </string>
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT">: выберите эту иконку, для отображения заголовка/текста уведомлений.]]></string>
 
+
+    <!-- Call -->
+    <string name="pref_cat_call">Входящий звонок</string>
+    <string name="pref_call_summary_on">Включено (не забудьте отключить эти уведомления в Haylou Sport)</string>
+    <string name="pref_call_text_title">Показывать звонящего</string>
+
+    <string name="pref_call_notification_rejected">Уведомление о сброшенном звонке</string>
+    <string name="pref_call_notification_rejected_message">Сброшенный звонок</string>
+    <string name="pref_call_notification_rejected_action">Звонок</string>
+
+    <string name="pref_call_net_text_title">Входящий интернет-вызов</string>
+
+    <string name="pref_cat_call_missed">Пропущенный звонок</string>
+    <string name="pref_call_missed_title">Уведомление о пропущенном звонке</string>
+
+    <string name="pref_call_missed_alert_title">Уведомление %1$s</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="call_reject_button_action">Кнопка отклонения</string>
+
+    <string name="touch_call_answer_title">Ответ на звонок</string>
+    <string name="touch_call_answer_speakerphone_title">Громкая связь</string>
+
+    <string name="touch_call_end_title">Сброс звонка, окончание</string>
+
+    <string name="touch_call_mute_title">Переключение звука звонка</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Только при входящем звонке</string>
+    <string name="touch_call_mute_recognition_title">При входящем звонке</string>
+
+
     <!-- App chooser dialog -->
     <string name="app_chooser">Выбор приложения</string>
     <string name="action_search">Поиск</string>
@@ -331,16 +345,6 @@
     <string name="touch_headline_music_title">Плеер</string>
     <string name="touch_headline_time_title">Таймер/секундомер</string>
     <string name="touch_headline_other_title">Другое</string>
-
-    <string name="touch_call_answer_title">Ответ на звонок</string>
-    <string name="touch_call_answer_speakerphone_title">Громкая связь</string>
-
-    <string name="touch_call_end_title">Сброс звонка, окончание</string>
-
-    <string name="touch_call_mute_title">Переключение звука звонка</string>
-    <string name="touch_call_mute_only_call_state_ringing_title">Только при входящем звонке</string>
-    <string name="touch_call_mute_recognition_title">При входящем звонке</string>
-    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/ещё/Поиск устройства</string>
 
     <string name="touch_device_location_title">Найти устройство</string>
     <string name="touch_device_location_not_muted_only_title">Подчиняться беззвучному режиму</string>
@@ -438,10 +442,13 @@
     <string name="info_dialog_touch"><![CDATA[
         <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
         <b><u>Recognised touches</u></b>
-        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next"> music control
-        <br><img src="ic_touch_find"> find my phone
+        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next">
+        <br><device_type/> music control
+        <p><img src="ic_touch_find">
+        <br><device_type/> find my phone
+        </p>
         <p>Multiple touches can be recorded for a function.</p>
-    ]]></string> <!-- %1$s Haylou fit-->
+    ]]></string>
 
 
     <!-- Text display -->
@@ -563,6 +570,7 @@
     <string name="invalid_setting">Invalid setting</string>
     <string name="ringtone">Рингтон</string>
     <string name="uninstalled">Uninstalled</string>
+    <string name="value">Value</string>
 
     <string name="action_dismiss">Отклонить</string>
     <string name="action_setting">Настройки</string>
@@ -579,6 +587,7 @@
     <string name="action_keep_editing">Продолжить</string>
     <string name="action_new">Новый</string>
     <string name="action_start_stop">Пуск/Пауза</string>
+    <string name="action_contacts">Contacts</string>
     <string name="synchronized_from_watch">Синхронизировано с браслета</string>
 
     <string name="action_chart">График</string>

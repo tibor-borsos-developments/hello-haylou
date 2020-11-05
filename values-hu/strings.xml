@@ -105,21 +105,6 @@
     <string name="pref_connected_have_notif_interval_title">Emlékeztető jelzések ismétlésének időköze</string>
     <string name="pref_connected_have_notif_interval_summary">Értesítés/emlékeztető jelzés funkció használja ezt az időzítést</string>
 
-    <string name="pref_cat_call">Bejövő hívás</string>
-    <string name="pref_call_summary_on">Ne felejtsd el kikapcsolni a Haylou Sport applikációban</string>
-    <string name="pref_call_text_title">Hívó fél megjelenítés</string>
-
-    <string name="pref_call_net_text_title">Bejövő netes hívás jelzése</string>
-
-    <string name="pref_call_notification_rejected">Értesítés elutasított hívásról</string>
-    <string name="pref_call_notification_rejected_message">Elutasított hívás</string>
-    <string name="pref_call_notification_rejected_action">Hívás</string>
-
-    <string name="pref_cat_call_missed">Nem fogadott hívás</string>
-    <string name="pref_call_missed_title">Nem fogadott hívás jelzése</string>
-
-    <string name="pref_call_missed_alert_title">%1$s jelzés</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
-
     <string name="pref_battery_phone">Telefon akkumulátor</string>
     <string name="pref_battery_phone_summary">Alacsony töltöttség és a töltés végeztének jelzése</string>
     <string name="pref_cat_battery_phone_low">Alacsony töltöttség</string>
@@ -268,6 +253,34 @@
     </string>
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> ikon: értesítés címének, tartalmának megjelenítéshez válaszd ezt az ikont.]]></string>
 
+    <!-- Call -->
+    <string name="pref_cat_call">Bejövő hívás</string>
+    <string name="pref_call_summary_on">Ne felejtsd el kikapcsolni a Haylou Sport applikációban</string>
+    <string name="pref_call_text_title">Hívó fél megjelenítés</string>
+
+    <string name="pref_call_net_text_title">Bejövő netes hívás jelzése</string>
+
+    <string name="pref_call_notification_rejected">Értesítés elutasított hívásról</string>
+    <string name="pref_call_notification_rejected_message">Elutasított hívás</string>
+    <string name="pref_call_notification_rejected_action">Hívás</string>
+
+    <string name="pref_cat_call_missed">Nem fogadott hívás</string>
+    <string name="pref_call_missed_title">Nem fogadott hívás jelzése</string>
+
+    <string name="pref_call_missed_alert_title">%1$s jelzés</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="call_reject_button_action">Elutasít gomb művelete</string>
+
+    <string name="touch_call_answer_title">Hívásfogadás</string>
+    <string name="touch_call_answer_speakerphone_title">Kihangosítás</string>
+
+    <string name="touch_call_end_title">Híváselutasítás, befejezés</string>
+
+    <string name="touch_call_mute_title">Hívásnémítás</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Csak bejövő híváskor</string>
+    <string name="touch_call_mute_recognition_title">Bejövő híváskor</string>
+
+
     <!-- App chooser dialog -->
     <string name="app_chooser">Applikáció választó</string>
     <string name="action_search">Keresés</string>
@@ -343,15 +356,6 @@
     <string name="touch_headline_time_title">Időzítő/stopperóra vezérlés</string>
     <string name="touch_headline_other_title">Egyéb vezérlések</string>
 
-    <string name="touch_call_answer_title">Hívásfogadás</string>
-    <string name="touch_call_answer_speakerphone_title">Kihangosítás</string>
-
-    <string name="touch_call_end_title">Híváselutasítás, befejezés</string>
-
-    <string name="touch_call_mute_title">Hívásnémítás</string>
-    <string name="touch_call_mute_only_call_state_ringing_title">Csak bejövő híváskor</string>
-    <string name="touch_call_mute_recognition_title">Bejövő híváskor</string>
-    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/More/Find device</string>
 
     <string name="touch_device_location_title">Telefon kereső</string>
     <string name="touch_device_location_not_muted_only_title">Hang csak ha nincs némítva vagy ne zavarj módban</string>
@@ -447,12 +451,15 @@
     <string name="touch_setting_recognition_failed_title">Nem felismert érintés minta</string>
 
     <string name="info_dialog_touch"><![CDATA[
-        <p>Önálló módban működik megfelelően. Együttműködési mód használata esetén a hivatalos <app_official/> alkalmazás is kezelni fogja ezeket a funkciókat ezért a megfelelő működés nem biztosítható.</p>
-        <b><u>Felismert érintések</u></b>
-        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next"> zene vezérlés
-        <br><img src="ic_touch_find"> telefon kereső
-        <p>Több érintés is rögzíthető egy funkcióhoz.</p>
-    ]]></string> <!-- %1$s Haylou fit-->
+        <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
+        <b><u>Recognised touches</u></b>
+        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next">
+        <br><device_type/> music control
+        <p><img src="ic_touch_find">
+        <br><device_type/> find my phone
+        </p>
+        <p>Multiple touches can be recorded for a function.</p>
+    ]]></string>
 
     <!-- Text display -->
     <string name="pref_text_alphanumeric_title">Alfanumerikus és ASCII karakterek </string>
@@ -573,6 +580,7 @@
     <string name="invalid_setting">Érvénytelen beállítás</string>
     <string name="ringtone">Csengőhang</string>
     <string name="uninstalled">Eltávolítva</string>
+    <string name="value">Érték</string>
 
     <string name="action_dismiss">Bezár</string>
     <string name="action_setting">Beállítás</string>
@@ -589,7 +597,8 @@
     <string name="action_keep_editing">Szerk. folytat</string>
     <string name="action_new">Új</string>
     <string name="action_start_stop">Indít/Leállít</string>
-
+    <string name="action_contacts">Névjegyek</string>
+    <string name="synchronized_from_watch">Szinkronizálva az óráról</string>
 
     <string name="action_chart">Grafikon</string>
     <string name="action_zoom_in">Ráközelít</string>
