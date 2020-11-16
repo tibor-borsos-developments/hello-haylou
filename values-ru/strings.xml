@@ -28,7 +28,7 @@
     <string name="device_state_connected_disconnected_last_time">Время последнего соединения и его разрыва</string>
     <string name="device_alarm">Следующий будильник</string>
 
-    <string name="device_search">Haylou search</string>
+    <string name="device_search">Поиск Haylou</string>
     <string name="device_setting">Настройки Haylou</string>
 
     <string name="device_mac_address">MAC адрес</string>
@@ -53,20 +53,20 @@
     <string name="mi_band_setting_menu_menu">Меню</string>
 
     <string name="mi_band_setting_auth_mi_fit">Взаимодействие с %1$s</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">Hello Haylou требуется приложение %1$s на устройстве. Сначала подключите %2$s к %1$s, потом пользуйтесь Hello Haylou. Выберите этот пункт для использования вместе с %1$s.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Для работы Hello Haylou требуется приложение %1$s, установленное на устройстве. Сначала подключите %2$s к %1$s, а потом пользуйтесь Hello Haylou. Выберите этот пункт для совместного использования с %1$s.</string>
     <string name="mi_band_setting_auth_standalone">Автономно</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$s не нужен для работы Hello Haylou. После соединения удалите %1$s или отвяжите браслет от него. Для восстановления привязки к %1$s вам нужно заново привязать %2$s в %1$s. If you use the unpair function, the data on the smartwatch will be deleted.  The %2$s screen must be turned on while performing operations.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Для работы Hello Haylou, приложение %1$s не нужнщ. После соединения %1$s можно удалить или отвязать браслет от него. Для восстановления работы с %1$s вам нужно заново привязать %2$s к %1$s. Еслм вы используете функцию отвязки устройства, тогда все данные на часах будут удалены. Экран %2$s должен быть включен во время выполнения операций.</string>
 
     <string name="mi_band_setting_auth_key">Ключ аутентификации</string>
     <string name="mi_band_setting_auth_request">Key request</string>
     <string name="mi_band_setting_auth_pair">Подключить</string>
-    <string name="mi_band_setting_auth_unpair">Unpair</string>
+    <string name="mi_band_setting_auth_unpair">Отключить</string>
 
-    <string name="message_auth_request">It is paired, if you do not know the key, use the unpair</string>
+    <string name="message_auth_request">Уже подключено, если вы не знаете ключ, нажмите кнопку отключить</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">Нажмите кнопку %1$s для соединения</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
-    <string name="message_mi_band_setting_auth_success">%1$s успешно привязан</string>
-    <string name="message_mi_band_setting_auth_fail">Привязка %1$s не удалась</string>
+    <string name="message_mi_band_setting_auth_press_band_button">Нажмите кнопку на %1$s для подключения</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_success">%1$s успешно подключен</string>
+    <string name="message_mi_band_setting_auth_fail">Не удалось подключиться к %1$s</string>
     <string name="message_mi_band_setting_auth_key_invalid">Не верный ключ аутентификации</string>
 
     <string name="pref_disconnected">Отключение</string>
@@ -75,7 +75,7 @@
     <string name="mi_band_setting_language">Язык</string>
     <string name="mi_band_setting_time_24h">24-часовой формат</string>
     <string name="mi_band_setting_lift_wrist">Поворот запястья</string>
-    <string name="mi_band_setting_screen_on_duration">Screen on duration</string>
+    <string name="mi_band_setting_screen_on_duration">Продолжительность включения экрана</string>
     <string name="mi_band_setting_idle_alert">Оповещение о бездействии</string>
     <string name="mi_band_setting_idle_alert_time">Время бездействия</string>
     <string name="mi_band_setting_idle_alert_dnd">Не уведомлять во время отдыха (12:00-14:00)</string>
@@ -129,7 +129,7 @@
     <string name="message_discovering_mi_band">Поиск браслета (это может занять около минуты) &#8230;</string>
     <string name="message_discovered_mi_band">%1$s подключён</string>
     <string name="message_discovered_no_mi_band">не подключён</string>
-    <string name="message_discovered_not_found_mi_band">Если браслет не обнаружен, включите: Haylou Sport/Уведомления/Видимость или свяжите через настройки Bluetooth устройства</string>
+    <string name="message_discovered_not_found_mi_band">Если браслет не обнаружен, включите: Haylou Sport / Уведомления / Видимость или свяжите через настройки Bluetooth устройства</string>
     <string name="message_enable_notification_listener_access">Разрешите доступ к уведомлениям</string>
     <string name="message_enable_notification_listener_access_4_4">Разрешите доступ к уведомлениям</string>
     <string name="message_open_settings">Настройки</string>
@@ -139,25 +139,25 @@
 
     <string name="message_app_chooser_no_selected">Выберете приложение</string>
 
-    <string name="message_free_counter">Up to 1 setting can be used in normal mode</string>
+    <string name="message_free_counter">В бесплатном режиме можно использовать только 1 настройку</string>
 
-    <string name="message_notification_free_groups">Максимум %1$,d групп</string>
-    <string name="message_notification_free_app">Up to 1 application can be selected in normal mode</string>
-    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in normal mode</string>   <!-- %1$s = 2 or more  -->
+    <string name="message_notification_free_groups">В бесплатном режиме можно создать только %1$ группы</string>
+    <string name="message_notification_free_app">В бесплатном режиме можно выбрать только 1 приложение</string>
+    <string name="message_notification_free_apps">В бесплатном режиме можно выбрать только %1$ приложения</string>   <!-- %1$s = 2 or more  -->
 
-    <string name="message_notification_free_text">Up to 1 text can be recorded in normal mode</string>
+    <string name="message_notification_free_text">В бесплатном режиме можно записать только 1 текстовое выражение</string>
 
-    <string name="message_time_alarm_free_counter">До 1 будильников может быть уставлено в обычном режиме</string>
-    <string name="message_time_alarm_max_counter">Максимум %1$d будильников может быть уставлено</string>
+    <string name="message_time_alarm_free_counter">В бесплатном режиме можно усьановить только 1 будильник</string>
+    <string name="message_time_alarm_max_counter">Может быть установлено не более %1$d будильников</string>
     <string name="message_time_alarm_enabled">Будильник включён</string>
     <string name="message_time_alarm_disabled">Будильник выключен</string>
     <string name="message_time_alarm_mi_band_off">Будильник выключен</string>
 
-    <string name="message_touch_pattern_error">Заданная последовательность похожа на последовательность другой функции, запишите другую</string>
-    <string name="message_touch_free_patterns">Максимум %1$,d функции</string>
+    <string name="message_touch_pattern_error">Указанный шаблон похож на образец другой функции, напишите по другому</string>
+    <string name="message_touch_free_patterns">В бесплатном режиме можно использовать не более %1$ функций</string>
 
-    <string name="message_premium_mode_only">Эта функция доступна только в премиуме</string>
-    <string name="message_feature_is_not_supported">%1$s не поддерживает данную функцию</string>
+    <string name="message_premium_mode_only">Эта функция доступна только в премиум режиме</string>
+    <string name="message_feature_is_not_supported">%1$s не поддерживает эту функцию</string>
     <string name="message_general_error">Ошибка (соединение потеряно), попробуйте снова</string>
     <string name="message_internet_error">Нет подключения к Интернету</string>
     <string name="message_gps_enable">Включите определение местоположения</string>
@@ -173,12 +173,12 @@
     <br>• <b>Haylou Solar (LS05)</b>
     <br>• <b>Haylou Smart Watch 2 (LS02)</b>
     <br>• <b>Haylou Smart Watch (LS01)</b>
-    <p>Hello Haylou requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
-    <p>Если браслет не обнаружен, вы можете установить MAC вручную в настройках.</p>
+    <p>Hello Haylou требует установки официального приложения Haylou на том же телефоне. Сначала вам нужно подключить свои умные часы к приложению Haylou, затем вы можете использовать это приложение.</p>
+    <p>Если часы не удалось обнаружить, вы можете вручную установить MAC адрес в настройках.</p>
     <p><b>При проблемах с подключением:</b>
     <br>- Закрепите Hello Haylou в окне недавних приложений (потяните приложение вниз и нажмите замок)
     <br>- Отключите для Hello Haylou оптимизацию энергопотребления в настройках аккумулятора/энергосбережения
-    <br>- Приложения: очистите данные Bluetooth Share и других приложений \'Bluetooth\'
+    <br>- Удалите сопряжение в приложении Bluetooth и очистите его данные
     </p>]]></string>
 
 
@@ -206,7 +206,7 @@
     <string name="notification_group_ongoing">Постоянные уведомления</string>
     <string name="notification_group_screen_off">Уведомлять только при выключенном экране</string>
     <string name="notification_group_repeat_title">Повтор сигналов</string>
-    <string name="notification_group_wakelock">Активировать экран устройства</string>
+    <string name="notification_group_wakelock">Включать экран устройства</string>
     <string name="notification_group_grouped_display_title">Отображение групп уведомлений</string>
     <string name="notification_group_grouped_sort_order_title">Порядок уведомлений в группе</string>
 
@@ -214,9 +214,9 @@
     <string name="notification_group_filter_title">Фильтровать заголовок</string>
     <string name="notification_group_filter_content">Фильтровать содержимое</string>
     <string name="notification_group_filter_regex">Регулярные выражения</string>
-    <string name="notification_group_filter_hint">Уведомлять, если в уведомлении (без учёта регистра)</string>
-    <string name="notification_group_filter_contains">Есть любая фраза</string>
-    <string name="notification_group_filter_not_contains">Нет ни одной фразы</string>
+    <string name="notification_group_filter_hint">Уведомлять при совпадении без учёта регистра</string>
+    <string name="notification_group_filter_contains">Есть содержит</string>
+    <string name="notification_group_filter_not_contains">Если не содержит</string>
 
     <string name="notification_group_sample_sms">SMS</string>
     <string name="notification_group_sample_facebook">Messenger</string>
@@ -229,9 +229,9 @@
     <string name="notification_group_correction_hint">Без учёта регистра</string>
     <string name="notification_group_correction_items">Текст, требующий изменений</string>
     <string name="notification_group_correction_find">Найти</string>
-    <string name="notification_group_correction_replace">Заменить</string>
+    <string name="notification_group_correction_replace">Заменить на</string>
 
-    <string name="notification_regex_hint">Не буквенно-цифровые символы будут иметь специальное значение, если вы не знаете, что это, не включайте</string>
+    <string name="notification_regex_hint">Символы отличные от букв и цифр могут иметь специальное значение. Если вы не знаете их значение, не включайте эту функцию</string>
 
     <string name="notification_confirm_close">Вы действительно хотите отменить изменения?</string>
 
@@ -245,7 +245,7 @@
 
     <!-- Call -->
     <string name="pref_cat_call">Входящий звонок</string>
-    <string name="pref_call_summary_on">Включено (не забудьте отключить эти уведомления в Haylou Sport)</string>
+    <string name="pref_call_summary_on">Включено (не забудьте отключить эти уведомления в %1$s)</string>
     <string name="pref_call_text_title">Показывать звонящего</string>
 
     <string name="pref_call_notification_rejected">Уведомление о сброшенном звонке</string>
@@ -264,9 +264,9 @@
     <string name="touch_call_answer_title">Ответ на звонок</string>
     <string name="touch_call_answer_speakerphone_title">Громкая связь</string>
 
-    <string name="touch_call_end_title">Сброс звонка, окончание</string>
+    <string name="touch_call_end_title">Сброс звонка</string>
 
-    <string name="touch_call_mute_title">Переключение звука звонка</string>
+    <string name="touch_call_mute_title">Отключение звука звонка</string>
     <string name="touch_call_mute_only_call_state_ringing_title">Только при входящем звонке</string>
     <string name="touch_call_mute_recognition_title">При входящем звонке</string>
 
@@ -274,7 +274,7 @@
     <!-- App chooser dialog -->
     <string name="app_chooser">Выбор приложения</string>
     <string name="action_search">Поиск</string>
-    <string name="action_filter_notification">Активные сейчас уведомления</string>
+    <string name="action_filter_notification">Активные уведомления</string>
 
     <string name="main_control">Контроль</string>
 
@@ -294,7 +294,7 @@
     <string name="action_tracker_distance">Расстояние</string>
     <string name="action_tracker_calorie">Калории</string>
 
-    <string name="step_goal_default_title">Цель по умолчанию</string>
+    <string name="step_goal_default_title">Ежедневная цель шагов</string>
 
 
     <!-- Pulse -->
@@ -312,20 +312,20 @@
     <string name="action_time_alarm_sort_watch_asc">Watch ascending</string>
     <string name="action_time_alarm_sort_name_asc">Name ascending</string>
 
-    <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Haylou Smart Watch ... -->
+    <string name="message_time_alarm_sync">Синхронизация будильников %2$s, (Это удалит записанные в часах будильники и установит новые)</string> <!-- %1$s = Haylou Smart Watch ... -->
 
     <string name="info_dialog_alarm"><![CDATA[
-        <p>When using collaboration mode, the settings of the original application and the Hello Haylou application can overwrite and delete each other\'s settings.</p>
-        <p>The last operation performed will take effect.</p>
+        <p>При использовании режима совместной работы настройки официального приложения %1$s и приложения Hello Haylou могут перезаписывать и удалять настройки друг друга.</p>
+        <p>Только последняя выполненная операция вступит в силу.</p>
     ]]></string>
 
 
     <!-- Do not disturb -->
-    <string name="pref_dnd_summary">Переключатели в режиме \"Не беспокоить\"</string>
-    <string name="pref_dnd_enable_bluetooth">При включении режима \"Не беспокоить\" выключить Bluetooth, при отключении - включить</string>
+    <string name="pref_dnd_summary">В режиме \"Не беспокоить\" включать\:</string>
+    <string name="pref_dnd_enable_bluetooth">При включении режима \"Не беспокоить\" выключать Bluetooth.</string>
 
     <string name="info_dialog_dnd"><![CDATA[
-        <p>If you are using cooperation mode, in the official <device_type/> application the do not disturb (DnD) mode must be between 00:00 and 23:59 and its status must be turned off.</p>
+        <p>При использовании режима совместной работы, в настройках официального приложения %1$s, режим \"Не беспокоить\" должен быть настроен с 00:00 до 23:59 и его статус должен быть выключен.</p>
     ]]></string> <!-- %1$s Haylou fit-->
 
 
@@ -349,12 +349,12 @@
     <string name="touch_device_location_title">Найти устройство</string>
     <string name="touch_device_location_not_muted_only_title">Подчиняться беззвучному режиму</string>
 
-    <string name="touch_mute_toggle_title">Переключение звука звонка</string>
-    <string name="touch_mute_toggle_ringer_mode_title">Mute mode</string>
-    <string name="touch_mute_toggle_mute_off_title">Mute off</string>
+    <string name="touch_mute_toggle_title">Переключение рингтона</string>
+    <string name="touch_mute_toggle_ringer_mode_title">Приглушить звонок</string>
+    <string name="touch_mute_toggle_mute_off_title">Проигрывать звонок</string>
 
     <string name="touch_music_title">Музыка</string>
-    <string name="touch_music_function_launch">Начните воспроизведение нажав кнопку, если плеер не распознан</string>
+    <string name="touch_music_function_launch">Включите, для выбора приложения плеера, если он автоматически не распознан.</string>
     <string name="touch_music_function_mi_band_message_launch">Начните воспроизведение нажав кнопку</string>
     <string name="touch_music_function_mi_band_message_no_track_title">Нет имени трека</string>
 
@@ -427,12 +427,12 @@
 
     <string name="touch_setting_detection_time_title">Время распознавания касаний</string>
     <string name="touch_setting_detection_time_music_hint">Если вы уменьшите значение, экран музыки должен быть закрыт быстрее</string>
-    <string name="touch_setting_detection_time_button_hint">При низком значении, нажимайте кнопку чаще</string>
+    <string name="touch_setting_detection_time_button_hint">При меньшем значении, нажимайте кнопки чаще</string>
 
     <string name="touch_setting_detection_method_title">Способ определения касаний</string>
 
     <string name="touch_setting_recognition_start_title">Начало распознавания касаний</string>
-    <string name="touch_setting_recognition_start_trigger_title">Триггер</string>
+    <string name="touch_setting_recognition_start_trigger_title">Последовательность</string>
     <string name="touch_setting_recognition_time_title">Время распознавания</string>
 
     <string name="touch_setting_recognition_mi_band_signal_title">Уведомления %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
@@ -440,29 +440,29 @@
     <string name="touch_setting_recognition_failed_title">Последовательность не распознана</string>
 
     <string name="info_dialog_touch"><![CDATA[
-        <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
-        <b><u>Recognised touches</u></b>
+        <p>Функция корректно работает в автономном режиме. Если вы используетесовместный режим, официальное приложение %1$s также будет обрабатывать эти функции, поэтому правильная работа не может быть гарантирована.</p>
+        <b><u>Используемые кнопки в последовательности</u></b>
         <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next">
-        <br><device_type/> music control
+        <br>Управление плеером <device_type/>
         <p><img src="ic_touch_find">
-        <br><device_type/> find my phone
+        <br>Поиск телефона в <device_type/>
         </p>
-        <p>Multiple touches can be recorded for a function.</p>
+        <p>Для одной функции можно записать несколько последовательностей касаний.</p>
     ]]></string>
 
 
     <!-- Text display -->
-    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
-    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
+    <string name="pref_text_alphanumeric_title">Буквенно-цифровые и ASCII символы</string>
+    <string name="pref_text_alphanumeric_summary_on">Отображать только буквы, цифры и символы ASCII</string>
     <string name="pref_text_emoticon_title">Преобразование Emoji</string>
     <string name="pref_text_emoticon_summary_on">Преобразование emoji в emoticon</string>
     <string name="pref_text_uppercase_title">Преобразование в прописные</string>
     <string name="pref_text_uppercase_summary_on">Преобразование нижнего регистра в верхний</string>
-    <string name="pref_text_line_separator_title">Line separator replacement</string>
-    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
-    <string name="pref_text_line_separator_value_title">Replacement characters</string>
-    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
-    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
+    <string name="pref_text_line_separator_title">Замена разделителя строк</string>
+    <string name="pref_text_line_separator_summary_on">Заменить разделитель строк по умолчанию на другие символы</string>
+    <string name="pref_text_line_separator_value_title">Символы для замены</string>
+    <string name="pref_text_char_replacement_title">Замена символа или emoji</string>
+    <string name="pref_text_char_replacement_summary_on">Заменить один символ на другой</string>
     <string name="pref_text_char_replacement_find">Найти</string>
     <string name="pref_text_char_replacement_replace">Заменить</string>
 
@@ -477,13 +477,13 @@
 
     <string name="theme_notification_title">Отображение статуса подключения в уведомлении</string>
 
-    <string name="theme_cat_color_setting">Color setting</string>
+    <string name="theme_cat_color_setting">Настройки цвета</string>
 
 
     <!-- Premium mode -->
     <string name="purchase_policy_title">Правила и условия премиума</string>
     <string name="purchase_policy"><![CDATA[
-        <p>• Вы протестировали приложение, оно работает правильно.</p>
+        <p>• Вы протестировали приложение и уверены, что оно работает правильно.</p>
         <p>• Вы предупреждены, что не можете требовать возмещения средств из-за багов, ошибок приложения, вызванных изменениями в приложении, вашими устройствами или другими приложениями.</p>
         <p>• Все покупки окончательны и возврату не подлежат (кроме возврата от Google Play).</p>
         <p>• Гарантия не предоставляется.</p>
@@ -499,11 +499,11 @@
     <string name="purchase_button_purchase">Приобрести</string>
 
     <!-- Feedback -->
-    <string name="action_log_notification">Логировать уведомления</string>
+    <string name="action_log_notification">Записывать лог уведомлений</string>
 
     <string name="feedback_google_play_title">Оцените приложение</string>
-    <string name="feedback_request_feature_title">Запрос функций, отправка ошибок</string>
-    <string name="feedback_request_feature_summary">Автоматическая обработка электронной почты, без ответа (Английский настоятельно рекомендуется)</string>
+    <string name="feedback_request_feature_title">Есть идеи для новых функций или хотите отправить отчет об ошибке.</string>
+    <string name="feedback_request_feature_summary">Электронная почта обрабатывается автоматически, ответ на отправленное письмо не отправляется (Настоятельно рекомендую писать на Английском языке)</string>
     <string name="feedback_translation_title">Перевод Hello Haylou</string>
     <string name="feedback_translation_title_summary">Можете помочь с переводом</string>
 
@@ -522,7 +522,7 @@
 
     <string name="privacy_policy_not_collect_title">Информация, не собираемая нами</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>• Мы не собираем информацию, способную вас идентифицировать. Другими словами мы не собираем такую информацию, как ваше имя, адрес, номер телефона, адрес электронной почты, IP или MAC адреса.</p>
+        <p>• Мы не собираем ваши персональные данные, способные вас идентифицировать. Другими словами мы не собираем такую информацию, как ваше имя, адрес, номер телефона, адрес электронной почты, IP или MAC адреса.</p>
         • Мы не собираем информацию о вашем здоровье, контактах и тексте уведомлений.
     ]]></string>
 
@@ -564,13 +564,13 @@
     <string name="unknown">Неизвестно</string>
     <string name="maximum">Полностью</string>
     <string name="all_day">Весь день</string>
-    <string name="timed">Timed</string>
+    <string name="timed">По времени</string>
     <string name="file_name">Имя файла</string>
     <string name="default_">По умолчанию</string>
-    <string name="invalid_setting">Invalid setting</string>
+    <string name="invalid_setting">Неверная настройка</string>
     <string name="ringtone">Рингтон</string>
-    <string name="uninstalled">Uninstalled</string>
-    <string name="value">Value</string>
+    <string name="uninstalled">Не установлен</string>
+    <string name="value">Значение</string>
 
     <string name="action_dismiss">Отклонить</string>
     <string name="action_setting">Настройки</string>
@@ -587,11 +587,11 @@
     <string name="action_keep_editing">Продолжить</string>
     <string name="action_new">Новый</string>
     <string name="action_start_stop">Пуск/Пауза</string>
-    <string name="action_contacts">Contacts</string>
+    <string name="action_contacts">Контакты</string>
     <string name="synchronized_from_watch">Синхронизировано с браслета</string>
 
     <string name="action_chart">График</string>
-    <string name="action_zoom_in">Zoom in</string>
+    <string name="action_zoom_in">Приблизить</string>
     <string name="action_chart_normalize_minute">Измеренные значения</string>
     <string name="action_chart_normalize_quarter_hourly">Средние значения (15 м)</string>
     <string name="action_chart_normalize_half_hourly">Средние значения (30 м)</string>
@@ -609,7 +609,7 @@
     <string name="activity_progress_title_sync">Синхронизация данных…</string>
     <string name="activity_progress_title_save">Сохранение данных…</string>
 
-    <string name="required_value">Необходимо указать</string>
+    <string name="required_value">Необходимо указать значение</string>
 
     <!-- Constante -->
     <string name="const_time_abbreviation_day">д</string>
