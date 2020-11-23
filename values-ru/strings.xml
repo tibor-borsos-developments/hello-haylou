@@ -9,6 +9,7 @@
     <string name="menu_nav_alarm">Будильник</string>
     <string name="menu_nav_dnd">Режим \"Не беспокоить\"</string>
     <string name="menu_nav_touch">Касания</string>
+    <string name="menu_nav_weather">Погода</string>
     <string name="menu_nav_more">Больше</string>
     <string name="menu_nav_text_display">Настройки текста</string>
     <string name="menu_nav_theme">Настройки темы</string>
@@ -141,9 +142,9 @@
 
     <string name="message_free_counter">В бесплатном режиме можно использовать только 1 настройку</string>
 
-    <string name="message_notification_free_groups">В бесплатном режиме можно создать только %1$ группы</string>
+    <string name="message_notification_free_groups">В бесплатном режиме можно создать только %1$,d группы</string>
     <string name="message_notification_free_app">В бесплатном режиме можно выбрать только 1 приложение</string>
-    <string name="message_notification_free_apps">В бесплатном режиме можно выбрать только %1$ приложения</string>   <!-- %1$s = 2 or more  -->
+    <string name="message_notification_free_apps">В бесплатном режиме можно выбрать только %1$,d приложения</string>   <!-- %1$s = 2 or more  -->
 
     <string name="message_notification_free_text">В бесплатном режиме можно записать только 1 текстовое выражение</string>
 
@@ -154,7 +155,7 @@
     <string name="message_time_alarm_mi_band_off">Будильник выключен</string>
 
     <string name="message_touch_pattern_error">Указанный шаблон похож на образец другой функции, напишите по другому</string>
-    <string name="message_touch_free_patterns">В бесплатном режиме можно использовать не более %1$ функций</string>
+    <string name="message_touch_free_patterns">В бесплатном режиме можно использовать не более %1$,d функций</string>
 
     <string name="message_premium_mode_only">Эта функция доступна только в премиум режиме</string>
     <string name="message_feature_is_not_supported">%1$s не поддерживает эту функцию</string>
@@ -245,7 +246,7 @@
 
     <!-- Call -->
     <string name="pref_cat_call">Входящий звонок</string>
-    <string name="pref_call_summary_on">Включено (не забудьте отключить эти уведомления в %1$s)</string>
+    <string name="pref_call_summary_on">Включено (не забудьте отключить эти уведомления в Haylou Sport)</string>
     <string name="pref_call_text_title">Показывать звонящего</string>
 
     <string name="pref_call_notification_rejected">Уведомление о сброшенном звонке</string>
@@ -312,7 +313,7 @@
     <string name="action_time_alarm_sort_watch_asc">Watch ascending</string>
     <string name="action_time_alarm_sort_name_asc">Name ascending</string>
 
-    <string name="message_time_alarm_sync">Синхронизация будильников %2$s, (Это удалит записанные в часах будильники и установит новые)</string> <!-- %1$s = Haylou Smart Watch ... -->
+    <string name="message_time_alarm_sync">Синхронизация будильников %1$s, (Это удалит записанные в часах будильники и установит новые)</string> <!-- %1$s = Haylou Smart Watch ... -->
 
     <string name="info_dialog_alarm"><![CDATA[
         <p>При использовании режима совместной работы настройки официального приложения %1$s и приложения Hello Haylou могут перезаписывать и удалять настройки друг друга.</p>
@@ -440,7 +441,7 @@
     <string name="touch_setting_recognition_failed_title">Последовательность не распознана</string>
 
     <string name="info_dialog_touch"><![CDATA[
-        <p>Функция корректно работает в автономном режиме. Если вы используетесовместный режим, официальное приложение %1$s также будет обрабатывать эти функции, поэтому правильная работа не может быть гарантирована.</p>
+        <p>Функция корректно работает в автономном режиме. Если вы используетесовместный режим, официальное приложение <app_official/> также будет обрабатывать эти функции, поэтому правильная работа не может быть гарантирована.</p>
         <b><u>Используемые кнопки в последовательности</u></b>
         <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next">
         <br>Управление плеером <device_type/>
@@ -449,6 +450,42 @@
         </p>
         <p>Для одной функции можно записать несколько последовательностей касаний.</p>
     ]]></string>
+
+
+    <!-- Weather  -->
+    <string name="weather_tab_weather_forecast">Погода</string>
+    <string name="weather_tab_location">Местоположение</string>
+    <string name="weather_tab_settings">@string/setting_name</string>
+
+    <string name="weather_location_title">Местоположение</string>
+    <string name="weather_automatic_update">Автоматическое обновление</string>
+
+    <string name="weather_title">Прогноз погоды</string>
+
+    <string name="weather_setting_provider">Weather provider</string>
+    <string name="weather_city_title">Город</string>
+    <string name="weather_unit_title">Система</string>
+    <string name="weather_unit_metric">Цельсий ℃</string>
+    <string name="weather_unit_imperial">Фаренгейт °F</string>
+
+    <string name="weather_current_title">Текущая погода</string>
+    <string name="weather_current_location">Текущее местоположение</string>
+    <string name="weather_current_temperature">Текущая температура</string>
+
+    <string name="weather_forecast_title">Прогноз погоды</string>
+
+    <string name="weather_display">Отображение</string>
+
+    <string name="weather_precipitation_rain">Дождь</string>
+    <string name="weather_precipitation_snow">Снег</string>
+    <string name="weather_cloud_cover_abbreviation">Обл</string>
+    <string name="weather_cloud_cover">Облачность</string>
+    <string name="weather_humidity">Влажность</string>
+
+    <string name="weather_north">С</string>
+    <string name="weather_east">В</string>
+    <string name="weather_south">Ю</string>
+    <string name="weather_west">З</string>
 
 
     <!-- Text display -->
@@ -524,6 +561,7 @@
     <string name="privacy_policy_not_collect"><![CDATA[
         <p>• Мы не собираем ваши персональные данные, способные вас идентифицировать. Другими словами мы не собираем такую информацию, как ваше имя, адрес, номер телефона, адрес электронной почты, IP или MAC адреса.</p>
         • Мы не собираем информацию о вашем здоровье, контактах и тексте уведомлений.
+        • We do not collect location data.
     ]]></string>
 
     <string name="privacy_policy_links_title">Политика конфиденциальности сторонних сервисов</string>
