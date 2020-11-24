@@ -56,7 +56,7 @@
     <string name="mi_band_setting_auth_mi_fit">Взаимодействие с %1$s</string> <!-- Haylou Fit-->
     <string name="mi_band_setting_auth_mi_fit_hint">Для работы Hello Haylou требуется приложение %1$s, установленное на устройстве. Сначала подключите %2$s к %1$s, а потом пользуйтесь Hello Haylou. Выберите этот пункт для совместного использования с %1$s.</string>
     <string name="mi_band_setting_auth_standalone">Автономно</string>
-    <string name="mi_band_setting_auth_standalone_hint">Для работы Hello Haylou, приложение %1$s не нужнщ. После соединения %1$s можно удалить или отвязать браслет от него. Для восстановления работы с %1$s вам нужно заново привязать %2$s к %1$s. Еслм вы используете функцию отвязки устройства, тогда все данные на часах будут удалены. Экран %2$s должен быть включен во время выполнения операций.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Для работы Hello Haylou, приложение %1$s не нужно. После соединения %1$s можно удалить или отвязать браслет от него. Для восстановления работы с %1$s вам нужно заново привязать %2$s к %1$s. Если вы используете функцию отвязки устройства, тогда все данные на часах будут удалены. Экран %2$s должен быть включен во время выполнения операций.</string>
 
     <string name="mi_band_setting_auth_key">Ключ аутентификации</string>
     <string name="mi_band_setting_auth_request">Key request</string>
@@ -104,7 +104,7 @@
 
     <!-- PreferenceScreen -->
     <string name="pref_connected_have_notif_interval_title">Интервал повторения уведомлений</string>
-    <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
+    <string name="pref_connected_have_notif_interval_summary">Функция повторения уведомлений использует это время</string>
 
     <string name="pref_battery_phone">Аккумулятор устройства</string>
     <string name="pref_battery_phone_summary">Уведомления низкого и полного заряда</string>
@@ -216,7 +216,7 @@
     <string name="notification_group_filter_content">Фильтровать содержимое</string>
     <string name="notification_group_filter_regex">Регулярные выражения</string>
     <string name="notification_group_filter_hint">Уведомлять при совпадении без учёта регистра</string>
-    <string name="notification_group_filter_contains">Есть содержит</string>
+    <string name="notification_group_filter_contains">Если содержит</string>
     <string name="notification_group_filter_not_contains">Если не содержит</string>
 
     <string name="notification_group_sample_sms">SMS</string>
@@ -316,7 +316,7 @@
     <string name="message_time_alarm_sync">Синхронизация будильников %1$s, (Это удалит записанные в часах будильники и установит новые)</string> <!-- %1$s = Haylou Smart Watch ... -->
 
     <string name="info_dialog_alarm"><![CDATA[
-        <p>При использовании режима совместной работы настройки официального приложения %1$s и приложения Hello Haylou могут перезаписывать и удалять настройки друг друга.</p>
+        <p>При использовании режима совместной работы настройки официального приложения Haylou и приложения Hello Haylou могут перезаписывать и удалять настройки друг друга.</p>
         <p>Только последняя выполненная операция вступит в силу.</p>
     ]]></string>
 
@@ -326,7 +326,7 @@
     <string name="pref_dnd_enable_bluetooth">При включении режима \"Не беспокоить\" выключать Bluetooth.</string>
 
     <string name="info_dialog_dnd"><![CDATA[
-        <p>При использовании режима совместной работы, в настройках официального приложения %1$s, режим \"Не беспокоить\" должен быть настроен с 00:00 до 23:59 и его статус должен быть выключен.</p>
+        <p>При использовании режима совместной работы, в настройках официального приложения Haylou, режим \"Не беспокоить\" должен быть настроен с 00:00 до 23:59 и его статус должен быть выключен.</p>
     ]]></string> <!-- %1$s Haylou fit-->
 
 
@@ -348,7 +348,7 @@
     <string name="touch_headline_other_title">Другое</string>
 
     <string name="touch_device_location_title">Найти устройство</string>
-    <string name="touch_device_location_not_muted_only_title">Подчиняться беззвучному режиму</string>
+    <string name="touch_device_location_not_muted_only_title">Не использовать в беззвучном режиме</string>
 
     <string name="touch_mute_toggle_title">Переключение рингтона</string>
     <string name="touch_mute_toggle_ringer_mode_title">Приглушить звонок</string>
@@ -441,7 +441,7 @@
     <string name="touch_setting_recognition_failed_title">Последовательность не распознана</string>
 
     <string name="info_dialog_touch"><![CDATA[
-        <p>Функция корректно работает в автономном режиме. Если вы используетесовместный режим, официальное приложение <app_official/> также будет обрабатывать эти функции, поэтому правильная работа не может быть гарантирована.</p>
+        <p>Функция корректно работает в автономном режиме. Если вы используете совместный режим, официальное приложение <app_official/> также будет обрабатывать эти функции, поэтому правильная работа не может быть гарантирована.</p>
         <b><u>Используемые кнопки в последовательности</u></b>
         <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next">
         <br>Управление плеером <device_type/>
@@ -462,7 +462,7 @@
 
     <string name="weather_title">Прогноз погоды</string>
 
-    <string name="weather_setting_provider">Weather provider</string>
+    <string name="weather_setting_provider">Поставщик погоды</string>
     <string name="weather_city_title">Город</string>
     <string name="weather_unit_title">Система</string>
     <string name="weather_unit_metric">Цельсий ℃</string>
