@@ -13,18 +13,6 @@
         <item>3 小時</item>
     </string-array>
 
-    <integer-array name="pref_connected_have_notif_reminder_repeat_interval_values">
-        <item>3</item>
-        <item>5</item>
-        <item>10</item>
-        <item>15</item>
-        <item>20</item>
-        <item>30</item>
-        <item>60</item>
-        <item>120</item>
-        <item>180</item>
-    </integer-array>
-
     <string-array name="notification_group_repeat">
         <item>總是</item>
         <item>絕不</item>
@@ -39,20 +27,9 @@
         <item>只顯示最新通知</item>
     </string-array>
 
-    <string-array name="notification_group_grouped_display_values">
-        <item>自動</item>
-        <item>全部</item>
-        <item>最新</item>
-    </string-array>
-
     <string-array name="notification_group_grouped_order">
         <item>普通排序</item>
         <item>反向排序</item>
-    </string-array>
-
-    <string-array name="notification_group_grouped_order_values">
-        <item>普通</item>
-        <item>反向</item>
     </string-array>
 
     <string-array name="notification_group_display_time">
@@ -64,36 +41,10 @@
         <item>7 秒</item>
     </string-array>
 
-    <integer-array name="notification_group_display_time_values">
-        <item>0</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-    </integer-array>
-
-    <integer-array name="notification_group_display_time_millis">
-        <item>0</item>
-        <item>1000</item>
-        <item>2000</item>
-        <item>3200</item>
-        <item>4400</item>
-        <item>5600</item>
-        <item>6700</item>
-        <item>7800</item>
-    </integer-array>
-
     <string-array name="call_button_action">
         <item>拒接電話</item>
         <item>靜音電話</item>
         <item>答覆電話</item>
-    </string-array>
-
-    <string-array name="call_button_action_values">
-        <item>拒絕</item>
-        <item>靜音</item>
-        <item>答覆</item>
     </string-array>
 
     <string-array name="touch_mute_toggle_ringer_mode">
@@ -104,28 +55,16 @@
         <item>勿擾模式 (完全靜音)</item>
     </string-array>
 
-    <string-array name="touch_mute_toggle_ringer_mode_value">
-        <item>震動</item>
-        <item>靜音</item>
-        <item>FILTER_ALARMS</item>
-        <item>FILTER_PRIORITY</item>
-        <item>FILTER_NONE</item>
-    </string-array>
-
     <string-array name="pref_theme_day_night">
         <item>預設</item>
         <item>明亮</item>
         <item>深色</item>
     </string-array>
 
-    <string-array name="pref_theme_day_night_values">
-        <item>預設</item>
-        <item>明亮</item>
-        <item>深色</item>
-    </string-array>
-
     <string-array name="pref_language">
-        <item>預設</item>
+        <item>默认</item>
+        <item>简体中文</item>
+        <item>繁體中文</item>
         <item>English</item>
         <item>Magyar</item>
         <item>Русский</item>
@@ -144,18 +83,18 @@
         <item>Ελληνικά</item>
         <item>Indonesia</item>
         <item>Română</item>
-        <item>简体中文</item>
-        <item>繁體中文</item>
         <item>한국어</item>
         <item>日本語</item>
     </string-array>
 
     <string-array name="pref_language_values">
-        <item>預設</item>
+        <item>DEFAULT</item>
+        <item>zh-CN</item>
+        <item>zh-TW</item>
         <item>en</item>
         <item>hu</item>
-        <item>ru</item>
-        <item>uk</item>
+        <item>ru-RU</item>
+        <item>uk-UA</item>
         <item>pt</item>
         <item>es</item>
         <item>it</item>
@@ -170,32 +109,18 @@
         <item>el</item>
         <item>in</item>
         <item>ro</item>
-        <item>zh</item>
-        <item>zh_TW</item>
         <item>ko</item>
         <item>ja</item>
     </string-array>
 
     <string-array name="pref_language_ls01">
-<!--        <item>Not set (set by Haylou app)</item>-->
+        <!--        <item>Not set (set by Haylou app)</item>-->
         <item>裝置預設</item>
         <item>English</item>
         <item>Русский</item>
         <item>Deutsch</item>
         <item>日本語</item>
         <item>简体中文</item>
-        <item>繁體中文</item>
-    </string-array>
-
-    <string-array name="pref_language_ls01_values">
-<!--        <item></item>-->
-        <item>預設</item>
-        <item>en_US</item>
-        <item>ru_RU</item>
-        <item>de_DE</item>
-        <item>ja_JP</item>
-        <item>zh_CN</item>
-        <item>zh_TW</item>
     </string-array>
 
 </resources>

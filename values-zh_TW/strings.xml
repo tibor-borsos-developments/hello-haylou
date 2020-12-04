@@ -1,4 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+<resources>
     <string name="app_name">Hello Haylou</string>
 
     <string name="menu_nav_home">Haylou</string>
@@ -106,6 +106,10 @@
     <string name="pref_connected_have_notif_interval_title">重複提醒間隔</string>
     <string name="pref_connected_have_notif_interval_summary">通知 / 提醒 使用此定時</string>
 
+    <string name="pref_synchronization">同步</string>
+    <string name="pref_synchronization_fetch">活动・心率</string>
+    <string name="pref_synchronization_fetch_interval">Synchronization frequency</string>
+
     <string name="pref_battery_phone">手機電量</string>
     <string name="pref_battery_phone_summary">低電量或充滿電時通知</string>
     <string name="pref_cat_battery_phone_low">低電量</string>
@@ -131,13 +135,7 @@
     <string name="message_discovered_mi_band">%1$s 連結成功</string>
     <string name="message_discovered_no_mi_band">Haylou 連結失敗</string>
     <string name="message_discovered_not_found_mi_band">如果未找到Haylou，請打開：Haylou Sport / Play / Discoverable或與手機藍牙設置配對</string>
-    <string name="message_enable_notification_listener_access">啟用通知存取
-    
-    
-    
-    
-    
-    ＋：電話/設定/通知存取</string>
+    <string name="message_enable_notification_listener_access">啟用通知存取：電話/設定/通知存取</string>
     <string name="message_enable_notification_listener_access_4_4">啟用通知存取：電話/設定/通知存取</string>
     <string name="message_open_settings">設定</string>
 
@@ -168,6 +166,7 @@
     <string name="message_general_error">設定失敗（失去連接），請重新再試</string>
     <string name="message_internet_error">沒有網路連結</string>
     <string name="message_gps_enable">開啟GPS</string>
+    <string name="message_location_enable">Enable the location info permission</string>
 
     <string name="message_in_progress">處理中…</string>
     <string name="message_no_data">沒有可用的訊息</string>
@@ -175,7 +174,7 @@
     <string name="message_new_message">收到訊息，請在手機上查看。</string>
 
     <!-- Dialog -->
-    <string name="dialog_welcome_title">歡迎！</string>
+    <string name="dialog_welcome_title">歡迎!</string>
     <string name="dialog_welcome_message"><![CDATA[支援裝置:
     <br>• <b>Haylou Solar (LS05)</b>
     <br>• <b>Haylou Smart Watch 2 (LS02)</b>
@@ -184,9 +183,38 @@
     <p>如果未找到Haylou，可以嘗試手動設定MAC地址。</p>
     <p><b>如果您有連接上的問題：</b>
     <br>- Recent apps 畫面: 鎖定Hello Haylou（拉下應用程序並點擊鎖定圖示）。
-    <br>- 手機/電池優化：將 "Hello Haylou" 應用設置為未優化。
-    <br>- 手機/應用程式：清除 "藍牙共享" 和其他 "藍牙" 應用程式資料。
+    <br>- 手機/電池優化：將 \'Hello Haylou\' 應用設置為未優化。
+    <br>- 手機/應用程式：清除 \'藍牙共享\' 和其他 \'藍牙\' 應用程式資料。
     ]]></string>
+
+
+    <!-- Call -->
+    <string name="pref_cat_call">來電</string>
+    <string name="pref_call_summary_on">（開）不要忘記在Haylou Sport應用程式上關閉來電通知</string>
+    <string name="pref_call_text_title">來電顯示</string>
+
+    <string name="pref_call_notification_rejected">顯示拒接來電的通知</string>
+    <string name="pref_call_notification_rejected_message">拒接來電</string>
+    <string name="pref_call_notification_rejected_action">通話</string>
+
+    <string name="pref_call_net_text_title">網路電話通知</string>
+
+    <string name="pref_cat_call_missed">未接來電</string>
+    <string name="pref_call_missed_title">未接來電通知</string>
+
+    <string name="pref_call_missed_alert_title">%1$s 通知</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+
+    <string name="call_reject_button_action">拒接按鈕</string>
+
+    <string name="touch_call_answer_title">接聽來電</string>
+    <string name="touch_call_answer_speakerphone_title">手機喇叭</string>
+
+    <string name="touch_call_end_title">通話拒接，結束</string>
+
+    <string name="touch_call_mute_title">通話靜音</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">僅當有來電時</string>
+    <string name="touch_call_mute_recognition_title">來電時</string>
+
 
     <!-- Notification Dialog -->
     <string name="notification_group_nav_setting">設定</string>
@@ -249,34 +277,6 @@
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> 圖示: 選擇此圖示以顯示通知標題/內容。]]></string>
 
 
-    <!-- Call -->
-    <string name="pref_cat_call">來電</string>
-    <string name="pref_call_summary_on">（開）不要忘記在Haylou Sport應用程式上關閉來電通知</string>
-    <string name="pref_call_text_title">來電顯示</string>
-
-    <string name="pref_call_notification_rejected">顯示拒接來電的通知</string>
-    <string name="pref_call_notification_rejected_message">拒接來電</string>
-    <string name="pref_call_notification_rejected_action">通話</string>
-
-    <string name="pref_call_net_text_title">網路電話通知</string>
-
-    <string name="pref_cat_call_missed">未接來電</string>
-    <string name="pref_call_missed_title">未接來電通知</string>
-
-    <string name="pref_call_missed_alert_title">%1$s 通知</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
-
-    <string name="call_reject_button_action">拒接按鈕</string>
-
-    <string name="touch_call_answer_title">接聽來電</string>
-    <string name="touch_call_answer_speakerphone_title">手機喇叭</string>
-
-    <string name="touch_call_end_title">通話拒接，結束</string>
-
-    <string name="touch_call_mute_title">通話靜音</string>
-    <string name="touch_call_mute_only_call_state_ringing_title">僅當有來電時</string>
-    <string name="touch_call_mute_recognition_title">來電時</string>
-
-
     <!-- App chooser dialog -->
     <string name="app_chooser">選擇程式</string>
     <string name="action_search">尋找</string>
@@ -318,7 +318,7 @@
     <string name="action_time_alarm_sort_watch_asc">Watch ascending</string>
     <string name="action_time_alarm_sort_name_asc">Name ascending</string>
 
-    <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Haylou Smart watch ... -->
+    <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Haylou Smart Watch ... -->
 
     <string name="info_dialog_alarm"><![CDATA[
         <p>使用協作模式時，原始應用程序和Hello Haylou應用程序的設置可以覆蓋和刪除彼此的設置。</p>
@@ -464,6 +464,8 @@
 
     <string name="weather_location_title">地點</string>
     <string name="weather_automatic_update">自動更新</string>
+    <string name="weather_automatic_update_title">Use your location</string>
+    <string name="weather_automatic_update_summary">This application collects location data to update the weather for the current location, even when the app is closed or not in use.</string>
 
     <string name="weather_title">天氣預測</string>
 
@@ -695,5 +697,4 @@
         <item quantity="many">%d 秒</item>
         <item quantity="other">%d 秒</item>
     </plurals>
-
 </resources>
