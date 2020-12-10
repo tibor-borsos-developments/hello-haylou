@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string-array name="pref_connected_have_notif_reminder_repeat_interval">
         <item>3 minutos</item>
         <item>5 minutos</item>
@@ -12,7 +11,6 @@
         <item>2 horas</item>
         <item>3 horas</item>
     </string-array>
-
     <string-array name="notification_group_repeat">
         <item>Siempre</item>
         <item>Nunca</item>
@@ -20,81 +18,99 @@
         <item>Dos veces</item>
         <item>Tres veces</item>
     </string-array>
-
     <string-array name="notification_group_grouped_dispay">
-        <item>Mostrar todo cuando el dispositivo está conectado, de lo contrario sólo la última notificación</item>
+        <item>Mostrar todo cuando el dispositivo esté conectado, de lo contrario sólo la última notificación</item>
         <item>Mostrar todas las notificaciones</item>
         <item>Mostrar sólo la última notificación</item>
     </string-array>
-
+    <string-array name="notification_group_grouped_display_values">
+        <item>AUTOMÁTICO</item>
+        <item>TODO</item>
+        <item>ÚLTIMA</item>
+    </string-array>
     <string-array name="notification_group_grouped_order">
         <item>En orden normal</item>
         <item>En orden inverso</item>
     </string-array>
-
+    <string-array name="notification_group_grouped_order_values">
+        <item>NORMAL</item>
+        <item>INVERTIDO</item>
+    </string-array>
     <string-array name="notification_group_display_time">
-        <item>Auto (3 – 5 segundos)</item>
+        <item>Automático (3 – 5 segundos)</item>
         <item>3 segundos</item>
         <item>4 segundos</item>
         <item>5 segundos</item>
         <item>6 segundos</item>
         <item>7 segundos</item>
     </string-array>
-
     <string-array name="call_button_action">
-        <item>Rechazar llamada, colgar</item>
+        <item>Rechazar llamada</item>
         <item>Silenciar llamada</item>
-        <item>Contestar llamada</item>
+        <item>Responder llamada</item>
     </string-array>
-
+    <string-array name="call_button_action_values">
+        <item>RECHAZAR</item>
+        <item>SILENCIAR</item>
+        <item>RESPONDER</item>
+    </string-array>
     <string-array name="touch_mute_toggle_ringer_mode">
         <item>Vibrar</item>
-        <item>Silencio</item>
-        <item>No molestar (solo con prioridad)</item>
-        <item>No molestar (solo alarmas)</item>
+        <item>Silenciar</item>
+        <item>No molestar (sólo prioridad)</item>
+        <item>No molestar (sólo alarmas)</item>
         <item>No molestar (silencio total)</item>
     </string-array>
-
+    <string-array name="touch_mute_toggle_ringer_mode_value">
+        <item>VIBRAR</item>
+        <item>SILENCIAR</item>
+        <item>FILTRAR_ALARMAS</item>
+        <item>FILTRAR_PRIORIDAD</item>
+        <item>FILTRAR_NINGUNA</item>
+    </string-array>
     <string-array name="pref_theme_day_night">
         <item>Predeterminado</item>
-        <item>Brillante</item>
+        <item>Claro</item>
         <item>Oscuro</item>
     </string-array>
-
+    <string-array name="pref_theme_day_night_values">
+        <item>DÍA_NOCHE</item>
+        <item>CLARO</item>
+        <item>OSCURO</item>
+    </string-array>
     <string-array name="pref_language">
         <item>Predeterminado</item>
+        <item>Inglés</item>
+        <item>Magiar</item>
+        <item>Ruso</item>
+        <item>Ucraniano</item>
+        <item>Portugués</item>
         <item>Español</item>
-        <item>English</item>
-        <item>Magyar</item>
-        <item>Русский</item>
-        <item>Українська</item>
-        <item>Português</item>
         <item>Italiano</item>
-        <item>Türkçe</item>
-        <item>Polish</item>
-        <item>Tiếng Việt</item>
-        <item>Deutsch</item>
-        <item>Nederlands</item>
-        <item>Čeština</item>
-        <item>Français</item>
-        <item>Norsk</item>
-        <item>Ελληνικά</item>
-        <item>Indonesia</item>
-        <item>Română</item>
-        <item>简体中文</item>
-        <item>繁體中文</item>
-        <item>한국어</item>
-        <item>日本語</item>
+        <item>Turco</item>
+        <item>Polaco</item>
+        <item>Vietnamita</item>
+        <item>Alemán</item>
+        <item>Holandés</item>
+        <item>Checo</item>
+        <item>Francés</item>
+        <item>Noruego</item>
+        <item>Griego</item>
+        <item>Indonesio</item>
+        <item>Romaní</item>
+        <item>Chino mandarín</item>
+        <item>Chino tradicional</item>
+        <item>Coreano</item>
+        <item>Japonés</item>
     </string-array>
-
     <string-array name="pref_language_values">
-        <item>DEFAULT</item>
-        <item>es</item>
+        <item>PREDETERMINADO</item>
         <item>en</item>
         <item>hu</item>
         <item>ru-RU</item>
         <item>uk-UA</item>
         <item>pt</item>
+        <item>es</item>
         <item>it</item>
         <item>tr</item>
         <item>pl</item>
@@ -112,15 +128,22 @@
         <item>ko</item>
         <item>ja</item>
     </string-array>
-
     <string-array name="pref_language_ls01">
         <!--        <item>Not set (set by Haylou app)</item>-->
         <item>Predeterminado (por teléfono)</item>
-        <item>English</item>
-        <item>Русский</item>
-        <item>Deutsch</item>
-        <item>日本語</item>
-        <item>简体中文</item>
+        <item>Inglés</item>
+        <item>Ruso</item>
+        <item>Alemán</item>
+        <item>Japonés</item>
+        <item>Chino mandarín</item>
     </string-array>
-
+    <string-array name="pref_language_ls01_values">
+        <!--        <item></item>-->
+        <item>PREDETERMINADO</item>
+        <item>en_US</item>
+        <item>ru_RU</item>
+        <item>de_DE</item>
+        <item>ja_JP</item>
+        <item>zh_CN</item>
+    </string-array>
 </resources>
