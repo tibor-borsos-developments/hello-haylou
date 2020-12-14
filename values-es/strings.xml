@@ -7,13 +7,13 @@
     <string name="menu_nav_step">Actividad</string>
     <string name="menu_nav_pulse">Monitoreo de pulso</string>
     <string name="menu_nav_alarm">Alarme</string>
-    <string name="menu_nav_dnd">Modo No molestar</string>
+    <string name="menu_nav_dnd">Modo no molestar</string>
     <string name="menu_nav_touch">Monitoreo táctil</string>
     <string name="menu_nav_weather">Clima</string>
     <string name="menu_nav_more">Más</string>
     <string name="menu_nav_text_display">Presentación del texto</string>
     <string name="menu_nav_theme">Tema</string>
-    <string name="menu_nav_premium_mode">Modo Premium</string>
+    <string name="menu_nav_premium_mode">Modo premium</string>
     <string name="menu_nav_feedback">Retroalimentación</string>
     <string name="menu_nav_privacy_policy">Política de privacidad</string>
     <string name="menu_nav_settings" type="string">@string/settings_name</string>
@@ -34,7 +34,7 @@
     <string name="device_state_disconnected">Desconectado</string>
     <string name="device_state_bonded">Dispositivo emparejado</string>
     <string name="device_state_not_bonded">Dispositivo no emparejado</string>
-    <string name="pref_dnd_title">Modo No molestar</string>
+    <string name="pref_dnd_title">Modo no molestar</string>
     <!-- Haylou setting -->
     <string name="mi_band_setting_button_title">Ajustes de %1$s ・ Perfil ・ Texto ・ Llamada ・ Menú</string>
     <string name="mi_band_setting_title">Ajustes de %1$s</string>
@@ -48,7 +48,7 @@
     <!-- Haylou Fit-->
     <string name="mi_band_setting_auth_mi_fit_hint">Hello Haylou requiere la instalación de la aplicación %1$s en el mismo teléfono. Al principio tienes que emparejar %2$s en la aplicación %1$s, luego puedes usar Hello Haylou. Si quieres usar la aplicación %1$s, escoge esto.</string>
     <string name="mi_band_setting_auth_standalone">Independiente</string>
-    <string name="mi_band_setting_auth_standalone_hint">No se requiere una aplicación de %1$s para que funcione el Hello Haylou. Después del emparejamiento, desinstala la aplicación %1$s. Al restaurar la cooperación de %1$s, tendrás que volver a emparejar tus %2$s en la aplicación %1$s. Si usas la función de desemparejar, los datos del smartwatch serán eliminados. La pantalla de %2$s debe estar encendida mientras se realizan las operaciones.</string>
+    <string name="mi_band_setting_auth_standalone_hint">No se requiere una aplicación de %1$s para que funcione el Hello Haylou. Después del emparejamiento, desinstala la aplicación %1$s. Al restaurar la cooperación de %1$s, tendrás que volver a emparejar tus %2$s en la aplicación %1$s. Si usas la función de desemparejar, los datos del reloj inteligente serán eliminados. La pantalla de %2$s debe estar encendida mientras se realizan las operaciones.</string>
     <string name="mi_band_setting_auth_key">Clave de autenticación</string>
     <string name="mi_band_setting_auth_request">Solicitud de clave</string>
     <string name="mi_band_setting_auth_pair">Emparejar</string>
@@ -131,8 +131,8 @@
     <string name="message_time_alarm_disabled">Alarma desactivada</string>
     <string name="message_time_alarm_mi_band_off">Alarma apagada</string>
     <string name="message_touch_pattern_error">El patrón especificado es similar a un modelo de otra función, graba otro</string>
-    <string name="message_touch_free_patterns">Se pueden utilizar hasta %1$,d funciones en modo normal</string>
-    <string name="message_premium_mode_only">Función sólo disponible en modo premium</string>
+    <string name="message_touch_free_patterns">No puedes utilizar más de %1$,d controles en modo normal</string>
+    <string name="message_premium_mode_only">Esta característica sólo está disponible en el modo premium</string>
     <string name="message_feature_is_not_supported">%1$s no soporta esta característica</string>
     <string name="message_general_error">Se ha producido un error en la configuración (Pérdida de conexión), reintente de nuevo</string>
     <string name="message_internet_error">No tienes conexión a Internet</string>
@@ -169,25 +169,25 @@
     <string name="notification_group_text_title">Título</string>
     <string name="notification_group_text_content">Contenido</string>
     <string name="notification_group_text_big_content">Contenido completo</string>
-    <string name="notification_group_text_content_slice_title">Longitud de texto</string>
+    <string name="notification_group_text_content_slice_title">Longitud del texto</string>
     <string name="notification_group_display_time_title">Mostrar la hora</string>
     <string name="notification_group_display_notification_title">Mostrar la notificación</string>
     <string name="notification_group_immediate">Avisar inmediatamente cuando se recibe una notificación</string>
-    <string name="notification_group_connecting">Al conectar al dispositivo</string>
+    <string name="notification_group_connecting">Cuando se conecte al teléfono</string>
     <string name="notification_group_reminder">Recordatorio de aviso</string>
     <string name="notification_group_ongoing">Notificaciones de aviso persistente (continua)</string>
-    <string name="notification_group_screen_off">El aviso sólo se envía cuando la pantalla está apagada</string>
+    <string name="notification_group_screen_off">El aviso sólo se envía cuando la pantalla (del teléfono) esté apagada</string>
     <string name="notification_group_repeat_title">Repetir los avisos</string>
-    <string name="notification_group_wakelock">Encender la pantalla del dispositivo</string>
-    <string name="notification_group_grouped_display_title">Configuración de la pantalla para las notificaciones de grupo</string>
+    <string name="notification_group_wakelock">Encender la pantalla del teléfono</string>
+    <string name="notification_group_grouped_display_title">Configuración de visualización para las notificaciones grupales</string>
     <string name="notification_group_grouped_sort_order_title">Orden de clasificación de las notificaciones de grupo</string>
-    <string name="notification_group_filter">Filtrar notificaciones</string>
+    <string name="notification_group_filter">Filtrar notificación</string>
     <string name="notification_group_filter_title">Filtrar título</string>
     <string name="notification_group_filter_content">Filtrar contenido</string>
     <string name="notification_group_filter_regex">Regex</string>
     <string name="notification_group_filter_hint">Avisar sólo cuando el título o el contenido de la notificación (sin distinción de mayúsculas y minúsculas)</string>
-    <string name="notification_group_filter_contains">Contiene la palabra/frase</string>
-    <string name="notification_group_filter_not_contains">No contiene la palabra/frase</string>
+    <string name="notification_group_filter_contains">Contiene la frase</string>
+    <string name="notification_group_filter_not_contains">No contiene la frase</string>
     <string name="notification_group_sample_sms">SMS</string>
     <string name="notification_group_sample_facebook">Messenger</string>
     <string name="notification_group_sample_whatsapp">WhatsApp</string>
@@ -198,14 +198,13 @@
     <string name="notification_group_correction_hint">Sin distinción de mayúsculas y minúsculas</string>
     <string name="notification_group_correction_items">Textos a corregir</string>
     <string name="notification_group_correction_find">Buscar</string>
-    <string name="notification_group_correction_replace">Reemplazar con</string>
+    <string name="notification_group_correction_replace">Sustituir por</string>
     <string name="notification_regex_hint">Los caracteres no alfanuméricos tienen un significado especial, si no conoce el Regex, no lo marque</string>
     <string name="notification_confirm_close">¿Está seguro de que desea descartar los cambios?</string>
     <string name="notification_edit_play_text_title">Título de notificación</string>
-    <string name="notification_edit_play_text_content">Contenido de la notificacion:
-    Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final.
-    \n Aunque no posee actualmente fuentes para justificar sus hipótesis, el profesor de filología clásica Richard McClintock asegura que su uso se remonta a los impresores de comienzos del siglo XVI.1​ Su uso en algunos editores de texto muy conocidos en la actualidad ha dado al texto lorem ipsum nueva popularidad.
-    </string>
+    <string name="notification_edit_play_text_content">Contenido de la notificación:
+    En la publicidad y diseño gráfico, lorem ipsum es un texto de relleno o greeking comúnmente utilizado para demostrar los elementos textuales de un documento gráfico o presentación visual.
+        \nSustituir contenido significativo con texto de marcador permite a los diseñadores diseñar la forma del contenido antes de que el contenido en sí se haya producido.</string>
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> icono: seleccione éste icono para mostrar el título/contenido de las notificaciones.]]></string>
     <!-- Call -->
     <string name="pref_cat_call">Llamada entrante</string>
@@ -264,8 +263,8 @@
         <p>La última operación realizada tendrá efecto.</p>
     ]]></string>
     <!-- Do not disturb -->
-    <string name="pref_dnd_summary">Estado de los controles no molestar</string>
-    <string name="pref_dnd_enable_bluetooth">Al inicio del modo No Molestar desactivar el Bluetooth, al finalizar activar el Bluetooth</string>
+    <string name="pref_dnd_summary">Estado de los controles del modo no molestar</string>
+    <string name="pref_dnd_enable_bluetooth">Al inicio del modo no molestar desactiva el Bluetooth, al finalizar reactiva el Bluetooth</string>
     <string name="info_dialog_dnd"><![CDATA[        <p>Si está usando el modo de cooperación, en la aplicación oficial <device_type/> el modo no molestar (DnD) debe estar entre las 00:00 y las 23:59 y su estado debe estar apagado.</p>]]></string>
     <!-- %1$s Haylou fit-->
     <!-- Touch monitoring -->
@@ -406,14 +405,14 @@
     <string name="pref_text_char_replacement_title">Sustitución de los caracteres y de los emoji</string>
     <string name="pref_text_char_replacement_summary_on">Sustituir un carácter por otro</string>
     <string name="pref_text_char_replacement_find">Buscar</string>
-    <string name="pref_text_char_replacement_replace">Reemplazar con</string>
+    <string name="pref_text_char_replacement_replace">Sustituir por</string>
     <!-- Theme -->
     <string name="theme_tab_theme">Tema</string>
     <string name="theme_title">Seleccione un tema</string>
     <string name="theme_background_color_title">Color de fondo</string>
     <string name="theme_widget_background_color_title">Color</string>
     <string name="theme_notification_title">Mostrar estado en la pantalla de notificación</string>
-    <string name="theme_cat_color_setting">Ajuste de color</string>
+    <string name="theme_cat_color_setting">Ajustes de color</string>
     <!-- Premium mode -->
     <string name="purchase_policy_title">Términos y condiciones del modo premium</string>
     <string name="purchase_policy"><![CDATA[        <p>• He probado la aplicacion y está funcionando correctamente.</p>
@@ -424,7 +423,7 @@
     ]]></string>
     <!--<string name="purchase_price">Price:</string>-->
     <string name="purchase_agree">Acepto los términos y condiciones.</string>
-    <string name="purchase_order_id">ID de orden</string>
+    <string name="purchase_order_id">ID del pedido</string>
     <string name="purchase_order_id_help">Copiar de:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
@@ -438,7 +437,7 @@
     <string name="feedback_translation_title_summary">Por favor, ayuda en la traducción</string>
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Política de privacidad</string>
-    <string name="privacy_policy_tab_eu_consent">Consentimiento de usuario</string>
+    <string name="privacy_policy_tab_eu_consent">Consentimiento para usuarios europeos</string>
     <string name="privacy_policy_collect_title">Información que recopilamos</string>
     <string name="privacy_policy_collect"><![CDATA[        <p>• Sólo recogemos información anónima.</p>
         <p>• Recopilamos información a nivel de aplicación sobre los servicios que utiliza y cómo los utiliza (Plataforma de Firebase de Google).</p>
@@ -456,25 +455,25 @@
         <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>]]></string>
     <string name="privacy_policy_eu_consent_title">Estado</string>
     <string name="privacy_policy_eu_consent_title_personalized">Anuncios personalizados y relevantes</string>
-    <string name="privacy_policy_eu_consent_title_non_personalized">Anuncios no personalizados y menos relevantes</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Anuncios no personalizados que son menos relevantes</string>
     <string name="privacy_policy_eu_consent_title_unknown">Desconocido</string>
-    <string name="privacy_policy_eu_consent_setting">Configuraciones</string>
+    <string name="privacy_policy_eu_consent_setting">Ajustes</string>
     <!-- Custom vibration dialog -->
-    <string name="custom_vibration_title">Configuración de vibración</string>
+    <string name="custom_vibration_title">Ajustes de vibración</string>
     <!-- Others -->
     <string name="ad_attribution">Anuncio</string>
-    <string name="on">Encender</string>
-    <string name="off">Apagar</string>
+    <string name="on">Activado</string>
+    <string name="off">Desactivado</string>
     <string name="none">Ninguno</string>
     <string name="bpm">PPM</string>
     <string name="date">Fecha</string>
     <string name="time">Hora</string>
     <string name="time_start">Hora de inicio</string>
-    <string name="time_end">Hora de fin</string>
+    <string name="time_end">Hora de finalización</string>
     <string name="ringer_mode_vibrate">Vibrar</string>
     <string name="ringer_mode_silent">Silencio</string>
-    <string name="ringer_mode_dnd_priority_only">No molestar (solo con prioridad)</string>
-    <string name="ringer_mode_dnd_alarms_only">No molestar (solo alarmas)</string>
+    <string name="ringer_mode_dnd_priority_only">No molestar (sólo prioridad)</string>
+    <string name="ringer_mode_dnd_alarms_only">No molestar (sólo alarmas)</string>
     <string name="ringer_mode_dnd_total_silence">No molestar (silencio total)</string>
     <string name="unknown">Desconocido</string>
     <string name="maximum">Máximo</string>
