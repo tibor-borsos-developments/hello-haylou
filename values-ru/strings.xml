@@ -5,6 +5,7 @@
     <string name="menu_nav_notification">Уведомления</string>
     <string name="menu_nav_call">Вызов</string>
     <string name="menu_nav_step">Активность</string>
+    <string name="menu_nav_sleep">Сон</string>
     <string name="menu_nav_pulse">Пульс</string>
     <string name="menu_nav_alarm">Будильник</string>
     <string name="menu_nav_dnd">Режим \"Не беспокоить\"</string>
@@ -59,6 +60,7 @@
     <string name="mi_band_setting_auth_standalone_hint">Для работы Hello Haylou, приложение %1$s не нужно. После соединения %1$s можно удалить или отвязать браслет от него. Для восстановления работы с %1$s вам нужно заново привязать %2$s к %1$s. Если вы используете функцию отвязки устройства, то все данные на часах будут удалены. Экран %2$s должен быть включен во время выполнения операций.</string>
 
     <string name="mi_band_setting_auth_key">Ключ аутентификации</string>
+    <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
     <string name="mi_band_setting_auth_request">Запросить ключ</string>
     <string name="mi_band_setting_auth_pair">Подключить</string>
     <string name="mi_band_setting_auth_unpair">Отключить</string>
@@ -303,6 +305,18 @@
     <string name="step_goal_default_title">Ежедневная цель шагов</string>
 
 
+    <!-- Sleep monitoring -->
+    <string name="sleep_tab_day">День</string>
+    <string name="sleep_tab_week">Неделя</string>
+    <string name="sleep_tab_month">Месяц</string>
+
+    <string name="sleep_details">Подробнее о сне</string>
+
+    <string name="sleep_awake">Awake</string>
+    <string name="sleep_light">Light</string>
+    <string name="sleep_deep">Deep</string>
+
+
     <!-- Pulse -->
     <string name="pulse_tab_day">День</string>
     <string name="pulse_tab_week">Неделя</string>
@@ -463,23 +477,21 @@
     <string name="weather_tab_settings">@string/setting_name</string>
 
     <string name="weather_location_title">Местоположение</string>
-    <string name="weather_automatic_update">Автоматическое обновление</string>
-    <string name="weather_automatic_update_title">Use your location</string>
-    <string name="weather_automatic_update_summary">This application collects location data to update the weather for the current location, even when the app is closed or not in use.</string>
 
-    <string name="weather_title">Прогноз погоды</string>
+    <string name="weather_forecast_title">Прогноз погоды</string>
 
     <string name="weather_setting_provider">Источник прогноза</string>
     <string name="weather_city_title">Город</string>
     <string name="weather_unit_title">Система</string>
     <string name="weather_unit_metric">Цельсий ℃</string>
     <string name="weather_unit_imperial">Фаренгейт °F</string>
+    <string name="weather_automatic_update">Автоматическое обновление</string>
+    <string name="weather_automatic_update_title">Use your location</string>
+    <string name="weather_automatic_update_summary">This application collects location data to update the weather for the current location, even when the app is closed or not in use.</string>
 
     <string name="weather_current_title">Текущая погода</string>
     <string name="weather_current_location">Текущее местоположение</string>
     <string name="weather_current_temperature">Текущая температура</string>
-
-    <string name="weather_forecast_title">Прогноз погоды</string>
 
     <string name="weather_display">Отображение</string>
 
@@ -645,6 +657,8 @@
     <string name="action_chart_sort_time_desc">Время, по убыванию</string>
     <string name="action_chart_sort_step_asc">Шаги, по возрастанию</string>
     <string name="action_chart_sort_step_desc">Шаги, по убыванию</string>
+    <string name="action_chart_sort_duration_asc">Duration ascending</string>
+    <string name="action_chart_sort_duration_desc">Duration descending</string>
     <string name="action_chart_sort_pulse_asc">Пульс, по возрастанию</string>
     <string name="action_chart_sort_pulse_desc">Пульс, по убыванию</string>
     <string name="action_chart_monthly_calendar">Календарь</string>

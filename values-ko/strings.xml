@@ -5,6 +5,7 @@
     <string name="menu_nav_notification">알림</string>
     <string name="menu_nav_call">수신 전화 알림</string>
     <string name="menu_nav_step">활동</string>
+    <string name="menu_nav_sleep">수면</string>
     <string name="menu_nav_pulse">심박수</string>
     <string name="menu_nav_alarm">알람</string>
     <string name="menu_nav_dnd">방해 금지 모드</string>
@@ -60,6 +61,7 @@
     <string name="mi_band_setting_auth_standalone_hint">Hello Haylou(이)가 작동하기 위해 %1$s앱이 요구되지 않습니다. 페어링 후에, %1$s 앱을 삭제하. %1$s(와)과 함께 사용하기를 복원할 때, %2$s(을)를 %1$s 애플리케이션에 다시 연결해야 합니다. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
 
     <string name="mi_band_setting_auth_key">인증 키</string>
+    <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
     <string name="mi_band_setting_auth_request">Key request</string>
     <string name="mi_band_setting_auth_pair">페어링</string>
     <string name="mi_band_setting_auth_unpair">Unpair</string>
@@ -314,6 +316,18 @@
     <string name="pulse_continuous_title">Continuous pulse measurement</string>
 
 
+    <!-- Sleep monitoring -->
+    <string name="sleep_tab_day">일간 차트</string>
+    <string name="sleep_tab_week">주간 차트</string>
+    <string name="sleep_tab_month">월간 차</string>
+
+    <string name="sleep_details">Sleep details</string>
+
+    <string name="sleep_awake">Awake</string>
+    <string name="sleep_light">Light</string>
+    <string name="sleep_deep">Deep</string>
+
+
     <!-- Alarm -->
     <string name="action_time_alarm_sort_state_asc">State ascending</string>
     <string name="action_time_alarm_sort_watch_asc">Watch ascending</string>
@@ -464,23 +478,21 @@
     <string name="weather_tab_settings">@string/setting_name</string>
 
     <string name="weather_location_title">Location</string>
-    <string name="weather_automatic_update">Automatically update location in the background</string>
-    <string name="weather_automatic_update_title">Use your location</string>
-    <string name="weather_automatic_update_summary">This application collects location data to update the weather for the current location, even when the app is closed or not in use.</string>
 
-    <string name="weather_title">일기 예보</string>
+    <string name="weather_forecast_title">일기 예보</string>
 
     <string name="weather_setting_provider">Weather provider</string>
     <string name="weather_city_title">도시</string>
     <string name="weather_unit_title">Unit</string>
     <string name="weather_unit_metric">섭씨온도 (Celsius)</string>
     <string name="weather_unit_imperial">화씨온도 (Fahrenheit)</string>
+    <string name="weather_automatic_update">Automatically update location in the background</string>
+    <string name="weather_automatic_update_title">Use your location</string>
+    <string name="weather_automatic_update_summary">This application collects location data to update the weather for the current location, even when the app is closed or not in use.</string>
 
     <string name="weather_current_title">Current weather</string>
     <string name="weather_current_location">Current location</string>
     <string name="weather_current_temperature">Current temperature</string>
-
-    <string name="weather_forecast_title">일기예보</string>
 
     <string name="weather_display">디스플레이</string>
 
@@ -646,6 +658,8 @@
     <string name="action_chart_sort_time_desc">Time descending</string>
     <string name="action_chart_sort_step_asc">Step ascending</string>
     <string name="action_chart_sort_step_desc">Step descending</string>
+    <string name="action_chart_sort_duration_asc">Duration ascending</string>
+    <string name="action_chart_sort_duration_desc">Duration descending</string>
     <string name="action_chart_sort_pulse_asc">Pulse ascending</string>
     <string name="action_chart_sort_pulse_desc">Pulse descending</string>
     <string name="action_chart_monthly_calendar">Calendar</string>

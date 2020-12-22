@@ -5,6 +5,7 @@
     <string name="menu_nav_notification">Értesítés</string>
     <string name="menu_nav_call">Hívás</string>
     <string name="menu_nav_step">Aktivitás</string>
+    <string name="menu_nav_sleep">Alvás</string>
     <string name="menu_nav_pulse">Pulzus</string>
     <string name="menu_nav_alarm">Ébresztő</string>
     <string name="menu_nav_dnd">Ne zavarj mód</string>
@@ -59,6 +60,7 @@
     <string name="mi_band_setting_auth_standalone_hint">Nincs szükség a %1$s applikációra a működéshez. Párosítás után töröld a %1$s applikációt. %1$s együttműködés visszaállításakor a %2$s újra párosítását el kell végezni a %1$s applikációban. Leválasztás használatakor az okosóra adatai törlődnek. %2$s képernyő legyen bekapcsolva a műveletek végrehajtása közben.</string>
 
     <string name="mi_band_setting_auth_key">Hitelesítési kulcs</string>
+    <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
     <string name="mi_band_setting_auth_request">Kulcs kérés</string>
     <string name="mi_band_setting_auth_pair">Párosít</string>
     <string name="mi_band_setting_auth_unpair">Leválaszt</string>
@@ -312,6 +314,17 @@
 
     <string name="step_goal_default_title">Alapértelmezett célkitűzés</string>
 
+    <!-- Sleep -->
+    <string name="sleep_tab_day">Napi graf.</string>
+    <string name="sleep_tab_week">Heti graf.</string>
+    <string name="sleep_tab_month">Havi graf.</string>
+
+    <string name="sleep_details">Alvás részletek</string>
+
+    <string name="sleep_awake">Ébren</string>
+    <string name="sleep_light">Könnyű</string>
+    <string name="sleep_deep">Mély</string>
+
 
     <!-- Pulse -->
     <string name="pulse_tab_day">Napi graf.</string>
@@ -474,23 +487,21 @@
     <string name="weather_tab_settings">@string/setting_name</string>
 
     <string name="weather_location_title">Helymeghatározás</string>
-    <string name="weather_automatic_update">Helyszín automatikus frissítése</string>
-    <string name="weather_automatic_update_title">Tartozkódási hely használata</string>
-    <string name="weather_automatic_update_summary">Az applikáció a helyadatok alapján fogja meghatározni az aktuális időjárást, még akkor is, ha az applikáció bezárt vagy nincs használatban.</string>
 
-    <string name="weather_title">Időjárás előrejelzés</string>
+    <string name="weather_forecast_title">Időjárás előrejelzés</string>
 
     <string name="weather_setting_provider">Időjárás szolgáltató</string>
     <string name="weather_city_title">Város</string>
     <string name="weather_unit_title">Mértékegység</string>
     <string name="weather_unit_metric">Metrikus (Celsius)</string>
     <string name="weather_unit_imperial">Imperial (Fahrenheit)</string>
+    <string name="weather_automatic_update">Helyszín automatikus frissítése</string>
+    <string name="weather_automatic_update_title">Tartozkódási hely használata</string>
+    <string name="weather_automatic_update_summary">Az applikáció a helyadatok alapján fogja meghatározni az aktuális időjárást, még akkor is, ha az applikáció bezárt vagy nincs használatban.</string>
 
     <string name="weather_current_title">Aktuális időjárás</string>
     <string name="weather_current_location">Aktuális helyszín</string>
     <string name="weather_current_temperature">Aktuális hőmérséklet</string>
-
-    <string name="weather_forecast_title">Időjárás előrejelzés</string>
 
     <string name="weather_display">Kijelzés</string>
 
@@ -656,6 +667,8 @@
     <string name="action_chart_sort_time_desc">Idő csökkenő</string>
     <string name="action_chart_sort_step_asc">Lépés növekvő</string>
     <string name="action_chart_sort_step_desc">Lépés csökkenő</string>
+    <string name="action_chart_sort_duration_asc">Időtartam növekvő</string>
+    <string name="action_chart_sort_duration_desc">Időtartam csökkenő</string>
     <string name="action_chart_sort_pulse_asc">Pulzus növekvő</string>
     <string name="action_chart_sort_pulse_desc">Pulzus csökkenő</string>
     <string name="action_chart_monthly_calendar">Naptár</string>

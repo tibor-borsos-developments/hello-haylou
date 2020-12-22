@@ -5,6 +5,7 @@
     <string name="menu_nav_notification">通知</string>
     <string name="menu_nav_call">電話</string>
     <string name="menu_nav_step">活動</string>
+    <string name="menu_nav_sleep">睡眠</string>
     <string name="menu_nav_pulse">心率</string>
     <string name="menu_nav_alarm">鬧鐘</string>
     <string name="menu_nav_dnd">勿擾模式</string>
@@ -59,6 +60,7 @@
     <string name="mi_band_setting_auth_standalone_hint">%1$s 應用程序對於Hello Haylou來說不是必需的。 配對裝置後請解除安裝 %1$s 程式。若要重新使用 %1$s ，您必須在 %1$s 程式內重新配對 %2$s。 若使用解除配對功能，資料將被清除。 在進行設定的過程中，%2$s 程式畫面必須開啟。</string>
 
     <string name="mi_band_setting_auth_key">認證碼</string>
+    <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
     <string name="mi_band_setting_auth_request">請求認證碼</string>
     <string name="mi_band_setting_auth_pair">配對</string>
     <string name="mi_band_setting_auth_unpair">解除配對</string>
@@ -303,6 +305,18 @@
     <string name="step_goal_default_title">預設目標</string>
 
 
+    <!-- Sleep monitoring -->
+    <string name="sleep_tab_day">每日圖表</string>
+    <string name="sleep_tab_week">每週圖表</string>
+    <string name="sleep_tab_month">每月圖表</string>
+
+    <string name="sleep_details">睡眠详情</string>
+
+    <string name="sleep_awake">Awake</string>
+    <string name="sleep_light">Light</string>
+    <string name="sleep_deep">Deep</string>
+
+
     <!-- Pulse -->
     <string name="pulse_tab_day">每日圖表</string>
     <string name="pulse_tab_week">每週圖表</string>
@@ -463,23 +477,21 @@
     <string name="weather_tab_settings">@string/setting_name</string>
 
     <string name="weather_location_title">地點</string>
-    <string name="weather_automatic_update">自動更新</string>
-    <string name="weather_automatic_update_title">Use your location</string>
-    <string name="weather_automatic_update_summary">This application collects location data to update the weather for the current location, even when the app is closed or not in use.</string>
 
-    <string name="weather_title">天氣預測</string>
+    <string name="weather_forecast_title">天氣預測</string>
 
     <string name="weather_setting_provider">天氣資訊來源</string>
     <string name="weather_city_title">城市</string>
     <string name="weather_unit_title">單位</string>
     <string name="weather_unit_metric">攝氏 (Celsius)</string>
     <string name="weather_unit_imperial">華氏 (Fahrenheit)</string>
+    <string name="weather_automatic_update">自動更新</string>
+    <string name="weather_automatic_update_title">Use your location</string>
+    <string name="weather_automatic_update_summary">This application collects location data to update the weather for the current location, even when the app is closed or not in use.</string>
 
     <string name="weather_current_title">目前天氣</string>
     <string name="weather_current_location">目前位置</string>
     <string name="weather_current_temperature">目前氣溫</string>
-
-    <string name="weather_forecast_title">天氣預測</string>
 
     <string name="weather_display">顯示</string>
 
@@ -645,6 +657,8 @@
     <string name="action_chart_sort_time_desc">時間 降序</string>
     <string name="action_chart_sort_step_asc">步數 升序</string>
     <string name="action_chart_sort_step_desc">步數 降序</string>
+    <string name="action_chart_sort_duration_asc">Duration ascending</string>
+    <string name="action_chart_sort_duration_desc">Duration descending</string>
     <string name="action_chart_sort_pulse_asc">心率 升序</string>
     <string name="action_chart_sort_pulse_desc">心率 降序</string>
     <string name="action_chart_monthly_calendar">日歷</string>

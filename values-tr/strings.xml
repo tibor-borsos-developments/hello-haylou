@@ -5,6 +5,7 @@
     <string name="menu_nav_notification">Bildirimler</string>
     <string name="menu_nav_call">Arama</string>
     <string name="menu_nav_step">Adım sayar</string>
+    <string name="menu_nav_sleep">Uyku takibi</string>
     <string name="menu_nav_pulse">Nabız ölçer</string>
     <string name="menu_nav_alarm">Alarm</string>
     <string name="menu_nav_dnd">Rahatsız etmeyin modu</string>
@@ -62,6 +63,7 @@
     <string name="message_auth_request">Eşlendi, doğrulama kodunu bilmiyorsanız, eşleşmeyi kaldırın.</string>
 
     <string name="mi_band_setting_auth_key">Doğrulama Kodu</string>
+    <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
     <string name="mi_band_setting_auth_request">Doğrulama kodu isteği</string>
     <string name="mi_band_setting_auth_pair">Eşleştir</string>
     <string name="mi_band_setting_auth_unpair">Eşlenmeyi kaldır</string>
@@ -303,6 +305,18 @@
     <string name="step_goal_default_title">Varsayılan hedef</string>
 
 
+    <!-- Sleep monitoring -->
+    <string name="sleep_tab_day">Günlük graf.</string>
+    <string name="sleep_tab_week">Haftalık graf.</string>
+    <string name="sleep_tab_month">Aylık graf.</string>
+
+    <string name="sleep_details">Uyku detayları</string>
+
+    <string name="sleep_awake">Awake</string>
+    <string name="sleep_light">Light</string>
+    <string name="sleep_deep">Deep</string>
+
+
     <!-- Pulse -->
     <string name="pulse_tab_day">Günlük graf.</string>
     <string name="pulse_tab_week">Haftalık graf.</string>
@@ -463,23 +477,21 @@
     <string name="weather_tab_settings">@string/setting_name</string>
 
     <string name="weather_location_title">Yer</string>
-    <string name="weather_automatic_update">Otomatik güncelle</string>
-    <string name="weather_automatic_update_title">Use your location</string>
-    <string name="weather_automatic_update_summary">This application collects location data to update the weather for the current location, even when the app is closed or not in use.</string>
 
-    <string name="weather_title">Hava Durumu Tahmini</string>
+    <string name="weather_forecast_title">Hava Durumu Tahmini</string>
 
     <string name="weather_setting_provider">Hava durumu sağlayıcı</string>
     <string name="weather_city_title">Şehir</string>
     <string name="weather_unit_title">Birim</string>
     <string name="weather_unit_metric">Metrik sistem (Celsius)</string>
     <string name="weather_unit_imperial">Emperyal sistem (Fahrenheit)</string>
+    <string name="weather_automatic_update">Otomatik güncelle</string>
+    <string name="weather_automatic_update_title">Use your location</string>
+    <string name="weather_automatic_update_summary">This application collects location data to update the weather for the current location, even when the app is closed or not in use.</string>
 
     <string name="weather_current_title">Şu anki hava durumu</string>
     <string name="weather_current_location">Şuanki konum</string>
     <string name="weather_current_temperature">Mevcut sıcaklık</string>
-
-    <string name="weather_forecast_title">Hava tahmini</string>
 
     <string name="weather_display">Görüntüle</string>
 
@@ -645,6 +657,8 @@
     <string name="action_chart_sort_time_desc">Azalan Zaman</string>
     <string name="action_chart_sort_step_asc">Artan adım</string>
     <string name="action_chart_sort_step_desc">Azalan adım</string>
+    <string name="action_chart_sort_duration_asc">Duration ascending</string>
+    <string name="action_chart_sort_duration_desc">Duration descending</string>
     <string name="action_chart_sort_pulse_asc">Artan nabız</string>
     <string name="action_chart_sort_pulse_desc">Azalan nabız</string>
     <string name="action_chart_monthly_calendar">Takvim</string>

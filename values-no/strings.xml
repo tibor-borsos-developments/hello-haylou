@@ -5,6 +5,7 @@
     <string name="menu_nav_notification">Notifikasjon</string>
     <string name="menu_nav_call">Anrop</string>
     <string name="menu_nav_step">Aktivitet</string>
+    <string name="menu_nav_sleep">Søvn</string>
     <string name="menu_nav_pulse">Puls</string>
     <string name="menu_nav_alarm">Alarm</string>
     <string name="menu_nav_dnd">Ikke forstyrr modus</string>
@@ -60,6 +61,7 @@
     <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the Hello Haylou to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
 
     <string name="mi_band_setting_auth_key">Authentication key</string>
+    <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
     <string name="mi_band_setting_auth_request">Key request</string>
     <string name="mi_band_setting_auth_pair">Pair</string>
     <string name="mi_band_setting_auth_unpair">Unpair</string>
@@ -163,6 +165,7 @@
     <string name="message_touch_free_patterns">Du kan ikke bruke mer enn %1$,d funksjoner i normal modus</string>
 
     <string name="message_premium_mode_only">Denne egenskapen er bare tilgjengelig i premium modusen</string>
+    <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
     <string name="message_general_error">Itilkobling feilet (tilkobling mistet), prøv igjen</string>
     <string name="message_internet_error">IInternett feil</string>
     <string name="message_gps_enable">Enable the GPS</string>
@@ -301,6 +304,18 @@
     <string name="action_tracker_calorie">Kalorier</string>
 
     <string name="step_goal_default_title">generelle skritt-mål</string>
+
+
+    <!-- Søvn monitorering -->
+    <string name="sleep_tab_day">Daglige kart</string>
+    <string name="sleep_tab_week">Ukentlig kart</string>
+    <string name="sleep_tab_month">Månedlig kart</string>
+
+    <string name="sleep_details">Søvn detaljer</string>
+
+    <string name="sleep_awake">Awake</string>
+    <string name="sleep_light">Light</string>
+    <string name="sleep_deep">Deep</string>
 
 
     <!-- Pulse -->
@@ -463,23 +478,21 @@
     <string name="weather_tab_settings">@string/setting_name</string>
 
     <string name="weather_location_title">Plassering</string>
-    <string name="weather_automatic_update">Automatically update location in the background</string>
-    <string name="weather_automatic_update_title">Use your location</string>
-    <string name="weather_automatic_update_summary">This application collects location data to update the weather for the current location, even when the app is closed or not in use.</string>
 
-    <string name="weather_title">Været fremover</string>
+    <string name="weather_forecast_title">Været fremover</string>
 
     <string name="weather_setting_provider">Weather provider</string>
     <string name="weather_city_title">By</string>
     <string name="weather_unit_title">Enhet</string>
     <string name="weather_unit_metric">Metrisk (Celsius)</string>
     <string name="weather_unit_imperial">Imperinal (Fahrenheit)</string>
+    <string name="weather_automatic_update">Automatically update location in the background</string>
+    <string name="weather_automatic_update_title">Use your location</string>
+    <string name="weather_automatic_update_summary">This application collects location data to update the weather for the current location, even when the app is closed or not in use.</string>
 
     <string name="weather_current_title">Nåværende vær</string>
     <string name="weather_current_location">Current location</string>
     <string name="weather_current_temperature">Nåværende temperatur</string>
-
-    <string name="weather_forecast_title">Vær prognose</string>
 
     <string name="weather_display">Fremover</string>
 
@@ -646,6 +659,8 @@
     <string name="action_chart_sort_time_desc">Tid synkende</string>
     <string name="action_chart_sort_step_asc">Skritt økende</string>
     <string name="action_chart_sort_step_desc">Skritt mindre</string>
+    <string name="action_chart_sort_duration_asc">Duration ascending</string>
+    <string name="action_chart_sort_duration_desc">Duration descending</string>
     <string name="action_chart_sort_pulse_asc">Puls stigende</string>
     <string name="action_chart_sort_pulse_desc">Puls synkende</string>
     <string name="action_chart_monthly_calendar">Calendar</string>

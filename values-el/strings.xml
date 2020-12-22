@@ -5,6 +5,7 @@
     <string name="menu_nav_notification">Ειδοποίηση</string>
     <string name="menu_nav_call">Κλήση</string>
     <string name="menu_nav_step">Δραστηριότητα</string>
+    <string name="menu_nav_sleep">Ύπνος</string>
     <string name="menu_nav_pulse">Παρακολούθηση παλμών</string>
     <string name="menu_nav_alarm">Ειδοποίηση</string>
     <string name="menu_nav_dnd">Λειτουργία μην ενοχλείτε</string>
@@ -60,6 +61,7 @@
     <string name="mi_band_setting_auth_standalone_hint">%1$st app is not required for the Hello Haylou to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
 
     <string name="mi_band_setting_auth_key">Authentication key</string>
+    <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
     <string name="mi_band_setting_auth_request">Key request</string>
     <string name="mi_band_setting_auth_pair">Σύζευξη</string>
     <string name="mi_band_setting_auth_unpair">Unpair</string>
@@ -304,6 +306,18 @@
     <string name="step_goal_default_title">Προεπιλεγμένος στόχος</string>
 
 
+    <!-- Sleep monitoring -->
+    <string name="sleep_tab_day">Ημερήσια διαγράμματα</string>
+    <string name="sleep_tab_week">Εβδομαδιαία διαγράμματα</string>
+    <string name="sleep_tab_month">Μηνιαία διαγράμματα</string>
+
+    <string name="sleep_details">Λεπτομέρειες ύπνου</string>
+
+    <string name="sleep_awake">Awake</string>
+    <string name="sleep_light">Light</string>
+    <string name="sleep_deep">Deep</string>
+
+
     <!-- Pulse -->
     <string name="pulse_tab_day">Ημερήσια διαγράμματα</string>
     <string name="pulse_tab_week">Eβδομαδιαία διαγράμματα</string>
@@ -337,17 +351,21 @@
 
 
     <!-- Touch monitoring -->
-    <string name="touch_headline_incoming_call_title">Incoming call</string>
-    <string name="touch_headline_other_function_title">Other functions</string>
-
-    <string name="touch_headline_call_title">Έλεγχος κλήσης</string>
-    <string name="touch_headline_music_title">Έλεγχος μουσικής</string>
-    <string name="touch_headline_time_title">Έλεγχος αντιστροφής μέτρησης/χρονόμετρου</string>
-    <string name="touch_headline_other_title">Άλλοι έλεγχοι</string>
+    <string name="touch_tab_function">Function</string>
+    <string name="touch_tab_control">Control</string>
+    <string name="touch_tab_testing">Testing</string>
+    <string name="touch_tab_setting">@string/setting_name</string>
 
     <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
     <string name="touch_function">%1$s function</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="touch_function_as_touch">Use function as a touch in the control menu</string>
+
+    <string name="touch_headline_incoming_call_title">Incoming call</string>
+    <string name="touch_headline_other_function_title">Other functions</string>
+    <string name="touch_headline_call_title">Έλεγχος κλήσης</string>
+    <string name="touch_headline_music_title">Έλεγχος μουσικής</string>
+    <string name="touch_headline_time_title">Έλεγχος αντιστροφής μέτρησης/χρονόμετρου</string>
+    <string name="touch_headline_other_title">Άλλοι έλεγχοι</string>
 
     <string name="touch_device_location_title">Εύρεση της συσκευής μου</string>
     <string name="touch_device_location_not_muted_only_title">Ήχος εφόσον δεν είναι σε σίγαση</string>
@@ -460,23 +478,21 @@
     <string name="weather_tab_settings">@string/setting_name</string>
 
     <string name="weather_location_title">Τοποθεσία</string>
-    <string name="weather_automatic_update">Automatically update location in the background</string>
-    <string name="weather_automatic_update_title">Use your location</string>
-    <string name="weather_automatic_update_summary">This application collects location data to update the weather for the current location, even when the app is closed or not in use.</string>
 
-    <string name="weather_title">Δελτίο καιρού</string>
+    <string name="weather_forecast_title">Δελτίο καιρού</string>
 
     <string name="weather_setting_provider">Weather provider</string>
     <string name="weather_city_title">Πόλη</string>
     <string name="weather_unit_title">Μονάδα</string>
     <string name="weather_unit_metric">Μετρικός (Κελσίου)</string>
     <string name="weather_unit_imperial">Imperial (Φαρενάιτ)</string>
+    <string name="weather_automatic_update">Automatically update location in the background</string>
+    <string name="weather_automatic_update_title">Use your location</string>
+    <string name="weather_automatic_update_summary">This application collects location data to update the weather for the current location, even when the app is closed or not in use.</string>
 
     <string name="weather_current_title">Current weather</string>
     <string name="weather_current_location">Current location</string>
     <string name="weather_current_temperature">Current temperature</string>
-
-    <string name="weather_forecast_title">Weather forecast</string>
 
     <string name="weather_display">Display</string>
 
@@ -642,6 +658,8 @@
     <string name="action_chart_sort_time_desc">Ώρα φθίνουσα</string>
     <string name="action_chart_sort_step_asc">Βήμα αύξων</string>
     <string name="action_chart_sort_step_desc">Βήμα φθίνων</string>
+    <string name="action_chart_sort_duration_asc">Duration ascending</string>
+    <string name="action_chart_sort_duration_desc">Duration descending</string>
     <string name="action_chart_sort_pulse_asc">Παλμός αύξων</string>
     <string name="action_chart_sort_pulse_desc">Παλμός φθίνων</string>
     <string name="action_chart_monthly_calendar">Calendar</string>

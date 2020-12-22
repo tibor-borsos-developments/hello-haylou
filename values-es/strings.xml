@@ -5,15 +5,16 @@
     <string name="menu_nav_notification">Notificación</string>
     <string name="menu_nav_call">Llamada</string>
     <string name="menu_nav_step">Actividad</string>
+    <string name="menu_nav_sleep">Sueño</string>
     <string name="menu_nav_pulse">Monitoreo de pulso</string>
     <string name="menu_nav_alarm">Alarme</string>
-    <string name="menu_nav_dnd">Modo no molestar</string>
+    <string name="menu_nav_dnd">Modo No molestar</string>
     <string name="menu_nav_touch">Monitoreo táctil</string>
     <string name="menu_nav_weather">Clima</string>
     <string name="menu_nav_more">Más</string>
     <string name="menu_nav_text_display">Presentación del texto</string>
     <string name="menu_nav_theme">Tema</string>
-    <string name="menu_nav_premium_mode">Modo premium</string>
+    <string name="menu_nav_premium_mode">Modo Premium</string>
     <string name="menu_nav_feedback">Retroalimentación</string>
     <string name="menu_nav_privacy_policy">Política de privacidad</string>
     <string name="menu_nav_settings" type="string">@string/settings_name</string>
@@ -22,10 +23,10 @@
     <string name="settings_name">Configuraciones</string>
     <string name="info_name">Información</string>
 
-    <!--    <string name="mi_band_tracker_title">Steps・distance・calories・goal・pulse</string>-->
-    <string name="mi_band_tracker_title">Pasos ・ Objetivo ・ Pulso</string>
-    <!--    <string name="mi_band_battery">Battery level・last charging time・estimated remaining time</string>-->
-    <string name="device_battery">Nivel de la batería ・ Última vez que se cargó</string>
+<!--    <string name="mi_band_tracker_title">Pasos・Distancia・Calorías・Objetivo・Pulso</string>-->
+    <string name="mi_band_tracker_title">Pasos・Objetivo・Pulso</string>
+<!--    <string name="mi_band_battery">Nivel de Batería・Ultima hora de carga・Tiempo estimado pendiente</string>-->
+    <string name="device_battery">Nivel de la batería・Última vez que se cargó</string>
     <string name="device_state_connected_disconnected_last_time">Última vez que se conectó y desconectó</string>
     <string name="device_alarm">Próxima alarma</string>
 
@@ -44,7 +45,7 @@
 
 
     <!-- Haylou setting -->
-    <string name="mi_band_setting_button_title">Ajustes de %1$s ・ Perfil ・ Texto ・ Llamada ・ Menú</string>
+    <string name="mi_band_setting_button_title">Ajustes de %1$s・Perfil・Texto・Llamada・Menú</string>
     <string name="mi_band_setting_title">Ajustes de %1$s</string>
 
     <string name="mi_band_setting_menu_connection">Conexión</string>
@@ -54,12 +55,13 @@
     <string name="mi_band_setting_menu_call">Llamada</string>
     <string name="mi_band_setting_menu_menu">Menú</string>
 
-    <string name="mi_band_setting_auth_mi_fit">Cooperación de %1$s</string>
+    <string name="mi_band_setting_auth_mi_fit">Cooperación de %1$s</string> <!-- Haylou Fit-->
     <string name="mi_band_setting_auth_mi_fit_hint">Hello Haylou requiere la instalación de la aplicación %1$s en el mismo teléfono. Al principio tienes que emparejar %2$s en la aplicación %1$s, luego puedes usar Hello Haylou. Si quieres usar la aplicación %1$s, escoge esto.</string>
     <string name="mi_band_setting_auth_standalone">Independiente</string>
     <string name="mi_band_setting_auth_standalone_hint">No se requiere una aplicación de %1$s para que funcione el Hello Haylou. Después del emparejamiento, desinstala la aplicación %1$s. Al restaurar la cooperación de %1$s, tendrás que volver a emparejar tus %2$s en la aplicación %1$s. Si usas la función de desemparejar, los datos del reloj inteligente serán eliminados. La pantalla de %2$s debe estar encendida mientras se realizan las operaciones.</string>
 
     <string name="mi_band_setting_auth_key">Clave de autenticación</string>
+    <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
     <string name="mi_band_setting_auth_request">Solicitud de clave</string>
     <string name="mi_band_setting_auth_pair">Emparejar</string>
     <string name="mi_band_setting_auth_unpair">Desemparejar</string>
@@ -170,7 +172,6 @@
     <string name="message_no_data">No hay datos disponibles</string>
 
     <string name="message_new_message">Nuevo mensaje recibido, míralo en teléfono.</string>
-
     <!-- Dialog -->
     <string name="dialog_welcome_title">¡Bienvenido!</string>
     <string name="dialog_welcome_message"><![CDATA[Dispositivos soportados:
@@ -299,6 +300,18 @@
     <string name="step_goal_default_title">Objetivo predeterminado</string>
 
 
+    <!-- Sleep monitoring -->
+    <string name="sleep_tab_day">Gráficos diarios</string>
+    <string name="sleep_tab_week">Gráficos semanales</string>
+    <string name="sleep_tab_month">Gráficos mensuales</string>
+
+    <string name="sleep_details">Detalles del sueño</string>
+
+    <string name="sleep_awake">Awake</string>
+    <string name="sleep_light">Light</string>
+    <string name="sleep_deep">Deep</string>
+
+
     <!-- Pulse -->
     <string name="pulse_tab_day">Gráficos diarios</string>
     <string name="pulse_tab_week">Gráficos semanales</string>
@@ -314,7 +327,7 @@
     <string name="action_time_alarm_sort_watch_asc">Ver ascendente</string>
     <string name="action_time_alarm_sort_name_asc">Nombre ascendente</string>
 
-    <string name="message_time_alarm_sync">Sincronizar las alarmas de %1$s (borrar y configurar las alarmas de tu reloj inteligente)</string>
+    <string name="message_time_alarm_sync">Sincronizar las alarmas de %1$s (borrar y configurar las alarmas de tu reloj inteligente)</string> <!-- %1$s = Haylou Smart Watch ... -->
 
     <string name="info_dialog_alarm"><![CDATA[
         <p>Al usar el modo de colaboración, los ajustes de la aplicación original y de la aplicación Hello Haylou pueden sobreescribir y borrar los ajustes del otro.</p>
@@ -326,8 +339,11 @@
     <string name="pref_dnd_summary">Estado de los controles del modo no molestar</string>
     <string name="pref_dnd_enable_bluetooth">Al inicio del modo no molestar desactiva el Bluetooth, al finalizar reactiva el Bluetooth</string>
 
-    <string name="info_dialog_dnd"><![CDATA[<p>Si está usando el modo de cooperación, en la aplicación oficial <device_type/> el modo no molestar (DnD) debe estar entre las 00:00 y las 23:59 y su estado debe estar apagado.</p>]]></string>
-    <!-- %1$s Haylou fit-->
+    <string name="info_dialog_dnd"><![CDATA[
+        <p>Si está usando el modo de cooperación, en la aplicación oficial <device_type/> el modo no molestar (DnD) debe estar entre las 00:00 y las 23:59 y su estado debe estar apagado.</p>
+    ]]></string> <!-- %1$s Haylou fit-->
+
+
     <!-- Touch monitoring -->
     <string name="touch_tab_function">Función</string>
     <string name="touch_tab_control">Control</string>
@@ -335,7 +351,7 @@
     <string name="touch_tab_setting">@string/setting_name</string>
 
     <string name="touch_function_summary">Configure estas funciones si utiliza el modo independiente o no está gestionado correctamente por Mi Fit</string>
-    <string name="touch_function">%1$s función</string><!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function">%1$s función</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="touch_function_as_touch">Utilizar la función como un toque en el menú de control</string>
 
     <string name="touch_headline_incoming_call_title">Llamada entrante</string>
@@ -456,23 +472,21 @@
     <string name="weather_tab_settings">@string/setting_name</string>
 
     <string name="weather_location_title">Ubicación</string>
-    <string name="weather_automatic_update">Actualizar automáticamente la ubicación en segundo plano</string>
-    <string name="weather_automatic_update_title">Usar tu ubicación</string>
-    <string name="weather_automatic_update_summary">Esta aplicación recopila datos de localización para actualizar el tiempo para la ubicación actual, incluso cuando la aplicación está cerrada o no está en uso.</string>
 
-    <string name="weather_title">Pronóstico del tiempo</string>
+    <string name="weather_forecast_title">Pronóstico del tiempo</string>
 
     <string name="weather_setting_provider">Proveedor de información climática</string>
     <string name="weather_city_title">Ciudad</string>
     <string name="weather_unit_title">Unidad</string>
     <string name="weather_unit_metric">Métrico (Celsius)</string>
     <string name="weather_unit_imperial">Imperial (Fahrenheit)</string>
+    <string name="weather_automatic_update">Actualizar automáticamente la ubicación en segundo plano</string>
+    <string name="weather_automatic_update_title">Usar tu ubicación</string>
+    <string name="weather_automatic_update_summary">Esta aplicación recopila datos de localización para actualizar el tiempo para la ubicación actual, incluso cuando la aplicación está cerrada o no está en uso.</string>
 
     <string name="weather_current_title">Tiempo actual</string>
     <string name="weather_current_location">Ubicación actual</string>
     <string name="weather_current_temperature">Temperatura actual</string>
-
-    <string name="weather_forecast_title">Pronóstico del tiempo</string>
 
     <string name="weather_display">Visualización del tiempo</string>
 
@@ -526,7 +540,7 @@
         <br><p><i>Después de comprar, necesita reiniciar la aplicación.</i></p>
     ]]></string>
 
-    <!--<string name="purchase_price">Price:</string>-->
+    <!--<string name="purchase_price">Precio:</string>-->
     <string name="purchase_agree">Acepto los términos y condiciones.</string>
     <string name="purchase_order_id">ID del pedido</string>
     <string name="purchase_order_id_help">Copiar de:
@@ -637,6 +651,8 @@
     <string name="action_chart_sort_time_desc">Tiempo descendente</string>
     <string name="action_chart_sort_step_asc">Pasos ascendente</string>
     <string name="action_chart_sort_step_desc">Pasos descendente</string>
+    <string name="action_chart_sort_duration_asc">Duration ascending</string>
+    <string name="action_chart_sort_duration_desc">Duration descending</string>
     <string name="action_chart_sort_pulse_asc">Pulso ascendente</string>
     <string name="action_chart_sort_pulse_desc">Pulso descendente</string>
     <string name="action_chart_monthly_calendar">Calendario</string>
@@ -647,6 +663,8 @@
     <string name="activity_progress_title_save">Guardando datos…</string>
 
     <string name="required_value">Requerido</string>
+
+    <!-- Constante -->
     <string name="const_time_abbreviation_day">d</string>
     <string name="const_time_abbreviation_hour">h</string>
     <string name="const_time_abbreviation_minute">m</string>
@@ -660,16 +678,20 @@
     <string name="const_unit_kilogram">kg</string>
     <string name="const_unit_kcal">kcal</string>
     <string name="const_unit_dbm">dBm</string>
+
     <plurals name="plural_time_hour">
         <item quantity="one">%d hora</item>
         <item quantity="other">%d horas</item>
     </plurals>
+
     <plurals name="plural_time_minute">
         <item quantity="one">%d minuto</item>
         <item quantity="other">%d minutos</item>
     </plurals>
+
     <plurals name="plural_time_second">
         <item quantity="one">%d segundo</item>
         <item quantity="other">%d segundos</item>
     </plurals>
+
 </resources>

@@ -5,6 +5,7 @@
     <string name="menu_nav_notification">Notificări</string>
     <string name="menu_nav_call">Apel</string>
     <string name="menu_nav_step">Activități</string>
+    <string name="menu_nav_sleep">Somn</string>
     <string name="menu_nav_pulse">Puls</string>
     <string name="menu_nav_dnd">Modul Nu deranja</string>
     <string name="menu_nav_alarm">Alarmă</string>
@@ -60,6 +61,7 @@
     <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the Hello Haylou to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted.  The %2$s screen must be turned on while performing operations.</string>
 
     <string name="mi_band_setting_auth_key">Authentication key</string>
+    <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
     <string name="mi_band_setting_auth_request">Key request</string>
     <string name="mi_band_setting_auth_pair">Asociază</string>
     <string name="mi_band_setting_auth_unpair">Unpair</string>
@@ -163,6 +165,7 @@
     <string name="message_touch_free_patterns">Nu poți folosi mai mult de %1$,d funcții în modul normal</string>
 
     <string name="message_premium_mode_only">Această funcție este disponibilă numai în modul premium</string>
+    <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
     <string name="message_general_error">Setarea a eșuat (conexiunea s-a pierdut), încearcă din nou</string>
     <string name="message_internet_error">Lipsă conexiune la internet</string>
     <string name="message_gps_enable">Activează GPS</string>
@@ -300,6 +303,18 @@
     <string name="action_tracker_calorie">Calorii</string>
 
     <string name="step_goal_default_title">Obiectiv implicit</string>
+
+
+    <!-- Sleep monitoring -->
+    <string name="sleep_tab_day">Grafice zilnice</string>
+    <string name="sleep_tab_week">Grafice săptămânale</string>
+    <string name="sleep_tab_month">Grafice lunare</string>
+
+    <string name="sleep_details">Detalii somn</string>
+
+    <string name="sleep_awake">Awake</string>
+    <string name="sleep_light">Light</string>
+    <string name="sleep_deep">Deep</string>
 
 
     <!-- Pulse -->
@@ -462,23 +477,21 @@
     <string name="weather_tab_settings">@string/setting_name</string>
 
     <string name="weather_location_title">Localitate</string>
-    <string name="weather_automatic_update">Automatically update location in the background</string>
-    <string name="weather_automatic_update_title">Use your location</string>
-    <string name="weather_automatic_update_summary">This application collects location data to update the weather for the current location, even when the app is closed or not in use.</string>
 
-    <string name="weather_title">Prognoza meteo</string>
+    <string name="weather_forecast_title">Prognoza meteo</string>
 
     <string name="weather_setting_provider">Weather provider</string>
     <string name="weather_city_title">Oraș</string>
     <string name="weather_unit_title">Unități de măsură</string>
     <string name="weather_unit_metric">Metric (Celsius)</string>
     <string name="weather_unit_imperial">Imperial (Fahrenheit)</string>
+    <string name="weather_automatic_update">Automatically update location in the background</string>
+    <string name="weather_automatic_update_title">Use your location</string>
+    <string name="weather_automatic_update_summary">This application collects location data to update the weather for the current location, even when the app is closed or not in use.</string>
 
     <string name="weather_current_title">Starea vremii</string>
     <string name="weather_current_location">Current location</string>
     <string name="weather_current_temperature">Temperatura actuală</string>
-
-    <string name="weather_forecast_title">Prognoza meteo</string>
 
     <string name="weather_display">Afișează</string>
 
@@ -644,6 +657,8 @@
     <string name="action_chart_sort_time_desc">Timp descendent</string>
     <string name="action_chart_sort_step_asc">Pași ascendent</string>
     <string name="action_chart_sort_step_desc">Pași descendent</string>
+    <string name="action_chart_sort_duration_asc">Duration ascending</string>
+    <string name="action_chart_sort_duration_desc">Duration descending</string>
     <string name="action_chart_sort_pulse_asc">Puls ascendent</string>
     <string name="action_chart_sort_pulse_desc">Puls descendent</string>
     <string name="action_chart_monthly_calendar">Calendar</string>

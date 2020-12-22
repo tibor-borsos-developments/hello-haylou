@@ -5,6 +5,7 @@
     <string name="menu_nav_notification">Notificações</string>
     <string name="menu_nav_call">Chamadas</string>
     <string name="menu_nav_step">Atividade</string>
+    <string name="menu_nav_sleep">Sono</string>
     <string name="menu_nav_pulse">Pulsação</string>
     <string name="menu_nav_alarm">Despertador</string>
     <string name="menu_nav_dnd">Modo não perturbe</string>
@@ -60,6 +61,7 @@
     <string name="mi_band_setting_auth_standalone_hint">A aplicação %1$s não é necessária para a Hello Haylou funcionar. Depois de emparelhar, desinstale a aplicação %1$s. Quando restaurar a cooperação da %1$s, você vai precisar de emparelhar novamente a sua %2$s na aplicação %1$s. Se você usar a função desemparelhar, os dados do smartwatch serão excluídos. A tela %2$s deve estar ligada durante execução das operações.</string>
 
     <string name="mi_band_setting_auth_key">Chave de autenticação</string>
+    <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
     <string name="mi_band_setting_auth_request">Pedido de chave</string>
     <string name="mi_band_setting_auth_pair">Emparelhar</string>
     <string name="mi_band_setting_auth_unpair">Desemparelhar</string>
@@ -304,6 +306,18 @@
     <string name="step_goal_default_title">Objetivo padrão</string>
 
 
+    <!-- Sleep monitoring -->
+    <string name="sleep_tab_day">Gráficos diários</string>
+    <string name="sleep_tab_week">Gráficos semanais</string>
+    <string name="sleep_tab_month">Gráficos mensais</string>
+
+    <string name="sleep_details">Detalhes acerca do sono</string>
+
+    <string name="sleep_awake">Awake</string>
+    <string name="sleep_light">Light</string>
+    <string name="sleep_deep">Deep</string>
+
+
     <!-- Pulse -->
     <string name="pulse_tab_day">Gráficos diários</string>
     <string name="pulse_tab_week">Gráficos semanais</string>
@@ -464,23 +478,21 @@
     <string name="weather_tab_settings">@string/setting_name</string>
 
     <string name="weather_location_title">Localização</string>
-    <string name="weather_automatic_update">Atualizar automaticamente</string>
-    <string name="weather_automatic_update_title">Use your location</string>
-    <string name="weather_automatic_update_summary">This application collects location data to update the weather for the current location, even when the app is closed or not in use.</string>
 
-    <string name="weather_title">Previsão do tempo</string>
+    <string name="weather_forecast_title">Previsão do tempo</string>
 
     <string name="weather_setting_provider">Weather provider</string>
     <string name="weather_city_title">Cidade</string>
     <string name="weather_unit_title">Unidade</string>
     <string name="weather_unit_metric">Métrico (Celsius)</string>
     <string name="weather_unit_imperial">Imperial (Fahrenheit)</string>
+    <string name="weather_automatic_update">Atualizar automaticamente</string>
+    <string name="weather_automatic_update_title">Use your location</string>
+    <string name="weather_automatic_update_summary">This application collects location data to update the weather for the current location, even when the app is closed or not in use.</string>
 
     <string name="weather_current_title">Clima atual</string>
     <string name="weather_current_location">Localização atual</string>
     <string name="weather_current_temperature">Temperatura atual</string>
-
-    <string name="weather_forecast_title">Previsão do tempo</string>
 
     <string name="weather_display">Ecrã</string>
 
@@ -610,6 +622,7 @@
     <string name="maximum">Máximo</string>
     <string name="all_day">Todo o dia</string>
     <string name="timed">Cronometrado</string>
+    <string name="file_name">File name</string>
     <string name="default_">Predefinido</string>
     <string name="invalid_setting">Configuração inválida</string>
     <string name="ringtone">Tom de toque</string>
@@ -644,6 +657,8 @@
     <string name="action_chart_sort_time_desc">Descender por horas</string>
     <string name="action_chart_sort_step_asc">Ascender por passos</string>
     <string name="action_chart_sort_step_desc">Descender por passos</string>
+    <string name="action_chart_sort_duration_asc">Duration ascending</string>
+    <string name="action_chart_sort_duration_desc">Duration descending</string>
     <string name="action_chart_sort_pulse_asc">Ascender por pulsação</string>
     <string name="action_chart_sort_pulse_desc">Descender por pulsação</string>
     <string name="action_chart_monthly_calendar">Calendário</string>

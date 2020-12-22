@@ -5,6 +5,7 @@
     <string name="menu_nav_notification">Сповіщення</string>
     <string name="menu_nav_call">Виклики</string>
     <string name="menu_nav_step">Активність</string>
+    <string name="menu_nav_sleep">Сон</string>
     <string name="menu_nav_pulse">Пульс</string>
     <string name="menu_nav_alarm">Будильник</string>
     <string name="menu_nav_dnd">Режим \"Не турбувати\"</string>
@@ -59,6 +60,7 @@
     <string name="mi_band_setting_auth_standalone_hint">Для роботи Hello Haylou, не потрібний додаток %1$s. Після зв\'язування, видаліть додаток %1$s. Для відновлення взаємодії з %1$s, буде потрібно знову зв\'язати %2$s з додатком %1$s. If you use the unpair function, the data on the smartwatch will be deleted.  The %2$s screen must be turned on while performing operations.</string>
 
     <string name="mi_band_setting_auth_key">Ключ автентифікації</string>
+    <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
     <string name="mi_band_setting_auth_request">Key request</string>
     <string name="mi_band_setting_auth_pair">Парування</string>
     <string name="mi_band_setting_auth_unpair">Unpair</string>
@@ -303,6 +305,18 @@
     <string name="step_goal_default_title">Мета за замовчанням</string>
 
 
+    <!-- Sleep monitoring -->
+    <string name="sleep_tab_day">Денні графіки</string>
+    <string name="sleep_tab_week">Тижневі графіки</string>
+    <string name="sleep_tab_month">Місячні графіки</string>
+
+    <string name="sleep_details">Подробиці сну</string>
+
+    <string name="sleep_awake">Awake</string>
+    <string name="sleep_light">Light</string>
+    <string name="sleep_deep">Deep</string>
+
+
     <!-- Pulse -->
     <string name="pulse_tab_day">Денні графіки</string>
     <string name="pulse_tab_week">Тижневі графіки</string>
@@ -463,23 +477,20 @@
     <string name="weather_tab_settings">@string/setting_name</string>
 
     <string name="weather_location_title">Розташування</string>
-    <string name="weather_automatic_update">Оновлювати атоматично</string>
-    <string name="weather_automatic_update_title">Use your location</string>
-    <string name="weather_automatic_update_summary">This application collects location data to update the weather for the current location, even when the app is closed or not in use.</string>
-
-    <string name="weather_title">Прогноз погоди</string>
+    <string name="weather_forecast_title">Прогноз погоди</string>
 
     <string name="weather_setting_provider">Weather provider</string>
     <string name="weather_city_title">Місто</string>
     <string name="weather_unit_title">Одиниці</string>
     <string name="weather_unit_metric">Метрична (за Цельсієм)</string>
     <string name="weather_unit_imperial">Імперська (за Фаренгейтом)</string>
+    <string name="weather_automatic_update">Оновлювати атоматично</string>
+    <string name="weather_automatic_update_title">Use your location</string>
+    <string name="weather_automatic_update_summary">This application collects location data to update the weather for the current location, even when the app is closed or not in use.</string>
 
     <string name="weather_current_title">Поточна погода</string>
     <string name="weather_current_location">Поточне розташування</string>
     <string name="weather_current_temperature">Поточна температура</string>
-
-    <string name="weather_forecast_title">Прогноз погоди</string>
 
     <string name="weather_display">Відображення</string>
 
@@ -643,6 +654,8 @@
     <string name="action_chart_sort_time_desc">Час, зменш.</string>
     <string name="action_chart_sort_step_asc">Кроки зрост.</string>
     <string name="action_chart_sort_step_desc">Кроки зменш.</string>
+    <string name="action_chart_sort_duration_asc">Duration ascending</string>
+    <string name="action_chart_sort_duration_desc">Duration descending</string>
     <string name="action_chart_sort_pulse_asc">Пульс зрост.</string>
     <string name="action_chart_sort_pulse_desc">Пульс зменш.</string>
     <string name="action_chart_monthly_calendar">Календар</string>

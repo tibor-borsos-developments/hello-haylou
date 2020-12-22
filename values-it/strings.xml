@@ -5,6 +5,7 @@
     <string name="menu_nav_notification">Notifiche</string>
     <string name="menu_nav_call">Chiamata</string>
     <string name="menu_nav_step">Attività</string>
+    <string name="menu_nav_sleep">Sonno</string>
     <string name="menu_nav_pulse">Battiti</string>
     <string name="menu_nav_alarm">Sveglia</string>
     <string name="menu_nav_dnd">Modalità non disturbare</string>
@@ -60,6 +61,7 @@
     <string name="mi_band_setting_auth_standalone_hint">L\'app %1$s non è richiesta per far funzionare Hello Haylou. Dopo l\'accoppiamento, disinstallare l\'app %1$s. Nel caso si desideri ripristinare la cooperazione con %1$s, sarà necessario riaccoppiare %2$s nell\'app %1$s. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
 
     <string name="mi_band_setting_auth_key">Chiave di autenticazione</string>
+    <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
     <string name="mi_band_setting_auth_request">Key request</string>
     <string name="mi_band_setting_auth_pair">Associa</string>
     <string name="mi_band_setting_auth_unpair">Unpair</string>
@@ -304,6 +306,18 @@
     <string name="step_goal_default_title">Obiettivo predefinito</string>
 
 
+    <!-- Sleep monitoring -->
+    <string name="sleep_tab_day">Grafico giornaliero</string>
+    <string name="sleep_tab_week">Grafico settimanale</string>
+    <string name="sleep_tab_month">Grafico mensile</string>
+
+    <string name="sleep_details">Dettagli sonno</string>
+
+    <string name="sleep_awake">Awake</string>
+    <string name="sleep_light">Light</string>
+    <string name="sleep_deep">Deep</string>
+
+
     <!-- Pulse -->
     <string name="pulse_tab_day">Grafico giornaliero</string>
     <string name="pulse_tab_week">Grafico settimanale</string>
@@ -464,23 +478,21 @@
     <string name="weather_tab_settings">@string/setting_name</string>
 
     <string name="weather_location_title">Posizione</string>
-    <string name="weather_automatic_update">Aggiornamento automatico</string>
-    <string name="weather_automatic_update_title">Use your location</string>
-    <string name="weather_automatic_update_summary">This application collects location data to update the weather for the current location, even when the app is closed or not in use.</string>
 
-    <string name="weather_title">Previsioni del tempo</string>
+    <string name="weather_forecast_title">Previsioni del tempo</string>
 
     <string name="weather_setting_provider">Weather provider</string>
     <string name="weather_city_title">Città</string>
     <string name="weather_unit_title">Unità di misura</string>
     <string name="weather_unit_metric">Metrico (Celsius)</string>
     <string name="weather_unit_imperial">Imperiale (Fahrenheit)</string>
+    <string name="weather_automatic_update">Aggiornamento automatico</string>
+    <string name="weather_automatic_update_title">Use your location</string>
+    <string name="weather_automatic_update_summary">This application collects location data to update the weather for the current location, even when the app is closed or not in use.</string>
 
     <string name="weather_current_title">Meteo corrente</string>
     <string name="weather_current_location">Località corrente</string>
     <string name="weather_current_temperature">Temperatura corrente</string>
-
-    <string name="weather_forecast_title">Previsioni del tempo</string>
 
     <string name="weather_display">Mostra</string>
 
@@ -646,6 +658,8 @@
     <string name="action_chart_sort_time_desc">Tempo decrescente</string>
     <string name="action_chart_sort_step_asc">Passi crescenti</string>
     <string name="action_chart_sort_step_desc">Passi decrescenti</string>
+    <string name="action_chart_sort_duration_asc">Duration ascending</string>
+    <string name="action_chart_sort_duration_desc">Duration descending</string>
     <string name="action_chart_sort_pulse_asc">Battiti crescenti</string>
     <string name="action_chart_sort_pulse_desc">Battiti decrescenti</string>
     <string name="action_chart_monthly_calendar">Calendario</string>

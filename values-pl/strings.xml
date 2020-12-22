@@ -5,6 +5,7 @@
     <string name="menu_nav_notification">Powiadomienia</string>
     <string name="menu_nav_call">Dzwonienie</string>
     <string name="menu_nav_step">Aktywność</string>
+    <string name="menu_nav_sleep">Sen</string>
     <string name="menu_nav_pulse">Tętno</string>
     <string name="menu_nav_alarm">Alarm</string>
     <string name="menu_nav_dnd">Tryb Nie przeszkadzać</string>
@@ -60,6 +61,7 @@
     <string name="mi_band_setting_auth_standalone_hint">Aplikacja %1$s nie jest wymagana do działania Hello Haylou. Po sparowaniu odinstaluj aplikację %1$s. Podczas przywracania współpracy %1$s konieczne będzie ponowne sparowanie %2$s w aplikacji %1$s. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
 
     <string name="mi_band_setting_auth_key">Klucz uwierzytelniania</string>
+    <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
     <string name="mi_band_setting_auth_request">Key request</string>
     <string name="mi_band_setting_auth_pair">Sparuj</string>
     <string name="mi_band_setting_auth_unpair">Unpair</string>
@@ -163,6 +165,7 @@
     <string name="message_touch_free_patterns">Nie możesz użyć więcej niż %1$,d funkcji w trybie normalnym</string>
 
     <string name="message_premium_mode_only">Ta funkcja jest dostępna tylko w trybie premium</string>
+    <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
     <string name="message_general_error">Ustawienie nie powiodło się (utracono połączenie), spróbuj ponownie</string>
     <string name="message_internet_error">Nie ma połączenia z Internetem</string>
     <string name="message_gps_enable">Włącz GPS</string>
@@ -301,6 +304,18 @@
     <string name="action_tracker_calorie">Kalorie</string>
 
     <string name="step_goal_default_title">Domyślny cel</string>
+
+
+    <!-- Sleep monitoring -->
+    <string name="sleep_tab_day">Dzienne wykresy</string>
+    <string name="sleep_tab_week">Tygodniowe wykresy</string>
+    <string name="sleep_tab_month">Miesięczne wykresy</string>
+
+    <string name="sleep_details">Szczegóły snu</string>
+
+    <string name="sleep_awake">Awake</string>
+    <string name="sleep_light">Light</string>
+    <string name="sleep_deep">Deep</string>
 
 
     <!-- Pulse -->
@@ -463,23 +478,21 @@
     <string name="weather_tab_settings">@string/setting_name</string>
 
     <string name="weather_location_title">Lokalizacja</string>
-    <string name="weather_automatic_update">Automatyczna aktualizacja</string>
-    <string name="weather_automatic_update_title">Use your location</string>
-    <string name="weather_automatic_update_summary">This application collects location data to update the weather for the current location, even when the app is closed or not in use.</string>
 
-    <string name="weather_title">Prognoza pogody</string>
+    <string name="weather_forecast_title">Prognoza pogody</string>
 
     <string name="weather_setting_provider">Weather provider</string>
     <string name="weather_city_title">Miasto</string>
     <string name="weather_unit_title">Jednostka</string>
     <string name="weather_unit_metric">Metryczne (Celsjusza)</string>
     <string name="weather_unit_imperial">Imperialne (Fahrenheit)</string>
+    <string name="weather_automatic_update">Automatyczna aktualizacja</string>
+    <string name="weather_automatic_update_title">Use your location</string>
+    <string name="weather_automatic_update_summary">This application collects location data to update the weather for the current location, even when the app is closed or not in use.</string>
 
     <string name="weather_current_title">Aktualna pogoda</string>
     <string name="weather_current_location">Aktualna lokalizacja</string>
     <string name="weather_current_temperature">Aktualna temperatura</string>
-
-    <string name="weather_forecast_title">Prognoza pogody</string>
 
     <string name="weather_display">Wyświetlaj</string>
 
@@ -645,6 +658,8 @@
     <string name="action_chart_sort_time_desc">Czas malejąco</string>
     <string name="action_chart_sort_step_asc">Kroki rosnąco</string>
     <string name="action_chart_sort_step_desc">Kroki malejąco</string>
+    <string name="action_chart_sort_duration_asc">Duration ascending</string>
+    <string name="action_chart_sort_duration_desc">Duration descending</string>
     <string name="action_chart_sort_pulse_asc">Tętno rosnąco</string>
     <string name="action_chart_sort_pulse_desc">Tętno malejąco</string>
     <string name="action_chart_monthly_calendar">Kalendarz</string>

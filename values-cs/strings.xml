@@ -5,6 +5,7 @@
     <string name="menu_nav_notification">Oznámení</string>
     <string name="menu_nav_call">Hovor</string>
     <string name="menu_nav_step">Aktivita</string>
+    <string name="menu_nav_sleep">Spánek</string>
     <string name="menu_nav_pulse">Tep</string>
     <string name="menu_nav_alarm">Budík</string>
     <string name="menu_nav_dnd">Režim nerušit (DnD)</string>
@@ -59,6 +60,7 @@
     <string name="mi_band_setting_auth_standalone_hint">Aplikace %1$s není nutná pro práci Hello Haylou. Po párování odinstalujte aplikaci %1$s nebo odpojte zařízení. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
 
     <string name="mi_band_setting_auth_key">Authentication key</string>
+    <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
     <string name="mi_band_setting_auth_request">Key request</string>
     <string name="mi_band_setting_auth_pair">Spárovat</string>
     <string name="mi_band_setting_auth_unpair">Unpair</string>
@@ -302,6 +304,18 @@
     <string name="step_goal_default_title">Výchozí cíl</string>
 
 
+    <!-- Sleep monitoring -->
+    <string name="sleep_tab_day">Denní grafy</string>
+    <string name="sleep_tab_week">Týdenní grafy</string>
+    <string name="sleep_tab_month">Měsíční grafy</string>
+
+    <string name="sleep_details">Podrobnosti o spánku</string>
+
+    <string name="sleep_awake">Awake</string>
+    <string name="sleep_light">Light</string>
+    <string name="sleep_deep">Deep</string>
+
+
     <!-- Pulse -->
     <string name="pulse_tab_day">Denní grafy</string>
     <string name="pulse_tab_week">Týdenní grafy</string>
@@ -462,23 +476,21 @@
     <string name="weather_tab_settings">@string/setting_name</string>
 
     <string name="weather_location_title">Umístění</string>
-    <string name="weather_automatic_update">Automatically update location in the background</string>
-    <string name="weather_automatic_update_title">Use your location</string>
-    <string name="weather_automatic_update_summary">This application collects location data to update the weather for the current location, even when the app is closed or not in use.</string>
 
-    <string name="weather_title">Předpověď počasí</string>
+    <string name="weather_forecast_title">Předpověď počasí</string>
 
     <string name="weather_setting_provider">Weather provider</string>
     <string name="weather_city_title">Město</string>
     <string name="weather_unit_title">Jednotka</string>
     <string name="weather_unit_metric">Metrický (Celsia)</string>
     <string name="weather_unit_imperial">Imperial (Fahrenheita)</string>
+    <string name="weather_automatic_update">Automatically update location in the background</string>
+    <string name="weather_automatic_update_title">Use your location</string>
+    <string name="weather_automatic_update_summary">This application collects location data to update the weather for the current location, even when the app is closed or not in use.</string>
 
     <string name="weather_current_title">Současné počasí</string>
     <string name="weather_current_location">Current location</string>
     <string name="weather_current_temperature">Současná teplota</string>
-
-    <string name="weather_forecast_title">Předpověď počasí</string>
 
     <string name="weather_display">Display</string>
 
@@ -643,6 +655,8 @@
     <string name="action_chart_sort_time_desc">Čas klesající</string>
     <string name="action_chart_sort_step_asc">Krok stoupající</string>
     <string name="action_chart_sort_step_desc">Krok klesající</string>
+    <string name="action_chart_sort_duration_asc">Duration ascending</string>
+    <string name="action_chart_sort_duration_desc">Duration descending</string>
     <string name="action_chart_sort_pulse_asc">Tlak stoupající</string>
     <string name="action_chart_sort_pulse_desc">Tlak klesající</string>
     <string name="action_chart_monthly_calendar">Calendar</string>

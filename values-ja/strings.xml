@@ -5,6 +5,7 @@
     <string name="menu_nav_notification">通知</string>
     <string name="menu_nav_call">通話</string>
     <string name="menu_nav_step">アクティビティ</string>
+    <string name="menu_nav_sleep">睡眠</string>
     <string name="menu_nav_pulse">心拍数</string>
     <string name="menu_nav_alarm">アラーム</string>
     <string name="menu_nav_dnd">DND（おやすみモード）</string>
@@ -60,6 +61,7 @@
     <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the Hello Haylou to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application.If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
 
     <string name="mi_band_setting_auth_key">認証キー</string>
+    <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
     <string name="mi_band_setting_auth_request">Key request</string>
     <string name="mi_band_setting_auth_pair">ペアリング</string>
     <string name="mi_band_setting_auth_unpair">Unpair</string>
@@ -153,6 +155,7 @@
 
     <string name="message_notification_free_text">Up to 1 text can be recorded in normal mode</string>
 
+    <string name="message_time_alarm_free_counter">Up to 1 alarm can be used in normal mode</string>
     <string name="message_time_alarm_max_counter">アラームは最大%1$dつまで使用可能です</string>
     <string name="message_time_alarm_enabled">アラームが有効になりました</string>
     <string name="message_time_alarm_disabled">アラームが無効になりました</string>
@@ -301,6 +304,18 @@
     <string name="action_tracker_calorie">カロリー</string>
 
     <string name="step_goal_default_title">目標</string>
+
+
+    <!-- Sleep monitoring -->
+    <string name="sleep_tab_day">日別</string>
+    <string name="sleep_tab_week">週別</string>
+    <string name="sleep_tab_month">月別</string>
+
+    <string name="sleep_details">睡眠の詳細</string>
+
+    <string name="sleep_awake">Awake</string>
+    <string name="sleep_light">Light</string>
+    <string name="sleep_deep">Deep</string>
 
 
     <!-- Pulse -->
@@ -464,23 +479,21 @@
     <string name="weather_tab_settings">@string/setting_name</string>
 
     <string name="weather_location_title">場所</string>
-    <string name="weather_automatic_update">自動更新</string>
-    <string name="weather_automatic_update_title">Use your location</string>
-    <string name="weather_automatic_update_summary">This application collects location data to update the weather for the current location, even when the app is closed or not in use.</string>
 
-    <string name="weather_title">天気</string>
+    <string name="weather_forecast_title">天気</string>
 
     <string name="weather_setting_provider">Weather provider</string>
     <string name="weather_city_title">都市</string>
     <string name="weather_unit_title">単位</string>
     <string name="weather_unit_metric">摂氏（℃）</string>
     <string name="weather_unit_imperial">華氏（℉）</string>
+    <string name="weather_automatic_update">自動更新</string>
+    <string name="weather_automatic_update_title">Use your location</string>
+    <string name="weather_automatic_update_summary">This application collects location data to update the weather for the current location, even when the app is closed or not in use.</string>
 
     <string name="weather_current_title">現在の天気</string>
     <string name="weather_current_location">現在地</string>
     <string name="weather_current_temperature">現在の気温</string>
-
-    <string name="weather_forecast_title">天気</string>
 
     <string name="weather_display">表示</string>
 
@@ -646,6 +659,8 @@
     <string name="action_chart_sort_time_desc">時間/降順</string>
     <string name="action_chart_sort_step_asc">歩数/昇順</string>
     <string name="action_chart_sort_step_desc">歩数/降順</string>
+    <string name="action_chart_sort_duration_asc">Duration ascending</string>
+    <string name="action_chart_sort_duration_desc">Duration descending</string>
     <string name="action_chart_sort_pulse_asc">心拍数/昇順</string>
     <string name="action_chart_sort_pulse_desc">心拍数/降順</string>
     <string name="action_chart_monthly_calendar">カレンダー</string>
