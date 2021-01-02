@@ -13,10 +13,11 @@
     <string name="menu_nav_weather">Clima</string>
     <string name="menu_nav_more">Más</string>
     <string name="menu_nav_text_display">Presentación del texto</string>
-    <string name="menu_nav_theme">Tema</string>
+    <string name="menu_nav_export">Exportar</string>
     <string name="menu_nav_premium_mode">Modo Premium</string>
     <string name="menu_nav_feedback">Retroalimentación</string>
     <string name="menu_nav_privacy_policy">Política de privacidad</string>
+    <string name="menu_nav_theme">Tema</string>
     <string name="menu_nav_settings" type="string">@string/settings_name</string>
 
     <string name="setting_name">Ajustes</string>
@@ -77,6 +78,7 @@
     <string name="mi_band_setting_dial">Llamar</string>
     <string name="mi_band_setting_language">Idioma</string>
     <string name="mi_band_setting_time_24h">Formato de 24 horas</string>
+    <string name="mi_band_setting_distance_unit">Establecer unidades de distancia</string>
     <string name="mi_band_setting_screen_on_duration">Duración de la pantalla encendida</string>
     <string name="mi_band_setting_lift_wrist">Levantar la muñeca para ver la información</string>
     <string name="mi_band_setting_idle_alert">Recordatorio sedentario</string>
@@ -160,6 +162,7 @@
 
     <string name="message_touch_pattern_error">El patrón especificado es similar a un modelo de otra función, graba otro</string>
     <string name="message_touch_free_patterns">No puedes utilizar más de %1$,d controles en modo normal</string>
+    <string name="message_touch_record_help">Use the %1$s music control/find my phone features</string> <!-- %1$s = smartwatch -->
 
     <string name="message_premium_mode_only">Esta característica sólo está disponible en el modo premium</string>
     <string name="message_feature_is_not_supported">%1$s no soporta esta característica</string>
@@ -290,6 +293,7 @@
 
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
     <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
+    <string name="mi_band_tracker_distance_kilometer_title">%,.2f km</string> <!-- kilometre -->
     <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
 
@@ -517,6 +521,13 @@
     <string name="pref_text_char_replacement_find">Buscar</string>
     <string name="pref_text_char_replacement_replace">Sustituir por</string>
 
+
+    <!-- Export -->
+    <string name="export_tab_database">Data export</string>
+
+    <string name="export_start_date">Starting date</string>
+
+
     <!-- Theme -->
     <string name="theme_tab_theme">Tema</string>
 
@@ -672,6 +683,8 @@
     <string name="const_time_abbreviation_milli_sec">ms</string>
 
     <string name="const_number">%1$,d</string>
+    <string name="const_number_float">%,.2f</string>
+    <string name="const_unit_kilometer">km</string>
     <string name="const_unit_meter">m</string>
     <string name="const_unit_centimeter">cm</string>
     <string name="const_unit_mile">mi</string>

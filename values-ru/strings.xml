@@ -13,10 +13,11 @@
     <string name="menu_nav_weather">Погода</string>
     <string name="menu_nav_more">Ещё</string>
     <string name="menu_nav_text_display">Настройки текста</string>
-    <string name="menu_nav_theme">Настройки темы</string>
+    <string name="menu_nav_export">Экспорт</string>
     <string name="menu_nav_premium_mode">Премиум</string>
     <string name="menu_nav_feedback">Обратная связь</string>
     <string name="menu_nav_privacy_policy">Политика конфиденциальности</string>
+    <string name="menu_nav_theme">Настройки темы</string>
     <string name="menu_nav_settings" type="string">@string/settings_name</string>
 
     <string name="setting_name">Настройки</string>
@@ -77,6 +78,7 @@
     <string name="mi_band_setting_dial">Циферблат</string>
     <string name="mi_band_setting_language">Язык</string>
     <string name="mi_band_setting_time_24h">24-часовой формат</string>
+    <string name="mi_band_setting_distance_unit">Мера измерения расстояния</string>
     <string name="mi_band_setting_lift_wrist">Поворот запястья</string>
     <string name="mi_band_setting_screen_on_duration">Продолжительность включения экрана</string>
     <string name="mi_band_setting_idle_alert">Оповещение о бездействии</string>
@@ -162,6 +164,7 @@
 
     <string name="message_touch_pattern_error">Указанная последовательнось похожа на заданную для другой функции, попробуйте другую</string>
     <string name="message_touch_free_patterns">В бесплатном режиме можно использовать не более %1$,d функций</string>
+    <string name="message_touch_record_help">Use the %1$s music control/find my phone features</string> <!-- %1$s = smartwatch -->
 
     <string name="message_premium_mode_only">Эта функция доступна только в премиум режиме</string>
     <string name="message_feature_is_not_supported">%1$s не поддерживает эту функцию</string>
@@ -345,7 +348,7 @@
     <string name="pref_dnd_enable_bluetooth">При включении режима \"Не беспокоить\" выключать Bluetooth.</string>
 
     <string name="info_dialog_dnd"><![CDATA[
-        <p>При использовании режима совместной работы, в настройках официального приложения Haylou, режим \"Не беспокоить\" должен быть настроен с 00:00 до 23:59 и должен быть выключен.</p>
+        <p>При использовании режима совместной работы, в настройках официального приложения <device_type/>, режим \"Не беспокоить\" должен быть настроен с 00:00 до 23:59 и должен быть выключен.</p>
     ]]></string> <!-- %1$s Haylou fit-->
 
 
@@ -523,6 +526,12 @@
     <string name="pref_text_char_replacement_replace">Заменить</string>
 
 
+    <!-- Export -->
+    <string name="export_tab_database">Data export</string>
+
+    <string name="export_start_date">Starting date</string>
+
+
     <!-- Theme -->
     <string name="theme_tab_theme">Тема</string>
 
@@ -678,6 +687,7 @@
     <string name="const_time_abbreviation_milli_sec">мс</string>
 
     <string name="const_number">%1$,d</string>
+    <string name="const_number_float">%,.2f</string>
     <string name="const_unit_meter">м</string>
     <string name="const_unit_centimeter">см</string>
     <string name="const_unit_mile">mi</string>

@@ -13,10 +13,11 @@
     <string name="menu_nav_weather">Vremea</string>
     <string name="menu_nav_more">Mai Mult</string>
     <string name="menu_nav_text_display">Afișare text</string>
-    <string name="menu_nav_theme">Temă</string>
+    <string name="menu_nav_export">Exportă</string>
     <string name="menu_nav_premium_mode">Mod premium</string>
     <string name="menu_nav_feedback">Feedback</string>
     <string name="menu_nav_privacy_policy">Politica de confidentialitate</string>
+    <string name="menu_nav_theme">Temă</string>
     <string name="menu_nav_settings" type="string">@string/settings_name</string>
 
     <string name="setting_name">Setare</string>
@@ -78,6 +79,7 @@
     <string name="mi_band_setting_dial">Față de ceas</string>
     <string name="mi_band_setting_language">Limbă</string>
     <string name="mi_band_setting_time_24h">Formatul de 24 de ore</string>
+    <string name="mi_band_setting_distance_unit">Setați unitățile pentru distanță</string>
     <string name="mi_band_setting_lift_wrist">Ridică încheietura mâinii pentru a vedea informații</string>
     <string name="mi_band_setting_screen_on_duration">Screen on duration</string>
     <string name="mi_band_setting_idle_alert">Alerte de inactivitate</string>
@@ -163,6 +165,7 @@
 
     <string name="message_touch_pattern_error">Modelul specificat este similar cu o bucată a altei funcții, înregistrează altul</string>
     <string name="message_touch_free_patterns">Nu poți folosi mai mult de %1$,d funcții în modul normal</string>
+    <string name="message_touch_record_help">Use the %1$s music control/find my phone features</string> <!-- %1$s = smartwatch -->
 
     <string name="message_premium_mode_only">Această funcție este disponibilă numai în modul premium</string>
     <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
@@ -295,6 +298,7 @@
 
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
     <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
+    <string name="mi_band_tracker_distance_kilometer_title">%,.2f km</string> <!-- kilometre -->
     <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
 
@@ -523,6 +527,12 @@
     <string name="pref_text_char_replacement_replace">Înlocuiește cu</string>
 
 
+    <!-- Export -->
+    <string name="export_tab_database">Data export</string>
+
+    <string name="export_start_date">Starting date</string>
+
+
     <!-- Theme -->
     <string name="theme_tab_theme">Teme</string>
 
@@ -678,6 +688,8 @@
     <string name="const_time_abbreviation_milli_sec">ms</string>
 
     <string name="const_number">%1$,d</string>
+    <string name="const_number_float">%,.2f</string>
+    <string name="const_unit_kilometer">km</string>
     <string name="const_unit_meter">m</string>
     <string name="const_unit_centimeter">cm</string>
     <string name="const_unit_mile">mi</string>
