@@ -57,9 +57,9 @@
     <string name="mi_band_setting_menu_menu">Menü</string>
 
     <string name="mi_band_setting_auth_mi_fit">%1$s ile birlikte</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">Hello Haylou, resmi %1$s uygulamasının aynı cihaza kurulmasını gerektirir. İlk önce %2$s\'yi %1$s uygulamasında eşleştirmeniz gerekir, o zaman Hello Haylou\'ı kullanabilirsiniz. Eğer %1$s\'i kullanmak istiyorsanız bunu seçiniz.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Hello Haylou, resmi %1$s uygulamasıyla beraber kurulmasını gerektirir. İlk önce %2$s\'yi %1$s uygulamasında eşleştirirdikten sonra Hello Haylou\'ı kullanabilirsiniz. Eğer %1$s\'i kullanmak istiyorsanız bunu seçiniz.</string>
     <string name="mi_band_setting_auth_standalone">Bağımsız</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$s uygulaması Hello Haylou için gerekli değildir. Eşleştikten sonra, %1$s uygulamayı kaldırabilirsiniz. %1$s işbirliğini yeniden kurmak için, %2$s \'i  %1$s uygulamasıyla yeninden eşleşmesi gerekir. Eğer eşleşmeyi kaldır fonksiyonunu kaldırırsanız, saat verisi silinir.  %2$s ekranı işlemler yapılırken açık olmalıdır.</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$s uygulaması Hello Haylou için gerekli değildir. Eşleştikten sonra, %1$s uygulamasını kaldırabilirsiniz. %1$s ile beraberliğini yeniden kurmak için, %2$s \'i  %1$s uygulamasıyla yeniden eşleşmesi gerekir. Eğer eşleşmeyi kaldır fonksiyonunu kullanırsanız, tüm saat verisi silinir.  %2$s ekranı işlemler yapılırken açık olmalıdır.</string>
 
     <string name="message_auth_request">Eşlendi, doğrulama kodunu bilmiyorsanız, eşleşmeyi kaldırın.</string>
 
@@ -80,7 +80,7 @@
     <string name="mi_band_setting_language">Aktif dil</string>
     <string name="mi_band_setting_distance_unit">Mesafe birimlerini ayarlayın</string>
     <string name="mi_band_setting_lift_wrist">Bilgiliyi görüntülemek için bileğinizi kaldırın</string>
-    <string name="mi_band_setting_screen_on_duration">Screen on duration</string>
+    <string name="mi_band_setting_screen_on_duration">Görüntüleme süresi</string>
     <string name="mi_band_setting_idle_alert">Oturma uyarıları</string>
     <string name="mi_band_setting_idle_alert_time">Hareketsiz süresi</string>
     <string name="mi_band_setting_idle_alert_dnd">Dinlenirken, rahatsız etmeyin (12:00-14:00)</string>
@@ -108,7 +108,7 @@
 
     <!-- PreferenceScreen -->
     <string name="pref_connected_have_notif_interval_title">Hangi aralıkta hatırlatma bildirimi tekrarlansın</string>
-    <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
+    <string name="pref_connected_have_notif_interval_summary">Bildirimler/hatırlatıcılar bu zamanlamayı kullanır</string>
 
     <string name="pref_synchronization">Senkronizasyon</string>
     <string name="pref_synchronization_fetch">Adım sayar・Nabız ölçer</string>
@@ -348,7 +348,7 @@
     <string name="pref_dnd_enable_bluetooth">Bluetooth\'u başında kapat, sonunda aç</string>
 
     <string name="info_dialog_dnd"><![CDATA[
-        <p>If you are using cooperation mode, in the official <device_type/> application the do not disturb (DnD) mode must be between 00:00 and 23:59 and its status must be turned off.</p>
+        <p>Haylou fit ile birlikte modunu kullanıyorsanız, <device_type/> uygulamasında, rahatsız etmeyin modu (DnD) 00:00 ile 23:59 arasında olmalıdır ve kapalı olmalıdır.</p>
     ]]></string> <!-- %1$s Haylou fit-->
 
 
@@ -463,14 +463,14 @@
     <string name="touch_setting_recognition_failed_title">Tanımlanamayan dokunma deseni</string>
 
     <string name="info_dialog_touch"><![CDATA[
-        <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
-        <b><u>Recognised touches</u></b>
+        <p>Bağımsız modda çalışır. İşbirliği modu kullanıyorsanız, resmi <app_official/> uygulaması bu fonksiyonları engelleyebilir, bu yüzden çalışacağını garanti edemiyoruz.</p>
+        <b><u>Tanınan dokunmalar</u></b>
         <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next">
-        <br><device_type/> music control
+        <br><device_type/> müzik kontrolü
         <p><img src="ic_touch_find">
-        <br><device_type/> find my phone
+        <br><device_type/> telefonu bul
         </p>
-        <p>Multiple touches can be recorded for a function.</p>
+        <p>Çoklu dokunmalar bir fonksiyon olarak kaydedilebilir.</p>
     ]]></string>
 
 
@@ -498,10 +498,10 @@
 
     <string name="weather_display">Görüntüle</string>
 
-    <string name="weather_precipitation_rain">Yağmur</string>
-    <string name="weather_precipitation_snow">Kar</string>
+    <string name="weather_precipitation_rain">Yağmurlu</string>
+    <string name="weather_precipitation_snow">Kar Yağışlı</string>
     <string name="weather_cloud_cover_abbreviation">Parçalı Bulutlu</string>
-    <string name="weather_cloud_cover">Bulut</string>
+    <string name="weather_cloud_cover">Bulutlu</string>
     <string name="weather_humidity">Nem</string>
 
     <string name="weather_north">K</string>
@@ -589,12 +589,12 @@
     <string name="privacy_policy_not_collect"><![CDATA[
         <p>• Sizinle ilgili kişisel olarak tanımlanabilir bilgiler toplamıyoruz. Diğer bir deyişle, adınız, adresiniz, telefon numaranız, e-posta adresiniz, IP adresiniz veya MAC adresiniz gibi bilgileri toplamıyoruz.</p>
         • Kişisel sağlık verilerini, kişileri ve telefon bildirim metnini toplamıyoruz.
-        • We do not collect location data.
+        • Yer verisi toplamıyoruz.
     ]]></string>
 
     <string name="privacy_policy_links_title">3. Parti Servis Sağlayıcıları Güvenlik Politikası</string>
     <string name="privacy_policy_links"><![CDATA[
-        <a href="https://policies.google.com/privacy">Google Play Services</a>
+        <a href="https://policies.google.com/privacy">Google Play Servisleri</a>
         <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
         <p><a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a></p>
         <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
@@ -633,7 +633,7 @@
     <string name="timed">Zaman ayarlandı</string>
     <string name="file_name">Dosya adı</string>
     <string name="default_">Varsayılan</string>
-    <string name="invalid_setting">Invalid setting</string>
+    <string name="invalid_setting">Yanlış ayar</string>
     <string name="ringtone">Zil sesi çal</string>
     <string name="uninstalled">Yüklenmedi</string>
     <string name="value">Değer</string>
@@ -641,7 +641,7 @@
     <string name="action_dismiss">Vazgeç</string>
     <string name="action_setting">Ayarlar</string>
     <string name="action_delete">Sil</string>
-    <string name="action_export">Dışarı ver</string>
+    <string name="action_export">Dışarı aktar</string>
     <string name="action_synchronization">Senkronizasyon</string>
     <string name="action_filter_no">Tümü</string>
     <string name="action_bluetooth">Bluetooth</string>
