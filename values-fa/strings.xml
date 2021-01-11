@@ -1,7 +1,11 @@
-<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <string name="app_name">سلام هایلو</string>
+<?xml version="1.0"?>
+<!DOCTYPE resources [
+    <!ENTITY app_name "Hello Haylou">
+    <!ENTITY device_name "Haylou">
+    ]>
 
-    <string name="menu_nav_home">هایلو</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="menu_nav_home">@string/device_name</string>
     <string name="menu_nav_notification">اعلان‌ها</string>
     <string name="menu_nav_call">تماس</string>
     <string name="menu_nav_step">فعالیت</string>
@@ -18,7 +22,7 @@
     <string name="menu_nav_feedback">بازخورد</string>
     <string name="menu_nav_privacy_policy">سیاست‌های حریم شخصی</string>
     <string name="menu_nav_theme">پوسته</string>
-    <string name="menu_nav_settings" type="string">@string/settings_name</string>
+<!--    <string name="menu_nav_settings" type="string">@string/settings_name</string>-->
 
     <string name="setting_name">تنظیمات</string>
     <string name="settings_name">تنظیمات</string>
@@ -85,6 +89,7 @@
     <string name="mi_band_setting_idle_alert_time">زمان عدم فعالیت</string>
     <string name="mi_band_setting_idle_alert_dnd">حالت بدو مزاحم در زمان استراحت (12:00-14:00)</string>
 
+    <string name="mi_band_setting_profile">This data is needed to correctly calculate the number of steps, distance, and burned calories</string>
     <string name="mi_band_setting_gender">جنسیت</string>
     <string name="mi_band_setting_gender_male">مرد</string>
     <string name="mi_band_setting_gender_female">زن</string>
@@ -126,7 +131,7 @@
     <string name="pref_battery_phone_full_plugged_usb">USB port power source</string>
     <string name="pref_battery_phone_full_plugged_wireless">Wireless power source</string>
 
-    <string name="pref_battery_phone_message">باتری تلفن:\n %1$,d%%</string>
+    <string name="pref_battery_phone_message">%%%1$,d \n:باتری تلفن</string>
 
     <string name="pref_language">زبان</string>
     <string name="pref_cat_language">برنامه</string>
@@ -138,7 +143,7 @@
     <string name="message_discovering_mi_band">یافتن هایلو (ممکن است ۱ دقیقه طول بکشد) …</string>
     <string name="message_discovered_mi_band">%1$s با موفقیت متصل شد</string>
     <string name="message_discovered_no_mi_band">خطا در اتصال به هایلو</string>
-    <string name="message_discovered_not_found_mi_band">If Haylou was not found, turn on: Haylou Sport/Play/Discoverable or pair at the phone Bluetooth settings</string>
+    <string name="message_discovered_not_found_mi_band">If &device_name; was not found, turn on: Haylou Sport/Play/Discoverable or pair at the phone Bluetooth settings</string>
     <string name="message_enable_notification_listener_access">Enable notification access: Phone/Settings/Notification access</string>
     <string name="message_enable_notification_listener_access_4_4">Enable notification access: Settings/Security/Notification access</string>
     <string name="message_open_settings">تنظیمات</string>
@@ -184,11 +189,11 @@
     <br>• <b>Haylou Solar (LS05)</b>
     <br>• <b>Haylou Smart Watch 2 (LS02)</b>
     <br>• <b>Haylou Smart Watch (LS01)</b>
-    <p>Hello Haylou requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
+    <p><app_name/> requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
     <p>If Haylou is not found, then you can set the MAC address manually when you discover.</p>
     <p><b>If you have a connection problem:</b>
-    <br>- Recent apps screen: lock the Hello Haylou (pull down the app and click on lock icon).
-    <br>- Phone/battery optimization: set Hello Haylou app to not optimized.
+    <br>- Recent apps screen: lock the <app_name/> (pull down the app and click on lock icon).
+    <br>- Phone/battery optimization: set <app_name/> app to not optimized.
     <br>- Phone/apps: clear Bluetooth Share and other \'Bluetooth\' apps data.
     ]]></string>
 
@@ -338,7 +343,7 @@
     <string name="message_time_alarm_sync">همگام سازی هشدارهای %1$s (حذف و تنظیم شدن هشدارها با دستبند)</string> <!-- %1$s = Haylou Smart watch ... -->
 
     <string name="info_dialog_alarm"><![CDATA[
-        <p>When using collaboration mode, the settings of the original application and the Hello Haylou application can overwrite and delete each other\'s settings.</p>
+        <p>When using collaboration mode, the settings of the original application and the <app_name/> application can overwrite and delete each other\'s settings.</p>
         <p>The last operation performed will take effect.</p>
     ]]></string>
 
@@ -586,7 +591,7 @@
     <string name="privacy_policy_not_collect_title">Information we do not collect</string>
     <string name="privacy_policy_not_collect"><![CDATA[
         <p>• We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address, IP address or MAC address.</p>
-        • We do not collect personal health data, contacts and phone notification text.
+        <p>• We do not collect personal health data, contacts and phone notification text.</p>
         • We do not collect location data.
     ]]></string>
 

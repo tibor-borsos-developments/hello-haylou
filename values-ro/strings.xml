@@ -1,7 +1,11 @@
-<resources>
-    <string name="app_name">Hello Hayloue</string>
+<?xml version="1.0"?>
+<!DOCTYPE resources [
+    <!ENTITY app_name "Hello Haylou">
+    <!ENTITY device_name "Haylou">
+    ]>
 
-    <string name="menu_nav_home">Haylou</string>
+<resources>
+    <string name="menu_nav_home">@string/device_name</string>
     <string name="menu_nav_notification">Notificări</string>
     <string name="menu_nav_call">Apel</string>
     <string name="menu_nav_step">Activități</string>
@@ -18,7 +22,7 @@
     <string name="menu_nav_feedback">Feedback</string>
     <string name="menu_nav_privacy_policy">Politica de confidentialitate</string>
     <string name="menu_nav_theme">Temă</string>
-    <string name="menu_nav_settings" type="string">@string/settings_name</string>
+<!--    <string name="menu_nav_settings" type="string">@string/settings_name</string>-->
 
     <string name="setting_name">Setare</string>
     <string name="settings_name">Setări</string>
@@ -31,8 +35,8 @@
     <string name="device_state_connected_disconnected_last_time">Data ultimei conectări și deconectări</string>
     <string name="device_alarm">Alarma următoare</string>
 
-    <string name="device_search">Haylou search</string>
-    <string name="device_setting">Setări Haylou</string>
+    <string name="device_search">&device_name; search</string>
+    <string name="device_setting">Setări &device_name;</string>
 
     <string name="device_mac_address">Adresa MAC</string>
     <string name="device_mac_address_invalid">Adresa MAC este invalidă</string>
@@ -57,9 +61,9 @@
     <string name="mi_band_setting_menu_menu">Meniu</string>
 
     <string name="mi_band_setting_auth_mi_fit">%1$s cooperation</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">Hello Haylou necesită instalarea aplicației oficiale %1$s pe același telefon. La început trebuie să împerechezi %2$s în aplicația %1$s, apoi poți folosi Hello Haylou. If you want to use %1$s, choose this.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">&app_name; necesită instalarea aplicației oficiale %1$s pe același telefon. La început trebuie să împerechezi %2$s în aplicația %1$s, apoi poți folosi &app_name;. If you want to use %1$s, choose this.</string>
     <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the Hello Haylou to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted.  The %2$s screen must be turned on while performing operations.</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the &app_name; to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted.  The %2$s screen must be turned on while performing operations.</string>
 
     <string name="mi_band_setting_auth_key">Authentication key</string>
     <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
@@ -86,6 +90,7 @@
     <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
     <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest (12:00-14:00)</string>
 
+    <string name="mi_band_setting_profile">This data is needed to correctly calculate the number of steps, distance, and burned calories</string>
     <string name="mi_band_setting_gender">Sex</string>
     <string name="mi_band_setting_gender_male">Masculin</string>
     <string name="mi_band_setting_gender_female">Feminin</string>
@@ -185,11 +190,11 @@
     <br>• <b>Haylou Solar (LS05)</b>
     <br>• <b>Haylou Smart Watch 2 (LS02)</b>
     <br>• <b>Haylou Smart Watch (LS01)</b>
-    <p>Hello Haylou requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
+    <p><app_name/> requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
     <p>Dacă brățara nu este găsită, poți seta manual adresa MAC atunci când o detectezi.</p>
     <p><b>Dacă ai probleme de conectare:</b>
-    <br>- Ecranul aplicațiilor recente: blochează Hello Haylou (trage în jos aplicația și apasă pe pictograma blocare).
-    <br>- Optimizarea telefonului/ bateriei: setează aplicația Hello Haylou pentru a nu fi optimizată.
+    <br>- Ecranul aplicațiilor recente: blochează <app_name/> (trage în jos aplicația și apasă pe pictograma blocare).
+    <br>- Optimizarea telefonului/ bateriei: setează aplicația <app_name/> pentru a nu fi optimizată.
     <br>- Telefon/ aplicații: șterge datele aplicației Bluetooth Share și a altor aplicații \'Bluetooth\'.
     </p>]]></string>
 
@@ -339,7 +344,7 @@
     <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Haylou Smart Watch ... -->
 
     <string name="info_dialog_alarm"><![CDATA[
-        <p>When using collaboration mode, the settings of the original application and the Hello Haylou application can overwrite and delete each other\'s settings.</p>
+        <p>When using collaboration mode, the settings of the original application and the &app_name; application can overwrite and delete each other\'s settings.</p>
         <p>The last operation performed will take effect.</p>
     ]]></string>
 
@@ -570,7 +575,7 @@
     <string name="feedback_google_play_title">Evaluează această aplicație</string>
     <string name="feedback_request_feature_title">Solicitare de funcții, raport de erori</string>
     <string name="feedback_request_feature_summary">Prelucrare automată a poștei electronice, este posibil să nu primiți un răspuns</string>
-    <string name="feedback_translation_title">Hello Haylou translation</string>
+    <string name="feedback_translation_title">&app_name; translation</string>
     <string name="feedback_translation_title_summary">Please help in translation</string>
 
     <!-- Privacy policy -->
@@ -589,7 +594,7 @@
     <string name="privacy_policy_not_collect_title">Informațiile pe care nu le colectăm</string>
     <string name="privacy_policy_not_collect"><![CDATA[
         <p>• Nu colectăm informații personale identificabile despre tine. Cu alte cuvinte, nu colectăm informații cum ar fi numele, adresa, numărul de telefon, adresa de e-mail, adresa IP sau adresa MAC.</p>
-        • Nu colectăm date despre sănătatea personală, contacte și textele de notificare de pe telefon.
+        <p>• Nu colectăm date despre sănătatea personală, contacte și textele de notificare de pe telefon.</p>
         • We do not collect location data.
     ]]></string>
 

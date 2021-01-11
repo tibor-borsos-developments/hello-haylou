@@ -1,7 +1,11 @@
-﻿<resources>
-    <string name="app_name">Hello Haylou</string>
+﻿<?xml version="1.0"?>
+<!DOCTYPE resources [
+    <!ENTITY app_name "Hello Haylou">
+    <!ENTITY device_name "Haylou">
+    ]>
 
-    <string name="menu_nav_home">Haylou</string>
+<resources>
+    <string name="menu_nav_home">@string/device_name</string>
     <string name="menu_nav_notification">Melding</string>
     <string name="menu_nav_call">Bellen</string>
     <string name="menu_nav_step">Activiteit</string>
@@ -18,7 +22,7 @@
     <string name="menu_nav_feedback">Terugkoppeling</string>
     <string name="menu_nav_privacy_policy">Privacybeleid</string>
     <string name="menu_nav_theme">Thema</string>
-    <string name="menu_nav_settings" type="string">@string/settings_name</string>
+<!--    <string name="menu_nav_settings" type="string">@string/settings_name</string>-->
 
     <string name="setting_name">Instellingen</string>
     <string name="settings_name">Instellingen</string>
@@ -31,8 +35,8 @@
     <string name="device_state_connected_disconnected_last_time">Vorige verbonden  en niet verbonden tijd</string>
     <string name="device_alarm">Volgend alarm</string>
 
-    <string name="device_search">Haylou search</string>
-    <string name="device_setting">Haylou setting</string>
+    <string name="device_search">&device_name; search</string>
+    <string name="device_setting">&device_name; setting</string>
 
     <string name="device_mac_address">MAC adres</string>
     <string name="device_mac_address_invalid">MAC adres is onjuist</string>
@@ -57,9 +61,9 @@
     <string name="mi_band_setting_menu_menu">Menu</string>
 
     <string name="mi_band_setting_auth_mi_fit">%1$s cooperation</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">Hello Haylou requires the installation of the %1$s app on the same phone. At first you have to pair %2$s in %1$s app, then you can use Hello Haylou. If you want to use %1$s application, choose this.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">&app_name; requires the installation of the %1$s app on the same phone. At first you have to pair %2$s in %1$s app, then you can use &app_name;. If you want to use %1$s application, choose this.</string>
     <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the Hello Haylou to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the &app_name; to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
 
     <string name="mi_band_setting_auth_key">Authentication key</string>
     <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
@@ -86,6 +90,7 @@
     <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
     <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest (12:00-14:00)</string>
 
+    <string name="mi_band_setting_profile">This data is needed to correctly calculate the number of steps, distance, and burned calories</string>
     <string name="mi_band_setting_gender">Geslacht</string>
     <string name="mi_band_setting_gender_male">Man</string>
     <string name="mi_band_setting_gender_female">Vrouw</string>
@@ -134,12 +139,12 @@
     <string name="pref_language_title">Taal</string>
 
     <!-- Snackbar Messages -->
-    <string name="message_enable_bluetooth">Schakel Bluetooth in en zorg dat het Haylou apparaat en telefoon dicht bij elkaar zijn</string>
-    <string name="message_discover_mi_band">Haylou is niet ingesteld, zoek apparaat</string>
-    <string name="message_discovering_mi_band">Haylou zoeken (kan 1 minuut duren) &#8230;</string>
+    <string name="message_enable_bluetooth">Schakel Bluetooth in en zorg dat het &device_name; apparaat en telefoon dicht bij elkaar zijn</string>
+    <string name="message_discover_mi_band">&device_name; is niet ingesteld, zoek apparaat</string>
+    <string name="message_discovering_mi_band">&device_name; zoeken (kan 1 minuut duren) &#8230;</string>
     <string name="message_discovered_mi_band">%1$s verbinden met is gelukt</string>
-    <string name="message_discovered_no_mi_band">Haylou verbinden mislukt</string>
-    <string name="message_discovered_not_found_mi_band">Als Haylou niet is gevonden, schakel dan in: Haylou Sport/Play/Zoeken of koppel met de Bluetooth instellingen op de telefoon</string>
+    <string name="message_discovered_no_mi_band">&device_name; verbinden mislukt</string>
+    <string name="message_discovered_not_found_mi_band">Als &device_name; niet is gevonden, schakel dan in: Haylou Sport/Play/Zoeken of koppel met de Bluetooth instellingen op de telefoon</string>
     <string name="message_enable_notification_listener_access">Meldingstoegang inschakelen: Instellingen/Meldingen/Toegang tot meldingen</string>
     <string name="message_enable_notification_listener_access_4_4">Meldingstoegang inschakelen: Instellingen/Beveiliging/Toegang tot meldingen</string>
     <string name="message_open_settings">Instellingen</string>
@@ -185,11 +190,11 @@
     <br>• <b>Haylou Solar (LS05)</b>
     <br>• <b>Haylou Smart Watch 2 (LS02)</b>
     <br>• <b>Haylou Smart Watch (LS01)</b>
-    <p>Hello Haylou requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
+    <p><app_name/> requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
     <p>Als Haylou niet wordt gevonden kunt u het MAC-adres handmatig instellen, kijk hier.</p>
     <p><b>Bij verbindingsproblemen:</b>
-    <br>- Vorige app scherm: vergrendel de Hello Haylou (klik op de app en klik op het vergrendelpictogram).
-    <br>- Telefoon/batterij optimalisatie: stel Hello Haylou app in op niet geoptimaliseerd.
+    <br>- Vorige app scherm: vergrendel de <app_name/> (klik op de app en klik op het vergrendelpictogram).
+    <br>- Telefoon/batterij optimalisatie: stel <app_name/> app in op niet geoptimaliseerd.
     <br>- Telefoon/apps: \"Bluetooth delen\" en \"Bluetooth\app gegevens\" wissen.
     ]]></string>
 
@@ -333,7 +338,7 @@
     <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Haylou Smart Watch ... -->
 
     <string name="info_dialog_alarm"><![CDATA[
-        <p>When using collaboration mode, the settings of the original application and the Hello Haylou application can overwrite and delete each other\'s settings.</p>
+        <p>When using collaboration mode, the settings of the original application and the <app_name/> application can overwrite and delete each other\'s settings.</p>
         <p>The last operation performed will take effect.</p>
     ]]></string>
 
@@ -572,7 +577,7 @@
     <string name="feedback_google_play_title">Beoordeel dezes app</string>
     <string name="feedback_request_feature_title">Functie aanvulling, bugrapport</string>
     <string name="feedback_request_feature_summary">Automatische e-mailverwerking, u krijgt mogelijk geen reactie</string>
-    <string name="feedback_translation_title">Hello Haylou translation</string>
+    <string name="feedback_translation_title">&app_name; translation</string>
     <string name="feedback_translation_title_summary">Please help in translation</string>
 
     <!-- Privacy policy -->
@@ -591,7 +596,7 @@
     <string name="privacy_policy_not_collect_title">Informatie die we niet verzamelen</string>
     <string name="privacy_policy_not_collect"><![CDATA[
         <p>• We verzamelen geen persoonlijk identificeerbare informatie over u. Met andere woorden, wij verzamelen geen informatie zoals uw naam, adres, telefoonnummer, e-mailadres, IP-adres of MAC-adres.</p>
-        • We verzamelen geen persoonlijke gezondheidsgegevens, contacten en telefonische meldingsteksten.
+        <p>• We verzamelen geen persoonlijke gezondheidsgegevens, contacten en telefonische meldingsteksten.</p>
         • We do not collect location data.
     ]]></string>
 

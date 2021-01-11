@@ -1,7 +1,11 @@
-<resources>
-    <string name="app_name">Hello Haylou</string>
+<?xml version="1.0"?>
+<!DOCTYPE resources [
+    <!ENTITY app_name "Hello Haylou">
+    <!ENTITY device_name "Haylou">
+    ]>
 
-    <string name="menu_nav_home">Haylou</string>
+<resources>
+    <string name="menu_nav_home">@string/device_name</string>
     <string name="menu_nav_notification">Уведомления</string>
     <string name="menu_nav_call">Вызов</string>
     <string name="menu_nav_step">Активность</string>
@@ -18,7 +22,7 @@
     <string name="menu_nav_feedback">Обратная связь</string>
     <string name="menu_nav_privacy_policy">Политика конфиденциальности</string>
     <string name="menu_nav_theme">Настройки темы</string>
-    <string name="menu_nav_settings" type="string">@string/settings_name</string>
+<!--    <string name="menu_nav_settings" type="string">@string/settings_name</string>-->
 
     <string name="setting_name">Настройки</string>
     <string name="settings_name">Настройки</string>
@@ -31,8 +35,8 @@
     <string name="device_state_connected_disconnected_last_time">Время последнего соединения и его разрыва</string>
     <string name="device_alarm">Следующий будильник</string>
 
-    <string name="device_search">Поиск Haylou</string>
-    <string name="device_setting">Настройки Haylou</string>
+    <string name="device_search">Поиск &device_name;</string>
+    <string name="device_setting">Настройки &device_name;</string>
 
     <string name="device_mac_address">MAC адрес</string>
     <string name="device_mac_address_invalid">Неверный MAC адрес</string>
@@ -56,9 +60,9 @@
     <string name="mi_band_setting_menu_menu">Меню</string>
 
     <string name="mi_band_setting_auth_mi_fit">Взаимодействие с %1$s</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">Для работы Hello Haylou требуется приложение %1$s, установленное на устройстве. Сначала подключите %2$s к %1$s, а потом пользуйтесь Hello Haylou. Выберите этот пункт для совместного использования с %1$s.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Для работы &app_name; требуется приложение %1$s, установленное на устройстве. Сначала подключите %2$s к %1$s, а потом пользуйтесь &app_name;. Выберите этот пункт для совместного использования с %1$s.</string>
     <string name="mi_band_setting_auth_standalone">Автономно</string>
-    <string name="mi_band_setting_auth_standalone_hint">Для работы Hello Haylou, приложение %1$s не нужно. После соединения %1$s можно удалить или отвязать браслет от него. Для восстановления работы с %1$s вам нужно заново привязать %2$s к %1$s. Если вы используете функцию отвязки устройства, то все данные на часах будут удалены. Экран %2$s должен быть включен во время выполнения операций.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Для работы &app_name;, приложение %1$s не нужно. После соединения %1$s можно удалить или отвязать браслет от него. Для восстановления работы с %1$s вам нужно заново привязать %2$s к %1$s. Если вы используете функцию отвязки устройства, то все данные на часах будут удалены. Экран %2$s должен быть включен во время выполнения операций.</string>
 
     <string name="mi_band_setting_auth_key">Ключ аутентификации</string>
     <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
@@ -85,6 +89,7 @@
     <string name="mi_band_setting_idle_alert_time">Время бездействия</string>
     <string name="mi_band_setting_idle_alert_dnd">Не уведомлять во время отдыха (12:00-14:00)</string>
 
+    <string name="mi_band_setting_profile">This data is needed to correctly calculate the number of steps, distance, and burned calories</string>
     <string name="mi_band_setting_gender">Пол</string>
     <string name="mi_band_setting_gender_male">Мужской</string>
     <string name="mi_band_setting_gender_female">Женский</string>
@@ -184,11 +189,11 @@
     <br>• <b>Haylou Solar (LS05)</b>
     <br>• <b>Haylou Smart Watch 2 (LS02)</b>
     <br>• <b>Haylou Smart Watch (LS01)</b>
-    <p>Hello Haylou требует установки официального приложения Haylou на том же телефоне. Сначала вам нужно подключить свои умные часы к приложению Haylou, затем вы можете использовать это приложение.</p>
+    <p><app_name/> требует установки официального приложения Haylou на том же телефоне. Сначала вам нужно подключить свои умные часы к приложению Haylou, затем вы можете использовать это приложение.</p>
     <p>Если часы не удалось обнаружить, вы можете вручную установить MAC адрес в настройках.</p>
     <p><b>При проблемах с подключением:</b>
-    <br>- Закрепите Hello Haylou в окне недавних приложений (потяните приложение вниз и нажмите замок)
-    <br>- Отключите для Hello Haylou оптимизацию энергопотребления в настройках аккумулятора/энергосбережения
+    <br>- Закрепите <app_name/> в окне недавних приложений (потяните приложение вниз и нажмите замок)
+    <br>- Отключите для <app_name/> оптимизацию энергопотребления в настройках аккумулятора/энергосбережения
     <br>- Удалите сопряжение в приложении Bluetooth и очистите его данные
     </p>]]></string>
 
@@ -338,7 +343,7 @@
     <string name="message_time_alarm_sync">Синхронизация будильников %1$s, (Это удалит записанные в часах будильники и установит новые)</string> <!-- %1$s = Haylou Smart Watch ... -->
 
     <string name="info_dialog_alarm"><![CDATA[
-        <p>При использовании режима совместной работы настройки официального приложения Haylou и приложения Hello Haylou могут перезаписывать и удалять настройки друг друга.</p>
+        <p>При использовании режима совместной работы настройки официального приложения Haylou и приложения <app_name/> могут перезаписывать и удалять настройки друг друга.</p>
         <p>Только последняя выполненная операция вступит в силу.</p>
     ]]></string>
 
@@ -569,7 +574,7 @@
     <string name="feedback_google_play_title">Оцените приложение</string>
     <string name="feedback_request_feature_title">Есть идеи для новых функций или хотите отправить отчет об ошибке.</string>
     <string name="feedback_request_feature_summary">Электронная почта обрабатывается автоматически, ответ на отправленное письмо не отправляется (Настоятельно рекомендую писать на Английском языке)</string>
-    <string name="feedback_translation_title">Перевод Hello Haylou</string>
+    <string name="feedback_translation_title">Перевод &app_name;</string>
     <string name="feedback_translation_title_summary">Можете помочь с переводом</string>
 
     <!-- Privacy policy -->
@@ -588,7 +593,7 @@
     <string name="privacy_policy_not_collect_title">Информация, не собираемая нами</string>
     <string name="privacy_policy_not_collect"><![CDATA[
         <p>• Мы не собираем ваши персональные данные, способные вас идентифицировать. Другими словами мы не собираем такую информацию, как ваше имя, адрес, номер телефона, адрес электронной почты, IP или MAC адреса.</p>
-        • Мы не собираем информацию о вашем здоровье, контактах и тексте уведомлений.
+        <p>• Мы не собираем информацию о вашем здоровье, контактах и тексте уведомлений.</p>
         • Мы не собираем данные о вашем местоположении.
     ]]></string>
 

@@ -1,7 +1,11 @@
-<resources>
-    <string name="app_name">Hello Haylou</string>
+<?xml version="1.0"?>
+<!DOCTYPE resources [
+    <!ENTITY app_name "Hello Haylou">
+    <!ENTITY device_name "Haylou">
+    ]>
 
-    <string name="menu_nav_home">Haylou</string>
+<resources>
+    <string name="menu_nav_home">@string/device_name</string>
     <string name="menu_nav_notification">Notifikasjon</string>
     <string name="menu_nav_call">Anrop</string>
     <string name="menu_nav_step">Aktivitet</string>
@@ -18,7 +22,7 @@
     <string name="menu_nav_feedback">Tilbakemelding</string>
     <string name="menu_nav_privacy_policy">Personvern policy</string>
     <string name="menu_nav_theme">Stil</string>
-    <string name="menu_nav_settings" type="string">@string/settings_name</string>
+<!--    <string name="menu_nav_settings" type="string">@string/settings_name</string>-->
 
     <string name="setting_name">Instilling</string>
     <string name="settings_name">Instillinger</string>
@@ -31,8 +35,8 @@
     <string name="device_state_connected_disconnected_last_time">Siste tilkoblings og frakoblings-tid</string>
     <string name="device_alarm">Neste alarm</string>
 
-    <string name="device_search">Haylou search</string>
-    <string name="device_setting">Haylou-instillinger</string>
+    <string name="device_search">&device_name; search</string>
+    <string name="device_setting">&device_name;-instillinger</string>
 
     <string name="device_mac_address">MAC address</string>
     <string name="device_mac_address_invalid">MAC-addressen er ubrukelig</string>
@@ -57,9 +61,9 @@
     <string name="mi_band_setting_menu_menu">Meny</string>
 
     <string name="mi_band_setting_auth_mi_fit">%1$s cooperation</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">Hello Haylou behøver installasjon av den offisielle %1$s appen på den samme telefonen. først må du parre %2$s i %1$s appen, så kan du bruke Hello Haylou. If you want to use %1$s, choose this.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">&app_name; behøver installasjon av den offisielle %1$s appen på den samme telefonen. først må du parre %2$s i %1$s appen, så kan du bruke &app_name;. If you want to use %1$s, choose this.</string>
     <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the Hello Haylou to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the &app_name; to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
 
     <string name="mi_band_setting_auth_key">Authentication key</string>
     <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
@@ -86,6 +90,7 @@
     <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
     <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest (12:00-14:00)</string>
 
+    <string name="mi_band_setting_profile">This data is needed to correctly calculate the number of steps, distance, and burned calories</string>
     <string name="mi_band_setting_gender">Kjønn</string>
     <string name="mi_band_setting_gender_male">Mann</string>
     <string name="mi_band_setting_gender_female">Hunn</string>
@@ -135,10 +140,10 @@
 
     <!-- Snackbar Meldinger -->
     <string name="message_enable_bluetooth">Venligst aktivere Bluetooth og hold Bandet nærmere telefonen</string>
-    <string name="message_discover_mi_band">Haylou er ikke funnet, søk etter det</string>
-    <string name="message_discovering_mi_band">Oppdager Haylou (det kan kanskje ta 1 minutt) &#8230;</string>
+    <string name="message_discover_mi_band">&device_name; er ikke funnet, søk etter det</string>
+    <string name="message_discovering_mi_band">Oppdager &device_name; (det kan kanskje ta 1 minutt) &#8230;</string>
     <string name="message_discovered_mi_band">%1$s tilkobling suksess</string>
-    <string name="message_discovered_no_mi_band">Haylou tilkobling feilet</string>
+    <string name="message_discovered_no_mi_band">&device_name; tilkobling feilet</string>
     <string name="message_discovered_not_found_mi_band">Hvis Banded ikke er funnet, skru på: Haylou Sport/Play/Oppdag tilgjengelighet eller parre på telefonens Bluetooth instilling</string>
     <string name="message_enable_notification_listener_access">Aktivere notifikasjon rilgang: Instillinger/Notifikasjoner/Notifikasjon tilgang</string>
     <string name="message_enable_notification_listener_access_4_4">Aktiver notifikasjon tilgang: Instillinger/Sikkerhet/Notifikasjon tilgang</string>
@@ -185,11 +190,11 @@
     <br>• <b>Haylou Solar (LS05)</b>
     <br>• <b>Haylou Smart Watch 2 (LS02)</b>
     <br>• <b>Haylou Smart Watch (LS01)</b>
-    <p>Hello Haylou requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
+    <p><app_name/> requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
     <p>hvis Bandetvikke er funnet, da kan du sette MAC addressen manuelt når du utforsker.</p>
     <p><b>hvis du har et tilkoblings problem:</b>
-    <br>- Seneste app-skjerm: lås Hello Haylou (skyv ned appen og trykk på lås ikonet).
-    <br>- Telefon/batteri optimalisering: sett Hello Haylou app til å ikke bli optimalisert.
+    <br>- Seneste app-skjerm: lås <app_name/> (skyv ned appen og trykk på lås ikonet).
+    <br>- Telefon/batteri optimalisering: sett <app_name/> app til å ikke bli optimalisert.
     <br>- Telefon/apper: rens Bluetooth Deling og andre \'Bluetooth\' app data.
     ]]></string>
 
@@ -340,7 +345,7 @@
     <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Haylou Smart Watch ... -->
 
     <string name="info_dialog_alarm"><![CDATA[
-        <p>When using collaboration mode, the settings of the original application and the Hello Haylou application can overwrite and delete each other\'s settings.</p>
+        <p>When using collaboration mode, the settings of the original application and the <app_name/> application can overwrite and delete each other\'s settings.</p>
         <p>The last operation performed will take effect.</p>
     ]]></string>
 
@@ -571,7 +576,7 @@
     <string name="feedback_google_play_title">Bedøm denne appen</string>
     <string name="feedback_request_feature_title">Egenskaps forespørsel, bug rapport</string>
     <string name="feedback_request_feature_summary">Automatisk e-mail prossesjon, du får kanskje ikke respons</string>
-    <string name="feedback_translation_title">Hello Haylou translation</string>
+    <string name="feedback_translation_title">&app_name; translation</string>
     <string name="feedback_translation_title_summary">Please help in translation</string>
 
     <!-- Privacy policy -->
@@ -590,7 +595,7 @@
     <string name="privacy_policy_not_collect_title">Informasjon vi ikke samler inn</string>
     <string name="privacy_policy_not_collect"><![CDATA[
         <p>• Vi samler ikke inn personlig identifiserbar informasjon om deg. For å si det med andre ord, Vi samler ikke inn informasjon som foreksempel navnet ditt, addresse, telefon nummer, email addresse, IP addresse eller MAC addresse.</p>
-        • Vi samler ikke inn personlig helse data, kontakter eller telefon notifikasjons text.
+        <p>• Vi samler ikke inn personlig helse data, kontakter eller telefon notifikasjons text.</p>
         • We do not collect location data.
     ]]></string>
 

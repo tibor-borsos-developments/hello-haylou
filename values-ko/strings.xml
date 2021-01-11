@@ -1,7 +1,11 @@
-<resources>
-    <string name="app_name">Hello Haylou</string>
+<?xml version="1.0"?>
+<!DOCTYPE resources [
+    <!ENTITY app_name "Hello Haylou">
+    <!ENTITY device_name "Haylou">
+    ]>
 
-    <string name="menu_nav_home">Haylou</string>
+<resources>
+    <string name="menu_nav_home">@string/device_name</string>
     <string name="menu_nav_notification">알림</string>
     <string name="menu_nav_call">수신 전화 알림</string>
     <string name="menu_nav_step">활동</string>
@@ -18,7 +22,7 @@
     <string name="menu_nav_feedback">피드백</string>
     <string name="menu_nav_privacy_policy">개인 정보 정책</string>
     <string name="menu_nav_theme">테마</string>
-    <string name="menu_nav_settings" type="string">@string/settings_name</string>
+<!--    <string name="menu_nav_settings" type="string">@string/settings_name</string>-->
 
     <string name="setting_name">설정</string>
     <string name="settings_name">설정</string>
@@ -31,8 +35,8 @@
     <string name="device_state_connected_disconnected_last_time">마지막 연결 및 연결 해제 시간</string>
     <string name="device_alarm">다음 알람</string>
 
-    <string name="device_search">Haylou search</string>
-    <string name="device_setting">Haylou 설정</string>
+    <string name="device_search">&device_name; search</string>
+    <string name="device_setting">&device_name; 설정</string>
 
     <string name="device_mac_address">MAC 주소</string>
     <string name="device_mac_address_invalid">MAC 주소가 유효하지 않음</string>
@@ -57,9 +61,9 @@
     <string name="mi_band_setting_menu_menu">메뉴</string>
 
     <string name="mi_band_setting_auth_mi_fit">%1$s(와)과 함께 사용하기</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">Hello Haylou(은)는 같은 폰에 %1$s 앱의 설치를 요구합니다. 먼저 %1$s(을)를 %2$s 애플리케이션에 연결해야, Hello Haylou(을)를 사용할 수 있습니다. %1$s 앱을 사용하고 싶으면, 이것을 선택하세요.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">&app_name;(은)는 같은 폰에 %1$s 앱의 설치를 요구합니다. 먼저 %1$s(을)를 %2$s 애플리케이션에 연결해야, &app_name;(을)를 사용할 수 있습니다. %1$s 앱을 사용하고 싶으면, 이것을 선택하세요.</string>
     <string name="mi_band_setting_auth_standalone">독립</string>
-    <string name="mi_band_setting_auth_standalone_hint">Hello Haylou(이)가 작동하기 위해 %1$s앱이 요구되지 않습니다. 페어링 후에, %1$s 앱을 삭제하. %1$s(와)과 함께 사용하기를 복원할 때, %2$s(을)를 %1$s 애플리케이션에 다시 연결해야 합니다. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
+    <string name="mi_band_setting_auth_standalone_hint">&app_name;(이)가 작동하기 위해 %1$s앱이 요구되지 않습니다. 페어링 후에, %1$s 앱을 삭제하. %1$s(와)과 함께 사용하기를 복원할 때, %2$s(을)를 %1$s 애플리케이션에 다시 연결해야 합니다. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
 
     <string name="mi_band_setting_auth_key">인증 키</string>
     <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
@@ -86,6 +90,7 @@
     <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
     <string name="mi_band_setting_idle_alert_dnd">방해금지 (12:00-14:00)</string>
 
+    <string name="mi_band_setting_profile">This data is needed to correctly calculate the number of steps, distance, and burned calories</string>
     <string name="mi_band_setting_gender">성별</string>
     <string name="mi_band_setting_gender_male">남성</string>
     <string name="mi_band_setting_gender_female">여성</string>
@@ -185,11 +190,11 @@
     <br>• <b>Haylou Solar (LS05)</b>
     <br>• <b>Haylou Smart Watch 2 (LS02)</b>
     <br>• <b>Haylou Smart Watch (LS01)</b>
-    <p>Hello Haylou requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
+    <p><app_name/> requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
     <p>If Haylou is not found, then you can set the MAC address manually when you discover.</p>
     <p><b>If you have a 연결 problem:</b>
-    <br>- Recent apps screen: lock the Hello Haylou (pull down the app and click on lock icon).
-    <br>- Phone/battery optimization: set Hello Haylou app to not optimized.
+    <br>- Recent apps screen: lock the <app_name/> (pull down the app and click on lock icon).
+    <br>- Phone/battery optimization: set <app_name/> app to not optimized.
     <br>- Phone/apps: clear Bluetooth Share and other \'Bluetooth\' apps data.
 ]]></string>
 
@@ -340,7 +345,7 @@
     <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Haylou Smart Watch ... -->
 
     <string name="info_dialog_alarm"><![CDATA[
-        <p>When using collaboration mode, the settings of the original application and the Hello Haylou application can overwrite and delete each other\'s settings.</p>
+        <p>When using collaboration mode, the settings of the original application and the <app_name/> application can overwrite and delete each other\'s settings.</p>
         <p>The last operation performed will take effect.</p>
     ]]></string>
 
@@ -571,7 +576,7 @@
     <string name="feedback_google_play_title">이 앱 평가하기</string>
     <string name="feedback_request_feature_title">기능 요청, 버그 제보</string>
     <string name="feedback_request_feature_summary">자동 이메일 처리, 응답을 받지 못할 수 있습니다</string>
-    <string name="feedback_translation_title">Hello Haylou translation</string>
+    <string name="feedback_translation_title">&app_name; translation</string>
     <string name="feedback_translation_title_summary">Please help in translation</string>
 
     <!-- Privacy policy -->
@@ -590,7 +595,7 @@
     <string name="privacy_policy_not_collect_title">수집하지 않는 정보</string>
     <string name="privacy_policy_not_collect"><![CDATA[
         <p>• We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address, IP address or MAC address.</p>
-        • We do not collect personal health data, contacts and phone notification text.
+        <p>• We do not collect personal health data, contacts and phone notification text.</p>
         • We do not collect location data.
     ]]></string>
 

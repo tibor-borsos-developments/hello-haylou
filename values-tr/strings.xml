@@ -1,7 +1,11 @@
-<resources>
-    <string name="app_name">Hello Haylou</string>
+<?xml version="1.0"?>
+<!DOCTYPE resources [
+    <!ENTITY app_name "Hello Haylou">
+    <!ENTITY device_name "Haylou">
+    ]>
 
-    <string name="menu_nav_home">Haylou</string>
+<resources>
+    <string name="menu_nav_home">@string/device_name</string>
     <string name="menu_nav_notification">Bildirimler</string>
     <string name="menu_nav_call">Arama</string>
     <string name="menu_nav_step">Adım sayar</string>
@@ -18,7 +22,7 @@
     <string name="menu_nav_feedback">Önerileriniz</string>
     <string name="menu_nav_privacy_policy">Gizlilik politikası</string>
     <string name="menu_nav_theme">Tema</string>
-    <string name="menu_nav_settings" type="string">@string/settings_name</string>
+<!--    <string name="menu_nav_settings" type="string">@string/settings_name</string>-->
 
     <string name="setting_name">Ayar</string>
     <string name="settings_name">Ayarlar</string>
@@ -31,8 +35,8 @@
     <string name="device_state_connected_disconnected_last_time">Son bağlantı ve kopma zamanı</string>
     <string name="device_alarm">Sonraki alarm</string>
 
-    <string name="device_search">Haylou ara</string>
-    <string name="device_setting">Haylou ayarları</string>
+    <string name="device_search">&device_name; ara</string>
+    <string name="device_setting">&device_name; ayarları</string>
 
     <string name="device_mac_address">MAC adresi</string>
     <string name="device_mac_address_invalid">MAC adresi hatalı</string>
@@ -57,9 +61,9 @@
     <string name="mi_band_setting_menu_menu">Menü</string>
 
     <string name="mi_band_setting_auth_mi_fit">%1$s ile birlikte</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">Hello Haylou, resmi %1$s uygulamasıyla beraber kurulmasını gerektirir. İlk önce %2$s\'yi %1$s uygulamasında eşleştirirdikten sonra Hello Haylou\'ı kullanabilirsiniz. Eğer %1$s\'i kullanmak istiyorsanız bunu seçiniz.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">&app_name;, resmi %1$s uygulamasıyla beraber kurulmasını gerektirir. İlk önce %2$s\'yi %1$s uygulamasında eşleştirirdikten sonra &app_name;\'ı kullanabilirsiniz. Eğer %1$s\'i kullanmak istiyorsanız bunu seçiniz.</string>
     <string name="mi_band_setting_auth_standalone">Bağımsız</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$s uygulaması Hello Haylou için gerekli değildir. Eşleştikten sonra, %1$s uygulamasını kaldırabilirsiniz. %1$s ile beraberliğini yeniden kurmak için, %2$s \'i  %1$s uygulamasıyla yeniden eşleşmesi gerekir. Eğer eşleşmeyi kaldır fonksiyonunu kullanırsanız, tüm saat verisi silinir.  %2$s ekranı işlemler yapılırken açık olmalıdır.</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$s uygulaması &app_name; için gerekli değildir. Eşleştikten sonra, %1$s uygulamasını kaldırabilirsiniz. %1$s ile beraberliğini yeniden kurmak için, %2$s \'i  %1$s uygulamasıyla yeniden eşleşmesi gerekir. Eğer eşleşmeyi kaldır fonksiyonunu kullanırsanız, tüm saat verisi silinir.  %2$s ekranı işlemler yapılırken açık olmalıdır.</string>
 
     <string name="message_auth_request">Eşlendi, doğrulama kodunu bilmiyorsanız, eşleşmeyi kaldırın.</string>
 
@@ -85,6 +89,7 @@
     <string name="mi_band_setting_idle_alert_time">Hareketsiz süresi</string>
     <string name="mi_band_setting_idle_alert_dnd">Dinlenirken, rahatsız etmeyin (12:00-14:00)</string>
 
+    <string name="mi_band_setting_profile">This data is needed to correctly calculate the number of steps, distance, and burned calories</string>
     <string name="mi_band_setting_gender">Cinsiyet</string>
     <string name="mi_band_setting_gender_male">Erkek</string>
     <string name="mi_band_setting_gender_female">Kadın</string>
@@ -134,11 +139,11 @@
 
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">Lütfen Bluetooth\'u etkinleştirin ve bilekliği telefona yakın tutun</string>
-    <string name="message_discover_mi_band">Haylou tespit edilemedi, lütfen tekrar deneyin</string>
-    <string name="message_discovering_mi_band">Haylou tespit ediliyor (1 dk sürebilir) &#8230;</string>
+    <string name="message_discover_mi_band">&device_name; tespit edilemedi, lütfen tekrar deneyin</string>
+    <string name="message_discovering_mi_band">&device_name; tespit ediliyor (1 dk sürebilir) &#8230;</string>
     <string name="message_discovered_mi_band">%1$s tespit edildi</string>
-    <string name="message_discovered_no_mi_band">Haylou tespit edilemedi</string>
-    <string name="message_discovered_not_found_mi_band">Eğer Haylou tespit edilemez ise, Bluetooth ayarlarını kontrol edin</string>
+    <string name="message_discovered_no_mi_band">&device_name; tespit edilemedi</string>
+    <string name="message_discovered_not_found_mi_band">Eğer &device_name; tespit edilemez ise, Bluetooth ayarlarını kontrol edin</string>
     <string name="message_enable_notification_listener_access">Bildirim erişimi verin: Ayarlar/Bildirim/Bildirim erişimi</string>
     <string name="message_enable_notification_listener_access_4_4">Bildirim erişimi verin: Ayarlar/Güvenlik/Bildirim erişimi</string>
     <string name="message_open_settings">Ayarlar</string>
@@ -184,11 +189,11 @@
     <br>• <b>Haylou Solar (LS05)</b>
     <br>• <b>Haylou Smart Watch 2 (LS02)</b>
     <br>• <b>Haylou Smart Watch (LS01)</b>
-    <p>Hello Haylou\'yu kullanmak için resmi uygulamanın da telefonda yüklü olması gerekir. İlk önce Haylou uygulaması ile eşlerseniz, uygulamayı kullanabilirsiniz.</p>
+    <p><app_name/>\'yu kullanmak için resmi uygulamanın da telefonda yüklü olması gerekir. İlk önce Haylou uygulaması ile eşlerseniz, uygulamayı kullanabilirsiniz.</p>
     <p>Haylou bulunamazsa, ayrıntılar menüsünde MAC adresini manuel olarak ayarlayabilirsiniz.</p>
     <p><b>Eğer bağlantı sorunu varsa:</b>
-    <br>- Son uygulamalarda Hello Haylou uygulamasını kilitleyin.
-    <br>- Hello Haylou uygulamasını pil optimizasyonunu Optimizasyon Etme olarak değiştirin.
+    <br>- Son uygulamalarda <app_name/> uygulamasını kilitleyin.
+    <br>- <app_name/> uygulamasını pil optimizasyonunu Optimizasyon Etme olarak değiştirin.
     <br>- Bluetooth uygulaması verileri ve ön belleği temizleyin.
     </p>]]></string>
 
@@ -338,7 +343,7 @@
     <string name="message_time_alarm_sync">%1$s alarmlarını senkronize et. (Akıllı saatinizdeki alarmları otomatik siler veya ekler)</string> <!-- %1$s =Haylou Smart Watch ... -->
 
     <string name="info_dialog_alarm"><![CDATA[
-        <p>When using collaboration mode, the settings of the original application and the Hello Haylou application can overwrite and delete each other\'s settings.</p>
+        <p>When using collaboration mode, the settings of the original application and the <app_name/> application can overwrite and delete each other\'s settings.</p>
         <p>The last operation performed will take effect.</p>
     ]]></string>
 
@@ -569,7 +574,7 @@
     <string name="feedback_google_play_title">Uygulamayı değerlendir</string>
     <string name="feedback_request_feature_title">İstekleriniz, hata bildirimleri</string>
     <string name="feedback_request_feature_summary">E-postanız otomatik işlenir, yanıt alamayabilirsiniz</string>
-    <string name="feedback_translation_title">Hello Haylou Çeviri</string>
+    <string name="feedback_translation_title">&app_name; Çeviri</string>
     <string name="feedback_translation_title_summary">Çeviriye katkıda bulunun</string>
 
     <!-- Privacy policy -->
@@ -588,7 +593,7 @@
     <string name="privacy_policy_not_collect_title">Toplamadığımız bilgiler</string>
     <string name="privacy_policy_not_collect"><![CDATA[
         <p>• Sizinle ilgili kişisel olarak tanımlanabilir bilgiler toplamıyoruz. Diğer bir deyişle, adınız, adresiniz, telefon numaranız, e-posta adresiniz, IP adresiniz veya MAC adresiniz gibi bilgileri toplamıyoruz.</p>
-        • Kişisel sağlık verilerini, kişileri ve telefon bildirim metnini toplamıyoruz.
+        <p>• Kişisel sağlık verilerini, kişileri ve telefon bildirim metnini toplamıyoruz.</p>
         • Yer verisi toplamıyoruz.
     ]]></string>
 

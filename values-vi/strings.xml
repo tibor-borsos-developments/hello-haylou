@@ -1,7 +1,11 @@
-<resources>
-    <string name="app_name">Hello Haylou</string>
+<?xml version="1.0"?>
+<!DOCTYPE resources [
+    <!ENTITY app_name "Hello Haylou">
+    <!ENTITY device_name "Haylou">
+    ]>
 
-    <string name="menu_nav_home">Haylou</string>
+<resources>
+    <string name="menu_nav_home">@string/device_name</string>
     <string name="menu_nav_notification">Thông báo</string>
     <string name="menu_nav_call">Cuộc gọi</string>
     <string name="menu_nav_step">Giám sát bước chân</string>
@@ -18,7 +22,7 @@
     <string name="menu_nav_feedback">Phản hồi</string>
     <string name="menu_nav_privacy_policy">Chính sách bảo mật</string>
     <string name="menu_nav_theme">Theme</string>
-    <string name="menu_nav_settings" type="string">@string/settings_name</string>
+<!--    <string name="menu_nav_settings" type="string">@string/settings_name</string>-->
 
     <string name="setting_name">Cài đặt</string>
     <string name="settings_name">Cài đặt</string>
@@ -31,8 +35,8 @@
     <string name="device_state_connected_disconnected_last_time">Lần cuối nhìn thấy thiết bị</string>
     <string name="device_alarm">Báo thức tiếp</string>
 
-    <string name="device_search">Haylou search</string>
-    <string name="device_setting">Cài đặt Haylou</string>
+    <string name="device_search">&device_name; search</string>
+    <string name="device_setting">Cài đặt &device_name;</string>
 
     <string name="device_mac_address">Địa chỉ MAC</string>
     <string name="device_mac_address_invalid">Địa chỉ MAC không hợp lệ</string>
@@ -57,9 +61,9 @@
     <string name="mi_band_setting_menu_menu">Các mục menu ẩn</string>
 
     <string name="mi_band_setting_auth_mi_fit">Đồng bộ với %1$s</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">Hello Haylou cần cài đặt %1$s trên cùng điện thoại. Đầu tiên, bạn cần kết nối %2$s với %1$s, sau đó có thể sử dụng Hello Haylou. Nếu bạn muốn dùng %1$s, chọn mục này.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">&app_name; cần cài đặt %1$s trên cùng điện thoại. Đầu tiên, bạn cần kết nối %2$s với %1$s, sau đó có thể sử dụng &app_name;. Nếu bạn muốn dùng %1$s, chọn mục này.</string>
     <string name="mi_band_setting_auth_standalone">Hoạt động độc lập</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the Hello Haylou to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted.  The %2$s screen must be turned on while performing operations.</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the &app_name; to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted.  The %2$s screen must be turned on while performing operations.</string>
 
     <string name="mi_band_setting_auth_key">Authentication key</string>
     <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
@@ -86,6 +90,7 @@
     <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
     <string name="mi_band_setting_idle_alert_dnd">Không làm phiền trong khi nghỉ (12:00-14:00)</string>
 
+    <string name="mi_band_setting_profile">This data is needed to correctly calculate the number of steps, distance, and burned calories</string>
     <string name="mi_band_setting_gender">Giới tính</string>
     <string name="mi_band_setting_gender_male">Nam</string>
     <string name="mi_band_setting_gender_female">Nữ</string>
@@ -134,12 +139,12 @@
     <string name="pref_language_title">Ngôn ngữ</string>
 
     <!-- Snackbar Messages -->
-    <string name="message_enable_bluetooth">Vui lòng kích hoạt Bluetooth và mang Haylou gần hơn với điện thoại</string>
-    <string name="message_discover_mi_band">Haylou chưa được cài đặt, hãy kết nối với nó</string>
-    <string name="message_discovering_mi_band">Tìm Haylou (có thể mất 1 phút) &#8230;</string>
+    <string name="message_enable_bluetooth">Vui lòng kích hoạt Bluetooth và mang &device_name; gần hơn với điện thoại</string>
+    <string name="message_discover_mi_band">&device_name; chưa được cài đặt, hãy kết nối với nó</string>
+    <string name="message_discovering_mi_band">Tìm &device_name; (có thể mất 1 phút) &#8230;</string>
     <string name="message_discovered_mi_band">Phát hiện %1$s</string>
-    <string name="message_discovered_no_mi_band">Haylou không được tìm thấy</string>
-    <string name="message_discovered_not_found_mi_band">Nếu Haylou không được tìm thấy, bật: Haylou Sport/cài đặt … hoặc ghép nối tại cài đặt Bluetooth</string>
+    <string name="message_discovered_no_mi_band">&device_name; không được tìm thấy</string>
+    <string name="message_discovered_not_found_mi_band">Nếu &device_name; không được tìm thấy, bật: Haylou Sport/cài đặt … hoặc ghép nối tại cài đặt Bluetooth</string>
     <string name="message_enable_notification_listener_access">Kích hoạt tính năng truy cập thông báo: Cài đặt/Bảo mật/Truy cập thông báo</string>
     <string name="message_enable_notification_listener_access_4_4">Kích hoạt tính năng truy cập thông báo: Cài đặt/Bảo mật/Truy cập thông báo</string>
     <string name="message_open_settings">Các cài đặt</string>
@@ -185,11 +190,11 @@
     <br>• <b>Haylou Solar (LS05)</b>
     <br>• <b>Haylou Smart Watch 2 (LS02)</b>
     <br>• <b>Haylou Smart Watch (LS01)</b>
-    <p>Hello Haylou requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
+    <p><app_name/> requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
     <p>Nếu không tìm thấy Band, bạn có thể nhập MAC thủ công.</p>
     <p><b>Nếu có vấn đề kết nối:</b>
-    <br>- Màn hình ứng dụng gần đây: khoá Hello Haylou (kéo xuống và ấn vào biểu tượng cái khoá).
-    <br>- Tối ưu điện thoại/Pin: cho phép Hello Haylou không cần tối ưu.
+    <br>- Màn hình ứng dụng gần đây: khoá <app_name/> (kéo xuống và ấn vào biểu tượng cái khoá).
+    <br>- Tối ưu điện thoại/Pin: cho phép <app_name/> không cần tối ưu.
     <br>- Điện thoại/Ứng dụng: Xoá Chia sẻ Bluetooth và dữ liệu ứng dụng \'Bluetooth\'.
     </p>]]></string>
 
@@ -342,7 +347,7 @@
     <string name="message_time_alarm_sync">Đồng bộ báo thức %1$s (xóa và cài đặt báo thức trên smartwatch của bạn)</string> <!-- %1$s = Haylou Smart Watch... -->
 
     <string name="info_dialog_alarm"><![CDATA[
-        <p>When using collaboration mode, the settings of the original application and the Hello Haylou application can overwrite and delete each other\'s settings.</p>
+        <p>When using collaboration mode, the settings of the original application and the <app_name/> application can overwrite and delete each other\'s settings.</p>
         <p>The last operation performed will take effect.</p>
     ]]></string>
 
@@ -573,7 +578,7 @@
     <string name="feedback_google_play_title">Đánh giá ứng dụng này</string>
     <string name="feedback_request_feature_title">Yêu cầu tính năng</string>
     <string name="feedback_request_feature_summary">Xử lý e-mail tự động, bạn sẽ không nhận được phản hồi</string>
-    <string name="feedback_translation_title">Hello Haylou translation</string>
+    <string name="feedback_translation_title">&app_name; translation</string>
     <string name="feedback_translation_title_summary">Please help in translation</string>
 
     <!-- Privacy policy -->
@@ -592,7 +597,7 @@
     <string name="privacy_policy_not_collect_title">Thông tin mà chúng tôi không thu thập</string>
     <string name="privacy_policy_not_collect"><![CDATA[
         <p>• Chúng tớ không lấy thông tin cá nhân như tên, tuổi, mail, địa chỉ, số ĐT, IP hoặc MAC.</p>
-        • Chúng tớ không thu thập dữ liệu sức khoẻ cá nhân, danh bạ và tin nhắn.
+        <p>• Chúng tớ không thu thập dữ liệu sức khoẻ cá nhân, danh bạ và tin nhắn.</p>
         • We do not collect location data.
     ]]></string>
 

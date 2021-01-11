@@ -1,7 +1,11 @@
-<resources>
-    <string name="app_name">Hello Haylou</string>
+<?xml version="1.0"?>
+<!DOCTYPE resources [
+    <!ENTITY app_name "Hello Haylou">
+    <!ENTITY device_name "Haylou">
+    ]>
 
-    <string name="menu_nav_home">Haylou</string>
+<resources>
+    <string name="menu_nav_home">@string/device_name</string>
     <string name="menu_nav_notification">Notificación</string>
     <string name="menu_nav_call">Panggilan</string>
     <string name="menu_nav_step">Pemantau aktifitas</string>
@@ -18,7 +22,7 @@
     <string name="menu_nav_feedback">Umpan balik</string>
     <string name="menu_nav_privacy_policy">Kebijakan Privasi</string>
     <string name="menu_nav_theme">Tema</string>
-    <string name="menu_nav_settings" type="string">@string/settings_name</string>
+<!--    <string name="menu_nav_settings" type="string">@string/settings_name</string>-->
 
     <string name="setting_name">Atur</string>
     <string name="settings_name">Pengaturan</string>
@@ -31,8 +35,8 @@
     <string name="device_state_connected_disconnected_last_time">Last connection and disconnection time</string>
     <string name="device_alarm">Next alarm</string>
 
-    <string name="device_search">Haylou search</string>
-    <string name="device_setting">Pengaturan Haylou</string>
+    <string name="device_search">&device_name; search</string>
+    <string name="device_setting">Pengaturan &device_name;</string>
 
     <string name="device_mac_address">Alamat MAC</string>
     <string name="device_mac_address_invalid">Alamat MAC tidak valid</string>
@@ -57,9 +61,9 @@
     <string name="mi_band_setting_menu_menu">Menu</string>
 
     <string name="mi_band_setting_auth_mi_fit">%1$s cooperation</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">Hello Haylou membutuhkan aplikasi %1$s yang telah terpasang di perangkat yang sama. Pertama tama, mungkin anda perlu untuk menghubungkan %2$s ke Aplikasi %1$s, lalu anda baru bisa memakai Hello Haylou. If you want to use %1$s, choose this.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">&app_name; membutuhkan aplikasi %1$s yang telah terpasang di perangkat yang sama. Pertama tama, mungkin anda perlu untuk menghubungkan %2$s ke Aplikasi %1$s, lalu anda baru bisa memakai &app_name;. If you want to use %1$s, choose this.</string>
     <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the Hello Haylou to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the &app_name; to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
 
     <string name="mi_band_setting_auth_key">Authentication key</string>
     <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
@@ -86,6 +90,7 @@
     <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
     <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest (12:00-14:00)</string>
 
+    <string name="mi_band_setting_profile">This data is needed to correctly calculate the number of steps, distance, and burned calories</string>
     <string name="mi_band_setting_gender">Jenis kelamin</string>
     <string name="mi_band_setting_gender_male">Pria</string>
     <string name="mi_band_setting_gender_female">Wanita</string>
@@ -134,12 +139,12 @@
     <string name="pref_language_title">Bahasa</string>
 
     <!-- Snackbar Messages -->
-    <string name="message_enable_bluetooth">Aktifkan Bluetooth dan dekatkan perangkat Haylou ke telepon</string>
-    <string name="message_discover_mi_band">Haylou belum diatur, sambungkan terlebih dahulu</string>
-    <string name="message_discovering_mi_band">Menyambungkan Haylou (mungkin memerlukan 1 menit) &#8230;</string>
+    <string name="message_enable_bluetooth">Aktifkan Bluetooth dan dekatkan perangkat &device_name; ke telepon</string>
+    <string name="message_discover_mi_band">&device_name; belum diatur, sambungkan terlebih dahulu</string>
+    <string name="message_discovering_mi_band">Menyambungkan &app_name; (mungkin memerlukan 1 menit) &#8230;</string>
     <string name="message_discovered_mi_band">%1$s Tersambung</string>
-    <string name="message_discovered_no_mi_band">Haylou tidak ditemukan</string>
-    <string name="message_discovered_not_found_mi_band">Jika Haylou tidak ditemukan, nyalakan: Haylou Sport - Mainkan - tidak dapat ditemukan atau sandingkan perangkat di pengaturan Bluetooth</string>
+    <string name="message_discovered_no_mi_band">&device_name; tidak ditemukan</string>
+    <string name="message_discovered_not_found_mi_band">Jika &device_name; tidak ditemukan, nyalakan: Haylou Sport - Mainkan - tidak dapat ditemukan atau sandingkan perangkat di pengaturan Bluetooth</string>
     <string name="message_enable_notification_listener_access">Aktifkan akses notifikasi: Pengaturan - Pemberitahuan - Akses notifikasi</string>
     <string name="message_enable_notification_listener_access_4_4">Aktifkan akses notifikasi: Pengaturan - Keamanan - Akses notifikasi</string>
     <string name="message_open_settings">Pengaturan</string>
@@ -184,11 +189,11 @@
     <br>• <b>Haylou Solar (LS05)</b>
     <br>• <b>Haylou Smart Watch 2 (LS02)</b>
     <br>• <b>Haylou Smart Watch (LS01)</b>
-    <p>Hello Haylou requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
+    <p><app_name/> requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
     <p>Jika Haylou tidak terdeteksi, anda bisa mengatur alamat MAC secara manual pada menu rincian/lanjutan.</p>
     <p><b>If you have a connection problem:</b>
-    <br>- Recent apps screen: lock the Hello Haylou (pull down the app and click on lock icon).
-    <br>- Phone/battery optimization: set Hello Haylou app to not optimized.
+    <br>- Recent apps screen: lock the <app_name/> (pull down the app and click on lock icon).
+    <br>- Phone/battery optimization: set <app_name/> app to not optimized.
     <br>- Phone/apps: clear Bluetooth Share and other \'Bluetooth\' apps data.
     ]]></string>
 
@@ -339,7 +344,7 @@
     <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Haylou Smart Watch ... -->
 
     <string name="info_dialog_alarm"><![CDATA[
-        <p>When using collaboration mode, the settings of the original application and the Hello Haylou application can overwrite and delete each other\'s settings.</p>
+        <p>When using collaboration mode, the settings of the original application and the <app_name/> application can overwrite and delete each other\'s settings.</p>
         <p>The last operation performed will take effect.</p>
     ]]></string>
 
@@ -570,7 +575,7 @@
     <string name="feedback_google_play_title">Beri nilai aplikasi</string>
     <string name="feedback_request_feature_title">Permintaan fitur, dan laporan bug</string>
     <string name="feedback_request_feature_summary">Proses e-mail otomatis, Anda tidak akan mendapat respons</string>
-    <string name="feedback_translation_title">Hello Haylou translation</string>
+    <string name="feedback_translation_title">&app_name; translation</string>
     <string name="feedback_translation_title_summary">Please help in translation</string>
 
     <!-- Privacy policy -->
@@ -589,7 +594,7 @@
     <string name="privacy_policy_not_collect_title">Information we do not collect</string>
     <string name="privacy_policy_not_collect"><![CDATA[
         <p>• We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address, IP address or MAC address.</p>
-        • We do not collect personal health data, contacts and phone notification text.
+        <p>• We do not collect personal health data, contacts and phone notification text.</p>
         • We do not collect location data.
     ]]></string>
 
