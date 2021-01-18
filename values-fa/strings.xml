@@ -13,7 +13,7 @@
     <string name="menu_nav_weather">آب و هوا</string>
     <string name="menu_nav_more">بیشتر</string>
     <string name="menu_nav_text_display">نمایش متن</string>
-    <string name="menu_nav_export">استخراج</string>
+    <string name="menu_nav_export">صدور داده</string>
     <string name="menu_nav_premium_mode">نسخه‌ی پولی</string>
     <string name="menu_nav_feedback">بازخورد</string>
     <string name="menu_nav_privacy_policy">سیاست‌های حریم شخصی</string>
@@ -122,9 +122,9 @@
     <string name="pref_battery_phone_low_repeat_interval_title">دوره‌ی تکرار</string>
     <string name="pref_cat_battery_phone_full">سطح پر بودن باتری</string>
     <string name="pref_battery_phone_full_title">اعلان پر بودن باتری</string>
-    <string name="pref_battery_phone_full_plugged_ac">AC charger power source</string>
-    <string name="pref_battery_phone_full_plugged_usb">USB port power source</string>
-    <string name="pref_battery_phone_full_plugged_wireless">Wireless power source</string>
+    <string name="pref_battery_phone_full_plugged_ac">اتصال شارژر AC</string>
+    <string name="pref_battery_phone_full_plugged_usb">اتصال شارژر USB</string>
+    <string name="pref_battery_phone_full_plugged_wireless">اتصال شارژر بی‌سیم</string>
 
     <string name="pref_battery_phone_message">باتری تلفن:\n %1$,d%%</string>
 
@@ -156,8 +156,8 @@
 
     <string name="message_notification_free_text">Up to 1 text can be recorded in normal mode</string>
 
-    <string name="message_time_alarm_free_counter">Up to 1 alarm can be used in normal mode</string>
-    <string name="message_time_alarm_max_counter">Maximum %1$d alarms can be used</string>
+    <string name="message_time_alarm_free_counter">در حالت عادی یک هشدار قابل تنظیم است</string>
+    <string name="message_time_alarm_max_counter">حداکثر %1$d هشدار قابل استفاده است.</string>
     <string name="message_time_alarm_enabled">هشدار فعال</string>
     <string name="message_time_alarm_disabled">هشدار غیر فعال</string>
     <string name="message_time_alarm_mi_band_off">هشدار خاموش</string>
@@ -167,7 +167,7 @@
     <string name="message_touch_record_help">Use the %1$s music control/find my phone features</string> <!-- %1$s = smartwatch -->
 
     <string name="message_premium_mode_only">این عملکرد در نسخه‌ی پولی قابل استفاده است</string>
-    <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
+    <string name="message_feature_is_not_supported">%1$s این ویژگی را پشتیبانی نمی‌کند</string>
     <string name="message_general_error">خطا در تنظیم (اتصال قطع شده), دوباره تلاش کنید</string>
     <string name="message_internet_error">اینترنت وصل نیست</string>
     <string name="message_gps_enable">فعال کردن موقعیت مکانی</string>
@@ -198,7 +198,7 @@
     <string name="notification_group_nav_correction">اصلاح</string>
 
     <string name="notification_group_name">نام</string>
-    <string name="notification_group_monitoring">پایش اعلان‌ها</string>
+    <string name="notification_group_monitoring">رصد اعلان‌ها</string>
     <string name="notification_group_monitoring_disabled">Disable notifications (do not show the application notifications)</string>
     <string name="notification_group_alert_title">%1$s signal</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
     <string name="notification_group_text">نمایش متن</string>
@@ -574,7 +574,7 @@
     <string name="privacy_policy_tab_privacy_policy">سیاست‌های حفظ حریم خصوصی</string>
     <string name="privacy_policy_tab_eu_consent">EU user consent</string>
 
-    <string name="privacy_policy_collect_title">Information we collect</string>
+    <string name="privacy_policy_collect_title">اطلاعاتی که ما جمع می‌کنیم</string>
     <string name="privacy_policy_collect"><![CDATA[
         <p>• We only collect anonymous information.</p>
         <p>• We collect information at the application level about the services that you use and how you use them (Google Firebase Platform).</p>
@@ -583,14 +583,14 @@
         • We do not share any data with other companies and organizations.
     ]]></string>
 
-    <string name="privacy_policy_not_collect_title">Information we do not collect</string>
+    <string name="privacy_policy_not_collect_title">اطلاعاتی که ما جمع نمی‌کنیمt</string>
     <string name="privacy_policy_not_collect"><![CDATA[
         <p>• We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address, IP address or MAC address.</p>
         • We do not collect personal health data, contacts and phone notification text.
         • We do not collect location data.
     ]]></string>
 
-    <string name="privacy_policy_links_title">Privacy policy of third party service providers</string>
+    <string name="privacy_policy_links_title">سیاست‌های حریم خصوصی برای سرویس‌های ثانویه</string>
     <string name="privacy_policy_links"><![CDATA[
         <a href="https://policies.google.com/privacy">Google Play Services</a>
         <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
@@ -664,8 +664,8 @@
     <string name="action_chart_sort_time_desc">نزولی بر اساس زمان</string>
     <string name="action_chart_sort_step_asc">صعودی بر اساس قدم</string>
     <string name="action_chart_sort_step_desc">نزولی بر اساس قدم</string>
-    <string name="action_chart_sort_duration_asc">Duration ascending</string>
-    <string name="action_chart_sort_duration_desc">Duration descending</string>
+    <string name="action_chart_sort_duration_asc">صعودی بر اساس بازه</string>
+    <string name="action_chart_sort_duration_desc">نزولی بر اساس بازه</string>
     <string name="action_chart_sort_pulse_asc">صعودی بر اساس نبض</string>
     <string name="action_chart_sort_pulse_desc">نزولی بر اساس نبض</string>
     <string name="action_chart_monthly_calendar">تقویم</string>
