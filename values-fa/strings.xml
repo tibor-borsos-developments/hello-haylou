@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE resources [
-    <!ENTITY app_name "Hello Haylou">
-    <!ENTITY device_name "Haylou">
+    <!ENTITY app_name "سلام هایلو">
+    <!ENTITY device_name "هایلو">
     ]>
 
 <resources xmlns:tools="http://schemas.android.com/tools">
@@ -17,7 +17,7 @@
     <string name="menu_nav_weather">آب و هوا</string>
     <string name="menu_nav_more">بیشتر</string>
     <string name="menu_nav_text_display">نمایش متن</string>
-    <string name="menu_nav_export">استخراج</string>
+    <string name="menu_nav_export">صدور داده</string>
     <string name="menu_nav_premium_mode">نسخه‌ی پولی</string>
     <string name="menu_nav_feedback">بازخورد</string>
     <string name="menu_nav_privacy_policy">سیاست‌های حریم شخصی</string>
@@ -127,9 +127,9 @@
     <string name="pref_battery_phone_low_repeat_interval_title">دوره‌ی تکرار</string>
     <string name="pref_cat_battery_phone_full">سطح پر بودن باتری</string>
     <string name="pref_battery_phone_full_title">اعلان پر بودن باتری</string>
-    <string name="pref_battery_phone_full_plugged_ac">AC charger power source</string>
-    <string name="pref_battery_phone_full_plugged_usb">USB port power source</string>
-    <string name="pref_battery_phone_full_plugged_wireless">Wireless power source</string>
+    <string name="pref_battery_phone_full_plugged_ac">اتصال شارژر AC</string>
+    <string name="pref_battery_phone_full_plugged_usb">اتصال شارژر USB</string>
+    <string name="pref_battery_phone_full_plugged_wireless">اتصال شارژر بی‌سیم</string>
 
     <string name="pref_battery_phone_message">%%%1$,d \n:باتری تلفن</string>
 
@@ -143,9 +143,9 @@
     <string name="message_discovering_mi_band">یافتن هایلو (ممکن است ۱ دقیقه طول بکشد) …</string>
     <string name="message_discovered_mi_band">%1$s با موفقیت متصل شد</string>
     <string name="message_discovered_no_mi_band">خطا در اتصال به هایلو</string>
-    <string name="message_discovered_not_found_mi_band">If &device_name; was not found, turn on: Haylou Sport/Play/Discoverable or pair at the phone Bluetooth settings</string>
-    <string name="message_enable_notification_listener_access">Enable notification access: Phone/Settings/Notification access</string>
-    <string name="message_enable_notification_listener_access_4_4">Enable notification access: Settings/Security/Notification access</string>
+    <string name="message_discovered_not_found_mi_band">اگر دستگاه &device_name; پیدا نشد, یا با برنامه‌ی Haylou Sport/Play/Discoverable بند را جفت کنید و یا مستقیم در تنظیمات بلوتوث این کار را انجام دهید.</string>
+    <string name="message_enable_notification_listener_access">دسترسی به اعلان را فعال کنید: گوشی/تنظیمات/اعلان‌ها دسترسی</string>
+    <string name="message_enable_notification_listener_access_4_4">دسترسی به اعلان را فعال کنید: تنظیمات/امنیت/اعلان‌ها دسترسی</string>
     <string name="message_open_settings">تنظیمات</string>
 
     <string name="message_deleted">پاک شده</string>
@@ -191,7 +191,7 @@
     <br>• <b>Haylou Smart Watch (LS01)</b>
     <p><app_name/> requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
     <p>If Haylou is not found, then you can set the MAC address manually when you discover.</p>
-    <p><b>If you have a connection problem:</b>
+    <p><b>اگر در ارتباط مشکل دارید:</b>
     <br>- Recent apps screen: lock the <app_name/> (pull down the app and click on lock icon).
     <br>- Phone/battery optimization: set <app_name/> app to not optimized.
     <br>- Phone/apps: clear Bluetooth Share and other \'Bluetooth\' apps data.
@@ -375,7 +375,7 @@
     <string name="touch_headline_other_title">کنترل‌های دیگر</string>
 
     <string name="touch_device_location_title">پیدا کردن گوشی</string>
-    <string name="touch_device_location_not_muted_only_title">Sound only if it is not muted or in DnD mode</string>
+    <string name="touch_device_location_not_muted_only_title">صدا فقط در حالتی که صدای گوشی قطع نباشد و یا حالت بدون مزاحم فعال نباشد،‌ پخش می‌شود.</string>
 
     <string name="touch_mute_toggle_title">تغییر حالت بی صدای تلفن</string>
     <string name="touch_mute_toggle_ringer_mode_title">حالت بی صدا</string>
@@ -459,11 +459,11 @@
 
     <string name="touch_setting_detection_method_title">روش تشخیص لمس دکمه</string>
 
-    <string name="touch_setting_recognition_start_title">Start touch recognition</string>
-    <string name="touch_setting_recognition_start_trigger_title">Trigger</string>
-    <string name="touch_setting_recognition_time_title">Recognition time</string>
+    <string name="touch_setting_recognition_start_title">شروع تشخیص لمس</string>
+    <string name="touch_setting_recognition_start_trigger_title">تغییر</string>
+    <string name="touch_setting_recognition_time_title">زمان تشخیص</string>
 
-    <string name="touch_setting_recognition_mi_band_signal_title">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_setting_recognition_mi_band_signal_title">%1$s هشدار</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="touch_setting_recognition_succeeded_title">الگوی لمس به تشخیص داده شد</string>
     <string name="touch_setting_recognition_failed_title">الگوی لمس تشخیص داده نشد</string>
 
@@ -491,8 +491,8 @@
     <string name="weather_setting_provider">تأمین کننده‌ی اطلاعات آب و هوا</string>
     <string name="weather_city_title">شهر</string>
     <string name="weather_unit_title">منطقه</string>
-    <string name="weather_unit_metric">Metric (Celsius)</string>
-    <string name="weather_unit_imperial">Imperial (Fahrenheit)</string>
+    <string name="weather_unit_metric">متریک (سلسیوس)</string>
+    <string name="weather_unit_imperial">سلطنتی (فارنهایت)</string>
     <string name="weather_automatic_update">به طور خودکار موقیت ام را در پس زمینه به روز کن</string>
     <string name="weather_automatic_update_title">از موقعیت فعلی ام استفاده کن</string>
     <string name="weather_automatic_update_summary">این برنامه داده ها را برای به روزرسانی آب و هوا برای مکان فعلی ، حتی هنگام بسته شدن برنامه یا استفاده از آن ، جمع آوری می کند.</string>
@@ -549,7 +549,7 @@
 
 
     <!-- Premium mode -->
-    <string name="purchase_advantage_title">Premium mode advantages</string>
+    <string name="purchase_advantage_title">ویژگی‌های نسخه‌ی پولی</string>
     <string name="purchase_advantage"><![CDATA[
         <p>• financial support for development</p>
         <p>• no ads</p>
@@ -562,7 +562,7 @@
         <p>• detailed daily graphs</p>
         • removing other restrictions…
     ]]></string>
-    <string name="purchase_policy_title">Terms and conditions of Premium mode</string>
+    <string name="purchase_policy_title">شرایط استفاده از نسخه‌ی پولی</string>
     <string name="purchase_policy"><![CDATA[
         <p>• I have tested the app and it is working properly.</p>
         <p>• I am aware of that I can not require compensation or refund due to bugs, software errors caused by changes in the software, hardware environment or using other applications.</p>
@@ -590,9 +590,9 @@
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">سیاست‌های حفظ حریم خصوصی</string>
-    <string name="privacy_policy_tab_eu_consent">EU user consent</string>
+    <string name="privacy_policy_tab_eu_consent">موافقت کاربر نهایی</string>
 
-    <string name="privacy_policy_collect_title">Information we collect</string>
+    <string name="privacy_policy_collect_title">اطلاعاتی که ما جمع می‌کنیم</string>
     <string name="privacy_policy_collect"><![CDATA[
         <p>• We only collect anonymous information.</p>
         <p>• We collect information at the application level about the services that you use and how you use them (Google Firebase Platform).</p>
@@ -601,14 +601,14 @@
         • We do not share any data with other companies and organizations.
     ]]></string>
 
-    <string name="privacy_policy_not_collect_title">Information we do not collect</string>
+    <string name="privacy_policy_not_collect_title">اطلاعاتی که ما جمع نمی‌کنیمt</string>
     <string name="privacy_policy_not_collect"><![CDATA[
         <p>• We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address, IP address or MAC address.</p>
         <p>• We do not collect personal health data, contacts and phone notification text.</p>
         • We do not collect location data.
     ]]></string>
 
-    <string name="privacy_policy_links_title">Privacy policy of third party service providers</string>
+    <string name="privacy_policy_links_title">سیاست‌های حریم خصوصی برای سرویس‌های ثانویه</string>
     <string name="privacy_policy_links"><![CDATA[
         <a href="https://policies.google.com/privacy">Google Play Services</a>
         <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
@@ -617,8 +617,8 @@
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">وضعیت</string>
-    <string name="privacy_policy_eu_consent_title_personalized">Personalized, relevant ads</string>
-    <string name="privacy_policy_eu_consent_title_non_personalized">Non-personalized ads that are less relevant</string>
+    <string name="privacy_policy_eu_consent_title_personalized">شخصی شده, تبلیغات مرتبط</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">تبلیغات غیر شخصی و نا مرتبط</string>
     <string name="privacy_policy_eu_consent_title_unknown">نامشخص</string>
 
     <string name="privacy_policy_eu_consent_setting">تنظیمات</string>
@@ -682,8 +682,8 @@
     <string name="action_chart_sort_time_desc">نزولی بر اساس زمان</string>
     <string name="action_chart_sort_step_asc">صعودی بر اساس قدم</string>
     <string name="action_chart_sort_step_desc">نزولی بر اساس قدم</string>
-    <string name="action_chart_sort_duration_asc">Duration ascending</string>
-    <string name="action_chart_sort_duration_desc">Duration descending</string>
+    <string name="action_chart_sort_duration_asc">صعودی بر اساس بازه</string>
+    <string name="action_chart_sort_duration_desc">نزولی بر اساس بازه</string>
     <string name="action_chart_sort_pulse_asc">صعودی بر اساس نبض</string>
     <string name="action_chart_sort_pulse_desc">نزولی بر اساس نبض</string>
     <string name="action_chart_monthly_calendar">تقویم</string>
