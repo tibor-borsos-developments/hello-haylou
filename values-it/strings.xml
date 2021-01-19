@@ -1,7 +1,11 @@
-<resources>
-    <string name="app_name">Hello Haylou</string>
+<?xml version="1.0"?>
+<!DOCTYPE resources [
+    <!ENTITY app_name "Hello Haylou">
+    <!ENTITY device_name "Haylou">
+    ]>
 
-    <string name="menu_nav_home">Haylou</string>
+<resources>
+    <string name="menu_nav_home">@string/device_name</string>
     <string name="menu_nav_notification">Notifiche</string>
     <string name="menu_nav_call">Chiamata</string>
     <string name="menu_nav_step">Attività</string>
@@ -18,7 +22,7 @@
     <string name="menu_nav_feedback">Feedback</string>
     <string name="menu_nav_privacy_policy">Norme sulla privacy</string>
     <string name="menu_nav_theme">Tema</string>
-    <string name="menu_nav_settings" type="string">@string/settings_name</string>
+<!--    <string name="menu_nav_settings" type="string">@string/settings_name</string>-->
 
     <string name="setting_name">Impostazioni</string>
     <string name="settings_name">Impostazioni</string>
@@ -31,8 +35,8 @@
     <string name="device_state_connected_disconnected_last_time">Potenza segnale・tempo dall\'ultima connessione e disconnessione</string>
     <string name="device_alarm">Prossimo allarme</string>
 
-    <string name="device_search">Haylou search</string>
-    <string name="device_setting">Impostazioni Haylou</string>
+    <string name="device_search">&device_name; search</string>
+    <string name="device_setting">Impostazioni &device_name;</string>
 
     <string name="device_mac_address">MAC address</string>
     <string name="device_mac_address_invalid">MAC address non valido</string>
@@ -57,9 +61,9 @@
     <string name="mi_band_setting_menu_menu">Menu</string>
 
     <string name="mi_band_setting_auth_mi_fit">Cooperazione con %1$s</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">Hello Haylou richiede l\'installazione dell\'app ufficiale %1$s sullo stesso dispositivo. Per prima cosa devi collegare %2$s nell\'app %1$s, dopo puoi usare Hello Haylou. Se vuoi utilizzare %1$s, scegli questo.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">&app_name; richiede l\'installazione dell\'app ufficiale %1$s sullo stesso dispositivo. Per prima cosa devi collegare %2$s nell\'app %1$s, dopo puoi usare &app_name;. Se vuoi utilizzare %1$s, scegli questo.</string>
     <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">L\'app %1$s non è richiesta per far funzionare Hello Haylou. Dopo l\'accoppiamento, disinstallare l\'app %1$s. Nel caso si desideri ripristinare la cooperazione con %1$s, sarà necessario riaccoppiare %2$s nell\'app %1$s. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
+    <string name="mi_band_setting_auth_standalone_hint">L\'app %1$s non è richiesta per far funzionare &app_name;. Dopo l\'accoppiamento, disinstallare l\'app %1$s. Nel caso si desideri ripristinare la cooperazione con %1$s, sarà necessario riaccoppiare %2$s nell\'app %1$s. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
 
     <string name="mi_band_setting_auth_key">Chiave di autenticazione</string>
     <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
@@ -86,6 +90,7 @@
     <string name="mi_band_setting_idle_alert_time">Tempo di inattività</string>
     <string name="mi_band_setting_idle_alert_dnd">Modalità Non Disturbare (12:00-14:00)</string>
 
+    <string name="mi_band_setting_profile">This data is needed to correctly calculate the number of steps, distance, and burned calories</string>
     <string name="mi_band_setting_gender">Sesso</string>
     <string name="mi_band_setting_gender_male">Maschio</string>
     <string name="mi_band_setting_gender_female">Femmina</string>
@@ -135,11 +140,11 @@
 
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">Per favore, attiva il Bluetooth e tieni vicino la Band</string>
-    <string name="message_discover_mi_band">Haylou non configurata, per favore esegui l\'accoppiamento</string>
-    <string name="message_discovering_mi_band">Ricerca Haylou (può richiedere 1 minuto) &#8230;</string>
+    <string name="message_discover_mi_band">&device_name; non configurata, per favore esegui l\'accoppiamento</string>
+    <string name="message_discovering_mi_band">Ricerca &device_name; (può richiedere 1 minuto) &#8230;</string>
     <string name="message_discovered_mi_band">%1$s trovata</string>
-    <string name="message_discovered_no_mi_band">Haylou non trovata</string>
-    <string name="message_discovered_not_found_mi_band">Se la Haylou non viene trovata, attiva "Haylou Sport/Funzioni/Rilevabile" oppure effettua l\'accoppiamento nelle impostazioni Bluetooth</string>
+    <string name="message_discovered_no_mi_band">&device_name; non trovata</string>
+    <string name="message_discovered_not_found_mi_band">Se la &device_name; non viene trovata, attiva "Haylou Sport/Funzioni/Rilevabile" oppure effettua l\'accoppiamento nelle impostazioni Bluetooth</string>
     <string name="message_enable_notification_listener_access">Abilita accesso notifiche: Impostazioni/Notifiche/Accesso notifiche</string>
     <string name="message_enable_notification_listener_access_4_4">Abilita accesso notifiche: Impostazioni/Sicurezza/Accesso notifiche</string>
     <string name="message_open_settings">Impostazioni</string>
@@ -185,11 +190,11 @@
     <br>• <b>Haylou Solar (LS05)</b>
     <br>• <b>Haylou Smart Watch 2 (LS02)</b>
     <br>• <b>Haylou Smart Watch (LS01)</b>
-    <p>Hello Haylou requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
+    <p><app_name/> requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
     <p>Se la Haylou non viene trovata, puoi impostare manualmente l\'indirizzo MAC dal menu dettagli.</p>
     <p><b>Se hai un problema di connessione:</b>
-    <br>- Schermata app recenti: blocca Hello Haylou (pressione prolungata sull\'app e tocca l\'icona di blocco - lucchetto).
-    <br>- Ottimizzazioni telefono/batteria: imposta Hello Haylou come "non ottimizzata".
+    <br>- Schermata app recenti: blocca <app_name/> (pressione prolungata sull\'app e tocca l\'icona di blocco - lucchetto).
+    <br>- Ottimizzazioni telefono/batteria: imposta <app_name/> come "non ottimizzata".
     <br>- Telefono/app: cancella dati di Condivisione Bluetooth e altre app \'Bluetooth\' in generale.
     ]]></string>
 
@@ -257,7 +262,7 @@
 
     <!-- Call -->
     <string name="pref_cat_call">Ricezione chiamate</string>
-    <string name="pref_call_summary_on">Ricorda di disattivare la notifica per le chiamate ricevute dall\'app Haylou Sport</string>
+    <string name="pref_call_summary_on">Ricorda di disattivare la notifica per le chiamate ricevute dall\'app %1$s</string> <!-- %1$s = official app name -->
     <string name="pref_call_text_title">Mostra ID chiamante</string>
 
     <string name="pref_call_notification_rejected">Mostra informazioni sulle chiamate rifiutate</string>
@@ -340,7 +345,7 @@
     <string name="message_time_alarm_sync">Sincronizza allarmi su %1$s (cancella e ricrea tutti gli allarmi sullo smartwatch)</string> <!-- %1$s = Haylou Smart Watch ... -->
 
     <string name="info_dialog_alarm"><![CDATA[
-        <p>When using collaboration mode, the settings of the original application and the Hello Haylou application can overwrite and delete each other\'s settings.</p>
+        <p>When using collaboration mode, the settings of the original application and the <app_name/> application can overwrite and delete each other\'s settings.</p>
         <p>The last operation performed will take effect.</p>
     ]]></string>
 
@@ -548,6 +553,19 @@
 
 
     <!-- Premium mode -->
+    <string name="purchase_advantage_title">Vantaggi modalità Premium</string>
+    <string name="purchase_advantage"><![CDATA[
+        <p>• financial support for development</p>
+        <p>• no ads</p>
+        <p>• notification setting is not limited</p>
+        <p>• call setting is not limited</p>
+        <p>• the number of alarms is not limited (the number of alarms is limited by the clock)</p>
+        <p>• do not disturb mode is not limited</p>
+        <p>• more frequent weather synchronization, location can be updated automatically, AccuWeather provider can be set</p>
+        <p>• touch setting is not limited</p>
+        <p>• detailed daily graphs</p>
+        • removing other restrictions…
+    ]]></string>
     <string name="purchase_policy_title">Termini e condizioni della modalità Premium</string>
     <string name="purchase_policy"><![CDATA[
         <p>• Io ho testato l\'app e funziona correttamente.</p>
@@ -571,8 +589,8 @@
     <string name="feedback_google_play_title">Valuta l\'app</string>
     <string name="feedback_request_feature_title">Richiesta funzionalità aggiuntive, segnalazione malfunzionamenti</string>
     <string name="feedback_request_feature_summary">Processo con email automatica, non riceverai risposta</string>
-    <string name="feedback_translation_title">Traduzione Hello Haylou</string>
-    <string name="feedback_translation_title_summary">Aiutatemi a tradurre Hello Haylou!</string>
+    <string name="feedback_translation_title">Traduzione &app_name;</string>
+    <string name="feedback_translation_title_summary">Aiutatemi a tradurre &app_name;!</string>
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Norme sulla privacy</string>
@@ -590,7 +608,7 @@
     <string name="privacy_policy_not_collect_title">Informazioni che non raccogliamo</string>
     <string name="privacy_policy_not_collect"><![CDATA[
         <p>• Non raccogliamo dati identificativi personali. In altre parole, non raccogliamo informazioni come il tuo nome, indirizzo, numero di telefono, email, indirizzo IP, o indirizzo MAC.</p>
-        • Non raccogliamo dati sulla salute, contatti e testi delle notifiche.
+        <p>• Non raccogliamo dati sulla salute, contatti e testi delle notifiche.</p>
         • We do not collect location data.
     ]]></string>
 

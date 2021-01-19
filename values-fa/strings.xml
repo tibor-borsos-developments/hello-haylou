@@ -1,7 +1,11 @@
-<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <string name="app_name">سلام هایلو</string>
+<?xml version="1.0"?>
+<!DOCTYPE resources [
+    <!ENTITY app_name "Hello Haylou">
+    <!ENTITY device_name "Haylou">
+    ]>
 
-    <string name="menu_nav_home">هایلو</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="menu_nav_home">@string/device_name</string>
     <string name="menu_nav_notification">اعلان‌ها</string>
     <string name="menu_nav_call">تماس</string>
     <string name="menu_nav_step">فعالیت</string>
@@ -18,7 +22,7 @@
     <string name="menu_nav_feedback">بازخورد</string>
     <string name="menu_nav_privacy_policy">سیاست‌های حریم شخصی</string>
     <string name="menu_nav_theme">پوسته</string>
-    <string name="menu_nav_settings" type="string">@string/settings_name</string>
+<!--    <string name="menu_nav_settings" type="string">@string/settings_name</string>-->
 
     <string name="setting_name">تنظیمات</string>
     <string name="settings_name">تنظیمات</string>
@@ -66,7 +70,7 @@
     <string name="mi_band_setting_auth_pair">جفت سازی</string>
     <string name="mi_band_setting_auth_unpair">جفت نشدن</string>
 
-    <string name="message_auth_request">این دستگاه جفته شده است, اگر کلید را نمی‌دانید، جفت سازی را لغو کنید.</string>
+    <string name="message_auth_request">این دستگاه جفت شده است, اگر کلید را نمی‌دانید، جفت سازی را لغو کنید.</string>
 
     <string name="message_mi_band_setting_auth_press_band_button">دکمه‌ی %1$s را برای جفت سازی بزنید</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
     <string name="message_mi_band_setting_auth_success">%1$s با موفقیت جفت شد</string>
@@ -85,6 +89,7 @@
     <string name="mi_band_setting_idle_alert_time">زمان عدم فعالیت</string>
     <string name="mi_band_setting_idle_alert_dnd">حالت بدو مزاحم در زمان استراحت (12:00-14:00)</string>
 
+    <string name="mi_band_setting_profile">This data is needed to correctly calculate the number of steps, distance, and burned calories</string>
     <string name="mi_band_setting_gender">جنسیت</string>
     <string name="mi_band_setting_gender_male">مرد</string>
     <string name="mi_band_setting_gender_female">زن</string>
@@ -102,7 +107,7 @@
     <string name="mi_band_battery_notification_repeat_interval">بازه‌ی تکرار</string>
     <string name="mi_band_battery_notification_shade">اعلام کردن در گوشی</string>
     <string name="mi_band_battery_notification_shade_ongoing">اطلاع رسانی مداوم (در حال انجام)</string>
-    <string name="mi_band_battery_notification_shade_message">سطح باترسی کم است: %1$,d%%</string>
+    <string name="mi_band_battery_notification_shade_message">سطح باتری کم است: %1$,d%%</string>
     <string name="mi_band_battery_notification_mi_band">اعلام کردن در دستبند</string>
     <string name="mi_band_battery_notification_mi_band_message">باتری: %1$,d%%</string>
 
@@ -126,7 +131,7 @@
     <string name="pref_battery_phone_full_plugged_usb">اتصال شارژر USB</string>
     <string name="pref_battery_phone_full_plugged_wireless">اتصال شارژر بی‌سیم</string>
 
-    <string name="pref_battery_phone_message">باتری تلفن:\n %1$,d%%</string>
+    <string name="pref_battery_phone_message">%%%1$,d \n:باتری تلفن</string>
 
     <string name="pref_language">زبان</string>
     <string name="pref_cat_language">برنامه</string>
@@ -138,9 +143,9 @@
     <string name="message_discovering_mi_band">یافتن هایلو (ممکن است ۱ دقیقه طول بکشد) …</string>
     <string name="message_discovered_mi_band">%1$s با موفقیت متصل شد</string>
     <string name="message_discovered_no_mi_band">خطا در اتصال به هایلو</string>
-    <string name="message_discovered_not_found_mi_band">If Haylou was not found, turn on: Haylou Sport/Play/Discoverable or pair at the phone Bluetooth settings</string>
-    <string name="message_enable_notification_listener_access">Enable notification access: Phone/Settings/Notification access</string>
-    <string name="message_enable_notification_listener_access_4_4">Enable notification access: Settings/Security/Notification access</string>
+    <string name="message_discovered_not_found_mi_band">اگر دستگاه &device_name; پیدا نشد, یا با برنامه‌ی Haylou Sport/Play/Discoverable بند را جفت کنید و یا مستقیم در تنظیمات بلوتوث این کار را انجام دهید.</string>
+    <string name="message_enable_notification_listener_access">دسترسی به اعلان را فعال کنید: گوشی/تنظیمات/اعلان‌ها دسترسی</string>
+    <string name="message_enable_notification_listener_access_4_4">دسترسی به اعلان را فعال کنید: تنظیمات/امنیت/اعلان‌ها دسترسی</string>
     <string name="message_open_settings">تنظیمات</string>
 
     <string name="message_deleted">پاک شده</string>
@@ -150,24 +155,24 @@
 
     <string name="message_free_counter">در حالت عادی تنها یک تنظیم قابل استفاده است</string>
 
-    <string name="message_notification_free_groups">Up to %1$,d groups can be used in normal mode</string>
-    <string name="message_notification_free_app">Up to 1 application can be selected in normal mode</string>
-    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in normal mode</string>   <!-- %1$s = 2 or more  -->
+    <string name="message_notification_free_groups">حداکثر %1$,d از گروهها را می توان در حالت عادی استفاده کرد</string>
+    <string name="message_notification_free_app">حداکثر 1 برنامه را می توان در حالت عادی انتخاب کرد</string>
+    <string name="message_notification_free_apps">حداکثر %1$,d برنامه را می توان در حالت عادی انتخاب کرد</string>   <!-- %1$s = 2 or more  -->
 
-    <string name="message_notification_free_text">Up to 1 text can be recorded in normal mode</string>
+    <string name="message_notification_free_text">حداکثر 1 متن در حالت عادی قابل ضبط است</string>
 
-    <string name="message_time_alarm_free_counter">در حالت عادی یک هشدار قابل تنظیم است</string>
-    <string name="message_time_alarm_max_counter">حداکثر %1$d هشدار قابل استفاده است.</string>
+    <string name="message_time_alarm_free_counter">در حالت عادی حداکثر 1 زنگ هشدار را می توان استفاده کرد</string>
+    <string name="message_time_alarm_max_counter">حداکثر %1$d هشدار را می توان استفاده کرد</string>
     <string name="message_time_alarm_enabled">هشدار فعال</string>
     <string name="message_time_alarm_disabled">هشدار غیر فعال</string>
     <string name="message_time_alarm_mi_band_off">هشدار خاموش</string>
 
-    <string name="message_touch_pattern_error">The specified pattern is similar to a sample of another function, record another</string>
-    <string name="message_touch_free_patterns">You can not use more than %1$,d controls in normal mode</string>
-    <string name="message_touch_record_help">Use the %1$s music control/find my phone features</string> <!-- %1$s = smartwatch -->
+    <string name="message_touch_pattern_error">الگوی مشخص شده مشابه نمونه ای از عملکرد دیگر است ، دیگری را ضبط کنید</string>
+    <string name="message_touch_free_patterns">شما نمی توانید بیش از%1$,d کنترل در حالت عادی استفاده کنید</string>
+   <string name="message_touch_record_help">استفاده از %1$s کنترل موسیقی / ویژگی های  پیدا کردن تلفن من </string> <!-- %1$s = smartwatch -->
 
     <string name="message_premium_mode_only">این عملکرد در نسخه‌ی پولی قابل استفاده است</string>
-    <string name="message_feature_is_not_supported">%1$s این ویژگی را پشتیبانی نمی‌کند</string>
+    <string name="message_feature_is_not_supported">%1$s از این ویژگی پشتیبانی نمی کند</string>
     <string name="message_general_error">خطا در تنظیم (اتصال قطع شده), دوباره تلاش کنید</string>
     <string name="message_internet_error">اینترنت وصل نیست</string>
     <string name="message_gps_enable">فعال کردن موقعیت مکانی</string>
@@ -184,11 +189,11 @@
     <br>• <b>Haylou Solar (LS05)</b>
     <br>• <b>Haylou Smart Watch 2 (LS02)</b>
     <br>• <b>Haylou Smart Watch (LS01)</b>
-    <p>Hello Haylou requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
+    <p><app_name/> requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
     <p>If Haylou is not found, then you can set the MAC address manually when you discover.</p>
-    <p><b>If you have a connection problem:</b>
-    <br>- Recent apps screen: lock the Hello Haylou (pull down the app and click on lock icon).
-    <br>- Phone/battery optimization: set Hello Haylou app to not optimized.
+    <p><b>اگر در ارتباط مشکل دارید:</b>
+    <br>- Recent apps screen: lock the <app_name/> (pull down the app and click on lock icon).
+    <br>- Phone/battery optimization: set <app_name/> app to not optimized.
     <br>- Phone/apps: clear Bluetooth Share and other \'Bluetooth\' apps data.
     ]]></string>
 
@@ -198,9 +203,9 @@
     <string name="notification_group_nav_correction">اصلاح</string>
 
     <string name="notification_group_name">نام</string>
-    <string name="notification_group_monitoring">رصد اعلان‌ها</string>
-    <string name="notification_group_monitoring_disabled">Disable notifications (do not show the application notifications)</string>
-    <string name="notification_group_alert_title">%1$s signal</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="notification_group_monitoring">پایش اعلان‌ها</string>
+    <string name="notification_group_monitoring_disabled">اعلان ها را غیرفعال کنید (اعلان های برنامه را نشان ندهید)</string>
+    <string name="notification_group_alert_title">%1$s علامت دادن</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
     <string name="notification_group_text">نمایش متن</string>
     <string name="notification_group_text_app_name">نام برنامه</string>
     <string name="notification_group_text_name">نام</string>
@@ -210,23 +215,23 @@
     <string name="notification_group_text_content_slice_title">طول متن</string>
     <string name="notification_group_display_time_title">نمایش زمان</string>
     <string name="notification_group_display_notification_title">نمایش اعلان</string>
-    <string name="notification_group_immediate">Immediate signal when notification is received</string>
-    <string name="notification_group_connecting">When connecting to phone</string>
-    <string name="notification_group_reminder">Reminder signal</string>
-    <string name="notification_group_ongoing">Signal persistent (ongoing) notifications</string>
-    <string name="notification_group_screen_off">Signal only when the screen is off</string>
-    <string name="notification_group_repeat_title">Repeat signals</string>
-    <string name="notification_group_wakelock">Wake up the phone screen</string>
-    <string name="notification_group_grouped_display_title">Display setting for the group notifications</string>
-    <string name="notification_group_grouped_sort_order_title">Sort order for the group notifications</string>
+    <string name="notification_group_immediate">علامت دادن فوری هنگام دریافت اعلان</string>
+    <string name="notification_group_connecting">هنگام اتصال به تلفن</string>
+    <string name="notification_group_reminder">یادآوری علامت</string>
+    <string name="notification_group_ongoing">علامت دادن اعلان های مداوم (در حال انجام) </string>
+    <string name="notification_group_screen_off">  فقط زمانی که نمایشگر تلفن خاموش است علامت بده</string>
+    <string name="notification_group_repeat_title">تکرار علامت</string>
+    <string name="notification_group_wakelock">روشن کردن صفحه گوشی  </string>
+    <string name="notification_group_grouped_display_title">تنظیمات نمایشگر برای اعلان های گروهی</string>
+    <string name="notification_group_grouped_sort_order_title">ترتیب مرتب سازی برای اعلان های گروهی</string>
 
-    <string name="notification_group_filter">Filter notification</string>
-    <string name="notification_group_filter_title">Title filter</string>
-    <string name="notification_group_filter_content">Content filter</string>
+    <string name="notification_group_filter">فیلتر کردن اعلان ها</string>
+    <string name="notification_group_filter_title">فیلتر عنوان</string>
+    <string name="notification_group_filter_content">فیلتر محتوا</string>
     <string name="notification_group_filter_regex">Regex</string>
-    <string name="notification_group_filter_hint">Signal only when the title or content of the notification (case insensitive)</string>
-    <string name="notification_group_filter_contains">Contains any phrases</string>
-    <string name="notification_group_filter_not_contains">Contains none phrases</string>
+    <string name="notification_group_filter_hint">فقط عنوان یا محتوای اعلان را علامت بده (به حروف کوچک حساس نیست)</string>
+    <string name="notification_group_filter_contains">شامل هر عبارتی باشد</string>
+    <string name="notification_group_filter_not_contains">حاوی هیچ یک از این عبارت نباشد</string>
 
     <string name="notification_group_sample_sms">پیامک</string>
     <string name="notification_group_sample_facebook">Messenger</string>
@@ -236,14 +241,14 @@
     <string name="notification_group_correction_title">اصلاح تیتر</string>
     <string name="notification_group_correction_content">اصلاح محتوا</string>
     <string name="notification_group_correction_regex">Regex</string>
-    <string name="notification_group_correction_hint">Case insensitive</string>
-    <string name="notification_group_correction_items">Texts to be corrected</string>
+    <string name="notification_group_correction_hint">موارد غیر حساس</string>
+    <string name="notification_group_correction_items">متنهایی که باید اصلاح شوند</string>
     <string name="notification_group_correction_find">یافتن</string>
     <string name="notification_group_correction_replace">جایگزین کردن با</string>
 
     <string name="notification_regex_hint">Non-alphanumeric characters have a special meaning, if you don\'t know the Regex, do not tick it</string>
 
-    <string name="notification_confirm_close">Are you sure you want to discard the changes?</string>
+    <string name="notification_confirm_close">آیا مطمئن هستید که می خواهید تغییرات را کنار بگذارید؟</string>
 
     <string name="notification_edit_play_text_title">تیتر اعلان</string>
     <string name="notification_edit_play_text_content">Notification content:
@@ -255,7 +260,7 @@
 
     <!-- Call -->
     <string name="pref_cat_call">تماس ورودی</string>
-    <string name="pref_call_summary_on">Do not forget to turn off incoming call alerts on Haylou Sport app</string>
+    <string name="pref_call_summary_on">فراموش نکنید که هشدارهای تماس ورودی را در برنامه %1$s خاموش کنید</string> <!-- %1$s = official app name -->
     <string name="pref_call_text_title">نمایش شماره‌ی تماس</string>
 
     <string name="pref_call_notification_rejected">نمایش اعلان برای تماس‌های بی پاسخ</string>
@@ -338,7 +343,7 @@
     <string name="message_time_alarm_sync">همگام سازی هشدارهای %1$s (حذف و تنظیم شدن هشدارها با دستبند)</string> <!-- %1$s = Haylou Smart watch ... -->
 
     <string name="info_dialog_alarm"><![CDATA[
-        <p>When using collaboration mode, the settings of the original application and the Hello Haylou application can overwrite and delete each other\'s settings.</p>
+        <p>When using collaboration mode, the settings of the original application and the <app_name/> application can overwrite and delete each other\'s settings.</p>
         <p>The last operation performed will take effect.</p>
     ]]></string>
 
@@ -358,7 +363,7 @@
     <string name="touch_tab_testing">تست</string>
     <string name="touch_tab_setting">@string/setting_name</string>
 
-    <string name="touch_function_summary">این ویژگی‌ها را فقط زمانی که در حالت مستقل تنظیم شده استف استفاده کنید.</string>
+    <string name="touch_function_summary">این ویژگی‌ها را فقط زمانی که در حالت مستقل تنظیم شده است استفاده کنید.</string>
     <string name="touch_function">%1$s عملکرد</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="touch_function_as_touch">در منوی کنترل، از دکمه‌ی لمسی به عنوان عملکرد استفاده کنید</string>
 
@@ -370,16 +375,16 @@
     <string name="touch_headline_other_title">کنترل‌های دیگر</string>
 
     <string name="touch_device_location_title">پیدا کردن گوشی</string>
-    <string name="touch_device_location_not_muted_only_title">Sound only if it is not muted or in DnD mode</string>
+    <string name="touch_device_location_not_muted_only_title">صدا فقط در حالتی که صدای گوشی قطع نباشد و یا حالت بدون مزاحم فعال نباشد،‌ پخش می‌شود.</string>
 
     <string name="touch_mute_toggle_title">تغییر حالت بی صدای تلفن</string>
     <string name="touch_mute_toggle_ringer_mode_title">حالت بی صدا</string>
     <string name="touch_mute_toggle_mute_off_title">حالت بی صدا خاموش</string>
 
     <string name="touch_music_title">موسیقی</string>
-    <string name="touch_music_function_launch">Start music with the play button if no music player is recognized</string>
-    <string name="touch_music_function_mi_band_message_launch">Start music with the play button</string>
-    <string name="touch_music_function_mi_band_message_no_track_title">Can\'t get the song name</string>
+    <string name="touch_music_function_launch">در صورت عدم شناسایی پخش کننده موسیقی ، موسیقی را با دکمه پخش شروع کنید</string>
+    <string name="touch_music_function_mi_band_message_launch">موسیقی را با دکمه پخش شروع کنید</string>
+    <string name="touch_music_function_mi_band_message_no_track_title">نمی توان نام آهنگ را دریافت کرد</string>
 
     <string name="touch_call_out_title">تماس خروجی</string>
     <string name="touch_call_out_no_contact">انتخاب مخاطب</string>
@@ -399,21 +404,21 @@
 
     <string name="touch_clear_notif_title">پاک کردن اعلان‌های تلفن</string>
 
-    <string name="touch_music_play_pause_title">Music start, play, pause</string>
-    <string name="touch_music_skip_previous_title">Music start, previous song</string>
-    <string name="touch_music_skip_next_title">Music start, next song</string>
-    <string name="touch_music_headset_only_title">Only if the headset is connected</string>
-    <string name="touch_music_launch">Start music</string>
-    <string name="touch_music_volume_up_title">Music volume up</string>
-    <string name="touch_music_volume_down_title">Music volume down</string>
-    <string name="touch_music_track_info_title">Show music track info.</string>
+    <string name="touch_music_play_pause_title">شروع موسیقی ، پخش ، مکث</string>
+    <string name="touch_music_skip_previous_title">شروع موسیقی, آهنگ قبلی</string>
+    <string name="touch_music_skip_next_title">شروع موسیقی, آهنگ بعدی</string>
+    <string name="touch_music_headset_only_title">فقط در صورت اتصال هدست</string>
+    <string name="touch_music_launch">شروع موسیقی</string>
+    <string name="touch_music_volume_up_title">افزایش صدای موسیقی</string>
+    <string name="touch_music_volume_down_title">کاهش صدای موسیقی</string>
+    <string name="touch_music_track_info_title">نمایش اطلاعات موسیقی.</string>
 
-    <string name="touch_time_launch_title">Start time monitoring</string>
-    <string name="touch_time_launch_type_timer_title">Timer</string>
-    <string name="touch_time_launch_type_stopper_title">Stopwatch</string>
-    <string name="touch_time_launch_type_interval_title">Interval</string>
-    <string name="touch_time_launch_restart">Restart if it is in progress</string>
-    <string name="touch_time_reminder_title">Show remaining/elapsed time</string>
+    <string name="touch_time_launch_title">نظارت بر زمان را شروع کنید</string>
+    <string name="touch_time_launch_type_timer_title">زمان سنج</string>
+    <string name="touch_time_launch_type_stopper_title">کرونومتر</string>
+    <string name="touch_time_launch_type_interval_title">وقفه</string>
+    <string name="touch_time_launch_restart">اگر در حال انجام است دوباره راه اندازی کنید</string>
+    <string name="touch_time_reminder_title">زمان باقی مانده / سپری شده را نشان دهید</string>
 
     <string name="touch_google_assistant_title">Google Assistant</string>
 
@@ -454,11 +459,11 @@
 
     <string name="touch_setting_detection_method_title">روش تشخیص لمس دکمه</string>
 
-    <string name="touch_setting_recognition_start_title">Start touch recognition</string>
-    <string name="touch_setting_recognition_start_trigger_title">Trigger</string>
-    <string name="touch_setting_recognition_time_title">Recognition time</string>
+    <string name="touch_setting_recognition_start_title">شروع تشخیص لمس</string>
+    <string name="touch_setting_recognition_start_trigger_title">تغییر</string>
+    <string name="touch_setting_recognition_time_title">زمان تشخیص</string>
 
-    <string name="touch_setting_recognition_mi_band_signal_title">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_setting_recognition_mi_band_signal_title">%1$s هشدار</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="touch_setting_recognition_succeeded_title">الگوی لمس به تشخیص داده شد</string>
     <string name="touch_setting_recognition_failed_title">الگوی لمس تشخیص داده نشد</string>
 
@@ -481,16 +486,16 @@
 
     <string name="weather_location_title">موقعیت مکانی</string>
 
-    <string name="weather_forecast_title">Weather forecast</string>
+    <string name="weather_forecast_title">پیش بینی آب و هوا</string>
 
     <string name="weather_setting_provider">تأمین کننده‌ی اطلاعات آب و هوا</string>
     <string name="weather_city_title">شهر</string>
     <string name="weather_unit_title">منطقه</string>
-    <string name="weather_unit_metric">Metric (Celsius)</string>
-    <string name="weather_unit_imperial">Imperial (Fahrenheit)</string>
+    <string name="weather_unit_metric">متریک (سلسیوس)</string>
+    <string name="weather_unit_imperial">سلطنتی (فارنهایت)</string>
     <string name="weather_automatic_update">به طور خودکار موقیت ام را در پس زمینه به روز کن</string>
     <string name="weather_automatic_update_title">از موقعیت فعلی ام استفاده کن</string>
-    <string name="weather_automatic_update_summary">This application collects location data to update the weather for the current location, even when the app is closed or not in use.</string>
+    <string name="weather_automatic_update_summary">این برنامه داده ها را برای به روزرسانی آب و هوا برای مکان فعلی ، حتی هنگام بسته شدن برنامه یا استفاده از آن ، جمع آوری می کند.</string>
 
     <string name="weather_current_title">آب و هوای فعلی</string>
     <string name="weather_current_location">موقعیت فعلی</string>
@@ -544,7 +549,20 @@
 
 
     <!-- Premium mode -->
-    <string name="purchase_policy_title">Terms and conditions of Premium mode</string>
+    <string name="purchase_advantage_title">ویژگی‌های حالت پولی</string>
+    <string name="purchase_advantage"><![CDATA[
+        <p>• financial support for development</p>
+        <p>• no ads</p>
+        <p>• notification setting is not limited</p>
+        <p>• call setting is not limited</p>
+        <p>• the number of alarms is not limited (the number of alarms is limited by the clock)</p>
+        <p>• do not disturb mode is not limited</p>
+        <p>• more frequent weather synchronization, location can be updated automatically, AccuWeather provider can be set</p>
+        <p>• touch setting is not limited</p>
+        <p>• detailed daily graphs</p>
+        • removing other restrictions…
+    ]]></string>
+    <string name="purchase_policy_title">شرایط استفاده از نسخه‌ی پولی</string>
     <string name="purchase_policy"><![CDATA[
         <p>• I have tested the app and it is working properly.</p>
         <p>• I am aware of that I can not require compensation or refund due to bugs, software errors caused by changes in the software, hardware environment or using other applications.</p>
@@ -564,7 +582,7 @@
     <!-- Feedback -->
     <string name="action_log_notification">لاگ</string>
 
-    <string name="feedback_google_play_title">امتیاز داده به برنامه</string>
+    <string name="feedback_google_play_title">امتیاز دادن به برنامه</string>
     <string name="feedback_request_feature_title">درخواست ویژگی و یا گزارش باگ</string>
     <string name="feedback_request_feature_summary">ایمیل تان بطور خودکار جواب داده می‌شود، ممکن است که پاسخی دریافت نکنید.</string>
     <string name="feedback_translation_title">ترجمه‌های سلام هایلو</string>
@@ -572,7 +590,7 @@
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">سیاست‌های حفظ حریم خصوصی</string>
-    <string name="privacy_policy_tab_eu_consent">EU user consent</string>
+    <string name="privacy_policy_tab_eu_consent">موافقت کاربر نهایی</string>
 
     <string name="privacy_policy_collect_title">اطلاعاتی که ما جمع می‌کنیم</string>
     <string name="privacy_policy_collect"><![CDATA[
@@ -586,7 +604,7 @@
     <string name="privacy_policy_not_collect_title">اطلاعاتی که ما جمع نمی‌کنیمt</string>
     <string name="privacy_policy_not_collect"><![CDATA[
         <p>• We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address, IP address or MAC address.</p>
-        • We do not collect personal health data, contacts and phone notification text.
+        <p>• We do not collect personal health data, contacts and phone notification text.</p>
         • We do not collect location data.
     ]]></string>
 
@@ -599,8 +617,8 @@
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">وضعیت</string>
-    <string name="privacy_policy_eu_consent_title_personalized">Personalized, relevant ads</string>
-    <string name="privacy_policy_eu_consent_title_non_personalized">Non-personalized ads that are less relevant</string>
+    <string name="privacy_policy_eu_consent_title_personalized">شخصی شده, تبلیغات مرتبط</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">تبلیغات غیر شخصی و نا مرتبط</string>
     <string name="privacy_policy_eu_consent_title_unknown">نامشخص</string>
 
     <string name="privacy_policy_eu_consent_setting">تنظیمات</string>
@@ -625,7 +643,7 @@
     <string name="ringer_mode_dnd_priority_only">بدون مزاحم (با اولویت)</string>
     <string name="ringer_mode_dnd_alarms_only">بدون مزاحم (هشدارها)</string>
     <string name="ringer_mode_dnd_total_silence">بدون مزاحم (سکوت محض)</string>
-    <string name="unknown">نا مشخص</string>
+    <string name="unknown">نامشخص</string>
     <string name="maximum">حداکثر</string>
     <string name="all_day">تمام روز</string>
     <string name="timed">زمان دار</string>

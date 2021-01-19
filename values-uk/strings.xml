@@ -1,7 +1,11 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">Hello Haylou</string>
+<?xml version="1.0"?>
+<!DOCTYPE resources [
+    <!ENTITY app_name "Hello Haylou">
+    <!ENTITY device_name "Haylou">
+    ]>
 
-    <string name="menu_nav_home">Бандажі</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="menu_nav_home">@string/device_name</string>
     <string name="menu_nav_notification">Сповіщення</string>
     <string name="menu_nav_call">Виклики</string>
     <string name="menu_nav_step">Активність</string>
@@ -18,7 +22,7 @@
     <string name="menu_nav_premium_mode">Преміум</string>
     <string name="menu_nav_feedback">Зворотній зв\'язок</string>
     <string name="menu_nav_privacy_policy">Політика конфіденційності</string>
-    <string name="menu_nav_settings" type="string">@string/settings_name</string>
+<!--    <string name="menu_nav_settings" type="string">@string/settings_name</string>-->
 
     <string name="setting_name">Налаштування</string>
     <string name="settings_name">Налаштування</string>
@@ -30,8 +34,8 @@
     <string name="device_state_connected_disconnected_last_time">Час останніх з\'єднання/роз\'єднання</string>
     <string name="device_alarm">Наступний будильник</string>
 
-    <string name="device_search">Haylou search</string>
-    <string name="device_setting">Налаштування Haylou</string>
+    <string name="device_search">&device_name; search</string>
+    <string name="device_setting">Налаштування &device_name;</string>
 
     <string name="device_mac_address">MAC адреса</string>
     <string name="device_mac_address_invalid">Невірна MAC адреса</string>
@@ -56,9 +60,9 @@
     <string name="mi_band_setting_menu_menu">Меню</string>
 
     <string name="mi_band_setting_auth_mi_fit">Взаємодія з %1$s</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">Hello Haylou потребує втановленого додатку %1$s на тому ж телефоні. Спочатку ви маєте зв\'язати %2$s з додатком %1$s, потім ви зможете використовувати Hello Haylou. Оберіть цей пункт, якщо бажаєте використовувати додаток %1$s.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">&app_name; потребує втановленого додатку %1$s на тому ж телефоні. Спочатку ви маєте зв\'язати %2$s з додатком %1$s, потім ви зможете використовувати &app_name;. Оберіть цей пункт, якщо бажаєте використовувати додаток %1$s.</string>
     <string name="mi_band_setting_auth_standalone">Автономна взаємодія</string>
-    <string name="mi_band_setting_auth_standalone_hint">Для роботи Hello Haylou, не потрібний додаток %1$s. Після зв\'язування, видаліть додаток %1$s. Для відновлення взаємодії з %1$s, буде потрібно знову зв\'язати %2$s з додатком %1$s. If you use the unpair function, the data on the smartwatch will be deleted.  The %2$s screen must be turned on while performing operations.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Для роботи &app_name;, не потрібний додаток %1$s. Після зв\'язування, видаліть додаток %1$s. Для відновлення взаємодії з %1$s, буде потрібно знову зв\'язати %2$s з додатком %1$s. If you use the unpair function, the data on the smartwatch will be deleted.  The %2$s screen must be turned on while performing operations.</string>
 
     <string name="mi_band_setting_auth_key">Ключ автентифікації</string>
     <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
@@ -85,6 +89,7 @@
     <string name="mi_band_setting_idle_alert_time">Час бездіяльності</string>
     <string name="mi_band_setting_idle_alert_dnd">Не турбувати під час відпочинку (12:00-14:00)</string>
 
+    <string name="mi_band_setting_profile">This data is needed to correctly calculate the number of steps, distance, and burned calories</string>
     <string name="mi_band_setting_gender">Стать</string>
     <string name="mi_band_setting_gender_male">Чоловіча</string>
     <string name="mi_band_setting_gender_female">Жіноча</string>
@@ -185,11 +190,11 @@
     <br>• <b>Haylou Solar (LS05)</b>
     <br>• <b>Haylou Smart Watch 2 (LS02)</b>
     <br>• <b>Haylou Smart Watch (LS01)</b>
-    <p>Hello Haylou requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
+    <p><app_name/> requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
     <p>Якщо браслет не знайдено, ви можете вказати MAC адресу вручну при пошуку.</p>
     <p><b>Якщо у вас проблеми з підключенням:</b>
-    <br>- Нещодавні додатки: зафіксуйте Hello Haylou (потягніть донизу та торкніться значка із замком).
-    <br>- Телефон/Оптимізація акумулятора: вимкніть оптимізацію для додатка Hello Haylou.
+    <br>- Нещодавні додатки: зафіксуйте <app_name/> (потягніть донизу та торкніться значка із замком).
+    <br>- Телефон/Оптимізація акумулятора: вимкніть оптимізацію для додатка <app_name/>.
     <br>- Телефон/Додатки: очистіть дані додатку Bluetooth Share та інших додатків \'Bluetooth\'.
     ]]></string>
 
@@ -256,7 +261,7 @@
 
     <!-- Call -->
     <string name="pref_cat_call">Вхідний виклик</string>
-    <string name="pref_call_summary_on">Вимкніть сповіщення про вхідні виклики у Haylou</string>
+    <string name="pref_call_summary_on">Вимкніть сповіщення про вхідні виклики у %1$s</string> <!-- %1$s = official app name -->
     <string name="pref_call_text_title">Відображати дані абонента</string>
 
     <string name="pref_call_notification_rejected">Сповіщення про відхилені виклики</string>
@@ -338,7 +343,7 @@
     <string name="message_time_alarm_sync">Синхронізувати будильники %1$s (відалення та встановлення будильників на браслеті)</string> <!-- %1$s = Haylou Smart Watch ... -->
 
     <string name="info_dialog_alarm"><![CDATA[
-        <p>When using collaboration mode, the settings of the original application and the Hello Haylou application can overwrite and delete each other\'s settings.</p>
+        <p>When using collaboration mode, the settings of the original application and the <app_name/> application can overwrite and delete each other\'s settings.</p>
         <p>The last operation performed will take effect.</p>
     ]]></string>
 
@@ -545,6 +550,19 @@
 
 
     <!-- Premium mode -->
+    <string name="purchase_advantage_title">Переваги преміум-режиму</string>
+    <string name="purchase_advantage"><![CDATA[
+        <p>• financial support for development</p>
+        <p>• no ads</p>
+        <p>• notification setting is not limited</p>
+        <p>• call setting is not limited</p>
+        <p>• the number of alarms is not limited (the number of alarms is limited by the clock)</p>
+        <p>• do not disturb mode is not limited</p>
+        <p>• more frequent weather synchronization, location can be updated automatically, AccuWeather provider can be set</p>
+        <p>• touch setting is not limited</p>
+        <p>• detailed daily graphs</p>
+        • removing other restrictions…
+    ]]></string>
     <string name="purchase_policy_title">Умови преміум-режиму</string>
     <string name="purchase_policy"><![CDATA[
         <p>- Я перевірив додаток, він працює належним чином.</p>
@@ -568,7 +586,7 @@
     <string name="feedback_google_play_title">Оцініть додаток</string>
     <string name="feedback_request_feature_title">Запит на функції, повідомлення про помилки</string>
     <string name="feedback_request_feature_summary">Автоматична обробка листів, відповідь може не надійти</string>
-    <string name="feedback_translation_title">Переклад Hello Haylou</string>
+    <string name="feedback_translation_title">Переклад &app_name;</string>
     <string name="feedback_translation_title_summary">Будьласка допоможіть перекласти</string>
 
     <!-- Privacy policy -->
@@ -587,7 +605,7 @@
     <string name="privacy_policy_not_collect_title">Інформація що не збирається</string>
     <string name="privacy_policy_not_collect"><![CDATA[
         <p>• Ми не збираємо інформацію про вас, що ідентифікує особу. Іншими словами, ми не збираємо таку інформацію, як ваше ім’я, адреса, номер телефону, електронна адреса, IP-адреса або MAC-адреса.</p>
-        • Ми не збираємо особисті дані про здоров’я, контакти та тексти сповіщень.
+        <p>• Ми не збираємо особисті дані про здоров’я, контакти та тексти сповіщень.</p>
         • We do not collect location data.
     ]]></string>
 

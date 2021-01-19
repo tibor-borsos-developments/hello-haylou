@@ -1,7 +1,11 @@
-<resources>
-    <string name="app_name">Hello Haylou</string>
+<?xml version="1.0"?>
+<!DOCTYPE resources [
+    <!ENTITY app_name "Hello Haylou">
+    <!ENTITY device_name "Haylou">
+    ]>
 
-    <string name="menu_nav_home">Haylou</string>
+<resources>
+    <string name="menu_nav_home">@string/device_name</string>
     <string name="menu_nav_notification">Ειδοποίηση</string>
     <string name="menu_nav_call">Κλήση</string>
     <string name="menu_nav_step">Δραστηριότητα</string>
@@ -18,7 +22,7 @@
     <string name="menu_nav_feedback">Σχόλια</string>
     <string name="menu_nav_privacy_policy">Πολιτική απορρήτου</string>
     <string name="menu_nav_theme">Pυθμίσεις θέματος</string>
-    <string name="menu_nav_settings" type="string">@string/settings_name</string>
+<!--    <string name="menu_nav_settings" type="string">@string/settings_name</string>-->
 
     <string name="setting_name">Ρυθμίσεις</string>
     <string name="settings_name">Ρυθμίσεις</string>
@@ -31,8 +35,8 @@
     <string name="device_state_connected_disconnected_last_time">Τελευταίος χρόνος σύνδεσης και αποσύνδεσης</string>
     <string name="device_alarm">Ειδοποίηση</string>
 
-    <string name="device_search">Haylou search</string>
-    <string name="device_setting">Haylou ρυθμίσεις</string>
+    <string name="device_search">&device_name; search</string>
+    <string name="device_setting">&device_name; ρυθμίσεις</string>
 
     <string name="device_mac_address">Διεύθυνση MAC</string>
     <string name="device_mac_address_invalid">Η MAC διεύθυνση δεν είναι έγκυρη</string>
@@ -57,9 +61,9 @@
     <string name="mi_band_setting_menu_menu">Μενού</string>
 
     <string name="mi_band_setting_auth_mi_fit">%1$s cooperation</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">Το Hello Haylou  απαιτεί την εγκατάσταση της επίσημης εφαρμογής %1$s στην ίδια συσκευή. Στην αρχή θα πρέπει να αντιστοιχίσετε %2$s με την εφαρμογή %1$s, μετά θα μπορείτε να χρησιμοποιήσετε το Hello Haylou. If you want to use %1$s, choose this.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Το &app_name;  απαιτεί την εγκατάσταση της επίσημης εφαρμογής %1$s στην ίδια συσκευή. Στην αρχή θα πρέπει να αντιστοιχίσετε %2$s με την εφαρμογή %1$s, μετά θα μπορείτε να χρησιμοποιήσετε το &app_name;. If you want to use %1$s, choose this.</string>
     <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$st app is not required for the Hello Haylou to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$st app is not required for the &app_name; to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
 
     <string name="mi_band_setting_auth_key">Authentication key</string>
     <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
@@ -86,6 +90,7 @@
     <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
     <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest (12:00-14:00)</string>
 
+    <string name="mi_band_setting_profile">This data is needed to correctly calculate the number of steps, distance, and burned calories</string>
     <string name="mi_band_setting_gender">Φύλο</string>
     <string name="mi_band_setting_gender_male">Ψευδώνυμο</string>
     <string name="mi_band_setting_gender_female">Γυναίκα</string>
@@ -134,12 +139,12 @@
     <string name="pref_language_title">Γλώσσα</string>
 
     <!-- Snackbar Messages -->
-    <string name="message_enable_bluetooth">Παρακαλούμε να ενεργοποιήσετε το Bluetooth και φέρτε τη συσκευή Haylou πιο κοντά στο τηλέφωνο</string>
-    <string name="message_discover_mi_band">Το Haylou δεν έχει οριστεί, παρακαλούμε πατήστε ανίχνευση</string>
-    <string name="message_discovering_mi_band">Ανίχνευση για Haylou (μπορεί να πάρει 1 λεπτό) &#8230;</string>
+    <string name="message_enable_bluetooth">Παρακαλούμε να ενεργοποιήσετε το Bluetooth και φέρτε τη συσκευή &device_name; πιο κοντά στο τηλέφωνο</string>
+    <string name="message_discover_mi_band">Το &device_name; δεν έχει οριστεί, παρακαλούμε πατήστε ανίχνευση</string>
+    <string name="message_discovering_mi_band">Ανίχνευση για &device_name; (μπορεί να πάρει 1 λεπτό) &#8230;</string>
     <string name="message_discovered_mi_band">Το %1$s ανιχνεύθηκε</string>
-    <string name="message_discovered_no_mi_band">Το Haylou δεν ανιχνεύθηκε</string>
-    <string name="message_discovered_not_found_mi_band">Σε περίπτωση που το Haylou δεν ανιχνευθεί, ενεργοποιήστε το: Haylou Sport/Play/Discoverable ή συζεύξτε από τις ρυθμίσεις Bluetooth του κινητού σας.</string>
+    <string name="message_discovered_no_mi_band">Το &device_name; δεν ανιχνεύθηκε</string>
+    <string name="message_discovered_not_found_mi_band">Σε περίπτωση που το &device_name; δεν ανιχνευθεί, ενεργοποιήστε το: Haylou Sport/Play/Discoverable ή συζεύξτε από τις ρυθμίσεις Bluetooth του κινητού σας.</string>
     <string name="message_enable_notification_listener_access">Ενεργοποίηση πρόσβασης ειδοποίησης: Ρυθμίσεις/ειδοποιήσεις/Πρόσβασης ειδοποίησης (Settings/Notifications/Notification access)</string>
     <string name="message_enable_notification_listener_access_4_4">Ενεργοποίηση πρόσβασης ειδοποίησης: Ρυθμίσεις/Ασφάλεια/Πρόσβασης ειδοποίησης (Settings/Security/Notification access)</string>
     <string name="message_open_settings">Ρυθμίσεις</string>
@@ -185,11 +190,11 @@
     <br>• <b>Haylou Solar (LS05)</b>
     <br>• <b>Haylou Smart Watch 2 (LS02)</b>
     <br>• <b>Haylou Smart Watch (LS01)</b>
-    <p>Hello Haylou requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
+    <p><app_name/> requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
     <p>Αν το Haylou δεν ανιχνευθεί, τότε μπορείτε να ρυθμίσετε τη διεύθυνση MAC χειροκίνητα από το μενού λεπτομέρειες.</p>
     <p><b>Εάν έχετε πρόβλημα σύνδεσης:</b>
-    <br>- Στην οθόνη των πρόσφατων εφαρμογών: κλειδώστε το Hello Haylou (τραβήξτε την εφαρμογή προς τα κάτω και κάντε κλικ στο εικονίδιο κλειδώματος).
-    <br>- Ρυθμίσεις τηλεφώνου/μπαταρίας/βελτιστοποίηση μπαταρίας: Μη ρυθμίσετε βελτιστοποίηση στην εφαρμογή Hello Haylou.
+    <br>- Στην οθόνη των πρόσφατων εφαρμογών: κλειδώστε το <app_name/> (τραβήξτε την εφαρμογή προς τα κάτω και κάντε κλικ στο εικονίδιο κλειδώματος).
+    <br>- Ρυθμίσεις τηλεφώνου/μπαταρίας/βελτιστοποίηση μπαταρίας: Μη ρυθμίσετε βελτιστοποίηση στην εφαρμογή <app_name/>.
     <br>- Τηλέφωνο/εφαρμογές: καθαρισμός Bluetooth διαμοιρασμού και άλλα\'Bluetooth\' δεδομένα εφαρμογών.
     ]]></string>
 
@@ -257,7 +262,7 @@
 
     <!-- Call -->
     <string name="pref_cat_call">Εισερχόμενη κλήση</string>
-    <string name="pref_call_summary_on">Μην ξεχάσετε να απενεργοποιήσετε ειδοποιήσεις εισερχόμενων κλήσεων (incoming call alerts) στήν εφαρμογή Haylou Sport</string>
+    <string name="pref_call_summary_on">Μην ξεχάσετε να απενεργοποιήσετε ειδοποιήσεις εισερχόμενων κλήσεων (incoming call alerts) στήν εφαρμογή %1$s</string> <!-- %1$s = official app name -->
     <string name="pref_call_text_title">Εμφάνιση ταυτότητας καλούντος</string>
 
     <string name="pref_call_notification_rejected">Show notification about rejected call</string>
@@ -339,7 +344,7 @@
     <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Haylou Smart Watch ... -->
 
     <string name="info_dialog_alarm"><![CDATA[
-        <p>When using collaboration mode, the settings of the original application and the Hello Haylou application can overwrite and delete each other\'s settings.</p>
+        <p>When using collaboration mode, the settings of the original application and the <app_name/> application can overwrite and delete each other\'s settings.</p>
         <p>The last operation performed will take effect.</p>
     ]]></string>
 
@@ -547,6 +552,19 @@
 
 
     <!-- Premium mode -->
+    <string name="purchase_advantage_title">Πλεονεκτήματα premium λειτουργίας</string>
+    <string name="purchase_advantage"><![CDATA[
+        <p>• financial support for development</p>
+        <p>• no ads</p>
+        <p>• notification setting is not limited</p>
+        <p>• call setting is not limited</p>
+        <p>• the number of alarms is not limited (the number of alarms is limited by the clock)</p>
+        <p>• do not disturb mode is not limited</p>
+        <p>• more frequent weather synchronization, location can be updated automatically, AccuWeather provider can be set</p>
+        <p>• touch setting is not limited</p>
+        <p>• detailed daily graphs</p>
+        • removing other restrictions…
+    ]]></string>
     <string name="purchase_policy_title">Όροι και προϋποθέσεις της premium λειτουργίας</string>
     <string name="purchase_policy"><![CDATA[
         <p>• Δοκίμασα την εφαρμογή και λειτουργεί σωστά.</p>
@@ -570,7 +588,7 @@
     <string name="feedback_google_play_title">Βαθμολόγησε αυτήν την εφαρμογή</string>
     <string name="feedback_request_feature_title">Ζητήστε κάποιο χαρακτηριστικό, αναφορά σφαλμάτων</string>
     <string name="feedback_request_feature_summary">Αυτόματη διαδικασία αποστολής e-mail, δεν θα πάρετε καμία απάντηση</string>
-    <string name="feedback_translation_title">Hello Haylou translation</string>
+    <string name="feedback_translation_title">&app_name; translation</string>
     <string name="feedback_translation_title_summary">Please help in translation</string>
 
     <!-- Privacy policy -->
@@ -589,7 +607,7 @@
     <string name="privacy_policy_not_collect_title">Information we do not collect</string>
     <string name="privacy_policy_not_collect"><![CDATA[
         <p>• We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address, IP address or MAC address.</p>
-        • We do not collect personal health data, contacts and phone notification text.
+        <p>• We do not collect personal health data, contacts and phone notification text.</p>
         • We do not collect location data.
     ]]></string>
 

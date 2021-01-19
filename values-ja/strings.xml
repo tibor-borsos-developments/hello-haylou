@@ -1,7 +1,11 @@
-<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <string name="app_name">HHello Haylou</string>
+<?xml version="1.0"?>
+<!DOCTYPE resources [
+    <!ENTITY app_name "Hello Haylou">
+    <!ENTITY device_name "Haylou">
+    ]>
 
-    <string name="menu_nav_home">Haylou</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="menu_nav_home">@string/device_name</string>
     <string name="menu_nav_notification">通知</string>
     <string name="menu_nav_call">通話</string>
     <string name="menu_nav_step">アクティビティ</string>
@@ -18,7 +22,7 @@
     <string name="menu_nav_feedback">フィードバック</string>
     <string name="menu_nav_privacy_policy">プライバシーポリシー</string>
     <string name="menu_nav_theme">テーマ</string>
-    <string name="menu_nav_settings" type="string">@string/settings_name</string>
+<!--    <string name="menu_nav_settings" type="string">@string/settings_name</string>-->
 
     <string name="setting_name">設定</string>
     <string name="settings_name">設定</string>
@@ -31,8 +35,8 @@
     <string name="device_state_connected_disconnected_last_time">最後に接続、切断された時間</string>
     <string name="device_alarm">次のアラーム</string>
 
-    <string name="device_search">Haylou search</string>
-    <string name="device_setting">Haylouの設定</string>
+    <string name="device_search">&device_name; search</string>
+    <string name="device_setting">&device_name;の設定</string>
 
     <string name="device_mac_address">MACアドレス</string>
     <string name="device_mac_address_invalid">MACアドレスが無効です</string>
@@ -57,9 +61,9 @@
     <string name="mi_band_setting_menu_menu">メニュー</string>
 
     <string name="mi_band_setting_auth_mi_fit">%1$sとの連携</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">%1$sのインストールが必要です。Hello Haylouを使用する前に%1$sで%2$sをペアリングしてください。</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">%1$sのインストールが必要です。&app_name;を使用する前に%1$sで%2$sをペアリングしてください。</string>
     <string name="mi_band_setting_auth_standalone">スタンドアロンモード</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the Hello Haylou to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application.If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the &app_name; to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application.If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
 
     <string name="mi_band_setting_auth_key">認証キー</string>
     <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
@@ -86,6 +90,7 @@
     <string name="mi_band_setting_idle_alert_time">無活動時間</string>
     <string name="mi_band_setting_idle_alert_dnd">休憩中は通知しない (12:00-14:00)</string>
 
+    <string name="mi_band_setting_profile">This data is needed to correctly calculate the number of steps, distance, and burned calories</string>
     <string name="mi_band_setting_gender">性別</string>
     <string name="mi_band_setting_gender_male">男性</string>
     <string name="mi_band_setting_gender_female">女性</string>
@@ -185,11 +190,11 @@
     <br>• <b>Haylou Solar (LS05)</b>
     <br>• <b>Haylou Smart Watch 2 (LS02)</b>
     <br>• <b>Haylou Smart Watch (LS01)</b>
-    <p>Hello Haylou requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
+    <p><app_name/> requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
     <p>バンドが見つからない場合はMACアドレス</p>
     <p><b>接続できない場合：</b>
-    <br>- Hello Haylouをタスクロック
-    <br>- 「バッテリー最適化を無視」をHello Haylouに許可
+    <br>- <app_name/>をタスクロック
+    <br>- 「バッテリー最適化を無視」を<app_name/>に許可
     <br>- Bluetooth Shareやその他のBluetoothアプリのデータを消去
     </p>]]></string>
 
@@ -257,7 +262,7 @@
 
     <!-- Call -->
     <string name="pref_cat_call">着信</string>
-    <string name="pref_call_summary_on">必ずHaylou Sportで着信通知をオフにしてください。</string>
+    <string name="pref_call_summary_on">必ず%1$sで着信通知をオフにしてください。</string> <!-- %1$s = official app name -->
     <string name="pref_call_text_title">発信者のIDを表示</string>
 
     <string name="pref_call_notification_rejected">着信拒否の通知を表示</string>
@@ -340,7 +345,7 @@
     <string name="message_time_alarm_sync">%1$sのアラームを同期しますか？</string> <!-- %1$s = Haylou Smart Watch ... -->
 
     <string name="info_dialog_alarm"><![CDATA[
-        <p>When using collaboration mode, the settings of the original application and the Hello Haylou application can overwrite and delete each other\'s settings.</p>
+        <p>When using collaboration mode, the settings of the original application and the <app_name/> application can overwrite and delete each other\'s settings.</p>
         <p>The last operation performed will take effect.</p>
     ]]></string>
 
@@ -549,6 +554,19 @@
 
 
     <!-- Premium mode -->
+    <string name="purchase_advantage_title">プレミアムモードの特典</string>
+    <string name="purchase_advantage"><![CDATA[
+        <p>• financial support for development</p>
+        <p>• no ads</p>
+        <p>• notification setting is not limited</p>
+        <p>• call setting is not limited</p>
+        <p>• the number of alarms is not limited (the number of alarms is limited by the clock)</p>
+        <p>• do not disturb mode is not limited</p>
+        <p>• more frequent weather synchronization, location can be updated automatically, AccuWeather provider can be set</p>
+        <p>• touch setting is not limited</p>
+        <p>• detailed daily graphs</p>
+        • removing other restrictions…
+    ]]></string>
     <string name="purchase_policy_title">プレミアムモードの利用規約</string>
     <string name="purchase_policy"><![CDATA[
         <p>• 正常に動作することを確認済みです。</p>
@@ -572,7 +590,7 @@
     <string name="feedback_google_play_title">アプリを評価</string>
     <string name="feedback_request_feature_title">機能のリクエスト・バグの報告</string>
     <string name="feedback_request_feature_summary">メールは自動処理のため返信はありません</string>
-    <string name="feedback_translation_title">Hello Haylouの翻訳</string>
+    <string name="feedback_translation_title">&app_name;の翻訳</string>
     <string name="feedback_translation_title_summary">翻訳にご協力ください</string>
 
     <!-- Privacy policy -->
@@ -591,7 +609,7 @@
     <string name="privacy_policy_not_collect_title">収集しない情報</string>
     <string name="privacy_policy_not_collect"><![CDATA[
         <p>• 個人を特定できる情報（氏名、住所、電話番号、メールアドレス、IPアドレス、MACアドレスなど）は収集しません。</p>
-        • 個人の健康データや連絡先、通知のテキストは収集しません。
+        <p>• 個人の健康データや連絡先、通知のテキストは収集しません。</p>
         • We do not collect location data.
     ]]></string>
 

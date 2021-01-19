@@ -1,7 +1,11 @@
-<resources>
-    <string name="app_name">Hello Haylou</string>
+<?xml version="1.0"?>
+<!DOCTYPE resources [
+    <!ENTITY app_name "Hello Haylou">
+    <!ENTITY device_name "Haylou">
+    ]>
 
-    <string name="menu_nav_home">Haylou</string>
+<resources>
+    <string name="menu_nav_home">@string/device_name</string>
     <string name="menu_nav_notification">通知</string>
     <string name="menu_nav_call">電話</string>
     <string name="menu_nav_step">活動</string>
@@ -18,7 +22,7 @@
     <string name="menu_nav_feedback">反饋</string>
     <string name="menu_nav_privacy_policy">隱私權政策</string>
     <string name="menu_nav_theme">主題</string>
-    <string name="menu_nav_settings" type="string">@string/settings_name</string>
+<!--    <string name="menu_nav_settings" type="string">@string/settings_name</string>-->
 
     <string name="setting_name">設定</string>
     <string name="settings_name">設定</string>
@@ -31,8 +35,8 @@
     <string name="device_state_connected_disconnected_last_time">最後連接和斷開時間</string>
     <string name="device_alarm">下一個鬧鐘</string>
 
-    <string name="device_search">尋找 Haylou</string>
-    <string name="device_setting">Haylou 設定</string>
+    <string name="device_search">尋找 &device_name;</string>
+    <string name="device_setting">&device_name; 設定</string>
 
     <string name="device_mac_address">MAC 地址</string>
     <string name="device_mac_address_invalid">MAC 地址錯誤</string>
@@ -56,9 +60,9 @@
     <string name="mi_band_setting_menu_menu">選單</string>
 
     <string name="mi_band_setting_auth_mi_fit">%1$s 協作</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">Hello Haylou 需要在同一部裝置上安裝 %1$s 應用程式。 您需要在 %1$s 程式內先配對 %2$s 後才能使用 Hello Haylou。若您希望使用 %1$s 程式，請選擇此項。</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">&app_name; 需要在同一部裝置上安裝 %1$s 應用程式。 您需要在 %1$s 程式內先配對 %2$s 後才能使用 &app_name;。若您希望使用 %1$s 程式，請選擇此項。</string>
     <string name="mi_band_setting_auth_standalone">獨立模式</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$s 應用程序對於Hello Haylou來說不是必需的。 配對裝置後請解除安裝 %1$s 程式。若要重新使用 %1$s ，您必須在 %1$s 程式內重新配對 %2$s。 若使用解除配對功能，資料將被清除。 在進行設定的過程中，%2$s 程式畫面必須開啟。</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$s 應用程序對於&app_name;來說不是必需的。 配對裝置後請解除安裝 %1$s 程式。若要重新使用 %1$s ，您必須在 %1$s 程式內重新配對 %2$s。 若使用解除配對功能，資料將被清除。 在進行設定的過程中，%2$s 程式畫面必須開啟。</string>
 
     <string name="mi_band_setting_auth_key">認證碼</string>
     <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
@@ -85,6 +89,7 @@
     <string name="mi_band_setting_idle_alert_time">空閑時間</string>
     <string name="mi_band_setting_idle_alert_dnd">在我休息時不要提醒我 (12:00-14:00)</string>
 
+    <string name="mi_band_setting_profile">This data is needed to correctly calculate the number of steps, distance, and burned calories</string>
     <string name="mi_band_setting_gender">性別</string>
     <string name="mi_band_setting_gender_male">男性</string>
     <string name="mi_band_setting_gender_female">女性</string>
@@ -135,10 +140,10 @@
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">請打開藍牙並將手環靠近手機</string>
     <string name="message_discover_mi_band">尚未設置手環，請尋找</string>
-    <string name="message_discovering_mi_band">正在尋找 Haylou 手環 (可能需要1分鐘) …</string>
+    <string name="message_discovering_mi_band">正在尋找 &device_name; 手環 (可能需要1分鐘) …</string>
     <string name="message_discovered_mi_band">%1$s 連結成功</string>
-    <string name="message_discovered_no_mi_band">Haylou 連結失敗</string>
-    <string name="message_discovered_not_found_mi_band">如果未找到Haylou，請打開：Haylou Sport / Play / Discoverable或與手機藍牙設置配對</string>
+    <string name="message_discovered_no_mi_band">&device_name; 連結失敗</string>
+    <string name="message_discovered_not_found_mi_band">如果未找到&device_name;，請打開：Haylou Sport / Play / Discoverable或與手機藍牙設置配對</string>
     <string name="message_enable_notification_listener_access">啟用通知存取：電話/設定/通知存取</string>
     <string name="message_enable_notification_listener_access_4_4">啟用通知存取：電話/設定/通知存取</string>
     <string name="message_open_settings">設定</string>
@@ -184,18 +189,18 @@
     <br>• <b>Haylou Solar (LS05)</b>
     <br>• <b>Haylou Smart Watch 2 (LS02)</b>
     <br>• <b>Haylou Smart Watch (LS01)</b>
-    <p>Hello Haylou 需要在同一部裝置上安裝官方版本的Haylou應用程式。 您必須先在Haylou應用中和智能手錶配對，然後才能使用此程式。</p>
+    <p><app_name/> 需要在同一部裝置上安裝官方版本的Haylou應用程式。 您必須先在Haylou應用中和智能手錶配對，然後才能使用此程式。</p>
     <p>如果未找到Haylou，可以嘗試手動設定MAC地址。</p>
     <p><b>如果您有連接上的問題：</b>
-    <br>- Recent apps 畫面: 鎖定Hello Haylou（拉下應用程序並點擊鎖定圖示）。
-    <br>- 手機/電池優化：將 \'Hello Haylou\' 應用設置為未優化。
+    <br>- Recent apps 畫面: 鎖定<app_name/>（拉下應用程序並點擊鎖定圖示）。
+    <br>- 手機/電池優化：將 \'<app_name/>\' 應用設置為未優化。
     <br>- 手機/應用程式：清除 \'藍牙共享\' 和其他 \'藍牙\' 應用程式資料。
     ]]></string>
 
 
     <!-- Call -->
     <string name="pref_cat_call">來電</string>
-    <string name="pref_call_summary_on">（開）不要忘記在Haylou Sport應用程式上關閉來電通知</string>
+    <string name="pref_call_summary_on">（開）不要忘記在%1$s應用程式上關閉來電通知</string> <!-- %1$s = official app name -->
     <string name="pref_call_text_title">來電顯示</string>
 
     <string name="pref_call_notification_rejected">顯示拒接來電的通知</string>
@@ -338,7 +343,7 @@
     <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Haylou Smart Watch ... -->
 
     <string name="info_dialog_alarm"><![CDATA[
-        <p>使用協作模式時，原始應用程序和Hello Haylou應用程序的設置可以覆蓋和刪除彼此的設置。</p>
+        <p>使用協作模式時，原始應用程序和<app_name/>應用程序的設置可以覆蓋和刪除彼此的設置。</p>
         <p>最後執行的操作將生效。</p>
     ]]></string>
 
@@ -546,6 +551,19 @@
 
 
     <!-- Premium mode -->
+    <string name="purchase_advantage_title">高级模式特权</string>
+    <string name="purchase_advantage"><![CDATA[
+        <p>• financial support for development</p>
+        <p>• no ads</p>
+        <p>• notification setting is not limited</p>
+        <p>• call setting is not limited</p>
+        <p>• the number of alarms is not limited (the number of alarms is limited by the clock)</p>
+        <p>• do not disturb mode is not limited</p>
+        <p>• more frequent weather synchronization, location can be updated automatically, AccuWeather provider can be set</p>
+        <p>• touch setting is not limited</p>
+        <p>• detailed daily graphs</p>
+        • removing other restrictions…
+    ]]></string>
     <string name="purchase_policy_title">高級模式的條款和條件</string>
     <string name="purchase_policy"><![CDATA[
         <p>• I have tested the app and it is working properly.</p>
@@ -569,7 +587,7 @@
     <string name="feedback_google_play_title">為此應用程式評分</string>
     <string name="feedback_request_feature_title">功能要求，錯誤報告</string>
     <string name="feedback_request_feature_summary">Automatic e-mail processing, you may not get an response</string>
-    <string name="feedback_translation_title">Hello Haylou 翻譯</string>
+    <string name="feedback_translation_title">&app_name; 翻譯</string>
     <string name="feedback_translation_title_summary">請協助翻譯</string>
 
     <!-- Privacy policy -->
@@ -588,7 +606,7 @@
     <string name="privacy_policy_not_collect_title">我們不收集以下信息</string>
     <string name="privacy_policy_not_collect"><![CDATA[
         <p>• We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address, IP address or MAC address.</p>
-        • We do not collect personal health data, contacts and phone notification text.
+        <p>• We do not collect personal health data, contacts and phone notification text.</p>
         • We do not collect location data.
     ]]></string>
 

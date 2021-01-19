@@ -1,7 +1,11 @@
-<resources>
-    <string name="app_name">Hello Haylou</string>
+<?xml version="1.0"?>
+<!DOCTYPE resources [
+    <!ENTITY app_name "Hello Haylou">
+    <!ENTITY device_name "Haylou">
+    ]>
 
-    <string name="menu_nav_home">Haylou</string>
+<resources  xmlns:tools="http://schemas.android.com/tools">
+    <string name="menu_nav_home">@string/device_name</string>
     <string name="menu_nav_notification">Értesítés</string>
     <string name="menu_nav_call">Hívás</string>
     <string name="menu_nav_step">Aktivitás</string>
@@ -18,7 +22,7 @@
     <string name="menu_nav_feedback">Visszajelzés</string>
     <string name="menu_nav_privacy_policy">Adatvédelmi irányelvek</string>
     <string name="menu_nav_theme">Téma</string>
-    <string name="menu_nav_settings" translatable="true" type="string">@string/settings_name</string>
+<!--    <string name="menu_nav_settings" type="string">@string/settings_name</string>-->
 
     <string name="setting_name">Beállítás</string>
     <string name="settings_name">Beállítások</string>
@@ -31,8 +35,8 @@
     <string name="device_state_connected_disconnected_last_time">Utolsó csatlakozás és kapcsolatbontás időpontja</string>
     <string name="device_alarm">Következő ébresztő</string>
 
-    <string name="device_search">Haylou keresés</string>
-    <string name="device_setting">Haylou beállítás</string>
+    <string name="device_search">&device_name; keresés</string>
+    <string name="device_setting">&device_name; beállítás</string>
 
     <string name="device_mac_address">MAC cím</string>
     <string name="device_mac_address_invalid">MAC cím érvénytelen</string>
@@ -85,6 +89,7 @@
     <string name="mi_band_setting_idle_alert_time">Tétlenségi idő</string>
     <string name="mi_band_setting_idle_alert_dnd">Ne figyelmeztessen pihenőidőben (12:00-14:00)</string>
 
+    <string name="mi_band_setting_profile">Ezekre az adatokra a lépésszám, távolság és az elégetett kalória helyes kiszámításához van szükség</string>
     <string name="mi_band_setting_gender">Nem</string>
     <string name="mi_band_setting_gender_male">Férfi</string>
     <string name="mi_band_setting_gender_female">Nő</string>
@@ -133,11 +138,11 @@
     <string name="pref_language_title">Nyelv</string>
 
     <!-- Snackbar Messages -->
-    <string name="message_discover_mi_band">Haylou még nincs beállítva, keresd meg</string>
-    <string name="message_discovering_mi_band">Haylou keresése folyamatban (1 percig is eltarthat) &#8230;</string>
+    <string name="message_discover_mi_band">&device_name; még nincs beállítva, keresd meg</string>
+    <string name="message_discovering_mi_band">&device_name; keresése folyamatban (1 percig is eltarthat) &#8230;</string>
     <string name="message_discovered_mi_band">%1$s csatlakoztatása sikeres</string>
-    <string name="message_discovered_no_mi_band">Haylou csatlakoztatása nem sikerült</string>
-    <string name="message_discovered_not_found_mi_band">Ha Haylou nem található, kapcsold be: Haylou Sport/Értesítések/Felfedezhetőség illetve párosítsd a telefon Bluetooth beállításoknál</string>
+    <string name="message_discovered_no_mi_band">&device_name; csatlakoztatása nem sikerült</string>
+    <string name="message_discovered_not_found_mi_band">Ha &device_name; nem található, kapcsold be: Haylou Sport/Értesítések/Felfedezhetőség illetve párosítsd a telefon Bluetooth beállításoknál</string>
     <string name="message_enable_bluetooth">Kapcsold be a Bluetooth-ot és tartsd közel a Band-t</string>
     <string name="message_enable_notification_listener_access">Engedélyezd a hozzáférést az értesítésekhez: Telefon/Beállítások/Hozzáférés értesítésekhez</string>
     <string name="message_enable_notification_listener_access_4_4">Engedélyezd a hozzáférést az értesítésekhez: Biztonság/Hozzáférés az értesítésekhez</string>
@@ -266,7 +271,7 @@
 
     <!-- Call -->
     <string name="pref_cat_call">Bejövő hívás</string>
-    <string name="pref_call_summary_on">Ne felejtsd el kikapcsolni a Haylou Sport applikációban</string>
+    <string name="pref_call_summary_on">Ne felejtsd el kikapcsolni a %1$s applikációban</string> <!-- %1$s = official app name -->
     <string name="pref_call_text_title">Hívó fél megjelenítés</string>
 
     <string name="pref_call_net_text_title">Bejövő netes hívás jelzése</string>
@@ -348,7 +353,7 @@
     <string name="message_time_alarm_sync">%1$s ébresztők szinkronizálása (ébresztők törlése és beállítása az órán)</string> <!-- %1$s = Haylou Smart Watch ... -->
 
     <string name="info_dialog_alarm"><![CDATA[
-        <p>Együttműködési mód használata esetén az eredeti alkalmazás és a Hello Haylou alkalmazás beállításai felülírhatják és törölhetik egymás beállításait.</p>
+        <p>Együttműködési mód használata esetén az eredeti alkalmazás és a <app_name/> alkalmazás beállításai felülírhatják és törölhetik egymás beállításait.</p>
         <p>Az utoljára végrehajtott művelet lesz érvényben.</p>
     ]]></string>
 
@@ -557,6 +562,19 @@
 
 
     <!-- Premium mode -->
+    <string name="purchase_advantage_title">Prémium mód előnyei</string>
+    <string name="purchase_advantage"><![CDATA[
+        <p>• pénzügyi támogatás a fejlesztéshez</p>
+        <p>• nincs reklám</p>
+        <p>• értesítés beállítás nincs korlátozva</p>
+        <p>• hívás beállítás nincs korlátozva</p>
+        <p>• ébresztők száma nincs korlátozva(az ébresztők száma az óra által korlátozva van)</p>
+        <p>• ne zavarj mód nincs korlátozva</p>
+        <p>• időjárás gyakoribb szinkronizálása, helyszín automatikusan frissíthető, AccuWeather szolgáltató beállítható</p>
+        <p>• érintés beállítás nincs korlátozva</p>
+        <p>• részletes napi grafikonok</p>
+        • egyéb korlátozások feloldása…
+    ]]></string>
     <string name="purchase_policy_title">Prémium mód megvásárlásának feltételei</string>
     <string name="purchase_policy"><![CDATA[
         <p>• Az applikációt kipróbáltam, működését megfelelőnek találtam.</p>
@@ -580,7 +598,7 @@
     <string name="feedback_google_play_title">Alkalmazás értékelés</string>
     <string name="feedback_request_feature_title">Funkció kérés, hiba bejelentés</string>
     <string name="feedback_request_feature_summary">Automatikus e-mail feldolgozás, nem biztos, hogy fogsz választ kapni</string>
-    <string name="feedback_translation_title">Hello Haylou fordítás</string>
+    <string name="feedback_translation_title">&app_name; fordítás</string>
     <string name="feedback_translation_title_summary">Kérlek segíts a fordításban</string>
 
     <!-- Privacy policy -->
@@ -599,7 +617,7 @@
     <string name="privacy_policy_not_collect_title">Nem gyűjtött információk</string>
     <string name="privacy_policy_not_collect"><![CDATA[
         <p>• Nem gyűjtünk személyazonosításra alkalmas adatokat Önről. Más szavakkal, nem gyűjtünk olyan adatokat, mint például az Ön nevét, címét, telefonszámát, e-mail címét, IP címét vagy MAC címét.</p>
-        • Nem gyűjtünk személyes egészségügyi adatokat, névjegyeket és eszközön megjelenő értesítés szövegeket.
+        <p>• Nem gyűjtünk személyes egészségügyi adatokat, névjegyeket és eszközön megjelenő értesítés szövegeket.</p>
         • Nem gyűjtünk helyadatokat.
     ]]></string>
 
