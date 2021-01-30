@@ -13,8 +13,9 @@
     <string name="menu_nav_pulse">Pulzus</string>
     <string name="menu_nav_alarm">Ébresztő</string>
     <string name="menu_nav_dnd">Ne zavarj mód</string>
-    <string name="menu_nav_touch">Érintés</string>
+    <string name="menu_nav_watch_face">Számlap</string>
     <string name="menu_nav_weather">Időjárás</string>
+    <string name="menu_nav_touch">Érintés</string>
     <string name="menu_nav_more">Továbbiak</string>
     <string name="menu_nav_text_display">Szöveg megjelenítés</string>
     <string name="menu_nav_export">Export</string>
@@ -153,22 +154,22 @@
 
     <string name="message_app_chooser_no_selected">Válassz ki egy applikációt</string>
 
-    <string name="message_free_counter">Maximum 1 beállítás használható normál módban</string>
+    <string name="message_free_counter">Maximum 1 beállítás használható ingyenes módban</string>
 
-    <string name="message_notification_free_groups">Maximum %1$,d csoport használható normál módban</string>
-    <string name="message_notification_free_app">Maximum 1 applikáció választható normál módban</string>
-    <string name="message_notification_free_apps">Maximum %1$,d applikáció választható normál módban</string>
+    <string name="message_notification_free_groups">Maximum %1$,d csoport használható ingyenes módban</string>
+    <string name="message_notification_free_app">Maximum 1 applikáció választható ingyenes módban</string>
+    <string name="message_notification_free_apps">Maximum %1$,d applikáció választható ingyenes módban</string>
 
-    <string name="message_notification_free_text">Maximum 1 szöveg rögzíthető normál módban</string>
+    <string name="message_notification_free_text">Maximum 1 szöveg rögzíthető ingyenes módban</string>
 
-    <string name="message_time_alarm_free_counter">Maximum 1 ébresztő használható normál módban</string>
+    <string name="message_time_alarm_free_counter">Maximum 1 ébresztő használható ingyenes módban</string>
     <string name="message_time_alarm_max_counter">Maximum %1$d ébresztő használható</string>
     <string name="message_time_alarm_enabled">Ébresztő beállítva</string>
     <string name="message_time_alarm_disabled">Ébresztő letiltva</string>
     <string name="message_time_alarm_mi_band_off">Ébresztő ki</string>
 
     <string name="message_touch_pattern_error">A megadott minta hasonlít egy másik funkció mintájához, rögzíts másikat</string>
-    <string name="message_touch_free_patterns">Maximum %1$,d vezérlés használható normál módban</string>
+    <string name="message_touch_free_patterns">Maximum %1$,d vezérlés használható ingyenes módban</string>
     <string name="message_touch_record_help">Használd a %1$s zene vezérlő/telefon kereső funkciókat</string> <!-- %1$s = smartwatch -->
 
     <string name="message_premium_mode_only">A funkció csak prémium módban érhető el</string>
@@ -353,7 +354,7 @@
     <string name="message_time_alarm_sync">%1$s ébresztők szinkronizálása (ébresztők törlése és beállítása az órán)</string> <!-- %1$s = Haylou Smart Watch ... -->
 
     <string name="info_dialog_alarm"><![CDATA[
-        <p>Együttműködési mód használata esetén az eredeti alkalmazás és a <app_name/> alkalmazás beállításai felülírhatják és törölhetik egymás beállításait.</p>
+        <p>Együttműködési mód használata esetén a hivatalos alkalmazás és a <app_name/> alkalmazás beállításai felülírhatják és törölhetik egymás beállításait.</p>
         <p>Az utoljára végrehajtott művelet lesz érvényben.</p>
     ]]></string>
 
@@ -365,6 +366,19 @@
     <string name="info_dialog_dnd"><![CDATA[
         <p>Ha együttműködési módot használsz, akkor a hivatalos <device_type/> alkalmazásban a ne zavarj mód (DnD) időpontja legyen 00:00-23:59 és az állapota legyen kikapcsolva.</p>
     ]]></string> <!-- %1$s Haylou fit-->
+
+
+    <!-- Watch face -->
+    <string name="watch_face_download_title">Számlap letöltés</string>
+
+    <string name="watch_face_upload_title">Számlap feltöltés</string>
+
+    <string name="watch_face_upload_prepare">Felkészülés a feltöltésre…</string>
+    <string name="watch_face_upload_progress">Feltöltés %1$,d%%</string>
+
+    <string name="watch_face_invalid_firmware">A firmware nem támogatja a számlap feltöltést, frissítsd a firmware-t a hivatalos applikációban</string>
+    <string name="watch_face_invalid_auth">Önálló módban használd, együttműködési mód használata esetén a hivatalos alkalmazás megzavarhatja a számlap feltöltést</string>
+    <string name="watch_face_invalid_free">Ingyenes módban több számlap nem tölthető fel a mai nap</string>
 
 
     <!-- Touch monitoring -->
@@ -667,11 +681,14 @@
     <string name="uninstalled">Eltávolítva</string>
     <string name="value">Érték</string>
 
+    <string name="action_premium_mode">Prémium mód</string>
     <string name="action_dismiss">Bezár</string>
     <string name="action_setting">Beállítás</string>
     <string name="action_delete">Töröl</string>
     <string name="action_export">Export</string>
     <string name="action_synchronization">Szinkronizálás</string>
+    <string name="action_download">Letöltés</string>
+    <string name="action_upload">Feltöltés</string>
     <string name="action_filter_no">Nincs szűrő</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>

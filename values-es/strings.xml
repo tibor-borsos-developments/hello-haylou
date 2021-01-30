@@ -13,8 +13,9 @@
     <string name="menu_nav_pulse">Monitoreo de pulso</string>
     <string name="menu_nav_alarm">Alarme</string>
     <string name="menu_nav_dnd">Modo No molestar</string>
-    <string name="menu_nav_touch">Monitoreo táctil</string>
+    <string name="menu_nav_watch_face">Watch face</string>
     <string name="menu_nav_weather">Clima</string>
+    <string name="menu_nav_touch">Monitoreo táctil</string>
     <string name="menu_nav_more">Más</string>
     <string name="menu_nav_text_display">Presentación del texto</string>
     <string name="menu_nav_export">Exportar</string>
@@ -88,8 +89,7 @@
     <string name="mi_band_setting_idle_alert">Recordatorio sedentario</string>
     <string name="mi_band_setting_idle_alert_time">Tiempo de inactividad</string>
     <string name="mi_band_setting_idle_alert_dnd">No molestar, mientras descansas (12:00-14:00)</string>
-
-    <string name="mi_band_setting_profile">This data is needed to correctly calculate the number of steps, distance, and burned calories</string>
+    <string name="mi_band_setting_profile">Estos datos son necesarios para calcular correctamente el número de pasos, la distancia y las calorías quemadas</string>
     <string name="mi_band_setting_gender">Género</string>
     <string name="mi_band_setting_gender_male">Masculino</string>
     <string name="mi_band_setting_gender_female">Femenino</string>
@@ -136,11 +136,11 @@
     <string name="pref_language_title">Idioma</string>
 
     <!-- Snackbar Messages -->
-    <string name="message_enable_bluetooth">Por favor, activa el Bluetooth y acerca el dispositivo &device_name; al teléfono</string>
+    <string name="message_enable_bluetooth">Active Bluetooth y acerque el dispositivo &device_name; al teléfono</string>
     <string name="message_discover_mi_band">&device_name; no está lista, por favor, encuéntrela</string>
     <string name="message_discovering_mi_band">Buscando &device_name; (puede tardar 1 minuto)…</string>
     <string name="message_discovered_mi_band">%1$s conexión exitosa</string>
-    <string name="message_discovered_no_mi_band">Conexión con &device_name; fallida</string>
+    <string name="message_discovered_no_mi_band">La conexión de &device_name; ha fallado</string>
     <string name="message_discovered_not_found_mi_band">Si &device_name; no fue encontrada, enciéndela: Haylou Sport/Fit/Fun o empareja al teléfono en los ajustes de Bluetooth</string>
     <string name="message_enable_notification_listener_access">Habilitar el acceso a las notificaciones: Teléfono/Configuración/Acceso a las notificaciones</string>
     <string name="message_enable_notification_listener_access_4_4">Habilitar el acceso a las notificaciones: Configuración/Seguridad/Acceso a las notificaciones</string>
@@ -316,9 +316,9 @@
 
     <string name="sleep_details">Detalles del sueño</string>
 
-    <string name="sleep_awake">Awake</string>
-    <string name="sleep_light">Light</string>
-    <string name="sleep_deep">Deep</string>
+    <string name="sleep_awake">Despierto</string>
+    <string name="sleep_light">Ligero</string>
+    <string name="sleep_deep">Profundo</string>
 
 
     <!-- Pulse -->
@@ -351,6 +351,19 @@
     <string name="info_dialog_dnd"><![CDATA[
         <p>Si está usando el modo de cooperación, en la aplicación oficial <device_type/> el modo no molestar (DnD) debe estar entre las 00:00 y las 23:59 y su estado debe estar apagado.</p>
     ]]></string> <!-- %1$s Haylou fit-->
+
+
+    <!-- Watch face -->
+    <string name="watch_face_download_title">Carga Watchface</string>
+
+    <string name="watch_face_upload_title">Cambiar Esfera de reloj</string>
+
+    <string name="watch_face_upload_prepare">Preparing for the upload…</string>
+    <string name="watch_face_upload_progress">Uploading %1$,d%%</string>
+
+    <string name="watch_face_invalid_firmware">The firmware does not support uploading the watch face, update the firmware in the official application</string>
+    <string name="watch_face_invalid_auth">Use in standalone mode, when using cooperation mode, the official application may block the watch face upload</string>
+    <string name="watch_face_invalid_free">In the free mode, more dials cannot be uploaded today</string>
 
 
     <!-- Touch monitoring -->
@@ -528,9 +541,9 @@
 
 
     <!-- Export -->
-    <string name="export_tab_database">Data export</string>
+    <string name="export_tab_database">Exportación de datos</string>
 
-    <string name="export_start_date">Starting date</string>
+    <string name="export_start_date">Fecha de inicio</string>
 
 
     <!-- Theme -->
@@ -547,18 +560,18 @@
 
 
     <!-- Premium mode -->
-    <string name="purchase_advantage_title">Ventajas del modo premium</string>
+    <string name="purchase_advantage_title">Ventajas del modo Premium</string>
     <string name="purchase_advantage"><![CDATA[
-        <p>• financial support for development</p>
-        <p>• no ads</p>
-        <p>• notification setting is not limited</p>
-        <p>• call setting is not limited</p>
-        <p>• the number of alarms is not limited (the number of alarms is limited by the clock)</p>
-        <p>• do not disturb mode is not limited</p>
-        <p>• more frequent weather synchronization, location can be updated automatically, AccuWeather provider can be set</p>
-        <p>• touch setting is not limited</p>
-        <p>• detailed daily graphs</p>
-        • removing other restrictions…
+        <p>• Apoyo financiero para el desarrollo</p> <p>
+        <p>• Sin anuncios</p> <p>
+        <p>• La configuración de las notificaciones no está limitada</p> <p>
+        <p>• El ajuste de las llamadas no está limitado</p> <p>
+        <p>• El número de alarmas no está limitado (el número de alarmas está limitado por el reloj)</p>
+        <p>• Modo de No molestar no está limitado</p> <p>
+        <p>• Sincronización meteorológica más frecuente, la ubicación se puede actualizar automáticamente, el proveedor AccuWeather se puede establecer</p> <p>
+        <p>• Ajuste táctil no está limitado</p> <p>
+        <p>• Gráficos diarios detallados</p> <p>
+        • eliminando otras restricciones…]
     ]]></string>
     <string name="purchase_policy_title">Términos y condiciones del modo premium</string>
     <string name="purchase_policy"><![CDATA[
@@ -652,11 +665,14 @@
     <string name="uninstalled">Desinstalado</string>
     <string name="value">Valor</string>
 
+    <string name="action_premium_mode">Modo Premium</string>
     <string name="action_dismiss">Descartar</string>
     <string name="action_setting">Configuraciones</string>
     <string name="action_delete">Eliminar</string>
     <string name="action_export">Exportar</string>
     <string name="action_synchronization">Sincronización</string>
+    <string name="action_download">Descarga</string>
+    <string name="action_upload">Carga</string>
     <string name="action_filter_no">Sin filtros</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
@@ -680,8 +696,8 @@
     <string name="action_chart_sort_time_desc">Tiempo descendente</string>
     <string name="action_chart_sort_step_asc">Pasos ascendente</string>
     <string name="action_chart_sort_step_desc">Pasos descendente</string>
-    <string name="action_chart_sort_duration_asc">Duration ascending</string>
-    <string name="action_chart_sort_duration_desc">Duration descending</string>
+    <string name="action_chart_sort_duration_asc">Duración ascendente</string>
+    <string name="action_chart_sort_duration_desc">Duración descendente</string>
     <string name="action_chart_sort_pulse_asc">Pulso ascendente</string>
     <string name="action_chart_sort_pulse_desc">Pulso descendente</string>
     <string name="action_chart_monthly_calendar">Calendario</string>

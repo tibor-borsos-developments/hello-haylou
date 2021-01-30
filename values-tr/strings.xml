@@ -13,8 +13,9 @@
     <string name="menu_nav_pulse">Nabız ölçer</string>
     <string name="menu_nav_alarm">Alarm</string>
     <string name="menu_nav_dnd">Rahatsız etmeyin modu</string>
-    <string name="menu_nav_touch">Dokunma ile kontrol</string>
+    <string name="menu_nav_watch_face">Yüz izle</string>
     <string name="menu_nav_weather">Hava</string>
+    <string name="menu_nav_touch">Dokunma ile kontrol</string>
     <string name="menu_nav_more">Daha</string>
     <string name="menu_nav_text_display">Yazı gösterimi</string>
     <string name="menu_nav_export">Dışarı ver</string>
@@ -343,7 +344,7 @@
     <string name="message_time_alarm_sync">%1$s alarmlarını senkronize et. (Akıllı saatinizdeki alarmları otomatik siler veya ekler)</string> <!-- %1$s =Haylou Smart Watch ... -->
 
     <string name="info_dialog_alarm"><![CDATA[
-        <p>When using collaboration mode, the settings of the original application and the <app_name/> application can overwrite and delete each other\'s settings.</p>
+        <p>When using cooperation mode, the settings of the official application and the <app_name/> application can overwrite and delete each other\'s settings.</p>
         <p>The last operation performed will take effect.</p>
     ]]></string>
 
@@ -355,6 +356,19 @@
     <string name="info_dialog_dnd"><![CDATA[
         <p>Haylou fit ile birlikte modunu kullanıyorsanız, <device_type/> uygulamasında, rahatsız etmeyin modu (DnD) 00:00 ile 23:59 arasında olmalıdır ve kapalı olmalıdır.</p>
     ]]></string> <!-- %1$s Haylou fit-->
+
+
+    <!-- Watch face -->
+    <string name="watch_face_download_title">Saat teması indir</string>
+
+    <string name="watch_face_upload_title">Saat teması değişti</string>
+
+    <string name="watch_face_upload_prepare">Gönderme için hazırlanıyor…</string>
+    <string name="watch_face_upload_progress">Gönderiliyor %1$,d%%</string>
+
+    <string name="watch_face_invalid_firmware">The firmware does not support uploading the watch face, update the firmware in the official application</string>
+    <string name="watch_face_invalid_auth">Use in standalone mode, when using cooperation mode, the official application may block the watch face upload</string>
+    <string name="watch_face_invalid_free">In the free mode, more dials cannot be uploaded today</string>
 
 
     <!-- Touch monitoring -->
@@ -656,11 +670,14 @@
     <string name="uninstalled">Yüklenmedi</string>
     <string name="value">Değer</string>
 
+    <string name="action_premium_mode">Premium modu</string>
     <string name="action_dismiss">Vazgeç</string>
     <string name="action_setting">Ayarlar</string>
     <string name="action_delete">Sil</string>
     <string name="action_export">Dışarı aktar</string>
     <string name="action_synchronization">Senkronizasyon</string>
+    <string name="action_download">İndir</string>
+    <string name="action_upload">Yükle</string>
     <string name="action_filter_no">Tümü</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>

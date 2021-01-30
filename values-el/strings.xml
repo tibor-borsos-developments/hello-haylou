@@ -13,8 +13,9 @@
     <string name="menu_nav_pulse">Παρακολούθηση παλμών</string>
     <string name="menu_nav_alarm">Ειδοποίηση</string>
     <string name="menu_nav_dnd">Λειτουργία μην ενοχλείτε</string>
-    <string name="menu_nav_touch">Παρακολούθηση αφής</string>
+    <string name="menu_nav_watch_face">Όψη ρολογιού</string>
     <string name="menu_nav_weather">Καιρός</string>
+    <string name="menu_nav_touch">Παρακολούθηση αφής</string>
     <string name="menu_nav_more">Περισσότερο</string>
     <string name="menu_nav_text_display">Ρυθμίσεις εικονιδίων κειμένου</string>
     <string name="menu_nav_export">Εξαγωγή</string>
@@ -154,13 +155,13 @@
 
     <string name="message_app_chooser_no_selected">Επιλέξτε μια εφαρμογή</string>
 
-    <string name="message_free_counter">Up to 1 setting can be used in normal mode</string>
+    <string name="message_free_counter">Up to 1 setting can be used in free mode</string>
 
     <string name="message_notification_free_groups">Μπορούν να χρησιμοποιηθούν μέχρι %1$,d ομάδες</string>
-    <string name="message_notification_free_app">Up to 1 application can be selected in normal mode</string>
-    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in normal mode</string>   <!-- %1$s = 2 or more  -->
+    <string name="message_notification_free_app">Up to 1 application can be selected in free mode</string>
+    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in free mode</string>   <!-- %1$s = 2 or more  -->
 
-    <string name="message_notification_free_text">Up to 1 text can be recorded in normal mode</string>
+    <string name="message_notification_free_text">Up to 1 text can be recorded in free mode</string>
 
     <string name="message_time_alarm_free_counter">Μέχρι 1 ειδοποιήσεις μπορούν να χρησιμοποιηθούν σε κανονική λειτουργία</string>
     <string name="message_time_alarm_max_counter">Μέγιστο %1$d ειδοποιήσεις μπορούν να χρησιμοποιηθούν</string>
@@ -344,7 +345,7 @@
     <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Haylou Smart Watch ... -->
 
     <string name="info_dialog_alarm"><![CDATA[
-        <p>When using collaboration mode, the settings of the original application and the <app_name/> application can overwrite and delete each other\'s settings.</p>
+        <p>When using cooperation mode, the settings of the official application and the <app_name/> application can overwrite and delete each other\'s settings.</p>
         <p>The last operation performed will take effect.</p>
     ]]></string>
 
@@ -356,6 +357,19 @@
     <string name="info_dialog_dnd"><![CDATA[
         <p>If you are using cooperation mode, in the official <device_type/> application the do not disturb (DnD) mode must be between 00:00 and 23:59 and its status must be turned off.</p>
     ]]></string> <!-- %1$s Haylou fit-->
+
+
+    <!-- Watch face -->
+    <string name="watch_face_download_title">Download watch face</string>
+
+    <string name="watch_face_upload_title">Αλλαγή όψη ρολογιού</string>
+
+    <string name="watch_face_upload_prepare">Preparing for the upload…</string>
+    <string name="watch_face_upload_progress">Uploading %1$,d%%</string>
+
+    <string name="watch_face_invalid_firmware">The firmware does not support uploading the watch face, update the firmware in the official application</string>
+    <string name="watch_face_invalid_auth">Use in standalone mode, when using cooperation mode, the official application may block the watch face upload</string>
+    <string name="watch_face_invalid_free">In the free mode, more dials cannot be uploaded today</string>
 
 
     <!-- Touch monitoring -->
@@ -657,11 +671,14 @@
     <string name="uninstalled">Uninstalled</string>
     <string name="value">Value</string>
 
+    <string name="action_premium_mode">Λειτουργία Premium</string>
     <string name="action_dismiss">Απόρριψη</string>
     <string name="action_setting">Ρυθμίσεις</string>
     <string name="action_delete">Διαγραφή</string>
     <string name="action_export">Εξαγωγή</string>
     <string name="action_synchronization">Synchronization</string>
+    <string name="action_download">Download</string>
+    <string name="action_upload">Upload</string>
     <string name="action_filter_no">Χωρίς φίλτρο</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
