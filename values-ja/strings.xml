@@ -74,12 +74,12 @@
 
     <string name="message_auth_request">It is paired, if you do not know the key, use the unpair</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">%1$sのボタンを押してペアリングしてください</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_press_band_button">%1$sのボタンを押してペアリングしてください</string> <!-- %1$s = Watch name -->
     <string name="message_mi_band_setting_auth_success">%1$sのペアリングに成功しました</string>
     <string name="message_mi_band_setting_auth_fail">%1$sのペアリングに失敗しました</string>
     <string name="message_mi_band_setting_auth_key_invalid">認証キーが無効です</string>
 
-    <string name="pref_disconnected">切断</string>
+    <string name="pref_disconnect_device">切断</string>
 
     <string name="mi_band_setting_dial">ウォッチフェイス</string>
     <string name="mi_band_setting_language">言語</string>
@@ -368,7 +368,7 @@
     <string name="watch_face_upload_prepare">アップロードの準備中…</string>
     <string name="watch_face_upload_progress">アップロード中：%1$,d%%</string>
 
-    <string name="watch_face_invalid_firmware">The firmware does not support uploading the watch face, update the firmware in the official application</string>
+    <string name="watch_face_invalid_firmware">%1$s firmware does not support uploading the watch face, update the firmware in the official application</string> <!-- %1$s = Haylou Smart watch ... -->
     <string name="watch_face_invalid_auth">Use in standalone mode, when using cooperation mode, the official application may block the watch face upload</string>
     <string name="watch_face_invalid_free">In the free mode, more dials cannot be uploaded today</string>
 
@@ -380,7 +380,7 @@
     <string name="touch_tab_setting">@string/setting_name</string>
 
     <string name="touch_function_summary">スタンドアロンモードを使っている場合や、Mi Fitが正しく機能しない場合に設定してください</string>
-    <string name="touch_function">%1$sの機能を使用する</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function">%1$sの機能を使用する</string> <!-- %1$s = Watch name -->
     <string name="touch_function_as_touch">操作タブでタッチを割り当てる</string>
 
     <string name="touch_headline_incoming_call_title">着信</string>
@@ -480,7 +480,7 @@
     <string name="touch_setting_recognition_start_trigger_title">トリガー</string>
     <string name="touch_setting_recognition_time_title">認識時間</string>
 
-    <string name="touch_setting_recognition_mi_band_signal_title">%1$sへの通知</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_setting_recognition_mi_band_signal_title">%1$sへの通知</string> <!-- %1$s = Watch name -->
     <string name="touch_setting_recognition_succeeded_title">タッチのパターン認識成功</string>
     <string name="touch_setting_recognition_failed_title">タッチのパターン認識失敗</string>
 

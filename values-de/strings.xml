@@ -73,12 +73,12 @@
 
     <string name="message_auth_request">It is paired, if you do not know the key, use the unpair</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">Drücken Sie den %1$s Knopf zum Koppeln</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_press_band_button">Drücken Sie den %1$s Knopf zum Koppeln</string> <!-- %1$s = Watch name -->
     <string name="message_mi_band_setting_auth_success">%1$s erfolgreich gekoppelt</string>
     <string name="message_mi_band_setting_auth_fail">%1$s Kopplung fehlgeschlagen</string>
     <string name="message_mi_band_setting_auth_key_invalid">Ungültiger Authentifizierungs Schlüssel</string>
 
-    <string name="pref_disconnected">Verbindungstrennung</string>
+    <string name="pref_disconnect_device">Verbindungstrennung</string>
 
     <string name="mi_band_setting_dial">Watch face</string>
     <string name="mi_band_setting_language">Sprache</string>
@@ -368,7 +368,7 @@
     <string name="watch_face_upload_prepare">Preparing for the upload…</string>
     <string name="watch_face_upload_progress">Uploading %1$,d%%</string>
 
-    <string name="watch_face_invalid_firmware">The firmware does not support uploading the watch face, update the firmware in the official application</string>
+    <string name="watch_face_invalid_firmware">%1$s firmware does not support uploading the watch face, update the firmware in the official application</string> <!-- %1$s = Haylou Smart watch ... -->
     <string name="watch_face_invalid_auth">Use in standalone mode, when using cooperation mode, the official application may block the watch face upload</string>
     <string name="watch_face_invalid_free">In the free mode, more dials cannot be uploaded today</string>
 
@@ -380,7 +380,7 @@
     <string name="touch_tab_setting">@string/setting_name</string>
 
     <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
-    <string name="touch_function">%1$s function</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function">%1$s function</string> <!-- %1$s = Watch name -->
     <string name="touch_function_as_touch">Use function as a touch in the control menu</string>
 
     <string name="touch_headline_incoming_call_title">Incoming call</string>
@@ -479,7 +479,7 @@
     <string name="touch_setting_recognition_start_trigger_title">Spoušť</string>
     <string name="touch_setting_recognition_time_title">Doba rozpoznávání</string>
 
-    <string name="touch_setting_recognition_mi_band_signal_title">Oznámení na %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_setting_recognition_mi_band_signal_title">Oznámení na %1$s</string> <!-- %1$s = Watch name -->
     <string name="touch_setting_recognition_succeeded_title">Rozpoznatelný dotyk</string>
     <string name="touch_setting_recognition_failed_title">Nerozpoznatelný dotyk</string>
 

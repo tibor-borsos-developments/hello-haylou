@@ -73,12 +73,12 @@
 
     <string name="message_auth_request">裝置已經配對，如果您不知道認證碼，請使用解除配對</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">點擊 %1$s 按鈕以配對裝置</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_press_band_button">點擊 %1$s 按鈕以配對裝置</string> <!-- %1$s = Watch name -->
     <string name="message_mi_band_setting_auth_success">%1$s 配對成功</string>
     <string name="message_mi_band_setting_auth_fail">%1$s 配對失敗</string>
     <string name="message_mi_band_setting_auth_key_invalid">無效的認證碼</string>
 
-    <string name="pref_disconnected">裝置斷開</string>
+    <string name="pref_disconnect_device">裝置斷開</string>
 
     <string name="mi_band_setting_dial">撥號</string>
     <string name="mi_band_setting_language">語言</string>
@@ -366,7 +366,7 @@
     <string name="watch_face_upload_prepare">正在准备上传…</string>
     <string name="watch_face_upload_progress">上传中… %1$,d%%</string>
 
-    <string name="watch_face_invalid_firmware">The firmware does not support uploading the watch face, update the firmware in the official application</string>
+    <string name="watch_face_invalid_firmware">%1$s firmware does not support uploading the watch face, update the firmware in the official application</string> <!-- %1$s = Haylou Smart watch ... -->
     <string name="watch_face_invalid_auth">Use in standalone mode, when using cooperation mode, the official application may block the watch face upload</string>
     <string name="watch_face_invalid_free">In the free mode, more dials cannot be uploaded today</string>
 
@@ -378,7 +378,7 @@
     <string name="touch_tab_setting">@string/setting_name</string>
 
     <string name="touch_function_summary">如果您使用獨立模式或未由Mi Fit妥善管理，請設定這些功能</string>
-    <string name="touch_function">%1$s 功能</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function">%1$s 功能</string> <!-- %1$s = Watch name -->
     <string name="touch_function_as_touch">在控制選單中使用功能進行觸摸</string>
 
     <string name="touch_headline_incoming_call_title">通話</string>
@@ -477,7 +477,7 @@
     <string name="touch_setting_recognition_start_trigger_title">觸發器</string>
     <string name="touch_setting_recognition_time_title">識別時間</string>
 
-    <string name="touch_setting_recognition_mi_band_signal_title">%1$s 通知</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_setting_recognition_mi_band_signal_title">%1$s 通知</string> <!-- %1$s = Watch name -->
     <string name="touch_setting_recognition_succeeded_title">可識別的觸控模式</string>
     <string name="touch_setting_recognition_failed_title">不可識別的觸控模式</string>
 
