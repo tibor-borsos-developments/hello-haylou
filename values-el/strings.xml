@@ -36,7 +36,7 @@
     <string name="device_state_connected_disconnected_last_time">Τελευταίος χρόνος σύνδεσης και αποσύνδεσης</string>
     <string name="device_alarm">Ειδοποίηση</string>
 
-    <string name="device_search">&device_name; search</string>
+    <string name="device_search">&device_name; εύρεση</string>
     <string name="device_setting">&device_name; ρυθμίσεις</string>
 
     <string name="device_mac_address">Διεύθυνση MAC</string>
@@ -64,7 +64,7 @@
     <string name="mi_band_setting_auth_mi_fit">%1$s cooperation</string> <!-- Haylou Fit-->
     <string name="mi_band_setting_auth_mi_fit_hint">Το &app_name;  απαιτεί την εγκατάσταση της επίσημης εφαρμογής %1$s στην ίδια συσκευή. Στην αρχή θα πρέπει να αντιστοιχίσετε %2$s με την εφαρμογή %1$s, μετά θα μπορείτε να χρησιμοποιήσετε το &app_name;. If you want to use %1$s, choose this.</string>
     <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$st app is not required for the &app_name; to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$st εφαρμογή δεν απαιτείται  για την λειτουργία του &app_name;. Μετά τη σύζευξη, απεγκαταστήστε την εφαρμογή %1$s. Κατά την επαναφορά του %1$s συνεργασία, θα χρειαστεί να ξαναζεύξετε το δικό σας %2$s σητν εφαρμογή %1$s. Εάν χρησιμοποιείτε τη λειτουργία μη αντιστάθμισης, τα δεδομένα στο smartwatch θα διαγραφούν. Η οθόνη του %2$s  πρέπει να είναι ενεργοποιημένη κατά την εκτέλεση εργασιών.</string>
 
     <string name="mi_band_setting_auth_key">Authentication key</string>
     <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
@@ -75,9 +75,9 @@
     <string name="message_auth_request">It is paired, if you do not know the key, use the unpair</string>
 
     <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Watch name -->
-    <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
-    <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
-    <string name="message_mi_band_setting_auth_key_invalid">Invalid authentication key</string>
+    <string name="message_mi_band_setting_auth_success">%1$s σύζευξη με επιτυχία </string>
+    <string name="message_mi_band_setting_auth_fail">%1$s η σύζευξη απέτυχε</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Μη έγκυρο κλειδί ελέγχου ταυτότητας</string>
 
     <string name="pref_disconnect_device">Αποσύνδεση</string>
 
@@ -115,11 +115,11 @@
 
     <!-- PreferenceScreen -->
     <string name="pref_connected_have_notif_interval_title">Διάστημα επανάληψης υπενθύμισης</string>
-    <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
+    <string name="pref_connected_have_notif_interval_summary">Η λειτουργία σήματος ειδοποίησης / υπενθύμισης χρησιμοποιεί αυτό το χρονισμό</string>
 
-    <string name="pref_synchronization">Synchronization</string>
+    <string name="pref_synchronization">Συγχρονισμός</string>
     <string name="pref_synchronization_fetch">Δραστηριότητα・Παρακολούθηση παλμών</string>
-    <string name="pref_synchronization_fetch_interval">Synchronization frequency</string>
+    <string name="pref_synchronization_fetch_interval">Συχνότητα συγχρονισμού</string>
 
     <string name="pref_battery_phone">Μπαταρία τηλεφώνου</string>
     <string name="pref_battery_phone_summary">Ειδοποιήσεις χαμηλής και πλήρες στάθμη μπαταρίας</string>
@@ -136,7 +136,7 @@
     <string name="pref_battery_phone_message">Μπαταρία τηλεφώνου:\n %1$,d%%</string>
 
     <string name="pref_language">Ρυθμίσεις γλώσσας</string>
-    <string name="pref_cat_language">App</string>
+    <string name="pref_cat_language">Γλώσσα εφαρμογής</string>
     <string name="pref_language_title">Γλώσσα</string>
 
     <!-- Snackbar Messages -->
@@ -155,13 +155,13 @@
 
     <string name="message_app_chooser_no_selected">Επιλέξτε μια εφαρμογή</string>
 
-    <string name="message_free_counter">Up to 1 setting can be used in free mode</string>
+    <string name="message_free_counter">Μέχρι 1 ρύθμιση μπορεί να χρησιμοποιηθεί σε ελεύθερη λειτουργία</string>
 
     <string name="message_notification_free_groups">Μπορούν να χρησιμοποιηθούν μέχρι %1$,d ομάδες</string>
-    <string name="message_notification_free_app">Up to 1 application can be selected in free mode</string>
-    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in free mode</string>   <!-- %1$s = 2 or more  -->
+    <string name="message_notification_free_app">Μπορούν να επιλεγούν έως 1 εφαρμογή σε ελεύθερη λειτουργία</string>
+    <string name="message_notification_free_apps">Μέχρι και %1$,d εφαρμογές μπορούν να επιλεγούν σε ελεύθερη λειτουργία </string>   <!-- %1$s = 2 or more  -->
 
-    <string name="message_notification_free_text">Up to 1 text can be recorded in free mode</string>
+    <string name="message_notification_free_text">Μέχρι 1 κείμενο μπορεί να εγγραφεί σε ελεύθερη λειτουργία</string>
 
     <string name="message_time_alarm_free_counter">Μέχρι 1 ειδοποιήσεις μπορούν να χρησιμοποιηθούν σε κανονική λειτουργία</string>
     <string name="message_time_alarm_max_counter">Μέγιστο %1$d ειδοποιήσεις μπορούν να χρησιμοποιηθούν</string>
@@ -171,14 +171,14 @@
 
     <string name="message_touch_pattern_error">Το καθορισμένο μοτίβο είναι παρόμοιο με ένα δείγμα κάποιας άλλης λειτουργίας, καταγράψτε άλλο</string>
     <string name="message_touch_free_patterns">Μπορούν να χρησιμοποιηθούν μέχρι %1$,d λειτουργίες</string>
-    <string name="message_touch_record_help">Use the %1$s music control/find my phone features</string> <!-- %1$s = smartwatch -->
+    <string name="message_touch_record_help">Χρησιμοποιήστε το %1$s μουσική έλεγχος / εύρεση των δυνατοτήτων του τηλεφώνου μου</string> <!-- %1$s = smartwatch -->
 
     <string name="message_premium_mode_only">Αυτή η λειτουργία είναι διαθέσιμη μόνο στη λειτουργία premium</string>
     <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
     <string name="message_general_error">Η ρύθμιση απέτυχε (η σύνδεση χάθηκε), δοκιμάστε ξανά</string>
     <string name="message_internet_error">Δεν υπάρχει σύνδεση στο internet</string>
-    <string name="message_gps_enable">Enable the GPS</string>
-    <string name="message_location_enable">Enable the location info permission</string>
+    <string name="message_gps_enable">Ενεργοποιήστε το GPS</string>
+    <string name="message_location_enable">Ενεργοποιήστε την άδεια πληροφοριών τοποθεσίας</string>
 
     <string name="message_in_progress">Σε εξέλιξη…</string>
     <string name="message_no_data">Δεν υπάρχουν διαθέσιμα δεδομένα</string>
@@ -191,7 +191,7 @@
     <br>• <b>Haylou Solar (LS05)</b>
     <br>• <b>Haylou Smart Watch 2 (LS02)</b>
     <br>• <b>Haylou Smart Watch (LS01)</b>
-    <p><app_name/> requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
+    <p><app_name/> απαιτεί την εγκατάσταση της επίσημης εφαρμογής Haylou στο ίδιο τηλέφωνο. Αρχικά πρέπει να συνδέσετε το έξυπνο ρολόι σας στην εφαρμογή Haylou, μετά μπορείτε να χρησιμοποιήσετε αυτήν την εφαρμογή.</p>
     <p>Αν το Haylou δεν ανιχνευθεί, τότε μπορείτε να ρυθμίσετε τη διεύθυνση MAC χειροκίνητα από το μενού λεπτομέρειες.</p>
     <p><b>Εάν έχετε πρόβλημα σύνδεσης:</b>
     <br>- Στην οθόνη των πρόσφατων εφαρμογών: κλειδώστε το <app_name/> (τραβήξτε την εφαρμογή προς τα κάτω και κάντε κλικ στο εικονίδιο κλειδώματος).
@@ -203,7 +203,7 @@
     <!-- Notification Dialog -->
     <string name="notification_group_nav_setting">Ρυθμίσεις</string>
     <string name="notification_group_nav_filter">Φιλτράρισμα ειδοποιήσεων</string>
-    <string name="notification_group_nav_correction">Correction</string>
+    <string name="notification_group_nav_correction">Διόρθωση</string>
 
     <string name="notification_group_name">Όνομα</string>
     <string name="notification_group_monitoring">Παρακολούθηση ειδοποιήσεων</string>
@@ -225,8 +225,8 @@
     <string name="notification_group_screen_off">Σήμα μόνο όταν η οθόνη είναι απενεργοποιημένη</string>
     <string name="notification_group_repeat_title">Επαναλάβετε τα σήματα</string>
     <string name="notification_group_wakelock">Αφύπνιση οθόνης της συσκευής</string>
-    <string name="notification_group_grouped_display_title">Display setting for the group notifications</string>
-    <string name="notification_group_grouped_sort_order_title">Sort order for the group notifications</string>
+    <string name="notification_group_grouped_display_title">Ρύθμιση οθόνης για τις ειδοποιήσεις ομάδας</string>
+    <string name="notification_group_grouped_sort_order_title">Ταξινόμηση παραγγελίας για τις ειδοποιήσεις ομάδας</string>
 
     <string name="notification_group_filter">Φιλτράρισμα ειδοποιήσεων</string>
     <string name="notification_group_filter_title">Φίλτρο τίτλου</string>
@@ -249,7 +249,7 @@
     <string name="notification_group_correction_find">Εύρεση</string>
     <string name="notification_group_correction_replace">Αντικατέστησε με</string>
 
-    <string name="notification_regex_hint">Non-alphanumeric characters have a special meaning, if you don\'t know the Regex, do not tick it</string>
+    <string name="notification_regex_hint">Οι μη αλφαριθμητικοί χαρακτήρες έχουν μια ειδική σημασία, εάν δεν γνωρίζετε το Regex, μην το σημειώσετε</string>
 
     <string name="notification_confirm_close">Είστε βέβαιοι ότι θέλετε να απορρίψετε τις αλλαγές;</string>
 
@@ -266,9 +266,9 @@
     <string name="pref_call_summary_on">Μην ξεχάσετε να απενεργοποιήσετε ειδοποιήσεις εισερχόμενων κλήσεων (incoming call alerts) στήν εφαρμογή %1$s</string> <!-- %1$s = official app name -->
     <string name="pref_call_text_title">Εμφάνιση ταυτότητας καλούντος</string>
 
-    <string name="pref_call_notification_rejected">Show notification about rejected call</string>
-    <string name="pref_call_notification_rejected_message">Rejected call</string>
-    <string name="pref_call_notification_rejected_action">Call</string>
+    <string name="pref_call_notification_rejected">Εμφάνιση ειδοποίησης σχετικά με την απορριφθείσα κλήση</string>
+    <string name="pref_call_notification_rejected_message">Απόρριψη κλήσης</string>
+    <string name="pref_call_notification_rejected_action">Κλήση</string>
 
     <string name="pref_call_net_text_title">Σήμα εισερχόμενης κλήσης διαδικτύου</string>
 
@@ -338,15 +338,15 @@
 
 
     <!-- Alarm -->
-    <string name="action_time_alarm_sort_state_asc">State ascending</string>
-    <string name="action_time_alarm_sort_watch_asc">Watch ascending</string>
-    <string name="action_time_alarm_sort_name_asc">Name ascending</string>
+    <string name="action_time_alarm_sort_state_asc">Κατάσταση αύξουσα</string>
+    <string name="action_time_alarm_sort_watch_asc">Παρακολουθήστε την άνοδο</string>
+    <string name="action_time_alarm_sort_name_asc">Όνομα αύξουσα</string>
 
-    <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Haylou Smart Watch ... -->
+    <string name="message_time_alarm_sync">Συγχρονίζω %1$s συναγερμός (διαγραφή και ρύθμιση συναγερμών στο smartwatch σας)</string> <!-- %1$s = Haylou Smart Watch ... -->
 
     <string name="info_dialog_alarm"><![CDATA[
-        <p>When using cooperation mode, the settings of the official application and the <app_name/> application can overwrite and delete each other\'s settings.</p>
-        <p>The last operation performed will take effect.</p>
+        <p>Όταν χρησιμοποιείτε τη λειτουργία συνεργασίας, οι ρυθμίσεις της επίσημης εφαρμογής και της εφαρμογής <app_name /> μπορούν να αντικαταστήσουν και να διαγράψουν τις ρυθμίσεις του άλλου.</p>
+        <p>Η τελευταία λειτουργία που εκτελείται θα τεθεί σε ισχύ.</p>
     ]]></string>
 
 
@@ -355,32 +355,32 @@
     <string name="pref_dnd_enable_bluetooth">Στην αρχή της λειτουργίας Dnd απενεργοποιήσε το Bluetooth, στο τέλος ενεργοποιήσε το Bluetooth</string>
 
     <string name="info_dialog_dnd"><![CDATA[
-        <p>If you are using cooperation mode, in the official <device_type/> application the do not disturb (DnD) mode must be between 00:00 and 23:59 and its status must be turned off.</p>
+        <p>Εάν χρησιμοποιείτε τη λειτουργία συνεργασίας, στον επίσημο <device_type/> εφαρμογή το μην ενοχλείτε (DnD) η λειτουργία πρέπει να είναι μεταξύ 00:00 και 23:59 και η κατάστασή της πρέπει να είναι απενεργοποιημένη.</p>
     ]]></string> <!-- %1$s Haylou fit-->
 
 
     <!-- Watch face -->
-    <string name="watch_face_download_title">Download watch face</string>
+    <string name="watch_face_download_title">Λήψη όψης ρολογιού</string>
 
-    <string name="watch_face_upload_title">Αλλαγή όψη ρολογιού</string>
+    <string name="watch_face_upload_title">Αλλαγή όψης ρολογιού</string>
 
-    <string name="watch_face_upload_prepare">Preparing for the upload…</string>
-    <string name="watch_face_upload_progress">Uploading %1$,d%%</string>
+    <string name="watch_face_upload_prepare">Προετοιμασία για τη μεταφόρτωση…</string>
+    <string name="watch_face_upload_progress">Μεταφόρτωση %1$,d%%</string>
 
-    <string name="watch_face_invalid_firmware">%1$s firmware does not support uploading the watch face, update the firmware in the official application</string> <!-- %1$s = Haylou Smart watch ... -->
-    <string name="watch_face_invalid_auth">Use in standalone mode, when using cooperation mode, the official application may block the watch face upload</string>
-    <string name="watch_face_invalid_free">In the free mode, more dials cannot be uploaded today</string>
+    <string name="watch_face_invalid_firmware">%1$s το υλικολογισμικό δεν υποστηρίζει τη μεταφόρτωση της όψης ρολογιού, ενημερώστε το υλικολογισμικό στην επίσημη εφαρμογή</string> <!-- %1$s = Haylou Smart watch ... -->
+    <string name="watch_face_invalid_auth">Χρησιμοποιήστε σε αυτόνομη λειτουργία, όταν χρησιμοποιείτε τη λειτουργία συνεργασίας, η επίσημη εφαρμογή ενδέχεται να αποκλείσει τη μεταφόρτωση του ρολογιού</string>
+    <string name="watch_face_invalid_free">Στη δωρεάν λειτουργία, δεν είναι δυνατή η αποστολή περισσότερων κλήσεων σήμερα</string>
 
 
     <!-- Touch monitoring -->
-    <string name="touch_tab_function">Function</string>
-    <string name="touch_tab_control">Control</string>
-    <string name="touch_tab_testing">Testing</string>
+    <string name="touch_tab_function">Λειτουργία</string>
+    <string name="touch_tab_control">Ελεγχος</string>
+    <string name="touch_tab_testing">Δοκιμές</string>
     <string name="touch_tab_setting">@string/setting_name</string>
 
-    <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
-    <string name="touch_function">%1$s function</string> <!-- %1$s = Watch name -->
-    <string name="touch_function_as_touch">Use function as a touch in the control menu</string>
+    <string name="touch_function_summary">Ορίστε αυτές τις δυνατότητες εάν χρησιμοποιείτε αυτόνομη λειτουργία ή δεν έχετε τη σωστή διαχείριση από το Mi Fit</string>
+    <string name="touch_function">%1$s λειτουργία</string> <!-- %1$s = Watch name -->
+    <string name="touch_function_as_touch">Χρησιμοποιήστε τη λειτουργία ως ένα άγγιγμα στο μενού ελέγχου</string>
 
     <string name="touch_headline_incoming_call_title">Εισερχόμενη κλήση</string>
     <string name="touch_headline_other_function_title">Άλλες λειτουργίες</string>
@@ -393,8 +393,8 @@
     <string name="touch_device_location_not_muted_only_title">Ήχος εφόσον δεν είναι σε σίγαση</string>
 
     <string name="touch_mute_toggle_title">Εναλλαγή σίγασης κλήσης</string>
-    <string name="touch_mute_toggle_ringer_mode_title">Mute mode</string>
-    <string name="touch_mute_toggle_mute_off_title">Mute off</string>
+    <string name="touch_mute_toggle_ringer_mode_title">Λειτουργία σίγασης</string>
+    <string name="touch_mute_toggle_mute_off_title">Σίγαση κλειστή</string>
 
     <string name="touch_music_title">Μουσικη</string>
     <string name="touch_music_function_launch">Ξεκινήστε τη μουσική με το κουμπί αναπαραγωγής εάν δεν αναγνωρίζεται καμία συσκευή αναπαραγωγής μουσικής</string>
@@ -468,9 +468,9 @@
     <string name="touch_testing_title">Παρακολούθηση αφής</string>
     <string name="touch_testing_second">δευτ.</string>
 
-    <string name="touch_setting_detection_time_title">Touch detection time</string>
-    <string name="touch_setting_detection_time_music_hint">If it has a lower value, the music screen should be closed faster</string>
-    <string name="touch_setting_detection_time_button_hint">If it has a lower value, press the button faster</string>
+    <string name="touch_setting_detection_time_title">Χρόνος ανίχνευσης αφής</string>
+    <string name="touch_setting_detection_time_music_hint">Εάν έχει χαμηλότερη τιμή, η οθόνη μουσικής θα πρέπει να κλείνει γρηγορότερα</string>
+    <string name="touch_setting_detection_time_button_hint">Εάν έχει χαμηλότερη τιμή, πατήστε το κουμπί πιο γρήγορα</string>
 
     <string name="touch_setting_detection_method_title">Μέθοδος ανίχνευσης αφής</string>
 
@@ -483,14 +483,14 @@
     <string name="touch_setting_recognition_failed_title">Μη αναγνωρίσιμο μοτίβο αφής</string>
 
     <string name="info_dialog_touch"><![CDATA[
-        <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
+        <p>Λειτουργεί σωστά σε αυτόνομη λειτουργία. Εάν χρησιμοποιείτε τη λειτουργία συνεργασίας, η επίσημη <app_official/> εφαρμογή θα χειριστεί επίσης αυτές τις λειτουργίες, επομένως δεν είναι εγγυημένη η σωστή λειτουργία.</p>
         <b><u>Recognised touches</u></b>
         <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next">
         <br><device_type/> music control
         <p><img src="ic_touch_find">
-        <br><device_type/> find my phone
+        <br><device_type/> βρες το τηλέφωνό μου
         </p>
-        <p>Multiple touches can be recorded for a function.</p>
+        <p>Μπορούν να εγγραφούν πολλαπλα αγγίγματα για μια λειτουργία.</p>
     ]]></string>
 
 
@@ -503,7 +503,7 @@
 
     <string name="weather_forecast_title">Δελτίο καιρού</string>
 
-    <string name="weather_setting_provider">Weather provider</string>
+    <string name="weather_setting_provider">Πάροχος καιρού</string>
     <string name="weather_city_title">Πόλη</string>
     <string name="weather_unit_title">Μονάδα</string>
     <string name="weather_unit_metric">Μετρικός (Κελσίου)</string>
@@ -518,10 +518,10 @@
 
     <string name="weather_display">Απεικόνιση</string>
 
-    <string name="weather_precipitation_rain">βροχή</string>
+    <string name="weather_precipitation_rain">Βροχή</string>
     <string name="weather_precipitation_snow">Χιόνι</string>
     <string name="weather_cloud_cover_abbreviation">Cc</string>
-    <string name="weather_cloud_cover">Σύννεφο</string>
+    <string name="weather_cloud_cover">Σύννεφα</string>
     <string name="weather_humidity">Υγρασία</string>
 
     <string name="weather_north">N</string>
@@ -562,22 +562,22 @@
 
     <string name="theme_notification_title">Εμφάνιση κατάστασης στο πίνακα ειδοποιήσεων</string>
 
-    <string name="theme_cat_color_setting">Color setting</string>
+    <string name="theme_cat_color_setting">Ρύθμιση χρώματος</string>
 
 
     <!-- Premium mode -->
     <string name="purchase_advantage_title">Πλεονεκτήματα premium λειτουργίας</string>
     <string name="purchase_advantage"><![CDATA[
-        <p>• financial support for development</p>
-        <p>• no ads</p>
-        <p>• notification setting is not limited</p>
-        <p>• call setting is not limited</p>
-        <p>• the number of alarms is not limited (the number of alarms is limited by the clock)</p>
-        <p>• do not disturb mode is not limited</p>
-        <p>• more frequent weather synchronization, location can be updated automatically, AccuWeather provider can be set</p>
-        <p>• touch setting is not limited</p>
-        <p>• detailed daily graphs</p>
-        • removing other restrictions…
+        <p>• Οικονομική υποστήριξη για την ανάπτυξη</p>
+        <p>• Χωρίς διαφημίσεις</p>
+        <p>• Η ρύθμιση ειδοποίησης δεν είναι περιορισμένη</p>
+        <p>• Η ρύθμιση κλήσεων δεν είναι περιορισμένη</p>
+        <p>• Ο αριθμός των συναγερμών δεν είναι περιορισμένος (ο αριθμός των συναγερμών περιορίζεται από το ρολόι)</p>
+        <p>• Η λειτουργία Μην ενοχλείτε δεν είναι περιορισμένη</p>
+        <p>• Συχνότερος συγχρονισμός καιρού, η τοποθεσία μπορεί να ενημερώνεται αυτόματα, μπορεί να ρυθμιστεί ο πάροχος AccuWeather</p>
+        <p>• Η ρύθμιση αφής δεν είναι περιορισμένη</p>
+        <p>• Λεπτομερή καθημερινά γραφήματα</p>
+        • Κατάργηση άλλων περιορισμών…
     ]]></string>
     <string name="purchase_policy_title">Όροι και προϋποθέσεις της premium λειτουργίας</string>
     <string name="purchase_policy"><![CDATA[
@@ -602,27 +602,27 @@
     <string name="feedback_google_play_title">Βαθμολόγησε αυτήν την εφαρμογή</string>
     <string name="feedback_request_feature_title">Ζητήστε κάποιο χαρακτηριστικό, αναφορά σφαλμάτων</string>
     <string name="feedback_request_feature_summary">Αυτόματη διαδικασία αποστολής e-mail, δεν θα πάρετε καμία απάντηση</string>
-    <string name="feedback_translation_title">&app_name; translation</string>
+    <string name="feedback_translation_title">&app_name; μετάφραση</string>
     <string name="feedback_translation_title_summary">Παρακαλώ βοηθήστε στη μετάφραση</string>
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Πολιτική απορρήτου</string>
-    <string name="privacy_policy_tab_eu_consent">EU user consent</string>
+    <string name="privacy_policy_tab_eu_consent">Συγκατάθεση χρήστη ΕΕ</string>
 
     <string name="privacy_policy_collect_title">Πληροφορίες που συλλέγουμε</string>
     <string name="privacy_policy_collect"><![CDATA[
-        <p>• We only collect anonymous information.</p>
-        <p>• We collect information at the application level about the services that you use and how you use them (Google Firebase Platform).</p>
-        <p>• We collect information at the application level like bugs, errors and crashes to provide improvements (Google Firebase Platform).</p>
-        <p>• Google Firebase Platform collects information anonymously. It reports trends without identifying individual users.</p>
-        • We do not share any data with other companies and organizations.
+        <p>• Συλλέγουμε μόνο ανώνυμες πληροφορίες.</p>
+        <p>• Συλλέγουμε πληροφορίες σε επίπεδο εφαρμογής σχετικά με τις υπηρεσίες που χρησιμοποιείτε και τον τρόπο που τις χρησιμοποιείτε (Google Firebase Platform).</p>
+        <p>• Συλλέγουμε πληροφορίες σε επίπεδο εφαρμογής όπως σφάλματα, για την παροχή βελτιώσεων (Google Firebase Platform).</p>
+        <p>• Google Firebase Platform συλλέγει πληροφορίες ανώνυμα. Αναφέρει τάσεις χωρίς να προσδιορίζει μεμονωμένους χρήστες.</p>
+        • Δεν κοινοποιούμε δεδομένα σε άλλες εταιρείες και οργανισμούς.
     ]]></string>
 
     <string name="privacy_policy_not_collect_title">Information we do not collect</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>• We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address, IP address or MAC address.</p>
-        <p>• We do not collect personal health data, contacts and phone notification text.</p>
-        • We do not collect location data.
+        <p>• Δεν συλλέγουμε προσωπικές πληροφορίες για εσάς. Με άλλα λόγια, δεν συλλέγουμε πληροφορίες όπως το όνομα, τη διεύθυνση, τον αριθμό τηλεφώνου, τη διεύθυνση email, τη διεύθυνση IP ή τη διεύθυνση MAC.</p>
+        <p>• Δεν συλλέγουμε προσωπικά δεδομένα υγείας, επαφές και κείμενο ειδοποίησης τηλεφώνου.</p>
+        • Δεν συλλέγουμε δεδομένα τοποθεσίας.
     ]]></string>
 
     <string name="privacy_policy_links_title">Privacy policy of third party service providers</string>
@@ -633,10 +633,10 @@
         <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
     ]]></string>
 
-    <string name="privacy_policy_eu_consent_title">Status</string>
-    <string name="privacy_policy_eu_consent_title_personalized">Personalized, relevant ads</string>
-    <string name="privacy_policy_eu_consent_title_non_personalized">Non-personalized ads that are less relevant</string>
-    <string name="privacy_policy_eu_consent_title_unknown">Αγνωστος</string>
+    <string name="privacy_policy_eu_consent_title">Κατάσταση</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Εξατομικευμένες, σχετικές διαφημίσεις</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Μη εξατομικευμένες διαφημίσεις που είναι λιγότερο σχετικές</string>
+    <string name="privacy_policy_eu_consent_title_unknown">Άγνωστος</string>
 
     <string name="privacy_policy_eu_consent_setting">Ρυθμίσεις</string>
 
@@ -676,7 +676,7 @@
     <string name="action_setting">Ρυθμίσεις</string>
     <string name="action_delete">Διαγραφή</string>
     <string name="action_export">Εξαγωγή</string>
-    <string name="action_synchronization">Synchronization</string>
+    <string name="action_synchronization">Συγχρονισμός</string>
     <string name="action_download">Download</string>
     <string name="action_upload">Upload</string>
     <string name="action_filter_no">Χωρίς φίλτρο</string>
@@ -689,8 +689,8 @@
     <string name="action_keep_editing">Συνέχεια επεξεργασίας</string>
     <string name="action_new">New</string>
     <string name="action_start_stop">Start/Stop</string>
-    <string name="action_contacts">Contacts</string>
-    <string name="synchronized_from_watch">Synchronized from watch</string>
+    <string name="action_contacts">Επαφές</string>
+    <string name="synchronized_from_watch">Συγχρονισμός από ρολόι</string>
 
     <string name="action_chart">Διάγραμμα</string>
     <string name="action_zoom_in">Zoom in</string>
@@ -702,12 +702,12 @@
     <string name="action_chart_sort_time_desc">Ώρα φθίνουσα</string>
     <string name="action_chart_sort_step_asc">Βήμα αύξων</string>
     <string name="action_chart_sort_step_desc">Βήμα φθίνων</string>
-    <string name="action_chart_sort_duration_asc">Duration ascending</string>
-    <string name="action_chart_sort_duration_desc">Duration descending</string>
+    <string name="action_chart_sort_duration_asc">Η διάρκεια αυξάνεται</string>
+    <string name="action_chart_sort_duration_desc">Η διάρκεια φθίνει</string>
     <string name="action_chart_sort_pulse_asc">Παλμός αύξων</string>
     <string name="action_chart_sort_pulse_desc">Παλμός φθίνων</string>
-    <string name="action_chart_monthly_calendar">Calendar</string>
-    <string name="action_chart_monthly_compact">Compact</string>
+    <string name="action_chart_monthly_calendar">Ημερολόγιο</string>
+    <string name="action_chart_monthly_compact">Συμπαγής</string>
 
     <string name="activity_progress_title_prepare">Προετοιμασία συγχρονισμού…</string>
     <string name="activity_progress_title_sync">Συγχρονισμός δεδομένων…</string>
