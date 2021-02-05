@@ -13,8 +13,9 @@
     <string name="menu_nav_pulse">心拍数</string>
     <string name="menu_nav_alarm">アラーム</string>
     <string name="menu_nav_dnd">DND（おやすみモード）</string>
-    <string name="menu_nav_touch">タッチ</string>
+    <string name="menu_nav_watch_face">ウォッチフェイス</string>
     <string name="menu_nav_weather">天気</string>
+    <string name="menu_nav_touch">タッチ</string>
     <string name="menu_nav_more">もっと</string>
     <string name="menu_nav_text_display">テキスト表示</string>
     <string name="menu_nav_export">エクスポート</string>
@@ -73,12 +74,12 @@
 
     <string name="message_auth_request">It is paired, if you do not know the key, use the unpair</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">%1$sのボタンを押してペアリングしてください</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_press_band_button">%1$sのボタンを押してペアリングしてください</string> <!-- %1$s = Watch name -->
     <string name="message_mi_band_setting_auth_success">%1$sのペアリングに成功しました</string>
     <string name="message_mi_band_setting_auth_fail">%1$sのペアリングに失敗しました</string>
     <string name="message_mi_band_setting_auth_key_invalid">認証キーが無効です</string>
 
-    <string name="pref_disconnected">切断</string>
+    <string name="pref_disconnect_device">切断</string>
 
     <string name="mi_band_setting_dial">ウォッチフェイス</string>
     <string name="mi_band_setting_language">言語</string>
@@ -154,15 +155,15 @@
 
     <string name="message_app_chooser_no_selected">アプリを選択してください</string>
 
-    <string name="message_free_counter">Up to 1 setting can be used in normal mode</string>
+    <string name="message_free_counter">Up to 1 setting can be used in free mode</string>
 
     <string name="message_notification_free_groups">ノーマルモードでは通知グループは最大%1$,d個まで使用可能です</string>
-    <string name="message_notification_free_app">Up to 1 application can be selected in normal mode</string>
-    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in normal mode</string>   <!-- %1$s = 2 or more  -->
+    <string name="message_notification_free_app">Up to 1 application can be selected in free mode</string>
+    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in free mode</string>   <!-- %1$s = 2 or more  -->
 
-    <string name="message_notification_free_text">Up to 1 text can be recorded in normal mode</string>
+    <string name="message_notification_free_text">Up to 1 text can be recorded in free mode</string>
 
-    <string name="message_time_alarm_free_counter">Up to 1 alarm can be used in normal mode</string>
+    <string name="message_time_alarm_free_counter">Up to 1 alarm can be used in free mode</string>
     <string name="message_time_alarm_max_counter">アラームは最大%1$dつまで使用可能です</string>
     <string name="message_time_alarm_enabled">アラームが有効になりました</string>
     <string name="message_time_alarm_disabled">アラームが無効になりました</string>
@@ -345,7 +346,7 @@
     <string name="message_time_alarm_sync">%1$sのアラームを同期しますか？</string> <!-- %1$s = Haylou Smart Watch ... -->
 
     <string name="info_dialog_alarm"><![CDATA[
-        <p>When using collaboration mode, the settings of the original application and the <app_name/> application can overwrite and delete each other\'s settings.</p>
+        <p>When using cooperation mode, the settings of the official application and the <app_name/> application can overwrite and delete each other\'s settings.</p>
         <p>The last operation performed will take effect.</p>
     ]]></string>
 
@@ -359,6 +360,19 @@
     ]]></string> <!-- %1$s Haylou fit-->
 
 
+    <!-- Watch face -->
+    <string name="watch_face_download_title">ダウンロード</string>
+
+    <string name="watch_face_upload_title">アップロード</string>
+
+    <string name="watch_face_upload_prepare">アップロードの準備中…</string>
+    <string name="watch_face_upload_progress">アップロード中：%1$,d%%</string>
+
+    <string name="watch_face_invalid_firmware">%1$s firmware does not support uploading the watch face, update the firmware in the official application</string> <!-- %1$s = Haylou Smart watch ... -->
+    <string name="watch_face_invalid_auth">Use in standalone mode, when using cooperation mode, the official application may block the watch face upload</string>
+    <string name="watch_face_invalid_free">In the free mode, more dials cannot be uploaded today</string>
+
+
     <!-- Touch monitoring -->
     <string name="touch_tab_function">機能</string>
     <string name="touch_tab_control">操作</string>
@@ -366,7 +380,7 @@
     <string name="touch_tab_setting">@string/setting_name</string>
 
     <string name="touch_function_summary">スタンドアロンモードを使っている場合や、Mi Fitが正しく機能しない場合に設定してください</string>
-    <string name="touch_function">%1$sの機能を使用する</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function">%1$sの機能を使用する</string> <!-- %1$s = Watch name -->
     <string name="touch_function_as_touch">操作タブでタッチを割り当てる</string>
 
     <string name="touch_headline_incoming_call_title">着信</string>
@@ -466,7 +480,7 @@
     <string name="touch_setting_recognition_start_trigger_title">トリガー</string>
     <string name="touch_setting_recognition_time_title">認識時間</string>
 
-    <string name="touch_setting_recognition_mi_band_signal_title">%1$sへの通知</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_setting_recognition_mi_band_signal_title">%1$sへの通知</string> <!-- %1$s = Watch name -->
     <string name="touch_setting_recognition_succeeded_title">タッチのパターン認識成功</string>
     <string name="touch_setting_recognition_failed_title">タッチのパターン認識失敗</string>
 
@@ -659,11 +673,14 @@
     <string name="uninstalled">Uninstalled</string>
     <string name="value">Value</string>
 
+    <string name="action_premium_mode">プレミアムモード</string>
     <string name="action_dismiss">中止</string>
     <string name="action_setting">設定</string>
     <string name="action_delete">削除</string>
     <string name="action_export">エクスポート</string>
     <string name="action_synchronization">同期</string>
+    <string name="action_download">ダウンロード</string>
+    <string name="action_upload">アップロード</string>
     <string name="action_filter_no">フィルタなし</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>

@@ -13,8 +13,9 @@
     <string name="menu_nav_pulse">Tętno</string>
     <string name="menu_nav_alarm">Alarm</string>
     <string name="menu_nav_dnd">Tryb Nie przeszkadzać</string>
-    <string name="menu_nav_touch">Dotknięcia</string>
+    <string name="menu_nav_watch_face">Tło zegarka</string>
     <string name="menu_nav_weather">Pogoda</string>
+    <string name="menu_nav_touch">Dotknięcia</string>
     <string name="menu_nav_more">Więcej</string>
     <string name="menu_nav_text_display">Wyświetlanie tekstu</string>
     <string name="menu_nav_export">Eksportuj</string>
@@ -73,12 +74,12 @@
 
     <string name="message_auth_request">It is paired, if you do not know the key, use the unpair</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">Wciśnij przycisk %1$s aby sparować</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_press_band_button">Wciśnij przycisk %1$s aby sparować</string> <!-- %1$s = Watch name -->
     <string name="message_mi_band_setting_auth_success">Paroawnia %1$s powiodło się</string>
     <string name="message_mi_band_setting_auth_fail">Parowanie %1$s nie powiodło się</string>
     <string name="message_mi_band_setting_auth_key_invalid">Nieprawidłowy klucz uwierzytelniający</string>
 
-    <string name="pref_disconnected">Rozłączenie</string>
+    <string name="pref_disconnect_device">Rozłączenie</string>
 
     <string name="mi_band_setting_dial">Tło zegarka</string>
     <string name="mi_band_setting_language">Język</string>
@@ -154,13 +155,13 @@
 
     <string name="message_app_chooser_no_selected">Wybierz aplikację</string>
 
-    <string name="message_free_counter">Up to 1 setting can be used in normal mode</string>
+    <string name="message_free_counter">Up to 1 setting can be used in free mode</string>
 
     <string name="message_notification_free_groups">W trybie normalnym można używać do %1$,d grup</string>
-    <string name="message_notification_free_app">Up to 1 application can be selected in normal mode</string>
-    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in normal mode</string>   <!-- %1$s = 2 or more  -->
+    <string name="message_notification_free_app">Up to 1 application can be selected in free mode</string>
+    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in free mode</string>   <!-- %1$s = 2 or more  -->
 
-    <string name="message_notification_free_text">Up to 1 text can be recorded in normal mode</string>
+    <string name="message_notification_free_text">Up to 1 text can be recorded in free mode</string>
 
     <string name="message_time_alarm_free_counter">W trybie normalnym można użyć maksymalnie 1 alarmów</string>
     <string name="message_time_alarm_max_counter">Można użyć maksymalnie %1$d alarmów</string>
@@ -345,7 +346,7 @@
     <string name="message_time_alarm_sync">Synchronizuj alarmy %1$s (usuwanie i ustawianie alarmów na Twoim smartwatchu)</string> <!-- %1$s = Haylou Smart Watch ... -->
 
     <string name="info_dialog_alarm"><![CDATA[
-        <p>When using collaboration mode, the settings of the original application and the <app_name/> application can overwrite and delete each other\'s settings.</p>
+        <p>When using cooperation mode, the settings of the official application and the <app_name/> application can overwrite and delete each other\'s settings.</p>
         <p>The last operation performed will take effect.</p>
     ]]></string>
 
@@ -359,6 +360,19 @@
     ]]></string> <!-- %1$s Haylou fit-->
 
 
+    <!-- Watch face -->
+    <string name="watch_face_download_title">Pobierz tarczę zegarka</string>
+
+    <string name="watch_face_upload_title">Zmiana tarczy zegarka</string>
+
+    <string name="watch_face_upload_prepare">Przygotowanie do przesłania…</string>
+    <string name="watch_face_upload_progress">Przesyłanie %1$,d%%</string>
+
+    <string name="watch_face_invalid_firmware">%1$s firmware does not support uploading the watch face, update the firmware in the official application</string> <!-- %1$s = Haylou Smart watch ... -->
+    <string name="watch_face_invalid_auth">Use in standalone mode, when using cooperation mode, the official application may block the watch face upload</string>
+    <string name="watch_face_invalid_free">In the free mode, more dials cannot be uploaded today</string>
+
+
     <!-- Touch monitoring -->
     <string name="touch_tab_function">Funkcja</string>
     <string name="touch_tab_control">Kontrola</string>
@@ -366,7 +380,7 @@
     <string name="touch_tab_setting">@string/setting_name</string>
 
     <string name="touch_function_summary">Ustaw te funkcje jeśli używasz trybu samodzielnego lub nie jest odpowiednio zarządzany przez Mi Fit</string>
-    <string name="touch_function">Funkcja %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function">Funkcja %1$s</string> <!-- %1$s = Watch name -->
     <string name="touch_function_as_touch">Użyj funkcji jako dotyku w menu sterowania</string>
 
     <string name="touch_headline_incoming_call_title">Połączenie przychodzące</string>
@@ -465,7 +479,7 @@
     <string name="touch_setting_recognition_start_trigger_title">Wyzwalacz</string>
     <string name="touch_setting_recognition_time_title">Czas rozpoznania</string>
 
-    <string name="touch_setting_recognition_mi_band_signal_title">Sygnał na %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_setting_recognition_mi_band_signal_title">Sygnał na %1$s</string> <!-- %1$s = Watch name -->
     <string name="touch_setting_recognition_succeeded_title">Rozpoznany wzór dotknięć</string>
     <string name="touch_setting_recognition_failed_title">Nierozopoznany wzór dotknięć</string>
 
@@ -658,11 +672,14 @@
     <string name="uninstalled">Uninstalled</string>
     <string name="value">Value</string>
 
+    <string name="action_premium_mode">Tryb premium</string>
     <string name="action_dismiss">Odwołaj</string>
     <string name="action_setting">Ustawienia</string>
     <string name="action_delete">Usuń</string>
     <string name="action_export">Eksportuj</string>
     <string name="action_synchronization">Synchronizacja</string>
+    <string name="action_download">Pobierz</string>
+    <string name="action_upload">Prześlij</string>
     <string name="action_filter_no">Brak filtrowania</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>

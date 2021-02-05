@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE resources [
-    <!ENTITY app_name "سلام هایلو">
-    <!ENTITY device_name "هایلو">
+    <!ENTITY app_name "Hello Haylou">
+    <!ENTITY device_name "Haylou">
     ]>
 
 <resources xmlns:tools="http://schemas.android.com/tools">
@@ -13,8 +13,9 @@
     <string name="menu_nav_pulse">نبض</string>
     <string name="menu_nav_alarm">هشدار</string>
     <string name="menu_nav_dnd">حالت بدون مزاحم</string>
-    <string name="menu_nav_touch">دکمه‌های لمسی</string>
+    <string name="menu_nav_watch_face">Watch face</string>
     <string name="menu_nav_weather">آب و هوا</string>
+    <string name="menu_nav_touch">دکمه‌های لمسی</string>
     <string name="menu_nav_more">بیشتر</string>
     <string name="menu_nav_text_display">نمایش متن</string>
     <string name="menu_nav_export">صدور داده</string>
@@ -72,12 +73,12 @@
 
     <string name="message_auth_request">این دستگاه جفت شده است, اگر کلید را نمی‌دانید، جفت سازی را لغو کنید.</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">دکمه‌ی %1$s را برای جفت سازی بزنید</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_press_band_button">دکمه‌ی %1$s را برای جفت سازی بزنید</string> <!-- %1$s = Watch name -->
     <string name="message_mi_band_setting_auth_success">%1$s با موفقیت جفت شد</string>
     <string name="message_mi_band_setting_auth_fail">%1$s جفت سازی نا موفق بود</string>
     <string name="message_mi_band_setting_auth_key_invalid">کلید احراز هویت اشتباه است</string>
 
-    <string name="pref_disconnected">قطع شده است</string>
+    <string name="pref_disconnect_device">قطع شده است</string>
 
     <string name="mi_band_setting_dial">تماس</string>
     <string name="mi_band_setting_language">زبان</string>
@@ -343,7 +344,7 @@
     <string name="message_time_alarm_sync">همگام سازی هشدارهای %1$s (حذف و تنظیم شدن هشدارها با دستبند)</string> <!-- %1$s = Haylou Smart watch ... -->
 
     <string name="info_dialog_alarm"><![CDATA[
-        <p>When using collaboration mode, the settings of the original application and the <app_name/> application can overwrite and delete each other\'s settings.</p>
+        <p>When using cooperation mode, the settings of the official application and the <app_name/> application can overwrite and delete each other\'s settings.</p>
         <p>The last operation performed will take effect.</p>
     ]]></string>
 
@@ -357,6 +358,19 @@
     ]]></string> <!-- %1$s Haylou fit-->
 
 
+    <!-- Watch face -->
+    <string name="watch_face_download_title">Download watch face</string>
+
+    <string name="watch_face_upload_title">Upload watch face</string>
+
+    <string name="watch_face_upload_prepare">Preparing for the upload…</string>
+    <string name="watch_face_upload_progress">Uploading %1$,d%%</string>
+
+    <string name="watch_face_invalid_firmware">%1$s firmware does not support uploading the watch face, update the firmware in the official application</string> <!-- %1$s = Haylou Smart watch ... -->
+    <string name="watch_face_invalid_auth">Use in standalone mode, when using cooperation mode, the official application may block the watch face upload</string>
+    <string name="watch_face_invalid_free">In the free mode, more dials cannot be uploaded today</string>
+
+
     <!-- Touch monitoring -->
     <string name="touch_tab_function">عملکرد</string>
     <string name="touch_tab_control">کنترل</string>
@@ -364,7 +378,7 @@
     <string name="touch_tab_setting">@string/setting_name</string>
 
     <string name="touch_function_summary">این ویژگی‌ها را فقط زمانی که در حالت مستقل تنظیم شده است استفاده کنید.</string>
-    <string name="touch_function">%1$s عملکرد</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function">%1$s عملکرد</string> <!-- %1$s = Watch name -->
     <string name="touch_function_as_touch">در منوی کنترل، از دکمه‌ی لمسی به عنوان عملکرد استفاده کنید</string>
 
     <string name="touch_headline_incoming_call_title">تماس ورودی</string>
@@ -463,7 +477,7 @@
     <string name="touch_setting_recognition_start_trigger_title">تغییر</string>
     <string name="touch_setting_recognition_time_title">زمان تشخیص</string>
 
-    <string name="touch_setting_recognition_mi_band_signal_title">%1$s هشدار</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_setting_recognition_mi_band_signal_title">%1$s هشدار</string> <!-- %1$s = Watch name -->
     <string name="touch_setting_recognition_succeeded_title">الگوی لمس به تشخیص داده شد</string>
     <string name="touch_setting_recognition_failed_title">الگوی لمس تشخیص داده نشد</string>
 
@@ -654,11 +668,14 @@
     <string name="uninstalled">پاک شده</string>
     <string name="value">مقدار</string>
 
+    <string name="action_premium_mode">نسخه‌ی پولی</string>
     <string name="action_dismiss">انصراف</string>
     <string name="action_setting">تنظیم</string>
     <string name="action_delete">حذف</string>
     <string name="action_export">صدور</string>
     <string name="action_synchronization">همگام سازی</string>
+    <string name="action_download">Download</string>
+    <string name="action_upload">Upload</string>
     <string name="action_filter_no">بدون فیلتر</string>
     <string name="action_bluetooth">بلوتوث</string>
     <string name="action_launch_mi_fit">Mi Fit</string>

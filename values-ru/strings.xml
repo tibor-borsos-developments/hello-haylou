@@ -13,8 +13,9 @@
     <string name="menu_nav_pulse">Пульс</string>
     <string name="menu_nav_alarm">Будильник</string>
     <string name="menu_nav_dnd">Режим \"Не беспокоить\"</string>
-    <string name="menu_nav_touch">Касания</string>
+    <string name="menu_nav_watch_face">Циферблат</string>
     <string name="menu_nav_weather">Погода</string>
+    <string name="menu_nav_touch">Касания</string>
     <string name="menu_nav_more">Ещё</string>
     <string name="menu_nav_text_display">Настройки текста</string>
     <string name="menu_nav_export">Экспорт</string>
@@ -72,24 +73,24 @@
 
     <string name="message_auth_request">Уже подключено, если вы не знаете ключ, нажмите кнопку отключить</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">Нажмите кнопку на %1$s для подключения</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_press_band_button">Нажмите кнопку на %1$s для подключения</string> <!-- %1$s = Watch name -->
     <string name="message_mi_band_setting_auth_success">%1$s успешно подключен</string>
     <string name="message_mi_band_setting_auth_fail">Не удалось подключиться к %1$s</string>
     <string name="message_mi_band_setting_auth_key_invalid">Не верный ключ аутентификации</string>
 
-    <string name="pref_disconnected">Отключение</string>
+    <string name="pref_disconnect_device">Отключение</string>
 
-    <string name="mi_band_setting_dial">Циферблат</string>
+    <string name="mi_band_setting_dial">Отображение</string>
     <string name="mi_band_setting_language">Язык</string>
     <string name="mi_band_setting_time_24h">24-часовой формат</string>
-    <string name="mi_band_setting_distance_unit">Мера измерения расстояния</string>
+    <string name="mi_band_setting_distance_unit">Система измерения расстояния</string>
     <string name="mi_band_setting_lift_wrist">Поворот запястья</string>
     <string name="mi_band_setting_screen_on_duration">Продолжительность включения экрана</string>
     <string name="mi_band_setting_idle_alert">Оповещение о бездействии</string>
     <string name="mi_band_setting_idle_alert_time">Время бездействия</string>
     <string name="mi_band_setting_idle_alert_dnd">Не уведомлять во время отдыха (12:00-14:00)</string>
 
-    <string name="mi_band_setting_profile">This data is needed to correctly calculate the number of steps, distance, and burned calories</string>
+    <string name="mi_band_setting_profile">Эти данные необходимы для правильного расчета количества шагов, расстояния и сожженных калорий</string>
     <string name="mi_band_setting_gender">Пол</string>
     <string name="mi_band_setting_gender_male">Мужской</string>
     <string name="mi_band_setting_gender_female">Женский</string>
@@ -117,7 +118,7 @@
 
     <string name="pref_synchronization">Синхронизация</string>
     <string name="pref_synchronization_fetch">Активность・Пульс</string>
-    <string name="pref_synchronization_fetch_interval">Synchronization frequency</string>
+    <string name="pref_synchronization_fetch_interval">Интервал синхронизации</string>
 
     <string name="pref_battery_phone">Аккумулятор устройства</string>
     <string name="pref_battery_phone_summary">Уведомления низкого и полного заряда</string>
@@ -169,14 +170,14 @@
 
     <string name="message_touch_pattern_error">Указанная последовательнось похожа на заданную для другой функции, попробуйте другую</string>
     <string name="message_touch_free_patterns">В бесплатном режиме можно использовать не более %1$,d функций</string>
-    <string name="message_touch_record_help">Use the %1$s music control/find my phone features</string> <!-- %1$s = smartwatch -->
+    <string name="message_touch_record_help">Используйте управление плеером или поиск телефона в %1$s</string> <!-- %1$s = smartwatch -->
 
     <string name="message_premium_mode_only">Эта функция доступна только в премиум режиме</string>
     <string name="message_feature_is_not_supported">%1$s не поддерживает эту функцию</string>
     <string name="message_general_error">Ошибка (соединение потеряно), попробуйте снова</string>
     <string name="message_internet_error">Нет подключения к Интернету</string>
     <string name="message_gps_enable">Включите определение местоположения</string>
-    <string name="message_location_enable">Enable the location info permission</string>
+    <string name="message_location_enable">Включите доступ к информации о местоположении</string>
 
     <string name="message_in_progress">В процессе…</string>
     <string name="message_no_data">Нет данных</string>
@@ -357,6 +358,19 @@
     ]]></string> <!-- %1$s Haylou fit-->
 
 
+    <!-- Watch face -->
+    <string name="watch_face_download_title">Загрузка циферблата</string>
+
+    <string name="watch_face_upload_title">Установить циферблат</string>
+
+    <string name="watch_face_upload_prepare">Подготовка к установке…</string>
+    <string name="watch_face_upload_progress">Установка %1$,d%%</string>
+
+    <string name="watch_face_invalid_firmware">%1$s прошивка не поддерживает загрузку циферблата в часы, обновите прошивку часов в официальном приложении.</string> <!-- %1$s = Haylou Smart watch ... -->
+    <string name="watch_face_invalid_auth">Используйте функцию в автономном режиме, при использовании совместного режима, официальное приложение может заблокировать загрузку циферблата в часы</string>
+    <string name="watch_face_invalid_free">В бесплатной версии сегодня больше циферблатов загрузить нельзя</string>
+
+
     <!-- Touch monitoring -->
     <string name="touch_tab_function">Функции</string>
     <string name="touch_tab_control">Касания</string>
@@ -364,7 +378,7 @@
     <string name="touch_tab_setting">@string/setting_name</string>
 
     <string name="touch_function_summary">Настройте функции если вы используете автономный режим или не хотите настраивать их в Mi Fit</string>
-    <string name="touch_function">Функция %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function">Функция %1$s</string> <!-- %1$s = Watch name -->
     <string name="touch_function_as_touch">Использовать функции как касания</string>
 
     <string name="touch_headline_incoming_call_title">Входящий звонок</string>
@@ -375,7 +389,7 @@
     <string name="touch_headline_other_title">Другое</string>
 
     <string name="touch_device_location_title">Найти устройство</string>
-    <string name="touch_device_location_not_muted_only_title">Подчиняться беззвучному режиму</string>
+    <string name="touch_device_location_not_muted_only_title">Не искать в беззвучном режиме</string>
 
     <string name="touch_mute_toggle_title">Переключение звука звонка</string>
     <string name="touch_mute_toggle_ringer_mode_title">Выключить звук</string>
@@ -463,7 +477,7 @@
     <string name="touch_setting_recognition_start_trigger_title">Последовательность</string>
     <string name="touch_setting_recognition_time_title">Время распознавания</string>
 
-    <string name="touch_setting_recognition_mi_band_signal_title">Уведомления %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_setting_recognition_mi_band_signal_title">Уведомления %1$s</string> <!-- %1$s = Watch name -->
     <string name="touch_setting_recognition_succeeded_title">Последовательность распознана</string>
     <string name="touch_setting_recognition_failed_title">Последовательность не распознана</string>
 
@@ -494,8 +508,8 @@
     <string name="weather_unit_metric">Цельсий ℃</string>
     <string name="weather_unit_imperial">Фаренгейт °F</string>
     <string name="weather_automatic_update">Автоматическое обновление</string>
-    <string name="weather_automatic_update_title">Use your location</string>
-    <string name="weather_automatic_update_summary">This application collects location data to update the weather for the current location, even when the app is closed or not in use.</string>
+    <string name="weather_automatic_update_title">Используйте ваше местоположение</string>
+    <string name="weather_automatic_update_summary">Это приложение собирает данные о местоположении, чтобы обновить погоду для текущего местоположения, даже когда приложение закрыто или не используется.</string>
 
     <string name="weather_current_title">Текущая погода</string>
     <string name="weather_current_location">Текущее местоположение</string>
@@ -532,9 +546,9 @@
 
 
     <!-- Export -->
-    <string name="export_tab_database">Data export</string>
+    <string name="export_tab_database">Экспорт данных</string>
 
-    <string name="export_start_date">Starting date</string>
+    <string name="export_start_date">Выберите дату начала</string>
 
 
     <!-- Theme -->
@@ -553,16 +567,16 @@
     <!-- Premium mode -->
     <string name="purchase_advantage_title">Преимущества премиума</string>
     <string name="purchase_advantage"><![CDATA[
-        <p>• financial support for development</p>
-        <p>• no ads</p>
-        <p>• notification setting is not limited</p>
-        <p>• call setting is not limited</p>
-        <p>• the number of alarms is not limited (the number of alarms is limited by the clock)</p>
-        <p>• do not disturb mode is not limited</p>
-        <p>• more frequent weather synchronization, location can be updated automatically, AccuWeather provider can be set</p>
-        <p>• touch setting is not limited</p>
-        <p>• detailed daily graphs</p>
-        • removing other restrictions…
+        <p>• финансовая поддержка развития</p>
+        <p>• отсутствует реклама</p>
+        <p>• настройка уведомлений без ограничений</p>
+        <p>• настройка вызовов без ограничений</p>
+        <p>• количество будильников не ограничено (количество будильников определяется возможностями часов)</p>
+        <p>• режим \"Не беспокоить\" без ограничений</p>
+        <p>• меньший период синхронизации погоды, автоматическое определение местоположения, возможность выбора AccuWeather в качестве поставщика погоды</p>
+        <p>• настройка касаний без ограничений</p>
+        <p>• подробные ежедневные графики</p>
+        • снятие других ограничений…
     ]]></string>
     <string name="purchase_policy_title">Правила и условия премиума</string>
     <string name="purchase_policy"><![CDATA[
@@ -656,11 +670,14 @@
     <string name="uninstalled">Не установлен</string>
     <string name="value">Значение</string>
 
+    <string name="action_premium_mode">Премиум</string>
     <string name="action_dismiss">Отклонить</string>
     <string name="action_setting">Настройки</string>
     <string name="action_delete">Удалить</string>
     <string name="action_export">Экспорт</string>
     <string name="action_synchronization">Синхронизация</string>
+    <string name="action_download">Загрузка</string>
+    <string name="action_upload">Установка</string>
     <string name="action_filter_no">Без фильтра</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
@@ -684,8 +701,8 @@
     <string name="action_chart_sort_time_desc">Время, по убыванию</string>
     <string name="action_chart_sort_step_asc">Шаги, по возрастанию</string>
     <string name="action_chart_sort_step_desc">Шаги, по убыванию</string>
-    <string name="action_chart_sort_duration_asc">Duration ascending</string>
-    <string name="action_chart_sort_duration_desc">Duration descending</string>
+    <string name="action_chart_sort_duration_asc">Продолжительность по возрастанию</string>
+    <string name="action_chart_sort_duration_desc">Продолжительность по убыванию</string>
     <string name="action_chart_sort_pulse_asc">Пульс, по возрастанию</string>
     <string name="action_chart_sort_pulse_desc">Пульс, по убыванию</string>
     <string name="action_chart_monthly_calendar">Календарь</string>

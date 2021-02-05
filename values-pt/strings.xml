@@ -13,8 +13,9 @@
     <string name="menu_nav_pulse">Pulsação</string>
     <string name="menu_nav_alarm">Despertador</string>
     <string name="menu_nav_dnd">Modo não perturbe</string>
-    <string name="menu_nav_touch">Toque</string>
+    <string name="menu_nav_watch_face">Watch Face</string>
     <string name="menu_nav_weather">Meteorologia</string>
+    <string name="menu_nav_touch">Toque</string>
     <string name="menu_nav_more">Mais</string>
     <string name="menu_nav_text_display">Exibir texto</string>
     <string name="menu_nav_theme">Tema</string>
@@ -78,7 +79,7 @@
     <string name="message_mi_band_setting_auth_fail">O emparelhamento com a %1$s falhou</string>
     <string name="message_mi_band_setting_auth_key_invalid">Chave de autenticação inválida</string>
 
-    <string name="pref_disconnected">Desconexão</string>
+    <string name="pref_disconnect_device">Desconexão</string>
 
     <string name="mi_band_setting_dial">Discar</string>
     <string name="mi_band_setting_language">Linguagem</string>
@@ -359,14 +360,27 @@
     ]]></string> <!-- %1$s Haylou fit-->
 
 
-    !-- Touch monitoring -->
+    <!-- Watch face -->
+    <string name="watch_face_download_title">Descarregar watch faces</string>
+
+    <string name="watch_face_upload_title">Upload Watch Face</string>
+
+    <string name="watch_face_upload_prepare">A preparar para realizar o upload…</string>
+    <string name="watch_face_upload_progress">A fazer o upload de %1$,d%%</string>
+
+    <string name="watch_face_invalid_firmware">%1$s firmware does not support uploading the watch face, update the firmware in the official application</string> <!-- %1$s = Haylou Smart watch ... -->
+    <string name="watch_face_invalid_auth">Use in standalone mode, when using cooperation mode, the official application may block the watch face upload</string>
+    <string name="watch_face_invalid_free">In the free mode, more dials cannot be uploaded today</string>
+
+
+    <!-- Touch monitoring -->
     <string name="touch_tab_function">Funções</string>
     <string name="touch_tab_control">Controles</string>
     <string name="touch_tab_testing">Testar</string>
     <string name="touch_tab_setting">@string/setting_name</string>
 
     <string name="touch_function_summary">Configure estes recusros se você estiver a usar o modo \'Solitário\' ou se não estiverem a ser corretamente manejadas pela Mi Fit</string>
-    <string name="touch_function">Função da %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function">Função da %1$s</string> <!-- %1$s = Watch name -->
     <string name="touch_function_as_touch">Usar a função como um toque no menu de controle</string>
 
     <string name="touch_headline_incoming_call_title">Chamadas recebidas</string>
@@ -465,7 +479,7 @@
     <string name="touch_setting_recognition_start_trigger_title">Gatilho</string>
     <string name="touch_setting_recognition_time_title">Tempo de reconhecimento</string>
 
-    <string name="touch_setting_recognition_mi_band_signal_title">Aviso da %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_setting_recognition_mi_band_signal_title">Aviso da %1$s</string> <!-- %1$s = Watch name -->
     <string name="touch_setting_recognition_succeeded_title">Padrão touch reconhecido</string>
     <string name="touch_setting_recognition_failed_title">Padrão touch não reconhecido</string>
 
@@ -657,11 +671,14 @@
     <string name="uninstalled">Não instalado</string>
     <string name="value">Valor</string>
 
+    <string name="action_premium_mode">Modo Premium</string>
     <string name="action_dismiss">Recusar</string>
     <string name="action_setting">Definições</string>
     <string name="action_delete">Apagar</string>
     <string name="action_export">Exportar</string>
     <string name="action_synchronization">Sincronização</string>
+    <string name="action_download">Download</string>
+    <string name="action_upload">Upload</string>
     <string name="action_filter_no">Não filtrar</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>

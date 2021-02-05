@@ -13,8 +13,9 @@
     <string name="menu_nav_pulse">Pulse</string>
     <string name="menu_nav_alarm">Alarm</string>
     <string name="menu_nav_dnd">Do not disturb mode</string>
-    <string name="menu_nav_touch">Touch</string>
+    <string name="menu_nav_watch_face">Watchface</string>
     <string name="menu_nav_weather">Weather</string>
+    <string name="menu_nav_touch">Touch</string>
     <string name="menu_nav_more">More</string>
     <string name="menu_nav_text_display">Text display</string>
     <string name="menu_nav_export">Export</string>
@@ -72,12 +73,12 @@
 
     <string name="message_auth_request">It is paired, if you do not know the key, use the unpair</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Watch name -->
     <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
     <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
     <string name="message_mi_band_setting_auth_key_invalid">Invalid authentication key</string>
 
-    <string name="pref_disconnected">Disconnection</string>
+    <string name="pref_disconnect_device">Disconnect</string>
 
     <string name="mi_band_setting_dial">Dial</string>
     <string name="mi_band_setting_language">Language</string>
@@ -153,22 +154,22 @@
 
     <string name="message_app_chooser_no_selected">Select an application</string>
 
-    <string name="message_free_counter">Up to 1 setting can be used in normal mode</string>
+    <string name="message_free_counter">Up to 1 setting can be used in free mode</string>
 
-    <string name="message_notification_free_groups">Up to %1$,d groups can be used in normal mode</string>
-    <string name="message_notification_free_app">Up to 1 application can be selected in normal mode</string>
-    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in normal mode</string>   <!-- %1$s = 2 or more  -->
+    <string name="message_notification_free_groups">Up to %1$,d groups can be used in free mode</string>
+    <string name="message_notification_free_app">Up to 1 application can be selected in free mode</string>
+    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in free mode</string>   <!-- %1$s = 2 or more  -->
 
-    <string name="message_notification_free_text">Up to 1 text can be recorded in normal mode</string>
+    <string name="message_notification_free_text">Up to 1 text can be recorded in free mode</string>
 
-    <string name="message_time_alarm_free_counter">Up to 1 alarm can be used in normal mode</string>
+    <string name="message_time_alarm_free_counter">Up to 1 alarm can be used in free mode</string>
     <string name="message_time_alarm_max_counter">Maximum %1$d alarms can be used</string>
     <string name="message_time_alarm_enabled">Alarm enabled</string>
     <string name="message_time_alarm_disabled">Alarm disabled</string>
     <string name="message_time_alarm_mi_band_off">Alarm off</string>
 
     <string name="message_touch_pattern_error">The specified pattern is similar to a sample of another function, record another</string>
-    <string name="message_touch_free_patterns">You can not use more than %1$,d controls in normal mode</string>
+    <string name="message_touch_free_patterns">You can not use more than %1$,d controls in free mode</string>
     <string name="message_touch_record_help">Use the %1$s music control/find my phone features</string> <!-- %1$s = smartwatch -->
 
     <string name="message_premium_mode_only">This feature is only available in premium mode</string>
@@ -343,7 +344,7 @@
     <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Haylou Smart watch ... -->
 
     <string name="info_dialog_alarm"><![CDATA[
-        <p>When using collaboration mode, the settings of the original application and the <app_name/> application can overwrite and delete each other\'s settings.</p>
+        <p>When using cooperation mode, the settings of the official application and the <app_name/> application can overwrite and delete each other\'s settings.</p>
         <p>The last operation performed will take effect.</p>
     ]]></string>
 
@@ -357,6 +358,19 @@
     ]]></string> <!-- %1$s Haylou fit-->
 
 
+    <!-- Watch face -->
+    <string name="watch_face_download_title">Download watch face</string>
+
+    <string name="watch_face_upload_title">Upload watch face</string>
+
+    <string name="watch_face_upload_prepare">Preparing for the upload…</string>
+    <string name="watch_face_upload_progress">Uploading %1$,d%%</string>
+
+    <string name="watch_face_invalid_firmware">%1$s firmware does not support uploading the watch face, update the firmware in the official application</string> <!-- %1$s = Haylou Smart watch ... -->
+    <string name="watch_face_invalid_auth">Use in standalone mode, when using cooperation mode, the official application may block the watch face upload</string>
+    <string name="watch_face_invalid_free">In the free mode, more dials cannot be uploaded today</string>
+
+
     <!-- Touch monitoring -->
     <string name="touch_tab_function">Function</string>
     <string name="touch_tab_control">Control</string>
@@ -364,7 +378,7 @@
     <string name="touch_tab_setting">@string/setting_name</string>
 
     <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
-    <string name="touch_function">%1$s function</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function">%1$s function</string> <!-- %1$s = Watch name -->
     <string name="touch_function_as_touch">Use function as a touch in the control menu</string>
 
     <string name="touch_headline_incoming_call_title">Incoming call</string>
@@ -464,7 +478,7 @@
     <string name="touch_setting_recognition_start_trigger_title">Trigger</string>
     <string name="touch_setting_recognition_time_title">Recognition time</string>
 
-    <string name="touch_setting_recognition_mi_band_signal_title">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_setting_recognition_mi_band_signal_title">%1$s signal</string> <!-- %1$s = Watch name -->
     <string name="touch_setting_recognition_succeeded_title">Recognisable touch pattern</string>
     <string name="touch_setting_recognition_failed_title">Not recognisable touch pattern</string>
 
@@ -657,11 +671,14 @@
     <string name="uninstalled">Uninstalled</string>
     <string name="value">Value</string>
 
+    <string name="action_premium_mode">Premium mode</string>
     <string name="action_dismiss">Dismiss</string>
     <string name="action_setting">Setting</string>
     <string name="action_delete">Delete</string>
     <string name="action_export">Export</string>
     <string name="action_synchronization">Synchronization</string>
+    <string name="action_download">Download</string>
+    <string name="action_upload">Upload</string>
     <string name="action_filter_no">No filter</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>

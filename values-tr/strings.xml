@@ -13,8 +13,9 @@
     <string name="menu_nav_pulse">Nabız ölçer</string>
     <string name="menu_nav_alarm">Alarm</string>
     <string name="menu_nav_dnd">Rahatsız etmeyin modu</string>
-    <string name="menu_nav_touch">Dokunma ile kontrol</string>
+    <string name="menu_nav_watch_face">Yüz izle</string>
     <string name="menu_nav_weather">Hava</string>
+    <string name="menu_nav_touch">Dokunma ile kontrol</string>
     <string name="menu_nav_more">Daha</string>
     <string name="menu_nav_text_display">Yazı gösterimi</string>
     <string name="menu_nav_export">Dışarı ver</string>
@@ -73,12 +74,12 @@
     <string name="mi_band_setting_auth_pair">Eşleştir</string>
     <string name="mi_band_setting_auth_unpair">Eşlenmeyi kaldır</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">Eşleştirme için %1$s düğmesine basın</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_press_band_button">Eşleştirme için %1$s düğmesine basın</string> <!-- %1$s = Watch name -->
     <string name="message_mi_band_setting_auth_success">%1$s eşleşmesi başarılı</string>
     <string name="message_mi_band_setting_auth_fail">%1$s eşleşmesi başarısız</string>
     <string name="message_mi_band_setting_auth_key_invalid">Geçersiz doğrulama kodu</string>
 
-    <string name="pref_disconnected">Bağlı değil</string>
+    <string name="pref_disconnect_device">Bağlı değil</string>
 
     <string name="mi_band_setting_dial">Kadran </string>
     <string name="mi_band_setting_language">Aktif dil</string>
@@ -343,7 +344,7 @@
     <string name="message_time_alarm_sync">%1$s alarmlarını senkronize et. (Akıllı saatinizdeki alarmları otomatik siler veya ekler)</string> <!-- %1$s =Haylou Smart Watch ... -->
 
     <string name="info_dialog_alarm"><![CDATA[
-        <p>When using collaboration mode, the settings of the original application and the <app_name/> application can overwrite and delete each other\'s settings.</p>
+        <p>When using cooperation mode, the settings of the official application and the <app_name/> application can overwrite and delete each other\'s settings.</p>
         <p>The last operation performed will take effect.</p>
     ]]></string>
 
@@ -357,6 +358,19 @@
     ]]></string> <!-- %1$s Haylou fit-->
 
 
+    <!-- Watch face -->
+    <string name="watch_face_download_title">Saat teması indir</string>
+
+    <string name="watch_face_upload_title">Saat teması değişti</string>
+
+    <string name="watch_face_upload_prepare">Gönderme için hazırlanıyor…</string>
+    <string name="watch_face_upload_progress">Gönderiliyor %1$,d%%</string>
+
+    <string name="watch_face_invalid_firmware">%1$s firmware does not support uploading the watch face, update the firmware in the official application</string> <!-- %1$s = Haylou Smart watch ... -->
+    <string name="watch_face_invalid_auth">Use in standalone mode, when using cooperation mode, the official application may block the watch face upload</string>
+    <string name="watch_face_invalid_free">In the free mode, more dials cannot be uploaded today</string>
+
+
     <!-- Touch monitoring -->
     <string name="touch_tab_function">Fonksiyon</string>
     <string name="touch_tab_control">Kontrol</string>
@@ -364,7 +378,7 @@
     <string name="touch_tab_setting">@string/setting_name</string>
 
     <string name="touch_function_summary">Bu seçenekleri Mi Bandage uygulamasını tek başına kullanıyorsanız veya Mi Fit tarafından düzgün yönetilmiyorsa seçiniz</string>
-    <string name="touch_function">%1$s özelliği</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function">%1$s özelliği</string> <!-- %1$s = Watch name -->
     <string name="touch_function_as_touch">Kontrol menüsünde dokunma özelliği olarak kullan</string>
 
     <string name="touch_headline_incoming_call_title">Gelen çağrı</string>
@@ -463,7 +477,7 @@
     <string name="touch_setting_recognition_start_trigger_title">Tetikleme</string>
     <string name="touch_setting_recognition_time_title">Tanımlanan süre</string>
 
-    <string name="touch_setting_recognition_mi_band_signal_title">%1$s bildirimi</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_setting_recognition_mi_band_signal_title">%1$s bildirimi</string> <!-- %1$s = Watch name -->
     <string name="touch_setting_recognition_succeeded_title">Tanınabilir dokunmatik desen</string>
     <string name="touch_setting_recognition_failed_title">Tanımlanamayan dokunma deseni</string>
 
@@ -656,11 +670,14 @@
     <string name="uninstalled">Yüklenmedi</string>
     <string name="value">Değer</string>
 
+    <string name="action_premium_mode">Premium modu</string>
     <string name="action_dismiss">Vazgeç</string>
     <string name="action_setting">Ayarlar</string>
     <string name="action_delete">Sil</string>
     <string name="action_export">Dışarı aktar</string>
     <string name="action_synchronization">Senkronizasyon</string>
+    <string name="action_download">İndir</string>
+    <string name="action_upload">Yükle</string>
     <string name="action_filter_no">Tümü</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
