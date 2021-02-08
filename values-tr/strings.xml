@@ -13,13 +13,13 @@
     <string name="menu_nav_pulse">Nabız ölçer</string>
     <string name="menu_nav_alarm">Alarm</string>
     <string name="menu_nav_dnd">Rahatsız etmeyin modu</string>
-    <string name="menu_nav_watch_face">Yüz izle</string>
-    <string name="menu_nav_weather">Hava</string>
+    <string name="menu_nav_watch_face">Saat Arayüzü</string>
+    <string name="menu_nav_weather">Hava Durumu</string>
     <string name="menu_nav_touch">Dokunma ile kontrol</string>
     <string name="menu_nav_more">Daha</string>
     <string name="menu_nav_text_display">Yazı gösterimi</string>
-    <string name="menu_nav_export">Dışarı ver</string>
-    <string name="menu_nav_premium_mode">Premium modu</string>
+    <string name="menu_nav_export">Dışarı aktar</string>
+    <string name="menu_nav_premium_mode">Premium mod</string>
     <string name="menu_nav_feedback">Önerileriniz</string>
     <string name="menu_nav_privacy_policy">Gizlilik politikası</string>
     <string name="menu_nav_theme">Tema</string>
@@ -69,7 +69,7 @@
     <string name="message_auth_request">Eşlendi, doğrulama kodunu bilmiyorsanız, eşleşmeyi kaldırın.</string>
 
     <string name="mi_band_setting_auth_key">Doğrulama Kodu</string>
-    <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
+    <string name="mi_band_setting_auth_key_help">4 rakam girin</string>
     <string name="mi_band_setting_auth_request">Doğrulama kodu isteği</string>
     <string name="mi_band_setting_auth_pair">Eşleştir</string>
     <string name="mi_band_setting_auth_unpair">Eşlenmeyi kaldır</string>
@@ -90,7 +90,7 @@
     <string name="mi_band_setting_idle_alert_time">Hareketsiz süresi</string>
     <string name="mi_band_setting_idle_alert_dnd">Dinlenirken, rahatsız etmeyin (12:00-14:00)</string>
 
-    <string name="mi_band_setting_profile">This data is needed to correctly calculate the number of steps, distance, and burned calories</string>
+    <string name="mi_band_setting_profile">Bu veri, yakılan kaloriyi, adımları hesaplamak için gerekiyor.</string>
     <string name="mi_band_setting_gender">Cinsiyet</string>
     <string name="mi_band_setting_gender_male">Erkek</string>
     <string name="mi_band_setting_gender_female">Kadın</string>
@@ -321,9 +321,9 @@
 
     <string name="sleep_details">Uyku detayları</string>
 
-    <string name="sleep_awake">Awake</string>
-    <string name="sleep_light">Light</string>
-    <string name="sleep_deep">Deep</string>
+    <string name="sleep_awake">Uyanık</string>
+    <string name="sleep_light">Hafif</string>
+    <string name="sleep_deep">Derin</string>
 
 
     <!-- Pulse -->
@@ -359,19 +359,19 @@
 
 
     <!-- Watch face -->
-    <string name="watch_face_download_title">Saat teması indir</string>
+    <string name="watch_face_download_title">Saat arayüzü indir</string>
 
-    <string name="watch_face_upload_title">Saat teması değişti</string>
+    <string name="watch_face_upload_title">Saat arayüzünü değiştir</string>
 
-    <string name="watch_face_upload_prepare">Gönderme için hazırlanıyor…</string>
-    <string name="watch_face_upload_progress">Gönderiliyor %1$,d%%</string>
+    <string name="watch_face_upload_prepare">Yükleme için hazırlanıyor…</string>
+    <string name="watch_face_upload_progress">Yükleniyor %1$,d%%</string>
 
-    <string name="watch_face_invalid_firmware">%1$s firmware does not support uploading the watch face, update the firmware in the official application</string> <!-- %1$s = Haylou Smart watch ... -->
-    <string name="watch_face_invalid_auth">Use in standalone mode, when using cooperation mode, the official application may block the watch face upload</string>
-    <string name="watch_face_invalid_free">In the free mode, more dials cannot be uploaded today</string>
+    <string name="watch_face_invalid_firmware">%1$s yazılımı saat arayüzü değiştirmeyi desteklemiyor, resmi uygulamadan yazılımı güncelleyin.</string> <!-- %1$s = Haylou Smart watch ... -->
+    <string name="watch_face_invalid_auth">Bağımsız modda kullanın, eğer diğer uygulama ile birlikte kullanırsanız, resmi uygulama bunu engelleyebilir.</string>
+    <string name="watch_face_invalid_free">Ücretsiz versiyonda bugün daha fazla arayüz yüklenemez.</string>
 
-    <string name="watch_face_upload_speed_title">Upload speed</string>
-    <string name="watch_face_upload_speed_hint">Set a lower speed if the watch face uploading process is interrupted</string>
+    <string name="watch_face_upload_speed_title">Yükleme hızı</string>
+    <string name="watch_face_upload_speed_hint">Yükleme işlemi kesintiye uğrarsa, daha düşük hıza ayarlayın.</string>
 
 
     <!-- Touch monitoring -->
@@ -461,9 +461,9 @@
     <string name="touch_http_request_body_title">Gövde</string>
     <string name="touch_http_request_show_response_title">Yanıtı göster</string>
 
-    <string name="touch_tasker_launcher1_title">1. Tasker görev başlatıcı</string>
-    <string name="touch_tasker_launcher2_title">2. Tasker görev başlatıcı</string>
-    <string name="touch_tasker_launcher_no_permission_title">Önce Tasker kurululmalı, ardından Mi Bandage kurulmalıdır.</string>
+    <string name="touch_tasker_launcher1_title">1. görev başlatıcı</string>
+    <string name="touch_tasker_launcher2_title">2. görev başlatıcı</string>
+    <string name="touch_tasker_launcher_no_permission_title">Önce Tasker kurulmalı, ardından Mi Bandage kurulmalıdır.</string>
     <string name="touch_tasker_launcher_no_access_title">Harici erişimi izin ver</string>
     <string name="touch_tasker_launcher_no_task_title">Bir görev seçin</string>
 
@@ -549,9 +549,9 @@
 
 
     <!-- Export -->
-    <string name="export_tab_database">Data export</string>
+    <string name="export_tab_database">Veri dışa aktarımı</string>
 
-    <string name="export_start_date">Starting date</string>
+    <string name="export_start_date">Başlangıç tarihi</string>
 
 
     <!-- Theme -->
@@ -570,15 +570,15 @@
     <!-- Premium mode -->
     <string name="purchase_advantage_title">Premium avantajları</string>
     <string name="purchase_advantage"><![CDATA[
-        <p>• financial support for development</p>
-        <p>• no ads</p>
-        <p>• notification setting is not limited</p>
-        <p>• call setting is not limited</p>
-        <p>• the number of alarms is not limited (the number of alarms is limited by the clock)</p>
-        <p>• do not disturb mode is not limited</p>
-        <p>• more frequent weather synchronization, location can be updated automatically, AccuWeather provider can be set</p>
-        <p>• touch setting is not limited</p>
-        <p>• detailed daily graphs</p>
+        <p>• uygulama geliştirmede finansal destek</p>
+        <p>• reklamsız</p>
+        <p>• sınırsız bildirim ayarları</p>
+        <p>• sınırsız arama ayarları</p>
+        <p>• sınırsız alarm sayısı (alarm sayısı saat tarafından sınırlıdır)</p>
+        <p>• sınırsız rahatsız etme modu</p>
+        <p>• daha sık hava durumu güncellemesi, yer bilgisi otomatik güncellemesi, AccuWeather sağlayıcısı seçilebilmesi</p>
+        <p>• sınırsız dokunma modu</p>
+        <p>• daha detaylı günlük grafikler</p>
         • removing other restrictions…
     ]]></string>
     <string name="purchase_policy_title">Premium şartları ve koşulları</string>
@@ -605,7 +605,7 @@
     <string name="feedback_request_feature_title">İstekleriniz, hata bildirimleri</string>
     <string name="feedback_request_feature_summary">E-postanız otomatik işlenir, yanıt alamayabilirsiniz</string>
     <string name="feedback_translation_title">&app_name; Çeviri</string>
-    <string name="feedback_translation_title_summary">Çeviriye katkıda bulunun</string>
+    <string name="feedback_translation_title_summary">Türkçe çeviri Samet Sunman tarafından yapılmıştır. Siz de çeviriye katkıda bulunun. </string>
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Gizlilik Politikası</string>
