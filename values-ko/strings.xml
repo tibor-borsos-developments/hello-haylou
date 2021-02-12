@@ -5,7 +5,7 @@
     ]>
 
 <resources>
-    <string name="menu_nav_home">@string/디바이스명</string>
+    <string name="menu_nav_home">@string/device_name</string>
     <string name="menu_nav_notification">알림</string>
     <string name="menu_nav_call">수신 전화 알림</string>
     <string name="menu_nav_step">활동</string>
@@ -55,7 +55,7 @@
     <string name="mi_band_setting_title">%1$s 설정</string>
 
     <string name="mi_band_setting_menu_connection">연결</string>
-    <string name="mi_band_setting_menu_setting">@string/설정명</string>
+    <string name="mi_band_setting_menu_setting">@string/setting_name</string>
     <string name="mi_band_setting_menu_profile">프로필</string>
     <string name="mi_band_setting_menu_text">본문</string>
     <string name="mi_band_setting_menu_call">수신 전화 알림</string>
@@ -91,7 +91,7 @@
     <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
     <string name="mi_band_setting_idle_alert_dnd">방해금지 (12:00-14:00)</string>
 
-    <string name="mi_band_setting_profile">이 데이터는 걸음 수, 거리 및 소모 된 칼로리를 정확하게 계산하는 데 필요합니다.</string>
+    <string name="mi_band_setting_profile">이 데이터는 걸음 수, 거리 및 소모 된 칼로리를 정확하게 계산하는 데 필요합니다</string>
     <string name="mi_band_setting_gender">성별</string>
     <string name="mi_band_setting_gender_male">남성</string>
     <string name="mi_band_setting_gender_female">여성</string>
@@ -142,7 +142,7 @@
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">블루투스를 활성화하고 밴드 기기를 폰에 가까이 가져와 주세요</string>
     <string name="message_discover_mi_band">밴드가 설정되지 않았으므로, 그것을 찾아주세요</string>
-    <string name="message_discovering_mi_band">밴드 찾는 중 (1분이 소요될 수 있습니다) &#8230;</string>
+    <string name="message_discovering_mi_band">밴드 찾는 중 (1분이 소요될 수 있습니다) …</string>
     <string name="message_discovered_mi_band">%1$s 연결 성공</string>
     <string name="message_discovered_no_mi_band">밴드 연결 실패</string>
     <string name="message_discovered_not_found_mi_band">밴드를 찾지 못한 경우, Mi 피트/Play/발견 가능을 활성화하거나 폰 블루투스 설정에서 페어링하세요</string>
@@ -195,7 +195,7 @@
     <p>Haylou를 찾을 수 없는 경우, 검색할 때 MAC 주소를 수동으로 설정할 수 있습니다.</p>
     <p><b>연결에 문제가 있는 경우:</b>
     <br>- 최근 앱 화면: <app_name/> 을 잠급니다(앱을 아래로 당기고 잠금 아이콘을 클릭).
-    <br>- 전화/배터리 최적화: app_name/>앱이 최적화하지 않도록 설정합니다.
+    <br>- 전화/배터리 최적화: <app_name/>앱이 최적화하지 않도록 설정합니다.
     <br>- 전화/앱: Bluetooth Share 및 기타 \'Bluetooth\'앱 데이터를 지웁니다.
 ]]></string>
 
@@ -203,10 +203,10 @@
     <!-- Notification Dialog -->
     <string name="notification_group_nav_setting">설정</string>
     <string name="notification_group_nav_filter">필터</string>
-    <string name="notification_group_nav_correction">보정</string>
+    <string name="notification_group_nav_correction">Correction</string>
 
     <string name="notification_group_name">이름</string>
-    <string name="notification_group_monitoring"알람 모니터링</string>
+    <string name="notification_group_monitoring">알람 모니터링</string>
     <string name="notification_group_monitoring_disabled">알림 사용 안 함(어플리케이션 알림 표시 안 함)</string>
     <string name="notification_group_alert_title">%1$s 신호</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
     <string name="notification_group_text">텍스트 표시</string>
@@ -255,8 +255,8 @@
 
     <string name="notification_edit_play_text_title">알림 제목</string>
     <string name="notification_edit_play_text_content">알림 내용:
-    출판 및 그래픽 디자인에서 로렘 입숨(loremipsum)은 그래픽 문서 또는 시각적 표현의 텍스트 요소를 보여주기 위해 일반적으로 사용되는 필러 텍스트 또는 그릭입니다.
-         \ n 의미있는 콘텐츠를 입력힌트 텍스트로 바꾸면 디자이너가 콘텐츠 자체를 제작하기 전에 콘텐츠 형식을 디자인 할 수 있습니다.
+        출판 및 그래픽 디자인에서 로렘 입숨(loremipsum)은 그래픽 문서 또는 시각적 표현의 텍스트 요소를 보여주기 위해 일반적으로 사용되는 필러 텍스트 또는 그릭입니다.
+        \n 의미있는 콘텐츠를 입력힌트 텍스트로 바꾸면 디자이너가 콘텐츠 자체를 제작하기 전에 콘텐츠 형식을 디자인 할 수 있습니다.
     </string>
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> icon: choose this icon to show the notifications title/content.]]></string>
 
@@ -361,28 +361,30 @@
 
 
     <!-- Watch face -->
-    <string name="watch_face_download_title">디스플레이 다운로드</string>
+    <string name="watch_face_tab_watch_faces">디스플레이</string>
+    <string name="watch_face_tab_watch_face_custom">Custom files</string>
 
+    <string name="watch_face_download_title">디스플레이 다운로드</string>
     <string name="watch_face_upload_title">디스플레이 변경</string>
 
     <string name="watch_face_upload_prepare">업로드 준비 중…</string>
     <string name="watch_face_upload_progress">%1$,d%% 업로드 중</string>
 
-    <string name="watch_face_invalid_firmware">%1$s는 펌웨어가 워치페이스 업로드를 지원하지 않습니다. 공식 애플리케이션에서 펌웨어를 업데이트하십시오.</string> <!-- %1$s = Haylou Smart watch ... -->
-    <string name="watch_face_invalid_auth">협력 모드를 사용할 때, 공식 응용 프로그램이 워치페이스 업로드를 차단할 수 있습니다.</string>
-    <string name="watch_face_invalid_free">무료 모드에서는 오늘 더 많은 다이얼을 업로드할 수 없습니다.</string>
+    <string name="watch_face_invalid_firmware">%1$s는 펌웨어가 워치페이스 업로드를 지원하지 않습니다. 공식 애플리케이션에서 펌웨어를 업데이트하십시오</string> <!-- %1$s = Haylou Smart watch ... -->
+    <string name="watch_face_invalid_auth">협력 모드를 사용할 때, 공식 응용 프로그램이 워치페이스 업로드를 차단할 수 있습니다</string>
+    <string name="watch_face_invalid_free">무료 모드에서는 오늘 더 많은 다이얼을 업로드할 수 없습니다</string>
 
     <string name="watch_face_upload_speed_title">업로드 속도</string>
-    <string name="watch_face_upload_speed_hint">워치 페이스 업로드 프로세스가 중단될 경우 속도를 낮추십시오.</string>
+    <string name="watch_face_upload_speed_hint">워치 페이스 업로드 프로세스가 중단될 경우 속도를 낮추십시오</string>
 
 
     <!-- Touch monitoring -->
     <string name="touch_tab_function">기능</string>
     <string name="touch_tab_control">제어</string>
     <string name="touch_tab_testing">작동 확인</string>
-    <string name="touch_tab_setting">@string/설정명</string>
+    <string name="touch_tab_setting">@string/setting_name</string>
 
-    <string name="touch_function_summary">독립 실행형 모드를 사용 중이거나, Mi피트에서 관리되지 않는 경우 이 기능을 설정합니다.</string>
+    <string name="touch_function_summary">독립 실행형 모드를 사용 중이거나, Mi피트에서 관리되지 않는 경우 이 기능을 설정합니다</string>
     <string name="touch_function">%1$s 기능</string> <!-- %1$s = Watch name -->
     <string name="touch_function_as_touch">U컨트롤 메뉴에서 터치로 기능 사용</string>
 
@@ -403,12 +405,12 @@
     <string name="touch_music_title">음악</string>
     <string name="touch_music_function_launch">음악 플레이어가 설정되지 않으면 재생 버튼으로 음악 시작</string>
     <string name="touch_music_function_mi_band_message_launch">재생 버튼으로 음악 시작</string>
-    <string name="touch_music_function_mi_band_message_no_track_title">노래 이름을 가져올 수 없습니다.</string>
+    <string name="touch_music_function_mi_band_message_no_track_title">노래 이름을 가져올 수 없습니다</string>
 
     <string name="touch_call_out_title">전화받기</string>
     <string name="touch_call_out_no_contact">연락처 선택</string>
-    <string name="touch_call_out_summary">전화를 받으려면 두 번 누르세요.</string>
-    <string name="touch_call_out_summary_support_call_display_button">버튼을 눌러 전화를받습니다.</string>
+    <string name="touch_call_out_summary">전화를 받으려면 두 번 누르세요</string>
+    <string name="touch_call_out_summary_support_call_display_button">버튼을 눌러 전화를받습니다</string>
     <string name="touch_call_out_speakerphone_title">스피커폰</string>
     <string name="touch_call_out_call_text">전화받기: %1$s</string>
 
@@ -465,7 +467,7 @@
 
     <string name="touch_tasker_launcher1_title">1. Tasker 테스크 런처</string>
     <string name="touch_tasker_launcher2_title">2. Tasker 테스크 런처</string>
-    <string name="touch_tasker_launcher_no_permission_title">Mi Bandage설치전에 Tasker를 먼저 설치해야 합니다.</string>
+    <string name="touch_tasker_launcher_no_permission_title">Mi Bandage설치전에 Tasker를 먼저 설치해야 합니다</string>
     <string name="touch_tasker_launcher_no_access_title">외부 액세스 허용</string>
     <string name="touch_tasker_launcher_no_task_title">테스크 선택</string>
 
@@ -473,8 +475,8 @@
     <string name="touch_testing_second">초</string>
 
     <string name="touch_setting_detection_time_title">터치 감지 시간</string>
-    <string name="touch_setting_detection_time_music_hint">값이 낮은경우, 음악화면을 더 빨리 닫아야 합니다.</string>
-    <string name="touch_setting_detection_time_button_hint">값이 낮은경우, 버튼을 더 빨리 누르십시오.</string>
+    <string name="touch_setting_detection_time_music_hint">값이 낮은경우, 음악화면을 더 빨리 닫아야 합니다</string>
+    <string name="touch_setting_detection_time_button_hint">값이 낮은경우, 버튼을 더 빨리 누르십시오</string>
 
     <string name="touch_setting_detection_method_title">터치 감지 수단</string>
 
@@ -501,7 +503,7 @@
     <!-- Weather  -->
     <string name="weather_tab_weather_forecast">날씨</string>
     <string name="weather_tab_location">위치</string>
-    <string name="weather_tab_settings">@string/설정명</string>
+    <string name="weather_tab_settings">@string/setting_name</string>
 
     <string name="weather_location_title">지역</string>
 
@@ -585,10 +587,10 @@
     ]]></string>
     <string name="purchase_policy_title">프리미엄 모드 이용 약관</string>
     <string name="purchase_policy"><![CDATA[
-        <p>• 저는 앱의 작동을 확인하였으며 그것은 적절히 작동하고 있습니다. (I have tested the app and it is working properly.)</p>
-        <p>• 저는 제가 버그, 소프트웨어의 변경으로 인한 소프트웨어 오류, 하드웨어 환경 또는 다른 애플리케이션 사용으로 인한 배상이나 환불을 요구할 수 없다는 것을 알고 있습니다. (I am aware of that I can not require compensation or refund due to bugs, software errors caused by changes in the software, hardware environment or using other 애플리케이션s.</p>
-        <p>• 모든 판매는 최종적이며 환불될 수 없습니다(Google 환불 정책 제외). (All sales are final and can not be refund (except Google refund policy).)</p>
-        <p>• 보장이 포함되어 있지 않습니다. (There is no warranty included.)</p>
+        <p>• 저는 앱의 작동을 확인하였으며 그것은 적절히 작동하고 있습니다.</p>
+        <p>• 저는 제가 버그, 소프트웨어의 변경으로 인한 소프트웨어 오류, 하드웨어 환경 또는 다른 애플리케이션 사용으로 인한 배상이나 환불을 요구할 수 없다는 것을 알고 있습니다.</p>
+        <p>• 모든 판매는 최종적이며 환불될 수 없습니다(Google 환불 정책 제외).</p>
+        <p>• 보장이 포함되어 있지 않습니다.</p>
         <br><p><i>구매 후에는 앱을 다시 시작해야 합니다.</i></p>
     ]]></string>
 
@@ -679,6 +681,7 @@
     <string name="action_dismiss">닫기</string>
     <string name="action_setting">설정</string>
     <string name="action_delete">삭제</string>
+    <string name="action_rename">Rename</string>
     <string name="action_export">내보내기</string>
     <string name="action_synchronization">동기화</string>
     <string name="action_download">다운로드</string>
@@ -713,8 +716,8 @@
     <string name="action_chart_monthly_calendar">달력</string>
     <string name="action_chart_monthly_compact">간략</string>
 
-    <string name="activity_progress_title_prepare">동기화 준비 중...</string>
-    <string name="activity_progress_title_sync">데이터 동기화중...</string>
+    <string name="activity_progress_title_prepare">동기화 준비 중…</string>
+    <string name="activity_progress_title_sync">데이터 동기화중…</string>
     <string name="activity_progress_title_save">데이터 저장…</string>
 
     <string name="required_value">요구사항</string>

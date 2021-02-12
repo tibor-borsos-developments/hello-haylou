@@ -144,7 +144,7 @@
     <string name="message_discovered_mi_band">%1$s csatlakoztatása sikeres</string>
     <string name="message_discovered_no_mi_band">&device_name; csatlakoztatása nem sikerült</string>
     <string name="message_discovered_not_found_mi_band">Ha &device_name; nem található, kapcsold be: Haylou Sport/Értesítések/Felfedezhetőség illetve párosítsd a telefon Bluetooth beállításoknál</string>
-    <string name="message_enable_bluetooth">Kapcsold be a Bluetooth-ot és tartsd közel a Band-t</string>
+    <string name="message_enable_bluetooth">Kapcsold be a Bluetooth-ot és tartsd közel az órát</string>
     <string name="message_enable_notification_listener_access">Engedélyezd a hozzáférést az értesítésekhez: Telefon/Beállítások/Hozzáférés értesítésekhez</string>
     <string name="message_enable_notification_listener_access_4_4">Engedélyezd a hozzáférést az értesítésekhez: Biztonság/Hozzáférés az értesítésekhez</string>
     <string name="message_open_settings">Beállítások</string>
@@ -369,8 +369,10 @@
 
 
     <!-- Watch face -->
-    <string name="watch_face_download_title">Számlap letöltés</string>
+    <string name="watch_face_tab_watch_faces">Számlapok</string>
+    <string name="watch_face_tab_watch_face_custom">Egyéni fájlok</string>
 
+    <string name="watch_face_download_title">Számlap letöltés</string>
     <string name="watch_face_upload_title">Számlap feltöltés</string>
 
     <string name="watch_face_upload_prepare">Felkészülés a feltöltésre…</string>
@@ -382,6 +384,8 @@
 
     <string name="watch_face_upload_speed_title">Feltöltés sebessége</string>
     <string name="watch_face_upload_speed_hint">Számlap feltöltési folyamat megszakadás esetén állítson be alacsonyabb sebességet</string>
+
+    <string name="message_watch_face_file_error">Hibás számlap fájl</string>
 
 
     <!-- Touch monitoring -->
@@ -496,7 +500,7 @@
     <string name="touch_setting_recognition_failed_title">Nem felismert érintés minta</string>
 
     <string name="info_dialog_touch"><![CDATA[
-        <p>Önálló módban működik megfelelően. Ha együttműködési módot használ, a hivatalos <app_official /> alkalmazás is kezeli ezeket a funkciókat, így a megfelelő működés nem garantálható.</p>
+        <p>Önálló módban működik megfelelően. Együttműködési módban a hivatalos <app_official /> alkalmazás is kezeli ezeket a funkciókat, így a megfelelő működés nem garantálható.</p>
         <b><u>Felismert érintések</u></b>
         <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next">
         <br><device_type/> zene vezélés
@@ -688,6 +692,7 @@
     <string name="action_dismiss">Bezár</string>
     <string name="action_setting">Beállítás</string>
     <string name="action_delete">Töröl</string>
+    <string name="action_rename">Átnevez</string>
     <string name="action_export">Export</string>
     <string name="action_synchronization">Szinkronizálás</string>
     <string name="action_download">Letöltés</string>
