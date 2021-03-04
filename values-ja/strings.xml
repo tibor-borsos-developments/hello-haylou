@@ -1,8 +1,4 @@
 <?xml version="1.0"?>
-<!DOCTYPE resources [
-    <!ENTITY app_name "Hello Haylou">
-    <!ENTITY device_name "Haylou">
-    ]>
 
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="menu_nav_home">@string/device_name</string>
@@ -29,6 +25,7 @@
     <string name="setting_name">設定</string>
     <string name="settings_name">設定</string>
     <string name="info_name">情報</string>
+    <string name="more_name">もっと</string>
 
 <!--    <string name="mi_band_tracker_title">歩数・距離・カロリー・目標・心拍数</string>-->
     <string name="mi_band_tracker_title">歩数・目標・心拍数</string>
@@ -37,8 +34,8 @@
     <string name="device_state_connected_disconnected_last_time">最後に接続、切断された時間</string>
     <string name="device_alarm">次のアラーム</string>
 
-    <string name="device_search">&device_name; search</string>
-    <string name="device_setting">&device_name;の設定</string>
+    <string name="device_search">%1$s search</string> <!-- %1$s = Watch name -->
+    <string name="device_setting">%1$s の設定</string> <!-- %1$s = Watch name -->
 
     <string name="device_mac_address">MACアドレス</string>
     <string name="device_mac_address_invalid">MACアドレスが無効です</string>
@@ -62,9 +59,9 @@
     <string name="mi_band_setting_menu_call">通話</string>
 
     <string name="mi_band_setting_auth_mi_fit">%1$sとの連携</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">%1$sのインストールが必要です。&app_name;を使用する前に%1$sで%2$sをペアリングしてください。</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">%1$sのインストールが必要です。%3$sを使用する前に%1$sで%2$sをペアリングしてください。</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
     <string name="mi_band_setting_auth_standalone">スタンドアロンモード</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the &app_name; to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application.If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the %3$s to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application.If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
 
     <string name="mi_band_setting_auth_key">認証キー</string>
     <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
@@ -194,15 +191,14 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">ようこそ！</string>
     <string name="dialog_welcome_message"><![CDATA[サポートされているデバイス：
-    <br>• <b>Haylou Solar (LS05)</b>
-    <br>• <b>Haylou Smart Watch 2 (LS02)</b>
-    <br>• <b>Haylou Smart Watch (LS01)</b>
-    <p><app_name/> requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
+    <watch_types/>
+    <p><app_name/> requires the installation of the official <device_type/> app on the same phone. At first you have to pair your smart watch in the <device_type/> app, then you can use this app.</p>
     <p>バンドが見つからない場合はMACアドレス</p>
-    <p><b>接続できない場合：</b>
+    <b>接続できない場合：</b>
     <br>- <app_name/>をタスクロック
     <br>- 「バッテリー最適化を無視」を<app_name/>に許可
     <br>- Bluetooth Shareやその他のBluetoothアプリのデータを消去
+    <br>- More information: https://dontkillmyapp.com
     </p>]]></string>
 
 
@@ -364,6 +360,9 @@
 
     <string name="watch_face_download_title">ダウンロード</string>
     <string name="watch_face_upload_title">アップロード</string>
+    <string name="watch_face_tool_title">Tools</string>
+
+    <string name="watch_face_share_content">You can share the watch face you have created with others. E-mail the watch face and preview files and enter the following information: author, watch face name (max. 14 characters in total) and the watch face language. We only publish high quality dials.</string>
 
     <string name="watch_face_upload_prepare">アップロードの準備中…</string>
     <string name="watch_face_upload_progress">アップロード中：%1$,d%%</string>
@@ -609,7 +608,7 @@
     <string name="feedback_google_play_title">アプリを評価</string>
     <string name="feedback_request_feature_title">機能のリクエスト・バグの報告</string>
     <string name="feedback_request_feature_summary">メールは自動処理のため返信はありません</string>
-    <string name="feedback_translation_title">&app_name;の翻訳</string>
+    <string name="feedback_translation_title">%1$sの翻訳</string> <!-- %1$s = App name -->
     <string name="feedback_translation_title_summary">翻訳にご協力ください</string>
 
     <!-- Privacy policy -->
@@ -653,15 +652,16 @@
 
 
     <!-- Others -->
-    <string name="tab_day">日別</string>
-    <string name="tab_week">週別</string>
-    <string name="tab_month">月別</string>
+    <string name="tab_daily_charts">日別</string>
+    <string name="tab_weekly_charts">週別</string>
+    <string name="tab_monthly_charts">月別</string>
 
     <string name="ad_attribution">Ad</string>
     <string name="on">オン</string>
     <string name="off">オフ</string>
     <string name="none">なし</string>
-    <string name="bpm">BPM</string>
+    <string name="heart_rate_bpm">bpm</string>
+    <string name="heart_rate_mhr">MHR</string>
     <string name="date">日付</string>
     <string name="time">時間</string>
     <string name="time_start">開始時間</string>
@@ -677,10 +677,13 @@
     <string name="timed">Timed</string>
     <string name="file_name">ファイル名</string>
     <string name="default_">デフォルト</string>
+    <string name="default_by_phone">デフォルト（端末の言語）</string>
     <string name="invalid_setting">設定が無効です</string>
     <string name="ringtone">着信音</string>
     <string name="uninstalled">Uninstalled</string>
     <string name="value">Value</string>
+    <string name="downloads">Downloads</string>
+    <string name="share">Share</string>
 
     <string name="action_premium_mode">プレミアムモード</string>
     <string name="action_dismiss">中止</string>

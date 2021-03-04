@@ -1,8 +1,4 @@
 <?xml version="1.0"?>
-<!DOCTYPE resources [
-    <!ENTITY app_name "Hello Haylou">
-    <!ENTITY device_name "Haylou">
-    ]>
 
 <resources>
     <string name="menu_nav_home">@string/device_name</string>
@@ -29,6 +25,7 @@
     <string name="setting_name">设置</string>
     <string name="settings_name">设置</string>
     <string name="info_name">信息</string>
+    <string name="more_name">更多</string>
 
     <!--    <string name="mi_band_tracker_title">步数・距离・卡路里・目标・心率</string>-->
     <string name="mi_band_tracker_title">步数・目标・心率</string>
@@ -37,8 +34,8 @@
     <string name="device_state_connected_disconnected_last_time">上次连接和断开时间</string>
     <string name="device_alarm">下一个闹钟</string>
 
-    <string name="device_search">&device_name; search</string>
-    <string name="device_setting">&device_name; 设置</string>
+    <string name="device_search">%1$s search</string> <!-- %1$s = Watch name -->
+    <string name="device_setting">%1$s 设置</string> <!-- %1$s = Watch name -->
 
     <string name="device_mac_address">MAC 地址</string>
     <string name="device_mac_address_invalid">MAC 地址无效</string>
@@ -62,9 +59,9 @@
     <string name="mi_band_setting_menu_call">呼叫</string>
 
     <string name="mi_band_setting_auth_mi_fit">与 %1$s 协作</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">&app_name; requires the installation of the %1$s app on the same phone. At first you have to pair %2$s in %1$s app, then you can use &app_name;. If you want to use %1$s application, choose this.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">%3$s requires the installation of the %1$s app on the same phone. At first you have to pair %2$s in %1$s app, then you can use %3$s. If you want to use %1$s application, choose this.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
     <string name="mi_band_setting_auth_standalone">独立模式</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the &app_name; to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted.  The %2$s screen must be turned on while performing operations.</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the %3$s to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted.  The %2$s screen must be turned on while performing operations.</string>
 
     <string name="mi_band_setting_auth_key">Authentication key</string>
     <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
@@ -194,15 +191,14 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">欢迎!</string>
     <string name="dialog_welcome_message"><![CDATA[Supported devices:
-    <br>• <b>Haylou Solar (LS05)</b>
-    <br>• <b>Haylou Smart Watch 2 (LS02)</b>
-    <br>• <b>Haylou Smart Watch (LS01)</b>
-    <p><app_name/> requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
-    <p>If Haylou is not found, then you can set the MAC address manually when you discover.</p>
-    <p><b>If you have a connection problem:</b>
+    <watch_types/>
+    <p><app_name/> requires the installation of the official <device_type/> app on the same phone. At first you have to pair your smart watch in the <device_type/> app, then you can use this app.</p>
+    <p>If <device_type/> is not found, then you can set the MAC address manually when you discover.</p>
+    <b>If you have a connection problem:</b>
     <br>- Recent apps screen: lock the <app_name/> (pull down the app and click on lock icon).
     <br>- Phone/battery optimization: set <app_name/> app to not optimized.
     <br>- Phone/apps: clear Bluetooth Share and other \'Bluetooth\' apps data.
+    <br>- More information: https://dontkillmyapp.com
     ]]></string>
 
 
@@ -363,6 +359,9 @@
 
     <string name="watch_face_download_title">下载表盘</string>
     <string name="watch_face_upload_title">更换表盘</string>
+    <string name="watch_face_tool_title">Tools</string>
+
+    <string name="watch_face_share_content">You can share the watch face you have created with others. E-mail the watch face and preview files and enter the following information: author, watch face name (max. 14 characters in total) and the watch face language. We only publish high quality dials.</string>
 
     <string name="watch_face_upload_prepare">正在准备上传…</string>
     <string name="watch_face_upload_progress">上传中… %1$,d%%</string>
@@ -607,7 +606,7 @@
     <string name="feedback_google_play_title">为此应用评分</string>
     <string name="feedback_request_feature_title">功能请求及错误报告</string>
     <string name="feedback_request_feature_summary">邮件会自动处理因此你可能不会收到回信</string>
-    <string name="feedback_translation_title">&app_name; 翻译</string>
+    <string name="feedback_translation_title">%1$s 翻译</string> <!-- %1$s = App name -->
     <string name="feedback_translation_title_summary">请帮助我们翻译</string>
 
     <!-- Privacy policy -->
@@ -651,15 +650,16 @@
 
 
     <!-- Others -->
-    <string name="tab_day">每日图表</string>
-    <string name="tab_week">每周图表</string>
-    <string name="tab_month">每月图表</string>
+    <string name="tab_daily_charts">每日图表</string>
+    <string name="tab_weekly_charts">每周图表</string>
+    <string name="tab_monthly_charts">每月图表</string>
 
     <string name="ad_attribution">Ad</string>
     <string name="on">开启</string>
     <string name="off">关闭</string>
     <string name="none">无</string>
-    <string name="bpm">BPM</string>
+    <string name="heart_rate_bpm">bpm</string>
+    <string name="heart_rate_mhr">MHR</string>
     <string name="date">日期</string>
     <string name="time">时间</string>
     <string name="time_start">开始时间</string>
@@ -675,10 +675,13 @@
     <string name="timed">Timed</string>
     <string name="file_name">文件名</string>
     <string name="default_">默认</string>
+    <string name="default_by_phone">默认 (使用手机设置)</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="ringtone">铃声</string>
     <string name="uninstalled">Uninstalled</string>
     <string name="value">Value</string>
+    <string name="downloads">Downloads</string>
+    <string name="share">Share</string>
 
     <string name="action_premium_mode">高级模式</string>
     <string name="action_dismiss">关闭</string>

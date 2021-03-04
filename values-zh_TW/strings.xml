@@ -1,8 +1,4 @@
 <?xml version="1.0"?>
-<!DOCTYPE resources [
-    <!ENTITY app_name "Hello Haylou">
-    <!ENTITY device_name "Haylou">
-    ]>
 
 <resources>
     <string name="menu_nav_home">@string/device_name</string>
@@ -29,6 +25,7 @@
     <string name="setting_name">設定</string>
     <string name="settings_name">設定</string>
     <string name="info_name">資訊</string>
+    <string name="more_name">更多</string>
 
 <!--    <string name="mi_band_tracker_title">步數・距離・卡路里・目標・心率</string>-->
     <string name="mi_band_tracker_title">步數・目標・心率</string>
@@ -37,8 +34,8 @@
     <string name="device_state_connected_disconnected_last_time">最後連接和斷開時間</string>
     <string name="device_alarm">下一個鬧鐘</string>
 
-    <string name="device_search">尋找 &device_name;</string>
-    <string name="device_setting">&device_name; 設定</string>
+    <string name="device_search">尋找 %1$s</string> <!-- %1$s = Watch name -->
+    <string name="device_setting">%1$s 設定</string> <!-- %1$s = Watch name -->
 
     <string name="device_mac_address">MAC 地址</string>
     <string name="device_mac_address_invalid">MAC 地址錯誤</string>
@@ -61,9 +58,9 @@
     <string name="mi_band_setting_menu_call">電話</string>
 
     <string name="mi_band_setting_auth_mi_fit">%1$s 協作</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">&app_name; 需要在同一部裝置上安裝 %1$s 應用程式。 您需要在 %1$s 程式內先配對 %2$s 後才能使用 &app_name;。若您希望使用 %1$s 程式，請選擇此項。</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">%3$s 需要在同一部裝置上安裝 %1$s 應用程式。 您需要在 %1$s 程式內先配對 %2$s 後才能使用 %3$s。若您希望使用 %1$s 程式，請選擇此項。</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
     <string name="mi_band_setting_auth_standalone">獨立模式</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$s 應用程序對於&app_name;來說不是必需的。 配對裝置後請解除安裝 %1$s 程式。若要重新使用 %1$s ，您必須在 %1$s 程式內重新配對 %2$s。 若使用解除配對功能，資料將被清除。 在進行設定的過程中，%2$s 程式畫面必須開啟。</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$s 應用程序對於%3$s來說不是必需的。 配對裝置後請解除安裝 %1$s 程式。若要重新使用 %1$s ，您必須在 %1$s 程式內重新配對 %2$s。 若使用解除配對功能，資料將被清除。 在進行設定的過程中，%2$s 程式畫面必須開啟。</string>
 
     <string name="mi_band_setting_auth_key">認證碼</string>
     <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
@@ -147,10 +144,10 @@
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">請打開藍牙並將手環靠近手機</string>
     <string name="message_discover_mi_band">尚未設置手環，請尋找</string>
-    <string name="message_discovering_mi_band">正在尋找 &device_name; 手環 (可能需要1分鐘) …</string>
+    <string name="message_discovering_mi_band">正在尋找 %1$s 手環 (可能需要1分鐘) …</string>
     <string name="message_discovered_mi_band">%1$s 連結成功</string>
-    <string name="message_discovered_no_mi_band">&device_name; 連結失敗</string>
-    <string name="message_discovered_not_found_mi_band">如果未找到&device_name;，請打開：Haylou Sport / Play / Discoverable或與手機藍牙設置配對</string>
+    <string name="message_discovered_no_mi_band">%1$s 連結失敗</string>
+    <string name="message_discovered_not_found_mi_band">如果未找到%1$s，請打開：Haylou Sport / Play / Discoverable或與手機藍牙設置配對</string>
     <string name="message_enable_notification_listener_access">啟用通知存取：電話/設定/通知存取</string>
     <string name="message_enable_notification_listener_access_4_4">啟用通知存取：電話/設定/通知存取</string>
     <string name="message_open_settings">設定</string>
@@ -193,15 +190,14 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">歡迎!</string>
     <string name="dialog_welcome_message"><![CDATA[支援裝置:
-    <br>• <b>Haylou Solar (LS05)</b>
-    <br>• <b>Haylou Smart Watch 2 (LS02)</b>
-    <br>• <b>Haylou Smart Watch (LS01)</b>
-    <p><app_name/> 需要在同一部裝置上安裝官方版本的Haylou應用程式。 您必須先在Haylou應用中和智能手錶配對，然後才能使用此程式。</p>
-    <p>如果未找到Haylou，可以嘗試手動設定MAC地址。</p>
-    <p><b>如果您有連接上的問題：</b>
+    <watch_types/>
+    <p><app_name/> 需要在同一部裝置上安裝官方版本的<device_type/>應用程式。 您必須先在<device_type/>應用中和智能手錶配對，然後才能使用此程式。</p>
+    <p>如果未找到<device_type/>，可以嘗試手動設定MAC地址。</p>
+    <b>如果您有連接上的問題：</b>
     <br>- Recent apps 畫面: 鎖定<app_name/>（拉下應用程序並點擊鎖定圖示）。
     <br>- 手機/電池優化：將 \'<app_name/>\' 應用設置為未優化。
     <br>- 手機/應用程式：清除 \'藍牙共享\' 和其他 \'藍牙\' 應用程式資料。
+    <br>- More information: https://dontkillmyapp.com
     ]]></string>
 
 
@@ -362,6 +358,9 @@
 
     <string name="watch_face_download_title">下载表盘</string>
     <string name="watch_face_upload_title">更换表盘</string>
+    <string name="watch_face_tool_title">Tools</string>
+
+    <string name="watch_face_share_content">You can share the watch face you have created with others. E-mail the watch face and preview files and enter the following information: author, watch face name (max. 14 characters in total) and the watch face language. We only publish high quality dials.</string>
 
     <string name="watch_face_upload_prepare">正在准备上传…</string>
     <string name="watch_face_upload_progress">上传中… %1$,d%%</string>
@@ -606,7 +605,7 @@
     <string name="feedback_google_play_title">為此應用程式評分</string>
     <string name="feedback_request_feature_title">功能要求，錯誤報告</string>
     <string name="feedback_request_feature_summary">Automatic e-mail processing, you may not get an response</string>
-    <string name="feedback_translation_title">&app_name; 翻譯</string>
+    <string name="feedback_translation_title">%1$s 翻譯</string> <!-- %1$s = App name -->
     <string name="feedback_translation_title_summary">請協助翻譯</string>
 
     <!-- Privacy policy -->
@@ -650,15 +649,16 @@
 
 
     <!-- Others -->
-    <string name="tab_day">每日圖表</string>
-    <string name="tab_week">每週圖表</string>
-    <string name="tab_month">每月圖表</string>
+    <string name="tab_daily_charts">每日圖表</string>
+    <string name="tab_weekly_charts">每週圖表</string>
+    <string name="tab_monthly_charts">每月圖表</string>
 
     <string name="ad_attribution">廣告</string>
     <string name="on">開啟</string>
     <string name="off">關閉</string>
     <string name="none">None</string>
-    <string name="bpm">BPM</string>
+    <string name="heart_rate_bpm">bpm</string>
+    <string name="heart_rate_mhr">MHR</string>
     <string name="date">日期</string>
     <string name="time">時間</string>
     <string name="time_start">開始時間</string>
@@ -674,10 +674,13 @@
     <string name="timed">定時</string>
     <string name="file_name">檔案名稱</string>
     <string name="default_">預設</string>
+    <string name="default_by_phone">裝置預設</string>
     <string name="invalid_setting">設定錯誤</string>
     <string name="ringtone">鈴聲</string>
     <string name="uninstalled">已解除安裝</string>
     <string name="value">值</string>
+    <string name="downloads">Downloads</string>
+    <string name="share">Share</string>
 
     <string name="action_premium_mode">進階功能</string>
     <string name="action_dismiss">關閉</string>

@@ -1,8 +1,4 @@
 <?xml version="1.0"?>
-<!DOCTYPE resources [
-    <!ENTITY app_name "Hello Haylou">
-    <!ENTITY device_name "Haylou">
-    ]>
 
 <resources>
     <string name="menu_nav_home">@string/device_name</string>
@@ -29,6 +25,7 @@
     <string name="setting_name">Instilling</string>
     <string name="settings_name">Instillinger</string>
     <string name="info_name">Informasjon</string>
+    <string name="more_name">Mer</string>
 
 <!--    <string name="mi_band_tracker_title">Skritt・distanse・kalorier・mål・puls</string>-->
     <string name="mi_band_tracker_title">Skritt・mål・puls</string>
@@ -37,8 +34,8 @@
     <string name="device_state_connected_disconnected_last_time">Siste tilkoblings og frakoblings-tid</string>
     <string name="device_alarm">Neste alarm</string>
 
-    <string name="device_search">&device_name; search</string>
-    <string name="device_setting">&device_name;-instillinger</string>
+    <string name="device_search">%1$s search</string>  <!-- %1$s = Watch name -->
+    <string name="device_setting">%1$s-instillinger</string> <!-- %1$s = Watch name -->
 
     <string name="device_mac_address">MAC address</string>
     <string name="device_mac_address_invalid">MAC-addressen er ubrukelig</string>
@@ -62,9 +59,9 @@
     <string name="mi_band_setting_menu_call">Anrop</string>
 
     <string name="mi_band_setting_auth_mi_fit">%1$s cooperation</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">&app_name; behøver installasjon av den offisielle %1$s appen på den samme telefonen. først må du parre %2$s i %1$s appen, så kan du bruke &app_name;. If you want to use %1$s, choose this.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">%3$s behøver installasjon av den offisielle %1$s appen på den samme telefonen. først må du parre %2$s i %1$s appen, så kan du bruke %3$s. If you want to use %1$s, choose this.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
     <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the &app_name; to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the %3$s to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
 
     <string name="mi_band_setting_auth_key">Authentication key</string>
     <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
@@ -147,10 +144,10 @@
 
     <!-- Snackbar Meldinger -->
     <string name="message_enable_bluetooth">Venligst aktivere Bluetooth og hold Bandet nærmere telefonen</string>
-    <string name="message_discover_mi_band">&device_name; er ikke funnet, søk etter det</string>
-    <string name="message_discovering_mi_band">Oppdager &device_name; (det kan kanskje ta 1 minutt) &#8230;</string>
+    <string name="message_discover_mi_band">%1$s er ikke funnet, søk etter det</string>
+    <string name="message_discovering_mi_band">Oppdager %1$s (det kan kanskje ta 1 minutt) &#8230;</string>
     <string name="message_discovered_mi_band">%1$s tilkobling suksess</string>
-    <string name="message_discovered_no_mi_band">&device_name; tilkobling feilet</string>
+    <string name="message_discovered_no_mi_band">%1$s tilkobling feilet</string>
     <string name="message_discovered_not_found_mi_band">Hvis Banded ikke er funnet, skru på: Haylou Sport/Play/Oppdag tilgjengelighet eller parre på telefonens Bluetooth instilling</string>
     <string name="message_enable_notification_listener_access">Aktivere notifikasjon rilgang: Instillinger/Notifikasjoner/Notifikasjon tilgang</string>
     <string name="message_enable_notification_listener_access_4_4">Aktiver notifikasjon tilgang: Instillinger/Sikkerhet/Notifikasjon tilgang</string>
@@ -194,15 +191,14 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">Velkommen!</string>
     <string name="dialog_welcome_message"><![CDATA[Supportede enheter:
-    <br>• <b>Haylou Solar (LS05)</b>
-    <br>• <b>Haylou Smart Watch 2 (LS02)</b>
-    <br>• <b>Haylou Smart Watch (LS01)</b>
-    <p><app_name/> requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
+    <watch_types/>
+    <p><app_name/> requires the installation of the official <device_type/> app on the same phone. At first you have to pair your smart watch in the <device_type/> app, then you can use this app.</p>
     <p>hvis Bandetvikke er funnet, da kan du sette MAC addressen manuelt når du utforsker.</p>
-    <p><b>hvis du har et tilkoblings problem:</b>
+    <b>hvis du har et tilkoblings problem:</b>
     <br>- Seneste app-skjerm: lås <app_name/> (skyv ned appen og trykk på lås ikonet).
     <br>- Telefon/batteri optimalisering: sett <app_name/> app til å ikke bli optimalisert.
     <br>- Telefon/apper: rens Bluetooth Deling og andre \'Bluetooth\' app data.
+    <br>- More information: https://dontkillmyapp.com
     ]]></string>
 
 
@@ -364,6 +360,9 @@
 
     <string name="watch_face_download_title">Download watch face</string>
     <string name="watch_face_upload_title">Endre atch face</string>
+    <string name="watch_face_tool_title">Tools</string>
+
+    <string name="watch_face_share_content">You can share the watch face you have created with others. E-mail the watch face and preview files and enter the following information: author, watch face name (max. 14 characters in total) and the watch face language. We only publish high quality dials.</string>
 
     <string name="watch_face_upload_prepare">Preparing for the upload…</string>
     <string name="watch_face_upload_progress">Uploading %1$,d%%</string>
@@ -608,8 +607,8 @@
     <string name="feedback_google_play_title">Bedøm denne appen</string>
     <string name="feedback_request_feature_title">Egenskaps forespørsel, bug rapport</string>
     <string name="feedback_request_feature_summary">Automatisk e-mail prossesjon, du får kanskje ikke respons</string>
-    <string name="feedback_translation_title">&app_name; translation</string>
-    <string name="feedback_translation_title_summary">Please help in translation</string>
+    <string name="feedback_translation_title">%1$s translation</string> <!-- %1$s = App name -->
+    <string name="feedback_translation_title_summary">Please help with the translation</string>
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Personvern policy</string>
@@ -652,15 +651,16 @@
 
 
     <!-- Others -->
-    <string name="tab_day">Daglige skritt</string>
-    <string name="tab_week">Ukentlige skritt</string>
-    <string name="tab_month">Månedlige skritt</string>
+    <string name="tab_daily_charts">Daglige skritt</string>
+    <string name="tab_weekly_charts">Ukentlige skritt</string>
+    <string name="tab_monthly_charts">Månedlige skritt</string>
 
     <string name="ad_attribution">Ad</string>
     <string name="on">På</string>
     <string name="off">Av</string>
     <string name="none">Ingen</string>
-    <string name="bpm">BPM</string>
+    <string name="heart_rate_bpm">bpm</string>
+    <string name="heart_rate_mhr">MHR</string>
     <string name="date">Dato</string>
     <string name="time">Tid</string>
     <string name="time_start">Start tid</string>
@@ -676,10 +676,13 @@
     <string name="timed">Timed</string>
     <string name="file_name">Fil navn</string>
     <string name="default_">Default</string>
+    <string name="default_by_phone">Misligholde (over telefon)</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="ringtone">Ringetone</string>
     <string name="uninstalled">Uninstalled</string>
     <string name="value">Value</string>
+    <string name="downloads">Downloads</string>
+    <string name="share">Share</string>
 
     <string name="action_premium_mode">Premium modus</string>
     <string name="action_dismiss">Avvis</string>

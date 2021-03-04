@@ -1,8 +1,4 @@
 <?xml version="1.0"?>
-<!DOCTYPE resources [
-    <!ENTITY app_name "Hello Haylou">
-    <!ENTITY device_name "Haylou">
-    ]>
 
 <resources>
     <string name="menu_nav_home">@string/device_name</string>
@@ -29,6 +25,7 @@
     <string name="setting_name">Ρυθμίσεις</string>
     <string name="settings_name">Ρυθμίσεις</string>
     <string name="info_name">Πληροφορίες</string>
+    <string name="more_name">Περισσότερο</string>
 
 <!--    <string name="mi_band_tracker_title">Βήματα・απόσταση・θερμίδες・στόχος・παλμός</string>-->
     <string name="mi_band_tracker_title">Βήματα・στόχος・παλμός</string>
@@ -37,8 +34,8 @@
     <string name="device_state_connected_disconnected_last_time">Τελευταίος χρόνος σύνδεσης και αποσύνδεσης</string>
     <string name="device_alarm">Ειδοποίηση</string>
 
-    <string name="device_search">&device_name; εύρεση</string>
-    <string name="device_setting">&device_name; ρυθμίσεις</string>
+    <string name="device_search">%1$s εύρεση</string> <!-- %1$s = Watch name -->
+    <string name="device_setting">%1$s ρυθμίσεις</string> <!-- %1$s = Watch name -->
 
     <string name="device_mac_address">Διεύθυνση MAC</string>
     <string name="device_mac_address_invalid">Η MAC διεύθυνση δεν είναι έγκυρη</string>
@@ -62,9 +59,9 @@
     <string name="mi_band_setting_menu_call">Κλήση</string>
 
     <string name="mi_band_setting_auth_mi_fit">%1$s cooperation</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">Το &app_name;  απαιτεί την εγκατάσταση της επίσημης εφαρμογής %1$s στην ίδια συσκευή. Στην αρχή θα πρέπει να αντιστοιχίσετε %2$s με την εφαρμογή %1$s, μετά θα μπορείτε να χρησιμοποιήσετε το &app_name;. If you want to use %1$s, choose this.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Το %3$s απαιτεί την εγκατάσταση της επίσημης εφαρμογής %1$s στην ίδια συσκευή. Στην αρχή θα πρέπει να αντιστοιχίσετε %2$s με την εφαρμογή %1$s, μετά θα μπορείτε να χρησιμοποιήσετε το %3$s. If you want to use %1$s, choose this.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
     <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$st εφαρμογή δεν απαιτείται  για την λειτουργία του &app_name;. Μετά τη σύζευξη, απεγκαταστήστε την εφαρμογή %1$s. Κατά την επαναφορά του %1$s συνεργασία, θα χρειαστεί να ξαναζεύξετε το δικό σας %2$s σητν εφαρμογή %1$s. Εάν χρησιμοποιείτε τη λειτουργία μη αντιστάθμισης, τα δεδομένα στο smartwatch θα διαγραφούν. Η οθόνη του %2$s  πρέπει να είναι ενεργοποιημένη κατά την εκτέλεση εργασιών.</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$st εφαρμογή δεν απαιτείται  για την λειτουργία του %3$s. Μετά τη σύζευξη, απεγκαταστήστε την εφαρμογή %1$s. Κατά την επαναφορά του %1$s συνεργασία, θα χρειαστεί να ξαναζεύξετε το δικό σας %2$s σητν εφαρμογή %1$s. Εάν χρησιμοποιείτε τη λειτουργία μη αντιστάθμισης, τα δεδομένα στο smartwatch θα διαγραφούν. Η οθόνη του %2$s  πρέπει να είναι ενεργοποιημένη κατά την εκτέλεση εργασιών.</string>
 
     <string name="mi_band_setting_auth_key">Authentication key</string>
     <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
@@ -146,12 +143,12 @@
 
 
     <!-- Snackbar Messages -->
-    <string name="message_enable_bluetooth">Παρακαλούμε να ενεργοποιήσετε το Bluetooth και φέρτε τη συσκευή &device_name; πιο κοντά στο τηλέφωνο</string>
-    <string name="message_discover_mi_band">Το &device_name; δεν έχει οριστεί, παρακαλούμε πατήστε ανίχνευση</string>
-    <string name="message_discovering_mi_band">Ανίχνευση για &device_name; (μπορεί να πάρει 1 λεπτό) &#8230;</string>
+    <string name="message_enable_bluetooth">Παρακαλούμε να ενεργοποιήσετε το Bluetooth και φέρτε τη συσκευή %1$s πιο κοντά στο τηλέφωνο</string>
+    <string name="message_discover_mi_band">Το %1$s δεν έχει οριστεί, παρακαλούμε πατήστε ανίχνευση</string>
+    <string name="message_discovering_mi_band">Ανίχνευση για %1$s (μπορεί να πάρει 1 λεπτό) &#8230;</string>
     <string name="message_discovered_mi_band">Το %1$s ανιχνεύθηκε</string>
-    <string name="message_discovered_no_mi_band">Το &device_name; δεν ανιχνεύθηκε</string>
-    <string name="message_discovered_not_found_mi_band">Σε περίπτωση που το &device_name; δεν ανιχνευθεί, ενεργοποιήστε το: Haylou Sport/Play/Discoverable ή συζεύξτε από τις ρυθμίσεις Bluetooth του κινητού σας.</string>
+    <string name="message_discovered_no_mi_band">Το %1$s δεν ανιχνεύθηκε</string>
+    <string name="message_discovered_not_found_mi_band">Σε περίπτωση που το %1$s δεν ανιχνευθεί, ενεργοποιήστε το: Haylou Sport/Play/Discoverable ή συζεύξτε από τις ρυθμίσεις Bluetooth του κινητού σας.</string>
     <string name="message_enable_notification_listener_access">Ενεργοποίηση πρόσβασης ειδοποίησης: Ρυθμίσεις/ειδοποιήσεις/Πρόσβασης ειδοποίησης (Settings/Notifications/Notification access)</string>
     <string name="message_enable_notification_listener_access_4_4">Ενεργοποίηση πρόσβασης ειδοποίησης: Ρυθμίσεις/Ασφάλεια/Πρόσβασης ειδοποίησης (Settings/Security/Notification access)</string>
     <string name="message_open_settings">Ρυθμίσεις</string>
@@ -194,15 +191,14 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">Καλώς ορίσατε!</string>
     <string name="dialog_welcome_message"><![CDATA[Υποστηριζόμενες συσκευές:
-    <br>• <b>Haylou Solar (LS05)</b>
-    <br>• <b>Haylou Smart Watch 2 (LS02)</b>
-    <br>• <b>Haylou Smart Watch (LS01)</b>
-    <p><app_name/> απαιτεί την εγκατάσταση της επίσημης εφαρμογής Haylou στο ίδιο τηλέφωνο. Αρχικά πρέπει να συνδέσετε το έξυπνο ρολόι σας στην εφαρμογή Haylou, μετά μπορείτε να χρησιμοποιήσετε αυτήν την εφαρμογή.</p>
-    <p>Αν το Haylou δεν ανιχνευθεί, τότε μπορείτε να ρυθμίσετε τη διεύθυνση MAC χειροκίνητα από το μενού λεπτομέρειες.</p>
-    <p><b>Εάν έχετε πρόβλημα σύνδεσης:</b>
+    <watch_types/>
+    <p><app_name/> απαιτεί την εγκατάσταση της επίσημης εφαρμογής <device_type/> στο ίδιο τηλέφωνο. Αρχικά πρέπει να συνδέσετε το έξυπνο ρολόι σας στην εφαρμογή <device_type/>, μετά μπορείτε να χρησιμοποιήσετε αυτήν την εφαρμογή.</p>
+    <p>Αν το <device_type/> δεν ανιχνευθεί, τότε μπορείτε να ρυθμίσετε τη διεύθυνση MAC χειροκίνητα από το μενού λεπτομέρειες.</p>
+    <b>Εάν έχετε πρόβλημα σύνδεσης:</b>
     <br>- Στην οθόνη των πρόσφατων εφαρμογών: κλειδώστε το <app_name/> (τραβήξτε την εφαρμογή προς τα κάτω και κάντε κλικ στο εικονίδιο κλειδώματος).
     <br>- Ρυθμίσεις τηλεφώνου/μπαταρίας/βελτιστοποίηση μπαταρίας: Μη ρυθμίσετε βελτιστοποίηση στην εφαρμογή <app_name/>.
     <br>- Τηλέφωνο/εφαρμογές: καθαρισμός Bluetooth διαμοιρασμού και άλλα\'Bluetooth\' δεδομένα εφαρμογών.
+    <br>- More information: https://dontkillmyapp.com
     ]]></string>
 
 
@@ -363,6 +359,9 @@
 
     <string name="watch_face_download_title">Λήψη όψης ρολογιού</string>
     <string name="watch_face_upload_title">Αλλαγή όψης ρολογιού</string>
+    <string name="watch_face_tool_title">Tools</string>
+
+    <string name="watch_face_share_content">You can share the watch face you have created with others. E-mail the watch face and preview files and enter the following information: author, watch face name (max. 14 characters in total) and the watch face language. We only publish high quality dials.</string>
 
     <string name="watch_face_upload_prepare">Προετοιμασία για τη μεταφόρτωση…</string>
     <string name="watch_face_upload_progress">Μεταφόρτωση %1$,d%%</string>
@@ -607,7 +606,7 @@
     <string name="feedback_google_play_title">Βαθμολόγησε αυτήν την εφαρμογή</string>
     <string name="feedback_request_feature_title">Ζητήστε κάποιο χαρακτηριστικό, αναφορά σφαλμάτων</string>
     <string name="feedback_request_feature_summary">Αυτόματη διαδικασία αποστολής e-mail, δεν θα πάρετε καμία απάντηση</string>
-    <string name="feedback_translation_title">&app_name; μετάφραση</string>
+    <string name="feedback_translation_title">%1$s μετάφραση</string> <!-- %1$s = App name -->
     <string name="feedback_translation_title_summary">Παρακαλώ βοηθήστε στη μετάφραση</string>
 
     <!-- Privacy policy -->
@@ -651,9 +650,9 @@
 
 
     <!-- Others -->
-    <string name="tab_day">Ημερήσια διαγράμματα</string>
-    <string name="tab_week">Εβδομαδιαία διαγράμματα</string>
-    <string name="tab_month">Μηνιαία διαγράμματα</string>
+    <string name="tab_daily_charts">Ημερήσια διαγράμματα</string>
+    <string name="tab_weekly_charts">Εβδομαδιαία διαγράμματα</string>
+    <string name="tab_monthly_charts">Μηνιαία διαγράμματα</string>
 
     <string name="ad_attribution">Ad</string>
     <string name="on">Ενεργό</string>
@@ -661,7 +660,8 @@
     <string name="none">Κανένας</string>
     <string name="date">Ημερομηνία</string>
     <string name="time">Χρόνος</string>
-    <string name="bpm">BPM</string>
+    <string name="heart_rate_bpm">bpm</string>
+    <string name="heart_rate_mhr">MHR</string>
     <string name="time_start">Ώρα έναρξης</string>
     <string name="time_end">Ώρα λήξης</string>
     <string name="ringer_mode_vibrate">Δόνηση</string>
@@ -675,10 +675,13 @@
     <string name="timed">Timed</string>
     <string name="file_name">Όνομα αρχείου</string>
     <string name="default_">Προεπιλογή</string>
+    <string name="default_by_phone">Προεπιλογή (τηλέφωνο)</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="ringtone">Ήχος κλήσης</string>
     <string name="uninstalled">Απεγκαταστάθηκε</string>
     <string name="value">Value</string>
+    <string name="downloads">Downloads</string>
+    <string name="share">Share</string>
 
     <string name="action_premium_mode">Λειτουργία Premium</string>
     <string name="action_dismiss">Απόρριψη</string>

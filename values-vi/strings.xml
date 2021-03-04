@@ -1,8 +1,4 @@
 <?xml version="1.0"?>
-<!DOCTYPE resources [
-    <!ENTITY app_name "Hello Haylou">
-    <!ENTITY device_name "Haylou">
-    ]>
 
 <resources>
     <string name="menu_nav_home">@string/device_name</string>
@@ -29,6 +25,7 @@
     <string name="setting_name">Cài đặt</string>
     <string name="settings_name">Cài đặt</string>
     <string name="info_name">Thông tin</string>
+    <string name="more_name">Hơn</string>
 
 <!--    <string name="mi_band_tracker_title">Bước・khoảng cách・calo・Thành tích・Nhịp tim</string>-->
     <string name="mi_band_tracker_title">Bước・Thành tích・Nhịp tim</string>
@@ -37,8 +34,8 @@
     <string name="device_state_connected_disconnected_last_time">Lần cuối nhìn thấy thiết bị</string>
     <string name="device_alarm">Báo thức tiếp</string>
 
-    <string name="device_search">Tìm kiếm &device_name;</string>
-    <string name="device_setting">Cài đặt &device_name;</string>
+    <string name="device_search">Tìm kiếm %1$s</string> <!-- %1$s = Watch name -->
+    <string name="device_setting">Cài đặt %1$s</string> <!-- %1$s = Watch name -->
 
     <string name="device_mac_address">Địa chỉ MAC</string>
     <string name="device_mac_address_invalid">Địa chỉ MAC không hợp lệ</string>
@@ -62,9 +59,9 @@
     <string name="mi_band_setting_menu_call">Cuộc gọi</string>
 
     <string name="mi_band_setting_auth_mi_fit">Đồng bộ với %1$s</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">&app_name; cần cài đặt %1$s trên cùng điện thoại. Đầu tiên, bạn cần kết nối %2$s với %1$s, sau đó có thể sử dụng &app_name;. Nếu bạn muốn dùng %1$s, chọn mục này.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">%3$s cần cài đặt %1$s trên cùng điện thoại. Đầu tiên, bạn cần kết nối %2$s với %1$s, sau đó có thể sử dụng %3$s. Nếu bạn muốn dùng %1$s, chọn mục này.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
     <string name="mi_band_setting_auth_standalone">Hoạt động độc lập</string>
-    <string name="mi_band_setting_auth_standalone_hint">Không cần ứng dụng %1$s để ứng dụng &app_name; có thể hoạt động. Sau khi ghép nối, gỡ cài đặt ứng dụng %1$s. Khi khôi phục lại sự kết hợp với %1$s, bạn sẽ cần ghép nối lại %2$s của bạn trong ứng dụng %1$s. Nếu bạn sử dụng chức năng hủy ghép nối, dữ liệu trên đồng hồ thông minh sẽ bị xóa.  Màn hình của %2$s cần phải được bật khi đang ghép nối.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Không cần ứng dụng %1$s để ứng dụng %3$s có thể hoạt động. Sau khi ghép nối, gỡ cài đặt ứng dụng %1$s. Khi khôi phục lại sự kết hợp với %1$s, bạn sẽ cần ghép nối lại %2$s của bạn trong ứng dụng %1$s. Nếu bạn sử dụng chức năng hủy ghép nối, dữ liệu trên đồng hồ thông minh sẽ bị xóa.  Màn hình của %2$s cần phải được bật khi đang ghép nối.</string>
 
     <string name="mi_band_setting_auth_key">Khóa xác thực</string>
     <string name="mi_band_setting_auth_key_help">Nhập 4 số bất kỳ</string>
@@ -146,12 +143,12 @@
 
 
     <!-- Snackbar Messages -->
-    <string name="message_enable_bluetooth">Vui lòng kích hoạt Bluetooth và mang &device_name; gần hơn với điện thoại</string>
-    <string name="message_discover_mi_band">&device_name; chưa được cài đặt, hãy kết nối với nó</string>
-    <string name="message_discovering_mi_band">Tìm &device_name; (có thể mất 1 phút) &#8230;</string>
+    <string name="message_enable_bluetooth">Vui lòng kích hoạt Bluetooth và mang %1$s gần hơn với điện thoại</string>
+    <string name="message_discover_mi_band">%1$s chưa được cài đặt, hãy kết nối với nó</string>
+    <string name="message_discovering_mi_band">Tìm %1$s (có thể mất 1 phút) &#8230;</string>
     <string name="message_discovered_mi_band">Phát hiện %1$s</string>
-    <string name="message_discovered_no_mi_band">&device_name; không được tìm thấy</string>
-    <string name="message_discovered_not_found_mi_band">Nếu &device_name; không được tìm thấy, bật: Haylou Sport/Cài đặt … hoặc ghép nối tại cài đặt Bluetooth</string>
+    <string name="message_discovered_no_mi_band">%1$s không được tìm thấy</string>
+    <string name="message_discovered_not_found_mi_band">Nếu %1$s không được tìm thấy, bật: Haylou Sport/Cài đặt … hoặc ghép nối tại cài đặt Bluetooth</string>
     <string name="message_enable_notification_listener_access">Kích hoạt tính năng truy cập thông báo: Cài đặt/Bảo mật/Truy cập thông báo</string>
     <string name="message_enable_notification_listener_access_4_4">Kích hoạt tính năng truy cập thông báo: Cài đặt/Bảo mật/Truy cập thông báo</string>
     <string name="message_open_settings">Các cài đặt</string>
@@ -194,15 +191,14 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">Chào mừng!</string>
     <string name="dialog_welcome_message"><![CDATA[Thiết bị hỗ trợ:
-    <br>• <b>Haylou Solar (LS05)</b>
-    <br>• <b>Haylou Smart Watch 2 (LS02)</b>
-    <br>• <b>Haylou Smart Watch (LS01)</b>
-    <p><app_name/> yêu cầu cài đặt ứng dụng Haylou chính thức trên cùng một điện thoại. Lúc đầu, bạn phải ghép nối đồng hồ thông minh của mình trong ứng dụng Haylou, sau đó bạn có thể sử dụng ứng dụng này.</p>
+    <watch_types/>
+    <p><app_name/> yêu cầu cài đặt ứng dụng <device_type/> chính thức trên cùng một điện thoại. Lúc đầu, bạn phải ghép nối đồng hồ thông minh của mình trong ứng dụng <device_type/>, sau đó bạn có thể sử dụng ứng dụng này.</p>
     <p>Nếu không tìm thấy đồng hồ, bạn có thể nhập MAC thủ công.</p>
-    <p><b>Nếu có vấn đề kết nối:</b>
+    <b>Nếu có vấn đề kết nối:</b>
     <br>- Màn hình ứng dụng gần đây: Khoá <app_name/> (kéo xuống và ấn vào biểu tượng cái khoá).
     <br>- Tối ưu điện thoại/Pin: Cho phép <app_name/> Không cần tối ưu.
     <br>- Điện thoại/Ứng dụng: Xoá Chia sẻ Bluetooth và dữ liệu ứng dụng \'Bluetooth\'.
+    <br>- More information: https://dontkillmyapp.com
     </p>]]></string>
 
 
@@ -366,6 +362,9 @@
 
     <string name="watch_face_download_title">Tải xuống mặt đồng hồ</string>
     <string name="watch_face_upload_title">Đồng bộ mặt đồng hồ</string>
+    <string name="watch_face_tool_title">Tools</string>
+
+    <string name="watch_face_share_content">You can share the watch face you have created with others. E-mail the watch face and preview files and enter the following information: author, watch face name (max. 14 characters in total) and the watch face language. We only publish high quality dials.</string>
 
     <string name="watch_face_upload_prepare">Chuẩn bị đồng bộ…</string>
     <string name="watch_face_upload_progress">Đang tải %1$,d%%</string>
@@ -610,7 +609,7 @@
     <string name="feedback_google_play_title">Đánh giá ứng dụng này</string>
     <string name="feedback_request_feature_title">Yêu cầu tính năng</string>
     <string name="feedback_request_feature_summary">Xử lý e-mail tự động, bạn sẽ không nhận được phản hồi</string>
-    <string name="feedback_translation_title">Dịch &app_name;</string>
+    <string name="feedback_translation_title">Dịch %1$s</string> <!-- %1$s = App name -->
     <string name="feedback_translation_title_summary">Vui lòng giúp chúng tôi dịch ứng dụng này</string>
 
     <!-- Privacy policy -->
@@ -653,15 +652,16 @@
 
 
     <!-- Others -->
-    <string name="tab_day">Biểu đồ hàng ngày</string>
-    <string name="tab_week">Biểu đồ theo tuần</string>
-    <string name="tab_month">Biểu đồ theo tháng</string>
+    <string name="tab_daily_charts">Biểu đồ hàng ngày</string>
+    <string name="tab_weekly_charts">Biểu đồ theo tuần</string>
+    <string name="tab_monthly_charts">Biểu đồ theo tháng</string>
 
     <string name="ad_attribution">Ad</string>
     <string name="on">Bật</string>
     <string name="off">Tắt</string>
     <string name="none">Không</string>
-    <string name="bpm">BPM</string>
+    <string name="heart_rate_bpm">bpm</string>
+    <string name="heart_rate_mhr">MHR</string>
     <string name="date">Ngày</string>
     <string name="time">Thời gian</string>
     <string name="time_start">Thời gian bắt đầu</string>
@@ -677,10 +677,13 @@
     <string name="timed">Hẹn giờ</string>
     <string name="file_name">Tên file</string>
     <string name="default_">Mặc định</string>
+    <string name="default_by_phone">Mặc định (bằng điện thoại)</string>
     <string name="invalid_setting">Cài đặt không hợp lệ</string>
     <string name="ringtone">Nhạc chuông</string>
     <string name="uninstalled">Đã gỡ cài đặt</string>
     <string name="value">Giá trị</string>
+    <string name="downloads">Downloads</string>
+    <string name="share">Share</string>
 
     <string name="action_premium_mode">Phiên bản nâng cấp</string>
     <string name="action_dismiss">Bỏ qua</string>

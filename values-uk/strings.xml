@@ -1,8 +1,4 @@
 <?xml version="1.0"?>
-<!DOCTYPE resources [
-    <!ENTITY app_name "Hello Haylou">
-    <!ENTITY device_name "Haylou">
-    ]>
 
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="menu_nav_home">@string/device_name</string>
@@ -29,6 +25,7 @@
     <string name="setting_name">Налаштування</string>
     <string name="settings_name">Налаштування</string>
     <string name="info_name">Інформація</string>
+    <string name="more_name">Більше</string>
 
 <!--    <string name="mi_band_tracker_title">Кроки・відстань・калорії・мета・пульс</string>-->
     <string name="mi_band_tracker_title">Кроки・мета・пульс</string>
@@ -36,8 +33,8 @@
     <string name="device_state_connected_disconnected_last_time">Час останніх з\'єднання/роз\'єднання</string>
     <string name="device_alarm">Наступний будильник</string>
 
-    <string name="device_search">&device_name; search</string>
-    <string name="device_setting">Налаштування &device_name;</string>
+    <string name="device_search">%1$s search</string> <!-- %1$s = Watch name -->
+    <string name="device_setting">Налаштування %1$s</string> <!-- %1$s = Watch name -->
 
     <string name="device_mac_address">MAC адреса</string>
     <string name="device_mac_address_invalid">Невірна MAC адреса</string>
@@ -61,9 +58,9 @@
     <string name="mi_band_setting_menu_call">Дзвінки</string>
 
     <string name="mi_band_setting_auth_mi_fit">Взаємодія з %1$s</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">&app_name; потребує втановленого додатку %1$s на тому ж телефоні. Спочатку ви маєте зв\'язати %2$s з додатком %1$s, потім ви зможете використовувати &app_name;. Оберіть цей пункт, якщо бажаєте використовувати додаток %1$s.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">%3$s потребує втановленого додатку %1$s на тому ж телефоні. Спочатку ви маєте зв\'язати %2$s з додатком %1$s, потім ви зможете використовувати %3$s. Оберіть цей пункт, якщо бажаєте використовувати додаток %1$s.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
     <string name="mi_band_setting_auth_standalone">Автономна взаємодія</string>
-    <string name="mi_band_setting_auth_standalone_hint">Для роботи &app_name;, не потрібний додаток %1$s. Після зв\'язування, видаліть додаток %1$s. Для відновлення взаємодії з %1$s, буде потрібно знову зв\'язати %2$s з додатком %1$s. If you use the unpair function, the data on the smartwatch will be deleted.  The %2$s screen must be turned on while performing operations.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Для роботи %3$s, не потрібний додаток %1$s. Після зв\'язування, видаліть додаток %1$s. Для відновлення взаємодії з %1$s, буде потрібно знову зв\'язати %2$s з додатком %1$s. If you use the unpair function, the data on the smartwatch will be deleted.  The %2$s screen must be turned on while performing operations.</string>
 
     <string name="mi_band_setting_auth_key">Ключ автентифікації</string>
     <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
@@ -194,15 +191,14 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">Ласкаво просимо!</string>
     <string name="dialog_welcome_message"><![CDATA[Підтримувані пристрої:
-    <br>• <b>Haylou Solar (LS05)</b>
-    <br>• <b>Haylou Smart Watch 2 (LS02)</b>
-    <br>• <b>Haylou Smart Watch (LS01)</b>
-    <p><app_name/> requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
+    <watch_types/>
+    <p><app_name/> requires the installation of the official <device_type/> app on the same phone. At first you have to pair your smart watch in the <device_type/> app, then you can use this app.</p>
     <p>Якщо браслет не знайдено, ви можете вказати MAC адресу вручну при пошуку.</p>
-    <p><b>Якщо у вас проблеми з підключенням:</b>
+    <b>Якщо у вас проблеми з підключенням:</b>
     <br>- Нещодавні додатки: зафіксуйте <app_name/> (потягніть донизу та торкніться значка із замком).
     <br>- Телефон/Оптимізація акумулятора: вимкніть оптимізацію для додатка <app_name/>.
     <br>- Телефон/Додатки: очистіть дані додатку Bluetooth Share та інших додатків \'Bluetooth\'.
+    <br>- More information: https://dontkillmyapp.com
     ]]></string>
 
     <!-- Notification Dialog -->
@@ -362,6 +358,9 @@
 
     <string name="watch_face_download_title">Завантажити циферблат</string>
     <string name="watch_face_upload_title">Встановити циферблат</string>
+    <string name="watch_face_tool_title">Tools</string>
+
+    <string name="watch_face_share_content">You can share the watch face you have created with others. E-mail the watch face and preview files and enter the following information: author, watch face name (max. 14 characters in total) and the watch face language. We only publish high quality dials.</string>
 
     <string name="watch_face_upload_prepare">Підготовка до встановлення…</string>
     <string name="watch_face_upload_progress">Встановлення %1$,d%%</string>
@@ -605,7 +604,7 @@
     <string name="feedback_google_play_title">Оцініть додаток</string>
     <string name="feedback_request_feature_title">Запит на функції, повідомлення про помилки</string>
     <string name="feedback_request_feature_summary">Автоматична обробка листів, відповідь може не надійти</string>
-    <string name="feedback_translation_title">Переклад &app_name;</string>
+    <string name="feedback_translation_title">Переклад %1$s</string> <!-- %1$s = App name -->
     <string name="feedback_translation_title_summary">Будьласка допоможіть перекласти</string>
 
     <!-- Privacy policy -->
@@ -647,15 +646,16 @@
     <string name="custom_vibration_title">Налаштування вібрації</string>
 
     <!-- Others -->
-    <string name="tab_day">Денні графіки</string>
-    <string name="tab_week">Тижневі графіки</string>
-    <string name="tab_month">Місячні графіки</string>
+    <string name="tab_daily_charts">Денні графіки</string>
+    <string name="tab_weekly_charts">Тижневі графіки</string>
+    <string name="tab_monthly_charts">Місячні графіки</string>
 
     <string name="ad_attribution">Реклама</string>
     <string name="on">Увімкнено</string>
     <string name="off">Вимкнено</string>
     <string name="none">Немає</string>
-    <string name="bpm">уд/хв</string>
+    <string name="heart_rate_bpm">уд/хв</string>
+    <string name="heart_rate_mhr">MHR</string>
     <string name="date">Дата</string>
     <string name="time">Час</string>
     <string name="time_start">Час початку</string>
@@ -671,10 +671,13 @@
     <string name="timed">Timed</string>
     <string name="file_name">Назва файла</string>
     <string name="default_">Default</string>
+    <string name="default_by_phone">За замовчанням (системна)</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="ringtone">Мелодія дзвінка</string>
     <string name="uninstalled">Uninstalled</string>
     <string name="value">Value</string>
+    <string name="downloads">Downloads</string>
+    <string name="share">Share</string>
 
     <string name="action_premium_mode">Преміум</string>
     <string name="action_dismiss">Відхилити</string>

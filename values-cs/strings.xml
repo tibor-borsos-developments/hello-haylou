@@ -1,8 +1,4 @@
 <?xml version="1.0"?>
-<!DOCTYPE resources [
-    <!ENTITY app_name "Hello Haylou">
-    <!ENTITY device_name "Haylou">
-]>
 
 <resources>
     <string name="menu_nav_home">@string/device_name</string>
@@ -29,6 +25,7 @@
     <string name="setting_name">Nastavení</string>
     <string name="settings_name">Nastavení</string>
     <string name="info_name">Informace</string>
+    <string name="more_name">Více</string>
 
 <!--    <string name="mi_band_tracker_title">Kroky・vzdálenost・kalorie・cíl・tep</string>-->
     <string name="mi_band_tracker_title">Kroky・cíl・tep</string>
@@ -37,8 +34,8 @@
     <string name="device_state_connected_disconnected_last_time">Poslední čas připojení a odpojení</string>
     <string name="device_alarm">Další alarm</string>
 
-    <string name="device_search">&device_name; search</string>
-    <string name="device_setting">Nastavení &device_name;</string>
+    <string name="device_search">%1$s search</string> <!-- %1$s = Watch name -->
+    <string name="device_setting">Nastavení %1$s</string> <!-- %1$s = Watch name -->
 
     <string name="device_mac_address">MAC adresa</string>
     <string name="device_mac_address_invalid">MAC adresa je neplatná</string>
@@ -61,9 +58,9 @@
     <string name="mi_band_setting_menu_call">Hovor</string>
 
     <string name="mi_band_setting_auth_mi_fit">Spolupráce s %1$s</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">&app_name; vyžaduje instalaci oficiální aplikace %1$s na stejném zařízení. Nejprve musíte spárovat %2$s v aplikaci %1$s, poté můžete použít aplikaci &app_name; Zvolte tuto možnost, pokud chcete použít %1$s.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">%3$s vyžaduje instalaci oficiální aplikace %1$s na stejném zařízení. Nejprve musíte spárovat %2$s v aplikaci %1$s, poté můžete použít aplikaci %3$s Zvolte tuto možnost, pokud chcete použít %1$s.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
     <string name="mi_band_setting_auth_standalone">Samostatný</string>
-    <string name="mi_band_setting_auth_standalone_hint">Aplikace %1$s není nutná pro práci &app_name;. Po párování odinstalujte aplikaci %1$s nebo odpojte zařízení. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Aplikace %1$s není nutná pro práci %3$s. Po párování odinstalujte aplikaci %1$s nebo odpojte zařízení. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
 
     <string name="mi_band_setting_auth_key">Authentication key</string>
     <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
@@ -193,15 +190,14 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">Vítejte!</string>
     <string name="dialog_welcome_message"><![CDATA[Podporovaná zařízení:
-    <br>• <b>Haylou Solar (LS05)</b>
-    <br>• <b>Haylou Smart Watch 2 (LS02)</b>
-    <br>• <b>Haylou Smart Watch (LS01)</b>
-    <p><app_name/> requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
+    <watch_types/>
+    <p><app_name/> requires the installation of the official <device_type/> app on the same phone. At first you have to pair your smart watch in the <device_type/> app, then you can use this app.</p>
     <p>Pokud není nalezen chytrý náramek, můžete nastavit MAC adresu ručně v nabídce podrobností.</p>
-    <p><b>Pokud máte problém s připojením, postupujte dle instrukcí uvedených níže:</b>
+    <b>Pokud máte problém s připojením, postupujte dle instrukcí uvedených níže:</b>
     <br>- Obrazovka přehledu aplikací (recent apps screen): Uzavřete aplikaci <app_name/> (přetáhněte směrem pryč z obrazovky, nebo klikněte na ikonu křížku).
     <br>- Nastavení/baterie/optimalizace výdrže baterie: zvolte aplikaci <app_name/> a vyberte neoptimalizovat.
     <br>- Nastavení/aplikace: vymažte data aplikace Sdílení Bluetooth a ostatních Bluetooth aplikací.
+    <br>- More information: https://dontkillmyapp.com
     ]]></string>
 
     <!-- Notification Dialog -->
@@ -362,6 +358,9 @@
 
     <string name="watch_face_download_title">Download watch face</string>
     <string name="watch_face_upload_title">Upload watch face</string>
+    <string name="watch_face_tool_title">Tools</string>
+
+    <string name="watch_face_share_content">You can share the watch face you have created with others. E-mail the watch face and preview files and enter the following information: author, watch face name (max. 14 characters in total) and the watch face language. We only publish high quality dials.</string>
 
     <string name="watch_face_upload_prepare">Preparing for the upload…</string>
     <string name="watch_face_upload_progress">Uploading %1$,d%%</string>
@@ -606,8 +605,8 @@
     <string name="feedback_google_play_title">Ohodnoťte tuto aplikaci</string>
     <string name="feedback_request_feature_title">Požadavek na funkci, hlášení o chybě</string>
     <string name="feedback_request_feature_summary">Automatické zpracování e-mailu, nemusíte dostat odpověď</string>
-    <string name="feedback_translation_title">&app_name; translation</string>
-    <string name="feedback_translation_title_summary">Please help in translation</string>
+    <string name="feedback_translation_title">%1$s translation</string> <!-- %1$s = App name -->
+    <string name="feedback_translation_title_summary">Please help with the translation</string>
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Zásady ochrany soukromí</string>
@@ -649,15 +648,16 @@
 
 
     <!-- Others -->
-    <string name="tab_day">Denní grafy</string>
-    <string name="tab_week">Týdenní grafy</string>
-    <string name="tab_month">Měsíční grafy</string>
+    <string name="tab_daily_charts">Denní grafy</string>
+    <string name="tab_weekly_charts">Týdenní grafy</string>
+    <string name="tab_monthly_charts">Měsíční grafy</string>
 
     <string name="ad_attribution">Ad</string>
     <string name="on">Zapnuto</string>
     <string name="off">Vypnuto</string>
     <string name="none">Žádný</string>
-    <string name="bpm">BPM</string>
+    <string name="heart_rate_bpm">bpm</string>
+    <string name="heart_rate_mhr">MHR</string>
     <string name="date">Datum</string>
     <string name="time">Čas</string>
     <string name="time_start">Čas zahájení</string>
@@ -672,11 +672,14 @@
     <string name="all_day">Celý den</string>
     <string name="timed">Timed</string>
     <string name="file_name">Název souboru</string>
-    <string name="default_">Default</string>
+    <string name="default_">Výchozí</string>
+    <string name="default_by_phone">Výchozí nastavení (telefonicky)</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="ringtone">Vyzvánění</string>
     <string name="uninstalled">Uninstalled</string>
     <string name="value">Value</string>
+    <string name="downloads">Downloads</string>
+    <string name="share">Share</string>
 
     <string name="action_premium_mode">Prémiový režim</string>
     <string name="action_dismiss">Odmítnout</string>

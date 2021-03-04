@@ -1,8 +1,4 @@
 <?xml version="1.0"?>
-<!DOCTYPE resources [
-    <!ENTITY app_name "Hello Haylou">
-    <!ENTITY device_name "Haylou">
-    ]>
 
 <resources>
     <string name="menu_nav_home">@string/device_name</string>
@@ -29,6 +25,7 @@
     <string name="setting_name">Setare</string>
     <string name="settings_name">Setări</string>
     <string name="info_name">Informații</string>
+    <string name="more_name">Mai Mult</string>
 
 <!--    <string name="mi_band_tracker_title">Pași・distanță・calorii・țintă・puls</string>-->
     <string name="mi_band_tracker_title">Pași・țintă・puls</string>
@@ -37,8 +34,8 @@
     <string name="device_state_connected_disconnected_last_time">Data ultimei conectări și deconectări</string>
     <string name="device_alarm">Alarma următoare</string>
 
-    <string name="device_search">&device_name; search</string>
-    <string name="device_setting">Setări &device_name;</string>
+    <string name="device_search">%1$s search</string> <!-- %1$s = Watch name -->
+    <string name="device_setting">Setări %1$s</string> <!-- %1$s = Watch name -->
 
     <string name="device_mac_address">Adresa MAC</string>
     <string name="device_mac_address_invalid">Adresa MAC este invalidă</string>
@@ -62,9 +59,9 @@
     <string name="mi_band_setting_menu_call">Apel</string>
 
     <string name="mi_band_setting_auth_mi_fit">%1$s cooperation</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">&app_name; necesită instalarea aplicației oficiale %1$s pe același telefon. La început trebuie să împerechezi %2$s în aplicația %1$s, apoi poți folosi &app_name;. If you want to use %1$s, choose this.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">%3$s necesită instalarea aplicației oficiale %1$s pe același telefon. La început trebuie să împerechezi %2$s în aplicația %1$s, apoi poți folosi %3$s. If you want to use %1$s, choose this.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
     <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the &app_name; to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted.  The %2$s screen must be turned on while performing operations.</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the %3$s to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted.  The %2$s screen must be turned on while performing operations.</string>
 
     <string name="mi_band_setting_auth_key">Authentication key</string>
     <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
@@ -194,15 +191,14 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">Bun venit!</string>
     <string name="dialog_welcome_message"><![CDATA[Dispozitive acceptate:
-    <br>• <b>Haylou Solar (LS05)</b>
-    <br>• <b>Haylou Smart Watch 2 (LS02)</b>
-    <br>• <b>Haylou Smart Watch (LS01)</b>
-    <p><app_name/> requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
+    <watch_types/>
+    <p><app_name/> requires the installation of the official <device_type/> app on the same phone. At first you have to pair your smart watch in the <device_type/> app, then you can use this app.</p>
     <p>Dacă brățara nu este găsită, poți seta manual adresa MAC atunci când o detectezi.</p>
-    <p><b>Dacă ai probleme de conectare:</b>
+    <b>Dacă ai probleme de conectare:</b>
     <br>- Ecranul aplicațiilor recente: blochează <app_name/> (trage în jos aplicația și apasă pe pictograma blocare).
     <br>- Optimizarea telefonului/ bateriei: setează aplicația <app_name/> pentru a nu fi optimizată.
     <br>- Telefon/ aplicații: șterge datele aplicației Bluetooth Share și a altor aplicații \'Bluetooth\'.
+    <br>- More information: https://dontkillmyapp.com
     </p>]]></string>
 
     <!-- Notification Dialog -->
@@ -343,7 +339,7 @@
     <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Haylou Smart Watch ... -->
 
     <string name="info_dialog_alarm"><![CDATA[
-        <p>When using cooperation mode, the settings of the official application and the &app_name; application can overwrite and delete each other\'s settings.</p>
+        <p>When using cooperation mode, the settings of the official application and the <app_name/> application can overwrite and delete each other\'s settings.</p>
         <p>The last operation performed will take effect.</p>
     ]]></string>
 
@@ -363,6 +359,9 @@
 
     <string name="watch_face_download_title">Download watch face</string>
     <string name="watch_face_upload_title">Schimbare față de ceas</string>
+    <string name="watch_face_tool_title">Tools</string>
+
+    <string name="watch_face_share_content">You can share the watch face you have created with others. E-mail the watch face and preview files and enter the following information: author, watch face name (max. 14 characters in total) and the watch face language. We only publish high quality dials.</string>
 
     <string name="watch_face_upload_prepare">Preparing for the upload…</string>
     <string name="watch_face_upload_progress">Uploading %1$,d%%</string>
@@ -607,8 +606,8 @@
     <string name="feedback_google_play_title">Evaluează această aplicație</string>
     <string name="feedback_request_feature_title">Solicitare de funcții, raport de erori</string>
     <string name="feedback_request_feature_summary">Prelucrare automată a poștei electronice, este posibil să nu primiți un răspuns</string>
-    <string name="feedback_translation_title">&app_name; translation</string>
-    <string name="feedback_translation_title_summary">Please help in translation</string>
+    <string name="feedback_translation_title">%1$s translation</string> <!-- %1$s = App name -->
+    <string name="feedback_translation_title_summary">Please help with the translation</string>
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Politica de confidentialitate</string>
@@ -651,15 +650,16 @@
 
 
     <!-- Others -->
-    <string name="tab_day">Grafice zilnice</string>
-    <string name="tab_week">Grafice săptămânale</string>
-    <string name="tab_month">Grafice lunare</string>
+    <string name="tab_daily_charts">Grafice zilnice</string>
+    <string name="tab_weekly_charts">Grafice săptămânale</string>
+    <string name="tab_monthly_charts">Grafice lunare</string>
 
     <string name="ad_attribution">Ad</string>
     <string name="on">Pornit</string>
     <string name="off">Oprit</string>
     <string name="none">Niciuna</string>
-    <string name="bpm">BPM</string>
+    <string name="heart_rate_bpm">bpm</string>
+    <string name="heart_rate_mhr">MHR</string>
     <string name="date">Dată</string>
     <string name="time">Timp</string>
     <string name="time_start">Timp pornire</string>
@@ -675,10 +675,13 @@
     <string name="timed">Timed</string>
     <string name="file_name">Nume fișier</string>
     <string name="default_">Implicit</string>
+    <string name="default_by_phone">Implicit (a telefonului)</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="ringtone">Sonerie apel</string>
     <string name="uninstalled">Uninstalled</string>
     <string name="value">Value</string>
+    <string name="downloads">Downloads</string>
+    <string name="share">Share</string>
 
     <string name="action_premium_mode">Mod premium</string>
     <string name="action_dismiss">Înlătură</string>

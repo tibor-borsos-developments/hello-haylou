@@ -1,8 +1,4 @@
 ﻿<?xml version="1.0"?>
-<!DOCTYPE resources [
-    <!ENTITY app_name "Hello Haylou">
-    <!ENTITY device_name "Haylou">
-    ]>
 
 <resources>
     <string name="menu_nav_home">@string/device_name</string>
@@ -29,6 +25,7 @@
     <string name="setting_name">Instellingen</string>
     <string name="settings_name">Instellingen</string>
     <string name="info_name">Informatie</string>
+    <string name="more_name">Meer</string>
 
 <!--    <string name="mi_band_tracker_title">Stappen・afstand・calorieën・doel・hartslag</string>-->
     <string name="mi_band_tracker_title">Stappen・doel・hartslag</string>
@@ -37,8 +34,8 @@
     <string name="device_state_connected_disconnected_last_time">Vorige verbonden  en niet verbonden tijd</string>
     <string name="device_alarm">Volgend alarm</string>
 
-    <string name="device_search">&device_name; search</string>
-    <string name="device_setting">&device_name; setting</string>
+    <string name="device_search">%1$s search</string> <!-- %1$s = Watch name -->
+    <string name="device_setting">%1$s setting</string> <!-- %1$s = Watch name -->
 
     <string name="device_mac_address">MAC adres</string>
     <string name="device_mac_address_invalid">MAC adres is onjuist</string>
@@ -62,9 +59,9 @@
     <string name="mi_band_setting_menu_call">Bellen</string>
 
     <string name="mi_band_setting_auth_mi_fit">%1$s cooperation</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">&app_name; requires the installation of the %1$s app on the same phone. At first you have to pair %2$s in %1$s app, then you can use &app_name;. If you want to use %1$s application, choose this.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">%3$s requires the installation of the %1$s app on the same phone. At first you have to pair %2$s in %1$s app, then you can use %3$s. If you want to use %1$s application, choose this.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
     <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the &app_name; to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the %3$s to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
 
     <string name="mi_band_setting_auth_key">Authentication key</string>
     <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
@@ -146,12 +143,12 @@
 
 
     <!-- Snackbar Messages -->
-    <string name="message_enable_bluetooth">Schakel Bluetooth in en zorg dat het &device_name; apparaat en telefoon dicht bij elkaar zijn</string>
-    <string name="message_discover_mi_band">&device_name; is niet ingesteld, zoek apparaat</string>
-    <string name="message_discovering_mi_band">&device_name; zoeken (kan 1 minuut duren) &#8230;</string>
+    <string name="message_enable_bluetooth">Schakel Bluetooth in en zorg dat het %1$s apparaat en telefoon dicht bij elkaar zijn</string>
+    <string name="message_discover_mi_band">%1$s is niet ingesteld, zoek apparaat</string>
+    <string name="message_discovering_mi_band">%1$s zoeken (kan 1 minuut duren) &#8230;</string>
     <string name="message_discovered_mi_band">%1$s verbinden met is gelukt</string>
-    <string name="message_discovered_no_mi_band">&device_name; verbinden mislukt</string>
-    <string name="message_discovered_not_found_mi_band">Als &device_name; niet is gevonden, schakel dan in: Haylou Sport/Play/Zoeken of koppel met de Bluetooth instellingen op de telefoon</string>
+    <string name="message_discovered_no_mi_band">%1$s verbinden mislukt</string>
+    <string name="message_discovered_not_found_mi_band">Als %1$s niet is gevonden, schakel dan in: Haylou Sport/Play/Zoeken of koppel met de Bluetooth instellingen op de telefoon</string>
     <string name="message_enable_notification_listener_access">Meldingstoegang inschakelen: Instellingen/Meldingen/Toegang tot meldingen</string>
     <string name="message_enable_notification_listener_access_4_4">Meldingstoegang inschakelen: Instellingen/Beveiliging/Toegang tot meldingen</string>
     <string name="message_open_settings">Instellingen</string>
@@ -194,15 +191,14 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">Welkom!</string>
     <string name="dialog_welcome_message"><![CDATA[Ondersteunde apparaten:
-    <br>• <b>Haylou Solar (LS05)</b>
-    <br>• <b>Haylou Smart Watch 2 (LS02)</b>
-    <br>• <b>Haylou Smart Watch (LS01)</b>
-    <p><app_name/> requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
-    <p>Als Haylou niet wordt gevonden kunt u het MAC-adres handmatig instellen, kijk hier.</p>
+    <watch_types/>
+    <p><app_name/> requires the installation of the official <device_type/> app on the same phone. At first you have to pair your smart watch in the <device_type/> app, then you can use this app.</p>
+    <p>Als <device_type/> niet wordt gevonden kunt u het MAC-adres handmatig instellen, kijk hier.</p>
     <p><b>Bij verbindingsproblemen:</b>
     <br>- Vorige app scherm: vergrendel de <app_name/> (klik op de app en klik op het vergrendelpictogram).
     <br>- Telefoon/batterij optimalisatie: stel <app_name/> app in op niet geoptimaliseerd.
     <br>- Telefoon/apps: \"Bluetooth delen\" en \"Bluetooth\app gegevens\" wissen.
+    <br>- More information: https://dontkillmyapp.com
     ]]></string>
 
 
@@ -357,6 +353,9 @@
 
     <string name="watch_face_download_title">Download watch face</string>
     <string name="watch_face_upload_title">Klokthema\'s</string>
+    <string name="watch_face_tool_title">Tools</string>
+
+    <string name="watch_face_share_content">You can share the watch face you have created with others. E-mail the watch face and preview files and enter the following information: author, watch face name (max. 14 characters in total) and the watch face language. We only publish high quality dials.</string>
 
     <string name="watch_face_upload_prepare">Preparing for the upload…</string>
     <string name="watch_face_upload_progress">Uploading %1$,d%%</string>
@@ -609,8 +608,8 @@
     <string name="feedback_google_play_title">Beoordeel dezes app</string>
     <string name="feedback_request_feature_title">Functie aanvulling, bugrapport</string>
     <string name="feedback_request_feature_summary">Automatische e-mailverwerking, u krijgt mogelijk geen reactie</string>
-    <string name="feedback_translation_title">&app_name; translation</string>
-    <string name="feedback_translation_title_summary">Please help in translation</string>
+    <string name="feedback_translation_title">%1$s translation</string> <!-- %1$s = App name -->
+    <string name="feedback_translation_title_summary">Please help with the translation</string>
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Privacybeleid</string>
@@ -653,15 +652,16 @@
 
 
     <!-- Others -->
-    <string name="tab_day">Dag tabel</string>
-    <string name="tab_week">Week tabel</string>
-    <string name="tab_month">Maand tabel</string>
+    <string name="tab_daily_charts">Dag tabel</string>
+    <string name="tab_weekly_charts">Week tabel</string>
+    <string name="tab_monthly_charts">Maand tabel</string>
 
     <string name="ad_attribution">Ad</string>
     <string name="on">Aan</string>
     <string name="off">Uit</string>
     <string name="none">Geen</string>
-    <string name="bpm">BPM</string>
+    <string name="heart_rate_bpm">bpm</string>
+    <string name="heart_rate_mhr">MHR</string>
     <string name="date">Datum</string>
     <string name="time">Tijd</string>
     <string name="time_start">Start tijd</string>
@@ -677,10 +677,13 @@
     <string name="timed">Timed</string>
     <string name="file_name">Bestandsnaam</string>
     <string name="default_">Standaard</string>
+    <string name="default_by_phone">Standaard (by phone)</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="ringtone">Beltone</string>
     <string name="uninstalled">Uninstalled</string>
     <string name="value">Value</string>
+    <string name="downloads">Downloads</string>
+    <string name="share">Share</string>
 
     <string name="action_premium_mode">Premium mode</string>
     <string name="action_dismiss">Afwijzen</string>

@@ -1,8 +1,4 @@
 <?xml version="1.0"?>
-<!DOCTYPE resources [
-    <!ENTITY app_name "Hello Haylou">
-    <!ENTITY device_name "Haylou">
-    ]>
 
 <resources>
     <string name="menu_nav_home">@string/device_name</string>
@@ -29,6 +25,7 @@
     <string name="setting_name">Atur</string>
     <string name="settings_name">Pengaturan</string>
     <string name="info_name">Informasi</string>
+    <string name="more_name">Lebih</string>
 
 <!--    <string name="mi_band_tracker_title">Langkah・jarak・kalori・tujuan・detak</string>-->
     <string name="mi_band_tracker_title">Langkah・tujuan・detak</string>
@@ -37,8 +34,8 @@
     <string name="device_state_connected_disconnected_last_time">Last connection and disconnection time</string>
     <string name="device_alarm">Next alarm</string>
 
-    <string name="device_search">&device_name; search</string>
-    <string name="device_setting">Pengaturan &device_name;</string>
+    <string name="device_search">%1$s search</string> <!-- %1$s = Watch name -->
+    <string name="device_setting">Pengaturan %1$s</string> <!-- %1$s = Watch name -->
 
     <string name="device_mac_address">Alamat MAC</string>
     <string name="device_mac_address_invalid">Alamat MAC tidak valid</string>
@@ -62,9 +59,9 @@
     <string name="mi_band_setting_menu_call">Panggilan</string>
 
     <string name="mi_band_setting_auth_mi_fit">%1$s cooperation</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">&app_name; membutuhkan aplikasi %1$s yang telah terpasang di perangkat yang sama. Pertama tama, mungkin anda perlu untuk menghubungkan %2$s ke Aplikasi %1$s, lalu anda baru bisa memakai &app_name;. If you want to use %1$s, choose this.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">%3$s membutuhkan aplikasi %1$s yang telah terpasang di perangkat yang sama. Pertama tama, mungkin anda perlu untuk menghubungkan %2$s ke Aplikasi %1$s, lalu anda baru bisa memakai %3$s. If you want to use %1$s, choose this.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
     <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the &app_name; to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the %3$s to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
 
     <string name="mi_band_setting_auth_key">Authentication key</string>
     <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
@@ -146,12 +143,12 @@
 
 
     <!-- Snackbar Messages -->
-    <string name="message_enable_bluetooth">Aktifkan Bluetooth dan dekatkan perangkat &device_name; ke telepon</string>
-    <string name="message_discover_mi_band">&device_name; belum diatur, sambungkan terlebih dahulu</string>
-    <string name="message_discovering_mi_band">Menyambungkan &app_name; (mungkin memerlukan 1 menit) &#8230;</string>
+    <string name="message_enable_bluetooth">Aktifkan Bluetooth dan dekatkan perangkat %1$s ke telepon</string>
+    <string name="message_discover_mi_band">%1$s belum diatur, sambungkan terlebih dahulu</string>
+    <string name="message_discovering_mi_band">Menyambungkan %1$s (mungkin memerlukan 1 menit) &#8230;</string>
     <string name="message_discovered_mi_band">%1$s Tersambung</string>
-    <string name="message_discovered_no_mi_band">&device_name; tidak ditemukan</string>
-    <string name="message_discovered_not_found_mi_band">Jika &device_name; tidak ditemukan, nyalakan: Haylou Sport - Mainkan - tidak dapat ditemukan atau sandingkan perangkat di pengaturan Bluetooth</string>
+    <string name="message_discovered_no_mi_band">%1$s tidak ditemukan</string>
+    <string name="message_discovered_not_found_mi_band">Jika %1$s tidak ditemukan, nyalakan: Haylou Sport - Mainkan - tidak dapat ditemukan atau sandingkan perangkat di pengaturan Bluetooth</string>
     <string name="message_enable_notification_listener_access">Aktifkan akses notifikasi: Pengaturan - Pemberitahuan - Akses notifikasi</string>
     <string name="message_enable_notification_listener_access_4_4">Aktifkan akses notifikasi: Pengaturan - Keamanan - Akses notifikasi</string>
     <string name="message_open_settings">Pengaturan</string>
@@ -193,15 +190,14 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">Selamat Datang!</string>
     <string name="dialog_welcome_message"><![CDATA[Perangkat yang didukung:
-    <br>• <b>Haylou Solar (LS05)</b>
-    <br>• <b>Haylou Smart Watch 2 (LS02)</b>
-    <br>• <b>Haylou Smart Watch (LS01)</b>
-    <p><app_name/> requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
-    <p>Jika Haylou tidak terdeteksi, anda bisa mengatur alamat MAC secara manual pada menu rincian/lanjutan.</p>
-    <p><b>If you have a connection problem:</b>
+    <watch_types/>
+    <p><app_name/> requires the installation of the official <device_type/> app on the same phone. At first you have to pair your smart watch in the <device_type/> app, then you can use this app.</p>
+    <p>Jika <device_type/> tidak terdeteksi, anda bisa mengatur alamat MAC secara manual pada menu rincian/lanjutan.</p>
+    <b>If you have a connection problem:</b>
     <br>- Recent apps screen: lock the <app_name/> (pull down the app and click on lock icon).
     <br>- Phone/battery optimization: set <app_name/> app to not optimized.
     <br>- Phone/apps: clear Bluetooth Share and other \'Bluetooth\' apps data.
+    <br>- More information: https://dontkillmyapp.com
     ]]></string>
 
 
@@ -363,6 +359,9 @@
 
     <string name="watch_face_download_title">Download watch face</string>
     <string name="watch_face_upload_title">Upload watch face</string>
+    <string name="watch_face_tool_title">Tools</string>
+
+    <string name="watch_face_share_content">You can share the watch face you have created with others. E-mail the watch face and preview files and enter the following information: author, watch face name (max. 14 characters in total) and the watch face language. We only publish high quality dials.</string>
 
     <string name="watch_face_upload_prepare">Preparing for the upload…</string>
     <string name="watch_face_upload_progress">Uploading %1$,d%%</string>
@@ -607,8 +606,8 @@
     <string name="feedback_google_play_title">Beri nilai aplikasi</string>
     <string name="feedback_request_feature_title">Permintaan fitur, dan laporan bug</string>
     <string name="feedback_request_feature_summary">Proses e-mail otomatis, Anda tidak akan mendapat respons</string>
-    <string name="feedback_translation_title">&app_name; translation</string>
-    <string name="feedback_translation_title_summary">Please help in translation</string>
+    <string name="feedback_translation_title">%1$s translation</string> <!-- %1$s = App name -->
+    <string name="feedback_translation_title_summary">Please help with the translation</string>
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Kebijakan Privasi</string>
@@ -651,15 +650,16 @@
 
 
     <!-- Others -->
-    <string name="tab_day">Bagan harian</string>
-    <string name="tab_week">Bagan mingguan</string>
-    <string name="tab_month">Bagan bulanan</string>
+    <string name="tab_daily_charts">Bagan harian</string>
+    <string name="tab_weekly_charts">Bagan mingguan</string>
+    <string name="tab_monthly_charts">Bagan bulanan</string>
 
     <string name="ad_attribution">Ad</string>
     <string name="on">Aktif</string>
     <string name="off">Mati</string>
     <string name="none">Tidak ada</string>
-    <string name="bpm">BPM</string>
+    <string name="heart_rate_bpm">bpm</string>
+    <string name="heart_rate_mhr">MHR</string>
     <string name="date">Tanggal</string>
     <string name="time">Waktu</string>
     <string name="time_start">Waktu mulai</string>
@@ -675,10 +675,13 @@
     <string name="timed">Timed</string>
     <string name="file_name">File name</string>
     <string name="default_">Default</string>
+    <string name="default_by_phone">Default (melalui telepon)</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="ringtone">Nada dering</string>
     <string name="uninstalled">Uninstalled</string>
     <string name="value">Value</string>
+    <string name="downloads">Downloads</string>
+    <string name="share">Share</string>
 
     <string name="action_premium_mode">Mode premium</string>
     <string name="action_dismiss">Tutup</string>

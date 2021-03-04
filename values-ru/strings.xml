@@ -1,8 +1,4 @@
 <?xml version="1.0"?>
-<!DOCTYPE resources [
-    <!ENTITY app_name "Hello Haylou">
-    <!ENTITY device_name "Haylou">
-    ]>
 
 <resources>
     <string name="menu_nav_home">@string/device_name</string>
@@ -29,6 +25,7 @@
     <string name="setting_name">Настройки</string>
     <string name="settings_name">Настройки</string>
     <string name="info_name">Информация</string>
+    <string name="more_name">Ещё</string>
 
 <!--    <string name="mi_band_tracker_title">Шаги・расстояние・калории・цель・пульс</string>-->
     <string name="mi_band_tracker_title">Шаги・цель・пульс</string>
@@ -37,8 +34,8 @@
     <string name="device_state_connected_disconnected_last_time">Время последнего соединения и его разрыва</string>
     <string name="device_alarm">Следующий будильник</string>
 
-    <string name="device_search">Поиск &device_name;</string>
-    <string name="device_setting">Настройки &device_name;</string>
+    <string name="device_search">Поиск %1$s</string> <!-- %1$s = Watch name -->
+    <string name="device_setting">Настройки %1$s</string> <!-- %1$s = Watch name -->
 
     <string name="device_mac_address">MAC адрес</string>
     <string name="device_mac_address_invalid">Неверный MAC адрес</string>
@@ -61,9 +58,9 @@
     <string name="mi_band_setting_menu_call">Вызов</string>
 
     <string name="mi_band_setting_auth_mi_fit">Взаимодействие с %1$s</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">Для работы &app_name; требуется приложение %1$s, установленное на устройстве. Сначала подключите %2$s к %1$s, а потом пользуйтесь &app_name;. Выберите этот пункт для совместного использования с %1$s.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Для работы %3$s требуется приложение %1$s, установленное на устройстве. Сначала подключите %2$s к %1$s, а потом пользуйтесь %3$s. Выберите этот пункт для совместного использования с %1$s.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
     <string name="mi_band_setting_auth_standalone">Автономно</string>
-    <string name="mi_band_setting_auth_standalone_hint">Для работы &app_name;, приложение %1$s не нужно. После соединения %1$s можно удалить или отвязать браслет от него. Для восстановления работы с %1$s вам нужно заново привязать %2$s к %1$s. Если вы используете функцию отвязки устройства, то все данные на часах будут удалены. Экран %2$s должен быть включен во время выполнения операций.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Для работы %3$s, приложение %1$s не нужно. После соединения %1$s можно удалить или отвязать браслет от него. Для восстановления работы с %1$s вам нужно заново привязать %2$s к %1$s. Если вы используете функцию отвязки устройства, то все данные на часах будут удалены. Экран %2$s должен быть включен во время выполнения операций.</string>
 
     <string name="mi_band_setting_auth_key">Ключ аутентификации</string>
     <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
@@ -193,15 +190,14 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">Добро пожаловать!</string>
     <string name="dialog_welcome_message"><![CDATA[Поддерживаемые устройства:
-    <br>• <b>Haylou Solar (LS05)</b>
-    <br>• <b>Haylou Smart Watch 2 (LS02)</b>
-    <br>• <b>Haylou Smart Watch (LS01)</b>
-    <p><app_name/> требует установки официального приложения Haylou на том же телефоне. Сначала вам нужно подключить свои умные часы к приложению Haylou, затем вы можете использовать это приложение.</p>
+    <watch_types/>
+    <p><app_name/> требует установки официального приложения <device_type/> на том же телефоне. Сначала вам нужно подключить свои умные часы к приложению <device_type/>, затем вы можете использовать это приложение.</p>
     <p>Если часы не удалось обнаружить, вы можете вручную установить MAC адрес в настройках.</p>
-    <p><b>При проблемах с подключением:</b>
+    <b>При проблемах с подключением:</b>
     <br>- Закрепите <app_name/> в окне недавних приложений (потяните приложение вниз и нажмите замок)
     <br>- Отключите для <app_name/> оптимизацию энергопотребления в настройках аккумулятора/энергосбережения
     <br>- Удалите сопряжение в приложении Bluetooth и очистите его данные
+    <br>- More information: https://dontkillmyapp.com
     </p>]]></string>
 
 
@@ -362,6 +358,9 @@
 
     <string name="watch_face_download_title">Загрузка циферблата</string>
     <string name="watch_face_upload_title">Установить циферблат</string>
+    <string name="watch_face_tool_title">Tools</string>
+
+    <string name="watch_face_share_content">You can share the watch face you have created with others. E-mail the watch face and preview files and enter the following information: author, watch face name (max. 14 characters in total) and the watch face language. We only publish high quality dials.</string>
 
     <string name="watch_face_upload_prepare">Подготовка к установке…</string>
     <string name="watch_face_upload_progress">Установка %1$,d%%</string>
@@ -606,7 +605,7 @@
     <string name="feedback_google_play_title">Оцените приложение</string>
     <string name="feedback_request_feature_title">Есть идеи для новых функций или хотите отправить отчет об ошибке.</string>
     <string name="feedback_request_feature_summary">Электронная почта обрабатывается автоматически, ответ на отправленное письмо не отправляется (Настоятельно рекомендую писать на Английском языке)</string>
-    <string name="feedback_translation_title">Перевод &app_name;</string>
+    <string name="feedback_translation_title">Перевод %1$s</string> <!-- %1$s = App name -->
     <string name="feedback_translation_title_summary">Можете помочь с переводом</string>
 
     <!-- Privacy policy -->
@@ -650,15 +649,16 @@
 
 
     <!-- Others -->
-    <string name="tab_day">День</string>
-    <string name="tab_week">Неделя</string>
-    <string name="tab_month">Месяц</string>
+    <string name="tab_daily_charts">День</string>
+    <string name="tab_weekly_charts">Неделя</string>
+    <string name="tab_monthly_charts">Месяц</string>
 
     <string name="ad_attribution">Реклама</string>
     <string name="on">Включено</string>
     <string name="off">Отключено</string>
     <string name="none">Нет</string>
-    <string name="bpm">у/м</string>
+    <string name="heart_rate_bpm">у/м</string>
+    <string name="heart_rate_mhr">MHR</string>
     <string name="date">Дата</string>
     <string name="time">Время</string>
     <string name="time_start">Время начала</string>
@@ -674,10 +674,13 @@
     <string name="timed">По времени</string>
     <string name="file_name">Имя файла</string>
     <string name="default_">По умолчанию</string>
+    <string name="default_by_phone">По умолчанию</string>
     <string name="invalid_setting">Неверная настройка</string>
     <string name="ringtone">Рингтон</string>
     <string name="uninstalled">Не установлен</string>
     <string name="value">Значение</string>
+    <string name="downloads">Downloads</string>
+    <string name="share">Share</string>
 
     <string name="action_premium_mode">Премиум</string>
     <string name="action_dismiss">Отклонить</string>

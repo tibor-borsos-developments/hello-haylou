@@ -1,8 +1,4 @@
 <?xml version="1.0"?>
-<!DOCTYPE resources [
-    <!ENTITY app_name "Hello Haylou">
-    <!ENTITY device_name "Haylou">
-    ]>
 
 <resources>
     <string name="menu_nav_home">@string/device_name</string>
@@ -29,6 +25,7 @@
     <string name="setting_name">Réglage</string>
     <string name="settings_name">Réglages</string>
     <string name="info_name">Information</string>
+    <string name="more_name">Plus</string>
 
 <!--    <string name="mi_band_tracker_title">Pas・distance・calories・objectif・rythme cardiaque</string>-->
     <string name="mi_band_tracker_title">Pas・objectif・rythme cardiaque</string>
@@ -37,8 +34,8 @@
     <string name="device_state_connected_disconnected_last_time">Dernière connexion et déconnexion</string>
     <string name="device_alarm">Prochaine alarme</string>
 
-    <string name="device_search">&device_name; search</string>
-    <string name="device_setting">Réglages du &device_name;</string>
+    <string name="device_search">%1$s search</string> <!-- %1$s = Watch name -->
+    <string name="device_setting">Réglages du %1$s</string> <!-- %1$s = Watch name -->
 
     <string name="device_mac_address">Adresse MAC</string>
     <string name="device_mac_address_invalid">L\'adresse MAC est incorrecte</string>
@@ -62,9 +59,9 @@
     <string name="mi_band_setting_menu_call">Appels</string>
 
     <string name="mi_band_setting_auth_mi_fit">%1$s cooperation</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">&app_name; nécessite l\'installation de l\'appli officielle %1$s sur le même téléphone. Pour commencer vous devez appairer votre %2$s dans l\'appli %1$s, ensuite pour pourrez utiliser &app_name;. If you want to use %1$s, choose this.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">%3$s nécessite l\'installation de l\'appli officielle %1$s sur le même téléphone. Pour commencer vous devez appairer votre %2$s dans l\'appli %1$s, ensuite pour pourrez utiliser %3$s. If you want to use %1$s, choose this.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
     <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the &app_name; to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the %3$s to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
 
     <string name="mi_band_setting_auth_key">Authentication key</string>
     <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
@@ -146,12 +143,12 @@
 
 
     <!-- Snackbar Messages -->
-    <string name="message_enable_bluetooth">Veuillez activer le Bluetooth et rapprochez le &device_name; du téléphone</string>
-    <string name="message_discover_mi_band">Aucun &device_name; d\'appairé, veuillez établir sa reconnaissance</string>
-    <string name="message_discovering_mi_band">Découverte du &device_name; (cela peut prendre 1 minute) &#8230;</string>
+    <string name="message_enable_bluetooth">Veuillez activer le Bluetooth et rapprochez le %1$s du téléphone</string>
+    <string name="message_discover_mi_band">Aucun %1$s d\'appairé, veuillez établir sa reconnaissance</string>
+    <string name="message_discovering_mi_band">Découverte du %1$s (cela peut prendre 1 minute) &#8230;</string>
     <string name="message_discovered_mi_band">%1$s appairé</string>
-    <string name="message_discovered_no_mi_band">&device_name; non détecté</string>
-    <string name="message_discovered_not_found_mi_band">Si le &device_name; n\'est pas détecté, activez: Haylou Sport/Play/Discoverable or pair at the device Bluetooth settings</string>
+    <string name="message_discovered_no_mi_band">%1$s non détecté</string>
+    <string name="message_discovered_not_found_mi_band">Si le %1$s n\'est pas détecté, activez: Haylou Sport/Play/Discoverable or pair at the device Bluetooth settings</string>
     <string name="message_enable_notification_listener_access">Activer l\'accès aux notifications: Paramètres/Notifications/accès aux notifications</string>
     <string name="message_enable_notification_listener_access_4_4">Activer l\'accès aux: Paramètres/Sécurité/accès aux notifications</string>
     <string name="message_open_settings">Réglages</string>
@@ -194,15 +191,14 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">Bienvenue!</string>
     <string name="dialog_welcome_message"><![CDATA[Équipements supportés:
-    <br>• <b>Haylou Solar (LS05)</b>
-    <br>• <b>Haylou Smart Watch 2 (LS02)</b>
-    <br>• <b>Haylou Smart Watch (LS01)</b>
-    <p><app_name/> requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
-    <p>Si votre Haylou n\'est pas détecté, vous pouvez saisir son adresse MAC manuellement dans les détails de la fenêtre principale.</p>
-    <p><b>If you have a connection problem:</b>
+    <watch_types/>
+    <p><app_name/> requires the installation of the official <device_type/> app on the same phone. At first you have to pair your smart watch in the <device_type/> app, then you can use this app.</p>
+    <p>Si votre <device_type/> n\'est pas détecté, vous pouvez saisir son adresse MAC manuellement dans les détails de la fenêtre principale.</p>
+    <b>If you have a connection problem:</b>
     <br>- Recent apps screen: lock the <app_name/> (pull down the app and click on lock icon).
     <br>- Phone/battery settings/battery optimization: set <app_name/> app to not optimized.
     <br>- Phone/apps: clear Bluetooth Share and other \'Bluetooth\' apps data.
+    <br>- More information: https://dontkillmyapp.com
     ]]></string>
 
 
@@ -362,6 +358,9 @@
 
     <string name="watch_face_download_title">Download watch face</string>
     <string name="watch_face_upload_title">Modifier le cadran</string>
+    <string name="watch_face_tool_title">Tools</string>
+
+    <string name="watch_face_share_content">You can share the watch face you have created with others. E-mail the watch face and preview files and enter the following information: author, watch face name (max. 14 characters in total) and the watch face language. We only publish high quality dials.</string>
 
     <string name="watch_face_upload_prepare">Preparing for the upload…</string>
     <string name="watch_face_upload_progress">Uploading %1$,d%%</string>
@@ -606,8 +605,8 @@
     <string name="feedback_google_play_title">Évaluer cette appli</string>
     <string name="feedback_request_feature_title">Soumettre une fonctionnalité, signaler un bug</string>
     <string name="feedback_request_feature_summary">Traitement automatique des emails, vous risquez de ne pas recevoir d\'accusé de réception</string>
-    <string name="feedback_translation_title">&app_name; translation</string>
-    <string name="feedback_translation_title_summary">Please help in translation</string>
+    <string name="feedback_translation_title">%1$s translation</string> <!-- %1$s = App name -->
+    <string name="feedback_translation_title_summary">Please help with the translation</string>
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Règles de confidentialité</string>
@@ -650,15 +649,16 @@
 
 
     <!-- Others -->
-    <string name="tab_day">Graphs quotidien</string>
-    <string name="tab_week">Graphs semaine</string>
-    <string name="tab_month">Graphs mensuel</string>
+    <string name="tab_daily_charts">Graphs quotidien</string>
+    <string name="tab_weekly_charts">Graphs semaine</string>
+    <string name="tab_monthly_charts">Graphs mensuel</string>
 
     <string name="ad_attribution">Ad</string>
     <string name="on">On</string>
     <string name="off">Off</string>
     <string name="none">Aucun</string>
-    <string name="bpm">BPM</string>
+    <string name="heart_rate_bpm">bpm</string>
+    <string name="heart_rate_mhr">MHR</string>
     <string name="date">Date</string>
     <string name="time">Temps</string>
     <string name="time_start">Heure de début</string>
@@ -674,10 +674,13 @@
     <string name="timed">Timed</string>
     <string name="file_name">Nom du fichier</string>
     <string name="default_">Défaut</string>
+    <string name="default_by_phone">Par défaut (par téléphone)</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="ringtone">Type de sonnerie</string>
     <string name="uninstalled">Uninstalled</string>
     <string name="value">Value</string>
+    <string name="downloads">Downloads</string>
+    <string name="share">Share</string>
 
     <string name="action_premium_mode">Mode premium</string>
     <string name="action_dismiss">Rejeter</string>

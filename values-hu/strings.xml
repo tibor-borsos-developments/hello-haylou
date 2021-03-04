@@ -1,8 +1,4 @@
 <?xml version="1.0"?>
-<!DOCTYPE resources [
-    <!ENTITY app_name "Hello Haylou">
-    <!ENTITY device_name "Haylou">
-    ]>
 
 <resources  xmlns:tools="http://schemas.android.com/tools">
     <string name="menu_nav_home">@string/device_name</string>
@@ -29,6 +25,7 @@
     <string name="setting_name">Beállítás</string>
     <string name="settings_name">Beállítások</string>
     <string name="info_name">Információ</string>
+    <string name="more_name">Továbbiak</string>
 
 <!--    <string name="mi_band_tracker_title">Lépésszám・távolság・kalória・célkitűzés・pulzus</string>-->
     <string name="mi_band_tracker_title">Lépésszám・célkitűzés・pulzus</string>
@@ -37,8 +34,8 @@
     <string name="device_state_connected_disconnected_last_time">Utolsó csatlakozás és kapcsolatbontás időpontja</string>
     <string name="device_alarm">Következő ébresztő</string>
 
-    <string name="device_search">&device_name; keresés</string>
-    <string name="device_setting">&device_name; beállítás</string>
+    <string name="device_search">%1$s keresés</string> <!-- %1$s = Watch name -->
+    <string name="device_setting">%1$s beállítás</string> <!-- %1$s = Watch name -->
 
     <string name="device_mac_address">MAC cím</string>
     <string name="device_mac_address_invalid">MAC cím érvénytelen</string>
@@ -61,7 +58,7 @@
     <string name="mi_band_setting_menu_call">Hívás</string>
 
     <string name="mi_band_setting_auth_mi_fit">%1$s együttműködés</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">A működéséhez szükséges a %1$s applikáció telepítése ezen a telefonon. Először a %1$s applikáción belül kell a %2$s párosítását elvégezni. Ha a %1$s applikációt is használni szeretnéd ezt válasszd.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">A működéséhez szükséges a %1$s applikáció telepítése ezen a telefonon. Először a %1$s applikáción belül kell a %2$s párosítását elvégezni. Ha a %1$s applikációt is használni szeretnéd ezt válasszd.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
     <string name="mi_band_setting_auth_standalone">Önálló működés</string>
     <string name="mi_band_setting_auth_standalone_hint">Nincs szükség a %1$s applikációra a működéshez. Párosítás után töröld a %1$s applikációt. %1$s együttműködés visszaállításakor a %2$s újra párosítását el kell végezni a %1$s applikációban. Leválasztás használatakor az okosóra adatai törlődnek. %2$s képernyő legyen bekapcsolva a műveletek végrehajtása közben.</string>
 
@@ -144,11 +141,11 @@
     <string name="pref_menu_item_3">Harmadik menüpont</string>
 
     <!-- Snackbar Messages -->
-    <string name="message_discover_mi_band">&device_name; még nincs beállítva, keresd meg</string>
-    <string name="message_discovering_mi_band">&device_name; keresése folyamatban (1 percig is eltarthat) &#8230;</string>
+    <string name="message_discover_mi_band">%1$s még nincs beállítva, keresd meg</string>
+    <string name="message_discovering_mi_band">%1$s keresése folyamatban (1 percig is eltarthat) &#8230;</string>
     <string name="message_discovered_mi_band">%1$s csatlakoztatása sikeres</string>
-    <string name="message_discovered_no_mi_band">&device_name; csatlakoztatása nem sikerült</string>
-    <string name="message_discovered_not_found_mi_band">Ha &device_name; nem található, kapcsold be: Haylou Sport/Értesítések/Felfedezhetőség illetve párosítsd a telefon Bluetooth beállításoknál</string>
+    <string name="message_discovered_no_mi_band">%1$s csatlakoztatása nem sikerült</string>
+    <string name="message_discovered_not_found_mi_band">Ha %1$s nem található, kapcsold be: Haylou Sport/Értesítések/Felfedezhetőség illetve párosítsd a telefon Bluetooth beállításoknál</string>
     <string name="message_enable_bluetooth">Kapcsold be a Bluetooth-ot és tartsd közel az órát</string>
     <string name="message_enable_notification_listener_access">Engedélyezd a hozzáférést az értesítésekhez: Telefon/Beállítások/Hozzáférés értesítésekhez</string>
     <string name="message_enable_notification_listener_access_4_4">Engedélyezd a hozzáférést az értesítésekhez: Biztonság/Hozzáférés az értesítésekhez</string>
@@ -192,16 +189,15 @@
     <!-- Welcome Dialog -->
     <string name="dialog_welcome_title">Üdvözöllek!</string>
     <string name="dialog_welcome_message"><![CDATA[Támogatott eszközök:
-    <br>• <b>Haylou Solar (LS05)</b>
-    <br>• <b>Haylou Smart Watch 2 (LS02)</b>
-    <br>• <b>Haylou Smart Watch (LS01)</b>
-    <p>A működéséhez szükséges a Haylou applikáció telepítése ezen a telefonon. Először a Haylou applikáción belül kell az óra párosítását elvégezni.</p>
-    <p>Ha a Haylou keresése eredménytelen, a MAC cím kézzel is megadható a kereséskor.</p>
-    <p><b>Kapcsolódási probléma megoldása:</b>
+    <watch_types/>
+    <p>A működéséhez szükséges a hivatalos <device_type/> applikáció telepítése ezen a telefonon. Először a <device_type/> applikáción belül kell az óra párosítását elvégezni.</p>
+    <p>Ha a <device_type/> keresése eredménytelen, a MAC cím kézzel is megadható a kereséskor.</p>
+    <b>Kapcsolódási probléma megoldása:</b>
     <br>- Futó alkalmazások képernyő: zárold az app-ot (lefele seprés az app-on, majd lezárás menü).
     <br>- Telefon akkumulátor optimalizálása kikapcsolása.
-    <br>- Telefon/alkalmazások: Bluetooth Share és egyéb \'Bluetooth\' app. adatok törlése.</p>
-]]></string>
+    <br>- Telefon/alkalmazások: Bluetooth Share és egyéb \'Bluetooth\' app. adatok törlése.
+    <br>- További információk: https://dontkillmyapp.com
+    ]]></string>
 
 
     <!-- Notification Dialog -->
@@ -371,6 +367,9 @@
 
     <string name="watch_face_download_title">Számlap letöltés</string>
     <string name="watch_face_upload_title">Számlap feltöltés</string>
+    <string name="watch_face_tool_title">Segédprogramok</string>
+
+    <string name="watch_face_share_content">Az általad készített számlapokat megoszthatod másokkal. Küldd el e-mailben a számlap és az előnézeti fájlokat, valamint add meg a következő adatokat: szerző, számlap név (összesen max. 14 karakter) és a számlap nyelvét. Csak a kiváló minőségű számlapokat tesszük közzé.</string>
 
     <string name="watch_face_upload_prepare">Felkészülés a feltöltésre…</string>
     <string name="watch_face_upload_progress">Feltöltés %1$,d%%</string>
@@ -380,7 +379,7 @@
     <string name="watch_face_invalid_free">Ingyenes módban több számlap nem tölthető fel a mai nap</string>
 
     <string name="watch_face_upload_speed_title">Feltöltés sebessége</string>
-    <string name="watch_face_upload_speed_hint">Számlap feltöltési folyamat megszakadás esetén állítson be alacsonyabb sebességet</string>
+    <string name="watch_face_upload_speed_hint">Számlap feltöltési folyamat megszakadás esetén állíts be alacsonyabb sebességet</string>
 
     <string name="message_watch_face_file_error">Hibás számlap fájl</string>
 
@@ -616,7 +615,7 @@
     <string name="feedback_google_play_title">Alkalmazás értékelés</string>
     <string name="feedback_request_feature_title">Funkció kérés, hiba bejelentés</string>
     <string name="feedback_request_feature_summary">Automatikus e-mail feldolgozás, nem biztos, hogy fogsz választ kapni</string>
-    <string name="feedback_translation_title">&app_name; fordítás</string>
+    <string name="feedback_translation_title">%1$s fordítás</string> <!-- %1$s = App name -->
     <string name="feedback_translation_title_summary">Kérlek segíts a fordításban</string>
 
     <!-- Privacy policy -->
@@ -660,15 +659,16 @@
 
 
     <!-- Others -->
-    <string name="tab_day">Napi graf.</string>
-    <string name="tab_week">Heti graf.</string>
-    <string name="tab_month">Havi graf.</string>
+    <string name="tab_daily_charts">Napi graf.</string>
+    <string name="tab_weekly_charts">Heti graf.</string>
+    <string name="tab_monthly_charts">Havi graf.</string>
 
     <string name="ad_attribution">Hirdetés</string>
     <string name="on">Be</string>
     <string name="off">Ki</string>
     <string name="none">Nincs</string>
-    <string name="bpm">BPM</string>
+    <string name="heart_rate_bpm">bpm</string>
+    <string name="heart_rate_mhr">MHR</string>
     <string name="date">Dátum</string>
     <string name="time">Időpont</string>
     <string name="time_start">Kezdési időpont</string>
@@ -684,10 +684,13 @@
     <string name="timed">Időzített</string>
     <string name="file_name">Fájl név</string>
     <string name="default_">Alapértelmezett</string>
+    <string name="default_by_phone">Alapértelmezett (telefon alapján)</string>
     <string name="invalid_setting">Érvénytelen beállítás</string>
     <string name="ringtone">Csengőhang</string>
     <string name="uninstalled">Eltávolítva</string>
     <string name="value">Érték</string>
+    <string name="downloads">Letöltések</string>
+    <string name="share">Megosztás</string>
 
     <string name="action_premium_mode">Prémium mód</string>
     <string name="action_dismiss">Bezár</string>

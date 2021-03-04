@@ -1,8 +1,4 @@
 <?xml version="1.0"?>
-<!DOCTYPE resources [
-    <!ENTITY app_name "Hello Haylou">
-    <!ENTITY device_name "Haylou">
-    ]>
 
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="menu_nav_home">@string/device_name</string>
@@ -29,6 +25,7 @@
     <string name="setting_name">تنظیمات</string>
     <string name="settings_name">تنظیمات</string>
     <string name="info_name">اطلاعات</string>
+    <string name="more_name">بیشتر</string>
 
 <!--    <string name="mi_band_tracker_title">Steps・distance・calories・goal・pulse</string>-->
     <string name="mi_band_tracker_title">قدم・هدف・نبض</string>
@@ -37,8 +34,8 @@
     <string name="device_state_connected_disconnected_last_time">آخرین زمان اتصال و قطع</string>
     <string name="device_alarm">هشدار بعدی</string>
 
-    <string name="device_search">یافتن هایلو</string>
-    <string name="device_setting">تنظیمات هایلو</string>
+    <string name="device_search">یافتن %1$s</string> <!-- %1$s = Watch name -->
+    <string name="device_setting">تنظیمات %1$s</string> <!-- %1$s = Watch name -->
 
     <string name="device_mac_address">آدرس MAC</string>
     <string name="device_mac_address_invalid">آدرس MAC غیر معتبر است</string>
@@ -61,7 +58,7 @@
     <string name="mi_band_setting_menu_call">تماس</string>
 
     <string name="mi_band_setting_auth_mi_fit">%1$s همکاری</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">سلام هایلو نیاز به نصب برنامه %1$s در همان تلفن دارد. ابتدا باید دستگاه %2$s در %1$s جفت کنید، سپس از سلام هایلو استفاده کنید. اگر شما می‌خواهید از برنامه‌ی %1$s استفاده کنید، این برنامه را ببندید.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">سلام هایلو نیاز به نصب برنامه %1$s در همان تلفن دارد. ابتدا باید دستگاه %2$s در %1$s جفت کنید، سپس از سلام هایلو استفاده کنید. اگر شما می‌خواهید از برنامه‌ی %1$s استفاده کنید، این برنامه را ببندید.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
     <string name="mi_band_setting_auth_standalone">مستقل</string>
     <string name="mi_band_setting_auth_standalone_hint">برای استفاده از سلام هایلو، نیازی به برنامه‌ی %1$s نیست. پس از جفت سازی، برنامه‌ی %1$s را حذف کنید. برای ادامه‌ی استفاده از برنامه‌ی %1$s, لازم است تا شما دستگاه %2$s در برنامه‌ی %1$s همگام کنید. اگر شما از عملکرد لغو جفت سازی استفده کنید، داده‌های شما در دستبند پاک می‌شود. باید صفحه‌ی %2$s در حین این فرایند روشن بشود.</string>
 
@@ -150,7 +147,7 @@
     <string name="message_discovering_mi_band">یافتن هایلو (ممکن است ۱ دقیقه طول بکشد) …</string>
     <string name="message_discovered_mi_band">%1$s با موفقیت متصل شد</string>
     <string name="message_discovered_no_mi_band">خطا در اتصال به هایلو</string>
-    <string name="message_discovered_not_found_mi_band">اگر دستگاه &device_name; پیدا نشد, یا با برنامه‌ی Haylou Sport/Play/Discoverable بند را جفت کنید و یا مستقیم در تنظیمات بلوتوث این کار را انجام دهید.</string>
+    <string name="message_discovered_not_found_mi_band">اگر دستگاه %1$s پیدا نشد, یا با برنامه‌ی Haylou Sport/Play/Discoverable بند را جفت کنید و یا مستقیم در تنظیمات بلوتوث این کار را انجام دهید.</string>
     <string name="message_enable_notification_listener_access">دسترسی به اعلان را فعال کنید: گوشی/تنظیمات/اعلان‌ها دسترسی</string>
     <string name="message_enable_notification_listener_access_4_4">دسترسی به اعلان را فعال کنید: تنظیمات/امنیت/اعلان‌ها دسترسی</string>
     <string name="message_open_settings">تنظیمات</string>
@@ -193,15 +190,14 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">خوش آمدید!</string>
     <string name="dialog_welcome_message"><![CDATA[دستگاه‌های قابل استفاده:
-    <br>• <b>Haylou Solar (LS05)</b>
-    <br>• <b>Haylou Smart Watch 2 (LS02)</b>
-    <br>• <b>Haylou Smart Watch (LS01)</b>
-    <p><app_name/> requires the installation of the official Haylou app on the same phone. At first you have to pair your smart watch in the Haylou app, then you can use this app.</p>
-    <p>If Haylou is not found, then you can set the MAC address manually when you discover.</p>
-    <p><b>اگر در ارتباط مشکل دارید:</b>
+    <watch_types/>
+    <p><app_name/> requires the installation of the official <device_type/> app on the same phone. At first you have to pair your smart watch in the <device_type/> app, then you can use this app.</p>
+    <p>If <device_type/> is not found, then you can set the MAC address manually when you discover.</p>
+    <b>اگر در ارتباط مشکل دارید:</b>
     <br>- Recent apps screen: lock the <app_name/> (pull down the app and click on lock icon).
     <br>- Phone/battery optimization: set <app_name/> app to not optimized.
     <br>- Phone/apps: clear Bluetooth Share and other \'Bluetooth\' apps data.
+    <br>- More information: https://dontkillmyapp.com
     ]]></string>
 
     <!-- Notification Dialog -->
@@ -362,6 +358,9 @@
 
     <string name="watch_face_download_title">بارگیری تصاویر ساعت</string>
     <string name="watch_face_upload_title">بارگزاری تصاویر ساعت</string>
+    <string name="watch_face_tool_title">Tools</string>
+
+    <string name="watch_face_share_content">You can share the watch face you have created with others. E-mail the watch face and preview files and enter the following information: author, watch face name (max. 14 characters in total) and the watch face language. We only publish high quality dials.</string>
 
     <string name="watch_face_upload_prepare">آماده سازی برای بارگزاری…</string>
     <string name="watch_face_upload_progress">در حال انتقال %1$,d%%</string>
@@ -604,7 +603,7 @@
     <string name="feedback_google_play_title">امتیاز دادن به برنامه</string>
     <string name="feedback_request_feature_title">درخواست ویژگی و یا گزارش باگ</string>
     <string name="feedback_request_feature_summary">ایمیل تان بطور خودکار جواب داده می‌شود، ممکن است که پاسخی دریافت نکنید.</string>
-    <string name="feedback_translation_title">ترجمه‌های سلام هایلو</string>
+    <string name="feedback_translation_title">ترجمه‌های %1$s</string> <!-- %1$s = App name -->
     <string name="feedback_translation_title_summary">لطفا به ترجمه کمک کنید</string>
 
     <!-- Privacy policy -->
@@ -648,15 +647,16 @@
 
 
     <!-- Others -->
-    <string name="tab_day">چارت روزانه</string>
-    <string name="tab_week">چارت هفتگی</string>
-    <string name="tab_month">چارت ماهانه</string>
+    <string name="tab_daily_charts">چارت روزانه</string>
+    <string name="tab_weekly_charts">چارت هفتگی</string>
+    <string name="tab_monthly_charts">چارت ماهانه</string>
 
     <string name="ad_attribution">تبلیغ</string>
     <string name="on">روشن</string>
     <string name="off">خاموش</string>
     <string name="none">هیچکدام</string>
-    <string name="bpm">BPM</string>
+    <string name="heart_rate_bpm">bpm</string>
+    <string name="heart_rate_mhr">MHR</string>
     <string name="date">تاریخ</string>
     <string name="time">زمان</string>
     <string name="time_start">زمان شروع</string>
@@ -672,10 +672,13 @@
     <string name="timed">زمان دار</string>
     <string name="file_name">نام فایل</string>
     <string name="default_">پیشفرض</string>
+    <string name="default_by_phone">افتراضي (عن طريق الهاتف)</string>
     <string name="invalid_setting">تنظیمات نا معتبر</string>
     <string name="ringtone">آهنگ زنگ</string>
     <string name="uninstalled">پاک شده</string>
     <string name="value">مقدار</string>
+    <string name="downloads">Downloads</string>
+    <string name="share">Share</string>
 
     <string name="action_premium_mode">نسخه‌ی پولی</string>
     <string name="action_dismiss">انصراف</string>
@@ -766,8 +769,4 @@
         <item quantity="other">%d ثانیه</item>
     </plurals>
 
-    <string name="problem.lvl" translatable="false">problem.lvl</string>
-    <string name="s_837" translatable="false">3</string>
-    <string name="s_482" translatable="false">8</string>
-    <string name="s_1333" translatable="false">6</string>
 </resources>

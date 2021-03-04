@@ -1,8 +1,4 @@
 <?xml version="1.0"?>
-<!DOCTYPE resources [
-    <!ENTITY app_name "Hello Haylou">
-    <!ENTITY device_name "Haylou">
-    ]>
 
 <resources>
     <string name="menu_nav_home">@string/device_name</string>
@@ -29,6 +25,7 @@
     <string name="setting_name">Ayar</string>
     <string name="settings_name">Ayarlar</string>
     <string name="info_name">Bilgi</string>
+    <string name="more_name">Daha</string>
 
 <!--    <string name="mi_band_tracker_title">Adım・mesafe・kalori・hedef・nabız</string>-->
     <string name="mi_band_tracker_title">Adım・hedef・nabız</string>
@@ -37,8 +34,8 @@
     <string name="device_state_connected_disconnected_last_time">Son bağlantı ve kopma zamanı</string>
     <string name="device_alarm">Sonraki alarm</string>
 
-    <string name="device_search">&device_name; ara</string>
-    <string name="device_setting">&device_name; ayarları</string>
+    <string name="device_search">%1$s ara</string> <!-- %1$s = Watch name -->
+    <string name="device_setting">%1$s ayarları</string> <!-- %1$s = Watch name -->
 
     <string name="device_mac_address">MAC adresi</string>
     <string name="device_mac_address_invalid">MAC adresi hatalı</string>
@@ -62,9 +59,9 @@
     <string name="mi_band_setting_menu_call">Arama</string>
 
     <string name="mi_band_setting_auth_mi_fit">%1$s ile birlikte</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">&app_name;, resmi %1$s uygulamasıyla beraber kurulmasını gerektirir. İlk önce %2$s\'yi %1$s uygulamasında eşleştirirdikten sonra &app_name;\'ı kullanabilirsiniz. Eğer %1$s\'i kullanmak istiyorsanız bunu seçiniz.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">%3$s, resmi %1$s uygulamasıyla beraber kurulmasını gerektirir. İlk önce %2$s\'yi %1$s uygulamasında eşleştirirdikten sonra %3$s\'ı kullanabilirsiniz. Eğer %1$s\'i kullanmak istiyorsanız bunu seçiniz.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
     <string name="mi_band_setting_auth_standalone">Bağımsız</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$s uygulaması &app_name; için gerekli değildir. Eşleştikten sonra, %1$s uygulamasını kaldırabilirsiniz. %1$s ile beraberliğini yeniden kurmak için, %2$s \'i  %1$s uygulamasıyla yeniden eşleşmesi gerekir. Eğer eşleşmeyi kaldır fonksiyonunu kullanırsanız, tüm saat verisi silinir.  %2$s ekranı işlemler yapılırken açık olmalıdır.</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$s uygulaması %3$s için gerekli değildir. Eşleştikten sonra, %1$s uygulamasını kaldırabilirsiniz. %1$s ile beraberliğini yeniden kurmak için, %2$s \'i  %1$s uygulamasıyla yeniden eşleşmesi gerekir. Eğer eşleşmeyi kaldır fonksiyonunu kullanırsanız, tüm saat verisi silinir.  %2$s ekranı işlemler yapılırken açık olmalıdır.</string>
 
     <string name="message_auth_request">Eşlendi, doğrulama kodunu bilmiyorsanız, eşleşmeyi kaldırın.</string>
 
@@ -146,11 +143,11 @@
 
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">Lütfen Bluetooth\'u etkinleştirin ve bilekliği telefona yakın tutun</string>
-    <string name="message_discover_mi_band">&device_name; tespit edilemedi, lütfen tekrar deneyin</string>
-    <string name="message_discovering_mi_band">&device_name; tespit ediliyor (1 dk sürebilir) &#8230;</string>
+    <string name="message_discover_mi_band">%1$s tespit edilemedi, lütfen tekrar deneyin</string>
+    <string name="message_discovering_mi_band">%1$s tespit ediliyor (1 dk sürebilir) &#8230;</string>
     <string name="message_discovered_mi_band">%1$s tespit edildi</string>
-    <string name="message_discovered_no_mi_band">&device_name; tespit edilemedi</string>
-    <string name="message_discovered_not_found_mi_band">Eğer &device_name; tespit edilemez ise, Bluetooth ayarlarını kontrol edin</string>
+    <string name="message_discovered_no_mi_band">%1$s tespit edilemedi</string>
+    <string name="message_discovered_not_found_mi_band">Eğer %1$s tespit edilemez ise, Bluetooth ayarlarını kontrol edin</string>
     <string name="message_enable_notification_listener_access">Bildirim erişimi verin: Ayarlar/Bildirim/Bildirim erişimi</string>
     <string name="message_enable_notification_listener_access_4_4">Bildirim erişimi verin: Ayarlar/Güvenlik/Bildirim erişimi</string>
     <string name="message_open_settings">Ayarlar</string>
@@ -193,15 +190,14 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">Hoşgeldiniz!</string>
     <string name="dialog_welcome_message"><![CDATA[Desteklenen Cihazlar:
-    <br>• <b>Haylou Solar (LS05)</b>
-    <br>• <b>Haylou Smart Watch 2 (LS02)</b>
-    <br>• <b>Haylou Smart Watch (LS01)</b>
-    <p><app_name/>\'yu kullanmak için resmi uygulamanın da telefonda yüklü olması gerekir. İlk önce Haylou uygulaması ile eşlerseniz, uygulamayı kullanabilirsiniz.</p>
-    <p>Haylou bulunamazsa, ayrıntılar menüsünde MAC adresini manuel olarak ayarlayabilirsiniz.</p>
-    <p><b>Eğer bağlantı sorunu varsa:</b>
+    <watch_types/>
+    <p><app_name/>\'yu kullanmak için resmi uygulamanın da telefonda yüklü olması gerekir. İlk önce <device_type/> uygulaması ile eşlerseniz, uygulamayı kullanabilirsiniz.</p>
+    <p><device_type/> bulunamazsa, ayrıntılar menüsünde MAC adresini manuel olarak ayarlayabilirsiniz.</p>
+    <b>Eğer bağlantı sorunu varsa:</b>
     <br>- Son uygulamalarda <app_name/> uygulamasını kilitleyin.
     <br>- <app_name/> uygulamasını pil optimizasyonunu Optimizasyon Etme olarak değiştirin.
     <br>- Bluetooth uygulaması verileri ve ön belleği temizleyin.
+    <br>- More information: https://dontkillmyapp.com
     </p>]]></string>
 
 
@@ -362,6 +358,9 @@
 
     <string name="watch_face_download_title">Saat arayüzü indir</string>
     <string name="watch_face_upload_title">Saat arayüzünü değiştir</string>
+    <string name="watch_face_tool_title">Tools</string>
+
+    <string name="watch_face_share_content">You can share the watch face you have created with others. E-mail the watch face and preview files and enter the following information: author, watch face name (max. 14 characters in total) and the watch face language. We only publish high quality dials.</string>
 
     <string name="watch_face_upload_prepare">Yükleme için hazırlanıyor…</string>
     <string name="watch_face_upload_progress">Yükleniyor %1$,d%%</string>
@@ -606,7 +605,7 @@
     <string name="feedback_google_play_title">Uygulamayı değerlendir</string>
     <string name="feedback_request_feature_title">İstekleriniz, hata bildirimleri</string>
     <string name="feedback_request_feature_summary">E-postanız otomatik işlenir, yanıt alamayabilirsiniz</string>
-    <string name="feedback_translation_title">&app_name; Çeviri</string>
+    <string name="feedback_translation_title">%1$s Çeviri</string> <!-- %1$s = App name -->
     <string name="feedback_translation_title_summary">Türkçe çeviri Samet Sunman tarafından yapılmıştır. Siz de çeviriye katkıda bulunun. </string>
 
     <!-- Privacy policy -->
@@ -650,15 +649,16 @@
 
 
     <!-- Others -->
-    <string name="tab_day">Günlük graf.</string>
-    <string name="tab_week">Haftalık graf.</string>
-    <string name="tab_month">Aylık graf.</string>
+    <string name="tab_daily_charts">Günlük graf.</string>
+    <string name="tab_weekly_charts">Haftalık graf.</string>
+    <string name="tab_monthly_charts">Aylık graf.</string>
 
     <string name="ad_attribution">Ad</string>
     <string name="on">Açık</string>
     <string name="off">Kapalı</string>
     <string name="none">Yok</string>
-    <string name="bpm">BPM</string>
+    <string name="heart_rate_bpm">bpm</string>
+    <string name="heart_rate_mhr">MHR</string>
     <string name="date">Tarih</string>
     <string name="time">Zaman</string>
     <string name="time_start">Başlangıç</string>
@@ -674,10 +674,13 @@
     <string name="timed">Zaman ayarlandı</string>
     <string name="file_name">Dosya adı</string>
     <string name="default_">Varsayılan</string>
+    <string name="default_by_phone">Varsayılan (telefonla)</string>
     <string name="invalid_setting">Yanlış ayar</string>
     <string name="ringtone">Zil sesi çal</string>
     <string name="uninstalled">Yüklenmedi</string>
     <string name="value">Değer</string>
+    <string name="downloads">Downloads</string>
+    <string name="share">Share</string>
 
     <string name="action_premium_mode">Premium modu</string>
     <string name="action_dismiss">Vazgeç</string>
