@@ -9,6 +9,7 @@
     <string name="menu_nav_pulse">심박수</string>
     <string name="menu_nav_workout">연습</string>
     <string name="menu_nav_alarm">알람</string>
+    <string name="menu_nav_reminder">이벤트 리마인더</string>
     <string name="menu_nav_dnd">방해 금지 모드</string>
     <string name="menu_nav_watch_face">디스플레이</string>
     <string name="menu_nav_weather">날씨</string>
@@ -33,6 +34,7 @@
     <string name="device_battery">배터리 잔량・마지막 충전 시간</string>
     <string name="device_state_connected_disconnected_last_time">마지막 연결 및 연결 해제 시간</string>
     <string name="device_alarm">다음 알람</string>
+    <string name="device_reminder">Next reminder</string>
 
     <string name="device_search">%1$s 검색</string> <!-- %1$s = Watch name -->
     <string name="device_setting">%1$s 설정</string> <!-- %1$s = Watch name -->
@@ -345,6 +347,21 @@
     ]]></string>
 
 
+    <!-- Reminder -->
+    <string name="message_reminder_enabled">리마인더 enabled</string>
+    <string name="message_reminder_disabled">Reminder disabled</string>
+
+    <string name="reminder_repeat">시간마다 반복</string>
+    <string name="reminder_notification_shade">폰에 알림</string>
+
+    <string name="message_time_reminder_free_counter">Up to 1 reminder can be used in free mode</string>
+
+    <string name="info_dialog_reminder"><![CDATA[
+        Bluetooth connection is required to display the reminder.
+        ]]>
+    </string>
+
+
     <!-- Do not disturb -->
     <string name="pref_dnd_summary">방해금지 모드 설정</string>
     <string name="pref_dnd_enable_bluetooth">방해 금지 모드가 시작될 때 블루투스를 끄고, 종료될 때 블루투스 켜기</string>
@@ -362,7 +379,7 @@
     <string name="watch_face_upload_title">디스플레이 변경</string>
     <string name="watch_face_tool_title">Tools</string>
 
-    <string name="watch_face_share_content">You can share the watch face you have created with others. E-mail the watch face and preview files and enter the following information: author, watch face name (max. 14 characters in total) and the watch face language. We only publish high quality dials.</string>
+    <string name="watch_face_share_content">You can share the watch face you have created with others. E-mail the watch face and preview files and enter the following information: author, watch face name (max. 14 characters in total) and the watch face language. We only publish high quality watch faces.</string>
 
     <string name="watch_face_upload_prepare">업로드 준비 중…</string>
     <string name="watch_face_upload_progress">%1$,d%% 업로드 중</string>
@@ -373,6 +390,11 @@
 
     <string name="watch_face_upload_speed_title">업로드 속도</string>
     <string name="watch_face_upload_speed_hint">워치 페이스 업로드 프로세스가 중단될 경우 속도를 낮추십시오</string>
+
+    <string name="message_watch_face_file_error">Invalid watch face file</string>
+
+    <string name="action_chart_layout_2_columns">2-column layout</string>
+    <string name="action_chart_layout_3_columns">3-column layout</string>
 
 
     <!-- Touch monitoring -->
@@ -675,8 +697,10 @@
     <string name="file_name">파일명</string>
     <string name="default_">기본</string>
     <string name="default_by_phone">기본 (폰 언어)</string>
+    <string name="custom">Custom</string>
     <string name="invalid_setting">잘못된 설정</string>
     <string name="ringtone">벨소리</string>
+    <string name="ringtone_chooser">Ringtone chooser</string>
     <string name="uninstalled">제거됨</string>
     <string name="value">값</string>
     <string name="downloads">Downloads</string>
@@ -693,8 +717,7 @@
     <string name="action_upload">업로드</string>
     <string name="action_filter_no">필터 없음</string>
     <string name="action_bluetooth">블루투스</string>
-    <string name="action_launch_mi_fit">Mi 피트</string>
-    <string name="action_launch_amazfit">Zepp</string>
+    <string name="action_favorite">Favorite</string>
     <string name="action_save">저장</string>
     <string name="action_test">작동 확인</string>
     <string name="action_discard">수정 취소</string>

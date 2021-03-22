@@ -9,6 +9,7 @@
     <string name="menu_nav_pulse">Puls</string>
     <string name="menu_nav_workout">Trene</string>
     <string name="menu_nav_alarm">Alarm</string>
+    <string name="menu_nav_reminder">Hendelsespåminnelse</string>
     <string name="menu_nav_dnd">Ikke forstyrr modus</string>
     <string name="menu_nav_watch_face">Watch face</string>
     <string name="menu_nav_weather">Vær</string>
@@ -33,6 +34,7 @@
     <string name="device_battery">Batteri-level・siste lade tid</string>
     <string name="device_state_connected_disconnected_last_time">Siste tilkoblings og frakoblings-tid</string>
     <string name="device_alarm">Neste alarm</string>
+    <string name="device_reminder">Next reminder</string>
 
     <string name="device_search">%1$s search</string>  <!-- %1$s = Watch name -->
     <string name="device_setting">%1$s-instillinger</string> <!-- %1$s = Watch name -->
@@ -345,6 +347,21 @@
     ]]></string>
 
 
+    <!-- Reminder -->
+    <string name="message_reminder_enabled">Påminnelse aktivert</string>
+    <string name="message_reminder_disabled">Påminnelse deaktivert</string>
+
+    <string name="reminder_repeat">Hourly repetition</string>
+    <string name="reminder_notification_shade">Notifiser på telefonen</string>
+
+    <string name="message_time_reminder_free_counter">Up to 1 reminder can be used in free mode</string>
+
+    <string name="info_dialog_reminder"><![CDATA[
+        Bluetooth connection is required to display the reminder.
+        ]]>
+    </string>
+
+
     <!-- Do not disturb -->
     <string name="pref_dnd_summary">Status på kontroll på ikke forstyrr modus</string>
     <string name="pref_dnd_enable_bluetooth">I starten av DnD modus skru Bluetooth av, helt til slutt skru Bluetooth på</string>
@@ -362,7 +379,7 @@
     <string name="watch_face_upload_title">Endre atch face</string>
     <string name="watch_face_tool_title">Tools</string>
 
-    <string name="watch_face_share_content">You can share the watch face you have created with others. E-mail the watch face and preview files and enter the following information: author, watch face name (max. 14 characters in total) and the watch face language. We only publish high quality dials.</string>
+    <string name="watch_face_share_content">You can share the watch face you have created with others. E-mail the watch face and preview files and enter the following information: author, watch face name (max. 14 characters in total) and the watch face language. We only publish high quality watch faces.</string>
 
     <string name="watch_face_upload_prepare">Preparing for the upload…</string>
     <string name="watch_face_upload_progress">Uploading %1$,d%%</string>
@@ -375,6 +392,9 @@
     <string name="watch_face_upload_speed_hint">Set a lower speed if the watch face uploading process is interrupted</string>
 
     <string name="message_watch_face_file_error">Invalid watch face file</string>
+
+    <string name="action_chart_layout_2_columns">2-column layout</string>
+    <string name="action_chart_layout_3_columns">3-column layout</string>
 
 
     <!-- Touch monitoring -->
@@ -677,8 +697,10 @@
     <string name="file_name">Fil navn</string>
     <string name="default_">Default</string>
     <string name="default_by_phone">Misligholde (over telefon)</string>
+    <string name="custom">Custom</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="ringtone">Ringetone</string>
+    <string name="ringtone_chooser">Ringtone chooser</string>
     <string name="uninstalled">Uninstalled</string>
     <string name="value">Value</string>
     <string name="downloads">Downloads</string>
@@ -695,8 +717,7 @@
     <string name="action_upload">Laste opp</string>
     <string name="action_filter_no">Ingen filter</string>
     <string name="action_bluetooth">Bluetooth</string>
-    <string name="action_launch_mi_fit">Mi Fit</string>
-    <string name="action_launch_amazfit">Zepp</string>
+    <string name="action_favorite">Favorite</string>
     <string name="action_save">Lagre</string>
     <string name="action_test">Test</string>
     <string name="action_discard">Forkaste</string>

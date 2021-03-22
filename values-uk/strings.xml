@@ -9,6 +9,7 @@
     <string name="menu_nav_pulse">Пульс</string>
     <string name="menu_nav_workout">Тренування</string>
     <string name="menu_nav_alarm">Будильник</string>
+    <string name="menu_nav_reminder">Нагадування</string>
     <string name="menu_nav_dnd">Режим \"Не турбувати\"</string>
     <string name="menu_nav_watch_face">Циферблат</string>
     <string name="menu_nav_weather">Погода</string>
@@ -32,6 +33,7 @@
     <string name="device_battery">Рівень заряду・час останнього зарядження</string>
     <string name="device_state_connected_disconnected_last_time">Час останніх з\'єднання/роз\'єднання</string>
     <string name="device_alarm">Наступний будильник</string>
+    <string name="device_reminder">Next reminder</string>
 
     <string name="device_search">%1$s search</string> <!-- %1$s = Watch name -->
     <string name="device_setting">Налаштування %1$s</string> <!-- %1$s = Watch name -->
@@ -302,6 +304,7 @@
 
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
     <string name="mi_band_tracker_distance_meter_title">%1$,d м</string> <!-- meter -->
+    <string name="mi_band_tracker_distance_kilometer_title">%,.2f км</string> <!-- kilometer -->
     <string name="mi_band_tracker_distance_mile_title">%,.2f миль</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d ккал</string> <!-- kilo calorie -->
 
@@ -343,6 +346,21 @@
     ]]></string>
 
 
+    <!-- Reminder -->
+    <string name="message_reminder_enabled">Нагадування увімкнено</string>
+    <string name="message_reminder_disabled">Нагадування вимкнено</string>
+
+    <string name="reminder_repeat">Повторювати кожну годину</string>
+    <string name="reminder_notification_shade">Сповіщати на телефоні</string>
+
+    <string name="message_time_reminder_free_counter">Up to 1 reminder can be used in free mode</string>
+
+    <string name="info_dialog_reminder"><![CDATA[
+        Необхідне з\'єднання Bluetooth для відображення нагадувань.
+        ]]>
+    </string>
+
+
     <!-- Do not disturb -->
     <string name="pref_dnd_summary">Стан перемикачів у режимі \"не турбувати\"</string>
     <string name="pref_dnd_enable_bluetooth">На початку режиму \"не турбувати\" вимкнути Bluetooth, наприкінці — увімкнути</string>
@@ -360,7 +378,7 @@
     <string name="watch_face_upload_title">Встановити циферблат</string>
     <string name="watch_face_tool_title">Tools</string>
 
-    <string name="watch_face_share_content">You can share the watch face you have created with others. E-mail the watch face and preview files and enter the following information: author, watch face name (max. 14 characters in total) and the watch face language. We only publish high quality dials.</string>
+    <string name="watch_face_share_content">You can share the watch face you have created with others. E-mail the watch face and preview files and enter the following information: author, watch face name (max. 14 characters in total) and the watch face language. We only publish high quality watch faces.</string>
 
     <string name="watch_face_upload_prepare">Підготовка до встановлення…</string>
     <string name="watch_face_upload_progress">Встановлення %1$,d%%</string>
@@ -373,6 +391,9 @@
     <string name="watch_face_upload_speed_hint">Set a lower speed if the watch face uploading process is interrupted</string>
 
     <string name="message_watch_face_file_error">Недійсний файл циферблату</string>
+
+    <string name="action_chart_layout_2_columns">2-column layout</string>
+    <string name="action_chart_layout_3_columns">3-column layout</string>
 
 
     <!-- Touch monitoring -->
@@ -672,8 +693,10 @@
     <string name="file_name">Назва файла</string>
     <string name="default_">Default</string>
     <string name="default_by_phone">За замовчанням (системна)</string>
+    <string name="custom">Custom</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="ringtone">Мелодія дзвінка</string>
+    <string name="ringtone_chooser">Ringtone chooser</string>
     <string name="uninstalled">Uninstalled</string>
     <string name="value">Value</string>
     <string name="downloads">Downloads</string>
@@ -690,8 +713,7 @@
     <string name="action_upload">Встановити</string>
     <string name="action_filter_no">Без фільтру</string>
     <string name="action_bluetooth">Bluetooth</string>
-    <string name="action_launch_mi_fit">Mi Fit</string>
-    <string name="action_launch_amazfit">Zepp</string>
+    <string name="action_favorite">Favorite</string>
     <string name="action_save">Зберегти</string>
     <string name="action_test">Тест</string>
     <string name="action_discard">Скасувати</string>
@@ -733,6 +755,7 @@
 
     <string name="const_number">%1$,d</string>
     <string name="const_number_float">%,.2f</string>
+    <string name="const_unit_kilometer">км</string>
     <string name="const_unit_meter">м</string>
     <string name="const_unit_centimeter">см</string>
     <string name="const_unit_mile">mi</string>

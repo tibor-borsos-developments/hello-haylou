@@ -9,6 +9,7 @@
     <string name="menu_nav_pulse">Pulse</string>
     <string name="menu_nav_workout">Workout</string>
     <string name="menu_nav_alarm">Alarm</string>
+    <string name="menu_nav_reminder">Event reminder</string>
     <string name="menu_nav_dnd">Do not disturb mode</string>
     <string name="menu_nav_watch_face">Watchface</string>
     <string name="menu_nav_weather">Weather</string>
@@ -33,6 +34,7 @@
     <string name="device_battery">Battery level・last charging time</string>
     <string name="device_state_connected_disconnected_last_time">Last connection and disconnection time</string>
     <string name="device_alarm">Next alarm</string>
+    <string name="device_reminder">Next reminder</string>
 
     <string name="device_search">%1$s search</string> <!-- %1$s = Watch name -->
     <string name="device_setting">%1$s setting</string> <!-- %1$s = Watch name -->
@@ -343,6 +345,21 @@
     ]]></string>
 
 
+    <!-- Reminder -->
+    <string name="message_reminder_enabled">Reminder enabled</string>
+    <string name="message_reminder_disabled">Reminder disabled</string>
+
+    <string name="reminder_repeat">Hourly repetition</string>
+    <string name="reminder_notification_shade">Notify me on the phone</string>
+
+    <string name="message_time_reminder_free_counter">Up to 1 reminder can be used in free mode</string>
+
+    <string name="info_dialog_reminder"><![CDATA[
+        Bluetooth connection is required to display the reminder.
+        ]]>
+    </string>
+
+
     <!-- Do not disturb -->
     <string name="pref_dnd_summary">State of controllers in do not disturb mode</string>
     <string name="pref_dnd_enable_bluetooth">At the start of the DnD mode turn Bluetooth off, at the end turn Bluetooth on</string>
@@ -360,7 +377,7 @@
     <string name="watch_face_upload_title">Upload watch face</string>
     <string name="watch_face_tool_title">Tools</string>
 
-    <string name="watch_face_share_content">You can share the watch face you have created with others. E-mail the watch face and preview files and enter the following information: author, watch face name (max. 14 characters in total) and the watch face language. We only publish high quality dials.</string>
+    <string name="watch_face_share_content">You can share the watch face you have created with others. E-mail the watch face and preview files and enter the following information: author, watch face name (max. 14 characters in total) and the watch face language. We only publish high quality watch faces.</string>
 
     <string name="watch_face_upload_prepare">Preparing for the upload…</string>
     <string name="watch_face_upload_progress">Uploading %1$,d%%</string>
@@ -373,6 +390,9 @@
     <string name="watch_face_upload_speed_hint">Set a lower speed if the watch face uploading process is interrupted</string>
 
     <string name="message_watch_face_file_error">Invalid watch face file</string>
+
+    <string name="action_chart_layout_2_columns">2-column layout</string>
+    <string name="action_chart_layout_3_columns">3-column layout</string>
 
 
     <!-- Touch monitoring -->
@@ -676,8 +696,10 @@
     <string name="file_name">File name</string>
     <string name="default_">Default</string>
     <string name="default_by_phone">Default (by phone)</string>
+    <string name="custom">Custom</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="ringtone">Ringtone</string>
+    <string name="ringtone_chooser">Ringtone chooser</string>
     <string name="uninstalled">Uninstalled</string>
     <string name="value">Value</string>
     <string name="downloads">Downloads</string>
@@ -694,8 +716,7 @@
     <string name="action_upload">Upload</string>
     <string name="action_filter_no">No filter</string>
     <string name="action_bluetooth">Bluetooth</string>
-    <string name="action_launch_mi_fit">Mi Fit</string>
-    <string name="action_launch_amazfit">Zepp</string>
+    <string name="action_favorite">Favorite</string>
     <string name="action_save">Save</string>
     <string name="action_test">Test</string>
     <string name="action_discard">Discard</string>

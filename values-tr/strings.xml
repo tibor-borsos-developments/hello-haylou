@@ -9,6 +9,7 @@
     <string name="menu_nav_pulse">Nabız ölçer</string>
     <string name="menu_nav_workout">Egzersiz yapmak</string>
     <string name="menu_nav_alarm">Alarm</string>
+    <string name="menu_nav_reminder">Etkinlik hatırlatıcı</string>
     <string name="menu_nav_dnd">Rahatsız etmeyin modu</string>
     <string name="menu_nav_watch_face">Saat Arayüzü</string>
     <string name="menu_nav_weather">Hava Durumu</string>
@@ -33,6 +34,7 @@
     <string name="device_battery">Şarj・şarj süresi</string>
     <string name="device_state_connected_disconnected_last_time">Son bağlantı ve kopma zamanı</string>
     <string name="device_alarm">Sonraki alarm</string>
+    <string name="device_reminder">Next reminder</string>
 
     <string name="device_search">%1$s ara</string> <!-- %1$s = Watch name -->
     <string name="device_setting">%1$s ayarları</string> <!-- %1$s = Watch name -->
@@ -63,13 +65,13 @@
     <string name="mi_band_setting_auth_standalone">Bağımsız</string>
     <string name="mi_band_setting_auth_standalone_hint">%1$s uygulaması %3$s için gerekli değildir. Eşleştikten sonra, %1$s uygulamasını kaldırabilirsiniz. %1$s ile beraberliğini yeniden kurmak için, %2$s \'i  %1$s uygulamasıyla yeniden eşleşmesi gerekir. Eğer eşleşmeyi kaldır fonksiyonunu kullanırsanız, tüm saat verisi silinir.  %2$s ekranı işlemler yapılırken açık olmalıdır.</string>
 
-    <string name="message_auth_request">Eşlendi, doğrulama kodunu bilmiyorsanız, eşleşmeyi kaldırın.</string>
-
     <string name="mi_band_setting_auth_key">Doğrulama Kodu</string>
     <string name="mi_band_setting_auth_key_help">4 rakam girin</string>
     <string name="mi_band_setting_auth_request">Doğrulama kodu isteği</string>
     <string name="mi_band_setting_auth_pair">Eşleştir</string>
     <string name="mi_band_setting_auth_unpair">Eşlenmeyi kaldır</string>
+
+    <string name="message_auth_request">Eşlendi, doğrulama kodunu bilmiyorsanız, eşleşmeyi kaldırın.</string>
 
     <string name="message_mi_band_setting_auth_press_band_button">Eşleştirme için %1$s düğmesine basın</string> <!-- %1$s = Watch name -->
     <string name="message_mi_band_setting_auth_success">%1$s eşleşmesi başarılı</string>
@@ -80,9 +82,10 @@
 
     <string name="mi_band_setting_dial">Kadran </string>
     <string name="mi_band_setting_language">Aktif dil</string>
+    <string name="mi_band_setting_time_24h">24-hour time format</string>
     <string name="mi_band_setting_distance_unit">Mesafe birimlerini ayarlayın</string>
-    <string name="mi_band_setting_lift_wrist">Bilgiliyi görüntülemek için bileğinizi kaldırın</string>
     <string name="mi_band_setting_screen_on_duration">Görüntüleme süresi</string>
+    <string name="mi_band_setting_lift_wrist">Bilgiliyi görüntülemek için bileğinizi kaldırın</string>
     <string name="mi_band_setting_idle_alert">Oturma uyarıları</string>
     <string name="mi_band_setting_idle_alert_time">Hareketsiz süresi</string>
     <string name="mi_band_setting_idle_alert_dnd">Dinlenirken, rahatsız etmeyin (12:00-14:00)</string>
@@ -343,6 +346,21 @@
     ]]></string>
 
 
+    <!-- Reminder -->
+    <string name="message_reminder_enabled">Hatırlatma aktif</string>
+    <string name="message_reminder_disabled">Hatırlatma pasif</string>
+
+    <string name="reminder_repeat">Saatlik tekrar</string>
+    <string name="reminder_notification_shade">Telefonda bildir</string>
+
+    <string name="message_time_reminder_free_counter">Up to 1 reminder can be used in free mode</string>
+
+    <string name="info_dialog_reminder"><![CDATA[
+        Hatırlatıcıyı görüntülemek için Bluetooth bağlantısı gerekir.
+        ]]>
+    </string>
+
+
     <!-- Do not disturb -->
     <string name="pref_dnd_summary">Rahatsız etmeyin modunda denetleyicilerin durumu</string>
     <string name="pref_dnd_enable_bluetooth">Bluetooth\'u başında kapat, sonunda aç</string>
@@ -360,7 +378,7 @@
     <string name="watch_face_upload_title">Saat arayüzünü değiştir</string>
     <string name="watch_face_tool_title">Tools</string>
 
-    <string name="watch_face_share_content">You can share the watch face you have created with others. E-mail the watch face and preview files and enter the following information: author, watch face name (max. 14 characters in total) and the watch face language. We only publish high quality dials.</string>
+    <string name="watch_face_share_content">You can share the watch face you have created with others. E-mail the watch face and preview files and enter the following information: author, watch face name (max. 14 characters in total) and the watch face language. We only publish high quality watch faces.</string>
 
     <string name="watch_face_upload_prepare">Yükleme için hazırlanıyor…</string>
     <string name="watch_face_upload_progress">Yükleniyor %1$,d%%</string>
@@ -373,6 +391,9 @@
     <string name="watch_face_upload_speed_hint">Yükleme işlemi kesintiye uğrarsa, daha düşük hıza ayarlayın.</string>
 
     <string name="message_watch_face_file_error">Geçersiz saat tema dosyası</string>
+
+    <string name="action_chart_layout_2_columns">2-column layout</string>
+    <string name="action_chart_layout_3_columns">3-column layout</string>
 
 
     <!-- Touch monitoring -->
@@ -675,8 +696,10 @@
     <string name="file_name">Dosya adı</string>
     <string name="default_">Varsayılan</string>
     <string name="default_by_phone">Varsayılan (telefonla)</string>
+    <string name="custom">Custom</string>
     <string name="invalid_setting">Yanlış ayar</string>
     <string name="ringtone">Zil sesi çal</string>
+    <string name="ringtone_chooser">Ringtone chooser</string>
     <string name="uninstalled">Yüklenmedi</string>
     <string name="value">Değer</string>
     <string name="downloads">Downloads</string>
@@ -693,8 +716,7 @@
     <string name="action_upload">Yükle</string>
     <string name="action_filter_no">Tümü</string>
     <string name="action_bluetooth">Bluetooth</string>
-    <string name="action_launch_mi_fit">Mi Fit</string>
-    <string name="action_launch_amazfit">Zepp</string>
+    <string name="action_favorite">Favorite</string>
     <string name="action_save">Kaydet</string>
     <string name="action_test">Test et</string>
     <string name="action_discard">Sil</string>

@@ -9,6 +9,7 @@
     <string name="menu_nav_pulse">Pulzus</string>
     <string name="menu_nav_workout">Edzés</string>
     <string name="menu_nav_alarm">Ébresztő</string>
+    <string name="menu_nav_reminder">Emlékeztető</string>
     <string name="menu_nav_dnd">Ne zavarj mód</string>
     <string name="menu_nav_watch_face">Számlap</string>
     <string name="menu_nav_weather">Időjárás</string>
@@ -33,6 +34,7 @@
     <string name="device_battery">Akkumulátor állapota・töltés időpontja</string>
     <string name="device_state_connected_disconnected_last_time">Utolsó csatlakozás és kapcsolatbontás időpontja</string>
     <string name="device_alarm">Következő ébresztő</string>
+    <string name="device_reminder">Következő emlékeztető</string>
 
     <string name="device_search">%1$s keresés</string> <!-- %1$s = Watch name -->
     <string name="device_setting">%1$s beállítás</string> <!-- %1$s = Watch name -->
@@ -81,8 +83,8 @@
     <string name="mi_band_setting_language">Nyelv</string>
     <string name="mi_band_setting_time_24h">24 órás időformátum</string>
     <string name="mi_band_setting_distance_unit">Távolság mértékegysége</string>
-    <string name="mi_band_setting_lift_wrist">Képernyő megtekintése csukló felemelésével</string>
     <string name="mi_band_setting_screen_on_duration">Képernyő időtartam</string>
+    <string name="mi_band_setting_lift_wrist">Képernyő bekapcsolás csukló forgatással</string>
     <string name="mi_band_setting_idle_alert">Tétlenség figyelmeztetés</string>
     <string name="mi_band_setting_idle_alert_time">Tétlenségi idő</string>
     <string name="mi_band_setting_idle_alert_dnd">Ne figyelmeztessen pihenőidőben (12:00-14:00)</string>
@@ -352,6 +354,21 @@
     ]]></string>
 
 
+    <!-- Reminder -->
+    <string name="reminder_repeat">Óránkénti ismétlés</string>
+    <string name="reminder_notification_shade">Értesítés a telefonon</string>
+
+    <string name="message_reminder_enabled">Emlékeztető beállítva</string>
+    <string name="message_reminder_disabled">Emlékeztető letiltva</string>
+
+    <string name="message_time_reminder_free_counter">Maximum 1 emlékeztető használható ingyenes módban</string>
+
+    <string name="info_dialog_reminder"><![CDATA[
+        Az emlékeztető megjelenítéséhez Bluetooth kapcsolat szükséges.
+        ]]>
+    </string>
+
+
     <!-- Do not disturb -->
     <string name="pref_dnd_summary">Vezérlők állapota ne zavarj módban</string>
     <string name="pref_dnd_enable_bluetooth">Ne zavarj mód kezdésekor a Bluetooth kikapcsolása, befejezésekor bekapcsolása</string>
@@ -382,6 +399,9 @@
     <string name="watch_face_upload_speed_hint">Számlap feltöltési folyamat megszakadás esetén állíts be alacsonyabb sebességet</string>
 
     <string name="message_watch_face_file_error">Hibás számlap fájl</string>
+
+    <string name="action_chart_layout_2_columns">2 oszlopos elrendezés</string>
+    <string name="action_chart_layout_3_columns">3 oszlopos elerendezés</string>
 
 
     <!-- Touch monitoring -->
@@ -685,8 +705,10 @@
     <string name="file_name">Fájl név</string>
     <string name="default_">Alapértelmezett</string>
     <string name="default_by_phone">Alapértelmezett (telefon alapján)</string>
+    <string name="custom">Egyéni</string>
     <string name="invalid_setting">Érvénytelen beállítás</string>
     <string name="ringtone">Csengőhang</string>
+    <string name="ringtone_chooser">Csengőhang választó</string>
     <string name="uninstalled">Eltávolítva</string>
     <string name="value">Érték</string>
     <string name="downloads">Letöltések</string>
@@ -703,8 +725,7 @@
     <string name="action_upload">Feltöltés</string>
     <string name="action_filter_no">Nincs szűrő</string>
     <string name="action_bluetooth">Bluetooth</string>
-    <string name="action_launch_mi_fit">Mi Fit</string>
-    <string name="action_launch_amazfit">Zepp</string>
+    <string name="action_favorite">Favorite</string>
     <string name="action_save">Ment</string>
     <string name="action_test">Teszt</string>
     <string name="action_discard">Elvet</string>

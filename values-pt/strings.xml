@@ -9,6 +9,7 @@
     <string name="menu_nav_pulse">Pulsação</string>
     <string name="menu_nav_workout">Treino</string>
     <string name="menu_nav_alarm">Despertador</string>
+    <string name="menu_nav_reminder">Lembrete de evento</string>
     <string name="menu_nav_dnd">Modo não perturbe</string>
     <string name="menu_nav_watch_face">Watch Face</string>
     <string name="menu_nav_weather">Meteorologia</string>
@@ -33,6 +34,7 @@
     <string name="device_battery">Bateria・último carregamento</string>
     <string name="device_state_connected_disconnected_last_time">Hora da última conexão e desconexão</string>
     <string name="device_alarm">Próximo alarme</string>
+    <string name="device_reminder">Next reminder</string>
 
     <string name="device_search">Localizar %1$s</string> <!-- %1$s = Watch name -->
     <string name="device_setting">Definições da %1$s</string> <!-- %1$s = Watch name -->
@@ -345,6 +347,21 @@
     ]]></string>
 
 
+    <!-- Reminder -->
+    <string name="message_reminder_enabled">Lembrete ativado</string>
+    <string name="message_reminder_disabled">Lembrete desativado</string>
+
+    <string name="reminder_repeat">Repetir de hora em hora</string>
+    <string name="reminder_notification_shade">Notificar-me no dispositivo</string>
+
+    <string name="message_time_reminder_free_counter">Up to 1 reminder can be used in free mode</string>
+
+    <string name="info_dialog_reminder"><![CDATA[
+        >É necessário estar conectado por Bluetooth para apresentar os lembretes.
+        ]]>
+    </string>
+
+
     <!-- Do not disturb -->
     <string name="pref_dnd_summary">Estado das funções no modo não perturbe - DND</string>
     <string name="pref_dnd_enable_bluetooth">Desligar Bluetooth ao iniciar o modo DND e voltar a ligar quando terminar</string>
@@ -376,6 +393,9 @@
 
     <string name="message_watch_face_file_error">O 	arquivo da watch face não é válido</string>
 
+    <string name="action_chart_layout_2_columns">2-column layout</string>
+    <string name="action_chart_layout_3_columns">3-column layout</string>
+
 
     <!-- Touch monitoring -->
     <string name="touch_tab_function">Funções</string>
@@ -384,7 +404,6 @@
     <string name="touch_tab_setting">@string/setting_name</string>
 
     <string name="touch_function_summary">Configure estes recursos se você estiver utilizando o modo \'Autônomo^\' ou se não estiverem a ser corretamente controladas pela Mi Fit</string>
-
     <string name="touch_function">Função da %1$s</string> <!-- %1$s = Watch name -->
     <string name="touch_function_as_touch">Usar a função como um toque no menu de controle</string>
 
@@ -677,8 +696,10 @@
     <string name="file_name">Nome do arquivo</string>
     <string name="default_">Predefinido</string>
     <string name="default_by_phone">Padrão (configurado pelo dispositivo)</string>
+    <string name="custom">Custom</string>
     <string name="invalid_setting">Configuração inválida</string>
     <string name="ringtone">Tom de toque</string>
+    <string name="ringtone_chooser">Ringtone chooser</string>
     <string name="uninstalled">Não instalado</string>
     <string name="value">Valor</string>
     <string name="downloads">Downloads</string>
@@ -695,8 +716,7 @@
     <string name="action_upload">Upload</string>
     <string name="action_filter_no">Não filtrar</string>
     <string name="action_bluetooth">Bluetooth</string>
-    <string name="action_launch_mi_fit">Mi Fit</string>
-    <string name="action_launch_amazfit">Zepp</string>
+    <string name="action_favorite">Favorite</string>
     <string name="action_save">Guardar</string>
     <string name="action_test">Testar</string>
     <string name="action_discard">Rejeitar</string>
