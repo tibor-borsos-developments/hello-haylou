@@ -9,7 +9,7 @@
     <string name="menu_nav_pulse">نبض</string>
     <string name="menu_nav_workout">تمرین</string>
     <string name="menu_nav_alarm">هشدار</string>
-    <string name="menu_nav_reminder">Event reminder</string>
+    <string name="menu_nav_reminder">یادآور رخداد</string>
     <string name="menu_nav_dnd">حالت بدون مزاحم</string>
     <string name="menu_nav_watch_face">تصاویر ساعت</string>
     <string name="menu_nav_weather">آب و هوا</string>
@@ -34,7 +34,7 @@
     <string name="device_battery">سطح باتری・آخرین زمان شارژ</string>
     <string name="device_state_connected_disconnected_last_time">آخرین زمان اتصال و قطع</string>
     <string name="device_alarm">هشدار بعدی</string>
-    <string name="device_reminder">Next reminder</string>
+    <string name="device_reminder">یادآوری بعدی</string>
 
     <string name="device_search">یافتن %1$s</string> <!-- %1$s = Watch name -->
     <string name="device_setting">تنظیمات %1$s</string> <!-- %1$s = Watch name -->
@@ -138,9 +138,9 @@
     <string name="pref_language_title">زبان</string>
 
     <string name="pref_menu">فهرست</string>
-    <string name="pref_cat_menu">Main menu bar</string>
-    <string name="pref_menu_item_2">Second menu item</string>
-    <string name="pref_menu_item_3">Third menu item</string>
+    <string name="pref_cat_menu">فهرست اصلی</string>
+    <string name="pref_menu_item_2">گزینهٔ دوم فهرست</string>
+    <string name="pref_menu_item_3">گزینهٔ سوم فهرست</string>
 
 
     <!-- Snackbar Messages -->
@@ -233,7 +233,7 @@
     <string name="notification_group_filter">فیلتر کردن اعلان ها</string>
     <string name="notification_group_filter_title">فیلتر عنوان</string>
     <string name="notification_group_filter_content">فیلتر محتوا</string>
-    <string name="notification_group_filter_regex">Regex</string>
+    <string name="notification_group_filter_regex">عبارت منظم</string>
     <string name="notification_group_filter_hint">فقط عنوان یا محتوای اعلان را علامت بده (به حروف کوچک حساس نیست)</string>
     <string name="notification_group_filter_contains">شامل هر عبارتی باشد</string>
     <string name="notification_group_filter_not_contains">حاوی هیچ یک از این عبارت نباشد</string>
@@ -245,7 +245,7 @@
     <string name="notification_group_correction">اصلاح متن</string>
     <string name="notification_group_correction_title">اصلاح تیتر</string>
     <string name="notification_group_correction_content">اصلاح محتوا</string>
-    <string name="notification_group_correction_regex">Regex</string>
+    <string name="notification_group_correction_regex">عبارت منظم</string>
     <string name="notification_group_correction_hint">موارد غیر حساس</string>
     <string name="notification_group_correction_items">متنهایی که باید اصلاح شوند</string>
     <string name="notification_group_correction_find">یافتن</string>
@@ -329,7 +329,7 @@
 
 
     <!-- Workout -->
-    <string name="workout_details">Workout details</string>
+    <string name="workout_details">جزئیات تمرین</string>
 
 
     <!-- Alarm -->
@@ -346,16 +346,16 @@
 
 
     <!-- Reminder -->
-    <string name="message_reminder_enabled">Reminder enabled</string>
-    <string name="message_reminder_disabled">Reminder disabled</string>
+    <string name="message_reminder_enabled">فعلا بودن یادآور</string>
+    <string name="message_reminder_disabled">فعال نبودن یادآور</string>
 
-    <string name="reminder_repeat">Hourly repetition</string>
-    <string name="reminder_notification_shade">Notify me on the phone</string>
+    <string name="reminder_repeat">تکرار ساعتی</string>
+    <string name="reminder_notification_shade">در تلفن به من اعلان بده</string>
 
-    <string name="message_time_reminder_free_counter">Up to 1 reminder can be used in free mode</string>
+    <string name="message_time_reminder_free_counter">تنها یک یادآور در حالت رایگان قابل استفاده است.</string>
 
     <string name="info_dialog_reminder"><![CDATA[
-        Bluetooth connection is required to display the reminder.
+        اتصال بولتوث برای نمایش یادآورها لازم است.
         ]]>
     </string>
 
@@ -371,11 +371,11 @@
 
     <!-- Watch face -->
     <string name="watch_face_tab_watch_faces">تصاویر ساعت</string>
-    <string name="watch_face_tab_watch_face_custom">Custom files</string>
+    <string name="watch_face_tab_watch_face_custom">فایل شخصی</string>
 
     <string name="watch_face_download_title">بارگیری تصاویر ساعت</string>
     <string name="watch_face_upload_title">بارگزاری تصاویر ساعت</string>
-    <string name="watch_face_tool_title">Tools</string>
+    <string name="watch_face_tool_title">ابزارها</string>
 
     <string name="watch_face_share_content">You can share the watch face you have created with others. E-mail the watch face and preview files and enter the following information: author, watch face name (max. 14 characters in total) and the watch face language. We only publish high quality watch faces.</string>
 
@@ -386,13 +386,13 @@
     <string name="watch_face_invalid_auth">Use in standalone mode, when using cooperation mode, the official application may block the watch face upload</string>
     <string name="watch_face_invalid_free">In the free mode, more dials cannot be uploaded today</string>
 
-    <string name="watch_face_upload_speed_title">Upload speed</string>
-    <string name="watch_face_upload_speed_hint">Set a lower speed if the watch face uploading process is interrupted</string>
+    <string name="watch_face_upload_speed_title">سرعت بارگزاری</string>
+    <string name="watch_face_upload_speed_hint">اگر بارگزاری فایل ساعت با مشکل مواجه شد، سرعت کمتری را انتخاب کنید.</string>
 
-    <string name="message_watch_face_file_error">Invalid watch face file</string>
+    <string name="message_watch_face_file_error">فایل تصویر ساعت نامعتبر است.</string>
 
-    <string name="action_chart_layout_2_columns">2-column layout</string>
-    <string name="action_chart_layout_3_columns">3-column layout</string>
+    <string name="action_chart_layout_2_columns">چینش ۲ ستونی</string>
+    <string name="action_chart_layout_3_columns">چینش ۳ ستونی</string>
 
 
     <!-- Touch monitoring -->
@@ -543,7 +543,7 @@
 
     <string name="weather_precipitation_rain">باران</string>
     <string name="weather_precipitation_snow">برف</string>
-    <string name="weather_cloud_cover_abbreviation">Cc</string>
+    <string name="weather_cloud_cover_abbreviation">نمیه ابری</string>
     <string name="weather_cloud_cover">ابر</string>
     <string name="weather_humidity">مه</string>
 
@@ -670,7 +670,7 @@
     <string name="tab_daily_charts">چارت روزانه</string>
     <string name="tab_weekly_charts">چارت هفتگی</string>
     <string name="tab_monthly_charts">چارت ماهانه</string>
-    <string name="tab_yearly_charts">Yearly charts</string>
+    <string name="tab_yearly_charts">چارت سالانه</string>
 
     <string name="ad_attribution">تبلیغ</string>
     <string name="on">روشن</string>
@@ -697,24 +697,24 @@
     <string name="custom">Custom</string>
     <string name="invalid_setting">تنظیمات نا معتبر</string>
     <string name="ringtone">آهنگ زنگ</string>
-    <string name="ringtone_chooser">Ringtone chooser</string>
+    <string name="ringtone_chooser">انتخاب آهنگ</string>
     <string name="uninstalled">پاک شده</string>
     <string name="value">مقدار</string>
-    <string name="downloads">Downloads</string>
-    <string name="share">Share</string>
+    <string name="downloads">بارگیری‌ها</string>
+    <string name="share">اشتراک گذاری</string>
 
     <string name="action_premium_mode">نسخه‌ی پولی</string>
     <string name="action_dismiss">انصراف</string>
     <string name="action_setting">تنظیم</string>
     <string name="action_delete">حذف</string>
-    <string name="action_rename">Rename</string>
+    <string name="action_rename">تغییر نام</string>
     <string name="action_export">صدور</string>
     <string name="action_synchronization">همگام سازی</string>
     <string name="action_download">بارگیری</string>
     <string name="action_upload">بارگزاری</string>
     <string name="action_filter_no">بدون فیلتر</string>
     <string name="action_bluetooth">بلوتوث</string>
-    <string name="action_favorite">Favorite</string>
+    <string name="action_favorite">مورد علاقه‌ها</string>
     <string name="action_save">ذخیره</string>
     <string name="action_test">تست</string>
     <string name="action_discard">انصراف</string>
