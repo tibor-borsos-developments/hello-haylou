@@ -65,7 +65,7 @@
     <string name="mi_band_setting_auth_standalone_hint">Nincs szükség a %1$s applikációra a működéshez. Párosítás után töröld a %1$s applikációt. %1$s együttműködés visszaállításakor a %2$s újra párosítását el kell végezni a %1$s applikációban. Leválasztás használatakor az okosóra adatai törlődnek. %2$s képernyő legyen bekapcsolva a műveletek végrehajtása közben.</string>
 
     <string name="mi_band_setting_auth_key">Hitelesítési kulcs</string>
-    <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
+    <string name="mi_band_setting_auth_key_help">Adj meg bármilyen 4 számot</string>
     <string name="mi_band_setting_auth_request">Kulcs kérés</string>
     <string name="mi_band_setting_auth_pair">Párosít</string>
     <string name="mi_band_setting_auth_unpair">Leválaszt</string>
@@ -518,7 +518,7 @@
     <string name="info_dialog_touch"><![CDATA[
         <p>Önálló módban működik megfelelően. Együttműködési módban a hivatalos <app_official /> alkalmazás is kezeli ezeket a funkciókat, így a megfelelő működés nem garantálható.</p>
         <b><u>Felismert érintések</u></b>
-        <br><img src="ic_muisc_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_muisc_skip_next">
+        <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
         <br><device_type/> zene vezélés
         <p><img src="ic_touch_find">
         <br><device_type/> telefon kereső
@@ -564,12 +564,14 @@
 
 
     <!-- Text display -->
-    <string name="pref_text_alphanumeric_title">Alfanumerikus és ASCII karakterek </string>
-    <string name="pref_text_alphanumeric_summary_on">Csak az alfanumerikus és ASCII karakterek megjelenítése</string>
     <string name="pref_text_emoticon_title">Emoji átalakítás</string>
     <string name="pref_text_emoticon_summary_on">Emoji átalakítása hangulatjellé</string>
     <string name="pref_text_uppercase_title">Nagybetűsre átalakítás</string>
     <string name="pref_text_uppercase_summary_on">Kisbetűk átalakítása nagybetűsre</string>
+    <string name="pref_text_alphanumeric_title">Alfanumerikus és ASCII karakterek </string>
+    <string name="pref_text_alphanumeric_summary_on">Csak az alfanumerikus és ASCII karakterek megjelenítése</string>
+    <string name="pref_text_transliteration_title">Transzliteráció</string>
+    <string name="pref_text_transliteration_summary_on">Ékezetes betűk átalakítása ékezet nélkülivé</string>
     <string name="pref_text_line_separator_title">Sorelválasztó helyettesítés</string>
     <string name="pref_text_line_separator_summary_on">Alapértelmezett sorelválasztó helyettesítése más karakterrel</string>
     <string name="pref_text_line_separator_value_title">Helyetesítő karakterek</string>
