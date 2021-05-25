@@ -3,6 +3,7 @@
 Haylou Smart Watch support, extends the capability of the Haylou apps
 
 ## Supported devices
+- Haylou RT (LS05S)
 - Haylou Solar (LS05)
 - Haylou Smart Watch 2 (LS02)
 - Haylou Smart Watch (LS01)
