@@ -34,7 +34,7 @@
     <string name="device_battery">Επίπεδο μπαταρίας・χρόνος φόρτισης</string>
     <string name="device_state_connected_disconnected_last_time">Τελευταίος χρόνος σύνδεσης και αποσύνδεσης</string>
     <string name="device_alarm">Ειδοποίηση</string>
-    <string name="device_reminder">Next reminder</string>
+    <string name="device_reminder">Επόμενη υπενθύμιση</string>
 
     <string name="device_search">%1$s εύρεση</string> <!-- %1$s = Watch name -->
     <string name="device_setting">%1$s ρυθμίσεις</string> <!-- %1$s = Watch name -->
@@ -379,6 +379,7 @@
     <!-- Watch face -->
     <string name="watch_face_tab_watch_faces">Όψη ρολογιού</string>
     <string name="watch_face_tab_watch_face_custom">Custom files</string>
+    <string name="watch_face_tab_watch_face_editor">Συντάκτης</string>
 
     <string name="watch_face_download_title">Λήψη όψης ρολογιού</string>
     <string name="watch_face_upload_title">Αλλαγή όψης ρολογιού</string>
@@ -397,9 +398,28 @@
     <string name="watch_face_upload_speed_hint">Set a lower speed if the watch face uploading process is interrupted</string>
 
     <string name="message_watch_face_file_error">Invalid watch face file</string>
+    <string name="message_watch_face_image_file_error">Invalid image file</string>
 
     <string name="action_chart_layout_2_columns">2-column layout</string>
     <string name="action_chart_layout_3_columns">3-column layout</string>
+
+    <string name="watch_face_edit_dial">Dial</string>
+    <string name="watch_face_edit_preview">Preview</string>
+    <string name="watch_face_edit_hour_digital">Ωρα</string>
+    <string name="watch_face_edit_minute_digital">Λεπτό</string>
+    <string name="watch_face_edit_second_digital">Δεύτερος</string>
+    <string name="watch_face_edit_hour_minute_separator">Ώρα και λεπτό διαχωριστικό</string>
+    <string name="watch_face_edit_month">Μήνας</string>
+    <string name="watch_face_edit_month_name">Όνομα μήνα</string>
+    <string name="watch_face_edit_mont_day_separator">Διαχωριστής μήνας και ημέρας</string>
+    <string name="watch_face_edit_day">Ημέρα</string>
+    <string name="watch_face_edit_dayOfWeek">Ημέρα της εβδομάδας</string>
+
+    <string name="watch_face_edit_select_image">Select image (.png, .jpeg)</string>
+    <string name="watch_face_edit_color">Χρώμα</string>
+    <string name="watch_face_edit_font_family">Γραμματοσειρά</string>
+    <string name="watch_face_edit_font_family_preview">- 1234567890 Abc</string>
+    <string name="watch_face_edit_font_size">Μέγεθος γραμματοσειράς</string>
 
 
     <!-- Touch monitoring -->
@@ -710,29 +730,38 @@
     <string name="ringtone">Ήχος κλήσης</string>
     <string name="ringtone_chooser">Ringtone chooser</string>
     <string name="uninstalled">Απεγκαταστάθηκε</string>
-    <string name="value">Value</string>
+    <string name="value">Αξία</string>
     <string name="downloads">Downloads</string>
     <string name="share">Share</string>
+    <string name="narrow">Narrow</string>
+    <string name="short_">Short</string>
+    <string name="medium">Medium</string>
+    <string name="long_">Long</string>
+    <string name="full">Full</string>
 
     <string name="action_premium_mode">Λειτουργία Premium</string>
     <string name="action_dismiss">Απόρριψη</string>
     <string name="action_setting">Ρυθμίσεις</string>
     <string name="action_delete">Διαγραφή</string>
-    <string name="action_rename">Rename</string>
+    <string name="action_rename">Μετονομασία</string>
     <string name="action_export">Εξαγωγή</string>
     <string name="action_synchronization">Συγχρονισμός</string>
-    <string name="action_download">Download</string>
-    <string name="action_upload">Upload</string>
+    <string name="action_download">Λήψη</string>
+    <string name="action_upload">Ανέβασμα</string>
     <string name="action_filter_no">Χωρίς φίλτρο</string>
     <string name="action_bluetooth">Bluetooth</string>
-    <string name="action_favorite">Favorite</string>
+    <string name="action_favorite">Αγαπημένο</string>
     <string name="action_save">Αποθήκευση</string>
     <string name="action_test">Δοκιμή</string>
     <string name="action_discard">Απόρριψη</string>
     <string name="action_keep_editing">Συνέχεια επεξεργασίας</string>
     <string name="action_new">Νέα</string>
+    <string name="action_new_file_extension">Νέα %1$s</string>
+    <string name="action_edit">Επεξεργασία</string>
     <string name="action_start_stop">Start/Stop</string>
     <string name="action_contacts">Επαφές</string>
+    <string name="action_single_selection">Single selection</string>
+    <string name="action_multiple_selection">Multiple selection</string>
     <string name="synchronized_from_watch">Συγχρονισμός από ρολόι</string>
 
     <string name="action_chart">Διάγραμμα</string>

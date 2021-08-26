@@ -34,7 +34,7 @@
     <string name="device_battery">バッテリー残量・最後に充電した時間</string>
     <string name="device_state_connected_disconnected_last_time">最後に接続、切断された時間</string>
     <string name="device_alarm">次のアラーム</string>
-    <string name="device_reminder">Next reminder</string>
+    <string name="device_reminder">次のリマインダー</string>
 
     <string name="device_search">%1$s search</string> <!-- %1$s = Watch name -->
     <string name="device_setting">%1$s の設定</string> <!-- %1$s = Watch name -->
@@ -378,6 +378,7 @@
     <!-- Watch face -->
     <string name="watch_face_tab_watch_faces">ウォッチフェイス</string>
     <string name="watch_face_tab_watch_face_custom">Custom files</string>
+    <string name="watch_face_tab_watch_face_editor">編集者</string>
 
     <string name="watch_face_download_title">ダウンロード</string>
     <string name="watch_face_upload_title">アップロード</string>
@@ -396,9 +397,28 @@
     <string name="watch_face_upload_speed_hint">Set a lower speed if the watch face uploading process is interrupted</string>
 
     <string name="message_watch_face_file_error">無効なウォッチフェイスファイルです</string>
+    <string name="message_watch_face_image_file_error">Invalid image file</string>
 
     <string name="action_chart_layout_2_columns">2-column layout</string>
     <string name="action_chart_layout_3_columns">3-column layout</string>
+
+    <string name="watch_face_edit_dial">Dial</string>
+    <string name="watch_face_edit_preview">Preview</string>
+    <string name="watch_face_edit_hour_digital">時間</string>
+    <string name="watch_face_edit_minute_digital">分</string>
+    <string name="watch_face_edit_second_digital">秒</string>
+    <string name="watch_face_edit_hour_minute_separator">時間と分のセパレータ</string>
+    <string name="watch_face_edit_month">月</string>
+    <string name="watch_face_edit_month_name">月の名前</string>
+    <string name="watch_face_edit_mont_day_separator">月と日の区切り文字</string>
+    <string name="watch_face_edit_day">日</string>
+    <string name="watch_face_edit_dayOfWeek">週の日</string>
+
+    <string name="watch_face_edit_select_image">Select image (.png, .jpeg)</string>
+    <string name="watch_face_edit_color">色</string>
+    <string name="watch_face_edit_font_family">フォント</string>
+    <string name="watch_face_edit_font_family_preview">- 1234567890 Abc</string>
+    <string name="watch_face_edit_font_size">フォントサイズ</string>
 
 
     <!-- Touch monitoring -->
@@ -710,29 +730,38 @@
     <string name="ringtone">着信音</string>
     <string name="ringtone_chooser">Ringtone chooser</string>
     <string name="uninstalled">Uninstalled</string>
-    <string name="value">Value</string>
+    <string name="value">価値</string>
     <string name="downloads">Downloads</string>
     <string name="share">Share</string>
+    <string name="narrow">Narrow</string>
+    <string name="short_">Short</string>
+    <string name="medium">Medium</string>
+    <string name="long_">Long</string>
+    <string name="full">Full</string>
 
     <string name="action_premium_mode">プレミアムモード</string>
     <string name="action_dismiss">中止</string>
     <string name="action_setting">設定</string>
     <string name="action_delete">削除</string>
-    <string name="action_rename">Rename</string>
+    <string name="action_rename">名前を変更する</string>
     <string name="action_export">エクスポート</string>
     <string name="action_synchronization">同期</string>
     <string name="action_download">ダウンロード</string>
     <string name="action_upload">アップロード</string>
     <string name="action_filter_no">フィルタなし</string>
     <string name="action_bluetooth">Bluetooth</string>
-    <string name="action_favorite">Favorite</string>
+    <string name="action_favorite">お気に入り</string>
     <string name="action_save">保存</string>
     <string name="action_test">テスト</string>
     <string name="action_discard">破棄</string>
     <string name="action_keep_editing">編集を続行</string>
     <string name="action_new">新規</string>
+    <string name="action_new_file_extension">新規 %1$s</string>
+    <string name="action_edit">編集</string>
     <string name="action_start_stop">開始/停止</string>
     <string name="action_contacts">Contacts</string>
+    <string name="action_single_selection">Single selection</string>
+    <string name="action_multiple_selection">Multiple selection</string>
     <string name="synchronized_from_watch">バンドから同期</string>
 
     <string name="action_chart">チャート</string>

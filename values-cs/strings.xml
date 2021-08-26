@@ -34,7 +34,7 @@
     <string name="device_battery">Úroveň baterie・čas nabíjení</string>
     <string name="device_state_connected_disconnected_last_time">Poslední čas připojení a odpojení</string>
     <string name="device_alarm">Další alarm</string>
-    <string name="device_reminder">Next reminder</string>
+    <string name="device_reminder">Další připomenutí</string>
 
     <string name="device_search">%1$s search</string> <!-- %1$s = Watch name -->
     <string name="device_setting">Nastavení %1$s</string> <!-- %1$s = Watch name -->
@@ -376,6 +376,7 @@
     <!-- Watch face -->
     <string name="watch_face_tab_watch_faces">Styl ciferníku</string>
     <string name="watch_face_tab_watch_face_custom">Custom files</string>
+    <string name="watch_face_tab_watch_face_editor">Editor</string>
 
     <string name="watch_face_download_title">Download watch face</string>
     <string name="watch_face_upload_title">Upload watch face</string>
@@ -394,9 +395,28 @@
     <string name="watch_face_upload_speed_hint">Set a lower speed if the watch face uploading process is interrupted</string>
 
     <string name="message_watch_face_file_error">Neplatný soubor ciferníku</string>
+    <string name="message_watch_face_image_file_error">Invalid image file</string>
 
     <string name="action_chart_layout_2_columns">2-column layout</string>
     <string name="action_chart_layout_3_columns">3-column layout</string>
+
+    <string name="watch_face_edit_dial">Dial</string>
+    <string name="watch_face_edit_preview">Preview</string>
+    <string name="watch_face_edit_hour_digital">Hodina</string>
+    <string name="watch_face_edit_minute_digital">Minuta</string>
+    <string name="watch_face_edit_second_digital">Druhý</string>
+    <string name="watch_face_edit_hour_minute_separator">Oddělovač hodin a minut</string>
+    <string name="watch_face_edit_month">Měsíc</string>
+    <string name="watch_face_edit_month_name">Název měsíce</string>
+    <string name="watch_face_edit_mont_day_separator">Oddělovač měsíce a dne</string>
+    <string name="watch_face_edit_day">Den</string>
+    <string name="watch_face_edit_dayOfWeek">Den v týdnu</string>
+
+    <string name="watch_face_edit_select_image">Select image (.png, .jpeg)</string>
+    <string name="watch_face_edit_color">Barva</string>
+    <string name="watch_face_edit_font_family">Font</string>
+    <string name="watch_face_edit_font_family_preview">- 1234567890 Abc</string>
+    <string name="watch_face_edit_font_size">Velikost písma</string>
 
 
     <!-- Touch monitoring -->
@@ -706,29 +726,38 @@
     <string name="ringtone">Vyzvánění</string>
     <string name="ringtone_chooser">Ringtone chooser</string>
     <string name="uninstalled">Uninstalled</string>
-    <string name="value">Value</string>
+    <string name="value">Hodnota</string>
     <string name="downloads">Downloads</string>
     <string name="share">Share</string>
+    <string name="narrow">Narrow</string>
+    <string name="short_">Short</string>
+    <string name="medium">Medium</string>
+    <string name="long_">Long</string>
+    <string name="full">Full</string>
 
     <string name="action_premium_mode">Prémiový režim</string>
     <string name="action_dismiss">Odmítnout</string>
     <string name="action_setting">Nastavení</string>
     <string name="action_delete">Vymazat</string>
-    <string name="action_rename">Rename</string>
-    <string name="action_export">Export</string>
+    <string name="action_rename">Přejmenovat</string>
+    <string name="action_export">Vývozní</string>
     <string name="action_synchronization">Synchronization</string>
-    <string name="action_download">Download</string>
-    <string name="action_upload">Upload</string>
+    <string name="action_download">Stáhnout</string>
+    <string name="action_upload">Nahrát</string>
     <string name="action_filter_no">Žádný filtr</string>
     <string name="action_bluetooth">Bluetooth</string>
-    <string name="action_favorite">Favorite</string>
+    <string name="action_favorite">Oblíbený</string>
     <string name="action_save">Uložit</string>
     <string name="action_test">Test</string>
     <string name="action_discard">Zahodit</string>
     <string name="action_keep_editing">Dále upravovat</string>
-    <string name="action_new">New</string>
+    <string name="action_new">Nový</string>
+    <string name="action_new_file_extension">Nový %1$s</string>
+    <string name="action_edit">Upravit</string>
     <string name="action_start_stop">Start/Stop</string>
     <string name="action_contacts">Contacts</string>
+    <string name="action_single_selection">Single selection</string>
+    <string name="action_multiple_selection">Multiple selection</string>
     <string name="synchronized_from_watch">Synchronized from watch</string>
 
     <string name="action_chart">Graf</string>
@@ -746,7 +775,7 @@
     <string name="action_chart_sort_pulse_asc">Tlak stoupající</string>
     <string name="action_chart_sort_pulse_desc">Tlak klesající</string>
     <string name="action_chart_monthly_calendar">Calendar</string>
-    <string name="action_chart_monthly_compact">Compact</string>
+    <string name="action_chart_monthly_compact">Kompaktní</string>
 
     <string name="activity_progress_title_prepare">Příprava na synchronizaci…</string>
     <string name="activity_progress_title_sync">Synchronizace dat…</string>

@@ -34,7 +34,7 @@
     <string name="device_battery">Battery level・last charging time</string>
     <string name="device_state_connected_disconnected_last_time">Last connection and disconnection time</string>
     <string name="device_alarm">Next alarm</string>
-    <string name="device_reminder">Next reminder</string>
+    <string name="device_reminder">התזכורת הבאה</string>
 
     <string name="device_search">%1$s search</string> <!-- %1$s = Watch name -->
     <string name="device_setting">%1$s setting</string> <!-- %1$s = Watch name -->
@@ -376,6 +376,7 @@
     <!-- Watch face -->
     <string name="watch_face_tab_watch_faces">Watch faces</string>
     <string name="watch_face_tab_watch_face_custom">Custom files</string>
+    <string name="watch_face_tab_watch_face_editor">Editor</string>
 
     <string name="watch_face_download_title">Download watch face</string>
     <string name="watch_face_upload_title">Upload watch face</string>
@@ -394,9 +395,28 @@
     <string name="watch_face_upload_speed_hint">Set a lower speed if the watch face uploading process is interrupted</string>
 
     <string name="message_watch_face_file_error">Invalid watch face file</string>
+    <string name="message_watch_face_image_file_error">Invalid image file</string>
 
     <string name="action_chart_layout_2_columns">2-column layout</string>
     <string name="action_chart_layout_3_columns">3-column layout</string>
+
+    <string name="watch_face_edit_dial">Dial</string>
+    <string name="watch_face_edit_preview">Preview</string>
+    <string name="watch_face_edit_hour_digital">שָׁעָה</string>
+    <string name="watch_face_edit_minute_digital">דַקָה</string>
+    <string name="watch_face_edit_second_digital">שְׁנִיָה</string>
+    <string name="watch_face_edit_hour_minute_separator">מפריד שעה ודקה</string>
+    <string name="watch_face_edit_month">חוֹדֶשׁ</string>
+    <string name="watch_face_edit_month_name">שם חודש</string>
+    <string name="watch_face_edit_mont_day_separator">Month and day separator</string>
+    <string name="watch_face_edit_day">יְוֹם</string>
+    <string name="watch_face_edit_dayOfWeek">יום השבוע</string>
+
+    <string name="watch_face_edit_select_image">Select image (.png, .jpeg)</string>
+    <string name="watch_face_edit_color">Color</string>
+    <string name="watch_face_edit_font_family">גוֹפָן</string>
+    <string name="watch_face_edit_font_family_preview">- 1234567890 Abc</string>
+    <string name="watch_face_edit_font_size">גודל גופן</string>
 
 
     <!-- Touch monitoring -->
@@ -711,6 +731,11 @@
     <string name="value">Value</string>
     <string name="downloads">Downloads</string>
     <string name="share">Share</string>
+    <string name="narrow">Narrow</string>
+    <string name="short_">Short</string>
+    <string name="medium">Medium</string>
+    <string name="long_">Long</string>
+    <string name="full">Full</string>
 
     <string name="action_premium_mode">Premium mode</string>
     <string name="action_dismiss">Dismiss</string>
@@ -729,8 +754,12 @@
     <string name="action_discard">Discard</string>
     <string name="action_keep_editing">Keep editing</string>
     <string name="action_new">New</string>
+    <string name="action_new_file_extension">New %1$s</string>
+    <string name="action_edit">Edit</string>
     <string name="action_start_stop">Start/Stop</string>
     <string name="action_contacts">Contacts</string>
+    <string name="action_single_selection">Single selection</string>
+    <string name="action_multiple_selection">Multiple selection</string>
     <string name="synchronized_from_watch">Synchronized from watch</string>
 
     <string name="action_chart">Chart</string>

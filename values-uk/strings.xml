@@ -33,7 +33,7 @@
     <string name="device_battery">Рівень заряду・час останнього зарядження</string>
     <string name="device_state_connected_disconnected_last_time">Час останніх з\'єднання/роз\'єднання</string>
     <string name="device_alarm">Наступний будильник</string>
-    <string name="device_reminder">Next reminder</string>
+    <string name="device_reminder">Наступне нагадування</string>
 
     <string name="device_search">%1$s search</string> <!-- %1$s = Watch name -->
     <string name="device_setting">Налаштування %1$s</string> <!-- %1$s = Watch name -->
@@ -377,6 +377,7 @@
     <!-- Watch face -->
     <string name="watch_face_tab_watch_faces">Циферблат</string>
     <string name="watch_face_tab_watch_face_custom">Custom files</string>
+    <string name="watch_face_tab_watch_face_editor">Редактор</string>
 
     <string name="watch_face_download_title">Завантажити циферблат</string>
     <string name="watch_face_upload_title">Встановити циферблат</string>
@@ -395,9 +396,28 @@
     <string name="watch_face_upload_speed_hint">Set a lower speed if the watch face uploading process is interrupted</string>
 
     <string name="message_watch_face_file_error">Недійсний файл циферблату</string>
+    <string name="message_watch_face_image_file_error">Invalid image file</string>
 
     <string name="action_chart_layout_2_columns">2-column layout</string>
     <string name="action_chart_layout_3_columns">3-column layout</string>
+
+    <string name="watch_face_edit_dial">Dial</string>
+    <string name="watch_face_edit_preview">Preview</string>
+    <string name="watch_face_edit_hour_digital">Годину</string>
+    <string name="watch_face_edit_minute_digital">Хвилин</string>
+    <string name="watch_face_edit_second_digital">Другий</string>
+    <string name="watch_face_edit_hour_minute_separator">Години і хвилини сепаратором</string>
+    <string name="watch_face_edit_month">Місяць</string>
+    <string name="watch_face_edit_month_name">Назва місяця</string>
+    <string name="watch_face_edit_mont_day_separator">Розділювач дня та місяця</string>
+    <string name="watch_face_edit_day">Денний</string>
+    <string name="watch_face_edit_dayOfWeek">День тижня</string>
+
+    <string name="watch_face_edit_select_image">Select image (.png, .jpeg)</string>
+    <string name="watch_face_edit_color">Колір</string>
+    <string name="watch_face_edit_font_family">Шрифт</string>
+    <string name="watch_face_edit_font_family_preview">- 1234567890 Abc</string>
+    <string name="watch_face_edit_font_size">Розмір шрифту</string>
 
 
     <!-- Touch monitoring -->
@@ -698,36 +718,45 @@
     <string name="all_day">Весь день</string>
     <string name="timed">Timed</string>
     <string name="file_name">Назва файла</string>
-    <string name="default_">Default</string>
+    <string name="default_">За замовчуванням</string>
     <string name="default_by_phone">За замовчанням (системна)</string>
     <string name="custom">Custom</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="ringtone">Мелодія дзвінка</string>
     <string name="ringtone_chooser">Ringtone chooser</string>
     <string name="uninstalled">Uninstalled</string>
-    <string name="value">Value</string>
+    <string name="value">Вартість</string>
     <string name="downloads">Downloads</string>
     <string name="share">Share</string>
+    <string name="narrow">Narrow</string>
+    <string name="short_">Short</string>
+    <string name="medium">Medium</string>
+    <string name="long_">Long</string>
+    <string name="full">Full</string>
 
     <string name="action_premium_mode">Преміум</string>
     <string name="action_dismiss">Відхилити</string>
     <string name="action_setting">Налаштування</string>
     <string name="action_delete">Видалити</string>
-    <string name="action_rename">Rename</string>
+    <string name="action_rename">Перейменувати</string>
     <string name="action_export">Експорт</string>
     <string name="action_synchronization">Синхронізація</string>
     <string name="action_download">Завантажити</string>
     <string name="action_upload">Встановити</string>
     <string name="action_filter_no">Без фільтру</string>
     <string name="action_bluetooth">Bluetooth</string>
-    <string name="action_favorite">Favorite</string>
+    <string name="action_favorite">Улюблений</string>
     <string name="action_save">Зберегти</string>
     <string name="action_test">Тест</string>
     <string name="action_discard">Скасувати</string>
     <string name="action_keep_editing">Продовжити редагування</string>
     <string name="action_new">Новий</string>
+    <string name="action_new_file_extension">Новий %1$s</string>
+    <string name="action_edit">Редагувати</string>
     <string name="action_start_stop">Старт/Стоп</string>
     <string name="action_contacts">Contacts</string>
+    <string name="action_single_selection">Single selection</string>
+    <string name="action_multiple_selection">Multiple selection</string>
     <string name="synchronized_from_watch">Синхронізовано з годинника</string>
 
     <string name="action_chart">Графік</string>

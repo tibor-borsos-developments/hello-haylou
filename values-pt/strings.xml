@@ -34,7 +34,7 @@
     <string name="device_battery">Bateria・último carregamento</string>
     <string name="device_state_connected_disconnected_last_time">Hora da última conexão e desconexão</string>
     <string name="device_alarm">Próximo alarme</string>
-    <string name="device_reminder">Next reminder</string>
+    <string name="device_reminder">Próximo lembrete</string>
 
     <string name="device_search">Localizar %1$s</string> <!-- %1$s = Watch name -->
     <string name="device_setting">Definições da %1$s</string> <!-- %1$s = Watch name -->
@@ -328,10 +328,10 @@
 
     <string name="pulse_continuous_title">Monitoramento contínua da pulsação</string>
 
-    <string name="heart_rate_warning_title">Heart rate warning</string>
+    <string name="heart_rate_warning_title">Aviso de freqüência cardíaca</string>
     <string name="low_and_high_heart_rates">Low and high heart rate thresholds</string>
-    <string name="low_heart_rate">Low heart rate</string>
-    <string name="high_heart_rate">High heart rate</string>
+    <string name="low_heart_rate">Baixa freqüência cardíaca</string>
+    <string name="high_heart_rate">Ritmo cardíaco alto</string>
 
 
     <!-- Workout -->
@@ -378,6 +378,7 @@
     <!-- Watch face -->
     <string name="watch_face_tab_watch_faces">Watch faces</string>
     <string name="watch_face_tab_watch_face_custom">Arquivos Personalizados</string>
+    <string name="watch_face_tab_watch_face_editor">Editor</string>
 
     <string name="watch_face_download_title">Baixar watch faces</string>
     <string name="watch_face_upload_title">Upload Watch Face</string>
@@ -396,9 +397,28 @@
     <string name="watch_face_upload_speed_hint">Defina uma velocidade mais baixa se o processo de envio do mostrador do relógio for interrompido</string>
 
     <string name="message_watch_face_file_error">O 	arquivo da watch face não é válido</string>
+    <string name="message_watch_face_image_file_error">Invalid image file</string>
 
-    <string name="action_chart_layout_2_columns">2-column layout</string>
-    <string name="action_chart_layout_3_columns">3-column layout</string>
+    <string name="action_chart_layout_2_columns">Layout em 2 colunas</string>
+    <string name="action_chart_layout_3_columns">Layout em 3 colunas</string>
+
+    <string name="watch_face_edit_dial">Dial</string>
+    <string name="watch_face_edit_preview">Preview</string>
+    <string name="watch_face_edit_hour_digital">Hora</string>
+    <string name="watch_face_edit_minute_digital">Minuto</string>
+    <string name="watch_face_edit_second_digital">Segundo</string>
+    <string name="watch_face_edit_hour_minute_separator">Hora e minuto separador</string>
+    <string name="watch_face_edit_month">Mês</string>
+    <string name="watch_face_edit_month_name">Nome do mês</string>
+    <string name="watch_face_edit_mont_day_separator">Separador de mês e dia</string>
+    <string name="watch_face_edit_day">Dia</string>
+    <string name="watch_face_edit_dayOfWeek">O dia da semana</string>
+
+    <string name="watch_face_edit_select_image">Select image (.png, .jpeg)</string>
+    <string name="watch_face_edit_color">Cor</string>
+    <string name="watch_face_edit_font_family">Fonte</string>
+    <string name="watch_face_edit_font_family_preview">- 1234567890 Abc</string>
+    <string name="watch_face_edit_font_size">Tamanho da fonte</string>
 
 
     <!-- Touch monitoring -->
@@ -711,26 +731,35 @@
     <string name="value">Valor</string>
     <string name="downloads">Downloads</string>
     <string name="share">Share</string>
+    <string name="narrow">Narrow</string>
+    <string name="short_">Short</string>
+    <string name="medium">Medium</string>
+    <string name="long_">Long</string>
+    <string name="full">Full</string>
 
     <string name="action_premium_mode">Modo Premium</string>
     <string name="action_dismiss">Recusar</string>
     <string name="action_setting">Definições</string>
     <string name="action_delete">Apagar</string>
-    <string name="action_rename">Rename</string>
+    <string name="action_rename">Renomear</string>
     <string name="action_export">Exportar</string>
     <string name="action_synchronization">Sincronização</string>
     <string name="action_download">Download</string>
     <string name="action_upload">Upload</string>
     <string name="action_filter_no">Não filtrar</string>
     <string name="action_bluetooth">Bluetooth</string>
-    <string name="action_favorite">Favorite</string>
+    <string name="action_favorite">Favorito</string>
     <string name="action_save">Guardar</string>
     <string name="action_test">Testar</string>
     <string name="action_discard">Rejeitar</string>
     <string name="action_keep_editing">Continuar a editar</string>
     <string name="action_new">Novo</string>
+    <string name="action_new_file_extension">Novo %1$s</string>
+    <string name="action_edit">Editar</string>
     <string name="action_start_stop">Iniciar/Parar</string>
     <string name="action_contacts">Contatos</string>
+    <string name="action_single_selection">Single selection</string>
+    <string name="action_multiple_selection">Multiple selection</string>
     <string name="synchronized_from_watch">Sincronizado do relógio</string>
 
     <string name="action_chart">Gráfico</string>

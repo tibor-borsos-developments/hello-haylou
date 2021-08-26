@@ -34,7 +34,7 @@
     <string name="device_battery">Mức pin・Lần sạc cuối</string>
     <string name="device_state_connected_disconnected_last_time">Lần cuối nhìn thấy thiết bị</string>
     <string name="device_alarm">Báo thức tiếp</string>
-    <string name="device_reminder">Next reminder</string>
+    <string name="device_reminder">Lời nhắc tiếp theo</string>
 
     <string name="device_search">Tìm kiếm %1$s</string> <!-- %1$s = Watch name -->
     <string name="device_setting">Cài đặt %1$s</string> <!-- %1$s = Watch name -->
@@ -380,6 +380,7 @@
     <!-- Watch face -->
     <string name="watch_face_tab_watch_faces">Giao diện</string>
     <string name="watch_face_tab_watch_face_custom">Tệp tùy chỉnh</string>
+    <string name="watch_face_tab_watch_face_editor">Biên tập viên</string>
 
     <string name="watch_face_download_title">Tải xuống mặt đồng hồ</string>
     <string name="watch_face_upload_title">Đồng bộ mặt đồng hồ</string>
@@ -398,9 +399,28 @@
     <string name="watch_face_upload_speed_hint">Đặt tốc độ đồng bộ thấp hơn nếu quá trình đồng bộ mặt đồng hồ bị gián đoạn</string>
 
     <string name="message_watch_face_file_error">File giao diện không hợp lệ</string>
+    <string name="message_watch_face_image_file_error">Invalid image file</string>
 
     <string name="action_chart_layout_2_columns">2-column layout</string>
     <string name="action_chart_layout_3_columns">3-column layout</string>
+
+    <string name="watch_face_edit_dial">Dial</string>
+    <string name="watch_face_edit_preview">Preview</string>
+    <string name="watch_face_edit_hour_digital">Giờ</string>
+    <string name="watch_face_edit_minute_digital">Phút</string>
+    <string name="watch_face_edit_second_digital">Thứ hai</string>
+    <string name="watch_face_edit_hour_minute_separator">Giờ và phút separator</string>
+    <string name="watch_face_edit_month">Tháng</string>
+    <string name="watch_face_edit_month_name">Tên tháng</string>
+    <string name="watch_face_edit_mont_day_separator">Dấu phân cách tháng và ngày</string>
+    <string name="watch_face_edit_day">Ngày</string>
+    <string name="watch_face_edit_dayOfWeek">Ngày trong tuần</string>
+
+    <string name="watch_face_edit_select_image">Select image (.png, .jpeg)</string>
+    <string name="watch_face_edit_color">Màu</string>
+    <string name="watch_face_edit_font_family">Nét chữ</string>
+    <string name="watch_face_edit_font_family_preview">- 1234567890 Abc</string>
+    <string name="watch_face_edit_font_size">Cỡ chữ</string>
 
 
     <!-- Touch monitoring -->
@@ -713,6 +733,11 @@
     <string name="value">Giá trị</string>
     <string name="downloads">Downloads</string>
     <string name="share">Share</string>
+    <string name="narrow">Narrow</string>
+    <string name="short_">Short</string>
+    <string name="medium">Medium</string>
+    <string name="long_">Long</string>
+    <string name="full">Full</string>
 
     <string name="action_premium_mode">Phiên bản nâng cấp</string>
     <string name="action_dismiss">Bỏ qua</string>
@@ -725,16 +750,19 @@
     <string name="action_upload">Tải lên</string>
     <string name="action_filter_no">Không lọc</string>
     <string name="action_bluetooth">Bluetooth</string>
-    <string name="action_favorite">Favorite</string>
+    <string name="action_favorite">Yêu thích</string>
     <string name="action_save">Lưu</string>
     <string name="action_test">Kiểm tra</string>
     <string name="action_discard">Hủy</string>
     <string name="action_keep_editing">Tiếp tục chỉnh sửa</string>
     <string name="action_new">Mới</string>
+    <string name="action_new_file_extension">Mới %1$s</string>
+    <string name="action_edit">Chỉnh sửa</string>
     <string name="action_start_stop">Bắt đầu/Dừng</string>
     <string name="action_contacts">Liên hệ</string>
+    <string name="action_single_selection">Single selection</string>
+    <string name="action_multiple_selection">Multiple selection</string>
     <string name="synchronized_from_watch">Đã đồng bộ từ đồng hồ</string>
-
 
     <string name="action_chart">Biểu đồ</string>
     <string name="action_zoom_in">Phóng to</string>

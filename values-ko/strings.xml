@@ -34,7 +34,7 @@
     <string name="device_battery">배터리 잔량・마지막 충전 시간</string>
     <string name="device_state_connected_disconnected_last_time">마지막 연결 및 연결 해제 시간</string>
     <string name="device_alarm">다음 알람</string>
-    <string name="device_reminder">Next reminder</string>
+    <string name="device_reminder">다음 알림</string>
 
     <string name="device_search">%1$s 검색</string> <!-- %1$s = Watch name -->
     <string name="device_setting">%1$s 설정</string> <!-- %1$s = Watch name -->
@@ -378,6 +378,7 @@
     <!-- Watch face -->
     <string name="watch_face_tab_watch_faces">디스플레이</string>
     <string name="watch_face_tab_watch_face_custom">Custom files</string>
+    <string name="watch_face_tab_watch_face_editor">편집자</string>
 
     <string name="watch_face_download_title">디스플레이 다운로드</string>
     <string name="watch_face_upload_title">디스플레이 변경</string>
@@ -396,9 +397,28 @@
     <string name="watch_face_upload_speed_hint">워치 페이스 업로드 프로세스가 중단될 경우 속도를 낮추십시오</string>
 
     <string name="message_watch_face_file_error">Invalid watch face file</string>
+    <string name="message_watch_face_image_file_error">Invalid image file</string>
 
     <string name="action_chart_layout_2_columns">2-column layout</string>
     <string name="action_chart_layout_3_columns">3-column layout</string>
+
+    <string name="watch_face_edit_dial">Dial</string>
+    <string name="watch_face_edit_preview">Preview</string>
+    <string name="watch_face_edit_hour_digital">시간</string>
+    <string name="watch_face_edit_minute_digital">분</string>
+    <string name="watch_face_edit_second_digital">두번째</string>
+    <string name="watch_face_edit_hour_minute_separator">시분 분리기</string>
+    <string name="watch_face_edit_month">월</string>
+    <string name="watch_face_edit_month_name">월 이름</string>
+    <string name="watch_face_edit_mont_day_separator">월과 일 구분자</string>
+    <string name="watch_face_edit_day">일</string>
+    <string name="watch_face_edit_dayOfWeek">요일</string>
+
+    <string name="watch_face_edit_select_image">Select image (.png, .jpeg)</string>
+    <string name="watch_face_edit_color">색</string>
+    <string name="watch_face_edit_font_family">폰트</string>
+    <string name="watch_face_edit_font_family_preview">- 1234567890 Abc</string>
+    <string name="watch_face_edit_font_size">글꼴 크기</string>
 
 
     <!-- Touch monitoring -->
@@ -712,26 +732,35 @@
     <string name="value">값</string>
     <string name="downloads">Downloads</string>
     <string name="share">Share</string>
+    <string name="narrow">Narrow</string>
+    <string name="short_">Short</string>
+    <string name="medium">Medium</string>
+    <string name="long_">Long</string>
+    <string name="full">Full</string>
 
     <string name="action_premium_mode">프리미엄 모드</string>
     <string name="action_dismiss">닫기</string>
     <string name="action_setting">설정</string>
     <string name="action_delete">삭제</string>
-    <string name="action_rename">Rename</string>
+    <string name="action_rename">이름 바꾸기</string>
     <string name="action_export">내보내기</string>
     <string name="action_synchronization">동기화</string>
     <string name="action_download">다운로드</string>
     <string name="action_upload">업로드</string>
     <string name="action_filter_no">필터 없음</string>
     <string name="action_bluetooth">블루투스</string>
-    <string name="action_favorite">Favorite</string>
+    <string name="action_favorite">가장 좋아하는</string>
     <string name="action_save">저장</string>
     <string name="action_test">작동 확인</string>
     <string name="action_discard">수정 취소</string>
     <string name="action_keep_editing">수정 계속하기</string>
     <string name="action_new">새로운</string>
+    <string name="action_new_file_extension">새로운 %1$s</string>
+    <string name="action_edit">편집하다</string>
     <string name="action_start_stop">시작/종료</string>
     <string name="action_contacts">컨텐츠</string>
+    <string name="action_single_selection">Single selection</string>
+    <string name="action_multiple_selection">Multiple selection</string>
     <string name="synchronized_from_watch">시계에서 동기화 됨</string>
 
     <string name="action_chart">차트</string>
@@ -749,7 +778,7 @@
     <string name="action_chart_sort_pulse_asc">오름차순(심박수)</string>
     <string name="action_chart_sort_pulse_desc">내림차순(심박수)</string>
     <string name="action_chart_monthly_calendar">달력</string>
-    <string name="action_chart_monthly_compact">간략</string>
+    <string name="action_chart_monthly_compact">콤팩트</string>
 
     <string name="activity_progress_title_prepare">동기화 준비 중…</string>
     <string name="activity_progress_title_sync">데이터 동기화중…</string>

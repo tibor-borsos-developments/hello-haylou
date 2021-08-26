@@ -34,7 +34,7 @@
     <string name="device_battery">Poziom baterii・czas ostatniego ładowania</string>
     <string name="device_state_connected_disconnected_last_time">Czas ostatniego podłączenia i rozłączenia</string>
     <string name="device_alarm">Następny alarm</string>
-    <string name="device_reminder">Next reminder</string>
+    <string name="device_reminder">Następne przypomnienie</string>
 
     <string name="device_search">%1$s search</string> <!-- %1$s = Watch name -->
     <string name="device_setting">Ustawienia %1$s</string> <!-- %1$s = Watch name -->
@@ -66,7 +66,7 @@
     <string name="mi_band_setting_auth_standalone_hint">Aplikacja %1$s nie jest wymagana do działania %3$s. Po sparowaniu odinstaluj aplikację %1$s. Podczas przywracania współpracy %1$s konieczne będzie ponowne sparowanie %2$s w aplikacji %1$s. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
 
     <string name="mi_band_setting_auth_key">Klucz uwierzytelniania</string>
-    <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
+    <string name="mi_band_setting_auth_key_help">Wprowadź dowolne 4 cyfry</string>
     <string name="mi_band_setting_auth_request">Key request</string>
     <string name="mi_band_setting_auth_pair">Sparuj</string>
     <string name="mi_band_setting_auth_unpair">Unpair</string>
@@ -139,9 +139,9 @@
     <string name="pref_language_title">Język</string>
 
     <string name="pref_menu">Menu</string>
-    <string name="pref_cat_menu">Main menu bar</string>
-    <string name="pref_menu_item_2">Second menu item</string>
-    <string name="pref_menu_item_3">Third menu item</string>
+    <string name="pref_cat_menu">Pasek menu głównego</string>
+    <string name="pref_menu_item_2">Drugi punkt menu</string>
+    <string name="pref_menu_item_3">Trzeci punkt menu</string>
 
 
     <!-- Snackbar Messages -->
@@ -328,10 +328,10 @@
 
     <string name="pulse_continuous_title">Ciągły pomiar tętna</string>
 
-    <string name="heart_rate_warning_title">Heart rate warning</string>
+    <string name="heart_rate_warning_title">Ostrzeżenie o tętnie</string>
     <string name="low_and_high_heart_rates">Low and high heart rate thresholds</string>
-    <string name="low_heart_rate">Low heart rate</string>
-    <string name="high_heart_rate">High heart rate</string>
+    <string name="low_heart_rate">Niskie tętno</string>
+    <string name="high_heart_rate">Wysokie tętno</string>
 
 
     <!-- Workout -->
@@ -378,6 +378,7 @@
     <!-- Watch face -->
     <string name="watch_face_tab_watch_faces">Tło zegarka</string>
     <string name="watch_face_tab_watch_face_custom">Custom files</string>
+    <string name="watch_face_tab_watch_face_editor">Redaktor</string>
 
     <string name="watch_face_download_title">Pobierz tarczę zegarka</string>
     <string name="watch_face_upload_title">Zmiana tarczy zegarka</string>
@@ -392,13 +393,32 @@
     <string name="watch_face_invalid_auth">Use in standalone mode, when using cooperation mode, the official application may block the watch face upload</string>
     <string name="watch_face_invalid_free">In the free mode, more dials cannot be uploaded today</string>
 
-    <string name="watch_face_upload_speed_title">Upload speed</string>
+    <string name="watch_face_upload_speed_title">Prędkość wysyłania</string>
     <string name="watch_face_upload_speed_hint">Set a lower speed if the watch face uploading process is interrupted</string>
 
     <string name="message_watch_face_file_error">Nieprawidłowy plik tarczy zegarka</string>
+    <string name="message_watch_face_image_file_error">Invalid image file</string>
 
-    <string name="action_chart_layout_2_columns">2-column layout</string>
-    <string name="action_chart_layout_3_columns">3-column layout</string>
+    <string name="action_chart_layout_2_columns">Układ 2-kolumnowy</string>
+    <string name="action_chart_layout_3_columns">Układ 3-kolumnowy</string>
+
+    <string name="watch_face_edit_dial">Dial</string>
+    <string name="watch_face_edit_preview">Preview</string>
+    <string name="watch_face_edit_hour_digital">Godzina</string>
+    <string name="watch_face_edit_minute_digital">Minuta</string>
+    <string name="watch_face_edit_second_digital">Druga</string>
+    <string name="watch_face_edit_hour_minute_separator">Godzina i minuta separator</string>
+    <string name="watch_face_edit_month">Miesiąc</string>
+    <string name="watch_face_edit_month_name">Nazwa miesiąca</string>
+    <string name="watch_face_edit_mont_day_separator">Separator miesiąca i dnia</string>
+    <string name="watch_face_edit_day">Dzień</string>
+    <string name="watch_face_edit_dayOfWeek">Dzień tygodnia</string>
+
+    <string name="watch_face_edit_select_image">Select image (.png, .jpeg)</string>
+    <string name="watch_face_edit_color">Kolor</string>
+    <string name="watch_face_edit_font_family">Czcionka</string>
+    <string name="watch_face_edit_font_family_preview">- 1234567890 Abc</string>
+    <string name="watch_face_edit_font_size">Rozmiar czcionki</string>
 
 
     <!-- Touch monitoring -->
@@ -422,8 +442,8 @@
     <string name="touch_device_location_not_muted_only_title">Dźwięk tylko wtedy, gdy nie jest wyciszony lub w trybie Nie przeszkadzać</string>
 
     <string name="touch_mute_toggle_title">Wyciszenie połączenia</string>
-    <string name="touch_mute_toggle_ringer_mode_title">Mute mode</string>
-    <string name="touch_mute_toggle_mute_off_title">Mute off</string>
+    <string name="touch_mute_toggle_ringer_mode_title">Tryb wyciszenia</string>
+    <string name="touch_mute_toggle_mute_off_title">Wyciszanie wyłączone</string>
 
     <string name="touch_music_title">Muzyka</string>
     <string name="touch_music_function_launch">Rozpocznij odtwarzanie muzyki za pomocą przycisku odtwarzania, jeśli nie zostanie rozpoznany żaden odtwarzacz muzyki</string>
@@ -709,29 +729,38 @@
     <string name="ringtone">Dzwonek</string>
     <string name="ringtone_chooser">Ringtone chooser</string>
     <string name="uninstalled">Uninstalled</string>
-    <string name="value">Value</string>
+    <string name="value">Wartość</string>
     <string name="downloads">Downloads</string>
     <string name="share">Share</string>
+    <string name="narrow">Narrow</string>
+    <string name="short_">Short</string>
+    <string name="medium">Medium</string>
+    <string name="long_">Long</string>
+    <string name="full">Full</string>
 
     <string name="action_premium_mode">Tryb premium</string>
     <string name="action_dismiss">Odwołaj</string>
     <string name="action_setting">Ustawienia</string>
     <string name="action_delete">Usuń</string>
-    <string name="action_rename">Rename</string>
+    <string name="action_rename">Przemianować</string>
     <string name="action_export">Eksportuj</string>
     <string name="action_synchronization">Synchronizacja</string>
     <string name="action_download">Pobierz</string>
     <string name="action_upload">Prześlij</string>
     <string name="action_filter_no">Brak filtrowania</string>
     <string name="action_bluetooth">Bluetooth</string>
-    <string name="action_favorite">Favorite</string>
+    <string name="action_favorite">Ulubiony</string>
     <string name="action_save">Zapisz</string>
     <string name="action_test">Testuj</string>
     <string name="action_discard">Odrzuć</string>
     <string name="action_keep_editing">Edytuj dalej</string>
     <string name="action_new">Nowy</string>
+    <string name="action_new_file_extension">Nowy %1$s</string>
+    <string name="action_edit">Edytować</string>
     <string name="action_start_stop">Start/Stop</string>
     <string name="action_contacts">Contacts</string>
+    <string name="action_single_selection">Single selection</string>
+    <string name="action_multiple_selection">Multiple selection</string>
     <string name="synchronized_from_watch">Zsynchronizowano z zegarka</string>
 
     <string name="action_chart">Wykres</string>

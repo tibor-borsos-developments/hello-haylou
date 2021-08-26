@@ -34,7 +34,7 @@
     <string name="device_battery">Batteri-level・siste lade tid</string>
     <string name="device_state_connected_disconnected_last_time">Siste tilkoblings og frakoblings-tid</string>
     <string name="device_alarm">Neste alarm</string>
-    <string name="device_reminder">Next reminder</string>
+    <string name="device_reminder">Neste påminnelse</string>
 
     <string name="device_search">%1$s search</string>  <!-- %1$s = Watch name -->
     <string name="device_setting">%1$s-instillinger</string> <!-- %1$s = Watch name -->
@@ -378,6 +378,7 @@
     <!-- Watch face -->
     <string name="watch_face_tab_watch_faces">Watch faces</string>
     <string name="watch_face_tab_watch_face_custom">Custom files</string>
+    <string name="watch_face_tab_watch_face_editor">Redaktør</string>
 
     <string name="watch_face_download_title">Download watch face</string>
     <string name="watch_face_upload_title">Endre atch face</string>
@@ -396,10 +397,28 @@
     <string name="watch_face_upload_speed_hint">Set a lower speed if the watch face uploading process is interrupted</string>
 
     <string name="message_watch_face_file_error">Invalid watch face file</string>
+    <string name="message_watch_face_image_file_error">Invalid image file</string>
 
     <string name="action_chart_layout_2_columns">2-column layout</string>
     <string name="action_chart_layout_3_columns">3-column layout</string>
 
+    <string name="watch_face_edit_dial">Dial</string>
+    <string name="watch_face_edit_preview">Preview</string>
+    <string name="watch_face_edit_hour_digital">Time</string>
+    <string name="watch_face_edit_minute_digital">Minutt</string>
+    <string name="watch_face_edit_second_digital">Sekund</string>
+    <string name="watch_face_edit_hour_minute_separator">Time og minutt separator</string>
+    <string name="watch_face_edit_month">Måned</string>
+    <string name="watch_face_edit_month_name">Månedens navn</string>
+    <string name="watch_face_edit_mont_day_separator">Måned og dag skilletegn</string>
+    <string name="watch_face_edit_day">Dag</string>
+    <string name="watch_face_edit_dayOfWeek">Ukens dag</string>
+
+    <string name="watch_face_edit_select_image">Select image (.png, .jpeg)</string>
+    <string name="watch_face_edit_color">Farge</string>
+    <string name="watch_face_edit_font_family">Font</string>
+    <string name="watch_face_edit_font_family_preview">- 1234567890 Abc</string>
+    <string name="watch_face_edit_font_size">Skriftstørrelse</string>
 
     <!-- Touch monitoring -->
     <string name="touch_tab_function">Function</string>
@@ -709,31 +728,39 @@
     <string name="ringtone">Ringetone</string>
     <string name="ringtone_chooser">Ringtone chooser</string>
     <string name="uninstalled">Uninstalled</string>
-    <string name="value">Value</string>
+    <string name="value">Verdi</string>
     <string name="downloads">Downloads</string>
     <string name="share">Share</string>
+    <string name="narrow">Narrow</string>
+    <string name="short_">Short</string>
+    <string name="medium">Medium</string>
+    <string name="long_">Long</string>
+    <string name="full">Full</string>
 
     <string name="action_premium_mode">Premium modus</string>
     <string name="action_dismiss">Avvis</string>
     <string name="action_setting">Indtilling</string>
     <string name="action_delete">Slett</string>
-    <string name="action_rename">Rename</string>
+    <string name="action_rename">Gi nytt navn</string>
     <string name="action_export">Exportere</string>
     <string name="action_synchronization">Synchronization</string>
     <string name="action_download">Nedlastning</string>
     <string name="action_upload">Laste opp</string>
     <string name="action_filter_no">Ingen filter</string>
     <string name="action_bluetooth">Bluetooth</string>
-    <string name="action_favorite">Favorite</string>
+    <string name="action_favorite">Favoritt</string>
     <string name="action_save">Lagre</string>
     <string name="action_test">Test</string>
     <string name="action_discard">Forkaste</string>
     <string name="action_keep_editing">Fortsett å redigere</string>
-    <string name="action_new">New</string>
+    <string name="action_new">Ny</string>
+    <string name="action_new_file_extension">Ny %1$s</string>
+    <string name="action_edit">Redigere</string>
     <string name="action_start_stop">Start/Stop</string>
     <string name="action_contacts">Contacts</string>
+    <string name="action_single_selection">Single selection</string>
+    <string name="action_multiple_selection">Multiple selection</string>
     <string name="synchronized_from_watch">Synchronized from watch</string>
-
 
     <string name="action_chart">Kart</string>
     <string name="action_zoom_in">Zoom in</string>
@@ -750,7 +777,7 @@
     <string name="action_chart_sort_pulse_asc">Puls stigende</string>
     <string name="action_chart_sort_pulse_desc">Puls synkende</string>
     <string name="action_chart_monthly_calendar">Calendar</string>
-    <string name="action_chart_monthly_compact">Compact</string>
+    <string name="action_chart_monthly_compact">Kompakt</string>
 
     <string name="activity_progress_title_prepare">Forbereder for synkronisering av aktivitet…</string>
     <string name="activity_progress_title_sync">Aktivitet-prosess synkronisering…</string>

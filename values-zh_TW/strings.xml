@@ -34,7 +34,7 @@
     <string name="device_battery">電池量・最後一次充電時間</string>
     <string name="device_state_connected_disconnected_last_time">最後連接和斷開時間</string>
     <string name="device_alarm">下一個鬧鐘</string>
-    <string name="device_reminder">Next reminder</string>
+    <string name="device_reminder">下一個提醒</string>
 
     <string name="device_search">尋找 %1$s</string> <!-- %1$s = Watch name -->
     <string name="device_setting">%1$s 設定</string> <!-- %1$s = Watch name -->
@@ -377,6 +377,7 @@
     <!-- Watch face -->
     <string name="watch_face_tab_watch_faces">表盘</string>
     <string name="watch_face_tab_watch_face_custom">Custom files</string>
+    <string name="watch_face_tab_watch_face_editor">編輯</string>
 
     <string name="watch_face_download_title">下载表盘</string>
     <string name="watch_face_upload_title">更换表盘</string>
@@ -395,9 +396,28 @@
     <string name="watch_face_upload_speed_hint">Set a lower speed if the watch face uploading process is interrupted</string>
 
     <string name="message_watch_face_file_error">无效的表盘文件</string>
+    <string name="message_watch_face_image_file_error">Invalid image file</string>
 
     <string name="action_chart_layout_2_columns">2-column layout</string>
     <string name="action_chart_layout_3_columns">3-column layout</string>
+
+    <string name="watch_face_edit_dial">Dial</string>
+    <string name="watch_face_edit_preview">Preview</string>
+    <string name="watch_face_edit_hour_digital">小時</string>
+    <string name="watch_face_edit_minute_digital">分鐘</string>
+    <string name="watch_face_edit_second_digital">第二</string>
+    <string name="watch_face_edit_hour_minute_separator">小時和分鐘分隔符</string>
+    <string name="watch_face_edit_month">月</string>
+    <string name="watch_face_edit_month_name">月份名稱</string>
+    <string name="watch_face_edit_mont_day_separator">月和日分隔符</string>
+    <string name="watch_face_edit_day">日</string>
+    <string name="watch_face_edit_dayOfWeek">一周中的一天</string>
+
+    <string name="watch_face_edit_select_image">Select image (.png, .jpeg)</string>
+    <string name="watch_face_edit_color">顏色</string>
+    <string name="watch_face_edit_font_family">字形</string>
+    <string name="watch_face_edit_font_family_preview">- 1234567890 Abc</string>
+    <string name="watch_face_edit_font_size">字體大小</string>
 
 
     <!-- Touch monitoring -->
@@ -711,26 +731,35 @@
     <string name="value">值</string>
     <string name="downloads">Downloads</string>
     <string name="share">Share</string>
+    <string name="narrow">Narrow</string>
+    <string name="short_">Short</string>
+    <string name="medium">Medium</string>
+    <string name="long_">Long</string>
+    <string name="full">Full</string>
 
     <string name="action_premium_mode">進階功能</string>
     <string name="action_dismiss">關閉</string>
     <string name="action_setting">設定</string>
     <string name="action_delete">刪除</string>
-    <string name="action_rename">Rename</string>
+    <string name="action_rename">改名</string>
     <string name="action_export">輸出</string>
     <string name="action_synchronization">同步</string>
     <string name="action_download">下载</string>
     <string name="action_upload">上传</string>
     <string name="action_filter_no">無過濾器</string>
     <string name="action_bluetooth">藍芽</string>
-    <string name="action_favorite">Favorite</string>
+    <string name="action_favorite">最喜歡的</string>
     <string name="action_save">保存</string>
     <string name="action_test">測試</string>
     <string name="action_discard">放棄</string>
     <string name="action_keep_editing">繼續編輯</string>
     <string name="action_new">新</string>
+    <string name="action_new_file_extension">新 %1$s</string>
+    <string name="action_edit">編輯</string>
     <string name="action_start_stop">開始/停止</string>
     <string name="action_contacts">聯絡人</string>
+    <string name="action_single_selection">Single selection</string>
+    <string name="action_multiple_selection">Multiple selection</string>
     <string name="synchronized_from_watch">與手錶同步</string>
 
     <string name="action_chart">圖表</string>
@@ -748,7 +777,7 @@
     <string name="action_chart_sort_pulse_asc">心率 升序</string>
     <string name="action_chart_sort_pulse_desc">心率 降序</string>
     <string name="action_chart_monthly_calendar">日歷</string>
-    <string name="action_chart_monthly_compact">Compact</string>
+    <string name="action_chart_monthly_compact">袖珍的</string>
 
     <string name="activity_progress_title_prepare">準備同步資料…</string>
     <string name="activity_progress_title_sync">資料同步中…</string>
