@@ -31,7 +31,7 @@
 <!--    <string name="mi_band_tracker_title">Lépésszám・távolság・kalória・célkitűzés・pulzus</string>-->
     <string name="mi_band_tracker_title">Lépésszám・célkitűzés・pulzus</string>
 <!--    <string name="mi_band_battery">Akkumulátor állapota・töltés időpontja・becsült hátralévő idő</string>-->
-    <string name="device_battery">Akkumulátor állapota・töltés időpontja</string>
+    <string name="device_battery">Akkumulátorszint・töltés időpontja</string>
     <string name="device_state_connected_disconnected_last_time">Utolsó csatlakozás és kapcsolatbontás időpontja</string>
     <string name="device_alarm">Következő ébresztő</string>
     <string name="device_reminder">Következő emlékeztető</string>
@@ -184,6 +184,8 @@
 
     <string name="message_in_progress">Folyamatban…</string>
     <string name="message_no_data">Nincs adat</string>
+
+    <string name="message_rewarded_error">Videó betöltése nem sikerült</string>
 
     <string name="message_new_message">Új üzenet érkezett, megtekinthető a telefonon.</string>
 
@@ -399,6 +401,7 @@
     <string name="watch_face_invalid_firmware">%1$s firmware nem támogatja a számlap feltöltést, frissítsd a firmware-t a hivatalos applikációban</string>
     <string name="watch_face_invalid_auth">Önálló módban használd, együttműködési mód használata esetén a hivatalos alkalmazás megzavarhatja a számlap feltöltést</string>
     <string name="watch_face_invalid_free">Ingyenes módban több számlap nem tölthető fel a mai nap</string>
+    <string name="watch_face_watch_rewarded_ads">Nézz meg egy videót a feltöltés folytatásához</string>
 
     <string name="watch_face_upload_speed_title">Feltöltés sebessége</string>
     <string name="watch_face_upload_speed_hint">Számlap feltöltési folyamat megszakadás esetén állíts be alacsonyabb sebességet</string>
@@ -420,12 +423,22 @@
     <string name="watch_face_edit_mont_day_separator">Hónap és nap elválasztó</string>
     <string name="watch_face_edit_day">Nap</string>
     <string name="watch_face_edit_dayOfWeek">Hét napja</string>
+    <string name="watch_face_edit_battery_level">Akkumulátorszint</string>
+    <string name="watch_face_edit_battery_level_percent_sign">Akkumulátorszint %</string>
+    <string name="watch_face_edit_battery_level_image">Akkumulátor kép</string>
+    <string name="watch_face_edit_steps">Lépésszám</string>
+    <string name="watch_face_edit_steps_image">Lépésszám kép</string>
+    <string name="watch_face_edit_distance">Távolság</string>
+    <string name="watch_face_edit_calories">Kalória</string>
+    <string name="watch_face_edit_calories_image">Kalória kép</string>
 
-    <string name="watch_face_edit_select_image">Képválasztás (.png, .jpeg)</string>
+    <string name="watch_face_edit_select_image">Kép kiválasztás (.png, .jpeg)</string>
+    <string name="watch_face_edit_select_icon">Ikon kiválasztás</string>
     <string name="watch_face_edit_color">Szín</string>
     <string name="watch_face_edit_font_family">Betűtípus</string>
-    <string name="watch_face_edit_font_family_preview">- 1234567890 Abc</string>
+    <string name="watch_face_edit_font_family_preview">- 0123456789 Abc</string>
     <string name="watch_face_edit_font_size">Betűméret</string>
+    <string name="watch_face_edit_image_size">Képméret</string>
 
 
     <!-- Touch monitoring -->
@@ -757,18 +770,20 @@
     <string name="action_upload">Feltöltés</string>
     <string name="action_filter_no">Nincs szűrő</string>
     <string name="action_bluetooth">Bluetooth</string>
-    <string name="action_favorite">Favorite</string>
-    <string name="action_save">Ment</string>
+    <string name="action_favorite">Kedvenc</string>
+    <string name="action_save">Mentés</string>
     <string name="action_test">Teszt</string>
     <string name="action_discard">Elvet</string>
     <string name="action_keep_editing">Szerk. folytat</string>
     <string name="action_new">Új</string>
     <string name="action_new_file_extension">Új %1$s</string>
-    <string name="action_edit">Szerkeszt</string>
+    <string name="action_edit">Szerkesztés</string>
     <string name="action_start_stop">Indít/Leállít</string>
     <string name="action_contacts">Névjegyek</string>
     <string name="action_single_selection">Egyszeres kijelölés</string>
     <string name="action_multiple_selection">Többszörös kijelölés</string>
+    <string name="action_selection_boundaries">Kiválasztás határai</string>
+    <string name="action_object_boundaries">Objektumhatárok</string>
     <string name="synchronized_from_watch">Szinkronizálva az óráról</string>
 
     <string name="action_chart">Grafikon</string>

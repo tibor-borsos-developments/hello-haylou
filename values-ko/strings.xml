@@ -187,6 +187,8 @@
     <string name="message_in_progress">진행 중…</string>
     <string name="message_no_data">자료 없음</string>
 
+    <string name="message_rewarded_error">영상 불러오기 실패</string>
+
     <string name="message_new_message">새 메시지가 수신되면, 스마트폰으로 메세지를 봅니다.</string>
 
     <!-- Dialog -->
@@ -392,6 +394,7 @@
     <string name="watch_face_invalid_firmware">%1$s는 펌웨어가 워치페이스 업로드를 지원하지 않습니다. 공식 애플리케이션에서 펌웨어를 업데이트하십시오</string> <!-- %1$s = Haylou Smart watch ... -->
     <string name="watch_face_invalid_auth">협력 모드를 사용할 때, 공식 응용 프로그램이 워치페이스 업로드를 차단할 수 있습니다</string>
     <string name="watch_face_invalid_free">무료 모드에서는 오늘 더 많은 다이얼을 업로드할 수 없습니다</string>
+    <string name="watch_face_watch_rewarded_ads">Watch a video to continue uploading</string>
 
     <string name="watch_face_upload_speed_title">업로드 속도</string>
     <string name="watch_face_upload_speed_hint">워치 페이스 업로드 프로세스가 중단될 경우 속도를 낮추십시오</string>
@@ -413,12 +416,22 @@
     <string name="watch_face_edit_mont_day_separator">월과 일 구분자</string>
     <string name="watch_face_edit_day">일</string>
     <string name="watch_face_edit_dayOfWeek">요일</string>
+    <string name="watch_face_edit_battery_level">배터리 잔량</string>
+    <string name="watch_face_edit_battery_level_percent_sign">배터리 잔량 %</string>
+    <string name="watch_face_edit_battery_level_image">배터리 이미지</string>
+    <string name="watch_face_edit_steps">걸음수</string>
+    <string name="watch_face_edit_steps_image">단계 이미지</string>
+    <string name="watch_face_edit_distance">거리</string>
+    <string name="watch_face_edit_calories">칼로리</string>
+    <string name="watch_face_edit_calories_image">칼로리 이미지</string>
 
     <string name="watch_face_edit_select_image">Select image (.png, .jpeg)</string>
+    <string name="watch_face_edit_select_icon">Select icon</string>
     <string name="watch_face_edit_color">색</string>
     <string name="watch_face_edit_font_family">폰트</string>
-    <string name="watch_face_edit_font_family_preview">- 1234567890 Abc</string>
+    <string name="watch_face_edit_font_family_preview">- 0123456789 Abc</string>
     <string name="watch_face_edit_font_size">글꼴 크기</string>
+    <string name="watch_face_edit_image_size">이미지 크기</string>
 
 
     <!-- Touch monitoring -->
@@ -730,7 +743,7 @@
     <string name="ringtone_chooser">Ringtone chooser</string>
     <string name="uninstalled">제거됨</string>
     <string name="value">값</string>
-    <string name="downloads">Downloads</string>
+    <string name="downloads">다운로드</string>
     <string name="share">Share</string>
     <string name="narrow">Narrow</string>
     <string name="short_">Short</string>
@@ -761,10 +774,12 @@
     <string name="action_contacts">컨텐츠</string>
     <string name="action_single_selection">Single selection</string>
     <string name="action_multiple_selection">Multiple selection</string>
+    <string name="action_selection_boundaries">Selection boundaries</string>
+    <string name="action_object_boundaries">Object boundaries</string>
     <string name="synchronized_from_watch">시계에서 동기화 됨</string>
 
     <string name="action_chart">차트</string>
-    <string name="action_zoom_in">Zoom in</string>
+    <string name="action_zoom_in">확대</string>
     <string name="action_chart_normalize_minute">측정된 값</string>
     <string name="action_chart_normalize_quarter_hourly">15분 단위 값</string>
     <string name="action_chart_normalize_half_hourly">30분 단위 값</string>
