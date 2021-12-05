@@ -423,6 +423,10 @@
     <string name="watch_face_edit_hour_digital">Годину</string>
     <string name="watch_face_edit_minute_digital">Хвилин</string>
     <string name="watch_face_edit_second_digital">Другий</string>
+    <string name="watch_face_edit_hour_analog">Hour hand</string>
+    <string name="watch_face_edit_minute_analog">Minute hand</string>
+    <string name="watch_face_edit_second_analog">Second hand</string>
+    <string name="watch_face_edit_axis">Axis of rotation</string>
     <string name="watch_face_edit_hour_minute_separator">Години і хвилини сепаратором</string>
     <string name="watch_face_edit_month">Місяць</string>
     <string name="watch_face_edit_month_name">Назва місяця</string>
@@ -442,7 +446,7 @@
     <string name="watch_face_edit_distance_image">Distance image</string>
     <string name="watch_face_edit_calories">Калорії</string>
     <string name="watch_face_edit_calories_image">Зображення калорій</string>
-    <string name="watch_face_edit_heart_rate">Heart rate</string>
+    <string name="watch_face_edit_heart_rate">Пульс</string>
     <string name="watch_face_edit_heart_rate_image">Heart rate image</string>
 
     <string name="watch_face_edit_select_image">Select image (.png, .jpeg)</string>
@@ -589,8 +593,13 @@
     <string name="weather_unit_metric">Метрична (за Цельсієм)</string>
     <string name="weather_unit_imperial">Імперська (за Фаренгейтом)</string>
     <string name="weather_automatic_update">Оновлювати атоматично</string>
-    <string name="weather_automatic_update_title">Use your location</string>
+    <string name="weather_automatic_update_title">Викор. своє місцезнаходження</string>
     <string name="weather_automatic_update_summary">This application collects location data to update the weather for the current location, even when the app is closed or not in use.</string>
+
+    <string name="permission_background_location">%1$s отримає дозвіл на збір даних про місцезнаходження, навіть коли програма закрита чи не використовується</string>
+    <string name="permission_error_title">%1$s не може оновити дозволи</string>
+    <string name="permission_error_description">Відкрийте Налаштування та виберіть параметру “%1$s“ для прав розташування</string>
+    <string name="all_the_time">Весь час</string>
 
     <string name="weather_current_title">Поточна погода</string>
     <string name="weather_current_location">Поточне розташування</string>
@@ -760,12 +769,19 @@
     <string name="uninstalled">Uninstalled</string>
     <string name="value">Вартість</string>
     <string name="downloads">Downloads</string>
-    <string name="share">Share</string>
+    <string name="share">Поділитися</string>
+    <string name="send">Send</string>
     <string name="narrow">Narrow</string>
     <string name="short_">Short</string>
     <string name="medium">Medium</string>
     <string name="long_">Long</string>
     <string name="full">Full</string>
+    <string name="alignment_left">Вирівнювання ліворуч</string>
+    <string name="alignment_center">Вирівнювання до центру</string>
+    <string name="alignment_right">Вирівнювання праворуч</string>
+    <string name="visible">Видимий</string>
+    <string name="invisible">Невидимий</string>
+    <string name="placeholder">Placeholder</string>
 
     <string name="action_premium_mode">Преміум</string>
     <string name="action_dismiss">Відхилити</string>
