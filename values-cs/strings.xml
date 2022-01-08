@@ -152,7 +152,7 @@
 
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">Prosím aktivujte Bluetooth a dejte náramek blíž k telefonu</string>
-    <string name="message_discover_mi_band">Náramek není nastaven, prosím vyhledejte ho</string>
+    <string name="message_discover_mi_band">%1$s není nastaven, prosím vyhledejte ho</string>
     <string name="message_discovering_mi_band">Hledání náramku (může trvat pár minut) &#8230;</string>
     <string name="message_discovered_mi_band">%1$s připojen</string>
     <string name="message_discovered_no_mi_band">Připojení náramku selhalo</string>
@@ -398,7 +398,7 @@
     <string name="watch_face_upload_title">Upload watch face</string>
     <string name="watch_face_tool_title">Tools</string>
 
-    <string name="watch_face_share_content">You can share the watch face you have created with others. E-mail the watch face and preview files and enter the following information: author, watch face name (max. 14 characters in total) and the watch face language. We only publish high quality watch faces.</string>
+    <string name="watch_face_share_content">You can share the watch face you have created with others. E-mail the watch face and preview files and enter the following information: author, watch face name (max. 30 characters in total) and the watch face language. We only publish high quality watch faces.</string>
 
     <string name="watch_face_upload_prepare">Preparing for the upload…</string>
     <string name="watch_face_upload_progress">Uploading %1$,d%%</string>
@@ -676,8 +676,10 @@
         <p>• Jsem si vědom, že nemohu požadovat náhradu nebo vrácení peněz kvůli chybám, softwarovým chybám způsobeným změnami softwaru, hardwarovým prostředím nebo použitím jiných aplikací.</p>
         <p>• Všechny tržby jsou konečné a nelze je vrátit (s výjimkou zásad pro vrácení peněz Google).</p>
         <p>• Neexistuje žádná záruka.</p>
-        <br><p><i>Po zakoupení musíte restartovat aplikaci.</i></p>
+        <i>Po zakoupení musíte restartovat aplikaci.</i>
     ]]></string>
+
+    <string name="purchase_google_play_services_not_available">Služby Google Play nejsou k dispozici</string>
 
     <!--<string name="purchase_price">Cena:</string>-->
     <string name="purchase_agree">Souhlasím s podmínkami.</string>
@@ -783,6 +785,9 @@
     <string name="visible">Viditelný</string>
     <string name="invisible">Neviditelný</string>
     <string name="placeholder">Placeholder</string>
+    <string name="image_scale_fit">Fit</string>
+    <string name="image_scale_crop">Crop</string>
+    <string name="image_scale_stretch">Stretch</string>
 
     <string name="action_premium_mode">Prémiový režim</string>
     <string name="action_dismiss">Odmítnout</string>
