@@ -1,6 +1,7 @@
-# Hello Haylou
+# Hello Haylou, Hello Imilab
 
-Haylou Smart Watch support, extends the capability of the Haylou apps
+Haylou and Imilab Smart Watches support, extends the capability of the official apps
+
 
 ## Supported devices
 - Haylou RS4 (LS12)
@@ -11,6 +12,10 @@ Haylou Smart Watch support, extends the capability of the Haylou apps
 - Haylou RS3 (LS04)
 - Haylou Smart Watch 2 (LS02)
 - Haylou Smart Watch (LS01)
+
+- Imilab W12
+- Imilab W11
+- Imilab KW66
 <br>
 
 ## Please help in translation
@@ -21,4 +26,6 @@ Haylou Smart Watch support, extends the capability of the Haylou apps
 <br>
 <br>
 
-<a href="https://play.google.com/store/apps/details?id=hu.tiborsosdevs.haylou.hello" target="_blank"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" align="left" width="200" target="_blank"></a>
+<div><a href="https://play.google.com/store/apps/details?id=hu.tiborsosdevs.haylou.hello" target="_blank"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" align="left" width="200" target="_blank"></a></div>
+
+<div><a href="https://play.google.com/store/apps/details?id=hu.tiborsosdevs.imilab.hello" target="_blank"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" align="left" width="200" target="_blank"></a></div>
