@@ -1,6 +1,6 @@
 ## Please help in translation
 
-### Edit online
+#### Edit online
 [Editing files in another user's repository](https://docs.github.com/en/github/managing-files-in-a-repository/editing-files-in-another-users-repository)
 
 <br>
