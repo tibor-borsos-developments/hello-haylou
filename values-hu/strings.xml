@@ -8,6 +8,7 @@
     <string name="menu_nav_sleep">Alvás</string>
     <string name="menu_nav_pulse">Pulzus</string>
     <string name="menu_nav_blood_oxygen">Véroxigén</string>
+    <string name="menu_nav_blood_pressure">Vérnyomás</string>
     <string name="menu_nav_workout">Edzés</string>
     <string name="menu_nav_alarm">Ébresztő</string>
     <string name="menu_nav_reminder">Emlékeztető</string>
@@ -358,6 +359,16 @@
     <string name="measurement_interval">Mérési gyakoriság</string>
 
 
+    <!-- Blood pressure -->
+    <string name="blood_pressure_details">Vérnyomás részletek</string>
+
+    <string name="blood_pressure_level_measurement">Vérnyomás mérés</string>
+
+    <string name="blood_pressure_systolic_abbreviation">Szi</string>
+    <string name="blood_pressure_diastolic_abbreviation">Dia</string>
+    <string name="blood_pressure_unit">Hgmm</string>
+
+
     <!-- Workout -->
     <string name="workout_details">Edzés részletek</string>
 
@@ -585,13 +596,14 @@
 
     <string name="info_dialog_touch"><![CDATA[
         <p>Önálló módban működik megfelelően. Együttműködési módban a hivatalos <app_official /> alkalmazás is kezeli ezeket a funkciókat, így a megfelelő működés nem garantálható.</p>
+        <p><b>Telefon Bluetooth beállítások:</b> <device_name/> beviteli eszköz letiltása</p>
         <b><u>Felismert érintések</u></b>
         <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
         <br><device_type/> zene vezélés
         <p><img src="ic_touch_find">
         <br><device_type/> telefon kereső
         </p>
-        <p>Egy funkcióhoz több érintés is rögzíthető.</p>
+        <p>A funkciókhoz több érintés is rögzíthető.</p>
     ]]></string>
 
 
@@ -722,25 +734,38 @@
     <string name="privacy_policy_collect_title">Gyűjtött információk</string>
     <string name="privacy_policy_collect"><![CDATA[
         <p>• Csak névtelen adatokat gyűjtünk.</p>
-        <p>• Információkat gyűjtünk az alkalmazás szintjén az Ön által használt szolgáltatásokról és azok használatáról (Google Firebase Platform).</p>
-        <p>• Információkat gyűjtünk az alkalmazás szintjén a programhibákról és az alkalmazás összeomlásokról a javításokhoz (Google Firebase Platform).</p>
-        <p>• Google Firebase Platform csak névtelen adatokat gyűjt. Trend jelentéseket készít a felhasználók azonosítása nélkül.</p>
-        • Nem osztunk meg semmilyen adatot más cégekkel vagy szervezetekkel.
+        <p>• Információkat gyűjtünk az alkalmazás szintjén az Ön által használt szolgáltatásokról és azok használatáról (Google Analytics).</p>
+        <p>• Információkat gyűjtünk az alkalmazás szintjén a programhibákról és az alkalmazás összeomlásokról a javításokhoz (Firebase Crashlytics).</p>
+        <p>• Információkat gyűjtünk az alkalmazás szintjén a teljesítményről (Firebase Performance Monitoring).</p>
+        <p>• Google Firebase Platform csak névtelen adatokat gyűjt. Trend jelentéseket készít a felhasználók azonosítása nélkül.
+        A Firebase Platform olyan adatokat gyűjt, mint a Firebase telepítési azonosító, az alkalmazás állapota, a releváns eszköz metaadatok (eszközmodell, CPU architektúra, RAM és lemez mérete, operációs rendszer, képernyő orientáció, ország, terület/nyelv), veremnyomok, teljesítmény mérőszámok (beleértve az alkalmazás indítási idejét és a hálózati kérések késleltetését, hálózati URL-eket), CPU/memória használat, IP cím …
+        </p>
+        • Helyadatokat gyűjtünk, hogy az aktuális tartózkodási hely alapján frissítsük az időjárást (opcionális).
     ]]></string>
 
     <string name="privacy_policy_not_collect_title">Nem gyűjtött információk</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>• Nem gyűjtünk személyazonosításra alkalmas adatokat Önről. Más szavakkal, nem gyűjtünk olyan adatokat, mint például az Ön nevét, címét, telefonszámát, e-mail címét, IP címét vagy MAC címét.</p>
-        <p>• Nem gyűjtünk személyes egészségügyi adatokat, névjegyeket és eszközön megjelenő értesítés szövegeket.</p>
-        • Nem gyűjtünk helyadatokat.
+        <p>• Nem gyűjtünk személyazonosításra alkalmas adatokat Önről. Más szavakkal, nem gyűjtünk olyan adatokat, mint például az Ön nevét, címét, telefonszámát, e-mail címét vagy MAC címét.</p>
+        • Nem gyűjtünk személyes egészségügyi adatokat, névjegyeket és eszközön megjelenő értesítés szövegeket.
+    ]]></string>
+
+    <string name="privacy_policy_share_title">Megosztott információk</string>
+    <string name="privacy_policy_share"><![CDATA[
+        • Nem osztunk meg semmilyen adatot más cégekkel vagy szervezetekkel a Google-on kívül.
+    ]]></string>
+
+    <string name="privacy_policy_use_title">Felhasznált személyes és érzékeny felhasználói adatok</string>
+    <string name="privacy_policy_use"><![CDATA[
+        • A helyadatokat az időjárás frissítéséhez használjuk (opcionális).
     ]]></string>
 
     <string name="privacy_policy_links_title">Harmadik fél szolgáltatóinak adatvédelmi politikája</string>
     <string name="privacy_policy_links"><![CDATA[
         <a href="https://policies.google.com/privacy">Google Play Services</a>
         <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
-        <p><a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a></p>
-        <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
+        <p><a href="https://firebase.google.com/policies/analytics">Google Analytics</a></p>
+        <p><a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a></p>
+        <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Státusz</string>
@@ -868,6 +893,8 @@
     <string name="action_chart_sort_pulse_desc">Pulzus csökkenő</string>
     <string name="action_chart_sort_spo2_asc">SpO2 növekvő</string>
     <string name="action_chart_sort_spo2_desc">SpO2 csökkenő</string>
+    <string name="action_chart_sort_pressure_asc">Nyomás növekvő</string>
+    <string name="action_chart_sort_pressure_desc">Nyomás csökkenő</string>
     <string name="action_chart_monthly_calendar">Naptár</string>
     <string name="action_chart_monthly_compact">Kompakt</string>
 

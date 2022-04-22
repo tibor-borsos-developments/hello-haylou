@@ -8,6 +8,7 @@
     <string name="menu_nav_sleep">Søvn</string>
     <string name="menu_nav_pulse">Puls</string>
     <string name="menu_nav_blood_oxygen">Blood oxygen</string>
+    <string name="menu_nav_blood_pressure">Blodtrykk</string>
     <string name="menu_nav_workout">Trene</string>
     <string name="menu_nav_alarm">Alarm</string>
     <string name="menu_nav_reminder">Hendelsespåminnelse</string>
@@ -344,14 +345,24 @@
 
 
     <!-- Blood oxygen -->
-    <string name="blood_oxygen_details">Blood oxygen details</string>
+    <string name="blood_oxygen_details">Blod oksygen detaljer</string>
 
     <string name="blood_oxygen_level_measurement">Blood oxygen level measurement</string>
     <string name="measurement_interval">Measurement interval</string>
 
 
+    <!-- Blood pressure -->
+    <string name="blood_pressure_details">Blodtrykksdetaljer</string>
+
+    <string name="blood_pressure_level_measurement">Blood pressure level measurement</string>
+
+    <string name="blood_pressure_systolic_abbreviation">Sys</string>
+    <string name="blood_pressure_diastolic_abbreviation">Dia</string>
+    <string name="blood_pressure_unit">mmHg</string>
+
+
     <!-- Workout -->
-    <string name="workout_details">Workout details</string>
+    <string name="workout_details">Treningsdetaljer</string>
 
 
     <!-- Alarm -->
@@ -576,15 +587,15 @@
 
     <string name="info_dialog_touch"><![CDATA[
         <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
+        <p><b>Phones Bluetooth settings:</b> <device_name/> disable input device</p>
         <b><u>Recognised touches</u></b>
         <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
         <br><device_type/> music control
         <p><img src="ic_touch_find">
         <br><device_type/> find my phone
         </p>
-        <p>Multiple touches can be recorded for a function.</p>
+        <p>Multiple touches can be recorded for each function.</p>
     ]]></string>
-
 
     <!-- Weather -->
     <string name="weather_tab_weather_forecast">Vær</string>
@@ -713,25 +724,38 @@
     <string name="privacy_policy_collect_title">Informasjon vi samler inn</string>
     <string name="privacy_policy_collect"><![CDATA[
         <p>• Vi samler bare inn anonym informasjon.</p>
-        <p>• Vi samler informasjon på appens level om servicen som du bruker og hvordan du bruker dem (Google Firebase Platform).</p>
-        <p>• Vi samler informasjon i applikasjonens level som bugs, feil og krasj for å gjøre forbedrelser. (Google Firebase Platform).</p>
-        <p>• Google Firebase Platform samler informasjon anonymt. det rapporterer trender uten å identifisere individuelle brukere.</p>
-        • Vi deler ikke noe data med andre bedrifter eller organisasjoner.
+        <p>• Vi samler informasjon på appens level om servicen som du bruker og hvordan du bruker dem (Google Analytics).</p>
+        <p>• Vi samler informasjon i applikasjonens level som bugs, feil og krasj for å gjøre forbedrelser. (Firebase Crashlytics).</p>
+        <p>• We collect information at the application level about the performance (Firebase Performance Monitoring).</p>
+        <p>• Google Firebase Platform samler informasjon anonymt. det rapporterer trender uten å identifisere individuelle brukere.
+        The Firebase Platform collects data such as Firebase installation ID, application state, relevant device metadata (device model, CPU architecture, RAM and disk size, OS, screen orientation, country, locale/language), stack traces, performance metrics (including app start time and network request latency, network URLs), CPU/memory usage, IP address …
+        </p>
+        • We collect location data to update the weather based on your current location (optional).
     ]]></string>
 
     <string name="privacy_policy_not_collect_title">Informasjon vi ikke samler inn</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>• Vi samler ikke inn personlig identifiserbar informasjon om deg. For å si det med andre ord, Vi samler ikke inn informasjon som foreksempel navnet ditt, addresse, telefon nummer, email addresse, IP addresse eller MAC addresse.</p>
-        <p>• Vi samler ikke inn personlig helse data, kontakter eller telefon notifikasjons text.</p>
-        • We do not collect location data.
+        <p>• Vi samler ikke inn personlig identifiserbar informasjon om deg. For å si det med andre ord, Vi samler ikke inn informasjon som foreksempel navnet ditt, addresse, telefon nummer, email addresse eller MAC addresse.</p>
+        • Vi samler ikke inn personlig helse data, kontakter eller telefon notifikasjons text.
+    ]]></string>
+
+    <string name="privacy_policy_share_title">Information we share</string>
+    <string name="privacy_policy_share"><![CDATA[
+        • We do not share any data with other companies and organizations other than Google.
+    ]]></string>
+
+    <string name="privacy_policy_use_title">Personal and sensitive user data we use</string>
+    <string name="privacy_policy_use"><![CDATA[
+        • We use location data to update the weather (optional).
     ]]></string>
 
     <string name="privacy_policy_links_title">Privacy policy of third party service providers</string>
     <string name="privacy_policy_links"><![CDATA[
         <a href="https://policies.google.com/privacy">Google Play Services</a>
         <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
-        <p><a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a></p>
-        <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
+        <p><a href="https://firebase.google.com/policies/analytics">Google Analytics</a></p>
+        <p><a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a></p>
+        <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Status</string>
@@ -859,6 +883,8 @@
     <string name="action_chart_sort_pulse_desc">Puls synkende</string>
     <string name="action_chart_sort_spo2_asc">SpO2 ascending</string>
     <string name="action_chart_sort_spo2_desc">SpO2 descending</string>
+    <string name="action_chart_sort_pressure_asc">Pressure ascending</string>
+    <string name="action_chart_sort_pressure_desc">Pressure descending</string>
     <string name="action_chart_monthly_calendar">Calendar</string>
     <string name="action_chart_monthly_compact">Kompakt</string>
 

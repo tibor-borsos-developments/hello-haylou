@@ -8,6 +8,7 @@
     <string name="menu_nav_sleep">Uyku takibi</string>
     <string name="menu_nav_pulse">Nabız ölçer</string>
     <string name="menu_nav_blood_oxygen">Kan Oksijen</string>
+    <string name="menu_nav_blood_pressure">Tansiyon</string>
     <string name="menu_nav_workout">Egzersiz yapmak</string>
     <string name="menu_nav_alarm">Alarm</string>
     <string name="menu_nav_reminder">Etkinlik hatırlatıcı</string>
@@ -343,10 +344,20 @@
 
 
     <!-- Blood oxygen -->
-    <string name="blood_oxygen_details">Blood oxygen details</string>
+    <string name="blood_oxygen_details">Kan oksijen ayrıntıları</string>
 
     <string name="blood_oxygen_level_measurement">Blood oxygen level measurement</string>
     <string name="measurement_interval">Measurement interval</string>
+
+
+    <!-- Blood pressure -->
+    <string name="blood_pressure_details">Kan basıncı ayrıntıları</string>
+
+    <string name="blood_pressure_level_measurement">Blood pressure level measurement</string>
+
+    <string name="blood_pressure_systolic_abbreviation">Sys</string>
+    <string name="blood_pressure_diastolic_abbreviation">Dia</string>
+    <string name="blood_pressure_unit">mmHg</string>
 
 
     <!-- Workout -->
@@ -575,6 +586,7 @@
 
     <string name="info_dialog_touch"><![CDATA[
         <p>Bağımsız modda çalışır. İşbirliği modu kullanıyorsanız, resmi <app_official/> uygulaması bu fonksiyonları engelleyebilir, bu yüzden çalışacağını garanti edemiyoruz.</p>
+        <p><b>Phones Bluetooth settings:</b> <device_name/> disable input device</p>
         <b><u>Tanınan dokunmalar</u></b>
         <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
         <br><device_type/> müzik kontrolü
@@ -712,25 +724,38 @@
     <string name="privacy_policy_collect_title">Topladığımız bilgiler</string>
     <string name="privacy_policy_collect"><![CDATA[
         <p>• Sadece anonim bilgileri topluyoruz.</p>
-        <p>• Uygulama düzeyinde, kullandığınız hizmetler ve bunları nasıl kullandığınız hakkında bilgi toplarız (Google Firebase Platform).</p>
-        <p>• Uygulama düzeyinde, iyileştirmeler sağlamak için hatalar, hatalar ve çökmeler gibi uygulama düzeyinde bilgi toplarız (Google Firebase Platformu).</p>
-        <p>• Google Firebase Platformu, isimsiz olarak bilgi toplar. Bireysel kullanıcıları tanımlamaksızın eğilimleri rapor eder.</p>
-        • Herhangi bir veriyi diğer şirket ve kuruluşlarla paylaşmayız.
+        <p>• Uygulama düzeyinde, kullandığınız hizmetler ve bunları nasıl kullandığınız hakkında bilgi toplarız (Google Analytics).</p>
+        <p>• Uygulama düzeyinde, iyileştirmeler sağlamak için hatalar, hatalar ve çökmeler gibi uygulama düzeyinde bilgi toplarız (Firebase Crashlytics).</p>
+        <p>• We collect information at the application level about the performance (Firebase Performance Monitoring).</p>
+        <p>• Google Firebase Platformu, isimsiz olarak bilgi toplar. Bireysel kullanıcıları tanımlamaksızın eğilimleri rapor eder.
+        The Firebase Platform collects data such as Firebase installation ID, application state, relevant device metadata (device model, CPU architecture, RAM and disk size, OS, screen orientation, country, locale/language), stack traces, performance metrics (including app start time and network request latency, network URLs), CPU/memory usage, IP address …
+        </p>
+        • We collect location data to update the weather based on your current location (optional).
     ]]></string>
 
     <string name="privacy_policy_not_collect_title">Toplamadığımız bilgiler</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>• Sizinle ilgili kişisel olarak tanımlanabilir bilgiler toplamıyoruz. Diğer bir deyişle, adınız, adresiniz, telefon numaranız, e-posta adresiniz, IP adresiniz veya MAC adresiniz gibi bilgileri toplamıyoruz.</p>
-        <p>• Kişisel sağlık verilerini, kişileri ve telefon bildirim metnini toplamıyoruz.</p>
-        • Yer verisi toplamıyoruz.
+        <p>• Sizinle ilgili kişisel olarak tanımlanabilir bilgiler toplamıyoruz. Diğer bir deyişle, adınız, adresiniz, telefon numaranız, e-posta adresiniz veya MAC adresiniz gibi bilgileri toplamıyoruz.</p>
+        • Kişisel sağlık verilerini, kişileri ve telefon bildirim metnini toplamıyoruz.
+    ]]></string>
+
+    <string name="privacy_policy_share_title">Information we share</string>
+    <string name="privacy_policy_share"><![CDATA[
+        • We do not share any data with other companies and organizations other than Google.
+    ]]></string>
+
+    <string name="privacy_policy_use_title">Personal and sensitive user data we use</string>
+    <string name="privacy_policy_use"><![CDATA[
+        • We use location data to update the weather (optional).
     ]]></string>
 
     <string name="privacy_policy_links_title">3. Parti Servis Sağlayıcıları Güvenlik Politikası</string>
     <string name="privacy_policy_links"><![CDATA[
-        <a href="https://policies.google.com/privacy">Google Play Servisleri</a>
+        <a href="https://policies.google.com/privacy">Google Play Services</a>
         <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
-        <p><a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a></p>
-        <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
+        <p><a href="https://firebase.google.com/policies/analytics">Google Analytics</a></p>
+        <p><a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a></p>
+        <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Durum</string>
@@ -858,6 +883,8 @@
     <string name="action_chart_sort_pulse_desc">Azalan nabız</string>
     <string name="action_chart_sort_spo2_asc">SpO2 ascending</string>
     <string name="action_chart_sort_spo2_desc">SpO2 descending</string>
+    <string name="action_chart_sort_pressure_asc">Pressure ascending</string>
+    <string name="action_chart_sort_pressure_desc">Pressure descending</string>
     <string name="action_chart_monthly_calendar">Takvim</string>
     <string name="action_chart_monthly_compact">Sıkıştır</string>
 

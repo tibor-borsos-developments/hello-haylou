@@ -8,6 +8,7 @@
     <string name="menu_nav_sleep">Сон</string>
     <string name="menu_nav_pulse">Пульс</string>
     <string name="menu_nav_blood_oxygen">Уровень кислорода в крови</string>
+    <string name="menu_nav_blood_pressure">Артериальное давление</string>
     <string name="menu_nav_workout">Тренировки</string>
     <string name="menu_nav_alarm">Будильник</string>
     <string name="menu_nav_reminder">Напоминания</string>
@@ -349,6 +350,16 @@
     <string name="measurement_interval">Интервал измерений</string>
 
 
+    <!-- Blood pressure -->
+    <string name="blood_pressure_details">Blood pressure details</string>
+
+    <string name="blood_pressure_level_measurement">Blood pressure level measurement</string>
+
+    <string name="blood_pressure_systolic_abbreviation">Sys</string>
+    <string name="blood_pressure_diastolic_abbreviation">Dia</string>
+    <string name="blood_pressure_unit">mmHg</string>
+
+
     <!-- Workout -->
     <string name="workout_details">Детали тренировки</string>
 
@@ -575,6 +586,7 @@
 
     <string name="info_dialog_touch"><![CDATA[
         <p>Функция корректно работает в автономном режиме. Если вы используетесовместный режим, официальное приложение <app_official/> также будет обрабатывать эти функции, поэтому правильная работа не может быть гарантирована.</p>
+        <p><b>Phones Bluetooth settings:</b> <device_name/> disable input device</p>
         <b><u>Используемые кнопки в последовательности</u></b>
         <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
         <br>Управление плеером <device_type/>
@@ -712,25 +724,38 @@
     <string name="privacy_policy_collect_title">Информация, собираемая нами</string>
     <string name="privacy_policy_collect"><![CDATA[
         <p>• Мы собираем только анонимную информацию.</p>
-        <p>• Мы собираем информацию на уровне приложения о сервисах используемых вами и способе их использования (платформа Google Firebase).</p>
-        <p>• Мы собираем информацию на уровне приложения о багах, ошибках и падениях для предоставления улучшений (платформа Google Firebase).</p>
-        <p>• Платформа Google Firebase собирает информацию анонимно. Она предоставляет информацию о трендах без идентификации отдельных пользователей.</p>
-        • Мы не делимся информацией с другими компаниями и организациями.
+        <p>• Мы собираем информацию на уровне приложения о сервисах используемых вами и способе их использования (Google Analytics).</p>
+        <p>• Мы собираем информацию на уровне приложения о багах, ошибках и падениях для предоставления улучшений (Firebase Crashlytics).</p>
+        <p>• We collect information at the application level about the performance (Firebase Performance Monitoring).</p>
+        <p>• Платформа Google Firebase собирает информацию анонимно. Она предоставляет информацию о трендах без идентификации отдельных пользователей.
+        The Firebase Platform collects data such as Firebase installation ID, application state, relevant device metadata (device model, CPU architecture, RAM and disk size, OS, screen orientation, country, locale/language), stack traces, performance metrics (including app start time and network request latency, network URLs), CPU/memory usage, IP address …
+        </p>
+        • We collect location data to update the weather based on your current location (optional).
     ]]></string>
 
     <string name="privacy_policy_not_collect_title">Информация, не собираемая нами</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>• Мы не собираем ваши персональные данные, способные вас идентифицировать. Другими словами мы не собираем такую информацию, как ваше имя, адрес, номер телефона, адрес электронной почты, IP или MAC адреса.</p>
-        <p>• Мы не собираем информацию о вашем здоровье, контактах и тексте уведомлений.</p>
-        • Мы не собираем данные о вашем местоположении.
+        <p>• Мы не собираем ваши персональные данные, способные вас идентифицировать. Другими словами мы не собираем такую информацию, как ваше имя, адрес, номер телефона, адрес электронной почты или MAC адреса.</p>
+        • Мы не собираем информацию о вашем здоровье, контактах и тексте уведомлений.
+    ]]></string>
+
+    <string name="privacy_policy_share_title">Information we share</string>
+    <string name="privacy_policy_share"><![CDATA[
+        • We do not share any data with other companies and organizations other than Google.
+    ]]></string>
+
+    <string name="privacy_policy_use_title">Personal and sensitive user data we use</string>
+    <string name="privacy_policy_use"><![CDATA[
+        • We use location data to update the weather (optional).
     ]]></string>
 
     <string name="privacy_policy_links_title">Политика конфиденциальности сторонних сервисов</string>
     <string name="privacy_policy_links"><![CDATA[
         <a href="https://policies.google.com/privacy">Google Play Services</a>
         <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
-        <p><a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a></p>
-        <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
+        <p><a href="https://firebase.google.com/policies/analytics">Google Analytics</a></p>
+        <p><a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a></p>
+        <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Статус</string>
@@ -858,6 +883,8 @@
     <string name="action_chart_sort_pulse_desc">Пульс, по убыванию</string>
     <string name="action_chart_sort_spo2_asc">SpO2 по возрастанию</string>
     <string name="action_chart_sort_spo2_desc">SpO2 по убыванию</string>
+    <string name="action_chart_sort_pressure_asc">Pressure ascending</string>
+    <string name="action_chart_sort_pressure_desc">Pressure descending</string>
     <string name="action_chart_monthly_calendar">Календарь</string>
     <string name="action_chart_monthly_compact">Компактно</string>
 

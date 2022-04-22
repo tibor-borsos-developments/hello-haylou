@@ -8,6 +8,7 @@
     <string name="menu_nav_sleep">睡眠</string>
     <string name="menu_nav_pulse">心率</string>
     <string name="menu_nav_blood_oxygen">血氧</string>
+    <string name="menu_nav_blood_pressure">血壓</string>
     <string name="menu_nav_workout">鍛煉</string>
     <string name="menu_nav_alarm">鬧鐘</string>
     <string name="menu_nav_reminder">事件提醒</string>
@@ -343,14 +344,24 @@
 
 
     <!-- Blood oxygen -->
-    <string name="blood_oxygen_details">Blood oxygen details</string>
+    <string name="blood_oxygen_details">血氧詳情</string>
 
     <string name="blood_oxygen_level_measurement">Blood oxygen level measurement</string>
     <string name="measurement_interval">Measurement interval</string>
 
 
+    <!-- Blood pressure -->
+    <string name="blood_pressure_details">血壓詳情</string>
+
+    <string name="blood_pressure_level_measurement">Blood pressure level measurement</string>
+
+    <string name="blood_pressure_systolic_abbreviation">Sys</string>
+    <string name="blood_pressure_diastolic_abbreviation">Dia</string>
+    <string name="blood_pressure_unit">mmHg</string>
+
+
     <!-- Workout -->
-    <string name="workout_details">Workout details</string>
+    <string name="workout_details">鍛煉細節</string>
 
 
     <!-- Alarm -->
@@ -575,13 +586,14 @@
 
     <string name="info_dialog_touch"><![CDATA[
         <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
+        <p><b>Phones Bluetooth settings:</b> <device_name/> disable input device</p>
         <b><u>Recognised touches</u></b>
         <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
         <br><device_type/> music control
         <p><img src="ic_touch_find">
         <br><device_type/> find my phone
         </p>
-        <p>Multiple touches can be recorded for a function.</p>
+        <p>Multiple touches can be recorded for each function.</p>
     ]]></string>
 
 
@@ -712,25 +724,38 @@
     <string name="privacy_policy_collect_title">我們收集以下信息</string>
     <string name="privacy_policy_collect"><![CDATA[
         <p>• We only collect anonymous information.</p>
-        <p>• We collect information at the application level about the services that you use and how you use them (Google Firebase Platform).</p>
-        <p>• We collect information at the application level like bugs, errors and crashes to provide improvements (Google Firebase Platform).</p>
-        <p>• Google Firebase Platform collects information anonymously. It reports trends without identifying individual users.</p>
-        • We do not share any data with other companies and organizations.
+        <p>• We collect information at the application level about the services that you use and how you use them (Google Analytics).</p>
+        <p>• We collect information at the application level like bugs, errors, and crashes to provide improvements (Firebase Crashlytics).</p>
+        <p>• We collect information at the application level about the performance (Firebase Performance Monitoring).</p>
+        <p>• Google Firebase Platform collects information anonymously. It reports trends without identifying individual users.
+        The Firebase Platform collects data such as Firebase installation ID, application state, relevant device metadata (device model, CPU architecture, RAM and disk size, OS, screen orientation, country, locale/language), stack traces, performance metrics (including app start time and network request latency, network URLs), CPU/memory usage, IP address …
+        </p>
+        • We collect location data to update the weather based on your current location (optional).
     ]]></string>
 
     <string name="privacy_policy_not_collect_title">我們不收集以下信息</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>• We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address, IP address or MAC address.</p>
-        <p>• We do not collect personal health data, contacts and phone notification text.</p>
-        • We do not collect location data.
+        <p>• We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address or MAC address.</p>
+        • We do not collect personal health data, contacts and phone notification texts.
+    ]]></string>
+
+    <string name="privacy_policy_share_title">Information we share</string>
+    <string name="privacy_policy_share"><![CDATA[
+        • We do not share any data with other companies and organizations other than Google.
+    ]]></string>
+
+    <string name="privacy_policy_use_title">Personal and sensitive user data we use</string>
+    <string name="privacy_policy_use"><![CDATA[
+        • We use location data to update the weather (optional).
     ]]></string>
 
     <string name="privacy_policy_links_title">第三方服務提供商的隱私政策</string>
     <string name="privacy_policy_links"><![CDATA[
         <a href="https://policies.google.com/privacy">Google Play Services</a>
         <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
-        <p><a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a></p>
-        <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
+        <p><a href="https://firebase.google.com/policies/analytics">Google Analytics</a></p>
+        <p><a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a></p>
+        <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">狀態</string>
@@ -858,6 +883,8 @@
     <string name="action_chart_sort_pulse_desc">心率 降序</string>
     <string name="action_chart_sort_spo2_asc">SpO2 ascending</string>
     <string name="action_chart_sort_spo2_desc">SpO2 descending</string>
+    <string name="action_chart_sort_pressure_asc">Pressure ascending</string>
+    <string name="action_chart_sort_pressure_desc">Pressure descending</string>
     <string name="action_chart_monthly_calendar">日歷</string>
     <string name="action_chart_monthly_compact">袖珍的</string>
 
