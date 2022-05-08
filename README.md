@@ -7,6 +7,7 @@
 
 # <img src="https://play-lh.googleusercontent.com/IRN8GXZC_LcV_JmlaqrEkfeigS3aMrEqItatKO7e53nkAX47PQuPz8loYV0erQPh3w=s48-rw"> Hello Haylou
 ### Supported devices
+- Haylou RS4 Plus (LS11)
 - Haylou RS4 (LS12)
 - Haylou RT2 (LS10)
 - Haylou GST (LS09B)
@@ -32,7 +33,7 @@
 
 <br>
 
-# <img src="https://play-lh.googleusercontent.com/ty8Hwdy-fls5CNl2h-UnYa38wETwDpGVPVd9qTaW6efmd6B9qh84jFM-EyZ9XdeS7cdL=s48-rw"> Hello Zeblaze
+# <img src="https://play-lh.googleusercontent.com/dn0iS7KiPmHd6dNuw2Mkl2mWv_AA8fJLzo3k9uoOT6ebpp_ObvhCqZBSYu5MiQD9SA=s48-rw"> Hello Zeblaze
 ### Supported devices
 - Zeblaze GTR 2
 - Zeblaze GTS Pro
@@ -44,7 +45,7 @@
 
 <br>
 
-# <img src="https://play-lh.googleusercontent.com/h3raeDeUoiCsbTgrjsjCNrqXYzIUf_oxCfsuieZObL9TrYRDVIR3q5q0yZ7Wfqe-SUoL=s48-rw"> Hello Cubot
+# <img src="https://play-lh.googleusercontent.com/xX8gICXEGSKvWSeeYbutolsA5axpy79qz28OQjS2kgFmj_k0nGh_LcWOhQ5v1puFhA=s48-rw"> Hello Cubot
 ### Supported devices
 - Cubot N1
 - Cubot W03
