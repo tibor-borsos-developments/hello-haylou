@@ -9,7 +9,7 @@
     <string name="menu_nav_pulse">Nabız ölçer</string>
     <string name="menu_nav_blood_oxygen">Kan Oksijen</string>
     <string name="menu_nav_blood_pressure">Tansiyon</string>
-    <string name="menu_nav_workout">Egzersiz yapmak</string>
+    <string name="menu_nav_workout">Egzersiz</string>
     <string name="menu_nav_alarm">Alarm</string>
     <string name="menu_nav_reminder">Etkinlik hatırlatıcı</string>
     <string name="menu_nav_dnd">Rahatsız etmeyin modu</string>
@@ -92,6 +92,10 @@
     <string name="mi_band_setting_idle_alert_time">Hareketsiz süresi</string>
     <string name="mi_band_setting_idle_alert_dnd">Dinlenirken, rahatsız etmeyin (12:00-14:00)</string>
 
+    <string name="pref_synchronization">Senkronizasyon</string>
+    <string name="pref_synchronization_fetch_interval">Senkronizasyon sıklıgı</string>
+    <string name="pref_synchronization_summary">Select the data to be automatically synchronised in the background. If you do not need any of the data, turn it off for better performance. Data can still be synchronised manually on the home screen or in the appropriate menus (by sweeping down).</string>
+
     <string name="mi_band_setting_profile">Bu veri, yakılan kaloriyi, adımları hesaplamak için gerekiyor.</string>
     <string name="mi_band_setting_gender">Cinsiyet</string>
     <string name="mi_band_setting_gender_male">Erkek</string>
@@ -117,10 +121,6 @@
     <!-- PreferenceScreen -->
     <string name="pref_connected_have_notif_interval_title">Hangi aralıkta hatırlatma bildirimi tekrarlansın</string>
     <string name="pref_connected_have_notif_interval_summary">Bildirimler/hatırlatıcılar bu zamanlamayı kullanır</string>
-
-    <string name="pref_synchronization">Senkronizasyon</string>
-    <string name="pref_synchronization_fetch">Adım sayar・Nabız ölçer</string>
-    <string name="pref_synchronization_fetch_interval">Senkronizasyon sıklıgı</string>
 
     <string name="pref_battery_phone">Pil</string>
     <string name="pref_battery_phone_summary">Pil seviyesi düşük veya tam dolu bildirimleri</string>
@@ -418,7 +418,7 @@
     <string name="watch_face_invalid_firmware">%1$s yazılımı saat arayüzü değiştirmeyi desteklemiyor, resmi uygulamadan yazılımı güncelleyin.</string> <!-- %1$s = Haylou Smart watch ... -->
     <string name="watch_face_invalid_auth">Bağımsız modda kullanın, eğer diğer uygulama ile birlikte kullanırsanız, resmi uygulama bunu engelleyebilir.</string>
     <string name="watch_face_invalid_free">Ücretsiz versiyonda bugün daha fazla arayüz yüklenemez.</string>
-    <string name="watch_face_watch_rewarded_ads">Watch a video to continue uploading</string>
+    <string name="watch_face_watch_rewarded_ads">Yüklemeye devam etmek için bir video seyredin.</string>
 
     <string name="watch_face_upload_speed_title">Yükleme hızı</string>
     <string name="watch_face_upload_speed_hint">Yükleme işlemi kesintiye uğrarsa, daha düşük hıza ayarlayın.</string>
@@ -430,14 +430,14 @@
     <string name="action_chart_layout_2_columns">2-sütunluk tasarım</string>
     <string name="action_chart_layout_3_columns">3-sütunluk tasarım</string>
 
-    <string name="watch_face_edit_dial">Dial</string>
+    <string name="watch_face_edit_dial">Kadran</string>
     <string name="watch_face_edit_preview">Preview</string>
     <string name="watch_face_edit_hour_digital">Saat</string>
     <string name="watch_face_edit_minute_digital">Dakika</string>
-    <string name="watch_face_edit_second_digital">İkinci</string>
-    <string name="watch_face_edit_hour_analog">Hour hand</string>
-    <string name="watch_face_edit_minute_analog">Minute hand</string>
-    <string name="watch_face_edit_second_analog">Second hand</string>
+    <string name="watch_face_edit_second_digital">Saniye</string>
+    <string name="watch_face_edit_hour_analog">Saat kolu</string>
+    <string name="watch_face_edit_minute_analog">Dakika kolu</string>
+    <string name="watch_face_edit_second_analog">Saniye kolu</string>
     <string name="watch_face_edit_axis">Axis of rotation</string>
     <string name="watch_face_edit_hour_minute_separator">Saat ve dakika ayırıcı</string>
     <string name="watch_face_edit_month">Ay</string>
@@ -450,27 +450,27 @@
     <string name="watch_face_edit_battery_level_image">Pil resmi</string>
     <string name="watch_face_edit_weather_temperature">Sıcaklık</string>
     <string name="watch_face_edit_weather_temperature_unit_sign">Sıcaklık birimi °</string>
-    <string name="watch_face_edit_weather_image">Weather image</string>
-    <string name="watch_face_edit_connection_indicator_image">Connection indicator image</string>
+    <string name="watch_face_edit_weather_image">Hava durumu simgesi</string>
+    <string name="watch_face_edit_connection_indicator_image">Bağlantı simgesi</string>
     <string name="watch_face_edit_connected">Bağlı</string>
     <string name="watch_face_edit_disconnected">Bağlı değil</string>
     <string name="watch_face_edit_steps">Adım</string>
-    <string name="watch_face_edit_steps_image">Adımlar resmi</string>
+    <string name="watch_face_edit_steps_image">Adım resmi</string>
     <string name="watch_face_edit_distance">Mesafe</string>
-    <string name="watch_face_edit_distance_image">Distance image</string>
+    <string name="watch_face_edit_distance_image">Mesafe resmi</string>
     <string name="watch_face_edit_calories">Kalori</string>
     <string name="watch_face_edit_calories_image">Kalori resmi</string>
     <string name="watch_face_edit_heart_rate">Kalp ritmi</string>
-    <string name="watch_face_edit_heart_rate_image">Heart rate image</string>
+    <string name="watch_face_edit_heart_rate_image">Kalp ritmi resmi</string>
 
     <string name="watch_face_edit_color">Renk</string>
     <string name="watch_face_edit_font_family">Yazı tipi</string>
     <string name="watch_face_edit_font_size">Yazı Boyutu</string>
-    <string name="watch_face_edit_character">Character</string>
+    <string name="watch_face_edit_character">Karakter</string>
     <string name="watch_face_edit_image">Görüntü</string>
     <string name="watch_face_edit_image_png_jpeg">Görüntü (.png, .jpeg)</string>
     <string name="watch_face_edit_image_png">Görüntü (.png)</string>
-    <string name="watch_face_edit_icon">Icon</string>
+    <string name="watch_face_edit_icon">İkon</string>
     <string name="watch_face_edit_image_size">Görüntü boyutu</string>
 
 
