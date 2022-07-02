@@ -11,6 +11,7 @@
 - Haylou RS4 (LS12)
 - Haylou RT2 (LS10)
 - Haylou GST (LS09B)
+- Haylou GS (LS09A)
 - Haylou RT (LS05S)
 - Haylou Solar (LS05)
 - Haylou RS3 (LS04)
