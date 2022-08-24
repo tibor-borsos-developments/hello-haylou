@@ -25,6 +25,7 @@
 
 # <img src="https://play-lh.googleusercontent.com/sIm_hSJg4qsanVoZRSvH-D7W1VRjskf-Vh75r1uwdmamCBotUNMasdhQBe1vhtjEba9K=s48-rw"> Hello Imilab
 ### Supported devices
+- Imilab W01
 - Imilab W12
 - Imilab W11
 - Imilab KW66
