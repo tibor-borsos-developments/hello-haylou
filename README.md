@@ -37,6 +37,7 @@
 
 # <img src="https://play-lh.googleusercontent.com/dn0iS7KiPmHd6dNuw2Mkl2mWv_AA8fJLzo3k9uoOT6ebpp_ObvhCqZBSYu5MiQD9SA=s48-rw"> Hello Zeblaze
 ### Supported devices
+- Zeblaze Btalk
 - Zeblaze GTR 2
 - Zeblaze GTS Pro
 - Zeblaze Lily
