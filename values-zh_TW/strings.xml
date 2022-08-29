@@ -51,6 +51,10 @@
 
     <string name="pref_dnd_title">勿擾模式</string>
 
+    <string name="error_title">哎呀！出事了</string>
+    <string name="error_message">將應用更新為最新版本</string>
+
+
     <!-- Haylou setting -->
     <string name="mi_band_setting_button_title">%1$s 設定・個人資料・文字・電話・選單</string>
     <string name="mi_band_setting_title">%1$s 設定</string>
@@ -80,6 +84,14 @@
     <string name="message_mi_band_setting_auth_key_invalid">無效的認證碼</string>
 
     <string name="pref_disconnect_device">裝置斷開</string>
+
+    <string name="mi_band_setting_connection_problem_title">In case of connection problem</string>
+    <string name="mi_band_setting_connection_problem_hint"><![CDATA[
+    - Unpair the watch in the phone\'s Bluetooth settings
+    <br>- Turn Bluetooth off and on
+    <br>- Force close the Application or restart the phone
+    <br>- Pair your watch again on the main screen
+    ]]></string>
 
     <string name="mi_band_setting_dial">撥號</string>
     <string name="mi_band_setting_language">語言</string>
@@ -147,8 +159,14 @@
     <string name="pref_diagnostic">诊断</string>
     <string name="pref_cat_diagnostic_closing_protection">防止关闭</string>
     <string name="pref_diagnostic_battery_optimisation">电池优化关闭</string>
+    <string name="pref_diagnostic_companion_device">伴侶設備配對</string>
     <string name="pref_diagnostic_info">更多信息</string>
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
+
+    <string name="pref_cat_diagnostic_permissions">权限</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">安排确切的警报</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Additional permission is required to schedule the task at an exact time.</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">勿扰访问</string>
 
 
     <!-- Snackbar Messages -->
@@ -373,7 +391,7 @@
 
     <string name="info_dialog_alarm"><![CDATA[
         <p>使用協作模式時，原始應用程序和<app_name/>應用程序的設置可以覆蓋和刪除彼此的設置。</p>
-        <p>最後執行的操作將生效。</p>
+        最後執行的操作將生效。
     ]]></string>
 
 
@@ -397,7 +415,7 @@
     <string name="pref_dnd_enable_bluetooth">在勿擾模式開始時關閉藍牙,結束後再打開藍牙</string>
 
     <string name="info_dialog_dnd"><![CDATA[
-        <p>If you are using cooperation mode, in the official <device_type/> application the do not disturb (DnD) mode must be between 00:00 and 23:59 and its status must be turned off.</p>
+        If you are using cooperation mode, in the official <device_type/> application the do not disturb (DnD) mode must be between 00:00 and 23:59 and its status must be turned off.
     ]]></string> <!-- %1$s Haylou fit-->
 
 
@@ -418,7 +436,9 @@
     <string name="watch_face_invalid_firmware">%1$s firmware does not support uploading the watch face, update the firmware in the official application</string> <!-- %1$s = Haylou Smart watch ... -->
     <string name="watch_face_invalid_auth">Use in standalone mode, when using cooperation mode, the official application may block the watch face upload</string>
     <string name="watch_face_invalid_free">In the free mode, more dials cannot be uploaded today</string>
-    <string name="watch_face_watch_rewarded_ads">Watch a video to continue uploading</string>
+    <string name="watch_face_watch_rewarded_ads">觀看視頻繼續</string>
+    <string name="watch_face_watch_rewarded_ads_uploading">Watch a video to continue uploading</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">Video starting…</string>
 
     <string name="watch_face_upload_speed_title">Upload speed</string>
     <string name="watch_face_upload_speed_hint">Set a lower speed if the watch face uploading process is interrupted</string>
@@ -477,6 +497,8 @@
     <string name="watch_face_edit_image_png">圖片 (.png)</string>
     <string name="watch_face_edit_icon">Icon</string>
     <string name="watch_face_edit_image_size">圖片尺寸</string>
+
+    <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
 
 
     <!-- Touch monitoring -->
@@ -598,7 +620,7 @@
         <p><img src="ic_touch_find">
         <br><device_type/> find my phone
         </p>
-        <p>Multiple touches can be recorded for each function.</p>
+        Multiple touches can be recorded for each function.
     ]]></string>
 
 
@@ -711,7 +733,8 @@
     <string name="purchase_order_id_help">Copy from:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
-    <string name="purchase_button_purchase">購買</string>
+    <string name="purchase_info">One-time payment ・ %1$s</string> <!-- %1$s = price</string>-->
+    <string name="purchase_button_purchase">一次費用</string>
 
     <!-- Feedback -->
     <string name="action_log_notification">日誌記錄</string>

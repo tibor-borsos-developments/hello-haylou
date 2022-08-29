@@ -51,6 +51,9 @@
 
     <string name="pref_dnd_title">방해 금지 모드</string>
 
+    <string name="error_title">아차! 문제가 발생했습니다</string>
+    <string name="error_message">앱을 최신 버전으로 업데이트하십시오</string>
+
 
     <!--Haylou setting -->
     <string name="mi_band_setting_button_title">%1$s 설정・프로필・본문・수신 전화 알림・메뉴</string>
@@ -81,6 +84,14 @@
     <string name="message_mi_band_setting_auth_key_invalid">유효하지 않은 인증 키</string>
 
     <string name="pref_disconnect_device">연결 해제</string>
+
+    <string name="mi_band_setting_connection_problem_title">In case of connection problem</string>
+    <string name="mi_band_setting_connection_problem_hint"><![CDATA[
+    - Unpair the watch in the phone\'s Bluetooth settings
+    <br>- Turn Bluetooth off and on
+    <br>- Force close the Application or restart the phone
+    <br>- Pair your watch again on the main screen
+    ]]></string>
 
     <string name="mi_band_setting_dial">디스플레이</string>
     <string name="mi_band_setting_language">언어</string>
@@ -148,8 +159,14 @@
     <string name="pref_diagnostic">진단</string>
     <string name="pref_cat_diagnostic_closing_protection">종료에 대한 방지</string>
     <string name="pref_diagnostic_battery_optimisation">배터리 최적화 비활성화</string>
+    <string name="pref_diagnostic_companion_device">동반자 장치 페어링</string>
     <string name="pref_diagnostic_info">추가 정보</string>
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
+
+    <string name="pref_cat_diagnostic_permissions">권한</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">정확한 경보 예약</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Additional permission is required to schedule the task at an exact time.</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">방해 금지 접근</string>
 
 
     <!-- Snackbar Messages -->
@@ -374,7 +391,7 @@
 
     <string name="info_dialog_alarm"><![CDATA[
         <p>협력모드 사용시, 공식 어플리케이션과 <app_name/> 어플리케이션의 \'s 설정이 서로 덮어쓰거나 삭제될 수 있습니다.</p>
-        <p>마지막으로 수행한 작업이 적용됩니다.</p>
+        마지막으로 수행한 작업이 적용됩니다.
     ]]></string>
 
 
@@ -398,7 +415,7 @@
     <string name="pref_dnd_enable_bluetooth">방해 금지 모드가 시작될 때 블루투스를 끄고, 종료될 때 블루투스 켜기</string>
 
     <string name="info_dialog_dnd"><![CDATA[
-        <p>협력 모드를 사용하는 경우 공식 <device_type /> 애플리케이션에서 방해 금지 (DnD) 모드는 00:00에서 23:59 사이 여야하며 상태는 꺼져 있어야합니다.</p>
+        협력 모드를 사용하는 경우 공식 <device_type /> 애플리케이션에서 방해 금지 (DnD) 모드는 00:00에서 23:59 사이 여야하며 상태는 꺼져 있어야합니다.
     ]]></string> <!-- %1$s Haylou fit-->
 
 
@@ -419,7 +436,9 @@
     <string name="watch_face_invalid_firmware">%1$s는 펌웨어가 워치페이스 업로드를 지원하지 않습니다. 공식 애플리케이션에서 펌웨어를 업데이트하십시오</string> <!-- %1$s = Haylou Smart watch ... -->
     <string name="watch_face_invalid_auth">협력 모드를 사용할 때, 공식 응용 프로그램이 워치페이스 업로드를 차단할 수 있습니다</string>
     <string name="watch_face_invalid_free">무료 모드에서는 오늘 더 많은 다이얼을 업로드할 수 없습니다</string>
-    <string name="watch_face_watch_rewarded_ads">Watch a video to continue uploading</string>
+    <string name="watch_face_watch_rewarded_ads">계속하려면 비디오를보십시오</string>
+    <string name="watch_face_watch_rewarded_ads_uploading">Watch a video to continue uploading</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">Video starting…</string>
 
     <string name="watch_face_upload_speed_title">업로드 속도</string>
     <string name="watch_face_upload_speed_hint">워치 페이스 업로드 프로세스가 중단될 경우 속도를 낮추십시오</string>
@@ -479,6 +498,8 @@
     <string name="watch_face_edit_image_png">영상 (.png)</string>
     <string name="watch_face_edit_icon">Icon</string>
     <string name="watch_face_edit_image_size">이미지 크기</string>
+
+    <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
 
 
     <!-- Touch monitoring -->
@@ -600,7 +621,7 @@
         <p><img src="ic_touch_find">
         <br><device_type/> 내 휴대 전화 찾기
         </p>
-        <p>기능에 대해 여러 번의 터치를 기록 할 수 있습니다.</p>
+        기능에 대해 여러 번의 터치를 기록 할 수 있습니다.
     ]]></string>
 
 
@@ -713,6 +734,7 @@
     <string name="purchase_order_id_help">아래에서 복사하세요:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <string name="purchase_info">일회성 요금 ・ %1$s</string> <!-- %1$s = price</string>-->
     <string name="purchase_button_purchase">구매</string>
 
     <!-- Feedback -->

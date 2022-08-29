@@ -51,6 +51,9 @@
 
     <string name="pref_dnd_title">Rahatsız etmeyin modu</string>
 
+    <string name="error_title">Hoop! Birşeyler yanlış gitti</string>
+    <string name="error_message">Uygulamayı en son sürüme güncelleyin</string>
+
 
     <!-- Haylou setting -->
     <string name="mi_band_setting_button_title">%1$s ayarları・Profil・Gösterim・Arama・Ekran</string>
@@ -81,6 +84,14 @@
     <string name="message_mi_band_setting_auth_key_invalid">Geçersiz doğrulama kodu</string>
 
     <string name="pref_disconnect_device">Bağlantıyı kes</string>
+
+    <string name="mi_band_setting_connection_problem_title">In case of connection problem</string>
+    <string name="mi_band_setting_connection_problem_hint"><![CDATA[
+    - Unpair the watch in the phone\'s Bluetooth settings
+    <br>- Turn Bluetooth off and on
+    <br>- Force close the Application or restart the phone
+    <br>- Pair your watch again on the main screen
+    ]]></string>
 
     <string name="mi_band_setting_dial">Kadran </string>
     <string name="mi_band_setting_language">Aktif dil</string>
@@ -148,8 +159,14 @@
     <string name="pref_diagnostic">Arıza tespit</string>
     <string name="pref_cat_diagnostic_closing_protection">Kapanmaya karşı koruma</string>
     <string name="pref_diagnostic_battery_optimisation">Pil optimizasyonu kapalı</string>
+    <string name="pref_diagnostic_companion_device">Refakatçi Cihaz Eşleştirme</string>
     <string name="pref_diagnostic_info">Daha fazla bilgi</string>
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
+
+    <string name="pref_cat_diagnostic_permissions">İzinler</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">Kesin alarm planlayın</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Additional permission is required to schedule the task at an exact time.</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">Rahatsız etmeyin erişimi</string>
 
 
     <!-- Snackbar Messages -->
@@ -373,7 +390,7 @@
 
     <string name="info_dialog_alarm"><![CDATA[
         <p>Partner modunu kullanırken, resmi uygulamanın ve <app_name/> uygulamasının ayarları çakışabilir ve birbirlerinin ayarlarını silebilir.</p>
-        <p>Bu durumda son yapılan işlem geçerli olur.</p>
+        Bu durumda son yapılan işlem geçerli olur.
     ]]></string>
 
 
@@ -397,7 +414,7 @@
     <string name="pref_dnd_enable_bluetooth">Bluetooth\'u başında kapat, sonunda aç</string>
 
     <string name="info_dialog_dnd"><![CDATA[
-        <p>Haylou fit ile birlikte modunu kullanıyorsanız, <device_type/> uygulamasında, rahatsız etmeyin modu (DnD) 00:00 ile 23:59 arasında olmalıdır ve kapalı olmalıdır.</p>
+        Haylou fit ile birlikte modunu kullanıyorsanız, <device_type/> uygulamasında, rahatsız etmeyin modu (DnD) 00:00 ile 23:59 arasında olmalıdır ve kapalı olmalıdır.
     ]]></string> <!-- %1$s Haylou fit-->
 
 
@@ -418,7 +435,9 @@
     <string name="watch_face_invalid_firmware">%1$s yazılımı saat arayüzü değiştirmeyi desteklemiyor, resmi uygulamadan yazılımı güncelleyin.</string> <!-- %1$s = Haylou Smart watch ... -->
     <string name="watch_face_invalid_auth">Bağımsız modda kullanın, eğer diğer uygulama ile birlikte kullanırsanız, resmi uygulama bunu engelleyebilir.</string>
     <string name="watch_face_invalid_free">Ücretsiz versiyonda bugün daha fazla arayüz yüklenemez.</string>
-    <string name="watch_face_watch_rewarded_ads">Yüklemeye devam etmek için bir video seyredin.</string>
+    <string name="watch_face_watch_rewarded_ads">Devam etmek için bir video izleyin</string>
+    <string name="watch_face_watch_rewarded_ads_uploading">Yüklemeye devam etmek için bir video seyredin.</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">Video starting…</string>
 
     <string name="watch_face_upload_speed_title">Yükleme hızı</string>
     <string name="watch_face_upload_speed_hint">Yükleme işlemi kesintiye uğrarsa, daha düşük hıza ayarlayın.</string>
@@ -478,6 +497,8 @@
     <string name="watch_face_edit_image_png">Görüntü (.png)</string>
     <string name="watch_face_edit_icon">İkon</string>
     <string name="watch_face_edit_image_size">Görüntü boyutu</string>
+
+    <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
 
 
     <!-- Touch monitoring -->
@@ -599,7 +620,7 @@
         <p><img src="ic_touch_find">
         <br><device_type/> telefonu bul
         </p>
-        <p>Çoklu dokunmalar bir fonksiyon olarak kaydedilebilir.</p>
+        Çoklu dokunmalar bir fonksiyon olarak kaydedilebilir.
     ]]></string>
 
 
@@ -712,6 +733,7 @@
     <string name="purchase_order_id_help">Adresinden satın al:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <string name="purchase_info">Bir kerelik ücret ・ %1$s</string> <!-- %1$s = price</string>-->
     <string name="purchase_button_purchase">Satın Al</string>
 
     <!-- Feedback -->

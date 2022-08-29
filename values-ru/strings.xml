@@ -51,6 +51,10 @@
 
     <string name="pref_dnd_title">Режим \"Не беспокоить\"</string>
 
+    <string name="error_title">Упс! Что-то пошло не так</string>
+    <string name="error_message">Обновить приложение до последней версии</string>
+
+
     <!-- Haylou setting -->
     <string name="mi_band_setting_button_title">Настройки %1$sk・Профиль・Текст・Вызов・Меню</string>
     <string name="mi_band_setting_title">Настройки %1$s</string>
@@ -80,6 +84,14 @@
     <string name="message_mi_band_setting_auth_key_invalid">Не верный ключ аутентификации</string>
 
     <string name="pref_disconnect_device">Отключение</string>
+
+    <string name="mi_band_setting_connection_problem_title">In case of connection problem</string>
+    <string name="mi_band_setting_connection_problem_hint"><![CDATA[
+    - Unpair the watch in the phone\'s Bluetooth settings
+    <br>- Turn Bluetooth off and on
+    <br>- Force close the Application or restart the phone
+    <br>- Pair your watch again on the main screen
+    ]]></string>
 
     <string name="mi_band_setting_dial">Отображение</string>
     <string name="mi_band_setting_language">Язык</string>
@@ -147,8 +159,14 @@
     <string name="pref_diagnostic">Диагностика</string>
     <string name="pref_cat_diagnostic_closing_protection">Поддержка работы в фоновом режиме</string>
     <string name="pref_diagnostic_battery_optimisation">Отключить оптимизацию энергопотребления</string>
+    <string name="pref_diagnostic_companion_device">Сопутствующее устройство пары</string>
     <string name="pref_diagnostic_info">Дополнительная информация</string>
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
+
+    <string name="pref_cat_diagnostic_permissions">Разрешения</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">Запланируйте точную тревогу</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Additional permission is required to schedule the task at an exact time.</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">\'Не беспокоить\'</string>
 
 
     <!-- Snackbar Messages -->
@@ -373,7 +391,7 @@
 
     <string name="info_dialog_alarm"><![CDATA[
         <p>При использовании режима совместной работы настройки официального приложения Haylou и приложения <app_name/> могут перезаписывать и удалять настройки друг друга.</p>
-        <p>Только последняя выполненная операция вступит в силу.</p>
+        Только последняя выполненная операция вступит в силу.
     ]]></string>
 
 
@@ -397,7 +415,7 @@
     <string name="pref_dnd_enable_bluetooth">При включении режима \"Не беспокоить\" выключать Bluetooth.</string>
 
     <string name="info_dialog_dnd"><![CDATA[
-        <p>При использовании режима совместной работы, в настройках официального приложения <device_type/>, режим \"Не беспокоить\" должен быть настроен с 00:00 до 23:59 и должен быть выключен.</p>
+        При использовании режима совместной работы, в настройках официального приложения <device_type/>, режим \"Не беспокоить\" должен быть настроен с 00:00 до 23:59 и должен быть выключен.
     ]]></string> <!-- %1$s Haylou fit-->
 
 
@@ -418,7 +436,9 @@
     <string name="watch_face_invalid_firmware">%1$s прошивка не поддерживает загрузку циферблата в часы, обновите прошивку часов в официальном приложении.</string> <!-- %1$s = Haylou Smart watch ... -->
     <string name="watch_face_invalid_auth">Используйте функцию в автономном режиме, при использовании совместного режима, официальное приложение может заблокировать загрузку циферблата в часы</string>
     <string name="watch_face_invalid_free">В бесплатной версии сегодня больше циферблаты загрузить нельзя</string>
-    <string name="watch_face_watch_rewarded_ads">Посмотрите видео для продолжения загрузки</string>
+    <string name="watch_face_watch_rewarded_ads">Посмотрите видео, чтобы продолжить</string>
+    <string name="watch_face_watch_rewarded_ads_uploading">Посмотрите видео для продолжения загрузки</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">Video starting…</string>
 
     <string name="watch_face_upload_speed_title">Скорость передачи</string>
     <string name="watch_face_upload_speed_hint">Установите меньшую скорость передачи циферблата на часы если процесс передачи постоянно прерывается.</string>
@@ -478,6 +498,8 @@
     <string name="watch_face_edit_image_png">Изображение (.png)</string>
     <string name="watch_face_edit_icon">Выберите значек</string>
     <string name="watch_face_edit_image_size">Размер изображения</string>
+
+    <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
 
 
     <!-- Touch monitoring -->
@@ -599,7 +621,7 @@
         <p><img src="ic_touch_find">
         <br>Поиск телефона в <device_type/>
         </p>
-        <p>Для одной функции можно записать несколько последовательностей касаний.</p>
+        Для одной функции можно записать несколько последовательностей касаний.
     ]]></string>
 
 
@@ -712,6 +734,7 @@
     <string name="purchase_order_id_help">Скопируйте из:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <string name="purchase_info">Единовременная плата ・ %1$s</string> <!-- %1$s = price</string>-->
     <string name="purchase_button_purchase">Приобрести</string>
 
     <!-- Feedback -->

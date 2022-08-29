@@ -51,6 +51,9 @@
 
     <string name="pref_dnd_title">Modo no molestar</string>
 
+    <string name="error_title">Huy! Algo salió mal</string>
+    <string name="error_message">Actualizar la aplicación a la última versión</string>
+
 
     <!-- Haylou setting -->
     <string name="mi_band_setting_button_title">Ajustes de %1$s・Perfil・Texto・Llamada・Menú</string>
@@ -79,7 +82,16 @@
     <string name="message_mi_band_setting_auth_success">%1$s emparejado con éxito</string>
     <string name="message_mi_band_setting_auth_fail">El emparejamiento de %1$s ha fallado</string>
     <string name="message_mi_band_setting_auth_key_invalid">Clave de autenticación no válida</string>
+
     <string name="pref_disconnect_device">Desconexión</string>
+
+    <string name="mi_band_setting_connection_problem_title">In case of connection problem</string>
+    <string name="mi_band_setting_connection_problem_hint"><![CDATA[
+    - Unpair the watch in the phone\'s Bluetooth settings
+    <br>- Turn Bluetooth off and on
+    <br>- Force close the Application or restart the phone
+    <br>- Pair your watch again on the main screen
+    ]]></string>
 
     <string name="mi_band_setting_dial">Llamar</string>
     <string name="mi_band_setting_language">Idioma</string>
@@ -146,8 +158,14 @@
     <string name="pref_diagnostic">Diagnóstico</string>
     <string name="pref_cat_diagnostic_closing_protection">Protección contra cierres</string>
     <string name="pref_diagnostic_battery_optimisation">Optimización de batería apagado</string>
+    <string name="pref_diagnostic_companion_device">Emparejamiento de dispositivos acompañantes</string>
     <string name="pref_diagnostic_info">Más información</string>
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
+
+    <string name="pref_cat_diagnostic_permissions">Permisos</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">Programar alarma exacta</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Additional permission is required to schedule the task at an exact time.</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">Acceso a modo no molestar</string>
 
 
     <!-- Snackbar Messages -->
@@ -370,7 +388,7 @@
 
     <string name="info_dialog_alarm"><![CDATA[
         <p>Al usar el modo de colaboración, los ajustes de la aplicación original y de la aplicación <app_name/> pueden sobreescribir y borrar los ajustes del otro.</p>
-        <p>La última operación realizada tendrá efecto.</p>
+        La última operación realizada tendrá efecto.
     ]]></string>
 
 
@@ -394,7 +412,7 @@
     <string name="pref_dnd_enable_bluetooth">Al inicio del modo no molestar desactiva el Bluetooth, al finalizar reactiva el Bluetooth</string>
 
     <string name="info_dialog_dnd"><![CDATA[
-        <p>Si está usando el modo de cooperación, en la aplicación oficial <device_type/> el modo no molestar (DnD) debe estar entre las 00:00 y las 23:59 y su estado debe estar apagado.</p>
+        Si está usando el modo de cooperación, en la aplicación oficial <device_type/> el modo no molestar (DnD) debe estar entre las 00:00 y las 23:59 y su estado debe estar apagado.
     ]]></string> <!-- %1$s Haylou fit-->
 
 
@@ -415,7 +433,9 @@
     <string name="watch_face_invalid_firmware">%1$s firmware does not support uploading the watch face, update the firmware in the official application</string> <!-- %1$s = Haylou Smart watch ... -->
     <string name="watch_face_invalid_auth">Use in standalone mode, when using cooperation mode, the official application may block the watch face upload</string>
     <string name="watch_face_invalid_free">In the free mode, more dials cannot be uploaded today</string>
-    <string name="watch_face_watch_rewarded_ads">Watch a video to continue uploading</string>
+    <string name="watch_face_watch_rewarded_ads">Mira un video para continuar</string>
+    <string name="watch_face_watch_rewarded_ads_uploading">Watch a video to continue uploading</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">Video starting…</string>
 
     <string name="watch_face_upload_speed_title">Upload speed</string>
     <string name="watch_face_upload_speed_hint">Set a lower speed if the watch face uploading process is interrupted</string>
@@ -475,6 +495,8 @@
     <string name="watch_face_edit_image_png">Imagen (.png)</string>
     <string name="watch_face_edit_icon">Icon</string>
     <string name="watch_face_edit_image_size">Tamaño de la imagen</string>
+
+    <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
 
 
     <!-- Touch monitoring -->
@@ -596,7 +618,7 @@
         <p><img src="ic_touch_find">
         <br><device_type/> encontrar mi teléfono
         </p>
-        <p>Se pueden grabar múltiples toques para una función.</p>
+        Se pueden grabar múltiples toques para una función.
     ]]></string>
 
 
@@ -709,6 +731,7 @@
     <string name="purchase_order_id_help">Copiar de:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <string name="purchase_info">Tarifa única ・ %1$s</string> <!-- %1$s = price</string>-->
     <string name="purchase_button_purchase">Comprar</string>
 
 

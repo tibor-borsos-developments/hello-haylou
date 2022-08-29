@@ -51,6 +51,9 @@
 
     <string name="pref_dnd_title">Chế độ không làm phiền</string>
 
+    <string name="error_title">Rất tiếc! Có gì đó không ổn</string>
+    <string name="error_message">Cập nhật ứng dụng lên phiên bản mới nhất</string>
+
 
     <!--Haylou setting -->
     <string name="mi_band_setting_button_title">Cài đặt %1$s・Hồ sơ・Tin nhắn・Cuộc gọi・Các mục menu ẩn</string>
@@ -81,6 +84,14 @@
     <string name="message_mi_band_setting_auth_key_invalid">Khóa xác thực không hợp lệ</string>
 
     <string name="pref_disconnect_device">Ngắt kết nối</string>
+
+    <string name="mi_band_setting_connection_problem_title">In case of connection problem</string>
+    <string name="mi_band_setting_connection_problem_hint"><![CDATA[
+    - Unpair the watch in the phone\'s Bluetooth settings
+    <br>- Turn Bluetooth off and on
+    <br>- Force close the Application or restart the phone
+    <br>- Pair your watch again on the main screen
+    ]]></string>
 
     <string name="mi_band_setting_dial">Mặt đồng hồ</string>
     <string name="mi_band_setting_language">Ngôn ngữ</string>
@@ -147,9 +158,15 @@
 
     <string name="pref_diagnostic">Chẩn đoán</string>
     <string name="pref_cat_diagnostic_closing_protection">Chống đóng ứng dụng</string>
+    <string name="pref_diagnostic_companion_device">Kết hợp thiết bị đồng hành</string>
     <string name="pref_diagnostic_battery_optimisation">Tắt tối ưu Pin</string>
     <string name="pref_diagnostic_info">Thêm thông tin</string>
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
+
+    <string name="pref_cat_diagnostic_permissions">Phân quyền</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">Lịch trình báo động chính xác</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Additional permission is required to schedule the task at an exact time.</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">Truy cập Không làm phiền</string>
 
 
     <!-- Snackbar Messages -->
@@ -376,7 +393,7 @@
 
     <string name="info_dialog_alarm"><![CDATA[
         <p>Khi sử dụng chế độ hợp tác, các cài đặt của ứng dụng chính thức và ứng dụng <app_name/> có thể ghi đè và xóa cài đặt của nhau.</p>
-        <p>Thao tác cuối cùng được thực hiện sẽ có hiệu lực.</p>
+        Thao tác cuối cùng được thực hiện sẽ có hiệu lực.
     ]]></string>
 
 
@@ -400,7 +417,7 @@
     <string name="pref_dnd_enable_bluetooth">Bắt đầu chế độ không làm phiền thì tắt Bluetooth, hết chế độ thì bật Bluetooth</string>
 
     <string name="info_dialog_dnd"><![CDATA[
-        <p>Nếu bạn đang sử dụng chế độ hợp tác, trong ứng dụng chính thức <device_type/>, chế độ Không làm phiền (DnD) cần được đặt giữa 00:00 và 23:59, trạng thái của nó phải là đang tắt.</p>
+        Nếu bạn đang sử dụng chế độ hợp tác, trong ứng dụng chính thức <device_type/>, chế độ Không làm phiền (DnD) cần được đặt giữa 00:00 và 23:59, trạng thái của nó phải là đang tắt.
     ]]></string> <!-- %1$s Haylou fit-->
 
 
@@ -421,7 +438,9 @@
     <string name="watch_face_invalid_firmware">Firmware của %1$s không hỗ trợ tải lên mặt đồng hồ, cập nhật firmware trong ứng dụng chính thức</string> <!-- %1$s = Haylou Smart watch ... -->
     <string name="watch_face_invalid_auth">Sử dụng ở chế độ độc lập, khi sử dụng chế độ hợp tác, ứng dụng chính thức có thể chặn tải lên mặt đồng hồ</string>
     <string name="watch_face_invalid_free">Ở chế độ miễn phí, không thể tải lên thêm mặt đồng hồ trong hôm nay</string>
-    <string name="watch_face_watch_rewarded_ads">Watch a video to continue uploading</string>
+    <string name="watch_face_watch_rewarded_ads">Xem video để tiếp tục</string>
+    <string name="watch_face_watch_rewarded_ads_uploading">Watch a video to continue uploading</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">Video starting…</string>
 
     <string name="watch_face_upload_speed_title">Tốc độ đồng bộ</string>
     <string name="watch_face_upload_speed_hint">Đặt tốc độ đồng bộ thấp hơn nếu quá trình đồng bộ mặt đồng hồ bị gián đoạn</string>
@@ -480,6 +499,8 @@
     <string name="watch_face_edit_image_png">Hình ảnh (.png)</string>
     <string name="watch_face_edit_icon">Icon</string>
     <string name="watch_face_edit_image_size">Kích cỡ hình</string>
+
+    <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
 
 
     <!-- Touch monitoring -->
@@ -601,7 +622,7 @@
         <p><img src="ic_touch_find">
         <br><device_type/> tìm điện thoại
         </p>
-        <p>Nhiều lần chạm có thể được ghi lại cho một chức năng.</p>
+        Nhiều lần chạm có thể được ghi lại cho một chức năng.
     ]]></string>
 
 
@@ -714,6 +735,7 @@
     <string name="purchase_order_id_help">Sao chép từ:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <string name="purchase_info">Phí một lần ・ %1$s</string> <!-- %1$s = price</string>-->
     <string name="purchase_button_purchase">Mua</string>
 
     <!-- Feedback -->

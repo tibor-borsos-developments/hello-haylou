@@ -51,6 +51,9 @@
 
     <string name="pref_dnd_title">Modalità non disturbare</string>
 
+    <string name="error_title">Oops! Qualcosa è andato storto</string>
+    <string name="error_message">Aggiorna l\'app all\'ultima versione</string>
+
 
     <!-- Haylou setting -->
     <string name="mi_band_setting_button_title">Impostazioni %1$s・Profilo・Messaggio・Chiamata・Menu</string>
@@ -81,6 +84,14 @@
     <string name="message_mi_band_setting_auth_key_invalid">Chiave di autenticazione non valida</string>
 
     <string name="pref_disconnect_device">Disconnessione</string>
+
+    <string name="mi_band_setting_connection_problem_title">In case of connection problem</string>
+    <string name="mi_band_setting_connection_problem_hint"><![CDATA[
+    - Unpair the watch in the phone\'s Bluetooth settings
+    <br>- Turn Bluetooth off and on
+    <br>- Force close the Application or restart the phone
+    <br>- Pair your watch again on the main screen
+    ]]></string>
 
     <string name="mi_band_setting_dial">Watchface</string>
     <string name="mi_band_setting_language">Lingua</string>
@@ -148,8 +159,14 @@
     <string name="pref_diagnostic">Diagnostica</string>
     <string name="pref_cat_diagnostic_closing_protection">Protezioni contro chiusura</string>
     <string name="pref_diagnostic_battery_optimisation">Ottimizzazione batteria disattivato</string>
+    <string name="pref_diagnostic_companion_device">Accoppiamento del dispositivo di accompagnamento</string>
     <string name="pref_diagnostic_info">Maggiori informazioni</string>
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
+
+    <string name="pref_cat_diagnostic_permissions">Permessi</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">Pianifica la sveglia esatta</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Additional permission is required to schedule the task at an exact time.</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">Accesso non disturbare</string>
 
 
     <!-- Snackbar Messages -->
@@ -374,7 +391,7 @@
 
     <string name="info_dialog_alarm"><![CDATA[
         <p>Quando usi in modalità cooperazione, il settaggio della app ufficiale <app_name/> può cancellare o sovrascrivere i dati.</p>
-        <p>L\'ultima operazione eseguita avrà effetto.</p>
+        L\'ultima operazione eseguita avrà effetto.
     ]]></string>
 
 
@@ -398,7 +415,7 @@
     <string name="pref_dnd_enable_bluetooth">Spegni Bluetooth all\'inizio della modalità non disturbare, e riaccendilo alla fine</string>
 
     <string name="info_dialog_dnd"><![CDATA[
-        <p>Se stai usando la modalità cooperazione con app ufficiale <device_type/> il non disturbare (DnD) nell\'intervallo 00:00 e 23:59 possono essere disattivati.</p>
+        Se stai usando la modalità cooperazione con app ufficiale <device_type/> il non disturbare (DnD) nell\'intervallo 00:00 e 23:59 possono essere disattivati.
     ]]></string> <!-- %1$s Haylou fit-->
 
 
@@ -419,7 +436,9 @@
     <string name="watch_face_invalid_firmware">%1$s il programma non supporta il caricamento del quadrante, aggiornare il firmware dalla app ufficiale</string> <!-- %1$s = Haylou Smart watch ... -->
     <string name="watch_face_invalid_auth">In modalità da solo, quando usi in modalità cooperazione, la app ufficiale può bloccare il caricamento</string>
     <string name="watch_face_invalid_free">nella modalità gratuita, oggi molti quadranti non possono essere caricati</string>
-    <string name="watch_face_watch_rewarded_ads">Watch a video to continue uploading</string>
+    <string name="watch_face_watch_rewarded_ads">Guarda un video per continuare</string>
+    <string name="watch_face_watch_rewarded_ads_uploading">Watch a video to continue uploading</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">Video starting…</string>
 
     <string name="watch_face_upload_speed_title">Velocità di caricamento</string>
     <string name="watch_face_upload_speed_hint">Regola una velocità più bassa in caso di interruzione del caricamento</string>
@@ -479,6 +498,8 @@
     <string name="watch_face_edit_image_png">Immagine (.png)</string>
     <string name="watch_face_edit_icon">Icon</string>
     <string name="watch_face_edit_image_size">Dimensione dell\'immagine</string>
+
+    <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
 
 
     <!-- Touch monitoring -->
@@ -600,7 +621,7 @@
         <p><img src="ic_touch_find">
         <br><device_type/> cerca il mio telefono
         </p>
-        <p>È possibile registrare più tocchi per una funzione.</p>
+        È possibile registrare più tocchi per una funzione.
     ]]></string>
 
 
@@ -713,6 +734,7 @@
     <string name="purchase_order_id_help">Copia da:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <string name="purchase_info">Commissione una tantum ・ %1$s</string> <!-- %1$s = price</string>-->
     <string name="purchase_button_purchase">Acquista</string>
 
     <!-- Feedback -->
@@ -875,7 +897,7 @@
     <string name="synchronized_from_watch">Sincronizzato dallo smartwatch</string>
 
     <string name="action_chart">Grafico</string>
-    <string name="action_zoom_in">Zoom in</string>
+    <string name="action_zoom_in">Zoom</string>
     <string name="action_chart_normalize_minute">Valori misurati</string>
     <string name="action_chart_normalize_quarter_hourly">Valori ogni 15min</string>
     <string name="action_chart_normalize_half_hourly">Valori ogni 30min</string>

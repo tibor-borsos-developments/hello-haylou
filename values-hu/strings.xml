@@ -51,6 +51,10 @@
 
     <string name="pref_dnd_title">Ne zavarj mód</string>
 
+    <string name="error_title">Hoppá! Valami hiba történt</string>
+    <string name="error_message">Frissítsd az alkalmazást a legújabb verzióra</string>
+
+
     <!-- Haylou setting -->
     <string name="mi_band_setting_button_title">%1$s beállítások・Profil・Szöveg・Hívás・Menü</string>
     <string name="mi_band_setting_title">%1$s beállítások</string>
@@ -64,7 +68,7 @@
     <string name="mi_band_setting_auth_mi_fit">%1$s együttműködés</string> <!-- Haylou Fit-->
     <string name="mi_band_setting_auth_mi_fit_hint">A működéséhez szükséges a %1$s applikáció telepítése ezen a telefonon. Először a %1$s applikáción belül kell a %2$s párosítását elvégezni. Ha a %1$s applikációt is használni szeretnéd ezt válasszd.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
     <string name="mi_band_setting_auth_standalone">Önálló működés</string>
-    <string name="mi_band_setting_auth_standalone_hint">Nincs szükség a %1$s applikációra a működéshez. Párosítás után töröld a %1$s applikációt. %1$s együttműködés visszaállításakor a %2$s újra párosítását el kell végezni a %1$s applikációban. Leválasztás használatakor az okosóra adatai törlődnek. %2$s képernyő legyen bekapcsolva a műveletek végrehajtása közben.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Nincs szükség a %1$s applikációra a működéshez. Párosítás után töröld a %1$s applikációt vagy szüntesd meg az okosóra párosítását. %1$s együttműködés visszaállításakor a %2$s újra párosítását el kell végezni a %1$s applikációban. Leválasztás használatakor az okosóra adatai törlődnek. %2$s képernyő legyen bekapcsolva a műveletek végrehajtása közben.</string>
 
     <string name="mi_band_setting_auth_key">Hitelesítési kulcs</string>
     <string name="mi_band_setting_auth_key_help">Adj meg bármilyen 4 számot</string>
@@ -80,6 +84,14 @@
     <string name="message_mi_band_setting_auth_key_invalid">Érvénytelen hitelesítési kulcs</string>
 
     <string name="pref_disconnect_device">Kapcsolatbontás</string>
+
+    <string name="mi_band_setting_connection_problem_title">Csatlakozási probléma esetén</string>
+    <string name="mi_band_setting_connection_problem_hint"><![CDATA[
+    - A telefon Bluetooth beállításánál az óra párosítás megszűntetése
+    <br>- Bluetooth ki- és bekapcsoláss
+    <br>- Applikáció kényszerített leállítása vagy a telefon újraindítása
+    <br>- Az óra újrapárosítása a főképernyőn
+    ]]></string>
 
     <string name="mi_band_setting_dial">Számlap</string>
     <string name="mi_band_setting_language">Nyelv</string>
@@ -147,8 +159,14 @@
     <string name="pref_diagnostic">Diagnosztika</string>
     <string name="pref_cat_diagnostic_closing_protection">Bezárás elleni védelem</string>
     <string name="pref_diagnostic_battery_optimisation">Akkumulátor optimalizálás kikapcsolása</string>
+    <string name="pref_diagnostic_companion_device">Társkészülék párosítása</string>
     <string name="pref_diagnostic_info">További információ</string>
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
+
+    <string name="pref_cat_diagnostic_permissions">Engedélyek</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">Pontos riasztás ütemezése</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">További engedély szükséges a feladat pontos időpontra történő ütemezéséhez.</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">Hozzáférés a ne zavarjanak funkcióhoz</string>
 
 
     <!-- Snackbar Messages -->
@@ -196,7 +214,7 @@
     <string name="message_in_progress">Folyamatban…</string>
     <string name="message_no_data">Nincs adat</string>
 
-    <string name="message_rewarded_error">Videó betöltése nem sikerült</string>
+    <string name="message_rewarded_error">Videó betöltés nem sikerült</string>
 
     <string name="message_new_message">Új üzenet érkezett, megtekinthető a telefonon.</string>
 
@@ -384,7 +402,7 @@
 
     <string name="info_dialog_alarm"><![CDATA[
         <p>Együttműködési mód használata esetén a hivatalos alkalmazás és a <app_name/> alkalmazás beállításai felülírhatják és törölhetik egymás beállításait.</p>
-        <p>Az utoljára végrehajtott művelet lesz érvényben.</p>
+        Az utoljára végrehajtott művelet lesz érvényben.
     ]]></string>
 
 
@@ -409,7 +427,7 @@
     <string name="pref_dnd_enable_bluetooth">Ne zavarj mód kezdésekor a Bluetooth kikapcsolása, befejezésekor bekapcsolása</string>
 
     <string name="info_dialog_dnd"><![CDATA[
-        <p>Ha együttműködési módot használsz, akkor a hivatalos <device_type/> alkalmazásban a ne zavarj mód (DnD) időpontja legyen 00:00-23:59 és az állapota legyen kikapcsolva.</p>
+        Ha együttműködési módot használsz, akkor a hivatalos <device_type/> alkalmazásban a ne zavarj mód (DnD) időpontja legyen 00:00-23:59 és az állapota legyen kikapcsolva.
     ]]></string> <!-- %1$s Haylou fit-->
 
 
@@ -431,7 +449,9 @@
     <string name="watch_face_invalid_auth">Önálló módban használd, együttműködési mód használata esetén a hivatalos alkalmazás megzavarhatja a számlap feltöltést</string>
     <!-- Figyelem, ezeket az azonosítókat használom dekódolva a programban nem írható át   -->
     <string name="watch_face_invalid_free">Ingyenes módban több számlap nem tölthető fel a mai nap</string>
-    <string name="watch_face_watch_rewarded_ads">Nézz meg egy videót a feltöltés folytatásához</string>
+    <string name="watch_face_watch_rewarded_ads">Nézz meg egy videót a folytatásához</string>
+    <string name="watch_face_watch_rewarded_ads_uploading">Nézz meg egy videót a feltöltés folytatásához</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">Videó indítása…</string>
 
     <string name="watch_face_upload_speed_title">Feltöltés sebessége</string>
     <string name="watch_face_upload_speed_hint">Számlap feltöltési folyamat megszakadás esetén állíts be alacsonyabb sebességet</string>
@@ -491,6 +511,8 @@
     <string name="watch_face_edit_image_png">Kép (.png)</string>
     <string name="watch_face_edit_icon">Ikon</string>
     <string name="watch_face_edit_image_size">Képméret</string>
+
+    <string name="watch_face_custom_watch_face_not_supported_title">Az óra nem támogatja az egyéni óralap feltöltését</string>
 
 
     <!-- Touch monitoring -->
@@ -613,7 +635,7 @@
         <p><img src="ic_touch_find">
         <br><device_type/> telefon kereső
         </p>
-        <p>A funkciókhoz több érintés is rögzíthető.</p>
+        A funkciókhoz több érintés is rögzíthető.
     ]]></string>
 
 
@@ -726,6 +748,7 @@
     <string name="purchase_order_id_help">Megtalálható:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <string name="purchase_info">Egyszeri díj ・ %1$s</string> <!-- %1$s = price</string>-->
     <string name="purchase_button_purchase">Vásárlás</string>
 
     <!-- Feedback -->

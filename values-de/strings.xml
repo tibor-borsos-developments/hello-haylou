@@ -51,6 +51,10 @@
 
     <string name="pref_dnd_title">Nicht-Stören-Modus</string>
 
+    <string name="error_title">Ups! Irgendwas lief schief</string>
+    <string name="error_message">Aktualisieren Sie die App auf die neueste Version</string>
+
+
     <!-- Haylou setting -->
     <string name="mi_band_setting_button_title">%1$s Einstellungen・Profil・Text・Anruf・Menü</string>
     <string name="mi_band_setting_title">%1$s Einstellungen</string>
@@ -80,6 +84,14 @@
     <string name="message_mi_band_setting_auth_key_invalid">ungültiger Authentifizierungsschlüssel</string>
 
     <string name="pref_disconnect_device">Verbindungstrennung</string>
+
+    <string name="mi_band_setting_connection_problem_title">In case of connection problem</string>
+    <string name="mi_band_setting_connection_problem_hint"><![CDATA[
+    - Unpair the watch in the phone\'s Bluetooth settings
+    <br>- Turn Bluetooth off and on
+    <br>- Force close the Application or restart the phone
+    <br>- Pair your watch again on the main screen
+    ]]></string>
 
     <string name="mi_band_setting_dial">Ziffernblatt</string>
     <string name="mi_band_setting_language">Sprache</string>
@@ -147,8 +159,14 @@
     <string name="pref_diagnostic">Problembehandlung</string>
     <string name="pref_cat_diagnostic_closing_protection">Vor Beenden schützen</string>
     <string name="pref_diagnostic_battery_optimisation">Akku-Optimierung deaktiviert</string>
+    <string name="pref_diagnostic_companion_device">Pairing für Begleitgeräte</string>
     <string name="pref_diagnostic_info">Mehr Informationen</string>
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
+
+    <string name="pref_cat_diagnostic_permissions">Genehmigungen</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">Planen Sie den genauen Alarm</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Additional permission is required to schedule the task at an exact time.</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">Nicht Stören Zugriff</string>
 
 
     <!-- Snackbar Messages -->
@@ -374,7 +392,7 @@
 
     <string name="info_dialog_alarm"><![CDATA[
         <p>Wenn der Kompatibilitätsmodus genutzt wird, können sich die Einstellungen der <app_name/> - App und der offiziellen <device_type/> - App gegenseitig überschreiben.</p>
-        <p>Die zuletzt durchgeführte Aktion greift.</p>
+        Die zuletzt durchgeführte Aktion greift.
     ]]></string>
 
 
@@ -398,7 +416,7 @@
     <string name="pref_dnd_enable_bluetooth">Beim Start des Nicht Stören-Modus das Bluetooth deaktivieren, am Ende wieder aktivieren.</string>
 
     <string name="info_dialog_dnd"><![CDATA[
-        <p>Wenn der Kompatibilitätsmodus genutzt wird, muss der Nicht-Stören.-Modus der offiziellen <device_type/> - App, zwischen 00:00 und 23:59 liegen. Der Status muss ausgeschaltet sein.</p>
+        Wenn der Kompatibilitätsmodus genutzt wird, muss der Nicht-Stören.-Modus der offiziellen <device_type/> - App, zwischen 00:00 und 23:59 liegen. Der Status muss ausgeschaltet sein.
     ]]></string> <!-- %1$s Haylou fit-->
 
 
@@ -419,7 +437,9 @@
     <string name="watch_face_invalid_firmware">Die Firmware der %1$s unterstützt das Hochladen von Zifferblättn nicht. Bitte die Firmware in der offiziellen Anwendung aktualisieren!</string> <!-- %1$s = Haylou Smart watch ... -->
     <string name="watch_face_invalid_auth">Benutze den Eigenständigen Modus. Im Kompatibilitätsmodus kann die offizielle %1$s - App das Hochladen von Ziffernblättern blockieren.</string>
     <string name="watch_face_invalid_free">Im freien Modus können heute keine weiteren Ziifernblätter hochgeladen werden.</string>
-    <string name="watch_face_watch_rewarded_ads">Bitte schaue ein Video an, um weitere Ziffernblätter hochladen zu können.</string>
+    <string name="watch_face_watch_rewarded_ads">Sehen Sie sich ein Video an, um fortzufahren</string>
+    <string name="watch_face_watch_rewarded_ads_uploading">Bitte schaue ein Video an, um weitere Ziffernblätter hochladen zu können.</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">Video starting…</string>
 
     <string name="watch_face_upload_speed_title">Upload-Geschwindigkeit</string>
     <string name="watch_face_upload_speed_hint">Eine niedrigere Geschwindigkeit einstellen, wenn das Hochladen des Zifferblatts unterbricht.</string>
@@ -479,6 +499,8 @@
     <string name="watch_face_edit_image_png">Bild (.png)</string>
     <string name="watch_face_edit_icon">Icon</string>
     <string name="watch_face_edit_image_size">Bildgröße</string>
+
+    <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
 
 
     <!-- Touch monitoring -->
@@ -600,7 +622,7 @@
         <p><img src="ic_touch_find">
         <br><device_type/> find my phone
         </p>
-        <p>Multiple touches can be recorded for each function.</p>
+        Multiple touches can be recorded for each function.
     ]]></string>
 
 
@@ -713,6 +735,7 @@
     <string name="purchase_order_id_help">Kopie von:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <string name="purchase_info">Einmalige Gebühr ・ %1$s</string> <!-- %1$s = price</string>-->
     <string name="purchase_button_purchase">Kauf</string>
 
     <!-- Feedback -->

@@ -51,6 +51,9 @@
 
     <string name="pref_dnd_title">Ikke forstyrr modus</string>
 
+    <string name="error_title">Oops! Noe gikk galt</string>
+    <string name="error_message">Oppdater appen til den siste versjonen</string>
+
 
     <!-- Haylou setting -->
     <string name="mi_band_setting_button_title">%1$s-instillinger・Profil・Text・Anrop・Meny</string>
@@ -65,7 +68,7 @@
     <string name="mi_band_setting_auth_mi_fit">%1$s cooperation</string> <!-- Haylou Fit-->
     <string name="mi_band_setting_auth_mi_fit_hint">%3$s behøver installasjon av den offisielle %1$s appen på den samme telefonen. først må du parre %2$s i %1$s appen, så kan du bruke %3$s. If you want to use %1$s, choose this.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
     <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the %3$s to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the %3$s to work. After the pairing, uninstall the %1$s app or unpair the smartwatch. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
 
     <string name="mi_band_setting_auth_key">Authentication key</string>
     <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
@@ -81,6 +84,14 @@
     <string name="message_mi_band_setting_auth_key_invalid">Invalid authentication key</string>
 
     <string name="pref_disconnect_device">Frakobling</string>
+
+    <string name="mi_band_setting_connection_problem_title">In case of connection problem</string>
+    <string name="mi_band_setting_connection_problem_hint"><![CDATA[
+    - Unpair the watch in the phone\'s Bluetooth settings
+    <br>- Turn Bluetooth off and on
+    <br>- Force close the Application or restart the phone
+    <br>- Pair your watch again on the main screen
+    ]]></string>
 
     <string name="mi_band_setting_dial">Dial</string>
     <string name="mi_band_setting_language">Språk</string>
@@ -148,8 +159,14 @@
     <string name="pref_diagnostic">Diagnositisering</string>
     <string name="pref_cat_diagnostic_closing_protection">Beskyttelse mot lukking</string>
     <string name="pref_diagnostic_battery_optimisation">Batteri optimalisering av</string>
+    <string name="pref_diagnostic_companion_device">Ledsagerenhetsparring</string>
     <string name="pref_diagnostic_info">Mer informasjon</string>
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
+
+    <string name="pref_cat_diagnostic_permissions">Tilatelser</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">Planlegg nøyaktig alarm</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Additional permission is required to schedule the task at an exact time.</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">Ikke Forstyrr-tilgang</string>
 
 
     <!-- Snackbar Meldinger -->
@@ -374,7 +391,7 @@
 
     <string name="info_dialog_alarm"><![CDATA[
         <p>When using cooperation mode, the settings of the official application and the <app_name/> application can overwrite and delete each other\'s settings.</p>
-        <p>The last operation performed will take effect.</p>
+        The last operation performed will take effect.
     ]]></string>
 
 
@@ -398,7 +415,7 @@
     <string name="pref_dnd_enable_bluetooth">I starten av DnD modus skru Bluetooth av, helt til slutt skru Bluetooth på</string>
 
     <string name="info_dialog_dnd"><![CDATA[
-        <p>If you are using cooperation mode, in the official <device_type/> application the do not disturb (DnD) mode must be between 00:00 and 23:59 and its status must be turned off.</p>
+        If you are using cooperation mode, in the official <device_type/> application the do not disturb (DnD) mode must be between 00:00 and 23:59 and its status must be turned off.
     ]]></string> <!-- %1$s Haylou fit-->
 
 
@@ -419,7 +436,9 @@
     <string name="watch_face_invalid_firmware">%1$s firmware does not support uploading the watch face, update the firmware in the official application</string> <!-- %1$s = Haylou Smart watch ... -->
     <string name="watch_face_invalid_auth">Use in standalone mode, when using cooperation mode, the official application may block the watch face upload</string>
     <string name="watch_face_invalid_free">In the free mode, more dials cannot be uploaded today</string>
-    <string name="watch_face_watch_rewarded_ads">Watch a video to continue uploading</string>
+    <string name="watch_face_watch_rewarded_ads">Se en video for å fortsette</string>
+    <string name="watch_face_watch_rewarded_ads_uploading">Watch a video to continue uploading</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">Video starting…</string>
 
     <string name="watch_face_upload_speed_title">Upload speed</string>
     <string name="watch_face_upload_speed_hint">Set a lower speed if the watch face uploading process is interrupted</string>
@@ -479,6 +498,8 @@
     <string name="watch_face_edit_image_png">Bilde (.png)</string>
     <string name="watch_face_edit_icon">Icon</string>
     <string name="watch_face_edit_image_size">Bildestørrelse</string>
+
+    <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
 
 
     <!-- Touch monitoring -->
@@ -600,7 +621,7 @@
         <p><img src="ic_touch_find">
         <br><device_type/> find my phone
         </p>
-        <p>Multiple touches can be recorded for each function.</p>
+        Multiple touches can be recorded for each function.
     ]]></string>
 
     <!-- Weather -->
@@ -712,6 +733,7 @@
     <string name="purchase_order_id_help">Kopiere fra:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <string name="purchase_info">Engangs avgift ・ %1$s</string> <!-- %1$s = price</string>-->
     <string name="purchase_button_purchase">Kjøp</string>
 
     <!-- Feedback -->
@@ -874,7 +896,7 @@
     <string name="synchronized_from_watch">Synchronized from watch</string>
 
     <string name="action_chart">Kart</string>
-    <string name="action_zoom_in">Zoom in</string>
+    <string name="action_zoom_in">Zoom</string>
     <string name="action_chart_normalize_minute">målte valuer</string>
     <string name="action_chart_normalize_quarter_hourly">Kvartal-timelige valuer</string>
     <string name="action_chart_normalize_half_hourly">Halv-timelige valuer</string>
