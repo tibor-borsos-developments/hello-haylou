@@ -8,6 +8,7 @@
     <string name="menu_nav_sleep">睡眠</string>
     <string name="menu_nav_pulse">心拍数</string>
     <string name="menu_nav_blood_oxygen">血中酸素</string>
+    <string name="menu_nav_blood_pressure">血圧</string>
     <string name="menu_nav_workout">いい結果になる</string>
     <string name="menu_nav_alarm">アラーム</string>
     <string name="menu_nav_reminder">リマインダー</string>
@@ -50,6 +51,9 @@
 
     <string name="pref_dnd_title">DND（おやすみモード）</string>
 
+    <string name="error_title">おっと！何かが間違っていた</string>
+    <string name="error_message">アプリを最新バージョンに更新します</string>
+
 
     <!-- Haylou setting -->
     <string name="mi_band_setting_button_title">%1$sの設定・ﾌﾟﾛﾌｨｰﾙ・テキスト・通話・メニュー</string>
@@ -64,7 +68,7 @@
     <string name="mi_band_setting_auth_mi_fit">%1$sとの連携</string> <!-- Haylou Fit-->
     <string name="mi_band_setting_auth_mi_fit_hint">%1$sのインストールが必要です。%3$sを使用する前に%1$sで%2$sをペアリングしてください。</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
     <string name="mi_band_setting_auth_standalone">スタンドアロンモード</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the %3$s to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application.If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the %3$s to work. After the pairing, uninstall the %1$s app or unpair the smartwatch. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application.If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
 
     <string name="mi_band_setting_auth_key">認証キー</string>
     <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
@@ -81,6 +85,14 @@
 
     <string name="pref_disconnect_device">切断</string>
 
+    <string name="mi_band_setting_connection_problem_title">In case of connection problem</string>
+    <string name="mi_band_setting_connection_problem_hint"><![CDATA[
+    - Unpair the watch in the phone\'s Bluetooth settings
+    <br>- Turn Bluetooth off and on
+    <br>- Force close the Application or restart the phone
+    <br>- Pair your watch again on the main screen
+    ]]></string>
+
     <string name="mi_band_setting_dial">ウォッチフェイス</string>
     <string name="mi_band_setting_language">言語</string>
     <string name="mi_band_setting_time_24h">24時間表記</string>
@@ -91,7 +103,11 @@
     <string name="mi_band_setting_idle_alert_time">無活動時間</string>
     <string name="mi_band_setting_idle_alert_dnd">休憩中は通知しない (12:00-14:00)</string>
 
-    <string name="mi_band_setting_profile">This data is needed to correctly calculate the number of steps, distance, and burned calories</string>
+    <string name="pref_synchronization">同期</string>
+    <string name="pref_synchronization_fetch_interval">Synchronization frequency</string>
+    <string name="pref_synchronization_summary">Select the data to be automatically synchronised in the background. If you do not need any of the data, turn it off for better performance. Data can still be synchronised manually on the home screen or in the appropriate menus (by sweeping down).</string>
+
+    <string name="mi_band_setting_profile">This data is needed to correctly calculate the number of steps, distance, and burned calories.</string>
     <string name="mi_band_setting_gender">性別</string>
     <string name="mi_band_setting_gender_male">男性</string>
     <string name="mi_band_setting_gender_female">女性</string>
@@ -116,10 +132,6 @@
     <!-- PreferenceScreen -->
     <string name="pref_connected_have_notif_interval_title">リマインダーの繰り返し間隔</string>
     <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
-
-    <string name="pref_synchronization">同期</string>
-    <string name="pref_synchronization_fetch">アクティビティ・心拍数</string>
-    <string name="pref_synchronization_fetch_interval">Synchronization frequency</string>
 
     <string name="pref_battery_phone">端末のバッテリー</string>
     <string name="pref_battery_phone_summary">残量低下・フル充電通知</string>
@@ -147,8 +159,14 @@
     <string name="pref_diagnostic">システム</string>
     <string name="pref_cat_diagnostic_closing_protection">アプリの自動終了制限</string>
     <string name="pref_diagnostic_battery_optimisation">バッテリー最適化を無視</string>
+    <string name="pref_diagnostic_companion_device">コンパニオンデバイスペアリング</string>
     <string name="pref_diagnostic_info">詳しくは</string>
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
+
+    <string name="pref_cat_diagnostic_permissions">権限</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">正確なアラームをスケジュールします</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Additional permission is required to schedule the task at an exact time.</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">着信拒否へのアクセス</string>
 
 
     <!-- Snackbar Messages -->
@@ -188,6 +206,7 @@
     <string name="message_feature_is_not_supported">%1$sはこの機能をサポートしていません</string>
     <string name="message_general_error">設定に失敗しました（接続が切断されました）。再試行してください</string>
     <string name="message_internet_error">インターネット接続がありません</string>
+    <string name="message_internet_traffic_blocked">Network traffic is blocked</string>
     <string name="message_gps_enable">GPSを有効にしてください</string>
     <string name="message_location_enable">Enable the location info permission</string>
 
@@ -344,14 +363,24 @@
 
 
     <!-- Blood oxygen -->
-    <string name="blood_oxygen_details">Blood oxygen details</string>
+    <string name="blood_oxygen_details">血中酸素の詳細</string>
 
     <string name="blood_oxygen_level_measurement">Blood oxygen level measurement</string>
     <string name="measurement_interval">Measurement interval</string>
 
 
+    <!-- Blood pressure -->
+    <string name="blood_pressure_details">血圧の詳細</string>
+
+    <string name="blood_pressure_level_measurement">Blood pressure level measurement</string>
+
+    <string name="blood_pressure_systolic_abbreviation">Sys</string>
+    <string name="blood_pressure_diastolic_abbreviation">Dia</string>
+    <string name="blood_pressure_unit">mmHg</string>
+
+
     <!-- Workout -->
-    <string name="workout_details">Workout details</string>
+    <string name="workout_details">ワークアウトの詳細</string>
 
 
     <!-- Alarm -->
@@ -363,7 +392,7 @@
 
     <string name="info_dialog_alarm"><![CDATA[
         <p>When using cooperation mode, the settings of the official application and the <app_name/> application can overwrite and delete each other\'s settings.</p>
-        <p>The last operation performed will take effect.</p>
+        The last operation performed will take effect.
     ]]></string>
 
 
@@ -387,7 +416,7 @@
     <string name="pref_dnd_enable_bluetooth">DND開始時にBluetoothオフ、終了時オン</string>
 
     <string name="info_dialog_dnd"><![CDATA[
-        <p>If you are using cooperation mode, in the official <device_type/> application the do not disturb (DnD) mode must be between 00:00 and 23:59 and its status must be turned off.</p>
+        If you are using cooperation mode, in the official <device_type/> application the do not disturb (DnD) mode must be between 00:00 and 23:59 and its status must be turned off.
     ]]></string> <!-- %1$s Haylou fit-->
 
 
@@ -408,7 +437,9 @@
     <string name="watch_face_invalid_firmware">%1$s firmware does not support uploading the watch face, update the firmware in the official application</string> <!-- %1$s = Haylou Smart watch ... -->
     <string name="watch_face_invalid_auth">Use in standalone mode, when using cooperation mode, the official application may block the watch face upload</string>
     <string name="watch_face_invalid_free">In the free mode, more dials cannot be uploaded today</string>
-    <string name="watch_face_watch_rewarded_ads">Watch a video to continue uploading</string>
+    <string name="watch_face_watch_rewarded_ads">続行するビデオをご覧ください</string>
+    <string name="watch_face_watch_rewarded_ads_uploading">Watch a video to continue uploading</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">Video starting…</string>
 
     <string name="watch_face_upload_speed_title">Upload speed</string>
     <string name="watch_face_upload_speed_hint">Set a lower speed if the watch face uploading process is interrupted</string>
@@ -425,14 +456,19 @@
     <string name="watch_face_edit_hour_digital">時間</string>
     <string name="watch_face_edit_minute_digital">分</string>
     <string name="watch_face_edit_second_digital">秒</string>
+    <string name="watch_face_edit_am_pm">AM/PM indicator</string>
+    <string name="watch_face_edit_am">AM</string>
+    <string name="watch_face_edit_pm">PM</string>
     <string name="watch_face_edit_hour_analog">Hour hand</string>
     <string name="watch_face_edit_minute_analog">Minute hand</string>
     <string name="watch_face_edit_second_analog">Second hand</string>
     <string name="watch_face_edit_axis">Axis of rotation</string>
     <string name="watch_face_edit_hour_minute_separator">時間と分のセパレータ</string>
+    <string name="watch_face_edit_year">年</string>
+    <string name="watch_face_edit_year_month_separator">年と月のセパレーター</string>
     <string name="watch_face_edit_month">月</string>
     <string name="watch_face_edit_month_name">月の名前</string>
-    <string name="watch_face_edit_mont_day_separator">月と日の区切り文字</string>
+    <string name="watch_face_edit_month_day_separator">月と日の区切り文字</string>
     <string name="watch_face_edit_day">日</string>
     <string name="watch_face_edit_dayOfWeek">週の日</string>
     <string name="watch_face_edit_battery_level">バッテリーレベル</string>
@@ -446,6 +482,7 @@
     <string name="watch_face_edit_disconnected">未接続</string>
     <string name="watch_face_edit_steps">歩数</string>
     <string name="watch_face_edit_steps_image">ステップ画像</string>
+    <string name="watch_face_edit_steps_goal_progress">Steps goal progress</string>
     <string name="watch_face_edit_distance">距離</string>
     <string name="watch_face_edit_distance_image">Distance image</string>
     <string name="watch_face_edit_calories">カロリー</string>
@@ -462,6 +499,8 @@
     <string name="watch_face_edit_image_png">画像 (.png)</string>
     <string name="watch_face_edit_icon">Icon</string>
     <string name="watch_face_edit_image_size">画像サイズ</string>
+
+    <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
 
 
     <!-- Touch monitoring -->
@@ -577,13 +616,14 @@
 
     <string name="info_dialog_touch"><![CDATA[
         <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
+        <p><b>Phones Bluetooth settings:</b> <device_name/> disable input device</p>
         <b><u>Recognised touches</u></b>
         <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
         <br><device_type/> music control
         <p><img src="ic_touch_find">
         <br><device_type/> find my phone
         </p>
-        <p>Multiple touches can be recorded for a function.</p>
+        Multiple touches can be recorded for each function.
     ]]></string>
 
 
@@ -696,6 +736,7 @@
     <string name="purchase_order_id_help">以下からコピーしてください。
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <string name="purchase_info">1時間料金 ・ %1$s</string> <!-- %1$s = price</string>-->
     <string name="purchase_button_purchase">購入</string>
 
     <!-- Feedback -->
@@ -714,25 +755,38 @@
     <string name="privacy_policy_collect_title">収集する情報</string>
     <string name="privacy_policy_collect"><![CDATA[
         <p>• 匿名の情報のみ収集します。</p>
-        <p>• お使いのサービスについての情報をGoogle Firebaseからアプリケーションレベルで収集します。</p>
-        <p>• 品質向上のため、バグやエラー、クラッシュなどの情報をGoogle Firebaseからアプリケーションレベルで収集します。</p>
-        <p>• Google Firebaseは匿名で情報を収集し、個人を特定することなくユーザーの動向を報告します。</p>
-        • 他の会社や組織に対しデータを共有することはありません。
+        <p>• お使いのサービスについての情報をGoogle Analyticsからアプリケーションレベルで収集します。</p>
+        <p>• 品質向上のため、バグやエラー、クラッシュなどの情報をFirebase Crashlyticsからアプリケーションレベルで収集します。</p>
+        <p>• We collect information at the application level about the performance (Firebase Performance Monitoring).</p>
+        <p>• Google Firebaseは匿名で情報を収集し、個人を特定することなくユーザーの動向を報告します。
+        The Firebase Platform collects data such as Firebase installation ID, application state, relevant device metadata (device model, CPU architecture, RAM and disk size, OS, screen orientation, country, locale/language), stack traces, performance metrics (including app start time and network request latency, network URLs), CPU/memory usage, IP address …
+        </p>
+        • We collect location data to update the weather based on your current location (optional).
     ]]></string>
 
     <string name="privacy_policy_not_collect_title">収集しない情報</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>• 個人を特定できる情報（氏名、住所、電話番号、メールアドレス、IPアドレス、MACアドレスなど）は収集しません。</p>
-        <p>• 個人の健康データや連絡先、通知のテキストは収集しません。</p>
-        • We do not collect location data.
+        <p>• 個人を特定できる情報（氏名、住所、電話番号、メールアドレス、IPアドレス、MACアドレスなど）。</p>
+        • 個人の健康データや連絡先、通知のテキストは収集しません。
+    ]]></string>
+
+    <string name="privacy_policy_share_title">Information we share</string>
+    <string name="privacy_policy_share"><![CDATA[
+        • We do not share any data with other companies and organizations other than Google.
+    ]]></string>
+
+    <string name="privacy_policy_use_title">Personal and sensitive user data we use</string>
+    <string name="privacy_policy_use"><![CDATA[
+        • We use location data to update the weather (optional).
     ]]></string>
 
     <string name="privacy_policy_links_title">外部ｻｰﾋﾞｽﾌﾟﾛﾊﾞｲﾀﾞのﾌﾟﾗｲﾊﾞｼｰﾎﾟﾘｼｰ</string>
     <string name="privacy_policy_links"><![CDATA[
-        <a href="https://policies.google.com/privacy">Google Play開発者サービス</a>
+        <a href="https://policies.google.com/privacy">Google Play Services</a>
         <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
-        <p><a href="https://firebase.google.com/policies/analytics">Googleアナリティクス</a></p>
-        <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
+        <p><a href="https://firebase.google.com/policies/analytics">Google Analytics</a></p>
+        <p><a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a></p>
+        <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">ステータス</string>
@@ -766,7 +820,7 @@
     <string name="tab_monthly_charts">月別</string>
     <string name="tab_yearly_charts">Yearly charts</string>
 
-    <string name="ad_attribution">Ad</string>
+    <string name="ad_attribution">広告</string>
     <string name="on">オン</string>
     <string name="off">オフ</string>
     <string name="none">なし</string>
@@ -845,7 +899,7 @@
     <string name="synchronized_from_watch">バンドから同期</string>
 
     <string name="action_chart">チャート</string>
-    <string name="action_zoom_in">Zoom in</string>
+    <string name="action_zoom_in">Zoom</string>
     <string name="action_chart_normalize_minute">測定値</string>
     <string name="action_chart_normalize_quarter_hourly">15分毎の値</string>
     <string name="action_chart_normalize_half_hourly">30分毎の値</string>
@@ -860,6 +914,8 @@
     <string name="action_chart_sort_pulse_desc">心拍数/降順</string>
     <string name="action_chart_sort_spo2_asc">SpO2 ascending</string>
     <string name="action_chart_sort_spo2_desc">SpO2 descending</string>
+    <string name="action_chart_sort_pressure_asc">Pressure ascending</string>
+    <string name="action_chart_sort_pressure_desc">Pressure descending</string>
     <string name="action_chart_monthly_calendar">カレンダー</string>
     <string name="action_chart_monthly_compact">コンパクト</string>
 
@@ -869,7 +925,27 @@
 
     <string name="required_value">必須</string>
 
+    <string name="percent_0">0%</string>
+    <string name="percent_10">10%</string>
+    <string name="percent_20">20%</string>
+    <string name="percent_30">30%</string>
+    <string name="percent_40">40%</string>
+    <string name="percent_50">50%</string>
+    <string name="percent_60">60%</string>
+    <string name="percent_70">70%</string>
+    <string name="percent_80">80%</string>
+    <string name="percent_90">90%</string>
+    <string name="percent_100">100%</string>
+
     <!-- Constante -->
+    <string name="const_day_of_week_sunday">Sunday</string>
+    <string name="const_day_of_week_monday">Monday</string>
+    <string name="const_day_of_week_tuesday">Tuesday</string>
+    <string name="const_day_of_week_wednesday">Wednesday</string>
+    <string name="const_day_of_week_thursday">Thursday</string>
+    <string name="const_day_of_week_friday">Friday</string>
+    <string name="const_day_of_week_saturday">Saturday</string>
+
     <string name="const_time_abbreviation_day">d</string>
     <string name="const_time_abbreviation_hour">h</string>
     <string name="const_time_abbreviation_minute">m</string>

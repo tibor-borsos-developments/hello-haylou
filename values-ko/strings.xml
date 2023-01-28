@@ -8,6 +8,7 @@
     <string name="menu_nav_sleep">수면</string>
     <string name="menu_nav_pulse">심박수</string>
     <string name="menu_nav_blood_oxygen">혈중 산소</string>
+    <string name="menu_nav_blood_pressure">혈압</string>
     <string name="menu_nav_workout">연습</string>
     <string name="menu_nav_alarm">알람</string>
     <string name="menu_nav_reminder">이벤트 리마인더</string>
@@ -50,6 +51,9 @@
 
     <string name="pref_dnd_title">방해 금지 모드</string>
 
+    <string name="error_title">아차! 문제가 발생했습니다</string>
+    <string name="error_message">앱을 최신 버전으로 업데이트하십시오</string>
+
 
     <!--Haylou setting -->
     <string name="mi_band_setting_button_title">%1$s 설정・프로필・본문・수신 전화 알림・메뉴</string>
@@ -81,6 +85,14 @@
 
     <string name="pref_disconnect_device">연결 해제</string>
 
+    <string name="mi_band_setting_connection_problem_title">In case of connection problem</string>
+    <string name="mi_band_setting_connection_problem_hint"><![CDATA[
+    - Unpair the watch in the phone\'s Bluetooth settings
+    <br>- Turn Bluetooth off and on
+    <br>- Force close the Application or restart the phone
+    <br>- Pair your watch again on the main screen
+    ]]></string>
+
     <string name="mi_band_setting_dial">디스플레이</string>
     <string name="mi_band_setting_language">언어</string>
     <string name="mi_band_setting_time_24h">24시간 형식</string>
@@ -91,7 +103,11 @@
     <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
     <string name="mi_band_setting_idle_alert_dnd">방해금지 (12:00-14:00)</string>
 
-    <string name="mi_band_setting_profile">이 데이터는 걸음 수, 거리 및 소모 된 칼로리를 정확하게 계산하는 데 필요합니다</string>
+    <string name="pref_synchronization">동기화</string>
+    <string name="pref_synchronization_fetch_interval">동기화 주기</string>
+    <string name="pref_synchronization_summary">Select the data to be automatically synchronised in the background. If you do not need any of the data, turn it off for better performance. Data can still be synchronised manually on the home screen or in the appropriate menus (by sweeping down).</string>
+
+    <string name="mi_band_setting_profile">이 데이터는 걸음 수, 거리 및 소모 된 칼로리를 정확하게 계산하는 데 필요합니다.</string>
     <string name="mi_band_setting_gender">성별</string>
     <string name="mi_band_setting_gender_male">남성</string>
     <string name="mi_band_setting_gender_female">여성</string>
@@ -116,10 +132,6 @@
     <!-- PreferenceScreen -->
     <string name="pref_connected_have_notif_interval_title">알림 반복 간격</string>
     <string name="pref_connected_have_notif_interval_summary">알림 반복신호 기능은 이 타이밍을 사용합니다.g</string>
-
-    <string name="pref_synchronization">동기화</string>
-    <string name="pref_synchronization_fetch">활동・심박수</string>
-    <string name="pref_synchronization_fetch_interval">동기화 주기</string>
 
     <string name="pref_battery_phone">폰 배터리</string>
     <string name="pref_battery_phone_summary">낮고 높은 배터리 잔량 알림</string>
@@ -147,8 +159,14 @@
     <string name="pref_diagnostic">진단</string>
     <string name="pref_cat_diagnostic_closing_protection">종료에 대한 방지</string>
     <string name="pref_diagnostic_battery_optimisation">배터리 최적화 비활성화</string>
+    <string name="pref_diagnostic_companion_device">동반자 장치 페어링</string>
     <string name="pref_diagnostic_info">추가 정보</string>
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
+
+    <string name="pref_cat_diagnostic_permissions">권한</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">정확한 경보 예약</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Additional permission is required to schedule the task at an exact time.</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">방해 금지 접근</string>
 
 
     <!-- Snackbar Messages -->
@@ -188,6 +206,7 @@
     <string name="message_feature_is_not_supported">%1$s(은)는 이 기능을 지원하지 않습니다</string>
     <string name="message_general_error">설정 실패 (연결 실패), 다시 시도하세요</string>
     <string name="message_internet_error">인터넷 연결 없음</string>
+    <string name="message_internet_traffic_blocked">Network traffic is blocked</string>
     <string name="message_gps_enable">GPS를 활성화하세요</string>
     <string name="message_location_enable">위치 정보 권한 활성화</string>
 
@@ -336,10 +355,24 @@
 
 
     <!-- Blood oxygen -->
-    <string name="blood_oxygen_details">Blood oxygen details</string>
+    <string name="blood_oxygen_details">혈액 산소 세부 정보</string>
 
     <string name="blood_oxygen_level_measurement">Blood oxygen level measurement</string>
     <string name="measurement_interval">Measurement interval</string>
+
+
+    <!-- Blood pressure -->
+    <string name="blood_pressure_details">혈압 세부 정보</string>
+
+    <string name="blood_pressure_level_measurement">Blood pressure level measurement</string>
+
+    <string name="blood_pressure_systolic_abbreviation">Sys</string>
+    <string name="blood_pressure_diastolic_abbreviation">Dia</string>
+    <string name="blood_pressure_unit">mmHg</string>
+
+
+    <!-- Workout -->
+    <string name="workout_details">운동 세부 정보</string>
 
 
     <!-- Sleep monitoring -->
@@ -348,10 +381,6 @@
     <string name="sleep_awake">깨다</string>
     <string name="sleep_light">얇은</string>
     <string name="sleep_deep">깊은</string>
-
-
-    <!-- Workout -->
-    <string name="workout_details">Workout details</string>
 
 
     <!-- Alarm -->
@@ -363,7 +392,7 @@
 
     <string name="info_dialog_alarm"><![CDATA[
         <p>협력모드 사용시, 공식 어플리케이션과 <app_name/> 어플리케이션의 \'s 설정이 서로 덮어쓰거나 삭제될 수 있습니다.</p>
-        <p>마지막으로 수행한 작업이 적용됩니다.</p>
+        마지막으로 수행한 작업이 적용됩니다.
     ]]></string>
 
 
@@ -387,7 +416,7 @@
     <string name="pref_dnd_enable_bluetooth">방해 금지 모드가 시작될 때 블루투스를 끄고, 종료될 때 블루투스 켜기</string>
 
     <string name="info_dialog_dnd"><![CDATA[
-        <p>협력 모드를 사용하는 경우 공식 <device_type /> 애플리케이션에서 방해 금지 (DnD) 모드는 00:00에서 23:59 사이 여야하며 상태는 꺼져 있어야합니다.</p>
+        협력 모드를 사용하는 경우 공식 <device_type /> 애플리케이션에서 방해 금지 (DnD) 모드는 00:00에서 23:59 사이 여야하며 상태는 꺼져 있어야합니다.
     ]]></string> <!-- %1$s Haylou fit-->
 
 
@@ -408,7 +437,9 @@
     <string name="watch_face_invalid_firmware">%1$s는 펌웨어가 워치페이스 업로드를 지원하지 않습니다. 공식 애플리케이션에서 펌웨어를 업데이트하십시오</string> <!-- %1$s = Haylou Smart watch ... -->
     <string name="watch_face_invalid_auth">협력 모드를 사용할 때, 공식 응용 프로그램이 워치페이스 업로드를 차단할 수 있습니다</string>
     <string name="watch_face_invalid_free">무료 모드에서는 오늘 더 많은 다이얼을 업로드할 수 없습니다</string>
-    <string name="watch_face_watch_rewarded_ads">Watch a video to continue uploading</string>
+    <string name="watch_face_watch_rewarded_ads">계속하려면 비디오를보십시오</string>
+    <string name="watch_face_watch_rewarded_ads_uploading">Watch a video to continue uploading</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">Video starting…</string>
 
     <string name="watch_face_upload_speed_title">업로드 속도</string>
     <string name="watch_face_upload_speed_hint">워치 페이스 업로드 프로세스가 중단될 경우 속도를 낮추십시오</string>
@@ -425,14 +456,19 @@
     <string name="watch_face_edit_hour_digital">시간</string>
     <string name="watch_face_edit_minute_digital">분</string>
     <string name="watch_face_edit_second_digital">두번째</string>
+    <string name="watch_face_edit_am_pm">AM/PM indicator</string>
+    <string name="watch_face_edit_am">AM</string>
+    <string name="watch_face_edit_pm">PM</string>
     <string name="watch_face_edit_hour_analog">Hour hand</string>
     <string name="watch_face_edit_minute_analog">Minute hand</string>
     <string name="watch_face_edit_second_analog">Second hand</string>
     <string name="watch_face_edit_axis">Axis of rotation</string>
     <string name="watch_face_edit_hour_minute_separator">시분 분리기</string>
+    <string name="watch_face_edit_year">년도</string>
+    <string name="watch_face_edit_year_month_separator">연도 및 월 분리기</string>
     <string name="watch_face_edit_month">월</string>
     <string name="watch_face_edit_month_name">월 이름</string>
-    <string name="watch_face_edit_mont_day_separator">월과 일 구분자</string>
+    <string name="watch_face_edit_month_day_separator">월과 일 구분자</string>
     <string name="watch_face_edit_day">일</string>
     <string name="watch_face_edit_dayOfWeek">요일</string>
     <string name="watch_face_edit_battery_level">배터리 잔량</string>
@@ -446,6 +482,7 @@
     <string name="watch_face_edit_disconnected">연결 해제됨</string>
     <string name="watch_face_edit_steps">걸음수</string>
     <string name="watch_face_edit_steps_image">단계 이미지</string>
+    <string name="watch_face_edit_steps_goal_progress">Steps goal progress</string>
     <string name="watch_face_edit_distance">거리</string>
     <string name="watch_face_edit_distance_image">Distance image</string>
     <string name="watch_face_edit_calories">칼로리</string>
@@ -462,6 +499,8 @@
     <string name="watch_face_edit_image_png">영상 (.png)</string>
     <string name="watch_face_edit_icon">Icon</string>
     <string name="watch_face_edit_image_size">이미지 크기</string>
+
+    <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
 
 
     <!-- Touch monitoring -->
@@ -576,13 +615,14 @@
 
     <string name="info_dialog_touch"><![CDATA[
         <p>독립형 모드에서 제대로 작동합니다. 협력 모드를 사용하는 경우 공식 <app_official/> 애플리케이션에서도 이러한 기능을 처리하므로 올바른 작동을 보장 할 수 없습니다.</p>
+        <p><b>Phones Bluetooth settings:</b> <device_name/> disable input device</p>
         <b><u>인식된 터치</u></b>
         <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
         <br><device_type/> 음악 제어
         <p><img src="ic_touch_find">
         <br><device_type/> 내 휴대 전화 찾기
         </p>
-        <p>기능에 대해 여러 번의 터치를 기록 할 수 있습니다.</p>
+        기능에 대해 여러 번의 터치를 기록 할 수 있습니다.
     ]]></string>
 
 
@@ -695,6 +735,7 @@
     <string name="purchase_order_id_help">아래에서 복사하세요:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <string name="purchase_info">일회성 요금 ・ %1$s</string> <!-- %1$s = price</string>-->
     <string name="purchase_button_purchase">구매</string>
 
     <!-- Feedback -->
@@ -713,25 +754,38 @@
     <string name="privacy_policy_collect_title">수집하는 정보</string>
     <string name="privacy_policy_collect"><![CDATA[
         <p>• 저희는 익명 정보만 수집합니다.</p>
-        <p>• 저희는 애플리케이션 레벨에서 당신이 사용하는 서비스와 그것들을 어떻게 사용하는 지에 대한 정보를 수집합니다 (Google Firebase Platform).</p>
-        <p>• 저희는 개선을 제공하기 위해 애플리케이션 레벨에서 버그, 오류 및 크래쉬와 같은 정보를 수집합니다 (Google Firebase Platform).</p>
-        <p>• Google Firebase Platform collects information anonymously. It reports trends without identifying individual users.</p>
-        • We do not share any data with other companies and organizations.
+        <p>• 저희는 애플리케이션 레벨에서 당신이 사용하는 서비스와 그것들을 어떻게 사용하는 지에 대한 정보를 수집합니다 (Google Analytics).</p>
+        <p>• 저희는 개선을 제공하기 위해 애플리케이션 레벨에서 버그, 오류 및 크래쉬와 같은 정보를 수집합니다 (Firebase Crashlytics).</p>
+        <p>• We collect information at the application level about the performance (Firebase Performance Monitoring).</p>
+        <p>• Google Firebase Platform collects information anonymously. It reports trends without identifying individual users.
+        The Firebase Platform collects data such as Firebase installation ID, application state, relevant device metadata (device model, CPU architecture, RAM and disk size, OS, screen orientation, country, locale/language), stack traces, performance metrics (including app start time and network request latency, network URLs), CPU/memory usage, IP address …
+        </p>
+        • We collect location data to update the weather based on your current location (optional).
     ]]></string>
 
     <string name="privacy_policy_not_collect_title">수집하지 않는 정보</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>• We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address, IP address or MAC address.</p>
-        <p>• We do not collect personal health data, contacts and phone notification text.</p>
-        • We do not collect location data.
+        <p>• We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address or MAC address.</p>
+        • We do not collect personal health data, contacts and phone notification texts.
+    ]]></string>
+
+    <string name="privacy_policy_share_title">Information we share</string>
+    <string name="privacy_policy_share"><![CDATA[
+        • We do not share any data with other companies and organizations other than Google.
+    ]]></string>
+
+    <string name="privacy_policy_use_title">Personal and sensitive user data we use</string>
+    <string name="privacy_policy_use"><![CDATA[
+        • We use location data to update the weather (optional).
     ]]></string>
 
     <string name="privacy_policy_links_title">Privacy policy of third party service providers</string>
     <string name="privacy_policy_links"><![CDATA[
         <a href="https://policies.google.com/privacy">Google Play Services</a>
         <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
-        <p><a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a></p>
-        <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
+        <p><a href="https://firebase.google.com/policies/analytics">Google Analytics</a></p>
+        <p><a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a></p>
+        <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">상태</string>
@@ -765,7 +819,7 @@
     <string name="tab_monthly_charts">월간 차트</string>
     <string name="tab_yearly_charts">연간 차트</string>
 
-    <string name="ad_attribution">Ad</string>
+    <string name="ad_attribution">기원 후</string>
     <string name="on">활성화</string>
     <string name="off">비활성화</string>
     <string name="none">없음</string>
@@ -859,6 +913,8 @@
     <string name="action_chart_sort_pulse_desc">내림차순(심박수)</string>
     <string name="action_chart_sort_spo2_asc">SpO2 ascending</string>
     <string name="action_chart_sort_spo2_desc">SpO2 descending</string>
+    <string name="action_chart_sort_pressure_asc">Pressure ascending</string>
+    <string name="action_chart_sort_pressure_desc">Pressure descending</string>
     <string name="action_chart_monthly_calendar">달력</string>
     <string name="action_chart_monthly_compact">콤팩트</string>
 
@@ -868,7 +924,27 @@
 
     <string name="required_value">요구사항</string>
 
+    <string name="percent_0">0%</string>
+    <string name="percent_10">10%</string>
+    <string name="percent_20">20%</string>
+    <string name="percent_30">30%</string>
+    <string name="percent_40">40%</string>
+    <string name="percent_50">50%</string>
+    <string name="percent_60">60%</string>
+    <string name="percent_70">70%</string>
+    <string name="percent_80">80%</string>
+    <string name="percent_90">90%</string>
+    <string name="percent_100">100%</string>
+
     <!-- Constante -->
+    <string name="const_day_of_week_sunday">Sunday</string>
+    <string name="const_day_of_week_monday">Monday</string>
+    <string name="const_day_of_week_tuesday">Tuesday</string>
+    <string name="const_day_of_week_wednesday">Wednesday</string>
+    <string name="const_day_of_week_thursday">Thursday</string>
+    <string name="const_day_of_week_friday">Friday</string>
+    <string name="const_day_of_week_saturday">Saturday</string>
+
     <string name="const_time_abbreviation_day">d</string>
     <string name="const_time_abbreviation_hour">h</string>
     <string name="const_time_abbreviation_minute">m</string>

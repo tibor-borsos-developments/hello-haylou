@@ -8,6 +8,7 @@
     <string name="menu_nav_sleep">睡眠</string>
     <string name="menu_nav_pulse">心率</string>
     <string name="menu_nav_blood_oxygen">血氧</string>
+    <string name="menu_nav_blood_pressure">血壓</string>
     <string name="menu_nav_workout">鍛煉</string>
     <string name="menu_nav_alarm">鬧鐘</string>
     <string name="menu_nav_reminder">事件提醒</string>
@@ -50,6 +51,10 @@
 
     <string name="pref_dnd_title">勿擾模式</string>
 
+    <string name="error_title">哎呀！出事了</string>
+    <string name="error_message">將應用更新為最新版本</string>
+
+
     <!-- Haylou setting -->
     <string name="mi_band_setting_button_title">%1$s 設定・個人資料・文字・電話・選單</string>
     <string name="mi_band_setting_title">%1$s 設定</string>
@@ -80,6 +85,14 @@
 
     <string name="pref_disconnect_device">裝置斷開</string>
 
+    <string name="mi_band_setting_connection_problem_title">In case of connection problem</string>
+    <string name="mi_band_setting_connection_problem_hint"><![CDATA[
+    - Unpair the watch in the phone\'s Bluetooth settings
+    <br>- Turn Bluetooth off and on
+    <br>- Force close the Application or restart the phone
+    <br>- Pair your watch again on the main screen
+    ]]></string>
+
     <string name="mi_band_setting_dial">撥號</string>
     <string name="mi_band_setting_language">語言</string>
     <string name="mi_band_setting_time_24h">24小時制</string>
@@ -90,7 +103,11 @@
     <string name="mi_band_setting_idle_alert_time">空閑時間</string>
     <string name="mi_band_setting_idle_alert_dnd">在我休息時不要提醒我 (12:00-14:00)</string>
 
-    <string name="mi_band_setting_profile">This data is needed to correctly calculate the number of steps, distance, and burned calories</string>
+    <string name="pref_synchronization">同步</string>
+    <string name="pref_synchronization_fetch_interval">Synchronization frequency</string>
+    <string name="pref_synchronization_summary">Select the data to be automatically synchronised in the background. If you do not need any of the data, turn it off for better performance. Data can still be synchronised manually on the home screen or in the appropriate menus (by sweeping down).</string>
+
+    <string name="mi_band_setting_profile">This data is needed to correctly calculate the number of steps, distance, and burned calories.</string>
     <string name="mi_band_setting_gender">性別</string>
     <string name="mi_band_setting_gender_male">男性</string>
     <string name="mi_band_setting_gender_female">女性</string>
@@ -115,10 +132,6 @@
     <!-- PreferenceScreen -->
     <string name="pref_connected_have_notif_interval_title">重複提醒間隔</string>
     <string name="pref_connected_have_notif_interval_summary">通知 / 提醒 使用此定時</string>
-
-    <string name="pref_synchronization">同步</string>
-    <string name="pref_synchronization_fetch">活动・心率</string>
-    <string name="pref_synchronization_fetch_interval">Synchronization frequency</string>
 
     <string name="pref_battery_phone">手機電量</string>
     <string name="pref_battery_phone_summary">低電量或充滿電時通知</string>
@@ -146,8 +159,14 @@
     <string name="pref_diagnostic">诊断</string>
     <string name="pref_cat_diagnostic_closing_protection">防止关闭</string>
     <string name="pref_diagnostic_battery_optimisation">电池优化关闭</string>
+    <string name="pref_diagnostic_companion_device">伴侶設備配對</string>
     <string name="pref_diagnostic_info">更多信息</string>
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
+
+    <string name="pref_cat_diagnostic_permissions">权限</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">安排确切的警报</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Additional permission is required to schedule the task at an exact time.</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">勿扰访问</string>
 
 
     <!-- Snackbar Messages -->
@@ -187,6 +206,7 @@
     <string name="message_feature_is_not_supported">%1$s 不支援此功能</string>
     <string name="message_general_error">設定失敗（失去連接），請重新再試</string>
     <string name="message_internet_error">沒有網路連結</string>
+    <string name="message_internet_traffic_blocked">Network traffic is blocked</string>
     <string name="message_gps_enable">開啟GPS</string>
     <string name="message_location_enable">Enable the location info permission</string>
 
@@ -343,14 +363,24 @@
 
 
     <!-- Blood oxygen -->
-    <string name="blood_oxygen_details">Blood oxygen details</string>
+    <string name="blood_oxygen_details">血氧詳情</string>
 
     <string name="blood_oxygen_level_measurement">Blood oxygen level measurement</string>
     <string name="measurement_interval">Measurement interval</string>
 
 
+    <!-- Blood pressure -->
+    <string name="blood_pressure_details">血壓詳情</string>
+
+    <string name="blood_pressure_level_measurement">Blood pressure level measurement</string>
+
+    <string name="blood_pressure_systolic_abbreviation">Sys</string>
+    <string name="blood_pressure_diastolic_abbreviation">Dia</string>
+    <string name="blood_pressure_unit">mmHg</string>
+
+
     <!-- Workout -->
-    <string name="workout_details">Workout details</string>
+    <string name="workout_details">鍛煉細節</string>
 
 
     <!-- Alarm -->
@@ -362,7 +392,7 @@
 
     <string name="info_dialog_alarm"><![CDATA[
         <p>使用協作模式時，原始應用程序和<app_name/>應用程序的設置可以覆蓋和刪除彼此的設置。</p>
-        <p>最後執行的操作將生效。</p>
+        最後執行的操作將生效。
     ]]></string>
 
 
@@ -386,7 +416,7 @@
     <string name="pref_dnd_enable_bluetooth">在勿擾模式開始時關閉藍牙,結束後再打開藍牙</string>
 
     <string name="info_dialog_dnd"><![CDATA[
-        <p>If you are using cooperation mode, in the official <device_type/> application the do not disturb (DnD) mode must be between 00:00 and 23:59 and its status must be turned off.</p>
+        If you are using cooperation mode, in the official <device_type/> application the do not disturb (DnD) mode must be between 00:00 and 23:59 and its status must be turned off.
     ]]></string> <!-- %1$s Haylou fit-->
 
 
@@ -407,7 +437,9 @@
     <string name="watch_face_invalid_firmware">%1$s firmware does not support uploading the watch face, update the firmware in the official application</string> <!-- %1$s = Haylou Smart watch ... -->
     <string name="watch_face_invalid_auth">Use in standalone mode, when using cooperation mode, the official application may block the watch face upload</string>
     <string name="watch_face_invalid_free">In the free mode, more dials cannot be uploaded today</string>
-    <string name="watch_face_watch_rewarded_ads">Watch a video to continue uploading</string>
+    <string name="watch_face_watch_rewarded_ads">觀看視頻繼續</string>
+    <string name="watch_face_watch_rewarded_ads_uploading">Watch a video to continue uploading</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">Video starting…</string>
 
     <string name="watch_face_upload_speed_title">Upload speed</string>
     <string name="watch_face_upload_speed_hint">Set a lower speed if the watch face uploading process is interrupted</string>
@@ -424,14 +456,19 @@
     <string name="watch_face_edit_hour_digital">小時</string>
     <string name="watch_face_edit_minute_digital">分鐘</string>
     <string name="watch_face_edit_second_digital">第二</string>
+    <string name="watch_face_edit_am_pm">AM/PM indicator</string>
+    <string name="watch_face_edit_am">AM</string>
+    <string name="watch_face_edit_pm">PM</string>
     <string name="watch_face_edit_hour_analog">Hour hand</string>
     <string name="watch_face_edit_minute_analog">Minute hand</string>
     <string name="watch_face_edit_second_analog">Second hand</string>
     <string name="watch_face_edit_axis">Axis of rotation</string>
     <string name="watch_face_edit_hour_minute_separator">小時和分鐘分隔符</string>
+    <string name="watch_face_edit_year">年</string>
+    <string name="watch_face_edit_year_month_separator">年和月分隔符</string>
     <string name="watch_face_edit_month">月</string>
     <string name="watch_face_edit_month_name">月份名稱</string>
-    <string name="watch_face_edit_mont_day_separator">月和日分隔符</string>
+    <string name="watch_face_edit_month_day_separator">月和日分隔符</string>
     <string name="watch_face_edit_day">日</string>
     <string name="watch_face_edit_dayOfWeek">一周中的一天</string>
     <string name="watch_face_edit_battery_level">電池量</string>
@@ -461,6 +498,8 @@
     <string name="watch_face_edit_image_png">圖片 (.png)</string>
     <string name="watch_face_edit_icon">Icon</string>
     <string name="watch_face_edit_image_size">圖片尺寸</string>
+
+    <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
 
 
     <!-- Touch monitoring -->
@@ -575,13 +614,14 @@
 
     <string name="info_dialog_touch"><![CDATA[
         <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
+        <p><b>Phones Bluetooth settings:</b> <device_name/> disable input device</p>
         <b><u>Recognised touches</u></b>
         <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
         <br><device_type/> music control
         <p><img src="ic_touch_find">
         <br><device_type/> find my phone
         </p>
-        <p>Multiple touches can be recorded for a function.</p>
+        Multiple touches can be recorded for each function.
     ]]></string>
 
 
@@ -694,7 +734,8 @@
     <string name="purchase_order_id_help">Copy from:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
-    <string name="purchase_button_purchase">購買</string>
+    <string name="purchase_info">One-time payment ・ %1$s</string> <!-- %1$s = price</string>-->
+    <string name="purchase_button_purchase">一次費用</string>
 
     <!-- Feedback -->
     <string name="action_log_notification">日誌記錄</string>
@@ -712,25 +753,38 @@
     <string name="privacy_policy_collect_title">我們收集以下信息</string>
     <string name="privacy_policy_collect"><![CDATA[
         <p>• We only collect anonymous information.</p>
-        <p>• We collect information at the application level about the services that you use and how you use them (Google Firebase Platform).</p>
-        <p>• We collect information at the application level like bugs, errors and crashes to provide improvements (Google Firebase Platform).</p>
-        <p>• Google Firebase Platform collects information anonymously. It reports trends without identifying individual users.</p>
-        • We do not share any data with other companies and organizations.
+        <p>• We collect information at the application level about the services that you use and how you use them (Google Analytics).</p>
+        <p>• We collect information at the application level like bugs, errors, and crashes to provide improvements (Firebase Crashlytics).</p>
+        <p>• We collect information at the application level about the performance (Firebase Performance Monitoring).</p>
+        <p>• Google Firebase Platform collects information anonymously. It reports trends without identifying individual users.
+        The Firebase Platform collects data such as Firebase installation ID, application state, relevant device metadata (device model, CPU architecture, RAM and disk size, OS, screen orientation, country, locale/language), stack traces, performance metrics (including app start time and network request latency, network URLs), CPU/memory usage, IP address …
+        </p>
+        • We collect location data to update the weather based on your current location (optional).
     ]]></string>
 
     <string name="privacy_policy_not_collect_title">我們不收集以下信息</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>• We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address, IP address or MAC address.</p>
-        <p>• We do not collect personal health data, contacts and phone notification text.</p>
-        • We do not collect location data.
+        <p>• We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address or MAC address.</p>
+        • We do not collect personal health data, contacts and phone notification texts.
+    ]]></string>
+
+    <string name="privacy_policy_share_title">Information we share</string>
+    <string name="privacy_policy_share"><![CDATA[
+        • We do not share any data with other companies and organizations other than Google.
+    ]]></string>
+
+    <string name="privacy_policy_use_title">Personal and sensitive user data we use</string>
+    <string name="privacy_policy_use"><![CDATA[
+        • We use location data to update the weather (optional).
     ]]></string>
 
     <string name="privacy_policy_links_title">第三方服務提供商的隱私政策</string>
     <string name="privacy_policy_links"><![CDATA[
         <a href="https://policies.google.com/privacy">Google Play Services</a>
         <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
-        <p><a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a></p>
-        <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
+        <p><a href="https://firebase.google.com/policies/analytics">Google Analytics</a></p>
+        <p><a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a></p>
+        <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">狀態</string>
@@ -858,6 +912,8 @@
     <string name="action_chart_sort_pulse_desc">心率 降序</string>
     <string name="action_chart_sort_spo2_asc">SpO2 ascending</string>
     <string name="action_chart_sort_spo2_desc">SpO2 descending</string>
+    <string name="action_chart_sort_pressure_asc">Pressure ascending</string>
+    <string name="action_chart_sort_pressure_desc">Pressure descending</string>
     <string name="action_chart_monthly_calendar">日歷</string>
     <string name="action_chart_monthly_compact">袖珍的</string>
 
@@ -867,7 +923,27 @@
 
     <string name="required_value">必要</string>
 
+    <string name="percent_0">0%</string>
+    <string name="percent_10">10%</string>
+    <string name="percent_20">20%</string>
+    <string name="percent_30">30%</string>
+    <string name="percent_40">40%</string>
+    <string name="percent_50">50%</string>
+    <string name="percent_60">60%</string>
+    <string name="percent_70">70%</string>
+    <string name="percent_80">80%</string>
+    <string name="percent_90">90%</string>
+    <string name="percent_100">100%</string>
+
     <!-- Constante -->
+    <string name="const_day_of_week_sunday">Sunday</string>
+    <string name="const_day_of_week_monday">Monday</string>
+    <string name="const_day_of_week_tuesday">Tuesday</string>
+    <string name="const_day_of_week_wednesday">Wednesday</string>
+    <string name="const_day_of_week_thursday">Thursday</string>
+    <string name="const_day_of_week_friday">Friday</string>
+    <string name="const_day_of_week_saturday">Saturday</string>
+
     <string name="const_time_abbreviation_day">天</string>
     <string name="const_time_abbreviation_hour">時</string>
     <string name="const_time_abbreviation_minute">分</string>

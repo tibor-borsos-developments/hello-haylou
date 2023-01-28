@@ -8,6 +8,7 @@
     <string name="menu_nav_sleep">Sonno</string>
     <string name="menu_nav_pulse">Battiti</string>
     <string name="menu_nav_blood_oxygen">Ossigeno nel sangue</string>
+    <string name="menu_nav_blood_pressure">Pressione sanguigna</string>
     <string name="menu_nav_workout">Allenarsi</string>
     <string name="menu_nav_alarm">Sveglia</string>
     <string name="menu_nav_reminder">Promemoria</string>
@@ -50,6 +51,9 @@
 
     <string name="pref_dnd_title">Modalità non disturbare</string>
 
+    <string name="error_title">Oops! Qualcosa è andato storto</string>
+    <string name="error_message">Aggiorna l\'app all\'ultima versione</string>
+
 
     <!-- Haylou setting -->
     <string name="mi_band_setting_button_title">Impostazioni %1$s・Profilo・Messaggio・Chiamata・Menu</string>
@@ -81,6 +85,14 @@
 
     <string name="pref_disconnect_device">Disconnessione</string>
 
+    <string name="mi_band_setting_connection_problem_title">In case of connection problem</string>
+    <string name="mi_band_setting_connection_problem_hint"><![CDATA[
+    - Unpair the watch in the phone\'s Bluetooth settings
+    <br>- Turn Bluetooth off and on
+    <br>- Force close the Application or restart the phone
+    <br>- Pair your watch again on the main screen
+    ]]></string>
+
     <string name="mi_band_setting_dial">Watchface</string>
     <string name="mi_band_setting_language">Lingua</string>
     <string name="mi_band_setting_time_24h">Formato orario di 24 ore</string>
@@ -91,7 +103,11 @@
     <string name="mi_band_setting_idle_alert_time">Tempo di inattività</string>
     <string name="mi_band_setting_idle_alert_dnd">Modalità non Disturbare (12:00-14:00)</string>
 
-    <string name="mi_band_setting_profile">Questo dato è richiesto per calcolare correttamente il numero dei passi, distanza, e calorie bruciate</string>
+    <string name="pref_synchronization">Sincronizzazione</string>
+    <string name="pref_synchronization_fetch_interval">Frequenza di sincronizzazione</string>
+    <string name="pref_synchronization_summary">Select the data to be automatically synchronised in the background. If you do not need any of the data, turn it off for better performance. Data can still be synchronised manually on the home screen or in the appropriate menus (by sweeping down).</string>
+
+    <string name="mi_band_setting_profile">Questo dato è richiesto per calcolare correttamente il numero dei passi, distanza, e calorie bruciate.</string>
     <string name="mi_band_setting_gender">Sesso</string>
     <string name="mi_band_setting_gender_male">Maschio</string>
     <string name="mi_band_setting_gender_female">Femmina</string>
@@ -116,10 +132,6 @@
     <!-- PreferenceScreen -->
     <string name="pref_connected_have_notif_interval_title">Intervallo promemoria notifica</string>
     <string name="pref_connected_have_notif_interval_summary">Timer messaggio Intervallo Notifiche/promemoria</string>
-
-    <string name="pref_synchronization">Sincronizzazione</string>
-    <string name="pref_synchronization_fetch">Attività・Battiti</string>
-    <string name="pref_synchronization_fetch_interval">Frequenza di sincronizzazione</string>
 
     <string name="pref_battery_phone">Batteria smartphone</string>
     <string name="pref_battery_phone_summary">Notifiche per batteria scarica e carica</string>
@@ -147,8 +159,14 @@
     <string name="pref_diagnostic">Diagnostica</string>
     <string name="pref_cat_diagnostic_closing_protection">Protezioni contro chiusura</string>
     <string name="pref_diagnostic_battery_optimisation">Ottimizzazione batteria disattivato</string>
+    <string name="pref_diagnostic_companion_device">Accoppiamento del dispositivo di accompagnamento</string>
     <string name="pref_diagnostic_info">Maggiori informazioni</string>
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
+
+    <string name="pref_cat_diagnostic_permissions">Permessi</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">Pianifica la sveglia esatta</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Additional permission is required to schedule the task at an exact time.</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">Accesso non disturbare</string>
 
 
     <!-- Snackbar Messages -->
@@ -188,6 +206,7 @@
     <string name="message_feature_is_not_supported">%1$s non supporta questa funzionalità</string>
     <string name="message_general_error">Impostazione fallita (connessione persa), riprova</string>
     <string name="message_internet_error">Manca connessione internet</string>
+    <string name="message_internet_traffic_blocked">Network traffic is blocked</string>
     <string name="message_gps_enable">Abilita il GPS</string>
     <string name="message_location_enable">Abilita l\'autorizzazione per le informazioni sulla posizione</string>
 
@@ -344,10 +363,20 @@
 
 
     <!-- Blood oxygen -->
-    <string name="blood_oxygen_details">Blood oxygen details</string>
+    <string name="blood_oxygen_details">Dettagli sull\'ossigeno nel sangue</string>
 
     <string name="blood_oxygen_level_measurement">Blood oxygen level measurement</string>
     <string name="measurement_interval">Measurement interval</string>
+
+
+    <!-- Blood pressure -->
+    <string name="blood_pressure_details">Dettagli sulla pressione sanguigna</string>
+
+    <string name="blood_pressure_level_measurement">Blood pressure level measurement</string>
+
+    <string name="blood_pressure_systolic_abbreviation">Sys</string>
+    <string name="blood_pressure_diastolic_abbreviation">Dia</string>
+    <string name="blood_pressure_unit">mmHg</string>
 
 
     <!-- Workout -->
@@ -363,7 +392,7 @@
 
     <string name="info_dialog_alarm"><![CDATA[
         <p>Quando usi in modalità cooperazione, il settaggio della app ufficiale <app_name/> può cancellare o sovrascrivere i dati.</p>
-        <p>L\'ultima operazione eseguita avrà effetto.</p>
+        L\'ultima operazione eseguita avrà effetto.
     ]]></string>
 
 
@@ -387,7 +416,7 @@
     <string name="pref_dnd_enable_bluetooth">Spegni Bluetooth all\'inizio della modalità non disturbare, e riaccendilo alla fine</string>
 
     <string name="info_dialog_dnd"><![CDATA[
-        <p>Se stai usando la modalità cooperazione con app ufficiale <device_type/> il non disturbare (DnD) nell\'intervallo 00:00 e 23:59 possono essere disattivati.</p>
+        Se stai usando la modalità cooperazione con app ufficiale <device_type/> il non disturbare (DnD) nell\'intervallo 00:00 e 23:59 possono essere disattivati.
     ]]></string> <!-- %1$s Haylou fit-->
 
 
@@ -408,7 +437,9 @@
     <string name="watch_face_invalid_firmware">%1$s il programma non supporta il caricamento del quadrante, aggiornare il firmware dalla app ufficiale</string> <!-- %1$s = Haylou Smart watch ... -->
     <string name="watch_face_invalid_auth">In modalità da solo, quando usi in modalità cooperazione, la app ufficiale può bloccare il caricamento</string>
     <string name="watch_face_invalid_free">nella modalità gratuita, oggi molti quadranti non possono essere caricati</string>
-    <string name="watch_face_watch_rewarded_ads">Watch a video to continue uploading</string>
+    <string name="watch_face_watch_rewarded_ads">Guarda un video per continuare</string>
+    <string name="watch_face_watch_rewarded_ads_uploading">Watch a video to continue uploading</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">Video starting…</string>
 
     <string name="watch_face_upload_speed_title">Velocità di caricamento</string>
     <string name="watch_face_upload_speed_hint">Regola una velocità più bassa in caso di interruzione del caricamento</string>
@@ -425,14 +456,19 @@
     <string name="watch_face_edit_hour_digital">Ora</string>
     <string name="watch_face_edit_minute_digital">Minuto</string>
     <string name="watch_face_edit_second_digital">Secondo</string>
+    <string name="watch_face_edit_am_pm">AM/PM indicator</string>
+    <string name="watch_face_edit_am">AM</string>
+    <string name="watch_face_edit_pm">PM</string>
     <string name="watch_face_edit_hour_analog">Hour hand</string>
     <string name="watch_face_edit_minute_analog">Minute hand</string>
     <string name="watch_face_edit_second_analog">Second hand</string>
     <string name="watch_face_edit_axis">Axis of rotation</string>
     <string name="watch_face_edit_hour_minute_separator">Separatore di ora e minuti</string>
+    <string name="watch_face_edit_year">Anno</string>
+    <string name="watch_face_edit_year_month_separator">Separatore anno e mese</string>
     <string name="watch_face_edit_month">Mese</string>
     <string name="watch_face_edit_month_name">Nome del mese</string>
-    <string name="watch_face_edit_mont_day_separator">Separatore di mese e giorno</string>
+    <string name="watch_face_edit_month_day_separator">Separatore di mese e giorno</string>
     <string name="watch_face_edit_day">Giorno</string>
     <string name="watch_face_edit_dayOfWeek">Il giorno della settimana</string>
     <string name="watch_face_edit_battery_level">Livello batteria</string>
@@ -446,6 +482,7 @@
     <string name="watch_face_edit_disconnected">Disconnesso</string>
     <string name="watch_face_edit_steps">Passi</string>
     <string name="watch_face_edit_steps_image">Immagine dei passaggi</string>
+    <string name="watch_face_edit_steps_goal_progress">Steps goal progress</string>
     <string name="watch_face_edit_distance">Distanza</string>
     <string name="watch_face_edit_distance_image">Distance image</string>
     <string name="watch_face_edit_calories">Calorie</string>
@@ -462,6 +499,8 @@
     <string name="watch_face_edit_image_png">Immagine (.png)</string>
     <string name="watch_face_edit_icon">Icon</string>
     <string name="watch_face_edit_image_size">Dimensione dell\'immagine</string>
+
+    <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
 
 
     <!-- Touch monitoring -->
@@ -576,13 +615,14 @@
 
     <string name="info_dialog_touch"><![CDATA[
         <p>Funziona correttamente in modalità da solo. Se usi modalità cooperazione, la applicazione <app_official/> ufficiale gestirà anche queste funzioni, pertanto non è possibile garantire il corretto funzionamento.</p>
+        <p><b>Phones Bluetooth settings:</b> <device_name/> disable input device</p>
         <b><u>Tocchi riconosciuti</u></b>
         <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
         <br><device_type/> controllo musica
         <p><img src="ic_touch_find">
         <br><device_type/> cerca il mio telefono
         </p>
-        <p>È possibile registrare più tocchi per una funzione.</p>
+        È possibile registrare più tocchi per una funzione.
     ]]></string>
 
 
@@ -695,6 +735,7 @@
     <string name="purchase_order_id_help">Copia da:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <string name="purchase_info">Commissione una tantum ・ %1$s</string> <!-- %1$s = price</string>-->
     <string name="purchase_button_purchase">Acquista</string>
 
     <!-- Feedback -->
@@ -713,25 +754,38 @@
     <string name="privacy_policy_collect_title">Raccolta Informazioni</string>
     <string name="privacy_policy_collect"><![CDATA[
         <p>• Raccogliamo solo informazioni anonime.</p>
-        <p>• Raccogliamo informazioni a livello applicazione, riguardo ai servizi che usi e come li usi (Piattaforma Google Firebase).</p>
-        <p>• Raccogliamo informazioni a livello applicazione come bug, errori e crash per permetterci di migliorare l\'app (Piattaforma Google Firebase).</p>
-        <p>• La piattaforma Google Firebase raccoglie informazioni anonime, creando report senza identificare gli utenti.</p>
-        • Non condividiamo nessun dato con altre compagnie e organizzazioni.
+        <p>• Raccogliamo informazioni a livello applicazione, riguardo ai servizi che usi e come li usi (Google Analytics).</p>
+        <p>• Raccogliamo informazioni a livello applicazione come bug, errori e crash per permetterci di migliorare l\'app (Firebase Crashlytics).</p>
+        <p>• We collect information at the application level about the performance (Firebase Performance Monitoring).</p>
+        <p>• La piattaforma Google Firebase raccoglie informazioni anonime, creando report senza identificare gli utenti.
+        The Firebase Platform collects data such as Firebase installation ID, application state, relevant device metadata (device model, CPU architecture, RAM and disk size, OS, screen orientation, country, locale/language), stack traces, performance metrics (including app start time and network request latency, network URLs), CPU/memory usage, IP address …
+        </p>
+        • We collect location data to update the weather based on your current location (optional).
     ]]></string>
 
     <string name="privacy_policy_not_collect_title">Informazioni che non raccogliamo</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>• Non raccogliamo dati identificativi personali. In altre parole, non raccogliamo informazioni come il tuo nome, indirizzo, numero di telefono, email, indirizzo IP, o indirizzo MAC.</p>
-        <p>• Non raccogliamo dati sulla salute, contatti e testi delle notifiche.</p>
-        • We do not collect location data.
+        <p>• Non raccogliamo dati identificativi personali. In altre parole, non raccogliamo informazioni come il tuo nome, indirizzo, numero di telefono, email, o indirizzo MAC.</p>
+        • Non raccogliamo dati sulla salute, contatti e testi delle notifiche.
+    ]]></string>
+
+    <string name="privacy_policy_share_title">Information we share</string>
+    <string name="privacy_policy_share"><![CDATA[
+        • We do not share any data with other companies and organizations other than Google.
+    ]]></string>
+
+    <string name="privacy_policy_use_title">Personal and sensitive user data we use</string>
+    <string name="privacy_policy_use"><![CDATA[
+        • We use location data to update the weather (optional).
     ]]></string>
 
     <string name="privacy_policy_links_title">Privacy policy di servizi forniti da terze parti</string>
     <string name="privacy_policy_links"><![CDATA[
         <a href="https://policies.google.com/privacy">Google Play Services</a>
         <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
-        <p><a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a></p>
-        <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
+        <p><a href="https://firebase.google.com/policies/analytics">Google Analytics</a></p>
+        <p><a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a></p>
+        <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Stato</string>
@@ -765,7 +819,7 @@
     <string name="tab_monthly_charts">Grafico mensile</string>
     <string name="tab_yearly_charts">Grafico annuali</string>
 
-    <string name="ad_attribution">Ad</string>
+    <string name="ad_attribution">Anno Domini</string>
     <string name="on">On</string>
     <string name="off">Off</string>
     <string name="none">Nessuna</string>
@@ -844,7 +898,7 @@
     <string name="synchronized_from_watch">Sincronizzato dallo smartwatch</string>
 
     <string name="action_chart">Grafico</string>
-    <string name="action_zoom_in">Zoom in</string>
+    <string name="action_zoom_in">Zoom</string>
     <string name="action_chart_normalize_minute">Valori misurati</string>
     <string name="action_chart_normalize_quarter_hourly">Valori ogni 15min</string>
     <string name="action_chart_normalize_half_hourly">Valori ogni 30min</string>
@@ -859,6 +913,8 @@
     <string name="action_chart_sort_pulse_desc">Battiti decrescenti</string>
     <string name="action_chart_sort_spo2_asc">SpO2 crescenti</string>
     <string name="action_chart_sort_spo2_desc">SpO2 decrescenti</string>
+    <string name="action_chart_sort_pressure_asc">Pressure ascending</string>
+    <string name="action_chart_sort_pressure_desc">Pressure descending</string>
     <string name="action_chart_monthly_calendar">Calendario</string>
     <string name="action_chart_monthly_compact">Compatto</string>
 
@@ -868,7 +924,27 @@
 
     <string name="required_value">Richiesto</string>
 
+    <string name="percent_0">0%</string>
+    <string name="percent_10">10%</string>
+    <string name="percent_20">20%</string>
+    <string name="percent_30">30%</string>
+    <string name="percent_40">40%</string>
+    <string name="percent_50">50%</string>
+    <string name="percent_60">60%</string>
+    <string name="percent_70">70%</string>
+    <string name="percent_80">80%</string>
+    <string name="percent_90">90%</string>
+    <string name="percent_100">100%</string>
+
     <!-- Constante -->
+    <string name="const_day_of_week_sunday">Sunday</string>
+    <string name="const_day_of_week_monday">Monday</string>
+    <string name="const_day_of_week_tuesday">Tuesday</string>
+    <string name="const_day_of_week_wednesday">Wednesday</string>
+    <string name="const_day_of_week_thursday">Thursday</string>
+    <string name="const_day_of_week_friday">Friday</string>
+    <string name="const_day_of_week_saturday">Saturday</string>
+
     <string name="const_time_abbreviation_day">g</string>
     <string name="const_time_abbreviation_hour">o</string>
     <string name="const_time_abbreviation_minute">m</string>

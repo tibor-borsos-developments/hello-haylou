@@ -8,6 +8,7 @@
     <string name="menu_nav_sleep">Alvás</string>
     <string name="menu_nav_pulse">Pulzus</string>
     <string name="menu_nav_blood_oxygen">Véroxigén</string>
+    <string name="menu_nav_blood_pressure">Vérnyomás</string>
     <string name="menu_nav_workout">Edzés</string>
     <string name="menu_nav_alarm">Ébresztő</string>
     <string name="menu_nav_reminder">Emlékeztető</string>
@@ -50,6 +51,10 @@
 
     <string name="pref_dnd_title">Ne zavarj mód</string>
 
+    <string name="error_title">Hoppá! Valami hiba történt</string>
+    <string name="error_message">Frissítsd az alkalmazást a legújabb verzióra</string>
+
+
     <!-- Haylou setting -->
     <string name="mi_band_setting_button_title">%1$s beállítások・Profil・Szöveg・Hívás・Menü</string>
     <string name="mi_band_setting_title">%1$s beállítások</string>
@@ -63,7 +68,7 @@
     <string name="mi_band_setting_auth_mi_fit">%1$s együttműködés</string> <!-- Haylou Fit-->
     <string name="mi_band_setting_auth_mi_fit_hint">A működéséhez szükséges a %1$s applikáció telepítése ezen a telefonon. Először a %1$s applikáción belül kell a %2$s párosítását elvégezni. Ha a %1$s applikációt is használni szeretnéd ezt válasszd.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
     <string name="mi_band_setting_auth_standalone">Önálló működés</string>
-    <string name="mi_band_setting_auth_standalone_hint">Nincs szükség a %1$s applikációra a működéshez. Párosítás után töröld a %1$s applikációt. %1$s együttműködés visszaállításakor a %2$s újra párosítását el kell végezni a %1$s applikációban. Leválasztás használatakor az okosóra adatai törlődnek. %2$s képernyő legyen bekapcsolva a műveletek végrehajtása közben.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Nincs szükség a %1$s applikációra a működéshez. Párosítás után töröld a %1$s applikációt vagy szüntesd meg az okosóra párosítását. %1$s együttműködés visszaállításakor a %2$s újra párosítását el kell végezni a %1$s applikációban. Leválasztás használatakor az okosóra adatai törlődnek. %2$s képernyő legyen bekapcsolva a műveletek végrehajtása közben.</string>
 
     <string name="mi_band_setting_auth_key">Hitelesítési kulcs</string>
     <string name="mi_band_setting_auth_key_help">Adj meg bármilyen 4 számot</string>
@@ -80,6 +85,14 @@
 
     <string name="pref_disconnect_device">Kapcsolatbontás</string>
 
+    <string name="mi_band_setting_connection_problem_title">Csatlakozási probléma esetén</string>
+    <string name="mi_band_setting_connection_problem_hint"><![CDATA[
+    - A telefon Bluetooth beállításánál az óra párosítás megszűntetése
+    <br>- Bluetooth ki- és bekapcsoláss
+    <br>- Applikáció kényszerített leállítása vagy a telefon újraindítása
+    <br>- Az óra újrapárosítása a főképernyőn
+    ]]></string>
+
     <string name="mi_band_setting_dial">Számlap</string>
     <string name="mi_band_setting_language">Nyelv</string>
     <string name="mi_band_setting_time_24h">24 órás időformátum</string>
@@ -90,7 +103,11 @@
     <string name="mi_band_setting_idle_alert_time">Tétlenségi idő</string>
     <string name="mi_band_setting_idle_alert_dnd">Ne figyelmeztessen pihenőidőben (12:00-14:00)</string>
 
-    <string name="mi_band_setting_profile">Ezekre az adatokra a lépésszám, távolság és az elégetett kalória helyes kiszámításához van szükség</string>
+    <string name="pref_synchronization">Szinkronizálás</string>
+    <string name="pref_synchronization_fetch_interval">Szinkronizálás gyakorisága</string>
+    <string name="pref_synchronization_summary">A háttérben automatikusan szinkronizálódó adatok kiválasztása. Ammenyiben nincs szükséged valamelyik adatra, akkor kapcsold ki a jobb teljesítmény érdekében. Az adatok továbbra is szinkronizálhatók manuálisan a kezdőképernyőn vagy a megfelelő menükben (lefelé sepréssel).</string>
+
+    <string name="mi_band_setting_profile">Ezekre az adatokra a lépésszám, távolság és az elégetett kalória helyes kiszámításához van szükség.</string>
     <string name="mi_band_setting_gender">Nem</string>
     <string name="mi_band_setting_gender_male">Férfi</string>
     <string name="mi_band_setting_gender_female">Nő</string>
@@ -115,10 +132,6 @@
     <!-- PreferenceScreen -->
     <string name="pref_connected_have_notif_interval_title">Emlékeztető jelzések ismétlésének időköze</string>
     <string name="pref_connected_have_notif_interval_summary">Értesítés/emlékeztető jelzés funkció használja ezt az időzítést</string>
-
-    <string name="pref_synchronization">Szinkronizálás</string>
-    <string name="pref_synchronization_fetch">Aktivitás・Pulzus</string>
-    <string name="pref_synchronization_fetch_interval">Szinkronizálás gyakorisága</string>
 
     <string name="pref_battery_phone">Telefon akkumulátor</string>
     <string name="pref_battery_phone_summary">Alacsony töltöttség és a töltés végeztének jelzése</string>
@@ -146,8 +159,14 @@
     <string name="pref_diagnostic">Diagnosztika</string>
     <string name="pref_cat_diagnostic_closing_protection">Bezárás elleni védelem</string>
     <string name="pref_diagnostic_battery_optimisation">Akkumulátor optimalizálás kikapcsolása</string>
+    <string name="pref_diagnostic_companion_device">Társkészülék párosítása</string>
     <string name="pref_diagnostic_info">További információ</string>
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
+
+    <string name="pref_cat_diagnostic_permissions">Engedélyek</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">Pontos riasztás ütemezése</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">További engedély szükséges a feladat pontos időpontra történő ütemezéséhez.</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">Hozzáférés a ne zavarjanak funkcióhoz</string>
 
 
     <!-- Snackbar Messages -->
@@ -165,6 +184,7 @@
 
     <string name="message_app_chooser_no_selected">Válassz ki egy applikációt</string>
 
+    <!-- Figyelem, ezeket az azonosítókat használom dekódolva a programban nem írható át   -->
     <string name="message_free_counter">Maximum 1 beállítás használható ingyenes módban</string>
 
     <string name="message_notification_free_groups">Maximum %1$,d csoport használható ingyenes módban</string>
@@ -183,17 +203,19 @@
     <string name="message_touch_free_patterns">Maximum %1$,d vezérlés használható ingyenes módban</string>
     <string name="message_touch_record_help">Használd a %1$s zene vezérlő/telefon kereső funkciókat</string> <!-- %1$s = smartwatch -->
 
+<!-- Figyelem, ezeket az azonosítókat használom dekódolva a programban nem írható át   -->
     <string name="message_premium_mode_only">A funkció csak prémium módban érhető el</string>
     <string name="message_feature_is_not_supported">%1$s nem támogatja ezt a funkciót</string> <!-- %1$s = Watch name -->
     <string name="message_general_error">Beállítás nem sikerült (kapcsolat megszakadt), próbáld újra</string>
     <string name="message_internet_error">Nincs internet kapcsolat</string>
+    <string name="message_internet_traffic_blocked">A hálózati forgalom blokkolva van</string>
     <string name="message_gps_enable">GPS engedélyezése</string>
     <string name="message_location_enable">Engedélyezze a helymeghatározást</string>
 
     <string name="message_in_progress">Folyamatban…</string>
     <string name="message_no_data">Nincs adat</string>
 
-    <string name="message_rewarded_error">Videó betöltése nem sikerült</string>
+    <string name="message_rewarded_error">Videó betöltés nem sikerült</string>
 
     <string name="message_new_message">Új üzenet érkezett, megtekinthető a telefonon.</string>
 
@@ -358,6 +380,16 @@
     <string name="measurement_interval">Mérési gyakoriság</string>
 
 
+    <!-- Blood pressure -->
+    <string name="blood_pressure_details">Vérnyomás részletek</string>
+
+    <string name="blood_pressure_level_measurement">Vérnyomás mérés</string>
+
+    <string name="blood_pressure_systolic_abbreviation">Szi</string>
+    <string name="blood_pressure_diastolic_abbreviation">Dia</string>
+    <string name="blood_pressure_unit">Hgmm</string>
+
+
     <!-- Workout -->
     <string name="workout_details">Edzés részletek</string>
 
@@ -371,7 +403,7 @@
 
     <string name="info_dialog_alarm"><![CDATA[
         <p>Együttműködési mód használata esetén a hivatalos alkalmazás és a <app_name/> alkalmazás beállításai felülírhatják és törölhetik egymás beállításait.</p>
-        <p>Az utoljára végrehajtott művelet lesz érvényben.</p>
+        Az utoljára végrehajtott művelet lesz érvényben.
     ]]></string>
 
 
@@ -382,6 +414,7 @@
     <string name="message_reminder_enabled">Emlékeztető beállítva</string>
     <string name="message_reminder_disabled">Emlékeztető letiltva</string>
 
+    <!-- Figyelem, ezeket az azonosítókat használom dekódolva a programban nem írható át   -->
     <string name="message_time_reminder_free_counter">Maximum 1 emlékeztető használható ingyenes módban</string>
 
     <string name="info_dialog_reminder"><![CDATA[
@@ -395,7 +428,7 @@
     <string name="pref_dnd_enable_bluetooth">Ne zavarj mód kezdésekor a Bluetooth kikapcsolása, befejezésekor bekapcsolása</string>
 
     <string name="info_dialog_dnd"><![CDATA[
-        <p>Ha együttműködési módot használsz, akkor a hivatalos <device_type/> alkalmazásban a ne zavarj mód (DnD) időpontja legyen 00:00-23:59 és az állapota legyen kikapcsolva.</p>
+        Ha együttműködési módot használsz, akkor a hivatalos <device_type/> alkalmazásban a ne zavarj mód (DnD) időpontja legyen 00:00-23:59 és az állapota legyen kikapcsolva.
     ]]></string> <!-- %1$s Haylou fit-->
 
 
@@ -415,8 +448,11 @@
 
     <string name="watch_face_invalid_firmware">%1$s firmware nem támogatja a számlap feltöltést, frissítsd a firmware-t a hivatalos applikációban</string>
     <string name="watch_face_invalid_auth">Önálló módban használd, együttműködési mód használata esetén a hivatalos alkalmazás megzavarhatja a számlap feltöltést</string>
+    <!-- Figyelem, ezeket az azonosítókat használom dekódolva a programban nem írható át   -->
     <string name="watch_face_invalid_free">Ingyenes módban több számlap nem tölthető fel a mai nap</string>
-    <string name="watch_face_watch_rewarded_ads">Nézz meg egy videót a feltöltés folytatásához</string>
+    <string name="watch_face_watch_rewarded_ads">Nézz meg egy videót a folytatásához</string>
+    <string name="watch_face_watch_rewarded_ads_uploading">Nézz meg egy videót a feltöltés folytatásához</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">Videó indítása…</string>
 
     <string name="watch_face_upload_speed_title">Feltöltés sebessége</string>
     <string name="watch_face_upload_speed_hint">Számlap feltöltési folyamat megszakadás esetén állíts be alacsonyabb sebességet</string>
@@ -433,14 +469,19 @@
     <string name="watch_face_edit_hour_digital">Óra</string>
     <string name="watch_face_edit_minute_digital">Perc</string>
     <string name="watch_face_edit_second_digital">Másodperc</string>
+    <string name="watch_face_edit_am_pm">de./du. jelző</string>
+    <string name="watch_face_edit_am">de.</string>
+    <string name="watch_face_edit_pm">du.</string>
     <string name="watch_face_edit_hour_analog">Óramutató</string>
     <string name="watch_face_edit_minute_analog">Percmutató</string>
     <string name="watch_face_edit_second_analog">Másodpercmutató</string>
     <string name="watch_face_edit_axis">Forgástengely</string>
     <string name="watch_face_edit_hour_minute_separator">Óra és perc elválasztó</string>
+    <string name="watch_face_edit_year">Év</string>
+    <string name="watch_face_edit_year_month_separator">Év és hónap elválasztó</string>
     <string name="watch_face_edit_month">Hónap</string>
     <string name="watch_face_edit_month_name">Hónapnév</string>
-    <string name="watch_face_edit_mont_day_separator">Hónap és nap elválasztó</string>
+    <string name="watch_face_edit_month_day_separator">Hónap és nap elválasztó</string>
     <string name="watch_face_edit_day">Nap</string>
     <string name="watch_face_edit_dayOfWeek">Hét napja</string>
     <string name="watch_face_edit_battery_level">Akkumulátorszint</string>
@@ -454,6 +495,7 @@
     <string name="watch_face_edit_disconnected">Nincs csatlakozva</string>
     <string name="watch_face_edit_steps">Lépésszám</string>
     <string name="watch_face_edit_steps_image">Lépésszám kép</string>
+    <string name="watch_face_edit_steps_goal_progress">Lépésszám cél előrehaladás</string>
     <string name="watch_face_edit_distance">Távolság</string>
     <string name="watch_face_edit_distance_image">Távolság kép</string>
     <string name="watch_face_edit_calories">Kalória</string>
@@ -470,6 +512,8 @@
     <string name="watch_face_edit_image_png">Kép (.png)</string>
     <string name="watch_face_edit_icon">Ikon</string>
     <string name="watch_face_edit_image_size">Képméret</string>
+
+    <string name="watch_face_custom_watch_face_not_supported_title">Az óra nem támogatja az egyéni óralap feltöltését</string>
 
 
     <!-- Touch monitoring -->
@@ -585,13 +629,14 @@
 
     <string name="info_dialog_touch"><![CDATA[
         <p>Önálló módban működik megfelelően. Együttműködési módban a hivatalos <app_official /> alkalmazás is kezeli ezeket a funkciókat, így a megfelelő működés nem garantálható.</p>
+        <p><b>Telefon Bluetooth beállítások:</b> <device_name/> beviteli eszköz letiltása</p>
         <b><u>Felismert érintések</u></b>
         <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
         <br><device_type/> zene vezélés
         <p><img src="ic_touch_find">
         <br><device_type/> telefon kereső
         </p>
-        <p>Egy funkcióhoz több érintés is rögzíthető.</p>
+        A funkciókhoz több érintés is rögzíthető.
     ]]></string>
 
 
@@ -704,6 +749,7 @@
     <string name="purchase_order_id_help">Megtalálható:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <string name="purchase_info">Egyszeri díj ・ %1$s</string> <!-- %1$s = price</string>-->
     <string name="purchase_button_purchase">Vásárlás</string>
 
     <!-- Feedback -->
@@ -722,25 +768,38 @@
     <string name="privacy_policy_collect_title">Gyűjtött információk</string>
     <string name="privacy_policy_collect"><![CDATA[
         <p>• Csak névtelen adatokat gyűjtünk.</p>
-        <p>• Információkat gyűjtünk az alkalmazás szintjén az Ön által használt szolgáltatásokról és azok használatáról (Google Firebase Platform).</p>
-        <p>• Információkat gyűjtünk az alkalmazás szintjén a programhibákról és az alkalmazás összeomlásokról a javításokhoz (Google Firebase Platform).</p>
-        <p>• Google Firebase Platform csak névtelen adatokat gyűjt. Trend jelentéseket készít a felhasználók azonosítása nélkül.</p>
-        • Nem osztunk meg semmilyen adatot más cégekkel vagy szervezetekkel.
+        <p>• Információkat gyűjtünk az alkalmazás szintjén az Ön által használt szolgáltatásokról és azok használatáról (Google Analytics).</p>
+        <p>• Információkat gyűjtünk az alkalmazás szintjén a programhibákról és az alkalmazás összeomlásokról a javításokhoz (Firebase Crashlytics).</p>
+        <p>• Információkat gyűjtünk az alkalmazás szintjén a teljesítményről (Firebase Performance Monitoring).</p>
+        <p>• Google Firebase Platform csak névtelen adatokat gyűjt. Trend jelentéseket készít a felhasználók azonosítása nélkül.
+        A Firebase Platform olyan adatokat gyűjt, mint a Firebase telepítési azonosító, az alkalmazás állapota, a releváns eszköz metaadatok (eszközmodell, CPU architektúra, RAM és lemez mérete, operációs rendszer, képernyő orientáció, ország, terület/nyelv), veremnyomok, teljesítmény mérőszámok (beleértve az alkalmazás indítási idejét és a hálózati kérések késleltetését, hálózati URL-eket), CPU/memória használat, IP cím …
+        </p>
+        • Helyadatokat gyűjtünk, hogy az aktuális tartózkodási hely alapján frissítsük az időjárást (opcionális).
     ]]></string>
 
     <string name="privacy_policy_not_collect_title">Nem gyűjtött információk</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>• Nem gyűjtünk személyazonosításra alkalmas adatokat Önről. Más szavakkal, nem gyűjtünk olyan adatokat, mint például az Ön nevét, címét, telefonszámát, e-mail címét, IP címét vagy MAC címét.</p>
-        <p>• Nem gyűjtünk személyes egészségügyi adatokat, névjegyeket és eszközön megjelenő értesítés szövegeket.</p>
-        • Nem gyűjtünk helyadatokat.
+        <p>• Nem gyűjtünk személyazonosításra alkalmas adatokat Önről. Más szavakkal, nem gyűjtünk olyan adatokat, mint például az Ön nevét, címét, telefonszámát, e-mail címét vagy MAC címét.</p>
+        • Nem gyűjtünk személyes egészségügyi adatokat, névjegyeket és eszközön megjelenő értesítés szövegeket.
+    ]]></string>
+
+    <string name="privacy_policy_share_title">Megosztott információk</string>
+    <string name="privacy_policy_share"><![CDATA[
+        • Nem osztunk meg semmilyen adatot más cégekkel vagy szervezetekkel a Google-on kívül.
+    ]]></string>
+
+    <string name="privacy_policy_use_title">Felhasznált személyes és érzékeny felhasználói adatok</string>
+    <string name="privacy_policy_use"><![CDATA[
+        • A helyadatokat az időjárás frissítéséhez használjuk (opcionális).
     ]]></string>
 
     <string name="privacy_policy_links_title">Harmadik fél szolgáltatóinak adatvédelmi politikája</string>
     <string name="privacy_policy_links"><![CDATA[
         <a href="https://policies.google.com/privacy">Google Play Services</a>
         <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
-        <p><a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a></p>
-        <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
+        <p><a href="https://firebase.google.com/policies/analytics">Google Analytics</a></p>
+        <p><a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a></p>
+        <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Státusz</string>
@@ -868,6 +927,8 @@
     <string name="action_chart_sort_pulse_desc">Pulzus csökkenő</string>
     <string name="action_chart_sort_spo2_asc">SpO2 növekvő</string>
     <string name="action_chart_sort_spo2_desc">SpO2 csökkenő</string>
+    <string name="action_chart_sort_pressure_asc">Nyomás növekvő</string>
+    <string name="action_chart_sort_pressure_desc">Nyomás csökkenő</string>
     <string name="action_chart_monthly_calendar">Naptár</string>
     <string name="action_chart_monthly_compact">Kompakt</string>
 
@@ -877,7 +938,27 @@
 
     <string name="required_value">Megadása kötelező</string>
 
+    <string name="percent_0">0%</string>
+    <string name="percent_10">10%</string>
+    <string name="percent_20">20%</string>
+    <string name="percent_30">30%</string>
+    <string name="percent_40">40%</string>
+    <string name="percent_50">50%</string>
+    <string name="percent_60">60%</string>
+    <string name="percent_70">70%</string>
+    <string name="percent_80">80%</string>
+    <string name="percent_90">90%</string>
+    <string name="percent_100">100%</string>
+
     <!-- Constante -->
+    <string name="const_day_of_week_sunday">Vasárnap</string>
+    <string name="const_day_of_week_monday">Hétfő</string>
+    <string name="const_day_of_week_tuesday">Kedd</string>
+    <string name="const_day_of_week_wednesday">Szerda</string>
+    <string name="const_day_of_week_thursday">Csütörtök</string>
+    <string name="const_day_of_week_friday">Péntek</string>
+    <string name="const_day_of_week_saturday">Szombat</string>
+
     <string name="const_time_abbreviation_day">n</string>
     <string name="const_time_abbreviation_hour">ó</string>
     <string name="const_time_abbreviation_minute">p</string>

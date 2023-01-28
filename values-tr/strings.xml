@@ -8,7 +8,8 @@
     <string name="menu_nav_sleep">Uyku takibi</string>
     <string name="menu_nav_pulse">Nabız ölçer</string>
     <string name="menu_nav_blood_oxygen">Kan Oksijen</string>
-    <string name="menu_nav_workout">Egzersiz yapmak</string>
+    <string name="menu_nav_blood_pressure">Tansiyon</string>
+    <string name="menu_nav_workout">Egzersiz</string>
     <string name="menu_nav_alarm">Alarm</string>
     <string name="menu_nav_reminder">Etkinlik hatırlatıcı</string>
     <string name="menu_nav_dnd">Rahatsız etmeyin modu</string>
@@ -50,6 +51,9 @@
 
     <string name="pref_dnd_title">Rahatsız etmeyin modu</string>
 
+    <string name="error_title">Hoop! Birşeyler yanlış gitti</string>
+    <string name="error_message">Uygulamayı en son sürüme güncelleyin</string>
+
 
     <!-- Haylou setting -->
     <string name="mi_band_setting_button_title">%1$s ayarları・Profil・Gösterim・Arama・Ekran</string>
@@ -81,6 +85,14 @@
 
     <string name="pref_disconnect_device">Bağlantıyı kes</string>
 
+    <string name="mi_band_setting_connection_problem_title">In case of connection problem</string>
+    <string name="mi_band_setting_connection_problem_hint"><![CDATA[
+    - Unpair the watch in the phone\'s Bluetooth settings
+    <br>- Turn Bluetooth off and on
+    <br>- Force close the Application or restart the phone
+    <br>- Pair your watch again on the main screen
+    ]]></string>
+
     <string name="mi_band_setting_dial">Kadran </string>
     <string name="mi_band_setting_language">Aktif dil</string>
     <string name="mi_band_setting_time_24h">24-hour time format</string>
@@ -90,6 +102,10 @@
     <string name="mi_band_setting_idle_alert">Oturma uyarıları</string>
     <string name="mi_band_setting_idle_alert_time">Hareketsiz süresi</string>
     <string name="mi_band_setting_idle_alert_dnd">Dinlenirken, rahatsız etmeyin (12:00-14:00)</string>
+
+    <string name="pref_synchronization">Senkronizasyon</string>
+    <string name="pref_synchronization_fetch_interval">Senkronizasyon sıklıgı</string>
+    <string name="pref_synchronization_summary">Select the data to be automatically synchronised in the background. If you do not need any of the data, turn it off for better performance. Data can still be synchronised manually on the home screen or in the appropriate menus (by sweeping down).</string>
 
     <string name="mi_band_setting_profile">Bu veri, yakılan kaloriyi, adımları hesaplamak için gerekiyor.</string>
     <string name="mi_band_setting_gender">Cinsiyet</string>
@@ -117,10 +133,6 @@
     <string name="pref_connected_have_notif_interval_title">Hangi aralıkta hatırlatma bildirimi tekrarlansın</string>
     <string name="pref_connected_have_notif_interval_summary">Bildirimler/hatırlatıcılar bu zamanlamayı kullanır</string>
 
-    <string name="pref_synchronization">Senkronizasyon</string>
-    <string name="pref_synchronization_fetch">Adım sayar・Nabız ölçer</string>
-    <string name="pref_synchronization_fetch_interval">Senkronizasyon sıklıgı</string>
-
     <string name="pref_battery_phone">Pil</string>
     <string name="pref_battery_phone_summary">Pil seviyesi düşük veya tam dolu bildirimleri</string>
     <string name="pref_cat_battery_phone_low">Düşük pil seviyesi</string>
@@ -147,8 +159,14 @@
     <string name="pref_diagnostic">Arıza tespit</string>
     <string name="pref_cat_diagnostic_closing_protection">Kapanmaya karşı koruma</string>
     <string name="pref_diagnostic_battery_optimisation">Pil optimizasyonu kapalı</string>
+    <string name="pref_diagnostic_companion_device">Refakatçi Cihaz Eşleştirme</string>
     <string name="pref_diagnostic_info">Daha fazla bilgi</string>
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
+
+    <string name="pref_cat_diagnostic_permissions">İzinler</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">Kesin alarm planlayın</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Additional permission is required to schedule the task at an exact time.</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">Rahatsız etmeyin erişimi</string>
 
 
     <!-- Snackbar Messages -->
@@ -188,6 +206,7 @@
     <string name="message_feature_is_not_supported">%1$s bu özelliği desteklemiyor</string>
     <string name="message_general_error">İşlem başarısız oldu (bağlantı tutarsız), lütfen tekrar deneyin</string>
     <string name="message_internet_error">İnternet bağlantınız yok</string>
+    <string name="message_internet_traffic_blocked">Network traffic is blocked</string>
     <string name="message_gps_enable">GPS\'i etkinleştir</string>
     <string name="message_location_enable">Konum bilgisine erişim izni ver</string>
 
@@ -343,10 +362,20 @@
 
 
     <!-- Blood oxygen -->
-    <string name="blood_oxygen_details">Blood oxygen details</string>
+    <string name="blood_oxygen_details">Kan oksijen ayrıntıları</string>
 
     <string name="blood_oxygen_level_measurement">Blood oxygen level measurement</string>
     <string name="measurement_interval">Measurement interval</string>
+
+
+    <!-- Blood pressure -->
+    <string name="blood_pressure_details">Kan basıncı ayrıntıları</string>
+
+    <string name="blood_pressure_level_measurement">Blood pressure level measurement</string>
+
+    <string name="blood_pressure_systolic_abbreviation">Sys</string>
+    <string name="blood_pressure_diastolic_abbreviation">Dia</string>
+    <string name="blood_pressure_unit">mmHg</string>
 
 
     <!-- Workout -->
@@ -362,7 +391,7 @@
 
     <string name="info_dialog_alarm"><![CDATA[
         <p>Partner modunu kullanırken, resmi uygulamanın ve <app_name/> uygulamasının ayarları çakışabilir ve birbirlerinin ayarlarını silebilir.</p>
-        <p>Bu durumda son yapılan işlem geçerli olur.</p>
+        Bu durumda son yapılan işlem geçerli olur.
     ]]></string>
 
 
@@ -386,7 +415,7 @@
     <string name="pref_dnd_enable_bluetooth">Bluetooth\'u başında kapat, sonunda aç</string>
 
     <string name="info_dialog_dnd"><![CDATA[
-        <p>Haylou fit ile birlikte modunu kullanıyorsanız, <device_type/> uygulamasında, rahatsız etmeyin modu (DnD) 00:00 ile 23:59 arasında olmalıdır ve kapalı olmalıdır.</p>
+        Haylou fit ile birlikte modunu kullanıyorsanız, <device_type/> uygulamasında, rahatsız etmeyin modu (DnD) 00:00 ile 23:59 arasında olmalıdır ve kapalı olmalıdır.
     ]]></string> <!-- %1$s Haylou fit-->
 
 
@@ -407,7 +436,9 @@
     <string name="watch_face_invalid_firmware">%1$s yazılımı saat arayüzü değiştirmeyi desteklemiyor, resmi uygulamadan yazılımı güncelleyin.</string> <!-- %1$s = Haylou Smart watch ... -->
     <string name="watch_face_invalid_auth">Bağımsız modda kullanın, eğer diğer uygulama ile birlikte kullanırsanız, resmi uygulama bunu engelleyebilir.</string>
     <string name="watch_face_invalid_free">Ücretsiz versiyonda bugün daha fazla arayüz yüklenemez.</string>
-    <string name="watch_face_watch_rewarded_ads">Watch a video to continue uploading</string>
+    <string name="watch_face_watch_rewarded_ads">Devam etmek için bir video izleyin</string>
+    <string name="watch_face_watch_rewarded_ads_uploading">Yüklemeye devam etmek için bir video seyredin.</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">Video starting…</string>
 
     <string name="watch_face_upload_speed_title">Yükleme hızı</string>
     <string name="watch_face_upload_speed_hint">Yükleme işlemi kesintiye uğrarsa, daha düşük hıza ayarlayın.</string>
@@ -419,19 +450,24 @@
     <string name="action_chart_layout_2_columns">2-sütunluk tasarım</string>
     <string name="action_chart_layout_3_columns">3-sütunluk tasarım</string>
 
-    <string name="watch_face_edit_dial">Dial</string>
+    <string name="watch_face_edit_dial">Kadran</string>
     <string name="watch_face_edit_preview">Preview</string>
     <string name="watch_face_edit_hour_digital">Saat</string>
     <string name="watch_face_edit_minute_digital">Dakika</string>
-    <string name="watch_face_edit_second_digital">İkinci</string>
-    <string name="watch_face_edit_hour_analog">Hour hand</string>
-    <string name="watch_face_edit_minute_analog">Minute hand</string>
-    <string name="watch_face_edit_second_analog">Second hand</string>
+    <string name="watch_face_edit_second_digital">Saniye</string>
+    <string name="watch_face_edit_am_pm">AM/PM indicator</string>
+    <string name="watch_face_edit_am">AM</string>
+    <string name="watch_face_edit_pm">PM</string>
+    <string name="watch_face_edit_hour_analog">Saat kolu</string>
+    <string name="watch_face_edit_minute_analog">Dakika kolu</string>
+    <string name="watch_face_edit_second_analog">Saniye kolu</string>
     <string name="watch_face_edit_axis">Axis of rotation</string>
     <string name="watch_face_edit_hour_minute_separator">Saat ve dakika ayırıcı</string>
+    <string name="watch_face_edit_year">Yıl</string>
+    <string name="watch_face_edit_year_month_separator">Yıl ve ay ayırıcı</string>
     <string name="watch_face_edit_month">Ay</string>
     <string name="watch_face_edit_month_name">Ayın adı</string>
-    <string name="watch_face_edit_mont_day_separator">Ay ve gün ayırıcı</string>
+    <string name="watch_face_edit_month_day_separator">Ay ve gün ayırıcı</string>
     <string name="watch_face_edit_day">Gün</string>
     <string name="watch_face_edit_dayOfWeek">Haftanın günü</string>
     <string name="watch_face_edit_battery_level">Şarj</string>
@@ -439,28 +475,31 @@
     <string name="watch_face_edit_battery_level_image">Pil resmi</string>
     <string name="watch_face_edit_weather_temperature">Sıcaklık</string>
     <string name="watch_face_edit_weather_temperature_unit_sign">Sıcaklık birimi °</string>
-    <string name="watch_face_edit_weather_image">Weather image</string>
-    <string name="watch_face_edit_connection_indicator_image">Connection indicator image</string>
+    <string name="watch_face_edit_weather_image">Hava durumu simgesi</string>
+    <string name="watch_face_edit_connection_indicator_image">Bağlantı simgesi</string>
     <string name="watch_face_edit_connected">Bağlı</string>
     <string name="watch_face_edit_disconnected">Bağlı değil</string>
     <string name="watch_face_edit_steps">Adım</string>
-    <string name="watch_face_edit_steps_image">Adımlar resmi</string>
+    <string name="watch_face_edit_steps_image">Adım resmi</string>
+    <string name="watch_face_edit_steps_goal_progress">Steps goal progress</string>
     <string name="watch_face_edit_distance">Mesafe</string>
-    <string name="watch_face_edit_distance_image">Distance image</string>
+    <string name="watch_face_edit_distance_image">Mesafe resmi</string>
     <string name="watch_face_edit_calories">Kalori</string>
     <string name="watch_face_edit_calories_image">Kalori resmi</string>
     <string name="watch_face_edit_heart_rate">Kalp ritmi</string>
-    <string name="watch_face_edit_heart_rate_image">Heart rate image</string>
+    <string name="watch_face_edit_heart_rate_image">Kalp ritmi resmi</string>
 
     <string name="watch_face_edit_color">Renk</string>
     <string name="watch_face_edit_font_family">Yazı tipi</string>
     <string name="watch_face_edit_font_size">Yazı Boyutu</string>
-    <string name="watch_face_edit_character">Character</string>
+    <string name="watch_face_edit_character">Karakter</string>
     <string name="watch_face_edit_image">Görüntü</string>
     <string name="watch_face_edit_image_png_jpeg">Görüntü (.png, .jpeg)</string>
     <string name="watch_face_edit_image_png">Görüntü (.png)</string>
-    <string name="watch_face_edit_icon">Icon</string>
+    <string name="watch_face_edit_icon">İkon</string>
     <string name="watch_face_edit_image_size">Görüntü boyutu</string>
+
+    <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
 
 
     <!-- Touch monitoring -->
@@ -575,13 +614,14 @@
 
     <string name="info_dialog_touch"><![CDATA[
         <p>Bağımsız modda çalışır. İşbirliği modu kullanıyorsanız, resmi <app_official/> uygulaması bu fonksiyonları engelleyebilir, bu yüzden çalışacağını garanti edemiyoruz.</p>
+        <p><b>Phones Bluetooth settings:</b> <device_name/> disable input device</p>
         <b><u>Tanınan dokunmalar</u></b>
         <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
         <br><device_type/> müzik kontrolü
         <p><img src="ic_touch_find">
         <br><device_type/> telefonu bul
         </p>
-        <p>Çoklu dokunmalar bir fonksiyon olarak kaydedilebilir.</p>
+        Çoklu dokunmalar bir fonksiyon olarak kaydedilebilir.
     ]]></string>
 
 
@@ -694,6 +734,7 @@
     <string name="purchase_order_id_help">Adresinden satın al:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <string name="purchase_info">Bir kerelik ücret ・ %1$s</string> <!-- %1$s = price</string>-->
     <string name="purchase_button_purchase">Satın Al</string>
 
     <!-- Feedback -->
@@ -712,25 +753,38 @@
     <string name="privacy_policy_collect_title">Topladığımız bilgiler</string>
     <string name="privacy_policy_collect"><![CDATA[
         <p>• Sadece anonim bilgileri topluyoruz.</p>
-        <p>• Uygulama düzeyinde, kullandığınız hizmetler ve bunları nasıl kullandığınız hakkında bilgi toplarız (Google Firebase Platform).</p>
-        <p>• Uygulama düzeyinde, iyileştirmeler sağlamak için hatalar, hatalar ve çökmeler gibi uygulama düzeyinde bilgi toplarız (Google Firebase Platformu).</p>
-        <p>• Google Firebase Platformu, isimsiz olarak bilgi toplar. Bireysel kullanıcıları tanımlamaksızın eğilimleri rapor eder.</p>
-        • Herhangi bir veriyi diğer şirket ve kuruluşlarla paylaşmayız.
+        <p>• Uygulama düzeyinde, kullandığınız hizmetler ve bunları nasıl kullandığınız hakkında bilgi toplarız (Google Analytics).</p>
+        <p>• Uygulama düzeyinde, iyileştirmeler sağlamak için hatalar, hatalar ve çökmeler gibi uygulama düzeyinde bilgi toplarız (Firebase Crashlytics).</p>
+        <p>• We collect information at the application level about the performance (Firebase Performance Monitoring).</p>
+        <p>• Google Firebase Platformu, isimsiz olarak bilgi toplar. Bireysel kullanıcıları tanımlamaksızın eğilimleri rapor eder.
+        The Firebase Platform collects data such as Firebase installation ID, application state, relevant device metadata (device model, CPU architecture, RAM and disk size, OS, screen orientation, country, locale/language), stack traces, performance metrics (including app start time and network request latency, network URLs), CPU/memory usage, IP address …
+        </p>
+        • We collect location data to update the weather based on your current location (optional).
     ]]></string>
 
     <string name="privacy_policy_not_collect_title">Toplamadığımız bilgiler</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>• Sizinle ilgili kişisel olarak tanımlanabilir bilgiler toplamıyoruz. Diğer bir deyişle, adınız, adresiniz, telefon numaranız, e-posta adresiniz, IP adresiniz veya MAC adresiniz gibi bilgileri toplamıyoruz.</p>
-        <p>• Kişisel sağlık verilerini, kişileri ve telefon bildirim metnini toplamıyoruz.</p>
-        • Yer verisi toplamıyoruz.
+        <p>• Sizinle ilgili kişisel olarak tanımlanabilir bilgiler toplamıyoruz. Diğer bir deyişle, adınız, adresiniz, telefon numaranız, e-posta adresiniz veya MAC adresiniz gibi bilgileri toplamıyoruz.</p>
+        • Kişisel sağlık verilerini, kişileri ve telefon bildirim metnini toplamıyoruz.
+    ]]></string>
+
+    <string name="privacy_policy_share_title">Information we share</string>
+    <string name="privacy_policy_share"><![CDATA[
+        • We do not share any data with other companies and organizations other than Google.
+    ]]></string>
+
+    <string name="privacy_policy_use_title">Personal and sensitive user data we use</string>
+    <string name="privacy_policy_use"><![CDATA[
+        • We use location data to update the weather (optional).
     ]]></string>
 
     <string name="privacy_policy_links_title">3. Parti Servis Sağlayıcıları Güvenlik Politikası</string>
     <string name="privacy_policy_links"><![CDATA[
-        <a href="https://policies.google.com/privacy">Google Play Servisleri</a>
+        <a href="https://policies.google.com/privacy">Google Play Services</a>
         <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
-        <p><a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a></p>
-        <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
+        <p><a href="https://firebase.google.com/policies/analytics">Google Analytics</a></p>
+        <p><a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a></p>
+        <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Durum</string>
@@ -764,7 +818,7 @@
     <string name="tab_monthly_charts">Aylık graf.</string>
     <string name="tab_yearly_charts">Yıllık graf.</string>
 
-    <string name="ad_attribution">Ad</string>
+    <string name="ad_attribution">Reklam</string>
     <string name="on">Açık</string>
     <string name="off">Kapalı</string>
     <string name="none">Yok</string>
@@ -858,6 +912,8 @@
     <string name="action_chart_sort_pulse_desc">Azalan nabız</string>
     <string name="action_chart_sort_spo2_asc">SpO2 ascending</string>
     <string name="action_chart_sort_spo2_desc">SpO2 descending</string>
+    <string name="action_chart_sort_pressure_asc">Pressure ascending</string>
+    <string name="action_chart_sort_pressure_desc">Pressure descending</string>
     <string name="action_chart_monthly_calendar">Takvim</string>
     <string name="action_chart_monthly_compact">Sıkıştır</string>
 
@@ -867,7 +923,27 @@
 
     <string name="required_value">Gerekli</string>
 
+    <string name="percent_0">0%</string>
+    <string name="percent_10">10%</string>
+    <string name="percent_20">20%</string>
+    <string name="percent_30">30%</string>
+    <string name="percent_40">40%</string>
+    <string name="percent_50">50%</string>
+    <string name="percent_60">60%</string>
+    <string name="percent_70">70%</string>
+    <string name="percent_80">80%</string>
+    <string name="percent_90">90%</string>
+    <string name="percent_100">100%</string>
+
     <!-- Constante -->
+    <string name="const_day_of_week_sunday">Sunday</string>
+    <string name="const_day_of_week_monday">Monday</string>
+    <string name="const_day_of_week_tuesday">Tuesday</string>
+    <string name="const_day_of_week_wednesday">Wednesday</string>
+    <string name="const_day_of_week_thursday">Thursday</string>
+    <string name="const_day_of_week_friday">Friday</string>
+    <string name="const_day_of_week_saturday">Saturday</string>
+
     <string name="const_time_abbreviation_day">g</string>
     <string name="const_time_abbreviation_hour">s</string>
     <string name="const_time_abbreviation_minute">dk</string>

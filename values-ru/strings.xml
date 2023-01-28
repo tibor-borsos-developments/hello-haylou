@@ -8,6 +8,7 @@
     <string name="menu_nav_sleep">Сон</string>
     <string name="menu_nav_pulse">Пульс</string>
     <string name="menu_nav_blood_oxygen">Уровень кислорода в крови</string>
+    <string name="menu_nav_blood_pressure">Артериальное давление</string>
     <string name="menu_nav_workout">Тренировки</string>
     <string name="menu_nav_alarm">Будильник</string>
     <string name="menu_nav_reminder">Напоминания</string>
@@ -50,6 +51,10 @@
 
     <string name="pref_dnd_title">Режим \"Не беспокоить\"</string>
 
+    <string name="error_title">Упс! Что-то пошло не так</string>
+    <string name="error_message">Обновить приложение до последней версии</string>
+
+
     <!-- Haylou setting -->
     <string name="mi_band_setting_button_title">Настройки %1$sk・Профиль・Текст・Вызов・Меню</string>
     <string name="mi_band_setting_title">Настройки %1$s</string>
@@ -80,6 +85,14 @@
 
     <string name="pref_disconnect_device">Отключение</string>
 
+    <string name="mi_band_setting_connection_problem_title">In case of connection problem</string>
+    <string name="mi_band_setting_connection_problem_hint"><![CDATA[
+    - Unpair the watch in the phone\'s Bluetooth settings
+    <br>- Turn Bluetooth off and on
+    <br>- Force close the Application or restart the phone
+    <br>- Pair your watch again on the main screen
+    ]]></string>
+
     <string name="mi_band_setting_dial">Отображение</string>
     <string name="mi_band_setting_language">Язык</string>
     <string name="mi_band_setting_time_24h">24-часовой формат</string>
@@ -90,7 +103,11 @@
     <string name="mi_band_setting_idle_alert_time">Время бездействия</string>
     <string name="mi_band_setting_idle_alert_dnd">Не уведомлять во время отдыха (12:00-14:00)</string>
 
-    <string name="mi_band_setting_profile">Эти данные необходимы для правильного расчета количества шагов, расстояния и сожженных калорий</string>
+    <string name="pref_synchronization">Синхронизация</string>
+    <string name="pref_synchronization_fetch_interval">Интервал синхронизации</string>
+    <string name="pref_synchronization_summary">Select the data to be automatically synchronised in the background. If you do not need any of the data, turn it off for better performance. Data can still be synchronised manually on the home screen or in the appropriate menus (by sweeping down).</string>
+
+    <string name="mi_band_setting_profile">Эти данные необходимы для правильного расчета количества шагов, расстояния и сожженных калорий.</string>
     <string name="mi_band_setting_gender">Пол</string>
     <string name="mi_band_setting_gender_male">Мужской</string>
     <string name="mi_band_setting_gender_female">Женский</string>
@@ -115,10 +132,6 @@
     <!-- PreferenceScreen -->
     <string name="pref_connected_have_notif_interval_title">Интервал повторения уведомлений</string>
     <string name="pref_connected_have_notif_interval_summary">Сигнал уведомлений/напоминаний использует это время</string>
-
-    <string name="pref_synchronization">Синхронизация</string>
-    <string name="pref_synchronization_fetch">Активность・Пульс</string>
-    <string name="pref_synchronization_fetch_interval">Интервал синхронизации</string>
 
     <string name="pref_battery_phone">Аккумулятор устройства</string>
     <string name="pref_battery_phone_summary">Уведомления низкого и полного заряда</string>
@@ -146,8 +159,14 @@
     <string name="pref_diagnostic">Диагностика</string>
     <string name="pref_cat_diagnostic_closing_protection">Поддержка работы в фоновом режиме</string>
     <string name="pref_diagnostic_battery_optimisation">Отключить оптимизацию энергопотребления</string>
+    <string name="pref_diagnostic_companion_device">Сопутствующее устройство пары</string>
     <string name="pref_diagnostic_info">Дополнительная информация</string>
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
+
+    <string name="pref_cat_diagnostic_permissions">Разрешения</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">Запланируйте точную тревогу</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Additional permission is required to schedule the task at an exact time.</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">\'Не беспокоить\'</string>
 
 
     <!-- Snackbar Messages -->
@@ -187,6 +206,7 @@
     <string name="message_feature_is_not_supported">%1$s не поддерживает эту функцию</string>
     <string name="message_general_error">Ошибка (соединение потеряно), попробуйте снова</string>
     <string name="message_internet_error">Нет подключения к Интернету</string>
+    <string name="message_internet_traffic_blocked">Network traffic is blocked</string>
     <string name="message_gps_enable">Включите определение местоположения</string>
     <string name="message_location_enable">Включите доступ к информации о местоположении</string>
 
@@ -349,6 +369,16 @@
     <string name="measurement_interval">Интервал измерений</string>
 
 
+    <!-- Blood pressure -->
+    <string name="blood_pressure_details">Сведения об артериальном давлении</string>
+
+    <string name="blood_pressure_level_measurement">Измерение уровня артериального давления</string>
+
+    <string name="blood_pressure_systolic_abbreviation">сис</string>
+    <string name="blood_pressure_diastolic_abbreviation">диа</string>
+    <string name="blood_pressure_unit">мм рт. ст.</string>
+
+
     <!-- Workout -->
     <string name="workout_details">Детали тренировки</string>
 
@@ -362,7 +392,7 @@
 
     <string name="info_dialog_alarm"><![CDATA[
         <p>При использовании режима совместной работы настройки официального приложения Haylou и приложения <app_name/> могут перезаписывать и удалять настройки друг друга.</p>
-        <p>Только последняя выполненная операция вступит в силу.</p>
+        Только последняя выполненная операция вступит в силу.
     ]]></string>
 
 
@@ -386,7 +416,7 @@
     <string name="pref_dnd_enable_bluetooth">При включении режима \"Не беспокоить\" выключать Bluetooth.</string>
 
     <string name="info_dialog_dnd"><![CDATA[
-        <p>При использовании режима совместной работы, в настройках официального приложения <device_type/>, режим \"Не беспокоить\" должен быть настроен с 00:00 до 23:59 и должен быть выключен.</p>
+        При использовании режима совместной работы, в настройках официального приложения <device_type/>, режим \"Не беспокоить\" должен быть настроен с 00:00 до 23:59 и должен быть выключен.
     ]]></string> <!-- %1$s Haylou fit-->
 
 
@@ -407,7 +437,9 @@
     <string name="watch_face_invalid_firmware">%1$s прошивка не поддерживает загрузку циферблата в часы, обновите прошивку часов в официальном приложении.</string> <!-- %1$s = Haylou Smart watch ... -->
     <string name="watch_face_invalid_auth">Используйте функцию в автономном режиме, при использовании совместного режима, официальное приложение может заблокировать загрузку циферблата в часы</string>
     <string name="watch_face_invalid_free">В бесплатной версии сегодня больше циферблаты загрузить нельзя</string>
-    <string name="watch_face_watch_rewarded_ads">Посмотрите видео для продолжения загрузки</string>
+    <string name="watch_face_watch_rewarded_ads">Посмотрите видео, чтобы продолжить</string>
+    <string name="watch_face_watch_rewarded_ads_uploading">Посмотрите видео для продолжения загрузки</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">Video starting…</string>
 
     <string name="watch_face_upload_speed_title">Скорость передачи</string>
     <string name="watch_face_upload_speed_hint">Установите меньшую скорость передачи циферблата на часы если процесс передачи постоянно прерывается.</string>
@@ -424,14 +456,19 @@
     <string name="watch_face_edit_hour_digital">Часы</string>
     <string name="watch_face_edit_minute_digital">Минуты</string>
     <string name="watch_face_edit_second_digital">Секунды</string>
+    <string name="watch_face_edit_am_pm">AM/PM indicator</string>
+    <string name="watch_face_edit_am">AM</string>
+    <string name="watch_face_edit_pm">PM</string>
     <string name="watch_face_edit_hour_analog">Часовая стрелка</string>
     <string name="watch_face_edit_minute_analog">Минутная стрелка</string>
     <string name="watch_face_edit_second_analog">Секундная стрелка</string>
     <string name="watch_face_edit_axis">Ось вращения</string>
     <string name="watch_face_edit_hour_minute_separator">Разделитель часов и минут</string>
+    <string name="watch_face_edit_year">Год</string>
+    <string name="watch_face_edit_year_month_separator">Сепаратор года и месяца</string>
     <string name="watch_face_edit_month">Месяц</string>
     <string name="watch_face_edit_month_name">Название месяца</string>
-    <string name="watch_face_edit_mont_day_separator">Разделитель дня и месяца</string>
+    <string name="watch_face_edit_month_day_separator">Разделитель дня и месяца</string>
     <string name="watch_face_edit_day">День</string>
     <string name="watch_face_edit_dayOfWeek">День недели</string>
     <string name="watch_face_edit_battery_level">Уровень заряда</string>
@@ -445,6 +482,7 @@
     <string name="watch_face_edit_disconnected">Отключен</string>
     <string name="watch_face_edit_steps">Шаги</string>
     <string name="watch_face_edit_steps_image">Изображение шагов</string>
+    <string name="watch_face_edit_steps_goal_progress">Steps goal progress</string>
     <string name="watch_face_edit_distance">Расстояние</string>
     <string name="watch_face_edit_distance_image">Изображение расстояния</string>
     <string name="watch_face_edit_calories">Калории</string>
@@ -461,6 +499,8 @@
     <string name="watch_face_edit_image_png">Изображение (.png)</string>
     <string name="watch_face_edit_icon">Выберите значек</string>
     <string name="watch_face_edit_image_size">Размер изображения</string>
+
+    <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
 
 
     <!-- Touch monitoring -->
@@ -575,13 +615,14 @@
 
     <string name="info_dialog_touch"><![CDATA[
         <p>Функция корректно работает в автономном режиме. Если вы используетесовместный режим, официальное приложение <app_official/> также будет обрабатывать эти функции, поэтому правильная работа не может быть гарантирована.</p>
+        <p><b>Настройки Bluetooth телефона:</b> <device_name/> отключите устройство ввода</p>
         <b><u>Используемые кнопки в последовательности</u></b>
         <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
         <br>Управление плеером <device_type/>
         <p><img src="ic_touch_find">
         <br>Поиск телефона в <device_type/>
         </p>
-        <p>Для одной функции можно записать несколько последовательностей касаний.</p>
+        Для одной функции можно записать несколько последовательностей касаний.
     ]]></string>
 
 
@@ -694,6 +735,7 @@
     <string name="purchase_order_id_help">Скопируйте из:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <string name="purchase_info">Единовременная плата ・ %1$s</string> <!-- %1$s = price</string>-->
     <string name="purchase_button_purchase">Приобрести</string>
 
     <!-- Feedback -->
@@ -712,25 +754,38 @@
     <string name="privacy_policy_collect_title">Информация, собираемая нами</string>
     <string name="privacy_policy_collect"><![CDATA[
         <p>• Мы собираем только анонимную информацию.</p>
-        <p>• Мы собираем информацию на уровне приложения о сервисах используемых вами и способе их использования (платформа Google Firebase).</p>
-        <p>• Мы собираем информацию на уровне приложения о багах, ошибках и падениях для предоставления улучшений (платформа Google Firebase).</p>
-        <p>• Платформа Google Firebase собирает информацию анонимно. Она предоставляет информацию о трендах без идентификации отдельных пользователей.</p>
-        • Мы не делимся информацией с другими компаниями и организациями.
+        <p>• Мы собираем информацию на уровне приложения о сервисах используемых вами и способе их использования (Google Analytics).</p>
+        <p>• Мы собираем информацию на уровне приложения о багах, ошибках и падениях для предоставления улучшений (Firebase Crashlytics).</p>
+        <p>• Мы собираем информацию о производительности на уровне приложения (Firebase Performance Monitoring).</p>
+        <p>• Платформа Google Firebase собирает информацию анонимно. Она предоставляет информацию о трендах без идентификации отдельных пользователей.
+        Платформа Firebase собирает такие данные, как идентификатор установки Firebase, состояние приложения, соответствующие метаданные устройства (модель устройства, архитектура процессора, объем оперативной памяти и диска, операционная система, ориентация экрана, страна, язык/язык), трассировки стека, показатели производительности (включая время запуска приложения и задержку сетевых запросов, сетевые URL-адреса), Использование процессора/памяти, IP-адрес …
+        </p>
+        • Мы собираем данные о местоположении для обновления погоды на основе вашего текущего местоположения (необязательно).
     ]]></string>
 
     <string name="privacy_policy_not_collect_title">Информация, не собираемая нами</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>• Мы не собираем ваши персональные данные, способные вас идентифицировать. Другими словами мы не собираем такую информацию, как ваше имя, адрес, номер телефона, адрес электронной почты, IP или MAC адреса.</p>
-        <p>• Мы не собираем информацию о вашем здоровье, контактах и тексте уведомлений.</p>
-        • Мы не собираем данные о вашем местоположении.
+        <p>• Мы не собираем ваши персональные данные, способные вас идентифицировать. Другими словами мы не собираем такую информацию, как ваше имя, адрес, номер телефона, адрес электронной почты или MAC адреса.</p>
+        • Мы не собираем информацию о вашем здоровье, контактах и тексте уведомлений.
+    ]]></string>
+
+    <string name="privacy_policy_share_title">Информация, которой мы делимся</string>
+    <string name="privacy_policy_share"><![CDATA[
+        • Мы не передаем никаких данных другим компаниям и организациям, кроме Google.
+    ]]></string>
+
+    <string name="privacy_policy_use_title">Личные и конфиденциальные данные пользователей, которые мы используем</string>
+    <string name="privacy_policy_use"><![CDATA[
+        • Мы используем данные о местоположении для обновления погоды (необязательно).
     ]]></string>
 
     <string name="privacy_policy_links_title">Политика конфиденциальности сторонних сервисов</string>
     <string name="privacy_policy_links"><![CDATA[
         <a href="https://policies.google.com/privacy">Google Play Services</a>
         <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
-        <p><a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a></p>
-        <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
+        <p><a href="https://firebase.google.com/policies/analytics">Google Analytics</a></p>
+        <p><a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a></p>
+        <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Статус</string>
@@ -858,6 +913,8 @@
     <string name="action_chart_sort_pulse_desc">Пульс, по убыванию</string>
     <string name="action_chart_sort_spo2_asc">SpO2 по возрастанию</string>
     <string name="action_chart_sort_spo2_desc">SpO2 по убыванию</string>
+    <string name="action_chart_sort_pressure_asc">Давление по возрастанию</string>
+    <string name="action_chart_sort_pressure_desc">Давление по убыванию</string>
     <string name="action_chart_monthly_calendar">Календарь</string>
     <string name="action_chart_monthly_compact">Компактно</string>
 
@@ -867,7 +924,27 @@
 
     <string name="required_value">Необходимо указать значение</string>
 
+    <string name="percent_0">0%</string>
+    <string name="percent_10">10%</string>
+    <string name="percent_20">20%</string>
+    <string name="percent_30">30%</string>
+    <string name="percent_40">40%</string>
+    <string name="percent_50">50%</string>
+    <string name="percent_60">60%</string>
+    <string name="percent_70">70%</string>
+    <string name="percent_80">80%</string>
+    <string name="percent_90">90%</string>
+    <string name="percent_100">100%</string>
+
     <!-- Constante -->
+    <string name="const_day_of_week_sunday">Sunday</string>
+    <string name="const_day_of_week_monday">Monday</string>
+    <string name="const_day_of_week_tuesday">Tuesday</string>
+    <string name="const_day_of_week_wednesday">Wednesday</string>
+    <string name="const_day_of_week_thursday">Thursday</string>
+    <string name="const_day_of_week_friday">Friday</string>
+    <string name="const_day_of_week_saturday">Saturday</string>
+
     <string name="const_time_abbreviation_day">д</string>
     <string name="const_time_abbreviation_hour">ч</string>
     <string name="const_time_abbreviation_minute">м</string>
