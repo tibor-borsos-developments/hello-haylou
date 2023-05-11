@@ -25,6 +25,7 @@
 
 # <img src="https://play-lh.googleusercontent.com/sIm_hSJg4qsanVoZRSvH-D7W1VRjskf-Vh75r1uwdmamCBotUNMasdhQBe1vhtjEba9K=s48-rw"> Hello Imilab
 ### Supported devices
+- Imilab W02
 - Imilab W01
 - Imilab W12
 - Imilab W11
@@ -37,6 +38,7 @@
 
 # <img src="https://play-lh.googleusercontent.com/dn0iS7KiPmHd6dNuw2Mkl2mWv_AA8fJLzo3k9uoOT6ebpp_ObvhCqZBSYu5MiQD9SA=s48-rw"> Hello Zeblaze
 ### Supported devices
+- Zeblaze GTR 3
 - Zeblaze Btalk
 - Zeblaze GTR 2
 - Zeblaze GTS Pro
