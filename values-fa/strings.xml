@@ -124,6 +124,7 @@
     <string name="mi_band_battery_notification_level">آستانه‌ی سطح باتری</string>
     <string name="mi_band_battery_notification_repeat_interval">بازه‌ی تکرار</string>
     <string name="mi_band_battery_notification_shade">اعلام کردن در گوشی</string>
+    <string name="mi_band_battery_notification_shade_error">Notification display permission is restricted</string>
     <string name="mi_band_battery_notification_shade_ongoing">اطلاع رسانی مداوم (در حال انجام)</string>
     <string name="mi_band_battery_notification_shade_message">سطح باتری کم است: %1$,d%%</string>
     <string name="mi_band_battery_notification_mi_band">اعلام کردن در دستبند</string>
@@ -159,6 +160,7 @@
     <string name="pref_diagnostic">Diagnostic</string>
     <string name="pref_cat_diagnostic_closing_protection">Protection against closing</string>
     <string name="pref_diagnostic_battery_optimisation">Battery optimisation off</string>
+    <string name="pref_diagnostic_bluetooth_pairing">Bluetooth pairing</string>
     <string name="pref_diagnostic_companion_device">جفت شدن دستگاه همراه</string>
     <string name="pref_diagnostic_info">اطلاعات بیشتر</string>
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
@@ -167,11 +169,13 @@
     <string name="pref_diagnostic_permission_schedule_exact_alarm">زنگ خطر دقیق</string>
     <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Additional permission is required to schedule the task at an exact time.</string>
     <string name="pref_diagnostic_permission_access_notification_policy">Do not Disturb access</string>
+    <string name="pref_diagnostic_permission_post_notifications">Post notifications</string>
+    <string name="pref_diagnostic_permission_post_notifications_summary">Additional permission is required to display the notification</string>
 
 
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">لطفا بلوتوث را روشن کنید و دستگاه هایلو را به تلفن نزدیک کنید</string>
-    <string name="message_discover_mi_band">هایلو تنظیم نشده است، پیدایش کنید</string>
+    <string name="message_discover_mi_band">%1$s تنظیم نشده است، پیدایش کنید</string>
     <string name="message_discovering_mi_band">یافتن هایلو (ممکن است ۱ دقیقه طول بکشد) …</string>
     <string name="message_discovered_mi_band">%1$s با موفقیت متصل شد</string>
     <string name="message_discovered_no_mi_band">خطا در اتصال به هایلو</string>
@@ -221,7 +225,7 @@
     <string name="dialog_welcome_title">خوش آمدید!</string>
     <string name="dialog_welcome_message"><![CDATA[دستگاه‌های قابل استفاده:
     <watch_types/>
-    <p><app_name/> requires the installation of the official <device_type/> app on the same phone. At first you have to pair your smart watch in the <device_type/> app, then you can use this app.</p>
+    <p><app_name/> requires the installation of the official <device_type/> app on the same phone. At first you have to pair your smartwatch in the <device_type/> app, then you can use this app.</p>
     <p>If <device_type/> is not found, then you can set the MAC address manually when you discover.</p>
     <b>اگر در ارتباط مشکل دارید:</b>
     <br>- Recent apps screen: lock the <app_name/> (pull down the app and click on lock icon).
