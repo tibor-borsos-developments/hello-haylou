@@ -7,6 +7,7 @@
 
 # <img src="https://play-lh.googleusercontent.com/IRN8GXZC_LcV_JmlaqrEkfeigS3aMrEqItatKO7e53nkAX47PQuPz8loYV0erQPh3w=s48-rw"> Hello Haylou
 ### Supported devices
+- Haylou Watch 2 Pro (S001)
 - Haylou GST Lite (LS13)
 - Haylou RS4 Plus (LS11)
 - Haylou RS4 (LS12)
@@ -56,6 +57,7 @@
 
 # <img src="https://play-lh.googleusercontent.com/xX8gICXEGSKvWSeeYbutolsA5axpy79qz28OQjS2kgFmj_k0nGh_LcWOhQ5v1puFhA=s48-rw"> Hello Cubot
 ### Supported devices
+- Cubot C9
 - Cubot N1
 - Cubot W03
 - Cubot C7
