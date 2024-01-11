@@ -61,7 +61,7 @@
 <!-- ><a href="https://play.google.com/store/apps/details?id=hu.tiborsosdevs.zeblaze.hello&referrer=utm_source%3Dhttps%253A%252F%252Fgithub.com%26utm_medium%3Dweb" target="_blank"> -->
 <!-- ><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="200"> -->
 <!-- ></a> -->
-[Download the Hello Zeblaze app](https://hello-imilab.web.app "Hello Zeblaze Homepage")
+[Download the Hello Zeblaze app](https://hello-zeblaze.web.app "Hello Zeblaze Homepage")
 
 <br />
 
@@ -76,5 +76,5 @@
 <!-- ><a href="https://play.google.com/store/apps/details?id=hu.tiborsosdevs.cubot.hello&referrer=utm_source%3Dhttps%253A%252F%252Fgithub.com%26utm_medium%3Dweb" target="_blank"> -->
 <!-- ><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="200"> -->
 <!-- ></a> -->
-[Download the Hello Cubot app](https://hello-imilab.web.app "Hello Cubot Homepage")
+[Download the Hello Cubot app](https://hello-cubot.web.app "Hello Cubot Homepage")
 
