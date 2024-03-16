@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="ko">
     <string name="menu_nav_home">@string/device_name</string>
     <string name="menu_nav_notification">알림</string>
     <string name="menu_nav_call">수신 전화 알림</string>
@@ -162,6 +162,8 @@
     <string name="pref_diagnostic_battery_optimisation">배터리 최적화 비활성화</string>
     <string name="pref_diagnostic_companion_device">동반자 장치 페어링</string>
     <string name="pref_diagnostic_bluetooth_pairing">Bluetooth pairing</string>
+    <string name="pref_diagnostic_autostart">자동 시작</string>
+    <string name="pref_diagnostic_autostart_summary">Enable the application to restart automatically in the phone\'s Auto-start manager</string>
     <string name="pref_diagnostic_info">추가 정보</string>
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
 
@@ -343,6 +345,7 @@
     <string name="action_tracker_step">걸음수</string>
     <string name="action_tracker_distance">거리</string>
     <string name="action_tracker_calorie">칼로리</string>
+    <string name="action_tracker_duration">운동 기간</string>
 
     <string name="step_goal_default_title">기본 목표</string>
 
@@ -623,7 +626,7 @@
         <b><u>인식된 터치</u></b>
         <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
         <br><device_type/> 음악 제어
-        <p><img src="ic_touch_find">
+        <p><img src="ic_search">
         <br><device_type/> 내 휴대 전화 찾기
         </p>
         기능에 대해 여러 번의 터치를 기록 할 수 있습니다.
@@ -755,7 +758,9 @@
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">개인 정보 정책</string>
+    <string name="privacy_policy_tab_user_consent">User consent management</string>
     <string name="privacy_policy_tab_eu_consent">유럽 사용자 동의</string>
+    <string name="privacy_policy_tab_non_eu_consent">Non-EU user consent</string>
 
     <string name="privacy_policy_collect_title">수집하는 정보</string>
     <string name="privacy_policy_collect"><![CDATA[
@@ -777,7 +782,7 @@
 
     <string name="privacy_policy_share_title">Information we share</string>
     <string name="privacy_policy_share"><![CDATA[
-        • We do not share any data with other companies and organizations other than Google.
+        • We do not share any data with companies or organisations other than Google and advertising providers.
     ]]></string>
 
     <string name="privacy_policy_use_title">Personal and sensitive user data we use</string>
@@ -795,6 +800,7 @@
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">상태</string>
+    <string name="privacy_policy_eu_consent_title_obtained">Consent obtained</string>
     <string name="privacy_policy_eu_consent_title_personalized">개인화된, 관련있는 광고</string>
     <string name="privacy_policy_eu_consent_title_non_personalized">관련성이 적은 개인화되지 않은 광고</string>
     <string name="privacy_policy_eu_consent_title_unknown">알 수 없음</string>

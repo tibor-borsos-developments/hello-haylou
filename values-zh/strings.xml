@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="zh">
     <string name="menu_nav_home">@string/device_name</string>
     <string name="menu_nav_notification">通知</string>
     <string name="menu_nav_call">呼叫</string>
@@ -162,6 +162,8 @@
     <string name="pref_diagnostic_battery_optimisation">电池优化关闭</string>
     <string name="pref_diagnostic_companion_device">伴侣设备配对</string>
     <string name="pref_diagnostic_bluetooth_pairing">Bluetooth pairing</string>
+    <string name="pref_diagnostic_autostart">自动启动</string>
+    <string name="pref_diagnostic_autostart_summary">Enable the application to restart automatically in the phone\'s Auto-start manager</string>
     <string name="pref_diagnostic_info">更多信息</string>
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
 
@@ -342,6 +344,7 @@
     <string name="action_tracker_step">步数</string>
     <string name="action_tracker_distance">距离</string>
     <string name="action_tracker_calorie">卡路里</string>
+    <string name="action_tracker_duration">锻炼时间</string>
 
     <string name="step_goal_default_title">默认目标</string>
 
@@ -621,7 +624,7 @@
         <b><u>Recognised touches</u></b>
         <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
         <br><device_type/> music control
-        <p><img src="ic_touch_find">
+        <p><img src="ic_search">
         <br><device_type/> find my phone
         </p>
         Multiple touches can be recorded for each function.
@@ -753,7 +756,9 @@
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">隐私权政策</string>
+    <string name="privacy_policy_tab_user_consent">User consent management</string>
     <string name="privacy_policy_tab_eu_consent">欧盟用户许可</string>
+    <string name="privacy_policy_tab_non_eu_consent">Non-EU user consent</string>
 
     <string name="privacy_policy_collect_title">我们收集以下信息</string>
     <string name="privacy_policy_collect"><![CDATA[
@@ -775,7 +780,7 @@
 
     <string name="privacy_policy_share_title">Information we share</string>
     <string name="privacy_policy_share"><![CDATA[
-        • We do not share any data with other companies and organizations other than Google.
+        • We do not share any data with companies or organisations other than Google and advertising providers.
     ]]></string>
 
     <string name="privacy_policy_use_title">Personal and sensitive user data we use</string>
@@ -793,6 +798,7 @@
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">状态</string>
+    <string name="privacy_policy_eu_consent_title_obtained">Consent obtained</string>
     <string name="privacy_policy_eu_consent_title_personalized">关联个人的广告</string>
     <string name="privacy_policy_eu_consent_title_non_personalized">不关联个人的广告</string>
     <string name="privacy_policy_eu_consent_title_unknown">未知</string>

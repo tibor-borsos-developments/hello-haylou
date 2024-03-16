@@ -165,6 +165,8 @@
     <string name="pref_diagnostic_battery_optimisation">Battery optimisation off</string>
     <string name="pref_diagnostic_companion_device">Companion device pairing</string>
     <string name="pref_diagnostic_bluetooth_pairing">Bluetooth pairing</string>
+    <string name="pref_diagnostic_autostart">Autostart</string>
+    <string name="pref_diagnostic_autostart_summary">Enable the application to restart automatically in the phone\'s Auto-start manager</string>
     <string name="pref_diagnostic_info">More information</string>
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
 
@@ -348,6 +350,7 @@
     <string name="action_tracker_step">Steps</string>
     <string name="action_tracker_distance">Distance</string>
     <string name="action_tracker_calorie">Calories</string>
+    <string name="action_tracker_duration">Exercise duration</string>
 
     <string name="step_goal_default_title">Default goal</string>
 
@@ -628,7 +631,7 @@
         <b><u>Recognised touches</u></b>
         <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
         <br><device_type/> music control
-        <p><img src="ic_touch_find">
+        <p><img src="ic_search">
         <br><device_type/> find my phone
         </p>
         Multiple touches can be recorded for each function.
@@ -758,7 +761,9 @@
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Privacy policy</string>
+    <string name="privacy_policy_tab_user_consent">User consent management</string>
     <string name="privacy_policy_tab_eu_consent">EU user consent</string>
+    <string name="privacy_policy_tab_non_eu_consent">Non-EU user consent</string>
 
     <string name="privacy_policy_collect_title">Information we collect</string>
     <string name="privacy_policy_collect"><![CDATA[
@@ -780,7 +785,7 @@
 
     <string name="privacy_policy_share_title">Information we share</string>
     <string name="privacy_policy_share"><![CDATA[
-        • We do not share any data with other companies and organizations other than Google.
+        • We do not share any data with companies or organisations other than Google and advertising providers.
     ]]></string>
 
     <string name="privacy_policy_use_title">Personal and sensitive user data we use</string>
@@ -798,6 +803,7 @@
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Status</string>
+    <string name="privacy_policy_eu_consent_title_obtained">Consent obtained</string>
     <string name="privacy_policy_eu_consent_title_personalized">Personalized, relevant ads</string>
     <string name="privacy_policy_eu_consent_title_non_personalized">Non-personalized ads that are less relevant</string>
     <string name="privacy_policy_eu_consent_title_unknown">Unknown</string>
@@ -998,5 +1004,4 @@
         <item quantity="other">%d seconds</item>
     </plurals>
 
-    <string name="problem.lvl" translatable="false">problem.lvl</string>
 </resources>

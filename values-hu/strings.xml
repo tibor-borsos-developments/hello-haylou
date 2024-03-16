@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 
-<resources  xmlns:tools="http://schemas.android.com/tools">
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="hu">
     <string name="menu_nav_home">@string/device_name</string>
     <string name="menu_nav_notification">Értesítés</string>
     <string name="menu_nav_call">Hívás</string>
@@ -161,6 +161,8 @@
     <string name="pref_diagnostic_battery_optimisation">Akkumulátor optimalizálás kikapcsolása</string>
     <string name="pref_diagnostic_companion_device">Társkészülék párosítása</string>
     <string name="pref_diagnostic_bluetooth_pairing">Bluetooth pairing</string>
+    <string name="pref_diagnostic_autostart">Automatikus indítás</string>
+    <string name="pref_diagnostic_autostart_summary">Engedélyezd az alkalmazás automatikus újraindítását a telefon Automatikus indítások kezelőjében</string>
     <string name="pref_diagnostic_info">További információ</string>
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
 
@@ -354,6 +356,7 @@
     <string name="action_tracker_step">Lépésszám</string>
     <string name="action_tracker_distance">Távolság</string>
     <string name="action_tracker_calorie">Kalória</string>
+    <string name="action_tracker_duration">Edzés időtartama</string>
 
     <string name="step_goal_default_title">Alapértelmezett célkitűzés</string>
 
@@ -636,7 +639,7 @@
         <b><u>Felismert érintések</u></b>
         <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
         <br><device_type/> zene vezélés
-        <p><img src="ic_touch_find">
+        <p><img src="ic_search">
         <br><device_type/> telefon kereső
         </p>
         A funkciókhoz több érintés is rögzíthető.
@@ -768,7 +771,9 @@
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Adatvédelmi irányelvek</string>
+    <string name="privacy_policy_tab_user_consent">Felhasználói hozzájárulás kezelése</string>
     <string name="privacy_policy_tab_eu_consent">EU-beli felhasználók hozzájárulása</string>
+    <string name="privacy_policy_tab_non_eu_consent">Nem EU-beli felhasználók hozzájárulása</string>
 
     <string name="privacy_policy_collect_title">Gyűjtött információk</string>
     <string name="privacy_policy_collect"><![CDATA[
@@ -790,7 +795,7 @@
 
     <string name="privacy_policy_share_title">Megosztott információk</string>
     <string name="privacy_policy_share"><![CDATA[
-        • Nem osztunk meg semmilyen adatot más cégekkel vagy szervezetekkel a Google-on kívül.
+        • Nem osztunk meg semmilyen adatot más cégekkel vagy szervezetekkel a Google-on és a hirdetésszolgáltatókon kívül.
     ]]></string>
 
     <string name="privacy_policy_use_title">Felhasznált személyes és érzékeny felhasználói adatok</string>
@@ -808,6 +813,7 @@
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Státusz</string>
+    <string name="privacy_policy_eu_consent_title_obtained">Beleegyezés megszerezve</string>
     <string name="privacy_policy_eu_consent_title_personalized">Személyre szabott, releváns hirdetések</string>
     <string name="privacy_policy_eu_consent_title_non_personalized">Nem személyre szabott, kevésbé releváns hirdetések</string>
     <string name="privacy_policy_eu_consent_title_unknown">Nincs beállítva</string>
