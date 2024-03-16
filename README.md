@@ -9,7 +9,8 @@
 
 # <img src="https://play-lh.googleusercontent.com/IRN8GXZC_LcV_JmlaqrEkfeigS3aMrEqItatKO7e53nkAX47PQuPz8loYV0erQPh3w=s48-rw"> Hello Haylou
 ### Supported devices
-- Haylou Watch 2 Pro (S001)
+- Haylou Solar Plus RT3 (LS16)
+- Haylou Watch 2 Pro (LS02Pro/S001)
 - Haylou GST Lite (LS13)
 - Haylou RS4 Plus (LS11)
 - Haylou RS4 (LS12)
@@ -33,6 +34,7 @@
 # <img src="https://play-lh.googleusercontent.com/sIm_hSJg4qsanVoZRSvH-D7W1VRjskf-Vh75r1uwdmamCBotUNMasdhQBe1vhtjEba9K=s48-rw"> Hello Imilab
 ### Supported devices
 - Imiki SF1/SF1E
+- Imiki SE1
 - Imiki TG1
 - Imiki ST1
 - Imilab W02
