@@ -9,6 +9,7 @@
 
 # <img src="https://play-lh.googleusercontent.com/IRN8GXZC_LcV_JmlaqrEkfeigS3aMrEqItatKO7e53nkAX47PQuPz8loYV0erQPh3w=s48-rw"> Hello Haylou
 ### Supported devices
+- Haylou Solar Pro (LS18)
 - Haylou Solar Plus RT3 (LS16)
 - Haylou Watch 2 Pro (LS02Pro/S001)
 - Haylou GST Lite (LS13)
@@ -54,6 +55,11 @@
 
 # <img src="https://play-lh.googleusercontent.com/dn0iS7KiPmHd6dNuw2Mkl2mWv_AA8fJLzo3k9uoOT6ebpp_ObvhCqZBSYu5MiQD9SA=s48-rw"> Hello Zeblaze
 ### Supported devices
+- Zeblaze Btalk 3 Pro
+- Zeblaze Ares 3 Pro
+- Zeblaze GTR 3 Pro
+- Zeblaze GTS 3 Pro
+- Zeblaze Vibe 7 Pro
 - Zeblaze GTR 3
 - Zeblaze Btalk
 - Zeblaze GTR 2
