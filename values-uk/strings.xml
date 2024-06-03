@@ -68,6 +68,7 @@
     <string name="mi_band_setting_auth_mi_fit_hint">%3$s потребує втановленого додатку %1$s на тому ж телефоні. Спочатку ви маєте зв\'язати %2$s з додатком %1$s, потім ви зможете використовувати %3$s. Оберіть цей пункт, якщо бажаєте використовувати додаток %1$s.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
     <string name="mi_band_setting_auth_standalone">Автономна взаємодія</string>
     <string name="mi_band_setting_auth_standalone_hint">Для роботи %3$s, не потрібний додаток %1$s. Після зв\'язування, видаліть додаток %1$s. Для відновлення взаємодії з %1$s, буде потрібно знову зв\'язати %2$s з додатком %1$s. If you use the unpair function, the data on the smartwatch will be deleted.  The %2$s screen must be turned on while performing operations.</string>
+    <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
 
     <string name="mi_band_setting_auth_key">Ключ автентифікації</string>
     <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
@@ -212,7 +213,8 @@
     <string name="message_feature_is_not_supported">%1$s не підтримує цю функцію</string>
     <string name="message_general_error">Встановлення невдале (втрата з\'єднання), спробуйте ще</string>
     <string name="message_internet_error">Немає зв\'язку з інтернетом</string>
-    <string name="message_internet_traffic_blocked">Network traffic is blocked</string>
+    <string name="message_internet_traffic_blocked">Мережевий трафік заблоковано</string>
+    <string name="message_internet_ads_blocked">Реклама заблокована</string>
     <string name="message_gps_enable">Увімкніть GPS</string>
     <string name="message_location_enable">Enable the location info permission</string>
 
@@ -222,6 +224,8 @@
     <string name="message_rewarded_error">Помилка завантаження відео</string>
 
     <string name="message_new_message">Отримано нове повідомлення, перегляньте на телефоні.</string>
+
+    <string name="message_permission_not_granted">Дозвіл не надано: %1$s</string> <!-- %1$s = permission name -->
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Ласкаво просимо!</string>
@@ -298,6 +302,9 @@
 
 
     <!-- Call -->
+    <string name="call_tab_call">Вхідний виклик</string>
+    <string name="call_tab_contacts">Контакти</string>
+
     <string name="pref_cat_call">Вхідний виклик</string>
     <string name="pref_call_summary_on">Вимкніть сповіщення про вхідні виклики у %1$s</string> <!-- %1$s = official app name -->
     <string name="pref_call_text_title">Відображати дані абонента</string>
@@ -324,6 +331,17 @@
     <string name="touch_call_mute_only_call_state_ringing_title">Тільки при вхідному виклику</string>
     <string name="touch_call_mute_recognition_title">При вхідному виклику</string>
 
+    <string name="call_contact_edit_contact">контакт</string>
+    <string name="call_contact_edit_name">Ім\'я</string>
+    <string name="call_contact_edit_phone_number">Номер телефону</string>
+
+    <string name="call_contact_edit_setting_name_order">Порядок імен</string>
+    <string name="call_contact_edit_setting_default">@string/default_</string>
+    <string name="call_contact_edit_setting_first_name">Ім\'я</string>
+    <string name="call_contact_edit_setting_last_name">Прізвище</string>
+
+    <string name="message_call_contacts_free_counter">Up to %1$d contacts can be used in free mode</string> <!-- %1$d = 1, 2 ,3 ... -->
+    <string name="message_call_contacts_max_counter">Up to %1$d contacts can be used</string> <!-- %1$d = 1, 2 ,3 ... -->
 
     <!-- App chooser dialog -->
     <string name="app_chooser">Вибір додатку</string>
@@ -506,7 +524,7 @@
     <string name="watch_face_edit_image_size">Розмір зображення</string>
 
     <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
-
+    <string name="watch_face_custom_watch_face_under_development_title">The ability to upload custom watch faces is currently in development and may be available in the future, but it is not yet confirmed</string>
 
     <!-- Touch monitoring -->
     <string name="touch_tab_function">Функції</string>
@@ -905,6 +923,8 @@
     <string name="action_select_images">Select images</string>
     <string name="action_deselect_all">Deselect all</string>
     <string name="synchronized_from_watch">Синхронізовано з годинника</string>
+    <string name="synchronization_succeeded">Синхронізація виконана</string>
+    <string name="synchronization_failed">Помилка синхронізації</string>
 
     <string name="action_chart">Графік</string>
     <string name="action_zoom_in">Zoom</string>

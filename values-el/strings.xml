@@ -69,6 +69,7 @@
     <string name="mi_band_setting_auth_mi_fit_hint">Το %3$s απαιτεί την εγκατάσταση της επίσημης εφαρμογής %1$s στην ίδια συσκευή. Στην αρχή θα πρέπει να αντιστοιχίσετε %2$s με την εφαρμογή %1$s, μετά θα μπορείτε να χρησιμοποιήσετε το %3$s. If you want to use %1$s, choose this.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
     <string name="mi_band_setting_auth_standalone">Standalone</string>
     <string name="mi_band_setting_auth_standalone_hint">%1$st εφαρμογή δεν απαιτείται  για την λειτουργία του %3$s. Μετά τη σύζευξη, απεγκαταστήστε την εφαρμογή %1$s. Κατά την επαναφορά του %1$s συνεργασία, θα χρειαστεί να ξαναζεύξετε το δικό σας %2$s σητν εφαρμογή %1$s. Εάν χρησιμοποιείτε τη λειτουργία μη αντιστάθμισης, τα δεδομένα στο smartwatch θα διαγραφούν. Η οθόνη του %2$s  πρέπει να είναι ενεργοποιημένη κατά την εκτέλεση εργασιών.</string>
+    <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
 
     <string name="mi_band_setting_auth_key">Authentication key</string>
     <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
@@ -212,7 +213,8 @@
     <string name="message_feature_is_not_supported">%1$s δεν υποστηρίζει αυτήν τη δυνατότητα</string>
     <string name="message_general_error">Η ρύθμιση απέτυχε (η σύνδεση χάθηκε), δοκιμάστε ξανά</string>
     <string name="message_internet_error">Δεν υπάρχει σύνδεση στο internet</string>
-    <string name="message_internet_traffic_blocked">Network traffic is blocked</string>
+    <string name="message_internet_traffic_blocked">Η κυκλοφορία δικτύου έχει αποκλειστεί</string>
+    <string name="message_internet_ads_blocked">Οι διαφημίσεις είναι αποκλεισμένες</string>
     <string name="message_gps_enable">Ενεργοποιήστε το GPS</string>
     <string name="message_location_enable">Ενεργοποιήστε την άδεια πληροφοριών τοποθεσίας</string>
 
@@ -222,6 +224,8 @@
     <string name="message_rewarded_error">Failed to load video</string>
 
     <string name="message_new_message">Λάβατε ένα νέο μήνυμα, μπορείτε να το δείτε στο τηλέφωνο σας.</string>
+
+    <string name="message_permission_not_granted">Δεν χορηγήθηκε άδεια: %1$s</string> <!-- %1$s = permission name -->
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Καλώς ορίσατε!</string>
@@ -299,6 +303,9 @@
 
 
     <!-- Call -->
+    <string name="call_tab_call">Εισερχόμενη κλήση</string>
+    <string name="call_tab_contacts">Επαφές</string>
+
     <string name="pref_cat_call">Εισερχόμενη κλήση</string>
     <string name="pref_call_summary_on">Μην ξεχάσετε να απενεργοποιήσετε ειδοποιήσεις εισερχόμενων κλήσεων (incoming call alerts) στήν εφαρμογή %1$s</string> <!-- %1$s = official app name -->
     <string name="pref_call_text_title">Εμφάνιση ταυτότητας καλούντος</string>
@@ -325,6 +332,17 @@
     <string name="touch_call_mute_only_call_state_ringing_title">Μόνο εάν έχετε εισερχόμενη κλήση</string>
     <string name="touch_call_mute_recognition_title">Στην εισερχόμενη κλήση</string>
 
+    <string name="call_contact_edit_contact">Επικοινωνία</string>
+    <string name="call_contact_edit_name">Ονομα</string>
+    <string name="call_contact_edit_phone_number">Τηλεφωνικό νούμερο</string>
+
+    <string name="call_contact_edit_setting_name_order">Σειρά ονόματος</string>
+    <string name="call_contact_edit_setting_default">@string/default_</string>
+    <string name="call_contact_edit_setting_first_name">Ονομα</string>
+    <string name="call_contact_edit_setting_last_name">Επίθετο</string>
+
+    <string name="message_call_contacts_free_counter">Up to %1$d contacts can be used in free mode</string> <!-- %1$d = 1, 2 ,3 ... -->
+    <string name="message_call_contacts_max_counter">Up to %1$d contacts can be used</string> <!-- %1$d = 1, 2 ,3 ... -->
 
     <!-- App chooser dialog -->
     <string name="app_chooser">Επιλογέας εφαρμογής</string>
@@ -509,7 +527,7 @@
     <string name="watch_face_edit_image_size">Μέγεθος εικόνας</string>
 
     <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
-
+    <string name="watch_face_custom_watch_face_under_development_title">The ability to upload custom watch faces is currently in development and may be available in the future, but it is not yet confirmed</string>
 
     <!-- Touch monitoring -->
     <string name="touch_tab_function">Λειτουργία</string>
@@ -910,6 +928,8 @@
     <string name="action_select_images">Select images</string>
     <string name="action_deselect_all">Deselect all</string>
     <string name="synchronized_from_watch">Συγχρονισμός από ρολόι</string>
+    <string name="synchronization_succeeded">Ο συγχρονισμός πέτυχε</string>
+    <string name="synchronization_failed">Ο συγχρονισμός απέτυχε</string>
 
     <string name="action_chart">Διάγραμμα</string>
     <string name="action_zoom_in">Zoom</string>

@@ -69,6 +69,7 @@
     <string name="mi_band_setting_auth_mi_fit_hint">سلام هایلو نیاز به نصب برنامه %1$s در همان تلفن دارد. ابتدا باید دستگاه %2$s در %1$s جفت کنید، سپس از سلام هایلو استفاده کنید. اگر شما می‌خواهید از برنامه‌ی %1$s استفاده کنید، این برنامه را ببندید.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
     <string name="mi_band_setting_auth_standalone">مستقل</string>
     <string name="mi_band_setting_auth_standalone_hint">برای استفاده از سلام هایلو، نیازی به برنامه‌ی %1$s نیست. پس از جفت سازی، برنامه‌ی %1$s را حذف کنید. برای ادامه‌ی استفاده از برنامه‌ی %1$s, لازم است تا شما دستگاه %2$s در برنامه‌ی %1$s همگام کنید. اگر شما از عملکرد لغو جفت سازی استفده کنید، داده‌های شما در دستبند پاک می‌شود. باید صفحه‌ی %2$s در حین این فرایند روشن بشود.</string>
+    <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
 
     <string name="mi_band_setting_auth_key">کلید احراز هویت</string>
     <string name="mi_band_setting_auth_key_help">۴ عدد به دلخواه وارد کنید</string>
@@ -212,7 +213,8 @@
     <string name="message_feature_is_not_supported">%1$s از این ویژگی پشتیبانی نمی کند</string>
     <string name="message_general_error">خطا در تنظیم (اتصال قطع شده), دوباره تلاش کنید</string>
     <string name="message_internet_error">اینترنت وصل نیست</string>
-    <string name="message_internet_traffic_blocked">Network traffic is blocked</string>
+    <string name="message_internet_traffic_blocked">ترافیک شبکه مسدود شده است</string>
+    <string name="message_internet_ads_blocked">تبلیغات مسدود شده است</string>
     <string name="message_gps_enable">فعال کردن موقعیت مکانی</string>
     <string name="message_location_enable">اجازه‌ی موقعیت مکانی را بدهید</string>
 
@@ -222,6 +224,8 @@
     <string name="message_rewarded_error">Failed to load video</string>
 
     <string name="message_new_message">یک پیام جدید رسیده است، آن را در گوشی ببینید.</string>
+
+    <string name="message_permission_not_granted">Permission not granted: %1$s</string> <!-- %1$s = permission name -->
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">خوش آمدید!</string>
@@ -298,6 +302,9 @@
 
 
     <!-- Call -->
+    <string name="call_tab_call">تماس ورودی</string>
+    <string name="call_tab_contacts">مخاطب</string>
+
     <string name="pref_cat_call">تماس ورودی</string>
     <string name="pref_call_summary_on">فراموش نکنید که هشدارهای تماس ورودی را در برنامه %1$s خاموش کنید</string> <!-- %1$s = official app name -->
     <string name="pref_call_text_title">نمایش شماره‌ی تماس</string>
@@ -324,6 +331,17 @@
     <string name="touch_call_mute_only_call_state_ringing_title">فقط زمانی که تماس ورودی دارید</string>
     <string name="touch_call_mute_recognition_title">برای تماس‌های ورودی</string>
 
+    <string name="call_contact_edit_contact">Contact</string>
+    <string name="call_contact_edit_name">Name</string>
+    <string name="call_contact_edit_phone_number">Phone number</string>
+
+    <string name="call_contact_edit_setting_name_order">ترتیب نام</string>
+    <string name="call_contact_edit_setting_default">@string/default_</string>
+    <string name="call_contact_edit_setting_first_name">نام کوچک</string>
+    <string name="call_contact_edit_setting_last_name">نام خانوادگی</string>
+
+    <string name="message_call_contacts_free_counter">Up to %1$d contacts can be used in free mode</string> <!-- %1$d = 1, 2 ,3 ... -->
+    <string name="message_call_contacts_max_counter">Up to %1$d contacts can be used</string> <!-- %1$d = 1, 2 ,3 ... -->
 
     <!-- App chooser dialog -->
     <string name="app_chooser">انتخاب برنامه</string>
@@ -507,7 +525,7 @@
     <string name="watch_face_edit_image_size">اندازه تصویر</string>
 
     <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
-
+    <string name="watch_face_custom_watch_face_under_development_title">The ability to upload custom watch faces is currently in development and may be available in the future, but it is not yet confirmed</string>
 
     <!-- Touch monitoring -->
     <string name="touch_tab_function">عملکرد</string>
@@ -906,6 +924,8 @@
     <string name="action_select_images">Select images</string>
     <string name="action_deselect_all">Deselect all</string>
     <string name="synchronized_from_watch">همگام شده از ساعت</string>
+    <string name="synchronization_succeeded">همگام سازی با موفقیت انجام شد</string>
+    <string name="synchronization_failed">همگام سازی انجام نشد</string>
 
     <string name="action_chart">چارت</string>
     <string name="action_zoom_in">بزرگ نمایی</string>

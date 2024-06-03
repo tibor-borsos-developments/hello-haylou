@@ -69,6 +69,7 @@
     <string name="mi_band_setting_auth_mi_fit_hint">%3$s requires the installation of the %1$s app on the same phone. At first you have to pair %2$s in %1$s app, then you can use %3$s. If you want to use %1$s application, choose this.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
     <string name="mi_band_setting_auth_standalone">独立模式</string>
     <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the %3$s to work. After the pairing, uninstall the %1$s app or unpair the smartwatch. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted.  The %2$s screen must be turned on while performing operations.</string>
+    <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
 
     <string name="mi_band_setting_auth_key">Authentication key</string>
     <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
@@ -212,7 +213,8 @@
     <string name="message_feature_is_not_supported">%1$s 不支持这个特性</string>
     <string name="message_general_error">设置失败(连接丢失),请重试</string>
     <string name="message_internet_error">没有网络连接</string>
-    <string name="message_internet_traffic_blocked">Network traffic is blocked</string>
+    <string name="message_internet_traffic_blocked">网络流量被阻止</string>
+    <string name="message_internet_ads_blocked">广告被屏蔽</string>
     <string name="message_gps_enable">启用 GPS</string>
     <string name="message_location_enable">Enable the location info permission</string>
 
@@ -222,6 +224,8 @@
     <string name="message_rewarded_error">无法加载视频</string>
 
     <string name="message_new_message">收到一条新信息，在手机上查看.</string>
+
+    <string name="message_permission_not_granted">未授予权限：%1$s</string> <!-- %1$s = permission name -->
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">欢迎!</string>
@@ -298,6 +302,9 @@
 
 
     <!-- Call -->
+    <string name="call_tab_call">来电</string>
+    <string name="call_tab_contacts">联系方式</string>
+
     <string name="pref_cat_call">来电</string>
     <string name="pref_call_summary_on">开 (不要忘记关闭 %1$s 里的提醒)</string> <!-- %1$s = official app name -->
     <string name="pref_call_text_title">来电显示</string>
@@ -324,6 +331,17 @@
     <string name="touch_call_mute_only_call_state_ringing_title">只当你有来电时</string>
     <string name="touch_call_mute_recognition_title">来电</string>
 
+    <string name="call_contact_edit_contact">接触</string>
+    <string name="call_contact_edit_name">姓名</string>
+    <string name="call_contact_edit_phone_number">电话号码</string>
+
+    <string name="call_contact_edit_setting_name_order">姓名顺序</string>
+    <string name="call_contact_edit_setting_default">@string/default_</string>
+    <string name="call_contact_edit_setting_first_name">名</string>
+    <string name="call_contact_edit_setting_last_name">姓</string>
+
+    <string name="message_call_contacts_free_counter">Up to %1$d contacts can be used in free mode</string> <!-- %1$d = 1, 2 ,3 ... -->
+    <string name="message_call_contacts_max_counter">Up to %1$d contacts can be used</string> <!-- %1$d = 1, 2 ,3 ... -->
 
     <!-- App chooser dialog -->
     <string name="app_chooser">选择应用</string>
@@ -506,7 +524,7 @@
     <string name="watch_face_edit_image_size">图片尺寸</string>
 
     <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
-
+    <string name="watch_face_custom_watch_face_under_development_title">The ability to upload custom watch faces is currently in development and may be available in the future, but it is not yet confirmed</string>
 
     <!-- Touch monitoring -->
     <string name="touch_tab_function">Function</string>
@@ -907,6 +925,8 @@
     <string name="action_select_images">Select images</string>
     <string name="action_deselect_all">Deselect all</string>
     <string name="synchronized_from_watch">Synchronized from watch</string>
+    <string name="synchronization_succeeded">同步成功</string>
+    <string name="synchronization_failed">同步失败</string>
 
     <string name="action_chart">图表</string>
     <string name="action_zoom_in">Zoom</string>

@@ -69,6 +69,7 @@
     <string name="mi_band_setting_auth_mi_fit_hint">%3$s necesită instalarea aplicației oficiale %1$s pe același telefon. La început trebuie să împerechezi %2$s în aplicația %1$s, apoi poți folosi %3$s. If you want to use %1$s, choose this.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
     <string name="mi_band_setting_auth_standalone">Standalone</string>
     <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the %3$s to work. After the pairing, uninstall the %1$s app or unpair the smartwatch. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted.  The %2$s screen must be turned on while performing operations.</string>
+    <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
 
     <string name="mi_band_setting_auth_key">Authentication key</string>
     <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
@@ -212,7 +213,8 @@
     <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
     <string name="message_general_error">Setarea a eșuat (conexiunea s-a pierdut), încearcă din nou</string>
     <string name="message_internet_error">Lipsă conexiune la internet</string>
-    <string name="message_internet_traffic_blocked">Network traffic is blocked</string>
+    <string name="message_internet_traffic_blocked">Traficul în rețea este blocat</string>
+    <string name="message_internet_ads_blocked">Reclamele sunt blocate</string>
     <string name="message_gps_enable">Activează GPS</string>
     <string name="message_location_enable">Enable the location info permission</string>
 
@@ -222,6 +224,8 @@
     <string name="message_rewarded_error">Încărcarea clipului a eșuat</string>
 
     <string name="message_new_message">Se primește un mesaj nou, vezi pe telefon.</string>
+
+    <string name="message_permission_not_granted">Permisiunea nu a fost acordată: %1$s</string> <!-- %1$s = permission name -->
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Bun venit!</string>
@@ -292,12 +296,15 @@
     <string name="notification_edit_play_text_title">Titlu notificări</string>
     <string name="notification_edit_play_text_content">Conținutul notificării:
     În publicarea și designul grafic, lorem ipsum este un text de umplutură sau un text folosit în mod obișnuit pentru a demonstra elementele textuale ale unui document grafic sau unei prezentări vizuale.
-         \ nÎnlocuirea conținutului semnificativ cu textul înlocuitor permite designerilor să proiecteze forma conținutului înainte ca conținutul în sine să fi fost produs.
+        \n Înlocuirea conținutului semnificativ cu textul înlocuitor permite designerilor să proiecteze forma conținutului înainte ca conținutul în sine să fi fost produs.
     </string>
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> pictogramă: alege această pictogramă pentru a afișa titlul/conținutul notificării.]]></string>
 
 
     <!-- Call -->
+    <string name="call_tab_call">Apel primit</string>
+    <string name="call_tab_contacts">Contacte</string>
+
     <string name="pref_cat_call">Apel primit</string>
     <string name="pref_call_summary_on">Nu uita să dezactivezi alertele de apel primit în aplicația %1$s</string> <!-- %1$s = official app name -->
     <string name="pref_call_text_title">Afișează identitatea apelantului</string>
@@ -324,6 +331,17 @@
     <string name="touch_call_mute_only_call_state_ringing_title">Doar dacă primești un apel</string>
     <string name="touch_call_mute_recognition_title">În timpul unui apel primit</string>
 
+    <string name="call_contact_edit_contact">A lua legatura</string>
+    <string name="call_contact_edit_name">Nume</string>
+    <string name="call_contact_edit_phone_number">Număr de telefon</string>
+
+    <string name="call_contact_edit_setting_name_order">Ordinea numelui</string>
+    <string name="call_contact_edit_setting_default">@string/default_</string>
+    <string name="call_contact_edit_setting_first_name">Prenume</string>
+    <string name="call_contact_edit_setting_last_name">Nume de familie</string>
+
+    <string name="message_call_contacts_free_counter">Up to %1$d contacts can be used in free mode</string> <!-- %1$d = 1, 2 ,3 ... -->
+    <string name="message_call_contacts_max_counter">Up to %1$d contacts can be used</string> <!-- %1$d = 1, 2 ,3 ... -->
 
     <!-- App chooser dialog -->
     <string name="app_chooser">Selector de aplicații</string>
@@ -507,7 +525,7 @@
     <string name="watch_face_edit_image_size">Marimea imaginii</string>
 
     <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
-
+    <string name="watch_face_custom_watch_face_under_development_title">The ability to upload custom watch faces is currently in development and may be available in the future, but it is not yet confirmed</string>
 
     <!-- Touch monitoring -->
     <string name="touch_tab_function">Function</string>
@@ -908,6 +926,8 @@
     <string name="action_select_images">Select images</string>
     <string name="action_deselect_all">Deselect all</string>
     <string name="synchronized_from_watch">Synchronized from watch</string>
+    <string name="synchronization_succeeded">Sincronizarea a reușit</string>
+    <string name="synchronization_failed">Sincronizarea a eșuat</string>
 
     <string name="action_chart">Grafic</string>
     <string name="action_zoom_in">Zoom</string>

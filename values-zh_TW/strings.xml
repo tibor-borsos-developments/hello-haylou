@@ -69,6 +69,7 @@
     <string name="mi_band_setting_auth_mi_fit_hint">%3$s 需要在同一部裝置上安裝 %1$s 應用程式。 您需要在 %1$s 程式內先配對 %2$s 後才能使用 %3$s。若您希望使用 %1$s 程式，請選擇此項。</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
     <string name="mi_band_setting_auth_standalone">獨立模式</string>
     <string name="mi_band_setting_auth_standalone_hint">%1$s 應用程序對於%3$s來說不是必需的。 配對裝置後請解除安裝 %1$s 程式。若要重新使用 %1$s ，您必須在 %1$s 程式內重新配對 %2$s。 若使用解除配對功能，資料將被清除。 在進行設定的過程中，%2$s 程式畫面必須開啟。</string>
+    <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
 
     <string name="mi_band_setting_auth_key">認證碼</string>
     <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
@@ -212,7 +213,8 @@
     <string name="message_feature_is_not_supported">%1$s 不支援此功能</string>
     <string name="message_general_error">設定失敗（失去連接），請重新再試</string>
     <string name="message_internet_error">沒有網路連結</string>
-    <string name="message_internet_traffic_blocked">Network traffic is blocked</string>
+    <string name="message_internet_traffic_blocked">網路流量被阻止</string>
+    <string name="message_internet_ads_blocked">廣告被封鎖</string>
     <string name="message_gps_enable">開啟GPS</string>
     <string name="message_location_enable">Enable the location info permission</string>
 
@@ -222,6 +224,8 @@
     <string name="message_rewarded_error">无法加载视频</string>
 
     <string name="message_new_message">收到訊息，請在手機上查看。</string>
+
+    <string name="message_permission_not_granted">未授予權限：%1$s</string> <!-- %1$s = permission name -->
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">歡迎!</string>
@@ -238,6 +242,9 @@
 
 
     <!-- Call -->
+    <string name="call_tab_call">來電</string>
+    <string name="call_tab_contacts">聯絡方式</string>
+
     <string name="pref_cat_call">來電</string>
     <string name="pref_call_summary_on">（開）不要忘記在%1$s應用程式上關閉來電通知</string> <!-- %1$s = official app name -->
     <string name="pref_call_text_title">來電顯示</string>
@@ -264,6 +271,17 @@
     <string name="touch_call_mute_only_call_state_ringing_title">僅當有來電時</string>
     <string name="touch_call_mute_recognition_title">來電時</string>
 
+    <string name="call_contact_edit_contact">接觸</string>
+    <string name="call_contact_edit_name">姓名</string>
+    <string name="call_contact_edit_phone_number">電話號碼</string>
+
+    <string name="call_contact_edit_setting_name_order">姓名順序</string>
+    <string name="call_contact_edit_setting_default">@string/default_</string>
+    <string name="call_contact_edit_setting_first_name">名</string>
+    <string name="call_contact_edit_setting_last_name">姓</string>
+
+    <string name="message_call_contacts_free_counter">Up to %1$d contacts can be used in free mode</string> <!-- %1$d = 1, 2 ,3 ... -->
+    <string name="message_call_contacts_max_counter">Up to %1$d contacts can be used</string> <!-- %1$d = 1, 2 ,3 ... -->
 
     <!-- Notification Dialog -->
     <string name="notification_group_nav_setting">設定</string>
@@ -507,7 +525,7 @@
     <string name="watch_face_edit_image_size">圖片尺寸</string>
 
     <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
-
+    <string name="watch_face_custom_watch_face_under_development_title">The ability to upload custom watch faces is currently in development and may be available in the future, but it is not yet confirmed</string>
 
     <!-- Touch monitoring -->
     <string name="touch_tab_function">功能</string>
@@ -908,6 +926,8 @@
     <string name="action_select_images">Select images</string>
     <string name="action_deselect_all">Deselect all</string>
     <string name="synchronized_from_watch">與手錶同步</string>
+    <string name="synchronization_succeeded">同步成功</string>
+    <string name="synchronization_failed">同步失敗</string>
 
     <string name="action_chart">圖表</string>
     <string name="action_zoom_in">放大</string>

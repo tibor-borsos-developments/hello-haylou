@@ -69,6 +69,7 @@
     <string name="mi_band_setting_auth_mi_fit_hint">%3$s richiede l\'installazione dell\'app ufficiale %1$s sullo stesso dispositivo. Per prima cosa devi collegare %2$s nell\'app %1$s, dopo puoi usare %3$s. Se vuoi utilizzare %1$s, scegli questo.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
     <string name="mi_band_setting_auth_standalone">Da solo</string>
     <string name="mi_band_setting_auth_standalone_hint">L\'app %1$s non è richiesta per far funzionare %3$s. Dopo l\'accoppiamento, disinstallare l\'app %1$s. Nel caso si desideri ripristinare la cooperazione con %1$s, sarà necessario riaccoppiare %2$s nell\'app %1$s. In caso di utilizzo funzione disaccoppiamento, I dati sullo smartwatch saranno persi. Lo %2$s schermo deve essere acceso durante l\'esecuzione delle operazioni.</string>
+    <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
 
     <string name="mi_band_setting_auth_key">Chiave di autenticazione</string>
     <string name="mi_band_setting_auth_key_help">Inserisci 4 numeri</string>
@@ -212,7 +213,8 @@
     <string name="message_feature_is_not_supported">%1$s non supporta questa funzionalità</string>
     <string name="message_general_error">Impostazione fallita (connessione persa), riprova</string>
     <string name="message_internet_error">Manca connessione internet</string>
-    <string name="message_internet_traffic_blocked">Network traffic is blocked</string>
+    <string name="message_internet_traffic_blocked">Il traffico di rete è bloccato</string>
+    <string name="message_internet_ads_blocked">Gli annunci sono bloccati</string>
     <string name="message_gps_enable">Abilita il GPS</string>
     <string name="message_location_enable">Abilita l\'autorizzazione per le informazioni sulla posizione</string>
 
@@ -222,6 +224,8 @@
     <string name="message_rewarded_error">Caricamento video fallito</string>
 
     <string name="message_new_message">Hai ricevuto un nuovo messaggio, guardalo sul telefono.</string>
+
+    <string name="message_permission_not_granted">Autorizzazione non concessa: %1$s</string> <!-- %1$s = permission name -->
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Benvenuto!</string>
@@ -299,6 +303,9 @@
 
 
     <!-- Call -->
+    <string name="call_tab_call">Ricezione chiamate</string>
+    <string name="call_tab_contacts">Contatti</string>
+
     <string name="pref_cat_call">Ricezione chiamate</string>
     <string name="pref_call_summary_on">Ricorda di disattivare la notifica per le chiamate ricevute dall\'app %1$s</string> <!-- %1$s = official app name -->
     <string name="pref_call_text_title">Mostra ID chiamante</string>
@@ -325,6 +332,17 @@
     <string name="touch_call_mute_only_call_state_ringing_title">Solo se stai ricevendo una chiamata</string>
     <string name="touch_call_mute_recognition_title">Per le chiamate in arrivo</string>
 
+    <string name="call_contact_edit_contact">Contatto</string>
+    <string name="call_contact_edit_name">Nome</string>
+    <string name="call_contact_edit_phone_number">Numero di telefono</string>
+
+    <string name="call_contact_edit_setting_name_order">Ordine dei nomi</string>
+    <string name="call_contact_edit_setting_default">@string/default_</string>
+    <string name="call_contact_edit_setting_first_name">Nome</string>
+    <string name="call_contact_edit_setting_last_name">Cognome</string>
+
+    <string name="message_call_contacts_free_counter">Up to %1$d contacts can be used in free mode</string> <!-- %1$d = 1, 2 ,3 ... -->
+    <string name="message_call_contacts_max_counter">Up to %1$d contacts can be used</string> <!-- %1$d = 1, 2 ,3 ... -->
 
     <!-- App chooser dialog -->
     <string name="app_chooser">Scegli App</string>
@@ -508,7 +526,7 @@
     <string name="watch_face_edit_image_size">Dimensione dell\'immagine</string>
 
     <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
-
+    <string name="watch_face_custom_watch_face_under_development_title">The ability to upload custom watch faces is currently in development and may be available in the future, but it is not yet confirmed</string>
 
     <!-- Touch monitoring -->
     <string name="touch_tab_function">Funzione</string>
@@ -909,6 +927,8 @@
     <string name="action_select_images">Select images</string>
     <string name="action_deselect_all">Deselect all</string>
     <string name="synchronized_from_watch">Sincronizzato dallo smartwatch</string>
+    <string name="synchronization_succeeded">La sincronizzazione è riuscita</string>
+    <string name="synchronization_failed">La sincronizzazione non è riuscita</string>
 
     <string name="action_chart">Grafico</string>
     <string name="action_zoom_in">Zoom</string>

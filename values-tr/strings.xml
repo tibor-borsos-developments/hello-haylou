@@ -69,6 +69,7 @@
     <string name="mi_band_setting_auth_mi_fit_hint">%3$s, resmi %1$s uygulamasıyla beraber kurulmasını gerektirir. İlk önce %2$s\'yi %1$s uygulamasında eşleştirirdikten sonra %3$s\'ı kullanabilirsiniz. Eğer %1$s\'i kullanmak istiyorsanız bunu seçiniz.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
     <string name="mi_band_setting_auth_standalone">Bağımsız</string>
     <string name="mi_band_setting_auth_standalone_hint">%1$s uygulaması %3$s için gerekli değildir. Eşleştikten sonra, %1$s uygulamasını kaldırabilirsiniz. %1$s ile beraberliğini yeniden kurmak için, %2$s \'i  %1$s uygulamasıyla yeniden eşleşmesi gerekir. Eğer eşleşmeyi kaldır fonksiyonunu kullanırsanız, tüm saat verisi silinir.  %2$s ekranı işlemler yapılırken açık olmalıdır.</string>
+    <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
 
     <string name="mi_band_setting_auth_key">Doğrulama Kodu</string>
     <string name="mi_band_setting_auth_key_help">4 rakam girin</string>
@@ -212,7 +213,8 @@
     <string name="message_feature_is_not_supported">%1$s bu özelliği desteklemiyor</string>
     <string name="message_general_error">İşlem başarısız oldu (bağlantı tutarsız), lütfen tekrar deneyin</string>
     <string name="message_internet_error">İnternet bağlantınız yok</string>
-    <string name="message_internet_traffic_blocked">Network traffic is blocked</string>
+    <string name="message_internet_traffic_blocked">Ağ trafiği engellendi</string>
+    <string name="message_internet_ads_blocked">Reklamlar engellendi</string>
     <string name="message_gps_enable">GPS\'i etkinleştir</string>
     <string name="message_location_enable">Konum bilgisine erişim izni ver</string>
 
@@ -222,6 +224,8 @@
     <string name="message_rewarded_error">Video yüklenemedi</string>
 
     <string name="message_new_message">Yeni bir mesaj alındı, telefondan bakın.</string>
+
+    <string name="message_permission_not_granted">İzin verilmedi: %1$s</string> <!-- %1$s = permission name -->
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Hoşgeldiniz!</string>
@@ -298,6 +302,9 @@
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> simge: bildirimlerin başlığını/içeriğini göstermek için bu simgeyi seçin.]]></string>
 
     <!-- Call -->
+    <string name="call_tab_call">Gelen çağrı</string>
+    <string name="call_tab_contacts">Kişiler</string>
+
     <string name="pref_cat_call">Gelen arama</string>
     <string name="pref_call_summary_on">%1$s uygulamasında gelen çağrı uyarılarını kapatmayı unutmayın, yoksa çift bildirim gelir</string> <!-- %1$s = official app name -->
     <string name="pref_call_text_title">Arayan bilgisini göster</string>
@@ -324,6 +331,17 @@
     <string name="touch_call_mute_only_call_state_ringing_title">Yalnızca gelen bir aramanız varsa</string>
     <string name="touch_call_mute_recognition_title">Gelen çağrılarda</string>
 
+    <string name="call_contact_edit_contact">Temas etmek</string>
+    <string name="call_contact_edit_name">İsim</string>
+    <string name="call_contact_edit_phone_number">Telefon numarası</string>
+
+    <string name="call_contact_edit_setting_name_order">Ad sırası</string>
+    <string name="call_contact_edit_setting_default">@string/default_</string>
+    <string name="call_contact_edit_setting_first_name">İlk adı</string>
+    <string name="call_contact_edit_setting_last_name">Soyadı</string>
+
+    <string name="message_call_contacts_free_counter">Up to %1$d contacts can be used in free mode</string> <!-- %1$d = 1, 2 ,3 ... -->
+    <string name="message_call_contacts_max_counter">Up to %1$d contacts can be used</string> <!-- %1$d = 1, 2 ,3 ... -->
 
     <!-- App chooser dialog -->
     <string name="app_chooser">Uygulama seçici</string>
@@ -507,7 +525,7 @@
     <string name="watch_face_edit_image_size">Görüntü boyutu</string>
 
     <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
-
+    <string name="watch_face_custom_watch_face_under_development_title">The ability to upload custom watch faces is currently in development and may be available in the future, but it is not yet confirmed</string>
 
     <!-- Touch monitoring -->
     <string name="touch_tab_function">Fonksiyon</string>
@@ -908,6 +926,8 @@
     <string name="action_select_images">Select images</string>
     <string name="action_deselect_all">Deselect all</string>
     <string name="synchronized_from_watch">Saatten senkronize et</string>
+    <string name="synchronization_succeeded">Senkronizasyon başarılı</string>
+    <string name="synchronization_failed">Senkronizasyon başarısız oldu</string>
 
     <string name="action_chart">Grafik</string>
     <string name="action_zoom_in">Yakınlaştır</string>

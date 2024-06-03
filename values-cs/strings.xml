@@ -69,6 +69,7 @@
     <string name="mi_band_setting_auth_mi_fit_hint">%3$s vyžaduje instalaci oficiální aplikace %1$s na stejném zařízení. Nejprve musíte spárovat %2$s v aplikaci %1$s, poté můžete použít aplikaci %3$s Zvolte tuto možnost, pokud chcete použít %1$s.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
     <string name="mi_band_setting_auth_standalone">Samostatný</string>
     <string name="mi_band_setting_auth_standalone_hint">Aplikace %1$s není nutná pro práci %3$s. Po párování odinstalujte aplikaci %1$s nebo odpojte zařízení. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
+    <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
 
     <string name="mi_band_setting_auth_key">Authentication key</string>
     <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
@@ -212,7 +213,8 @@
     <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
     <string name="message_general_error">Nastavení se nezdařilo (spojení bylo ztraceno), zkuste to znovu</string>
     <string name="message_internet_error">Nemáte připojení k internetu</string>
-    <string name="message_internet_traffic_blocked">Network traffic is blocked</string>
+    <string name="message_internet_traffic_blocked">Provoz v síti je blokován</string>
+    <string name="message_internet_ads_blocked">Reklamy jsou blokovány</string>
     <string name="message_gps_enable">Enable the GPS</string>
     <string name="message_location_enable">Enable the location info permission</string>
 
@@ -222,6 +224,8 @@
     <string name="message_rewarded_error">Nezdařilo se načtení videa</string>
 
     <string name="message_new_message">Přišla nová zpráva, zobrazte ji na telefonu.</string>
+
+    <string name="message_permission_not_granted">Oprávnění nebylo uděleno: %1$s</string> <!-- %1$s = permission name -->
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Vítejte!</string>
@@ -298,6 +302,9 @@
 
 
     <!-- Call -->
+    <string name="call_tab_call">Příchozí hovor</string>
+    <string name="call_tab_contacts">Kontakty</string>
+
     <string name="pref_cat_call">Příchozí hovor</string>
     <string name="pref_call_summary_on">Nezapomeňte vypnout upozornění na příchozí volání v aplikaci %1$s</string> <!-- %1$s = official app name -->
     <string name="pref_call_text_title">Zobrazte ID volajícího</string>
@@ -324,6 +331,17 @@
     <string name="touch_call_mute_only_call_state_ringing_title">Pouze pokud máte příchozí hovor</string>
     <string name="touch_call_mute_recognition_title">Při příchozím hovoru</string>
 
+    <string name="call_contact_edit_contact">Kontakt</string>
+    <string name="call_contact_edit_name">Název</string>
+    <string name="call_contact_edit_phone_number">Telefonní číslo</string>
+
+    <string name="call_contact_edit_setting_name_order">Pořadí jmen</string>
+    <string name="call_contact_edit_setting_default">@string/default_</string>
+    <string name="call_contact_edit_setting_first_name">Jméno</string>
+    <string name="call_contact_edit_setting_last_name">Příjmení</string>
+
+    <string name="message_call_contacts_free_counter">Up to %1$d contacts can be used in free mode</string> <!-- %1$d = 1, 2 ,3 ... -->
+    <string name="message_call_contacts_max_counter">Up to %1$d contacts can be used</string> <!-- %1$d = 1, 2 ,3 ... -->
 
     <!-- App chooser dialog -->
     <string name="app_chooser">Výběr aplikace</string>
@@ -507,7 +525,7 @@
     <string name="watch_face_edit_image_size">Velikost obrázku</string>
 
     <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
-
+    <string name="watch_face_custom_watch_face_under_development_title">The ability to upload custom watch faces is currently in development and may be available in the future, but it is not yet confirmed</string>
 
     <!-- Touch monitoring -->
     <string name="touch_tab_function">Function</string>
@@ -907,6 +925,8 @@
     <string name="action_select_images">Select images</string>
     <string name="action_deselect_all">Deselect all</string>
     <string name="synchronized_from_watch">Synchronized from watch</string>
+    <string name="synchronization_succeeded">Synchronizace proběhla úspěšně</string>
+    <string name="synchronization_failed">Synchronizace se nezdařila</string>
 
     <string name="action_chart">Graf</string>
     <string name="action_zoom_in">Zoom</string>

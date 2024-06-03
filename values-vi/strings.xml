@@ -69,6 +69,7 @@
     <string name="mi_band_setting_auth_mi_fit_hint">%3$s cần cài đặt %1$s trên cùng điện thoại. Đầu tiên, bạn cần kết nối %2$s với %1$s, sau đó có thể sử dụng %3$s. Nếu bạn muốn dùng %1$s, chọn mục này.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
     <string name="mi_band_setting_auth_standalone">Hoạt động độc lập</string>
     <string name="mi_band_setting_auth_standalone_hint">Không cần ứng dụng %1$s để ứng dụng %3$s có thể hoạt động. Sau khi ghép nối, gỡ cài đặt ứng dụng %1$s. Khi khôi phục lại sự kết hợp với %1$s, bạn sẽ cần ghép nối lại %2$s của bạn trong ứng dụng %1$s. Nếu bạn sử dụng chức năng hủy ghép nối, dữ liệu trên đồng hồ thông minh sẽ bị xóa.  Màn hình của %2$s cần phải được bật khi đang ghép nối.</string>
+    <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
 
     <string name="mi_band_setting_auth_key">Khóa xác thực</string>
     <string name="mi_band_setting_auth_key_help">Nhập 4 số bất kỳ</string>
@@ -212,7 +213,8 @@
     <string name="message_feature_is_not_supported">%1$s không hỗ trợ tính năng này</string>
     <string name="message_general_error">Cài đặt thất bại (kết nối bị mất), hãy thử lại</string>
     <string name="message_internet_error">Không có mạng</string>
-    <string name="message_internet_traffic_blocked">Network traffic is blocked</string>
+    <string name="message_internet_traffic_blocked">Lưu lượng mạng bị chặn</string>
+    <string name="message_internet_ads_blocked">Quảng cáo bị chặn</string>
     <string name="message_gps_enable">Kích hoạt GPS</string>
     <string name="message_location_enable">Bật quyền thông tin vị trí</string>
 
@@ -222,6 +224,8 @@
     <string name="message_rewarded_error">Không tải được video</string>
 
     <string name="message_new_message">Nhận được 1 tin nhắn, xem trên điện thoại.</string>
+
+    <string name="message_permission_not_granted">Quyền không được cấp: %1$s</string> <!-- %1$s = permission name -->
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Chào mừng!</string>
@@ -301,6 +305,9 @@
 
 
     <!-- Call -->
+    <string name="call_tab_call">Cuộc gọi đến</string>
+    <string name="call_tab_contacts">Liên lạc</string>
+
     <string name="pref_cat_call">Cuộc gọi đến</string>
     <string name="pref_call_summary_on">Nhớ tắt thông báo cuộc gọi đến trong ứng dụng %1$s</string> <!-- %1$s = official app name -->
     <string name="pref_call_text_title">Hiện tên/Số người gọi</string>
@@ -327,6 +334,17 @@
     <string name="touch_call_mute_only_call_state_ringing_title">Chỉ khi bạn có một cuộc gọi đến</string>
     <string name="touch_call_mute_recognition_title">Chỉ trong cuộc gọi</string>
 
+    <string name="call_contact_edit_contact">Liên hệ</string>
+    <string name="call_contact_edit_name">Tên</string>
+    <string name="call_contact_edit_phone_number">Số điện thoại</string>
+
+    <string name="call_contact_edit_setting_name_order">Thứ tự tên</string>
+    <string name="call_contact_edit_setting_default">@string/default_</string>
+    <string name="call_contact_edit_setting_first_name">Tên đầu tiên</string>
+    <string name="call_contact_edit_setting_last_name">Họ</string>
+
+    <string name="message_call_contacts_free_counter">Up to %1$d contacts can be used in free mode</string> <!-- %1$d = 1, 2 ,3 ... -->
+    <string name="message_call_contacts_max_counter">Up to %1$d contacts can be used</string> <!-- %1$d = 1, 2 ,3 ... -->
 
     <!-- App chooser dialog -->
     <string name="app_chooser">Chọn ứng dụng</string>
@@ -509,7 +527,7 @@
     <string name="watch_face_edit_image_size">Kích cỡ hình</string>
 
     <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
-
+    <string name="watch_face_custom_watch_face_under_development_title">The ability to upload custom watch faces is currently in development and may be available in the future, but it is not yet confirmed</string>
 
     <!-- Touch monitoring -->
     <string name="touch_tab_function">Tính năng</string>
@@ -909,6 +927,8 @@
     <string name="action_select_images">Select images</string>
     <string name="action_deselect_all">Deselect all</string>
     <string name="synchronized_from_watch">Đã đồng bộ từ đồng hồ</string>
+    <string name="synchronization_succeeded">Đồng bộ hóa thành công</string>
+    <string name="synchronization_failed">Đồng bộ hóa không thành công</string>
 
     <string name="action_chart">Biểu đồ</string>
     <string name="action_zoom_in">Phóng to</string>

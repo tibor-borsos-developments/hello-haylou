@@ -69,6 +69,7 @@
     <string name="mi_band_setting_auth_mi_fit_hint">A működéséhez szükséges a %1$s applikáció telepítése ezen a telefonon. Először a %1$s applikáción belül kell a %2$s párosítását elvégezni. Ha a %1$s applikációt is használni szeretnéd ezt válasszd.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
     <string name="mi_band_setting_auth_standalone">Önálló működés</string>
     <string name="mi_band_setting_auth_standalone_hint">Nincs szükség a %1$s applikációra a működéshez. Párosítás után töröld a %1$s applikációt vagy szüntesd meg az okosóra párosítását. %1$s együttműködés visszaállításakor a %2$s újra párosítását el kell végezni a %1$s applikációban. Leválasztás használatakor az okosóra adatai törlődnek. %2$s képernyő legyen bekapcsolva a műveletek végrehajtása közben.</string>
+    <string name="mi_band_standalone_sync_error">Az adatok szinkronizálása együttműködési módban nem lehetséges, mivel a szinkronizálás eredményeként az adatok törlődnek az okosóráról, és mindkét alkalmazásban helytelen adatok jelennének meg.</string>
 
     <string name="mi_band_setting_auth_key">Hitelesítési kulcs</string>
     <string name="mi_band_setting_auth_key_help">Adj meg bármilyen 4 számot</string>
@@ -159,8 +160,8 @@
     <string name="pref_diagnostic">Diagnosztika</string>
     <string name="pref_cat_diagnostic_closing_protection">Bezárás elleni védelem</string>
     <string name="pref_diagnostic_battery_optimisation">Akkumulátor optimalizálás kikapcsolása</string>
-    <string name="pref_diagnostic_companion_device">Társkészülék párosítása</string>
-    <string name="pref_diagnostic_bluetooth_pairing">Bluetooth pairing</string>
+    <string name="pref_diagnostic_companion_device">Társkészülék párosítás</string>
+    <string name="pref_diagnostic_bluetooth_pairing">Bluetooth párosítás</string>
     <string name="pref_diagnostic_autostart">Automatikus indítás</string>
     <string name="pref_diagnostic_autostart_summary">Engedélyezd az alkalmazás automatikus újraindítását a telefon Automatikus indítások kezelőjében</string>
     <string name="pref_diagnostic_info">További információ</string>
@@ -190,22 +191,22 @@
     <string name="message_app_chooser_no_selected">Válassz ki egy applikációt</string>
 
     <!-- Figyelem, ezeket az azonosítókat használom dekódolva a programban nem írható át   -->
-    <string name="message_free_counter">Maximum 1 beállítás használható ingyenes módban</string>
+    <string name="message_free_counter">Legfeljebb 1 beállítás használható ingyenes módban</string>
 
-    <string name="message_notification_free_groups">Maximum %1$,d csoport használható ingyenes módban</string>
-    <string name="message_notification_free_app">Maximum 1 applikáció választható ingyenes módban</string>
-    <string name="message_notification_free_apps">Maximum %1$,d applikáció választható ingyenes módban</string>
+    <string name="message_notification_free_groups">Legfeljebb %1$,d csoport használható ingyenes módban</string>
+    <string name="message_notification_free_app">Legfeljebb 1 applikáció választható ingyenes módban</string>
+    <string name="message_notification_free_apps">Legfeljebb %1$,d applikáció választható ingyenes módban</string>
 
-    <string name="message_notification_free_text">Maximum 1 szöveg rögzíthető ingyenes módban</string>
+    <string name="message_notification_free_text">Legfeljebb 1 szöveg rögzíthető ingyenes módban</string>
 
-    <string name="message_time_alarm_free_counter">Maximum 1 ébresztő használható ingyenes módban</string>
-    <string name="message_time_alarm_max_counter">Maximum %1$d ébresztő használható</string>
+    <string name="message_time_alarm_free_counter">Legfeljebb 1 ébresztő használható ingyenes módban</string>
+    <string name="message_time_alarm_max_counter">Legfeljebb %1$d ébresztő használható</string>
     <string name="message_time_alarm_enabled">Ébresztő beállítva</string>
     <string name="message_time_alarm_disabled">Ébresztő letiltva</string>
     <string name="message_time_alarm_mi_band_off">Ébresztő ki</string>
 
     <string name="message_touch_pattern_error">A megadott minta hasonlít egy másik funkció mintájához, rögzíts másikat</string>
-    <string name="message_touch_free_patterns">Maximum %1$,d vezérlés használható ingyenes módban</string>
+    <string name="message_touch_free_patterns">Legfeljebb %1$,d vezérlés használható ingyenes módban</string>
     <string name="message_touch_record_help">Használd a %1$s zene vezérlő/telefon kereső funkciókat</string> <!-- %1$s = smartwatch -->
 
 <!-- Figyelem, ezeket az azonosítókat használom dekódolva a programban nem írható át   -->
@@ -213,7 +214,8 @@
     <string name="message_feature_is_not_supported">%1$s nem támogatja ezt a funkciót</string> <!-- %1$s = Watch name -->
     <string name="message_general_error">Beállítás nem sikerült (kapcsolat megszakadt), próbáld újra</string>
     <string name="message_internet_error">Nincs internet kapcsolat</string>
-    <string name="message_internet_traffic_blocked">A hálózati forgalom blokkolva van</string>
+    <string name="message_internet_traffic_blocked">A hálózati forgalom le van tiltva</string>
+    <string name="message_internet_ads_blocked">A hírdetések le vannak tiltva</string>
     <string name="message_gps_enable">GPS engedélyezése</string>
     <string name="message_location_enable">Engedélyezze a helymeghatározást</string>
 
@@ -223,6 +225,8 @@
     <string name="message_rewarded_error">Videó betöltés nem sikerült</string>
 
     <string name="message_new_message">Új üzenet érkezett, megtekinthető a telefonon.</string>
+
+    <string name="message_permission_not_granted">Jogosultság nincs megadva: %1$s</string> <!-- %1$s = permission name -->
 
     <!-- Welcome Dialog -->
     <string name="dialog_welcome_title">Üdvözöllek!</string>
@@ -310,6 +314,9 @@
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> ikon: értesítés címének, tartalmának megjelenítéshez válaszd ezt az ikont.]]></string>
 
     <!-- Call -->
+    <string name="call_tab_call">Bejövő hívás</string>
+    <string name="call_tab_contacts">Névjegyek</string>
+
     <string name="pref_cat_call">Bejövő hívás</string>
     <string name="pref_call_summary_on">Ne felejtsd el kikapcsolni a %1$s applikációban</string> <!-- %1$s = official app name -->
     <string name="pref_call_text_title">Hívó fél megjelenítés</string>
@@ -336,6 +343,17 @@
     <string name="touch_call_mute_only_call_state_ringing_title">Csak bejövő híváskor</string>
     <string name="touch_call_mute_recognition_title">Bejövő híváskor</string>
 
+    <string name="call_contact_edit_contact">Névjegy</string>
+    <string name="call_contact_edit_name">Név</string>
+    <string name="call_contact_edit_phone_number">Telefonszám</string>
+
+    <string name="call_contact_edit_setting_name_order">Névsorrend</string>
+    <string name="call_contact_edit_setting_default">@string/default_</string>
+    <string name="call_contact_edit_setting_first_name">Keresztnév</string>
+    <string name="call_contact_edit_setting_last_name">Vezetéknév</string>
+
+    <string name="message_call_contacts_free_counter">Legfeljebb %1$d névjegy használható ingyenes módban</string>
+    <string name="message_call_contacts_max_counter">Legfeljebb %1$d névjegy használható</string>
 
     <!-- App chooser dialog -->
     <string name="app_chooser">Applikáció választó</string>
@@ -421,7 +439,7 @@
     <string name="message_reminder_disabled">Emlékeztető letiltva</string>
 
     <!-- Figyelem, ezeket az azonosítókat használom dekódolva a programban nem írható át   -->
-    <string name="message_time_reminder_free_counter">Maximum 1 emlékeztető használható ingyenes módban</string>
+    <string name="message_time_reminder_free_counter">Legfeljebb 1 emlékeztető használható ingyenes módban</string>
 
     <string name="info_dialog_reminder"><![CDATA[
         Az emlékeztető megjelenítéséhez Bluetooth kapcsolat szükséges.
@@ -520,7 +538,7 @@
     <string name="watch_face_edit_image_size">Képméret</string>
 
     <string name="watch_face_custom_watch_face_not_supported_title">Az óra nem támogatja az egyéni óralap feltöltését</string>
-
+    <string name="watch_face_custom_watch_face_under_development_title">Egyéni óralap feltöltésének lehetősége fejlesztés alatt áll, a jövőben lehetséges hogy megoldható, de ez még nem biztos</string>
 
     <!-- Touch monitoring -->
     <string name="touch_tab_function">Funkció</string>
@@ -922,6 +940,8 @@
     <string name="action_select_texts">Szövegek kiválasztása</string>
     <string name="action_deselect_all">Kiválasztás megszűntetése</string>
     <string name="synchronized_from_watch">Szinkronizálva az óráról</string>
+    <string name="synchronization_succeeded">Sikeres szinkronizálás</string>
+    <string name="synchronization_failed">Sikertelen szinkronizálás</string>
 
     <string name="action_chart">Grafikon</string>
     <string name="action_zoom_in">Ráközelít</string>

@@ -69,6 +69,7 @@
     <string name="mi_band_setting_auth_mi_fit_hint">%1$sのインストールが必要です。%3$sを使用する前に%1$sで%2$sをペアリングしてください。</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
     <string name="mi_band_setting_auth_standalone">スタンドアロンモード</string>
     <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the %3$s to work. After the pairing, uninstall the %1$s app or unpair the smartwatch. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application.If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
+    <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
 
     <string name="mi_band_setting_auth_key">認証キー</string>
     <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
@@ -212,7 +213,8 @@
     <string name="message_feature_is_not_supported">%1$sはこの機能をサポートしていません</string>
     <string name="message_general_error">設定に失敗しました（接続が切断されました）。再試行してください</string>
     <string name="message_internet_error">インターネット接続がありません</string>
-    <string name="message_internet_traffic_blocked">Network traffic is blocked</string>
+    <string name="message_internet_traffic_blocked">ネットワークトラフィックがブロックされています</string>
+    <string name="message_internet_ads_blocked">광고가 차단되었습니다</string>
     <string name="message_gps_enable">GPSを有効にしてください</string>
     <string name="message_location_enable">Enable the location info permission</string>
 
@@ -222,6 +224,8 @@
     <string name="message_rewarded_error">動画の読み込みに失敗しました</string>
 
     <string name="message_new_message">新着メッセージがあります。端末で確認してください。</string>
+
+    <string name="message_permission_not_granted">権限が付与されていません: %1$s</string> <!-- %1$s = permission name -->
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">ようこそ！</string>
@@ -299,6 +303,9 @@
 
 
     <!-- Call -->
+    <string name="call_tab_call">着信</string>
+    <string name="call_tab_contacts">連絡先</string>
+
     <string name="pref_cat_call">着信</string>
     <string name="pref_call_summary_on">必ず%1$sで着信通知をオフにしてください。</string> <!-- %1$s = official app name -->
     <string name="pref_call_text_title">発信者のIDを表示</string>
@@ -325,6 +332,17 @@
     <string name="touch_call_mute_only_call_state_ringing_title">着信時のみ</string>
     <string name="touch_call_mute_recognition_title">着信時</string>
 
+    <string name="call_contact_edit_contact">接触</string>
+    <string name="call_contact_edit_name">名前</string>
+    <string name="call_contact_edit_phone_number">電話番号</string>
+
+    <string name="call_contact_edit_setting_name_order">名前順</string>
+    <string name="call_contact_edit_setting_default">@string/default_</string>
+    <string name="call_contact_edit_setting_first_name">ファーストネーム</string>
+    <string name="call_contact_edit_setting_last_name">苗字</string>
+
+    <string name="message_call_contacts_free_counter">Up to %1$d contacts can be used in free mode</string> <!-- %1$d = 1, 2 ,3 ... -->
+    <string name="message_call_contacts_max_counter">Up to %1$d contacts can be used</string> <!-- %1$d = 1, 2 ,3 ... -->
 
     <!-- App chooser dialog -->
     <string name="app_chooser">アプリ選択</string>
@@ -508,7 +526,7 @@
     <string name="watch_face_edit_image_size">画像サイズ</string>
 
     <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
-
+    <string name="watch_face_custom_watch_face_under_development_title">The ability to upload custom watch faces is currently in development and may be available in the future, but it is not yet confirmed</string>
 
     <!-- Touch monitoring -->
     <string name="touch_tab_function">機能</string>
@@ -909,6 +927,8 @@
     <string name="action_select_images">Select images</string>
     <string name="action_deselect_all">Deselect all</string>
     <string name="synchronized_from_watch">バンドから同期</string>
+    <string name="synchronization_succeeded">同期に成功しました</string>
+    <string name="synchronization_failed">同期に失敗しました</string>
 
     <string name="action_chart">チャート</string>
     <string name="action_zoom_in">Zoom</string>
