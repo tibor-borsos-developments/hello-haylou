@@ -9,6 +9,7 @@
 
 # <img src="https://play-lh.googleusercontent.com/IRN8GXZC_LcV_JmlaqrEkfeigS3aMrEqItatKO7e53nkAX47PQuPz8loYV0erQPh3w=s48-rw"> Hello Haylou
 ### Supported devices
+- Haylou RS5 (LS19)
 - Haylou Solar Pro (LS18)
 - Haylou Solar Plus RT3 (LS16)
 - Haylou Watch 2 Pro (LS02Pro/S001)
