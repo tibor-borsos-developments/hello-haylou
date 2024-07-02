@@ -31,7 +31,7 @@
     <string name="more_name">Mer</string>
 
 <!--    <string name="mi_band_tracker_title">Skritt・distanse・kalorier・mål・puls</string>-->
-    <string name="mi_band_tracker_title">Skritt・mål・puls</string>
+    <string name="main_tracker_title">Skritt・mål</string>
 <!--    <string name="mi_band_battery">Batteri-level・siste lade tid・beregnet gjenværende tid</string>-->
     <string name="device_battery">Batteri-level・siste lade tid</string>
     <string name="device_state_connected_disconnected_last_time">Siste tilkoblings og frakoblings-tid</string>
@@ -191,7 +191,7 @@
 
     <string name="message_app_chooser_no_selected">Velg en applikasjon</string>
 
-    <string name="message_free_counter">Up to 1 setting can be used in free mode</string>
+    <string name="message_free_counter">Up to %1$,d setting can be used in free mode</string> <!-- %1$,d = 1 or more  -->
 
     <string name="message_notification_free_groups">Opp til %1$,d grupper kan bli brukt i normal modus</string>
     <string name="message_notification_free_app">Up to 1 application can be selected in free mode</string>
@@ -465,6 +465,10 @@
     <string name="watch_face_watch_rewarded_ads">Se en video for å fortsette</string>
     <string name="watch_face_watch_rewarded_ads_uploading">Watch a video to continue uploading</string>
     <string name="watch_face_watch_rewarded_ads_countdown">Video starting…</string>
+
+    <string name="watch_face_upload_method_title">Method</string>
+    <string name="watch_face_upload_method_default">@string/default_</string>
+    <string name="watch_face_upload_method_alternative">Alternative</string>
 
     <string name="watch_face_upload_speed_title">Upload speed</string>
     <string name="watch_face_upload_speed_hint">Set a lower speed if the watch face uploading process is interrupted</string>

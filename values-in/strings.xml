@@ -31,7 +31,7 @@
     <string name="more_name">Lebih</string>
 
 <!--    <string name="mi_band_tracker_title">Langkah・jarak・kalori・tujuan・detak</string>-->
-    <string name="mi_band_tracker_title">Langkah・tujuan・detak</string>
+    <string name="main_tracker_title">Langkah・tujuan</string>
 <!--    <string name="mi_band_battery">Battery level・last charging time・estimated remaining time</string>-->
     <string name="device_battery">Tingkat baterai・waktu pengisian terakhir</string>
     <string name="device_state_connected_disconnected_last_time">Last connection and disconnection time</string>
@@ -191,7 +191,7 @@
 
     <string name="message_app_chooser_no_selected">Pilih aplikasi</string>
 
-    <string name="message_free_counter">Up to 1 setting can be used in free mode</string>
+    <string name="message_free_counter">Up to %1$,d setting can be used in free mode</string> <!-- %1$,d = 1 or more  -->
 
     <string name="message_notification_free_groups">Mode normal dapat menggunakan hingga %1$,d grup</string>
     <string name="message_notification_free_app">Up to 1 application can be selected in free mode</string>
@@ -464,6 +464,10 @@
     <string name="watch_face_watch_rewarded_ads">Tonton video untuk melanjutkan</string>
     <string name="watch_face_watch_rewarded_ads_uploading">Watch a video to continue uploading</string>
     <string name="watch_face_watch_rewarded_ads_countdown">Video starting…</string>
+
+    <string name="watch_face_upload_method_title">Method</string>
+    <string name="watch_face_upload_method_default">@string/default_</string>
+    <string name="watch_face_upload_method_alternative">Alternative</string>
 
     <string name="watch_face_upload_speed_title">Upload speed</string>
     <string name="watch_face_upload_speed_hint">Set a lower speed if the watch face uploading process is interrupted</string>

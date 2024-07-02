@@ -31,7 +31,7 @@
     <string name="more_name">더</string>
 
 <!--    <string name="mi_band_tracker_title">걸음수・거리・칼로리・목표・심박수</string>-->
-    <string name="mi_band_tracker_title">걸음수・목표・심박수</string>
+    <string name="main_tracker_title">걸음수・목표</string>
 <!--    <string name="mi_band_battery">배터리 잔량・마지막 충전 시간・예상 잔여 시간</string>-->
     <string name="device_battery">배터리 잔량・마지막 충전 시간</string>
     <string name="device_state_connected_disconnected_last_time">마지막 연결 및 연결 해제 시간</string>
@@ -191,7 +191,7 @@
 
     <string name="message_app_chooser_no_selected">애플리케이션 선택</string>
 
-    <string name="message_free_counter">무료모드에서는 1개의 설정을 사용할수 있습니다</string>
+    <string name="message_free_counter">무료모드에서는 %1$,d개의 설정을 사용할수 있습니다</string> <!-- %1$,d = 1 or more  -->
 
     <string name="message_notification_free_groups">무료모드에서는 최대 %1$,d개의 그룹을 사용할 수 있습니다</string>
     <string name="message_notification_free_app">무료모드에서는 1개의 어플리케이션을 사용할수 있습니다</string>
@@ -465,6 +465,10 @@
     <string name="watch_face_watch_rewarded_ads">계속하려면 비디오를보십시오</string>
     <string name="watch_face_watch_rewarded_ads_uploading">Watch a video to continue uploading</string>
     <string name="watch_face_watch_rewarded_ads_countdown">Video starting…</string>
+
+    <string name="watch_face_upload_method_title">Method</string>
+    <string name="watch_face_upload_method_default">@string/default_</string>
+    <string name="watch_face_upload_method_alternative">Alternative</string>
 
     <string name="watch_face_upload_speed_title">업로드 속도</string>
     <string name="watch_face_upload_speed_hint">워치 페이스 업로드 프로세스가 중단될 경우 속도를 낮추십시오</string>

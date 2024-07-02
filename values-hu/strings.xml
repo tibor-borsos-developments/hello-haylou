@@ -31,7 +31,7 @@
     <string name="more_name">Továbbiak</string>
 
 <!--    <string name="mi_band_tracker_title">Lépésszám・távolság・kalória・célkitűzés・pulzus</string>-->
-    <string name="mi_band_tracker_title">Lépésszám・célkitűzés・pulzus</string>
+    <string name="main_tracker_title">Lépésszám・célkitűzés</string>
 <!--    <string name="mi_band_battery">Akkumulátor állapota・töltés időpontja・becsült hátralévő idő</string>-->
     <string name="device_battery">Akkumulátorszint・töltés időpontja</string>
     <string name="device_state_connected_disconnected_last_time">Utolsó csatlakozás és kapcsolatbontás időpontja</string>
@@ -191,7 +191,7 @@
     <string name="message_app_chooser_no_selected">Válassz ki egy applikációt</string>
 
     <!-- Figyelem, ezeket az azonosítókat használom dekódolva a programban nem írható át   -->
-    <string name="message_free_counter">Legfeljebb 1 beállítás használható ingyenes módban</string>
+    <string name="message_free_counter">Legfeljebb %1$,d beállítás használható ingyenes módban</string> <!-- %1$,d = 1 or more  -->
 
     <string name="message_notification_free_groups">Legfeljebb %1$,d csoport használható ingyenes módban</string>
     <string name="message_notification_free_app">Legfeljebb 1 applikáció választható ingyenes módban</string>
@@ -477,6 +477,10 @@
     <string name="watch_face_watch_rewarded_ads">Nézz meg egy videót a folytatásához</string>
     <string name="watch_face_watch_rewarded_ads_uploading">Nézz meg egy videót a feltöltés folytatásához</string>
     <string name="watch_face_watch_rewarded_ads_countdown">Videó indítása…</string>
+
+    <string name="watch_face_upload_method_title">Üzemmód</string>
+    <string name="watch_face_upload_method_default">@string/default_</string>
+    <string name="watch_face_upload_method_alternative">Alternatív</string>
 
     <string name="watch_face_upload_speed_title">Feltöltés sebessége</string>
     <string name="watch_face_upload_speed_hint">Számlap feltöltési folyamat megszakadás esetén állíts be alacsonyabb sebességet</string>

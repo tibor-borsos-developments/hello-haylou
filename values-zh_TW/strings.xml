@@ -31,7 +31,7 @@
     <string name="more_name">更多</string>
 
 <!--    <string name="mi_band_tracker_title">步數・距離・卡路里・目標・心率</string>-->
-    <string name="mi_band_tracker_title">步數・目標・心率</string>
+    <string name="main_tracker_title">步數・目標</string>
 <!--    <string name="mi_band_battery">電池量・最後一次充電時間・預計剩餘時間</string>-->
     <string name="device_battery">電池量・最後一次充電時間</string>
     <string name="device_state_connected_disconnected_last_time">最後連接和斷開時間</string>
@@ -191,7 +191,7 @@
 
     <string name="message_app_chooser_no_selected">選擇應用程式</string>
 
-    <string name="message_free_counter">普通模式最多可以設定1個應用程式</string>
+    <string name="message_free_counter">普通模式最多可以設定%1$,d個應用程式</string> <!-- %1$,d = 1 or more  -->
 
     <string name="message_notification_free_groups">普通模式最多可以設定 %1$,d 個群組</string>
     <string name="message_notification_free_app">普通模式最多可以設定1個應用程式</string>
@@ -465,6 +465,10 @@
     <string name="watch_face_watch_rewarded_ads">觀看視頻繼續</string>
     <string name="watch_face_watch_rewarded_ads_uploading">Watch a video to continue uploading</string>
     <string name="watch_face_watch_rewarded_ads_countdown">Video starting…</string>
+
+    <string name="watch_face_upload_method_title">Method</string>
+    <string name="watch_face_upload_method_default">@string/default_</string>
+    <string name="watch_face_upload_method_alternative">Alternative</string>
 
     <string name="watch_face_upload_speed_title">Upload speed</string>
     <string name="watch_face_upload_speed_hint">Set a lower speed if the watch face uploading process is interrupted</string>

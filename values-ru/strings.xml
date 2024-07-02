@@ -31,7 +31,7 @@
     <string name="more_name">Ещё</string>
 
 <!--    <string name="mi_band_tracker_title">Шаги・расстояние・калории・цель・пульс</string>-->
-    <string name="mi_band_tracker_title">Шаги・цель・пульс</string>
+    <string name="main_tracker_title">Шаги・цель</string>
 <!--    <string name="mi_band_battery">Уровень заряда・время последней зарядки・ожидаемое время работы</string>-->
     <string name="device_battery">Уровень заряда・время последней зарядки</string>
     <string name="device_state_connected_disconnected_last_time">Время последнего соединения и его разрыва</string>
@@ -191,7 +191,7 @@
 
     <string name="message_app_chooser_no_selected">Выберете приложение</string>
 
-    <string name="message_free_counter">В бесплатном режиме можно использовать только 1 настройку</string>
+    <string name="message_free_counter">В бесплатном режиме можно использовать только %1$,d настройку</string> <!-- %1$,d = 1 or more  -->
 
     <string name="message_notification_free_groups">В бесплатном режиме можно создать только %1$,d группы</string>
     <string name="message_notification_free_app">В бесплатном режиме можно выбрать только 1 приложение</string>
@@ -465,6 +465,10 @@
     <string name="watch_face_watch_rewarded_ads">Посмотрите видео, чтобы продолжить</string>
     <string name="watch_face_watch_rewarded_ads_uploading">Посмотрите видео для продолжения загрузки</string>
     <string name="watch_face_watch_rewarded_ads_countdown">Video starting…</string>
+
+    <string name="watch_face_upload_method_title">Method</string>
+    <string name="watch_face_upload_method_default">@string/default_</string>
+    <string name="watch_face_upload_method_alternative">Alternative</string>
 
     <string name="watch_face_upload_speed_title">Скорость передачи</string>
     <string name="watch_face_upload_speed_hint">Установите меньшую скорость передачи циферблата на часы если процесс передачи постоянно прерывается.</string>
