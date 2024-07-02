@@ -60,7 +60,9 @@
 - Zeblaze Ares 3 Pro
 - Zeblaze GTR 3 Pro
 - Zeblaze GTS 3 Pro
+- Zeblaze GTS 3 Plus
 - Zeblaze Vibe 7 Pro
+- Zeblaze Vibe 7 Lite
 - Zeblaze GTR 3
 - Zeblaze Btalk
 - Zeblaze GTR 2
