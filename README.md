@@ -56,19 +56,22 @@
 
 # <img src="https://play-lh.googleusercontent.com/dn0iS7KiPmHd6dNuw2Mkl2mWv_AA8fJLzo3k9uoOT6ebpp_ObvhCqZBSYu5MiQD9SA=s48-rw"> Hello Zeblaze
 ### Supported devices
-- Zeblaze Btalk 3 Pro
+- Zeblaze Ares 3 Plus
 - Zeblaze Ares 3 Pro
-- Zeblaze GTR 3 Pro
-- Zeblaze GTS 3 Pro
+- Zeblaze Btalk 3 Pro
+- Zeblaze Btalk 3 Plus
 - Zeblaze GTS 3 Plus
+- Zeblaze GTS 3 Pro 
+- Zeblaze GTR 3 Pro
+- Zeblaze GTR 3
+- Zeblaze Ares 3
 - Zeblaze Vibe 7 Pro
 - Zeblaze Vibe 7 Lite
-- Zeblaze GTR 3
 - Zeblaze Btalk
 - Zeblaze GTR 2
 - Zeblaze GTS Pro
+- Zeblaze Ares 
 - Zeblaze Lily
-- Zeblaze Ares
 <!-- ><a href="https://play.google.com/store/apps/details?id=hu.tiborsosdevs.zeblaze.hello&referrer=utm_source%3Dhttps%253A%252F%252Fgithub.com%26utm_medium%3Dweb" target="_blank"> -->
 <!-- ><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="200"> -->
 <!-- ></a> -->
