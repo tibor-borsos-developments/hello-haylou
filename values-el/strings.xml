@@ -169,20 +169,21 @@
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
 
     <string name="pref_cat_diagnostic_permissions">Δικαιώματα</string>
+    <string name="pref_diagnostic_permission_allow_notification_access_settings">Allow notification access</string>
     <string name="pref_diagnostic_permission_schedule_exact_alarm">Προγραμματίστε ακριβή συναγερμό</string>
     <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Additional permission is required to schedule the task at an exact time.</string>
-    <string name="pref_diagnostic_permission_access_notification_policy">Πρόσβαση μην ενοχλείτε</string>
     <string name="pref_diagnostic_permission_post_notifications">Post notifications</string>
     <string name="pref_diagnostic_permission_post_notifications_summary">Additional permission is required to display the notification</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">Πρόσβαση μην ενοχλείτε</string>
 
 
     <!-- Snackbar Messages -->
-    <string name="message_enable_bluetooth">Παρακαλούμε να ενεργοποιήσετε το Bluetooth και φέρτε τη συσκευή %1$s πιο κοντά στο τηλέφωνο</string>
-    <string name="message_discover_mi_band">Το %1$s δεν έχει οριστεί, παρακαλούμε πατήστε ανίχνευση</string>
-    <string name="message_discovering_mi_band">Ανίχνευση για %1$s (μπορεί να πάρει 1 λεπτό) &#8230;</string>
-    <string name="message_discovered_mi_band">Το %1$s ανιχνεύθηκε</string>
-    <string name="message_discovered_no_mi_band">Το %1$s δεν ανιχνεύθηκε</string>
-    <string name="message_discovered_not_found_mi_band">Σε περίπτωση που το %1$s δεν ανιχνευθεί, ενεργοποιήστε το: Haylou Sport/Play/Discoverable ή συζεύξτε από τις ρυθμίσεις Bluetooth του κινητού σας.</string>
+    <string name="message_enable_bluetooth">Ενεργοποιήστε το Bluetooth και φέρτε τη συσκευή πιο κοντά στο τηλέφωνο</string>
+    <string name="message_discover_device">Το %1$s δεν έχει οριστεί, παρακαλούμε πατήστε ανίχνευση</string>
+    <string name="message_discovering_device">Ανίχνευση για %1$s (μπορεί να πάρει 1 λεπτό) &#8230;</string>
+    <string name="message_discover_device_succeeded">Το %1$s ανιχνεύθηκε</string>
+    <string name="message_discover_device_failed">Το %1$s δεν ανιχνεύθηκε</string>
+    <string name="message_discover_device_not_found">Σε περίπτωση που το %1$s δεν ανιχνευθεί, ενεργοποιήστε το: Haylou Sport/Play/Discoverable ή συζεύξτε από τις ρυθμίσεις Bluetooth του κινητού σας.</string>
     <string name="message_enable_notification_listener_access">Ενεργοποίηση πρόσβασης ειδοποίησης: Ρυθμίσεις/ειδοποιήσεις/Πρόσβασης ειδοποίησης (Settings/Notifications/Notification access)</string>
     <string name="message_enable_notification_listener_access_4_4">Ενεργοποίηση πρόσβασης ειδοποίησης: Ρυθμίσεις/Ασφάλεια/Πρόσβασης ειδοποίησης (Settings/Security/Notification access)</string>
 
@@ -203,7 +204,7 @@
     <string name="message_time_alarm_max_counter">Μέγιστο %1$d ειδοποιήσεις μπορούν να χρησιμοποιηθούν</string>
     <string name="message_time_alarm_enabled">Ειδοποίηση ενεργοποιημένη</string>
     <string name="message_time_alarm_disabled">Ειδοποίηση απενεργοποιημένη</string>
-    <string name="message_time_alarm_mi_band_off">Αφύπνιση εκτός λειτουργίας</string>
+    <string name="message_time_alarm_off">Αφύπνιση εκτός λειτουργίας</string>
 
     <string name="message_touch_pattern_error">Το καθορισμένο μοτίβο είναι παρόμοιο με ένα δείγμα κάποιας άλλης λειτουργίας, καταγράψτε άλλο</string>
     <string name="message_touch_free_patterns">Μπορούν να χρησιμοποιηθούν μέχρι %1$,d λειτουργίες</string>
@@ -238,6 +239,7 @@
     <br>- Ρυθμίσεις τηλεφώνου/μπαταρίας/βελτιστοποίηση μπαταρίας: Μη ρυθμίσετε βελτιστοποίηση στην εφαρμογή <app_name/>.
     <br>- Τηλέφωνο/εφαρμογές: καθαρισμός Bluetooth διαμοιρασμού και άλλα\'Bluetooth\' δεδομένα εφαρμογών.
     <br>- Περισσότερες πληροφορίες: https://dontkillmyapp.com
+    <br><br><small>This product and its features are not designed for medical purposes, and are not intended to predict, diagnose, prevent, or cure any diseases. All data and measurements are for personal reference only and shall not be used as a basis for diagnosis and treatment.</small>
     ]]></string>
 
 
@@ -374,6 +376,7 @@
     <string name="sleep_awake">Awake</string>
     <string name="sleep_light">Light</string>
     <string name="sleep_deep">Deep</string>
+    <string name="sleep_rem">REM</string>
 
 
     <!-- Pulse -->
@@ -472,9 +475,19 @@
     <string name="watch_face_upload_method_alternative">Alternative</string>
 
     <string name="watch_face_upload_speed_title">Upload speed</string>
-    <string name="watch_face_upload_speed_hint">Set a lower speed if the watch face uploading process is interrupted</string>
+    <string name="watch_face_upload_invalid_speed_hint">Set a lower speed if the watch face uploading process is interrupted</string>
+    <string name="watch_face_upload_invalid_size_hint">Invalid watch face file size, set lower watch face quality or remove items from watch face</string>
+    <string name="watch_face_upload_invalid_battery_hint">The smartwatch battery is running low, please charge the watch</string>
 
-    <string name="message_watch_face_file_error">Invalid watch face file</string>
+    <string name="watch_face_tbwf_quality_title">.tbwf watch face quality setting</string>
+    <string name="watch_face_tbwf_quality_hint">The file size can be reduced if the watch allows it</string>
+
+    <string name="watch_face_tbwf_locale_title">.tbwf watch face language and country setting</string>
+    <string name="watch_face_tbwf_locale_hint">Day of week, month separator and decimal separator</string>
+
+    <string name="message_watch_face_file_invalid">Invalid watch face file</string>
+    <string name="message_watch_face_file_invalid_size">Invalid watch face file size</string>
+    <string name="message_watch_face_file_invalid_battery">The smartwatch battery is running low</string>
     <string name="message_watch_face_image_file_error">Μη έγκυρο αρχείο εικόνας</string>
     <string name="message_watch_face_font_file_error">Μη έγκυρο αρχείο γραμματοσειράς</string>
 
@@ -991,6 +1004,9 @@
 
     <string name="const_number">%1$,d</string>
     <string name="const_number_float">%,.2f</string>
+    <string name="const_number_float_1_precision">%,.1f</string>
+    <string name="const_percentage">%1$,d%%</string>
+    <string name="const_percent_sign">%</string>
     <string name="const_unit_kilometer">km</string>
     <string name="const_unit_meter">μ</string>
     <string name="const_unit_centimeter">εκ</string>

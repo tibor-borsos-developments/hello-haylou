@@ -168,19 +168,20 @@
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
 
     <string name="pref_cat_diagnostic_permissions">Engedélyek</string>
+    <string name="pref_diagnostic_permission_allow_notification_access_settings">Hozzáférés az értesítésekhez</string>
     <string name="pref_diagnostic_permission_schedule_exact_alarm">Pontos riasztás ütemezése</string>
     <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">További engedély szükséges a feladat pontos időpontra történő ütemezéséhez.</string>
-    <string name="pref_diagnostic_permission_access_notification_policy">Hozzáférés a ne zavarjanak funkcióhoz</string>
     <string name="pref_diagnostic_permission_post_notifications">Értesítések megjelenítése</string>
     <string name="pref_diagnostic_permission_post_notifications_summary">További engedély szükséges az értesítés megjelenítéséhez</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">Hozzáférés a ne zavarjanak funkcióhoz</string>
 
 
     <!-- Snackbar Messages -->
-    <string name="message_discover_mi_band">%1$s még nincs beállítva, csatlakoztasd</string>
-    <string name="message_discovering_mi_band">%1$s keresése folyamatban (1 percig is eltarthat) &#8230;</string>
-    <string name="message_discovered_mi_band">%1$s csatlakoztatása sikeres</string>
-    <string name="message_discovered_no_mi_band">%1$s csatlakoztatása nem sikerült</string>
-    <string name="message_discovered_not_found_mi_band">Ha %1$s nem található, kapcsold be: Haylou Sport/Értesítések/Felfedezhetőség illetve párosítsd a telefon Bluetooth beállításoknál</string>
+    <string name="message_discover_device">%1$s még nincs beállítva, csatlakoztasd</string>
+    <string name="message_discovering_device">%1$s keresése folyamatban (1 percig is eltarthat) &#8230;</string>
+    <string name="message_discover_device_succeeded">%1$s csatlakoztatása sikeres</string>
+    <string name="message_discover_device_failed">%1$s csatlakoztatása nem sikerült</string>
+    <string name="message_discover_device_not_found">Ha %1$s nem található, kapcsold be: Haylou Sport/Értesítések/Felfedezhetőség illetve párosítsd a telefon Bluetooth beállításoknál</string>
     <string name="message_enable_bluetooth">Kapcsold be a Bluetooth-ot és tartsd közel az órát</string>
     <string name="message_enable_notification_listener_access">Engedélyezd a hozzáférést az értesítésekhez: Telefon/Beállítások/Hozzáférés értesítésekhez</string>
     <string name="message_enable_notification_listener_access_4_4">Engedélyezd a hozzáférést az értesítésekhez: Biztonság/Hozzáférés az értesítésekhez</string>
@@ -203,7 +204,7 @@
     <string name="message_time_alarm_max_counter">Legfeljebb %1$d ébresztő használható</string>
     <string name="message_time_alarm_enabled">Ébresztő beállítva</string>
     <string name="message_time_alarm_disabled">Ébresztő letiltva</string>
-    <string name="message_time_alarm_mi_band_off">Ébresztő ki</string>
+    <string name="message_time_alarm_off">Ébresztő ki</string>
 
     <string name="message_touch_pattern_error">A megadott minta hasonlít egy másik funkció mintájához, rögzíts másikat</string>
     <string name="message_touch_free_patterns">Legfeljebb %1$,d vezérlés használható ingyenes módban</string>
@@ -239,6 +240,7 @@
     <br>- Telefon akkumulátor optimalizálása kikapcsolása.
     <br>- Telefon/alkalmazások: Bluetooth Share és egyéb \'Bluetooth\' app. adatok törlése.
     <br>- További információ: https://dontkillmyapp.com
+    <br><br><small>Ezt a terméket és annak funkcióit nem gyógyászati célokra tervezték, és nem célja betegségek előrejelzése, diagnosztizálása, megelőzése vagy gyógyítása. Minden adat és mérés csak személyes tájékoztatást szolgál, és nem használható fel diagnózis vagy kezelés alapjául.</small>
     ]]></string>
 
 
@@ -384,6 +386,7 @@
     <string name="sleep_awake">Ébren</string>
     <string name="sleep_light">Könnyű</string>
     <string name="sleep_deep">Mély</string>
+    <string name="sleep_rem">REM</string>
 
 
     <!-- Pulse -->
@@ -483,9 +486,19 @@
     <string name="watch_face_upload_method_alternative">Alternatív</string>
 
     <string name="watch_face_upload_speed_title">Feltöltés sebessége</string>
-    <string name="watch_face_upload_speed_hint">Számlap feltöltési folyamat megszakadás esetén állíts be alacsonyabb sebességet</string>
+    <string name="watch_face_upload_invalid_speed_hint">Állíts be alacsonyabb feltöltési sebességet, ha az óralap feltöltési folyamata megszakad</string>
+    <string name="watch_face_upload_invalid_size_hint">Érvénytelen számlap fájlméret, állíts be alacsonyabb számlap minőséget, vagy távolíts el elemeket a számlapról</string>
+    <string name="watch_face_upload_invalid_battery_hint">Az okosóra akkumulátora lemerülőben van, kérlek töltsd fel az órát</string>
 
-    <string name="message_watch_face_file_error">Érvénytelen számlap fájl</string>
+    <string name="watch_face_tbwf_quality_title">.tbwf számlap minőség beállítása</string>
+    <string name="watch_face_tbwf_quality_hint">Csökkenthető a fájl mérete, amennyiben az óra ezt lehetővé teszi</string>
+
+    <string name="watch_face_tbwf_locale_title">.tbwf számlap nyelv és ország beállítása</string>
+    <string name="watch_face_tbwf_locale_hint">Hét napja, hónap elválasztó és tizedes elválasztó</string>
+
+    <string name="message_watch_face_file_invalid">Érvénytelen számlap fájl</string>
+    <string name="message_watch_face_file_invalid_size">Érvénytelen számlap fájlméret</string>
+    <string name="message_watch_face_file_invalid_battery">Az okosóra akkumulátora majdnem lemerült</string>
     <string name="message_watch_face_image_file_error">Érvénytelen kép fájl</string>
     <string name="message_watch_face_font_file_error">Érvénytelen betűtípus fájl</string>
 
@@ -1003,6 +1016,9 @@
 
     <string name="const_number">%1$,d</string>
     <string name="const_number_float">%,.2f</string>
+    <string name="const_number_float_1_precision">%,.1f</string>
+    <string name="const_percentage">%1$,d%%</string>
+    <string name="const_percent_sign">%</string>
     <string name="const_unit_kilometer">km</string>
     <string name="const_unit_meter">m</string>
     <string name="const_unit_centimeter">cm</string>
@@ -1010,6 +1026,7 @@
     <string name="const_unit_kilogram">kg</string>
     <string name="const_unit_kcal">kcal</string>
     <string name="const_unit_dbm">dBm</string>
+
     <plurals name="plural_time_hour">
         <item quantity="zero">%d óra</item>
         <item quantity="one">%d óra</item>

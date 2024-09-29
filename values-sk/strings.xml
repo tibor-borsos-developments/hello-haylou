@@ -169,20 +169,21 @@
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
 
     <string name="pref_cat_diagnostic_permissions">Permissions</string>
+    <string name="pref_diagnostic_permission_allow_notification_access_settings">Allow notification access</string>
     <string name="pref_diagnostic_permission_schedule_exact_alarm">Naplánovať presný alarm</string>
     <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Additional permission is required to schedule the task at an exact time.</string>
-    <string name="pref_diagnostic_permission_access_notification_policy">Do not Disturb access</string>
     <string name="pref_diagnostic_permission_post_notifications">Post notifications</string>
     <string name="pref_diagnostic_permission_post_notifications_summary">Additional permission is required to display the notification</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">Do not Disturb access</string>
 
 
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">Prosím aktivujte Bluetooth a dajte náramok blížšie k telefónu</string>
-    <string name="message_discover_mi_band">Náramok nie je nastavení, prosím vyhľadejťe ho</string>
-    <string name="message_discovering_mi_band">Hľadanie náramku (môže trvať pár minút) &#8230;</string>
-    <string name="message_discovered_mi_band">%1$s pripojené</string>
-    <string name="message_discovered_no_mi_band">Pripojenie náramku zlyhalo</string>
-    <string name="message_discovered_not_found_mi_band">Pokiaľ nebol náramok nájdení, zapniťe: Haylou Sport/Play/Objavťe alebo spárujťe náramok s Bluetooth Vašho zariadenia</string>
+    <string name="message_discover_device">%1$s nie je nastavené, pripojte ho, prosím</string>
+    <string name="message_discovering_device">Hľadanie náramku (môže trvať pár minút) &#8230;</string>
+    <string name="message_discover_device_succeeded">%1$s pripojené</string>
+    <string name="message_discover_device_failed">Spojenie %1$s zlyhalo</string>
+    <string name="message_discover_device_not_found">Pokiaľ nebol náramok nájdení, zapniťe: Haylou Sport/Play/Objavťe alebo spárujťe náramok s Bluetooth Vašho zariadenia</string>
     <string name="message_enable_notification_listener_access">Povolte přístup k oznámení: Nastavenie/oznámenia/prístup k oznámeniam</string>
     <string name="message_enable_notification_listener_access_4_4">Povolte přístup k oznámení: Nastavenie/zabezpečenia/prístup k oznámeniam</string>
 
@@ -202,7 +203,7 @@
     <string name="message_time_alarm_max_counter">Maximálně môže byť použité %1$d budík</string>
     <string name="message_time_alarm_enabled">Budík povolený</string>
     <string name="message_time_alarm_disabled">Budík zakázáný</string>
-    <string name="message_time_alarm_mi_band_off">Budík vypnutý</string>
+    <string name="message_time_alarm_off">Budík vypnutý</string>
 
     <string name="message_touch_pattern_error">Zadaný vzorec je podobný vzorcu inéj funkcie, zaznamenajťe inú</string>
     <string name="message_touch_free_patterns">V normálnom režime sa da použíť až %1$,d funkcie</string>
@@ -237,6 +238,7 @@
     <br>- Nastavenie/batérie/optimalizácia výdrž batérie: zvolťe aplikaciu <app_name/> a vyberťe neoptimalizovať.
     <br>- Nastavenie/aplikacie: vymažte dáta aplikacie Zdielanie Bluetooth a ostatních Bluetooth aplikacií.
     <br>- Viac informácií: https://dontkillmyapp.com
+    <br><br><small>This product and its features are not designed for medical purposes, and are not intended to predict, diagnose, prevent, or cure any diseases. All data and measurements are for personal reference only and shall not be used as a basis for diagnosis and treatment.</small>
     ]]></string>
 
     <!-- Notification Dialog -->
@@ -372,6 +374,7 @@
     <string name="sleep_awake">Awake</string>
     <string name="sleep_light">Light</string>
     <string name="sleep_deep">Deep</string>
+    <string name="sleep_rem">REM</string>
 
 
     <!-- Pulse -->
@@ -469,9 +472,19 @@
     <string name="watch_face_upload_method_alternative">Alternative</string>
 
     <string name="watch_face_upload_speed_title">Upload speed</string>
-    <string name="watch_face_upload_speed_hint">Set a lower speed if the watch face uploading process is interrupted</string>
+    <string name="watch_face_upload_invalid_speed_hint">Set a lower speed if the watch face uploading process is interrupted</string>
+    <string name="watch_face_upload_invalid_size_hint">Invalid watch face file size, set lower watch face quality or remove items from watch face</string>
+    <string name="watch_face_upload_invalid_battery_hint">The smartwatch battery is running low, please charge the watch</string>
 
-    <string name="message_watch_face_file_error">Neplatný súbor ciferníka</string>
+    <string name="watch_face_tbwf_quality_title">.tbwf watch face quality setting</string>
+    <string name="watch_face_tbwf_quality_hint">The file size can be reduced if the watch allows it</string>
+
+    <string name="watch_face_tbwf_locale_title">.tbwf watch face language and country setting</string>
+    <string name="watch_face_tbwf_locale_hint">Day of week, month separator and decimal separator</string>
+
+    <string name="message_watch_face_file_invalid">Neplatný súbor ciferníka</string>
+    <string name="message_watch_face_file_invalid_size">Invalid watch face file size</string>
+    <string name="message_watch_face_file_invalid_battery">The smartwatch battery is running low</string>
     <string name="message_watch_face_image_file_error">Neplatný súbor s obrázkom</string>
     <string name="message_watch_face_font_file_error">Neplatný súbor písma</string>
 
@@ -987,6 +1000,9 @@
 
     <string name="const_number">%1$,d</string>
     <string name="const_number_float">%,.2f</string>
+    <string name="const_number_float_1_precision">%,.1f</string>
+    <string name="const_percentage">%1$,d%%</string>
+    <string name="const_percent_sign">%</string>
     <string name="const_unit_kilometer">km</string>
     <string name="const_unit_meter">m</string>
     <string name="const_unit_centimeter">cm</string>

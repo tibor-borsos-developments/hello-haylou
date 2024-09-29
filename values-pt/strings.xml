@@ -169,20 +169,21 @@
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
 
     <string name="pref_cat_diagnostic_permissions">Permissões</string>
+    <string name="pref_diagnostic_permission_allow_notification_access_settings">Allow notification access</string>
     <string name="pref_diagnostic_permission_schedule_exact_alarm">Agendar um alarme exato</string>
     <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Additional permission is required to schedule the task at an exact time.</string>
-    <string name="pref_diagnostic_permission_access_notification_policy">Acesso ao modo DND</string>
     <string name="pref_diagnostic_permission_post_notifications">Post notifications</string>
     <string name="pref_diagnostic_permission_post_notifications_summary">Additional permission is required to display the notification</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">Acesso ao modo DND</string>
 
 
     <!-- Snackbar Messages -->
-    <string name="message_enable_bluetooth">Por favor, ligue o Bluetooth e mantenha a %1$s perto do dispositivo</string>
-    <string name="message_discover_mi_band">A %1$s não está configurado. Encontre-a por favor</string>
-    <string name="message_discovering_mi_band">Procurando a %1$s (isso pode demorar 1 minuto) &#8230;</string>
-    <string name="message_discovered_mi_band">%1$s conectada com sucesso</string>
-    <string name="message_discovered_no_mi_band">Não foi possível conectar com o relógio</string>
-    <string name="message_discovered_not_found_mi_band">Se a %1$s não for encontrada, ative: Haylou Sport/Play/Discoverable ou conecte nas definições de Bluetooth do dispositivo</string>
+    <string name="message_enable_bluetooth">Por favor, habilite o Bluetooth e aproxime o smartwatch do telefone</string>
+    <string name="message_discover_device">A %1$s não está configurado. Encontre-a por favor</string>
+    <string name="message_discovering_device">Procurando a %1$s (isso pode demorar 1 minuto) &#8230;</string>
+    <string name="message_discover_device_succeeded">%1$s conectada com sucesso</string>
+    <string name="message_discover_device_failed">A conexão %1$s falhou</string>
+    <string name="message_discover_device_not_found">Se a %1$s não for encontrada, ative: Haylou Sport/Play/Discoverable ou conecte nas definições de Bluetooth do dispositivo</string>
     <string name="message_enable_notification_listener_access">Ative o acesso às notificações: Definições/Notificações/Acesso às notificações</string>
     <string name="message_enable_notification_listener_access_4_4">Ative o acesso às notificações: Definições/Segurança/Acesso às notificações</string>
 
@@ -203,7 +204,7 @@
     <string name="message_time_alarm_max_counter">Só pode usar %1$d alarmes no máximo</string>
     <string name="message_time_alarm_enabled">Alarme ativado</string>
     <string name="message_time_alarm_disabled">Alarme desativado</string>
-    <string name="message_time_alarm_mi_band_off">Alarme desligado</string>
+    <string name="message_time_alarm_off">Alarme desligado</string>
 
     <string name="message_touch_pattern_error">O padrão gravado é semelhante ao de outra função, grave outro</string>
     <string name="message_touch_free_patterns">Não pode usar mais de %1$,d Controles no modo grátis</string>
@@ -238,7 +239,8 @@
     <br>- Dispositivo/Otimização de bateria: configurar a <app_name/> para não ser otimizada.
     <br>- Dispositivo/Aplicações: Limpar dados de \'Compartilhamento Bluetooth\' e de outras aplicações \'Bluetooth\'.
     <br>- Mais Informações: https://dontkillmyapp.com
-    </p>]]></string>
+    <br><br><small>This product and its features are not designed for medical purposes, and are not intended to predict, diagnose, prevent, or cure any diseases. All data and measurements are for personal reference only and shall not be used as a basis for diagnosis and treatment.</small>
+    ]]></string>
 
 
     <!-- Notification Dialog -->
@@ -374,6 +376,7 @@
     <string name="sleep_awake">Acordado</string>
     <string name="sleep_light">Sono Leve</string>
     <string name="sleep_deep">Sono Profundo</string>
+    <string name="sleep_rem">REM</string>
 
 
     <!-- Pulse -->
@@ -471,9 +474,19 @@
     <string name="watch_face_upload_method_alternative">Alternative</string>
 
     <string name="watch_face_upload_speed_title">Velocidade de Upload</string>
-    <string name="watch_face_upload_speed_hint">Defina uma velocidade mais baixa se o processo de envio do mostrador do relógio for interrompido</string>
+    <string name="watch_face_upload_invalid_speed_hint">Defina uma velocidade mais baixa se o processo de envio do mostrador do relógio for interrompido</string>
+    <string name="watch_face_upload_invalid_size_hint">Invalid watch face file size, set lower watch face quality or remove items from watch face</string>
+    <string name="watch_face_upload_invalid_battery_hint">The smartwatch battery is running low, please charge the watch</string>
 
-    <string name="message_watch_face_file_error">O 	arquivo da watch face não é válido</string>
+    <string name="watch_face_tbwf_quality_title">.tbwf watch face quality setting</string>
+    <string name="watch_face_tbwf_quality_hint">The file size can be reduced if the watch allows it</string>
+
+    <string name="watch_face_tbwf_locale_title">.tbwf watch face language and country setting</string>
+    <string name="watch_face_tbwf_locale_hint">Day of week, month separator and decimal separator</string>
+
+    <string name="message_watch_face_file_invalid">O arquivo da watch face não é válido</string>
+    <string name="message_watch_face_file_invalid_size">Invalid watch face file size</string>
+    <string name="message_watch_face_file_invalid_battery">The smartwatch battery is running low</string>
     <string name="message_watch_face_image_file_error">Arquivo de imagem inválido</string>
     <string name="message_watch_face_font_file_error">Arquivo de fonte inválido</string>
 
@@ -989,6 +1002,9 @@
 
     <string name="const_number">%1$,d</string>
     <string name="const_number_float">%,.2f</string>
+    <string name="const_number_float_1_precision">%,.1f</string>
+    <string name="const_percentage">%1$,d%%</string>
+    <string name="const_percent_sign">%</string>
     <string name="const_unit_kilometer">km</string>
     <string name="const_unit_meter">m</string>
     <string name="const_unit_centimeter">cm</string>
@@ -996,7 +1012,6 @@
     <string name="const_unit_kilogram">kg</string>
     <string name="const_unit_kcal">kcal</string>
     <string name="const_unit_dbm">dBm</string>
-
 
     <plurals name="plural_time_hour">
         <item quantity="zero">%d horas</item>
