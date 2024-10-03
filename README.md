@@ -9,6 +9,7 @@
 
 # <img src="https://play-lh.googleusercontent.com/IRN8GXZC_LcV_JmlaqrEkfeigS3aMrEqItatKO7e53nkAX47PQuPz8loYV0erQPh3w=s48-rw"> Hello Haylou
 ### Supported devices
+- Haylou Iron N1 (LS24)
 - Haylou RS5 (LS19)
 - Haylou Solar Pro (LS18)
 - Haylou Solar Plus RT3 (LS16)
@@ -35,10 +36,12 @@
 
 # <img src="https://play-lh.googleusercontent.com/sIm_hSJg4qsanVoZRSvH-D7W1VRjskf-Vh75r1uwdmamCBotUNMasdhQBe1vhtjEba9K=s48-rw"> Hello Imilab
 ### Supported devices
-- Imiki SF1/SF1E
-- Imiki SE1
+- Imiki TG2
+- Imiki ST2
 - Imiki TG1
 - Imiki ST1
+- Imiki SF1/SF1E
+- Imiki SE1
 - Imilab W02
 - Imilab W01
 - Imilab W13
