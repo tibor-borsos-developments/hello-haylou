@@ -14,6 +14,7 @@
 - Haylou RS5 (LS19)
 - Haylou Solar Pro (LS18)
 - Haylou Solar Plus RT3 (LS16)
+- Haylou Solar Lite (R001)
 - Haylou Watch 2 Pro (LS02Pro/S001)
 - Haylou RS4 MAX (LS17)
 - Haylou RS4 Plus (LS11)
