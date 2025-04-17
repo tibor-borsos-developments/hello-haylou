@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 
-<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation" tools:locale="en">
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation" tools:locale="en" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 <!--    <string name="app_name" translatable="false">App name</string>-->
 <!--    <string name="device_name" translatable="false">Watch</string>-->
 
@@ -801,8 +801,8 @@
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Privacy policy</string>
     <string name="privacy_policy_tab_user_consent">User consent management</string>
-    <string name="privacy_policy_tab_eu_consent">EU user consent</string>
-    <string name="privacy_policy_tab_non_eu_consent">Non-EU user consent</string>
+    <string name="privacy_policy_tab_eu_consent">EU and USA user consent</string>
+    <string name="privacy_policy_tab_non_eu_consent">Other region user consent</string>
 
     <string name="privacy_policy_collect_title">Information we collect</string>
     <string name="privacy_policy_collect"><![CDATA[
@@ -836,7 +836,7 @@
     <string name="privacy_policy_links"><![CDATA[
         <a href="https://policies.google.com/privacy">Google Play Services</a>
         <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
-        <p><a href="https://firebase.google.com/policies/analytics">Google Analytics</a></p>
+        <p><a href="https://www.google.com/analytics/terms">Google Analytics</a></p>
         <p><a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a></p>
         <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>
     ]]></string>
@@ -1047,5 +1047,9 @@
         <item quantity="many">%d seconds</item>
         <item quantity="other">%d seconds</item>
     </plurals>
+
+    <string name="elapsed_time_short_format_h_mm" translatable="false">"<xliff:g id="HOURS">%1$d</xliff:g>:<xliff:g id="MINUTES">%2$02d</xliff:g>"</string>
+    <string name="elapsed_time_short_format_h_mm_ss" translatable="false">"<xliff:g id="HOURS">%1$d</xliff:g>:<xliff:g id="MINUTES">%2$02d</xliff:g>:<xliff:g id="SECONDS">%3$02d</xliff:g>"</string>
+    <string name="elapsed_time_short_format_mm_ss" translatable="false">"<xliff:g id="MINUTES">%1$02d</xliff:g>:<xliff:g id="SECONDS">%2$02d</xliff:g>"</string>
 
 </resources>
