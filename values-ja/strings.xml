@@ -157,9 +157,9 @@
     <string name="pref_language_title">言語</string>
 
     <string name="pref_menu">メニュー</string>
-    <string name="pref_cat_menu">Main menu bar</string>
-    <string name="pref_menu_item_2">Second menu item</string>
-    <string name="pref_menu_item_3">Third menu item</string>
+    <string name="pref_cat_menu">メインメニューのカスタマイズ</string>
+    <string name="pref_menu_item_2">2番目のメニュー項目</string>
+    <string name="pref_menu_item_3">3番目のメニュー項目</string>
 
     <string name="pref_diagnostic">システム</string>
     <string name="pref_cat_diagnostic_closing_protection">アプリの自動終了制限</string>
@@ -172,12 +172,12 @@
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
 
     <string name="pref_cat_diagnostic_permissions">権限</string>
-    <string name="pref_diagnostic_permission_allow_notification_access_settings">Allow notification access</string>
-    <string name="pref_diagnostic_permission_schedule_exact_alarm">正確なアラームをスケジュールします</string>
-    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Additional permission is required to schedule the task at an exact time.</string>
-    <string name="pref_diagnostic_permission_post_notifications">Post notifications</string>
-    <string name="pref_diagnostic_permission_post_notifications_summary">Additional permission is required to display the notification</string>
-    <string name="pref_diagnostic_permission_access_notification_policy">着信拒否へのアクセス</string>
+    <string name="pref_diagnostic_permission_allow_notification_access_settings">通知アクセスを許可する</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">正確なアラームをスケジュールする</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">タスクを正確な時間にスケジュールするには追加の権限が必要です。</string>
+    <string name="pref_diagnostic_permission_post_notifications">通知を投稿する</string>
+    <string name="pref_diagnostic_permission_post_notifications_summary">通知を表示するには追加の権限が必要です。</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">おやすみモードへのアクセス</string>
 
 
     <!-- Snackbar Messages -->
@@ -376,9 +376,9 @@
     <!-- Sleep monitoring -->
     <string name="sleep_details">睡眠の詳細</string>
 
-    <string name="sleep_awake">Awake</string>
-    <string name="sleep_light">Light</string>
-    <string name="sleep_deep">Deep</string>
+    <string name="sleep_awake">起きている</string>
+    <string name="sleep_light">浅い</string>
+    <string name="sleep_deep">深い</string>
     <string name="sleep_rem">REM</string>
 
 
@@ -387,10 +387,10 @@
 
     <string name="pulse_continuous_title">連続測定</string>
 
-    <string name="heart_rate_warning_title">Heart rate warning</string>
-    <string name="low_and_high_heart_rates">Low and high heart rate thresholds</string>
-    <string name="low_heart_rate">Low heart rate</string>
-    <string name="high_heart_rate">High heart rate</string>
+    <string name="heart_rate_warning_title">心拍数警告</string>
+    <string name="low_and_high_heart_rates">心拍数のしきい値</string>
+    <string name="low_heart_rate">低心拍数</string>
+    <string name="high_heart_rate">高心拍数</string>
 
 
     <!-- Blood oxygen -->
@@ -467,46 +467,46 @@
 
     <string name="watch_face_invalid_firmware">%1$s firmware does not support uploading the watch face, update the firmware in the official application</string> <!-- %1$s = Haylou Smart watch ... -->
     <string name="watch_face_invalid_auth">Use in standalone mode, when using cooperation mode, the official application may block the watch face upload</string>
-    <string name="watch_face_invalid_free">In the free mode, more dials cannot be uploaded today</string>
-    <string name="watch_face_watch_rewarded_ads">続行するビデオをご覧ください</string>
-    <string name="watch_face_watch_rewarded_ads_uploading">Watch a video to continue uploading</string>
-    <string name="watch_face_watch_rewarded_ads_countdown">Video starting…</string>
+    <string name="watch_face_invalid_free">無料モードでは、今日はこれ以上文字盤をアップロードできません</string>
+    <string name="watch_face_watch_rewarded_ads">続行するには動画を視聴してください</string>
+    <string name="watch_face_watch_rewarded_ads_uploading">アップロードを続けるには動画を視聴してください</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">動画開始…</string>
 
     <string name="watch_face_upload_method_title">Method</string>
     <string name="watch_face_upload_method_default">@string/default_</string>
     <string name="watch_face_upload_method_alternative">Alternative</string>
 
-    <string name="watch_face_upload_speed_title">Upload speed</string>
-    <string name="watch_face_upload_invalid_speed_hint">Set a lower speed if the watch face uploading process is interrupted</string>
-    <string name="watch_face_upload_invalid_size_hint">Invalid watch face file size, set lower watch face quality or remove items from watch face</string>
-    <string name="watch_face_upload_invalid_battery_hint">The smartwatch battery is running low, please charge the watch</string>
+    <string name="watch_face_upload_speed_title">アップロード速度</string>
+    <string name="watch_face_upload_invalid_speed_hint">ウォッチフェイスのアップロードプロセスが中断される場合は、速度を下げてください</string>
+    <string name="watch_face_upload_invalid_size_hint">ウォッチフェイスのファイルサイズが無効です — 品質を下げるか、ウォッチフェイスから項目を削除してください</string>
+    <string name="watch_face_upload_invalid_battery_hint">スマートウォッチのバッテリー残量が少なくなっています。充電してください</string>
 
-    <string name="watch_face_tbwf_quality_title">.tbwf watch face quality setting</string>
-    <string name="watch_face_tbwf_quality_hint">The file size can be reduced if the watch allows it</string>
+    <string name="watch_face_tbwf_quality_title">.tbwf ウォッチフェイスの品質設定</string>
+    <string name="watch_face_tbwf_quality_hint">ウォッチが許可する場合、ファイルサイズを削減できます</string>
 
-    <string name="watch_face_tbwf_locale_title">.tbwf watch face language and country setting</string>
-    <string name="watch_face_tbwf_locale_hint">Day of week, month separator and decimal separator</string>
+    <string name="watch_face_tbwf_locale_title">.tbwf ウォッチフェイスの言語と国の設定</string>
+    <string name="watch_face_tbwf_locale_hint">曜日、月の区切り文字、小数点の区切り文字</string>
 
     <string name="message_watch_face_file_invalid">無効なウォッチフェイスファイルです</string>
-    <string name="message_watch_face_file_invalid_size">Invalid watch face file size</string>
-    <string name="message_watch_face_file_invalid_battery">The smartwatch battery is running low</string>
+    <string name="message_watch_face_file_invalid_size">ウォッチフェイスのファイルサイズが無効です</string>
+    <string name="message_watch_face_file_invalid_battery">スマートウォッチのバッテリーが少なくなっています</string>
     <string name="message_watch_face_image_file_error">無効な画像ファイル</string>
     <string name="message_watch_face_font_file_error">無効なフォントファイル</string>
 
-    <string name="action_chart_layout_2_columns">2-column layout</string>
-    <string name="action_chart_layout_3_columns">3-column layout</string>
+    <string name="action_chart_layout_2_columns">2列レイアウト</string>
+    <string name="action_chart_layout_3_columns">3列レイアウト</string>
 
-    <string name="watch_face_edit_dial">Dial</string>
-    <string name="watch_face_edit_preview">Preview</string>
+    <string name="watch_face_edit_dial">文字盤</string>
+    <string name="watch_face_edit_preview">プレビュー</string>
     <string name="watch_face_edit_hour_digital">時間</string>
     <string name="watch_face_edit_minute_digital">分</string>
     <string name="watch_face_edit_second_digital">秒</string>
     <string name="watch_face_edit_am_pm">AM/PM indicator</string>
     <string name="watch_face_edit_am">AM</string>
     <string name="watch_face_edit_pm">PM</string>
-    <string name="watch_face_edit_hour_analog">Hour hand</string>
-    <string name="watch_face_edit_minute_analog">Minute hand</string>
-    <string name="watch_face_edit_second_analog">Second hand</string>
+    <string name="watch_face_edit_hour_analog">時針</string>
+    <string name="watch_face_edit_minute_analog">分針</string>
+    <string name="watch_face_edit_second_analog">秒針</string>
     <string name="watch_face_edit_axis">Axis of rotation</string>
     <string name="watch_face_edit_hour_minute_separator">時間と分のセパレータ</string>
     <string name="watch_face_edit_year">年</string>
@@ -521,7 +521,7 @@
     <string name="watch_face_edit_battery_level_image">バッテリー画像</string>
     <string name="watch_face_edit_weather_temperature">温度</string>
     <string name="watch_face_edit_weather_temperature_unit_sign">温度単位 °</string>
-    <string name="watch_face_edit_weather_image">Weather image</string>
+    <string name="watch_face_edit_weather_image">天気画像</string>
     <string name="watch_face_edit_connection_indicator_image">Connection indicator image</string>
     <string name="watch_face_edit_connected">接続済み</string>
     <string name="watch_face_edit_disconnected">未接続</string>
@@ -714,21 +714,21 @@
 
 
     <!-- Text display -->
-    <string name="pref_text_emoticon_title">絵文字の変換</string>
-    <string name="pref_text_emoticon_summary_on">絵文字を顔文字に変換します</string>
-    <string name="pref_text_uppercase_title">大文字に変換</string>
-    <string name="pref_text_uppercase_summary_on">小文字を大文字に変換します</string>
-    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
-    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
-    <string name="pref_text_transliteration_title">Transliteration</string>
-    <string name="pref_text_transliteration_summary_on">Convert accented letters to unaccented</string>
-    <string name="pref_text_line_separator_title">Line separator replacement</string>
-    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
-    <string name="pref_text_line_separator_value_title">Replacement characters</string>
-    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
-    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
+    <string name="pref_text_emoticon_title">絵文字変換</string>
+    <string name="pref_text_emoticon_summary_on">絵文字を顔文字に変換</string>
+    <string name="pref_text_uppercase_title">大文字変換</string>
+    <string name="pref_text_uppercase_summary_on">小文字を大文字に変換</string>
+    <string name="pref_text_alphanumeric_title">英数字およびASCII文字</string>
+    <string name="pref_text_alphanumeric_summary_on">英数字およびASCII文字のみ表示</string>
+    <string name="pref_text_transliteration_title">音訳</string>
+    <string name="pref_text_transliteration_summary_on">アクセント付き文字をアクセントなしに変換</string>
+    <string name="pref_text_line_separator_title">行区切り文字の置換</string>
+    <string name="pref_text_line_separator_summary_on">デフォルトの行区切り文字を他の文字に置き換え</string>
+    <string name="pref_text_line_separator_value_title">置換文字</string>
+    <string name="pref_text_char_replacement_title">文字・絵文字の置換</string>
+    <string name="pref_text_char_replacement_summary_on">ある文字を別の文字に置換</string>
     <string name="pref_text_char_replacement_find">検索</string>
-    <string name="pref_text_char_replacement_replace">検索</string>
+    <string name="pref_text_char_replacement_replace">置換後の文字</string>
 
 
     <!-- Export -->
@@ -744,8 +744,8 @@
     <string name="theme_background_color_title">背景色</string>
 
     <string name="theme_widget_background_color_title">色</string>
-    <string name="theme_color_dynamic_color_title">Dynamic color</string>
-    <string name="theme_color_predefined_colors_title">Predefined colors</string>
+    <string name="theme_color_dynamic_color_title">ダイナミックカラー</string>
+    <string name="theme_color_predefined_colors_title">定義済みカラー</string>
 
     <string name="theme_notification_title">通知パネルにステータスを表示</string>
 
@@ -797,9 +797,9 @@
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">プライバシーポリシー</string>
-    <string name="privacy_policy_tab_user_consent">User consent management</string>
-    <string name="privacy_policy_tab_eu_consent">EU and USA user consent</string>
-    <string name="privacy_policy_tab_non_eu_consent">Other region user consent</string>
+    <string name="privacy_policy_tab_user_consent">ユーザー同意の管理</string>
+    <string name="privacy_policy_tab_eu_consent">EUおよび米国のユーザー同意</string>
+    <string name="privacy_policy_tab_non_eu_consent">その他の地域のユーザー同意</string>
 
     <string name="privacy_policy_collect_title">収集する情報</string>
     <string name="privacy_policy_collect"><![CDATA[
@@ -865,10 +865,10 @@
     <string name="shortcut_stress">Stress</string>
 
     <!-- Others -->
-    <string name="tab_daily_charts">日別</string>
-    <string name="tab_weekly_charts">週別</string>
-    <string name="tab_monthly_charts">月別</string>
-    <string name="tab_yearly_charts">Yearly charts</string>
+    <string name="tab_daily_charts">日次チャート</string>
+    <string name="tab_weekly_charts">週次チャート</string>
+    <string name="tab_monthly_charts">月次チャート</string>
+    <string name="tab_yearly_charts">年次チャート</string>
 
     <string name="ad_attribution">広告</string>
     <string name="on">オン</string>
@@ -900,12 +900,12 @@
     <string name="value">価値</string>
     <string name="downloads">Downloads</string>
     <string name="share">共有</string>
-    <string name="send">Send</string>
-    <string name="narrow">Narrow</string>
-    <string name="short_">Short</string>
-    <string name="medium">Medium</string>
-    <string name="long_">Long</string>
-    <string name="full">Full</string>
+    <string name="send">送信</string>
+    <string name="narrow">狭い</string>
+    <string name="short_">短い</string>
+    <string name="medium">中くらい</string>
+    <string name="long_">長い</string>
+    <string name="full">完全</string>
     <string name="alignment_left">アライメント左</string>
     <string name="alignment_center">中央への位置合わせ</string>
     <string name="alignment_right">アライメント右</string>
@@ -926,6 +926,8 @@
     <string name="action_synchronization">同期</string>
     <string name="action_download">ダウンロード</string>
     <string name="action_upload">アップロード</string>
+    <string name="action_backup">バックアップ</string>
+    <string name="action_restore">復元</string>
     <string name="action_filter_no">フィルタなし</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_favorite">お気に入り</string>
@@ -937,15 +939,16 @@
     <string name="action_new_file_extension">新規 %1$s</string>
     <string name="action_edit">編集</string>
     <string name="action_start_stop">開始/停止</string>
-    <string name="action_contacts">Contacts</string>
-    <string name="action_single_selection">Single selection</string>
-    <string name="action_multiple_selection">Multiple selection</string>
+    <string name="action_contacts">連絡先</string>
+    <string name="action_single_selection">単一選択</string>
+    <string name="action_multiple_selection">複数選択</string>
     <string name="action_selection_boundaries">Selection boundaries</string>
     <string name="action_object_boundaries">Object boundaries</string>
-    <string name="action_select_all">Select all</string>
-    <string name="action_select_texts">Select texts</string>
-    <string name="action_select_images">Select images</string>
-    <string name="action_deselect_all">Deselect all</string>
+    <string name="action_select">選択</string>
+    <string name="action_select_all">すべて選択</string>
+    <string name="action_select_texts">テキストを選択</string>
+    <string name="action_select_images">画像を選択</string>
+    <string name="action_deselect_all">すべての選択を解除</string>
     <string name="synchronized_from_watch">バンドから同期</string>
     <string name="synchronization_succeeded">同期に成功しました</string>
     <string name="synchronization_failed">同期に失敗しました</string>
@@ -990,13 +993,13 @@
     <string name="percent_100">100%</string>
 
     <!-- Constante -->
-    <string name="const_day_of_week_sunday">Sunday</string>
-    <string name="const_day_of_week_monday">Monday</string>
-    <string name="const_day_of_week_tuesday">Tuesday</string>
-    <string name="const_day_of_week_wednesday">Wednesday</string>
-    <string name="const_day_of_week_thursday">Thursday</string>
-    <string name="const_day_of_week_friday">Friday</string>
-    <string name="const_day_of_week_saturday">Saturday</string>
+    <string name="const_day_of_week_sunday">日曜日</string>
+    <string name="const_day_of_week_monday">月曜日</string>
+    <string name="const_day_of_week_tuesday">火曜日</string>
+    <string name="const_day_of_week_wednesday">水曜日</string>
+    <string name="const_day_of_week_thursday">木曜日</string>
+    <string name="const_day_of_week_friday">金曜日</string>
+    <string name="const_day_of_week_saturday">土曜日</string>
 
     <string name="const_time_abbreviation_day">d</string>
     <string name="const_time_abbreviation_hour">h</string>

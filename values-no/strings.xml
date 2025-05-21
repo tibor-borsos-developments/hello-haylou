@@ -156,9 +156,9 @@
     <string name="pref_language_title">Språk</string>
 
     <string name="pref_menu">Meny</string>
-    <string name="pref_cat_menu">Main menu bar</string>
-    <string name="pref_menu_item_2">Second menu item</string>
-    <string name="pref_menu_item_3">Third menu item</string>
+    <string name="pref_cat_menu">Tilpass hovedmenyen</string>
+    <string name="pref_menu_item_2">Andre menyelement</string>
+    <string name="pref_menu_item_3">Tredje menyelement</string>
 
     <string name="pref_diagnostic">Diagnositisering</string>
     <string name="pref_cat_diagnostic_closing_protection">Beskyttelse mot lukking</string>
@@ -170,13 +170,13 @@
     <string name="pref_diagnostic_info">Mer informasjon</string>
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
 
-    <string name="pref_cat_diagnostic_permissions">Tilatelser</string>
-    <string name="pref_diagnostic_permission_allow_notification_access_settings">Allow notification access</string>
-    <string name="pref_diagnostic_permission_schedule_exact_alarm">Planlegg nøyaktig alarm</string>
-    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Additional permission is required to schedule the task at an exact time.</string>
-    <string name="pref_diagnostic_permission_post_notifications">Post notifications</string>
-    <string name="pref_diagnostic_permission_post_notifications_summary">Additional permission is required to display the notification</string>
-    <string name="pref_diagnostic_permission_access_notification_policy">Ikke Forstyrr-tilgang</string>
+    <string name="pref_cat_diagnostic_permissions">Tillatelser</string>
+    <string name="pref_diagnostic_permission_allow_notification_access_settings">Tillat tilgang til varsler</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">Planlegg eksakt alarm</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Ytterligere tillatelse kreves for å planlegge oppgaven på et eksakt tidspunkt.</string>
+    <string name="pref_diagnostic_permission_post_notifications">Vis varsler</string>
+    <string name="pref_diagnostic_permission_post_notifications_summary">Ytterligere tillatelse kreves for å vise varselet.</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">Tilgang til Ikke forstyrr</string>
 
 
     <!-- Snackbar Meldinger -->
@@ -375,9 +375,9 @@
     <!-- Søvn monitorering -->
     <string name="sleep_details">Søvn detaljer</string>
 
-    <string name="sleep_awake">Awake</string>
-    <string name="sleep_light">Light</string>
-    <string name="sleep_deep">Deep</string>
+    <string name="sleep_awake">Våken</string>
+    <string name="sleep_light">Lett</string>
+    <string name="sleep_deep">Dyp</string>
     <string name="sleep_rem">REM</string>
 
 
@@ -466,46 +466,46 @@
 
     <string name="watch_face_invalid_firmware">%1$s firmware does not support uploading the watch face, update the firmware in the official application</string> <!-- %1$s = Haylou Smart watch ... -->
     <string name="watch_face_invalid_auth">Use in standalone mode, when using cooperation mode, the official application may block the watch face upload</string>
-    <string name="watch_face_invalid_free">In the free mode, more dials cannot be uploaded today</string>
+    <string name="watch_face_invalid_free">I gratismodus kan du ikke laste opp flere urskiver i dag</string>
     <string name="watch_face_watch_rewarded_ads">Se en video for å fortsette</string>
-    <string name="watch_face_watch_rewarded_ads_uploading">Watch a video to continue uploading</string>
-    <string name="watch_face_watch_rewarded_ads_countdown">Video starting…</string>
+    <string name="watch_face_watch_rewarded_ads_uploading">Se en video for å fortsette opplastingen</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">Video starter…</string>
 
     <string name="watch_face_upload_method_title">Method</string>
     <string name="watch_face_upload_method_default">@string/default_</string>
     <string name="watch_face_upload_method_alternative">Alternative</string>
 
-    <string name="watch_face_upload_speed_title">Upload speed</string>
-    <string name="watch_face_upload_invalid_speed_hint">Set a lower speed if the watch face uploading process is interrupted</string>
-    <string name="watch_face_upload_invalid_size_hint">Invalid watch face file size, set lower watch face quality or remove items from watch face</string>
-    <string name="watch_face_upload_invalid_battery_hint">The smartwatch battery is running low, please charge the watch</string>
+    <string name="watch_face_upload_speed_title">Opplastingshastighet</string>
+    <string name="watch_face_upload_invalid_speed_hint">Sett en lavere hastighet hvis opplastingsprosessen for urskiven blir avbrutt</string>
+    <string name="watch_face_upload_invalid_size_hint">Ugyldig filstørrelse for urskive — sett lavere kvalitet eller fjern elementer fra urskiven</string>
+    <string name="watch_face_upload_invalid_battery_hint">Smartklokkens batteri er nesten tomt, vennligst lad klokken</string>
 
-    <string name="watch_face_tbwf_quality_title">.tbwf watch face quality setting</string>
-    <string name="watch_face_tbwf_quality_hint">The file size can be reduced if the watch allows it</string>
+    <string name="watch_face_tbwf_quality_title">.tbwf urskive kvalitetsinnstilling</string>
+    <string name="watch_face_tbwf_quality_hint">Filstørrelsen kan reduseres hvis klokken tillater det</string>
 
-    <string name="watch_face_tbwf_locale_title">.tbwf watch face language and country setting</string>
-    <string name="watch_face_tbwf_locale_hint">Day of week, month separator and decimal separator</string>
+    <string name="watch_face_tbwf_locale_title">.tbwf urskive språk- og landinnstilling</string>
+    <string name="watch_face_tbwf_locale_hint">Ukedag, månedsskille og desimalskille</string>
 
     <string name="message_watch_face_file_invalid">Invalid watch face file</string>
-    <string name="message_watch_face_file_invalid_size">Invalid watch face file size</string>
-    <string name="message_watch_face_file_invalid_battery">The smartwatch battery is running low</string>
+    <string name="message_watch_face_file_invalid_size">Ugyldig filstørrelse for urskive</string>
+    <string name="message_watch_face_file_invalid_battery">Smartklokkens batteri er nesten tomt</string>
     <string name="message_watch_face_image_file_error">Ugyldig bildefil</string>
     <string name="message_watch_face_font_file_error">Ugyldig fontfil</string>
 
-    <string name="action_chart_layout_2_columns">2-column layout</string>
-    <string name="action_chart_layout_3_columns">3-column layout</string>
+    <string name="action_chart_layout_2_columns">2-kolonneoppsett</string>
+    <string name="action_chart_layout_3_columns">3-kolonneoppsett</string>
 
-    <string name="watch_face_edit_dial">Dial</string>
-    <string name="watch_face_edit_preview">Preview</string>
+    <string name="watch_face_edit_dial">Skive</string>
+    <string name="watch_face_edit_preview">Forhåndsvisning</string>
     <string name="watch_face_edit_hour_digital">Time</string>
     <string name="watch_face_edit_minute_digital">Minutt</string>
     <string name="watch_face_edit_second_digital">Sekund</string>
     <string name="watch_face_edit_am_pm">AM/PM indicator</string>
     <string name="watch_face_edit_am">AM</string>
     <string name="watch_face_edit_pm">PM</string>
-    <string name="watch_face_edit_hour_analog">Hour hand</string>
-    <string name="watch_face_edit_minute_analog">Minute hand</string>
-    <string name="watch_face_edit_second_analog">Second hand</string>
+    <string name="watch_face_edit_hour_analog">Timeviseren</string>
+    <string name="watch_face_edit_minute_analog">Minuttviseren</string>
+    <string name="watch_face_edit_second_analog">Sekundviseren</string>
     <string name="watch_face_edit_axis">Axis of rotation</string>
     <string name="watch_face_edit_hour_minute_separator">Time og minutt separator</string>
     <string name="watch_face_edit_year">År</string>
@@ -520,7 +520,7 @@
     <string name="watch_face_edit_battery_level_image">Batteri bilde</string>
     <string name="watch_face_edit_weather_temperature">Temperatur</string>
     <string name="watch_face_edit_weather_temperature_unit_sign">Temperaturenheten °</string>
-    <string name="watch_face_edit_weather_image">Weather image</string>
+    <string name="watch_face_edit_weather_image">Værbilde</string>
     <string name="watch_face_edit_connection_indicator_image">Connection indicator image</string>
     <string name="watch_face_edit_connected">Tilkoblet</string>
     <string name="watch_face_edit_disconnected">Frakoblet</string>
@@ -711,21 +711,21 @@
 
 
     <!-- Text display -->
-    <string name="pref_text_emoticon_title">Emoji Konvertering</string>
-    <string name="pref_text_emoticon_summary_on">Konvertere emoji til emoticon</string>
-    <string name="pref_text_uppercase_title">Blokkbokstav Konverteringer</string>
-    <string name="pref_text_uppercase_summary_on">Konvertere småbokstaver til blokkbokstaver</string>
-    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
-    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
-    <string name="pref_text_transliteration_title">Transliterasjon</string>
-    <string name="pref_text_transliteration_summary_on">Convert accented letters to unaccented</string>
-    <string name="pref_text_line_separator_title">Line separator replacement</string>
-    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
-    <string name="pref_text_line_separator_value_title">Replacement characters</string>
-    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
-    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
+    <string name="pref_text_emoticon_title">Emoji-konvertering</string>
+    <string name="pref_text_emoticon_summary_on">Konverter emoji til emotikon</string>
+    <string name="pref_text_uppercase_title">Store bokstaver konvertering</string>
+    <string name="pref_text_uppercase_summary_on">Konverter små bokstaver til store bokstaver</string>
+    <string name="pref_text_alphanumeric_title">Alfanumeriske og ASCII-tegn</string>
+    <string name="pref_text_alphanumeric_summary_on">Vis kun alfanumeriske og ASCII-tegn</string>
+    <string name="pref_text_transliteration_title">Translitterasjon</string>
+    <string name="pref_text_transliteration_summary_on">Konverter aksentuerte bokstaver til ikke-aksentuerte</string>
+    <string name="pref_text_line_separator_title">Linjeavskiller erstatning</string>
+    <string name="pref_text_line_separator_summary_on">Erstatt standard linjeavskiller med andre tegn</string>
+    <string name="pref_text_line_separator_value_title">Erstatningstegn</string>
+    <string name="pref_text_char_replacement_title">Tegner og emoji-erstatning</string>
+    <string name="pref_text_char_replacement_summary_on">Erstatt ett tegn med et annet</string>
     <string name="pref_text_char_replacement_find">Finn</string>
-    <string name="pref_text_char_replacement_replace">Bytte med</string>
+    <string name="pref_text_char_replacement_replace">Erstatt med</string>
 
 
     <!-- Export -->
@@ -741,8 +741,8 @@
     <string name="theme_background_color_title">Bakgrunn farge</string>
 
     <string name="theme_widget_background_color_title">Farge</string>
-    <string name="theme_color_dynamic_color_title">Dynamic color</string>
-    <string name="theme_color_predefined_colors_title">Predefined colors</string>
+    <string name="theme_color_dynamic_color_title">Dynamisk farge</string>
+    <string name="theme_color_predefined_colors_title">Forhåndsdefinerte farger</string>
 
     <string name="theme_notification_title">Vise status på notifikasjons-hylla</string>
 
@@ -793,10 +793,10 @@
     <string name="feedback_translation_title_summary">Please help with the translation</string>
 
     <!-- Privacy policy -->
-    <string name="privacy_policy_tab_privacy_policy">Personvern policy</string>
-    <string name="privacy_policy_tab_user_consent">User consent management</string>
-    <string name="privacy_policy_tab_eu_consent">EU and USA user consent</string>
-    <string name="privacy_policy_tab_non_eu_consent">Other region user consent</string>
+    <string name="privacy_policy_tab_privacy_policy">Personvernerklæring</string>
+    <string name="privacy_policy_tab_user_consent">Brukersamtykkebehandling</string>
+    <string name="privacy_policy_tab_eu_consent">Brukersamtykke for EU og USA</string>
+    <string name="privacy_policy_tab_non_eu_consent">Brukersamtykke for Andre Regioner</string>
 
     <string name="privacy_policy_collect_title">Informasjon vi samler inn</string>
     <string name="privacy_policy_collect"><![CDATA[
@@ -899,10 +899,10 @@
     <string name="downloads">Downloads</string>
     <string name="share">Share</string>
     <string name="send">Send</string>
-    <string name="narrow">Narrow</string>
-    <string name="short_">Short</string>
+    <string name="narrow">Smal</string>
+    <string name="short_">Kort</string>
     <string name="medium">Medium</string>
-    <string name="long_">Long</string>
+    <string name="long_">Lang</string>
     <string name="full">Full</string>
     <string name="alignment_left">Justering venstre</string>
     <string name="alignment_center">Justering til sentrum</string>
@@ -924,6 +924,8 @@
     <string name="action_synchronization">Synchronization</string>
     <string name="action_download">Nedlastning</string>
     <string name="action_upload">Laste opp</string>
+    <string name="action_backup">Sikkerhetskopi</string>
+    <string name="action_restore">Gjenopprett</string>
     <string name="action_filter_no">Ingen filter</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_favorite">Favoritt</string>
@@ -934,16 +936,17 @@
     <string name="action_new">Ny</string>
     <string name="action_new_file_extension">Ny %1$s</string>
     <string name="action_edit">Redigere</string>
-    <string name="action_start_stop">Start/Stop</string>
-    <string name="action_contacts">Contacts</string>
-    <string name="action_single_selection">Single selection</string>
-    <string name="action_multiple_selection">Multiple selection</string>
+    <string name="action_start_stop">Start/Stopp</string>
+    <string name="action_contacts">Kontakter</string>
+    <string name="action_single_selection">Enkel valg</string>
+    <string name="action_multiple_selection">Flere valg</string>
     <string name="action_selection_boundaries">Selection boundaries</string>
     <string name="action_object_boundaries">Object boundaries</string>
-    <string name="action_select_all">Select all</string>
-    <string name="action_select_texts">Select texts</string>
-    <string name="action_select_images">Select images</string>
-    <string name="action_deselect_all">Deselect all</string>
+    <string name="action_select">Valg</string>
+    <string name="action_select_all">Velg alt</string>
+    <string name="action_select_texts">Velg tekster</string>
+    <string name="action_select_images">Velg bilder</string>
+    <string name="action_deselect_all">Fjern alle valg</string>
     <string name="synchronized_from_watch">Synchronized from watch</string>
     <string name="synchronization_succeeded">Synkroniseringen lyktes</string>
     <string name="synchronization_failed">Synkronisering mislyktes</string>
@@ -988,13 +991,13 @@
     <string name="percent_100">100%</string>
 
     <!-- Constante -->
-    <string name="const_day_of_week_sunday">Sunday</string>
-    <string name="const_day_of_week_monday">Monday</string>
-    <string name="const_day_of_week_tuesday">Tuesday</string>
-    <string name="const_day_of_week_wednesday">Wednesday</string>
-    <string name="const_day_of_week_thursday">Thursday</string>
-    <string name="const_day_of_week_friday">Friday</string>
-    <string name="const_day_of_week_saturday">Saturday</string>
+    <string name="const_day_of_week_sunday">Søndag</string>
+    <string name="const_day_of_week_monday">Mandag</string>
+    <string name="const_day_of_week_tuesday">Tirsdag</string>
+    <string name="const_day_of_week_wednesday">Onsdag</string>
+    <string name="const_day_of_week_thursday">Torsdag</string>
+    <string name="const_day_of_week_friday">Fredag</string>
+    <string name="const_day_of_week_saturday">Lørdag</string>
 
     <string name="const_time_abbreviation_day">d</string>
     <string name="const_time_abbreviation_hour">h</string>

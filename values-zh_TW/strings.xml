@@ -157,9 +157,9 @@
     <string name="pref_language_title">語言</string>
 
     <string name="pref_menu">選單</string>
-    <string name="pref_cat_menu">Main menu bar</string>
-    <string name="pref_menu_item_2">Second menu item</string>
-    <string name="pref_menu_item_3">Third menu item</string>
+    <string name="pref_cat_menu">主選單自訂</string>
+    <string name="pref_menu_item_2">第二個選單項目</string>
+    <string name="pref_menu_item_3">第三個選單項目</string>
 
     <string name="pref_diagnostic">诊断</string>
     <string name="pref_cat_diagnostic_closing_protection">防止关闭</string>
@@ -172,12 +172,12 @@
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
 
     <string name="pref_cat_diagnostic_permissions">权限</string>
-    <string name="pref_diagnostic_permission_allow_notification_access_settings">Allow notification access</string>
-    <string name="pref_diagnostic_permission_schedule_exact_alarm">安排确切的警报</string>
-    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Additional permission is required to schedule the task at an exact time.</string>
-    <string name="pref_diagnostic_permission_post_notifications">Post notifications</string>
-    <string name="pref_diagnostic_permission_post_notifications_summary">Additional permission is required to display the notification</string>
-    <string name="pref_diagnostic_permission_access_notification_policy">勿扰访问</string>
+    <string name="pref_diagnostic_permission_allow_notification_access_settings">允许通知访问</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">安排精确闹钟</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">安排任务在准确时间需要额外权限。</string>
+    <string name="pref_diagnostic_permission_post_notifications">发送通知</string>
+    <string name="pref_diagnostic_permission_post_notifications_summary">显示通知需要额外权限。</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">勿扰模式访问权限</string>
 
 
     <!-- Snackbar Messages -->
@@ -376,9 +376,9 @@
     <!-- Sleep monitoring -->
     <string name="sleep_details">睡眠详情</string>
 
-    <string name="sleep_awake">Awake</string>
-    <string name="sleep_light">Light</string>
-    <string name="sleep_deep">Deep</string>
+    <string name="sleep_awake">清醒</string>
+    <string name="sleep_light">淺眠</string>
+    <string name="sleep_deep">深眠</string>
     <string name="sleep_rem">REM</string>
 
     <!-- Pulse -->
@@ -386,10 +386,10 @@
 
     <string name="pulse_continuous_title">持續測量心率</string>
 
-    <string name="heart_rate_warning_title">Heart rate warning</string>
-    <string name="low_and_high_heart_rates">Low and high heart rate thresholds</string>
-    <string name="low_heart_rate">Low heart rate</string>
-    <string name="high_heart_rate">High heart rate</string>
+    <string name="heart_rate_warning_title">心率警示</string>
+    <string name="low_and_high_heart_rates">心率閾值</string>
+    <string name="low_heart_rate">低心率</string>
+    <string name="high_heart_rate">高心率</string>
 
 
     <!-- Blood oxygen -->
@@ -466,46 +466,47 @@
 
     <string name="watch_face_invalid_firmware">%1$s firmware does not support uploading the watch face, update the firmware in the official application</string> <!-- %1$s = Haylou Smart watch ... -->
     <string name="watch_face_invalid_auth">Use in standalone mode, when using cooperation mode, the official application may block the watch face upload</string>
-    <string name="watch_face_invalid_free">In the free mode, more dials cannot be uploaded today</string>
-    <string name="watch_face_watch_rewarded_ads">觀看視頻繼續</string>
-    <string name="watch_face_watch_rewarded_ads_uploading">Watch a video to continue uploading</string>
-    <string name="watch_face_watch_rewarded_ads_countdown">Video starting…</string>
+    <string name="watch_face_invalid_free">在免費模式下，今天無法再上傳更多錶盤</string>
+    <string name="watch_face_watch_rewarded_ads">觀看影片以繼續</string>
+    <string name="watch_face_watch_rewarded_ads_uploading">觀看影片以繼續上傳</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">影片開始中…</string>
 
     <string name="watch_face_upload_method_title">Method</string>
     <string name="watch_face_upload_method_default">@string/default_</string>
     <string name="watch_face_upload_method_alternative">Alternative</string>
 
-    <string name="watch_face_upload_speed_title">Upload speed</string>
-    <string name="watch_face_upload_invalid_speed_hint">Set a lower speed if the watch face uploading process is interrupted</string>
-    <string name="watch_face_upload_invalid_size_hint">Invalid watch face file size, set lower watch face quality or remove items from watch face</string>
-    <string name="watch_face_upload_invalid_battery_hint">The smartwatch battery is running low, please charge the watch</string>
+    <string name="watch_face_upload_speed_title">上傳速度</string>
+    <string name="watch_face_upload_invalid_speed_hint">如果錶面上傳過程中斷，請設定較低的速度</string>
+    <string name="watch_face_upload_invalid_size_hint">無效的錶面檔案大小 — 請設定較低的錶面品質或從錶面中移除項目</string>
+    <string name="watch_face_upload_invalid_battery_hint">智慧手錶電量不足，請為手錶充電</string>
 
-    <string name="watch_face_tbwf_quality_title">.tbwf watch face quality setting</string>
-    <string name="watch_face_tbwf_quality_hint">The file size can be reduced if the watch allows it</string>
+    <string name="watch_face_tbwf_quality_title">.tbwf 錶面品質設定</string>
+    <string name="watch_face_tbwf_quality_hint">如果手錶允許，可減少檔案大小</string>
 
-    <string name="watch_face_tbwf_locale_title">.tbwf watch face language and country setting</string>
-    <string name="watch_face_tbwf_locale_hint">Day of week, month separator and decimal separator</string>
+    <string name="watch_face_tbwf_locale_title">.tbwf 錶面語言與國家設定</string>
+    <string name="watch_face_tbwf_locale_hint">星期幾、月份分隔符號與小數點分隔符號</string>
 
     <string name="message_watch_face_file_invalid">无效的表盘文件</string>
-    <string name="message_watch_face_file_invalid_size">Invalid watch face file size</string>
-    <string name="message_watch_face_file_invalid_battery">The smartwatch battery is running low</string>
+    <string name="message_watch_face_file_invalid_size">無效的錶面檔案大小</string>
+    <string name="message_watch_face_file_invalid_battery">智慧手錶電量不足</string>
     <string name="message_watch_face_image_file_error">无效的图像文件</string>
     <string name="message_watch_face_font_file_error">无效的字体文件</string>
 
-    <string name="action_chart_layout_2_columns">2-column layout</string>
-    <string name="action_chart_layout_3_columns">3-column layout</string>
+    <string name="action_chart_layout_2_columns">兩欄佈局</string>
+    <string name="action_chart_layout_3_columns">三欄佈局</string>
 
-    <string name="watch_face_edit_dial">Dial</string>
-    <string name="watch_face_edit_preview">Preview</string>
+
+    <string name="watch_face_edit_dial">錶盤</string>
+    <string name="watch_face_edit_preview">預覽</string>
     <string name="watch_face_edit_hour_digital">小時</string>
     <string name="watch_face_edit_minute_digital">分鐘</string>
     <string name="watch_face_edit_second_digital">第二</string>
     <string name="watch_face_edit_am_pm">AM/PM indicator</string>
     <string name="watch_face_edit_am">AM</string>
     <string name="watch_face_edit_pm">PM</string>
-    <string name="watch_face_edit_hour_analog">Hour hand</string>
-    <string name="watch_face_edit_minute_analog">Minute hand</string>
-    <string name="watch_face_edit_second_analog">Second hand</string>
+    <string name="watch_face_edit_hour_analog">時針</string>
+    <string name="watch_face_edit_minute_analog">分針</string>
+    <string name="watch_face_edit_second_analog">秒針</string>
     <string name="watch_face_edit_axis">Axis of rotation</string>
     <string name="watch_face_edit_hour_minute_separator">小時和分鐘分隔符</string>
     <string name="watch_face_edit_year">年</string>
@@ -520,7 +521,7 @@
     <string name="watch_face_edit_battery_level_image">電池圖片</string>
     <string name="watch_face_edit_weather_temperature">溫度</string>
     <string name="watch_face_edit_weather_temperature_unit_sign">溫度單位 °</string>
-    <string name="watch_face_edit_weather_image">Weather image</string>
+    <string name="watch_face_edit_weather_image">天氣圖片</string>
     <string name="watch_face_edit_connection_indicator_image">Connection indicator image</string>
     <string name="watch_face_edit_connected">已連結</string>
     <string name="watch_face_edit_disconnected">已斷開連結</string>
@@ -711,21 +712,21 @@
 
 
     <!-- Text display -->
-    <string name="pref_text_emoticon_title">Emoji 轉換</string>
-    <string name="pref_text_emoticon_summary_on">將 emoji 轉換為 emoticon</string>
+    <string name="pref_text_emoticon_title">表情符號轉換</string>
+    <string name="pref_text_emoticon_summary_on">將表情符號轉換為顏文字</string>
     <string name="pref_text_uppercase_title">大寫轉換</string>
-    <string name="pref_text_uppercase_summary_on">將小寫轉換為大寫</string>
-    <string name="pref_text_alphanumeric_title">字母數字和ASCII字符</string>
-    <string name="pref_text_alphanumeric_summary_on">僅顯示字母數字和ASCII字符</string>
-    <string name="pref_text_transliteration_title">字符转换</string>
-    <string name="pref_text_transliteration_summary_on">Convert accented letters to unaccented</string>
-    <string name="pref_text_line_separator_title">分隔線更換</string>
-    <string name="pref_text_line_separator_summary_on">用其他字符替換默認的行分隔符</string>
-    <string name="pref_text_line_separator_value_title">替換字符</string>
-    <string name="pref_text_char_replacement_title">字符，emoji 替換</string>
-    <string name="pref_text_char_replacement_summary_on">用另一個替換一個字符</string>
+    <string name="pref_text_uppercase_summary_on">將小寫字母轉換為大寫字母</string>
+    <string name="pref_text_alphanumeric_title">字母數字及ASCII字元</string>
+    <string name="pref_text_alphanumeric_summary_on">僅顯示字母數字及ASCII字元</string>
+    <string name="pref_text_transliteration_title">音譯</string>
+    <string name="pref_text_transliteration_summary_on">將帶重音字母轉換為無重音字母</string>
+    <string name="pref_text_line_separator_title">行分隔符替換</string>
+    <string name="pref_text_line_separator_summary_on">將預設行分隔符替換為其他字元</string>
+    <string name="pref_text_line_separator_value_title">替換字元</string>
+    <string name="pref_text_char_replacement_title">字元和表情符號替換</string>
+    <string name="pref_text_char_replacement_summary_on">將一個字元替換為另一個字元</string>
     <string name="pref_text_char_replacement_find">尋找</string>
-    <string name="pref_text_char_replacement_replace">替換成</string>
+    <string name="pref_text_char_replacement_replace">替換為</string>
 
 
     <!-- Export -->
@@ -741,8 +742,8 @@
     <string name="theme_background_color_title">背景顏色</string>
 
     <string name="theme_widget_background_color_title">顏色</string>
-    <string name="theme_color_dynamic_color_title">Dynamic color</string>
-    <string name="theme_color_predefined_colors_title">Predefined colors</string>
+    <string name="theme_color_dynamic_color_title">動態顏色</string>
+    <string name="theme_color_predefined_colors_title">預設顏色</string>
 
     <string name="theme_notification_title">在通知欄顯示狀態</string>
 
@@ -794,9 +795,9 @@
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">隱私政策</string>
-    <string name="privacy_policy_tab_user_consent">User consent management</string>
-    <string name="privacy_policy_tab_eu_consent">EU and USA user consent</string>
-    <string name="privacy_policy_tab_non_eu_consent">Other region user consent</string>
+    <string name="privacy_policy_tab_user_consent">使用者同意管理</string>
+    <string name="privacy_policy_tab_eu_consent">歐盟和美國使用者同意</string>
+    <string name="privacy_policy_tab_non_eu_consent">其他地區使用者同意</string>
 
     <string name="privacy_policy_collect_title">我們收集以下信息</string>
     <string name="privacy_policy_collect"><![CDATA[
@@ -866,7 +867,7 @@
     <string name="tab_daily_charts">每日圖表</string>
     <string name="tab_weekly_charts">每週圖表</string>
     <string name="tab_monthly_charts">每月圖表</string>
-    <string name="tab_yearly_charts">Yearly charts</string>
+    <string name="tab_yearly_charts">每年圖表</string>
 
     <string name="ad_attribution">廣告</string>
     <string name="on">開啟</string>
@@ -898,12 +899,12 @@
     <string name="value">值</string>
     <string name="downloads">Downloads</string>
     <string name="share">分享</string>
-    <string name="send">Send</string>
-    <string name="narrow">Narrow</string>
-    <string name="short_">Short</string>
-    <string name="medium">Medium</string>
-    <string name="long_">Long</string>
-    <string name="full">Full</string>
+    <string name="send">傳送</string>
+    <string name="narrow">窄</string>
+    <string name="short_">短</string>
+    <string name="medium">中等</string>
+    <string name="long_">長</string>
+    <string name="full">完整</string>
     <string name="alignment_left">對齊左</string>
     <string name="alignment_center">對準中心</string>
     <string name="alignment_right">對齊對齊</string>
@@ -924,6 +925,8 @@
     <string name="action_synchronization">同步</string>
     <string name="action_download">下载</string>
     <string name="action_upload">上传</string>
+    <string name="action_backup">備份</string>
+    <string name="action_restore">還原</string>
     <string name="action_filter_no">無過濾器</string>
     <string name="action_bluetooth">藍芽</string>
     <string name="action_favorite">最喜歡的</string>
@@ -936,14 +939,15 @@
     <string name="action_edit">編輯</string>
     <string name="action_start_stop">開始/停止</string>
     <string name="action_contacts">聯絡人</string>
-    <string name="action_single_selection">Single selection</string>
-    <string name="action_multiple_selection">Multiple selection</string>
+    <string name="action_single_selection">單選</string>
+    <string name="action_multiple_selection">多選</string>
     <string name="action_selection_boundaries">Selection boundaries</string>
     <string name="action_object_boundaries">Object boundaries</string>
-    <string name="action_select_all">Select all</string>
-    <string name="action_select_texts">Select texts</string>
-    <string name="action_select_images">Select images</string>
-    <string name="action_deselect_all">Deselect all</string>
+    <string name="action_select">選擇</string>
+    <string name="action_select_all">全選</string>
+    <string name="action_select_texts">選擇文字</string>
+    <string name="action_select_images">選擇圖片</string>
+    <string name="action_deselect_all">取消全選</string>
     <string name="synchronized_from_watch">與手錶同步</string>
     <string name="synchronization_succeeded">同步成功</string>
     <string name="synchronization_failed">同步失敗</string>
@@ -988,13 +992,13 @@
     <string name="percent_100">100%</string>
 
     <!-- Constante -->
-    <string name="const_day_of_week_sunday">Sunday</string>
-    <string name="const_day_of_week_monday">Monday</string>
-    <string name="const_day_of_week_tuesday">Tuesday</string>
-    <string name="const_day_of_week_wednesday">Wednesday</string>
-    <string name="const_day_of_week_thursday">Thursday</string>
-    <string name="const_day_of_week_friday">Friday</string>
-    <string name="const_day_of_week_saturday">Saturday</string>
+    <string name="const_day_of_week_sunday">星期日</string>
+    <string name="const_day_of_week_monday">星期一</string>
+    <string name="const_day_of_week_tuesday">星期二</string>
+    <string name="const_day_of_week_wednesday">星期三</string>
+    <string name="const_day_of_week_thursday">星期四</string>
+    <string name="const_day_of_week_friday">星期五</string>
+    <string name="const_day_of_week_saturday">星期六</string>
 
     <string name="const_time_abbreviation_day">天</string>
     <string name="const_time_abbreviation_hour">時</string>

@@ -156,7 +156,7 @@
     <string name="pref_language_title">Nyelv</string>
 
     <string name="pref_menu">Menü</string>
-    <string name="pref_cat_menu">Főmenüsor</string>
+    <string name="pref_cat_menu">Főmenüsor testreszabása</string>
     <string name="pref_menu_item_2">Második menüpont</string>
     <string name="pref_menu_item_3">Harmadik menüpont</string>
 
@@ -479,8 +479,8 @@
     <string name="watch_face_invalid_firmware">%1$s firmware nem támogatja a számlap feltöltést, frissítsd a firmware-t a hivatalos applikációban</string>
     <string name="watch_face_invalid_auth">Önálló módban használd, együttműködési mód használata esetén a hivatalos alkalmazás megzavarhatja a számlap feltöltést</string>
     <!-- Figyelem, ezeket az azonosítókat használom dekódolva a programban nem írható át   -->
-    <string name="watch_face_invalid_free">Ingyenes módban több számlap nem tölthető fel a mai nap</string>
-    <string name="watch_face_watch_rewarded_ads">Nézz meg egy videót a folytatásához</string>
+    <string name="watch_face_invalid_free">Ingyenes módban ma már nem tölthetsz fel több számlapot</string>
+    <string name="watch_face_watch_rewarded_ads">Folytatáshoz nézz meg egy videót</string>
     <string name="watch_face_watch_rewarded_ads_uploading">Nézz meg egy videót a feltöltés folytatásához</string>
     <string name="watch_face_watch_rewarded_ads_countdown">Videó indítása…</string>
 
@@ -488,16 +488,16 @@
     <string name="watch_face_upload_method_default">@string/default_</string>
     <string name="watch_face_upload_method_alternative">Alternatív</string>
 
-    <string name="watch_face_upload_speed_title">Feltöltés sebessége</string>
+    <string name="watch_face_upload_speed_title">Feltöltési sebesség</string>
     <string name="watch_face_upload_invalid_speed_hint">Állíts be alacsonyabb feltöltési sebességet, ha az óralap feltöltési folyamata megszakad</string>
     <string name="watch_face_upload_invalid_size_hint">Érvénytelen számlap fájlméret, állíts be alacsonyabb számlap minőséget, vagy távolíts el elemeket a számlapról</string>
     <string name="watch_face_upload_invalid_battery_hint">Az okosóra akkumulátora lemerülőben van, kérlek töltsd fel az órát</string>
 
-    <string name="watch_face_tbwf_quality_title">.tbwf számlap minőség beállítása</string>
-    <string name="watch_face_tbwf_quality_hint">Csökkenthető a fájl mérete, amennyiben az óra ezt lehetővé teszi</string>
+    <string name="watch_face_tbwf_quality_title">.tbwf számlap minőségének beállítása</string>
+    <string name="watch_face_tbwf_quality_hint">A fájl mérete csökkenthető, ha az óra ezt támogatja</string>
 
-    <string name="watch_face_tbwf_locale_title">.tbwf számlap nyelv és ország beállítása</string>
-    <string name="watch_face_tbwf_locale_hint">Hét napja, hónap elválasztó és tizedes elválasztó</string>
+    <string name="watch_face_tbwf_locale_title">.tbwf számlap nyelvi és területi beállításai</string>
+    <string name="watch_face_tbwf_locale_hint">A hét napjainak megnevezése, hónap elválasztó és tizedesjel</string>
 
     <string name="message_watch_face_file_invalid">Érvénytelen számlap fájl</string>
     <string name="message_watch_face_file_invalid_size">Érvénytelen számlap fájlméret</string>
@@ -506,7 +506,7 @@
     <string name="message_watch_face_font_file_error">Érvénytelen betűtípus fájl</string>
 
     <string name="action_chart_layout_2_columns">2 oszlopos elrendezés</string>
-    <string name="action_chart_layout_3_columns">3 oszlopos elerendezés</string>
+    <string name="action_chart_layout_3_columns">3 oszlopos elrendezés</string>
 
     <string name="watch_face_edit_dial">Számlap</string>
     <string name="watch_face_edit_preview">Előnézet</string>
@@ -939,6 +939,8 @@
     <string name="action_synchronization">Szinkronizálás</string>
     <string name="action_download">Letöltés</string>
     <string name="action_upload">Feltöltés</string>
+    <string name="action_backup">Biztonsági mentés</string>
+    <string name="action_restore">Visszaállítás</string>
     <string name="action_filter_no">Nincs szűrő</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_favorite">Kedvenc</string>
@@ -951,10 +953,11 @@
     <string name="action_edit">Szerkesztés</string>
     <string name="action_start_stop">Indít/Leállít</string>
     <string name="action_contacts">Névjegyek</string>
-    <string name="action_single_selection">Egyetlen kiválasztás</string>
+    <string name="action_single_selection">Egyszeres kiválasztás</string>
     <string name="action_multiple_selection">Többszörös kiválasztás</string>
     <string name="action_selection_boundaries">Kiválasztás határai</string>
     <string name="action_object_boundaries">Objektumhatárok</string>
+    <string name="action_select">Kiválasztás</string>
     <string name="action_select_all">Összes kiválasztása</string>
     <string name="action_select_images">Képek kiválasztása</string>
     <string name="action_select_texts">Szövegek kiválasztása</string>

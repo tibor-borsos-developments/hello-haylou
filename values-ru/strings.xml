@@ -156,9 +156,9 @@
     <string name="pref_language_title">Язык</string>
 
     <string name="pref_menu">Меню</string>
-    <string name="pref_cat_menu">Нижняя панель навигации</string>
-    <string name="pref_menu_item_2">Второй элемент меню</string>
-    <string name="pref_menu_item_3">Третий элемент меню</string>
+    <string name="pref_cat_menu">Настройка главного меню</string>
+    <string name="pref_menu_item_2">Второй пункт меню</string>
+    <string name="pref_menu_item_3">Третий пункт меню</string>
 
     <string name="pref_diagnostic">Диагностика</string>
     <string name="pref_cat_diagnostic_closing_protection">Поддержка работы в фоновом режиме</string>
@@ -171,12 +171,12 @@
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
 
     <string name="pref_cat_diagnostic_permissions">Разрешения</string>
-    <string name="pref_diagnostic_permission_allow_notification_access_settings">Allow notification access</string>
-    <string name="pref_diagnostic_permission_schedule_exact_alarm">Запланируйте точную тревогу</string>
-    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Additional permission is required to schedule the task at an exact time.</string>
-    <string name="pref_diagnostic_permission_post_notifications">Post notifications</string>
-    <string name="pref_diagnostic_permission_post_notifications_summary">Additional permission is required to display the notification</string>
-    <string name="pref_diagnostic_permission_access_notification_policy">\'Не беспокоить\'</string>
+    <string name="pref_diagnostic_permission_allow_notification_access_settings">Разрешить доступ к уведомлениям</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">Запланировать точный будильник</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Требуется дополнительное разрешение для планирования задачи на точное время.</string>
+    <string name="pref_diagnostic_permission_post_notifications">Отправлять уведомления</string>
+    <string name="pref_diagnostic_permission_post_notifications_summary">Требуется дополнительное разрешение для отображения уведомления.</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">Доступ к режиму «Не беспокоить»</string>
 
 
     <!-- Snackbar Messages -->
@@ -469,26 +469,26 @@
     <string name="watch_face_invalid_free">В бесплатной версии сегодня больше циферблаты загрузить нельзя</string>
     <string name="watch_face_watch_rewarded_ads">Посмотрите видео, чтобы продолжить</string>
     <string name="watch_face_watch_rewarded_ads_uploading">Посмотрите видео для продолжения загрузки</string>
-    <string name="watch_face_watch_rewarded_ads_countdown">Video starting…</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">Запуск видео…</string>
 
     <string name="watch_face_upload_method_title">Method</string>
     <string name="watch_face_upload_method_default">@string/default_</string>
     <string name="watch_face_upload_method_alternative">Alternative</string>
 
-    <string name="watch_face_upload_speed_title">Скорость передачи</string>
-    <string name="watch_face_upload_invalid_speed_hint">Установите меньшую скорость передачи циферблата на часы если процесс передачи постоянно прерывается.</string>
-    <string name="watch_face_upload_invalid_size_hint">Invalid watch face file size, set lower watch face quality or remove items from watch face</string>
-    <string name="watch_face_upload_invalid_battery_hint">The smartwatch battery is running low, please charge the watch</string>
+    <string name="watch_face_upload_speed_title">Скорость загрузки</string>
+    <string name="watch_face_upload_invalid_speed_hint">Установите более низкую скорость, если процесс загрузки циферблата прерывается</string>
+    <string name="watch_face_upload_invalid_size_hint">Недопустимый размер файла циферблата — установите более низкое качество или удалите элементы с циферблата</string>
+    <string name="watch_face_upload_invalid_battery_hint">Батарея смарт-часов разряжается, пожалуйста, зарядите часы</string>
 
-    <string name="watch_face_tbwf_quality_title">.tbwf watch face quality setting</string>
-    <string name="watch_face_tbwf_quality_hint">The file size can be reduced if the watch allows it</string>
+    <string name="watch_face_tbwf_quality_title">Настройка качества циферблата .tbwf</string>
+    <string name="watch_face_tbwf_quality_hint">Размер файла можно уменьшить, если это поддерживается часами</string>
 
-    <string name="watch_face_tbwf_locale_title">.tbwf watch face language and country setting</string>
-    <string name="watch_face_tbwf_locale_hint">Day of week, month separator and decimal separator</string>
+    <string name="watch_face_tbwf_locale_title">Настройка языка и страны для циферблата .tbwf</string>
+    <string name="watch_face_tbwf_locale_hint">День недели, разделитель месяца и десятичный разделитель</string>
 
     <string name="message_watch_face_file_invalid">Некорректный файл циферблата</string>
-    <string name="message_watch_face_file_invalid_size">Invalid watch face file size</string>
-    <string name="message_watch_face_file_invalid_battery">The smartwatch battery is running low</string>
+    <string name="message_watch_face_file_invalid_size">Недопустимый размер файла циферблата</string>
+    <string name="message_watch_face_file_invalid_battery">Батарея смарт-часов почти разряжена</string>
     <string name="message_watch_face_image_file_error">Некорректный файл изображения</string>
     <string name="message_watch_face_font_file_error">Некорректный файл шрифта</string>
 
@@ -742,8 +742,8 @@
     <string name="theme_background_color_title">Цвет фона</string>
 
     <string name="theme_widget_background_color_title">Цвет</string>
-    <string name="theme_color_dynamic_color_title">Dynamic color</string>
-    <string name="theme_color_predefined_colors_title">Predefined colors</string>
+    <string name="theme_color_dynamic_color_title">Динамический цвет</string>
+    <string name="theme_color_predefined_colors_title">Предустановленные цвета</string>
 
     <string name="theme_notification_title">Отображение статуса подключения в уведомлении</string>
 
@@ -795,9 +795,9 @@
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Политика конфиденциальности</string>
-    <string name="privacy_policy_tab_user_consent">User consent management</string>
-    <string name="privacy_policy_tab_eu_consent">EU and USA user consent</string>
-    <string name="privacy_policy_tab_non_eu_consent">Other region user consent</string>
+    <string name="privacy_policy_tab_user_consent">Управление согласием пользователя</string>
+    <string name="privacy_policy_tab_eu_consent">Согласие пользователя для ЕС и США</string>
+    <string name="privacy_policy_tab_non_eu_consent">Согласие пользователя для других регионов</string>
 
     <string name="privacy_policy_collect_title">Информация, собираемая нами</string>
     <string name="privacy_policy_collect"><![CDATA[
@@ -925,6 +925,8 @@
     <string name="action_synchronization">Синхронизация</string>
     <string name="action_download">Загрузка</string>
     <string name="action_upload">Установка</string>
+    <string name="action_backup">Резервная копия</string>
+    <string name="action_restore">Восстановить</string>
     <string name="action_filter_no">Без фильтра</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_favorite">Избранное</string>
@@ -941,9 +943,10 @@
     <string name="action_multiple_selection">Выбрать несколько</string>
     <string name="action_selection_boundaries">Границы выбора</string>
     <string name="action_object_boundaries">Границы объекта</string>
-    <string name="action_select_all">Выбрать все</string>
+    <string name="action_select">Выбор</string>
+    <string name="action_select_all">Выбрать всё</string>
     <string name="action_select_texts">Выбрать текст</string>
-    <string name="action_select_images">Выбрать изображение</string>
+    <string name="action_select_images">Выбрать изображения</string>
     <string name="action_deselect_all">Отменить выбор</string>
     <string name="synchronized_from_watch">Синхронизировано с часов</string>
     <string name="synchronization_succeeded">Синхронизация прошла успешно</string>
@@ -989,13 +992,13 @@
     <string name="percent_100">100%</string>
 
     <!-- Constante -->
-    <string name="const_day_of_week_sunday">Sunday</string>
-    <string name="const_day_of_week_monday">Monday</string>
-    <string name="const_day_of_week_tuesday">Tuesday</string>
-    <string name="const_day_of_week_wednesday">Wednesday</string>
-    <string name="const_day_of_week_thursday">Thursday</string>
-    <string name="const_day_of_week_friday">Friday</string>
-    <string name="const_day_of_week_saturday">Saturday</string>
+    <string name="const_day_of_week_sunday">Воскресенье</string>
+    <string name="const_day_of_week_monday">Понедельник</string>
+    <string name="const_day_of_week_tuesday">Вторник</string>
+    <string name="const_day_of_week_wednesday">Среда</string>
+    <string name="const_day_of_week_thursday">Четверг</string>
+    <string name="const_day_of_week_friday">Пятница</string>
+    <string name="const_day_of_week_saturday">Суббота</string>
 
     <string name="const_time_abbreviation_day">д</string>
     <string name="const_time_abbreviation_hour">ч</string>

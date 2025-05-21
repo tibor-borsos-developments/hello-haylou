@@ -156,10 +156,10 @@
     <string name="pref_cat_language">Ứng dụng</string>
     <string name="pref_language_title">Ngôn ngữ</string>
 
-    <string name="pref_menu">Các mục menu ẩn</string>
-    <string name="pref_cat_menu">Thanh menu chính</string>
-    <string name="pref_menu_item_2">Mục thứ hai</string>
-    <string name="pref_menu_item_3">Mục thứ ba</string>
+    <string name="pref_menu">Menu</string>
+    <string name="pref_cat_menu">Tùy chỉnh menu chính</string>
+    <string name="pref_menu_item_2">Mục menu thứ hai</string>
+    <string name="pref_menu_item_3">Mục menu thứ ba</string>
 
     <string name="pref_diagnostic">Chẩn đoán</string>
     <string name="pref_cat_diagnostic_closing_protection">Chống đóng ứng dụng</string>
@@ -171,13 +171,13 @@
     <string name="pref_diagnostic_info">Thêm thông tin</string>
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
 
-    <string name="pref_cat_diagnostic_permissions">Phân quyền</string>
-    <string name="pref_diagnostic_permission_allow_notification_access_settings">Allow notification access</string>
-    <string name="pref_diagnostic_permission_schedule_exact_alarm">Lịch trình báo động chính xác</string>
-    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Additional permission is required to schedule the task at an exact time.</string>
-    <string name="pref_diagnostic_permission_post_notifications">Post notifications</string>
-    <string name="pref_diagnostic_permission_post_notifications_summary">Additional permission is required to display the notification</string>
-    <string name="pref_diagnostic_permission_access_notification_policy">Truy cập Không làm phiền</string>
+    <string name="pref_cat_diagnostic_permissions">Quyền</string>
+    <string name="pref_diagnostic_permission_allow_notification_access_settings">Cho phép truy cập thông báo</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">Lên lịch báo thức chính xác</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Cần quyền bổ sung để lên lịch tác vụ vào thời gian chính xác.</string>
+    <string name="pref_diagnostic_permission_post_notifications">Đăng thông báo</string>
+    <string name="pref_diagnostic_permission_post_notifications_summary">Cần quyền bổ sung để hiển thị thông báo.</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">Truy cập chế độ Không làm phiền</string>
 
 
     <!-- Snackbar Messages -->
@@ -378,9 +378,9 @@
     <!-- Sleep monitoring -->
     <string name="sleep_details">Chi tiết giấc ngủ</string>
 
-    <string name="sleep_awake">Tỉnh giấc</string>
-    <string name="sleep_light">Ngủ nông</string>
-    <string name="sleep_deep">Ngủ sâu</string>
+    <string name="sleep_awake">Thức</string>
+    <string name="sleep_light">Nhẹ</string>
+    <string name="sleep_deep">Sâu</string>
     <string name="sleep_rem">REM</string>
 
 
@@ -389,10 +389,10 @@
 
     <string name="pulse_continuous_title">Đo nhịp tim Liên tục</string>
 
-    <string name="heart_rate_warning_title">Heart rate warning</string>
-    <string name="low_and_high_heart_rates">Low and high heart rate thresholds</string>
-    <string name="low_heart_rate">Low heart rate</string>
-    <string name="high_heart_rate">High heart rate</string>
+    <string name="heart_rate_warning_title">Cảnh báo nhịp tim</string>
+    <string name="low_and_high_heart_rates">Ngưỡng nhịp tim</string>
+    <string name="low_heart_rate">Nhịp tim thấp</string>
+    <string name="high_heart_rate">Nhịp tim cao</string>
 
 
     <!-- Blood oxygen -->
@@ -469,46 +469,46 @@
 
     <string name="watch_face_invalid_firmware">Firmware của %1$s không hỗ trợ tải lên mặt đồng hồ, cập nhật firmware trong ứng dụng chính thức</string> <!-- %1$s = Haylou Smart watch ... -->
     <string name="watch_face_invalid_auth">Sử dụng ở chế độ độc lập, khi sử dụng chế độ hợp tác, ứng dụng chính thức có thể chặn tải lên mặt đồng hồ</string>
-    <string name="watch_face_invalid_free">Ở chế độ miễn phí, không thể tải lên thêm mặt đồng hồ trong hôm nay</string>
+    <string name="watch_face_invalid_free">Ở chế độ miễn phí, hôm nay không thể tải lên thêm mặt đồng hồ</string>
     <string name="watch_face_watch_rewarded_ads">Xem video để tiếp tục</string>
-    <string name="watch_face_watch_rewarded_ads_uploading">Watch a video to continue uploading</string>
-    <string name="watch_face_watch_rewarded_ads_countdown">Video starting…</string>
+    <string name="watch_face_watch_rewarded_ads_uploading">Xem video để tiếp tục tải lên</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">Bắt đầu video…</string>
 
     <string name="watch_face_upload_method_title">Method</string>
     <string name="watch_face_upload_method_default">@string/default_</string>
     <string name="watch_face_upload_method_alternative">Alternative</string>
 
-    <string name="watch_face_upload_speed_title">Tốc độ đồng bộ</string>
-    <string name="watch_face_upload_invalid_speed_hint">Đặt tốc độ đồng bộ thấp hơn nếu quá trình đồng bộ mặt đồng hồ bị gián đoạn</string>
-    <string name="watch_face_upload_invalid_size_hint">Invalid watch face file size, set lower watch face quality or remove items from watch face</string>
-    <string name="watch_face_upload_invalid_battery_hint">The smartwatch battery is running low, please charge the watch</string>
+    <string name="watch_face_upload_speed_title">Tốc độ tải lên</string>
+    <string name="watch_face_upload_invalid_speed_hint">Đặt tốc độ thấp hơn nếu quá trình tải lên mặt đồng hồ bị gián đoạn</string>
+    <string name="watch_face_upload_invalid_size_hint">Kích thước tệp mặt đồng hồ không hợp lệ — hãy đặt chất lượng mặt đồng hồ thấp hơn hoặc xóa các mục khỏi mặt đồng hồ</string>
+    <string name="watch_face_upload_invalid_battery_hint">Pin đồng hồ thông minh sắp hết, vui lòng sạc đồng hồ</string>
 
-    <string name="watch_face_tbwf_quality_title">.tbwf watch face quality setting</string>
-    <string name="watch_face_tbwf_quality_hint">The file size can be reduced if the watch allows it</string>
+    <string name="watch_face_tbwf_quality_title">Cài đặt chất lượng mặt đồng hồ .tbwf</string>
+    <string name="watch_face_tbwf_quality_hint">Kích thước tệp có thể giảm nếu đồng hồ cho phép</string>
 
-    <string name="watch_face_tbwf_locale_title">.tbwf watch face language and country setting</string>
-    <string name="watch_face_tbwf_locale_hint">Day of week, month separator and decimal separator</string>
+    <string name="watch_face_tbwf_locale_title">Cài đặt ngôn ngữ và quốc gia mặt đồng hồ .tbwf</string>
+    <string name="watch_face_tbwf_locale_hint">Thứ trong tuần, dấu phân cách tháng và dấu thập phân</string>
 
     <string name="message_watch_face_file_invalid">File giao diện không hợp lệ</string>
-    <string name="message_watch_face_file_invalid_size">Invalid watch face file size</string>
-    <string name="message_watch_face_file_invalid_battery">The smartwatch battery is running low</string>
+    <string name="message_watch_face_file_invalid_size">Kích thước tệp mặt đồng hồ không hợp lệ</string>
+    <string name="message_watch_face_file_invalid_battery">Pin đồng hồ thông minh sắp hết</string>
     <string name="message_watch_face_image_file_error">Invalid image file</string>
     <string name="message_watch_face_font_file_error">Invalid font file</string>
 
-    <string name="action_chart_layout_2_columns">2-column layout</string>
-    <string name="action_chart_layout_3_columns">3-column layout</string>
+    <string name="action_chart_layout_2_columns">Bố cục 2 cột</string>
+    <string name="action_chart_layout_3_columns">Bố cục 3 cột</string>
 
-    <string name="watch_face_edit_dial">Dial</string>
-    <string name="watch_face_edit_preview">Preview</string>
+    <string name="watch_face_edit_dial">Mặt đồng hồ</string>
+    <string name="watch_face_edit_preview">Xem trước</string>
     <string name="watch_face_edit_hour_digital">Giờ</string>
     <string name="watch_face_edit_minute_digital">Phút</string>
     <string name="watch_face_edit_second_digital">Thứ hai</string>
     <string name="watch_face_edit_am_pm">AM/PM indicator</string>
     <string name="watch_face_edit_am">AM</string>
     <string name="watch_face_edit_pm">PM</string>
-    <string name="watch_face_edit_hour_analog">Hour hand</string>
-    <string name="watch_face_edit_minute_analog">Minute hand</string>
-    <string name="watch_face_edit_second_analog">Second hand</string>
+    <string name="watch_face_edit_hour_analog">Kim giờ</string>
+    <string name="watch_face_edit_minute_analog">Kim phút</string>
+    <string name="watch_face_edit_second_analog">Kim giây</string>
     <string name="watch_face_edit_axis">Axis of rotation</string>
     <string name="watch_face_edit_hour_minute_separator">Giờ và phút separator</string>
     <string name="watch_face_edit_year">Năm</string>
@@ -523,7 +523,7 @@
     <string name="watch_face_edit_battery_level_image">Hình ảnh pin</string>
     <string name="watch_face_edit_weather_temperature">Nhiệt độ</string>
     <string name="watch_face_edit_weather_temperature_unit_sign">Đơn vị nhiệt độ °</string>
-    <string name="watch_face_edit_weather_image">Weather image</string>
+    <string name="watch_face_edit_weather_image">Hình ảnh thời tiết</string>
     <string name="watch_face_edit_connection_indicator_image">Connection indicator image</string>
     <string name="watch_face_edit_connected">Đã kết nối</string>
     <string name="watch_face_edit_disconnected">Ngắt kết nối</string>
@@ -714,21 +714,21 @@
 
 
     <!-- Text display -->
-    <string name="pref_text_emoticon_title">Chuyển đổi biểu tượng</string>
-    <string name="pref_text_emoticon_summary_on">Chuyển emoji thành emoticon</string>
-    <string name="pref_text_uppercase_title">Chuyển đổi chữ HOA</string>
+    <string name="pref_text_emoticon_title">Chuyển đổi emoji</string>
+    <string name="pref_text_emoticon_summary_on">Chuyển emoji thành biểu tượng cảm xúc</string>
+    <string name="pref_text_uppercase_title">Chuyển đổi chữ hoa</string>
     <string name="pref_text_uppercase_summary_on">Chuyển chữ thường thành chữ hoa</string>
     <string name="pref_text_alphanumeric_title">Ký tự chữ và số và ASCII</string>
-    <string name="pref_text_alphanumeric_summary_on">Chỉ hiển thị các ký tự chữ và số và ASCII</string>
-    <string name="pref_text_transliteration_title">Chuyển đổi ký tự có dấu</string>
-    <string name="pref_text_transliteration_summary_on">Convert accented letters to unaccented</string>
-    <string name="pref_text_line_separator_title">Thay thế dấu cách dòng</string>
-    <string name="pref_text_line_separator_summary_on">Thay thế dấu phân cách dòng mặc định bằng một ký tự khác</string>
+    <string name="pref_text_alphanumeric_summary_on">Chỉ hiển thị ký tự chữ và số và ASCII</string>
+    <string name="pref_text_transliteration_title">Chuyển tự</string>
+    <string name="pref_text_transliteration_summary_on">Chuyển các chữ cái có dấu sang chữ không dấu</string>
+    <string name="pref_text_line_separator_title">Thay thế ký tự ngắt dòng</string>
+    <string name="pref_text_line_separator_summary_on">Thay ký tự ngắt dòng mặc định bằng ký tự khác</string>
     <string name="pref_text_line_separator_value_title">Ký tự thay thế</string>
-    <string name="pref_text_char_replacement_title">Thay thế ký tự, emoji</string>
-    <string name="pref_text_char_replacement_summary_on">Thay thế một ký tự thành ký tự khác</string>
-    <string name="pref_text_char_replacement_find">Tìm kiếm</string>
-    <string name="pref_text_char_replacement_replace">Thay thế bởi</string>
+    <string name="pref_text_char_replacement_title">Thay thế ký tự và emoji</string>
+    <string name="pref_text_char_replacement_summary_on">Thay một ký tự bằng ký tự khác</string>
+    <string name="pref_text_char_replacement_find">Tìm</string>
+    <string name="pref_text_char_replacement_replace">Thay bằng</string>
 
 
     <!-- Export -->
@@ -744,8 +744,8 @@
     <string name="theme_background_color_title">Màu nền</string>
 
     <string name="theme_widget_background_color_title">Màu</string>
-    <string name="theme_color_dynamic_color_title">Dynamic color</string>
-    <string name="theme_color_predefined_colors_title">Predefined colors</string>
+    <string name="theme_color_dynamic_color_title">Màu động</string>
+    <string name="theme_color_predefined_colors_title">Màu định sẵn</string>
 
     <string name="theme_notification_title">Hiện trạng thái trong vùng thông báo</string>
 
@@ -796,10 +796,10 @@
     <string name="feedback_translation_title_summary">Vui lòng giúp chúng tôi dịch ứng dụng này</string>
 
     <!-- Privacy policy -->
-    <string name="privacy_policy_tab_privacy_policy">Chính sách bảo mật</string>
-    <string name="privacy_policy_tab_user_consent">User consent management</string>
-    <string name="privacy_policy_tab_eu_consent">EU and USA user consent</string>
-    <string name="privacy_policy_tab_non_eu_consent">Other region user consent</string>
+    <string name="privacy_policy_tab_privacy_policy">Chính Sách Bảo Mật</string>
+    <string name="privacy_policy_tab_user_consent">Quản Lý Sự Đồng Ý của Người Dùng</string>
+    <string name="privacy_policy_tab_eu_consent">Sự Đồng Ý của Người Dùng cho EU và Hoa Kỳ</string>
+    <string name="privacy_policy_tab_non_eu_consent">Sự Đồng Ý của Người Dùng cho Các Khu Vực Khác</string>
 
     <string name="privacy_policy_collect_title">Thông tin mà chúng tôi thu thập</string>
     <string name="privacy_policy_collect"><![CDATA[
@@ -866,9 +866,9 @@
 
     <!-- Others -->
     <string name="tab_daily_charts">Biểu đồ hàng ngày</string>
-    <string name="tab_weekly_charts">Biểu đồ theo tuần</string>
-    <string name="tab_monthly_charts">Biểu đồ theo tháng</string>
-    <string name="tab_yearly_charts">Yearly charts</string>
+    <string name="tab_weekly_charts">Biểu đồ hàng tuần</string>
+    <string name="tab_monthly_charts">Biểu đồ hàng tháng</string>
+    <string name="tab_yearly_charts">Biểu đồ hàng năm</string>
 
     <string name="ad_attribution">Quảng cáo</string>
     <string name="on">Bật</string>
@@ -900,12 +900,12 @@
     <string name="value">Giá trị</string>
     <string name="downloads">Downloads</string>
     <string name="share">Share</string>
-    <string name="send">Send</string>
-    <string name="narrow">Narrow</string>
-    <string name="short_">Short</string>
-    <string name="medium">Medium</string>
-    <string name="long_">Long</string>
-    <string name="full">Full</string>
+    <string name="send">Gửi</string>
+    <string name="narrow">Hẹp</string>
+    <string name="short_">Ngắn</string>
+    <string name="medium">Trung bình</string>
+    <string name="long_">Dài</string>
+    <string name="full">Đầy đủ</string>
     <string name="alignment_left">Căn chỉnh trái</string>
     <string name="alignment_center">Liên kết đến trung tâm.</string>
     <string name="alignment_right">Căn chỉnh đúng</string>
@@ -926,6 +926,8 @@
     <string name="action_synchronization">Đồng bộ</string>
     <string name="action_download">Tải xuống</string>
     <string name="action_upload">Tải lên</string>
+    <string name="action_backup">Sao lưu</string>
+    <string name="action_restore">Khôi phục</string>
     <string name="action_filter_no">Không lọc</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_favorite">Yêu thích</string>
@@ -937,15 +939,16 @@
     <string name="action_new_file_extension">Mới %1$s</string>
     <string name="action_edit">Chỉnh sửa</string>
     <string name="action_start_stop">Bắt đầu/Dừng</string>
-    <string name="action_contacts">Liên hệ</string>
-    <string name="action_single_selection">Single selection</string>
-    <string name="action_multiple_selection">Multiple selection</string>
+    <string name="action_contacts">Danh bạ</string>
+    <string name="action_single_selection">Chọn một</string>
+    <string name="action_multiple_selection">Chọn nhiều</string>
     <string name="action_selection_boundaries">Selection boundaries</string>
     <string name="action_object_boundaries">Object boundaries</string>
-    <string name="action_select_all">Select all</string>
-    <string name="action_select_texts">Select texts</string>
-    <string name="action_select_images">Select images</string>
-    <string name="action_deselect_all">Deselect all</string>
+    <string name="action_select">Chọn</string>
+    <string name="action_select_all">Chọn tất cả</string>
+    <string name="action_select_texts">Chọn văn bản</string>
+    <string name="action_select_images">Chọn hình ảnh</string>
+    <string name="action_deselect_all">Bỏ chọn tất cả</string>
     <string name="synchronized_from_watch">Đã đồng bộ từ đồng hồ</string>
     <string name="synchronization_succeeded">Đồng bộ hóa thành công</string>
     <string name="synchronization_failed">Đồng bộ hóa không thành công</string>
@@ -990,13 +993,13 @@
     <string name="percent_100">100%</string>
 
     <!-- Constante -->
-    <string name="const_day_of_week_sunday">Sunday</string>
-    <string name="const_day_of_week_monday">Monday</string>
-    <string name="const_day_of_week_tuesday">Tuesday</string>
-    <string name="const_day_of_week_wednesday">Wednesday</string>
-    <string name="const_day_of_week_thursday">Thursday</string>
-    <string name="const_day_of_week_friday">Friday</string>
-    <string name="const_day_of_week_saturday">Saturday</string>
+    <string name="const_day_of_week_sunday">Chủ nhật</string>
+    <string name="const_day_of_week_monday">Thứ hai</string>
+    <string name="const_day_of_week_tuesday">Thứ ba</string>
+    <string name="const_day_of_week_wednesday">Thứ tư</string>
+    <string name="const_day_of_week_thursday">Thứ năm</string>
+    <string name="const_day_of_week_friday">Thứ sáu</string>
+    <string name="const_day_of_week_saturday">Thứ bảy</string>
 
     <string name="const_time_abbreviation_day">d</string>
     <string name="const_time_abbreviation_hour">h</string>

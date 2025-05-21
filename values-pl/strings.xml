@@ -157,9 +157,9 @@
     <string name="pref_language_title">Język</string>
 
     <string name="pref_menu">Menu</string>
-    <string name="pref_cat_menu">Pasek menu głównego</string>
-    <string name="pref_menu_item_2">Drugi punkt menu</string>
-    <string name="pref_menu_item_3">Trzeci punkt menu</string>
+    <string name="pref_cat_menu">Dostosowanie menu głównego</string>
+    <string name="pref_menu_item_2">Drugi element menu</string>
+    <string name="pref_menu_item_3">Trzeci element menu</string>
 
     <string name="pref_diagnostic">Diagnostyka</string>
     <string name="pref_cat_diagnostic_closing_protection">Ochrona przed zamknięciem</string>
@@ -172,11 +172,11 @@
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
 
     <string name="pref_cat_diagnostic_permissions">Uprawnienia</string>
-    <string name="pref_diagnostic_permission_allow_notification_access_settings">Allow notification access</string>
+    <string name="pref_diagnostic_permission_allow_notification_access_settings">Zezwól na dostęp do powiadomień</string>
     <string name="pref_diagnostic_permission_schedule_exact_alarm">Zaplanuj dokładny alarm</string>
-    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Additional permission is required to schedule the task at an exact time.</string>
-    <string name="pref_diagnostic_permission_post_notifications">Post notifications</string>
-    <string name="pref_diagnostic_permission_post_notifications_summary">Additional permission is required to display the notification</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Wymagane jest dodatkowe uprawnienie, aby zaplanować zadanie na dokładny czas.</string>
+    <string name="pref_diagnostic_permission_post_notifications">Wyświetlaj powiadomienia</string>
+    <string name="pref_diagnostic_permission_post_notifications_summary">Wymagane jest dodatkowe uprawnienie do wyświetlania powiadomienia.</string>
     <string name="pref_diagnostic_permission_access_notification_policy">Dostęp do trybu Nie przeszkadzać</string>
 
 
@@ -376,9 +376,9 @@
     <!-- Sleep monitoring -->
     <string name="sleep_details">Szczegóły snu</string>
 
-    <string name="sleep_awake">Awake</string>
-    <string name="sleep_light">Light</string>
-    <string name="sleep_deep">Deep</string>
+    <string name="sleep_awake">Czujny</string>
+    <string name="sleep_light">Lekki</string>
+    <string name="sleep_deep">Głęboki</string>
     <string name="sleep_rem">REM</string>
 
 
@@ -388,7 +388,7 @@
     <string name="pulse_continuous_title">Ciągły pomiar tętna</string>
 
     <string name="heart_rate_warning_title">Ostrzeżenie o tętnie</string>
-    <string name="low_and_high_heart_rates">Low and high heart rate thresholds</string>
+    <string name="low_and_high_heart_rates">Progi tętna</string>
     <string name="low_heart_rate">Niskie tętno</string>
     <string name="high_heart_rate">Wysokie tętno</string>
 
@@ -467,46 +467,46 @@
 
     <string name="watch_face_invalid_firmware">%1$s firmware does not support uploading the watch face, update the firmware in the official application</string> <!-- %1$s = Haylou Smart watch ... -->
     <string name="watch_face_invalid_auth">Use in standalone mode, when using cooperation mode, the official application may block the watch face upload</string>
-    <string name="watch_face_invalid_free">In the free mode, more dials cannot be uploaded today</string>
+    <string name="watch_face_invalid_free">W trybie darmowym nie można dziś przesłać więcej tarcz</string>
     <string name="watch_face_watch_rewarded_ads">Obejrzyj wideo, aby kontynuować</string>
-    <string name="watch_face_watch_rewarded_ads_uploading">Watch a video to continue uploading</string>
-    <string name="watch_face_watch_rewarded_ads_countdown">Video starting…</string>
+    <string name="watch_face_watch_rewarded_ads_uploading">Obejrzyj wideo, aby kontynuować przesyłanie</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">Rozpoczynanie wideo…</string>
 
     <string name="watch_face_upload_method_title">Method</string>
     <string name="watch_face_upload_method_default">@string/default_</string>
     <string name="watch_face_upload_method_alternative">Alternative</string>
 
-    <string name="watch_face_upload_speed_title">Prędkość wysyłania</string>
-    <string name="watch_face_upload_invalid_speed_hint">Set a lower speed if the watch face uploading process is interrupted</string>
-    <string name="watch_face_upload_invalid_size_hint">Invalid watch face file size, set lower watch face quality or remove items from watch face</string>
-    <string name="watch_face_upload_invalid_battery_hint">The smartwatch battery is running low, please charge the watch</string>
+    <string name="watch_face_upload_speed_title">Prędkość przesyłania</string>
+    <string name="watch_face_upload_invalid_speed_hint">Ustaw niższą prędkość, jeśli proces przesyłania tarczy zegarka zostanie przerwany</string>
+    <string name="watch_face_upload_invalid_size_hint">Nieprawidłowy rozmiar pliku tarczy zegarka — ustaw niższą jakość tarczy lub usuń elementy z tarczy</string>
+    <string name="watch_face_upload_invalid_battery_hint">Bateria smartwatcha jest na wyczerpaniu, proszę naładuj zegarek</string>
 
-    <string name="watch_face_tbwf_quality_title">.tbwf watch face quality setting</string>
-    <string name="watch_face_tbwf_quality_hint">The file size can be reduced if the watch allows it</string>
+    <string name="watch_face_tbwf_quality_title">Ustawienie jakości tarczy .tbwf</string>
+    <string name="watch_face_tbwf_quality_hint">Rozmiar pliku można zmniejszyć, jeśli zegarek na to pozwala</string>
 
-    <string name="watch_face_tbwf_locale_title">.tbwf watch face language and country setting</string>
-    <string name="watch_face_tbwf_locale_hint">Day of week, month separator and decimal separator</string>
+    <string name="watch_face_tbwf_locale_title">Ustawienie języka i kraju tarczy .tbwf</string>
+    <string name="watch_face_tbwf_locale_hint">Dzień tygodnia, separator miesiąca i separator dziesiętny</string>
 
     <string name="message_watch_face_file_invalid">Nieprawidłowy plik tarczy zegarka</string>
-    <string name="message_watch_face_file_invalid_size">Invalid watch face file size</string>
-    <string name="message_watch_face_file_invalid_battery">The smartwatch battery is running low</string>
+    <string name="message_watch_face_file_invalid_size">Nieprawidłowy rozmiar pliku tarczy zegarka</string>
+    <string name="message_watch_face_file_invalid_battery">Bateria smartwatcha jest prawie rozładowana</string>
     <string name="message_watch_face_image_file_error">Nieprawidłowy plik obrazu</string>
     <string name="message_watch_face_font_file_error">Nieprawidłowy plik czcionki</string>
 
     <string name="action_chart_layout_2_columns">Układ 2-kolumnowy</string>
     <string name="action_chart_layout_3_columns">Układ 3-kolumnowy</string>
 
-    <string name="watch_face_edit_dial">Dial</string>
-    <string name="watch_face_edit_preview">Preview</string>
+    <string name="watch_face_edit_dial">Tarcza</string>
+    <string name="watch_face_edit_preview">Podgląd</string>
     <string name="watch_face_edit_hour_digital">Godzina</string>
     <string name="watch_face_edit_minute_digital">Minuta</string>
     <string name="watch_face_edit_second_digital">Druga</string>
     <string name="watch_face_edit_am_pm">AM/PM indicator</string>
     <string name="watch_face_edit_am">AM</string>
     <string name="watch_face_edit_pm">PM</string>
-    <string name="watch_face_edit_hour_analog">Hour hand</string>
-    <string name="watch_face_edit_minute_analog">Minute hand</string>
-    <string name="watch_face_edit_second_analog">Second hand</string>
+    <string name="watch_face_edit_hour_analog">Wskazówka godzinowa</string>
+    <string name="watch_face_edit_minute_analog">Wskazówka minutowa</string>
+    <string name="watch_face_edit_second_analog">Wskazówka sekundowa</string>
     <string name="watch_face_edit_axis">Axis of rotation</string>
     <string name="watch_face_edit_hour_minute_separator">Godzina i minuta separator</string>
     <string name="watch_face_edit_year">Rok</string>
@@ -521,7 +521,7 @@
     <string name="watch_face_edit_battery_level_image">Batteri bilde</string>
     <string name="watch_face_edit_weather_temperature">Temperatura</string>
     <string name="watch_face_edit_weather_temperature_unit_sign">Jednostka temperatury °</string>
-    <string name="watch_face_edit_weather_image">Weather image</string>
+    <string name="watch_face_edit_weather_image">Obraz pogody</string>
     <string name="watch_face_edit_connection_indicator_image">Connection indicator image</string>
     <string name="watch_face_edit_connected">Połączony</string>
     <string name="watch_face_edit_disconnected">Rozłączony</string>
@@ -713,21 +713,21 @@
 
 
     <!-- Text display -->
-    <string name="pref_text_emoticon_title">Konwersja Emoji</string>
-    <string name="pref_text_emoticon_summary_on">Konwertuj Emoji do emotikony</string>
-    <string name="pref_text_uppercase_title">Konwersja do dużych liter</string>
-    <string name="pref_text_uppercase_summary_on">Konwertuj małe litery do dużych</string>
-    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
-    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
+    <string name="pref_text_emoticon_title">Konwersja emoji</string>
+    <string name="pref_text_emoticon_summary_on">Konwertuj emoji na emotikony</string>
+    <string name="pref_text_uppercase_title">Konwersja na wielkie litery</string>
+    <string name="pref_text_uppercase_summary_on">Konwertuj małe litery na wielkie</string>
+    <string name="pref_text_alphanumeric_title">Znaki alfanumeryczne i ASCII</string>
+    <string name="pref_text_alphanumeric_summary_on">Pokaż tylko znaki alfanumeryczne i ASCII</string>
     <string name="pref_text_transliteration_title">Transliteracja</string>
-    <string name="pref_text_transliteration_summary_on">Convert accented letters to unaccented</string>
-    <string name="pref_text_line_separator_title">Line separator replacement</string>
-    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
-    <string name="pref_text_line_separator_value_title">Replacement characters</string>
-    <string name="pref_text_char_replacement_title">Zastąpienie znaku, emoji</string>
-    <string name="pref_text_char_replacement_summary_on">Zastąp jeden znak innym</string>
+    <string name="pref_text_transliteration_summary_on">Konwertuj litery akcentowane na nieakcentowane</string>
+    <string name="pref_text_line_separator_title">Zamiana separatora linii</string>
+    <string name="pref_text_line_separator_summary_on">Zamień domyślny separator linii na inne znaki</string>
+    <string name="pref_text_line_separator_value_title">Znaki zamienników</string>
+    <string name="pref_text_char_replacement_title">Zamiana znaków i emoji</string>
+    <string name="pref_text_char_replacement_summary_on">Zamień jeden znak na inny</string>
     <string name="pref_text_char_replacement_find">Znajdź</string>
-    <string name="pref_text_char_replacement_replace">Zastąp</string>
+    <string name="pref_text_char_replacement_replace">Zamień na</string>
 
 
     <!-- Export -->
@@ -743,8 +743,8 @@
     <string name="theme_background_color_title">Kolor tła</string>
 
     <string name="theme_widget_background_color_title">Kolor</string>
-    <string name="theme_color_dynamic_color_title">Dynamic color</string>
-    <string name="theme_color_predefined_colors_title">Predefined colors</string>
+    <string name="theme_color_dynamic_color_title">Kolor dynamiczny</string>
+    <string name="theme_color_predefined_colors_title">Zdefiniowane kolory</string>
 
     <string name="theme_notification_title">Pokaż status w obszarze powiadomień</string>
 
@@ -795,10 +795,10 @@
     <string name="feedback_translation_title_summary">Please help with the translation</string>
 
     <!-- Privacy policy -->
-    <string name="privacy_policy_tab_privacy_policy">Polityka prywatności</string>
-    <string name="privacy_policy_tab_user_consent">User consent management</string>
-    <string name="privacy_policy_tab_eu_consent">EU and USA user consent</string>
-    <string name="privacy_policy_tab_non_eu_consent">Other region user consent</string>
+    <string name="privacy_policy_tab_privacy_policy">Polityka Prywatności</string>
+    <string name="privacy_policy_tab_user_consent">Zarządzanie Zgodą Użytkownika</string>
+    <string name="privacy_policy_tab_eu_consent">Zgoda Użytkownika dla UE i USA</string>
+    <string name="privacy_policy_tab_non_eu_consent">Zgoda Użytkownika dla Innych Regionów</string>
 
     <string name="privacy_policy_collect_title">Informacje, które zbieramy</string>
     <string name="privacy_policy_collect"><![CDATA[
@@ -900,12 +900,12 @@
     <string name="value">Wartość</string>
     <string name="downloads">Downloads</string>
     <string name="share">Udostępnij</string>
-    <string name="send">Send</string>
-    <string name="narrow">Narrow</string>
-    <string name="short_">Short</string>
-    <string name="medium">Medium</string>
-    <string name="long_">Long</string>
-    <string name="full">Full</string>
+    <string name="send">Wyślij</string>
+    <string name="narrow">Wąski</string>
+    <string name="short_">Krótki</string>
+    <string name="medium">Średni</string>
+    <string name="long_">Długi</string>
+    <string name="full">Pełny</string>
     <string name="alignment_left">Wyrównanie w lewo</string>
     <string name="alignment_center">Wyrównanie do centrum</string>
     <string name="alignment_right">Wyrównanie w prawo</string>
@@ -926,6 +926,8 @@
     <string name="action_synchronization">Synchronizacja</string>
     <string name="action_download">Pobierz</string>
     <string name="action_upload">Prześlij</string>
+    <string name="action_backup">Kopia zapasowa</string>
+    <string name="action_restore">Przywróć</string>
     <string name="action_filter_no">Brak filtrowania</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_favorite">Ulubiony</string>
@@ -937,15 +939,16 @@
     <string name="action_new_file_extension">Nowy %1$s</string>
     <string name="action_edit">Edytować</string>
     <string name="action_start_stop">Start/Stop</string>
-    <string name="action_contacts">Contacts</string>
-    <string name="action_single_selection">Single selection</string>
-    <string name="action_multiple_selection">Multiple selection</string>
+    <string name="action_contacts">Kontakty</string>
+    <string name="action_single_selection">Pojedynczy wybór</string>
+    <string name="action_multiple_selection">Wielokrotny wybór</string>
     <string name="action_selection_boundaries">Selection boundaries</string>
     <string name="action_object_boundaries">Object boundaries</string>
-    <string name="action_select_all">Select all</string>
-    <string name="action_select_texts">Select texts</string>
-    <string name="action_select_images">Select images</string>
-    <string name="action_deselect_all">Deselect all</string>
+    <string name="action_select">Wybór</string>
+    <string name="action_select_all">Zaznacz wszystko</string>
+    <string name="action_select_texts">Zaznacz teksty</string>
+    <string name="action_select_images">Zaznacz obrazy</string>
+    <string name="action_deselect_all">Odznacz wszystko</string>
     <string name="synchronized_from_watch">Zsynchronizowano z zegarka</string>
     <string name="synchronization_succeeded">Synchronizacja powiodła się</string>
     <string name="synchronization_failed">Synchronizacja nie powiodła się</string>
@@ -990,13 +993,13 @@
     <string name="percent_100">100%</string>
 
     <!-- Constante -->
-    <string name="const_day_of_week_sunday">Sunday</string>
-    <string name="const_day_of_week_monday">Monday</string>
-    <string name="const_day_of_week_tuesday">Tuesday</string>
-    <string name="const_day_of_week_wednesday">Wednesday</string>
-    <string name="const_day_of_week_thursday">Thursday</string>
-    <string name="const_day_of_week_friday">Friday</string>
-    <string name="const_day_of_week_saturday">Saturday</string>
+    <string name="const_day_of_week_sunday">Niedziela</string>
+    <string name="const_day_of_week_monday">Poniedziałek</string>
+    <string name="const_day_of_week_tuesday">Wtorek</string>
+    <string name="const_day_of_week_wednesday">Środa</string>
+    <string name="const_day_of_week_thursday">Czwartek</string>
+    <string name="const_day_of_week_friday">Piątek</string>
+    <string name="const_day_of_week_saturday">Sobota</string>
 
     <string name="const_time_abbreviation_day">d</string>
     <string name="const_time_abbreviation_hour">g</string>
