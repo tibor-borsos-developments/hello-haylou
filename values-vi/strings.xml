@@ -72,10 +72,11 @@
     <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
 
     <string name="mi_band_setting_auth_key">Khóa xác thực</string>
-    <string name="mi_band_setting_auth_key_help">Nhập 4 số bất kỳ</string>
+    <string name="mi_band_setting_auth_key_help">Nhập bất kỳ số 4 chữ số nào</string>
     <string name="mi_band_setting_auth_request">Yêu cầu khóa</string>
-    <string name="mi_band_setting_auth_pair">Ghép nối</string>
-    <string name="mi_band_setting_auth_unpair">Hủy ghép nối</string>
+    <string name="mi_band_setting_auth_pair">Ghép đôi</string>
+    <string name="mi_band_setting_auth_unpair">Hủy ghép đôi</string>
+
 
     <string name="message_auth_request">Nó đã được ghép nối, nếu bạn không biết khóa, hãy sử dụng chức năng hủy ghép nối</string>
 
@@ -115,9 +116,9 @@
     <string name="mi_band_setting_birthday">Ngày sinh</string>
     <string name="mi_band_setting_height">Chiều cao</string>
     <string name="mi_band_setting_weight">Cân nặng</string>
-    <string name="mi_band_setting_wearing_place">Wearing place</string>
-    <string name="mi_band_setting_wearing_place_left_wrist">Cổ tay trái</string>
-    <string name="mi_band_setting_wearing_place_right_wrist">Cổ tay phải</string>
+    <string name="mi_band_setting_wearing_place">Vị trí đeo</string>
+    <string name="mi_band_setting_wearing_place_left_wrist">Tay trái</string>
+    <string name="mi_band_setting_wearing_place_right_wrist">Tay phải</string>
 
 
     <!-- Battery -->
@@ -195,16 +196,18 @@
 
     <string name="message_app_chooser_no_selected">Chọn một ứng dụng</string>
 
-    <string name="message_free_counter">Có thể sử dụng tối đa %1$,d cài đặt ở chế độ miễn phí</string> <!-- %1$,d = 1 or more  -->
+    <string name="message_free_counter">Chế độ miễn phí cho phép tối đa 1 cài đặt</string>
+    <string name="message_free_counters">Chế độ miễn phí cho phép tối đa %1$,d cài đặt</string>
 
-    <string name="message_notification_free_groups">Lên đến %1$,d nhóm có thể được sử dụng</string>
-    <string name="message_notification_free_app">Có thể chọn tối đa 1 ứng dụng ở chế độ miễn phí</string>
-    <string name="message_notification_free_apps">Có thể chọn tối đa %1$,d ứng dụng ở chế độ miễn phí</string>   <!-- %1$s = 2 or more  -->
+    <string name="message_notification_free_groups">Chế độ miễn phí cho phép tối đa %1$,d nhóm</string>
 
-    <string name="message_notification_free_text">Có thể ghi tối đa 1 văn bản ở chế độ miễn phí</string>
+    <string name="message_notification_free_app">Chế độ miễn phí cho phép chọn tối đa 1 ứng dụng</string>
+    <string name="message_notification_free_apps">Chế độ miễn phí cho phép chọn tối đa %1$,d ứng dụng</string>
 
-    <string name="message_time_alarm_free_counter">Có thể sử dụng tới 1 báo thức ở chế độ bình thường</string>
-    <string name="message_time_alarm_max_counter">Có thể sử dụng tối đa %1$d báo thức</string>
+    <string name="message_notification_free_text">Chế độ miễn phí cho phép ghi tối đa 1 văn bản</string>
+
+    <string name="message_time_alarm_free_counter">Chế độ miễn phí cho phép tối đa 1 báo thức</string>
+    <string name="message_time_alarm_max_counter">Tối đa %1$d báo thức có thể được sử dụng</string>
     <string name="message_time_alarm_enabled">Báo thức đang bật</string>
     <string name="message_time_alarm_disabled">Báo thức đang tắt</string>
     <string name="message_time_alarm_off">Tắt báo thức</string>
@@ -242,7 +245,7 @@
     <br>- Tối ưu điện thoại/Pin: Cho phép <app_name/> Không cần tối ưu.
     <br>- Điện thoại/Ứng dụng: Xoá Chia sẻ Bluetooth và dữ liệu ứng dụng \'Bluetooth\'.
     <br>- Thêm thông tin: https://dontkillmyapp.com
-    <br><br><small>This product and its features are not designed for medical purposes, and are not intended to predict, diagnose, prevent, or cure any diseases. All data and measurements are for personal reference only and shall not be used as a basis for diagnosis and treatment.</small>
+    <br><br><small>Sản phẩm này và các tính năng của nó không được thiết kế cho mục đích y tế và không nhằm dự đoán, chẩn đoán, phòng ngừa hoặc chữa trị bất kỳ bệnh nào. Tất cả dữ liệu và đo lường chỉ dành cho tham khảo cá nhân và không nên được sử dụng làm cơ sở cho chẩn đoán hoặc điều trị.</small>
     ]]></string>
 
 
@@ -348,8 +351,8 @@
     <string name="call_contact_edit_setting_first_name">Tên đầu tiên</string>
     <string name="call_contact_edit_setting_last_name">Họ</string>
 
-    <string name="message_call_contacts_free_counter">Up to %1$d contacts can be used in free mode</string> <!-- %1$d = 1, 2 ,3 ... -->
-    <string name="message_call_contacts_max_counter">Up to %1$d contacts can be used</string> <!-- %1$d = 1, 2 ,3 ... -->
+    <string name="message_call_contacts_free_counter">Tối đa %1$d liên hệ có thể được sử dụng trong chế độ miễn phí</string>
+    <string name="message_call_contacts_max_counter">Tối đa %1$d liên hệ có thể được sử dụng</string>
 
     <!-- App chooser dialog -->
     <string name="app_chooser">Chọn ứng dụng</string>
@@ -433,10 +436,10 @@
     <string name="message_reminder_enabled">Đã bật lời nhắc</string>
     <string name="message_reminder_disabled">Đã tắt lời nhắc</string>
 
-    <string name="reminder_repeat">Hàng giờ</string>
+    <string name="reminder_repeat">Lặp lại hàng giờ</string>
     <string name="reminder_notification_shade">Thông báo trên điện thoại của tôi</string>
 
-    <string name="message_time_reminder_free_counter">Up to 1 reminder can be used in free mode</string>
+    <string name="message_time_reminder_free_counter">Tối đa 1 lời nhắc có thể được sử dụng trong chế độ miễn phí</string>
 
     <string name="info_dialog_reminder"><![CDATA[
         Cần Kết nối Bluetooth để hiển thị nhắc nhở.
@@ -524,17 +527,18 @@
     <string name="watch_face_edit_weather_temperature">Nhiệt độ</string>
     <string name="watch_face_edit_weather_temperature_unit_sign">Đơn vị nhiệt độ °</string>
     <string name="watch_face_edit_weather_image">Hình ảnh thời tiết</string>
-    <string name="watch_face_edit_connection_indicator_image">Connection indicator image</string>
+    <string name="watch_face_edit_connection_indicator_image">Hình ảnh chỉ báo kết nối</string>
     <string name="watch_face_edit_connected">Đã kết nối</string>
     <string name="watch_face_edit_disconnected">Ngắt kết nối</string>
     <string name="watch_face_edit_steps">Bước</string>
     <string name="watch_face_edit_steps_image">Hình ảnh các bước</string>
+    <string name="watch_face_edit_steps_goal_progress">Tiến độ mục tiêu bước</string>
     <string name="watch_face_edit_distance">Khoảng cách</string>
-    <string name="watch_face_edit_distance_image">Distance image</string>
+    <string name="watch_face_edit_distance_image">Hình ảnh khoảng cách</string>
     <string name="watch_face_edit_calories">Calo</string>
     <string name="watch_face_edit_calories_image">Hình ảnh calo</string>
-    <string name="watch_face_edit_heart_rate">Heart rate</string>
-    <string name="watch_face_edit_heart_rate_image">Heart rate image</string>
+    <string name="watch_face_edit_heart_rate">Nhịp tim</string>
+    <string name="watch_face_edit_heart_rate_image">Hình ảnh nhịp tim</string>
 
     <string name="watch_face_edit_color">Màu</string>
     <string name="watch_face_edit_font_family">Nét chữ</string>
@@ -733,8 +737,7 @@
 
     <!-- Export -->
     <string name="export_tab_database">Xuất dữ liệu</string>
-
-    <string name="export_start_date">Ngày bắt đầu</string>
+    <string name="export_start_date">Ngày bắt đầu xuất</string>
 
 
     <!-- Theme -->
@@ -749,7 +752,7 @@
 
     <string name="theme_notification_title">Hiện trạng thái trong vùng thông báo</string>
 
-    <string name="theme_cat_color_setting">Cài đặt màu</string>
+    <string name="theme_cat_color_setting">Cài đặt màu sắc</string>
 
 
     <!-- Premium mode -->
@@ -766,13 +769,14 @@
         <p>• Biểu đồ hàng ngày chi tiết</p>
         • Gỡ bỏ các hạn chế khác…
     ]]></string>
-    <string name="purchase_policy_title">Điều khoản và thoả thuận Chế độ Cao cấp</string>
+    <string name="purchase_policy_title">Điều khoản và điều kiện của chế độ Premium</string>
     <string name="purchase_policy"><![CDATA[
-        <p>• Tôi đã kiểm tra và ứng dụng hoạt động tốt.</p>
-        <p>• Tôi biết rằng tôi không thể yêu cầu bồi thường hoặc hoàn lại tiền do lỗi, lỗi phần mềm do thay đổi phần mềm, môi trường phần cứng hoặc sử dụng các ứng dụng khác.</p>
-        <p>• Không thể hoàn lại tiền sau khi mua (Ngoại trừ chính sách hoàn tiền của Google).</p>
-        <p>• Không có bảo hành đi kèm, sau khi mua ứng dụng thì bạn được dùng trọn đời và nhận được các bản nâng cấp về sau này MIỄN PHÍ.</p>
-        <i>Sau khi mua thì bạn nên khởi động lại ứng dụng để ứng dụng nhận bản quyền.</i>
+    <p>• Tôi đã thử nghiệm ứng dụng và nó hoạt động bình thường.</p>
+    <p>• Tôi hiểu rằng tôi không thể yêu cầu bồi thường hoặc hoàn tiền do lỗi phần mềm gây ra bởi các thay đổi trong môi trường phần mềm hoặc phần cứng hoặc do sử dụng các ứng dụng khác.</p>
+    <p>• Tất cả các giao dịch mua đều là cuối cùng và không được hoàn lại (trừ theo chính sách hoàn tiền của Google).</p>
+    <p>• Ứng dụng không đi kèm bất kỳ bảo hành nào.</p>
+    <p>• Việc sử dụng ứng dụng này là rủi ro của riêng bạn và nhà phát triển không chịu trách nhiệm về bất kỳ thiệt hại hoặc mất mát dữ liệu nào phát sinh do việc sử dụng nó.</p>
+    <i>Sau khi mua, bạn cần khởi động lại ứng dụng.</i>
     ]]></string>
 
     <string name="purchase_google_play_services_not_available">Dịch vụ Google Play không có sẵn</string>
@@ -813,23 +817,23 @@
         • We collect location data to update the weather based on your current location (optional).
     ]]></string>
 
-    <string name="privacy_policy_not_collect_title">Thông tin mà chúng tôi không thu thập</string>
+    <string name="privacy_policy_not_collect_title">Thông tin chúng tôi không thu thập</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>• Chúng tôi không thu thập thông tin nhận dạng cá nhân về bạn. Nói cách khác, chúng tôi không thu thập thông tin như tên, địa chỉ, số điện thoại, địa chỉ email hoặc địa chỉ MAC của bạn.</p>
-        • Chúng tôi không thu thập dữ liệu sức khỏe cá nhân, danh bạ và văn bản thông báo qua điện thoại.
+    <p>• Chúng tôi không thu thập thông tin cá nhân có thể xác định danh tính của bạn. Điều này có nghĩa là chúng tôi không thu thập, ví dụ, dữ liệu cá nhân như tên, địa chỉ, số điện thoại, địa chỉ email hoặc địa chỉ MAC của bạn.</p>
+    • Chúng tôi không thu thập dữ liệu sức khỏe cá nhân, danh bạ hoặc nội dung thông báo trên điện thoại.
     ]]></string>
 
-    <string name="privacy_policy_share_title">Information we share</string>
+    <string name="privacy_policy_share_title">Thông tin chúng tôi chia sẻ</string>
     <string name="privacy_policy_share"><![CDATA[
-        • We do not share any data with companies or organisations other than Google and advertising providers.
+    • Chúng tôi không chia sẻ bất kỳ dữ liệu nào với các công ty hoặc tổ chức khác ngoài Google và các nhà cung cấp quảng cáo.
     ]]></string>
 
-    <string name="privacy_policy_use_title">Personal and sensitive user data we use</string>
+    <string name="privacy_policy_use_title">Dữ liệu cá nhân và nhạy cảm của người dùng mà chúng tôi sử dụng</string>
     <string name="privacy_policy_use"><![CDATA[
-        • We use location data to update the weather (optional).
+    • Chúng tôi chỉ sử dụng dữ liệu vị trí để cập nhật thông tin thời tiết và chỉ khi bạn bật tính năng này.
     ]]></string>
 
-    <string name="privacy_policy_links_title">Privacy policy of third party service providers</string>
+    <string name="privacy_policy_links_title">Chính sách quyền riêng tư của các nhà cung cấp dịch vụ bên thứ ba</string>
     <string name="privacy_policy_links"><![CDATA[
         <a href="https://policies.google.com/privacy">Google Play Services</a>
         <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
@@ -839,10 +843,10 @@
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Trạng thái</string>
-    <string name="privacy_policy_eu_consent_title_obtained">Consent obtained</string>
-    <string name="privacy_policy_eu_consent_title_personalized">Cá nhân hoá quảng cáo</string>
-    <string name="privacy_policy_eu_consent_title_non_personalized">Quảng cáo không cá nhân hoá hoặc không liên quan</string>
-    <string name="privacy_policy_eu_consent_title_unknown">Không xác định</string>
+    <string name="privacy_policy_eu_consent_title_obtained">Đã nhận được sự đồng ý</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Quảng cáo cá nhân hóa và có liên quan</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Quảng cáo không cá nhân hóa, ít liên quan hơn</string>
+    <string name="privacy_policy_eu_consent_title_unknown">Không rõ</string>
 
     <string name="privacy_policy_eu_consent_setting">Cài đặt</string>
 

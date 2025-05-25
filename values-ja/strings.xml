@@ -72,10 +72,10 @@
     <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
 
     <string name="mi_band_setting_auth_key">認証キー</string>
-    <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
-    <string name="mi_band_setting_auth_request">Key request</string>
+    <string name="mi_band_setting_auth_key_help">任意の4桁の数字を入力してください</string>
+    <string name="mi_band_setting_auth_request">キーをリクエスト</string>
     <string name="mi_band_setting_auth_pair">ペアリング</string>
-    <string name="mi_band_setting_auth_unpair">ペアリングを解除</string>
+    <string name="mi_band_setting_auth_unpair">ペアリング解除</string>
 
     <string name="message_auth_request">It is paired, if you do not know the key, use the unpair</string>
 
@@ -115,9 +115,9 @@
     <string name="mi_band_setting_birthday">誕生日</string>
     <string name="mi_band_setting_height">身長</string>
     <string name="mi_band_setting_weight">体重</string>
-    <string name="mi_band_setting_wearing_place">Wearing place</string>
-    <string name="mi_band_setting_wearing_place_left_wrist">左手首</string>
-    <string name="mi_band_setting_wearing_place_right_wrist">右手首</string>
+    <string name="mi_band_setting_wearing_place">装着位置</string>
+    <string name="mi_band_setting_wearing_place_left_wrist">左手</string>
+    <string name="mi_band_setting_wearing_place_right_wrist">右手</string>
 
 
     <!-- Battery -->
@@ -195,16 +195,17 @@
 
     <string name="message_app_chooser_no_selected">アプリを選択してください</string>
 
-    <string name="message_free_counter">Up to %1$,d setting can be used in free mode</string> <!-- %1$,d = 1 or more  -->
+    <string name="message_free_counter">無料モードでは最大1つの設定を使用できます</string>
+    <string name="message_free_counters">無料モードでは最大%1$,d個の設定を使用できます</string>
 
-    <string name="message_notification_free_groups">ノーマルモードでは通知グループは最大%1$,d個まで使用可能です</string>
-    <string name="message_notification_free_app">Up to 1 application can be selected in free mode</string>
-    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in free mode</string>   <!-- %1$s = 2 or more  -->
+    <string name="message_notification_free_groups">無料モードでは最大%1$,d個のグループを使用できます</string>
+    <string name="message_notification_free_app">無料モードでは最大1つのアプリケーションを選択できます</string>
+    <string name="message_notification_free_apps">無料モードでは最大%1$,d個のアプリケーションを選択できます</string>
 
-    <string name="message_notification_free_text">Up to 1 text can be recorded in free mode</string>
+    <string name="message_notification_free_text">無料モードでは最大1つのテキストを記録できます</string>
 
-    <string name="message_time_alarm_free_counter">Up to 1 alarm can be used in free mode</string>
-    <string name="message_time_alarm_max_counter">アラームは最大%1$dつまで使用可能です</string>
+    <string name="message_time_alarm_free_counter">無料モードでは最大1つのアラームを使用できます</string>
+    <string name="message_time_alarm_max_counter">最大%1$d個のアラームを使用できます</string>
     <string name="message_time_alarm_enabled">アラームが有効になりました</string>
     <string name="message_time_alarm_disabled">アラームが無効になりました</string>
     <string name="message_time_alarm_off">アラームがオフになりました</string>
@@ -242,7 +243,7 @@
     <br>- 「バッテリー最適化を無視」を<app_name/>に許可
     <br>- Bluetooth Shareやその他のBluetoothアプリのデータを消去
     <br>- 詳しくは: https://dontkillmyapp.com
-    <br><br><small>This product and its features are not designed for medical purposes, and are not intended to predict, diagnose, prevent, or cure any diseases. All data and measurements are for personal reference only and shall not be used as a basis for diagnosis and treatment.</small>
+    <br><br><small>この製品およびその機能は医療目的で設計されておらず、病気の予測、診断、予防、または治療を目的としていません。すべてのデータと測定値は個人的な参考のためのものであり、診断や治療の根拠として使用すべきではありません。</small>
     ]]></string>
 
 
@@ -346,8 +347,8 @@
     <string name="call_contact_edit_setting_first_name">ファーストネーム</string>
     <string name="call_contact_edit_setting_last_name">苗字</string>
 
-    <string name="message_call_contacts_free_counter">Up to %1$d contacts can be used in free mode</string> <!-- %1$d = 1, 2 ,3 ... -->
-    <string name="message_call_contacts_max_counter">Up to %1$d contacts can be used</string> <!-- %1$d = 1, 2 ,3 ... -->
+    <string name="message_call_contacts_free_counter">無料モードでは最大 %1$d 件の連絡先を使用できます</string>
+    <string name="message_call_contacts_max_counter">最大 %1$d 件の連絡先を使用できます</string>
 
     <!-- App chooser dialog -->
     <string name="app_chooser">アプリ選択</string>
@@ -431,10 +432,10 @@
     <string name="message_reminder_enabled">リマインダーが有効になりました</string>
     <string name="message_reminder_disabled">リマインダーが無効になりました</string>
 
-    <string name="reminder_repeat">期間を指定</string>
+    <string name="reminder_repeat">毎時の繰り返し</string>
     <string name="reminder_notification_shade">端末に通知</string>
 
-    <string name="message_time_reminder_free_counter">Up to 1 reminder can be used in free mode</string>
+    <string name="message_time_reminder_free_counter">無料モードで最大1つのリマインダーが使用できます</string>
 
     <string name="info_dialog_reminder"><![CDATA[
         リマインダーの表示にはBluetooth接続が必要です。
@@ -522,18 +523,18 @@
     <string name="watch_face_edit_weather_temperature">温度</string>
     <string name="watch_face_edit_weather_temperature_unit_sign">温度単位 °</string>
     <string name="watch_face_edit_weather_image">天気画像</string>
-    <string name="watch_face_edit_connection_indicator_image">Connection indicator image</string>
+    <string name="watch_face_edit_connection_indicator_image">接続インジケーター画像</string>
     <string name="watch_face_edit_connected">接続済み</string>
     <string name="watch_face_edit_disconnected">未接続</string>
     <string name="watch_face_edit_steps">歩数</string>
     <string name="watch_face_edit_steps_image">ステップ画像</string>
-    <string name="watch_face_edit_steps_goal_progress">Steps goal progress</string>
+    <string name="watch_face_edit_steps_goal_progress">歩数目標の進捗</string>
     <string name="watch_face_edit_distance">距離</string>
-    <string name="watch_face_edit_distance_image">Distance image</string>
+    <string name="watch_face_edit_distance_image">距離画像</string>
     <string name="watch_face_edit_calories">カロリー</string>
     <string name="watch_face_edit_calories_image">カロリー画像</string>
     <string name="watch_face_edit_heart_rate">心拍数</string>
-    <string name="watch_face_edit_heart_rate_image">Heart rate image</string>
+    <string name="watch_face_edit_heart_rate_image">心拍数画像</string>
 
     <string name="watch_face_edit_color">色</string>
     <string name="watch_face_edit_font_family">フォント</string>
@@ -732,9 +733,8 @@
 
 
     <!-- Export -->
-    <string name="export_tab_database">Data export</string>
-
-    <string name="export_start_date">Starting date</string>
+    <string name="export_tab_database">データのエクスポート</string>
+    <string name="export_start_date">エクスポート開始日</string>
 
 
     <!-- Theme -->
@@ -749,7 +749,7 @@
 
     <string name="theme_notification_title">通知パネルにステータスを表示</string>
 
-    <string name="theme_cat_color_setting">Color setting</string>
+    <string name="theme_cat_color_setting">色の設定</string>
 
 
     <!-- Premium mode -->
@@ -768,11 +768,12 @@
     ]]></string>
     <string name="purchase_policy_title">プレミアムモードの利用規約</string>
     <string name="purchase_policy"><![CDATA[
-        <p>• 正常に動作することを確認済みです。</p>
-        <p>• 設定変更や他のアプリの使用によるソフトウェアのエラー、バグに対する賠償や払い戻しは受け付けかねます。</p>
-        <p>• 購入は払い戻しできません（Googleの払い戻しポリシーを除く）。</p>
-        <p>• 保証は含まれません。</p>
-        <i>購入後はアプリを再起動してください。<i>
+    <p>• アプリをテストし、正常に動作することを確認しました。</p>
+    <p>• ソフトウェアやハードウェア環境の変更、または他のアプリケーションの使用によって発生するバグやソフトウェアエラーに対して、補償や返金を要求できないことを理解しています。</p>
+    <p>• すべての販売は最終的なものであり、返金はできません（Googleの返金ポリシーを除く）。</p>
+    <p>• 保証は含まれていません。</p>
+    <p>• このアプリの使用は自己責任で行ってください。開発者は、使用によって生じた損害やデータの損失に対する直接的または間接的な責任を含む、すべての追加の保証を否定します。</p>
+    <i>購入後、アプリを再起動する必要があります。</i>
     ]]></string>
 
     <string name="purchase_google_play_services_not_available">Google Playサービスが利用できない</string>
@@ -815,21 +816,21 @@
 
     <string name="privacy_policy_not_collect_title">収集しない情報</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>• 個人を特定できる情報（氏名、住所、電話番号、メールアドレス、IPアドレス、MACアドレスなど）。</p>
-        • 個人の健康データや連絡先、通知のテキストは収集しません。
+    <p>• 当社は、あなたに関する個人を特定できる情報を収集しません。つまり、氏名、住所、電話番号、メールアドレス、またはMACアドレスなどの個人情報を収集しません。</p>
+    • 当社は、個人の健康データ、連絡先、または電話の通知内容を収集しません。
     ]]></string>
 
-    <string name="privacy_policy_share_title">Information we share</string>
+    <string name="privacy_policy_share_title">共有する情報</string>
     <string name="privacy_policy_share"><![CDATA[
-        • We do not share any data with companies or organisations other than Google and advertising providers.
+    • 当社は、Googleおよび広告提供者以外の企業や組織とデータを共有しません。
     ]]></string>
 
-    <string name="privacy_policy_use_title">Personal and sensitive user data we use</string>
+    <string name="privacy_policy_use_title">使用する個人および機微なユーザーデータ</string>
     <string name="privacy_policy_use"><![CDATA[
-        • We use location data to update the weather (optional).
+    • 当社は、位置データを天気情報の更新のみに使用し、この機能を有効にした場合に限ります。
     ]]></string>
 
-    <string name="privacy_policy_links_title">外部ｻｰﾋﾞｽﾌﾟﾛﾊﾞｲﾀﾞのﾌﾟﾗｲﾊﾞｼｰﾎﾟﾘｼｰ</string>
+    <string name="privacy_policy_links_title">第三者サービスプロバイダーのプライバシーポリシー</string>
     <string name="privacy_policy_links"><![CDATA[
         <a href="https://policies.google.com/privacy">Google Play Services</a>
         <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
@@ -839,9 +840,9 @@
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">ステータス</string>
-    <string name="privacy_policy_eu_consent_title_obtained">Consent obtained</string>
-    <string name="privacy_policy_eu_consent_title_personalized">パーソナライズ広告</string>
-    <string name="privacy_policy_eu_consent_title_non_personalized">関連性の低い広告</string>
+    <string name="privacy_policy_eu_consent_title_obtained">同意済み</string>
+    <string name="privacy_policy_eu_consent_title_personalized">パーソナライズされた関連広告</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">パーソナライズされていない関連性の低い広告</string>
     <string name="privacy_policy_eu_consent_title_unknown">不明</string>
 
     <string name="privacy_policy_eu_consent_setting">設定</string>

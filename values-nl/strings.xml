@@ -71,11 +71,11 @@
     <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the %3$s to work. After the pairing, uninstall the %1$s app or unpair the smartwatch. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
     <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
 
-    <string name="mi_band_setting_auth_key">Authentication key</string>
-    <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
-    <string name="mi_band_setting_auth_request">Key request</string>
+    <string name="mi_band_setting_auth_key">Authenticatiesleutel</string>
+    <string name="mi_band_setting_auth_key_help">Voer een willekeurig 4-cijferig nummer in</string>
+    <string name="mi_band_setting_auth_request">Sleutel aanvragen</string>
     <string name="mi_band_setting_auth_pair">Koppelen</string>
-    <string name="mi_band_setting_auth_unpair">Unpair</string>
+    <string name="mi_band_setting_auth_unpair">Ontkoppelen</string>
 
     <string name="message_auth_request">It is paired, if you do not know the key, use the unpair</string>
 
@@ -115,9 +115,9 @@
     <string name="mi_band_setting_birthday">Geboortedatum</string>
     <string name="mi_band_setting_height">Lengte</string>
     <string name="mi_band_setting_weight">Gewicht</string>
-    <string name="mi_band_setting_wearing_place">Wearing place</string>
-    <string name="mi_band_setting_wearing_place_left_wrist">Linker pols</string>
-    <string name="mi_band_setting_wearing_place_right_wrist">Rechter pols</string>
+    <string name="mi_band_setting_wearing_place">Draaglocatie</string>
+    <string name="mi_band_setting_wearing_place_left_wrist">Linkerhand</string>
+    <string name="mi_band_setting_wearing_place_right_wrist">Rechterhand</string>
 
 
     <!-- Battery -->
@@ -195,16 +195,18 @@
 
     <string name="message_app_chooser_no_selected">Selecteer een applicatie</string>
 
-    <string name="message_free_counter">Up to %1$,d setting can be used in free mode</string> <!-- %1$,d = 1 or more  -->
+    <string name="message_free_counter">In de gratis modus kan maximaal 1 instelling worden gebruikt</string>
+    <string name="message_free_counters">In de gratis modus kunnen maximaal %1$,d instellingen worden gebruikt</string>
 
-    <string name="message_notification_free_groups">Up to %1$,d groepen kunnen worden gebruikt in Normale modus</string>
-    <string name="message_notification_free_app">Up to 1 application can be selected in free mode</string>
-    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in free mode</string>   <!-- %1$s = 2 or more  -->
+    <string name="message_notification_free_groups">In de gratis modus kunnen maximaal %1$,d groepen worden gebruikt</string>
 
-    <string name="message_notification_free_text">Up to 1 text can be recorded in free mode</string>
+    <string name="message_notification_free_app">In de gratis modus kan maximaal 1 applicatie worden geselecteerd</string>
+    <string name="message_notification_free_apps">In de gratis modus kunnen maximaal %1$,d applicaties worden geselecteerd</string>
 
-    <string name="message_time_alarm_free_counter">In normale modus kan max. 1 alarmen worden ingesteld</string>
-    <string name="message_time_alarm_max_counter">Er kunnen maximaal %1$d alarmen worden ingesteld</string>
+    <string name="message_notification_free_text">In de gratis modus kan maximaal 1 tekst worden opgenomen</string>
+
+    <string name="message_time_alarm_free_counter">In de gratis modus kan maximaal 1 alarm worden gebruikt</string>
+    <string name="message_time_alarm_max_counter">Maximaal %1$d alarmen kunnen worden gebruikt</string>
     <string name="message_time_alarm_enabled">Alarm ingeschakeld</string>
     <string name="message_time_alarm_disabled">Alarm uitgeschakeld</string>
     <string name="message_time_alarm_off">Alarm uit</string>
@@ -242,7 +244,7 @@
     <br>- Telefoon/batterij optimalisatie: stel <app_name/> app in op niet geoptimaliseerd.
     <br>- Telefoon/apps: \"Bluetooth delen\" en \"Bluetooth\app gegevens\" wissen.
     <br>- Meer informatie: https://dontkillmyapp.com
-    <br><br><small>This product and its features are not designed for medical purposes, and are not intended to predict, diagnose, prevent, or cure any diseases. All data and measurements are for personal reference only and shall not be used as a basis for diagnosis and treatment.</small>
+    <br><br><small>Dit product en de bijbehorende functies zijn niet ontworpen voor medische doeleinden en zijn niet bedoeld om ziekten te voorspellen, diagnosticeren, voorkomen of genezen. Alle gegevens en metingen zijn uitsluitend voor persoonlijke referentie en mogen niet worden gebruikt als basis voor diagnose of behandeling.</small>
     ]]></string>
 
 
@@ -346,8 +348,8 @@
     <string name="call_contact_edit_setting_first_name">Voornaam</string>
     <string name="call_contact_edit_setting_last_name">Achternaam</string>
 
-    <string name="message_call_contacts_free_counter">Up to %1$d contacts can be used in free mode</string> <!-- %1$d = 1, 2 ,3 ... -->
-    <string name="message_call_contacts_max_counter">Up to %1$d contacts can be used</string> <!-- %1$d = 1, 2 ,3 ... -->
+    <string name="message_call_contacts_free_counter">Tot %1$d contacten kunnen worden gebruikt in de gratis modus</string>
+    <string name="message_call_contacts_max_counter">Tot %1$d contacten kunnen worden gebruikt</string>
 
     <!-- Activity -->
     <string name="step_details">Details Activiteiten</string>
@@ -424,10 +426,10 @@
     <string name="message_reminder_enabled">Herinnering ingeschakeld</string>
     <string name="message_reminder_disabled">Herinnering uitgeschakeld</string>
 
-    <string name="reminder_repeat">Herhaling per uur</string>
+    <string name="reminder_repeat">Uurlijkse herhaling</string>
     <string name="reminder_notification_shade">Melding op de telefoon</string>
 
-    <string name="message_time_reminder_free_counter">Up to 1 reminder can be used in free mode</string>
+    <string name="message_time_reminder_free_counter">Tot 1 herinnering kan worden gebruikt in de gratis modus</string>
 
     <string name="info_dialog_reminder"><![CDATA[
         Bluetooth verbinding is vereist om de herinnering weer te geven.
@@ -515,18 +517,18 @@
     <string name="watch_face_edit_weather_temperature">Temperatuur</string>
     <string name="watch_face_edit_weather_temperature_unit_sign">Temperatuureenheid °</string>
     <string name="watch_face_edit_weather_image">Weerafbeelding</string>
-    <string name="watch_face_edit_connection_indicator_image">Connection indicator image</string>
+    <string name="watch_face_edit_connection_indicator_image">Verbindingsindicator afbeelding</string>
     <string name="watch_face_edit_connected">Verbonden</string>
     <string name="watch_face_edit_disconnected">Niet verbonden</string>
     <string name="watch_face_edit_steps">Stappen</string>
     <string name="watch_face_edit_steps_image">Stappen afbeelding</string>
-    <string name="watch_face_edit_steps_goal_progress">Steps goal progress</string>
+    <string name="watch_face_edit_steps_goal_progress">Voortgang stappendoel</string>
     <string name="watch_face_edit_distance">Afstand</string>
-    <string name="watch_face_edit_distance_image">Distance image</string>
+    <string name="watch_face_edit_distance_image">Afstand afbeelding</string>
     <string name="watch_face_edit_calories">Calorieën</string>
-    <string name="watch_face_edit_calories_image">Calorieën afbeelding</string>
-    <string name="watch_face_edit_heart_rate">Heart rate</string>
-    <string name="watch_face_edit_heart_rate_image">Heart rate image</string>
+    <string name="watch_face_edit_calories_image">Calorie afbeelding</string>
+    <string name="watch_face_edit_heart_rate">Hartslag</string>
+    <string name="watch_face_edit_heart_rate_image">Hartslag afbeelding</string>
 
     <string name="watch_face_edit_color">Kleur</string>
     <string name="watch_face_edit_font_family">Doopvont</string>
@@ -732,9 +734,8 @@
 
 
     <!-- Export -->
-    <string name="export_tab_database">Data export</string>
-
-    <string name="export_start_date">Starting date</string>
+    <string name="export_tab_database">Gegevens exporteren</string>
+    <string name="export_start_date">Begindatum export</string>
 
 
     <!-- Theme -->
@@ -749,7 +750,7 @@
 
     <string name="theme_notification_title">Toon status in meldings balk</string>
 
-    <string name="theme_cat_color_setting">Color setting</string>
+    <string name="theme_cat_color_setting">Kleurinstellingen</string>
 
 
     <!-- Premium mode -->
@@ -766,13 +767,14 @@
         <p>• detailed daily graphs</p>
         • removing other restrictions…
     ]]></string>
-    <string name="purchase_policy_title">Algemene voorwaarden van de Premium modus</string>
+    <string name="purchase_policy_title">Voorwaarden van de Premium-modus</string>
     <string name="purchase_policy"><![CDATA[
-        <p>• Ik heb de app getest en deze werkt naar behoren.</p>
-        <p>• Ik ben me ervan bewust dat ik geen compensatie of terugbetaling kan eisen vanwege bugs, softwarefouten veroorzaakt door wijzigingen in de software, hardware omgeving of met behulp van andere applicaties.</p>
-        <p>• Alle aankopen zijn definitief en kunnen niet worden terugbetaald (met uitzondering van het restitutiebeleid van Google).</p>
-        <p>• Er is geen garantie inbegrepen.</p>
-        <i>Na aankoop moet je de app opnieuw opstarten.</i>
+    <p>• Ik heb de app getest en deze werkt correct.</p>
+    <p>• Ik ben me ervan bewust dat ik geen compensatie of terugbetaling kan eisen vanwege bugs of softwarefouten veroorzaakt door wijzigingen in de software- of hardwareomgeving of het gebruik van andere applicaties.</p>
+    <p>• Alle verkopen zijn definitief en kunnen niet worden terugbetaald (behalve volgens het restitutiebeleid van Google).</p>
+    <p>• Er wordt geen garantie gegeven.</p>
+    <p>• Deze app wordt op eigen risico gebruikt, en de ontwikkelaar sluit alle aanvullende garanties uit, inclusief enige directe of indirecte aansprakelijkheid voor schade of gegevensverlies als gevolg van het gebruik ervan.</p>
+    <i>Na aankoop moet u de app opnieuw starten.</i>
     ]]></string>
 
     <string name="purchase_google_play_services_not_available">Google Play Services zijn niet beschikbaar</string>
@@ -815,21 +817,21 @@
 
     <string name="privacy_policy_not_collect_title">Informatie die we niet verzamelen</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>• We verzamelen geen persoonlijk identificeerbare informatie over u. Met andere woorden, wij verzamelen geen informatie zoals uw naam, adres, telefoonnummer, e-mailadres of MAC-adres.</p>
-        • We verzamelen geen persoonlijke gezondheidsgegevens, contacten en telefonische meldingsteksten.
+    <p>• We verzamelen geen persoonlijk identificeerbare informatie over u. Dit betekent dat we bijvoorbeeld geen persoonlijke gegevens verzamelen zoals uw naam, adres, telefoonnummer, e-mailadres of MAC-adres.</p>
+    • We verzamelen geen persoonlijke gezondheidsgegevens, contacten of de inhoud van telefoonmeldingen.
     ]]></string>
 
-    <string name="privacy_policy_share_title">Information we share</string>
+    <string name="privacy_policy_share_title">Informatie die we delen</string>
     <string name="privacy_policy_share"><![CDATA[
-        • We do not share any data with companies or organisations other than Google and advertising providers.
+    • We delen geen gegevens met bedrijven of organisaties anders dan Google en advertentieproviders.
     ]]></string>
 
-    <string name="privacy_policy_use_title">Personal and sensitive user data we use</string>
+    <string name="privacy_policy_use_title">Persoonlijke en gevoelige gebruikersgegevens die we gebruiken</string>
     <string name="privacy_policy_use"><![CDATA[
-        • We use location data to update the weather (optional).
+    • We gebruiken locatiegegevens alleen om de weersinformatie bij te werken, en alleen als u deze functie inschakelt.
     ]]></string>
 
-    <string name="privacy_policy_links_title">Privacy policy of third party service providers</string>
+    <string name="privacy_policy_links_title">Privacybeleid van externe serviceproviders</string>
     <string name="privacy_policy_links"><![CDATA[
         <a href="https://policies.google.com/privacy">Google Play Services</a>
         <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
@@ -839,9 +841,9 @@
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Status</string>
-    <string name="privacy_policy_eu_consent_title_obtained">Consent obtained</string>
-    <string name="privacy_policy_eu_consent_title_personalized">Gepersonaliseerde relevante toevoegingen</string>
-    <string name="privacy_policy_eu_consent_title_non_personalized">Niet gepersonaliseerde toevoegingen die minder belangrijk zijn</string>
+    <string name="privacy_policy_eu_consent_title_obtained">Toestemming verkregen</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Gepersonaliseerde, relevante advertenties</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Niet-gepersonaliseerde advertenties die minder relevant zijn</string>
     <string name="privacy_policy_eu_consent_title_unknown">Onbekend</string>
 
     <string name="privacy_policy_eu_consent_setting">Instellingen</string>

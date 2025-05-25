@@ -72,8 +72,8 @@
     <string name="mi_band_standalone_sync_error">La sincronización de datos no es posible en el modo de cooperación, ya que la sincronización resultaría en la eliminación de los datos del reloj inteligente y en la visualización de datos incorrectos en ambas aplicaciones.</string>
 
     <string name="mi_band_setting_auth_key">Clave de autenticación</string>
-    <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
-    <string name="mi_band_setting_auth_request">Solicitud de clave</string>
+    <string name="mi_band_setting_auth_key_help">Introduce cualquier número de 4 dígitos</string>
+    <string name="mi_band_setting_auth_request">Solicitar clave</string>
     <string name="mi_band_setting_auth_pair">Emparejar</string>
     <string name="mi_band_setting_auth_unpair">Desemparejar</string>
 
@@ -115,9 +115,9 @@
     <string name="mi_band_setting_birthday">Fecha de nacimiento</string>
     <string name="mi_band_setting_height">Altura</string>
     <string name="mi_band_setting_weight">Peso</string>
-    <string name="mi_band_setting_wearing_place">Posición de uso</string>
-    <string name="mi_band_setting_wearing_place_left_wrist">Muñeca izquierda</string>
-    <string name="mi_band_setting_wearing_place_right_wrist">Muñeca derecha</string>
+    <string name="mi_band_setting_wearing_place">Ubicación de uso</string>
+    <string name="mi_band_setting_wearing_place_left_wrist">Mano izquierda</string>
+    <string name="mi_band_setting_wearing_place_right_wrist">Mano derecha</string>
 
 
     <!-- Battery -->
@@ -194,7 +194,8 @@
 
     <string name="message_app_chooser_no_selected">Selecciona una aplicación</string>
 
-    <string name="message_free_counter">Se puede utilizar hasta %1$,d ajuste en modo normal</string>    <!-- %1$,d = 1 or more  -->
+    <string name="message_free_counter">Hasta 1 configuración puede usarse en modo gratuito</string>
+    <string name="message_free_counters">Se puede utilizar hasta %1$,d ajuste en modo normal</string>    <!-- %1$,d = 1 or more  -->
 
     <string name="message_notification_free_groups">Se pueden utilizar hasta %1$,d grupos en modo normal</string>
     <string name="message_notification_free_app">Se puede seleccionar hasta 1 aplicación en modo normal</string>
@@ -241,8 +242,8 @@
     <br>- Optimización del teléfono/batería: establecer la aplicación <app_name/> como no optimizada.
     <br>- Teléfono/Aplicaciones: borrar los datos de Bluetooth Share y otras aplicaciones \'Bluetooth\'.
     <br>- Más información: https://dontkillmyapp.com
-    <br><br><small>This product and its features are not designed for medical purposes, and are not intended to predict, diagnose, prevent, or cure any diseases. All data and measurements are for personal reference only and shall not be used as a basis for diagnosis and treatment.</small>
-    ]]>    </string>
+    <br><br><small>Este producto y sus funciones no están diseñados para fines médicos y no están destinados a predecir, diagnosticar, prevenir o curar ninguna enfermedad. Todos los datos y mediciones son solo para referencia personal y no deben utilizarse como base para diagnósticos o tratamientos.</small>
+    ]]></string>
 
 
     <!-- Notification Dialog -->
@@ -343,7 +344,7 @@
     <string name="call_contact_edit_setting_first_name">Nombre de pila</string>
     <string name="call_contact_edit_setting_last_name">Apellido</string>
 
-    <string name="message_call_contacts_free_counter">Se pueden usar hasta %1$d contactos en modo gratuito</string>
+    <string name="message_call_contacts_free_counter">Se pueden usar hasta %1$d contactos en el modo gratuito</string>
     <string name="message_call_contacts_max_counter">Se pueden usar hasta %1$d contactos</string>
 
     <!-- App chooser dialog -->
@@ -427,10 +428,10 @@
     <string name="message_reminder_enabled">Recordatorio activada</string>
     <string name="message_reminder_disabled">Recordatorio desactivada</string>
 
-    <string name="reminder_repeat">Hourly repetition</string>
+    <string name="reminder_repeat">Repetición cada hora</string>
     <string name="reminder_notification_shade">Notificación en el teléfono</string>
 
-    <string name="message_time_reminder_free_counter">Up to 1 reminder can be used in free mode</string>
+    <string name="message_time_reminder_free_counter">Hasta 1 recordatorio puede usarse en modo gratuito</string>
 
     <string name="info_dialog_reminder"><![CDATA[
         Bluetooth connection is required to display the reminder.
@@ -728,8 +729,7 @@
 
     <!-- Export -->
     <string name="export_tab_database">Exportación de datos</string>
-
-    <string name="export_start_date">Fecha de inicio</string>
+    <string name="export_start_date">Fecha de inicio de exportación</string>
 
 
     <!-- Theme -->
@@ -761,14 +761,15 @@
         <p>• Gráficos diarios detallados</p> <p>
         • eliminando otras restricciones…]
     ]]>    </string>
-    <string name="purchase_policy_title">Términos y condiciones del modo premium</string>
+    <string name="purchase_policy_title">Términos y condiciones del modo Premium</string>
     <string name="purchase_policy"><![CDATA[
-        <p>• He probado la aplicación y está funcionando correctamente.</p>
-        <p>• Soy consciente de que no puedo exigir compensación o reembolso debido a errores, errores de software causados por cambios en el software, el entorno de hardware o el uso de otras aplicaciones.</p>
-        <p>• Todas las ventas son finales y no se pueden reembolsar (excepto la política de reembolso de Google).</p>
-        <p>• No hay garantía incluida.</p>
-        <i>Después de comprar, necesita reiniciar la aplicación.</i>
-    ]]>    </string>
+    <p>• He probado la aplicación y funciona correctamente.</p>
+    <p>• Soy consciente de que no puedo exigir compensación ni reembolso debido a errores causados por cambios en el software, el hardware o el uso de otras aplicaciones.</p>
+    <p>• Todas las ventas son finales y no se pueden reembolsar (excepto según la política de reembolso de Google).</p>
+    <p>• No se incluye ninguna garantía.</p>
+    <p>• Esta aplicación se utiliza bajo su propio riesgo, y el desarrollador excluye todas las garantías adicionales, incluida cualquier responsabilidad directa o indirecta por daños o pérdida de datos resultantes de su uso.</p>
+    <i>Después de la compra, debe reiniciar la aplicación.</i>
+    ]]></string>
 
     <string name="purchase_google_play_services_not_available">Los servicios de Google Play no están disponibles</string>
 
@@ -812,19 +813,19 @@
 
     <string name="privacy_policy_not_collect_title">Información que no recopilamos</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>• No recogemos información personal identificable sobre usted. En otras palabras, no recogemos información como su nombre, dirección, número de teléfono, dirección de correo electrónico o dirección MAC.</p>
-        • No recogemos datos personales de salud, contactos y texto en las notificaciones telefónicas.
-    ]]>    </string>
+    <p>• No recopilamos información personal identificable sobre usted. Esto significa que no recopilamos, por ejemplo, datos personales como su nombre, dirección, número de teléfono, dirección de correo electrónico o dirección MAC.</p>
+    • No recopilamos datos personales de salud, contactos ni el contenido de las notificaciones del teléfono.
+    ]]></string>
 
     <string name="privacy_policy_share_title">Información que compartimos</string>
     <string name="privacy_policy_share"><![CDATA[
-        • No compartimos ningún dato con empresas u organizaciones distintas de Google y los proveedores de publicidad.
-    ]]>    </string>
+    • No compartimos ningún dato con empresas u organizaciones que no sean Google y proveedores de publicidad.
+    ]]></string>
 
-    <string name="privacy_policy_use_title">Datos de usuario personales y sensibles que utilizamos</string>
+    <string name="privacy_policy_use_title">Datos personales y sensibles del usuario que utilizamos</string>
     <string name="privacy_policy_use"><![CDATA[
-        • Utilizamos datos de ubicación para actualizar el clima (opcional).
-    ]]>    </string>
+    • Utilizamos datos de ubicación solo para actualizar la información meteorológica y solo si habilita esta función.
+    ]]></string>
 
     <string name="privacy_policy_links_title">Política de privacidad de proveedores de servicios de terceros</string>
     <string name="privacy_policy_links"><![CDATA[
@@ -836,9 +837,9 @@
     ]]>    </string>
 
     <string name="privacy_policy_eu_consent_title">Estado</string>
-    <string name="privacy_policy_eu_consent_title_obtained">Consent obtained</string>
+    <string name="privacy_policy_eu_consent_title_obtained">Consentimiento obtenido</string>
     <string name="privacy_policy_eu_consent_title_personalized">Anuncios personalizados y relevantes</string>
-    <string name="privacy_policy_eu_consent_title_non_personalized">Anuncios no personalizados que son menos relevantes</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Anuncios no personalizados menos relevantes</string>
     <string name="privacy_policy_eu_consent_title_unknown">Desconocido</string>
 
     <string name="privacy_policy_eu_consent_setting">Ajustes</string>

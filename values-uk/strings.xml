@@ -70,11 +70,11 @@
     <string name="mi_band_setting_auth_standalone_hint">Для роботи %3$s, не потрібний додаток %1$s. Після зв\'язування, видаліть додаток %1$s. Для відновлення взаємодії з %1$s, буде потрібно знову зв\'язати %2$s з додатком %1$s. If you use the unpair function, the data on the smartwatch will be deleted.  The %2$s screen must be turned on while performing operations.</string>
     <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
 
-    <string name="mi_band_setting_auth_key">Ключ автентифікації</string>
-    <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
-    <string name="mi_band_setting_auth_request">Key request</string>
-    <string name="mi_band_setting_auth_pair">Парування</string>
-    <string name="mi_band_setting_auth_unpair">Unpair</string>
+    <string name="mi_band_setting_auth_key">Ключ аутентифікації</string>
+    <string name="mi_band_setting_auth_key_help">Введіть будь-яке 4-значне число</string>
+    <string name="mi_band_setting_auth_request">Запит ключа</string>
+    <string name="mi_band_setting_auth_pair">Спарити</string>
+    <string name="mi_band_setting_auth_unpair">Роз\'єднати</string>
 
     <string name="message_auth_request">It is paired, if you do not know the key, use the unpair</string>
 
@@ -114,9 +114,10 @@
     <string name="mi_band_setting_birthday">Дата народження</string>
     <string name="mi_band_setting_height">Зріст</string>
     <string name="mi_band_setting_weight">Вага</string>
-    <string name="mi_band_setting_wearing_place">Wearing place</string>
-    <string name="mi_band_setting_wearing_place_left_wrist">Лівий зап\'ясток</string>
-    <string name="mi_band_setting_wearing_place_right_wrist">Правий зап\'ясток</string>
+    <string name="mi_band_setting_wearing_place">Місце носіння</string>
+    <string name="mi_band_setting_wearing_place_left_wrist">Ліва рука</string>
+    <string name="mi_band_setting_wearing_place_right_wrist">Права рука</string>
+
 
     <!-- Battery -->
     <string name="battery_details">Використання заряду</string>
@@ -194,16 +195,18 @@
 
     <string name="message_app_chooser_no_selected">Оберіть додаток</string>
 
-    <string name="message_free_counter">Up to %1$,d setting can be used in free mode</string> <!-- %1$,d = 1 or more  -->
+    <string name="message_free_counter">У безкоштовному режимі можна використовувати до 1 налаштування</string>
+    <string name="message_free_counters">У безкоштовному режимі можна використовувати до %1$,d налаштувань</string>
 
-    <string name="message_notification_free_groups">До %1$,d груп може бути використано у нормальному режимі</string>
-    <string name="message_notification_free_app">Up to 1 application can be selected in free mode</string>
-    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in free mode</string>   <!-- %1$s = 2 or more  -->
+    <string name="message_notification_free_groups">У безкоштовному режимі можна використовувати до %1$,d груп</string>
 
-    <string name="message_notification_free_text">Up to 1 text can be recorded in free mode</string>
+    <string name="message_notification_free_app">У безкоштовному режимі можна вибрати до 1 застосунку</string>
+    <string name="message_notification_free_apps">У безкоштовному режимі можна вибрати до %1$,d застосунків</string>
 
-    <string name="message_time_alarm_free_counter">До 1 будильників може бути встановлено у нормальному режимі</string>
-    <string name="message_time_alarm_max_counter">Максимум %1$d будильників може бути встановлено</string>
+    <string name="message_notification_free_text">У безкоштовному режимі можна записати до 1 тексту</string>
+
+    <string name="message_time_alarm_free_counter">У безкоштовному режимі можна використовувати до 1 будильника</string>
+    <string name="message_time_alarm_max_counter">Можна використовувати до %1$d будильників</string>
     <string name="message_time_alarm_enabled">Будильник увімкнено</string>
     <string name="message_time_alarm_disabled">Будильник вимкнено</string>
     <string name="message_time_alarm_off">Будильник вимкнено</string>
@@ -241,7 +244,7 @@
     <br>- Телефон/Оптимізація акумулятора: вимкніть оптимізацію для додатка <app_name/>.
     <br>- Телефон/Додатки: очистіть дані додатку Bluetooth Share та інших додатків \'Bluetooth\'.
     <br>- Більше інформації: https://dontkillmyapp.com
-    <br><br><small>This product and its features are not designed for medical purposes, and are not intended to predict, diagnose, prevent, or cure any diseases. All data and measurements are for personal reference only and shall not be used as a basis for diagnosis and treatment.</small>
+    <br><br><small>Цей продукт та його функції не призначені для медичних цілей і не мають на меті передбачення, діагностику, запобігання або лікування будь-яких захворювань. Усі дані та вимірювання призначені лише для особистого користування і не повинні використовуватися як основа для діагностики або лікування.</small>
     ]]></string>
 
     <!-- Notification Dialog -->
@@ -344,8 +347,8 @@
     <string name="call_contact_edit_setting_first_name">Ім\'я</string>
     <string name="call_contact_edit_setting_last_name">Прізвище</string>
 
-    <string name="message_call_contacts_free_counter">Up to %1$d contacts can be used in free mode</string> <!-- %1$d = 1, 2 ,3 ... -->
-    <string name="message_call_contacts_max_counter">Up to %1$d contacts can be used</string> <!-- %1$d = 1, 2 ,3 ... -->
+    <string name="message_call_contacts_free_counter">До %1$d контактів можна використовувати в безкоштовному режимі</string>
+    <string name="message_call_contacts_max_counter">До %1$d контактів можна використовувати</string>
 
     <!-- App chooser dialog -->
     <string name="app_chooser">Вибір додатку</string>
@@ -429,10 +432,10 @@
     <string name="message_reminder_enabled">Нагадування увімкнено</string>
     <string name="message_reminder_disabled">Нагадування вимкнено</string>
 
-    <string name="reminder_repeat">Повторювати кожну годину</string>
+    <string name="reminder_repeat">Повтор щогодини</string>
     <string name="reminder_notification_shade">Сповіщати на телефоні</string>
 
-    <string name="message_time_reminder_free_counter">Up to 1 reminder can be used in free mode</string>
+    <string name="message_time_reminder_free_counter">У безкоштовному режимі можна використовувати до 1 нагадування</string>
 
     <string name="info_dialog_reminder"><![CDATA[
         Необхідне з\'єднання Bluetooth для відображення нагадувань.
@@ -520,17 +523,18 @@
     <string name="watch_face_edit_weather_temperature">Температура</string>
     <string name="watch_face_edit_weather_temperature_unit_sign">Температура °</string>
     <string name="watch_face_edit_weather_image">Зображення погоди</string>
-    <string name="watch_face_edit_connection_indicator_image">Connection indicator image</string>
+    <string name="watch_face_edit_connection_indicator_image">Зображення індикатора з’єднання</string>
     <string name="watch_face_edit_connected">Підключений</string>
     <string name="watch_face_edit_disconnected">Відключений</string>
     <string name="watch_face_edit_steps">Кроки</string>
     <string name="watch_face_edit_steps_image">Кроки зображення</string>
+    <string name="watch_face_edit_steps_goal_progress">Прогрес цілі кроків</string>
     <string name="watch_face_edit_distance">Відстань</string>
-    <string name="watch_face_edit_distance_image">Distance image</string>
+    <string name="watch_face_edit_distance_image">Зображення відстані</string>
     <string name="watch_face_edit_calories">Калорії</string>
     <string name="watch_face_edit_calories_image">Зображення калорій</string>
     <string name="watch_face_edit_heart_rate">Пульс</string>
-    <string name="watch_face_edit_heart_rate_image">Heart rate image</string>
+    <string name="watch_face_edit_heart_rate_image">Зображення пульсу</string>
 
     <string name="watch_face_edit_color">Колір</string>
     <string name="watch_face_edit_font_family">Шрифт</string>
@@ -727,9 +731,8 @@
 
 
     <!-- Export -->
-    <string name="export_tab_database">Data export</string>
-
-    <string name="export_start_date">Starting date</string>
+    <string name="export_tab_database">Експорт даних</string>
+    <string name="export_start_date">Дата початку експорту</string>
 
 
     <!-- Theme -->
@@ -744,7 +747,7 @@
 
     <string name="theme_notification_title">Показувати стан у постійному сповіщенні</string>
 
-    <string name="theme_cat_color_setting">Color setting</string>
+    <string name="theme_cat_color_setting">Налаштування кольору</string>
 
 
     <!-- Premium mode -->
@@ -761,13 +764,14 @@
         <p>• detailed daily graphs</p>
         • removing other restrictions…
     ]]></string>
-    <string name="purchase_policy_title">Умови преміум-режиму</string>
+    <string name="purchase_policy_title">Умови та положення преміум-режиму</string>
     <string name="purchase_policy"><![CDATA[
-        <p>- Я перевірив додаток, він працює належним чином.</p>
-        <p>- Я попереджений, що не можу вимагати повернення коштів через помилки у додатку, що викликані змінами у додатку, апаратним оточенням або використанням інших додатків.</p>
-        <p>- Усі продажі остаточні і поверненню не підлягають (за виключенням політики відшкодування Google).</p>
-        <p>- Гарантія не надається.</p>
-        <i>Після покупки треба перезапустити додаток.</i>
+    <p>• Я протестував додаток, і він працює належним чином.</p>
+    <p>• Я усвідомлюю, що не можу вимагати компенсації або повернення коштів через помилки або програмні збої, спричинені змінами в програмному або апаратному середовищі або використанням інших додатків.</p>
+    <p>• Усі продажі є остаточними і не підлягають поверненню (за винятком політики повернення коштів Google).</p>
+    <p>• Гарантія не надається.</p>
+    <p>• Цей додаток використовується на власний ризик, і розробник виключає всі додаткові гарантії, включаючи будь-яку пряму або непряму відповідальність за шкоду або втрату даних, що виникають у результаті його використання.</p>
+    <i>Після покупки необхідно перезапустити додаток.</i>
     ]]></string>
 
     <string name="purchase_google_play_services_not_available">Послуги Google Play не доступні</string>
@@ -808,23 +812,23 @@
         • We collect location data to update the weather based on your current location (optional).
     ]]></string>
 
-    <string name="privacy_policy_not_collect_title">Інформація що не збирається</string>
+    <string name="privacy_policy_not_collect_title">Інформація, яку ми не збираємо</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>• Ми не збираємо інформацію про вас, що ідентифікує особу. Іншими словами, ми не збираємо таку інформацію, як ваше ім’я, адреса, номер телефону, електронна адреса або MAC-адреса.</p>
-        • Ми не збираємо особисті дані про здоров’я, контакти та тексти сповіщень.
+    <p>• Ми не збираємо персональну інформацію, яка дозволяє вас ідентифікувати. Це означає, що ми не збираємо, наприклад, такі персональні дані, як ваше ім’я, адреса, номер телефону, електронна адреса або MAC-адреса.</p>
+    • Ми не збираємо особисті медичні дані, контакти або вміст сповіщень на телефоні.
     ]]></string>
 
-    <string name="privacy_policy_share_title">Information we share</string>
+    <string name="privacy_policy_share_title">Інформація, яку ми передаємо</string>
     <string name="privacy_policy_share"><![CDATA[
-        • We do not share any data with companies or organisations other than Google and advertising providers.
+    • Ми не передаємо жодні дані компаніям чи організаціям, окрім Google та постачальників реклами.
     ]]></string>
 
-    <string name="privacy_policy_use_title">Personal and sensitive user data we use</string>
+    <string name="privacy_policy_use_title">Особисті та конфіденційні дані користувача, які ми використовуємо</string>
     <string name="privacy_policy_use"><![CDATA[
-        • We use location data to update the weather (optional).
+    • Ми використовуємо дані про місцезнаходження лише для оновлення інформації про погоду і тільки якщо ви активуєте цю функцію.
     ]]></string>
 
-    <string name="privacy_policy_links_title">Політика конфіденційності сторонніх постачальників послуг</string>
+    <string name="privacy_policy_links_title">Політика конфіденційності постачальників послуг третіх сторін</string>
     <string name="privacy_policy_links"><![CDATA[
         <a href="https://policies.google.com/privacy">Google Play Services</a>
         <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
@@ -833,10 +837,10 @@
         <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>
     ]]></string>
 
-    <string name="privacy_policy_eu_consent_title">Стан</string>
-    <string name="privacy_policy_eu_consent_title_obtained">Consent obtained</string>
+    <string name="privacy_policy_eu_consent_title">Статус</string>
+    <string name="privacy_policy_eu_consent_title_obtained">Отримано згоду</string>
     <string name="privacy_policy_eu_consent_title_personalized">Персоналізовані, релевантні оголошення</string>
-    <string name="privacy_policy_eu_consent_title_non_personalized">Неперсоналізовані оголошення, що менш релевантні</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Неперсоналізовані, менш релевантні оголошення</string>
     <string name="privacy_policy_eu_consent_title_unknown">Невідомо</string>
 
     <string name="privacy_policy_eu_consent_setting">Налаштування</string>

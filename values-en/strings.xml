@@ -75,8 +75,8 @@
     <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
 
     <string name="mi_band_setting_auth_key">Authentication key</string>
-    <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
-    <string name="mi_band_setting_auth_request">Key request</string>
+    <string name="mi_band_setting_auth_key_help">Enter any 4-digit number</string>
+    <string name="mi_band_setting_auth_request">Request key</string>
     <string name="mi_band_setting_auth_pair">Pair</string>
     <string name="mi_band_setting_auth_unpair">Unpair</string>
 
@@ -118,9 +118,9 @@
     <string name="mi_band_setting_birthday">Date of birth</string>
     <string name="mi_band_setting_height">Height</string>
     <string name="mi_band_setting_weight">Weight</string>
-    <string name="mi_band_setting_wearing_place">Wearing place</string>
-    <string name="mi_band_setting_wearing_place_left_wrist">Left wrist</string>
-    <string name="mi_band_setting_wearing_place_right_wrist">Right wrist</string>
+    <string name="mi_band_setting_wearing_place">Wearing location</string>
+    <string name="mi_band_setting_wearing_place_left_wrist">Left hand</string>
+    <string name="mi_band_setting_wearing_place_right_wrist">Right hand</string>
 
     <!-- Battery -->
     <string name="battery_details">Battery usage</string>
@@ -197,16 +197,17 @@
 
     <string name="message_app_chooser_no_selected">Select an application</string>
 
-    <string name="message_free_counter">Up to %1$,d setting can be used in free mode</string> <!-- %1$,d = 1 or more  -->
+    <string name="message_free_counter">Up to 1 setting can be used in free mode</string>
+    <string name="message_free_counters">Up to %1$,d settings can be used in free mode</string> <!-- %1$,d = 3 or more  -->
 
     <string name="message_notification_free_groups">Up to %1$,d groups can be used in free mode</string>
     <string name="message_notification_free_app">Up to 1 application can be selected in free mode</string>
-    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in free mode</string>   <!-- %1$s = 2 or more  -->
+    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in free mode</string>   <!-- %1$s = 3 or more  -->
 
     <string name="message_notification_free_text">Up to 1 text can be recorded in free mode</string>
 
     <string name="message_time_alarm_free_counter">Up to 1 alarm can be used in free mode</string>
-    <string name="message_time_alarm_max_counter">Maximum %1$d alarms can be used</string>
+    <string name="message_time_alarm_max_counter">Up to %1$d alarms can be used</string>
     <string name="message_time_alarm_enabled">Alarm enabled</string>
     <string name="message_time_alarm_disabled">Alarm disabled</string>
     <string name="message_time_alarm_off">Alarm off</string>
@@ -436,7 +437,7 @@
     <string name="message_reminder_enabled">Reminder enabled</string>
     <string name="message_reminder_disabled">Reminder disabled</string>
 
-    <string name="reminder_repeat">Hourly repetition</string>
+    <string name="reminder_repeat">Repeat hourly</string>
     <string name="reminder_notification_shade">Notify me on the phone</string>
 
     <string name="message_time_reminder_free_counter">Up to 1 reminder can be used in free mode</string>
@@ -737,8 +738,8 @@
 
     <!-- Export -->
     <string name="export_tab_database">Data export</string>
+    <string name="export_start_date">Export start date</string>
 
-    <string name="export_start_date">Starting date</string>
 
     <!-- Theme -->
     <string name="theme_tab_theme">Theme</string>
@@ -752,7 +753,7 @@
 
     <string name="theme_notification_title">Show status in notification shade</string>
 
-    <string name="theme_cat_color_setting">Color setting</string>
+    <string name="theme_cat_color_setting">Color settings</string>
 
 
     <!-- Premium mode -->
@@ -771,11 +772,12 @@
     ]]></string>
     <string name="purchase_policy_title">Terms and conditions of Premium mode</string>
     <string name="purchase_policy"><![CDATA[
-        <p>• I have tested the app and it is working properly.</p>
-        <p>• I am aware of that I can not require compensation or refund due to bugs, software errors caused by changes in the software, hardware environment or using other applications.</p>
-        <p>• All sales are final and can not be refund (except Google refund policy).</p>
-        <p>• There is no warranty included.</p>
-        <i>After purchasing you need to restart the app.</i>
+    <p>• I have tested the app and it is working properly.</p>
+    <p>• I am aware of that I can not require compensation or refund due to bugs, software errors caused by changes in the software, hardware environment or using other applications.</p>
+    <p>• All sales are final and can not be refund (except Google refund policy).</p>
+    <p>• There is no warranty included.</p>
+    <p>• This app is used at your own risk, and the developer excludes all additional warranties, including any direct or indirect responsibility for damages or data loss resulting from its use.</p>
+    <i>After purchasing you need to restart the app.</i>
     ]]></string>
 
     <string name="purchase_google_play_services_not_available">Google Play Services are not available</string>
@@ -818,18 +820,18 @@
 
     <string name="privacy_policy_not_collect_title">Information we do not collect</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>• We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address or MAC address.</p>
-        • We do not collect personal health data, contacts and phone notification texts.
+        <p>• We do not collect personally identifiable information about you. This means we do not collect, for example, personal data such as your name, address, phone number, email address, or MAC address.</p>
+        • We do not collect personal health data, contacts, or the content of phone notifications.
     ]]></string>
 
     <string name="privacy_policy_share_title">Information we share</string>
     <string name="privacy_policy_share"><![CDATA[
-        • We do not share any data with companies or organisations other than Google and advertising providers.
+          • We do not share any data with companies or organizations other than Google and advertising providers.
     ]]></string>
 
     <string name="privacy_policy_use_title">Personal and sensitive user data we use</string>
     <string name="privacy_policy_use"><![CDATA[
-        • We use location data to update the weather (optional).
+        • We use location data only to update the weather information, and only if you enable this feature.
     ]]></string>
 
     <string name="privacy_policy_links_title">Privacy policy of third party service providers</string>

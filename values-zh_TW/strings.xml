@@ -71,11 +71,11 @@
     <string name="mi_band_setting_auth_standalone_hint">%1$s 應用程序對於%3$s來說不是必需的。 配對裝置後請解除安裝 %1$s 程式。若要重新使用 %1$s ，您必須在 %1$s 程式內重新配對 %2$s。 若使用解除配對功能，資料將被清除。 在進行設定的過程中，%2$s 程式畫面必須開啟。</string>
     <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
 
-    <string name="mi_band_setting_auth_key">認證碼</string>
-    <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
-    <string name="mi_band_setting_auth_request">請求認證碼</string>
+    <string name="mi_band_setting_auth_key">驗證金鑰</string>
+    <string name="mi_band_setting_auth_key_help">請輸入任意4位數字</string>
+    <string name="mi_band_setting_auth_request">請求金鑰</string>
     <string name="mi_band_setting_auth_pair">配對</string>
-    <string name="mi_band_setting_auth_unpair">解除綁定</string>
+    <string name="mi_band_setting_auth_unpair">取消配對</string>
 
     <string name="message_auth_request">裝置已經配對，如果您不知道認證碼，請使用解除配對</string>
 
@@ -115,7 +115,7 @@
     <string name="mi_band_setting_birthday">出生日期</string>
     <string name="mi_band_setting_height">身高</string>
     <string name="mi_band_setting_weight">體重</string>
-    <string name="mi_band_setting_wearing_place">Wearing place</string>
+    <string name="mi_band_setting_wearing_place">配戴位置</string>
     <string name="mi_band_setting_wearing_place_left_wrist">左手</string>
     <string name="mi_band_setting_wearing_place_right_wrist">右手</string>
 
@@ -195,16 +195,18 @@
 
     <string name="message_app_chooser_no_selected">選擇應用程式</string>
 
-    <string name="message_free_counter">普通模式最多可以設定%1$,d個應用程式</string> <!-- %1$,d = 1 or more  -->
+    <string name="message_free_counter">在免費模式下最多可使用 1 個設定</string>
+    <string name="message_free_counters">在免費模式下最多可使用 %1$,d 個設定</string>
 
-    <string name="message_notification_free_groups">普通模式最多可以設定 %1$,d 個群組</string>
-    <string name="message_notification_free_app">普通模式最多可以設定1個應用程式</string>
-    <string name="message_notification_free_apps">普通模式最多可以設定 %1$,d 個應用程式</string>   <!-- %1$s = 2 or more  -->
+    <string name="message_notification_free_groups">在免費模式下最多可使用 %1$,d 個群組</string>
 
-    <string name="message_notification_free_text">普通模式最多可錄製1個文本</string>
+    <string name="message_notification_free_app">在免費模式下最多可選擇 1 個應用程式</string>
+    <string name="message_notification_free_apps">在免費模式下最多可選擇 %1$,d 個應用程式</string>
 
-    <string name="message_time_alarm_free_counter">普通模式下最多可使用1個鬧鐘</string>
-    <string name="message_time_alarm_max_counter">最多可以設定 %1$d 個鬧鐘</string>
+    <string name="message_notification_free_text">在免費模式下最多可記錄 1 則文字</string>
+
+    <string name="message_time_alarm_free_counter">在免費模式下最多可使用 1 個鬧鐘</string>
+    <string name="message_time_alarm_max_counter">最多可使用 %1$d 個鬧鐘</string>
     <string name="message_time_alarm_enabled">啟用鬧鐘</string>
     <string name="message_time_alarm_disabled">禁用鬧鐘</string>
     <string name="message_time_alarm_off">關閉鬧鐘</string>
@@ -242,7 +244,7 @@
     <br>- 手機/電池優化：將 \'<app_name/>\' 應用設置為未優化。
     <br>- 手機/應用程式：清除 \'藍牙共享\' 和其他 \'藍牙\' 應用程式資料。
     <br>- 更多信息: https://dontkillmyapp.com
-    <br><br><small>This product and its features are not designed for medical purposes, and are not intended to predict, diagnose, prevent, or cure any diseases. All data and measurements are for personal reference only and shall not be used as a basis for diagnosis and treatment.</small>
+    <br><br><small>本產品及其功能並非為醫療目的而設計，不用於預測、診斷、預防或治療任何疾病。所有數據和測量僅供個人參考，不應作為診斷或治療的依據。</small>
     ]]></string>
 
 
@@ -285,8 +287,8 @@
     <string name="call_contact_edit_setting_first_name">名</string>
     <string name="call_contact_edit_setting_last_name">姓</string>
 
-    <string name="message_call_contacts_free_counter">Up to %1$d contacts can be used in free mode</string> <!-- %1$d = 1, 2 ,3 ... -->
-    <string name="message_call_contacts_max_counter">Up to %1$d contacts can be used</string> <!-- %1$d = 1, 2 ,3 ... -->
+    <string name="message_call_contacts_free_counter">免費模式下最多可使用 %1$d 個聯絡人</string>
+    <string name="message_call_contacts_max_counter">最多可使用 %1$d 個聯絡人</string>
 
     <!-- Notification Dialog -->
     <string name="notification_group_nav_setting">設定</string>
@@ -430,10 +432,10 @@
     <string name="message_reminder_enabled">提醒已启用</string>
     <string name="message_reminder_disabled">提醒已禁用</string>
 
-    <string name="reminder_repeat">Hourly repetition</string>
+    <string name="reminder_repeat">每小時重複</string>
     <string name="reminder_notification_shade">在手机上通知</string>
 
-    <string name="message_time_reminder_free_counter">Up to 1 reminder can be used in free mode</string>
+    <string name="message_time_reminder_free_counter">免費模式下最多可使用1個提醒</string>
 
     <string name="info_dialog_reminder"><![CDATA[
         显示提醒需要蓝牙连接
@@ -522,17 +524,18 @@
     <string name="watch_face_edit_weather_temperature">溫度</string>
     <string name="watch_face_edit_weather_temperature_unit_sign">溫度單位 °</string>
     <string name="watch_face_edit_weather_image">天氣圖片</string>
-    <string name="watch_face_edit_connection_indicator_image">Connection indicator image</string>
+    <string name="watch_face_edit_connection_indicator_image">連線指示器圖像</string>
     <string name="watch_face_edit_connected">已連結</string>
     <string name="watch_face_edit_disconnected">已斷開連結</string>
     <string name="watch_face_edit_steps">步數</string>
     <string name="watch_face_edit_steps_image">步驟圖片</string>
+    <string name="watch_face_edit_steps_goal_progress">步數目標進度</string>
     <string name="watch_face_edit_distance">距離</string>
-    <string name="watch_face_edit_distance_image">Distance image</string>
+    <string name="watch_face_edit_distance_image">距離圖像</string>
     <string name="watch_face_edit_calories">卡路里</string>
-    <string name="watch_face_edit_calories_image">卡路里圖片</string>
+    <string name="watch_face_edit_calories_image">卡路里圖像</string>
     <string name="watch_face_edit_heart_rate">心率</string>
-    <string name="watch_face_edit_heart_rate_image">Heart rate image</string>
+    <string name="watch_face_edit_heart_rate_image">心率圖像</string>
 
     <string name="watch_face_edit_color">顏色</string>
     <string name="watch_face_edit_font_family">字形</string>
@@ -730,9 +733,8 @@
 
 
     <!-- Export -->
-    <string name="export_tab_database">Data export</string>
-
-    <string name="export_start_date">Starting date</string>
+    <string name="export_tab_database">資料匯出</string>
+    <string name="export_start_date">匯出開始日期</string>
 
 
     <!-- Theme -->
@@ -764,13 +766,14 @@
         <p>• detailed daily graphs</p>
         • removing other restrictions…
     ]]></string>
-    <string name="purchase_policy_title">高級模式的條款和條件</string>
+    <string name="purchase_policy_title">高級模式的條款與條件</string>
     <string name="purchase_policy"><![CDATA[
-        <p>• I have tested the app and it is working properly.</p>
-        <p>• I am aware of that I can not require compensation or refund due to bugs, software errors caused by changes in the software, hardware environment or using other applications.</p>
-        <p>• All sales are final and can not be refund (except Google refund policy).</p>
-        <p>• There is no warranty included.</p>
-        <i>After purchasing you need to restart the app.</i>
+    <p>• 我已測試應用程式，且其運作正常。</p>
+    <p>• 我了解，由於軟體或硬體環境的變更或使用其他應用程式所導致的錯誤，我無法要求賠償或退款。</p>
+    <p>• 所有銷售皆為最終決定，恕不退款（Google 的退款政策除外）。</p>
+    <p>• 不包含任何保固。</p>
+    <p>• 使用此應用程式需自行承擔風險，開發者不負責任何因使用本應用而產生的直接或間接損害或資料遺失的責任。</p>
+    <i>購買後請重新啟動應用程式。</i>
     ]]></string>
 
     <string name="purchase_google_play_services_not_available">谷歌游戏服务不可用</string>
@@ -811,20 +814,20 @@
         • We collect location data to update the weather based on your current location (optional).
     ]]></string>
 
-    <string name="privacy_policy_not_collect_title">我們不收集以下信息</string>
+    <string name="privacy_policy_not_collect_title">我們不收集的資訊</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>• We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address or MAC address.</p>
-        • We do not collect personal health data, contacts and phone notification texts.
+    <p>• 我們不收集可識別您身份的個人資訊。這意味著我們不會收集，例如，您的姓名、地址、電話號碼、電子郵件地址或MAC地址等個人資料。</p>
+    • 我們不收集個人健康資料、聯絡人或手機通知的內容。
     ]]></string>
 
-    <string name="privacy_policy_share_title">Information we share</string>
+    <string name="privacy_policy_share_title">我們分享的資訊</string>
     <string name="privacy_policy_share"><![CDATA[
-        • We do not share any data with companies or organisations other than Google and advertising providers.
+    • 除了Google和廣告提供商之外，我們不會與其他公司或組織分享任何資料。
     ]]></string>
 
-    <string name="privacy_policy_use_title">Personal and sensitive user data we use</string>
+    <string name="privacy_policy_use_title">我們使用的個人和敏感用戶資料</string>
     <string name="privacy_policy_use"><![CDATA[
-        • We use location data to update the weather (optional).
+    • 我們僅在您啟用此功能的情況下使用位置資料來更新天氣資訊。
     ]]></string>
 
     <string name="privacy_policy_links_title">第三方服務提供商的隱私政策</string>
@@ -837,9 +840,9 @@
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">狀態</string>
-    <string name="privacy_policy_eu_consent_title_obtained">Consent obtained</string>
-    <string name="privacy_policy_eu_consent_title_personalized">個人化的相關廣告</string>
-    <string name="privacy_policy_eu_consent_title_non_personalized">不太相關的非個人化廣告</string>
+    <string name="privacy_policy_eu_consent_title_obtained">已獲得同意</string>
+    <string name="privacy_policy_eu_consent_title_personalized">個人化且相關的廣告</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">非個人化且相關性較低的廣告</string>
     <string name="privacy_policy_eu_consent_title_unknown">未知</string>
 
     <string name="privacy_policy_eu_consent_setting">設定</string>

@@ -71,11 +71,11 @@
     <string name="mi_band_setting_auth_standalone_hint">Aplikace %1$s není nutná pro práci %3$s. Po párování odinstalujte aplikaci %1$s nebo odpojte zařízení. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
     <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
 
-    <string name="mi_band_setting_auth_key">Authentication key</string>
-    <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
-    <string name="mi_band_setting_auth_request">Key request</string>
+    <string name="mi_band_setting_auth_key">Ověřovací klíč</string>
+    <string name="mi_band_setting_auth_key_help">Zadejte libovolné 4místné číslo</string>
+    <string name="mi_band_setting_auth_request">Požádat o klíč</string>
     <string name="mi_band_setting_auth_pair">Spárovat</string>
-    <string name="mi_band_setting_auth_unpair">Zrušit párování</string>
+    <string name="mi_band_setting_auth_unpair">Odpojit</string>
 
     <string name="message_auth_request">It is paired, if you do not know the key, use the unpair</string>
 
@@ -115,9 +115,9 @@
     <string name="mi_band_setting_birthday">Datum narození</string>
     <string name="mi_band_setting_height">Výška</string>
     <string name="mi_band_setting_weight">Váha</string>
-    <string name="mi_band_setting_wearing_place">Wearing place</string>
-    <string name="mi_band_setting_wearing_place_left_wrist">Levé zápěstí</string>
-    <string name="mi_band_setting_wearing_place_right_wrist">Pravé zápěstí</string>
+    <string name="mi_band_setting_wearing_place">Místo nošení</string>
+    <string name="mi_band_setting_wearing_place_left_wrist">Levá ruka</string>
+    <string name="mi_band_setting_wearing_place_right_wrist">Pravá ruka</string>
 
 
     <!-- Battery -->
@@ -195,16 +195,17 @@
 
     <string name="message_app_chooser_no_selected">Vyberte aplikaci</string>
 
-    <string name="message_free_counter">Up to %1$,d setting can be used in free mode</string> <!-- %1$,d = 1 or more  -->
+    <string name="message_free_counter">Až 1 nastavení lze použít v bezplatném režimu</string>
+    <string name="message_free_counters">Až %1$,d nastavení lze použít v bezplatném režimu</string> <!-- %1$,d = 3 or more  -->
 
-    <string name="message_notification_free_groups">V normálním režimu lze použít až %1$,d skupin</string>
-    <string name="message_notification_free_app">Up to 1 application can be selected in free mode</string>
-    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in free mode</string>   <!-- %1$s = 2 or more  -->
+    <string name="message_notification_free_groups">Až %1$,d skupin lze použít v bezplatném režimu</string> <!-- %1$,d = 3 or more  -->
+    <string name="message_notification_free_app">Až 1 aplikace lze vybrat v bezplatném režimu</string>
+    <string name="message_notification_free_apps">Až %1$,d aplikací lze vybrat v bezplatném režimu</string> <!-- %1$,d = 3 or more  -->
 
-    <string name="message_notification_free_text">Up to 1 text can be recorded in free mode</string>
+    <string name="message_notification_free_text">Až 1 text lze zaznamenat v bezplatném režimu</string>
 
-    <string name="message_time_alarm_free_counter">V normálním režimu lze použít až 1 budíky</string>
-    <string name="message_time_alarm_max_counter">Maximálně může být použito %1$d budíků</string>
+    <string name="message_time_alarm_free_counter">Až 1 budík lze použít v bezplatném režimu</string>
+    <string name="message_time_alarm_max_counter">Až %1$d budíků lze použít</string>
     <string name="message_time_alarm_enabled">Budík povolen</string>
     <string name="message_time_alarm_disabled">Budík zakázán</string>
     <string name="message_time_alarm_off">Budík vypnut</string>
@@ -242,7 +243,7 @@
     <br>- Nastavení/baterie/optimalizace výdrže baterie: zvolte aplikaci <app_name/> a vyberte neoptimalizovat.
     <br>- Nastavení/aplikace: vymažte data aplikace Sdílení Bluetooth a ostatních Bluetooth aplikací.
     <br>- Více informací: https://dontkillmyapp.com
-    <br><br><small>This product and its features are not designed for medical purposes, and are not intended to predict, diagnose, prevent, or cure any diseases. All data and measurements are for personal reference only and shall not be used as a basis for diagnosis and treatment.</small>
+    <br><br><small>Tento produkt a jeho funkce nejsou určeny pro lékařské účely a nejsou určeny k předpovídání, diagnostice, prevenci nebo léčbě žádných onemocnění. Všechna data a měření slouží pouze pro osobní informaci a nesmí být použita jako základ pro diagnostiku nebo léčbu.</small>
     ]]></string>
 
     <!-- Notification Dialog -->
@@ -345,8 +346,8 @@
     <string name="call_contact_edit_setting_first_name">Jméno</string>
     <string name="call_contact_edit_setting_last_name">Příjmení</string>
 
-    <string name="message_call_contacts_free_counter">Up to %1$d contacts can be used in free mode</string> <!-- %1$d = 1, 2 ,3 ... -->
-    <string name="message_call_contacts_max_counter">Up to %1$d contacts can be used</string> <!-- %1$d = 1, 2 ,3 ... -->
+    <string name="message_call_contacts_free_counter">Až %1$d kontaktů lze použít v bezplatném režimu</string>
+    <string name="message_call_contacts_max_counter">Až %1$d kontaktů lze použít</string>
 
     <!-- App chooser dialog -->
     <string name="app_chooser">Výběr aplikace</string>
@@ -430,10 +431,10 @@
     <string name="message_reminder_enabled">Připomenutí povolen</string>
     <string name="message_reminder_disabled">Připomenutí zakázáno</string>
 
-    <string name="reminder_repeat">Hourly repetition</string>
+    <string name="reminder_repeat">Opakování každou hodinu</string>
     <string name="reminder_notification_shade">Upozornění na zařízení</string>
 
-    <string name="message_time_reminder_free_counter">Up to 1 reminder can be used in free mode</string>
+    <string name="message_time_reminder_free_counter">Až 1 připomínka lze použít v bezplatném režimu</string>
 
     <string name="info_dialog_reminder"><![CDATA[
         Bluetooth connection is required to display the reminder.
@@ -521,18 +522,18 @@
     <string name="watch_face_edit_weather_temperature">Teplota</string>
     <string name="watch_face_edit_weather_temperature_unit_sign">Teplotní jednotka °</string>
     <string name="watch_face_edit_weather_image">Obrázek počasí</string>
-    <string name="watch_face_edit_connection_indicator_image">Connection indicator image</string>
+    <string name="watch_face_edit_connection_indicator_image">Indikátor připojení obrázek</string>
     <string name="watch_face_edit_connected">Připojeno</string>
     <string name="watch_face_edit_disconnected">Odpojeno</string>
     <string name="watch_face_edit_steps">Kroky</string>
     <string name="watch_face_edit_steps_image">Obrázek kroků</string>
-    <string name="watch_face_edit_steps_goal_progress">Steps goal progress</string>
+    <string name="watch_face_edit_steps_goal_progress">Pokrok cíle kroků</string>
     <string name="watch_face_edit_distance">Vzdálenost</string>
-    <string name="watch_face_edit_distance_image">Obrázek vzdálenost</string>
+    <string name="watch_face_edit_distance_image">Obrázek vzdálenosti</string>
     <string name="watch_face_edit_calories">Kalorie</string>
     <string name="watch_face_edit_calories_image">Obrázek kalorií</string>
-    <string name="watch_face_edit_heart_rate">Heart rate</string>
-    <string name="watch_face_edit_heart_rate_image">Heart rate image</string>
+    <string name="watch_face_edit_heart_rate">Srdeční tep</string>
+    <string name="watch_face_edit_heart_rate_image">Obrázek srdečního tepu</string>
 
     <string name="watch_face_edit_color">Barva</string>
     <string name="watch_face_edit_font_family">Font</string>
@@ -730,9 +731,8 @@
 
 
     <!-- Export -->
-    <string name="export_tab_database">Data export</string>
-
-    <string name="export_start_date">Starting date</string>
+    <string name="export_tab_database">Export dat</string>
+    <string name="export_start_date">Datum zahájení exportu</string>
 
 
     <!-- Theme -->
@@ -747,7 +747,7 @@
 
     <string name="theme_notification_title">Zobrazit stav v notifikační liště</string>
 
-    <string name="theme_cat_color_setting">Color setting</string>
+    <string name="theme_cat_color_setting">Nastavení barev</string>
 
 
     <!-- Premium mode -->
@@ -764,13 +764,14 @@
         <p>• detailed daily graphs</p>
         • removing other restrictions…
     ]]></string>
-    <string name="purchase_policy_title">Smluvní podmínky prémiového režimu</string>
+    <string name="purchase_policy_title">Podmínky prémiového režimu</string>
     <string name="purchase_policy"><![CDATA[
-        <p>• Zkoušel jsem aplikaci a pracuje správně.</p>
-        <p>• Jsem si vědom, že nemohu požadovat náhradu nebo vrácení peněz kvůli chybám, softwarovým chybám způsobeným změnami softwaru, hardwarovým prostředím nebo použitím jiných aplikací.</p>
-        <p>• Všechny tržby jsou konečné a nelze je vrátit (s výjimkou zásad pro vrácení peněz Google).</p>
-        <p>• Neexistuje žádná záruka.</p>
-        <i>Po zakoupení musíte restartovat aplikaci.</i>
+    <p>• Aplikaci jsem otestoval a funguje správně.</p>
+    <p>• Jsem si vědom, že nemohu požadovat kompenzaci nebo vrácení peněz kvůli chybám způsobeným změnami softwarového nebo hardwarového prostředí či používáním jiných aplikací.</p>
+    <p>• Všechny prodeje jsou konečné a nelze je vrátit (s výjimkou zásad vrácení peněz Google).</p>
+    <p>• Není poskytována žádná záruka.</p>
+    <p>• Tato aplikace se používá na vlastní riziko a vývojář vylučuje veškeré další záruky, včetně jakékoli přímé nebo nepřímé odpovědnosti za škody nebo ztrátu dat vzniklé jejím použitím.</p>
+    <i>Po zakoupení je třeba aplikaci restartovat.</i>
     ]]></string>
 
     <string name="purchase_google_play_services_not_available">Služby Google Play nejsou k dispozici</string>
@@ -811,23 +812,23 @@
         • We collect location data to update the weather based on your current location (optional).
     ]]></string>
 
-    <string name="privacy_policy_not_collect_title">Information we do not collect</string>
+    <string name="privacy_policy_not_collect_title">Informace, které neshromažďujeme</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>• We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address or MAC address.</p>
-        • We do not collect personal health data, contacts and phone notification texts.
+    <p>• Neshromažďujeme osobní údaje, které by vás mohly identifikovat. To znamená, že například neshromažďujeme vaše jméno, adresu, telefonní číslo, e-mailovou adresu nebo MAC adresu.</p>
+    • Neshromažďujeme osobní zdravotní údaje, kontakty ani obsah telefonních oznámení.
     ]]></string>
 
-    <string name="privacy_policy_share_title">Information we share</string>
+    <string name="privacy_policy_share_title">Informace, které sdílíme</string>
     <string name="privacy_policy_share"><![CDATA[
-        • We do not share any data with companies or organisations other than Google and advertising providers.
+    • Nezveřejňujeme žádná data společnostem nebo organizacím kromě Google a poskytovatelů reklamy.
     ]]></string>
 
-    <string name="privacy_policy_use_title">Personal and sensitive user data we use</string>
+    <string name="privacy_policy_use_title">Osobní a citlivé údaje, které používáme</string>
     <string name="privacy_policy_use"><![CDATA[
-        • We use location data to update the weather (optional).
+    • Údaje o poloze používáme pouze k aktualizaci informací o počasí a pouze v případě, že tuto funkci povolíte.
     ]]></string>
 
-    <string name="privacy_policy_links_title">Privacy policy of third party service providers</string>
+    <string name="privacy_policy_links_title">Zásady ochrany osobních údajů poskytovatelů služeb třetích stran</string>
     <string name="privacy_policy_links"><![CDATA[
         <a href="https://policies.google.com/privacy">Google Play Services</a>
         <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
@@ -836,10 +837,10 @@
         <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>
     ]]></string>
 
-    <string name="privacy_policy_eu_consent_title">Status</string>
-    <string name="privacy_policy_eu_consent_title_obtained">Consent obtained</string>
-    <string name="privacy_policy_eu_consent_title_personalized">Personalized, relevant ads</string>
-    <string name="privacy_policy_eu_consent_title_non_personalized">Non-personalized ads that are less relevant</string>
+    <string name="privacy_policy_eu_consent_title">Stav</string>
+    <string name="privacy_policy_eu_consent_title_obtained">Souhlas získán</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Personalizované, relevantní reklamy</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Nepersonalizované reklamy s nižší relevancí</string>
     <string name="privacy_policy_eu_consent_title_unknown">Neznámý</string>
 
     <string name="privacy_policy_eu_consent_setting">Nastavení</string>

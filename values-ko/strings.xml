@@ -72,10 +72,10 @@
     <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
 
     <string name="mi_band_setting_auth_key">인증 키</string>
-    <string name="mi_band_setting_auth_key_help">4자리 숫자를 입력하세요</string>
-    <string name="mi_band_setting_auth_request">요구사항</string>
+    <string name="mi_band_setting_auth_key_help">임의의 4자리 숫자를 입력하세요</string>
+    <string name="mi_band_setting_auth_request">키 요청</string>
     <string name="mi_band_setting_auth_pair">페어링</string>
-    <string name="mi_band_setting_auth_unpair">언페어링</string>
+    <string name="mi_band_setting_auth_unpair">페어링 해제</string>
 
     <string name="message_auth_request">만약 이미 페어링이 되어 있지만, 인증키를 모른다면 언페어링를 사용하세요</string>
 
@@ -115,9 +115,9 @@
     <string name="mi_band_setting_birthday">생년월일</string>
     <string name="mi_band_setting_height">키</string>
     <string name="mi_band_setting_weight">체중</string>
-    <string name="mi_band_setting_wearing_place">Wearing place</string>
-    <string name="mi_band_setting_wearing_place_left_wrist">왼쪽 손목</string>
-    <string name="mi_band_setting_wearing_place_right_wrist">오른쪽 손목</string>
+    <string name="mi_band_setting_wearing_place">착용 위치</string>
+    <string name="mi_band_setting_wearing_place_left_wrist">왼손</string>
+    <string name="mi_band_setting_wearing_place_right_wrist">오른손</string>
 
 
     <!-- Battery -->
@@ -195,16 +195,17 @@
 
     <string name="message_app_chooser_no_selected">애플리케이션 선택</string>
 
-    <string name="message_free_counter">무료모드에서는 %1$,d개의 설정을 사용할수 있습니다</string> <!-- %1$,d = 1 or more  -->
+    <string name="message_free_counter">무료 모드에서는 최대 1개의 설정을 사용할 수 있습니다</string>
+    <string name="message_free_counters">무료 모드에서는 최대 %1$,d개의 설정을 사용할 수 있습니다</string>
 
-    <string name="message_notification_free_groups">무료모드에서는 최대 %1$,d개의 그룹을 사용할 수 있습니다</string>
-    <string name="message_notification_free_app">무료모드에서는 1개의 어플리케이션을 사용할수 있습니다</string>
-    <string name="message_notification_free_apps">무료보드에서는 %1$,d개의 어플리케이션을 선택 할수 있습니다</string>   <!-- %1$s = 2 or more  -->
+    <string name="message_notification_free_groups">무료 모드에서는 최대 %1$,d개의 그룹을 사용할 수 있습니다</string>
+    <string name="message_notification_free_app">무료 모드에서는 최대 1개의 애플리케이션을 선택할 수 있습니다</string>
+    <string name="message_notification_free_apps">무료 모드에서는 최대 %1$,d개의 애플리케이션을 선택할 수 있습니다</string>
 
-    <string name="message_notification_free_text">무료모드에서는 1개의 텍스트를 기록할수 있습니다</string>
+    <string name="message_notification_free_text">무료 모드에서는 최대 1개의 텍스트를 기록할 수 있습니다</string>
 
-    <string name="message_time_alarm_free_counter">무료모드에서는 1개읠 알람을 사용할수 있습니다</string>
-    <string name="message_time_alarm_max_counter">최대 %1$d개의 알람을 사용할수 있습니다</string>
+    <string name="message_time_alarm_free_counter">무료 모드에서는 최대 1개의 알람을 사용할 수 있습니다</string>
+    <string name="message_time_alarm_max_counter">최대 %1$d개의 알람을 사용할 수 있습니다</string>
     <string name="message_time_alarm_enabled">알람 활성</string>
     <string name="message_time_alarm_disabled">알람 비활성</string>
     <string name="message_time_alarm_off">알람 끄기</string>
@@ -242,7 +243,7 @@
     <br>- 전화/배터리 최적화: <app_name/>앱이 최적화하지 않도록 설정합니다.
     <br>- 전화/앱: Bluetooth Share 및 기타 \'Bluetooth\'앱 데이터를 지웁니다.
     <br>- 추가 정보: https://dontkillmyapp.com
-    <br><br><small>This product and its features are not designed for medical purposes, and are not intended to predict, diagnose, prevent, or cure any diseases. All data and measurements are for personal reference only and shall not be used as a basis for diagnosis and treatment.</small>
+    <br><br><small>이 제품 및 기능은 의료 목적을 위해 설계되지 않았으며, 질병을 예측, 진단, 예방 또는 치료하기 위한 것이 아닙니다. 모든 데이터와 측정값은 개인적인 참고용일 뿐이며, 진단이나 치료의 근거로 사용해서는 안 됩니다.</small>
     ]]></string>
 
 
@@ -346,8 +347,8 @@
     <string name="call_contact_edit_setting_first_name">이름</string>
     <string name="call_contact_edit_setting_last_name">성</string>
 
-    <string name="message_call_contacts_free_counter">Up to %1$d contacts can be used in free mode</string> <!-- %1$d = 1, 2 ,3 ... -->
-    <string name="message_call_contacts_max_counter">Up to %1$d contacts can be used</string> <!-- %1$d = 1, 2 ,3 ... -->
+    <string name="message_call_contacts_free_counter">무료 모드에서는 최대 %1$d개의 연락처를 사용할 수 있습니다</string>
+    <string name="message_call_contacts_max_counter">최대 %1$d개의 연락처를 사용할 수 있습니다</string>
 
     <!-- App chooser dialog -->
     <string name="app_chooser">앱 선택기</string>
@@ -431,10 +432,10 @@
     <string name="message_reminder_enabled">리마인더 enabled</string>
     <string name="message_reminder_disabled">Reminder disabled</string>
 
-    <string name="reminder_repeat">시간마다 반복</string>
+    <string name="reminder_repeat">매시간 반복</string>
     <string name="reminder_notification_shade">폰에 알림</string>
 
-    <string name="message_time_reminder_free_counter">Up to 1 reminder can be used in free mode</string>
+    <string name="message_time_reminder_free_counter">무료 모드에서 최대 1개의 알림을 사용할 수 있습니다</string>
 
     <string name="info_dialog_reminder"><![CDATA[
         Bluetooth connection is required to display the reminder.
@@ -522,18 +523,18 @@
     <string name="watch_face_edit_weather_temperature">온도</string>
     <string name="watch_face_edit_weather_temperature_unit_sign">온도 단위 °</string>
     <string name="watch_face_edit_weather_image">날씨 이미지</string>
-    <string name="watch_face_edit_connection_indicator_image">Connection indicator image</string>
+    <string name="watch_face_edit_connection_indicator_image">연결 표시기 이미지</string>
     <string name="watch_face_edit_connected">연결됨</string>
     <string name="watch_face_edit_disconnected">연결 해제됨</string>
     <string name="watch_face_edit_steps">걸음수</string>
     <string name="watch_face_edit_steps_image">단계 이미지</string>
-    <string name="watch_face_edit_steps_goal_progress">Steps goal progress</string>
+    <string name="watch_face_edit_steps_goal_progress">걸음 목표 진행률</string>
     <string name="watch_face_edit_distance">거리</string>
-    <string name="watch_face_edit_distance_image">Distance image</string>
+    <string name="watch_face_edit_distance_image">거리 이미지</string>
     <string name="watch_face_edit_calories">칼로리</string>
     <string name="watch_face_edit_calories_image">칼로리 이미지</string>
     <string name="watch_face_edit_heart_rate">심박수</string>
-    <string name="watch_face_edit_heart_rate_image">Heart rate image</string>
+    <string name="watch_face_edit_heart_rate_image">심박수 이미지</string>
 
     <string name="watch_face_edit_color">색</string>
     <string name="watch_face_edit_font_family">폰트</string>
@@ -732,8 +733,7 @@
 
     <!-- Export -->
     <string name="export_tab_database">데이터 내보내기</string>
-
-    <string name="export_start_date">시작 일자</string>
+    <string name="export_start_date">내보내기 시작 날짜</string>
 
 
     <!-- Theme -->
@@ -748,7 +748,7 @@
 
     <string name="theme_notification_title">알림 창에 상태 표시</string>
 
-    <string name="theme_cat_color_setting">색 </string>
+    <string name="theme_cat_color_setting">색상 설정</string>
 
 
     <!-- Premium mode -->
@@ -767,11 +767,12 @@
     ]]></string>
     <string name="purchase_policy_title">프리미엄 모드 이용 약관</string>
     <string name="purchase_policy"><![CDATA[
-        <p>• 저는 앱의 작동을 확인하였으며 그것은 적절히 작동하고 있습니다.</p>
-        <p>• 저는 제가 버그, 소프트웨어의 변경으로 인한 소프트웨어 오류, 하드웨어 환경 또는 다른 애플리케이션 사용으로 인한 배상이나 환불을 요구할 수 없다는 것을 알고 있습니다.</p>
-        <p>• 모든 판매는 최종적이며 환불될 수 없습니다(Google 환불 정책 제외).</p>
-        <p>• 보장이 포함되어 있지 않습니다.</p>
-        <i>구매 후에는 앱을 다시 시작해야 합니다.</i>
+    <p>• 앱을 테스트했으며 정상적으로 작동합니다.</p>
+    <p>• 소프트웨어 또는 하드웨어 환경의 변경이나 다른 애플리케이션 사용으로 인해 발생하는 버그나 소프트웨어 오류에 대해 보상이나 환불을 요구할 수 없음을 인지하고 있습니다.</p>
+    <p>• 모든 판매는 최종적이며 환불되지 않습니다(단, Google 환불 정책은 예외입니다).</p>
+    <p>• 보증이 포함되어 있지 않습니다.</p>
+    <p>• 이 앱은 사용자의 책임 하에 사용되며, 개발자는 사용으로 인해 발생한 손해나 데이터 손실에 대한 직접적 또는 간접적인 책임을 포함한 모든 추가 보증을 제외합니다.</p>
+    <i>구매 후 앱을 재시작해야 합니다.</i>
     ]]></string>
 
     <string name="purchase_google_play_services_not_available">Google Play 서비스는 사용할 수 없습니다</string>
@@ -814,21 +815,21 @@
 
     <string name="privacy_policy_not_collect_title">수집하지 않는 정보</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>• We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address or MAC address.</p>
-        • We do not collect personal health data, contacts and phone notification texts.
+    <p>• 당사는 귀하에 대한 개인 식별 정보를 수집하지 않습니다. 즉, 이름, 주소, 전화번호, 이메일 주소 또는 MAC 주소와 같은 개인 데이터를 수집하지 않습니다.</p>
+    • 당사는 개인 건강 데이터, 연락처 또는 전화 알림 내용을 수집하지 않습니다.
     ]]></string>
 
-    <string name="privacy_policy_share_title">Information we share</string>
+    <string name="privacy_policy_share_title">공유하는 정보</string>
     <string name="privacy_policy_share"><![CDATA[
-        • We do not share any data with companies or organisations other than Google and advertising providers.
+    • 당사는 Google 및 광고 제공업체를 제외한 회사나 조직과 데이터를 공유하지 않습니다.
     ]]></string>
 
-    <string name="privacy_policy_use_title">Personal and sensitive user data we use</string>
+    <string name="privacy_policy_use_title">사용하는 개인 및 민감한 사용자 데이터</string>
     <string name="privacy_policy_use"><![CDATA[
-        • We use location data to update the weather (optional).
+    • 당사는 위치 데이터를 날씨 정보를 업데이트하는 데만 사용하며, 이 기능을 활성화한 경우에만 사용합니다.
     ]]></string>
 
-    <string name="privacy_policy_links_title">Privacy policy of third party service providers</string>
+    <string name="privacy_policy_links_title">제3자 서비스 제공업체의 개인정보 보호정책</string>
     <string name="privacy_policy_links"><![CDATA[
         <a href="https://policies.google.com/privacy">Google Play Services</a>
         <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
@@ -838,9 +839,9 @@
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">상태</string>
-    <string name="privacy_policy_eu_consent_title_obtained">Consent obtained</string>
-    <string name="privacy_policy_eu_consent_title_personalized">개인화된, 관련있는 광고</string>
-    <string name="privacy_policy_eu_consent_title_non_personalized">관련성이 적은 개인화되지 않은 광고</string>
+    <string name="privacy_policy_eu_consent_title_obtained">동의 획득</string>
+    <string name="privacy_policy_eu_consent_title_personalized">개인화된 관련 광고</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">개인화되지 않은 덜 관련성 높은 광고</string>
     <string name="privacy_policy_eu_consent_title_unknown">알 수 없음</string>
 
     <string name="privacy_policy_eu_consent_setting">설정</string>

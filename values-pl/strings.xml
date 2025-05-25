@@ -71,9 +71,9 @@
     <string name="mi_band_setting_auth_standalone_hint">Aplikacja %1$s nie jest wymagana do działania %3$s. Po sparowaniu odinstaluj aplikację %1$s. Podczas przywracania współpracy %1$s konieczne będzie ponowne sparowanie %2$s w aplikacji %1$s. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
     <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
 
-    <string name="mi_band_setting_auth_key">Klucz uwierzytelniania</string>
-    <string name="mi_band_setting_auth_key_help">Wprowadź dowolne 4 cyfry</string>
-    <string name="mi_band_setting_auth_request">Key request</string>
+    <string name="mi_band_setting_auth_key">Klucz uwierzytelniający</string>
+    <string name="mi_band_setting_auth_key_help">Wprowadź dowolną 4-cyfrową liczbę</string>
+    <string name="mi_band_setting_auth_request">Poproś o klucz</string>
     <string name="mi_band_setting_auth_pair">Sparuj</string>
     <string name="mi_band_setting_auth_unpair">Rozłącz</string>
 
@@ -115,9 +115,9 @@
     <string name="mi_band_setting_birthday">Data urodzenia</string>
     <string name="mi_band_setting_height">Wzrost</string>
     <string name="mi_band_setting_weight">Waga</string>
-    <string name="mi_band_setting_wearing_place">Wearing place</string>
-    <string name="mi_band_setting_wearing_place_left_wrist">Lewy nadgarstek</string>
-    <string name="mi_band_setting_wearing_place_right_wrist">Prawy nadgarstek</string>
+    <string name="mi_band_setting_wearing_place">Miejsce noszenia</string>
+    <string name="mi_band_setting_wearing_place_left_wrist">Lewa ręka</string>
+    <string name="mi_band_setting_wearing_place_right_wrist">Prawa ręka</string>
 
 
     <!-- Battery -->
@@ -195,16 +195,18 @@
 
     <string name="message_app_chooser_no_selected">Wybierz aplikację</string>
 
-    <string name="message_free_counter">Up to %1$,d setting can be used in free mode</string> <!-- %1$,d = 1 or more  -->
+    <string name="message_free_counter">Do 1 ustawienia może być używane w trybie darmowym</string>
+    <string name="message_free_counters">Do %1$,d ustawień może być używanych w trybie darmowym</string>
 
-    <string name="message_notification_free_groups">W trybie normalnym można używać do %1$,d grup</string>
-    <string name="message_notification_free_app">Up to 1 application can be selected in free mode</string>
-    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in free mode</string>   <!-- %1$s = 2 or more  -->
+    <string name="message_notification_free_groups">Do %1$,d grup może być używanych w trybie darmowym</string>
 
-    <string name="message_notification_free_text">Up to 1 text can be recorded in free mode</string>
+    <string name="message_notification_free_app">Do 1 aplikacji może być wybrana w trybie darmowym</string>
+    <string name="message_notification_free_apps">Do %1$,d aplikacji może być wybranych w trybie darmowym</string>
 
-    <string name="message_time_alarm_free_counter">W trybie normalnym można użyć maksymalnie 1 alarmów</string>
-    <string name="message_time_alarm_max_counter">Można użyć maksymalnie %1$d alarmów</string>
+    <string name="message_notification_free_text">Do 1 tekstu może być nagrany w trybie darmowym</string>
+
+    <string name="message_time_alarm_free_counter">Do 1 alarmu może być używany w trybie darmowym</string>
+    <string name="message_time_alarm_max_counter">Do %1$d alarmów może być używanych</string>
     <string name="message_time_alarm_enabled">Alarm włączony</string>
     <string name="message_time_alarm_disabled">Alarm wyłączony</string>
     <string name="message_time_alarm_off">Alarm wyłączony</string>
@@ -242,7 +244,7 @@
     <br>- Optymalizacja telefonu/baterii: ustaw aplikację <app_name/> na niezoptymalizowaną
     <br>- Telefon/aplikacje: wyczyść dane udostępniania Bluetooth i inne aplikacje \'Bluetooth\'
     <br>- Więcej informacji: https://dontkillmyapp.com
-    <br><br><small>This product and its features are not designed for medical purposes, and are not intended to predict, diagnose, prevent, or cure any diseases. All data and measurements are for personal reference only and shall not be used as a basis for diagnosis and treatment.</small>
+    <br><br><small>Ten produkt i jego funkcje nie są przeznaczone do celów medycznych i nie mają na celu przewidywania, diagnozowania, zapobiegania ani leczenia jakichkolwiek chorób. Wszystkie dane i pomiary służą wyłącznie do osobistego użytku i nie powinny być wykorzystywane jako podstawa do diagnozy lub leczenia.</small>
     ]]></string>
 
 
@@ -346,8 +348,8 @@
     <string name="call_contact_edit_setting_first_name">Imię</string>
     <string name="call_contact_edit_setting_last_name">Nazwisko</string>
 
-    <string name="message_call_contacts_free_counter">Up to %1$d contacts can be used in free mode</string> <!-- %1$d = 1, 2 ,3 ... -->
-    <string name="message_call_contacts_max_counter">Up to %1$d contacts can be used</string> <!-- %1$d = 1, 2 ,3 ... -->
+    <string name="message_call_contacts_free_counter">Do %1$d kontaktów można używać w trybie darmowym</string>
+    <string name="message_call_contacts_max_counter">Do %1$d kontaktów można używać</string>
 
     <!-- App chooser dialog -->
     <string name="app_chooser">Wybór aplikacji</string>
@@ -431,10 +433,10 @@
     <string name="message_reminder_enabled">Przypomnienie jest włączone</string>
     <string name="message_reminder_disabled">Przypomnienie wyłączone</string>
 
-    <string name="reminder_repeat">Powtarzanie godzinowe</string>
+    <string name="reminder_repeat">Powtarzanie co godzinę</string>
     <string name="reminder_notification_shade">Powiadamiaj na telefonie</string>
 
-    <string name="message_time_reminder_free_counter">Up to 1 reminder can be used in free mode</string>
+    <string name="message_time_reminder_free_counter">Do 1 przypomnienia można używać w trybie bezpłatnym</string>
 
     <string name="info_dialog_reminder"><![CDATA[
         >Połączenie Bluetooth jest wymagane do wyświetlenia przypomnienia.
@@ -522,18 +524,18 @@
     <string name="watch_face_edit_weather_temperature">Temperatura</string>
     <string name="watch_face_edit_weather_temperature_unit_sign">Jednostka temperatury °</string>
     <string name="watch_face_edit_weather_image">Obraz pogody</string>
-    <string name="watch_face_edit_connection_indicator_image">Connection indicator image</string>
+    <string name="watch_face_edit_connection_indicator_image">Obraz wskaźnika połączenia</string>
     <string name="watch_face_edit_connected">Połączony</string>
     <string name="watch_face_edit_disconnected">Rozłączony</string>
     <string name="watch_face_edit_steps">Kroki</string>
     <string name="watch_face_edit_steps_image">Obraz kroków</string>
-    <string name="watch_face_edit_steps_goal_progress">Steps goal progress</string>
+    <string name="watch_face_edit_steps_goal_progress">Postęp celu kroków</string>
     <string name="watch_face_edit_distance">Dystans</string>
-    <string name="watch_face_edit_distance_image">Distance image</string>
+    <string name="watch_face_edit_distance_image">Obraz dystansu</string>
     <string name="watch_face_edit_calories">Kalorie</string>
     <string name="watch_face_edit_calories_image">Obraz kalorii</string>
     <string name="watch_face_edit_heart_rate">Tętno</string>
-    <string name="watch_face_edit_heart_rate_image">Heart rate image</string>
+    <string name="watch_face_edit_heart_rate_image">Obraz tętna</string>
 
     <string name="watch_face_edit_color">Kolor</string>
     <string name="watch_face_edit_font_family">Czcionka</string>
@@ -731,9 +733,8 @@
 
 
     <!-- Export -->
-    <string name="export_tab_database">Data export</string>
-
-    <string name="export_start_date">Starting date</string>
+    <string name="export_tab_database">Eksport danych</string>
+    <string name="export_start_date">Data rozpoczęcia eksportu</string>
 
 
     <!-- Theme -->
@@ -748,7 +749,7 @@
 
     <string name="theme_notification_title">Pokaż status w obszarze powiadomień</string>
 
-    <string name="theme_cat_color_setting">Color setting</string>
+    <string name="theme_cat_color_setting">Ustawienia kolorów</string>
 
 
     <!-- Premium mode -->
@@ -765,13 +766,14 @@
         <p>• detailed daily graphs</p>
         • removing other restrictions…
     ]]></string>
-    <string name="purchase_policy_title">Warunki korzystania z trybu Premium</string>
+    <string name="purchase_policy_title">Warunki trybu Premium</string>
     <string name="purchase_policy"><![CDATA[
-        <p>• Przetestowałem aplikację i działa ona prawidłowo.</p>
-        <p>• Mam świadomość, że nie mogę żądać odszkodowania lub zwrotu kosztów z powodu błędów, błędów oprogramowania spowodowanych zmianami w oprogramowaniu, środowisku sprzętowym lub korzystaniem z innych aplikacji.</p>
-        <p>• Wszystkie transakcje sprzedaży są ostateczne i nie można uzyskać zwrotu pieniędzy (z wyjątkiem zasad Google dotyczących zwrotów).</p>
-        <p>• Nie obejmuje gwarancji.</p>
-        <i>Po zakupie musisz ponownie uruchomić aplikację.</i>
+    <p>• Przetestowałem aplikację i działa poprawnie.</p>
+    <p>• Jestem świadomy, że nie mogę żądać odszkodowania ani zwrotu z powodu błędów spowodowanych zmianami w środowisku oprogramowania lub sprzętu lub korzystaniem z innych aplikacji.</p>
+    <p>• Wszystkie sprzedaże są ostateczne i nie podlegają zwrotowi (z wyjątkiem polityki zwrotów Google).</p>
+    <p>• Nie jest udzielana żadna gwarancja.</p>
+    <p>• Ta aplikacja jest używana na własne ryzyko, a deweloper wyłącza wszelkie dodatkowe gwarancje, w tym jakąkolwiek bezpośrednią lub pośrednią odpowiedzialność za szkody lub utratę danych wynikające z jej używania.</p>
+    <i>Po zakupie należy ponownie uruchomić aplikację.</i>
     ]]></string>
 
     <string name="purchase_google_play_services_not_available">Usługi Google Play nie są dostępne</string>
@@ -812,23 +814,23 @@
         • We collect location data to update the weather based on your current location (optional).
     ]]></string>
 
-    <string name="privacy_policy_not_collect_title">Informacje, których nie gromadzimy</string>
+    <string name="privacy_policy_not_collect_title">Informacje, których nie zbieramy</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>• Nie gromadzimy danych osobowych umożliwiających identyfikację użytkownika. Innymi słowy, nie zbieramy informacji, takich jak imię i nazwisko, adres, numer telefonu, adres e-mail lub adres MAC.</p>
-        • Nie gromadzimy danych dotyczących zdrowia osobistego, kontaktów ani tekstu powiadomienia telefonicznego.
+    <p>• Nie zbieramy danych osobowych umożliwiających identyfikację użytkownika. Oznacza to, że nie zbieramy na przykład danych takich jak imię i nazwisko, adres, numer telefonu, adres e-mail czy adres MAC.</p>
+    • Nie zbieramy danych dotyczących zdrowia, kontaktów ani treści powiadomień telefonicznych.
     ]]></string>
 
-    <string name="privacy_policy_share_title">Information we share</string>
+    <string name="privacy_policy_share_title">Informacje, które udostępniamy</string>
     <string name="privacy_policy_share"><![CDATA[
-        • We do not share any data with companies or organisations other than Google and advertising providers.
+    • Nie udostępniamy żadnych danych firmom ani organizacjom innym niż Google i dostawcy reklam.
     ]]></string>
 
-    <string name="privacy_policy_use_title">Personal and sensitive user data we use</string>
+    <string name="privacy_policy_use_title">Dane osobowe i wrażliwe, które wykorzystujemy</string>
     <string name="privacy_policy_use"><![CDATA[
-        • We use location data to update the weather (optional).
+    • Używamy danych o lokalizacji wyłącznie do aktualizacji informacji o pogodzie i tylko wtedy, gdy użytkownik włączy tę funkcję.
     ]]></string>
 
-    <string name="privacy_policy_links_title">Polityka prywatności zewnętrznych dostawców usług</string>
+    <string name="privacy_policy_links_title">Polityka prywatności dostawców usług zewnętrznych</string>
     <string name="privacy_policy_links"><![CDATA[
         <a href="https://policies.google.com/privacy">Google Play Services</a>
         <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
@@ -838,9 +840,9 @@
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Status</string>
-    <string name="privacy_policy_eu_consent_title_obtained">Consent obtained</string>
+    <string name="privacy_policy_eu_consent_title_obtained">Zgoda uzyskana</string>
     <string name="privacy_policy_eu_consent_title_personalized">Spersonalizowane, trafne reklamy</string>
-    <string name="privacy_policy_eu_consent_title_non_personalized">Reklamy niespersonalizowane, które są mniej trafne</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Niespersonalizowane reklamy o mniejszej trafności</string>
     <string name="privacy_policy_eu_consent_title_unknown">Nieznany</string>
 
     <string name="privacy_policy_eu_consent_setting">Ustawienia</string>

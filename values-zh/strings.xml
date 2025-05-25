@@ -71,11 +71,11 @@
     <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the %3$s to work. After the pairing, uninstall the %1$s app or unpair the smartwatch. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted.  The %2$s screen must be turned on while performing operations.</string>
     <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
 
-    <string name="mi_band_setting_auth_key">Authentication key</string>
-    <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
-    <string name="mi_band_setting_auth_request">Key request</string>
-    <string name="mi_band_setting_auth_pair">绑定</string>
-    <string name="mi_band_setting_auth_unpair">解除绑定</string>
+    <string name="mi_band_setting_auth_key">认证密钥</string>
+    <string name="mi_band_setting_auth_key_help">请输入任意4位数字</string>
+    <string name="mi_band_setting_auth_request">请求密钥</string>
+    <string name="mi_band_setting_auth_pair">配对</string>
+    <string name="mi_band_setting_auth_unpair">取消配对</string>
 
     <string name="message_auth_request">It is paired, if you do not know the key, use the unpair</string>
 
@@ -115,7 +115,7 @@
     <string name="mi_band_setting_birthday">出生年月</string>
     <string name="mi_band_setting_height">身高</string>
     <string name="mi_band_setting_weight">体重</string>
-    <string name="mi_band_setting_wearing_place">Wearing place</string>
+    <string name="mi_band_setting_wearing_place">佩戴位置</string>
     <string name="mi_band_setting_wearing_place_left_wrist">左手</string>
     <string name="mi_band_setting_wearing_place_right_wrist">右手</string>
 
@@ -195,17 +195,18 @@
 
     <string name="message_app_chooser_no_selected">选择应用</string>
 
-    <string name="message_free_counter">Up to %1$,d setting can be used in free mode</string> <!-- %1$,d = 1 or more  -->
+    <string name="message_free_counter">免费模式下最多可使用 1 个设置</string>
+    <string name="message_free_counters">免费模式下最多可使用 %1$,d 个设置</string>
 
-    <string name="message_notification_free_groups">最多 %1$,d 组可以在普通模式下使用</string>
-    <string name="message_notification_free_app">Up to 1 application can be selected in free mode</string>
-    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in free mode</string>   <!-- %1$s = 2 or more  -->
+    <string name="message_notification_free_groups">免费模式下最多可使用 %1$,d 个群组</string>
 
-    <string name="message_notification_free_text">Up to 1 text can be recorded in free mode</string>
+    <string name="message_notification_free_app">免费模式下最多可选择 1 个应用程序</string>
+    <string name="message_notification_free_apps">免费模式下最多可选择 %1$,d 个应用程序</string>
 
-    <string name="message_time_alarm_free_counter">普通模式下最多可使用1个闹钟</string>
-    <string name="message_time_alarm_max_counter">最多可使用%1$d个闹钟</string>
-    <string name="message_time_alarm_enabled">开启闹钟</string>
+    <string name="message_notification_free_text">免费模式下最多可记录 1 条文本</string>
+
+    <string name="message_time_alarm_free_counter">免费模式下最多可使用 1 个闹钟</string>
+    <string name="message_time_alarm_max_counter">最多可使用 %1$d 个闹钟</string>
     <string name="message_time_alarm_disabled">禁用闹钟</string>
     <string name="message_time_alarm_off">关闭闹钟</string>
 
@@ -242,7 +243,7 @@
     <br>- Phone/battery optimization: set <app_name/> app to not optimized.
     <br>- Phone/apps: clear Bluetooth Share and other \'Bluetooth\' apps data.
     <br>- 更多信息: https://dontkillmyapp.com
-    <br><br><small>This product and its features are not designed for medical purposes, and are not intended to predict, diagnose, prevent, or cure any diseases. All data and measurements are for personal reference only and shall not be used as a basis for diagnosis and treatment.</small>
+    <br><br><small>本产品及其功能并非为医疗目的而设计，不用于预测、诊断、预防或治疗任何疾病。所有数据和测量仅供个人参考，不应作为诊断或治疗的依据。</small>
     ]]></string>
 
 
@@ -345,8 +346,8 @@
     <string name="call_contact_edit_setting_first_name">名</string>
     <string name="call_contact_edit_setting_last_name">姓</string>
 
-    <string name="message_call_contacts_free_counter">Up to %1$d contacts can be used in free mode</string> <!-- %1$d = 1, 2 ,3 ... -->
-    <string name="message_call_contacts_max_counter">Up to %1$d contacts can be used</string> <!-- %1$d = 1, 2 ,3 ... -->
+    <string name="message_call_contacts_free_counter">免费模式下最多可使用 %1$d 个联系人</string>
+    <string name="message_call_contacts_max_counter">最多可使用 %1$d 个联系人</string>
 
     <!-- App chooser dialog -->
     <string name="app_chooser">选择应用</string>
@@ -430,10 +431,10 @@
     <string name="message_reminder_enabled">提醒已启用</string>
     <string name="message_reminder_disabled">提醒已禁用</string>
 
-    <string name="reminder_repeat">Hourly repetition</string>
+    <string name="reminder_repeat">每小时重复</string>
     <string name="reminder_notification_shade">在手机上通知</string>
 
-    <string name="message_time_reminder_free_counter">Up to 1 reminder can be used in free mode</string>
+    <string name="message_time_reminder_free_counter">免费模式下最多可使用1个提醒</string>
 
     <string name="info_dialog_reminder"><![CDATA[
         显示提醒需要蓝牙连接
@@ -521,17 +522,18 @@
     <string name="watch_face_edit_weather_temperature">温度</string>
     <string name="watch_face_edit_weather_temperature_unit_sign">温度单位 °</string>
     <string name="watch_face_edit_weather_image">天气图片</string>
-    <string name="watch_face_edit_connection_indicator_image">Connection indicator image</string>
+    <string name="watch_face_edit_connection_indicator_image">连接指示器图像</string>
     <string name="watch_face_edit_connected">已连接</string>
     <string name="watch_face_edit_disconnected">断开连接</string>
     <string name="watch_face_edit_steps">步数</string>
     <string name="watch_face_edit_steps_image">步骤图片</string>
+    <string name="watch_face_edit_steps_goal_progress">步数目标进度</string>
     <string name="watch_face_edit_distance">距离</string>
-    <string name="watch_face_edit_distance_image">Distance image</string>
+    <string name="watch_face_edit_distance_image">距离图像</string>
     <string name="watch_face_edit_calories">卡路里</string>
-    <string name="watch_face_edit_calories_image">卡路里图片</string>
+    <string name="watch_face_edit_calories_image">卡路里图像</string>
     <string name="watch_face_edit_heart_rate">心率</string>
-    <string name="watch_face_edit_heart_rate_image">Heart rate image</string>
+    <string name="watch_face_edit_heart_rate_image">心率图像</string>
 
     <string name="watch_face_edit_color">颜色</string>
     <string name="watch_face_edit_font_family">字形</string>
@@ -729,9 +731,8 @@
 
 
     <!-- Export -->
-    <string name="export_tab_database">Data export</string>
-
-    <string name="export_start_date">Starting date</string>
+    <string name="export_tab_database">数据导出</string>
+    <string name="export_start_date">导出开始日期</string>
 
 
     <!-- Theme -->
@@ -746,7 +747,7 @@
 
     <string name="theme_notification_title">在通知栏显示状态</string>
 
-    <string name="theme_cat_color_setting">Color setting</string>
+    <string name="theme_cat_color_setting">颜色设置</string>
 
 
     <!-- Premium mode -->
@@ -765,11 +766,12 @@
     ]]></string>
     <string name="purchase_policy_title">高级模式的条款和条件</string>
     <string name="purchase_policy"><![CDATA[
-        <p>• 我测试应用能正常工作.</p>
-        <p>• 由于软件硬件或其他应用等使用环境引起的变化可能会导致的错误和问题，我不会要求退款或赔偿.</p>
-        <p>• 购买后无法退款(google退款政策除外).</p>
-        <p>• 不包括保修.</p>
-        <i>购买后你可能需要重启应用.</i>
+    <p>• 我已经测试了该应用程序，并确认其正常运行。</p>
+    <p>• 我明白，由于软件或硬件环境的变化或使用其他应用程序而导致的错误或故障，我无权要求赔偿或退款。</p>
+    <p>• 所有销售均为最终决定，不可退款（除非符合 Google 的退款政策）。</p>
+    <p>• 不包括任何保修。</p>
+    <p>• 使用本应用程序需自行承担风险，开发者不承担因使用该应用程序而导致的任何直接或间接的损害或数据丢失的责任。</p>
+    <i>购买后需要重新启动应用程序。</i>
     ]]></string>
 
     <string name="purchase_google_play_services_not_available">谷歌游戏服务不可用</string>
@@ -810,23 +812,23 @@
         • We collect location data to update the weather based on your current location (optional).
     ]]></string>
 
-    <string name="privacy_policy_not_collect_title">我们不收集以下信息</string>
+    <string name="privacy_policy_not_collect_title">我们不收集的信息</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>• 我们不会收集你的个人信息.换句话说,我们不会收集你的名字,住址,手机号,邮箱地址 MAC 地址.</p>
-        • 我们不会收集你的个人健康数据,短信和手机通知内容.
+    <p>• 我们不收集可识别您身份的个人信息。这意味着我们不会收集，例如，您的姓名、地址、电话号码、电子邮件地址或MAC地址等个人数据。</p>
+    • 我们不收集个人健康数据、联系人或手机通知的内容。
     ]]></string>
 
-    <string name="privacy_policy_share_title">Information we share</string>
+    <string name="privacy_policy_share_title">我们共享的信息</string>
     <string name="privacy_policy_share"><![CDATA[
-        • We do not share any data with companies or organisations other than Google and advertising providers.
+    • 除了Google和广告提供商之外，我们不会与其他公司或组织共享任何数据。
     ]]></string>
 
-    <string name="privacy_policy_use_title">Personal and sensitive user data we use</string>
+    <string name="privacy_policy_use_title">我们使用的个人和敏感用户数据</string>
     <string name="privacy_policy_use"><![CDATA[
-        • We use location data to update the weather (optional).
+    • 我们仅在您启用此功能的情况下使用位置信息来更新天气信息。
     ]]></string>
 
-    <string name="privacy_policy_links_title">Privacy policy of third party service providers</string>
+    <string name="privacy_policy_links_title">第三方服务提供商的隐私政策</string>
     <string name="privacy_policy_links"><![CDATA[
         <a href="https://policies.google.com/privacy">Google Play Services</a>
         <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
@@ -836,9 +838,9 @@
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">状态</string>
-    <string name="privacy_policy_eu_consent_title_obtained">Consent obtained</string>
-    <string name="privacy_policy_eu_consent_title_personalized">关联个人的广告</string>
-    <string name="privacy_policy_eu_consent_title_non_personalized">不关联个人的广告</string>
+    <string name="privacy_policy_eu_consent_title_obtained">已获得同意</string>
+    <string name="privacy_policy_eu_consent_title_personalized">个性化且相关的广告</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">非个性化且相关性较低的广告</string>
     <string name="privacy_policy_eu_consent_title_unknown">未知</string>
 
     <string name="privacy_policy_eu_consent_setting">设置</string>

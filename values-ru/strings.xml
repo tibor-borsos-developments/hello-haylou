@@ -72,10 +72,10 @@
     <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
 
     <string name="mi_band_setting_auth_key">Ключ аутентификации</string>
-    <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
+    <string name="mi_band_setting_auth_key_help">Введите любую 4-значную цифру</string>
     <string name="mi_band_setting_auth_request">Запросить ключ</string>
-    <string name="mi_band_setting_auth_pair">Подключить</string>
-    <string name="mi_band_setting_auth_unpair">Отключить</string>
+    <string name="mi_band_setting_auth_pair">Сопряжение</string>
+    <string name="mi_band_setting_auth_unpair">Разъединить</string>
 
     <string name="message_auth_request">Уже подключено, если вы не знаете ключ, нажмите кнопку отключить</string>
 
@@ -115,9 +115,10 @@
     <string name="mi_band_setting_birthday">Дата рождения</string>
     <string name="mi_band_setting_height">Рост</string>
     <string name="mi_band_setting_weight">Вес</string>
-    <string name="mi_band_setting_wearing_place">Wearing place</string>
-    <string name="mi_band_setting_wearing_place_left_wrist">Левое запястье</string>
-    <string name="mi_band_setting_wearing_place_right_wrist">Правое запястье</string>
+    <string name="mi_band_setting_wearing_place">Место ношения</string>
+    <string name="mi_band_setting_wearing_place_left_wrist">Левая рука</string>
+    <string name="mi_band_setting_wearing_place_right_wrist">Правая рука</string>
+
 
     <!-- Battery -->
     <string name="battery_details">История батареи</string>
@@ -194,16 +195,18 @@
 
     <string name="message_app_chooser_no_selected">Выберете приложение</string>
 
-    <string name="message_free_counter">В бесплатном режиме можно использовать только %1$,d настройку</string> <!-- %1$,d = 1 or more  -->
+    <string name="message_free_counter">До 1 настройки может быть использовано в бесплатном режиме</string>
+    <string name="message_free_counters">До %1$,d настроек могут быть использованы в бесплатном режиме</string>
 
-    <string name="message_notification_free_groups">В бесплатном режиме можно создать только %1$,d группы</string>
-    <string name="message_notification_free_app">В бесплатном режиме можно выбрать только 1 приложение</string>
-    <string name="message_notification_free_apps">В бесплатном режиме можно выбрать только %1$,d приложения</string>   <!-- %1$s = 2 or more  -->
+    <string name="message_notification_free_groups">До %1$,d групп могут быть использованы в бесплатном режиме</string>
 
-    <string name="message_notification_free_text">В бесплатном режиме можно записать только 1 текстовое выражение</string>
+    <string name="message_notification_free_app">До 1 приложения может быть выбрано в бесплатном режиме</string>
+    <string name="message_notification_free_apps">До %1$,d приложений могут быть выбраны в бесплатном режиме</string>
 
-    <string name="message_time_alarm_free_counter">В бесплатном режиме можно установить только 1 будильник</string>
-    <string name="message_time_alarm_max_counter">Может быть установлено не более %1$d будильников</string>
+    <string name="message_notification_free_text">До 1 текста может быть записано в бесплатном режиме</string>
+
+    <string name="message_time_alarm_free_counter">До 1 будильника может быть использовано в бесплатном режиме</string>
+    <string name="message_time_alarm_max_counter">До %1$d будильников могут быть использованы</string>
     <string name="message_time_alarm_enabled">Будильник включён</string>
     <string name="message_time_alarm_disabled">Будильник отключён</string>
     <string name="message_time_alarm_off">Будильник выключен</string>
@@ -241,7 +244,7 @@
     <br>- Отключите для <app_name/> оптимизацию энергопотребления в настройках аккумулятора/энергосбережения
     <br>- Удалите сопряжение в приложении Bluetooth и очистите его данные
     <br>- Дополнительная информация: https://dontkillmyapp.com
-    <br><br><small>This product and its features are not designed for medical purposes, and are not intended to predict, diagnose, prevent, or cure any diseases. All data and measurements are for personal reference only and shall not be used as a basis for diagnosis and treatment.</small>
+    <br><br><small>Этот продукт и его функции не предназначены для медицинских целей и не предназначены для прогнозирования, диагностики, предотвращения или лечения каких-либо заболеваний. Все данные и измерения предназначены только для личного использования и не должны использоваться в качестве основы для диагностики или лечения.</small>
     ]]></string>
 
 
@@ -345,8 +348,8 @@
     <string name="call_contact_edit_setting_first_name">Имя</string>
     <string name="call_contact_edit_setting_last_name">Фамилия</string>
 
-    <string name="message_call_contacts_free_counter">Up to %1$d contacts can be used in free mode</string> <!-- %1$d = 1, 2 ,3 ... -->
-    <string name="message_call_contacts_max_counter">Up to %1$d contacts can be used</string> <!-- %1$d = 1, 2 ,3 ... -->
+    <string name="message_call_contacts_free_counter">До %1$d контактов можно использовать в бесплатном режиме</string>
+    <string name="message_call_contacts_max_counter">До %1$d контактов можно использовать</string>
 
     <!-- App chooser dialog -->
     <string name="app_chooser">Выбор приложения</string>
@@ -433,7 +436,7 @@
     <string name="reminder_repeat">Напоминать каждый час</string>
     <string name="reminder_notification_shade">Уведомление на устройстве</string>
 
-    <string name="message_time_reminder_free_counter">В бесплатной версии можно использовать только 1 напоминание</string>
+    <string name="message_time_reminder_free_counter">В бесплатном режиме можно использовать до 1 напоминания</string>
 
     <string name="info_dialog_reminder"><![CDATA[
         Для отображения напоминаний на часах необходимо, чтобы часы были cопряжены по Bluetooth с телефоном.
@@ -526,7 +529,7 @@
     <string name="watch_face_edit_disconnected">Отключен</string>
     <string name="watch_face_edit_steps">Шаги</string>
     <string name="watch_face_edit_steps_image">Изображение шагов</string>
-    <string name="watch_face_edit_steps_goal_progress">Steps goal progress</string>
+    <string name="watch_face_edit_steps_goal_progress">Прогресс цели шагов</string>
     <string name="watch_face_edit_distance">Расстояние</string>
     <string name="watch_face_edit_distance_image">Изображение расстояния</string>
     <string name="watch_face_edit_calories">Калории</string>
@@ -731,8 +734,7 @@
 
     <!-- Export -->
     <string name="export_tab_database">Экспорт данных</string>
-
-    <string name="export_start_date">Выберите дату начала</string>
+    <string name="export_start_date">Дата начала экспорта</string>
 
 
     <!-- Theme -->
@@ -764,13 +766,14 @@
         <p>• подробные ежедневные графики</p>
         • снятие других ограничений…
     ]]></string>
-    <string name="purchase_policy_title">Правила и условия премиума</string>
+    <string name="purchase_policy_title">Условия и положения премиум-режима</string>
     <string name="purchase_policy"><![CDATA[
-        <p>• Вы протестировали приложение и уверены, что оно работает правильно.</p>
-        <p>• Вы предупреждены, что не можете требовать возмещения средств из-за багов, ошибок приложения, вызванных изменениями в приложении, вашими устройствами или другими приложениями.</p>
-        <p>• Все покупки окончательны и возврату не подлежат (кроме возврата от Google Play).</p>
-        <p>• Гарантия не предоставляется.</p>
-        <i>После покупки перезагрузите приложение.</i>
+    <p>• Я протестировал(а) приложение, и оно работает корректно.</p>
+    <p>• Я осознаю, что не могу требовать компенсацию или возврат средств из-за ошибок, вызванных изменениями программной или аппаратной среды, либо использованием других приложений.</p>
+    <p>• Все продажи являются окончательными и не подлежат возврату (за исключением политики возврата Google).</p>
+    <p>• Гарантия не предоставляется.</p>
+    <p>• Использование приложения осуществляется на ваш страх и риск. Разработчик отказывается от всех дополнительных гарантий, включая любую прямую или косвенную ответственность за ущерб или потерю данных в результате использования.</p>
+    <i>После покупки необходимо перезапустить приложение.</i>
     ]]></string>
 
     <string name="purchase_google_play_services_not_available">Службы Google Play недоступны</string>
@@ -811,23 +814,23 @@
         • Мы собираем данные о местоположении для обновления погоды на основе вашего текущего местоположения (необязательно).
     ]]></string>
 
-    <string name="privacy_policy_not_collect_title">Информация, не собираемая нами</string>
+    <string name="privacy_policy_not_collect_title">Информация, которую мы не собираем</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>• Мы не собираем ваши персональные данные, способные вас идентифицировать. Другими словами мы не собираем такую информацию, как ваше имя, адрес, номер телефона, адрес электронной почты или MAC адреса.</p>
-        • Мы не собираем информацию о вашем здоровье, контактах и тексте уведомлений.
+    <p>• Мы не собираем персональную информацию, позволяющую идентифицировать вас. Это означает, что мы не собираем, например, такие персональные данные, как ваше имя, адрес, номер телефона, адрес электронной почты или MAC-адрес.</p>
+    • Мы не собираем персональные данные о здоровье, контакты или содержимое уведомлений на телефоне.
     ]]></string>
 
-    <string name="privacy_policy_share_title">Информация, которой мы делимся</string>
+    <string name="privacy_policy_share_title">Информация, которую мы передаем</string>
     <string name="privacy_policy_share"><![CDATA[
-        • Мы не передаем никаких данных другим компаниям и организациям, кроме Google.
+    • Мы не передаем никакие данные компаниям или организациям, кроме Google и поставщиков рекламы.
     ]]></string>
 
-    <string name="privacy_policy_use_title">Личные и конфиденциальные данные пользователей, которые мы используем</string>
+    <string name="privacy_policy_use_title">Персональные и конфиденциальные данные пользователя, которые мы используем</string>
     <string name="privacy_policy_use"><![CDATA[
-        • Мы используем данные о местоположении для обновления погоды (необязательно).
+    • Мы используем данные о местоположении только для обновления информации о погоде и только в случае, если вы включите эту функцию.
     ]]></string>
 
-    <string name="privacy_policy_links_title">Политика конфиденциальности сторонних сервисов</string>
+    <string name="privacy_policy_links_title">Политика конфиденциальности сторонних поставщиков услуг</string>
     <string name="privacy_policy_links"><![CDATA[
         <a href="https://policies.google.com/privacy">Google Play Services</a>
         <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
@@ -837,9 +840,9 @@
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Статус</string>
-    <string name="privacy_policy_eu_consent_title_obtained">Consent obtained</string>
-    <string name="privacy_policy_eu_consent_title_personalized">Персонализированная реклама</string>
-    <string name="privacy_policy_eu_consent_title_non_personalized">Не персонализированная реклама, менее точна</string>
+    <string name="privacy_policy_eu_consent_title_obtained">Согласие получено</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Персонализированная, релевантная реклама</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Неперсонализированная, менее релевантная реклама</string>
     <string name="privacy_policy_eu_consent_title_unknown">Неизвестно</string>
 
     <string name="privacy_policy_eu_consent_setting">Настройки</string>

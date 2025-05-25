@@ -71,11 +71,11 @@
     <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the %3$s to work. After the pairing, uninstall the %1$s app or unpair the smartwatch. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
     <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
 
-    <string name="mi_band_setting_auth_key">Authentication key</string>
-    <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
-    <string name="mi_band_setting_auth_request">Key request</string>
-    <string name="mi_band_setting_auth_pair">Pair</string>
-    <string name="mi_band_setting_auth_unpair">Unpair</string>
+    <string name="mi_band_setting_auth_key">Autentiseringsnøkkel</string>
+    <string name="mi_band_setting_auth_key_help">Skriv inn et valgfritt 4-sifret tall</string>
+    <string name="mi_band_setting_auth_request">Be om nøkkel</string>
+    <string name="mi_band_setting_auth_pair">Par</string>
+    <string name="mi_band_setting_auth_unpair">Fjern paring</string>
 
     <string name="message_auth_request">It is paired, if you do not know the key, use the unpair</string>
 
@@ -115,9 +115,10 @@
     <string name="mi_band_setting_birthday">Fødselsdato</string>
     <string name="mi_band_setting_height">Høyde</string>
     <string name="mi_band_setting_weight">Vekt</string>
-    <string name="mi_band_setting_wearing_place">Wearing place</string>
-    <string name="mi_band_setting_wearing_place_left_wrist">Venstre håndledd</string>
+    <string name="mi_band_setting_wearing_place">Brukssted</string>
+    <string name="mi_band_setting_wearing_place_left_wrist">Venstre hånd</string>
     <string name="mi_band_setting_wearing_place_right_wrist">Høyre hånd</string>
+
 
     <!-- Battery -->
     <string name="battery_details">Batteri detaljer</string>
@@ -194,16 +195,18 @@
 
     <string name="message_app_chooser_no_selected">Velg en applikasjon</string>
 
-    <string name="message_free_counter">Up to %1$,d setting can be used in free mode</string> <!-- %1$,d = 1 or more  -->
+    <string name="message_free_counter">Opptil 1 innstilling kan brukes i gratis modus</string>
+    <string name="message_free_counters">Opptil %1$,d innstillinger kan brukes i gratis modus</string>
 
-    <string name="message_notification_free_groups">Opp til %1$,d grupper kan bli brukt i normal modus</string>
-    <string name="message_notification_free_app">Up to 1 application can be selected in free mode</string>
-    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in free mode</string>   <!-- %1$s = 2 or more  -->
+    <string name="message_notification_free_groups">Opptil %1$,d grupper kan brukes i gratis modus</string>
 
-    <string name="message_notification_free_text">Up to 1 text can be recorded in free mode</string>
+    <string name="message_notification_free_app">Opptil 1 applikasjon kan velges i gratis modus</string>
+    <string name="message_notification_free_apps">Opptil %1$,d applikasjoner kan velges i gratis modus</string>
 
-    <string name="message_time_alarm_free_counter">Opp til 1 alarmer kan bli brukt i normal modus</string>
-    <string name="message_time_alarm_max_counter">Maximum %1$d alarmer kan bli brukt</string>
+    <string name="message_notification_free_text">Opptil 1 tekst kan registreres i gratis modus</string>
+
+    <string name="message_time_alarm_free_counter">Opptil 1 alarm kan brukes i gratis modus</string>
+    <string name="message_time_alarm_max_counter">Opptil %1$d alarmer kan brukes</string>
     <string name="message_time_alarm_enabled">Alarm aktivert</string>
     <string name="message_time_alarm_disabled">Alarm deaktivert</string>
     <string name="message_time_alarm_off">Alarm av</string>
@@ -241,7 +244,7 @@
     <br>- Telefon/batteri optimalisering: sett <app_name/> app til å ikke bli optimalisert.
     <br>- Telefon/apper: rens Bluetooth Deling og andre \'Bluetooth\' app data.
     <br>- Mer informasjon: https://dontkillmyapp.com
-    <br><br><small>This product and its features are not designed for medical purposes, and are not intended to predict, diagnose, prevent, or cure any diseases. All data and measurements are for personal reference only and shall not be used as a basis for diagnosis and treatment.</small>
+    <br><br><small>Dette produktet og dets funksjoner er ikke designet for medisinske formål og er ikke ment å forutsi, diagnostisere, forhindre eller kurere noen sykdommer. Alle data og målinger er kun for personlig referanse og skal ikke brukes som grunnlag for diagnose eller behandling.</small>
     ]]></string>
 
 
@@ -345,8 +348,8 @@
     <string name="call_contact_edit_setting_first_name">Fornavn</string>
     <string name="call_contact_edit_setting_last_name">Etternavn</string>
 
-    <string name="message_call_contacts_free_counter">Up to %1$d contacts can be used in free mode</string> <!-- %1$d = 1, 2 ,3 ... -->
-    <string name="message_call_contacts_max_counter">Up to %1$d contacts can be used</string> <!-- %1$d = 1, 2 ,3 ... -->
+    <string name="message_call_contacts_free_counter">Opptil %1$d kontakter kan brukes i gratis modus</string>
+    <string name="message_call_contacts_max_counter">Opptil %1$d kontakter kan brukes</string>
 
     <!-- MiBandage App-velger dialog -->
     <string name="app_chooser">App-velger</string>
@@ -430,10 +433,10 @@
     <string name="message_reminder_enabled">Påminnelse aktivert</string>
     <string name="message_reminder_disabled">Påminnelse deaktivert</string>
 
-    <string name="reminder_repeat">Hourly repetition</string>
+    <string name="reminder_repeat">Timebasert gjentakelse</string>
     <string name="reminder_notification_shade">Notifiser på telefonen</string>
 
-    <string name="message_time_reminder_free_counter">Up to 1 reminder can be used in free mode</string>
+    <string name="message_time_reminder_free_counter">Opptil 1 påminnelse kan brukes i gratis modus</string>
 
     <string name="info_dialog_reminder"><![CDATA[
         Bluetooth connection is required to display the reminder.
@@ -521,18 +524,18 @@
     <string name="watch_face_edit_weather_temperature">Temperatur</string>
     <string name="watch_face_edit_weather_temperature_unit_sign">Temperaturenheten °</string>
     <string name="watch_face_edit_weather_image">Værbilde</string>
-    <string name="watch_face_edit_connection_indicator_image">Connection indicator image</string>
+    <string name="watch_face_edit_connection_indicator_image">Tilkoblingsindikator bilde</string>
     <string name="watch_face_edit_connected">Tilkoblet</string>
     <string name="watch_face_edit_disconnected">Frakoblet</string>
     <string name="watch_face_edit_steps">Skritt</string>
     <string name="watch_face_edit_steps_image">Trinns bilde</string>
-    <string name="watch_face_edit_steps_goal_progress">Steps goal progress</string>
+    <string name="watch_face_edit_steps_goal_progress">Stegmål fremgang</string>
     <string name="watch_face_edit_distance">Distanse</string>
-    <string name="watch_face_edit_distance_image">Distance image</string>
+    <string name="watch_face_edit_distance_image">Avstandsbilde</string>
     <string name="watch_face_edit_calories">Kalorier</string>
-    <string name="watch_face_edit_calories_image">Kalorier bilde</string>
-    <string name="watch_face_edit_heart_rate">Heart rate</string>
-    <string name="watch_face_edit_heart_rate_image">Heart rate image</string>
+    <string name="watch_face_edit_calories_image">Kaloribilde</string>
+    <string name="watch_face_edit_heart_rate">Puls</string>
+    <string name="watch_face_edit_heart_rate_image">Pulsbilde</string>
 
     <string name="watch_face_edit_color">Farge</string>
     <string name="watch_face_edit_font_family">Font</string>
@@ -729,9 +732,8 @@
 
 
     <!-- Export -->
-    <string name="export_tab_database">Data export</string>
-
-    <string name="export_start_date">Starting date</string>
+    <string name="export_tab_database">Dataeksport</string>
+    <string name="export_start_date">Startdato for eksport</string>
 
 
     <!-- Theme -->
@@ -746,7 +748,7 @@
 
     <string name="theme_notification_title">Vise status på notifikasjons-hylla</string>
 
-    <string name="theme_cat_color_setting">Color setting</string>
+    <string name="theme_cat_color_setting">Fargeinnstillinger</string>
 
 
     <!-- Premium modus -->
@@ -763,13 +765,14 @@
         <p>• detailed daily graphs</p>
         • removing other restrictions…
     ]]></string>
-    <string name="purchase_policy_title">vilkår og betingelser of Premium modus</string>
+    <string name="purchase_policy_title">Vilkår og betingelser for Premium-modus</string>
     <string name="purchase_policy"><![CDATA[
-        <p>• Jeg har testet appen og den virker skikkelig.</p>
-        <p>• Jeg er oppmerksom på at Jeg ikke kan forvente kompensasjon eller tilbakebetaling grunnet bugs, software feil på grunn av endringer i softwaren, hardwaren området rundt eller å bruke andre applikasjoner.</p>
-        <p>• Alle salg er endelige og kan ikke bli gitt tilbake penger for(untatt Google penger tilbake policy).</p>
-        <p>• Det er ingen garanti inkludert.</p>
-        <i>Etter å ha kjøpt må du omstarte appen.</i>
+    <p>• Jeg har testet appen, og den fungerer som den skal.</p>
+    <p>• Jeg er klar over at jeg ikke kan kreve kompensasjon eller refusjon på grunn av feil eller programvareproblemer forårsaket av endringer i programvare- eller maskinvaremiljøet eller bruk av andre applikasjoner.</p>
+    <p>• Alle salg er endelige og kan ikke refunderes (unntatt i henhold til Googles refusjonspolicy).</p>
+    <p>• Ingen garanti er inkludert.</p>
+    <p>• Denne appen brukes på eget ansvar, og utvikleren fraskriver seg alle tilleggsgarantier, inkludert ethvert direkte eller indirekte ansvar for skader eller datatap som følge av bruk.</p>
+    <i>Etter kjøpet må du starte appen på nytt.</i>
     ]]></string>
 
     <string name="purchase_google_play_services_not_available">Google Play-tjenester er ikke tilgjengelige</string>
@@ -812,21 +815,21 @@
 
     <string name="privacy_policy_not_collect_title">Informasjon vi ikke samler inn</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>• Vi samler ikke inn personlig identifiserbar informasjon om deg. For å si det med andre ord, Vi samler ikke inn informasjon som foreksempel navnet ditt, addresse, telefon nummer, email addresse eller MAC addresse.</p>
-        • Vi samler ikke inn personlig helse data, kontakter eller telefon notifikasjons text.
+    <p>• Vi samler ikke inn personlig identifiserbar informasjon om deg. Dette betyr at vi for eksempel ikke samler inn personlige data som ditt navn, adresse, telefonnummer, e-postadresse eller MAC-adresse.</p>
+    • Vi samler ikke inn personlige helseopplysninger, kontakter eller innholdet i telefonvarsler.
     ]]></string>
 
-    <string name="privacy_policy_share_title">Information we share</string>
+    <string name="privacy_policy_share_title">Informasjon vi deler</string>
     <string name="privacy_policy_share"><![CDATA[
-        • We do not share any data with companies or organisations other than Google and advertising providers.
+    • Vi deler ikke data med selskaper eller organisasjoner annet enn Google og annonseleverandører.
     ]]></string>
 
-    <string name="privacy_policy_use_title">Personal and sensitive user data we use</string>
+    <string name="privacy_policy_use_title">Personlige og sensitive brukerdata vi bruker</string>
     <string name="privacy_policy_use"><![CDATA[
-        • We use location data to update the weather (optional).
+    • Vi bruker posisjonsdata kun for å oppdatere værinformasjonen, og bare hvis du aktiverer denne funksjonen.
     ]]></string>
 
-    <string name="privacy_policy_links_title">Privacy policy of third party service providers</string>
+    <string name="privacy_policy_links_title">Personvernerklæring for tredjeparts tjenesteleverandører</string>
     <string name="privacy_policy_links"><![CDATA[
         <a href="https://policies.google.com/privacy">Google Play Services</a>
         <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
@@ -836,9 +839,9 @@
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Status</string>
-    <string name="privacy_policy_eu_consent_title_obtained">Consent obtained</string>
-    <string name="privacy_policy_eu_consent_title_personalized">Personaliserte, relevante reklamer</string>
-    <string name="privacy_policy_eu_consent_title_non_personalized">Ikke-personaliserte reklamer som er Mindre relevant</string>
+    <string name="privacy_policy_eu_consent_title_obtained">Samtykke innhentet</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Personlige, relevante annonser</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Ikke-personlige annonser som er mindre relevante</string>
     <string name="privacy_policy_eu_consent_title_unknown">Ukjent</string>
 
     <string name="privacy_policy_eu_consent_setting">Innstillinger</string>

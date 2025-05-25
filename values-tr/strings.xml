@@ -71,11 +71,11 @@
     <string name="mi_band_setting_auth_standalone_hint">%1$s uygulaması %3$s için gerekli değildir. Eşleştikten sonra, %1$s uygulamasını kaldırabilirsiniz. %1$s ile beraberliğini yeniden kurmak için, %2$s \'i  %1$s uygulamasıyla yeniden eşleşmesi gerekir. Eğer eşleşmeyi kaldır fonksiyonunu kullanırsanız, tüm saat verisi silinir.  %2$s ekranı işlemler yapılırken açık olmalıdır.</string>
     <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
 
-    <string name="mi_band_setting_auth_key">Doğrulama Kodu</string>
-    <string name="mi_band_setting_auth_key_help">4 rakam girin</string>
-    <string name="mi_band_setting_auth_request">Doğrulama kodu isteği</string>
+    <string name="mi_band_setting_auth_key">Kimlik doğrulama anahtarı</string>
+    <string name="mi_band_setting_auth_key_help">Herhangi bir 4 basamaklı sayı girin</string>
+    <string name="mi_band_setting_auth_request">Anahtar iste</string>
     <string name="mi_band_setting_auth_pair">Eşleştir</string>
-    <string name="mi_band_setting_auth_unpair">Eşlenmeyi kaldır</string>
+    <string name="mi_band_setting_auth_unpair">Eşleştirmeyi kaldır</string>
 
     <string name="message_auth_request">Eşlendi, doğrulama kodunu bilmiyorsanız, eşleşmeyi kaldırın.</string>
 
@@ -115,9 +115,9 @@
     <string name="mi_band_setting_birthday">Doğum tarihi</string>
     <string name="mi_band_setting_height">Boy</string>
     <string name="mi_band_setting_weight">Kilo</string>
-    <string name="mi_band_setting_wearing_place">Wearing place</string>
-    <string name="mi_band_setting_wearing_place_left_wrist">Sol bilek</string>
-    <string name="mi_band_setting_wearing_place_right_wrist">Sağ bilek</string>
+    <string name="mi_band_setting_wearing_place">Takma yeri</string>
+    <string name="mi_band_setting_wearing_place_left_wrist">Sol el</string>
+    <string name="mi_band_setting_wearing_place_right_wrist">Sağ el</string>
 
 
      <!-- Battery -->
@@ -195,16 +195,18 @@
 
     <string name="message_app_chooser_no_selected">Bir uygulama seçin</string>
 
-    <string name="message_free_counter">Normal modda yalnızca %1$,d ayar kullanılabilir.</string> <!-- %1$,d = 1 or more  -->
+    <string name="message_free_counter">Ücretsiz modda en fazla 1 ayar kullanılabilir</string>
+    <string name="message_free_counters">Ücretsiz modda en fazla %1$,d ayar kullanılabilir</string>
 
-    <string name="message_notification_free_groups">Normal modda en fazla %1$,d grup kullanılabilir</string>
-    <string name="message_notification_free_app">Normal modda yalnızca bir ayar kullanılabilir.</string>
-    <string name="message_notification_free_apps">Normal modda yalnızca %1$,d ayar kullanılabilir.</string>   <!-- %1$s = 2 or more  -->
+    <string name="message_notification_free_groups">Ücretsiz modda en fazla %1$,d grup kullanılabilir</string>
 
-    <string name="message_notification_free_text">Normal modda yalnızca bir ayar kaydedilebilir.</string>
+    <string name="message_notification_free_app">Ücretsiz modda en fazla 1 uygulama seçilebilir</string>
+    <string name="message_notification_free_apps">Ücretsiz modda en fazla %1$,d uygulama seçilebilir</string>
 
-    <string name="message_time_alarm_free_counter">Normal modda en fazla 1 alarm kullanılabilir</string>
-    <string name="message_time_alarm_max_counter">Maksimum %1$d alarm kullanılabilir</string>
+    <string name="message_notification_free_text">Ücretsiz modda en fazla 1 metin kaydedilebilir</string>
+
+    <string name="message_time_alarm_free_counter">Ücretsiz modda en fazla 1 alarm kullanılabilir</string>
+    <string name="message_time_alarm_max_counter">En fazla %1$d alarm kullanılabilir</string>
     <string name="message_time_alarm_enabled">Alarm aktif</string>
     <string name="message_time_alarm_disabled">Alarm pasif</string>
     <string name="message_time_alarm_off">Alarm kapalı</string>
@@ -242,7 +244,7 @@
     <br>- <app_name/> uygulamasını pil optimizasyonunu Optimizasyon Etme olarak değiştirin.
     <br>- Bluetooth uygulaması verileri ve ön belleği temizleyin.
     <br>- Daha fazla bilgi almak için: https://dontkillmyapp.com
-    <br><br><small>This product and its features are not designed for medical purposes, and are not intended to predict, diagnose, prevent, or cure any diseases. All data and measurements are for personal reference only and shall not be used as a basis for diagnosis and treatment.</small>
+    <br><br><small>Bu ürün ve özellikleri tıbbi amaçlar için tasarlanmamıştır ve herhangi bir hastalığı tahmin etmek, teşhis etmek, önlemek veya tedavi etmek amacıyla kullanılmamalıdır. Tüm veriler ve ölçümler yalnızca kişisel referans içindir ve teşhis veya tedavi için temel olarak kullanılmamalıdır.</small>
     ]]></string>
 
 
@@ -345,8 +347,8 @@
     <string name="call_contact_edit_setting_first_name">İlk adı</string>
     <string name="call_contact_edit_setting_last_name">Soyadı</string>
 
-    <string name="message_call_contacts_free_counter">Up to %1$d contacts can be used in free mode</string> <!-- %1$d = 1, 2 ,3 ... -->
-    <string name="message_call_contacts_max_counter">Up to %1$d contacts can be used</string> <!-- %1$d = 1, 2 ,3 ... -->
+    <string name="message_call_contacts_free_counter">Ücretsiz modda en fazla %1$d kişi kullanılabilir</string>
+    <string name="message_call_contacts_max_counter">En fazla %1$d kişi kullanılabilir</string>
 
     <!-- App chooser dialog -->
     <string name="app_chooser">Uygulama seçici</string>
@@ -433,7 +435,7 @@
     <string name="reminder_repeat">Saatlik tekrar</string>
     <string name="reminder_notification_shade">Telefonda bildir</string>
 
-    <string name="message_time_reminder_free_counter">Serbest modda en fazla 1 hatırlatıcı kullanılabilir</string>
+    <string name="message_time_reminder_free_counter">Ücretsiz modda en fazla 1 hatırlatıcı kullanılabilir</string>
 
     <string name="info_dialog_reminder"><![CDATA[
         Hatırlatıcıyı görüntülemek için Bluetooth bağlantısı gerekir.
@@ -526,7 +528,7 @@
     <string name="watch_face_edit_disconnected">Bağlı değil</string>
     <string name="watch_face_edit_steps">Adım</string>
     <string name="watch_face_edit_steps_image">Adım resmi</string>
-    <string name="watch_face_edit_steps_goal_progress">Steps goal progress</string>
+    <string name="watch_face_edit_steps_goal_progress">Adım hedef ilerlemesi</string>
     <string name="watch_face_edit_distance">Mesafe</string>
     <string name="watch_face_edit_distance_image">Mesafe resmi</string>
     <string name="watch_face_edit_calories">Kalori</string>
@@ -730,9 +732,8 @@
 
 
     <!-- Export -->
-    <string name="export_tab_database">Veri dışa aktarımı</string>
-
-    <string name="export_start_date">Başlangıç tarihi</string>
+    <string name="export_tab_database">Veri Dışa Aktarımı</string>
+    <string name="export_start_date">Dışa Aktarım Başlangıç Tarihi</string>
 
 
     <!-- Theme -->
@@ -747,7 +748,7 @@
 
     <string name="theme_notification_title">Bildirim çubuğunda durum gösterilsin</string>
 
-    <string name="theme_cat_color_setting">Renk ayarı</string>
+    <string name="theme_cat_color_setting">Renk ayarları</string>
 
 
     <!-- Premium mode -->
@@ -764,13 +765,14 @@
         <p>• daha detaylı günlük grafikler</p>
         • removing other restrictions…
     ]]></string>
-    <string name="purchase_policy_title">Premium şartları ve koşulları</string>
+    <string name="purchase_policy_title">Premium modu şartları ve koşulları</string>
     <string name="purchase_policy"><![CDATA[
-        <p>• Uygulamayı test ettim ve düzgün çalışıyor.</p>
-        <p>• Hatalar, yazılımdaki değişikliklerden kaynaklanan yazılım hataları, donanım ortamı veya diğer uygulamaları kullanarak tazminat veya geri ödeme talep edemediğimin farkındayım.</p>
-        <p>• Tüm satışlar kesindir ve geri ödeme yapılamaz (Google geri ödeme politikası hariç).</p>
-        <p>• Herhangi bir garanti içermez.</p>
-        <i>Satınalma işlemi sonunda uygulamayı tekrar başlatmalısınız.</i>
+    <p>• Uygulamayı test ettim ve düzgün çalışıyor.</p>
+    <p>• Yazılım veya donanım ortamındaki değişiklikler veya diğer uygulamaların kullanımı nedeniyle oluşan hatalar veya yazılım hataları nedeniyle tazminat veya geri ödeme talep edemeyeceğimin farkındayım.</p>
+    <p>• Tüm satışlar kesindir ve geri ödeme yapılamaz (Google\'ın geri ödeme politikası hariç).</p>
+    <p>• Herhangi bir garanti verilmemektedir.</p>
+    <p>• Bu uygulama kendi sorumluluğunuzda kullanılmaktadır ve geliştirici, kullanımından kaynaklanan doğrudan veya dolaylı zararlar veya veri kaybı dahil olmak üzere tüm ek garantileri hariç tutar.</p>
+    <i>Satın aldıktan sonra uygulamayı yeniden başlatmanız gerekir.</i>
     ]]></string>
 
     <string name="purchase_google_play_services_not_available">Google Play Services mevcut değil</string>
@@ -811,23 +813,23 @@
         • We collect location data to update the weather based on your current location (optional).
     ]]></string>
 
-    <string name="privacy_policy_not_collect_title">Toplamadığımız bilgiler</string>
+    <string name="privacy_policy_not_collect_title">Toplamadığımız Bilgiler</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>• Sizinle ilgili kişisel olarak tanımlanabilir bilgiler toplamıyoruz. Diğer bir deyişle, adınız, adresiniz, telefon numaranız, e-posta adresiniz veya MAC adresiniz gibi bilgileri toplamıyoruz.</p>
-        • Kişisel sağlık verilerini, kişileri ve telefon bildirim metnini toplamıyoruz.
+    <p>• Sizi tanımlayabilecek kişisel bilgileri toplamıyoruz. Bu, örneğin adınız, adresiniz, telefon numaranız, e-posta adresiniz veya MAC adresiniz gibi kişisel verileri toplamadığımız anlamına gelir.</p>
+    • Kişisel sağlık verileri, kişiler veya telefon bildirimlerinin içeriğini toplamıyoruz.
     ]]></string>
 
-    <string name="privacy_policy_share_title">Information we share</string>
+    <string name="privacy_policy_share_title">Paylaştığımız Bilgiler</string>
     <string name="privacy_policy_share"><![CDATA[
-        • We do not share any data with companies or organisations other than Google and advertising providers.
+    • Google ve reklam sağlayıcıları dışında hiçbir şirket veya kuruluşla veri paylaşmıyoruz.
     ]]></string>
 
-    <string name="privacy_policy_use_title">Personal and sensitive user data we use</string>
+    <string name="privacy_policy_use_title">Kullandığımız Kişisel ve Hassas Kullanıcı Verileri</string>
     <string name="privacy_policy_use"><![CDATA[
-        • We use location data to update the weather (optional).
+    • Konum verilerini yalnızca hava durumu bilgisini güncellemek için ve yalnızca bu özelliği etkinleştirirseniz kullanıyoruz.
     ]]></string>
 
-    <string name="privacy_policy_links_title">3. Parti Servis Sağlayıcıları Güvenlik Politikası</string>
+    <string name="privacy_policy_links_title">Üçüncü Taraf Hizmet Sağlayıcılarının Gizlilik Politikası</string>
     <string name="privacy_policy_links"><![CDATA[
         <a href="https://policies.google.com/privacy">Google Play Services</a>
         <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
@@ -837,10 +839,10 @@
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Durum</string>
-    <string name="privacy_policy_eu_consent_title_obtained">Consent obtained</string>
-    <string name="privacy_policy_eu_consent_title_personalized">Kişiselleştirilmiş, alakalı reklamlar</string>
-    <string name="privacy_policy_eu_consent_title_non_personalized">Daha az alakalı olmayan kişiselleştirilmiş reklamlar</string>
-    <string name="privacy_policy_eu_consent_title_unknown">Bilinmeyen</string>
+    <string name="privacy_policy_eu_consent_title_obtained">Onay alındı</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Kişiselleştirilmiş, ilgili reklamlar</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Kişiselleştirilmemiş, daha az ilgili reklamlar</string>
+    <string name="privacy_policy_eu_consent_title_unknown">Bilinmiyor</string>
 
     <string name="privacy_policy_eu_consent_setting">Ayarlar</string>
 

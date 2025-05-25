@@ -15,9 +15,9 @@
     <string name="menu_nav_dnd">Ne zavarj mód</string>
     <string name="menu_nav_watch_face">Számlap</string>
     <string name="menu_nav_weather">Időjárás</string>
-    <string name="menu_nav_touch">Érintés</string>
+    <string name="menu_nav_touch">Érintésvezérlés</string>
     <string name="menu_nav_more">Továbbiak</string>
-    <string name="menu_nav_text_display">Szöveg megjelenítés</string>
+    <string name="menu_nav_text_display">Szövegmegjelenítés</string>
     <string name="menu_nav_export">Export</string>
     <string name="menu_nav_premium_mode">Prémium mód</string>
     <string name="menu_nav_feedback">Visszajelzés</string>
@@ -72,10 +72,10 @@
     <string name="mi_band_standalone_sync_error">Az adatok szinkronizálása együttműködési módban nem lehetséges, mivel a szinkronizálás eredményeként az adatok törlődnek az okosóráról, és mindkét alkalmazásban helytelen adatok jelennének meg.</string>
 
     <string name="mi_band_setting_auth_key">Hitelesítési kulcs</string>
-    <string name="mi_band_setting_auth_key_help">Adj meg bármilyen 4 számot</string>
-    <string name="mi_band_setting_auth_request">Kulcs kérés</string>
-    <string name="mi_band_setting_auth_pair">Párosít</string>
-    <string name="mi_band_setting_auth_unpair">Leválaszt</string>
+    <string name="mi_band_setting_auth_key_help">Adj meg egy tetszőleges 4 jegyű számot</string>
+    <string name="mi_band_setting_auth_request">Kulcskérés</string>
+    <string name="mi_band_setting_auth_pair">Párosítás</string>
+    <string name="mi_band_setting_auth_unpair">Leválasztás</string>
 
     <string name="message_auth_request">Párosítva van, ha nem ismered a kulcsot, használd a leválasztást</string>
 
@@ -115,7 +115,7 @@
     <string name="mi_band_setting_birthday">Születésnap</string>
     <string name="mi_band_setting_height">Magasság</string>
     <string name="mi_band_setting_weight">Súly</string>
-    <string name="mi_band_setting_wearing_place">Viselés módja</string>
+    <string name="mi_band_setting_wearing_place">Viselési hely</string>
     <string name="mi_band_setting_wearing_place_left_wrist">Bal kéz</string>
     <string name="mi_band_setting_wearing_place_right_wrist">Jobb kéz</string>
 
@@ -195,7 +195,8 @@
     <string name="message_app_chooser_no_selected">Válassz ki egy applikációt</string>
 
     <!-- Figyelem, ezeket az azonosítókat használom dekódolva a programban nem írható át   -->
-    <string name="message_free_counter">Legfeljebb %1$,d beállítás használható ingyenes módban</string> <!-- %1$,d = 1 or more  -->
+    <string name="message_free_counter">Legfeljebb 1 beállítás használható ingyenes módban</string>
+    <string name="message_free_counters">Legfeljebb %1$,d beállítás használható ingyenes módban</string>
 
     <string name="message_notification_free_groups">Legfeljebb %1$,d csoport használható ingyenes módban</string>
     <string name="message_notification_free_app">Legfeljebb 1 applikáció választható ingyenes módban</string>
@@ -243,7 +244,7 @@
     <br>- Telefon akkumulátor optimalizálása kikapcsolása.
     <br>- Telefon/alkalmazások: Bluetooth Share és egyéb \'Bluetooth\' app. adatok törlése.
     <br>- További információ: https://dontkillmyapp.com
-    <br><br><small>Ezt a terméket és annak funkcióit nem gyógyászati célokra tervezték, és nem célja betegségek előrejelzése, diagnosztizálása, megelőzése vagy gyógyítása. Minden adat és mérés csak személyes tájékoztatást szolgál, és nem használható fel diagnózis vagy kezelés alapjául.</small>
+    <br><br><small>Ez a termék és annak funkciói nem szolgálnak gyógyászati célokat, és nem alkalmasak betegségek előrejelzésére, diagnosztizálására, megelőzésére vagy gyógyítására. Az összes adat és mérés kizárólag személyes tájékoztatást szolgál, és nem használható fel diagnózis vagy orvosi kezelés alapjául.</small>
     ]]></string>
 
 
@@ -438,7 +439,7 @@
 
 
     <!-- Reminder -->
-    <string name="reminder_repeat">Óránkénti ismétlés</string>
+    <string name="reminder_repeat">Ismétlés óránként</string>
     <string name="reminder_notification_shade">Értesítés a telefonon</string>
 
     <string name="message_reminder_enabled">Emlékeztető beállítva</string>
@@ -539,7 +540,7 @@
     <string name="watch_face_edit_disconnected">Nincs csatlakozva</string>
     <string name="watch_face_edit_steps">Lépésszám</string>
     <string name="watch_face_edit_steps_image">Lépésszám kép</string>
-    <string name="watch_face_edit_steps_goal_progress">Lépésszám cél előrehaladás</string>
+    <string name="watch_face_edit_steps_goal_progress">Lépéscél előrehaladás</string>
     <string name="watch_face_edit_distance">Távolság</string>
     <string name="watch_face_edit_distance_image">Távolság kép</string>
     <string name="watch_face_edit_calories">Kalória</string>
@@ -745,7 +746,6 @@
 
     <!-- Export -->
     <string name="export_tab_database">Adatexport</string>
-
     <string name="export_start_date">Export kezdetének dátuma</string>
 
 
@@ -761,7 +761,7 @@
 
     <string name="theme_notification_title">Állapot megjelenítése az értesítési felületen</string>
 
-    <string name="theme_cat_color_setting">Szín beállítás</string>
+    <string name="theme_cat_color_setting">Színbeállítások</string>
 
 
     <!-- Premium mode -->
@@ -780,11 +780,12 @@
     ]]></string>
     <string name="purchase_policy_title">Prémium mód megvásárlásának feltételei</string>
     <string name="purchase_policy"><![CDATA[
-        <p>• Az applikációt kipróbáltam, működését megfelelőnek találtam.</p>
-        <p>• A szoftver, hardver környezetben bekövetkező változások és más applikációk használata miatt fellépő funkcióvesztésért, programhibákért a jelenlegi applikáció fejlesztőjével szemben kártérítéssel, visszatérítéssel nem élek.</p>
-        <p>• Minden értékesítés végleges és nincs helye visszatérítésnek (Google visszatérítési irányelvek kivételével).</p>
-        <p>• Az applikáció nem tartalmaz garanciát.</p>
-        <i>Vásárlás után az applikáció újraindítása szükséges.</i>
+    <p>• Az applikációt kipróbáltam, működését megfelelőnek találtam.</p>
+    <p>• A szoftver, hardver környezetben bekövetkező változások és más applikációk használata miatt fellépő funkcióvesztésért, programhibákért a jelenlegi applikáció fejlesztőjével szemben kártérítéssel, visszatérítéssel nem élek.</p>
+    <p>• Minden értékesítés végleges és nincs helye visszatérítésnek (Google visszatérítési irányelvek kivételével).</p>
+    <p>• Az applikáció nem tartalmaz garanciát.</p>
+    <p>• Az alkalmazás használata saját felelősségre történik, a fejlesztő kizár minden további, akár közvetett, akár közvetlen garanciavállalást a használatból eredő károkért vagy adatvesztésért.</p>
+    <i>Vásárlás után az applikáció újraindítása szükséges.</i>
     ]]></string>
 
     <string name="purchase_google_play_services_not_available">A Google Play szolgáltatások nem elérhetők</string>
@@ -827,9 +828,10 @@
 
     <string name="privacy_policy_not_collect_title">Nem gyűjtött információk</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>• Nem gyűjtünk személyazonosításra alkalmas adatokat Önről. Más szavakkal, nem gyűjtünk olyan adatokat, mint például az Ön nevét, címét, telefonszámát, e-mail címét vagy MAC címét.</p>
-        • Nem gyűjtünk személyes egészségügyi adatokat, névjegyeket és eszközön megjelenő értesítés szövegeket.
+        <p>• Nem gyűjtünk személyazonosításra alkalmas adatokat Önről. Ez azt jelenti, hogy nem gyűjtünk például olyan adatokat, mint az Ön neve, címe, telefonszáma, e-mail címe vagy MAC címe.</p>
+        • Nem gyűjtünk személyes egészségügyi adatokat, névjegyeket vagy az eszközön megjelenő értesítések szövegét.
     ]]></string>
+
 
     <string name="privacy_policy_share_title">Megosztott információk</string>
     <string name="privacy_policy_share"><![CDATA[
@@ -838,7 +840,7 @@
 
     <string name="privacy_policy_use_title">Felhasznált személyes és érzékeny felhasználói adatok</string>
     <string name="privacy_policy_use"><![CDATA[
-        • A helyadatokat az időjárás frissítéséhez használjuk (opcionális).
+        • A helyadatokat kizárólag az időjárási információk frissítéséhez használjuk, és csak akkor, ha ezt a funkciót engedélyezi.
     ]]></string>
 
     <string name="privacy_policy_links_title">Harmadik fél szolgáltatóinak adatvédelmi politikája</string>
@@ -851,10 +853,10 @@
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Státusz</string>
-    <string name="privacy_policy_eu_consent_title_obtained">Beleegyezés megszerezve</string>
+    <string name="privacy_policy_eu_consent_title_obtained">Beleegyezés megadva</string>
     <string name="privacy_policy_eu_consent_title_personalized">Személyre szabott, releváns hirdetések</string>
     <string name="privacy_policy_eu_consent_title_non_personalized">Nem személyre szabott, kevésbé releváns hirdetések</string>
-    <string name="privacy_policy_eu_consent_title_unknown">Nincs beállítva</string>
+    <string name="privacy_policy_eu_consent_title_unknown">Nem ismert</string>
 
     <string name="privacy_policy_eu_consent_setting">Beállítás</string>
 

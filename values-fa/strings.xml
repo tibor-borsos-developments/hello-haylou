@@ -72,10 +72,10 @@
     <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
 
     <string name="mi_band_setting_auth_key">کلید احراز هویت</string>
-    <string name="mi_band_setting_auth_key_help">۴ عدد به دلخواه وارد کنید</string>
+    <string name="mi_band_setting_auth_key_help">هر عدد ۴ رقمی را وارد کنید</string>
     <string name="mi_band_setting_auth_request">درخواست کلید</string>
-    <string name="mi_band_setting_auth_pair">جفت سازی</string>
-    <string name="mi_band_setting_auth_unpair">جفت نشدن</string>
+    <string name="mi_band_setting_auth_pair">جفت‌سازی</string>
+    <string name="mi_band_setting_auth_unpair">لغو جفت‌سازی</string>
 
     <string name="message_auth_request">این دستگاه جفت شده است, اگر کلید را نمی‌دانید، جفت سازی را لغو کنید.</string>
 
@@ -115,7 +115,7 @@
     <string name="mi_band_setting_birthday">تاریخ تولد</string>
     <string name="mi_band_setting_height">قد</string>
     <string name="mi_band_setting_weight">وزن</string>
-    <string name="mi_band_setting_wearing_place">Wearing place</string>
+    <string name="mi_band_setting_wearing_place">محل پوشیدن</string>
     <string name="mi_band_setting_wearing_place_left_wrist">دست چپ</string>
     <string name="mi_band_setting_wearing_place_right_wrist">دست راست</string>
 
@@ -195,16 +195,17 @@
 
     <string name="message_app_chooser_no_selected">انتخاب برنامه</string>
 
-    <string name="message_free_counter">Up to %1$,d setting can be used in free mode</string> <!-- %1$,d = 1 or more  -->
+    <string name="message_free_counter">تا 1 تنظیم در حالت رایگان قابل استفاده است</string>
+    <string name="message_free_counters">تا %1$,d تنظیم در حالت رایگان قابل استفاده است</string>
 
-    <string name="message_notification_free_groups">حداکثر %1$,d از گروهها را می توان در حالت عادی استفاده کرد</string>
-    <string name="message_notification_free_app">حداکثر 1 برنامه را می توان در حالت عادی انتخاب کرد</string>
-    <string name="message_notification_free_apps">حداکثر %1$,d برنامه را می توان در حالت عادی انتخاب کرد</string>   <!-- %1$s = 2 or more  -->
+    <string name="message_notification_free_groups">تا %1$,d گروه در حالت رایگان قابل استفاده است</string>
+    <string name="message_notification_free_app">تا 1 برنامه در حالت رایگان قابل انتخاب است</string>
+    <string name="message_notification_free_apps">تا %1$,d برنامه در حالت رایگان قابل انتخاب است</string>
 
-    <string name="message_notification_free_text">حداکثر 1 متن در حالت عادی قابل ضبط است</string>
+    <string name="message_notification_free_text">تا 1 متن در حالت رایگان قابل ضبط است</string>
 
-    <string name="message_time_alarm_free_counter">در حالت عادی حداکثر 1 زنگ هشدار را می توان استفاده کرد</string>
-    <string name="message_time_alarm_max_counter">حداکثر %1$d هشدار را می توان استفاده کرد</string>
+    <string name="message_time_alarm_free_counter">تا 1 زنگ هشدار در حالت رایگان قابل استفاده است</string>
+    <string name="message_time_alarm_max_counter">تا %1$d زنگ هشدار قابل استفاده است</string>
     <string name="message_time_alarm_enabled">هشدار فعال</string>
     <string name="message_time_alarm_disabled">هشدار غیر فعال</string>
     <string name="message_time_alarm_off">هشدار خاموش</string>
@@ -242,7 +243,7 @@
     <br>- Phone/battery optimization: set <app_name/> app to not optimized.
     <br>- Phone/apps: clear Bluetooth Share and other \'Bluetooth\' apps data.
     <br>- اطلاعات بیشتر: https://dontkillmyapp.com
-    <br><br><small>This product and its features are not designed for medical purposes, and are not intended to predict, diagnose, prevent, or cure any diseases. All data and measurements are for personal reference only and shall not be used as a basis for diagnosis and treatment.</small>
+    <br><br><small>این محصول و ویژگی‌های آن برای مقاصد پزشکی طراحی نشده‌اند و برای پیش‌بینی، تشخیص، پیشگیری یا درمان هیچ بیماری‌ای در نظر گرفته نشده‌اند. تمام داده‌ها و اندازه‌گیری‌ها فقط برای مرجع شخصی هستند و نباید به عنوان مبنایی برای تشخیص یا درمان استفاده شوند.</small>
     ]]></string>
 
     <!-- Notification Dialog -->
@@ -345,8 +346,8 @@
     <string name="call_contact_edit_setting_first_name">نام کوچک</string>
     <string name="call_contact_edit_setting_last_name">نام خانوادگی</string>
 
-    <string name="message_call_contacts_free_counter">Up to %1$d contacts can be used in free mode</string> <!-- %1$d = 1, 2 ,3 ... -->
-    <string name="message_call_contacts_max_counter">Up to %1$d contacts can be used</string> <!-- %1$d = 1, 2 ,3 ... -->
+    <string name="message_call_contacts_free_counter">تا %1$d مخاطب می‌توانند در حالت رایگان استفاده شوند</string>
+    <string name="message_call_contacts_max_counter">تا %1$d مخاطب می‌توانند استفاده شوند</string>
 
     <!-- App chooser dialog -->
     <string name="app_chooser">انتخاب برنامه</string>
@@ -433,7 +434,7 @@
     <string name="reminder_repeat">تکرار ساعتی</string>
     <string name="reminder_notification_shade">در تلفن به من اعلان بده</string>
 
-    <string name="message_time_reminder_free_counter">تنها یک یادآور در حالت رایگان قابل استفاده است.</string>
+    <string name="message_time_reminder_free_counter">تا 1 یادآوری در حالت رایگان قابل استفاده است</string>
 
     <string name="info_dialog_reminder"><![CDATA[
         اتصال بولتوث برای نمایش یادآورها لازم است.
@@ -521,18 +522,18 @@
     <string name="watch_face_edit_weather_temperature">درجه حرارت</string>
     <string name="watch_face_edit_weather_temperature_unit_sign">واحد درجه حرارت °</string>
     <string name="watch_face_edit_weather_image">تصویر آب و هوا</string>
-    <string name="watch_face_edit_connection_indicator_image">Connection indicator image</string>
+    <string name="watch_face_edit_connection_indicator_image">تصویر نشانگر اتصال</string>
     <string name="watch_face_edit_connected">متصل</string>
     <string name="watch_face_edit_disconnected">قطع شده</string>
     <string name="watch_face_edit_steps">قدم</string>
     <string name="watch_face_edit_steps_image">مراحل تصویر</string>
-    <string name="watch_face_edit_steps_goal_progress">Steps goal progress</string>
+    <string name="watch_face_edit_steps_goal_progress">پیشرفت هدف قدم‌ها</string>
     <string name="watch_face_edit_distance">مسافت</string>
-    <string name="watch_face_edit_distance_image">Distance image</string>
+    <string name="watch_face_edit_distance_image">تصویر فاصله</string>
     <string name="watch_face_edit_calories">کالری</string>
     <string name="watch_face_edit_calories_image">تصویر کالری</string>
-    <string name="watch_face_edit_heart_rate">Heart rate</string>
-    <string name="watch_face_edit_heart_rate_image">Heart rate image</string>
+    <string name="watch_face_edit_heart_rate">ضربان قلب</string>
+    <string name="watch_face_edit_heart_rate_image">تصویر ضربان قلب</string>
 
     <string name="watch_face_edit_color">رنگ</string>
     <string name="watch_face_edit_font_family">فونت</string>
@@ -729,9 +730,9 @@
     <string name="pref_text_char_replacement_replace">جایگزینی با</string>
 
     <!-- Export -->
-    <string name="export_tab_database">صدور داده</string>
+    <string name="export_tab_database">صادرات داده</string>
+    <string name="export_start_date">تاریخ شروع صادرات</string>
 
-    <string name="export_start_date">تاریخ شورع</string>
 
     <!-- Theme -->
     <string name="theme_tab_theme">پوسته</string>
@@ -762,14 +763,16 @@
         <p>• detailed daily graphs</p>
         • removing other restrictions…
     ]]></string>
-    <string name="purchase_policy_title">شرایط استفاده از نسخه‌ی پولی</string>
+    <string name="purchase_policy_title">شرایط و ضوابط حالت پریمیوم</string>
     <string name="purchase_policy"><![CDATA[
-        <p>• I have tested the app and it is working properly.</p>
-        <p>• I am aware of that I can not require compensation or refund due to bugs, software errors caused by changes in the software, hardware environment or using other applications.</p>
-        <p>• All sales are final and can not be refund (except Google refund policy).</p>
-        <p>• There is no warranty included.</p>
-        <i>After purchasing you need to restart the app.</i>
+    <p>• من برنامه را آزمایش کرده‌ام و عملکرد آن صحیح است.</p>
+    <p>• آگاه هستم که به دلیل اشکالات نرم‌افزاری ناشی از تغییرات در محیط نرم‌افزار یا سخت‌افزار و یا استفاده از برنامه‌های دیگر، نمی‌توانم درخواست خسارت یا بازپرداخت داشته باشم.</p>
+    <p>• تمامی فروش‌ها نهایی هستند و امکان بازپرداخت وجود ندارد (به‌جز طبق سیاست بازپرداخت Google).</p>
+    <p>• هیچگونه گارانتی ارائه نمی‌شود.</p>
+    <p>• استفاده از این برنامه به عهده خود شماست و توسعه‌دهنده مسئولیتی در قبال خسارات یا از دست رفتن داده‌ها، چه مستقیم یا غیرمستقیم، ندارد.</p>
+    <i>پس از خرید، لازم است برنامه را مجدداً راه‌اندازی کنید.</i>
     ]]></string>
+
 
     <string name="purchase_google_play_services_not_available">خدمات Google Play در دسترس نیست</string>
 
@@ -809,23 +812,23 @@
         • We collect location data to update the weather based on your current location (optional).
     ]]></string>
 
-    <string name="privacy_policy_not_collect_title">اطلاعاتی که ما جمع نمی‌کنیمt</string>
+    <string name="privacy_policy_not_collect_title">اطلاعاتی که ما جمع‌آوری نمی‌کنیم</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>• We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address or MAC address.</p>
-        • We do not collect personal health data, contacts and phone notification texts.
+    <p>• ما اطلاعات شخصی قابل شناسایی درباره شما جمع‌آوری نمی‌کنیم. این بدان معناست که ما، به عنوان مثال، داده‌هایی مانند نام، آدرس، شماره تلفن، آدرس ایمیل یا آدرس MAC شما را جمع‌آوری نمی‌کنیم.</p>
+    • ما داده‌های سلامت شخصی، مخاطبین یا محتوای اعلان‌های تلفن را جمع‌آوری نمی‌کنیم.
     ]]></string>
 
-    <string name="privacy_policy_share_title">Information we share</string>
+    <string name="privacy_policy_share_title">اطلاعاتی که ما به اشتراک می‌گذاریم</string>
     <string name="privacy_policy_share"><![CDATA[
-        • We do not share any data with companies or organisations other than Google and advertising providers.
+    • ما هیچ داده‌ای را با شرکت‌ها یا سازمان‌هایی به جز Google و ارائه‌دهندگان تبلیغات به اشتراک نمی‌گذاریم.
     ]]></string>
 
-    <string name="privacy_policy_use_title">Personal and sensitive user data we use</string>
+    <string name="privacy_policy_use_title">داده‌های شخصی و حساس کاربر که ما استفاده می‌کنیم</string>
     <string name="privacy_policy_use"><![CDATA[
-        • We use location data to update the weather (optional).
+    • ما فقط از داده‌های موقعیت مکانی برای به‌روزرسانی اطلاعات آب و هوا استفاده می‌کنیم و فقط در صورتی که این ویژگی را فعال کنید.
     ]]></string>
 
-    <string name="privacy_policy_links_title">سیاست‌های حریم خصوصی برای سرویس‌های ثانویه</string>
+    <string name="privacy_policy_links_title">سیاست حفظ حریم خصوصی ارائه‌دهندگان خدمات شخص ثالث</string>
     <string name="privacy_policy_links"><![CDATA[
         <a href="https://policies.google.com/privacy">Google Play Services</a>
         <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
@@ -835,10 +838,10 @@
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">وضعیت</string>
-    <string name="privacy_policy_eu_consent_title_obtained">Consent obtained</string>
-    <string name="privacy_policy_eu_consent_title_personalized">شخصی شده, تبلیغات مرتبط</string>
-    <string name="privacy_policy_eu_consent_title_non_personalized">تبلیغات غیر شخصی و نا مرتبط</string>
-    <string name="privacy_policy_eu_consent_title_unknown">نامشخص</string>
+    <string name="privacy_policy_eu_consent_title_obtained">رضایت دریافت شد</string>
+    <string name="privacy_policy_eu_consent_title_personalized">تبلیغات شخصی‌سازی شده و مرتبط</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">تبلیغات غیرشخصی‌سازی شده و کمتر مرتبط</string>
+    <string name="privacy_policy_eu_consent_title_unknown">ناشناخته</string>
 
     <string name="privacy_policy_eu_consent_setting">تنظیمات</string>
 
