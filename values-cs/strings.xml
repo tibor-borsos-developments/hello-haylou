@@ -1,12 +1,11 @@
 <?xml version="1.0"?>
 
 <resources xmlns:tools="http://schemas.android.com/tools" tools:locale="cs">
-    <string name="menu_nav_home">@string/device_name</string>
     <string name="menu_nav_notification">Oznámení</string>
     <string name="menu_nav_call">Hovor</string>
     <string name="menu_nav_step">Aktivita</string>
     <string name="menu_nav_sleep">Spánek</string>
-    <string name="menu_nav_pulse">Tep</string>
+    <string name="menu_nav_heart_rate">Tep</string>
     <string name="menu_nav_blood_oxygen">Krevní kyslík</string>
     <string name="menu_nav_blood_pressure">Krevní tlak</string>
     <string name="menu_nav_workout">Cvičení</string>
@@ -17,26 +16,24 @@
     <string name="menu_nav_weather">Počasí</string>
     <string name="menu_nav_touch">Dotek</string>
     <string name="menu_nav_more">Více</string>
-    <string name="menu_nav_text_display">Textové ikony</string>
+    <string name="menu_nav_text_customization">Textové ikony</string>
     <string name="menu_nav_export">Export</string>
     <string name="menu_nav_premium_mode">Prémiový režim</string>
     <string name="menu_nav_feedback">Zpětná vazba</string>
     <string name="menu_nav_privacy_policy">Zásady ochrany soukromí</string>
     <string name="menu_nav_theme">Styly</string>
-    <!--    <string name="menu_nav_settings" type="string">@string/settings_name</string>-->
 
     <string name="setting_name">Nastavení</string>
     <string name="settings_name">Nastavení</string>
     <string name="info_name">Informace</string>
     <string name="more_name">Více</string>
 
-    <!--    <string name="mi_band_tracker_title">Kroky・vzdálenost・kalorie・cíl・tep</string>-->
-    <string name="main_tracker_title">Kroky・cíl</string>
-    <!--    <string name="mi_band_battery">Úroveň baterie・čas nabíjení・odhadovaný zbývající čas</string>-->
-    <string name="device_battery">Úroveň baterie・čas nabíjení</string>
-    <string name="device_state_connected_disconnected_last_time">Poslední čas připojení a odpojení</string>
-    <string name="device_alarm">Další alarm</string>
-    <string name="device_reminder">Další připomenutí</string>
+    <string name="main_item_activity_title">Kroky・cíl</string>
+    <string name="main_item_battery">Úroveň baterie・čas nabíjení</string>
+    <string name="main_item_connect_and_disconnect_last_time">Poslední čas připojení a odpojení</string>
+    <string name="main_item_next_alarm">Další alarm</string>
+    <string name="main_item_next_reminder">Další připomenutí</string>
+    <string name="main_item_call_and_notification_control">Hovory a oznámení</string>
 
     <string name="device_search">%1$s search</string> <!-- %1$s = Watch name -->
     <string name="device_setting">Nastavení %1$s</string> <!-- %1$s = Watch name -->
@@ -49,14 +46,11 @@
     <string name="device_state_bonded">Spárované zařízení</string>
     <string name="device_state_not_bonded">Není spárováno zařízení</string>
 
-    <string name="pref_dnd_title">Režim nerušit (DnD)</string>
-
     <string name="error_title">Jejda! Něco se pokazilo</string>
     <string name="error_message">Aktualizujte aplikaci na nejnovější verzi</string>
 
 
-    <!-- Haylou setting -->
-    <string name="mi_band_setting_button_title">Nastavení %1$s・Profil・Text・Hovor・Menu</string>
+    <!-- Watch connection and setting -->
     <string name="mi_band_setting_title">Nastavení %1$s</string>
 
     <string name="mi_band_setting_menu_connection">Připojení</string>
@@ -68,7 +62,7 @@
     <string name="mi_band_setting_auth_mi_fit">Spolupráce s %1$s</string> <!-- Haylou Fit-->
     <string name="mi_band_setting_auth_mi_fit_hint">%3$s vyžaduje instalaci oficiální aplikace %1$s na stejném zařízení. Nejprve musíte spárovat %2$s v aplikaci %1$s, poté můžete použít aplikaci %3$s Zvolte tuto možnost, pokud chcete použít %1$s.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
     <string name="mi_band_setting_auth_standalone">Samostatný</string>
-    <string name="mi_band_setting_auth_standalone_hint">Aplikace %1$s není nutná pro práci %3$s. Po párování odinstalujte aplikaci %1$s nebo odpojte zařízení. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Aplikace %1$s není nutná pro práci %3$s. Po párování odinstalujte aplikaci %1$s nebo odpojte zařízení. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. Make sure the %2$s screen is turned on during pairing operations.</string>
     <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
 
     <string name="mi_band_setting_auth_key">Ověřovací klíč</string>
@@ -77,21 +71,21 @@
     <string name="mi_band_setting_auth_pair">Spárovat</string>
     <string name="mi_band_setting_auth_unpair">Odpojit</string>
 
-    <string name="message_auth_request">It is paired, if you do not know the key, use the unpair</string>
+    <string name="message_auth_request">Your device is already paired. If you don\'t know the key, please unpair it.</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">Pro spárování stiskni tlačítko %1$s</string> <!-- %1$s = Watch name -->
-    <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
-    <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
-    <string name="message_mi_band_setting_auth_key_invalid">Invalid authentication key</string>
+    <string name="message_mi_band_setting_auth_press_band_button">Stiskněte tlačítko na zařízení %1$s pro spárování</string>
+    <string name="message_mi_band_setting_auth_success">%1$s byl úspěšně spárován</string>
+    <string name="message_mi_band_setting_auth_fail">Spárování s %1$s se nezdařilo</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Neplatný ověřovací kód</string>
 
     <string name="pref_disconnect_device">Odpojení</string>
 
-    <string name="mi_band_setting_connection_problem_title">In case of connection problem</string>
+    <string name="mi_band_setting_connection_problem_title">Pokud máte potíže s připojením</string>
     <string name="mi_band_setting_connection_problem_hint"><![CDATA[
-    - Unpair the watch in the phone\'s Bluetooth settings
-    <br>- Turn Bluetooth off and on
-    <br>- Force close the Application or restart the phone
-    <br>- Pair your watch again on the main screen
+    - Zrušte spárování hodinek v nastavení Bluetooth telefonu<br>
+    - Vypněte a znovu zapněte Bluetooth<br>
+    - Vynuceně zavřete aplikaci nebo restartujte telefon<br>
+    - Zkuste znovu spárovat hodinky na hlavní obrazovce
     ]]></string>
 
     <string name="mi_band_setting_dial">Styl ciferníku</string>
@@ -101,14 +95,14 @@
     <string name="mi_band_setting_lift_wrist">Zvednutí zápěstí pro zobrazení informací</string>
     <string name="mi_band_setting_screen_on_duration">Screen on duration</string>
     <string name="mi_band_setting_idle_alert">Oznámení o nečinnosti</string>
-    <string name="mi_band_setting_idle_alert_time">Čas nečinnosti</string>
+    <string name="mi_band_setting_idle_alert_duration">Čas nečinnosti</string>
     <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest (12:00-14:00)</string>
 
     <string name="pref_synchronization">Synchronization</string>
     <string name="pref_synchronization_fetch_interval">Synchronization frequency</string>
     <string name="pref_synchronization_summary">Select the data to be automatically synchronised in the background. If you do not need any of the data, turn it off for better performance. Data can still be synchronised manually on the home screen or in the appropriate menus (by sweeping down).</string>
 
-    <string name="mi_band_setting_profile">This data is needed to correctly calculate the number of steps, distance, and burned calories.</string>
+    <string name="mi_band_setting_profile">Tieto údaje pomáhajú presnejšie vypočítať počet krokov, vzdialenosť a spálené kalórie.</string>
     <string name="mi_band_setting_gender">Pohlaví</string>
     <string name="mi_band_setting_gender_male">Muž</string>
     <string name="mi_band_setting_gender_female">Žena</string>
@@ -123,21 +117,17 @@
     <!-- Battery -->
     <string name="battery_details">Detaily baterie</string>
 
-    <string name="mi_band_battery_settings">Nastavení baterie</string>
-    <string name="mi_band_battery_notification">Oznámení nízké úrovně baterie</string>
-    <string name="mi_band_battery_notification_level">Nastavení hodnoty nízké úrovně baterie</string>
-    <string name="mi_band_battery_notification_repeat_interval">Interval opakování</string>
-    <string name="mi_band_battery_notification_shade">Upozornění na zařízení</string>
-    <string name="mi_band_battery_notification_shade_error">Notification display permission is restricted</string>
-    <string name="mi_band_battery_notification_shade_ongoing">Trvalé (probihající) upozornění</string>
-    <string name="mi_band_battery_notification_shade_message">Úroveň baterie je nižší než %1$,d%%</string>
-    <string name="mi_band_battery_notification_mi_band">Upozornění na náramku</string>
-    <string name="mi_band_battery_notification_mi_band_message">Baterie: %1$,d%%</string>
+    <string name="battery_settings">Nastavení baterie</string>
+    <string name="battery_settings_notification">Oznámení nízké úrovně baterie</string>
+    <string name="battery_settings_notification_level">Nastavení hodnoty nízké úrovně baterie</string>
+    <string name="battery_settings_notification_repeat_interval">Interval opakování</string>
+    <string name="battery_settings_notification_on_phone">Upozornění na zařízení</string>
+    <string name="battery_settings_notification_on_phone_ongoing">Trvalé (probihající) upozornění</string>
+    <string name="battery_settings_notification_on_phone_message">Úroveň baterie je nižší než %1$,d%%</string>
+    <string name="battery_settings_notification_on_device">Upozornění na náramku</string>
+    <string name="battery_settings_notification_on_device_message">Baterie: %1$,d%%</string>
 
-    <!-- PreferenceScreen -->
-    <string name="pref_connected_have_notif_interval_title">Interval opakování připomenutí</string>
-    <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
-
+    <!-- Preference screens -->
     <string name="pref_battery_phone">Baterie zařízení</string>
     <string name="pref_battery_phone_summary">Oznámení nabité a vybité baterie</string>
     <string name="pref_cat_battery_phone_low">Nízká úroveň baterie</string>
@@ -255,15 +245,15 @@
     <string name="notification_group_monitoring">Zobrazování oznámení</string>
     <string name="notification_group_monitoring_disabled">Zakázat oznámení (nezobrazovat oznámení aplikací)</string>
     <string name="notification_group_alert_title">Oznámení na %1$s</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
-    <string name="notification_group_text">Text obrazovky</string>
+    <string name="notification_group_text_customization">Text obrazovky</string>
     <string name="notification_group_text_app_name">Název aplikace</string>
     <string name="notification_group_text_name">Jméno</string>
     <string name="notification_group_text_title">Název</string>
     <string name="notification_group_text_content">Obsah</string>
     <string name="notification_group_text_big_content">Celý obsah</string>
     <string name="notification_group_text_content_slice_title">Délka textu</string>
-    <string name="notification_group_display_time_title">Čas zobrazení</string>
-    <string name="notification_group_display_notification_title">Display notification</string>
+    <string name="notification_group_display_duration_title">Čas zobrazení</string>
+    <string name="notification_group_show_notification_title">Display notification</string>
     <string name="notification_group_immediate">Okamžité oznámení při přijetí notifikace</string>
     <string name="notification_group_connecting">Při připojení k zařízení</string>
     <string name="notification_group_reminder">Připomenutí oznámení</string>
@@ -304,34 +294,32 @@
     Lorem ipsum (zkráceně lipsum) je označení pro standardní pseudolatinský text užívaný v grafickém designu a navrhování jako demonstrativní výplňový text při vytváření pracovních ukázek grafických návrhů (např. fontů nebo rozvržení časopisů či HTML stránek).
         \nLipsum tak pracovně znázorňuje text v ukázkových maketách (tzv. mock-up) předtím, než bude do hotového návrhu vložen smysluplný obsah.
     </string>
-    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> ikona: Tuto ikonu vyberte, abyste zobrazili název oznámení/obsah.]]></string>
 
 
-    <!-- Call -->
+    <!-- Incoming call alert -->
     <string name="call_tab_call">Příchozí hovor</string>
     <string name="call_tab_contacts">Kontakty</string>
 
-    <string name="pref_cat_call">Příchozí hovor</string>
-    <string name="pref_call_summary_on">Nezapomeňte vypnout upozornění na příchozí volání v aplikaci %1$s</string> <!-- %1$s = official app name -->
-    <string name="pref_call_text_title">Zobrazte ID volajícího</string>
+    <string name="call_incoming">Příchozí hovor</string>
+    <string name="call_incoming_summary_on">Nezapomeňte vypnout upozornění na příchozí volání v aplikaci %1$s</string> <!-- %1$s = official app name -->
+    <string name="call_incoming_caller_id">Zobrazte ID volajícího</string>
 
     <string name="pref_call_notification_rejected">Show notification about rejected call</string>
     <string name="pref_call_notification_rejected_message">Rejected call</string>
     <string name="pref_call_notification_rejected_action">Call</string>
 
-    <string name="pref_call_net_text_title">Oznámení příchozího internetového volání</string>
+    <string name="call_incoming_net_alert_title">Oznámení příchozího internetového volání</string>
 
-    <string name="pref_cat_call_missed">Zmeškaný hovor</string>
-    <string name="pref_call_missed_title">Oznámení zmeškaného hovoru</string>
-
-    <string name="pref_call_missed_alert_title">Oznámení na %1$s</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="call_missed_title">Oznámení zmeškaného hovoru</string>
+    <string name="call_missed_chooser_title">Oznámení na %1$s</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="call_missed_notification">Zmeškaný hovor</string>
 
     <string name="call_reject_button_action">Tlačítko odmítnout</string>
 
     <string name="touch_call_answer_title">Zpětné volání</string>
     <string name="touch_call_answer_speakerphone_title">Hlasité volání</string>
 
-    <string name="touch_call_end_title">Odmítnutí hovoru, ukončení</string>
+    <string name="call_end_title">Odmítnutí hovoru, ukončení</string>
 
     <string name="touch_call_mute_title">Zavoleju</string>
     <string name="touch_call_mute_only_call_state_ringing_title">Pouze pokud máte příchozí hovor</string>
@@ -353,8 +341,6 @@
     <string name="app_chooser">Výběr aplikace</string>
     <string name="action_search">Vyhledávání</string>
     <string name="action_filter_notification">Filtr oznámení</string>
-
-    <string name="main_control">Ovládání</string>
 
     <!-- Activity -->
     <string name="step_details">Podrobnosti aktivit</string>
@@ -382,10 +368,10 @@
     <string name="sleep_rem">REM</string>
 
 
-    <!-- Pulse -->
-    <string name="pulse_details">Podrobnosti tepu</string>
+    <!-- Heart rate -->
+    <string name="heart_rate_details">Podrobnosti tepu</string>
 
-    <string name="pulse_continuous_title">Nepřetržité měření tepu</string>
+    <string name="heart_rate_continuous_title">Nepřetržité měření tepu</string>
 
     <string name="heart_rate_warning_title">Upozornění na srdeční tep</string>
     <string name="low_and_high_heart_rates">Hranice srdečního tepu</string>
@@ -432,7 +418,7 @@
     <string name="message_reminder_disabled">Připomenutí zakázáno</string>
 
     <string name="reminder_repeat">Opakování každou hodinu</string>
-    <string name="reminder_notification_shade">Upozornění na zařízení</string>
+    <string name="reminder_notification_on_phone">Upozornění na zařízení</string>
 
     <string name="message_time_reminder_free_counter">Až 1 připomínka lze použít v bezplatném režimu</string>
 
@@ -465,7 +451,7 @@
     <string name="watch_face_upload_prepare">Preparing for the upload…</string>
     <string name="watch_face_upload_progress">Uploading %1$,d%%</string>
 
-    <string name="watch_face_invalid_firmware">%1$s firmware does not support uploading the watch face, update the firmware in the official application</string> <!-- %1$s = Haylou Smart watch ... -->
+    <string name="watch_face_invalid_firmware">Firmware %1$s není známý nebo nepodporuje nahrávání ciferníků. Aktualizujte firmware pomocí oficiální aplikace. Pokud oficiální aplikace podporuje nahrávání ciferníků, dejte nám prosím vědět prostřednictvím nabídky Zpětná vazba.</string>
     <string name="watch_face_invalid_auth">Use in standalone mode, when using cooperation mode, the official application may block the watch face upload</string>
     <string name="watch_face_invalid_free">Ve volném režimu dnes již nelze nahrát další ciferníky</string>
     <string name="watch_face_watch_rewarded_ads">Podívejte se na video, abyste mohli pokračovat</string>
@@ -545,8 +531,8 @@
     <string name="watch_face_edit_icon">Icon</string>
     <string name="watch_face_edit_image_size">Velikost obrázku</string>
 
-    <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
-    <string name="watch_face_custom_watch_face_under_development_title">The ability to upload custom watch faces is currently in development and may be available in the future, but it is not yet confirmed</string>
+    <string name="watch_face_custom_watch_face_not_supported_title">Tento hodinky nepodporují nahrávání vlastních ciferníků</string>
+    <string name="watch_face_custom_watch_face_under_development_title">Funkce nahrávání vlastních ciferníků je momentálně ve vývoji a může být v budoucnu dostupná, ale zatím to není potvrzeno.</string>
 
     <!-- Touch monitoring -->
     <string name="touch_tab_function">Function</string>
@@ -680,7 +666,7 @@
 
     <string name="weather_forecast_title">Předpověď počasí</string>
 
-    <string name="weather_setting_provider">Weather provider</string>
+    <string name="weather_setting_provider">Poskytovatel počasí</string>
     <string name="weather_city_title">Město</string>
     <string name="weather_unit_title">Jednotka</string>
     <string name="weather_unit_metric">Metrický (Celsia)</string>
@@ -698,8 +684,6 @@
     <string name="weather_current_location">Current location</string>
     <string name="weather_current_temperature">Současná teplota</string>
 
-    <string name="weather_display">Display</string>
-
     <string name="weather_precipitation_rain">Déšť</string>
     <string name="weather_precipitation_snow">Sníh</string>
     <string name="weather_cloud_cover_abbreviation">Vl</string>
@@ -712,7 +696,9 @@
     <string name="weather_west">W</string>
 
 
-    <!-- Text display -->
+    <!-- Text customization -->
+    <string name="pref_text_reminder_repeat_interval_title">Interval opakování připomenutí</string>
+    <string name="pref_text_reminder_repeat_interval_summary">Notification/reminder alert function uses this timing</string>
     <string name="pref_text_emoticon_title">Převod emoji</string>
     <string name="pref_text_emoticon_summary_on">Převést emoji na emotikon</string>
     <string name="pref_text_uppercase_title">Převod na velká písmena</string>
@@ -753,35 +739,38 @@
     <!-- Premium mode -->
     <string name="purchase_advantage_title">Výhody prémiového režimu</string>
     <string name="purchase_advantage"><![CDATA[
-        <p>• financial support for development</p>
-        <p>• no ads</p>
-        <p>• notification setting is not limited</p>
-        <p>• call setting is not limited</p>
-        <p>• the number of alarms is not limited (the number of alarms is limited by the clock)</p>
-        <p>• do not disturb mode is not limited</p>
-        <p>• more frequent weather synchronization, location can be updated automatically, AccuWeather provider can be set</p>
-        <p>• touch setting is not limited</p>
-        <p>• detailed daily graphs</p>
-        • removing other restrictions…
+    <p>• finanční podpora vývoje</p>
+    <p>• bez reklam</p>
+    <p>• neomezené nastavení oznámení</p>
+    <p>• neomezené nastavení hovorů</p>
+    <p>• neomezené denní nahrávání ciferníků</p>
+    <p>• neomezený počet budíků (může být omezen hodinkami)</p>
+    <p>• neomezený režim nerušit</p>
+    <p>• neomezené nastavení dotyku</p>
+    <p>• častější aktualizace počasí, automatická aktualizace polohy, možnost zvolit poskytovatele AccuWeather</p>
+    <p>• podrobné denní grafy</p>
+    • odemknutí všech ostatních omezení funkcí…
     ]]></string>
+
     <string name="purchase_policy_title">Podmínky prémiového režimu</string>
     <string name="purchase_policy"><![CDATA[
-    <p>• Aplikaci jsem otestoval a funguje správně.</p>
-    <p>• Jsem si vědom, že nemohu požadovat kompenzaci nebo vrácení peněz kvůli chybám způsobeným změnami softwarového nebo hardwarového prostředí či používáním jiných aplikací.</p>
-    <p>• Všechny prodeje jsou konečné a nelze je vrátit (s výjimkou zásad vrácení peněz Google).</p>
-    <p>• Není poskytována žádná záruka.</p>
-    <p>• Tato aplikace se používá na vlastní riziko a vývojář vylučuje veškeré další záruky, včetně jakékoli přímé nebo nepřímé odpovědnosti za škody nebo ztrátu dat vzniklé jejím použitím.</p>
-    <i>Po zakoupení je třeba aplikaci restartovat.</i>
+    <p>• Aplikaci jsem vyzkoušel/a a zjistil/a jsem, že funguje podle očekávání.</p>
+    <p>• Beru na vědomí, že nemohu požadovat náhradu škody ani vrácení peněz kvůli problémům způsobeným změnami v systému (např. aktualizace Androidu), v hardwaru nebo konflikty s jinými aplikacemi.</p>
+    <p>• Všechny nákupy jsou konečné a nelze je vrátit (s výjimkou pravidel pro vrácení peněz společnosti Google).</p>
+    <p>• Tato aplikace je poskytována bez jakékoli výslovné nebo předpokládané záruky.</p>
+    <p>• Používání této aplikace je na vlastní riziko. Vývojář nenese odpovědnost za žádné přímé ani nepřímé škody nebo ztrátu dat způsobené jejím používáním.</p>
+    <p>• Prémiový režim je propojen s vaším účtem Google a zůstane aktivní i po přeinstalování aplikace.</p>
+    <i>Po nákupu je třeba aplikaci restartovat.</i>
     ]]></string>
 
     <string name="purchase_google_play_services_not_available">Služby Google Play nejsou k dispozici</string>
 
-    <!--<string name="purchase_price">Cena:</string>-->
     <string name="purchase_agree">Souhlasím s podmínkami.</string>
     <string name="purchase_order_id">číslo objednávky</string>
     <string name="purchase_order_id_help">Kopírovat z:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+
     <string name="purchase_info">Jednorázový poplatek ・ %1$s</string> <!-- %1$s = price</string>-->
     <string name="purchase_button_purchase">Koupit</string>
 
@@ -800,41 +789,58 @@
     <string name="privacy_policy_tab_eu_consent">Souhlas uživatele EU a USA</string>
     <string name="privacy_policy_tab_non_eu_consent">Souhlas uživatele z jiných regionů</string>
 
-    <string name="privacy_policy_collect_title">Information we collect</string>
+    <string name="privacy_policy_collect_title">Informace, které shromažďujeme</string>
     <string name="privacy_policy_collect"><![CDATA[
-        <p>• We only collect anonymous information.</p>
-        <p>• We collect information at the application level about the services that you use and how you use them (Google Analytics).</p>
-        <p>• We collect information at the application level like bugs, errors, and crashes to provide improvements (Firebase Crashlytics).</p>
-        <p>• We collect information at the application level about the performance (Firebase Performance Monitoring).</p>
-        <p>• Google Firebase Platform collects information anonymously. It reports trends without identifying individual users.
-        The Firebase Platform collects data such as Firebase installation ID, application state, relevant device metadata (device model, CPU architecture, RAM and disk size, OS, screen orientation, country, locale/language), stack traces, performance metrics (including app start time and network request latency, network URLs), CPU/memory usage, IP address …
-        </p>
-        • We collect location data to update the weather based on your current location (optional).
+    <p>• Shromažďujeme pouze anonymní informace.</p>
+    <p>• Na úrovni aplikace shromažďujeme informace o tom, jaké služby používáte a jak je používáte (Google Analytics).</p>
+    <p>• Na úrovni aplikace shromažďujeme informace o chybách, závadách a pádech aplikace pro zajištění vylepšení (Firebase Crashlytics).</p>
+    <p>• Na úrovni aplikace shromažďujeme informace o výkonu (Firebase Performance Monitoring).</p>
+    <p>• Platforma Google Firebase shromažďuje informace anonymně. Hlásí trendy bez identifikace jednotlivých uživatelů.
+    Platforma Firebase může shromažďovat údaje jako ID instalace Firebase, stav aplikace, relevantní metadata zařízení (model zařízení, architektura CPU, velikost RAM a disku, OS, orientace obrazovky, země, jazyk/locale), výpisy zásobníku, metriky výkonu (včetně času spuštění aplikace a latence síťových požadavků, síťové adresy URL), využití CPU/paměti, přibližná IP adresa …</p>
+    <p>• Shromažďujeme údaje o poloze za účelem aktualizace počasí na základě vaší aktuální polohy (volitelné).</p>
+    • Právním základem pro shromažďování a zpracování těchto údajů je náš oprávněný zájem na zlepšování funkčnosti a výkonu aplikace a zajištění její stability a použitelnosti.
+    ]]></string>
+
+    <string name="privacy_policy_cookies_title">Soubory cookie a podobné technologie</string>
+    <string name="privacy_policy_cookies"><![CDATA[
+    • Některé služby třetích stran, jako je AdMob, mohou používat soubory cookie nebo podobné technologie k zobrazování personalizované reklamy. Personalizaci reklam můžete spravovat ve svém účtu Google.
+    ]]></string>
+
+    <string name="privacy_policy_retention_title">Uchovávání údajů</string>
+    <string name="privacy_policy_retention"><![CDATA[
+    • Shromážděná data jsou uchovávána službou Google Firebase v souladu s jejími zásadami a pouze po dobu nezbytně nutnou k analytickým, diagnostickým a výkonnostním účelům.
     ]]></string>
 
     <string name="privacy_policy_not_collect_title">Informace, které neshromažďujeme</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-    <p>• Neshromažďujeme osobní údaje, které by vás mohly identifikovat. To znamená, že například neshromažďujeme vaše jméno, adresu, telefonní číslo, e-mailovou adresu nebo MAC adresu.</p>
-    • Neshromažďujeme osobní zdravotní údaje, kontakty ani obsah telefonních oznámení.
+    <p>• Neshromažďujeme žádné osobní identifikovatelné údaje o vás. To znamená, že neshromažďujeme osobní údaje, jako je vaše jméno, adresa, telefonní číslo, e-mailová adresa nebo MAC adresa.</p>
+    • Neshromažďujeme osobní zdravotní údaje, kontakty ani obsah oznámení zobrazených na vašem zařízení.
     ]]></string>
 
     <string name="privacy_policy_share_title">Informace, které sdílíme</string>
     <string name="privacy_policy_share"><![CDATA[
-    • Nezveřejňujeme žádná data společnostem nebo organizacím kromě Google a poskytovatelů reklamy.
+    • Nezveřejňujeme žádná data jiným společnostem nebo organizacím s výjimkou společnosti Google a poskytovatelů reklamních služeb.
     ]]></string>
 
     <string name="privacy_policy_use_title">Osobní a citlivé údaje, které používáme</string>
     <string name="privacy_policy_use"><![CDATA[
-    • Údaje o poloze používáme pouze k aktualizaci informací o počasí a pouze v případě, že tuto funkci povolíte.
+    • Údaje o poloze používáme pouze k aktualizaci informací o počasí a pouze tehdy, pokud tuto funkci povolíte.
     ]]></string>
 
-    <string name="privacy_policy_links_title">Zásady ochrany osobních údajů poskytovatelů služeb třetích stran</string>
+    <string name="privacy_policy_rights_title">Vaše práva</string>
+    <string name="privacy_policy_rights"><![CDATA[
+    <p>• Analytická, chybová a výkonnostní data, která jsou shromažďována, jsou plně anonymní a nelze je použít k identifikaci jednotlivců. Proto se podle platných právních předpisů o ochraně osobních údajů (např. GDPR) nepovažují za osobní údaje a nevztahují se na ně práva na přístup, opravu nebo výmaz.</p>
+    <p>• Shromažďování údajů můžete odmítnout odinstalací aplikace nebo správou nastavení soukromí ve svém účtu Google nebo v nastavení zařízení.</p>
+    • Máte-li jakékoli dotazy týkající se používání údajů nebo svých práv na ochranu soukromí, kontaktujte nás prostřednictvím podpory v aplikaci.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">Zásady ochrany osobních údajů poskytovatelů třetích stran</string>
     <string name="privacy_policy_links"><![CDATA[
-        <a href="https://policies.google.com/privacy">Google Play Services</a>
-        <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
-        <p><a href="https://www.google.com/analytics/terms">Google Analytics</a></p>
-        <p><a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a></p>
-        <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>
+    <p><a href="https://policies.google.com/privacy">Zásady ochrany soukromí Google (včetně Google Play Services)</a></p>
+    <p><a href="https://policies.google.com/technologies/ads">Používání údajů AdMob</a></p>
+    <p><a href="https://support.google.com/analytics/answer/6004245">Používání údajů Google Analytics</a></p>
+    <p><a href="https://firebase.google.com/terms/crashlytics">Podmínky služby Firebase Crashlytics</a></p>
+    <a href="https://firebase.google.com/support/privacy">Zásady ochrany soukromí a zabezpečení Firebase (včetně Performance Monitoring)</a>
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Stav</string>
@@ -857,7 +863,7 @@
     <string name="shortcut_status">Status</string>
     <string name="shortcut_heart_rate">Spánek</string>
     <string name="shortcut_blood_oxygen">Krevní kyslík</string>
-    <string name="shortcut_Sleep">Spánek</string>
+    <string name="shortcut_sleep">Spánek</string>
     <string name="shortcut_breathing">Breathing</string>
     <string name="shortcut_weather">Počasí</string>
     <string name="shortcut_stress">Stress</string>
@@ -954,7 +960,7 @@
 
     <string name="action_chart">Graf</string>
     <string name="action_zoom_in">Zoom</string>
-    <string name="action_chart_normalize_minute">Naměřené hodnoty</string>
+    <string name="action_chart_normalize_raw_data">Naměřené hodnoty</string>
     <string name="action_chart_normalize_quarter_hourly">Čtvrthodinové hodnoty</string>
     <string name="action_chart_normalize_half_hourly">Půlhodinové hodnoty</string>
     <string name="action_chart_normalize_hourly">Hodinové hodnoty</string>
@@ -964,8 +970,8 @@
     <string name="action_chart_sort_step_desc">Krok klesající</string>
     <string name="action_chart_sort_duration_asc">Duration ascending</string>
     <string name="action_chart_sort_duration_desc">Duration descending</string>
-    <string name="action_chart_sort_pulse_asc">Tlak stoupající</string>
-    <string name="action_chart_sort_pulse_desc">Tlak klesající</string>
+    <string name="action_chart_sort_heart_rate_asc">Tlak stoupající</string>
+    <string name="action_chart_sort_heart_rate_desc">Tlak klesající</string>
     <string name="action_chart_sort_spo2_asc">SpO2 stoupající</string>
     <string name="action_chart_sort_spo2_desc">SpO2 klesající</string>
     <string name="action_chart_sort_pressure_asc">Pressure ascending</string>
@@ -991,7 +997,7 @@
     <string name="percent_90">90%</string>
     <string name="percent_100">100%</string>
 
-    <!-- Constante -->
+    <!-- Constants -->
     <string name="const_day_of_week_sunday">Neděle</string>
     <string name="const_day_of_week_monday">Pondělí</string>
     <string name="const_day_of_week_tuesday">Úterý</string>
@@ -1020,28 +1026,22 @@
     <string name="const_unit_dbm">dBm</string>
 
     <plurals name="plural_time_hour">
-        <item quantity="zero">%d hodin</item>
         <item quantity="one">%d hodina</item>
-        <item quantity="two">%d hodiny</item>
-        <item quantity="few">%d hodin</item>
+        <item quantity="few">%d hodiny</item>
         <item quantity="many">%d hodin</item>
-        <item quantity="other">%d hodina</item>
+        <item quantity="other">%d hodin</item>
     </plurals>
 
     <plurals name="plural_time_minute">
-        <item quantity="zero">%d minut</item>
         <item quantity="one">%d minuta</item>
-        <item quantity="two">%d minuty</item>
-        <item quantity="few">%d minut</item>
+        <item quantity="few">%d minuty</item>
         <item quantity="many">%d minut</item>
         <item quantity="other">%d minut</item>
     </plurals>
 
     <plurals name="plural_time_second">
-        <item quantity="zero">%d sekund</item>
         <item quantity="one">%d sekunda</item>
-        <item quantity="two">%d sekundy</item>
-        <item quantity="few">%d sekund</item>
+        <item quantity="few">%d sekundy</item>
         <item quantity="many">%d sekund</item>
         <item quantity="other">%d sekund</item>
     </plurals>

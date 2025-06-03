@@ -1,10 +1,8 @@
 <?xml version="1.0"?>
 
-<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation" tools:locale="en" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-<!--    <string name="app_name" translatable="false">App name</string>-->
-<!--    <string name="device_name" translatable="false">Watch</string>-->
-    <string name="menu_nav_home" translatable="false">@string/device_name</string>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="bn">
 
+    <!--  Navigation  -->
     <string name="menu_nav_notification">Notification</string>
     <string name="menu_nav_call">Call</string>
     <string name="menu_nav_step">Activity</string>
@@ -26,7 +24,6 @@
     <string name="menu_nav_feedback">Feedback</string>
     <string name="menu_nav_privacy_policy">Privacy policy</string>
     <string name="menu_nav_theme">Theme</string>
-    <string name="menu_nav_settings" type="string" translatable="false">@string/settings_name</string>
 
     <string name="setting_name">Setting</string>
     <string name="settings_name">Settings</string>
@@ -239,8 +236,6 @@
     <br>- More information: https://dontkillmyapp.com
     <br><br><small>This product and its features are not designed for medical purposes, and are not intended to predict, diagnose, prevent, or cure any diseases. All data and measurements are for personal reference only and shall not be used as a basis for diagnosis and treatment.</small>
     ]]></string>
-
-    <string name="dialog_welcome_message_watch_types" translatable="false"/>
 
     <!-- Notification  -->
     <string name="notification_group_nav_setting">Setting</string>
@@ -644,17 +639,17 @@
     <string name="touch_setting_recognition_succeeded_title">Recognisable touch pattern</string>
     <string name="touch_setting_recognition_failed_title">Not recognisable touch pattern</string>
 
-    <string name="info_dialog_touch"><![CDATA[
-        <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
-        <p><b>Phones Bluetooth settings:</b> <device_name/> disable input device</p>
-        <b><u>Recognised touches</u></b>
-        <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
-        <br><device_type/> music control
-        <p><img src="ic_search">
-        <br><device_type/> find my phone
-        </p>
-        Multiple touches can be recorded for each function.
-    ]]></string>
+    <!--    <string name="info_dialog_touch"><![CDATA[-->
+    <!--        <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>-->
+    <!--        <p><b>Phones Bluetooth settings:</b> <device_name/> disable input device</p>-->
+    <!--        <b><u>Recognised touches</u></b>-->
+    <!--        <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">-->
+    <!--        <br><device_type/> music control-->
+    <!--        <p><img src="ic_search">-->
+    <!--        <br><device_type/> find my phone-->
+    <!--        </p>-->
+    <!--        Multiple touches can be recorded for each function.-->
+    <!--    ]]></string>-->
 
 
     <!-- Weather  -->
@@ -741,32 +736,30 @@
         <p>• no ads</p>
         <p>• unlimited notification settings</p>
         <p>• unlimited call settings</p>
-        <p>• unlimited daily watch face uploads</p>
-        <p>• unlimited number of alarms (limited by the watch)</p>
+        <p>• unlimited number of alarms (the number of alarms is limited by the watch)</p>
         <p>• unlimited Do Not Disturb mode</p>
         <p>• unlimited touch settings</p>
-        <p>• more frequent weather updates, automatic location updates, option to use AccuWeather</p>
+        <p>• more frequent weather synchronization, automatic location updates, AccuWeather provider can be set</p>
         <p>• detailed daily graphs</p>
-        • unlock all other feature limits…
+        • unlock all other restrictions…
     ]]></string>
     <string name="purchase_policy_title">Terms and conditions of Premium mode</string>
     <string name="purchase_policy"><![CDATA[
-        <p>• I have tested the application and found it works as expected.</p>
-        <p>• I understand that I cannot request a refund or compensation for issues caused by changes in the system (such as Android version updates), hardware, or conflicts with other apps.</p>
-        <p>• All purchases are final and non-refundable (except as allowed by Google\'s refund policy).</p>
-        <p>• This app comes with no warranty, either express or implied.</p>
-        <p>• Use of this app is at your own risk. The developer is not responsible for any direct or indirect damage or data loss caused by its use.</p>
-        <p>• Premium mode is linked to your Google account and remains active after reinstalling the app.</p>
-        <i>The app must be restarted after purchase.</i>
+    <p>• I have tested the application and found it to work as expected.</p>
+    <p>• I am aware of that I can not require compensation or refund due to bugs, software errors caused by changes in the software, hardware environment or using other applications.</p>
+    <p>• All sales are final and can not be refund (except Google refund policy).</p>
+    <p>• There is no warranty included.</p>
+    <p>• Use of this application is at your own risk. The developer is not responsible for any direct or indirect damage or data loss caused by its use.</p>
+    <i>The app must be restarted after purchase.</i>
     ]]></string>
 
     <string name="purchase_google_play_services_not_available">Google Play Services are not available</string>
 
     <string name="purchase_agree">I agree to the terms and conditions.</string>
     <string name="purchase_order_id">Order ID</string>
-    <string name="purchase_order_id_help">Copy from:
-        \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
-        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <!--    <string name="purchase_order_id_help">Copy from:-->
+    <!--        \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>-->
+    <!--        \n<a href="https://payments.google.com">https://payments.google.com</a></string>-->
 
     <string name="purchase_info">One-time fee ・ %1$s</string> <!-- %1$s = price</string>-->
     <string name="purchase_button_purchase">Purchase</string>
@@ -1039,9 +1032,4 @@
         <item quantity="other">%d seconds</item>
     </plurals>
 
-    <string name="elapsed_time_short_format_h_mm" translatable="false">"<xliff:g id="HOURS">%1$d</xliff:g>:<xliff:g id="MINUTES">%2$02d</xliff:g>"</string>
-    <string name="elapsed_time_short_format_h_mm_ss" translatable="false">"<xliff:g id="HOURS">%1$d</xliff:g>:<xliff:g id="MINUTES">%2$02d</xliff:g>:<xliff:g id="SECONDS">%3$02d</xliff:g>"</string>
-    <string name="elapsed_time_short_format_mm_ss" translatable="false">"<xliff:g id="MINUTES">%1$02d</xliff:g>:<xliff:g id="SECONDS">%2$02d</xliff:g>"</string>
-
-    <string name="problem.lvl" translatable="false">problem.lvl</string>
 </resources>

@@ -1,12 +1,11 @@
 <?xml version="1.0"?>
 
 <resources xmlns:tools="http://schemas.android.com/tools" tools:locale="vi">
-    <string name="menu_nav_home">@string/device_name</string>
     <string name="menu_nav_notification">Thông báo</string>
     <string name="menu_nav_call">Cuộc gọi</string>
     <string name="menu_nav_step">Giám sát bước chân</string>
     <string name="menu_nav_sleep">Ngủ</string>
-    <string name="menu_nav_pulse">Giám sát nhịp tim</string>
+    <string name="menu_nav_heart_rate">Giám sát nhịp tim</string>
     <string name="menu_nav_blood_oxygen">Oxy trong máu</string>
     <string name="menu_nav_blood_pressure">Huyết áp</string>
     <string name="menu_nav_workout">Tập thể dục</string>
@@ -17,26 +16,24 @@
     <string name="menu_nav_weather">Thời tiết</string>
     <string name="menu_nav_touch">Giám sát chạm</string>
     <string name="menu_nav_more">Hơn</string>
-    <string name="menu_nav_text_display">Cài đặt biểu tượng văn bản</string>
+    <string name="menu_nav_text_customization">Cài đặt biểu tượng văn bản</string>
     <string name="menu_nav_export">Xuất</string>
     <string name="menu_nav_premium_mode">Phiên bản nâng cấp</string>
     <string name="menu_nav_feedback">Phản hồi</string>
     <string name="menu_nav_privacy_policy">Chính sách bảo mật</string>
     <string name="menu_nav_theme">Theme</string>
-<!--    <string name="menu_nav_settings" type="string">@string/settings_name</string>-->
 
     <string name="setting_name">Cài đặt</string>
     <string name="settings_name">Cài đặt</string>
     <string name="info_name">Thông tin</string>
     <string name="more_name">Hơn</string>
 
-<!--    <string name="mi_band_tracker_title">Bước・khoảng cách・calo・Thành tích・Nhịp tim</string>-->
-    <string name="main_tracker_title">Bước・Thành tích</string>
-<!--    <string name="mi_band_battery">Mức pin・Lần sạc cuối・Thời gian còn lại</string>-->
-    <string name="device_battery">Mức pin・Lần sạc cuối</string>
-    <string name="device_state_connected_disconnected_last_time">Lần cuối nhìn thấy thiết bị</string>
-    <string name="device_alarm">Báo thức tiếp</string>
-    <string name="device_reminder">Lời nhắc tiếp theo</string>
+    <string name="main_item_activity_title">Bước・Thành tích</string>
+    <string name="main_item_battery">Mức pin・Lần sạc cuối</string>
+    <string name="main_item_connect_and_disconnect_last_time">Lần cuối nhìn thấy thiết bị</string>
+    <string name="main_item_next_alarm">Báo thức tiếp</string>
+    <string name="main_item_next_reminder">Lời nhắc tiếp theo</string>
+    <string name="main_item_call_and_notification_control">Cuộc gọi và thông báo</string>
 
     <string name="device_search">Tìm kiếm %1$s</string> <!-- %1$s = Watch name -->
     <string name="device_setting">Cài đặt %1$s</string> <!-- %1$s = Watch name -->
@@ -49,17 +46,14 @@
     <string name="device_state_bonded">Thiết bị đã ghép nối</string>
     <string name="device_state_not_bonded">Thiết bị không kết nối</string>
 
-    <string name="pref_dnd_title">Chế độ không làm phiền</string>
-
     <string name="error_title">Rất tiếc! Có gì đó không ổn</string>
     <string name="error_message">Cập nhật ứng dụng lên phiên bản mới nhất</string>
 
 
     <!--Haylou setting -->
-    <string name="mi_band_setting_button_title">Cài đặt %1$s・Hồ sơ・Tin nhắn・Cuộc gọi・Các mục menu ẩn</string>
     <string name="mi_band_setting_title">Cài đặt %1$s</string>
 
-    <string name="mi_band_setting_menu_connection">Cài đặt kết nối</string>
+    <string name="mi_band_setting_menu_connection">Kết nối</string>
     <string name="mi_band_setting_menu_setting">@string/setting_name</string>
     <string name="mi_band_setting_menu_profile">Hồ sơ</string>
     <string name="mi_band_setting_menu_text">Tin nhắn</string>
@@ -80,19 +74,19 @@
 
     <string name="message_auth_request">Nó đã được ghép nối, nếu bạn không biết khóa, hãy sử dụng chức năng hủy ghép nối</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">Bấm nút trên %1$s để kết nối</string> <!-- %1$s = Watch name -->
-    <string name="message_mi_band_setting_auth_success">%1$s ghép nối thành công</string>
-    <string name="message_mi_band_setting_auth_fail">%1$s ghép nối thất bại</string>
+    <string name="message_mi_band_setting_auth_press_band_button">Nhấn nút trên %1$s để ghép nối</string>
+    <string name="message_mi_band_setting_auth_success">%1$s đã được ghép nối thành công</string>
+    <string name="message_mi_band_setting_auth_fail">Ghép nối với %1$s thất bại</string>
     <string name="message_mi_band_setting_auth_key_invalid">Khóa xác thực không hợp lệ</string>
 
     <string name="pref_disconnect_device">Ngắt kết nối</string>
 
-    <string name="mi_band_setting_connection_problem_title">In case of connection problem</string>
+    <string name="mi_band_setting_connection_problem_title">Nếu bạn gặp sự cố khi kết nối</string>
     <string name="mi_band_setting_connection_problem_hint"><![CDATA[
-    - Unpair the watch in the phone\'s Bluetooth settings
-    <br>- Turn Bluetooth off and on
-    <br>- Force close the Application or restart the phone
-    <br>- Pair your watch again on the main screen
+    - Hủy ghép nối đồng hồ trong cài đặt Bluetooth của điện thoại<br>
+    - Tắt rồi bật lại Bluetooth<br>
+    - Buộc dừng ứng dụng hoặc khởi động lại điện thoại<br>
+    - Thử ghép nối lại đồng hồ từ màn hình chính
     ]]></string>
 
     <string name="mi_band_setting_dial">Mặt đồng hồ</string>
@@ -102,14 +96,14 @@
     <string name="mi_band_setting_lift_wrist">Nâng cổ tay để bật màn hình</string>
     <string name="mi_band_setting_screen_on_duration">Thời lượng màn hình bật</string>
     <string name="mi_band_setting_idle_alert">Cảnh báo ngồi lâu</string>
-    <string name="mi_band_setting_idle_alert_time">Thời gian không hoạt động</string>
+    <string name="mi_band_setting_idle_alert_duration">Thời gian không hoạt động</string>
     <string name="mi_band_setting_idle_alert_dnd">Không làm phiền trong khi nghỉ (12:00-14:00)</string>
 
     <string name="pref_synchronization">Đồng bộ</string>
     <string name="pref_synchronization_fetch_interval">Tần suất đồng bộ</string>
     <string name="pref_synchronization_summary">Select the data to be automatically synchronised in the background. If you do not need any of the data, turn it off for better performance. Data can still be synchronised manually on the home screen or in the appropriate menus (by sweeping down).</string>
 
-    <string name="mi_band_setting_profile">Dữ liệu này là cần thiết để tính toán chính xác số bước, khoảng cách và lượng calo đã đốt cháy.</string>
+    <string name="mi_band_setting_profile">Những thông tin này giúp tính toán chính xác hơn số bước, khoảng cách và lượng calo đã tiêu thụ.</string>
     <string name="mi_band_setting_gender">Giới tính</string>
     <string name="mi_band_setting_gender_male">Nam</string>
     <string name="mi_band_setting_gender_female">Nữ</string>
@@ -124,21 +118,17 @@
     <!-- Battery -->
     <string name="battery_details">Sử dụng Pin</string>
 
-    <string name="mi_band_battery_settings">Cài đặt Pin</string>
-    <string name="mi_band_battery_notification">Thông báo Pin yếu</string>
-    <string name="mi_band_battery_notification_level">Mức pin yếu</string>
-    <string name="mi_band_battery_notification_repeat_interval">Lặp lại</string>
-    <string name="mi_band_battery_notification_shade">Thông báo trên điện thoại</string>
-    <string name="mi_band_battery_notification_shade_error">Notification display permission is restricted</string>
-    <string name="mi_band_battery_notification_shade_ongoing">Thông báo liên tục</string>
-    <string name="mi_band_battery_notification_shade_message">Mức pin thấp: %1$,d%%</string>
-    <string name="mi_band_battery_notification_mi_band">Cảnh báo trên vòng đeo tay</string>
-    <string name="mi_band_battery_notification_mi_band_message">Pin: %1$,d%%</string>
+    <string name="battery_settings">Cài đặt Pin</string>
+    <string name="battery_settings_notification">Thông báo Pin yếu</string>
+    <string name="battery_settings_notification_level">Mức pin yếu</string>
+    <string name="battery_settings_notification_repeat_interval">Lặp lại</string>
+    <string name="battery_settings_notification_on_phone">Thông báo trên điện thoại</string>
+    <string name="battery_settings_notification_on_phone_ongoing">Thông báo liên tục</string>
+    <string name="battery_settings_notification_on_phone_message">Mức pin thấp: %1$,d%%</string>
+    <string name="battery_settings_notification_on_device">Cảnh báo trên vòng đeo tay</string>
+    <string name="battery_settings_notification_on_device_message">Pin: %1$,d%%</string>
 
-    <!-- PreferenceScreen -->
-    <string name="pref_connected_have_notif_interval_title">Khoảng thời gian lặp lại nhắc nhở</string>
-    <string name="pref_connected_have_notif_interval_summary">Chức năng tín hiệu thông báo/nhắc nhở sử dụng thời gian này</string>
-
+    <!-- Preference screens -->
     <string name="pref_battery_phone">Pin điện thoại</string>
     <string name="pref_battery_phone_summary">Cảnh báo Pin yếu và Pin đầy</string>
     <string name="pref_cat_battery_phone_low">Mức pin yếu</string>
@@ -257,7 +247,7 @@
     <string name="notification_group_name">Tên</string>
     <string name="notification_group_monitoring">Giám sát thông báo</string>
     <string name="notification_group_monitoring_disabled">Vô hiệu hóa các thông báo (không hiển thị các thông báo ứng dụng)</string>
-    <string name="notification_group_text">Hiển thị chữ</string>
+    <string name="notification_group_text_customization">Hiển thị chữ</string>
     <string name="notification_group_alert_title">Tín hiệu %1$s</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
     <string name="notification_group_text_title">Tiêu đề</string>
     <string name="notification_group_text_app_name">Tên ứng dụng</string>
@@ -265,8 +255,8 @@
     <string name="notification_group_text_content">Nội dung</string>
     <string name="notification_group_text_big_content">Nội dung đầy đủ</string>
     <string name="notification_group_text_content_slice_title">Độ dài văn bản</string>
-    <string name="notification_group_display_time_title">Hiển thị thời gian</string>
-    <string name="notification_group_display_notification_title">Hiển thị thông báo</string>
+    <string name="notification_group_display_duration_title">Hiển thị thời gian</string>
+    <string name="notification_group_show_notification_title">Hiển thị thông báo</string>
     <string name="notification_group_immediate">Phát tín hiệu ngay lập tức khi nhận được thông báo</string>
     <string name="notification_group_connecting">Khi kết nối với thiết bị</string>
     <string name="notification_group_reminder">Tín hiệu nhắc nhở</string>
@@ -309,34 +299,32 @@
         \nHà Nội là thành phố lớn thứ 2 cả nước, sau Thành phố Hồ Chí Minh, đồng thời cũng là địa phương đứng thứ nhì về dân số với 7.742.200 người (năm 2017), sau Thành phố Hồ Chí Minh.
         \nTuy nhiên, nếu tính những người cư trú không đăng ký thì dân số thực tế của thành phố này năm 2017 là hơn 8 triệu người. Hiện nay, thủ đô Hà Nội và Thành phố Hồ Chí Minh là đô thị loại đặc biệt của Việt Nam.
     </string>
-    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> biểu tượng: Chọn biểu tượng này để hiển thị tiêu đề/nội dung thông báo.]]></string>
 
 
-    <!-- Call -->
+    <!-- Incoming call alert -->
     <string name="call_tab_call">Cuộc gọi đến</string>
     <string name="call_tab_contacts">Liên lạc</string>
 
-    <string name="pref_cat_call">Cuộc gọi đến</string>
-    <string name="pref_call_summary_on">Nhớ tắt thông báo cuộc gọi đến trong ứng dụng %1$s</string> <!-- %1$s = official app name -->
-    <string name="pref_call_text_title">Hiện tên/Số người gọi</string>
+    <string name="call_incoming">Cuộc gọi đến</string>
+    <string name="call_incoming_summary_on">Nhớ tắt thông báo cuộc gọi đến trong ứng dụng %1$s</string> <!-- %1$s = official app name -->
+    <string name="call_incoming_caller_id">Hiện tên/Số người gọi</string>
 
     <string name="pref_call_notification_rejected">Hiển thị thông báo về cuộc gọi bị từ chối</string>
     <string name="pref_call_notification_rejected_message">Cuộc gọi bị từ chối</string>
     <string name="pref_call_notification_rejected_action">Cuộc gọi</string>
 
-    <string name="pref_call_net_text_title">Tín hiệu cuộc gọi internet</string>
+    <string name="call_incoming_net_alert_title">Tín hiệu cuộc gọi internet</string>
 
-    <string name="pref_cat_call_missed">Cuộc gọi nhỡ</string>
-    <string name="pref_call_missed_title">Tín hiệu cuộc gọi nhỡ</string>
-
-    <string name="pref_call_missed_alert_title">Tín hiệu %1$s</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="call_missed_title">Tín hiệu cuộc gọi nhỡ</string>
+    <string name="call_missed_chooser_title">Tín hiệu %1$s</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="call_missed_notification">Cuộc gọi nhỡ</string>
 
     <string name="call_reject_button_action">Nút từ chối</string>
 
     <string name="touch_call_answer_title">Trả lời cuộc gọi</string>
     <string name="touch_call_answer_speakerphone_title">Loa ngoài</string>
 
-    <string name="touch_call_end_title">Từ chối cuộc gọi, kết thúc</string>
+    <string name="call_end_title">Từ chối cuộc gọi, kết thúc</string>
 
     <string name="touch_call_mute_title">Tắt tiếng cuộc gọi</string>
     <string name="touch_call_mute_only_call_state_ringing_title">Chỉ khi bạn có một cuộc gọi đến</string>
@@ -359,7 +347,6 @@
     <string name="action_search">Tìm kiếm</string>
     <string name="action_filter_notification">Lọc thông báo</string>
 
-    <string name="main_control">Điều khiển</string>
 
     <!-- Activity -->
     <string name="step_details">Chi tiết bước chân</string>
@@ -387,10 +374,10 @@
     <string name="sleep_rem">REM</string>
 
 
-    <!-- Pulse -->
-    <string name="pulse_details">Chi tiết nhịp tim</string>
+    <!-- Heart rate -->
+    <string name="heart_rate_details">Chi tiết nhịp tim</string>
 
-    <string name="pulse_continuous_title">Đo nhịp tim Liên tục</string>
+    <string name="heart_rate_continuous_title">Đo nhịp tim Liên tục</string>
 
     <string name="heart_rate_warning_title">Cảnh báo nhịp tim</string>
     <string name="low_and_high_heart_rates">Ngưỡng nhịp tim</string>
@@ -437,7 +424,7 @@
     <string name="message_reminder_disabled">Đã tắt lời nhắc</string>
 
     <string name="reminder_repeat">Lặp lại hàng giờ</string>
-    <string name="reminder_notification_shade">Thông báo trên điện thoại của tôi</string>
+    <string name="reminder_notification_on_phone">Thông báo trên điện thoại của tôi</string>
 
     <string name="message_time_reminder_free_counter">Tối đa 1 lời nhắc có thể được sử dụng trong chế độ miễn phí</string>
 
@@ -470,7 +457,7 @@
     <string name="watch_face_upload_prepare">Chuẩn bị đồng bộ…</string>
     <string name="watch_face_upload_progress">Đang tải %1$,d%%</string>
 
-    <string name="watch_face_invalid_firmware">Firmware của %1$s không hỗ trợ tải lên mặt đồng hồ, cập nhật firmware trong ứng dụng chính thức</string> <!-- %1$s = Haylou Smart watch ... -->
+    <string name="watch_face_invalid_firmware">Firmware %1$s không xác định hoặc không hỗ trợ tải lên mặt đồng hồ. Vui lòng cập nhật firmware bằng ứng dụng chính thức. Nếu ứng dụng chính thức hỗ trợ tải lên mặt đồng hồ, vui lòng cho chúng tôi biết qua menu Phản hồi.</string>
     <string name="watch_face_invalid_auth">Sử dụng ở chế độ độc lập, khi sử dụng chế độ hợp tác, ứng dụng chính thức có thể chặn tải lên mặt đồng hồ</string>
     <string name="watch_face_invalid_free">Ở chế độ miễn phí, hôm nay không thể tải lên thêm mặt đồng hồ</string>
     <string name="watch_face_watch_rewarded_ads">Xem video để tiếp tục</string>
@@ -550,8 +537,8 @@
     <string name="watch_face_edit_icon">Icon</string>
     <string name="watch_face_edit_image_size">Kích cỡ hình</string>
 
-    <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
-    <string name="watch_face_custom_watch_face_under_development_title">The ability to upload custom watch faces is currently in development and may be available in the future, but it is not yet confirmed</string>
+    <string name="watch_face_custom_watch_face_not_supported_title">Đồng hồ này không hỗ trợ tải lên mặt đồng hồ tùy chỉnh</string>
+    <string name="watch_face_custom_watch_face_under_development_title">Chức năng tải lên mặt đồng hồ tùy chỉnh hiện đang được phát triển và có thể sẽ khả dụng trong tương lai, nhưng điều này vẫn chưa được xác nhận.</string>
 
     <!-- Touch monitoring -->
     <string name="touch_tab_function">Tính năng</string>
@@ -703,8 +690,6 @@
     <string name="weather_current_location">Vị trí hiện tại</string>
     <string name="weather_current_temperature">Nhiệt độ hiện tại</string>
 
-    <string name="weather_display">Hiển thị</string>
-
     <string name="weather_precipitation_rain">Mưa</string>
     <string name="weather_precipitation_snow">Tuyết</string>
     <string name="weather_cloud_cover_abbreviation">Cc</string>
@@ -717,7 +702,9 @@
     <string name="weather_west">W</string>
 
 
-    <!-- Text display -->
+    <!-- Text customization -->
+    <string name="pref_text_reminder_repeat_interval_title">Khoảng thời gian lặp lại nhắc nhở</string>
+    <string name="pref_text_reminder_repeat_interval_summary">Chức năng tín hiệu thông báo/nhắc nhở sử dụng thời gian này</string>
     <string name="pref_text_emoticon_title">Chuyển đổi emoji</string>
     <string name="pref_text_emoticon_summary_on">Chuyển emoji thành biểu tượng cảm xúc</string>
     <string name="pref_text_uppercase_title">Chuyển đổi chữ hoa</string>
@@ -756,37 +743,40 @@
 
 
     <!-- Premium mode -->
-    <string name="purchase_advantage_title">Ưu điểm của chế độ cao cấp</string>
+    <string name="purchase_advantage_title">Lợi ích của chế độ Premium</string>
     <string name="purchase_advantage"><![CDATA[
-        <p>• Hỗ trợ tài chính để phát triển</p>
-        <p>• Không quảng cáo</p>
-        <p>• Không hạn chế cài đặt thông báo</p>
-        <p>• Không hạn chế càid đặt cuộc gọi</p>
-        <p>• Số lượng báo thức không giới hạn (số lượng báo thức bị giới hạn bởi đồng hồ)</p>
-        <p>• Không giới hạn chế độ Không làm phiền</p>
-        <p>• Đồng bộ hóa thời tiết thường xuyên hơn, vị trí có thể được cập nhật tự động, nhà cung cấp AccuWeather có thể được thiết lập</p>
-        <p>• Không hạn chế cài đặt chạm</p>
-        <p>• Biểu đồ hàng ngày chi tiết</p>
-        • Gỡ bỏ các hạn chế khác…
+    <p>• hỗ trợ tài chính cho quá trình phát triển</p>
+    <p>• không có quảng cáo</p>
+    <p>• cài đặt thông báo không giới hạn</p>
+    <p>• cài đặt cuộc gọi không giới hạn</p>
+    <p>• tải lên mặt đồng hồ hàng ngày không giới hạn</p>
+    <p>• số lượng báo thức không giới hạn (có thể bị giới hạn bởi đồng hồ)</p>
+    <p>• chế độ Không làm phiền không giới hạn</p>
+    <p>• cài đặt chạm không giới hạn</p>
+    <p>• cập nhật thời tiết thường xuyên hơn, cập nhật vị trí tự động, tùy chọn sử dụng AccuWeather</p>
+    <p>• biểu đồ chi tiết hàng ngày</p>
+    • mở khóa tất cả giới hạn chức năng khác…
     ]]></string>
-    <string name="purchase_policy_title">Điều khoản và điều kiện của chế độ Premium</string>
+
+    <string name="purchase_policy_title">Điều khoản sử dụng chế độ Premium</string>
     <string name="purchase_policy"><![CDATA[
-    <p>• Tôi đã thử nghiệm ứng dụng và nó hoạt động bình thường.</p>
-    <p>• Tôi hiểu rằng tôi không thể yêu cầu bồi thường hoặc hoàn tiền do lỗi phần mềm gây ra bởi các thay đổi trong môi trường phần mềm hoặc phần cứng hoặc do sử dụng các ứng dụng khác.</p>
-    <p>• Tất cả các giao dịch mua đều là cuối cùng và không được hoàn lại (trừ theo chính sách hoàn tiền của Google).</p>
-    <p>• Ứng dụng không đi kèm bất kỳ bảo hành nào.</p>
-    <p>• Việc sử dụng ứng dụng này là rủi ro của riêng bạn và nhà phát triển không chịu trách nhiệm về bất kỳ thiệt hại hoặc mất mát dữ liệu nào phát sinh do việc sử dụng nó.</p>
-    <i>Sau khi mua, bạn cần khởi động lại ứng dụng.</i>
+    <p>• Tôi đã thử ứng dụng và thấy rằng nó hoạt động đúng như mong đợi.</p>
+    <p>• Tôi hiểu rằng tôi không thể yêu cầu hoàn tiền hoặc bồi thường cho các sự cố do cập nhật hệ thống (ví dụ: phiên bản Android), phần cứng hoặc xung đột với ứng dụng khác gây ra.</p>
+    <p>• Mọi giao dịch mua đều là cuối cùng và không được hoàn tiền (trừ khi được phép theo chính sách hoàn tiền của Google).</p>
+    <p>• Ứng dụng này không có bất kỳ bảo hành nào, dù rõ ràng hay ngụ ý.</p>
+    <p>• Việc sử dụng ứng dụng là rủi ro của riêng bạn. Nhà phát triển không chịu trách nhiệm cho bất kỳ thiệt hại trực tiếp hoặc gián tiếp nào hoặc mất dữ liệu do sử dụng gây ra.</p>
+    <p>• Chế độ Premium được liên kết với tài khoản Google của bạn và vẫn hoạt động ngay cả sau khi cài đặt lại ứng dụng.</p>
+    <i>Ứng dụng cần được khởi động lại sau khi mua.</i>
     ]]></string>
 
     <string name="purchase_google_play_services_not_available">Dịch vụ Google Play không có sẵn</string>
 
-    <!--<string name="purchase_price">Giá bán:</string>-->
     <string name="purchase_agree">Tôi đồng ý với các Điều khoản và Điều kiện.</string>
     <string name="purchase_order_id">ID đơn hàng</string>
     <string name="purchase_order_id_help">Sao chép từ:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+
     <string name="purchase_info">Phí một lần ・ %1$s</string> <!-- %1$s = price</string>-->
     <string name="purchase_button_purchase">Mua</string>
 
@@ -805,41 +795,58 @@
     <string name="privacy_policy_tab_eu_consent">Sự Đồng Ý của Người Dùng cho EU và Hoa Kỳ</string>
     <string name="privacy_policy_tab_non_eu_consent">Sự Đồng Ý của Người Dùng cho Các Khu Vực Khác</string>
 
-    <string name="privacy_policy_collect_title">Thông tin mà chúng tôi thu thập</string>
+    <string name="privacy_policy_collect_title">Thông tin chúng tôi thu thập</string>
     <string name="privacy_policy_collect"><![CDATA[
-        <p>• Chỉ có dữ liệu ẩn danh.</p>
-        <p>• Chúng tôi thu thập thông tin ở cấp ứng dụng về các dịch vụ bạn sử dụng và cách bạn sử dụng chúng (Google Analytics).</p>
-        <p>• Chúng tôi thu thập thông tin ở cấp ứng dụng như lỗi, lỗi và sự cố để cung cấp các cải tiến (Firebase Crashlytics).</p>
-        <p>• We collect information at the application level about the performance (Firebase Performance Monitoring).</p>
-        <p>• Google Firebase Platform thu thập thông tin một cách ẩn danh. Nó báo cáo xu hướng mà không xác định người dùng cá nhân.
-        The Firebase Platform collects data such as Firebase installation ID, application state, relevant device metadata (device model, CPU architecture, RAM and disk size, OS, screen orientation, country, locale/language), stack traces, performance metrics (including app start time and network request latency, network URLs), CPU/memory usage, IP address …
-        </p>
-        • We collect location data to update the weather based on your current location (optional).
+    <p>• Chúng tôi chỉ thu thập thông tin ẩn danh.</p>
+    <p>• Chúng tôi thu thập thông tin ở cấp độ ứng dụng về các dịch vụ bạn sử dụng và cách bạn sử dụng chúng (Google Analytics).</p>
+    <p>• Chúng tôi thu thập thông tin về lỗi, sự cố và sự cố treo ứng dụng để cải thiện hiệu suất (Firebase Crashlytics).</p>
+    <p>• Chúng tôi thu thập thông tin hiệu suất của ứng dụng (Firebase Performance Monitoring).</p>
+    <p>• Nền tảng Google Firebase thu thập thông tin một cách ẩn danh. Dữ liệu được báo cáo theo xu hướng mà không xác định người dùng cụ thể.
+    Firebase có thể thu thập dữ liệu như ID cài đặt Firebase, trạng thái ứng dụng, thông tin thiết bị liên quan (model thiết bị, kiến trúc CPU, dung lượng RAM và bộ nhớ, hệ điều hành, hướng màn hình, quốc gia, ngôn ngữ/khu vực), nhật ký lỗi (stack trace), các chỉ số hiệu suất (ví dụ thời gian khởi động ứng dụng, độ trễ mạng, URL), mức sử dụng CPU/bộ nhớ, và địa chỉ IP gần đúng…</p>
+    <p>• Chúng tôi thu thập dữ liệu vị trí để cập nhật thông tin thời tiết theo vị trí hiện tại của bạn (không bắt buộc).</p>
+    • Cơ sở pháp lý để thu thập và xử lý dữ liệu này là lợi ích hợp pháp của chúng tôi nhằm cải thiện chức năng và hiệu suất ứng dụng cũng như đảm bảo tính ổn định và khả năng sử dụng của nó.
+    ]]></string>
+
+    <string name="privacy_policy_cookies_title">Cookie và công nghệ tương tự</string>
+    <string name="privacy_policy_cookies"><![CDATA[
+    • Một số dịch vụ bên thứ ba như AdMob có thể sử dụng cookie hoặc công nghệ tương tự để hiển thị quảng cáo được cá nhân hóa. Bạn có thể quản lý cài đặt cá nhân hóa quảng cáo trong tài khoản Google của mình.
+    ]]></string>
+
+    <string name="privacy_policy_retention_title">Lưu trữ dữ liệu</string>
+    <string name="privacy_policy_retention"><![CDATA[
+    • Dữ liệu được Google Firebase lưu trữ theo chính sách của họ và chỉ trong thời gian cần thiết cho mục đích phân tích, chẩn đoán và cải thiện hiệu suất.
     ]]></string>
 
     <string name="privacy_policy_not_collect_title">Thông tin chúng tôi không thu thập</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-    <p>• Chúng tôi không thu thập thông tin cá nhân có thể xác định danh tính của bạn. Điều này có nghĩa là chúng tôi không thu thập, ví dụ, dữ liệu cá nhân như tên, địa chỉ, số điện thoại, địa chỉ email hoặc địa chỉ MAC của bạn.</p>
-    • Chúng tôi không thu thập dữ liệu sức khỏe cá nhân, danh bạ hoặc nội dung thông báo trên điện thoại.
+    <p>• Chúng tôi không thu thập thông tin cá nhân có thể nhận dạng bạn. Điều này có nghĩa là chúng tôi không thu thập tên, địa chỉ, số điện thoại, email hay địa chỉ MAC của bạn.</p>
+    • Chúng tôi không thu thập dữ liệu sức khỏe, danh bạ hay nội dung thông báo hiển thị trên thiết bị của bạn.
     ]]></string>
 
     <string name="privacy_policy_share_title">Thông tin chúng tôi chia sẻ</string>
     <string name="privacy_policy_share"><![CDATA[
-    • Chúng tôi không chia sẻ bất kỳ dữ liệu nào với các công ty hoặc tổ chức khác ngoài Google và các nhà cung cấp quảng cáo.
+    • Chúng tôi không chia sẻ dữ liệu với bất kỳ công ty hoặc tổ chức nào, ngoại trừ Google và các nhà cung cấp quảng cáo.
     ]]></string>
 
-    <string name="privacy_policy_use_title">Dữ liệu cá nhân và nhạy cảm của người dùng mà chúng tôi sử dụng</string>
+    <string name="privacy_policy_use_title">Dữ liệu cá nhân và nhạy cảm chúng tôi sử dụng</string>
     <string name="privacy_policy_use"><![CDATA[
-    • Chúng tôi chỉ sử dụng dữ liệu vị trí để cập nhật thông tin thời tiết và chỉ khi bạn bật tính năng này.
+    • Chúng tôi chỉ sử dụng dữ liệu vị trí để cập nhật thông tin thời tiết, và chỉ khi bạn bật tính năng này.
+    ]]></string>
+
+    <string name="privacy_policy_rights_title">Quyền của bạn</string>
+    <string name="privacy_policy_rights"><![CDATA[
+    <p>• Dữ liệu phân tích, sự cố và hiệu suất mà chúng tôi thu thập là hoàn toàn ẩn danh và không thể dùng để xác định danh tính cá nhân. Do đó, chúng không được coi là dữ liệu cá nhân theo các luật bảo vệ dữ liệu hiện hành (ví dụ: GDPR) và không thuộc phạm vi quyền truy cập, chỉnh sửa hoặc xóa.</p>
+    <p>• Bạn có thể từ chối thu thập dữ liệu bằng cách gỡ cài đặt ứng dụng hoặc điều chỉnh cài đặt quyền riêng tư trong tài khoản Google hoặc thiết bị của mình.</p>
+    • Nếu bạn có bất kỳ câu hỏi nào về việc sử dụng dữ liệu hoặc quyền riêng tư của mình, vui lòng liên hệ với chúng tôi qua kênh hỗ trợ của ứng dụng.
     ]]></string>
 
     <string name="privacy_policy_links_title">Chính sách quyền riêng tư của các nhà cung cấp dịch vụ bên thứ ba</string>
     <string name="privacy_policy_links"><![CDATA[
-        <a href="https://policies.google.com/privacy">Google Play Services</a>
-        <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
-        <p><a href="https://www.google.com/analytics/terms">Google Analytics</a></p>
-        <p><a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a></p>
-        <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>
+    <p><a href="https://policies.google.com/privacy">Chính sách quyền riêng tư của Google (bao gồm Google Play Services)</a></p>
+    <p><a href="https://policies.google.com/technologies/ads">Cách AdMob sử dụng dữ liệu</a></p>
+    <p><a href="https://support.google.com/analytics/answer/6004245">Cách Google Analytics sử dụng dữ liệu</a></p>
+    <p><a href="https://firebase.google.com/terms/crashlytics">Điều khoản của Firebase Crashlytics</a></p>
+    <a href="https://firebase.google.com/support/privacy">Chính sách bảo mật và quyền riêng tư của Firebase (bao gồm Performance Monitoring)</a>
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Trạng thái</string>
@@ -862,7 +869,7 @@
     <string name="shortcut_status">Status</string>
     <string name="shortcut_heart_rate">Heart rate</string>
     <string name="shortcut_blood_oxygen">Blood oxygen</string>
-    <string name="shortcut_Sleep">Sleep</string>
+    <string name="shortcut_sleep">Sleep</string>
     <string name="shortcut_breathing">Breathing</string>
     <string name="shortcut_weather">Weather</string>
     <string name="shortcut_stress">Stress</string>
@@ -959,7 +966,7 @@
 
     <string name="action_chart">Biểu đồ</string>
     <string name="action_zoom_in">Phóng to</string>
-    <string name="action_chart_normalize_minute">Giá trị đo được</string>
+    <string name="action_chart_normalize_raw_data">Giá trị đo được</string>
     <string name="action_chart_normalize_quarter_hourly">Biểu đồ theo 15\'</string>
     <string name="action_chart_normalize_half_hourly">Biểu đồ theo 30\'</string>
     <string name="action_chart_normalize_hourly">Trung bình hàng giờ</string>
@@ -969,8 +976,8 @@
     <string name="action_chart_sort_step_desc">Bước giảm dần</string>
     <string name="action_chart_sort_duration_asc">Thời lượng tăng dần</string>
     <string name="action_chart_sort_duration_desc">Thời lượng giảm dần</string>
-    <string name="action_chart_sort_pulse_asc">Nhịp tim tăng dần</string>
-    <string name="action_chart_sort_pulse_desc">Nhịp tim giảm dần</string>
+    <string name="action_chart_sort_heart_rate_asc">Nhịp tim tăng dần</string>
+    <string name="action_chart_sort_heart_rate_desc">Nhịp tim giảm dần</string>
     <string name="action_chart_sort_spo2_asc">SpO2 ascending</string>
     <string name="action_chart_sort_spo2_desc">SpO2 descending</string>
     <string name="action_chart_sort_pressure_asc">Pressure ascending</string>
@@ -996,7 +1003,7 @@
     <string name="percent_90">90%</string>
     <string name="percent_100">100%</string>
 
-    <!-- Constante -->
+    <!-- Constants -->
     <string name="const_day_of_week_sunday">Chủ nhật</string>
     <string name="const_day_of_week_monday">Thứ hai</string>
     <string name="const_day_of_week_tuesday">Thứ ba</string>
@@ -1025,29 +1032,14 @@
     <string name="const_unit_dbm">dBm</string>
 
     <plurals name="plural_time_hour">
-        <item quantity="zero">%d giờ</item>
-        <item quantity="one">%d giờ</item>
-        <item quantity="two">%d giờ</item>
-        <item quantity="few">%d giờ</item>
-        <item quantity="many">%d giờ</item>
         <item quantity="other">%d giờ</item>
     </plurals>
 
     <plurals name="plural_time_minute">
-        <item quantity="zero">%d phút</item>
-        <item quantity="one">%d phút</item>
-        <item quantity="two">%d phút</item>
-        <item quantity="few">%d phút</item>
-        <item quantity="many">%d phút</item>
         <item quantity="other">%d phút</item>
     </plurals>
 
     <plurals name="plural_time_second">
-        <item quantity="zero">%d giây</item>
-        <item quantity="one">%d giây</item>
-        <item quantity="two">%d giây</item>
-        <item quantity="few">%d giây</item>
-        <item quantity="many">%d giây</item>
         <item quantity="other">%d giây</item>
     </plurals>
 

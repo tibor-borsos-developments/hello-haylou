@@ -1,12 +1,11 @@
 <?xml version="1.0"?>
 
 <resources xmlns:tools="http://schemas.android.com/tools" tools:locale="fa">
-    <string name="menu_nav_home">@string/device_name</string>
     <string name="menu_nav_notification">اعلان‌ها</string>
     <string name="menu_nav_call">تماس</string>
     <string name="menu_nav_step">فعالیت</string>
     <string name="menu_nav_sleep">خواب</string>
-    <string name="menu_nav_pulse">نبض</string>
+    <string name="menu_nav_heart_rate">نبض</string>
     <string name="menu_nav_blood_oxygen">Blood oxygen</string>
     <string name="menu_nav_blood_pressure">فشار خون</string>
     <string name="menu_nav_workout">تمرین</string>
@@ -17,26 +16,24 @@
     <string name="menu_nav_weather">آب و هوا</string>
     <string name="menu_nav_touch">دکمه‌های لمسی</string>
     <string name="menu_nav_more">بیشتر</string>
-    <string name="menu_nav_text_display">نمایش متن</string>
+    <string name="menu_nav_text_customization">نمایش متن</string>
     <string name="menu_nav_export">صدور داده</string>
     <string name="menu_nav_premium_mode">نسخه‌ی پولی</string>
     <string name="menu_nav_feedback">بازخورد</string>
     <string name="menu_nav_privacy_policy">سیاست‌های حریم شخصی</string>
     <string name="menu_nav_theme">پوسته</string>
-<!--    <string name="menu_nav_settings" type="string">@string/settings_name</string>-->
 
     <string name="setting_name">تنظیمات</string>
     <string name="settings_name">تنظیمات</string>
     <string name="info_name">اطلاعات</string>
     <string name="more_name">بیشتر</string>
 
-<!--    <string name="mi_band_tracker_title">Steps・distance・calories・goal・pulse</string>-->
-    <string name="main_tracker_title">هدف・نبض</string>
-<!--    <string name="mi_band_battery">Battery level・last charging time・estimated remaining time</string>-->
-    <string name="device_battery">سطح باتری・آخرین زمان شارژ</string>
-    <string name="device_state_connected_disconnected_last_time">آخرین زمان اتصال و قطع</string>
-    <string name="device_alarm">هشدار بعدی</string>
-    <string name="device_reminder">یادآوری بعدی</string>
+    <string name="main_item_activity_title">هدف・نبض</string>
+    <string name="main_item_battery">سطح باتری・آخرین زمان شارژ</string>
+    <string name="main_item_connect_and_disconnect_last_time">آخرین زمان اتصال و قطع</string>
+    <string name="main_item_next_alarm">هشدار بعدی</string>
+    <string name="main_item_next_reminder">یادآوری بعدی</string>
+    <string name="main_item_call_and_notification_control">کنترلتماس‌ها و اعلان‌ها</string>
 
     <string name="device_search">یافتن %1$s</string> <!-- %1$s = Watch name -->
     <string name="device_setting">تنظیمات %1$s</string> <!-- %1$s = Watch name -->
@@ -49,14 +46,11 @@
     <string name="device_state_bonded">دستگاه جفت شده</string>
     <string name="device_state_not_bonded">دستگاه جفت نشده</string>
 
-    <string name="pref_dnd_title">حالت بدون مزاحم</string>
-
     <string name="error_title">اوه! چیزی پیش رفت</string>
     <string name="error_message">برنامه را به آخرین نسخه به روز کنید</string>
 
 
-    <!-- Haylou setting -->
-    <string name="mi_band_setting_button_title">%1$s تنظیمات・نمایه・متن・تماس・فهرست</string>
+    <!-- Watch connection and setting -->
     <string name="mi_band_setting_title">%1$s تنظیمات</string>
 
     <string name="mi_band_setting_menu_connection">اتصالات</string>
@@ -79,19 +73,19 @@
 
     <string name="message_auth_request">این دستگاه جفت شده است, اگر کلید را نمی‌دانید، جفت سازی را لغو کنید.</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">دکمه‌ی %1$s را برای جفت سازی بزنید</string> <!-- %1$s = Watch name -->
+    <string name="message_mi_band_setting_auth_press_band_button">برای جفت‌سازی دکمه روی %1$s را فشار دهید</string>
     <string name="message_mi_band_setting_auth_success">%1$s با موفقیت جفت شد</string>
-    <string name="message_mi_band_setting_auth_fail">%1$s جفت سازی نا موفق بود</string>
-    <string name="message_mi_band_setting_auth_key_invalid">کلید احراز هویت اشتباه است</string>
+    <string name="message_mi_band_setting_auth_fail">جفت‌سازی با %1$s ناموفق بود</string>
+    <string name="message_mi_band_setting_auth_key_invalid">کلید احراز هویت نامعتبر است</string>
 
     <string name="pref_disconnect_device">قطع شده است</string>
 
-    <string name="mi_band_setting_connection_problem_title">In case of connection problem</string>
+    <string name="mi_band_setting_connection_problem_title">اگر در اتصال مشکل دارید</string>
     <string name="mi_band_setting_connection_problem_hint"><![CDATA[
-    - Unpair the watch in the phone\'s Bluetooth settings
-    <br>- Turn Bluetooth off and on
-    <br>- Force close the Application or restart the phone
-    <br>- Pair your watch again on the main screen
+    - ساعت را در تنظیمات بلوتوث تلفن خود لغو جفت کنید<br>
+    - بلوتوث را خاموش و سپس روشن کنید<br>
+    - برنامه را به‌اجبار ببندید یا تلفن خود را راه‌اندازی مجدد کنید<br>
+    - دوباره ساعت را از صفحه اصلی جفت کنید
     ]]></string>
 
     <string name="mi_band_setting_dial">تماس</string>
@@ -101,14 +95,14 @@
     <string name="mi_band_setting_screen_on_duration">زمان روشن بودن صفحه</string>
     <string name="mi_band_setting_lift_wrist">فعال شدن صفحه با چرخواندن دست</string>
     <string name="mi_band_setting_idle_alert">یادآوری عدم فعالیت</string>
-    <string name="mi_band_setting_idle_alert_time">زمان عدم فعالیت</string>
+    <string name="mi_band_setting_idle_alert_duration">زمان عدم فعالیت</string>
     <string name="mi_band_setting_idle_alert_dnd">حالت بدو مزاحم در زمان استراحت (12:00-14:00)</string>
 
     <string name="pref_synchronization">همگام سازی</string>
     <string name="pref_synchronization_fetch_interval">فرکانس همگام سازی</string>
     <string name="pref_synchronization_summary">Select the data to be automatically synchronised in the background. If you do not need any of the data, turn it off for better performance. Data can still be synchronised manually on the home screen or in the appropriate menus (by sweeping down).</string>
 
-    <string name="mi_band_setting_profile">این اطلاعات برای محاسبه‌ی صحیح تعداد قدم‌ها، مسافت طی شده و کالری سوزاندهد شده لازم است.</string>
+    <string name="mi_band_setting_profile">این اطلاعات به محاسبه دقیق‌تر تعداد قدم‌ها، مسافت و کالری‌های سوزانده‌شده کمک می‌کنند.</string>
     <string name="mi_band_setting_gender">جنسیت</string>
     <string name="mi_band_setting_gender_male">مرد</string>
     <string name="mi_band_setting_gender_female">زن</string>
@@ -123,21 +117,17 @@
     <!-- Battery -->
     <string name="battery_details">مصرف باتری</string>
 
-    <string name="mi_band_battery_settings">تنظیمات باتری</string>
-    <string name="mi_band_battery_notification">اعلان کم شدن باتری</string>
-    <string name="mi_band_battery_notification_level">آستانه‌ی سطح باتری</string>
-    <string name="mi_band_battery_notification_repeat_interval">بازه‌ی تکرار</string>
-    <string name="mi_band_battery_notification_shade">اعلام کردن در گوشی</string>
-    <string name="mi_band_battery_notification_shade_error">Notification display permission is restricted</string>
-    <string name="mi_band_battery_notification_shade_ongoing">اطلاع رسانی مداوم (در حال انجام)</string>
-    <string name="mi_band_battery_notification_shade_message">سطح باتری کم است: %1$,d%%</string>
-    <string name="mi_band_battery_notification_mi_band">اعلام کردن در دستبند</string>
-    <string name="mi_band_battery_notification_mi_band_message">باتری: %1$,d%%</string>
+    <string name="battery_settings">تنظیمات باتری</string>
+    <string name="battery_settings_notification">اعلان کم شدن باتری</string>
+    <string name="battery_settings_notification_level">آستانه‌ی سطح باتری</string>
+    <string name="battery_settings_notification_repeat_interval">بازه‌ی تکرار</string>
+    <string name="battery_settings_notification_on_phone">اعلام کردن در گوشی</string>
+    <string name="battery_settings_notification_on_phone_ongoing">اطلاع رسانی مداوم (در حال انجام)</string>
+    <string name="battery_settings_notification_on_phone_message">سطح باتری کم است: %1$,d%%</string>
+    <string name="battery_settings_notification_on_device">اعلام کردن در دستبند</string>
+    <string name="battery_settings_notification_on_device_message">باتری: %1$,d%%</string>
 
-    <!-- PreferenceScreen -->
-    <string name="pref_connected_have_notif_interval_title">بازه‌ی تکرار یادآوری</string>
-    <string name="pref_connected_have_notif_interval_summary">استفاده عملکرد هشدار اعلان/یادآوری از این زمانبندی</string>
-
+    <!-- Preference screens -->
     <string name="pref_battery_phone">باتری تلفن</string>
     <string name="pref_battery_phone_summary">اعلان خالی و پر بودن باتری</string>
     <string name="pref_cat_battery_phone_low">سطح پایین باتری</string>
@@ -255,15 +245,15 @@
     <string name="notification_group_monitoring">پایش اعلان‌ها</string>
     <string name="notification_group_monitoring_disabled">اعلان ها را غیرفعال کنید (اعلان های برنامه را نشان ندهید)</string>
     <string name="notification_group_alert_title">%1$s علامت دادن</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
-    <string name="notification_group_text">نمایش متن</string>
+    <string name="notification_group_text_customization">نمایش متن</string>
     <string name="notification_group_text_app_name">نام برنامه</string>
     <string name="notification_group_text_name">نام</string>
     <string name="notification_group_text_title">تیتر</string>
     <string name="notification_group_text_content">محتوا</string>
     <string name="notification_group_text_big_content">محتوای‌ کامل</string>
     <string name="notification_group_text_content_slice_title">طول متن</string>
-    <string name="notification_group_display_time_title">نمایش زمان</string>
-    <string name="notification_group_display_notification_title">نمایش اعلان</string>
+    <string name="notification_group_display_duration_title">نمایش زمان</string>
+    <string name="notification_group_show_notification_title">نمایش اعلان</string>
     <string name="notification_group_immediate">علامت دادن فوری هنگام دریافت اعلان</string>
     <string name="notification_group_connecting">هنگام اتصال به تلفن</string>
     <string name="notification_group_reminder">یادآوری علامت</string>
@@ -304,34 +294,32 @@
     In publishing and graphic design, lorem ipsum is a filler text or greeking commonly used to demonstrate the textual elements of a graphic document or visual presentation.
         \nReplacing meaningful content with placeholder text allows designers to design the form of the content before the content itself has been produced.
     </string>
-    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> icon: choose this icon to show the notifications title/content.]]></string>
 
 
-    <!-- Call -->
+    <!-- Incoming call alert -->
     <string name="call_tab_call">تماس ورودی</string>
     <string name="call_tab_contacts">مخاطب</string>
 
-    <string name="pref_cat_call">تماس ورودی</string>
-    <string name="pref_call_summary_on">فراموش نکنید که هشدارهای تماس ورودی را در برنامه %1$s خاموش کنید</string> <!-- %1$s = official app name -->
-    <string name="pref_call_text_title">نمایش شماره‌ی تماس</string>
+    <string name="call_incoming">تماس ورودی</string>
+    <string name="call_incoming_summary_on">فراموش نکنید که هشدارهای تماس ورودی را در برنامه %1$s خاموش کنید</string> <!-- %1$s = official app name -->
+    <string name="call_incoming_caller_id">نمایش شماره‌ی تماس</string>
 
     <string name="pref_call_notification_rejected">نمایش اعلان برای تماس‌های بی پاسخ</string>
     <string name="pref_call_notification_rejected_message">رد تماس</string>
     <string name="pref_call_notification_rejected_action">تماس</string>
 
-    <string name="pref_call_net_text_title">هشدار تماس اینترنتی ورودی</string>
+    <string name="call_incoming_net_alert_title">هشدار تماس اینترنتی ورودی</string>
 
-    <string name="pref_cat_call_missed">تماس از دست رفته</string>
-    <string name="pref_call_missed_title">هشدار تماس از دست رفته</string>
-
-    <string name="pref_call_missed_alert_title">%1$s هشدار</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="call_missed_title">هشدار تماس از دست رفته</string>
+    <string name="call_missed_chooser_title">%1$s هشدار</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="call_missed_notification">تماس از دست رفته</string>
 
     <string name="call_reject_button_action">عملکرد دکمه رد تماس</string>
 
     <string name="touch_call_answer_title">پاسخ به تماس</string>
     <string name="touch_call_answer_speakerphone_title">بلندگو</string>
 
-    <string name="touch_call_end_title">رد/پایان تماس</string>
+    <string name="call_end_title">رد/پایان تماس</string>
 
     <string name="touch_call_mute_title">ساکت کردن تماس</string>
     <string name="touch_call_mute_only_call_state_ringing_title">فقط زمانی که تماس ورودی دارید</string>
@@ -353,8 +341,6 @@
     <string name="app_chooser">انتخاب برنامه</string>
     <string name="action_search">جستجو</string>
     <string name="action_filter_notification">فیلتر اعلان‌ها</string>
-
-    <string name="main_control">کنترل</string>
 
     <!-- Activity -->
     <string name="step_details">جزئیات فعالیت</string>
@@ -382,10 +368,10 @@
     <string name="sleep_rem">REM</string>
 
 
-    <!-- Pulse -->
-    <string name="pulse_details">جزئیات نبض</string>
+    <!-- Heart rate -->
+    <string name="heart_rate_details">جزئیات نبض</string>
 
-    <string name="pulse_continuous_title">نبض سنجی مداوم</string>
+    <string name="heart_rate_continuous_title">نبض سنجی مداوم</string>
 
     <string name="heart_rate_warning_title">هشدار ضربان قلب</string>
     <string name="low_and_high_heart_rates">آستانه‌های ضربان قلب پایین و بالا</string>
@@ -432,7 +418,7 @@
     <string name="message_reminder_disabled">فعال نبودن یادآور</string>
 
     <string name="reminder_repeat">تکرار ساعتی</string>
-    <string name="reminder_notification_shade">در تلفن به من اعلان بده</string>
+    <string name="reminder_notification_on_phone">در تلفن به من اعلان بده</string>
 
     <string name="message_time_reminder_free_counter">تا 1 یادآوری در حالت رایگان قابل استفاده است</string>
 
@@ -465,7 +451,7 @@
     <string name="watch_face_upload_prepare">آماده سازی برای بارگزاری…</string>
     <string name="watch_face_upload_progress">در حال انتقال %1$,d%%</string>
 
-    <string name="watch_face_invalid_firmware">%1$s firmware does not support uploading the watch face, update the firmware in the official application</string> <!-- %1$s = Haylou Smart watch ... -->
+    <string name="watch_face_invalid_firmware">سفت‌افزار %1$s ناشناخته است یا از بارگذاری صفحه ساعت پشتیبانی نمی‌کند. لطفاً سفت‌افزار را با استفاده از برنامه رسمی به‌روزرسانی کنید. اگر برنامه رسمی از بارگذاری صفحه ساعت پشتیبانی می‌کند، لطفاً از طریق منوی بازخورد به ما اطلاع دهید.</string>
     <string name="watch_face_invalid_auth">Use in standalone mode, when using cooperation mode, the official application may block the watch face upload</string>
     <string name="watch_face_invalid_free">در حالت رایگان، امروز نمی‌توان صفحه‌های بیشتر بارگذاری کرد</string>
     <string name="watch_face_watch_rewarded_ads">برای ادامه، یک ویدیو تماشا کنید</string>
@@ -545,8 +531,8 @@
     <string name="watch_face_edit_icon">Icon</string>
     <string name="watch_face_edit_image_size">اندازه تصویر</string>
 
-    <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
-    <string name="watch_face_custom_watch_face_under_development_title">The ability to upload custom watch faces is currently in development and may be available in the future, but it is not yet confirmed</string>
+    <string name="watch_face_custom_watch_face_not_supported_title">این ساعت از بارگذاری واچ‌فیس‌های سفارشی پشتیبانی نمی‌کند</string>
+    <string name="watch_face_custom_watch_face_under_development_title">قابلیت بارگذاری صفحه ساعت سفارشی در حال توسعه است و ممکن است در آینده در دسترس قرار گیرد، اما هنوز تأیید نشده است.</string>
 
     <!-- Touch monitoring -->
     <string name="touch_tab_function">عملکرد</string>
@@ -680,7 +666,7 @@
 
     <string name="weather_forecast_title">پیش بینی آب و هوا</string>
 
-    <string name="weather_setting_provider">تأمین کننده‌ی اطلاعات آب و هوا</string>
+    <string name="weather_setting_provider">ارائه‌دهنده وضعیت آب‌وهوا</string>
     <string name="weather_city_title">شهر</string>
     <string name="weather_unit_title">منطقه</string>
     <string name="weather_unit_metric">متریک (سلسیوس)</string>
@@ -698,8 +684,6 @@
     <string name="weather_current_location">موقعیت فعلی</string>
     <string name="weather_current_temperature">دمای فعلی</string>
 
-    <string name="weather_display">نمایش</string>
-
     <string name="weather_precipitation_rain">باران</string>
     <string name="weather_precipitation_snow">برف</string>
     <string name="weather_cloud_cover_abbreviation">Cc</string>
@@ -712,7 +696,9 @@
     <string name="weather_west">W</string>
 
 
-    <!-- Text display -->
+    <!-- Text customization -->
+    <string name="pref_text_reminder_repeat_interval_title">بازه‌ی تکرار یادآوری</string>
+    <string name="pref_text_reminder_repeat_interval_summary">استفاده عملکرد هشدار اعلان/یادآوری از این زمانبندی</string>
     <string name="pref_text_emoticon_title">تبدیل ایموجی</string>
     <string name="pref_text_emoticon_summary_on">تبدیل ایموجی به صورتک</string>
     <string name="pref_text_uppercase_title">تبدیل به حروف بزرگ</string>
@@ -750,38 +736,42 @@
 
 
     <!-- Premium mode -->
-    <string name="purchase_advantage_title">ویژگی‌های نسخه‌ی پولی</string>
+    <string name="purchase_advantage_title">مزایای حالت پریمیوم</string>
     <string name="purchase_advantage"><![CDATA[
-        <p>• financial support for development</p>
-        <p>• no ads</p>
-        <p>• notification setting is not limited</p>
-        <p>• call setting is not limited</p>
-        <p>• the number of alarms is not limited (the number of alarms is limited by the clock)</p>
-        <p>• do not disturb mode is not limited</p>
-        <p>• more frequent weather synchronization, location can be updated automatically, AccuWeather provider can be set</p>
-        <p>• touch setting is not limited</p>
-        <p>• detailed daily graphs</p>
-        • removing other restrictions…
+    <p>• حمایت مالی برای توسعه برنامه</p>
+    <p>• بدون تبلیغات</p>
+    <p>• تنظیمات اعلان بدون محدودیت</p>
+    <p>• تنظیمات تماس بدون محدودیت</p>
+    <p>• بارگذاری روزانه نامحدود واچ‌فیس</p>
+    <p>• تعداد نامحدود آلارم (ممکن است توسط ساعت محدود شود)</p>
+    <p>• حالت «مزاحم نشوید» بدون محدودیت</p>
+    <p>• تنظیمات لمس بدون محدودیت</p>
+    <p>• به‌روزرسانی‌های مکرر آب‌وهوا، به‌روزرسانی خودکار مکان، امکان انتخاب ارائه‌دهنده AccuWeather</p>
+    <p>• نمودارهای روزانه دقیق</p>
+    • رفع محدودیت تمام قابلیت‌های دیگر…
     ]]></string>
+
     <string name="purchase_policy_title">شرایط و ضوابط حالت پریمیوم</string>
     <string name="purchase_policy"><![CDATA[
-    <p>• من برنامه را آزمایش کرده‌ام و عملکرد آن صحیح است.</p>
-    <p>• آگاه هستم که به دلیل اشکالات نرم‌افزاری ناشی از تغییرات در محیط نرم‌افزار یا سخت‌افزار و یا استفاده از برنامه‌های دیگر، نمی‌توانم درخواست خسارت یا بازپرداخت داشته باشم.</p>
-    <p>• تمامی فروش‌ها نهایی هستند و امکان بازپرداخت وجود ندارد (به‌جز طبق سیاست بازپرداخت Google).</p>
-    <p>• هیچگونه گارانتی ارائه نمی‌شود.</p>
-    <p>• استفاده از این برنامه به عهده خود شماست و توسعه‌دهنده مسئولیتی در قبال خسارات یا از دست رفتن داده‌ها، چه مستقیم یا غیرمستقیم، ندارد.</p>
-    <i>پس از خرید، لازم است برنامه را مجدداً راه‌اندازی کنید.</i>
+    <p>• من برنامه را آزمایش کرده‌ام و تأیید می‌کنم که طبق انتظار کار می‌کند.</p>
+    <p>• می‌دانم که نمی‌توانم برای مشکلات ناشی از تغییرات سیستم (مانند به‌روزرسانی اندروید)، سخت‌افزار یا تداخل با برنامه‌های دیگر درخواست بازپرداخت یا غرامت کنم.</p>
+    <p>• تمام خریدها نهایی هستند و غیرقابل بازگشت می‌باشند (به‌جز در مواردی که سیاست بازپرداخت Google اجازه دهد).</p>
+    <p>• این برنامه بدون هیچ‌گونه ضمانت صریح یا ضمنی ارائه می‌شود.</p>
+    <p>• استفاده از این برنامه با مسئولیت شخصی کاربر است. توسعه‌دهنده در قبال خسارات مستقیم یا غیرمستقیم یا از دست رفتن داده‌ها مسئولیتی ندارد.</p>
+    <p>• حالت پریمیوم به حساب Google شما متصل است و حتی پس از نصب مجدد برنامه فعال باقی می‌ماند.</p>
+    <i>پس از خرید، باید برنامه را مجدداً راه‌اندازی کنید.</i>
     ]]></string>
+
 
 
     <string name="purchase_google_play_services_not_available">خدمات Google Play در دسترس نیست</string>
 
-    <!--<string name="purchase_price">Price:</string>-->
     <string name="purchase_agree">من شرایط استفاده را قبول دارم.</string>
     <string name="purchase_order_id">صفارش ID</string>
     <string name="purchase_order_id_help">Copy from:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+
     <string name="purchase_info">%1$s ・ یک بارهزینه</string> <!-- %1$s = price</string>-->
     <string name="purchase_button_purchase">خرید</string>
 
@@ -800,41 +790,57 @@
     <string name="privacy_policy_tab_eu_consent">رضایت کاربران اتحادیه اروپا و آمریکا</string>
     <string name="privacy_policy_tab_non_eu_consent">رضایت کاربران سایر مناطق</string>
 
-    <string name="privacy_policy_collect_title">اطلاعاتی که ما جمع می‌کنیم</string>
+    <string name="privacy_policy_collect_title">اطلاعاتی که جمع‌آوری می‌کنیم</string>
     <string name="privacy_policy_collect"><![CDATA[
-        <p>• We only collect anonymous information.</p>
-        <p>• We collect information at the application level about the services that you use and how you use them (Google Analytics).</p>
-        <p>• We collect information at the application level like bugs, errors, and crashes to provide improvements (Firebase Crashlytics).</p>
-        <p>• We collect information at the application level about the performance (Firebase Performance Monitoring).</p>
-        <p>• Google Firebase Platform collects information anonymously. It reports trends without identifying individual users.
-        The Firebase Platform collects data such as Firebase installation ID, application state, relevant device metadata (device model, CPU architecture, RAM and disk size, OS, screen orientation, country, locale/language), stack traces, performance metrics (including app start time and network request latency, network URLs), CPU/memory usage, IP address …
-        </p>
-        • We collect location data to update the weather based on your current location (optional).
+    <p>• ما فقط اطلاعات ناشناس جمع‌آوری می‌کنیم.</p>
+    <p>• اطلاعات سطح برنامه درباره خدماتی که استفاده می‌کنید و نحوه استفاده شما (Google Analytics) جمع‌آوری می‌شود.</p>
+    <p>• اطلاعات مربوط به خطاها و خرابی‌ها برای بهبود عملکرد جمع‌آوری می‌شود (Firebase Crashlytics).</p>
+    <p>• اطلاعات مربوط به عملکرد جمع‌آوری می‌شود (Firebase Performance Monitoring).</p>
+    <p>• پلتفرم Firebase اطلاعات را به صورت ناشناس جمع‌آوری می‌کند و بدون شناسایی کاربران، روندها را گزارش می‌دهد. داده‌ها شامل شناسه نصب Firebase، وضعیت برنامه، مشخصات دستگاه (مدل، معماری CPU، رم، سیستم عامل، زبان، کشور)، گزارش خطا، معیارهای عملکرد، مصرف CPU/حافظه، آدرس IP تقریبی و… می‌باشد.</p>
+    <p>• داده‌های مکان برای به‌روزرسانی آب‌وهوا بر اساس موقعیت فعلی شما جمع‌آوری می‌شود (اختیاری).</p>
+    • مبنای قانونی جمع‌آوری و پردازش این اطلاعات، منافع مشروع ما در بهبود عملکرد، پایداری و قابلیت استفاده از برنامه است.
     ]]></string>
 
-    <string name="privacy_policy_not_collect_title">اطلاعاتی که ما جمع‌آوری نمی‌کنیم</string>
+    <string name="privacy_policy_cookies_title">کوکی‌ها و فناوری‌های مشابه</string>
+    <string name="privacy_policy_cookies"><![CDATA[
+    • برخی خدمات شخص ثالث مانند AdMob ممکن است از کوکی‌ها یا فناوری‌های مشابه برای نمایش تبلیغات شخصی‌سازی‌شده استفاده کنند. شما می‌توانید شخصی‌سازی تبلیغات را در تنظیمات حساب Google خود مدیریت کنید.
+    ]]></string>
+
+    <string name="privacy_policy_retention_title">نگهداری داده‌ها</string>
+    <string name="privacy_policy_retention"><![CDATA[
+    • داده‌های جمع‌آوری‌شده توسط Google Firebase بر اساس سیاست‌های آنها و فقط تا زمانی که برای تحلیل، عیب‌یابی و بهبود عملکرد لازم است، نگهداری می‌شوند.
+    ]]></string>
+
+    <string name="privacy_policy_not_collect_title">اطلاعاتی که جمع‌آوری نمی‌کنیم</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-    <p>• ما اطلاعات شخصی قابل شناسایی درباره شما جمع‌آوری نمی‌کنیم. این بدان معناست که ما، به عنوان مثال، داده‌هایی مانند نام، آدرس، شماره تلفن، آدرس ایمیل یا آدرس MAC شما را جمع‌آوری نمی‌کنیم.</p>
-    • ما داده‌های سلامت شخصی، مخاطبین یا محتوای اعلان‌های تلفن را جمع‌آوری نمی‌کنیم.
+    <p>• ما اطلاعات شناسایی شخصی مانند نام، آدرس، شماره تلفن، ایمیل یا آدرس MAC شما را جمع‌آوری نمی‌کنیم.</p>
+    • ما داده‌های سلامت، مخاطبین یا محتوای اعلان‌های نمایش داده‌شده روی دستگاه شما را جمع‌آوری نمی‌کنیم.
     ]]></string>
 
-    <string name="privacy_policy_share_title">اطلاعاتی که ما به اشتراک می‌گذاریم</string>
+    <string name="privacy_policy_share_title">اطلاعاتی که به اشتراک می‌گذاریم</string>
     <string name="privacy_policy_share"><![CDATA[
-    • ما هیچ داده‌ای را با شرکت‌ها یا سازمان‌هایی به جز Google و ارائه‌دهندگان تبلیغات به اشتراک نمی‌گذاریم.
+    • ما هیچ داده‌ای را با شرکت‌ها یا سازمان‌ها به اشتراک نمی‌گذاریم، به‌جز Google و ارائه‌دهندگان تبلیغات.
     ]]></string>
 
-    <string name="privacy_policy_use_title">داده‌های شخصی و حساس کاربر که ما استفاده می‌کنیم</string>
+    <string name="privacy_policy_use_title">داده‌های شخصی و حساس که استفاده می‌کنیم</string>
     <string name="privacy_policy_use"><![CDATA[
-    • ما فقط از داده‌های موقعیت مکانی برای به‌روزرسانی اطلاعات آب و هوا استفاده می‌کنیم و فقط در صورتی که این ویژگی را فعال کنید.
+    • ما فقط برای به‌روزرسانی اطلاعات آب‌وهوا از داده‌های مکانی استفاده می‌کنیم و فقط در صورتی که این ویژگی را فعال کرده باشید.
     ]]></string>
 
-    <string name="privacy_policy_links_title">سیاست حفظ حریم خصوصی ارائه‌دهندگان خدمات شخص ثالث</string>
+    <string name="privacy_policy_rights_title">حقوق شما</string>
+    <string name="privacy_policy_rights"><![CDATA[
+    <p>• داده‌های مربوط به تحلیل، خرابی‌ها و عملکرد کاملاً ناشناس هستند و قابل شناسایی افراد نیستند. بنابراین، مطابق قوانین حفاظت از داده‌ها (مانند GDPR) داده شخصی محسوب نمی‌شوند و مشمول حقوق دسترسی، اصلاح یا حذف نیستند.</p>
+    <p>• می‌توانید با حذف برنامه یا مدیریت تنظیمات حریم خصوصی در حساب Google یا دستگاه خود، از جمع‌آوری داده انصراف دهید.</p>
+    • برای هرگونه سوال درباره استفاده از داده‌ها یا حقوق حریم خصوصی خود، از طریق کانال‌های پشتیبانی برنامه با ما تماس بگیرید.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">سیاست‌های حریم خصوصی ارائه‌دهندگان خدمات ثالث</string>
     <string name="privacy_policy_links"><![CDATA[
-        <a href="https://policies.google.com/privacy">Google Play Services</a>
-        <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
-        <p><a href="https://www.google.com/analytics/terms">Google Analytics</a></p>
-        <p><a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a></p>
-        <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>
+    <p><a href="https://policies.google.com/privacy">سیاست حریم خصوصی Google (شامل خدمات Google Play)</a></p>
+    <p><a href="https://policies.google.com/technologies/ads">استفاده از داده‌ها در AdMob</a></p>
+    <p><a href="https://support.google.com/analytics/answer/6004245">استفاده از داده‌ها در Google Analytics</a></p>
+    <p><a href="https://firebase.google.com/terms/crashlytics">شرایط Firebase Crashlytics</a></p>
+    <a href="https://firebase.google.com/support/privacy">حریم خصوصی و امنیت Firebase (شامل نظارت بر عملکرد)</a>
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">وضعیت</string>
@@ -858,7 +864,7 @@
     <string name="shortcut_status">وضعیت</string>
     <string name="shortcut_heart_rate">نبض</string>
     <string name="shortcut_blood_oxygen">Blood oxygen</string>
-    <string name="shortcut_Sleep">خواب</string>
+    <string name="shortcut_sleep">خواب</string>
     <string name="shortcut_breathing">Breathing</string>
     <string name="shortcut_weather">آب و هوا</string>
     <string name="shortcut_stress">Stress</string>
@@ -955,7 +961,7 @@
 
     <string name="action_chart">چارت</string>
     <string name="action_zoom_in">بزرگ نمایی</string>
-    <string name="action_chart_normalize_minute">مقادیر اندازه گیری شده</string>
+    <string name="action_chart_normalize_raw_data">مقادیر اندازه گیری شده</string>
     <string name="action_chart_normalize_quarter_hourly">مقادیر ربع-ساعتی</string>
     <string name="action_chart_normalize_half_hourly">مقادیر نیم-ساعتی</string>
     <string name="action_chart_normalize_hourly">مقادیر ساعتی</string>
@@ -965,8 +971,8 @@
     <string name="action_chart_sort_step_desc">نزولی بر اساس قدم</string>
     <string name="action_chart_sort_duration_asc">صعودی بر اساس بازه</string>
     <string name="action_chart_sort_duration_desc">نزولی بر اساس بازه</string>
-    <string name="action_chart_sort_pulse_asc">صعودی بر اساس نبض</string>
-    <string name="action_chart_sort_pulse_desc">نزولی بر اساس نبض</string>
+    <string name="action_chart_sort_heart_rate_asc">صعودی بر اساس نبض</string>
+    <string name="action_chart_sort_heart_rate_desc">نزولی بر اساس نبض</string>
     <string name="action_chart_sort_spo2_asc">SpO2 ascending</string>
     <string name="action_chart_sort_spo2_desc">SpO2 descending</string>
     <string name="action_chart_sort_pressure_asc">Pressure ascending</string>
@@ -992,7 +998,7 @@
     <string name="percent_90">90%</string>
     <string name="percent_100">100%</string>
 
-    <!-- Constante -->
+    <!-- Constants -->
     <string name="const_day_of_week_sunday">یکشنبه</string>
     <string name="const_day_of_week_monday">دوشنبه</string>
     <string name="const_day_of_week_tuesday">سه‌شنبه</string>
@@ -1021,29 +1027,17 @@
     <string name="const_unit_dbm">dBm</string>
 
     <plurals name="plural_time_hour">
-        <item quantity="zero">%d ساعت</item>
         <item quantity="one">%d ساعت</item>
-        <item quantity="two">%d ساعت</item>
-        <item quantity="few">%d ساعت</item>
-        <item quantity="many">%d ساعت</item>
         <item quantity="other">%d ساعت</item>
     </plurals>
 
     <plurals name="plural_time_minute">
-        <item quantity="zero">%d دقیقه</item>
         <item quantity="one">%d دقیقه</item>
-        <item quantity="two">%d دقیقه</item>
-        <item quantity="few">%d دقیقه</item>
-        <item quantity="many">%d دقیقه</item>
         <item quantity="other">%d دقیقه</item>
     </plurals>
 
     <plurals name="plural_time_second">
-        <item quantity="zero">%d ثانیه</item>
         <item quantity="one">%d ثانیه</item>
-        <item quantity="two">%d ثانیه</item>
-        <item quantity="few">%d ثانیه</item>
-        <item quantity="many">%d ثانیه</item>
         <item quantity="other">%d ثانیه</item>
     </plurals>
 

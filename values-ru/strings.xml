@@ -1,12 +1,11 @@
 <?xml version="1.0"?>
 
 <resources xmlns:tools="http://schemas.android.com/tools" tools:locale="ru">
-    <string name="menu_nav_home">@string/device_name</string>
     <string name="menu_nav_notification">Уведомления</string>
     <string name="menu_nav_call">Вызов</string>
     <string name="menu_nav_step">Активность</string>
     <string name="menu_nav_sleep">Сон</string>
-    <string name="menu_nav_pulse">Пульс</string>
+    <string name="menu_nav_heart_rate">Пульс</string>
     <string name="menu_nav_blood_oxygen">Уровень кислорода в крови</string>
     <string name="menu_nav_blood_pressure">Артериальное давление</string>
     <string name="menu_nav_workout">Тренировки</string>
@@ -17,26 +16,24 @@
     <string name="menu_nav_weather">Погода</string>
     <string name="menu_nav_touch">Касания</string>
     <string name="menu_nav_more">Ещё</string>
-    <string name="menu_nav_text_display">Настройки текста</string>
+    <string name="menu_nav_text_customization">Настройки текста</string>
     <string name="menu_nav_export">Экспорт</string>
     <string name="menu_nav_premium_mode">Премиум</string>
     <string name="menu_nav_feedback">Обратная связь</string>
     <string name="menu_nav_privacy_policy">Политика конфиденциальности</string>
     <string name="menu_nav_theme">Темы</string>
-<!--    <string name="menu_nav_settings" type="string">@string/settings_name</string>-->
 
     <string name="setting_name">Настройки</string>
     <string name="settings_name">Настройки</string>
     <string name="info_name">Информация</string>
     <string name="more_name">Ещё</string>
 
-<!--    <string name="mi_band_tracker_title">Шаги・расстояние・калории・цель・пульс</string>-->
-    <string name="main_tracker_title">Шаги・цель</string>
-<!--    <string name="mi_band_battery">Уровень заряда・время последней зарядки・ожидаемое время работы</string>-->
-    <string name="device_battery">Уровень заряда・время последней зарядки</string>
-    <string name="device_state_connected_disconnected_last_time">Время последнего соединения и его разрыва</string>
-    <string name="device_alarm">Следующий будильник</string>
-    <string name="device_reminder">Следующее напоминание</string>
+    <string name="main_item_activity_title">Шаги・цель</string>
+    <string name="main_item_battery">Уровень заряда・время последней зарядки</string>
+    <string name="main_item_connect_and_disconnect_last_time">Время последнего соединения и его разрыва</string>
+    <string name="main_item_next_alarm">Следующий будильник</string>
+    <string name="main_item_next_reminder">Следующее напоминание</string>
+    <string name="main_item_call_and_notification_control">Звонки и уведомления</string>
 
     <string name="device_search">Поиск %1$s</string> <!-- %1$s = Watch name -->
     <string name="device_setting">Настройки %1$s</string> <!-- %1$s = Watch name -->
@@ -49,17 +46,14 @@
     <string name="device_state_bonded">Соединённое устройство</string>
     <string name="device_state_not_bonded">Не соединённое устройство</string>
 
-    <string name="pref_dnd_title">Режим \"Не беспокоить\"</string>
-
     <string name="error_title">Упс! Что-то пошло не так</string>
     <string name="error_message">Обновить приложение до последней версии</string>
 
 
-    <!-- Haylou setting -->
-    <string name="mi_band_setting_button_title">Настройки %1$sk・Профиль・Текст・Вызов・Меню</string>
+    <!-- Watch connection and setting -->
     <string name="mi_band_setting_title">Настройки %1$s</string>
 
-    <string name="mi_band_setting_menu_connection">Настройки соединения</string>
+    <string name="mi_band_setting_menu_connection">Соединение</string>
     <string name="mi_band_setting_menu_setting">@string/setting_name</string>
     <string name="mi_band_setting_menu_profile">Профиль</string>
     <string name="mi_band_setting_menu_text">Текст</string>
@@ -79,19 +73,19 @@
 
     <string name="message_auth_request">Уже подключено, если вы не знаете ключ, нажмите кнопку отключить</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">Нажмите кнопку на %1$s для подключения</string> <!-- %1$s = Watch name -->
+    <string name="message_mi_band_setting_auth_press_band_button">Нажмите кнопку на %1$s, чтобы подключиться</string>
     <string name="message_mi_band_setting_auth_success">%1$s успешно подключен</string>
-    <string name="message_mi_band_setting_auth_fail">Не удалось подключиться к %1$s</string>
-    <string name="message_mi_band_setting_auth_key_invalid">Не верный ключ аутентификации</string>
+    <string name="message_mi_band_setting_auth_fail">Не удалось подключить %1$s</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Неверный ключ аутентификации</string>
 
     <string name="pref_disconnect_device">Отключение</string>
 
-    <string name="mi_band_setting_connection_problem_title">In case of connection problem</string>
+    <string name="mi_band_setting_connection_problem_title">Если у вас возникли проблемы с подключением</string>
     <string name="mi_band_setting_connection_problem_hint"><![CDATA[
-    - Unpair the watch in the phone\'s Bluetooth settings
-    <br>- Turn Bluetooth off and on
-    <br>- Force close the Application or restart the phone
-    <br>- Pair your watch again on the main screen
+    - Отмените сопряжение часов в настройках Bluetooth вашего телефона<br>
+    - Выключите и снова включите Bluetooth<br>
+    - Принудительно закройте приложение или перезапустите телефон<br>
+    - Попробуйте снова сопрячь часы с главного экрана
     ]]></string>
 
     <string name="mi_band_setting_dial">Отображение</string>
@@ -101,14 +95,14 @@
     <string name="mi_band_setting_lift_wrist">Поворот запястья</string>
     <string name="mi_band_setting_screen_on_duration">Продолжительность включения экрана</string>
     <string name="mi_band_setting_idle_alert">Оповещение о бездействии</string>
-    <string name="mi_band_setting_idle_alert_time">Время бездействия</string>
+    <string name="mi_band_setting_idle_alert_duration">Время бездействия</string>
     <string name="mi_band_setting_idle_alert_dnd">Не уведомлять во время отдыха (12:00-14:00)</string>
 
     <string name="pref_synchronization">Синхронизация</string>
     <string name="pref_synchronization_fetch_interval">Интервал синхронизации</string>
     <string name="pref_synchronization_summary">Select the data to be automatically synchronised in the background. If you do not need any of the data, turn it off for better performance. Data can still be synchronised manually on the home screen or in the appropriate menus (by sweeping down).</string>
 
-    <string name="mi_band_setting_profile">Эти данные необходимы для правильного расчета количества шагов, расстояния и сожженных калорий.</string>
+    <string name="mi_band_setting_profile">Эти данные помогают точнее рассчитывать шаги, расстояние и сожжённые калории.</string>
     <string name="mi_band_setting_gender">Пол</string>
     <string name="mi_band_setting_gender_male">Мужской</string>
     <string name="mi_band_setting_gender_female">Женский</string>
@@ -123,21 +117,17 @@
     <!-- Battery -->
     <string name="battery_details">История батареи</string>
 
-    <string name="mi_band_battery_settings">Настройки батареи</string>
-    <string name="mi_band_battery_notification">Уведомление о низком заряде</string>
-    <string name="mi_band_battery_notification_level">Низкий уровень</string>
-    <string name="mi_band_battery_notification_repeat_interval">Периодичность</string>
-    <string name="mi_band_battery_notification_shade">Уведомление на устройстве</string>
-    <string name="mi_band_battery_notification_shade_error">Notification display permission is restricted</string>
-    <string name="mi_band_battery_notification_shade_ongoing">Постоянное уведомление</string>
-    <string name="mi_band_battery_notification_shade_message">Низкий заряд %1$,d%%</string>
-    <string name="mi_band_battery_notification_mi_band">Уведомление на браслете</string>
-    <string name="mi_band_battery_notification_mi_band_message">Батарея: %1$,d%%</string>
+    <string name="battery_settings">Настройки батареи</string>
+    <string name="battery_settings_notification">Уведомление о низком заряде</string>
+    <string name="battery_settings_notification_level">Низкий уровень</string>
+    <string name="battery_settings_notification_repeat_interval">Периодичность</string>
+    <string name="battery_settings_notification_on_phone">Уведомление на устройстве</string>
+    <string name="battery_settings_notification_on_phone_ongoing">Постоянное уведомление</string>
+    <string name="battery_settings_notification_on_phone_message">Низкий заряд %1$,d%%</string>
+    <string name="battery_settings_notification_on_device">Уведомление на браслете</string>
+    <string name="battery_settings_notification_on_device_message">Батарея: %1$,d%%</string>
 
-    <!-- PreferenceScreen -->
-    <string name="pref_connected_have_notif_interval_title">Интервал повторения уведомлений</string>
-    <string name="pref_connected_have_notif_interval_summary">Сигнал уведомлений/напоминаний использует это время</string>
-
+    <!-- Preference screens -->
     <string name="pref_battery_phone">Аккумулятор устройства</string>
     <string name="pref_battery_phone_summary">Уведомления низкого и полного заряда</string>
     <string name="pref_cat_battery_phone_low">Низкий уровень заряда</string>
@@ -256,7 +246,7 @@
     <string name="notification_group_name">Название группы</string>
     <string name="notification_group_monitoring">Управлять уведомлениями</string>
     <string name="notification_group_monitoring_disabled">Исключить уведомления (не отображать уведомления приложений)</string>
-    <string name="notification_group_text">Отображение текста</string>
+    <string name="notification_group_text_customization">Отображение текста</string>
     <string name="notification_group_alert_title">Уведомления %1$s</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
     <string name="notification_group_text_app_name">Название приложения</string>
     <string name="notification_group_text_name">Название группы</string>
@@ -264,8 +254,8 @@
     <string name="notification_group_text_content">Содержимое</string>
     <string name="notification_group_text_big_content">Целиком</string>
     <string name="notification_group_text_content_slice_title">Длина текста</string>
-    <string name="notification_group_display_time_title">Время отображения</string>
-    <string name="notification_group_display_notification_title">Отображение уведомления</string>
+    <string name="notification_group_display_duration_title">Время отображения</string>
+    <string name="notification_group_show_notification_title">Отображение уведомления</string>
     <string name="notification_group_immediate">Мгновенное уведомление</string>
     <string name="notification_group_connecting">При подключении к устройству</string>
     <string name="notification_group_reminder">Периодические уведомления</string>
@@ -306,34 +296,32 @@
     Lorem ipsum - классическая панграмма, условный, зачастую бессмысленный текст-заполнитель, вставляемый в макет страницы. Используется в качестве заполнителя по крайней мере с XVI века.
         \nЯвляется искажённым отрывком из философского трактата Марка Туллия Цицерона «О пределах добра и зла», написанного в 45 году до н. э. на латинском языке, обнаружение сходства атрибутируется Ричарду МакКлинтоку.
     </string>
-    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT">: выберите эту иконку, для отображения заголовка/текста уведомлений.]]></string>
 
 
-    <!-- Call -->
+    <!-- Incoming call alert -->
     <string name="call_tab_call">Входящий звонок</string>
     <string name="call_tab_contacts">Контакты</string>
 
-    <string name="pref_cat_call">Входящий звонок</string>
-    <string name="pref_call_summary_on">Включено (не забудьте отключить эти уведомления в %1$s)</string> <!-- %1$s = official app name -->
-    <string name="pref_call_text_title">Показывать звонящего</string>
+    <string name="call_incoming">Входящий звонок</string>
+    <string name="call_incoming_summary_on">Включено (не забудьте отключить эти уведомления в %1$s)</string> <!-- %1$s = official app name -->
+    <string name="call_incoming_caller_id">Показывать звонящего</string>
 
     <string name="pref_call_notification_rejected">Уведомление о сброшенном звонке</string>
     <string name="pref_call_notification_rejected_message">Сброшенный звонок</string>
     <string name="pref_call_notification_rejected_action">Звонок</string>
 
-    <string name="pref_call_net_text_title">Входящий интернет-вызов</string>
+    <string name="call_incoming_net_alert_title">Входящий интернет-вызов</string>
 
-    <string name="pref_cat_call_missed">Пропущенный звонок</string>
-    <string name="pref_call_missed_title">Уведомление о пропущенном звонке</string>
-
-    <string name="pref_call_missed_alert_title">Уведомление %1$s</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="call_missed_title">Уведомление о пропущенном звонке</string>
+    <string name="call_missed_chooser_title">Уведомление %1$s</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="call_missed_notification">Пропущенный звонок</string>
 
     <string name="call_reject_button_action">Кнопка отклонения</string>
 
     <string name="touch_call_answer_title">Ответ на звонок</string>
     <string name="touch_call_answer_speakerphone_title">Громкая связь</string>
 
-    <string name="touch_call_end_title">Сброс звонка</string>
+    <string name="call_end_title">Сброс звонка</string>
 
     <string name="touch_call_mute_title">Отключение звука звонка</string>
     <string name="touch_call_mute_only_call_state_ringing_title">Только при входящем звонке</string>
@@ -356,7 +344,6 @@
     <string name="action_search">Поиск</string>
     <string name="action_filter_notification">Активные уведомления</string>
 
-    <string name="main_control">Контроль</string>
 
     <!-- Activity -->
     <string name="step_details">Подробнее</string>
@@ -384,10 +371,10 @@
     <string name="sleep_rem">REM</string>
 
 
-    <!-- Pulse -->
-    <string name="pulse_details">Подробнее</string>
+    <!-- Heart rate -->
+    <string name="heart_rate_details">Подробнее</string>
 
-    <string name="pulse_continuous_title">Постоянное измерение пульса</string>
+    <string name="heart_rate_continuous_title">Постоянное измерение пульса</string>
 
     <string name="heart_rate_warning_title">Предупреждение о пульсе</string>
     <string name="low_and_high_heart_rates">максимальное и минимальное значение пульса</string>
@@ -434,7 +421,7 @@
     <string name="message_reminder_disabled">Напоминание отключено</string>
 
     <string name="reminder_repeat">Напоминать каждый час</string>
-    <string name="reminder_notification_shade">Уведомление на устройстве</string>
+    <string name="reminder_notification_on_phone">Уведомление на устройстве</string>
 
     <string name="message_time_reminder_free_counter">В бесплатном режиме можно использовать до 1 напоминания</string>
 
@@ -467,7 +454,7 @@
     <string name="watch_face_upload_prepare">Подготовка к установке…</string>
     <string name="watch_face_upload_progress">Установка %1$,d%%</string>
 
-    <string name="watch_face_invalid_firmware">%1$s прошивка не поддерживает загрузку циферблата в часы, обновите прошивку часов в официальном приложении.</string> <!-- %1$s = Haylou Smart watch ... -->
+    <string name="watch_face_invalid_firmware">Прошивка %1$s неизвестна или не поддерживает загрузку циферблатов. Пожалуйста, обновите прошивку с помощью официального приложения. Если официальное приложение поддерживает загрузку циферблатов, сообщите нам об этом через меню Отзывы.</string>
     <string name="watch_face_invalid_auth">Используйте функцию в автономном режиме, при использовании совместного режима, официальное приложение может заблокировать загрузку циферблата в часы</string>
     <string name="watch_face_invalid_free">В бесплатной версии сегодня больше циферблаты загрузить нельзя</string>
     <string name="watch_face_watch_rewarded_ads">Посмотрите видео, чтобы продолжить</string>
@@ -547,8 +534,8 @@
     <string name="watch_face_edit_icon">Выберите значек</string>
     <string name="watch_face_edit_image_size">Размер изображения</string>
 
-    <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
-    <string name="watch_face_custom_watch_face_under_development_title">The ability to upload custom watch faces is currently in development and may be available in the future, but it is not yet confirmed</string>
+    <string name="watch_face_custom_watch_face_not_supported_title">Эти часы не поддерживают загрузку пользовательских циферблатов</string>
+    <string name="watch_face_custom_watch_face_under_development_title">Функция загрузки пользовательских циферблатов в настоящее время находится в разработке и может быть доступна в будущем, но это пока не подтверждено.</string>
 
     <!-- Touch monitoring -->
     <string name="touch_tab_function">Функции</string>
@@ -682,7 +669,7 @@
 
     <string name="weather_forecast_title">Прогноз погоды</string>
 
-    <string name="weather_setting_provider">Источник прогноза</string>
+    <string name="weather_setting_provider">Поставщик погоды</string>
     <string name="weather_city_title">Город</string>
     <string name="weather_unit_title">Система</string>
     <string name="weather_unit_metric">Цельсий ℃</string>
@@ -700,8 +687,6 @@
     <string name="weather_current_location">Текущее местоположение</string>
     <string name="weather_current_temperature">Текущая температура</string>
 
-    <string name="weather_display">Отображение</string>
-
     <string name="weather_precipitation_rain">Дождь</string>
     <string name="weather_precipitation_snow">Снег</string>
     <string name="weather_cloud_cover_abbreviation">Обл</string>
@@ -714,7 +699,9 @@
     <string name="weather_west">З</string>
 
 
-    <!-- Text display -->
+    <!-- Text customization -->
+    <string name="pref_text_reminder_repeat_interval_title">Интервал повторения уведомлений</string>
+    <string name="pref_text_reminder_repeat_interval_summary">Сигнал уведомлений/напоминаний использует это время</string>
     <string name="pref_text_emoticon_title">Преобразование Emoji</string>
     <string name="pref_text_emoticon_summary_on">Преобразование emoji в emoticon</string>
     <string name="pref_text_uppercase_title">Преобразование в прописные</string>
@@ -753,37 +740,41 @@
 
 
     <!-- Premium mode -->
-    <string name="purchase_advantage_title">Преимущества премиума</string>
+    <string name="purchase_advantage_title">Преимущества режима Premium</string>
     <string name="purchase_advantage"><![CDATA[
-        <p>• финансовая поддержка развития</p>
-        <p>• отсутствует реклама</p>
-        <p>• настройка уведомлений без ограничений</p>
-        <p>• настройка вызовов без ограничений</p>
-        <p>• количество будильников не ограничено (количество будильников определяется возможностями часов)</p>
-        <p>• режим \"Не беспокоить\" без ограничений</p>
-        <p>• меньший период синхронизации погоды, автоматическое определение местоположения, возможность выбора AccuWeather в качестве поставщика погоды</p>
-        <p>• настройка касаний без ограничений</p>
-        <p>• подробные ежедневные графики</p>
-        • снятие других ограничений…
+    <p>• финансовая поддержка разработки</p>
+    <p>• без рекламы</p>
+    <p>• неограниченные настройки уведомлений</p>
+    <p>• неограниченные настройки звонков</p>
+    <p>• неограниченная ежедневная загрузка циферблатов</p>
+    <p>• неограниченное количество будильников (может ограничиваться часами)</p>
+    <p>• неограниченный режим «Не беспокоить»</p>
+    <p>• неограниченные настройки касаний</p>
+    <p>• более частое обновление погоды, автоматическое обновление местоположения, возможность использовать AccuWeather</p>
+    <p>• подробные ежедневные графики</p>
+    • разблокировка всех остальных ограничений функций…
     ]]></string>
-    <string name="purchase_policy_title">Условия и положения премиум-режима</string>
+
+    <string name="purchase_policy_title">Условия использования режима Premium</string>
     <string name="purchase_policy"><![CDATA[
-    <p>• Я протестировал(а) приложение, и оно работает корректно.</p>
-    <p>• Я осознаю, что не могу требовать компенсацию или возврат средств из-за ошибок, вызванных изменениями программной или аппаратной среды, либо использованием других приложений.</p>
-    <p>• Все продажи являются окончательными и не подлежат возврату (за исключением политики возврата Google).</p>
-    <p>• Гарантия не предоставляется.</p>
-    <p>• Использование приложения осуществляется на ваш страх и риск. Разработчик отказывается от всех дополнительных гарантий, включая любую прямую или косвенную ответственность за ущерб или потерю данных в результате использования.</p>
+    <p>• Я протестировал(а) приложение и убедился(ась), что оно работает должным образом.</p>
+    <p>• Я понимаю, что не могу требовать возврат средств или компенсацию за проблемы, вызванные обновлениями системы (например, версия Android), оборудованием или конфликтами с другими приложениями.</p>
+    <p>• Все покупки являются окончательными и не подлежат возврату (за исключением случаев, предусмотренных политикой возврата Google\'а).</p>
+    <p>• Приложение предоставляется без каких-либо гарантий, явных или подразумеваемых.</p>
+    <p>• Использование приложения осуществляется на ваш страх и риск. Разработчик не несёт ответственности за любой прямой или косвенный ущерб или потерю данных, вызванные его использованием.</p>
+    <p>• Режим Premium привязан к вашей учётной записи Google и остаётся активным после переустановки приложения.</p>
     <i>После покупки необходимо перезапустить приложение.</i>
     ]]></string>
 
+
     <string name="purchase_google_play_services_not_available">Службы Google Play недоступны</string>
 
-    <!--<string name="purchase_price">Цена:</string>-->
     <string name="purchase_agree">Я согласен с правилами и условиями.</string>
     <string name="purchase_order_id">ID заказа</string>
     <string name="purchase_order_id_help">Скопируйте из:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+
     <string name="purchase_info">Единовременная плата ・ %1$s</string> <!-- %1$s = price</string>-->
     <string name="purchase_button_purchase">Приобрести</string>
 
@@ -802,41 +793,58 @@
     <string name="privacy_policy_tab_eu_consent">Согласие пользователя для ЕС и США</string>
     <string name="privacy_policy_tab_non_eu_consent">Согласие пользователя для других регионов</string>
 
-    <string name="privacy_policy_collect_title">Информация, собираемая нами</string>
+    <string name="privacy_policy_collect_title">Информация, которую мы собираем</string>
     <string name="privacy_policy_collect"><![CDATA[
-        <p>• Мы собираем только анонимную информацию.</p>
-        <p>• Мы собираем информацию на уровне приложения о сервисах используемых вами и способе их использования (Google Analytics).</p>
-        <p>• Мы собираем информацию на уровне приложения о багах, ошибках и падениях для предоставления улучшений (Firebase Crashlytics).</p>
-        <p>• Мы собираем информацию о производительности на уровне приложения (Firebase Performance Monitoring).</p>
-        <p>• Платформа Google Firebase собирает информацию анонимно. Она предоставляет информацию о трендах без идентификации отдельных пользователей.
-        Платформа Firebase собирает такие данные, как идентификатор установки Firebase, состояние приложения, соответствующие метаданные устройства (модель устройства, архитектура процессора, объем оперативной памяти и диска, операционная система, ориентация экрана, страна, язык/язык), трассировки стека, показатели производительности (включая время запуска приложения и задержку сетевых запросов, сетевые URL-адреса), Использование процессора/памяти, IP-адрес …
-        </p>
-        • Мы собираем данные о местоположении для обновления погоды на основе вашего текущего местоположения (необязательно).
+    <p>• Мы собираем только анонимную информацию.</p>
+    <p>• Мы собираем информацию на уровне приложения о том, какие сервисы вы используете и как вы их используете (Google Analytics).</p>
+    <p>• Мы собираем данные об ошибках, сбоях и других неисправностях для улучшения работы приложения (Firebase Crashlytics).</p>
+    <p>• Мы собираем данные о производительности приложения (Firebase Performance Monitoring).</p>
+    <p>• Платформа Google Firebase собирает информацию анонимно. Она предоставляет отчёты о тенденциях без идентификации отдельных пользователей.
+    Firebase собирает такие данные, как ID установки, состояние приложения, метаданные устройства (модель устройства, архитектура процессора, объём ОЗУ и памяти, ОС, ориентация экрана, страна, язык и региональные настройки), трассировки ошибок, показатели производительности (включая время запуска и задержки сетевых запросов, URL-адреса), использование CPU и памяти, приблизительный IP-адрес…</p>
+    <p>• Мы собираем данные о местоположении только для обновления прогноза погоды на основе вашего текущего местоположения (опционально).</p>
+    • Правовым основанием для сбора и обработки этих данных является наш законный интерес в улучшении функциональности и производительности приложения, а также в обеспечении его стабильности и удобства использования.
+    ]]></string>
+
+    <string name="privacy_policy_cookies_title">Файлы cookie и аналогичные технологии</string>
+    <string name="privacy_policy_cookies"><![CDATA[
+    • Некоторые сторонние сервисы, такие как AdMob, могут использовать файлы cookie или аналогичные технологии для показа персонализированной рекламы. Вы можете управлять настройками персонализации рекламы в своём аккаунте Google.
+    ]]></string>
+
+    <string name="privacy_policy_retention_title">Срок хранения данных</string>
+    <string name="privacy_policy_retention"><![CDATA[
+    • Собранные данные хранятся в соответствии с политикой Google Firebase и только в течение времени, необходимого для анализа, диагностики и улучшения производительности.
     ]]></string>
 
     <string name="privacy_policy_not_collect_title">Информация, которую мы не собираем</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-    <p>• Мы не собираем персональную информацию, позволяющую идентифицировать вас. Это означает, что мы не собираем, например, такие персональные данные, как ваше имя, адрес, номер телефона, адрес электронной почты или MAC-адрес.</p>
-    • Мы не собираем персональные данные о здоровье, контакты или содержимое уведомлений на телефоне.
+    <p>• Мы не собираем персональную идентифицируемую информацию о вас. Это означает, что мы не собираем такие данные, как ваше имя, адрес, номер телефона, адрес электронной почты или MAC-адрес.</p>
+    • Мы не собираем данные о здоровье, контактах или содержании уведомлений, отображаемых на вашем устройстве.
     ]]></string>
 
-    <string name="privacy_policy_share_title">Информация, которую мы передаем</string>
+    <string name="privacy_policy_share_title">Информация, которую мы передаём</string>
     <string name="privacy_policy_share"><![CDATA[
-    • Мы не передаем никакие данные компаниям или организациям, кроме Google и поставщиков рекламы.
+    • Мы не передаём данные каким-либо компаниям или организациям, за исключением Google и рекламных партнёров.
     ]]></string>
 
-    <string name="privacy_policy_use_title">Персональные и конфиденциальные данные пользователя, которые мы используем</string>
+    <string name="privacy_policy_use_title">Личные и конфиденциальные данные, которые мы используем</string>
     <string name="privacy_policy_use"><![CDATA[
-    • Мы используем данные о местоположении только для обновления информации о погоде и только в случае, если вы включите эту функцию.
+    • Мы используем данные о местоположении только для обновления информации о погоде, и только если вы включите эту функцию.
     ]]></string>
 
-    <string name="privacy_policy_links_title">Политика конфиденциальности сторонних поставщиков услуг</string>
+    <string name="privacy_policy_rights_title">Ваши права</string>
+    <string name="privacy_policy_rights"><![CDATA[
+    <p>• Данные об аналитике, ошибках и производительности полностью анонимны и не могут быть использованы для идентификации личности. Поэтому они не считаются персональными данными в соответствии с законами о защите данных (например, GDPR) и не подлежат праву на доступ, исправление или удаление.</p>
+    <p>• Вы можете отказаться от сбора данных, удалив приложение или изменив настройки конфиденциальности в своей учётной записи Google или на устройстве.</p>
+    • Если у вас есть вопросы относительно использования данных или ваших прав на конфиденциальность, пожалуйста, свяжитесь с нами через службу поддержки приложения.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">Политики конфиденциальности сторонних поставщиков услуг</string>
     <string name="privacy_policy_links"><![CDATA[
-        <a href="https://policies.google.com/privacy">Google Play Services</a>
-        <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
-        <p><a href="https://www.google.com/analytics/terms">Google Analytics</a></p>
-        <p><a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a></p>
-        <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>
+    <p><a href="https://policies.google.com/privacy">Политика конфиденциальности Google (включая Google Play Services)</a></p>
+    <p><a href="https://policies.google.com/technologies/ads">Использование данных AdMob</a></p>
+    <p><a href="https://support.google.com/analytics/answer/6004245">Использование данных Google Analytics</a></p>
+    <p><a href="https://firebase.google.com/terms/crashlytics">Условия использования Firebase Crashlytics</a></p>
+    <a href="https://firebase.google.com/support/privacy">Политика конфиденциальности и безопасности Firebase (включая Performance Monitoring)</a>
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Статус</string>
@@ -860,7 +868,7 @@
     <string name="shortcut_status">Статус</string>
     <string name="shortcut_heart_rate">Пульс</string>
     <string name="shortcut_blood_oxygen">Уровень кислорода в крови</string>
-    <string name="shortcut_Sleep">Сон</string>
+    <string name="shortcut_sleep">Сон</string>
     <string name="shortcut_breathing">Дыхание</string>
     <string name="shortcut_weather">Погода</string>
     <string name="shortcut_stress">Стресс</string>
@@ -957,7 +965,7 @@
 
     <string name="action_chart">График</string>
     <string name="action_zoom_in">Приблизить</string>
-    <string name="action_chart_normalize_minute">Измеренные значения</string>
+    <string name="action_chart_normalize_raw_data">Измеренные значения</string>
     <string name="action_chart_normalize_quarter_hourly">Средние значения (15 м)</string>
     <string name="action_chart_normalize_half_hourly">Средние значения (30 м)</string>
     <string name="action_chart_normalize_hourly">Средние значения (1 ч)</string>
@@ -967,8 +975,8 @@
     <string name="action_chart_sort_step_desc">Шаги, по убыванию</string>
     <string name="action_chart_sort_duration_asc">Продолжительность по возрастанию</string>
     <string name="action_chart_sort_duration_desc">Продолжительность по убыванию</string>
-    <string name="action_chart_sort_pulse_asc">Пульс, по возрастанию</string>
-    <string name="action_chart_sort_pulse_desc">Пульс, по убыванию</string>
+    <string name="action_chart_sort_heart_rate_asc">Пульс, по возрастанию</string>
+    <string name="action_chart_sort_heart_rate_desc">Пульс, по убыванию</string>
     <string name="action_chart_sort_spo2_asc">SpO2 по возрастанию</string>
     <string name="action_chart_sort_spo2_desc">SpO2 по убыванию</string>
     <string name="action_chart_sort_pressure_asc">Давление по возрастанию</string>
@@ -994,7 +1002,7 @@
     <string name="percent_90">90%</string>
     <string name="percent_100">100%</string>
 
-    <!-- Constante -->
+    <!-- Constants -->
     <string name="const_day_of_week_sunday">Воскресенье</string>
     <string name="const_day_of_week_monday">Понедельник</string>
     <string name="const_day_of_week_tuesday">Вторник</string>
@@ -1023,29 +1031,23 @@
     <string name="const_unit_dbm">дБм</string>
 
     <plurals name="plural_time_hour">
-        <item quantity="zero">%d часов</item>
         <item quantity="one">%d час</item>
-        <item quantity="two">%d часа</item>
         <item quantity="few">%d часа</item>
         <item quantity="many">%d часов</item>
-        <item quantity="other">%d часов</item>
+        <item quantity="other">%d часа</item>
     </plurals>
 
     <plurals name="plural_time_minute">
-        <item quantity="zero">%d минут</item>
         <item quantity="one">%d минута</item>
-        <item quantity="two">%d минуты</item>
         <item quantity="few">%d минуты</item>
         <item quantity="many">%d минут</item>
-        <item quantity="other">%d минут</item>
+        <item quantity="other">%d минуты</item>
     </plurals>
 
     <plurals name="plural_time_second">
-        <item quantity="zero">%d секунд</item>
         <item quantity="one">%d секунда</item>
-        <item quantity="two">%d секунды</item>
         <item quantity="few">%d секунды</item>
         <item quantity="many">%d секунд</item>
-        <item quantity="other">%d секунд</item>
+        <item quantity="other">%d секунды</item>
     </plurals>
 </resources>

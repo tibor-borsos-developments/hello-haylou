@@ -1,12 +1,11 @@
 <?xml version="1.0"?>
 
 <resources xmlns:tools="http://schemas.android.com/tools" tools:locale="pt">
-    <string name="menu_nav_home">@string/device_name</string>
     <string name="menu_nav_notification">Notificações</string>
     <string name="menu_nav_call">Chamadas</string>
     <string name="menu_nav_step">Atividade</string>
     <string name="menu_nav_sleep">Sono</string>
-    <string name="menu_nav_pulse">Pulsação</string>
+    <string name="menu_nav_heart_rate">Pulsação</string>
     <string name="menu_nav_blood_oxygen">Oxigênio no sangue</string>
     <string name="menu_nav_blood_pressure">Pressão sanguínea</string>
     <string name="menu_nav_workout">Treino</string>
@@ -17,26 +16,24 @@
     <string name="menu_nav_weather">Meteorologia</string>
     <string name="menu_nav_touch">Toque</string>
     <string name="menu_nav_more">Mais</string>
-    <string name="menu_nav_text_display">Exibir texto</string>
+    <string name="menu_nav_text_customization">Exibir texto</string>
     <string name="menu_nav_theme">Tema</string>
     <string name="menu_nav_premium_mode">Modo Premium</string>
     <string name="menu_nav_feedback">Feedback</string>
     <string name="menu_nav_privacy_policy">Política de privacidade</string>
     <string name="menu_nav_export">Exportar</string>
-<!--    <string name="menu_nav_settings" type="string">@string/settings_name</string>-->
 
     <string name="setting_name">Definições</string>
     <string name="settings_name">Definições</string>
     <string name="info_name">Informações</string>
     <string name="more_name">Mais</string>
 
-<!--    <string name="mi_band_tracker_title">Passos・distância・calorias・objetivo・pulsação</string>-->
-    <string name="main_tracker_title">Passos・Objetivo</string>
-<!--    <string name="mi_band_battery">Bateria・último carregamento・tempo restante de bateria</string>-->
-    <string name="device_battery">Bateria・último carregamento</string>
-    <string name="device_state_connected_disconnected_last_time">Hora da última conexão e desconexão</string>
-    <string name="device_alarm">Próximo alarme</string>
-    <string name="device_reminder">Próximo lembrete</string>
+    <string name="main_item_activity_title">Passos・Objetivo</string>
+    <string name="main_item_battery">Bateria・último carregamento</string>
+    <string name="main_item_connect_and_disconnect_last_time">Hora da última conexão e desconexão</string>
+    <string name="main_item_next_alarm">Próximo alarme</string>
+    <string name="main_item_next_reminder">Próximo lembrete</string>
+    <string name="main_item_call_and_notification_control">Chamadas e notificações</string>
 
     <string name="device_search">Localizar %1$s</string> <!-- %1$s = Watch name -->
     <string name="device_setting">Definições da %1$s</string> <!-- %1$s = Watch name -->
@@ -49,14 +46,11 @@
     <string name="device_state_bonded">Dispositivo conectado</string>
     <string name="device_state_not_bonded">Dispositivo não conectado</string>
 
-    <string name="pref_dnd_title">Modo não perturbe</string>
-
     <string name="error_title">Ups! Coś poszło nie tak</string>
     <string name="error_message">Atualize o aplicativo para a versão mais recente</string>
 
 
-    <!-- Haylou setting -->
-    <string name="mi_band_setting_button_title">Definições da %1$s・Perfil・Texto・Chamadas・Menu</string>
+    <!-- Watch connection and setting -->
     <string name="mi_band_setting_title">Definições da %1$s</string>
 
     <string name="mi_band_setting_menu_connection">Conexão</string>
@@ -79,19 +73,19 @@
 
     <string name="message_auth_request">Está emparelhado, se você não souber a chave, use o desemparelhar</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">Pressione o botão %1$s para emparelhar</string> <!-- %1$s = Mi Band 3, Zepp Bip ... -->
-    <string name="message_mi_band_setting_auth_success">%1$s emparelhada com sucesso</string>
-    <string name="message_mi_band_setting_auth_fail">O emparelhamento com a %1$s falhou</string>
+    <string name="message_mi_band_setting_auth_press_band_button">Pressione o botão no seu %1$s para emparelhar</string>
+    <string name="message_mi_band_setting_auth_success">%1$s emparelhado com sucesso</string>
+    <string name="message_mi_band_setting_auth_fail">Falha ao emparelhar %1$s</string>
     <string name="message_mi_band_setting_auth_key_invalid">Chave de autenticação inválida</string>
 
     <string name="pref_disconnect_device">Desconexão</string>
 
-    <string name="mi_band_setting_connection_problem_title">In case of connection problem</string>
+    <string name="mi_band_setting_connection_problem_title">Se você estiver tendo problemas de conexão</string>
     <string name="mi_band_setting_connection_problem_hint"><![CDATA[
-    - Unpair the watch in the phone\'s Bluetooth settings
-    <br>- Turn Bluetooth off and on
-    <br>- Force close the Application or restart the phone
-    <br>- Pair your watch again on the main screen
+    - Desemparelhe o relógio nas configurações de Bluetooth do seu telefone<br>
+    - Desligue e ligue o Bluetooth novamente<br>
+    - Force o fechamento do aplicativo ou reinicie seu telefone<br>
+    - Tente emparelhar o relógio novamente na tela principal
     ]]></string>
 
     <string name="mi_band_setting_dial">Discar</string>
@@ -101,14 +95,14 @@
     <string name="mi_band_setting_lift_wrist">Girar o pulso para ver a informação</string>
     <string name="mi_band_setting_screen_on_duration">Duração na tela</string>
     <string name="mi_band_setting_idle_alert">Alertas de inatividade</string>
-    <string name="mi_band_setting_idle_alert_time">Tempo de inatividade</string>
+    <string name="mi_band_setting_idle_alert_duration">Tempo de inatividade</string>
     <string name="mi_band_setting_idle_alert_dnd">Não perturbar enquanto estiver a descansar (12:00-14:00)</string>
 
     <string name="pref_synchronization">Sincronização</string>
     <string name="pref_synchronization_fetch_interval">Frequência de sincronização</string>
     <string name="pref_synchronization_summary">Select the data to be automatically synchronised in the background. If you do not need any of the data, turn it off for better performance. Data can still be synchronised manually on the home screen or in the appropriate menus (by sweeping down).</string>
 
-    <string name="mi_band_setting_profile">Esses dados são necessários para calcular corretamente o número de passos, distância e calorias queimadas.</string>
+    <string name="mi_band_setting_profile">Esses dados ajudam a calcular com mais precisão seus passos, distância e calorias queimadas.</string>
     <string name="mi_band_setting_gender">Gênero</string>
     <string name="mi_band_setting_gender_male">Masculino</string>
     <string name="mi_band_setting_gender_female">Feminino</string>
@@ -123,21 +117,17 @@
     <!-- Battery -->
     <string name="battery_details">Utilização de bateria</string>
 
-    <string name="mi_band_battery_settings">Definições de bateria</string>
-    <string name="mi_band_battery_notification">Notificação de Bateria baixa</string>
-    <string name="mi_band_battery_notification_level">Limite do nível de Bateria</string>
-    <string name="mi_band_battery_notification_repeat_interval">Repetir notificação a cada</string>
-    <string name="mi_band_battery_notification_shade">Notificar-me no dispositivo</string>
-    <string name="mi_band_battery_notification_shade_error">Notification display permission is restricted</string>
-    <string name="mi_band_battery_notification_shade_ongoing">Notificação persistente (Não removível)</string>
-    <string name="mi_band_battery_notification_shade_message">Bateria baixa %1$,d%%</string>
-    <string name="mi_band_battery_notification_mi_band">Notificar-me no Relógio</string>
-    <string name="mi_band_battery_notification_mi_band_message">Bateria: %1$,d%%</string>
+    <string name="battery_settings">Definições de bateria</string>
+    <string name="battery_settings_notification">Notificação de Bateria baixa</string>
+    <string name="battery_settings_notification_level">Limite do nível de Bateria</string>
+    <string name="battery_settings_notification_repeat_interval">Repetir notificação a cada</string>
+    <string name="battery_settings_notification_on_phone">Notificar-me no dispositivo</string>
+    <string name="battery_settings_notification_on_phone_ongoing">Notificação persistente (Não removível)</string>
+    <string name="battery_settings_notification_on_phone_message">Bateria baixa %1$,d%%</string>
+    <string name="battery_settings_notification_on_device">Notificar-me no Relógio</string>
+    <string name="battery_settings_notification_on_device_message">Bateria: %1$,d%%</string>
 
-    <!-- PreferenceScreen -->
-    <string name="pref_connected_have_notif_interval_title">Tempo para repetir o lembrete</string>
-    <string name="pref_connected_have_notif_interval_summary">A função de sinal de notificação/lembrete usa este tempo</string>
-
+    <!-- Preference screens -->
     <string name="pref_battery_phone">Bateria do dispositivo</string>
     <string name="pref_battery_phone_summary">Notificações de bateria Baixa e Cheia</string>
     <string name="pref_cat_battery_phone_low">Nível de bateria baixo</string>
@@ -257,15 +247,15 @@
     <string name="notification_group_monitoring">Monitorar notificações</string>
     <string name="notification_group_monitoring_disabled">Desativar notificações (não será notificado pelas aplicações deste grupo)</string>
     <string name="notification_group_alert_title">Aviso da %1$s</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
-    <string name="notification_group_text">Exibir texto</string>
+    <string name="notification_group_text_customization">Exibir texto</string>
     <string name="notification_group_text_app_name">Nome da Aplicação</string>
     <string name="notification_group_text_name">Nome deste grupo</string>
     <string name="notification_group_text_title">Título</string>
     <string name="notification_group_text_content">Conteúdo</string>
     <string name="notification_group_text_big_content">Conteúdo completo</string>
     <string name="notification_group_text_content_slice_title">Comprimento do texto</string>
-    <string name="notification_group_display_time_title">Tempo de exibição</string>
-    <string name="notification_group_display_notification_title">Mostrar notificação</string>
+    <string name="notification_group_display_duration_title">Tempo de exibição</string>
+    <string name="notification_group_show_notification_title">Mostrar notificação</string>
     <string name="notification_group_immediate">Notificar quando receber a notificação</string>
     <string name="notification_group_connecting">Notificar quando conectar ao dispositivo</string>
     <string name="notification_group_reminder">Lembrete</string>
@@ -306,34 +296,32 @@
     Na publicação e no design gráfico, lorem ipsum é um texto de preenchimento ou esquisito comumente usado para demonstrar os elementos textuais de um documento gráfico ou apresentação visual.
         \nSubstituir conteúdo significativo pelo texto do espaço reservado permite que os designers projetem a forma do conteúdo antes que o próprio conteúdo seja produzido.
     </string>
-    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> ícone: escolha este ícone para mostrar o título/conteúdo das notificações]]></string>
 
 
-    <!-- Call -->
+    <!-- Incoming call alert -->
     <string name="call_tab_call">Chamada recebida</string>
     <string name="call_tab_contacts">Contatos</string>
 
-    <string name="pref_cat_call">Chamada recebida</string>
-    <string name="pref_call_summary_on">Não se esqueça de desligar \'Alertas de chamadas recebidas\' na aplicação \'%1$s\'</string> <!-- %1$s = official app name -->
-    <string name="pref_call_text_title">Exibir o número do contato</string>
+    <string name="call_incoming">Chamada recebida</string>
+    <string name="call_incoming_summary_on">Não se esqueça de desligar \'Alertas de chamadas recebidas\' na aplicação \'%1$s\'</string> <!-- %1$s = official app name -->
+    <string name="call_incoming_caller_id">Exibir o número do contato</string>
 
     <string name="pref_call_notification_rejected">Exibir notificações sobre chamadas rejeitadas</string>
     <string name="pref_call_notification_rejected_message">Chamada rejeitada</string>
     <string name="pref_call_notification_rejected_action">Chamada</string>
 
-    <string name="pref_call_net_text_title">Notificar chamada online recebida</string>
+    <string name="call_incoming_net_alert_title">Notificar chamada online recebida</string>
 
-    <string name="pref_cat_call_missed">Chamada perdida</string>
-    <string name="pref_call_missed_title">Notificar chamada perdida</string>
-
-    <string name="pref_call_missed_alert_title">Aviso da %1$s</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="call_missed_title">Notificar chamada perdida</string>
+    <string name="call_missed_chooser_title">Aviso da %1$s</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="call_missed_notification">Chamada perdida</string>
 
     <string name="call_reject_button_action">Botão \'Rejeitar\'</string>
 
     <string name="touch_call_answer_title">Atender</string>
     <string name="touch_call_answer_speakerphone_title">Viva-voz</string>
 
-    <string name="touch_call_end_title">Rejeitar/Terminar</string>
+    <string name="call_end_title">Rejeitar/Terminar</string>
 
     <string name="touch_call_mute_title">Silenciar</string>
     <string name="touch_call_mute_only_call_state_ringing_title">Só se estiver recebendo uma chamada</string>
@@ -356,7 +344,6 @@
     <string name="action_search">Procurar</string>
     <string name="action_filter_notification">Filtro de notificações</string>
 
-    <string name="main_control">Controles</string>
 
     <!-- Activity -->
     <string name="step_details">Detalhes sobre a atividade</string>
@@ -384,10 +371,10 @@
     <string name="sleep_rem">REM</string>
 
 
-    <!-- Pulse -->
-    <string name="pulse_details">Detalhes sobre a pulsação</string>
+    <!-- Heart rate -->
+    <string name="heart_rate_details">Detalhes sobre a pulsação</string>
 
-    <string name="pulse_continuous_title">Monitoramento contínua da pulsação</string>
+    <string name="heart_rate_continuous_title">Monitoramento contínua da pulsação</string>
 
     <string name="heart_rate_warning_title">Alerta de frequência cardíaca</string>
     <string name="low_and_high_heart_rates">Limiares de frequência cardíaca</string>
@@ -434,7 +421,7 @@
     <string name="message_reminder_disabled">Lembrete desativado</string>
 
     <string name="reminder_repeat">Repetir de hora em hora</string>
-    <string name="reminder_notification_shade">Notificar-me no dispositivo</string>
+    <string name="reminder_notification_on_phone">Notificar-me no dispositivo</string>
 
     <string name="message_time_reminder_free_counter">Até 1 lembrete pode ser usado no modo gratuito</string>
 
@@ -467,7 +454,7 @@
     <string name="watch_face_upload_prepare">Preparando para realizar o Envio…</string>
     <string name="watch_face_upload_progress">Fazendo Upload de %1$,d%%</string>
 
-    <string name="watch_face_invalid_firmware">%1$s o firmware não suporta o upload do mostrador do relógio, atualize o firmware no aplicativo oficial</string> <!-- %1$s = Haylou Smart watch ... -->
+    <string name="watch_face_invalid_firmware">O firmware %1$s é desconhecido ou não suporta o envio de mostradores de relógio. Atualize o firmware usando o aplicativo oficial. Se o aplicativo oficial suportar o envio de mostradores de relógio, informe-nos através do menu Feedback.</string>
     <string name="watch_face_invalid_auth">Use no modo autônomo, ao usar o modo compartilhado, o aplicativo oficial pode bloquear o upload do mostrador do relógio</string>
     <string name="watch_face_invalid_free">No modo gratuito, não é possível enviar mais mostradores hoje</string>
     <string name="watch_face_watch_rewarded_ads">Assista a um vídeo para continuar</string>
@@ -547,8 +534,8 @@
     <string name="watch_face_edit_icon">Icon</string>
     <string name="watch_face_edit_image_size">Tamanho da imagem</string>
 
-    <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
-    <string name="watch_face_custom_watch_face_under_development_title">The ability to upload custom watch faces is currently in development and may be available in the future, but it is not yet confirmed</string>
+    <string name="watch_face_custom_watch_face_not_supported_title">Este relógio não suporta o upload de mostradores personalizados</string>
+    <string name="watch_face_custom_watch_face_under_development_title">A função de upload de mostradores personalizados está em desenvolvimento e pode estar disponível no futuro, mas ainda não está confirmada.</string>
 
     <!-- Touch monitoring -->
     <string name="touch_tab_function">Funções</string>
@@ -700,8 +687,6 @@
     <string name="weather_current_location">Localização atual</string>
     <string name="weather_current_temperature">Temperatura atual</string>
 
-    <string name="weather_display">Ecrã</string>
-
     <string name="weather_precipitation_rain">Chuva</string>
     <string name="weather_precipitation_snow">Neve</string>
     <string name="weather_cloud_cover_abbreviation">En</string>
@@ -714,7 +699,9 @@
     <string name="weather_west">W</string>
 
 
-    <!-- Text display -->
+    <!-- Text customization -->
+    <string name="pref_text_reminder_repeat_interval_title">Tempo para repetir o lembrete</string>
+    <string name="pref_text_reminder_repeat_interval_summary">A função de sinal de notificação/lembrete usa este tempo</string>
     <string name="pref_text_emoticon_title">Conversão de emoji</string>
     <string name="pref_text_emoticon_summary_on">Converter emoji em emoticon</string>
     <string name="pref_text_uppercase_title">Conversão para maiúsculas</string>
@@ -753,28 +740,32 @@
 
 
     <!-- Premium mode -->
-    <string name="purchase_advantage_title">Vantagens do Modo Premium</string>
+    <string name="purchase_advantage_title">Vantagens do modo Premium</string>
     <string name="purchase_advantage"><![CDATA[
-        <p>• apoio financeiro para o desenvolvimento</p>
-        <p>• sem propagandas</p>
-        <p>• sem limite de configuração de notificação</p>
-        <p>• sem limite para configuração de chamadas</p>
-        <p>• o número de alarmes não é limitado (o número de alarmes é limitado pelo relógio)</p>
-        <p>• sem limite para o modo não perturbe</p>
-        <p>• sincronização de clima mais frequente, localização pode ser atualizada automaticamente, provedor AccuWeather pode ser definido</p>
-        <p>• sem limite para configuração de toque</p>
-        <p>• gráficos diários detalhados</p>
-        • removendo outras restrições …
+    <p>• apoio financeiro para o desenvolvimento</p>
+    <p>• sem anúncios</p>
+    <p>• configurações de notificações ilimitadas</p>
+    <p>• configurações de chamadas ilimitadas</p>
+    <p>• envio diário ilimitado de mostradores de relógio</p>
+    <p>• número ilimitado de alarmes (limitado pelo relógio)</p>
+    <p>• modo Não Perturbe ilimitado</p>
+    <p>• configurações de toque ilimitadas</p>
+    <p>• atualizações de clima mais frequentes, atualização automática de localização, opção de usar o AccuWeather</p>
+    <p>• gráficos diários detalhados</p>
+    • desbloqueio de todos os outros limites de funcionalidades…
     ]]></string>
+
     <string name="purchase_policy_title">Termos e condições do modo Premium</string>
     <string name="purchase_policy"><![CDATA[
-    <p>• Testei o aplicativo e ele está funcionando corretamente.</p>
-    <p>• Estou ciente de que não posso solicitar reembolso ou indenização por falhas causadas por alterações no ambiente de software, hardware ou pelo uso de outros aplicativos.</p>
-    <p>• Todas as vendas são finais e não reembolsáveis (exceto conforme a política de reembolso do Google).</p>
-    <p>• Nenhuma garantia está incluída.</p>
-    <p>• O uso deste aplicativo é de inteira responsabilidade do usuário. O desenvolvedor não se responsabiliza por quaisquer danos diretos ou indiretos ou perda de dados decorrentes do uso do aplicativo.</p>
-    <i>Após a compra, é necessário reiniciar o aplicativo.</i>
+    <p>• Testei o aplicativo e ele funciona como esperado.</p>
+    <p>• Entendo que não posso solicitar reembolso ou compensação por problemas causados por atualizações do sistema (como versões do Android), mudanças no hardware ou conflitos com outros aplicativos.</p>
+    <p>• Todas as compras são finais e não reembolsáveis (exceto conforme permitido pela política de reembolso do Google).</p>
+    <p>• Este aplicativo é fornecido sem garantias, expressas ou implícitas.</p>
+    <p>• O uso do aplicativo é por sua conta e risco. O desenvolvedor não se responsabiliza por quaisquer danos diretos ou indiretos ou perda de dados causados pelo uso do app.</p>
+    <p>• O modo Premium está vinculado à sua conta do Google e continua ativo mesmo após reinstalar o aplicativo.</p>
+    <i>É necessário reiniciar o aplicativo após a compra.</i>
     ]]></string>
+
 
     <string name="purchase_google_play_services_not_available">Os serviços do Google Play não estão disponíveis</string>
 
@@ -783,6 +774,7 @@
     <string name="purchase_order_id_help">Copia de:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+
     <string name="purchase_info">Taxa única ・ %1$s</string> <!-- %1$s = price</string>-->
     <string name="purchase_button_purchase">Comprar</string>
 
@@ -801,41 +793,58 @@
     <string name="privacy_policy_tab_eu_consent">Consentimento do Usuário para UE e EUA</string>
     <string name="privacy_policy_tab_non_eu_consent">Consentimento do Usuário para Outras Regiões</string>
 
-    <string name="privacy_policy_collect_title">Informações que nós coletamos</string>
+    <string name="privacy_policy_collect_title">Informações que coletamos</string>
     <string name="privacy_policy_collect"><![CDATA[
-        <p>• Nós apenas coletamos informações anônimas.</p>
-        <p>• Nós coletamos informação ao nível da aplicação acerca dos serviços que você usa e como os usa (Google Analytics).</p>
-        <p>• Nós coletamos informação ao nível da aplicação sobre bugs, erros e crashes para proporcionar melhorias (Firebase Crashlytics).</p>
-        <p>• We collect information at the application level about the performance (Firebase Performance Monitoring).</p>
-        <p>• A plataforma \'Google Firebase Platform\' coleta a informação anonimamente. A plataforma relata as tendências sem identificar os usuários.
-        The Firebase Platform collects data such as Firebase installation ID, application state, relevant device metadata (device model, CPU architecture, RAM and disk size, OS, screen orientation, country, locale/language), stack traces, performance metrics (including app start time and network request latency, network URLs), CPU/memory usage, IP address …
-        </p>
-        • We collect location data to update the weather based on your current location (optional).
+    <p>• Coletamos apenas informações anônimas.</p>
+    <p>• Coletamos informações no nível do aplicativo sobre os serviços que você usa e como você os utiliza (Google Analytics).</p>
+    <p>• Coletamos informações no nível do aplicativo como falhas, erros e travamentos para melhorar o desempenho (Firebase Crashlytics).</p>
+    <p>• Coletamos informações no nível do aplicativo relacionadas ao desempenho (Firebase Performance Monitoring).</p>
+    <p>• A plataforma Google Firebase coleta informações de forma anônima. Ela gera relatórios de tendências sem identificar usuários individualmente.
+    A plataforma coleta dados como o ID de instalação do Firebase, estado do aplicativo, metadados relevantes do dispositivo (modelo, arquitetura da CPU, tamanho da RAM e do armazenamento, sistema operacional, orientação da tela, país, idioma/configuração regional), rastreamentos de erro, métricas de desempenho (incluindo tempo de inicialização do app e latência de requisições de rede, URLs), uso de CPU/memória e endereço IP aproximado…</p>
+    <p>• Coletamos dados de localização para atualizar as informações meteorológicas com base na sua localização atual (opcional).</p>
+    • A base legal para a coleta e o processamento desses dados é nosso interesse legítimo em melhorar a funcionalidade e o desempenho do aplicativo, bem como manter sua estabilidade e usabilidade.
+    ]]></string>
+
+    <string name="privacy_policy_cookies_title">Cookies e tecnologias semelhantes</string>
+    <string name="privacy_policy_cookies"><![CDATA[
+    • Alguns serviços de terceiros, como o AdMob, podem usar cookies ou tecnologias semelhantes para exibir anúncios personalizados. Você pode gerenciar a personalização de anúncios nas configurações da sua conta Google.
+    ]]></string>
+
+    <string name="privacy_policy_retention_title">Retenção de dados</string>
+    <string name="privacy_policy_retention"><![CDATA[
+    • Os dados coletados são armazenados pelo Google Firebase de acordo com suas políticas, e somente pelo tempo necessário para fins de análise, diagnóstico e melhorias de desempenho.
     ]]></string>
 
     <string name="privacy_policy_not_collect_title">Informações que não coletamos</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-    <p>• Não coletamos informações pessoais identificáveis sobre você. Isso significa que não coletamos, por exemplo, dados pessoais como seu nome, endereço, número de telefone, endereço de e-mail ou endereço MAC.</p>
-    • Não coletamos dados de saúde pessoais, contatos ou o conteúdo das notificações do telefone.
+    <p>• Não coletamos informações pessoais identificáveis sobre você. Isso significa que não coletamos dados como seu nome, endereço, número de telefone, endereço de e-mail ou endereço MAC.</p>
+    • Não coletamos dados de saúde, contatos ou o conteúdo das notificações exibidas no seu dispositivo.
     ]]></string>
 
     <string name="privacy_policy_share_title">Informações que compartilhamos</string>
     <string name="privacy_policy_share"><![CDATA[
-    • Não compartilhamos dados com empresas ou organizações além do Google e provedores de publicidade.
+    • Não compartilhamos nenhum dado com empresas ou organizações, exceto com o Google e provedores de publicidade.
     ]]></string>
 
-    <string name="privacy_policy_use_title">Dados pessoais e sensíveis do usuário que utilizamos</string>
+    <string name="privacy_policy_use_title">Dados pessoais e sensíveis que utilizamos</string>
     <string name="privacy_policy_use"><![CDATA[
-    • Utilizamos dados de localização apenas para atualizar as informações meteorológicas, e somente se você ativar esse recurso.
+    • Utilizamos dados de localização apenas para atualizar as informações meteorológicas, e somente se você ativar essa função.
     ]]></string>
 
-    <string name="privacy_policy_links_title">Política de privacidade de provedores de serviços de terceiros</string>
+    <string name="privacy_policy_rights_title">Seus direitos</string>
+    <string name="privacy_policy_rights"><![CDATA[
+    <p>• Os dados de análise, falhas e desempenho coletados são totalmente anônimos e não podem ser usados para identificar nenhum indivíduo. Portanto, não são considerados dados pessoais segundo as leis de proteção de dados (como o GDPR), e não estão sujeitos a direitos de acesso, correção ou exclusão.</p>
+    <p>• Você pode optar por não participar da coleta de dados desinstalando o aplicativo ou ajustando as configurações de privacidade na sua conta Google ou no seu dispositivo.</p>
+    • Para dúvidas sobre o uso de dados ou seus direitos de privacidade, entre em contato conosco através dos canais de suporte do aplicativo.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">Políticas de privacidade de serviços de terceiros</string>
     <string name="privacy_policy_links"><![CDATA[
-        <a href="https://policies.google.com/privacy">Google Play Services</a>
-        <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
-        <p><a href="https://www.google.com/analytics/terms">Google Analytics</a></p>
-        <p><a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a></p>
-        <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>
+    <p><a href="https://policies.google.com/privacy">Política de Privacidade do Google (inclui Google Play Services)</a></p>
+    <p><a href="https://policies.google.com/technologies/ads">Uso de dados pelo AdMob</a></p>
+    <p><a href="https://support.google.com/analytics/answer/6004245">Uso de dados pelo Google Analytics</a></p>
+    <p><a href="https://firebase.google.com/terms/crashlytics">Termos do Firebase Crashlytics</a></p>
+    <a href="https://firebase.google.com/support/privacy">Privacidade e Segurança do Firebase (inclui Performance Monitoring)</a>
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Status</string>
@@ -859,7 +868,7 @@
     <string name="shortcut_status">Estado</string>
     <string name="shortcut_heart_rate">Frequência cardíaca</string>
     <string name="shortcut_blood_oxygen">Oxigênio no sangue</string>
-    <string name="shortcut_Sleep">Sono</string>
+    <string name="shortcut_sleep">Sono</string>
     <string name="shortcut_breathing">Breathing</string>
     <string name="shortcut_weather">Meteorologia</string>
     <string name="shortcut_stress">Stress</string>
@@ -956,7 +965,7 @@
 
     <string name="action_chart">Gráfico</string>
     <string name="action_zoom_in">Zoom</string>
-    <string name="action_chart_normalize_minute">Valores medidos</string>
+    <string name="action_chart_normalize_raw_data">Valores medidos</string>
     <string name="action_chart_normalize_quarter_hourly">Valores de 15 em 15 minutos</string>
     <string name="action_chart_normalize_half_hourly">Valores de 30 em 30 minutos</string>
     <string name="action_chart_normalize_hourly">Valores de 1 em 1 hora</string>
@@ -966,8 +975,8 @@
     <string name="action_chart_sort_step_desc">Descender por passos</string>
     <string name="action_chart_sort_duration_asc">Duration ascending</string>
     <string name="action_chart_sort_duration_desc">Duration descending</string>
-    <string name="action_chart_sort_pulse_asc">Ascender por pulsação</string>
-    <string name="action_chart_sort_pulse_desc">Descender por pulsação</string>
+    <string name="action_chart_sort_heart_rate_asc">Ascender por pulsação</string>
+    <string name="action_chart_sort_heart_rate_desc">Descender por pulsação</string>
     <string name="action_chart_sort_spo2_asc">SpO2 ascending</string>
     <string name="action_chart_sort_spo2_desc">SpO2 descending</string>
     <string name="action_chart_sort_pressure_asc">Pressure ascending</string>
@@ -993,7 +1002,7 @@
     <string name="percent_90">90%</string>
     <string name="percent_100">100%</string>
 
-    <!-- Constante -->
+    <!-- Constants -->
     <string name="const_day_of_week_sunday">Domingo</string>
     <string name="const_day_of_week_monday">Segunda-feira</string>
     <string name="const_day_of_week_tuesday">Terça-feira</string>
@@ -1022,28 +1031,19 @@
     <string name="const_unit_dbm">dBm</string>
 
     <plurals name="plural_time_hour">
-        <item quantity="zero">%d horas</item>
         <item quantity="one">%d hora</item>
-        <item quantity="two">%d horas</item>
-        <item quantity="few">%d horas</item>
         <item quantity="many">%d horas</item>
         <item quantity="other">%d horas</item>
     </plurals>
 
     <plurals name="plural_time_minute">
-        <item quantity="zero">%d minutos</item>
         <item quantity="one">%d minuto</item>
-        <item quantity="two">%d minutos</item>
-        <item quantity="few">%d minutos</item>
         <item quantity="many">%d minutos</item>
         <item quantity="other">%d minutos</item>
     </plurals>
 
     <plurals name="plural_time_second">
-        <item quantity="zero">%d segundos</item>
         <item quantity="one">%d segundo</item>
-        <item quantity="two">%d segundos</item>
-        <item quantity="few">%d segundos</item>
         <item quantity="many">%d segundos</item>
         <item quantity="other">%d segundos</item>
     </plurals>

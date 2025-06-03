@@ -1,12 +1,11 @@
 <?xml version="1.0"?>
 
 <resources xmlns:tools="http://schemas.android.com/tools" tools:locale="tr">
-    <string name="menu_nav_home">@string/device_name</string>
     <string name="menu_nav_notification">Bildirimler</string>
     <string name="menu_nav_call">Arama</string>
     <string name="menu_nav_step">Adım sayar</string>
     <string name="menu_nav_sleep">Uyku takibi</string>
-    <string name="menu_nav_pulse">Nabız ölçer</string>
+    <string name="menu_nav_heart_rate">Nabız ölçer</string>
     <string name="menu_nav_blood_oxygen">Kan Oksijen</string>
     <string name="menu_nav_blood_pressure">Tansiyon</string>
     <string name="menu_nav_workout">Egzersiz</string>
@@ -17,26 +16,24 @@
     <string name="menu_nav_weather">Hava Durumu</string>
     <string name="menu_nav_touch">Dokunma ile kontrol</string>
     <string name="menu_nav_more">Daha</string>
-    <string name="menu_nav_text_display">Yazı gösterimi</string>
+    <string name="menu_nav_text_customization">Yazı gösterimi</string>
     <string name="menu_nav_export">Dışarı aktar</string>
     <string name="menu_nav_premium_mode">Premium mod</string>
     <string name="menu_nav_feedback">Önerileriniz</string>
     <string name="menu_nav_privacy_policy">Gizlilik politikası</string>
     <string name="menu_nav_theme">Tema</string>
-<!--    <string name="menu_nav_settings" type="string">@string/settings_name</string>-->
 
     <string name="setting_name">Ayar</string>
     <string name="settings_name">Ayarlar</string>
     <string name="info_name">Bilgi</string>
     <string name="more_name">Daha</string>
 
-<!--    <string name="mi_band_tracker_title">Adım・mesafe・kalori・hedef・nabız</string>-->
-    <string name="main_tracker_title">Adım・hedef</string>
-<!--    <string name="mi_band_battery">Şarj・şarj zamanı・tahmini kalan</string>-->
-    <string name="device_battery">Şarj・şarj süresi</string>
-    <string name="device_state_connected_disconnected_last_time">Son bağlantı ve kopma zamanı</string>
-    <string name="device_alarm">Sonraki alarm</string>
-    <string name="device_reminder">Sonraki hatırlatıcı</string>
+    <string name="main_item_activity_title">Adım・hedef</string>
+    <string name="main_item_battery">Şarj・şarj süresi</string>
+    <string name="main_item_connect_and_disconnect_last_time">Son bağlantı ve kopma zamanı</string>
+    <string name="main_item_next_alarm">Sonraki alarm</string>
+    <string name="main_item_next_reminder">Sonraki hatırlatıcı</string>
+    <string name="main_item_call_and_notification_control">Aramalar ve bildirimler</string>
 
     <string name="device_search">%1$s ara</string> <!-- %1$s = Watch name -->
     <string name="device_setting">%1$s ayarları</string> <!-- %1$s = Watch name -->
@@ -49,14 +46,11 @@
     <string name="device_state_bonded">Eşleştirilmiş cihaz</string>
     <string name="device_state_not_bonded">Eşleştirilmemiş cihaz</string>
 
-    <string name="pref_dnd_title">Rahatsız etmeyin modu</string>
-
     <string name="error_title">Hoop! Birşeyler yanlış gitti</string>
     <string name="error_message">Uygulamayı en son sürüme güncelleyin</string>
 
 
-    <!-- Haylou setting -->
-    <string name="mi_band_setting_button_title">%1$s ayarları・Profil・Gösterim・Arama・Ekran</string>
+    <!-- Watch connection and setting -->
     <string name="mi_band_setting_title">%1$s ayarları</string>
 
     <string name="mi_band_setting_menu_connection">Bağlantı</string>
@@ -79,19 +73,19 @@
 
     <string name="message_auth_request">Eşlendi, doğrulama kodunu bilmiyorsanız, eşleşmeyi kaldırın.</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">Eşleştirme için %1$s düğmesine basın</string> <!-- %1$s = Watch name -->
-    <string name="message_mi_band_setting_auth_success">%1$s eşleşmesi başarılı</string>
-    <string name="message_mi_band_setting_auth_fail">%1$s eşleşmesi başarısız</string>
-    <string name="message_mi_band_setting_auth_key_invalid">Geçersiz doğrulama kodu</string>
+    <string name="message_mi_band_setting_auth_press_band_button">%1$s üzerindeki düğmeye basarak eşleştirin</string>
+    <string name="message_mi_band_setting_auth_success">%1$s başarıyla eşlendi</string>
+    <string name="message_mi_band_setting_auth_fail">%1$s ile eşleşme başarısız</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Geçersiz kimlik doğrulama anahtarı</string>
 
     <string name="pref_disconnect_device">Bağlantıyı kes</string>
 
-    <string name="mi_band_setting_connection_problem_title">In case of connection problem</string>
+    <string name="mi_band_setting_connection_problem_title">Bağlantı sorunu yaşıyorsanız</string>
     <string name="mi_band_setting_connection_problem_hint"><![CDATA[
-    - Unpair the watch in the phone\'s Bluetooth settings
-    <br>- Turn Bluetooth off and on
-    <br>- Force close the Application or restart the phone
-    <br>- Pair your watch again on the main screen
+    - Telefonunuzun Bluetooth ayarlarından saatin eşlemesini kaldırın<br>
+    - Bluetooth\'u kapatıp tekrar açın<br>
+    - Uygulamayı zorla kapatın veya telefonu yeniden başlatın<br>
+    - Ana ekrandan saati tekrar eşleştirmeyi deneyin
     ]]></string>
 
     <string name="mi_band_setting_dial">Kadran </string>
@@ -101,14 +95,14 @@
     <string name="mi_band_setting_screen_on_duration">Görüntüleme süresi</string>
     <string name="mi_band_setting_lift_wrist">Bilgiliyi görüntülemek için bileğinizi kaldırın</string>
     <string name="mi_band_setting_idle_alert">Oturma uyarıları</string>
-    <string name="mi_band_setting_idle_alert_time">Hareketsiz süresi</string>
+    <string name="mi_band_setting_idle_alert_duration">Hareketsiz süresi</string>
     <string name="mi_band_setting_idle_alert_dnd">Dinlenirken, rahatsız etmeyin (12:00-14:00)</string>
 
     <string name="pref_synchronization">Senkronizasyon</string>
     <string name="pref_synchronization_fetch_interval">Senkronizasyon sıklıgı</string>
     <string name="pref_synchronization_summary">Select the data to be automatically synchronised in the background. If you do not need any of the data, turn it off for better performance. Data can still be synchronised manually on the home screen or in the appropriate menus (by sweeping down).</string>
 
-    <string name="mi_band_setting_profile">Bu veri, yakılan kaloriyi, adımları hesaplamak için gerekiyor.</string>
+    <string name="mi_band_setting_profile">Bu bilgiler, adımlarınızı, mesafeyi ve yakılan kalorileri daha doğru hesaplamaya yardımcı olur.</string>
     <string name="mi_band_setting_gender">Cinsiyet</string>
     <string name="mi_band_setting_gender_male">Erkek</string>
     <string name="mi_band_setting_gender_female">Kadın</string>
@@ -123,21 +117,17 @@
      <!-- Battery -->
     <string name="battery_details">Pil detayları</string>
 
-    <string name="mi_band_battery_settings">Pil seviyesi uyarı ayarları</string>
-    <string name="mi_band_battery_notification">Düşük pil seviyesi bildirimi</string>
-    <string name="mi_band_battery_notification_level">Düşük pil seviyesi</string>
-    <string name="mi_band_battery_notification_repeat_interval">Tekrarlama aralığı</string>
-    <string name="mi_band_battery_notification_shade">Telefonda bildir</string>
-    <string name="mi_band_battery_notification_shade_error">Notification display permission is restricted</string>
-    <string name="mi_band_battery_notification_shade_ongoing">Kalıcı bildirim</string>
-    <string name="mi_band_battery_notification_shade_message">Düşük pil seviyesi %1$,d%%</string>
-    <string name="mi_band_battery_notification_mi_band">Bileklikte bildir</string>
-    <string name="mi_band_battery_notification_mi_band_message">Pil: %1$,d%%</string>
+    <string name="battery_settings">Pil seviyesi uyarı ayarları</string>
+    <string name="battery_settings_notification">Düşük pil seviyesi bildirimi</string>
+    <string name="battery_settings_notification_level">Düşük pil seviyesi</string>
+    <string name="battery_settings_notification_repeat_interval">Tekrarlama aralığı</string>
+    <string name="battery_settings_notification_on_phone">Telefonda bildir</string>
+    <string name="battery_settings_notification_on_phone_ongoing">Kalıcı bildirim</string>
+    <string name="battery_settings_notification_on_phone_message">Düşük pil seviyesi %1$,d%%</string>
+    <string name="battery_settings_notification_on_device">Bileklikte bildir</string>
+    <string name="battery_settings_notification_on_device_message">Pil: %1$,d%%</string>
 
-    <!-- PreferenceScreen -->
-    <string name="pref_connected_have_notif_interval_title">Hangi aralıkta hatırlatma bildirimi tekrarlansın</string>
-    <string name="pref_connected_have_notif_interval_summary">Bildirimler/hatırlatıcılar bu zamanlamayı kullanır</string>
-
+    <!-- Preference screens -->
     <string name="pref_battery_phone">Pil</string>
     <string name="pref_battery_phone_summary">Pil seviyesi düşük veya tam dolu bildirimleri</string>
     <string name="pref_cat_battery_phone_low">Düşük pil seviyesi</string>
@@ -256,7 +246,7 @@
     <string name="notification_group_name">Grup İsmi</string>
     <string name="notification_group_monitoring">Telefondaki bildirimleri izle</string>
     <string name="notification_group_monitoring_disabled">Telefondaki bildirimleri izleme kapalı (Telefondaki bildirimler gösterilmez)</string>
-    <string name="notification_group_text">Metin görüntüleme</string>
+    <string name="notification_group_text_customization">Metin görüntüleme</string>
     <string name="notification_group_alert_title">%1$s bildirimi</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
     <string name="notification_group_text_app_name">Uygulama Adı</string>
     <string name="notification_group_text_name">İsim</string>
@@ -264,8 +254,8 @@
     <string name="notification_group_text_content">İçerik</string>
     <string name="notification_group_text_big_content">Tüm içerik</string>
     <string name="notification_group_text_content_slice_title">Metin uzunluğu</string>
-    <string name="notification_group_display_time_title">Görüntüleme süresi</string>
-    <string name="notification_group_display_notification_title">Görüntülenen mesajın başlığı</string>
+    <string name="notification_group_display_duration_title">Görüntüleme süresi</string>
+    <string name="notification_group_show_notification_title">Görüntülenen mesajın başlığı</string>
     <string name="notification_group_immediate">Anında bildirim göster</string>
     <string name="notification_group_connecting">Telefona bağlanıca bildirim göster</string>
     <string name="notification_group_reminder">Hatırlatma bildirimi</string>
@@ -306,33 +296,31 @@
     Lorem Ipsum, masaüstü yayıncılık ve basın yayın sektöründe kullanılan taklit yazı bloğu olarak tanımlanır. Lipsum, oluşturulacak şablon ve taslaklarda içerik yerine geçerek yazı bloğunu doldurmak için kullanılır.
     \n Lipsum, 1500\'lerin başlarında bir matbaacının font model kitabı oluşturmak için, bir yazı tipi kütüphanesindeki harflerin sıralamasını bozarak yerleştirdiğinden bu yana endüstri standardı haline gelmiştir.
     </string>
-    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> simge: bildirimlerin başlığını/içeriğini göstermek için bu simgeyi seçin.]]></string>
 
-    <!-- Call -->
+    <!-- Incoming call alert -->
     <string name="call_tab_call">Gelen çağrı</string>
     <string name="call_tab_contacts">Kişiler</string>
 
-    <string name="pref_cat_call">Gelen arama</string>
-    <string name="pref_call_summary_on">%1$s uygulamasında gelen çağrı uyarılarını kapatmayı unutmayın, yoksa çift bildirim gelir</string> <!-- %1$s = official app name -->
-    <string name="pref_call_text_title">Arayan bilgisini göster</string>
+    <string name="call_incoming">Gelen arama</string>
+    <string name="call_incoming_summary_on">%1$s uygulamasında gelen çağrı uyarılarını kapatmayı unutmayın, yoksa çift bildirim gelir</string> <!-- %1$s = official app name -->
+    <string name="call_incoming_caller_id">Arayan bilgisini göster</string>
 
     <string name="pref_call_notification_rejected">Reddedilmiş çağrılar içim bildirim göster</string>
     <string name="pref_call_notification_rejected_message">Reddedilmiş çağrı</string>
     <string name="pref_call_notification_rejected_action">Ara</string>
 
-    <string name="pref_call_net_text_title">İnternet aramaları bildirimi</string>
+    <string name="call_incoming_net_alert_title">İnternet aramaları bildirimi</string>
 
-    <string name="pref_cat_call_missed">Cevapsız arama</string>
-    <string name="pref_call_missed_title">Cevapsız arama bildirimi</string>
-
-    <string name="pref_call_missed_alert_title">%1$s sinyali</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="call_missed_title">Cevapsız arama bildirimi</string>
+    <string name="call_missed_chooser_title">%1$s sinyali</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="call_missed_notification">Cevapsız arama</string>
 
     <string name="call_reject_button_action">Reddet düğmesi</string>
 
     <string name="touch_call_answer_title">Çağrıyı cevapla</string>
     <string name="touch_call_answer_speakerphone_title">Hoparlör ile</string>
 
-    <string name="touch_call_end_title">Çağrıyı reddet</string>
+    <string name="call_end_title">Çağrıyı reddet</string>
 
     <string name="touch_call_mute_title">Çağrıyı sessize al</string>
     <string name="touch_call_mute_only_call_state_ringing_title">Yalnızca gelen bir aramanız varsa</string>
@@ -355,7 +343,6 @@
     <string name="action_search">Ara</string>
     <string name="action_filter_notification">Bildirim Filtreleri</string>
 
-    <string name="main_control">Kontrol</string>
 
     <!-- Activity -->
     <string name="step_details">Aktivite detayları</string>
@@ -383,10 +370,10 @@
     <string name="sleep_rem">REM</string>
 
 
-    <!-- Pulse -->
-    <string name="pulse_details">Nabız detayları</string>
+    <!-- Heart rate -->
+    <string name="heart_rate_details">Nabız detayları</string>
 
-    <string name="pulse_continuous_title">Sürekli nabız ölçümü</string>
+    <string name="heart_rate_continuous_title">Sürekli nabız ölçümü</string>
 
     <string name="heart_rate_warning_title">Kalp atış hızı uyarısı</string>
     <string name="low_and_high_heart_rates">Kalp atış hızı eşik değerleri</string>
@@ -433,7 +420,7 @@
     <string name="message_reminder_disabled">Hatırlatma pasif</string>
 
     <string name="reminder_repeat">Saatlik tekrar</string>
-    <string name="reminder_notification_shade">Telefonda bildir</string>
+    <string name="reminder_notification_on_phone">Telefonda bildir</string>
 
     <string name="message_time_reminder_free_counter">Ücretsiz modda en fazla 1 hatırlatıcı kullanılabilir</string>
 
@@ -466,7 +453,7 @@
     <string name="watch_face_upload_prepare">Yükleme için hazırlanıyor…</string>
     <string name="watch_face_upload_progress">Yükleniyor %1$,d%%</string>
 
-    <string name="watch_face_invalid_firmware">%1$s yazılımı saat arayüzü değiştirmeyi desteklemiyor, resmi uygulamadan yazılımı güncelleyin.</string> <!-- %1$s = Haylou Smart watch ... -->
+    <string name="watch_face_invalid_firmware">%1$s ürün yazılımı bilinmiyor veya saat yüzü yüklemeyi desteklemiyor. Lütfen resmi uygulamayı kullanarak ürün yazılımını güncelleyin. Resmi uygulama saat yüzü yüklemeyi destekliyorsa, lütfen Geri Bildirim menüsünden bize bildirin.</string>
     <string name="watch_face_invalid_auth">Bağımsız modda kullanın, eğer diğer uygulama ile birlikte kullanırsanız, resmi uygulama bunu engelleyebilir.</string>
     <string name="watch_face_invalid_free">Ücretsiz modda bugün daha fazla kadran yüklenemez</string>
     <string name="watch_face_watch_rewarded_ads">Devam etmek için bir video izle</string>
@@ -546,8 +533,8 @@
     <string name="watch_face_edit_icon">İkon</string>
     <string name="watch_face_edit_image_size">Görüntü boyutu</string>
 
-    <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
-    <string name="watch_face_custom_watch_face_under_development_title">The ability to upload custom watch faces is currently in development and may be available in the future, but it is not yet confirmed</string>
+    <string name="watch_face_custom_watch_face_not_supported_title">Bu saat özel saat yüzü yüklemelerini desteklemiyor</string>
+    <string name="watch_face_custom_watch_face_under_development_title">Özel saat yüzü yükleme özelliği şu anda geliştirme aşamasındadır ve gelecekte kullanılabilir olabilir, ancak bu henüz kesinleşmemiştir.</string>
 
     <!-- Touch monitoring -->
     <string name="touch_tab_function">Fonksiyon</string>
@@ -681,7 +668,7 @@
 
     <string name="weather_forecast_title">Hava Durumu Tahmini</string>
 
-    <string name="weather_setting_provider">Hava durumu sağlayıcı</string>
+    <string name="weather_setting_provider">Hava durumu sağlayıcısı</string>
     <string name="weather_city_title">Şehir</string>
     <string name="weather_unit_title">Birim</string>
     <string name="weather_unit_metric">Metrik sistem (Celsius)</string>
@@ -699,8 +686,6 @@
     <string name="weather_current_location">Şuanki konum</string>
     <string name="weather_current_temperature">Mevcut sıcaklık</string>
 
-    <string name="weather_display">Görüntüle</string>
-
     <string name="weather_precipitation_rain">Yağmurlu</string>
     <string name="weather_precipitation_snow">Kar Yağışlı</string>
     <string name="weather_cloud_cover_abbreviation">Parçalı Bulutlu</string>
@@ -713,7 +698,9 @@
     <string name="weather_west">B</string>
 
 
-    <!-- Text display -->
+    <!-- Text customization -->
+    <string name="pref_text_reminder_repeat_interval_title">Hangi aralıkta hatırlatma bildirimi tekrarlansın</string>
+    <string name="pref_text_reminder_repeat_interval_summary">Bildirimler/hatırlatıcılar bu zamanlamayı kullanır</string>
     <string name="pref_text_emoticon_title">Emoji dönüştürme</string>
     <string name="pref_text_emoticon_summary_on">Emojiyi emotikona dönüştür</string>
     <string name="pref_text_uppercase_title">Büyük harf dönüşümü</string>
@@ -752,37 +739,41 @@
 
 
     <!-- Premium mode -->
-    <string name="purchase_advantage_title">Premium avantajları</string>
+    <string name="purchase_advantage_title">Premium modun avantajları</string>
     <string name="purchase_advantage"><![CDATA[
-        <p>• uygulama geliştirmede finansal destek</p>
-        <p>• reklamsız</p>
-        <p>• sınırsız bildirim ayarları</p>
-        <p>• sınırsız arama ayarları</p>
-        <p>• sınırsız alarm sayısı (alarm sayısı saat tarafından sınırlıdır)</p>
-        <p>• sınırsız rahatsız etme modu</p>
-        <p>• daha sık hava durumu güncellemesi, yer bilgisi otomatik güncellemesi, AccuWeather sağlayıcısı seçilebilmesi</p>
-        <p>• sınırsız dokunma modu</p>
-        <p>• daha detaylı günlük grafikler</p>
-        • removing other restrictions…
+    <p>• geliştirme sürecine maddi destek</p>
+    <p>• reklamsız kullanım</p>
+    <p>• sınırsız bildirim ayarları</p>
+    <p>• sınırsız arama ayarları</p>
+    <p>• günlük sınırsız saat yüzü yükleme</p>
+    <p>• sınırsız alarm sayısı (saat tarafından sınırlandırılabilir)</p>
+    <p>• sınırsız Rahatsız Etmeyin modu</p>
+    <p>• sınırsız dokunmatik ayar</p>
+    <p>• daha sık hava durumu güncellemeleri, otomatik konum güncellemesi, AccuWeather seçeneği</p>
+    <p>• ayrıntılı günlük grafikler</p>
+    • diğer tüm özellik kısıtlamalarının kaldırılması…
     ]]></string>
-    <string name="purchase_policy_title">Premium modu şartları ve koşulları</string>
+
+    <string name="purchase_policy_title">Premium modun kullanım koşulları</string>
     <string name="purchase_policy"><![CDATA[
-    <p>• Uygulamayı test ettim ve düzgün çalışıyor.</p>
-    <p>• Yazılım veya donanım ortamındaki değişiklikler veya diğer uygulamaların kullanımı nedeniyle oluşan hatalar veya yazılım hataları nedeniyle tazminat veya geri ödeme talep edemeyeceğimin farkındayım.</p>
-    <p>• Tüm satışlar kesindir ve geri ödeme yapılamaz (Google\'ın geri ödeme politikası hariç).</p>
-    <p>• Herhangi bir garanti verilmemektedir.</p>
-    <p>• Bu uygulama kendi sorumluluğunuzda kullanılmaktadır ve geliştirici, kullanımından kaynaklanan doğrudan veya dolaylı zararlar veya veri kaybı dahil olmak üzere tüm ek garantileri hariç tutar.</p>
-    <i>Satın aldıktan sonra uygulamayı yeniden başlatmanız gerekir.</i>
+    <p>• Uygulamayı test ettim ve beklendiği gibi çalıştığını gördüm.</p>
+    <p>• Sistem değişiklikleri (örneğin Android sürüm güncellemeleri), donanım sorunları veya diğer uygulamalarla yaşanabilecek uyumsuzluklardan kaynaklanan sorunlar için iade veya tazminat talep edemeyeceğimi anlıyorum.</p>
+    <p>• Tüm satın alımlar kesindir ve iade edilemez (yalnızca Google\'ın iade politikası kapsamında izin verilen durumlar hariç).</p>
+    <p>• Bu uygulama, açık veya zımni herhangi bir garanti olmaksızın sunulmaktadır.</p>
+    <p>• Uygulamanın kullanımı tamamen kullanıcı sorumluluğundadır. Kullanım sonucu oluşabilecek doğrudan ya da dolaylı zararlardan veya veri kayıplarından geliştirici sorumlu tutulamaz.</p>
+    <p>• Premium mod Google hesabınıza bağlıdır ve uygulama yeniden yüklendikten sonra da aktif kalır.</p>
+    <i>Satın alma işleminden sonra uygulamayı yeniden başlatmanız gerekir.</i>
     ]]></string>
+
 
     <string name="purchase_google_play_services_not_available">Google Play Services mevcut değil</string>
 
-    <!--<string name="purchase_price">Fiyat:</string>-->
     <string name="purchase_agree">Hükümler ve koşulları onaylıyorum.</string>
     <string name="purchase_order_id">Sipariş Numarası:</string>
     <string name="purchase_order_id_help">Adresinden satın al:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+
     <string name="purchase_info">Bir kerelik ücret ・ %1$s</string> <!-- %1$s = price</string>-->
     <string name="purchase_button_purchase">Satın Al</string>
 
@@ -803,39 +794,56 @@
 
     <string name="privacy_policy_collect_title">Topladığımız bilgiler</string>
     <string name="privacy_policy_collect"><![CDATA[
-        <p>• Sadece anonim bilgileri topluyoruz.</p>
-        <p>• Uygulama düzeyinde, kullandığınız hizmetler ve bunları nasıl kullandığınız hakkında bilgi toplarız (Google Analytics).</p>
-        <p>• Uygulama düzeyinde, iyileştirmeler sağlamak için hatalar, hatalar ve çökmeler gibi uygulama düzeyinde bilgi toplarız (Firebase Crashlytics).</p>
-        <p>• We collect information at the application level about the performance (Firebase Performance Monitoring).</p>
-        <p>• Google Firebase Platformu, isimsiz olarak bilgi toplar. Bireysel kullanıcıları tanımlamaksızın eğilimleri rapor eder.
-        The Firebase Platform collects data such as Firebase installation ID, application state, relevant device metadata (device model, CPU architecture, RAM and disk size, OS, screen orientation, country, locale/language), stack traces, performance metrics (including app start time and network request latency, network URLs), CPU/memory usage, IP address …
-        </p>
-        • We collect location data to update the weather based on your current location (optional).
+    <p>• Yalnızca anonim bilgiler toplarız.</p>
+    <p>• Uygulama düzeyinde, hangi hizmetleri kullandığınız ve bunları nasıl kullandığınız hakkında bilgi toplarız (Google Analytics).</p>
+    <p>• Hatalar, çökmeler ve uygulama sorunlarıyla ilgili bilgileri performansı iyileştirmek için toplarız (Firebase Crashlytics).</p>
+    <p>• Uygulamanın performansı ile ilgili verileri toplarız (Firebase Performance Monitoring).</p>
+    <p>• Google Firebase Platformu, bilgileri anonim olarak toplar. Bireyleri tanımlamadan eğilimleri raporlar.
+    Toplanan veriler; Firebase kurulum kimliği, uygulama durumu, cihazla ilgili meta veriler (cihaz modeli, CPU mimarisi, RAM ve depolama boyutu, işletim sistemi, ekran yönü, ülke, dil/bölge), hata günlükleri (stack trace), performans metrikleri (ör. uygulama başlatma süresi, ağ gecikmeleri, URL\'ler), CPU/bellek kullanımı ve yaklaşık IP adresini içerebilir…</p>
+    <p>• Mevcut konumunuza göre hava durumu bilgilerini güncellemek için konum verilerini toplarız (isteğe bağlı).</p>
+    • Bu verilerin toplanması ve işlenmesinin yasal dayanağı, uygulamanın işlevselliğini ve performansını iyileştirme, ayrıca kararlılığını ve kullanılabilirliğini sürdürme konusundaki meşru menfaatimizdir.
     ]]></string>
 
-    <string name="privacy_policy_not_collect_title">Toplamadığımız Bilgiler</string>
+    <string name="privacy_policy_cookies_title">Çerezler ve benzeri teknolojiler</string>
+    <string name="privacy_policy_cookies"><![CDATA[
+    • AdMob gibi bazı üçüncü taraf hizmetler, kişiselleştirilmiş reklamlar göstermek için çerezler veya benzeri teknolojiler kullanabilir. Google hesabı ayarlarından reklam kişiselleştirmesini yönetebilirsiniz.
+    ]]></string>
+
+    <string name="privacy_policy_retention_title">Veri saklama süresi</string>
+    <string name="privacy_policy_retention"><![CDATA[
+    • Toplanan veriler, Google Firebase tarafından kendi politikalarına uygun şekilde ve yalnızca analiz, tanılama ve performans iyileştirme amacıyla gerekli olduğu süre boyunca saklanır.
+    ]]></string>
+
+    <string name="privacy_policy_not_collect_title">Toplamadığımız bilgiler</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-    <p>• Sizi tanımlayabilecek kişisel bilgileri toplamıyoruz. Bu, örneğin adınız, adresiniz, telefon numaranız, e-posta adresiniz veya MAC adresiniz gibi kişisel verileri toplamadığımız anlamına gelir.</p>
-    • Kişisel sağlık verileri, kişiler veya telefon bildirimlerinin içeriğini toplamıyoruz.
+    <p>• Kimliğinizi tanımlayabilecek herhangi bir kişisel bilgi toplamıyoruz. Bu, adınız, adresiniz, telefon numaranız, e-posta adresiniz veya MAC adresiniz gibi verileri toplamadığımız anlamına gelir.</p>
+    • Sağlık verileri, kişi bilgileri veya cihazınızda görüntülenen bildirim içeriklerini toplamıyoruz.
     ]]></string>
 
-    <string name="privacy_policy_share_title">Paylaştığımız Bilgiler</string>
+    <string name="privacy_policy_share_title">Paylaştığımız bilgiler</string>
     <string name="privacy_policy_share"><![CDATA[
-    • Google ve reklam sağlayıcıları dışında hiçbir şirket veya kuruluşla veri paylaşmıyoruz.
+    • Verileri yalnızca Google ve reklam sağlayıcılar dışında hiçbir şirket veya kuruluşla paylaşmıyoruz.
     ]]></string>
 
-    <string name="privacy_policy_use_title">Kullandığımız Kişisel ve Hassas Kullanıcı Verileri</string>
+    <string name="privacy_policy_use_title">Kullandığımız kişisel ve hassas veriler</string>
     <string name="privacy_policy_use"><![CDATA[
-    • Konum verilerini yalnızca hava durumu bilgisini güncellemek için ve yalnızca bu özelliği etkinleştirirseniz kullanıyoruz.
+    • Konum verilerini yalnızca hava durumu bilgisini güncellemek için ve sadece bu özelliği etkinleştirirseniz kullanırız.
     ]]></string>
 
-    <string name="privacy_policy_links_title">Üçüncü Taraf Hizmet Sağlayıcılarının Gizlilik Politikası</string>
+    <string name="privacy_policy_rights_title">Haklarınız</string>
+    <string name="privacy_policy_rights"><![CDATA[
+    <p>• Toplanan analiz, çökme ve performans verileri tamamen anonimdir ve herhangi bir bireyin kimliğini belirlemek için kullanılamaz. Bu nedenle, geçerli veri koruma yasaları (ör. GDPR) kapsamında kişisel veri olarak değerlendirilmez ve erişim, düzeltme veya silme haklarına tabi değildir.</p>
+    <p>• Verilerin toplanmasını, uygulamayı kaldırarak veya Google hesabı veya cihaz ayarlarından gizlilik tercihlerinizi değiştirerek devre dışı bırakabilirsiniz.</p>
+    • Verilerin kullanımı veya gizlilik haklarınız hakkında sorularınız varsa, uygulamanın destek kanalları üzerinden bizimle iletişime geçebilirsiniz.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">Üçüncü taraf hizmet sağlayıcıların gizlilik politikaları</string>
     <string name="privacy_policy_links"><![CDATA[
-        <a href="https://policies.google.com/privacy">Google Play Services</a>
-        <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
-        <p><a href="https://www.google.com/analytics/terms">Google Analytics</a></p>
-        <p><a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a></p>
-        <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>
+    <p><a href="https://policies.google.com/privacy">Google Gizlilik Politikası (Google Play Hizmetleri dahil)</a></p>
+    <p><a href="https://policies.google.com/technologies/ads">AdMob veri kullanımı</a></p>
+    <p><a href="https://support.google.com/analytics/answer/6004245">Google Analytics veri kullanımı</a></p>
+    <p><a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics Şartları</a></p>
+    <a href="https://firebase.google.com/support/privacy">Firebase Gizlilik ve Güvenlik (Performance Monitoring dahil)</a>
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Durum</string>
@@ -859,7 +867,7 @@
     <string name="shortcut_status">Durum</string>
     <string name="shortcut_heart_rate">Nabız</string>
     <string name="shortcut_blood_oxygen">Kan Oksijen</string>
-    <string name="shortcut_Sleep">Uyku takibi</string>
+    <string name="shortcut_sleep">Uyku takibi</string>
     <string name="shortcut_breathing">Breathing</string>
     <string name="shortcut_weather">Hava</string>
     <string name="shortcut_stress">Stress</string>
@@ -956,7 +964,7 @@
 
     <string name="action_chart">Grafik</string>
     <string name="action_zoom_in">Yakınlaştır</string>
-    <string name="action_chart_normalize_minute">Anlık değerler</string>
+    <string name="action_chart_normalize_raw_data">Anlık değerler</string>
     <string name="action_chart_normalize_quarter_hourly">Çeyrek saatlik değerler</string>
     <string name="action_chart_normalize_half_hourly">Yarım saatlik değerler</string>
     <string name="action_chart_normalize_hourly">Saatlik ortalama</string>
@@ -966,8 +974,8 @@
     <string name="action_chart_sort_step_desc">Azalan adım</string>
     <string name="action_chart_sort_duration_asc">Duration ascending</string>
     <string name="action_chart_sort_duration_desc">Duration descending</string>
-    <string name="action_chart_sort_pulse_asc">Artan nabız</string>
-    <string name="action_chart_sort_pulse_desc">Azalan nabız</string>
+    <string name="action_chart_sort_heart_rate_asc">Artan nabız</string>
+    <string name="action_chart_sort_heart_rate_desc">Azalan nabız</string>
     <string name="action_chart_sort_spo2_asc">SpO2 ascending</string>
     <string name="action_chart_sort_spo2_desc">SpO2 descending</string>
     <string name="action_chart_sort_pressure_asc">Pressure ascending</string>
@@ -993,7 +1001,7 @@
     <string name="percent_90">90%</string>
     <string name="percent_100">100%</string>
 
-    <!-- Constante -->
+    <!-- Constants -->
     <string name="const_day_of_week_sunday">Pazar</string>
     <string name="const_day_of_week_monday">Pazartesi</string>
     <string name="const_day_of_week_tuesday">Salı</string>
@@ -1022,29 +1030,17 @@
     <string name="const_unit_dbm">dBm</string>
 
     <plurals name="plural_time_hour">
-        <item quantity="zero">%d saat</item>
         <item quantity="one">%d saat</item>
-        <item quantity="two">%d saat</item>
-        <item quantity="few">%d saat</item>
-        <item quantity="many">%d saat</item>
         <item quantity="other">%d saat</item>
     </plurals>
 
     <plurals name="plural_time_minute">
-        <item quantity="zero">%d dakika</item>
         <item quantity="one">%d dakika</item>
-        <item quantity="two">%d dakika</item>
-        <item quantity="few">%d dakika</item>
-        <item quantity="many">%d dakika</item>
         <item quantity="other">%d dakika</item>
     </plurals>
 
     <plurals name="plural_time_second">
-        <item quantity="zero">%d saniye</item>
         <item quantity="one">%d saniye</item>
-        <item quantity="two">%d saniye</item>
-        <item quantity="few">%d saniye</item>
-        <item quantity="many">%d saniye</item>
         <item quantity="other">%d saniye</item>
     </plurals>
 </resources>

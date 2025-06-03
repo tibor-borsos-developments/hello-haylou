@@ -1,62 +1,57 @@
 <?xml version="1.0"?>
 
 <resources xmlns:tools="http://schemas.android.com/tools" tools:locale="in">
-    <string name="menu_nav_home">@string/device_name</string>
-    <string name="menu_nav_notification">Notificación</string>
+    <string name="menu_nav_notification">Notifikasi</string>
     <string name="menu_nav_call">Panggilan</string>
-    <string name="menu_nav_step">Pemantau aktifitas</string>
+    <string name="menu_nav_step">Aktivitas</string>
     <string name="menu_nav_sleep">Tidur</string>
-    <string name="menu_nav_pulse">Pemantau detak</string>
-    <string name="menu_nav_blood_oxygen">Oksigen Darah</string>
+    <string name="menu_nav_heart_rate">Detak jantung</string>
+    <string name="menu_nav_blood_oxygen">Oksigen darah</string>
     <string name="menu_nav_blood_pressure">Tekanan darah</string>
-    <string name="menu_nav_workout">Bekerja</string>
+    <string name="menu_nav_workout">Latihan</string>
     <string name="menu_nav_alarm">Alarm</string>
     <string name="menu_nav_reminder">Pengingat acara</string>
     <string name="menu_nav_dnd">Mode jangan ganggu</string>
-    <string name="menu_nav_watch_face">Watch face</string>
+    <string name="menu_nav_watch_face">Tampilan jam</string>
     <string name="menu_nav_weather">Cuaca</string>
-    <string name="menu_nav_touch">Pemantau sentuhan</string>
-    <string name="menu_nav_more">Lebih</string>
-    <string name="menu_nav_text_display">Text display</string>
+    <string name="menu_nav_touch">Kontrol sentuhan</string>
+    <string name="menu_nav_more">Lainnya</string>
+    <string name="menu_nav_text_customization">Kustomisasi teks</string>
     <string name="menu_nav_export">Ekspor</string>
     <string name="menu_nav_premium_mode">Mode premium</string>
     <string name="menu_nav_feedback">Umpan balik</string>
-    <string name="menu_nav_privacy_policy">Kebijakan Privasi</string>
+    <string name="menu_nav_privacy_policy">Kebijakan privasi</string>
     <string name="menu_nav_theme">Tema</string>
-<!--    <string name="menu_nav_settings" type="string">@string/settings_name</string>-->
 
-    <string name="setting_name">Atur</string>
+    <string name="setting_name">Pengaturan</string>
     <string name="settings_name">Pengaturan</string>
     <string name="info_name">Informasi</string>
-    <string name="more_name">Lebih</string>
+    <string name="more_name">Lainnya</string>
 
-<!--    <string name="mi_band_tracker_title">Langkah・jarak・kalori・tujuan・detak</string>-->
-    <string name="main_tracker_title">Langkah・tujuan</string>
-<!--    <string name="mi_band_battery">Battery level・last charging time・estimated remaining time</string>-->
-    <string name="device_battery">Tingkat baterai・waktu pengisian terakhir</string>
-    <string name="device_state_connected_disconnected_last_time">Last connection and disconnection time</string>
-    <string name="device_alarm">Next alarm</string>
-    <string name="device_reminder">Pengingat berikutnya</string>
+    <string name="main_item_activity_title">Langkah・tujuan</string>
+    <string name="main_item_battery">Baterai・waktu pengisian terakhir</string>
+    <string name="main_item_connect_and_disconnect_last_time">Waktu koneksi dan pemutusan terakhir</string>
+    <string name="main_item_next_alarm">Alarm berikutnya</string>
+    <string name="main_item_next_reminder">Pengingat berikutnya</string>
+    <string name="main_item_call_and_notification_control">Panggilan dan notifikasi</string>
 
-    <string name="device_search">%1$s search</string> <!-- %1$s = Watch name -->
-    <string name="device_setting">Pengaturan %1$s</string> <!-- %1$s = Watch name -->
+    <!-- Pairing Bluetooth device -->
+    <string name="device_search">Cari %1$s</string> <!-- %1$s = Nama jam -->
+    <string name="device_setting">Pengaturan %1$s</string>
 
     <string name="device_mac_address">Alamat MAC</string>
     <string name="device_mac_address_invalid">Alamat MAC tidak valid</string>
 
-    <string name="device_state_connected">Tersambung</string>
+    <string name="device_state_connected">Terhubung</string>
     <string name="device_state_disconnected">Terputus</string>
-    <string name="device_state_bonded">Perangkat tersambung</string>
-    <string name="device_state_not_bonded">Perangkat tidak tersambung</string>
+    <string name="device_state_bonded">Sudah dipasangkan</string>
+    <string name="device_state_not_bonded">Belum dipasangkan</string>
 
-    <string name="pref_dnd_title">Mode jangan ganggu</string>
-
-    <string name="error_title">Ups! Ada yang tidak beres</string>
-    <string name="error_message">Perbarui aplikasi ke versi terbaru</string>
+    <string name="error_title">Ups! Ada masalah</string>
+    <string name="error_message">Silakan perbarui aplikasi ke versi terbaru</string>
 
 
-    <!-- Haylou setting -->
-    <string name="mi_band_setting_button_title">Pengaturan %1$s・Profil・Teks・Panggilan・Menu</string>
+    <!-- Watch connection and setting -->
     <string name="mi_band_setting_title">Pengaturan %1$s</string>
 
     <string name="mi_band_setting_menu_connection">Koneksi</string>
@@ -65,92 +60,87 @@
     <string name="mi_band_setting_menu_text">Teks</string>
     <string name="mi_band_setting_menu_call">Panggilan</string>
 
-    <string name="mi_band_setting_auth_mi_fit">%1$s cooperation</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">%3$s membutuhkan aplikasi %1$s yang telah terpasang di perangkat yang sama. Pertama tama, mungkin anda perlu untuk menghubungkan %2$s ke Aplikasi %1$s, lalu anda baru bisa memakai %3$s. If you want to use %1$s, choose this.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
-    <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the %3$s to work. After the pairing, uninstall the %1$s app or unpair the smartwatch. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
-    <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
+    <string name="mi_band_setting_auth_mi_fit">Terhubung dengan %1$s</string> <!-- Haylou Fit -->
+    <string name="mi_band_setting_auth_mi_fit_hint">%3$s memerlukan aplikasi %1$s terinstal di ponsel ini. Pertama, pasangkan %2$s di aplikasi %1$s, lalu Anda bisa menggunakan %3$s. Pilih ini jika ingin memakai aplikasi %1$s.</string>
+    <string name="mi_band_setting_auth_standalone">Mandiri</string>
+    <string name="mi_band_setting_auth_standalone_hint">%3$s tidak memerlukan aplikasi %1$s untuk berjalan. Setelah dipasangkan, Anda bisa mencopot aplikasi %1$s atau melepaskan pasangan jam. Jika ingin menghubungkan kembali dengan %1$s, pasangkan ulang %2$s melalui aplikasinya. Melepaskan pasangan akan menghapus semua data dari jam. Pastikan layar %2$s menyala saat pemasangan.</string>
+    <string name="mi_band_standalone_sync_error">Sinkronisasi tidak bisa dilakukan dalam mode terhubung, karena akan menghapus data dari jam dan bisa menampilkan data yang tidak akurat di kedua aplikasi.</string>
 
-    <string name="mi_band_setting_auth_key">Kunci autentikasi</string>
-    <string name="mi_band_setting_auth_key_help">Masukkan angka 4 digit apa saja</string>
-    <string name="mi_band_setting_auth_request">Minta kunci</string>
+    <string name="mi_band_setting_auth_key">Kode autentikasi</string>
+    <string name="mi_band_setting_auth_key_help">Masukkan 4 digit angka</string>
+    <string name="mi_band_setting_auth_request">Minta kode</string>
     <string name="mi_band_setting_auth_pair">Pasangkan</string>
     <string name="mi_band_setting_auth_unpair">Lepaskan</string>
 
-    <string name="message_auth_request">It is paired, if you do not know the key, use the unpair</string>
+    <string name="message_auth_request">Perangkat ini sudah terpasang. Jika Anda tidak tahu kodenya, silakan lepaskan dulu.</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Watch name -->
-    <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
-    <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
-    <string name="message_mi_band_setting_auth_key_invalid">Invalid authentication key</string>
+    <string name="message_mi_band_setting_auth_press_band_button">Tekan tombol di %1$s untuk mulai memasangkan</string>
+    <string name="message_mi_band_setting_auth_success">%1$s berhasil dipasangkan</string>
+    <string name="message_mi_band_setting_auth_fail">Gagal memasangkan %1$s</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Kode autentikasi tidak valid</string>
 
-    <string name="pref_disconnect_device">Pemutusan</string>
+    <string name="pref_disconnect_device">Putuskan koneksi</string>
 
-    <string name="mi_band_setting_connection_problem_title">In case of connection problem</string>
+    <string name="mi_band_setting_connection_problem_title">Kesulitan menghubungkan perangkat?</string>
     <string name="mi_band_setting_connection_problem_hint"><![CDATA[
-    - Unpair the watch in the phone\'s Bluetooth settings
-    <br>- Turn Bluetooth off and on
-    <br>- Force close the Application or restart the phone
-    <br>- Pair your watch again on the main screen
+    - Lepaskan pasangan jam dari pengaturan Bluetooth ponsel<br>
+    - Matikan lalu nyalakan kembali Bluetooth<br>
+    - Tutup paksa aplikasi atau restart ponsel<br>
+    - Coba pasangkan ulang dari layar utama
     ]]></string>
 
-    <string name="mi_band_setting_dial">Dial</string>
+    <string name="mi_band_setting_dial">Tampilan jam</string>
     <string name="mi_band_setting_language">Bahasa</string>
-    <string name="mi_band_setting_time_24h">Format waktu 24 jam</string>
-    <string name="mi_band_setting_distance_unit">Setel satuan untuk jarak</string>
-    <string name="mi_band_setting_lift_wrist">Angkat lengan untuk melihat info</string>
-    <string name="mi_band_setting_screen_on_duration">Screen on duration</string>
-    <string name="mi_band_setting_idle_alert">Peringatan diam</string>
-    <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
-    <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest (12:00-14:00)</string>
+    <string name="mi_band_setting_time_24h">Format 24 jam</string>
+    <string name="mi_band_setting_distance_unit">Satuan jarak</string>
+    <string name="mi_band_setting_screen_on_duration">Durasi layar aktif</string>
+    <string name="mi_band_setting_lift_wrist">Layar menyala saat pergelangan diangkat</string>
+    <string name="mi_band_setting_idle_alert">Pengingat duduk terlalu lama</string>
+    <string name="mi_band_setting_idle_alert_duration">Durasi tidak aktif</string>
+    <string name="mi_band_setting_idle_alert_dnd">Jangan ganggu saat istirahat (12:00–14:00)</string>
 
-    <string name="pref_synchronization">Synchronization</string>
-    <string name="pref_synchronization_fetch_interval">Synchronization frequency</string>
-    <string name="pref_synchronization_summary">Select the data to be automatically synchronised in the background. If you do not need any of the data, turn it off for better performance. Data can still be synchronised manually on the home screen or in the appropriate menus (by sweeping down).</string>
+    <string name="pref_synchronization">Sinkronisasi</string>
+    <string name="pref_synchronization_fetch_interval">Frekuensi sinkronisasi</string>
+    <string name="pref_synchronization_summary">Pilih data yang ingin disinkronkan otomatis di latar belakang. Matikan data yang tidak diperlukan untuk performa lebih baik. Anda tetap bisa menyinkronkan data secara manual dari layar utama atau menu (usap ke bawah).</string>
 
-    <string name="mi_band_setting_profile">This data is needed to correctly calculate the number of steps, distance, and burned calories.</string>
+    <string name="mi_band_setting_profile">Data ini membantu menghitung langkah, jarak, dan kalori dengan lebih akurat.</string>
     <string name="mi_band_setting_gender">Jenis kelamin</string>
     <string name="mi_band_setting_gender_male">Pria</string>
     <string name="mi_band_setting_gender_female">Wanita</string>
     <string name="mi_band_setting_birthday">Tanggal lahir</string>
-    <string name="mi_band_setting_height">Tinggi</string>
-    <string name="mi_band_setting_weight">Berat</string>
-    <string name="mi_band_setting_wearing_place">Lokasi pemakaian</string>
+    <string name="mi_band_setting_height">Tinggi badan</string>
+    <string name="mi_band_setting_weight">Berat badan</string>
+    <string name="mi_band_setting_wearing_place">Letak pemakaian</string>
     <string name="mi_band_setting_wearing_place_left_wrist">Tangan kiri</string>
     <string name="mi_band_setting_wearing_place_right_wrist">Tangan kanan</string>
 
-
     <!-- Battery -->
-    <string name="battery_details">Battery usage</string>
+    <string name="battery_details">Penggunaan baterai</string>
 
-    <string name="mi_band_battery_settings">Pengaturan baterau</string>
-    <string name="mi_band_battery_notification">Low battery level notification</string>
-    <string name="mi_band_battery_notification_level">Low battery level</string>
-    <string name="mi_band_battery_notification_repeat_interval">Repeat interval</string>
-    <string name="mi_band_battery_notification_shade">Notify me on the phone</string>
-    <string name="mi_band_battery_notification_shade_error">Notification display permission is restricted</string>
-    <string name="mi_band_battery_notification_shade_ongoing">Persistent (ongoing) notification</string>
-    <string name="mi_band_battery_notification_shade_message">Level baterai lemah %1$,d%%</string>
-    <string name="mi_band_battery_notification_mi_band">Notify me on the smartwatch</string>
-    <string name="mi_band_battery_notification_mi_band_message">Battery: %1$,d%%</string>
+    <string name="battery_settings">Pengaturan baterai</string>
+    <string name="battery_settings_notification">Peringatan baterai lemah</string>
+    <string name="battery_settings_notification_level">Ambang batas baterai</string>
+    <string name="battery_settings_notification_repeat_interval">Interval pengulangan</string>
+    <string name="battery_settings_notification_on_phone">Notifikasi di ponsel</string>
+    <string name="battery_settings_notification_on_phone_ongoing">Notifikasi berkelanjutan</string>
+    <string name="battery_settings_notification_on_phone_message">Baterai lemah: %1$,d%%</string>
+    <string name="battery_settings_notification_on_device">Notifikasi di jam tangan</string>
+    <string name="battery_settings_notification_on_device_message">Baterai: %1$,d%%</string>
 
-    <!-- PreferenceScreen -->
-    <string name="pref_connected_have_notif_interval_title">Jeda pengulangan pengingat</string>
-    <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
+    <!-- Preference screens -->
+    <string name="pref_battery_phone">Baterai ponsel</string>
+    <string name="pref_battery_phone_summary">Peringatan baterai lemah dan penuh</string>
+    <string name="pref_cat_battery_phone_low">Baterai lemah</string>
+    <string name="pref_battery_phone_low_title">Peringatan baterai lemah</string>
+    <string name="pref_battery_phone_low_level_title">Ambang batas level baterai</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">Interval pengulangan</string>
+    <string name="pref_cat_battery_phone_full">Baterai penuh</string>
+    <string name="pref_battery_phone_full_title">Peringatan baterai penuh</string>
+    <string name="pref_battery_phone_full_plugged_ac">Sumber daya dari pengisi AC</string>
+    <string name="pref_battery_phone_full_plugged_usb">Sumber daya dari port USB</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Sumber daya nirkabel</string>
 
-    <string name="pref_battery_phone">Phone battery</string>
-    <string name="pref_battery_phone_summary">Low and full battery level notifications</string>
-    <string name="pref_cat_battery_phone_low">Low battery level</string>
-    <string name="pref_battery_phone_low_title">Low battery indicator</string>
-    <string name="pref_battery_phone_low_level_title">Battery level threshold</string>
-    <string name="pref_battery_phone_low_repeat_interval_title">Repeat interval</string>
-    <string name="pref_cat_battery_phone_full">Full battery level</string>
-    <string name="pref_battery_phone_full_title">Full battery indicator</string>
-    <string name="pref_battery_phone_full_plugged_ac">AC charger power source</string>
-    <string name="pref_battery_phone_full_plugged_usb">USB port power source</string>
-    <string name="pref_battery_phone_full_plugged_wireless">Wireless power source</string>
-
-    <string name="pref_battery_phone_message">Phone battery:\n %1$,d%%</string>
+    <string name="pref_battery_phone_message">Baterai ponsel:\n %1$,d%%</string>
 
     <string name="pref_language">Bahasa</string>
     <string name="pref_cat_language">Aplikasi</string>
@@ -161,182 +151,175 @@
     <string name="pref_menu_item_2">Item menu kedua</string>
     <string name="pref_menu_item_3">Item menu ketiga</string>
 
-    <string name="pref_diagnostic">Diagnosa</string>
-    <string name="pref_cat_diagnostic_closing_protection">Proteksi dari penutupan</string>
-    <string name="pref_diagnostic_battery_optimisation">Optimisasi baterai mati</string>
-    <string name="pref_diagnostic_companion_device">Pasangan perangkat pendamping</string>
-    <string name="pref_diagnostic_bluetooth_pairing">Bluetooth pairing</string>
-    <string name="pref_diagnostic_autostart">Autostart</string>
-    <string name="pref_diagnostic_autostart_summary">Enable the application to restart automatically in the phone\'s Auto-start manager</string>
-    <string name="pref_diagnostic_info">Informasi lebih lanjut</string>
+    <string name="pref_diagnostic">Diagnostik</string>
+    <string name="pref_cat_diagnostic_closing_protection">Perlindungan dari penutupan</string>
+    <string name="pref_diagnostic_battery_optimisation">Nonaktifkan optimasi baterai</string>
+    <string name="pref_diagnostic_companion_device">Pasangkan perangkat pendamping</string>
+    <string name="pref_diagnostic_bluetooth_pairing">Pasangkan Bluetooth</string>
+    <string name="pref_diagnostic_autostart">Mulai otomatis</string>
+    <string name="pref_diagnostic_autostart_summary">Izinkan aplikasi untuk memulai otomatis saat ponsel dinyalakan</string>
+    <string name="pref_diagnostic_info">Info selengkapnya</string>
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
 
     <string name="pref_cat_diagnostic_permissions">Izin</string>
     <string name="pref_diagnostic_permission_allow_notification_access_settings">Izinkan akses notifikasi</string>
-    <string name="pref_diagnostic_permission_schedule_exact_alarm">Jadwalkan alarm tepat waktu</string>
-    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Izin tambahan diperlukan untuk menjadwalkan tugas pada waktu yang tepat.</string>
-    <string name="pref_diagnostic_permission_post_notifications">Kirim notifikasi</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">Penjadwalan alarm presisi</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Izin tambahan diperlukan untuk menjadwalkan alarm secara tepat waktu.</string>
+    <string name="pref_diagnostic_permission_post_notifications">Tampilkan notifikasi</string>
     <string name="pref_diagnostic_permission_post_notifications_summary">Izin tambahan diperlukan untuk menampilkan notifikasi</string>
-    <string name="pref_diagnostic_permission_access_notification_policy">Akses Jangan Ganggu</string>
-
+    <string name="pref_diagnostic_permission_access_notification_policy">Akses ke mode jangan ganggu</string>
 
     <!-- Snackbar Messages -->
-    <string name="message_enable_bluetooth">Nyalakan Bluetooth dan dekatkan jam tangan pintar ke ponsel Anda</string>
-    <string name="message_discover_device">%1$s belum diatur, sambungkan terlebih dahulu</string>
-    <string name="message_discovering_device">Menyambungkan %1$s (mungkin memerlukan 1 menit) &#8230;</string>
-    <string name="message_discover_device_succeeded">%1$s Tersambung</string>
-    <string name="message_discover_device_failed">%1$s tidak ditemukan</string>
-    <string name="message_discover_device_not_found">Jika %1$s tidak ditemukan, nyalakan: Haylou Sport - Mainkan - tidak dapat ditemukan atau sandingkan perangkat di pengaturan Bluetooth</string>
-    <string name="message_enable_notification_listener_access">Aktifkan akses notifikasi: Pengaturan - Pemberitahuan - Akses notifikasi</string>
-    <string name="message_enable_notification_listener_access_4_4">Aktifkan akses notifikasi: Pengaturan - Keamanan - Akses notifikasi</string>
+    <string name="message_enable_bluetooth">Aktifkan Bluetooth dan dekatkan jam ke ponsel Anda</string>
+    <string name="message_discover_device">%1$s belum tersambung, silakan sambungkan terlebih dahulu</string>
+    <string name="message_discovering_device">Sedang mencari %1$s (mungkin memakan waktu hingga 1 menit)…</string>
+    <string name="message_discover_device_succeeded">Berhasil terhubung ke %1$s</string>
+    <string name="message_discover_device_failed">Gagal terhubung ke %1$s</string>
+    <string name="message_discover_device_not_found">Jika %1$s tidak ditemukan, aktifkan mode Sport/Play/Terdeteksi atau pasangkan melalui pengaturan Bluetooth ponsel</string>
+    <string name="message_enable_notification_listener_access">Aktifkan akses notifikasi: Pengaturan > Notifikasi > Akses notifikasi</string>
+    <string name="message_enable_notification_listener_access_4_4">Aktifkan akses notifikasi: Pengaturan > Keamanan > Akses notifikasi</string>
 
-    <string name="message_deleted">Terhapus</string>
-    <string name="message_undo">Ulang</string>
+    <string name="message_deleted">Dihapus</string>
+    <string name="message_undo">Batalkan</string>
 
     <string name="message_app_chooser_no_selected">Pilih aplikasi</string>
 
-    <string name="message_free_counter">Hingga 1 pengaturan dapat digunakan dalam mode gratis</string>
-    <string name="message_free_counters">Hingga %1$,d pengaturan dapat digunakan dalam mode gratis</string>
+    <string name="message_free_counter">Maks. 1 pengaturan dapat digunakan dalam mode gratis</string>
+    <string name="message_free_counters">Maks. %1$,d pengaturan dapat digunakan dalam mode gratis</string>
 
-    <string name="message_notification_free_groups">Hingga %1$,d grup dapat digunakan dalam mode gratis</string>
-    <string name="message_notification_free_app">Hingga 1 aplikasi dapat dipilih dalam mode gratis</string>
-    <string name="message_notification_free_apps">Hingga %1$,d aplikasi dapat dipilih dalam mode gratis</string>
+    <string name="message_notification_free_groups">Maks. %1$,d grup dapat digunakan dalam mode gratis</string>
+    <string name="message_notification_free_app">Maks. 1 aplikasi dapat dipilih dalam mode gratis</string>
+    <string name="message_notification_free_apps">Maks. %1$,d aplikasi dapat dipilih dalam mode gratis</string>
 
-    <string name="message_notification_free_text">Hingga 1 teks dapat direkam dalam mode gratis</string>
+    <string name="message_notification_free_text">Maks. 1 teks dapat disimpan dalam mode gratis</string>
 
-    <string name="message_time_alarm_free_counter">Hingga 1 alarm dapat digunakan dalam mode gratis</string>
-    <string name="message_time_alarm_max_counter">Hingga %1$d alarm dapat digunakan</string>
-    <string name="message_time_alarm_enabled">Alarm diaktifkan</string>
-    <string name="message_time_alarm_disabled">Alarm dimatikan</string>
+    <string name="message_time_alarm_free_counter">Maks. 1 alarm dapat digunakan dalam mode gratis</string>
+    <string name="message_time_alarm_max_counter">Maks. %1$d alarm dapat digunakan</string>
+    <string name="message_time_alarm_enabled">Alarm aktif</string>
+    <string name="message_time_alarm_disabled">Alarm nonaktif</string>
     <string name="message_time_alarm_off">Alarm mati</string>
 
-    <string name="message_touch_pattern_error">Pola yang ditentukan mirip dengan contoh fungsi lain, rekam yang lain</string>
-    <string name="message_touch_free_patterns">Mode normal hanya bisa menggunakan hingga %1$,d fungsi</string>
-    <string name="message_touch_record_help">Use the %1$s music control/find my phone features</string> <!-- %1$s = smartwatch -->
+    <string name="message_touch_pattern_error">Pola terlalu mirip dengan fungsi lain, silakan rekam ulang</string>
+    <string name="message_touch_free_patterns">Mode gratis mendukung maksimal %1$,d kontrol</string>
+    <string name="message_touch_record_help">Gunakan fitur kontrol musik atau cari ponsel dari %1$s</string>
 
-    <string name="message_premium_mode_only">Fitur ini hanya tersedia di mode premium</string>
-    <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
-    <string name="message_general_error">Pengaturan gagal (koneksi hilang), coba lagi</string>
+    <string name="message_premium_mode_only">Fitur ini hanya tersedia dalam mode Premium</string>
+    <string name="message_feature_is_not_supported">%1$s tidak mendukung fitur ini</string>
+    <string name="message_general_error">Gagal menyimpan pengaturan (koneksi terputus), silakan coba lagi</string>
     <string name="message_internet_error">Tidak ada koneksi internet</string>
     <string name="message_internet_traffic_blocked">Lalu lintas jaringan diblokir</string>
     <string name="message_internet_ads_blocked">Iklan diblokir</string>
-    <string name="message_gps_enable">Enable the GPS</string>
-    <string name="message_location_enable">Enable the location info permission</string>
+    <string name="message_gps_enable">Aktifkan GPS</string>
+    <string name="message_location_enable">Aktifkan izin lokasi</string>
 
-    <string name="message_in_progress">Dalam proses…</string>
-    <string name="message_no_data">No data available</string>
+    <string name="message_in_progress">Sedang diproses…</string>
+    <string name="message_no_data">Tidak ada data</string>
 
     <string name="message_rewarded_error">Gagal memuat video</string>
-
-    <string name="message_new_message">A new message is received, view it on the phone.</string>
-
-    <string name="message_permission_not_granted">Izin tidak diberikan: %1$s</string> <!-- %1$s = permission name -->
+    <string name="message_new_message">Pesan baru diterima, silakan lihat di ponsel Anda</string>
+    <string name="message_permission_not_granted">Izin belum diberikan: %1$s</string>
 
     <!-- Dialog -->
-    <string name="dialog_welcome_title">Selamat Datang!</string>
-    <string name="dialog_welcome_message"><![CDATA[Perangkat yang didukung:
+    <string name="dialog_welcome_title">Selamat datang!</string>
+    <string name="dialog_welcome_message"><![CDATA[ Perangkat yang didukung:
     <watch_types/>
-    <p><app_name/> requires the installation of the official <device_type/> app on the same phone. At first you have to pair your smartwatch in the <device_type/> app, then you can use this app.</p>
-    <p>Jika <device_type/> tidak terdeteksi, anda bisa mengatur alamat MAC secara manual pada menu rincian/lanjutan.</p>
-    <b>If you have a connection problem:</b>
-    <br>- Recent apps screen: lock the <app_name/> (pull down the app and click on lock icon).
-    <br>- Phone/battery optimization: set <app_name/> app to not optimized.
-    <br>- Phone/apps: clear Bluetooth Share and other \'Bluetooth\' apps data.
-    <br>- Informasi lebih lanjut: https://dontkillmyapp.com
-    <br><br><small>Produk ini dan fitur-fiturnya tidak dirancang untuk tujuan medis dan tidak dimaksudkan untuk memprediksi, mendiagnosis, mencegah, atau menyembuhkan penyakit apa pun. Semua data dan pengukuran hanya untuk referensi pribadi dan tidak boleh digunakan sebagai dasar untuk diagnosis atau pengobatan.</small>
+    <p><app_name/> memerlukan aplikasi resmi <device_type/> yang terpasang di ponsel yang sama. Pertama-tama, pasangkan jam tangan Anda melalui aplikasi <device_type/>, lalu Anda dapat mulai menggunakan aplikasi ini.</p>
+    <p>Jika <device_type/> tidak ditemukan, Anda dapat mengatur alamat MAC secara manual saat proses pencarian.</p>
+    <b>Mengalami masalah koneksi?</b>
+    <br>- Layar aplikasi terbaru: kunci <app_name/> (tarik aplikasi ke bawah dan ketuk ikon gembok)
+    <br>- Optimisasi baterai: nonaktifkan optimisasi untuk aplikasi <app_name/>
+    <br>- Aplikasi Bluetooth: hapus data aplikasi “Bluetooth Share” dan aplikasi terkait lainnya
+    <br>- Info lebih lanjut: https://dontkillmyapp.com
+    <br><br><small>Produk ini dan fitur-fiturnya tidak dirancang untuk keperluan medis, serta tidak dimaksudkan untuk memprediksi, mendiagnosis, mencegah, atau menyembuhkan penyakit apa pun. Semua data dan pengukuran hanya untuk referensi pribadi dan tidak boleh dijadikan dasar diagnosis atau pengobatan.</small>
     ]]></string>
 
 
     <!-- Notification Dialog -->
-    <string name="notification_group_nav_setting">Atur</string>
-    <string name="notification_group_nav_filter">Menyaring pemberitahuan</string>
-    <string name="notification_group_nav_correction">Correction</string>
+    <string name="notification_group_nav_setting">Pengaturan</string>
+    <string name="notification_group_nav_filter">Filter</string>
+    <string name="notification_group_nav_correction">Koreksi teks</string>
 
     <string name="notification_group_name">Nama</string>
-    <string name="notification_group_monitoring">Pemantau pemberitahuan</string>
-    <string name="notification_group_monitoring_disabled">Matikan pemberitahuan (sembunyikan pemberitahuan aplikasi)</string>
-    <string name="notification_group_text">Text display</string>
-    <string name="notification_group_alert_title">Tanda %1$s</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="notification_group_monitoring">Pantau notifikasi</string>
+    <string name="notification_group_monitoring_disabled">Nonaktifkan notifikasi (jangan tampilkan dari aplikasi ini)</string>
+    <string name="notification_group_alert_title">Sinyal dari %1$s</string>
+    <string name="notification_group_text_customization">Kustomisasi teks</string>
     <string name="notification_group_text_app_name">Nama aplikasi</string>
     <string name="notification_group_text_name">Nama</string>
     <string name="notification_group_text_title">Judul</string>
     <string name="notification_group_text_content">Isi</string>
-    <string name="notification_group_text_big_content">Konten lengkap</string>
-    <string name="notification_group_text_content_slice_title">Text length</string>
-    <string name="notification_group_display_time_title">Waktu tampilan</string>
-    <string name="notification_group_display_notification_title">Display notification</string>
-    <string name="notification_group_immediate">Nyalakan tanda langsung ketika ada pemberitahuan masuk</string>
-    <string name="notification_group_connecting">Saat menyambungkan perangkat</string>
-    <string name="notification_group_reminder">Tanda pengingat</string>
-    <string name="notification_group_ongoing">Tanda pemberitahuan yang sedang berlangsung (permanen)</string>
-    <string name="notification_group_screen_off">Tanda saja ketika layar mati</string>
+    <string name="notification_group_text_big_content">Isi lengkap</string>
+    <string name="notification_group_text_content_slice_title">Panjang teks</string>
+    <string name="notification_group_display_duration_title">Durasi tampilan</string>
+    <string name="notification_group_show_notification_title">Tampilkan notifikasi</string>
+    <string name="notification_group_immediate">Sinyal langsung saat notifikasi masuk</string>
+    <string name="notification_group_connecting">Saat terhubung ke ponsel</string>
+    <string name="notification_group_reminder">Pengingat</string>
+    <string name="notification_group_ongoing">Sinyal untuk notifikasi berjalan</string>
+    <string name="notification_group_screen_off">Hanya saat layar mati</string>
     <string name="notification_group_repeat_title">Ulangi sinyal</string>
-    <string name="notification_group_wakelock">Hidupkan layar perangkat</string>
-    <string name="notification_group_grouped_display_title">Display setting for the group notifications</string>
-    <string name="notification_group_grouped_sort_order_title">Sort order for the group notifications</string>
+    <string name="notification_group_wakelock">Aktifkan layar ponsel</string>
+    <string name="notification_group_grouped_display_title">Tampilan notifikasi grup</string>
+    <string name="notification_group_grouped_sort_order_title">Urutan tampilan notifikasi grup</string>
 
-    <string name="notification_group_filter">Menyaring pemberitahuan</string>
-    <string name="notification_group_filter_title">Title filtering</string>
-    <string name="notification_group_filter_content">Content filtering</string>
+    <string name="notification_group_filter">Saring notifikasi</string>
+    <string name="notification_group_filter_title">Filter berdasarkan judul</string>
+    <string name="notification_group_filter_content">Filter berdasarkan isi</string>
     <string name="notification_group_filter_regex">Regex</string>
-    <string name="notification_group_filter_hint">Tanda saja ketika ada pemberitahuan (case insensitive)</string>
-    <string name="notification_group_filter_contains">Berisi frase apapun</string>
-    <string name="notification_group_filter_not_contains">Tidak mengandung frase</string>
+    <string name="notification_group_filter_hint">Beri sinyal hanya jika judul atau isi cocok (tidak peka huruf kapital)</string>
+    <string name="notification_group_filter_contains">Mengandung salah satu frasa</string>
+    <string name="notification_group_filter_not_contains">Tidak mengandung frasa apa pun</string>
 
     <string name="notification_group_sample_sms">SMS</string>
     <string name="notification_group_sample_facebook">Messenger</string>
     <string name="notification_group_sample_whatsapp">WhatsApp</string>
 
-    <string name="notification_group_correction">Text correction</string>
-    <string name="notification_group_correction_title">Title correction</string>
-    <string name="notification_group_correction_content">Content correction</string>
+    <string name="notification_group_correction">Koreksi teks</string>
+    <string name="notification_group_correction_title">Koreksi judul</string>
+    <string name="notification_group_correction_content">Koreksi isi</string>
     <string name="notification_group_correction_regex">Regex</string>
-    <string name="notification_group_correction_hint">Case insensitive</string>
-    <string name="notification_group_correction_items">Texts to be corrected</string>
-    <string name="notification_group_correction_find">Find</string>
-    <string name="notification_group_correction_replace">Replace with</string>
+    <string name="notification_group_correction_hint">Tidak peka huruf kapital</string>
+    <string name="notification_group_correction_items">Teks yang akan dikoreksi</string>
+    <string name="notification_group_correction_find">Cari</string>
+    <string name="notification_group_correction_replace">Ganti dengan</string>
 
-    <string name="notification_regex_hint">Non-alphanumeric characters have a special meaning, if you don\'t know the Regex, do not tick it</string>
+    <string name="notification_regex_hint">Karakter non-alfanumerik memiliki arti khusus. Jika Anda tidak yakin, jangan aktifkan Regex</string>
 
-    <string name="notification_confirm_close">Anda yakin ingin membuang perubahan?</string>
+    <string name="notification_confirm_close">Yakin ingin membatalkan perubahan?</string>
 
-    <string name="notification_edit_play_text_title">Notification title</string>
-    <string name="notification_edit_play_text_content">Notification content:
-    Lorem ipsum, atau ringkasnya lipsum, adalah teks standar yang ditempatkan untuk mendemostrasikan elemen grafis atau presentasi visual seperti font, tipografi, dan tata letak.
-        \n Maksud penggunaan lipsum adalah agar pengamat tidak terlalu berkonsentrasi kepada arti harfiah per kalimat, melainkan lebih kepada elemen desain dari teks yang dipresentasi.
+    <string name="notification_edit_play_text_title">Judul notifikasi</string>
+    <string name="notification_edit_play_text_content">Isi notifikasi:
     </string>
-    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> Ikon: pilih ikon ini untuk menampilkan judul/konten pemberitahuan.]]></string>
 
 
-    <!-- Call -->
+    <!-- Incoming call alert -->
     <string name="call_tab_call">Panggilan masuk</string>
     <string name="call_tab_contacts">Kontak</string>
 
-    <string name="pref_cat_call">Panggilan masuk</string>
-    <string name="pref_call_summary_on">Jangan lupa mematikan tanda panggilan masuk pada apl %1$s</string> <!-- %1$s = official app name -->
-    <string name="pref_call_text_title">Tampilkan identitas pemanggil</string>
+    <string name="call_incoming">Panggilan masuk</string>
+    <string name="call_incoming_summary_on">Jangan lupa menonaktifkan peringatan panggilan masuk di aplikasi %1$s</string>
+    <string name="call_incoming_caller_id">Tampilkan ID penelepon</string>
 
-    <string name="pref_call_notification_rejected">Show notification about rejected call</string>
-    <string name="pref_call_notification_rejected_message">Rejected call</string>
-    <string name="pref_call_notification_rejected_action">Call</string>
+    <string name="pref_call_notification_rejected">Tampilkan notifikasi saat panggilan ditolak</string>
+    <string name="pref_call_notification_rejected_message">Panggilan ditolak</string>
+    <string name="pref_call_notification_rejected_action">Panggil</string>
 
-    <string name="pref_call_net_text_title">Tanda panggilan internet masuk</string>
+    <string name="call_incoming_net_alert_title">Sinyal panggilan internet masuk</string>
 
-    <string name="pref_cat_call_missed">Panggilan tidak terjawab</string>
-    <string name="pref_call_missed_title">Tanda panggilan tidak terjawab</string>
+    <string name="call_missed_title">Sinyal panggilan tak terjawab</string>
+    <string name="call_missed_chooser_title">Sinyal dari %1$s</string>
+    <string name="call_missed_notification">Panggilan tidak terjawab</string>
 
-    <string name="pref_call_missed_alert_title">Tanda %1$s</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
-
-    <string name="call_reject_button_action">Reject button action</string>
+    <string name="call_reject_button_action">Tindakan tombol tolak panggilan</string>
 
     <string name="touch_call_answer_title">Jawab panggilan</string>
-    <string name="touch_call_answer_speakerphone_title">Pengeras suara telpon</string>
+    <string name="touch_call_answer_speakerphone_title">Gunakan speaker</string>
 
-    <string name="touch_call_end_title">Tolak panggilan, berakhir</string>
+    <string name="call_end_title">Tolak atau akhiri panggilan</string>
 
-    <string name="touch_call_mute_title">Tombol bisukan panggilan</string>
-    <string name="touch_call_mute_only_call_state_ringing_title">Hanya ketika ada panggilan masuk</string>
-    <string name="touch_call_mute_recognition_title">On incoming call</string>
+    <string name="touch_call_mute_title">Bisukan panggilan</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Hanya saat panggilan masuk</string>
+    <string name="touch_call_mute_recognition_title">Saat ada panggilan</string>
 
     <string name="call_contact_edit_contact">Kontak</string>
     <string name="call_contact_edit_name">Nama</string>
@@ -345,188 +328,179 @@
     <string name="call_contact_edit_setting_name_order">Urutan nama</string>
     <string name="call_contact_edit_setting_default">@string/default_</string>
     <string name="call_contact_edit_setting_first_name">Nama depan</string>
-    <string name="call_contact_edit_setting_last_name">Nama keluarga</string>
+    <string name="call_contact_edit_setting_last_name">Nama belakang</string>
 
-    <string name="message_call_contacts_free_counter">Hingga %1$d kontak dapat digunakan dalam mode gratis</string>
-    <string name="message_call_contacts_max_counter">Hingga %1$d kontak dapat digunakan</string>
+    <string name="message_call_contacts_free_counter">Maks. %1$d kontak dapat digunakan dalam mode gratis</string>
+    <string name="message_call_contacts_max_counter">Maks. %1$d kontak dapat digunakan</string>
 
     <!-- App chooser dialog -->
-    <string name="app_chooser">Pemilih apl</string>
+    <string name="app_chooser">Pilih aplikasi</string>
     <string name="action_search">Cari</string>
-    <string name="action_filter_notification">Filter pemberitahuan</string>
-
-    <string name="main_control">Kontrol</string>
+    <string name="action_filter_notification">Filter notifikasi</string>
 
     <!-- Activity -->
-    <string name="step_details">Rincian langkah</string>
+    <string name="step_details">Rincian aktivitas</string>
 
-    <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
-    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
-    <string name="mi_band_tracker_distance_kilometer_title">%,.2f km</string> <!-- kilometre -->
-    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
-    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
+    <string name="mi_band_tracker_step_title">%1$,d</string>
+    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string>
+    <string name="mi_band_tracker_distance_kilometer_title">%,.2f km</string>
+    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string>
+    <string name="mi_band_tracker_calorie_title">%1$,d kkal</string>
 
     <string name="action_tracker_step">Langkah</string>
     <string name="action_tracker_distance">Jarak</string>
     <string name="action_tracker_calorie">Kalori</string>
-    <string name="action_tracker_duration">Durasi latihan</string>
+    <string name="action_tracker_duration">Durasi</string>
 
-    <string name="step_goal_default_title">Target default</string>
-
+    <string name="step_goal_default_title">Target bawaan</string>
 
     <!-- Sleep monitoring -->
-    <string name="sleep_details">Rincian Tidur</string>
+    <string name="sleep_details">Rincian tidur</string>
 
-    <string name="sleep_awake">Bangun</string>
+    <string name="sleep_awake">Terjaga</string>
     <string name="sleep_light">Ringan</string>
     <string name="sleep_deep">Dalam</string>
     <string name="sleep_rem">REM</string>
 
-    <!-- Pulse -->
-    <string name="pulse_details">Rincian detak jantung</string>
+    <!-- Heart rate -->
+    <string name="heart_rate_details">Rincian detak jantung</string>
 
-    <string name="pulse_continuous_title">Continuous pulse measurement</string>
+    <string name="heart_rate_continuous_title">Pengukuran detak jantung terus-menerus</string>
 
-    <string name="heart_rate_warning_title">Peringatan Detak Jantung</string>
-    <string name="low_and_high_heart_rates">Ambang Detak Jantung</string>
-    <string name="low_heart_rate">Detak Jantung Rendah</string>
-    <string name="high_heart_rate">Detak Jantung Tinggi</string>
-
+    <string name="heart_rate_warning_title">Peringatan detak jantung</string>
+    <string name="low_and_high_heart_rates">Batas detak jantung</string>
+    <string name="low_heart_rate">Detak jantung rendah</string>
+    <string name="high_heart_rate">Detak jantung tinggi</string>
 
     <!-- Blood oxygen -->
     <string name="blood_oxygen_details">Rincian oksigen darah</string>
 
-    <string name="blood_oxygen_level_measurement">Blood oxygen level measurement</string>
-    <string name="measurement_interval">Measurement interval</string>
-
+    <string name="blood_oxygen_level_measurement">Pengukuran tingkat oksigen</string>
+    <string name="measurement_interval">Interval pengukuran</string>
 
     <!-- Blood pressure -->
     <string name="blood_pressure_details">Rincian tekanan darah</string>
 
-    <string name="blood_pressure_level_measurement">Blood pressure level measurement</string>
+    <string name="blood_pressure_level_measurement">Pengukuran tekanan darah</string>
 
     <string name="blood_pressure_systolic_abbreviation">Sys</string>
     <string name="blood_pressure_diastolic_abbreviation">Dia</string>
     <string name="blood_pressure_unit">mmHg</string>
 
-
     <!-- Workout -->
-    <string name="workout_details">Rincian latihan</string>
+    <string name="workout_details">Rincian olahraga</string>
 
 
     <!-- Alarm -->
-    <string name="action_time_alarm_sort_state_asc">State ascending</string>
-    <string name="action_time_alarm_sort_watch_asc">Watch ascending</string>
-    <string name="action_time_alarm_sort_name_asc">Name ascending</string>
+    <string name="action_time_alarm_sort_state_asc">Urut berdasarkan status</string>
+    <string name="action_time_alarm_sort_watch_asc">Urut berdasarkan jam</string>
+    <string name="action_time_alarm_sort_name_asc">Urut berdasarkan nama</string>
 
-    <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Haylou Smart Watch ... -->
+    <string name="message_time_alarm_sync">Sinkronkan alarm %1$s (menghapus dan mengatur alarm di jam tangan Anda)</string>
 
     <string name="info_dialog_alarm"><![CDATA[
-        <p>When using cooperation mode, the settings of the official application and the <app_name/> application can overwrite and delete each other\'s settings.</p>
-        The last operation performed will take effect.
+    <p>Saat menggunakan mode kerja sama, pengaturan dari aplikasi resmi dan aplikasi <app_name/> dapat saling menimpa atau menghapus.</p>
+    Pengaturan terakhir yang dilakukan akan berlaku.
     ]]></string>
 
 
     <!-- Reminder -->
-    <string name="message_reminder_enabled">Pengingat diaktifkan</string>
-    <string name="message_reminder_disabled">Pengingat dimatikan</string>
+    <string name="message_reminder_enabled">Pengingat aktif</string>
+    <string name="message_reminder_disabled">Pengingat nonaktif</string>
 
-    <string name="reminder_repeat">Pengulangan per jam</string>
-    <string name="reminder_notification_shade">Notify me on the phone</string>
+    <string name="reminder_repeat">Ulangi setiap jam</string>
+    <string name="reminder_notification_on_phone">Tampilkan notifikasi di ponsel</string>
 
-    <string name="message_time_reminder_free_counter">Hingga 1 pengingat dapat digunakan dalam mode gratis</string>
+    <string name="message_time_reminder_free_counter">Maks. 1 pengingat bisa digunakan di mode gratis</string>
 
     <string name="info_dialog_reminder"><![CDATA[
-        Bluetooth connection is required to display the reminder.
-        ]]>
-    </string>
-
+    Diperlukan koneksi Bluetooth untuk menampilkan pengingat.
+    ]]></string>
 
     <!-- Do not disturb -->
-    <string name="pref_dnd_summary">State of controllers in do not disturb mode</string>
-    <string name="pref_dnd_enable_bluetooth">Matikan Bluetooth pada permulaan mode jangan ganggu, dan hidupkan kembali setelah mode jangan ganggu berakhir</string>
+    <string name="pref_dnd_summary">Status pengontrol saat mode Jangan Ganggu aktif</string>
+    <string name="pref_dnd_enable_bluetooth">Nonaktifkan Bluetooth saat mode dimulai, aktifkan kembali saat berakhir</string>
 
     <string name="info_dialog_dnd"><![CDATA[
-        If you are using cooperation mode, in the official <device_type/> application the do not disturb (DnD) mode must be between 00:00 and 23:59 and its status must be turned off.
-    ]]></string> <!-- %1$s Haylou fit-->
-
+    Jika Anda menggunakan mode kerja sama, di aplikasi resmi <device_type/>, mode Jangan Ganggu (DnD) harus diatur antara pukul 00:00 hingga 23:59 dan statusnya harus nonaktif.
+    ]]></string>
 
     <!-- Watch face -->
-    <string name="watch_face_tab_watch_faces">Watch faces</string>
-    <string name="watch_face_tab_watch_face_custom">Custom files</string>
+    <string name="watch_face_tab_watch_faces">Tampilan jam</string>
+    <string name="watch_face_tab_watch_face_custom">Berkas kustom</string>
     <string name="watch_face_tab_watch_face_editor">Editor</string>
 
-    <string name="watch_face_download_title">Download watch face</string>
-    <string name="watch_face_upload_title">Upload watch face</string>
-    <string name="watch_face_tool_title">Tools</string>
+    <string name="watch_face_download_title">Unduh tampilan jam</string>
+    <string name="watch_face_upload_title">Unggah tampilan jam</string>
+    <string name="watch_face_tool_title">Perkakas</string>
 
-    <string name="watch_face_share_content">You can share the watch face you have created with others. E-mail the watch face and preview files and enter the following information: author, watch face name (max. 30 characters in total) and the watch face language. We only publish high quality watch faces.</string>
+    <string name="watch_face_share_content">Anda dapat membagikan tampilan jam yang Anda buat kepada orang lain. Kirim melalui email file tampilan jam dan pratinjau beserta informasi berikut: pembuat, nama tampilan jam (maks. 30 karakter), dan bahasa tampilan jam. Kami hanya menerbitkan tampilan jam berkualitas tinggi.</string>
 
-    <string name="watch_face_upload_prepare">Preparing for the upload…</string>
-    <string name="watch_face_upload_progress">Uploading %1$,d%%</string>
+    <string name="watch_face_upload_prepare">Menyiapkan pengunggahan…</string>
+    <string name="watch_face_upload_progress">Mengunggah %1$,d%%</string>
 
-    <string name="watch_face_invalid_firmware">%1$s firmware does not support uploading the watch face, update the firmware in the official application</string> <!-- %1$s = Haylou Smart watch ... -->
-    <string name="watch_face_invalid_auth">Use in standalone mode, when using cooperation mode, the official application may block the watch face upload</string>
-    <string name="watch_face_invalid_free">Dalam mode gratis, tidak dapat mengunggah dial lagi hari ini</string>
+    <string name="watch_face_invalid_firmware">Firmware %1$s tidak dikenal atau tidak mendukung unggahan tampilan jam. Perbarui firmware menggunakan aplikasi resmi. Jika aplikasi resmi mendukung unggahan tampilan jam, beri tahu kami melalui menu Umpan Balik.</string>
+    <string name="watch_face_invalid_auth">Gunakan dalam mode mandiri. Jika menggunakan mode kerja sama, aplikasi resmi mungkin memblokir unggahan tampilan jam</string>
+    <string name="watch_face_invalid_free">Dalam mode gratis, Anda tidak dapat mengunggah tampilan lagi hari ini</string>
     <string name="watch_face_watch_rewarded_ads">Tonton video untuk melanjutkan</string>
     <string name="watch_face_watch_rewarded_ads_uploading">Tonton video untuk melanjutkan pengunggahan</string>
-    <string name="watch_face_watch_rewarded_ads_countdown">Video akan dimulai…</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">Video dimulai…</string>
 
-    <string name="watch_face_upload_method_title">Method</string>
+    <string name="watch_face_upload_method_title">Metode</string>
     <string name="watch_face_upload_method_default">@string/default_</string>
-    <string name="watch_face_upload_method_alternative">Alternative</string>
+    <string name="watch_face_upload_method_alternative">Alternatif</string>
 
     <string name="watch_face_upload_speed_title">Kecepatan unggah</string>
-    <string name="watch_face_upload_invalid_speed_hint">Atur kecepatan lebih rendah jika proses pengunggahan tampilan jam terputus</string>
-    <string name="watch_face_upload_invalid_size_hint">Ukuran file tampilan jam tidak valid — atur kualitas tampilan jam lebih rendah atau hapus elemen dari tampilan jam</string>
-    <string name="watch_face_upload_invalid_battery_hint">Baterai jam pintar hampir habis, silakan isi daya jam</string>
+    <string name="watch_face_upload_invalid_speed_hint">Atur kecepatan lebih rendah jika proses unggahan terganggu</string>
+    <string name="watch_face_upload_invalid_size_hint">Ukuran file tidak sesuai. Kurangi kualitas atau hapus elemen dari tampilan jam</string>
+    <string name="watch_face_upload_invalid_battery_hint">Baterai jam hampir habis, silakan isi daya terlebih dahulu</string>
 
-    <string name="watch_face_tbwf_quality_title">Pengaturan kualitas tampilan jam .tbwf</string>
-    <string name="watch_face_tbwf_quality_hint">Ukuran file dapat dikurangi jika jam tangan memungkinkan</string>
+    <string name="watch_face_tbwf_quality_title">Pengaturan kualitas tampilan .tbwf</string>
+    <string name="watch_face_tbwf_quality_hint">Ukuran file dapat dikurangi jika jam mendukung</string>
 
-    <string name="watch_face_tbwf_locale_title">Pengaturan bahasa dan negara tampilan jam .tbwf</string>
+    <string name="watch_face_tbwf_locale_title">Bahasa dan wilayah tampilan .tbwf</string>
     <string name="watch_face_tbwf_locale_hint">Hari dalam minggu, pemisah bulan, dan pemisah desimal</string>
 
-    <string name="message_watch_face_file_invalid">Invalid watch face file</string>
+    <string name="message_watch_face_file_invalid">File tampilan jam tidak valid</string>
     <string name="message_watch_face_file_invalid_size">Ukuran file tampilan jam tidak valid</string>
-    <string name="message_watch_face_file_invalid_battery">Baterai jam pintar hampir habis</string>
+    <string name="message_watch_face_file_invalid_battery">Baterai jam hampir habis</string>
     <string name="message_watch_face_image_file_error">File gambar tidak valid</string>
     <string name="message_watch_face_font_file_error">File font tidak valid</string>
 
     <string name="action_chart_layout_2_columns">Tata letak 2 kolom</string>
     <string name="action_chart_layout_3_columns">Tata letak 3 kolom</string>
 
-    <string name="watch_face_edit_dial">Dial</string>
+    <string name="watch_face_edit_dial">Tampilan</string>
     <string name="watch_face_edit_preview">Pratinjau</string>
     <string name="watch_face_edit_hour_digital">Jam</string>
     <string name="watch_face_edit_minute_digital">Menit</string>
-    <string name="watch_face_edit_second_digital">Kedua</string>
-    <string name="watch_face_edit_am_pm">AM/PM indicator</string>
+    <string name="watch_face_edit_second_digital">Detik</string>
+    <string name="watch_face_edit_am_pm">Penanda AM/PM</string>
     <string name="watch_face_edit_am">AM</string>
     <string name="watch_face_edit_pm">PM</string>
     <string name="watch_face_edit_hour_analog">Jarum jam</string>
     <string name="watch_face_edit_minute_analog">Jarum menit</string>
     <string name="watch_face_edit_second_analog">Jarum detik</string>
-    <string name="watch_face_edit_axis">Axis of rotation</string>
-    <string name="watch_face_edit_hour_minute_separator">Jam dan menit pemisah</string>
+    <string name="watch_face_edit_axis">Sumbu putar</string>
+    <string name="watch_face_edit_hour_minute_separator">Pemisah jam dan menit</string>
     <string name="watch_face_edit_year">Tahun</string>
-    <string name="watch_face_edit_year_month_separator">Pemisah Tahun dan Bulan</string>
+    <string name="watch_face_edit_year_month_separator">Pemisah tahun dan bulan</string>
     <string name="watch_face_edit_month">Bulan</string>
     <string name="watch_face_edit_month_name">Nama bulan</string>
     <string name="watch_face_edit_month_day_separator">Pemisah bulan dan hari</string>
     <string name="watch_face_edit_day">Hari</string>
-    <string name="watch_face_edit_dayOfWeek">Hari dalam seminggu</string>
+    <string name="watch_face_edit_dayOfWeek">Hari dalam satu minggu</string>
     <string name="watch_face_edit_battery_level">Tingkat baterai</string>
     <string name="watch_face_edit_battery_level_percent_sign">Tingkat baterai %</string>
     <string name="watch_face_edit_battery_level_image">Gambar baterai</string>
     <string name="watch_face_edit_weather_temperature">Suhu</string>
     <string name="watch_face_edit_weather_temperature_unit_sign">Satuan suhu °</string>
     <string name="watch_face_edit_weather_image">Gambar cuaca</string>
-    <string name="watch_face_edit_connection_indicator_image">Gambar indikator koneksi</string>
+    <string name="watch_face_edit_connection_indicator_image">Gambar koneksi</string>
     <string name="watch_face_edit_connected">Tersambung</string>
     <string name="watch_face_edit_disconnected">Terputus</string>
     <string name="watch_face_edit_steps">Langkah</string>
-    <string name="watch_face_edit_steps_image">Langkah gambar</string>
+    <string name="watch_face_edit_steps_image">Gambar langkah</string>
     <string name="watch_face_edit_steps_goal_progress">Kemajuan target langkah</string>
     <string name="watch_face_edit_distance">Jarak</string>
     <string name="watch_face_edit_distance_image">Gambar jarak</string>
@@ -536,138 +510,138 @@
     <string name="watch_face_edit_heart_rate_image">Gambar detak jantung</string>
 
     <string name="watch_face_edit_color">Warna</string>
-    <string name="watch_face_edit_font_family">Fon</string>
-    <string name="watch_face_edit_font_size">Ukuran huruf</string>
-    <string name="watch_face_edit_character">Character</string>
+    <string name="watch_face_edit_font_family">Keluarga font</string>
+    <string name="watch_face_edit_character">Karakter</string>
+    <string name="watch_face_edit_font_size">Ukuran font</string>
     <string name="watch_face_edit_image">Gambar</string>
     <string name="watch_face_edit_image_png_jpeg">Gambar (.png, .jpeg)</string>
     <string name="watch_face_edit_image_png">Gambar (.png)</string>
-    <string name="watch_face_edit_icon">Icon</string>
     <string name="watch_face_edit_image_size">Ukuran gambar</string>
+    <string name="watch_face_edit_icon">Ikon</string>
 
-    <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
-    <string name="watch_face_custom_watch_face_under_development_title">The ability to upload custom watch faces is currently in development and may be available in the future, but it is not yet confirmed</string>
+    <string name="watch_face_custom_watch_face_not_supported_title">Jam ini tidak mendukung unggahan tampilan jam kustom</string>
+    <string name="watch_face_custom_watch_face_under_development_title">Fitur unggahan tampilan jam kustom masih dalam pengembangan dan mungkin tersedia di masa depan, namun belum dipastikan.</string>
 
     <!-- Touch monitoring -->
-    <string name="touch_tab_function">Function</string>
+    <string name="touch_tab_function">Fungsi</string>
     <string name="touch_tab_control">Kontrol</string>
-    <string name="touch_tab_testing">Coba</string>
+    <string name="touch_tab_testing">Pengujian</string>
     <string name="touch_tab_setting">@string/setting_name</string>
 
-    <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
-    <string name="touch_function">%1$s function</string> <!-- %1$s = Watch name -->
-    <string name="touch_function_as_touch">Use function as a touch in the control menu</string>
+    <string name="touch_function_summary">Atur fungsi ini jika Anda menggunakan mode mandiri atau jika tidak dikelola oleh Mi Fit</string>
+    <string name="touch_function">Fungsi %1$s</string>
+    <string name="touch_function_as_touch">Gunakan fungsi ini sebagai sentuhan di menu kontrol</string>
 
-    <string name="touch_headline_incoming_call_title">Incoming call</string>
-    <string name="touch_headline_other_function_title">Other functions</string>
+    <string name="touch_headline_incoming_call_title">Panggilan masuk</string>
+    <string name="touch_headline_other_function_title">Fungsi lainnya</string>
     <string name="touch_headline_call_title">Kontrol panggilan</string>
     <string name="touch_headline_music_title">Kontrol musik</string>
-    <string name="touch_headline_time_title">Kontrol Timer/stopwatch</string>
+    <string name="touch_headline_time_title">Kontrol timer/stopwatch</string>
     <string name="touch_headline_other_title">Kontrol lain</string>
 
-    <string name="touch_device_location_title">Temukan perangkat saya</string>
-    <string name="touch_device_location_not_muted_only_title">Suara saja ketika tidak dibisukan</string>
+    <string name="touch_device_location_title">Temukan ponsel saya</string>
+    <string name="touch_device_location_not_muted_only_title">Bersuara hanya jika tidak dalam mode diam atau DnD</string>
 
-    <string name="touch_mute_toggle_title">Tombol bisukan panggilan</string>
-    <string name="touch_mute_toggle_ringer_mode_title">Mute mode</string>
-    <string name="touch_mute_toggle_mute_off_title">Mute off</string>
+    <string name="touch_mute_toggle_title">Tombol bisukan ponsel</string>
+    <string name="touch_mute_toggle_ringer_mode_title">Mode diam</string>
+    <string name="touch_mute_toggle_mute_off_title">Diam dinonaktifkan</string>
 
     <string name="touch_music_title">Musik</string>
-    <string name="touch_music_function_launch">Start music with the play button if no music player is recognized</string>
-    <string name="touch_music_function_mi_band_message_launch">Start music with the play button</string>
-    <string name="touch_music_function_mi_band_message_no_track_title">Can\'t get the song name</string>
+    <string name="touch_music_function_launch">Mulai musik dengan tombol putar jika tidak ada pemutar musik yang terdeteksi</string>
+    <string name="touch_music_function_mi_band_message_launch">Mulai musik dengan tombol putar</string>
+    <string name="touch_music_function_mi_band_message_no_track_title">Tidak dapat mengambil nama lagu</string>
 
-    <string name="touch_call_out_title">Call out</string>
-    <string name="touch_call_out_no_contact">Select an contact</string>
-    <string name="touch_call_out_summary">Double press to answer the call</string>
-    <string name="touch_call_out_summary_support_call_display_button">Press the button to answer the call</string>
-    <string name="touch_call_out_speakerphone_title">Pengeras suara telpon</string>
-    <string name="touch_call_out_call_text">Call out: %1$s</string>
+    <string name="touch_call_out_title">Panggil</string>
+    <string name="touch_call_out_no_contact">Pilih kontak</string>
+    <string name="touch_call_out_summary">Tekan dua kali untuk menjawab panggilan</string>
+    <string name="touch_call_out_summary_support_call_display_button">Tekan tombol untuk menjawab panggilan</string>
+    <string name="touch_call_out_speakerphone_title">Pengeras suara</string>
+    <string name="touch_call_out_call_text">Panggilan keluar: %1$s</string>
 
-    <string name="touch_weather_title">Prakiraan Cuaca</string>
-    <string name="touch_weather_location">Lokasi</string>
-    <string name="touch_weather_precipitation">Pengendapan</string>
-    <string name="touch_weather_cloud_cover">Penutupan awan</string>
+    <string name="touch_weather_title">Prakiraan cuaca</string>
+    <string name="touch_weather_location">Pembaruan lokasi</string>
+    <string name="touch_weather_precipitation">Curah hujan</string>
+    <string name="touch_weather_cloud_cover">Tutup awan</string>
     <string name="touch_weather_wind">Angin</string>
 
     <string name="touch_repeat_notif_title">Ulangi notifikasi</string>
-    <string name="touch_repeat_notif_clear_all">Hapus semua pemberitahuan setelah pengulangan</string>
+    <string name="touch_repeat_notif_clear_all">Hapus semua notifikasi setelah diulang</string>
 
-    <string name="touch_clear_notif_title">Bersihkan pemberitahuan</string>
+    <string name="touch_clear_notif_title">Bersihkan notifikasi dari ponsel</string>
 
-    <string name="touch_music_play_pause_title">Mulai musik, mainkan, jeda</string>
+    <string name="touch_music_play_pause_title">Mulai, putar, atau jeda musik</string>
     <string name="touch_music_skip_previous_title">Mulai musik, lagu sebelumnya</string>
-    <string name="touch_music_skip_next_title">Mulai musik, lagu selanjutnya</string>
+    <string name="touch_music_skip_next_title">Mulai musik, lagu berikutnya</string>
     <string name="touch_music_headset_only_title">Hanya jika headset tersambung</string>
-    <string name="touch_music_launch">Start music</string>
-    <string name="touch_music_volume_up_title">Volume musik naik</string>
-    <string name="touch_music_volume_down_title">Volume musik turun</string>
-    <string name="touch_music_track_info_title">Tampilkan info musik.</string>
+    <string name="touch_music_launch">Mulai musik</string>
+    <string name="touch_music_volume_up_title">Naikkan volume musik</string>
+    <string name="touch_music_volume_down_title">Turunkan volume musik</string>
+    <string name="touch_music_track_info_title">Tampilkan info lagu</string>
 
     <string name="touch_time_launch_title">Mulai pemantauan waktu</string>
     <string name="touch_time_launch_type_timer_title">Timer</string>
     <string name="touch_time_launch_type_stopper_title">Stopwatch</string>
     <string name="touch_time_launch_type_interval_title">Interval</string>
-    <string name="touch_time_launch_restart">Restart if it is in progress</string>
-    <string name="touch_time_reminder_title">Tampilkan waktu sisa/berlalu</string>
+    <string name="touch_time_launch_restart">Mulai ulang jika masih berjalan</string>
+    <string name="touch_time_reminder_title">Tampilkan waktu tersisa/berlalu</string>
 
     <string name="touch_google_assistant_title">Google Assistant</string>
 
-    <string name="touch_flashlight_title">Flashlight toggle</string>
+    <string name="touch_flashlight_title">Nyalakan/smatikan senter</string>
 
-    <string name="touch_camera_title">Take a photo</string>
-    <string name="touch_camera_front_title">Front</string>
-    <string name="touch_camera_rear_title">Rear</string>
-    <string name="touch_camera_install_title">Install</string>
+    <string name="touch_camera_title">Ambil foto</string>
+    <string name="touch_camera_front_title">Depan</string>
+    <string name="touch_camera_rear_title">Belakang</string>
+    <string name="touch_camera_install_title">Pasang</string>
 
-    <string name="touch_app_launcher1_title">Peluncur apl</string>
+    <string name="touch_app_launcher1_title">Peluncur aplikasi</string>
     <string name="touch_app_launcher_package_no_title">Pilih aplikasi</string>
     <string name="touch_app_launcher1_not_wakelock_only_title">Hanya jika layar tidak terkunci</string>
 
-    <string name="touch_broadcast1_title">Send Broadcast</string>
-    <string name="touch_broadcast1_action_title">Intent action</string>
-    <string name="touch_broadcast1_package_title">Intent package name</string>
+    <string name="touch_broadcast1_title">Kirim Broadcast</string>
+    <string name="touch_broadcast1_action_title">Aksi Intent</string>
+    <string name="touch_broadcast1_package_title">Nama paket Intent</string>
 
-    <string name="touch_http_request1_title">1. HTTP request</string>
-    <string name="touch_http_request2_title">2. HTTP request</string>
+    <string name="touch_http_request1_title">1. Permintaan HTTP</string>
+    <string name="touch_http_request2_title">2. Permintaan HTTP</string>
     <string name="touch_http_request_url_title">URL</string>
-    <string name="touch_http_request_method_title">Method</string>
-    <string name="touch_http_request_body_title">Body</string>
-    <string name="touch_http_request_show_response_title">Show the response</string>
+    <string name="touch_http_request_method_title">Metode</string>
+    <string name="touch_http_request_body_title">Isi</string>
+    <string name="touch_http_request_show_response_title">Tampilkan respons</string>
 
-    <string name="touch_tasker_launcher1_title">1. Tasker peluncur kegiatan</string>
-    <string name="touch_tasker_launcher2_title">2. Tasker peluncur kegiatan</string>
-    <string name="touch_tasker_launcher_no_permission_title">Anda harus memasang Tasker terlebih dahulu, lalu Mi Bandage</string>
-    <string name="touch_tasker_launcher_no_access_title">Ijinkan akses eksternal</string>
-    <string name="touch_tasker_launcher_no_task_title">Pilih kegiatan</string>
+    <string name="touch_tasker_launcher1_title">1. Peluncur tugas Tasker</string>
+    <string name="touch_tasker_launcher2_title">2. Peluncur tugas Tasker</string>
+    <string name="touch_tasker_launcher_no_permission_title">Anda harus menginstal Tasker terlebih dahulu, setelah itu Mi Bandage</string>
+    <string name="touch_tasker_launcher_no_access_title">Izinkan akses eksternal</string>
+    <string name="touch_tasker_launcher_no_task_title">Pilih tugas</string>
 
-    <string name="touch_testing_title">Pemantau sentuhan</string>
-    <string name="touch_testing_second">det.</string>
+    <string name="touch_testing_title">Pemantauan sentuhan</string>
+    <string name="touch_testing_second">detik</string>
 
-    <string name="touch_setting_detection_time_title">Touch detection time</string>
-    <string name="touch_setting_detection_time_music_hint">If it has a lower value, the music screen should be closed faster</string>
-    <string name="touch_setting_detection_time_button_hint">If it has a lower value, press the button faster</string>
+    <string name="touch_setting_detection_time_title">Waktu deteksi sentuhan</string>
+    <string name="touch_setting_detection_time_music_hint">Jika nilainya lebih rendah, layar musik akan ditutup lebih cepat</string>
+    <string name="touch_setting_detection_time_button_hint">Jika nilainya lebih rendah, tombol harus ditekan lebih cepat</string>
 
-    <string name="touch_setting_detection_method_title">Touch detection method</string>
+    <string name="touch_setting_detection_method_title">Metode deteksi sentuhan</string>
 
-    <string name="touch_setting_recognition_start_title">Start touch recognition</string>
-    <string name="touch_setting_recognition_start_trigger_title">Trigger</string>
-    <string name="touch_setting_recognition_time_title">Recognition time</string>
+    <string name="touch_setting_recognition_start_title">Mulai pengenalan sentuhan</string>
+    <string name="touch_setting_recognition_start_trigger_title">Pemicu</string>
+    <string name="touch_setting_recognition_time_title">Waktu pengenalan</string>
 
-    <string name="touch_setting_recognition_mi_band_signal_title">Tanda %1$s</string> <!-- %1$s = Watch name -->
-    <string name="touch_setting_recognition_succeeded_title">Sinyal pola sentuh dikenali</string>
-    <string name="touch_setting_recognition_failed_title">Sinyal pola sentuh tidak dikenali</string>
+    <string name="touch_setting_recognition_mi_band_signal_title">Sinyal %1$s</string>
+    <string name="touch_setting_recognition_succeeded_title">Pola sentuhan dikenali</string>
+    <string name="touch_setting_recognition_failed_title">Pola sentuhan tidak dikenali</string>
 
     <string name="info_dialog_touch"><![CDATA[
-        <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
-        <p><b>Phones Bluetooth settings:</b> <device_name/> disable input device</p>
-        <b><u>Recognised touches</u></b>
-        <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
-        <br><device_type/> music control
-        <p><img src="ic_search">
-        <br><device_type/> find my phone
-        </p>
-        Multiple touches can be recorded for each function.
+    <p>Berfungsi dengan baik dalam mode mandiri. Jika Anda menggunakan mode kerja sama, aplikasi resmi <app_official/> juga akan menangani fungsi ini, sehingga operasi yang benar tidak dapat dijamin.</p>
+    <p><b>Pengaturan Bluetooth ponsel:</b> Nonaktifkan perangkat input <device_name/></p>
+    <b><u>Sentuhan yang dikenali</u></b>
+    <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
+    <br>Kontrol musik <device_type/>
+    <p><img src="ic_search">
+    <br>Temukan ponsel saya <device_type/>
+    </p>
+    Beberapa sentuhan dapat direkam untuk setiap fungsi.
     ]]></string>
 
 
@@ -678,33 +652,31 @@
 
     <string name="weather_location_title">Lokasi</string>
 
-    <string name="weather_forecast_title">Prakiraan Cuaca</string>
+    <string name="weather_forecast_title">Prakiraan cuaca</string>
 
-    <string name="weather_setting_provider">Weather provider</string>
+    <string name="weather_setting_provider">Penyedia layanan cuaca</string>
     <string name="weather_city_title">Kota</string>
     <string name="weather_unit_title">Satuan</string>
     <string name="weather_unit_metric">Metrik (Celsius)</string>
     <string name="weather_unit_imperial">Imperial (Fahrenheit)</string>
-    <string name="weather_automatic_update">Automatically update location in the background</string>
-    <string name="weather_automatic_update_title">Use your location</string>
-    <string name="weather_automatic_update_summary">This application collects location data to update the weather for the current location, even when the app is closed or not in use.</string>
+    <string name="weather_automatic_update">Perbarui lokasi secara otomatis di latar belakang</string>
+    <string name="weather_automatic_update_title">Gunakan lokasi Anda</string>
+    <string name="weather_automatic_update_summary">Aplikasi ini mengumpulkan data lokasi untuk memperbarui informasi cuaca di lokasi Anda saat ini, bahkan saat aplikasi tidak dibuka atau sedang tidak digunakan.</string>
 
-    <string name="permission_background_location">%1$s will have permission to collect location data even when the app is closed or not in use</string>
-    <string name="permission_error_title">%1$s can\'t update permissions</string>
-    <string name="permission_error_description">Open Settings and select the option “%1$s“ for location permissions</string>
-    <string name="all_the_time">All the time</string>
+    <string name="permission_background_location">%1$s akan memiliki izin untuk mengakses data lokasi meskipun aplikasi sedang tidak digunakan</string>
+    <string name="permission_error_title">%1$s tidak dapat memperbarui izin</string>
+    <string name="permission_error_description">Buka menu Pengaturan dan pilih opsi "%1$s" untuk izin lokasi</string>
+    <string name="all_the_time">Sepanjang waktu</string>
 
-    <string name="weather_current_title">Current weather</string>
-    <string name="weather_current_location">Current location</string>
-    <string name="weather_current_temperature">Current temperature</string>
-
-    <string name="weather_display">Display</string>
+    <string name="weather_current_title">Cuaca saat ini</string>
+    <string name="weather_current_location">Lokasi saat ini</string>
+    <string name="weather_current_temperature">Suhu saat ini</string>
 
     <string name="weather_precipitation_rain">Hujan</string>
     <string name="weather_precipitation_snow">Salju</string>
     <string name="weather_cloud_cover_abbreviation">Cc</string>
     <string name="weather_cloud_cover">Awan</string>
-    <string name="weather_humidity">Kelembaban</string>
+    <string name="weather_humidity">Kelembapan</string>
 
     <string name="weather_north">N</string>
     <string name="weather_east">E</string>
@@ -712,7 +684,9 @@
     <string name="weather_west">W</string>
 
 
-    <!-- Text display -->
+    <!-- Text customization -->
+    <string name="pref_text_reminder_repeat_interval_title">Interval pengulangan pengingat</string>
+    <string name="pref_text_reminder_repeat_interval_summary">Fungsi notifikasi/pengingat menggunakan jeda ini</string>
     <string name="pref_text_emoticon_title">Konversi emoji</string>
     <string name="pref_text_emoticon_summary_on">Ubah emoji menjadi emotikon</string>
     <string name="pref_text_uppercase_title">Konversi huruf besar</string>
@@ -720,20 +694,18 @@
     <string name="pref_text_alphanumeric_title">Karakter alfanumerik dan ASCII</string>
     <string name="pref_text_alphanumeric_summary_on">Tampilkan hanya karakter alfanumerik dan ASCII</string>
     <string name="pref_text_transliteration_title">Transliterasi</string>
-    <string name="pref_text_transliteration_summary_on">Ubah huruf beraksen menjadi tanpa aksen</string>
-    <string name="pref_text_line_separator_title">Penggantian pemisah baris</string>
-    <string name="pref_text_line_separator_summary_on">Ganti pemisah baris default dengan karakter lain</string>
+    <string name="pref_text_transliteration_summary_on">Ubah huruf dengan aksen menjadi tanpa aksen</string>
+    <string name="pref_text_line_separator_title">Pengganti pemisah baris</string>
+    <string name="pref_text_line_separator_summary_on">Ganti pemisah baris standar dengan karakter lain</string>
     <string name="pref_text_line_separator_value_title">Karakter pengganti</string>
-    <string name="pref_text_char_replacement_title">Penggantian karakter dan emoji</string>
+    <string name="pref_text_char_replacement_title">Penggantian karakter atau emoji</string>
     <string name="pref_text_char_replacement_summary_on">Ganti satu karakter dengan karakter lain</string>
     <string name="pref_text_char_replacement_find">Cari</string>
     <string name="pref_text_char_replacement_replace">Ganti dengan</string>
 
-
     <!-- Export -->
-    <string name="export_tab_database">Ekspor Data</string>
-    <string name="export_start_date">Tanggal Mulai Ekspor</string>
-
+    <string name="export_tab_database">Ekspor data</string>
+    <string name="export_start_date">Tanggal mulai ekspor</string>
 
     <!-- Theme -->
     <string name="theme_tab_theme">Tema</string>
@@ -743,107 +715,125 @@
 
     <string name="theme_widget_background_color_title">Warna</string>
     <string name="theme_color_dynamic_color_title">Warna dinamis</string>
-    <string name="theme_color_predefined_colors_title">Warna bawaan</string>
+    <string name="theme_color_predefined_colors_title">Warna yang sudah ditentukan</string>
 
-    <string name="theme_notification_title">Tampilkan status dipanel pemberitahuan</string>
-
+    <string name="theme_notification_title">Tampilkan status di panel notifikasi</string>
     <string name="theme_cat_color_setting">Pengaturan warna</string>
 
-
     <!-- Premium mode -->
-    <string name="purchase_advantage_title">Beberapa keuntungan mode permium</string>
+    <string name="purchase_advantage_title">Keuntungan mode Premium</string>
     <string name="purchase_advantage"><![CDATA[
-        <p>• financial support for development</p>
-        <p>• no ads</p>
-        <p>• notification setting is not limited</p>
-        <p>• call setting is not limited</p>
-        <p>• the number of alarms is not limited (the number of alarms is limited by the clock)</p>
-        <p>• do not disturb mode is not limited</p>
-        <p>• more frequent weather synchronization, location can be updated automatically, AccuWeather provider can be set</p>
-        <p>• touch setting is not limited</p>
-        <p>• detailed daily graphs</p>
-        • removing other restrictions…
+    <p>• dukungan finansial untuk pengembangan</p>
+    <p>• tanpa iklan</p>
+    <p>• pengaturan notifikasi tanpa batas</p>
+    <p>• pengaturan panggilan tanpa batas</p>
+    <p>• unggah tampilan jam harian tanpa batas</p>
+    <p>• jumlah alarm tanpa batas (tergantung pada jam tangan)</p>
+    <p>• mode Jangan Ganggu tanpa batas</p>
+    <p>• pengaturan sentuhan tanpa batas</p>
+    <p>• pembaruan cuaca lebih sering, pembaruan lokasi otomatis, opsi untuk menggunakan AccuWeather</p>
+    <p>• grafik harian yang lebih detail</p>
+    • buka semua batasan fitur lainnya…
     ]]></string>
-    <string name="purchase_policy_title">Syarat dan Ketentuan Mode Premium</string>
+
+    <string name="purchase_policy_title">Syarat dan ketentuan mode Premium</string>
     <string name="purchase_policy"><![CDATA[
-    <p>• Saya telah menguji aplikasi dan berfungsi dengan baik.</p>
-    <p>• Saya menyadari bahwa saya tidak dapat meminta kompensasi atau pengembalian dana karena bug atau kesalahan perangkat lunak yang disebabkan oleh perubahan pada lingkungan perangkat lunak atau perangkat keras atau penggunaan aplikasi lain.</p>
-    <p>• Semua penjualan bersifat final dan tidak dapat dikembalikan (kecuali sesuai dengan kebijakan pengembalian dana Google).</p>
-    <p>• Tidak ada garansi yang disertakan.</p>
-    <p>• Aplikasi ini digunakan atas risiko Anda sendiri, dan pengembang mengecualikan semua jaminan tambahan, termasuk tanggung jawab langsung atau tidak langsung atas kerusakan atau kehilangan data yang diakibatkan oleh penggunaannya.</p>
-    <i>Setelah pembelian, Anda perlu memulai ulang aplikasi.</i>
+    <p>• Saya sudah mencoba aplikasi ini dan berfungsi sebagaimana mestinya.</p>
+    <p>• Saya memahami bahwa saya tidak dapat meminta pengembalian dana atau kompensasi untuk masalah yang disebabkan oleh pembaruan sistem (seperti versi Android), perangkat keras, atau konflik dengan aplikasi lain.</p>
+    <p>• Semua pembelian bersifat final dan tidak dapat dikembalikan (kecuali sesuai kebijakan pengembalian dana Google).</p>
+    <p>• Aplikasi ini tidak disertai jaminan, baik secara eksplisit maupun implisit.</p>
+    <p>• Penggunaan aplikasi ini menjadi tanggung jawab sendiri. Pengembang tidak bertanggung jawab atas kerusakan langsung atau tidak langsung maupun kehilangan data akibat penggunaannya.</p>
+    <p>• Mode Premium terhubung ke akun Google Anda dan tetap aktif setelah aplikasi diinstal ulang.</p>
+    <i>Aplikasi harus dimulai ulang setelah pembelian.</i>
     ]]></string>
 
     <string name="purchase_google_play_services_not_available">Layanan Google Play tidak tersedia</string>
 
-    <!--<string name="purchase_price">Harga:</string>-->
-    <string name="purchase_agree">Saya menyetujui syarat dan ketentuan.</string>
+    <string name="purchase_agree">Saya menyetujui syarat dan ketentuan</string>
     <string name="purchase_order_id">ID Pesanan</string>
     <string name="purchase_order_id_help">Salin dari:
-        \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
-        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
-    <string name="purchase_info">Biaya satu kali ・ %1$s</string> <!-- %1$s = price</string>-->
+    \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+    \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+
+    <string name="purchase_info">Biaya satu kali ・ %1$s</string>
     <string name="purchase_button_purchase">Beli</string>
 
     <!-- Feedback -->
     <string name="action_log_notification">Log</string>
 
-    <string name="feedback_google_play_title">Beri nilai aplikasi</string>
-    <string name="feedback_request_feature_title">Permintaan fitur, dan laporan bug</string>
-    <string name="feedback_request_feature_summary">Proses e-mail otomatis, Anda tidak akan mendapat respons</string>
-    <string name="feedback_translation_title">%1$s translation</string> <!-- %1$s = App name -->
-    <string name="feedback_translation_title_summary">Please help with the translation</string>
+    <string name="feedback_google_play_title">Beri penilaian untuk aplikasi ini</string>
+    <string name="feedback_request_feature_title">Permintaan fitur dan laporan bug</string>
+    <string name="feedback_request_feature_summary">Proses email dilakukan secara otomatis, Anda mungkin tidak menerima tanggapan</string>
+    <string name="feedback_translation_title">Terjemahan %1$s</string> <!-- %1$s = App name -->
+    <string name="feedback_translation_title_summary">Mohon bantuannya dalam menerjemahkan aplikasi ini</string>
 
-    <!-- Privacy policy -->
+    <!-- Kebijakan Privasi -->
     <string name="privacy_policy_tab_privacy_policy">Kebijakan Privasi</string>
     <string name="privacy_policy_tab_user_consent">Manajemen Persetujuan Pengguna</string>
-    <string name="privacy_policy_tab_eu_consent">Persetujuan Pengguna EU dan AS</string>
-    <string name="privacy_policy_tab_non_eu_consent">Persetujuan Pengguna Wilayah Lain</string>
+    <string name="privacy_policy_tab_eu_consent">Persetujuan Pengguna UE dan AS</string>
+    <string name="privacy_policy_tab_non_eu_consent">Persetujuan Pengguna dari Wilayah Lain</string>
 
-    <string name="privacy_policy_collect_title">Information we collect</string>
+    <string name="privacy_policy_collect_title">Informasi yang kami kumpulkan</string>
     <string name="privacy_policy_collect"><![CDATA[
-        <p>• We only collect anonymous information.</p>
-        <p>• We collect information at the application level about the services that you use and how you use them (Google Analytics).</p>
-        <p>• We collect information at the application level like bugs, errors, and crashes to provide improvements (Firebase Crashlytics).</p>
-        <p>• We collect information at the application level about the performance (Firebase Performance Monitoring).</p>
-        <p>• Google Firebase Platform collects information anonymously. It reports trends without identifying individual users.
-        The Firebase Platform collects data such as Firebase installation ID, application state, relevant device metadata (device model, CPU architecture, RAM and disk size, OS, screen orientation, country, locale/language), stack traces, performance metrics (including app start time and network request latency, network URLs), CPU/memory usage, IP address …
-        </p>
-        • We collect location data to update the weather based on your current location (optional).
+    <p>• Kami hanya mengumpulkan informasi anonim.</p>
+    <p>• Kami mengumpulkan informasi di tingkat aplikasi tentang layanan yang Anda gunakan dan bagaimana Anda menggunakannya (Google Analytics).</p>
+    <p>• Kami mengumpulkan informasi di tingkat aplikasi seperti bug, kesalahan, dan crash untuk meningkatkan aplikasi (Firebase Crashlytics).</p>
+    <p>• Kami mengumpulkan informasi kinerja aplikasi (Firebase Performance Monitoring).</p>
+    <p>• Platform Google Firebase mengumpulkan informasi secara anonim. Data yang dikumpulkan digunakan untuk melaporkan tren tanpa mengidentifikasi pengguna secara individual.
+    Data tersebut mencakup ID instalasi Firebase, status aplikasi, metadata perangkat yang relevan (model perangkat, arsitektur CPU, ukuran RAM dan penyimpanan, sistem operasi, orientasi layar, negara, lokal/bahasa), jejak kesalahan (stack trace), metrik kinerja (termasuk waktu mulai aplikasi, latensi permintaan jaringan, URL jaringan), penggunaan CPU/memori, alamat IP perkiraan, dan lainnya.</p>
+    <p>• Kami mengumpulkan data lokasi untuk memperbarui informasi cuaca berdasarkan lokasi Anda saat ini (opsional).</p>
+    • Dasar hukum untuk pengumpulan dan pemrosesan data ini adalah kepentingan sah kami untuk meningkatkan fungsi dan performa aplikasi, serta menjaga stabilitas dan kegunaannya.
+    ]]></string>
+
+    <string name="privacy_policy_cookies_title">Cookie dan teknologi serupa</string>
+    <string name="privacy_policy_cookies"><![CDATA[
+    • Beberapa layanan pihak ketiga seperti AdMob dapat menggunakan cookie atau teknologi serupa untuk menampilkan iklan yang dipersonalisasi. Anda dapat mengelola personalisasi iklan di pengaturan akun Google Anda.
+    ]]></string>
+
+    <string name="privacy_policy_retention_title">Penyimpanan data</string>
+    <string name="privacy_policy_retention"><![CDATA[
+    • Data yang dikumpulkan disimpan oleh Google Firebase sesuai dengan kebijakan mereka dan hanya selama diperlukan untuk tujuan analitik, diagnostik, dan peningkatan kinerja.
     ]]></string>
 
     <string name="privacy_policy_not_collect_title">Informasi yang tidak kami kumpulkan</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-    <p>• Kami tidak mengumpulkan informasi pribadi yang dapat diidentifikasi tentang Anda. Ini berarti kami tidak mengumpulkan, misalnya, data pribadi seperti nama, alamat, nomor telepon, alamat email, atau alamat MAC Anda.</p>
-    • Kami tidak mengumpulkan data kesehatan pribadi, kontak, atau konten notifikasi telepon.
+    <p>• Kami tidak mengumpulkan informasi yang dapat mengidentifikasi pribadi Anda. Artinya, kami tidak mengumpulkan data pribadi seperti nama, alamat, nomor telepon, alamat email, atau alamat MAC Anda.</p>
+    • Kami juga tidak mengumpulkan data kesehatan pribadi, kontak, atau konten notifikasi yang ditampilkan di perangkat Anda.
     ]]></string>
 
     <string name="privacy_policy_share_title">Informasi yang kami bagikan</string>
     <string name="privacy_policy_share"><![CDATA[
-    • Kami tidak membagikan data apa pun dengan perusahaan atau organisasi selain Google dan penyedia iklan.
+    • Kami tidak membagikan data apa pun kepada perusahaan atau organisasi lain, kecuali kepada Google dan penyedia iklan.
     ]]></string>
 
     <string name="privacy_policy_use_title">Data pribadi dan sensitif yang kami gunakan</string>
     <string name="privacy_policy_use"><![CDATA[
-    • Kami menggunakan data lokasi hanya untuk memperbarui informasi cuaca, dan hanya jika Anda mengaktifkan fitur ini.
+    • Kami hanya menggunakan data lokasi untuk memperbarui informasi cuaca, dan hanya jika Anda mengaktifkan fitur ini.
+    ]]></string>
+
+    <string name="privacy_policy_rights_title">Hak Anda</string>
+    <string name="privacy_policy_rights"><![CDATA[
+    <p>• Data analitik, crash, dan performa yang dikumpulkan bersifat anonim sepenuhnya dan tidak dapat digunakan untuk mengidentifikasi individu mana pun. Oleh karena itu, data tersebut tidak dianggap sebagai data pribadi menurut undang-undang perlindungan data yang berlaku (seperti GDPR), dan tidak tunduk pada hak akses, koreksi, atau penghapusan.</p>
+    <p>• Anda dapat menolak pengumpulan data dengan mencopot pemasangan aplikasi atau mengelola pengaturan privasi Anda di akun Google atau perangkat Anda.</p>
+    • Jika Anda memiliki pertanyaan tentang penggunaan data atau hak privasi Anda, silakan hubungi kami melalui saluran dukungan aplikasi.
     ]]></string>
 
     <string name="privacy_policy_links_title">Kebijakan privasi penyedia layanan pihak ketiga</string>
     <string name="privacy_policy_links"><![CDATA[
-        <a href="https://policies.google.com/privacy">Google Play Services</a>
-        <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
-        <p><a href="https://www.google.com/analytics/terms">Google Analytics</a></p>
-        <p><a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a></p>
-        <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>
+    <p><a href="https://policies.google.com/privacy">Kebijakan Privasi Google (termasuk Google Play Services)</a></p>
+    <p><a href="https://policies.google.com/technologies/ads">Penggunaan data oleh AdMob</a></p>
+    <p><a href="https://support.google.com/analytics/answer/6004245">Penggunaan data oleh Google Analytics</a></p>
+    <p><a href="https://firebase.google.com/terms/crashlytics">Ketentuan Firebase Crashlytics</a></p>
+    <a href="https://firebase.google.com/support/privacy">Privasi dan Keamanan Firebase (termasuk Performance Monitoring)</a>
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Status</string>
     <string name="privacy_policy_eu_consent_title_obtained">Persetujuan diperoleh</string>
     <string name="privacy_policy_eu_consent_title_personalized">Iklan yang dipersonalisasi dan relevan</string>
-    <string name="privacy_policy_eu_consent_title_non_personalized">Iklan yang tidak dipersonalisasi dan kurang relevan</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Iklan tidak dipersonalisasi dan kurang relevan</string>
     <string name="privacy_policy_eu_consent_title_unknown">Tidak diketahui</string>
 
-    <string name="privacy_policy_eu_consent_setting">Atur</string>
+    <string name="privacy_policy_eu_consent_setting">Pengaturan</string>
 
 
     <!-- Custom vibration dialog -->
@@ -851,17 +841,17 @@
 
 
     <!-- Shortcuts -->
-    <string name="shortcut">Shortcut</string>
-    <string name="shortcut_visible_items">Shortcut items</string>
-    <string name="shortcut_hidden_items">Hidden shortcut items</string>
+    <string name="shortcut">Pintasan</string>
+    <string name="shortcut_visible_items">Item pintasan yang ditampilkan</string>
+    <string name="shortcut_hidden_items">Item pintasan yang disembunyikan</string>
 
     <string name="shortcut_status">Status</string>
-    <string name="shortcut_heart_rate">Heart rate</string>
+    <string name="shortcut_heart_rate">Detak Jantung</string>
     <string name="shortcut_blood_oxygen">Oksigen Darah</string>
-    <string name="shortcut_Sleep">Tidur</string>
-    <string name="shortcut_breathing">Breathing</string>
+    <string name="shortcut_sleep">Tidur</string>
+    <string name="shortcut_breathing">Pernapasan</string>
     <string name="shortcut_weather">Cuaca</string>
-    <string name="shortcut_stress">Stress</string>
+    <string name="shortcut_stress">Stres</string>
 
 
     <!-- Others -->
@@ -872,113 +862,113 @@
 
     <string name="ad_attribution">Iklan</string>
     <string name="on">Aktif</string>
-    <string name="off">Mati</string>
+    <string name="off">Nonaktif</string>
     <string name="none">Tidak ada</string>
     <string name="heart_rate_bpm">bpm</string>
     <string name="heart_rate_mhr">MHR</string>
     <string name="date">Tanggal</string>
     <string name="time">Waktu</string>
     <string name="time_start">Waktu mulai</string>
-    <string name="time_end">Waktu berakhir</string>
+    <string name="time_end">Waktu selesai</string>
     <string name="ringer_mode_vibrate">Getar</string>
     <string name="ringer_mode_silent">Diam</string>
     <string name="ringer_mode_dnd_priority_only">Jangan ganggu (hanya prioritas)</string>
     <string name="ringer_mode_dnd_alarms_only">Jangan ganggu (hanya alarm)</string>
     <string name="ringer_mode_dnd_total_silence">Jangan ganggu (senyap total)</string>
-    <string name="unknown">Tidak dikenal</string>
+    <string name="unknown">Tidak diketahui</string>
     <string name="maximum">Maksimum</string>
-    <string name="all_day">Seharian</string>
-    <string name="timed">Timed</string>
-    <string name="file_name">File name</string>
+    <string name="all_day">Sepanjang hari</string>
+    <string name="timed">Terjadwal</string>
+    <string name="file_name">Nama file</string>
     <string name="default_">Bawaan</string>
-    <string name="default_by_phone">Default (melalui telepon)</string>
-    <string name="custom">Custom</string>
-    <string name="invalid_setting">Invalid setting</string>
+    <string name="default_by_phone">Bawaan (dari ponsel)</string>
+    <string name="custom">Kustom</string>
+    <string name="invalid_setting">Pengaturan tidak valid</string>
     <string name="ringtone">Nada dering</string>
-    <string name="ringtone_chooser">Ringtone chooser</string>
-    <string name="uninstalled">Uninstalled</string>
+    <string name="ringtone_chooser">Pilih nada dering</string>
+    <string name="uninstalled">Sudah dicopot</string>
     <string name="value">Nilai</string>
-    <string name="downloads">Downloads</string>
-    <string name="share">Share</string>
+    <string name="downloads">Unduhan</string>
+    <string name="share">Bagikan</string>
     <string name="send">Kirim</string>
     <string name="narrow">Sempit</string>
     <string name="short_">Pendek</string>
     <string name="medium">Sedang</string>
     <string name="long_">Panjang</string>
     <string name="full">Penuh</string>
-    <string name="alignment_left">Penyelarasan kiri</string>
-    <string name="alignment_center">Penyelarasan ke pusat</string>
-    <string name="alignment_right">Penyelarasan dengan benar</string>
-    <string name="visible">Bisa dilihat</string>
-    <string name="invisible">Tak terlihat</string>
+    <string name="alignment_left">Rata kiri</string>
+    <string name="alignment_center">Rata tengah</string>
+    <string name="alignment_right">Rata kanan</string>
+    <string name="visible">Terlihat</string>
+    <string name="invisible">Tidak terlihat</string>
     <string name="placeholder">Placeholder</string>
-    <string name="image_scale_fit">Fit</string>
-    <string name="image_scale_crop">Crop</string>
-    <string name="image_scale_stretch">Stretch</string>
-    <string name="resource_manager">Resource manager</string>
+    <string name="image_scale_fit">Pas</string>
+    <string name="image_scale_crop">Potong</string>
+    <string name="image_scale_stretch">Bentang</string>
+    <string name="resource_manager">Pengelola sumber daya</string>
 
     <string name="action_premium_mode">Mode premium</string>
     <string name="action_dismiss">Tutup</string>
-    <string name="action_setting">Atur</string>
+    <string name="action_setting">Pengaturan</string>
     <string name="action_delete">Hapus</string>
     <string name="action_rename">Ganti nama</string>
     <string name="action_export">Ekspor</string>
-    <string name="action_synchronization">Synchronization</string>
+    <string name="action_synchronization">Sinkronisasi</string>
     <string name="action_download">Unduh</string>
-    <string name="action_upload">Mengunggah</string>
+    <string name="action_upload">Unggah</string>
     <string name="action_backup">Cadangkan</string>
     <string name="action_restore">Pulihkan</string>
-    <string name="action_filter_no">Tidak ada filter</string>
+    <string name="action_filter_no">Tanpa filter</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_favorite">Favorit</string>
-    <string name="action_save">Simpen</string>
-    <string name="action_test">Test</string>
-    <string name="action_discard">Hapus</string>
-    <string name="action_keep_editing">Simpan pengeditan</string>
+    <string name="action_save">Simpan</string>
+    <string name="action_test">Tes</string>
+    <string name="action_discard">Buang</string>
+    <string name="action_keep_editing">Lanjutkan mengedit</string>
     <string name="action_new">Baru</string>
     <string name="action_new_file_extension">Baru %1$s</string>
     <string name="action_edit">Edit</string>
     <string name="action_start_stop">Mulai/Berhenti</string>
     <string name="action_contacts">Kontak</string>
-    <string name="action_single_selection">Pemilihan tunggal</string>
-    <string name="action_multiple_selection">Pemilihan ganda</string>
-    <string name="action_selection_boundaries">Selection boundaries</string>
-    <string name="action_object_boundaries">Object boundaries</string>
+    <string name="action_single_selection">Pilih satu</string>
+    <string name="action_multiple_selection">Pilih banyak</string>
+    <string name="action_selection_boundaries">Batas pilihan</string>
+    <string name="action_object_boundaries">Batas objek</string>
     <string name="action_select">Pilih</string>
     <string name="action_select_all">Pilih semua</string>
     <string name="action_select_texts">Pilih teks</string>
     <string name="action_select_images">Pilih gambar</string>
-    <string name="action_deselect_all">Batal pilih semua</string>
-    <string name="synchronized_from_watch">Synchronized from watch</string>
+    <string name="action_deselect_all">Batalkan semua pilihan</string>
+    <string name="synchronized_from_watch">Disinkronkan dari jam</string>
     <string name="synchronization_succeeded">Sinkronisasi berhasil</string>
     <string name="synchronization_failed">Sinkronisasi gagal</string>
 
     <string name="action_chart">Grafik</string>
-    <string name="action_zoom_in">Zoom</string>
-    <string name="action_chart_normalize_minute">Nilai terukur</string>
-    <string name="action_chart_normalize_quarter_hourly">Quarter-hourly values</string>
-    <string name="action_chart_normalize_half_hourly">Half-hourly values</string>
-    <string name="action_chart_normalize_hourly">Rata-rata per jam</string>
+    <string name="action_zoom_in">Perbesar</string>
+    <string name="action_chart_normalize_raw_data">Nilai terukur</string>
+    <string name="action_chart_normalize_quarter_hourly">Setiap 15 menit</string>
+    <string name="action_chart_normalize_half_hourly">Setiap 30 menit</string>
+    <string name="action_chart_normalize_hourly">Setiap jam</string>
     <string name="action_chart_sort_time_asc">Waktu naik</string>
     <string name="action_chart_sort_time_desc">Waktu turun</string>
     <string name="action_chart_sort_step_asc">Langkah naik</string>
     <string name="action_chart_sort_step_desc">Langkah turun</string>
-    <string name="action_chart_sort_duration_asc">Duration ascending</string>
-    <string name="action_chart_sort_duration_desc">Duration descending</string>
-    <string name="action_chart_sort_pulse_asc">Detak naik</string>
-    <string name="action_chart_sort_pulse_desc">Detak turun</string>
+    <string name="action_chart_sort_duration_asc">Durasi naik</string>
+    <string name="action_chart_sort_duration_desc">Durasi turun</string>
+    <string name="action_chart_sort_heart_rate_asc">Detak naik</string>
+    <string name="action_chart_sort_heart_rate_desc">Detak turun</string>
     <string name="action_chart_sort_spo2_asc">SpO2 naik</string>
     <string name="action_chart_sort_spo2_desc">SpO2 turun</string>
-    <string name="action_chart_sort_pressure_asc">Pressure ascending</string>
-    <string name="action_chart_sort_pressure_desc">Pressure descending</string>
-    <string name="action_chart_monthly_calendar">Calendar</string>
-    <string name="action_chart_monthly_compact">Compact</string>
+    <string name="action_chart_sort_pressure_asc">Tekanan naik</string>
+    <string name="action_chart_sort_pressure_desc">Tekanan turun</string>
+    <string name="action_chart_monthly_calendar">Kalender</string>
+    <string name="action_chart_monthly_compact">Ringkas</string>
 
     <string name="activity_progress_title_prepare">Menyiapkan sinkronisasi…</string>
-    <string name="activity_progress_title_sync">Sinkronisasi data…</string>
-    <string name="activity_progress_title_save">Penghematan data…</string>
+    <string name="activity_progress_title_sync">Menyinkronkan data…</string>
+    <string name="activity_progress_title_save">Menyimpan data…</string>
 
-    <string name="required_value">Dibutuhkan</string>
+    <string name="required_value">Wajib</string>
 
     <string name="percent_0">0%</string>
     <string name="percent_10">10%</string>
@@ -992,7 +982,7 @@
     <string name="percent_90">90%</string>
     <string name="percent_100">100%</string>
 
-    <!-- Constante -->
+    <!-- Constants -->
     <string name="const_day_of_week_sunday">Minggu</string>
     <string name="const_day_of_week_monday">Senin</string>
     <string name="const_day_of_week_tuesday">Selasa</string>
@@ -1017,33 +1007,18 @@
     <string name="const_unit_centimeter">cm</string>
     <string name="const_unit_mile">mi</string>
     <string name="const_unit_kilogram">kg</string>
-    <string name="const_unit_kcal">kcal</string>
+    <string name="const_unit_kcal">kkal</string>
     <string name="const_unit_dbm">dBm</string>
 
     <plurals name="plural_time_hour">
-        <item quantity="zero">%d hour</item>
-        <item quantity="one">%d hour</item>
-        <item quantity="two">%d hours</item>
-        <item quantity="few">%d hours</item>
-        <item quantity="many">%d hours</item>
-        <item quantity="other">%d hours</item>
+        <item quantity="other">%d jam</item>
     </plurals>
 
     <plurals name="plural_time_minute">
-        <item quantity="zero">%d menit</item>
-        <item quantity="one">%d menit</item>
-        <item quantity="two">%d menit</item>
-        <item quantity="few">%d menit</item>
-        <item quantity="many">%d menit</item>
         <item quantity="other">%d menit</item>
     </plurals>
 
     <plurals name="plural_time_second">
-        <item quantity="zero">%d detik</item>
-        <item quantity="one">%d detik</item>
-        <item quantity="two">%d detik</item>
-        <item quantity="few">%d detik</item>
-        <item quantity="many">%d detik</item>
         <item quantity="other">%d detik</item>
     </plurals>
 

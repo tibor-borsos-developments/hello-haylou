@@ -1,12 +1,11 @@
 <?xml version="1.0"?>
 
 <resources xmlns:tools="http://schemas.android.com/tools" tools:locale="zh-rTW">
-    <string name="menu_nav_home">@string/device_name</string>
     <string name="menu_nav_notification">通知</string>
     <string name="menu_nav_call">電話</string>
     <string name="menu_nav_step">活動</string>
     <string name="menu_nav_sleep">睡眠</string>
-    <string name="menu_nav_pulse">心率</string>
+    <string name="menu_nav_heart_rate">心率</string>
     <string name="menu_nav_blood_oxygen">血氧</string>
     <string name="menu_nav_blood_pressure">血壓</string>
     <string name="menu_nav_workout">鍛煉</string>
@@ -17,26 +16,24 @@
     <string name="menu_nav_weather">天氣</string>
     <string name="menu_nav_touch">觸碰</string>
     <string name="menu_nav_more">更多</string>
-    <string name="menu_nav_text_display">訊息顯示</string>
+    <string name="menu_nav_text_customization">訊息顯示</string>
     <string name="menu_nav_export">輸出</string>
     <string name="menu_nav_premium_mode">進階功能</string>
     <string name="menu_nav_feedback">反饋</string>
     <string name="menu_nav_privacy_policy">隱私權政策</string>
     <string name="menu_nav_theme">主題</string>
-<!--    <string name="menu_nav_settings" type="string">@string/settings_name</string>-->
 
     <string name="setting_name">設定</string>
     <string name="settings_name">設定</string>
     <string name="info_name">資訊</string>
     <string name="more_name">更多</string>
 
-<!--    <string name="mi_band_tracker_title">步數・距離・卡路里・目標・心率</string>-->
-    <string name="main_tracker_title">步數・目標</string>
-<!--    <string name="mi_band_battery">電池量・最後一次充電時間・預計剩餘時間</string>-->
-    <string name="device_battery">電池量・最後一次充電時間</string>
-    <string name="device_state_connected_disconnected_last_time">最後連接和斷開時間</string>
-    <string name="device_alarm">下一個鬧鐘</string>
-    <string name="device_reminder">下一個提醒</string>
+    <string name="main_item_activity_title">步數・目標</string>
+    <string name="main_item_battery">電池量・最後一次充電時間</string>
+    <string name="main_item_connect_and_disconnect_last_time">最後連接和斷開時間</string>
+    <string name="main_item_next_alarm">下一個鬧鐘</string>
+    <string name="main_item_next_reminder">下一個提醒</string>
+    <string name="main_item_call_and_notification_control">通話與通知</string>
 
     <string name="device_search">尋找 %1$s</string> <!-- %1$s = Watch name -->
     <string name="device_setting">%1$s 設定</string> <!-- %1$s = Watch name -->
@@ -49,14 +46,11 @@
     <string name="device_state_bonded">已配對裝置</string>
     <string name="device_state_not_bonded">未配對裝置</string>
 
-    <string name="pref_dnd_title">勿擾模式</string>
-
     <string name="error_title">哎呀！出事了</string>
     <string name="error_message">將應用更新為最新版本</string>
 
 
-    <!-- Haylou setting -->
-    <string name="mi_band_setting_button_title">%1$s 設定・個人資料・文字・電話・選單</string>
+    <!-- Watch connection and setting -->
     <string name="mi_band_setting_title">%1$s 設定</string>
 
     <string name="mi_band_setting_menu_connection">連接</string>
@@ -79,19 +73,19 @@
 
     <string name="message_auth_request">裝置已經配對，如果您不知道認證碼，請使用解除配對</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">點擊 %1$s 按鈕以配對裝置</string> <!-- %1$s = Watch name -->
+    <string name="message_mi_band_setting_auth_press_band_button">請按下 %1$s 的按鈕以進行配對</string>
     <string name="message_mi_band_setting_auth_success">%1$s 配對成功</string>
-    <string name="message_mi_band_setting_auth_fail">%1$s 配對失敗</string>
-    <string name="message_mi_band_setting_auth_key_invalid">無效的認證碼</string>
+    <string name="message_mi_band_setting_auth_fail">與 %1$s 配對失敗</string>
+    <string name="message_mi_band_setting_auth_key_invalid">無效的驗證金鑰</string>
 
     <string name="pref_disconnect_device">裝置斷開</string>
 
-    <string name="mi_band_setting_connection_problem_title">In case of connection problem</string>
+    <string name="mi_band_setting_connection_problem_title">如果您連接時遇到問題</string>
     <string name="mi_band_setting_connection_problem_hint"><![CDATA[
-    - Unpair the watch in the phone\'s Bluetooth settings
-    <br>- Turn Bluetooth off and on
-    <br>- Force close the Application or restart the phone
-    <br>- Pair your watch again on the main screen
+    - 在手機的藍牙設定中取消手錶配對<br>
+    - 關閉再重新開啟藍牙<br>
+    - 強制關閉應用程式或重新啟動手機<br>
+    - 從主畫面重新配對手錶
     ]]></string>
 
     <string name="mi_band_setting_dial">撥號</string>
@@ -101,14 +95,14 @@
     <string name="mi_band_setting_screen_on_duration">螢幕亮起時間</string>
     <string name="mi_band_setting_lift_wrist">抬起手腕以查看訊息</string>
     <string name="mi_band_setting_idle_alert">久坐提醒</string>
-    <string name="mi_band_setting_idle_alert_time">空閑時間</string>
+    <string name="mi_band_setting_idle_alert_duration">空閑時間</string>
     <string name="mi_band_setting_idle_alert_dnd">在我休息時不要提醒我 (12:00-14:00)</string>
 
     <string name="pref_synchronization">同步</string>
     <string name="pref_synchronization_fetch_interval">Synchronization frequency</string>
     <string name="pref_synchronization_summary">Select the data to be automatically synchronised in the background. If you do not need any of the data, turn it off for better performance. Data can still be synchronised manually on the home screen or in the appropriate menus (by sweeping down).</string>
 
-    <string name="mi_band_setting_profile">This data is needed to correctly calculate the number of steps, distance, and burned calories.</string>
+    <string name="mi_band_setting_profile">這些資料有助於更準確地計算您的步數、距離和燃燒的卡路里。</string>
     <string name="mi_band_setting_gender">性別</string>
     <string name="mi_band_setting_gender_male">男性</string>
     <string name="mi_band_setting_gender_female">女性</string>
@@ -123,21 +117,17 @@
     <!-- Battery -->
     <string name="battery_details">電池使用情況</string>
 
-    <string name="mi_band_battery_settings">電量設定</string>
-    <string name="mi_band_battery_notification">低電量提醒</string>
-    <string name="mi_band_battery_notification_level">電量閾值</string>
-    <string name="mi_band_battery_notification_repeat_interval">重複間隔</string>
-    <string name="mi_band_battery_notification_shade">在手機上通知</string>
-    <string name="mi_band_battery_notification_shade_error">Notification display permission is restricted</string>
-    <string name="mi_band_battery_notification_shade_ongoing">持續（不斷的）通知</string>
-    <string name="mi_band_battery_notification_shade_message">電量低於： %1$,d%%</string>
-    <string name="mi_band_battery_notification_mi_band">在手環上通知</string>
-    <string name="mi_band_battery_notification_mi_band_message">電量： %1$,d%%</string>
+    <string name="battery_settings">電量設定</string>
+    <string name="battery_settings_notification">低電量提醒</string>
+    <string name="battery_settings_notification_level">電量閾值</string>
+    <string name="battery_settings_notification_repeat_interval">重複間隔</string>
+    <string name="battery_settings_notification_on_phone">在手機上通知</string>
+    <string name="battery_settings_notification_on_phone_ongoing">持續（不斷的）通知</string>
+    <string name="battery_settings_notification_on_phone_message">電量低於： %1$,d%%</string>
+    <string name="battery_settings_notification_on_device">在手環上通知</string>
+    <string name="battery_settings_notification_on_device_message">電量： %1$,d%%</string>
 
-    <!-- PreferenceScreen -->
-    <string name="pref_connected_have_notif_interval_title">重複提醒間隔</string>
-    <string name="pref_connected_have_notif_interval_summary">通知 / 提醒 使用此定時</string>
-
+    <!-- Preference screens -->
     <string name="pref_battery_phone">手機電量</string>
     <string name="pref_battery_phone_summary">低電量或充滿電時通知</string>
     <string name="pref_cat_battery_phone_low">低電量</string>
@@ -248,31 +238,30 @@
     ]]></string>
 
 
-    <!-- Call -->
+    <!-- Incoming call alert -->
     <string name="call_tab_call">來電</string>
     <string name="call_tab_contacts">聯絡方式</string>
 
-    <string name="pref_cat_call">來電</string>
-    <string name="pref_call_summary_on">（開）不要忘記在%1$s應用程式上關閉來電通知</string> <!-- %1$s = official app name -->
-    <string name="pref_call_text_title">來電顯示</string>
+    <string name="call_incoming">來電</string>
+    <string name="call_incoming_summary_on">（開）不要忘記在%1$s應用程式上關閉來電通知</string> <!-- %1$s = official app name -->
+    <string name="call_incoming_caller_id">來電顯示</string>
 
     <string name="pref_call_notification_rejected">顯示拒接來電的通知</string>
     <string name="pref_call_notification_rejected_message">拒接來電</string>
     <string name="pref_call_notification_rejected_action">通話</string>
 
-    <string name="pref_call_net_text_title">網路電話通知</string>
+    <string name="call_incoming_net_alert_title">網路電話通知</string>
 
-    <string name="pref_cat_call_missed">未接來電</string>
-    <string name="pref_call_missed_title">未接來電通知</string>
-
-    <string name="pref_call_missed_alert_title">%1$s 通知</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="call_missed_title">未接來電通知</string>
+    <string name="call_missed_chooser_title">%1$s 通知</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="call_missed_notification">未接來電</string>
 
     <string name="call_reject_button_action">拒接按鈕</string>
 
     <string name="touch_call_answer_title">接聽來電</string>
     <string name="touch_call_answer_speakerphone_title">手機喇叭</string>
 
-    <string name="touch_call_end_title">通話拒接，結束</string>
+    <string name="call_end_title">通話拒接，結束</string>
 
     <string name="touch_call_mute_title">通話靜音</string>
     <string name="touch_call_mute_only_call_state_ringing_title">僅當有來電時</string>
@@ -299,15 +288,15 @@
     <string name="notification_group_monitoring">監控通知</string>
     <string name="notification_group_monitoring_disabled">禁用通知（不顯示該程式的通知）</string>
     <string name="notification_group_alert_title">%1$s signal</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
-    <string name="notification_group_text">文字顯示</string>
+    <string name="notification_group_text_customization">文字顯示</string>
     <string name="notification_group_text_app_name">程式名稱</string>
     <string name="notification_group_text_name">名稱</string>
     <string name="notification_group_text_title">標題</string>
     <string name="notification_group_text_content">內容</string>
     <string name="notification_group_text_big_content">全部內容</string>
     <string name="notification_group_text_content_slice_title">文字長度</string>
-    <string name="notification_group_display_time_title">顯示時間</string>
-    <string name="notification_group_display_notification_title">顯示通知</string>
+    <string name="notification_group_display_duration_title">顯示時間</string>
+    <string name="notification_group_show_notification_title">顯示通知</string>
     <string name="notification_group_immediate">收到消息時立刻通知</string>
     <string name="notification_group_connecting">連結到手機時</string>
     <string name="notification_group_reminder">提醒信號</string>
@@ -348,7 +337,6 @@
     In publishing and graphic design, lorem ipsum is a filler text or greeking commonly used to demonstrate the textual elements of a graphic document or visual presentation.
         \nReplacing meaningful content with placeholder text allows designers to design the form of the content before the content itself has been produced.
     </string>
-    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> 圖示: 選擇此圖示以顯示通知標題/內容。]]></string>
 
 
     <!-- App chooser dialog -->
@@ -356,7 +344,6 @@
     <string name="action_search">尋找</string>
     <string name="action_filter_notification">過濾通知</string>
 
-    <string name="main_control">控制</string>
 
     <!-- Activity -->
     <string name="step_details">活動資訊</string>
@@ -383,10 +370,10 @@
     <string name="sleep_deep">深眠</string>
     <string name="sleep_rem">REM</string>
 
-    <!-- Pulse -->
-    <string name="pulse_details">心率資訊</string>
+    <!-- Heart rate -->
+    <string name="heart_rate_details">心率資訊</string>
 
-    <string name="pulse_continuous_title">持續測量心率</string>
+    <string name="heart_rate_continuous_title">持續測量心率</string>
 
     <string name="heart_rate_warning_title">心率警示</string>
     <string name="low_and_high_heart_rates">心率閾值</string>
@@ -433,7 +420,7 @@
     <string name="message_reminder_disabled">提醒已禁用</string>
 
     <string name="reminder_repeat">每小時重複</string>
-    <string name="reminder_notification_shade">在手机上通知</string>
+    <string name="reminder_notification_on_phone">在手机上通知</string>
 
     <string name="message_time_reminder_free_counter">免費模式下最多可使用1個提醒</string>
 
@@ -466,7 +453,7 @@
     <string name="watch_face_upload_prepare">正在准备上传…</string>
     <string name="watch_face_upload_progress">上传中… %1$,d%%</string>
 
-    <string name="watch_face_invalid_firmware">%1$s firmware does not support uploading the watch face, update the firmware in the official application</string> <!-- %1$s = Haylou Smart watch ... -->
+    <string name="watch_face_invalid_firmware">%1$s 韌體未知或不支援上傳錶面。請使用官方應用程式更新韌體。如果官方應用程式支援上傳錶面，請透過反饋選單告知我們。</string>
     <string name="watch_face_invalid_auth">Use in standalone mode, when using cooperation mode, the official application may block the watch face upload</string>
     <string name="watch_face_invalid_free">在免費模式下，今天無法再上傳更多錶盤</string>
     <string name="watch_face_watch_rewarded_ads">觀看影片以繼續</string>
@@ -547,8 +534,8 @@
     <string name="watch_face_edit_icon">Icon</string>
     <string name="watch_face_edit_image_size">圖片尺寸</string>
 
-    <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
-    <string name="watch_face_custom_watch_face_under_development_title">The ability to upload custom watch faces is currently in development and may be available in the future, but it is not yet confirmed</string>
+    <string name="watch_face_custom_watch_face_not_supported_title">此手錶不支援上傳自訂錶面</string>
+    <string name="watch_face_custom_watch_face_under_development_title">自訂錶面上傳功能目前正在開發中，未來可能會提供，但尚未確認。</string>
 
     <!-- Touch monitoring -->
     <string name="touch_tab_function">功能</string>
@@ -682,7 +669,7 @@
 
     <string name="weather_forecast_title">天氣預測</string>
 
-    <string name="weather_setting_provider">天氣資訊來源</string>
+    <string name="weather_setting_provider">天氣服務提供者</string>
     <string name="weather_city_title">城市</string>
     <string name="weather_unit_title">單位</string>
     <string name="weather_unit_metric">攝氏 (Celsius)</string>
@@ -700,8 +687,6 @@
     <string name="weather_current_location">目前位置</string>
     <string name="weather_current_temperature">目前氣溫</string>
 
-    <string name="weather_display">顯示</string>
-
     <string name="weather_precipitation_rain">下雨</string>
     <string name="weather_precipitation_snow">下雪</string>
     <string name="weather_cloud_cover_abbreviation">雲蓋</string>
@@ -714,7 +699,9 @@
     <string name="weather_west">西</string>
 
 
-    <!-- Text display -->
+    <!-- Text customization -->
+    <string name="pref_text_reminder_repeat_interval_title">重複提醒間隔</string>
+    <string name="pref_text_reminder_repeat_interval_summary">通知 / 提醒 使用此定時</string>
     <string name="pref_text_emoticon_title">表情符號轉換</string>
     <string name="pref_text_emoticon_summary_on">將表情符號轉換為顏文字</string>
     <string name="pref_text_uppercase_title">大寫轉換</string>
@@ -753,38 +740,41 @@
 
 
     <!-- Premium mode -->
-    <string name="purchase_advantage_title">高级模式特权</string>
+    <string name="purchase_advantage_title">高級模式的優點</string>
     <string name="purchase_advantage"><![CDATA[
-        <p>• financial support for development</p>
-        <p>• no ads</p>
-        <p>• notification setting is not limited</p>
-        <p>• call setting is not limited</p>
-        <p>• the number of alarms is not limited (the number of alarms is limited by the clock)</p>
-        <p>• do not disturb mode is not limited</p>
-        <p>• more frequent weather synchronization, location can be updated automatically, AccuWeather provider can be set</p>
-        <p>• touch setting is not limited</p>
-        <p>• detailed daily graphs</p>
-        • removing other restrictions…
+    <p>• 為開發提供財務支持</p>
+    <p>• 無廣告</p>
+    <p>• 通知設定無上限</p>
+    <p>• 通話設定無上限</p>
+    <p>• 每日可無限制上傳錶面</p>
+    <p>• 鬧鐘數量無限制（可能受手錶限制）</p>
+    <p>• 「請勿打擾」模式無限制</p>
+    <p>• 觸控設定無限制</p>
+    <p>• 更頻繁的天氣更新、自動位置更新，可選擇使用 AccuWeather</p>
+    <p>• 詳細的每日圖表</p>
+    • 解鎖所有其他功能限制…
     ]]></string>
-    <string name="purchase_policy_title">高級模式的條款與條件</string>
+
+    <string name="purchase_policy_title">高級模式的使用條款</string>
     <string name="purchase_policy"><![CDATA[
-    <p>• 我已測試應用程式，且其運作正常。</p>
-    <p>• 我了解，由於軟體或硬體環境的變更或使用其他應用程式所導致的錯誤，我無法要求賠償或退款。</p>
-    <p>• 所有銷售皆為最終決定，恕不退款（Google 的退款政策除外）。</p>
-    <p>• 不包含任何保固。</p>
-    <p>• 使用此應用程式需自行承擔風險，開發者不負責任何因使用本應用而產生的直接或間接損害或資料遺失的責任。</p>
-    <i>購買後請重新啟動應用程式。</i>
+    <p>• 我已經測試此應用程式，確認其功能如預期運作。</p>
+    <p>• 我了解因系統更新（例如 Android 版本變更）、硬體問題或與其他應用程式衝突所造成的問題，無法申請退款或賠償。</p>
+    <p>• 所有購買皆為最終決定，恕不退款（除非符合 Google 的退款政策）。</p>
+    <p>• 本應用程式不提供任何明示或暗示的保證。</p>
+    <p>• 使用本應用程式需自行承擔風險。開發者對於任何因使用本程式所造成的直接或間接損害或資料遺失概不負責。</p>
+    <p>• 高級模式將綁定至您的 Google 帳戶，重新安裝應用程式後仍會保持啟用。</p>
+    <i>購買完成後，請重新啟動應用程式。</i>
     ]]></string>
 
     <string name="purchase_google_play_services_not_available">谷歌游戏服务不可用</string>
 
-    <!--<string name="purchase_price">Price:</string>-->
     <string name="purchase_agree">我同意這條款和條件。</string>
     <string name="purchase_order_id">訂單ID</string>
     <string name="purchase_order_id_help">Copy from:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
-    <string name="purchase_info">One-time payment ・ %1$s</string> <!-- %1$s = price</string>-->
+
+    <string name="purchase_info">One-time fee ・ %1$s</string> <!-- %1$s = price</string>-->
     <string name="purchase_button_purchase">一次費用</string>
 
     <!-- Feedback -->
@@ -802,41 +792,58 @@
     <string name="privacy_policy_tab_eu_consent">歐盟和美國使用者同意</string>
     <string name="privacy_policy_tab_non_eu_consent">其他地區使用者同意</string>
 
-    <string name="privacy_policy_collect_title">我們收集以下信息</string>
+    <string name="privacy_policy_collect_title">我們蒐集的資訊</string>
     <string name="privacy_policy_collect"><![CDATA[
-        <p>• We only collect anonymous information.</p>
-        <p>• We collect information at the application level about the services that you use and how you use them (Google Analytics).</p>
-        <p>• We collect information at the application level like bugs, errors, and crashes to provide improvements (Firebase Crashlytics).</p>
-        <p>• We collect information at the application level about the performance (Firebase Performance Monitoring).</p>
-        <p>• Google Firebase Platform collects information anonymously. It reports trends without identifying individual users.
-        The Firebase Platform collects data such as Firebase installation ID, application state, relevant device metadata (device model, CPU architecture, RAM and disk size, OS, screen orientation, country, locale/language), stack traces, performance metrics (including app start time and network request latency, network URLs), CPU/memory usage, IP address …
-        </p>
-        • We collect location data to update the weather based on your current location (optional).
+    <p>• 我們僅蒐集匿名資訊。</p>
+    <p>• 我們在應用程式層級蒐集有關您使用哪些服務以及您如何使用它們的資訊（Google Analytics）。</p>
+    <p>• 我們蒐集應用錯誤、當機和故障資訊以改善應用表現（Firebase Crashlytics）。</p>
+    <p>• 我們蒐集應用程式的效能資料（Firebase Performance Monitoring）。</p>
+    <p>• Google Firebase 平台以匿名方式蒐集資訊，報告使用趨勢而不識別個別使用者。
+    蒐集的資料包括 Firebase 安裝 ID、應用狀態、裝置相關元資料（例如裝置型號、CPU 架構、記憶體與儲存空間、作業系統、螢幕方向、國家、語言／地區）、錯誤追蹤紀錄（stack trace）、效能指標（如啟動時間、網路延遲、URL）、CPU／記憶體使用率，以及大致的 IP 位址…</p>
+    <p>• 我們會根據您的目前位置蒐集位置資訊，以更新天氣資訊（選用）。</p>
+    • 我們蒐集與處理這些資料的法律依據是我們在改善應用功能與效能、維護穩定性與可用性方面的合法利益。
     ]]></string>
 
-    <string name="privacy_policy_not_collect_title">我們不收集的資訊</string>
+    <string name="privacy_policy_cookies_title">Cookies 與類似技術</string>
+    <string name="privacy_policy_cookies"><![CDATA[
+    • 某些第三方服務（例如 AdMob）可能會使用 cookies 或類似技術來顯示個人化廣告。您可在 Google 帳戶設定中管理廣告個人化偏好。
+    ]]></string>
+
+    <string name="privacy_policy_retention_title">資料保留</string>
+    <string name="privacy_policy_retention"><![CDATA[
+    • 蒐集的資料將依照 Google Firebase 的政策進行保留，僅用於分析、診斷與效能改善的必要期間。
+    ]]></string>
+
+    <string name="privacy_policy_not_collect_title">我們不會蒐集的資訊</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-    <p>• 我們不收集可識別您身份的個人資訊。這意味著我們不會收集，例如，您的姓名、地址、電話號碼、電子郵件地址或MAC地址等個人資料。</p>
-    • 我們不收集個人健康資料、聯絡人或手機通知的內容。
+    <p>• 我們不會蒐集可識別您身分的個人資訊。也就是說，我們不會蒐集您的姓名、住址、電話號碼、電子郵件地址或 MAC 位址。</p>
+    • 我們不會蒐集健康資料、聯絡人或您裝置上顯示的通知內容。
     ]]></string>
 
     <string name="privacy_policy_share_title">我們分享的資訊</string>
     <string name="privacy_policy_share"><![CDATA[
-    • 除了Google和廣告提供商之外，我們不會與其他公司或組織分享任何資料。
+    • 除了 Google 與廣告服務供應商外，我們不會將任何資料與公司或組織分享。
     ]]></string>
 
-    <string name="privacy_policy_use_title">我們使用的個人和敏感用戶資料</string>
+    <string name="privacy_policy_use_title">我們使用的個人與敏感資料</string>
     <string name="privacy_policy_use"><![CDATA[
-    • 我們僅在您啟用此功能的情況下使用位置資料來更新天氣資訊。
+    • 我們僅在您啟用此功能時使用位置資料，以更新天氣資訊。
     ]]></string>
 
-    <string name="privacy_policy_links_title">第三方服務提供商的隱私政策</string>
+    <string name="privacy_policy_rights_title">您的權利</string>
+    <string name="privacy_policy_rights"><![CDATA[
+    <p>• 所蒐集的分析、錯誤與效能資料皆為匿名資訊，無法用來識別個人，因此不構成個人資料，亦不受相關資料保護法（如 GDPR）下的存取、更正或刪除權之規範。</p>
+    <p>• 您可以透過解除安裝應用程式，或在 Google 帳戶或裝置的隱私設定中停用資料蒐集。</p>
+    • 若您對資料使用或隱私權有任何疑問，請透過應用程式的支援管道與我們聯絡。
+    ]]></string>
+
+    <string name="privacy_policy_links_title">第三方服務提供者的隱私政策</string>
     <string name="privacy_policy_links"><![CDATA[
-        <a href="https://policies.google.com/privacy">Google Play Services</a>
-        <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
-        <p><a href="https://www.google.com/analytics/terms">Google Analytics</a></p>
-        <p><a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a></p>
-        <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>
+    <p><a href="https://policies.google.com/privacy">Google 隱私權政策（含 Google Play 服務）</a></p>
+    <p><a href="https://policies.google.com/technologies/ads">AdMob 資料使用方式</a></p>
+    <p><a href="https://support.google.com/analytics/answer/6004245">Google Analytics 資料使用方式</a></p>
+    <p><a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics 使用條款</a></p>
+    <a href="https://firebase.google.com/support/privacy">Firebase 隱私與安全（含效能監控）</a>
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">狀態</string>
@@ -860,7 +867,7 @@
     <string name="shortcut_status">状态</string>
     <string name="shortcut_heart_rate">心率</string>
     <string name="shortcut_blood_oxygen">血氧</string>
-    <string name="shortcut_Sleep">睡眠</string>
+    <string name="shortcut_sleep">睡眠</string>
     <string name="shortcut_breathing">Breathing</string>
     <string name="shortcut_weather">天气</string>
     <string name="shortcut_stress">Stress</string>
@@ -957,7 +964,7 @@
 
     <string name="action_chart">圖表</string>
     <string name="action_zoom_in">放大</string>
-    <string name="action_chart_normalize_minute">測量值</string>
+    <string name="action_chart_normalize_raw_data">測量值</string>
     <string name="action_chart_normalize_quarter_hourly">每25分鐘測量值</string>
     <string name="action_chart_normalize_half_hourly">每半小時測量值</string>
     <string name="action_chart_normalize_hourly">每小時測量值</string>
@@ -967,8 +974,8 @@
     <string name="action_chart_sort_step_desc">步數 降序</string>
     <string name="action_chart_sort_duration_asc">Duration ascending</string>
     <string name="action_chart_sort_duration_desc">Duration descending</string>
-    <string name="action_chart_sort_pulse_asc">心率 升序</string>
-    <string name="action_chart_sort_pulse_desc">心率 降序</string>
+    <string name="action_chart_sort_heart_rate_asc">心率 升序</string>
+    <string name="action_chart_sort_heart_rate_desc">心率 降序</string>
     <string name="action_chart_sort_spo2_asc">SpO2 ascending</string>
     <string name="action_chart_sort_spo2_desc">SpO2 descending</string>
     <string name="action_chart_sort_pressure_asc">Pressure ascending</string>
@@ -994,7 +1001,7 @@
     <string name="percent_90">90%</string>
     <string name="percent_100">100%</string>
 
-    <!-- Constante -->
+    <!-- Constants -->
     <string name="const_day_of_week_sunday">星期日</string>
     <string name="const_day_of_week_monday">星期一</string>
     <string name="const_day_of_week_tuesday">星期二</string>
@@ -1023,29 +1030,14 @@
     <string name="const_unit_dbm">分貝</string>
 
     <plurals name="plural_time_hour">
-        <item quantity="zero">%d 小時</item>
-        <item quantity="one">%d 小時</item>
-        <item quantity="two">%d 小時</item>
-        <item quantity="few">%d 小時</item>
-        <item quantity="many">%d 小時</item>
-        <item quantity="other">%d 小時</item>
+        <item quantity="other">%d小時</item>
     </plurals>
 
     <plurals name="plural_time_minute">
-        <item quantity="zero">%d 分鐘</item>
-        <item quantity="one">%d 分鐘</item>
-        <item quantity="two">%d 分鐘</item>
-        <item quantity="few">%d 分鐘</item>
-        <item quantity="many">%d 分鐘</item>
-        <item quantity="other">%d 分鐘</item>
+        <item quantity="other">%d分鐘</item>
     </plurals>
 
     <plurals name="plural_time_second">
-        <item quantity="zero">%d 秒</item>
-        <item quantity="one">%d 秒</item>
-        <item quantity="two">%d 秒</item>
-        <item quantity="few">%d 秒</item>
-        <item quantity="many">%d 秒</item>
-        <item quantity="other">%d 秒</item>
+        <item quantity="other">%d秒</item>
     </plurals>
 </resources>

@@ -1,12 +1,11 @@
 <?xml version="1.0"?>
 
 <resources xmlns:tools="http://schemas.android.com/tools" tools:locale="no">
-    <string name="menu_nav_home">@string/device_name</string>
     <string name="menu_nav_notification">Notifikasjon</string>
     <string name="menu_nav_call">Anrop</string>
     <string name="menu_nav_step">Aktivitet</string>
     <string name="menu_nav_sleep">Søvn</string>
-    <string name="menu_nav_pulse">Puls</string>
+    <string name="menu_nav_heart_rate">Puls</string>
     <string name="menu_nav_blood_oxygen">Blood oxygen</string>
     <string name="menu_nav_blood_pressure">Blodtrykk</string>
     <string name="menu_nav_workout">Trene</string>
@@ -17,26 +16,24 @@
     <string name="menu_nav_weather">Vær</string>
     <string name="menu_nav_touch">Trykk</string>
     <string name="menu_nav_more">Mer</string>
-    <string name="menu_nav_text_display">Text utseende</string>
+    <string name="menu_nav_text_customization">Text utseende</string>
     <string name="menu_nav_export">Exportere</string>
     <string name="menu_nav_premium_mode">Premium modus</string>
     <string name="menu_nav_feedback">Tilbakemelding</string>
     <string name="menu_nav_privacy_policy">Personvern policy</string>
     <string name="menu_nav_theme">Stil</string>
-<!--    <string name="menu_nav_settings" type="string">@string/settings_name</string>-->
 
     <string name="setting_name">Instilling</string>
     <string name="settings_name">Instillinger</string>
     <string name="info_name">Informasjon</string>
     <string name="more_name">Mer</string>
 
-<!--    <string name="mi_band_tracker_title">Skritt・distanse・kalorier・mål・puls</string>-->
-    <string name="main_tracker_title">Skritt・mål</string>
-<!--    <string name="mi_band_battery">Batteri-level・siste lade tid・beregnet gjenværende tid</string>-->
-    <string name="device_battery">Batteri-level・siste lade tid</string>
-    <string name="device_state_connected_disconnected_last_time">Siste tilkoblings og frakoblings-tid</string>
-    <string name="device_alarm">Neste alarm</string>
-    <string name="device_reminder">Neste påminnelse</string>
+    <string name="main_item_activity_title">Skritt・mål</string>
+    <string name="main_item_battery">Batteri-level・siste lade tid</string>
+    <string name="main_item_connect_and_disconnect_last_time">Siste tilkoblings og frakoblings-tid</string>
+    <string name="main_item_next_alarm">Neste alarm</string>
+    <string name="main_item_next_reminder">Neste påminnelse</string>
+    <string name="main_item_call_and_notification_control">Samtaler og varsler</string>
 
     <string name="device_search">%1$s search</string>  <!-- %1$s = Watch name -->
     <string name="device_setting">%1$s-instillinger</string> <!-- %1$s = Watch name -->
@@ -49,14 +46,11 @@
     <string name="device_state_bonded">Parret enhet</string>
     <string name="device_state_not_bonded">Ikke parret enhet</string>
 
-    <string name="pref_dnd_title">Ikke forstyrr modus</string>
-
     <string name="error_title">Oops! Noe gikk galt</string>
     <string name="error_message">Oppdater appen til den siste versjonen</string>
 
 
-    <!-- Haylou setting -->
-    <string name="mi_band_setting_button_title">%1$s-instillinger・Profil・Text・Anrop・Meny</string>
+    <!-- Watch connection and setting -->
     <string name="mi_band_setting_title">%1$s-instillinger</string>
 
     <string name="mi_band_setting_menu_connection">Tilkobling</string>
@@ -68,7 +62,7 @@
     <string name="mi_band_setting_auth_mi_fit">%1$s cooperation</string> <!-- Haylou Fit-->
     <string name="mi_band_setting_auth_mi_fit_hint">%3$s behøver installasjon av den offisielle %1$s appen på den samme telefonen. først må du parre %2$s i %1$s appen, så kan du bruke %3$s. If you want to use %1$s, choose this.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
     <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the %3$s to work. After the pairing, uninstall the %1$s app or unpair the smartwatch. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the %3$s to work. After the pairing, uninstall the %1$s app or unpair the smartwatch. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. Make sure the %2$s screen is turned on during pairing operations.</string>
     <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
 
     <string name="mi_band_setting_auth_key">Autentiseringsnøkkel</string>
@@ -77,21 +71,21 @@
     <string name="mi_band_setting_auth_pair">Par</string>
     <string name="mi_band_setting_auth_unpair">Fjern paring</string>
 
-    <string name="message_auth_request">It is paired, if you do not know the key, use the unpair</string>
+    <string name="message_auth_request">Your device is already paired. If you don\'t know the key, please unpair it.</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Watch name -->
-    <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
-    <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
-    <string name="message_mi_band_setting_auth_key_invalid">Invalid authentication key</string>
+    <string name="message_mi_band_setting_auth_press_band_button">Trykk på knappen på %1$s for å pare enheten</string>
+    <string name="message_mi_band_setting_auth_success">%1$s ble paret med suksess</string>
+    <string name="message_mi_band_setting_auth_fail">Paring med %1$s mislyktes</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Ugyldig autentiseringsnøkkel</string>
 
     <string name="pref_disconnect_device">Frakobling</string>
 
-    <string name="mi_band_setting_connection_problem_title">In case of connection problem</string>
+    <string name="mi_band_setting_connection_problem_title">Hvis du har problemer med tilkoblingen</string>
     <string name="mi_band_setting_connection_problem_hint"><![CDATA[
-    - Unpair the watch in the phone\'s Bluetooth settings
-    <br>- Turn Bluetooth off and on
-    <br>- Force close the Application or restart the phone
-    <br>- Pair your watch again on the main screen
+    - Fjern sammenkoblingen av klokken i telefonens Bluetooth-innstillinger<br>
+    - Slå av og på Bluetooth<br>
+    - Tving avslutning av appen eller start telefonen på nytt<br>
+    - Prøv å koble klokken til igjen fra hovedskjermen
     ]]></string>
 
     <string name="mi_band_setting_dial">Dial</string>
@@ -101,14 +95,14 @@
     <string name="mi_band_setting_lift_wrist">Løft hånda for å vise info</string>
     <string name="mi_band_setting_screen_on_duration">Screen on duration</string>
     <string name="mi_band_setting_idle_alert">Sedentary reminder</string>
-    <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
+    <string name="mi_band_setting_idle_alert_duration">Inactivity time</string>
     <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest (12:00-14:00)</string>
 
     <string name="pref_synchronization">Synchronization</string>
     <string name="pref_synchronization_fetch_interval">Synchronization frequency</string>
     <string name="pref_synchronization_summary">Select the data to be automatically synchronised in the background. If you do not need any of the data, turn it off for better performance. Data can still be synchronised manually on the home screen or in the appropriate menus (by sweeping down).</string>
 
-    <string name="mi_band_setting_profile">This data is needed to correctly calculate the number of steps, distance, and burned calories.</string>
+    <string name="mi_band_setting_profile">Disse detaljene hjelper til med å beregne skritt, avstand og forbrente kalorier mer nøyaktig.</string>
     <string name="mi_band_setting_gender">Kjønn</string>
     <string name="mi_band_setting_gender_male">Mann</string>
     <string name="mi_band_setting_gender_female">Hunn</string>
@@ -123,21 +117,17 @@
     <!-- Battery -->
     <string name="battery_details">Batteri detaljer</string>
 
-    <string name="mi_band_battery_settings">Batteri-instilling</string>
-    <string name="mi_band_battery_notification">Lavt batteri-level notifikasjon</string>
-    <string name="mi_band_battery_notification_level">Igjenværende atteri-level</string>
-    <string name="mi_band_battery_notification_repeat_interval">Repetere interval</string>
-    <string name="mi_band_battery_notification_shade">Notifiser på telefonen</string>
-    <string name="mi_band_battery_notification_shade_error">Notification display permission is restricted</string>
-    <string name="mi_band_battery_notification_shade_ongoing">Vedværende (pågående) notifikasjon</string>
-    <string name="mi_band_battery_notification_shade_message">Batteri-level er lavere enn %1$,d%%</string>
-    <string name="mi_band_battery_notification_mi_band">Notifiser på armklokka</string>
-    <string name="mi_band_battery_notification_mi_band_message">Batteri: %1$,d%%</string>
+    <string name="battery_settings">Batteri-instilling</string>
+    <string name="battery_settings_notification">Lavt batteri-level notifikasjon</string>
+    <string name="battery_settings_notification_level">Igjenværende atteri-level</string>
+    <string name="battery_settings_notification_repeat_interval">Repetere interval</string>
+    <string name="battery_settings_notification_on_phone">Notifiser på telefonen</string>
+    <string name="battery_settings_notification_on_phone_ongoing">Vedværende (pågående) notifikasjon</string>
+    <string name="battery_settings_notification_on_phone_message">Batteri-level er lavere enn %1$,d%%</string>
+    <string name="battery_settings_notification_on_device">Notifiser på armklokka</string>
+    <string name="battery_settings_notification_on_device_message">Batteri: %1$,d%%</string>
 
     <!-- Skjerm-instilling -->
-    <string name="pref_connected_have_notif_interval_title">Påminnelse gjentakelses-interval</string>
-    <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
-
     <string name="pref_battery_phone">Telefon batteri</string>
     <string name="pref_battery_phone_summary">Lavt og fullt batteri level-notifikasjon</string>
     <string name="pref_cat_battery_phone_low">Lavt batteri-level</string>
@@ -257,15 +247,15 @@
     <string name="notification_group_monitoring">Monitorering notifikasjoner</string>
     <string name="notification_group_monitoring_disabled">Deaktivert notifikasjoner (ikke vis applikasjon notifikasjoner)</string>
     <string name="notification_group_alert_title">%1$s signal</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
-    <string name="notification_group_text">Vis Text</string>
+    <string name="notification_group_text_customization">Vis Text</string>
     <string name="notification_group_text_app_name">Programnavn</string>
     <string name="notification_group_text_name">Navn</string>
     <string name="notification_group_text_title">Tittel</string>
     <string name="notification_group_text_content">Kontent</string>
     <string name="notification_group_text_big_content">Full content</string>
     <string name="notification_group_text_content_slice_title">Text lengde</string>
-    <string name="notification_group_display_time_title">Visningstid</string>
-    <string name="notification_group_display_notification_title">Display notification</string>
+    <string name="notification_group_display_duration_title">Visningstid</string>
+    <string name="notification_group_show_notification_title">Display notification</string>
     <string name="notification_group_immediate">Umiddelbart signal når notifikasjon er mottatt</string>
     <string name="notification_group_connecting">Tilkobles til telefon</string>
     <string name="notification_group_reminder">Påminnelse av signal</string>
@@ -306,34 +296,32 @@
     Ved publisering og grafisk design, lorem ipsum er en fyllende text eller greeking som vanligvis pleide å demonstrere de textuelle elementer av et grafisk dokument eller visuell presentasjon.
         \n Erstatter meningsfull kontent med stedsholder-text muliggjør designere å designe formen av kontentet før kontentet selv har vært produsert.
     </string>
-    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> icon: velg dette ikonet for å vise notifikasjonene tittel/kontent.]]></string>
 
 
-    <!-- Call -->
+    <!-- Incoming call alert -->
     <string name="call_tab_call">Inkommende anrop</string>
     <string name="call_tab_contacts">Kontakter</string>
 
-    <string name="pref_cat_call">Inkommende anrop</string>
-    <string name="pref_call_summary_on">Ikke glem å skru av inkommende anrops-varsler på %1$s appen</string> <!-- %1$s = official app name -->
-    <string name="pref_call_text_title">Vis alle anrops-IDer</string>
+    <string name="call_incoming">Inkommende anrop</string>
+    <string name="call_incoming_summary_on">Ikke glem å skru av inkommende anrops-varsler på %1$s appen</string> <!-- %1$s = official app name -->
+    <string name="call_incoming_caller_id">Vis alle anrops-IDer</string>
 
     <string name="pref_call_notification_rejected">Show notification about rejected call</string>
     <string name="pref_call_notification_rejected_message">Rejected call</string>
     <string name="pref_call_notification_rejected_action">Call</string>
 
-    <string name="pref_call_net_text_title">Inkommende internett-anrop signal</string>
+    <string name="call_incoming_net_alert_title">Inkommende internett-anrop signal</string>
 
-    <string name="pref_cat_call_missed">Tapt anrop</string>
-    <string name="pref_call_missed_title">Tapt anrop signal</string>
-
-    <string name="pref_call_missed_alert_title">%1$s-signal</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="call_missed_title">Tapt anrop signal</string>
+    <string name="call_missed_chooser_title">%1$s-signal</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="call_missed_notification">Tapt anrop</string>
 
     <string name="call_reject_button_action">Avvis knappen</string>
 
     <string name="touch_call_answer_title">Svar på anrop</string>
     <string name="touch_call_answer_speakerphone_title">Høyttaler</string>
 
-    <string name="touch_call_end_title">Avvis anrop, ending</string>
+    <string name="call_end_title">Avvis anrop, ending</string>
 
     <string name="touch_call_mute_title">Call mute</string>
     <string name="touch_call_mute_only_call_state_ringing_title">Bare hvis du har et inkommende anrop</string>
@@ -356,7 +344,6 @@
     <string name="action_search">Søk</string>
     <string name="action_filter_notification">Notifikasjon filter</string>
 
-    <string name="main_control">Kontroll</string>
 
     <!-- Activity -->
     <string name="step_details">Skritt detailer</string>
@@ -384,10 +371,10 @@
     <string name="sleep_rem">REM</string>
 
 
-    <!-- Pulse -->
-    <string name="pulse_details">Puls detaljer</string>
+    <!-- Heart rate -->
+    <string name="heart_rate_details">Puls detaljer</string>
 
-    <string name="pulse_continuous_title">Sammenhengende puls measurementering</string>
+    <string name="heart_rate_continuous_title">Sammenhengende puls measurementering</string>
 
     <string name="heart_rate_warning_title">Heart rate warning</string>
     <string name="low_and_high_heart_rates">Low and high heart rate thresholds</string>
@@ -434,7 +421,7 @@
     <string name="message_reminder_disabled">Påminnelse deaktivert</string>
 
     <string name="reminder_repeat">Timebasert gjentakelse</string>
-    <string name="reminder_notification_shade">Notifiser på telefonen</string>
+    <string name="reminder_notification_on_phone">Notifiser på telefonen</string>
 
     <string name="message_time_reminder_free_counter">Opptil 1 påminnelse kan brukes i gratis modus</string>
 
@@ -467,7 +454,7 @@
     <string name="watch_face_upload_prepare">Preparing for the upload…</string>
     <string name="watch_face_upload_progress">Uploading %1$,d%%</string>
 
-    <string name="watch_face_invalid_firmware">%1$s firmware does not support uploading the watch face, update the firmware in the official application</string> <!-- %1$s = Haylou Smart watch ... -->
+    <string name="watch_face_invalid_firmware">Firmware %1$s er ukjent eller støtter ikke opplasting av urskiver. Oppdater fastvaren ved hjelp av den offisielle appen. Hvis den offisielle appen støtter opplasting av urskiver, gi oss beskjed via Tilbakemeldingsmenyen.</string>
     <string name="watch_face_invalid_auth">Use in standalone mode, when using cooperation mode, the official application may block the watch face upload</string>
     <string name="watch_face_invalid_free">I gratismodus kan du ikke laste opp flere urskiver i dag</string>
     <string name="watch_face_watch_rewarded_ads">Se en video for å fortsette</string>
@@ -547,8 +534,8 @@
     <string name="watch_face_edit_icon">Icon</string>
     <string name="watch_face_edit_image_size">Bildestørrelse</string>
 
-    <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
-    <string name="watch_face_custom_watch_face_under_development_title">The ability to upload custom watch faces is currently in development and may be available in the future, but it is not yet confirmed</string>
+    <string name="watch_face_custom_watch_face_not_supported_title">Denne klokken støtter ikke opplasting av egendefinerte urskiver</string>
+    <string name="watch_face_custom_watch_face_under_development_title">Funksjonen for å laste opp egendefinerte urskiver er under utvikling og kan bli tilgjengelig i fremtiden, men dette er ennå ikke bekreftet.</string>
 
     <!-- Touch monitoring -->
     <string name="touch_tab_function">Function</string>
@@ -681,7 +668,7 @@
 
     <string name="weather_forecast_title">Været fremover</string>
 
-    <string name="weather_setting_provider">Weather provider</string>
+    <string name="weather_setting_provider">Værleverandør</string>
     <string name="weather_city_title">By</string>
     <string name="weather_unit_title">Enhet</string>
     <string name="weather_unit_metric">Metrisk (Celsius)</string>
@@ -699,8 +686,6 @@
     <string name="weather_current_location">Current location</string>
     <string name="weather_current_temperature">Nåværende temperatur</string>
 
-    <string name="weather_display">Fremover</string>
-
     <string name="weather_precipitation_rain">Regn</string>
     <string name="weather_precipitation_snow">Snø</string>
     <string name="weather_cloud_cover_abbreviation">Cc</string>
@@ -713,7 +698,9 @@
     <string name="weather_west">W</string>
 
 
-    <!-- Text display -->
+    <!-- Text customization -->
+    <string name="pref_text_reminder_repeat_interval_title">Påminnelse gjentakelses-interval</string>
+    <string name="pref_text_reminder_repeat_interval_summary">Notification/reminder alert function uses this timing</string>
     <string name="pref_text_emoticon_title">Emoji-konvertering</string>
     <string name="pref_text_emoticon_summary_on">Konverter emoji til emotikon</string>
     <string name="pref_text_uppercase_title">Store bokstaver konvertering</string>
@@ -752,28 +739,32 @@
 
 
     <!-- Premium modus -->
-    <string name="purchase_advantage_title">Premium modus egenskaper</string>
+    <string name="purchase_advantage_title">Fordeler med Premium-modus</string>
     <string name="purchase_advantage"><![CDATA[
-        <p>• financial support for development</p>
-        <p>• no ads</p>
-        <p>• notification setting is not limited</p>
-        <p>• call setting is not limited</p>
-        <p>• the number of alarms is not limited (the number of alarms is limited by the clock)</p>
-        <p>• do not disturb mode is not limited</p>
-        <p>• more frequent weather synchronization, location can be updated automatically, AccuWeather provider can be set</p>
-        <p>• touch setting is not limited</p>
-        <p>• detailed daily graphs</p>
-        • removing other restrictions…
+    <p>• økonomisk støtte til videreutvikling</p>
+    <p>• ingen annonser</p>
+    <p>• ubegrensede varslingsinnstillinger</p>
+    <p>• ubegrensede innstillinger for samtaler</p>
+    <p>• ubegrenset daglig opplasting av urskiver</p>
+    <p>• ubegrenset antall alarmer (kan være begrenset av klokken)</p>
+    <p>• ubegrenset «Ikke forstyrr»-modus</p>
+    <p>• ubegrensede berøringsinnstillinger</p>
+    <p>• hyppigere værmeldinger, automatisk posisjonsoppdatering, mulighet for å bruke AccuWeather</p>
+    <p>• detaljerte daglige grafer</p>
+    • lås opp alle andre funksjonsbegrensninger…
     ]]></string>
-    <string name="purchase_policy_title">Vilkår og betingelser for Premium-modus</string>
+
+    <string name="purchase_policy_title">Vilkår for Premium-modus</string>
     <string name="purchase_policy"><![CDATA[
-    <p>• Jeg har testet appen, og den fungerer som den skal.</p>
-    <p>• Jeg er klar over at jeg ikke kan kreve kompensasjon eller refusjon på grunn av feil eller programvareproblemer forårsaket av endringer i programvare- eller maskinvaremiljøet eller bruk av andre applikasjoner.</p>
-    <p>• Alle salg er endelige og kan ikke refunderes (unntatt i henhold til Googles refusjonspolicy).</p>
-    <p>• Ingen garanti er inkludert.</p>
-    <p>• Denne appen brukes på eget ansvar, og utvikleren fraskriver seg alle tilleggsgarantier, inkludert ethvert direkte eller indirekte ansvar for skader eller datatap som følge av bruk.</p>
-    <i>Etter kjøpet må du starte appen på nytt.</i>
+    <p>• Jeg har testet appen og bekrefter at den fungerer som forventet.</p>
+    <p>• Jeg forstår at jeg ikke kan be om refusjon eller kompensasjon for problemer som skyldes systemendringer (som Android-oppdateringer), maskinvare eller konflikter med andre apper.</p>
+    <p>• Alle kjøp er endelige og kan ikke refunderes (med mindre det er tillatt i henhold til Google\'s refusjonspolicy).</p>
+    <p>• Denne appen leveres uten noen form for garanti, verken uttrykt eller underforstått.</p>
+    <p>• Bruk av appen skjer på eget ansvar. Utvikleren er ikke ansvarlig for direkte eller indirekte skader eller tap av data forårsaket av bruken.</p>
+    <p>• Premium-modusen er knyttet til Google-kontoen din og forblir aktiv etter reinstallering av appen.</p>
+    <i>Appen må startes på nytt etter kjøpet.</i>
     ]]></string>
+
 
     <string name="purchase_google_play_services_not_available">Google Play-tjenester er ikke tilgjengelige</string>
 
@@ -783,6 +774,7 @@
     <string name="purchase_order_id_help">Kopiere fra:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+
     <string name="purchase_info">Engangs avgift ・ %1$s</string> <!-- %1$s = price</string>-->
     <string name="purchase_button_purchase">Kjøp</string>
 
@@ -803,39 +795,56 @@
 
     <string name="privacy_policy_collect_title">Informasjon vi samler inn</string>
     <string name="privacy_policy_collect"><![CDATA[
-        <p>• Vi samler bare inn anonym informasjon.</p>
-        <p>• Vi samler informasjon på appens level om servicen som du bruker og hvordan du bruker dem (Google Analytics).</p>
-        <p>• Vi samler informasjon i applikasjonens level som bugs, feil og krasj for å gjøre forbedrelser. (Firebase Crashlytics).</p>
-        <p>• We collect information at the application level about the performance (Firebase Performance Monitoring).</p>
-        <p>• Google Firebase Platform samler informasjon anonymt. det rapporterer trender uten å identifisere individuelle brukere.
-        The Firebase Platform collects data such as Firebase installation ID, application state, relevant device metadata (device model, CPU architecture, RAM and disk size, OS, screen orientation, country, locale/language), stack traces, performance metrics (including app start time and network request latency, network URLs), CPU/memory usage, IP address …
-        </p>
-        • We collect location data to update the weather based on your current location (optional).
+    <p>• Vi samler kun inn anonym informasjon.</p>
+    <p>• Vi samler inn informasjon på applikasjonsnivå om hvilke tjenester du bruker og hvordan du bruker dem (Google Analytics).</p>
+    <p>• Vi samler inn informasjon om feil, problemer og krasj for å forbedre appen (Firebase Crashlytics).</p>
+    <p>• Vi samler inn ytelsesdata for appen (Firebase Performance Monitoring).</p>
+    <p>• Google Firebase-plattformen samler inn informasjon anonymt. Den rapporterer trender uten å identifisere enkeltbrukere.
+    Dataene som samles inn inkluderer blant annet Firebase-installasjons-ID, apptilstand, relevant enhetsinformasjon (enhetsmodell, CPU-arkitektur, RAM og lagringsplass, operativsystem, skjermretning, land, språk/lokale), feillogger (stack traces), ytelsesdata (inkludert appens oppstartstid og nettverksforsinkelse, nettverks-URLer), CPU-/minnebruk og omtrentlig IP-adresse.</p>
+    <p>• Vi samler inn posisjonsdata for å oppdatere værinformasjonen basert på din nåværende plassering (valgfritt).</p>
+    • Det juridiske grunnlaget for innsamling og behandling av disse dataene er vår legitime interesse i å forbedre appens funksjonalitet og ytelse, samt å sikre stabilitet og brukervennlighet.
+    ]]></string>
+
+    <string name="privacy_policy_cookies_title">Informasjonskapsler og lignende teknologier</string>
+    <string name="privacy_policy_cookies"><![CDATA[
+    • Enkelte tredjepartstjenester som AdMob kan bruke informasjonskapsler eller lignende teknologier for å vise personlige annonser. Du kan administrere annonseinnstillinger i din Google-konto.
+    ]]></string>
+
+    <string name="privacy_policy_retention_title">Lagring av data</string>
+    <string name="privacy_policy_retention"><![CDATA[
+    • Data som samles inn, lagres av Google Firebase i henhold til deres retningslinjer og kun så lenge det er nødvendig for analyse, feilsøking og ytelsesforbedringer.
     ]]></string>
 
     <string name="privacy_policy_not_collect_title">Informasjon vi ikke samler inn</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-    <p>• Vi samler ikke inn personlig identifiserbar informasjon om deg. Dette betyr at vi for eksempel ikke samler inn personlige data som ditt navn, adresse, telefonnummer, e-postadresse eller MAC-adresse.</p>
-    • Vi samler ikke inn personlige helseopplysninger, kontakter eller innholdet i telefonvarsler.
+    <p>• Vi samler ikke inn personlig identifiserbar informasjon. Det betyr at vi ikke samler inn navn, adresse, telefonnummer, e-postadresse eller MAC-adresse.</p>
+    • Vi samler ikke inn helseopplysninger, kontakter eller innholdet i varsler som vises på enheten din.
     ]]></string>
 
     <string name="privacy_policy_share_title">Informasjon vi deler</string>
     <string name="privacy_policy_share"><![CDATA[
-    • Vi deler ikke data med selskaper eller organisasjoner annet enn Google og annonseleverandører.
+    • Vi deler ikke noen data med selskaper eller organisasjoner, bortsett fra Google og annonsesamarbeidspartnere.
     ]]></string>
 
-    <string name="privacy_policy_use_title">Personlige og sensitive brukerdata vi bruker</string>
+    <string name="privacy_policy_use_title">Personopplysninger og sensitive data vi bruker</string>
     <string name="privacy_policy_use"><![CDATA[
-    • Vi bruker posisjonsdata kun for å oppdatere værinformasjonen, og bare hvis du aktiverer denne funksjonen.
+    • Vi bruker posisjonsdata kun for å oppdatere værinformasjon, og kun hvis du har aktivert denne funksjonen.
     ]]></string>
 
-    <string name="privacy_policy_links_title">Personvernerklæring for tredjeparts tjenesteleverandører</string>
+    <string name="privacy_policy_rights_title">Dine rettigheter</string>
+    <string name="privacy_policy_rights"><![CDATA[
+    <p>• Analyse-, krasj- og ytelsesdata som samles inn, er helt anonyme og kan ikke brukes til å identifisere enkeltpersoner. Derfor anses de ikke som personopplysninger i henhold til gjeldende personvernlovgivning (for eksempel GDPR), og omfattes ikke av rettigheter til innsyn, retting eller sletting.</p>
+    <p>• Du kan velge bort datainnsamling ved å avinstallere appen eller administrere personverninnstillinger i Google-kontoen din eller på enheten din.</p>
+    • Hvis du har spørsmål om databruk eller dine personvernrettigheter, kan du kontakte oss via appens kundestøtte.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">Personvernerklæringer fra tredjepartsleverandører</string>
     <string name="privacy_policy_links"><![CDATA[
-        <a href="https://policies.google.com/privacy">Google Play Services</a>
-        <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
-        <p><a href="https://www.google.com/analytics/terms">Google Analytics</a></p>
-        <p><a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a></p>
-        <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>
+    <p><a href="https://policies.google.com/privacy">Googles personvernerklæring (inkludert Google Play-tjenester)</a></p>
+    <p><a href="https://policies.google.com/technologies/ads">Dataanvendelse fra AdMob</a></p>
+    <p><a href="https://support.google.com/analytics/answer/6004245">Dataanvendelse fra Google Analytics</a></p>
+    <p><a href="https://firebase.google.com/terms/crashlytics">Vilkår for Firebase Crashlytics</a></p>
+    <a href="https://firebase.google.com/support/privacy">Firebase personvern og sikkerhet (inkludert Performance Monitoring)</a>
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Status</string>
@@ -859,7 +868,7 @@
     <string name="shortcut_status">Status</string>
     <string name="shortcut_heart_rate">Puls</string>
     <string name="shortcut_blood_oxygen">Blood oxygen</string>
-    <string name="shortcut_Sleep">Søvn</string>
+    <string name="shortcut_sleep">Søvn</string>
     <string name="shortcut_breathing">Breathing</string>
     <string name="shortcut_weather">Vær</string>
     <string name="shortcut_stress">Stress</string>
@@ -956,7 +965,7 @@
 
     <string name="action_chart">Kart</string>
     <string name="action_zoom_in">Zoom</string>
-    <string name="action_chart_normalize_minute">målte valuer</string>
+    <string name="action_chart_normalize_raw_data">målte valuer</string>
     <string name="action_chart_normalize_quarter_hourly">Kvartal-timelige valuer</string>
     <string name="action_chart_normalize_half_hourly">Halv-timelige valuer</string>
     <string name="action_chart_normalize_hourly">Time valuer</string>
@@ -966,8 +975,8 @@
     <string name="action_chart_sort_step_desc">Skritt mindre</string>
     <string name="action_chart_sort_duration_asc">Duration ascending</string>
     <string name="action_chart_sort_duration_desc">Duration descending</string>
-    <string name="action_chart_sort_pulse_asc">Puls stigende</string>
-    <string name="action_chart_sort_pulse_desc">Puls synkende</string>
+    <string name="action_chart_sort_heart_rate_asc">Puls stigende</string>
+    <string name="action_chart_sort_heart_rate_desc">Puls synkende</string>
     <string name="action_chart_sort_spo2_asc">SpO2 ascending</string>
     <string name="action_chart_sort_spo2_desc">SpO2 descending</string>
     <string name="action_chart_sort_pressure_asc">Pressure ascending</string>
@@ -993,7 +1002,7 @@
     <string name="percent_90">90%</string>
     <string name="percent_100">100%</string>
 
-    <!-- Constante -->
+    <!-- Constants -->
     <string name="const_day_of_week_sunday">Søndag</string>
     <string name="const_day_of_week_monday">Mandag</string>
     <string name="const_day_of_week_tuesday">Tirsdag</string>
@@ -1022,29 +1031,17 @@
     <string name="const_unit_dbm">dBm</string>
 
     <plurals name="plural_time_hour">
-        <item quantity="zero">%d hour</item>
         <item quantity="one">%d time</item>
-        <item quantity="two">%d timer</item>
-        <item quantity="few">%d timer</item>
-        <item quantity="many">%d timer</item>
         <item quantity="other">%d timer</item>
     </plurals>
 
     <plurals name="plural_time_minute">
-        <item quantity="zero">%d minutt</item>
         <item quantity="one">%d minutt</item>
-        <item quantity="two">%d minutter</item>
-        <item quantity="few">%d minutter</item>
-        <item quantity="many">%d minutter</item>
         <item quantity="other">%d minutter</item>
     </plurals>
 
     <plurals name="plural_time_second">
-        <item quantity="zero">%d sekund</item>
         <item quantity="one">%d sekund</item>
-        <item quantity="two">%d sekunder</item>
-        <item quantity="few">%d sekunder</item>
-        <item quantity="many">%d sekunder</item>
         <item quantity="other">%d sekunder</item>
     </plurals>
 </resources>

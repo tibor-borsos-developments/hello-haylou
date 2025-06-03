@@ -1,12 +1,11 @@
 <?xml version="1.0"?>
 
 <resources xmlns:tools="http://schemas.android.com/tools" tools:locale="ro">
-    <string name="menu_nav_home">@string/device_name</string>
     <string name="menu_nav_notification">Notificări</string>
     <string name="menu_nav_call">Apel</string>
     <string name="menu_nav_step">Activități</string>
     <string name="menu_nav_sleep">Somn</string>
-    <string name="menu_nav_pulse">Puls</string>
+    <string name="menu_nav_heart_rate">Puls</string>
     <string name="menu_nav_blood_oxygen">Oxigen din sânge</string>
     <string name="menu_nav_blood_pressure">Tensiune arterială</string>
     <string name="menu_nav_workout">Antrenament</string>
@@ -17,26 +16,24 @@
     <string name="menu_nav_weather">Vremea</string>
     <string name="menu_nav_touch">Control tactil</string>
     <string name="menu_nav_more">Mai multe</string>
-    <string name="menu_nav_text_display">Afișare text</string>
+    <string name="menu_nav_text_customization">Afișare text</string>
     <string name="menu_nav_export">Export</string>
     <string name="menu_nav_premium_mode">Mod premium</string>
     <string name="menu_nav_feedback">Feedback</string>
     <string name="menu_nav_privacy_policy">Politica de confidențialitate</string>
     <string name="menu_nav_theme">Temă</string>
-<!--    <string name="menu_nav_settings" type="string">@string/settings_name</string>-->
 
     <string name="setting_name">Setare</string>
     <string name="settings_name">Setări</string>
     <string name="info_name">Informații</string>
     <string name="more_name">Mai multe</string>
 
-<!--    <string name="mi_band_tracker_title">Pași・distanță・calorii・țintă・puls</string>-->
-    <string name="main_tracker_title">Pași・țintă</string>
-<!--    <string name="mi_band_battery">Nivelul bateriei・data ultimei încărcări・estimarea timpului rămas</string>-->
-    <string name="device_battery">Nivelul bateriei・data ultimei încărcări</string>
-    <string name="device_state_connected_disconnected_last_time">Data ultimei conectări și deconectări</string>
-    <string name="device_alarm">Alarma următoare</string>
-    <string name="device_reminder">Următorul memento</string>
+    <string name="main_item_activity_title">Pași・țintă</string>
+    <string name="main_item_battery">Nivelul bateriei・data ultimei încărcări</string>
+    <string name="main_item_connect_and_disconnect_last_time">Data ultimei conectări și deconectări</string>
+    <string name="main_item_next_alarm">Alarma următoare</string>
+    <string name="main_item_next_reminder">Următorul memento</string>
+    <string name="main_item_call_and_notification_control">Apeluri și notificări</string>
 
     <string name="device_search">%1$s search</string> <!-- %1$s = Watch name -->
     <string name="device_setting">Setări %1$s</string> <!-- %1$s = Watch name -->
@@ -49,14 +46,11 @@
     <string name="device_state_bonded">Dispozitiv împerecheat</string>
     <string name="device_state_not_bonded">Dispozitiv neîmperecheat</string>
 
-    <string name="pref_dnd_title">Modul Nu deranja</string>
-
     <string name="error_title">Ups! Ceva a mers prost</string>
     <string name="error_message">Actualizați aplicația la cea mai recentă versiune</string>
 
 
-    <!-- Haylou setting -->
-    <string name="mi_band_setting_button_title">Setări %1$s・Profil・Text・Apel・Meniu</string>
+    <!-- Watch connection and setting -->
     <string name="mi_band_setting_title">Setări %1$s</string>
 
     <string name="mi_band_setting_menu_connection">Conexiune</string>
@@ -68,7 +62,7 @@
     <string name="mi_band_setting_auth_mi_fit">%1$s cooperation</string> <!-- Haylou Fit-->
     <string name="mi_band_setting_auth_mi_fit_hint">%3$s necesită instalarea aplicației oficiale %1$s pe același telefon. La început trebuie să împerechezi %2$s în aplicația %1$s, apoi poți folosi %3$s. If you want to use %1$s, choose this.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
     <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the %3$s to work. After the pairing, uninstall the %1$s app or unpair the smartwatch. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted.  The %2$s screen must be turned on while performing operations.</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the %3$s to work. After the pairing, uninstall the %1$s app or unpair the smartwatch. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. Make sure the %2$s screen is turned on during pairing operations.</string>
     <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
 
     <string name="mi_band_setting_auth_key">Cheie de autentificare</string>
@@ -77,21 +71,21 @@
     <string name="mi_band_setting_auth_pair">Asociază</string>
     <string name="mi_band_setting_auth_unpair">Dezasociază</string>
 
-    <string name="message_auth_request">It is paired, if you do not know the key, use the unpair</string>
+    <string name="message_auth_request">Your device is already paired. If you don\'t know the key, please unpair it.</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Mi Band 3, Zepp Bip ... -->
-    <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
-    <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
-    <string name="message_mi_band_setting_auth_key_invalid">Invalid authentication key</string>
+    <string name="message_mi_band_setting_auth_press_band_button">Apasă butonul de pe %1$s pentru asociere</string>
+    <string name="message_mi_band_setting_auth_success">%1$s a fost asociat cu succes</string>
+    <string name="message_mi_band_setting_auth_fail">Asocierea cu %1$s a eșuat</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Cheie de autentificare invalidă</string>
 
     <string name="pref_disconnect_device">Deconectare</string>
 
-    <string name="mi_band_setting_connection_problem_title">In case of connection problem</string>
+    <string name="mi_band_setting_connection_problem_title">Dacă întâmpini probleme de conectare</string>
     <string name="mi_band_setting_connection_problem_hint"><![CDATA[
-    - Unpair the watch in the phone\'s Bluetooth settings
-    <br>- Turn Bluetooth off and on
-    <br>- Force close the Application or restart the phone
-    <br>- Pair your watch again on the main screen
+    - Anulează împerecherea ceasului în setările Bluetooth ale telefonului<br>
+    - Dezactivează și reactivează Bluetooth<br>
+    - Închide forțat aplicația sau repornește telefonul<br>
+    - Încearcă să împerechezi din nou ceasul de pe ecranul principal
     ]]></string>
 
     <string name="mi_band_setting_dial">Față de ceas</string>
@@ -101,14 +95,14 @@
     <string name="mi_band_setting_lift_wrist">Ridică încheietura mâinii pentru a vedea informații</string>
     <string name="mi_band_setting_screen_on_duration">Screen on duration</string>
     <string name="mi_band_setting_idle_alert">Alerte de inactivitate</string>
-    <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
+    <string name="mi_band_setting_idle_alert_duration">Inactivity time</string>
     <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest (12:00-14:00)</string>
 
     <string name="pref_synchronization">Sincronizează</string>
     <string name="pref_synchronization_fetch_interval">Synchronization frequency</string>
     <string name="pref_synchronization_summary">Select the data to be automatically synchronised in the background. If you do not need any of the data, turn it off for better performance. Data can still be synchronised manually on the home screen or in the appropriate menus (by sweeping down).</string>
 
-    <string name="mi_band_setting_profile">This data is needed to correctly calculate the number of steps, distance, and burned calories.</string>
+    <string name="mi_band_setting_profile">Aceste date ajută la calcularea mai precisă a pașilor, distanței și caloriilor arse.</string>
     <string name="mi_band_setting_gender">Sex</string>
     <string name="mi_band_setting_gender_male">Masculin</string>
     <string name="mi_band_setting_gender_female">Feminin</string>
@@ -123,21 +117,17 @@
     <!-- Battery -->
     <string name="battery_details">Utilizarea bateriei</string>
 
-    <string name="mi_band_battery_settings">Setări baterie</string>
-    <string name="mi_band_battery_notification">Notificare nivel scăzut baterie</string>
-    <string name="mi_band_battery_notification_level">Prag nivel baterie</string>
-    <string name="mi_band_battery_notification_repeat_interval">Interval repetare</string>
-    <string name="mi_band_battery_notification_shade">Anunță-mă pe telefon</string>
-    <string name="mi_band_battery_notification_shade_error">Notification display permission is restricted</string>
-    <string name="mi_band_battery_notification_shade_ongoing">Notificare persistentă (continuă)</string>
-    <string name="mi_band_battery_notification_shade_message">Nivelul bateriei este scăzut: %1$,d%%</string>
-    <string name="mi_band_battery_notification_mi_band">Anunță-mă pe brățară</string>
-    <string name="mi_band_battery_notification_mi_band_message">Baterie: %1$,d%%</string>
+    <string name="battery_settings">Setări baterie</string>
+    <string name="battery_settings_notification">Notificare nivel scăzut baterie</string>
+    <string name="battery_settings_notification_level">Prag nivel baterie</string>
+    <string name="battery_settings_notification_repeat_interval">Interval repetare</string>
+    <string name="battery_settings_notification_on_phone">Anunță-mă pe telefon</string>
+    <string name="battery_settings_notification_on_phone_ongoing">Notificare persistentă (continuă)</string>
+    <string name="battery_settings_notification_on_phone_message">Nivelul bateriei este scăzut: %1$,d%%</string>
+    <string name="battery_settings_notification_on_device">Anunță-mă pe brățară</string>
+    <string name="battery_settings_notification_on_device_message">Baterie: %1$,d%%</string>
 
-    <!-- PreferenceScreen -->
-    <string name="pref_connected_have_notif_interval_title">Interval repetare reamintiri</string>
-    <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
-
+    <!-- Preference screens -->
     <string name="pref_battery_phone">Bateria telefonului</string>
     <string name="pref_battery_phone_summary">Notificări nivel baterie scăzut și complet</string>
     <string name="pref_cat_battery_phone_low">Nivel scăzut al bateriei</string>
@@ -256,15 +246,15 @@
     <string name="notification_group_monitoring">Monitorizare notificări</string>
     <string name="notification_group_monitoring_disabled">Dezactivează notificările (nu se afișează notificările aplicației)</string>
     <string name="notification_group_alert_title">Semnal %1$s</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
-    <string name="notification_group_text">Afișare text</string>
+    <string name="notification_group_text_customization">Afișare text</string>
     <string name="notification_group_text_app_name">Nume aplicație</string>
     <string name="notification_group_text_name">Nume</string>
     <string name="notification_group_text_title">Titlu</string>
     <string name="notification_group_text_content">Conținut</string>
     <string name="notification_group_text_big_content">Conținut complet</string>
     <string name="notification_group_text_content_slice_title">Lungime text</string>
-    <string name="notification_group_display_time_title">Timp de afișare</string>
-    <string name="notification_group_display_notification_title">Display notification</string>
+    <string name="notification_group_display_duration_title">Timp de afișare</string>
+    <string name="notification_group_show_notification_title">Display notification</string>
     <string name="notification_group_immediate">Semnal imediat când este primită notificarea</string>
     <string name="notification_group_connecting">Când se conectează la telefon</string>
     <string name="notification_group_reminder">Semnal reamintire</string>
@@ -305,34 +295,32 @@
     În publicarea și designul grafic, lorem ipsum este un text de umplutură sau un text folosit în mod obișnuit pentru a demonstra elementele textuale ale unui document grafic sau unei prezentări vizuale.
         \n Înlocuirea conținutului semnificativ cu textul înlocuitor permite designerilor să proiecteze forma conținutului înainte ca conținutul în sine să fi fost produs.
     </string>
-    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> pictogramă: alege această pictogramă pentru a afișa titlul/conținutul notificării.]]></string>
 
 
-    <!-- Call -->
+    <!-- Incoming call alert -->
     <string name="call_tab_call">Apel primit</string>
     <string name="call_tab_contacts">Contacte</string>
 
-    <string name="pref_cat_call">Apel primit</string>
-    <string name="pref_call_summary_on">Nu uita să dezactivezi alertele de apel primit în aplicația %1$s</string> <!-- %1$s = official app name -->
-    <string name="pref_call_text_title">Afișează identitatea apelantului</string>
+    <string name="call_incoming">Apel primit</string>
+    <string name="call_incoming_summary_on">Nu uita să dezactivezi alertele de apel primit în aplicația %1$s</string> <!-- %1$s = official app name -->
+    <string name="call_incoming_caller_id">Afișează identitatea apelantului</string>
 
     <string name="pref_call_notification_rejected">Show notification about rejected call</string>
     <string name="pref_call_notification_rejected_message">Rejected call</string>
     <string name="pref_call_notification_rejected_action">Call</string>
 
-    <string name="pref_call_net_text_title">Semnalul de apel primit pe Internet</string>
+    <string name="call_incoming_net_alert_title">Semnalul de apel primit pe Internet</string>
 
-    <string name="pref_cat_call_missed">Apel pierdut</string>
-    <string name="pref_call_missed_title">Semnal apel pierdut</string>
-
-    <string name="pref_call_missed_alert_title">Semnal %1$s</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="call_missed_title">Semnal apel pierdut</string>
+    <string name="call_missed_chooser_title">Semnal %1$s</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="call_missed_notification">Apel pierdut</string>
 
     <string name="call_reject_button_action">Butonul de respingere</string>
 
     <string name="touch_call_answer_title">Răspuns la apel</string>
     <string name="touch_call_answer_speakerphone_title">Difuzor</string>
 
-    <string name="touch_call_end_title">Respingere, oprire apel</string>
+    <string name="call_end_title">Respingere, oprire apel</string>
 
     <string name="touch_call_mute_title">Comutator apel silențios</string>
     <string name="touch_call_mute_only_call_state_ringing_title">Doar dacă primești un apel</string>
@@ -355,7 +343,6 @@
     <string name="action_search">Căutare</string>
     <string name="action_filter_notification">Filtru notificare</string>
 
-    <string name="main_control">Control</string>
 
     <!-- Activity -->
     <string name="step_details">Detaliile activității</string>
@@ -383,10 +370,10 @@
     <string name="sleep_rem">REM</string>
 
 
-    <!-- Pulse -->
-    <string name="pulse_details">Detalii puls</string>
+    <!-- Heart rate -->
+    <string name="heart_rate_details">Detalii puls</string>
 
-    <string name="pulse_continuous_title">Măsurare continuă a pulsului</string>
+    <string name="heart_rate_continuous_title">Măsurare continuă a pulsului</string>
 
     <string name="heart_rate_warning_title">Avertizare ritm cardiac</string>
     <string name="low_and_high_heart_rates">Praguri ritm cardiac</string>
@@ -433,7 +420,7 @@
     <string name="message_reminder_disabled">Reamintire dezactivată</string>
 
     <string name="reminder_repeat">Repetare orară</string>
-    <string name="reminder_notification_shade">Notifică pe telefon</string>
+    <string name="reminder_notification_on_phone">Notifică pe telefon</string>
 
     <string name="message_time_reminder_free_counter">Până la 1 memento poate fi folosit în modul gratuit</string>
 
@@ -466,7 +453,7 @@
     <string name="watch_face_upload_prepare">Preparing for the upload…</string>
     <string name="watch_face_upload_progress">Uploading %1$,d%%</string>
 
-    <string name="watch_face_invalid_firmware">%1$s firmware does not support uploading the watch face, update the firmware in the official application</string> <!-- %1$s = Haylou Smart watch ... -->
+    <string name="watch_face_invalid_firmware">Firmware-ul %1$s este necunoscut sau nu suportă încărcarea fețelor de ceas. Vă rugăm să actualizați firmware-ul folosind aplicația oficială. Dacă aplicația oficială suportă încărcarea fețelor de ceas, vă rugăm să ne anunțați prin meniul Feedback.</string>
     <string name="watch_face_invalid_auth">Use in standalone mode, when using cooperation mode, the official application may block the watch face upload</string>
     <string name="watch_face_invalid_free">În modul gratuit, nu se mai pot încărca cadrane astăzi</string>
     <string name="watch_face_watch_rewarded_ads">Vizionați un videoclip pentru a continua</string>
@@ -546,8 +533,8 @@
     <string name="watch_face_edit_icon">Icon</string>
     <string name="watch_face_edit_image_size">Marimea imaginii</string>
 
-    <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
-    <string name="watch_face_custom_watch_face_under_development_title">The ability to upload custom watch faces is currently in development and may be available in the future, but it is not yet confirmed</string>
+    <string name="watch_face_custom_watch_face_not_supported_title">Acest ceas nu acceptă încărcarea de fețe de ceas personalizate</string>
+    <string name="watch_face_custom_watch_face_under_development_title">Funcția de încărcare a fețelor de ceas personalizate este în curs de dezvoltare și poate deveni disponibilă în viitor, dar nu este încă confirmată.</string>
 
     <!-- Touch monitoring -->
     <string name="touch_tab_function">Function</string>
@@ -681,7 +668,7 @@
 
     <string name="weather_forecast_title">Prognoza meteo</string>
 
-    <string name="weather_setting_provider">Weather provider</string>
+    <string name="weather_setting_provider">Furnizor meteo</string>
     <string name="weather_city_title">Oraș</string>
     <string name="weather_unit_title">Unități de măsură</string>
     <string name="weather_unit_metric">Metric (Celsius)</string>
@@ -699,8 +686,6 @@
     <string name="weather_current_location">Current location</string>
     <string name="weather_current_temperature">Temperatura actuală</string>
 
-    <string name="weather_display">Afișează</string>
-
     <string name="weather_precipitation_rain">Ploaie</string>
     <string name="weather_precipitation_snow">Zăpadă</string>
     <string name="weather_cloud_cover_abbreviation">Cc</string>
@@ -713,7 +698,9 @@
     <string name="weather_west">W</string>
 
 
-    <!-- Text display -->
+    <!-- Text customization -->
+    <string name="pref_text_reminder_repeat_interval_title">Interval repetare reamintiri</string>
+    <string name="pref_text_reminder_repeat_interval_summary">Notification/reminder alert function uses this timing</string>
     <string name="pref_text_emoticon_title">Conversie emoji</string>
     <string name="pref_text_emoticon_summary_on">Convertește emoji în emoticon</string>
     <string name="pref_text_uppercase_title">Conversie la majuscule</string>
@@ -754,36 +741,40 @@
     <!-- Premium mode -->
     <string name="purchase_advantage_title">Avantajele modului Premium</string>
     <string name="purchase_advantage"><![CDATA[
-        <p>• financial support for development</p>
-        <p>• no ads</p>
-        <p>• notification setting is not limited</p>
-        <p>• call setting is not limited</p>
-        <p>• the number of alarms is not limited (the number of alarms is limited by the clock)</p>
-        <p>• do not disturb mode is not limited</p>
-        <p>• more frequent weather synchronization, location can be updated automatically, AccuWeather provider can be set</p>
-        <p>• touch setting is not limited</p>
-        <p>• detailed daily graphs</p>
-        • removing other restrictions…
+    <p>• sprijin financiar pentru dezvoltare</p>
+    <p>• fără reclame</p>
+    <p>• setări de notificare nelimitate</p>
+    <p>• setări de apel nelimitate</p>
+    <p>• încărcări zilnice nelimitate de fețe pentru ceas</p>
+    <p>• număr nelimitat de alarme (limitat de ceas)</p>
+    <p>• mod „Nu deranja” nelimitat</p>
+    <p>• setări tactile nelimitate</p>
+    <p>• actualizări meteo mai frecvente, actualizare automată a locației, opțiune de utilizare a AccuWeather</p>
+    <p>• grafice zilnice detaliate</p>
+    • deblocarea tuturor celorlalte limitări ale funcțiilor…
     ]]></string>
+
     <string name="purchase_policy_title">Termeni și condiții pentru modul Premium</string>
     <string name="purchase_policy"><![CDATA[
-    <p>• Am testat aplicația și funcționează corect.</p>
-    <p>• Sunt conștient că nu pot solicita compensații sau rambursări din cauza erorilor software cauzate de modificări ale mediului software sau hardware ori de utilizarea altor aplicații.</p>
-    <p>• Toate vânzările sunt finale și nu pot fi rambursate (cu excepția politicii de rambursare Google).</p>
-    <p>• Nu este oferită nicio garanție.</p>
-    <p>• Aplicația este utilizată pe propria răspundere, iar dezvoltatorul exclude toate garanțiile suplimentare, inclusiv răspunderea directă sau indirectă pentru daune sau pierderi de date rezultate din utilizare.</p>
-    <i>După achiziție, este necesară repornirea aplicației.</i>
+    <p>• Am testat aplicația și funcționează conform așteptărilor.</p>
+    <p>• Înțeleg că nu pot solicita rambursare sau despăgubire pentru probleme cauzate de actualizări ale sistemului (de exemplu, versiuni Android), de hardware sau de conflicte cu alte aplicații.</p>
+    <p>• Toate achizițiile sunt finale și nu sunt rambursabile (cu excepția cazurilor permise de politica de rambursare a Google).</p>
+    <p>• Această aplicație este oferită fără nicio garanție, explicită sau implicită.</p>
+    <p>• Utilizarea aplicației se face pe propriul risc. Dezvoltatorul nu este responsabil pentru eventuale daune directe sau indirecte ori pierderi de date cauzate de utilizare.</p>
+    <p>• Modul Premium este legat de contul tău Google și rămâne activ chiar și după reinstalarea aplicației.</p>
+    <i>Aplicația trebuie repornită după achiziție.</i>
     ]]></string>
+
 
     <string name="purchase_google_play_services_not_available">Serviciile Google Play nu sunt disponibile</string>
 
-    <!--<string name="purchase_price">Price:</string>-->
     <string name="purchase_agree">Sunt de acord cu Termenii și condițiile.</string>
     <string name="purchase_order_id">ID comandă</string>
     <string name="purchase_order_id_help">Copiază din:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
-    <string name="purchase_info">Taxa unică ・ %1$s</string> <!-- %1$s = price</string>-->
+
+    <string name="purchase_info">Taxă unică ・ %1$s</string> <!-- %1$s = price</string>-->
     <string name="purchase_button_purchase">Cumpărare</string>
 
     <!-- Feedback -->
@@ -801,41 +792,58 @@
     <string name="privacy_policy_tab_eu_consent">Consimțământul Utilizatorului pentru UE și SUA</string>
     <string name="privacy_policy_tab_non_eu_consent">Consimțământul Utilizatorului pentru Alte Regiuni</string>
 
-    <string name="privacy_policy_collect_title">Informațiile pe care le colectăm</string>
+    <string name="privacy_policy_collect_title">Informații pe care le colectăm</string>
     <string name="privacy_policy_collect"><![CDATA[
-        <p>• Colectăm doar informații anonime.</p>
-        <p>• Colectăm informații la nivelul aplicației cu privire la serviciile pe care le utilizezi și la modul în care le folosești (Google Analytics).</p>
-        <p>• Colectăm informații la nivel de aplicație cum ar fi bug-uri, erori și blocaje pentru a oferi îmbunătățiri (Firebase Crashlytics).</p>
-        <p>• We collect information at the application level about the performance (Firebase Performance Monitoring).</p>
-        <p>• Platforma Google Firebase colectează informații anonim. Aceasta raportează tendințele fără a identifica utilizatorii individuali.
-        The Firebase Platform collects data such as Firebase installation ID, application state, relevant device metadata (device model, CPU architecture, RAM and disk size, OS, screen orientation, country, locale/language), stack traces, performance metrics (including app start time and network request latency, network URLs), CPU/memory usage, IP address …
-        </p>
-        • We collect location data to update the weather based on your current location (optional).
+    <p>• Colectăm doar informații anonime.</p>
+    <p>• Colectăm informații la nivel de aplicație despre serviciile pe care le folosești și modul în care le utilizezi (Google Analytics).</p>
+    <p>• Colectăm informații la nivel de aplicație despre erori, defecțiuni și blocări pentru a îmbunătăți performanța aplicației (Firebase Crashlytics).</p>
+    <p>• Colectăm informații privind performanța aplicației (Firebase Performance Monitoring).</p>
+    <p>• Platforma Google Firebase colectează informații anonim. Ea generează rapoarte de tendințe fără a identifica utilizatorii individual.
+    Platforma colectează date precum ID-ul de instalare Firebase, starea aplicației, metadate relevante ale dispozitivului (modelul dispozitivului, arhitectura CPU, memoria RAM și spațiul de stocare, sistemul de operare, orientarea ecranului, țara, limba și setările regionale), urme ale erorilor (stack trace), metrici de performanță (inclusiv timpul de pornire al aplicației și latența cererilor de rețea, URL-urile), utilizarea CPU/memoriei, adresa IP aproximativă…</p>
+    <p>• Colectăm date de localizare pentru a actualiza informațiile meteo în funcție de locația ta curentă (opțional).</p>
+    • Baza legală pentru colectarea și prelucrarea acestor date este interesul nostru legitim de a îmbunătăți funcționalitatea și performanța aplicației, precum și de a asigura stabilitatea și utilizabilitatea acesteia.
+    ]]></string>
+
+    <string name="privacy_policy_cookies_title">Cookies și tehnologii similare</string>
+    <string name="privacy_policy_cookies"><![CDATA[
+    • Unele servicii terțe, cum ar fi AdMob, pot folosi cookie-uri sau tehnologii similare pentru a afișa reclame personalizate. Poți gestiona preferințele de personalizare a reclamelor din setările contului tău Google.
+    ]]></string>
+
+    <string name="privacy_policy_retention_title">Păstrarea datelor</string>
+    <string name="privacy_policy_retention"><![CDATA[
+    • Datele colectate sunt păstrate de Google Firebase conform politicilor acestora și doar atât timp cât este necesar pentru scopuri de analiză, diagnostic și îmbunătățire a performanței.
     ]]></string>
 
     <string name="privacy_policy_not_collect_title">Informații pe care nu le colectăm</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-    <p>• Nu colectăm informații de identificare personală despre dvs. Asta înseamnă că nu colectăm, de exemplu, date personale precum numele, adresa, numărul de telefon, adresa de e-mail sau adresa MAC.</p>
-    • Nu colectăm date personale de sănătate, contacte sau conținutul notificărilor telefonice.
+    <p>• Nu colectăm informații de identificare personală despre tine. Asta înseamnă că nu colectăm date personale precum numele tău, adresa, numărul de telefon, adresa de e-mail sau adresa MAC.</p>
+    • Nu colectăm date privind sănătatea, contactele sau conținutul notificărilor afișate pe dispozitivul tău.
     ]]></string>
 
     <string name="privacy_policy_share_title">Informații pe care le partajăm</string>
     <string name="privacy_policy_share"><![CDATA[
-    • Nu partajăm niciun fel de date cu companii sau organizații, cu excepția Google și a furnizorilor de publicitate.
+    • Nu partajăm date cu companii sau organizații, cu excepția Google și a furnizorilor de publicitate.
     ]]></string>
 
-    <string name="privacy_policy_use_title">Date personale și sensibile ale utilizatorului pe care le folosim</string>
+    <string name="privacy_policy_use_title">Date personale și sensibile pe care le utilizăm</string>
     <string name="privacy_policy_use"><![CDATA[
-    • Utilizăm datele de localizare doar pentru actualizarea informațiilor meteo și numai dacă activați această funcție.
+    • Folosim datele de localizare doar pentru a actualiza informațiile meteo și doar dacă activezi această funcție.
     ]]></string>
 
-    <string name="privacy_policy_links_title">Politica de confidențialitate a furnizorilor de servicii terți</string>
+    <string name="privacy_policy_rights_title">Drepturile tale</string>
+    <string name="privacy_policy_rights"><![CDATA[
+    <p>• Datele colectate pentru analiză, erori și performanță sunt complet anonime și nu pot fi utilizate pentru a identifica persoane. Prin urmare, nu sunt considerate date personale în sensul legislației privind protecția datelor (ex: GDPR) și nu fac obiectul drepturilor de acces, rectificare sau ștergere.</p>
+    <p>• Poți renunța la colectarea datelor dezinstalând aplicația sau modificând setările de confidențialitate din contul tău Google sau de pe dispozitiv.</p>
+    • Pentru întrebări legate de utilizarea datelor sau drepturile tale privind confidențialitatea, te rugăm să ne contactezi prin canalele de suport ale aplicației.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">Politici de confidențialitate ale furnizorilor terți</string>
     <string name="privacy_policy_links"><![CDATA[
-        <a href="https://policies.google.com/privacy">Google Play Services</a>
-        <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
-        <p><a href="https://www.google.com/analytics/terms">Google Analytics</a></p>
-        <p><a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a></p>
-        <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>
+    <p><a href="https://policies.google.com/privacy">Politica de confidențialitate Google (inclusiv Google Play Services)</a></p>
+    <p><a href="https://policies.google.com/technologies/ads">Utilizarea datelor de către AdMob</a></p>
+    <p><a href="https://support.google.com/analytics/answer/6004245">Utilizarea datelor de către Google Analytics</a></p>
+    <p><a href="https://firebase.google.com/terms/crashlytics">Termeni Firebase Crashlytics</a></p>
+    <a href="https://firebase.google.com/support/privacy">Confidențialitate și securitate Firebase (inclusiv Performance Monitoring)</a>
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Stare</string>
@@ -859,7 +867,7 @@
     <string name="shortcut_status">Stare</string>
     <string name="shortcut_heart_rate">Puls</string>
     <string name="shortcut_blood_oxygen">Oxigen din sânge</string>
-    <string name="shortcut_Sleep">Somn</string>
+    <string name="shortcut_sleep">Somn</string>
     <string name="shortcut_breathing">Breathing</string>
     <string name="shortcut_weather">Vremea</string>
     <string name="shortcut_stress">Stress</string>
@@ -956,7 +964,7 @@
 
     <string name="action_chart">Grafic</string>
     <string name="action_zoom_in">Zoom</string>
-    <string name="action_chart_normalize_minute">Valori măsurate</string>
+    <string name="action_chart_normalize_raw_data">Valori măsurate</string>
     <string name="action_chart_normalize_quarter_hourly">Valori la sfert de oră</string>
     <string name="action_chart_normalize_half_hourly">Valori la jumătate de oră</string>
     <string name="action_chart_normalize_hourly">Valori la fiecare oră</string>
@@ -966,8 +974,8 @@
     <string name="action_chart_sort_step_desc">Pași descendent</string>
     <string name="action_chart_sort_duration_asc">Duration ascending</string>
     <string name="action_chart_sort_duration_desc">Duration descending</string>
-    <string name="action_chart_sort_pulse_asc">Puls ascendent</string>
-    <string name="action_chart_sort_pulse_desc">Puls descendent</string>
+    <string name="action_chart_sort_heart_rate_asc">Puls ascendent</string>
+    <string name="action_chart_sort_heart_rate_desc">Puls descendent</string>
     <string name="action_chart_sort_spo2_asc">SpO2 ascendent</string>
     <string name="action_chart_sort_spo2_desc">SpO2 descendent</string>
     <string name="action_chart_sort_pressure_asc">Pressure ascending</string>
@@ -993,7 +1001,7 @@
     <string name="percent_90">90%</string>
     <string name="percent_100">100%</string>
 
-    <!-- Constante -->
+    <!-- Constants -->
     <string name="const_day_of_week_sunday">Duminică</string>
     <string name="const_day_of_week_monday">Luni</string>
     <string name="const_day_of_week_tuesday">Marți</string>
@@ -1022,30 +1030,21 @@
     <string name="const_unit_dbm">dBm</string>
 
     <plurals name="plural_time_hour">
-        <item quantity="zero">%d ore</item>
         <item quantity="one">%d oră</item>
-        <item quantity="two">%d ore</item>
         <item quantity="few">%d ore</item>
-        <item quantity="many">%d ore</item>
-        <item quantity="other">%d ore</item>
+        <item quantity="other">%d de ore</item>
     </plurals>
 
     <plurals name="plural_time_minute">
-        <item quantity="zero">%d minut</item>
         <item quantity="one">%d minut</item>
-        <item quantity="two">%d minute</item>
         <item quantity="few">%d minute</item>
-        <item quantity="many">%d minute</item>
-        <item quantity="other">%d minute</item>
+        <item quantity="other">%d de minute</item>
     </plurals>
 
     <plurals name="plural_time_second">
-        <item quantity="zero">%d seconde</item>
-        <item quantity="one">%d secondă</item>
-        <item quantity="two">%d seconde</item>
-        <item quantity="few">%d seconde</item>
-        <item quantity="many">%d seconde</item>
-        <item quantity="other">%d seconde</item>
+        <item quantity="one">%d secundă</item>
+        <item quantity="few">%d secunde</item>
+        <item quantity="other">%d de secunde</item>
     </plurals>
 
 </resources>

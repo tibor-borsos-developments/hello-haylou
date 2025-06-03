@@ -1,0 +1,1046 @@
+<?xml version="1.0"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="bn">
+
+    <!--  Navigation  -->
+    <string name="menu_nav_notification">বিজ্ঞপ্তি</string>
+    <string name="menu_nav_call">কল</string>
+    <string name="menu_nav_step">একটিভিটি</string>
+    <string name="menu_nav_sleep">ঘুম</string>
+    <string name="menu_nav_heart_rate">হার্টরেট</string>
+    <string name="menu_nav_blood_oxygen">অক্সিজেন লেভেল</string>
+    <string name="menu_nav_blood_pressure">রক্তচাপ</string>
+    <string name="menu_nav_workout">ওয়ার্কআউট</string>
+    <string name="menu_nav_alarm">অ্যালার্ম</string>
+    <string name="menu_nav_reminder">ইভেন্ট রিমাইন্ডার</string>
+    <string name="menu_nav_dnd">ডু নট ডিস্টার্ব</string>
+    <string name="menu_nav_watch_face">ওয়াচ ফেস</string>
+    <string name="menu_nav_weather">আবহাওয়া</string>
+    <string name="menu_nav_touch">টাচ কন্ট্রোল</string>
+    <string name="menu_nav_more">আরও অপশন</string>
+    <string name="menu_nav_text_customization">টেক্সট কাস্টোমাইজেশন</string>
+    <string name="menu_nav_export">এক্সপোর্ট</string>
+    <string name="menu_nav_premium_mode">প্রিমিয়াম মোড</string>
+    <string name="menu_nav_feedback">মতামত দিন</string>
+    <string name="menu_nav_privacy_policy">প্রাইভেসি পলিসি</string>
+    <string name="menu_nav_theme">থিম</string>
+
+    <string name="setting_name">সেটিং</string>
+    <string name="settings_name">সেটিংস</string>
+    <string name="info_name">তথ্য</string>
+    <string name="more_name">আরও</string>
+
+    <string name="main_item_activity_title">পদক্ষেপ・লক্ষ্য</string>
+    <string name="main_item_battery">ব্যাটারি স্তর・সর্বশেষ চার্জ সময়</string>
+    <string name="main_item_connect_and_disconnect_last_time">সর্বশেষ সংযোগ ও বিচ্ছিন্নতার সময়</string>
+    <string name="main_item_next_alarm">পরবর্তী অ্যালার্ম</string>
+    <string name="main_item_next_reminder">পরবর্তী রিমাইন্ডার</string>
+    <string name="main_item_call_and_notification_control">কল ও নোটিফিকেশন</string>
+
+    <!-- Pairing Bluetooth device -->
+    <string name="device_search">%1$s অনুসন্ধান</string>
+    <string name="device_setting">%1$s সেটিংস</string>
+
+    <string name="device_mac_address">MAC ঠিকানা</string>
+    <string name="device_mac_address_invalid">অবৈধ MAC ঠিকানা</string>
+
+    <string name="device_state_connected">সংযুক্ত</string>
+    <string name="device_state_disconnected">বিচ্ছিন্ন</string>
+    <string name="device_state_bonded">পেয়ার করা ডিভাইস</string>
+    <string name="device_state_not_bonded">পেয়ার করা হয়নি</string>
+
+    <string name="error_title">ওহ! কিছু একটা ভুল হয়েছে</string>
+    <string name="error_message">অ্যাপটি আপডেট করুন সর্বশেষ সংস্করণে</string>
+
+
+    <!-- Watch connection and setting -->
+    <string name="mi_band_setting_title">%1$s সেটিংস</string>
+
+    <string name="mi_band_setting_menu_connection">সংযোগ</string>
+    <string name="mi_band_setting_menu_setting">@string/setting_name</string>
+    <string name="mi_band_setting_menu_profile">প্রোফাইল</string>
+    <string name="mi_band_setting_menu_text">টেক্সট</string>
+    <string name="mi_band_setting_menu_call">কল</string>
+
+    <string name="mi_band_setting_auth_mi_fit">%1$s সংযোগ মোড</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">%3$s ব্যবহারের জন্য আপনার ফোনে %1$s অ্যাপ ইনস্টল করা থাকতে হবে। প্রথমে %1$s অ্যাপে %2$s-কে পেয়ার করুন, তারপর %3$s অ্যাপটি ব্যবহার করতে পারবেন। আপনি যদি %1$s অ্যাপ ব্যবহার করতে চান, তাহলে এই বিকল্পটি নির্বাচন করুন।</string>
+    <string name="mi_band_setting_auth_standalone">স্বতন্ত্র মোড</string>
+    <string name="mi_band_setting_auth_standalone_hint">%3$s ব্যবহার করতে %1$s অ্যাপ প্রয়োজন নেই। একবার পেয়ার করার পর আপনি %1$s অ্যাপ আনইনস্টল করতে পারেন বা ঘড়ির পেয়ারিং বাতিল করতে পারেন। %1$s সংযোগ পুনরায় সক্রিয় করলে, %2$s-কে আবার %1$s অ্যাপে পেয়ার করতে হবে। পেয়ারিং মুছে ফেললে ঘড়ির সব ডেটা মুছে যাবে। পেয়ারিং চলাকালীন %2$s-এর স্ক্রিনটি চালু রাখুন।</string>
+    <string name="mi_band_standalone_sync_error">সংযোগ মোডে সিঙ্ক সম্ভব নয়, কারণ এতে ঘড়ি থেকে ডেটা মুছে যেতে পারে এবং উভয় অ্যাপে ভুল তথ্য দেখা যেতে পারে।</string>
+
+    <string name="mi_band_setting_auth_key">প্রমাণীকরণ কোড</string>
+    <string name="mi_band_setting_auth_key_help">যেকোনো ৪-সংখ্যার কোড লিখুন</string>
+    <string name="mi_band_setting_auth_request">কোড অনুরোধ করুন</string>
+    <string name="mi_band_setting_auth_pair">পেয়ার করুন</string>
+    <string name="mi_band_setting_auth_unpair">পেয়ারিং সরান</string>
+
+    <string name="message_auth_request">আপনার ডিভাইস ইতিমধ্যেই পেয়ার করা আছে। যদি কোড না জানেন, তাহলে পেয়ারিং সরিয়ে দিন।</string>
+
+    <string name="message_mi_band_setting_auth_press_band_button">%1$s-এ বোতাম চাপুন পেয়ার করার জন্য</string>
+    <string name="message_mi_band_setting_auth_success">%1$s সফলভাবে পেয়ার হয়েছে</string>
+    <string name="message_mi_band_setting_auth_fail">%1$s এর সঙ্গে পেয়ারিং ব্যর্থ হয়েছে</string>
+    <string name="message_mi_band_setting_auth_key_invalid">অবৈধ প্রমাণীকরণ কোড</string>
+
+    <string name="pref_disconnect_device">সংযোগ বিচ্ছিন্ন করুন</string>
+
+    <string name="mi_band_setting_connection_problem_title">যদি সংযোগে সমস্যা হয়</string>
+    <string name="mi_band_setting_connection_problem_hint"><![CDATA[
+    - ফোনের ব্লুটুথ সেটিংসে ঘড়ির পেয়ারিং মুছে ফেলুন<br>
+    - ব্লুটুথ বন্ধ করে আবার চালু করুন<br>
+    - অ্যাপটি ফোর্স ক্লোজ করুন বা ফোন রিস্টার্ট করুন<br>
+    - হোম স্ক্রিন থেকে পুনরায় ঘড়ি পেয়ার করুন
+    ]]></string>
+
+    <string name="mi_band_setting_dial">ঘড়ির স্কিন</string>
+    <string name="mi_band_setting_language">ভাষা</string>
+    <string name="mi_band_setting_time_24h">২৪-ঘণ্টা সময় ফরম্যাট</string>
+    <string name="mi_band_setting_distance_unit">দূরত্বের একক</string>
+    <string name="mi_band_setting_screen_on_duration">স্ক্রিন চালু থাকার সময়কাল</string>
+    <string name="mi_band_setting_lift_wrist">হাত তুললে ডিসপ্লে চালু হবে</string>
+    <string name="mi_band_setting_idle_alert">বসেই থাকলে সতর্কতা</string>
+    <string name="mi_band_setting_idle_alert_duration">নিষ্ক্রিয় থাকার সময়</string>
+    <string name="mi_band_setting_idle_alert_dnd">বিশ্রামের সময় বিরক্ত করবেন না (১২:০০–১৪:০০)</string>
+
+    <string name="pref_synchronization">সিঙ্ক্রোনাইজেশন</string>
+    <string name="pref_synchronization_fetch_interval">সিঙ্কের ফ্রিকোয়েন্সি</string>
+    <string name="pref_synchronization_summary">পটভূমিতে স্বয়ংক্রিয়ভাবে কোন ডেটা সিঙ্ক হবে তা নির্বাচন করুন। যেটির প্রয়োজন নেই, তা বন্ধ করে পারফরম্যান্স উন্নত করুন। হোম স্ক্রিন বা সংশ্লিষ্ট মেনু থেকে নিচে সোয়াইপ করে ডেটা ম্যানুয়ালি সিঙ্ক করা যাবে।</string>
+
+    <string name="mi_band_setting_profile">এই তথ্যগুলো ব্যবহার করে আপনার পদক্ষেপ, দূরত্ব এবং ক্যালোরি পোড়ানোর হিসাব আরও সঠিকভাবে নির্ধারণ করা হয়।</string>
+    <string name="mi_band_setting_gender">লিঙ্গ</string>
+    <string name="mi_band_setting_gender_male">পুরুষ</string>
+    <string name="mi_band_setting_gender_female">নারী</string>
+    <string name="mi_band_setting_birthday">জন্মতারিখ</string>
+    <string name="mi_band_setting_height">উচ্চতা</string>
+    <string name="mi_band_setting_weight">ওজন</string>
+    <string name="mi_band_setting_wearing_place">পরিধানের স্থান</string>
+    <string name="mi_band_setting_wearing_place_left_wrist">বাঁ কাঁধ</string>
+    <string name="mi_band_setting_wearing_place_right_wrist">ডান কাঁধ</string>
+
+    <!-- Battery -->
+    <string name="battery_details">ব্যাটারি ব্যবহার</string>
+
+    <string name="battery_settings">ব্যাটারির সেটিংস</string>
+    <string name="battery_settings_notification">লো ব্যাটারির বিজ্ঞপ্তি</string>
+    <string name="battery_settings_notification_level">ব্যাটারির সীমা</string>
+    <string name="battery_settings_notification_repeat_interval">পুনরাবৃত্তির ব্যবধান</string>
+    <string name="battery_settings_notification_on_phone">ফোনে বিজ্ঞপ্তি দেখান</string>
+    <string name="battery_settings_notification_on_phone_ongoing">চলমান (স্থায়ী) বিজ্ঞপ্তি</string>
+    <string name="battery_settings_notification_on_phone_message">ব্যাটারির স্তর কম: %1$,d%%</string>
+    <string name="battery_settings_notification_on_device">স্মার্টওয়াচে বিজ্ঞপ্তি দেখান</string>
+    <string name="battery_settings_notification_on_device_message">ব্যাটারি: %1$,d%%</string>
+
+    <!-- Preference screens -->
+    <string name="pref_battery_phone">ফোনের ব্যাটারি</string>
+    <string name="pref_battery_phone_summary">লো এবং পূর্ণ চার্জ স্তরের বিজ্ঞপ্তি</string>
+    <string name="pref_cat_battery_phone_low">লো ব্যাটারির স্তর</string>
+    <string name="pref_battery_phone_low_title">লো ব্যাটারির বিজ্ঞপ্তি</string>
+    <string name="pref_battery_phone_low_level_title">ব্যাটারির সীমা</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">পুনরাবৃত্তির ব্যবধান</string>
+    <string name="pref_cat_battery_phone_full">পূর্ণ চার্জ স্তর</string>
+    <string name="pref_battery_phone_full_title">পূর্ণ চার্জ বিজ্ঞপ্তি</string>
+    <string name="pref_battery_phone_full_plugged_ac">এসি চার্জার উৎস</string>
+    <string name="pref_battery_phone_full_plugged_usb">ইউএসবি চার্জ উৎস</string>
+    <string name="pref_battery_phone_full_plugged_wireless">ওয়্যারলেস চার্জ উৎস</string>
+
+    <string name="pref_battery_phone_message">ফোনের ব্যাটারি:\n %1$,d%%</string>
+
+    <string name="pref_language">ভাষা</string>
+    <string name="pref_cat_language">অ্যাপ</string>
+    <string name="pref_language_title">ভাষা</string>
+
+    <string name="pref_menu">মেনু</string>
+    <string name="pref_cat_menu">প্রধান মেনু কাস্টমাইজেশন</string>
+    <string name="pref_menu_item_2">দ্বিতীয় মেনু আইটেম</string>
+    <string name="pref_menu_item_3">তৃতীয় মেনু আইটেম</string>
+
+    <string name="pref_diagnostic">ডায়াগনস্টিক</string>
+    <string name="pref_cat_diagnostic_closing_protection">বন্ধ হওয়া থেকে সুরক্ষা</string>
+    <string name="pref_diagnostic_battery_optimisation">ব্যাটারি অপ্টিমাইজেশন বন্ধ</string>
+    <string name="pref_diagnostic_companion_device">সহযোগী ডিভাইস জোড়া লাগানো</string>
+    <string name="pref_diagnostic_bluetooth_pairing">ব্লুটুথ জোড়া লাগানো</string>
+    <string name="pref_diagnostic_autostart">অটোস্টার্ট</string>
+    <string name="pref_diagnostic_autostart_summary">অ্যাপটি স্বয়ংক্রিয়ভাবে চালু করার জন্য ফোনের অটোস্টার্ট ম্যানেজারে অনুমতি দিন</string>
+    <string name="pref_diagnostic_info">আরও তথ্য</string>
+    <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
+
+    <string name="pref_cat_diagnostic_permissions">অনুমতিসমূহ</string>
+    <string name="pref_diagnostic_permission_allow_notification_access_settings">বিজ্ঞপ্তি অ্যাক্সেসের অনুমতি দিন</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">নির্দিষ্ট সময়ে অ্যালার্ম নির্ধারণ</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">সঠিক সময়ে কার্যক্রম নির্ধারণ করতে অতিরিক্ত অনুমতি প্রয়োজন।</string>
+    <string name="pref_diagnostic_permission_post_notifications">বিজ্ঞপ্তি প্রদর্শন</string>
+    <string name="pref_diagnostic_permission_post_notifications_summary">বিজ্ঞপ্তি দেখাতে অতিরিক্ত অনুমতি প্রয়োজন</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">ডু নট ডিস্টার্ব অ্যাক্সেস</string>
+
+
+    <!-- Snackbar messages -->
+    <string name="message_enable_bluetooth">ব্লুটুথ চালু করুন এবং স্মার্টওয়াচটি ফোনের কাছে আনুন</string>
+    <string name="message_discover_device">%1$s সেট করা হয়নি, অনুগ্রহ করে সংযুক্ত করুন</string>
+    <string name="message_discovering_device">%1$s খোঁজা হচ্ছে (১ মিনিট সময় লাগতে পারে)…</string>
+    <string name="message_discover_device_succeeded">%1$s সংযোগ সফল হয়েছে</string>
+    <string name="message_discover_device_failed">%1$s সংযোগ ব্যর্থ হয়েছে</string>
+    <string name="message_discover_device_not_found">যদি %1$s না পাওয়া যায়, তাহলে: %1$s Sport/Play/Discoverable চালু করুন অথবা ফোনের ব্লুটুথ সেটিংসে জোড়া লাগান</string>
+    <string name="message_enable_notification_listener_access">বিজ্ঞপ্তি অ্যাক্সেস চালু করুন: ফোন > সেটিংস > নোটিফিকেশন অ্যাক্সেস</string>
+    <string name="message_enable_notification_listener_access_4_4">বিজ্ঞপ্তি অ্যাক্সেস চালু করুন: সেটিংস > সিকিউরিটি > নোটিফিকেশন অ্যাক্সেস</string>
+
+    <string name="message_deleted">মুছে ফেলা হয়েছে</string>
+    <string name="message_undo">পূর্বাবস্থায় ফিরিয়ে নিন</string>
+
+    <string name="message_app_chooser_no_selected">একটি অ্যাপ্লিকেশন নির্বাচন করুন</string>
+
+    <string name="message_free_counter">ফ্রি মোডে সর্বোচ্চ ১টি সেটিং ব্যবহার করা যাবে</string>
+    <string name="message_free_counters">ফ্রি মোডে সর্বোচ্চ %1$,dটি সেটিং ব্যবহার করা যাবে</string>
+
+    <string name="message_notification_free_groups">ফ্রি মোডে সর্বোচ্চ %1$,dটি গ্রুপ ব্যবহার করা যাবে</string>
+    <string name="message_notification_free_app">ফ্রি মোডে সর্বোচ্চ ১টি অ্যাপ ব্যবহার করা যাবে</string>
+    <string name="message_notification_free_apps">ফ্রি মোডে সর্বোচ্চ %1$,dটি অ্যাপ ব্যবহার করা যাবে</string>
+
+    <string name="message_notification_free_text">ফ্রি মোডে সর্বোচ্চ ১টি টেক্সট রেকর্ড করা যাবে</string>
+
+    <string name="message_time_alarm_free_counter">ফ্রি মোডে সর্বোচ্চ ১টি অ্যালার্ম ব্যবহার করা যাবে</string>
+    <string name="message_time_alarm_max_counter">সর্বোচ্চ %1$dটি অ্যালার্ম ব্যবহার করা যাবে</string>
+    <string name="message_time_alarm_enabled">অ্যালার্ম চালু হয়েছে</string>
+    <string name="message_time_alarm_disabled">অ্যালার্ম বন্ধ রয়েছে</string>
+    <string name="message_time_alarm_off">অ্যালার্ম বন্ধ</string>
+
+    <string name="message_touch_pattern_error">এই প্যাটার্নটি অন্য একটি ফিচারের মতো, অনুগ্রহ করে একটি ভিন্ন প্যাটার্ন রেকর্ড করুন</string>
+    <string name="message_touch_free_patterns">ফ্রি মোডে সর্বোচ্চ %1$,dটি নিয়ন্ত্রণ ব্যবহার করা যাবে</string>
+    <string name="message_touch_record_help">%1$s-এ মিউজিক কন্ট্রোল বা ফোন খোঁজার ফিচার ব্যবহার করুন</string>
+
+    <string name="message_premium_mode_only">এই ফিচার শুধুমাত্র প্রিমিয়াম সংস্করণে উপলব্ধ</string>
+    <string name="message_feature_is_not_supported">%1$s এই ফিচারটি সমর্থন করে না</string>
+    <string name="message_general_error">সেটিং ব্যর্থ হয়েছে (সংযোগ বিচ্ছিন্ন হয়েছে), অনুগ্রহ করে আবার চেষ্টা করুন</string>
+    <string name="message_internet_error">ইন্টারনেট সংযোগ নেই</string>
+    <string name="message_internet_traffic_blocked">নেটওয়ার্ক ট্রাফিক ব্লক করা হয়েছে</string>
+    <string name="message_internet_ads_blocked">বিজ্ঞাপন ব্লক করা হয়েছে</string>
+    <string name="message_gps_enable">জিপিএস চালু করুন</string>
+    <string name="message_location_enable">অবস্থান অনুমতির অ্যাক্সেস দিন</string>
+
+    <string name="message_in_progress">প্রক্রিয়াধীন…</string>
+    <string name="message_no_data">তথ্য নেই</string>
+
+    <string name="message_rewarded_error">ভিডিও লোড করা যায়নি</string>
+
+    <string name="message_new_message">একটি নতুন বার্তা এসেছে, ফোনে দেখুন</string>
+
+    <string name="message_permission_not_granted">অনুমতি মঞ্জুর করা হয়নি: %1$s</string>
+
+    <!-- Welcome dialog -->
+    <string name="dialog_welcome_title">স্বাগতম!</string>
+    <string name="dialog_welcome_message"><![CDATA[
+    সমর্থিত ডিভাইসসমূহ:
+    <watch_types/>
+    <p><app_name/> ব্যবহারের জন্য আপনার ফোনে অফিসিয়াল <device_type/> অ্যাপ ইনস্টল করা আবশ্যক। প্রথমে আপনাকে <device_type/> অ্যাপে আপনার স্মার্টওয়াচ জোড়া লাগাতে হবে, এরপর এই অ্যাপ ব্যবহার করতে পারবেন।</p>
+    <p>যদি <device_type/> না পাওয়া যায়, তাহলে ডিভাইস অনুসন্ধানের সময় MAC ঠিকানা ম্যানুয়ালি সেট করতে পারবেন।</p>
+    <b>যদি সংযোগে সমস্যা হয়:</b>
+    <br>- রিসেন্ট অ্যাপ স্ক্রিন: <app_name/> অ্যাপটি লক করুন (অ্যাপটি নিচে টেনে ধরে লক আইকনে ট্যাপ করুন)।
+    <br>- ফোন/ব্যাটারি অপটিমাইজেশন: <app_name/>-কে ‘Not optimized’ হিসেবে সেট করুন।
+    <br>- ফোন/অ্যাপস: Bluetooth Share ও অন্যান্য ‘Bluetooth’ অ্যাপের ডেটা ক্লিয়ার করুন।
+    <br>- বিস্তারিত তথ্য: https://dontkillmyapp.com
+    <br><br><small>এই পণ্য ও ফিচারসমূহ চিকিৎসা-সংক্রান্ত ব্যবহারের জন্য ডিজাইন করা নয় এবং কোনো রোগ নির্ণয়, প্রতিরোধ বা চিকিৎসার উদ্দেশ্যে নয়। সমস্ত তথ্য ও পরিমাপ কেবলমাত্র ব্যক্তিগত রেফারেন্সের জন্য, এবং চিকিৎসার ভিত্তি হিসেবে ব্যবহার করা উচিত নয়।</small>
+    ]]></string>
+
+
+
+    <!-- Notification  -->
+    <string name="notification_group_nav_setting">সেটিং</string>
+    <string name="notification_group_nav_filter">ফিল্টার</string>
+    <string name="notification_group_nav_correction">সংশোধন</string>
+
+    <string name="notification_group_name">নাম</string>
+    <string name="notification_group_monitoring">বিজ্ঞপ্তি পর্যবেক্ষণ</string>
+    <string name="notification_group_monitoring_disabled">বিজ্ঞপ্তি নিষ্ক্রিয় করুন (অ্যাপের বিজ্ঞপ্তি দেখাবেন না)</string>
+    <string name="notification_group_alert_title">%1$s সিগন্যাল</string>
+    <string name="notification_group_text_customization">লিখা কাস্টমাইজেশন</string>
+    <string name="notification_group_text_app_name">অ্যাপের নাম</string>
+    <string name="notification_group_text_name">নাম</string>
+    <string name="notification_group_text_title">শিরোনাম</string>
+    <string name="notification_group_text_content">বিষয়বস্তু</string>
+    <string name="notification_group_text_big_content">সম্পূর্ণ বিষয়বস্তু</string>
+    <string name="notification_group_text_content_slice_title">লিখার দৈর্ঘ্য</string>
+    <string name="notification_group_display_duration_title">প্রদর্শনের সময়</string>
+    <string name="notification_group_show_notification_title">বিজ্ঞপ্তি প্রদর্শন</string>
+    <string name="notification_group_immediate">বিজ্ঞপ্তি আসা মাত্রই সিগন্যাল দিন</string>
+    <string name="notification_group_connecting">ফোনের সাথে সংযোগ স্থাপনের সময়</string>
+    <string name="notification_group_reminder">স্মারক সতর্কতা</string>
+    <string name="notification_group_ongoing">চলমান বিজ্ঞপ্তির জন্য সিগন্যাল</string>
+    <string name="notification_group_screen_off">শুধু স্ক্রিন বন্ধ থাকলে সিগন্যাল দিন</string>
+    <string name="notification_group_repeat_title">সিগন্যাল পুনরাবৃত্তি</string>
+    <string name="notification_group_wakelock">ফোনের স্ক্রিন অন করুন</string>
+    <string name="notification_group_grouped_display_title">গ্রুপ বিজ্ঞপ্তির প্রদর্শন সেটিং</string>
+    <string name="notification_group_grouped_sort_order_title">গ্রুপ বিজ্ঞপ্তির সাজানোর ক্রম</string>
+
+    <string name="notification_group_filter">বিজ্ঞপ্তি ফিল্টার</string>
+    <string name="notification_group_filter_title">শিরোনাম ফিল্টার</string>
+    <string name="notification_group_filter_content">বিষয়বস্তু ফিল্টার</string>
+    <string name="notification_group_filter_regex">Regex</string>
+    <string name="notification_group_filter_hint">শুধু তখন সতর্ক করুন, যদি শিরোনাম বা বিষয়বস্তু মেলে (অক্ষর সংবেদনশীল নয়)</string>
+    <string name="notification_group_filter_contains">এই বাক্যাংশগুলির যেকোনো একটি থাকলে</string>
+    <string name="notification_group_filter_not_contains">এই বাক্যাংশগুলির কোনোটিই না থাকলে</string>
+
+    <string name="notification_group_sample_sms">এসএমএস</string>
+    <string name="notification_group_sample_facebook">মেসেঞ্জার</string>
+    <string name="notification_group_sample_whatsapp">হোয়াটসঅ্যাপ</string>
+
+    <string name="notification_group_correction">লিখা সংশোধন</string>
+    <string name="notification_group_correction_title">শিরোনাম সংশোধন</string>
+    <string name="notification_group_correction_content">বিষয়বস্তু সংশোধন</string>
+    <string name="notification_group_correction_regex">Regex</string>
+    <string name="notification_group_correction_hint">অক্ষরের বড় ছোট পার্থক্য উপেক্ষা করা হবে</string>
+    <string name="notification_group_correction_items">সংশোধনের জন্য টেক্সট</string>
+    <string name="notification_group_correction_find">যা খুঁজবেন</string>
+    <string name="notification_group_correction_replace">এই দিয়ে প্রতিস্থাপন করুন</string>
+
+    <string name="notification_regex_hint">অ্যালফানিউমেরিক ছাড়া অন্যান্য অক্ষরের বিশেষ অর্থ থাকতে পারে। আপনি যদি Regex না জানেন, তবে এটি সক্রিয় করবেন না</string>
+
+    <string name="notification_confirm_close">আপনি কি নিশ্চিত যে পরিবর্তনগুলো বাতিল করতে চান?</string>
+
+    <string name="notification_edit_play_text_title">বিজ্ঞপ্তির শিরোনাম</string>
+    <string name="notification_edit_play_text_content">বিজ্ঞপ্তির বিষয়বস্তু:
+    </string>
+
+
+    <!-- Incoming call alert -->
+    <string name="call_tab_call">ইনকামিং কল</string>
+    <string name="call_tab_contacts">কন্টাক্টস</string>
+
+    <string name="call_incoming">ইনকামিং কল</string>
+    <string name="call_incoming_summary_on">%1$s অ্যাপে ইনকামিং কল সতর্কতা বন্ধ করতে ভুলবেন না</string>
+    <string name="call_incoming_caller_id">কলারের নাম দেখান</string>
+
+    <string name="pref_call_notification_rejected">প্রত্যাখ্যাত কল সম্পর্কে বিজ্ঞপ্তি দেখান</string>
+    <string name="pref_call_notification_rejected_message">প্রত্যাখ্যাত কল</string>
+    <string name="pref_call_notification_rejected_action">কল করুন</string>
+
+    <string name="call_incoming_net_alert_title">ইন্টারনেট কল সতর্কতা</string>
+
+    <string name="call_missed_title">মিসড কল সতর্কতা</string>
+    <string name="call_missed_chooser_title">%1$s সিগন্যাল</string>
+    <string name="call_missed_notification">মিসড কল</string>
+
+    <string name="call_reject_button_action">কল কেটে দেওয়ার বোতামের কাজ</string>
+
+    <string name="touch_call_answer_title">কল রিসিভ</string>
+    <string name="touch_call_answer_speakerphone_title">স্পিকারফোন</string>
+
+    <string name="call_end_title">কল বাতিল/শেষ করুন</string>
+
+    <string name="touch_call_mute_title">কল মিউট</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">শুধু ইনকামিং কলের সময়</string>
+    <string name="touch_call_mute_recognition_title">ইনকামিং কলে</string>
+
+    <string name="call_contact_edit_contact">কন্টাক্ট</string>
+    <string name="call_contact_edit_name">নাম</string>
+    <string name="call_contact_edit_phone_number">ফোন নম্বর</string>
+
+    <string name="call_contact_edit_setting_name_order">নামের বিন্যাস</string>
+    <string name="call_contact_edit_setting_default">@string/default_</string>
+    <string name="call_contact_edit_setting_first_name">প্রথম নাম</string>
+    <string name="call_contact_edit_setting_last_name">শেষ নাম</string>
+
+    <string name="message_call_contacts_free_counter">ফ্রি মোডে সর্বোচ্চ %1$dটি কন্টাক্ট ব্যবহার করা যাবে</string>
+    <string name="message_call_contacts_max_counter">সর্বোচ্চ %1$dটি কন্টাক্ট ব্যবহার করা যাবে</string>
+
+
+    <!-- App chooser dialog -->
+    <string name="app_chooser">অ্যাপ নির্বাচন</string>
+    <string name="action_search">অনুসন্ধান</string>
+    <string name="action_filter_notification">বিজ্ঞপ্তি ফিল্টার</string>
+
+    <!-- Activity -->
+    <string name="step_details">কার্যকলাপের বিস্তারিত</string>
+
+    <string name="mi_band_tracker_step_title">%1$,d</string>
+    <string name="mi_band_tracker_distance_meter_title">%1$,d মি</string>
+    <string name="mi_band_tracker_distance_kilometer_title">%,.2f কিমি</string>
+    <string name="mi_band_tracker_distance_mile_title">%,.2f মাইল</string>
+    <string name="mi_band_tracker_calorie_title">%1$,d ক্যাল</string>
+
+    <string name="action_tracker_step">পদক্ষেপ</string>
+    <string name="action_tracker_distance">দূরত্ব</string>
+    <string name="action_tracker_calorie">ক্যালোরি</string>
+    <string name="action_tracker_duration">অনুশীলনের সময়কাল</string>
+
+    <string name="step_goal_default_title">ডিফল্ট লক্ষ্য</string>
+
+
+    <!-- Sleep monitoring -->
+    <string name="sleep_details">ঘুমের বিস্তারিত</string>
+
+    <string name="sleep_awake">জাগ্রত</string>
+    <string name="sleep_light">হালকা</string>
+    <string name="sleep_deep">গভীর</string>
+    <string name="sleep_rem">REM</string>
+
+
+    <!-- Heart rate -->
+    <string name="heart_rate_details">হার্টরেটের বিস্তারিত</string>
+
+    <string name="heart_rate_continuous_title">নিরবিচারে হার্টরেট পরিমাপ</string>
+
+    <string name="heart_rate_warning_title">হার্টরেট সতর্কতা</string>
+    <string name="low_and_high_heart_rates">হার্টরেট সীমা</string>
+    <string name="low_heart_rate">কম হার্টরেট</string>
+    <string name="high_heart_rate">উচ্চ হার্টরেট</string>
+
+
+    <!-- Blood oxygen -->
+    <string name="blood_oxygen_details">রক্তে অক্সিজেনের বিস্তারিত</string>
+
+    <string name="blood_oxygen_level_measurement">অক্সিজেন লেভেল পরিমাপ</string>
+    <string name="measurement_interval">পরিমাপের ব্যবধান</string>
+
+
+    <!-- Blood pressure -->
+    <string name="blood_pressure_details">রক্তচাপের বিস্তারিত</string>
+
+    <string name="blood_pressure_level_measurement">রক্তচাপের পরিমাপ</string>
+
+    <string name="blood_pressure_systolic_abbreviation">সিস</string>
+    <string name="blood_pressure_diastolic_abbreviation">ডায়া</string>
+    <string name="blood_pressure_unit">mmHg</string>
+
+
+    <!-- Workout -->
+    <string name="workout_details">ওয়ার্কআউটের বিস্তারিত</string>
+
+
+    <!-- Alarm -->
+    <string name="action_time_alarm_sort_state_asc">স্টেট অনুযায়ী ক্রমানুসার</string>
+    <string name="action_time_alarm_sort_watch_asc">ঘড়ি অনুযায়ী ক্রমানুসার</string>
+    <string name="action_time_alarm_sort_name_asc">নাম অনুযায়ী ক্রমানুসার</string>
+
+    <string name="message_time_alarm_sync">%1$s-এর অ্যালার্ম সিঙ্ক করুন (স্মার্টওয়াচে অ্যালার্ম মুছে দিয়ে নতুন করে সেট করা হবে)</string>
+
+    <string name="info_dialog_alarm"><![CDATA[
+    <p>কোঅপারেশন মোড ব্যবহারের সময়, অফিসিয়াল অ্যাপ ও <app_name/> একে অপরের সেটিংস মুছে বা ওভাররাইট করতে পারে।</p>
+    শেষ যেটি সেট করা হয়, সেটিই কার্যকর থাকবে।
+    ]]></string>
+
+    <!-- Reminder -->
+    <string name="message_reminder_enabled">স্মরণ বার্তা সক্রিয় করা হয়েছে</string>
+    <string name="message_reminder_disabled">স্মরণ বার্তা নিষ্ক্রিয় করা হয়েছে</string>
+
+    <string name="reminder_repeat">প্রতি ঘণ্টায় পুনরাবৃত্তি</string>
+    <string name="reminder_notification_on_phone">ফোনে বিজ্ঞপ্তি দিন</string>
+
+    <string name="message_time_reminder_free_counter">ফ্রি মোডে সর্বোচ্চ ১টি স্মরণ বার্তা ব্যবহার করা যাবে</string>
+
+    <string name="info_dialog_reminder"><![CDATA[
+    স্মরণ বার্তা দেখাতে ব্লুটুথ সংযোগ আবশ্যক।
+    ]]></string>
+
+    <!-- Do Not Disturb (DnD) -->
+    <string name="pref_dnd_summary">ডু নট ডিস্টার্ব মোডে কন্ট্রোলারগুলোর অবস্থা</string>
+    <string name="pref_dnd_enable_bluetooth">DnD মোড শুরু হলে ব্লুটুথ বন্ধ হবে, শেষ হলে আবার চালু হবে</string>
+
+    <string name="info_dialog_dnd"><![CDATA[
+    যদি আপনি কোঅপারেশন মোড ব্যবহার করেন, তাহলে অফিসিয়াল <device_type/> অ্যাপে DnD মোড 00:00 থেকে 23:59-এর মধ্যে হতে হবে এবং সেটিংটি বন্ধ থাকতে হবে।
+    ]]></string>
+
+
+    <!-- Watch face -->
+    <string name="watch_face_tab_watch_faces">ওয়াচ ফেস</string>
+    <string name="watch_face_tab_watch_face_custom">কাস্টম ফাইল</string>
+    <string name="watch_face_tab_watch_face_editor">সম্পাদনা</string>
+
+    <string name="watch_face_download_title">ওয়াচ ফেস ডাউনলোড</string>
+    <string name="watch_face_upload_title">ওয়াচ ফেস আপলোড</string>
+    <string name="watch_face_tool_title">টুল</string>
+
+    <string name="watch_face_share_content">আপনি নিজের তৈরি করা ওয়াচ ফেস অন্যদের সঙ্গে ভাগ করতে পারেন। ইমেইলে ওয়াচ ফেস ও প্রিভিউ ফাইল পাঠান এবং এই তথ্য দিন: লেখকের নাম, ফেসের নাম (সর্বোচ্চ ৩০ অক্ষর), এবং ভাষা। আমরা কেবল উচ্চ মানসম্পন্ন ফেস প্রকাশ করি।</string>
+
+    <string name="watch_face_upload_prepare">আপলোডের প্রস্তুতি চলছে…</string>
+    <string name="watch_face_upload_progress">আপলোড হচ্ছে %1$,d%%</string>
+
+    <string name="watch_face_invalid_firmware">ফার্মওয়্যার %1$s অজানা বা আপলোড সমর্থন করে না। অফিসিয়াল অ্যাপ ব্যবহার করে ফার্মওয়্যার আপডেট করুন। যদি অফিসিয়াল অ্যাপে আপলোড সম্ভব হয়, আমাদের Feedback মেনুতে জানান।</string>
+    <string name="watch_face_invalid_auth">স্বতন্ত্র মোডে ব্যবহার করুন; কোঅপারেশন মোডে অফিসিয়াল অ্যাপ আপলোড ব্লক করতে পারে।</string>
+    <string name="watch_face_invalid_free">ফ্রি মোডে আজ আর কোনো ওয়াচ ফেস আপলোড করা যাবে না</string>
+    <string name="watch_face_watch_rewarded_ads">চালিয়ে যেতে একটি ভিডিও দেখুন</string>
+    <string name="watch_face_watch_rewarded_ads_uploading">আপলোড চালিয়ে যেতে একটি ভিডিও দেখুন</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">ভিডিও শুরু হচ্ছে…</string>
+
+    <string name="watch_face_upload_method_title">পদ্ধতি</string>
+    <string name="watch_face_upload_method_default">@string/default_</string>
+    <string name="watch_face_upload_method_alternative">বিকল্প</string>
+
+    <string name="watch_face_upload_speed_title">আপলোডের গতি</string>
+    <string name="watch_face_upload_invalid_speed_hint">আপলোড বারবার ব্যাহত হলে গতি কমিয়ে দিন</string>
+    <string name="watch_face_upload_invalid_size_hint">ওয়াচ ফেস ফাইলের আকার অবৈধ, গুণমান কমান বা কিছু উপাদান সরান</string>
+    <string name="watch_face_upload_invalid_battery_hint">স্মার্টওয়াচের ব্যাটারি প্রায় শেষ, অনুগ্রহ করে চার্জ দিন</string>
+
+    <string name="watch_face_tbwf_quality_title">.tbwf গুণমান সেটিং</string>
+    <string name="watch_face_tbwf_quality_hint">যদি অনুমোদিত হয়, ফাইলের আকার কমানো যাবে</string>
+
+    <string name="watch_face_tbwf_locale_title">.tbwf ভাষা ও দেশ সেটিং</string>
+    <string name="watch_face_tbwf_locale_hint">সপ্তাহ, মাস বিভাজক ও দশমিক চিহ্ন</string>
+
+    <string name="message_watch_face_file_invalid">অবৈধ ওয়াচ ফেস ফাইল</string>
+    <string name="message_watch_face_file_invalid_size">অবৈধ ফাইল আকার</string>
+    <string name="message_watch_face_file_invalid_battery">স্মার্টওয়াচের ব্যাটারি প্রায় শেষ</string>
+    <string name="message_watch_face_image_file_error">অবৈধ ইমেজ ফাইল</string>
+    <string name="message_watch_face_font_file_error">অবৈধ ফন্ট ফাইল</string>
+
+    <string name="action_chart_layout_2_columns">২ কলামের বিন্যাস</string>
+    <string name="action_chart_layout_3_columns">৩ কলামের বিন্যাস</string>
+
+    <string name="watch_face_edit_dial">ডায়াল</string>
+    <string name="watch_face_edit_preview">প্রিভিউ</string>
+    <string name="watch_face_edit_hour_digital">ঘণ্টা</string>
+    <string name="watch_face_edit_minute_digital">মিনিট</string>
+    <string name="watch_face_edit_second_digital">সেকেন্ড</string>
+    <string name="watch_face_edit_am_pm">AM/PM সূচক</string>
+    <string name="watch_face_edit_am">AM</string>
+    <string name="watch_face_edit_pm">PM</string>
+    <string name="watch_face_edit_hour_analog">ঘণ্টার কাঁটা</string>
+    <string name="watch_face_edit_minute_analog">মিনিটের কাঁটা</string>
+    <string name="watch_face_edit_second_analog">সেকেন্ডের কাঁটা</string>
+    <string name="watch_face_edit_axis">ঘূর্ণনের অক্ষ</string>
+    <string name="watch_face_edit_hour_minute_separator">ঘণ্টা ও মিনিট বিভাজক</string>
+    <string name="watch_face_edit_year">বছর</string>
+    <string name="watch_face_edit_year_month_separator">বছর ও মাস বিভাজক</string>
+    <string name="watch_face_edit_month">মাস</string>
+    <string name="watch_face_edit_month_name">মাসের নাম</string>
+    <string name="watch_face_edit_month_day_separator">মাস ও দিনের বিভাজক</string>
+    <string name="watch_face_edit_day">দিন</string>
+    <string name="watch_face_edit_dayOfWeek">সপ্তাহের দিন</string>
+    <string name="watch_face_edit_battery_level">ব্যাটারির স্তর</string>
+    <string name="watch_face_edit_battery_level_percent_sign">ব্যাটারি %</string>
+    <string name="watch_face_edit_battery_level_image">ব্যাটারি চিত্র</string>
+    <string name="watch_face_edit_weather_temperature">তাপমাত্রা</string>
+    <string name="watch_face_edit_weather_temperature_unit_sign">তাপমাত্রার একক °</string>
+    <string name="watch_face_edit_weather_image">আবহাওয়ার চিত্র</string>
+    <string name="watch_face_edit_connection_indicator_image">সংযোগ সূচক চিত্র</string>
+    <string name="watch_face_edit_connected">সংযুক্ত</string>
+    <string name="watch_face_edit_disconnected">বিচ্ছিন্ন</string>
+    <string name="watch_face_edit_steps">পদক্ষেপ</string>
+    <string name="watch_face_edit_steps_image">পদক্ষেপ চিত্র</string>
+    <string name="watch_face_edit_steps_goal_progress">পদক্ষেপ লক্ষ্যের অগ্রগতি</string>
+    <string name="watch_face_edit_distance">দূরত্ব</string>
+    <string name="watch_face_edit_distance_image">দূরত্ব চিত্র</string>
+    <string name="watch_face_edit_calories">ক্যালোরি</string>
+    <string name="watch_face_edit_calories_image">ক্যালোরি চিত্র</string>
+    <string name="watch_face_edit_heart_rate">হার্ট রেট</string>
+    <string name="watch_face_edit_heart_rate_image">হার্ট রেট চিত্র</string>
+
+    <string name="watch_face_edit_color">রঙ</string>
+    <string name="watch_face_edit_font_family">ফন্ট পরিবার</string>
+    <string name="watch_face_edit_character">চরিত্র</string>
+    <string name="watch_face_edit_font_size">ফন্ট আকার</string>
+    <string name="watch_face_edit_image">ছবি</string>
+    <string name="watch_face_edit_image_png_jpeg">ছবি (.png, .jpeg)</string>
+    <string name="watch_face_edit_image_png">ছবি (.png)</string>
+    <string name="watch_face_edit_image_size">ছবির আকার</string>
+    <string name="watch_face_edit_icon">আইকন</string>
+
+    <string name="watch_face_custom_watch_face_not_supported_title">এই ঘড়িতে কাস্টম ওয়াচ ফেস আপলোড সমর্থন করে না</string>
+    <string name="watch_face_custom_watch_face_under_development_title">কাস্টম ওয়াচ ফেস আপলোড ফিচারটি এখনও নির্মাণাধীন, ভবিষ্যতে উপলব্ধ হতে পারে, তবে নিশ্চিত নয়</string>
+
+    <!-- Touch monitoring -->
+    <string name="touch_tab_function">ফাংশন</string>
+    <string name="touch_tab_control">নিয়ন্ত্রণ</string>
+    <string name="touch_tab_testing">পরীক্ষা</string>
+    <string name="touch_tab_setting">@string/setting_name</string>
+
+    <string name="touch_function_summary">যদি আপনি স্ট্যান্ডঅলোন মোডে থাকেন বা Mi Fit যথাযথভাবে পরিচালনা না করে, তবে এই বৈশিষ্ট্যগুলি সেট করুন</string>
+    <string name="touch_function">%1$s ফাংশন</string>
+    <string name="touch_function_as_touch">এই ফাংশনটি কন্ট্রোল মেনুতে টাচ হিসেবে ব্যবহার করুন</string>
+
+    <string name="touch_headline_incoming_call_title">ইনকামিং কল</string>
+    <string name="touch_headline_other_function_title">অন্যান্য ফাংশন</string>
+    <string name="touch_headline_call_title">কল নিয়ন্ত্রণ</string>
+    <string name="touch_headline_music_title">মিউজিক নিয়ন্ত্রণ</string>
+    <string name="touch_headline_time_title">টাইমার/স্টপওয়াচ নিয়ন্ত্রণ</string>
+    <string name="touch_headline_other_title">অন্যান্য নিয়ন্ত্রণ</string>
+
+    <string name="touch_device_location_title">আমার ফোনটি খুঁজুন</string>
+    <string name="touch_device_location_not_muted_only_title">শুধু তখন শব্দ হবে যদি ফোনটি সাইলেন্ট বা DnD মোডে না থাকে</string>
+
+    <string name="touch_mute_toggle_title">ফোন মিউট টগল</string>
+    <string name="touch_mute_toggle_ringer_mode_title">মিউট মোড</string>
+    <string name="touch_mute_toggle_mute_off_title">মিউট বন্ধ</string>
+
+    <string name="touch_music_title">মিউজিক</string>
+    <string name="touch_music_function_launch">কোনো মিউজিক প্লেয়ার না থাকলে প্লে বোতামে চাপ দিয়ে মিউজিক শুরু করুন</string>
+    <string name="touch_music_function_mi_band_message_launch">প্লে বোতামে চাপ দিয়ে মিউজিক শুরু করুন</string>
+    <string name="touch_music_function_mi_band_message_no_track_title">গানের নাম পাওয়া যায়নি</string>
+
+    <string name="touch_call_out_title">আউটগোইং কল</string>
+    <string name="touch_call_out_no_contact">একজন পরিচিতি নির্বাচন করুন</string>
+    <string name="touch_call_out_summary">কল গ্রহণে ডাবল প্রেস করুন</string>
+    <string name="touch_call_out_summary_support_call_display_button">কল গ্রহণে বোতাম চাপুন</string>
+    <string name="touch_call_out_speakerphone_title">স্পিকারফোন</string>
+    <string name="touch_call_out_call_text">কল করা হচ্ছে: %1$s</string>
+
+    <string name="touch_weather_title">আবহাওয়ার পূর্বাভাস</string>
+    <string name="touch_weather_location">অবস্থান আপডেট</string>
+    <string name="touch_weather_precipitation">বৃষ্টিপাত</string>
+    <string name="touch_weather_cloud_cover">মেঘাচ্ছন্নতা</string>
+    <string name="touch_weather_wind">বায়ু</string>
+
+    <string name="touch_repeat_notif_title">বিজ্ঞপ্তি পুনরাবৃত্তি</string>
+    <string name="touch_repeat_notif_clear_all">পুনরাবৃত্তির পর সব বিজ্ঞপ্তি মুছে দিন</string>
+
+    <string name="touch_clear_notif_title">ফোন থেকে বিজ্ঞপ্তি মুছে দিন</string>
+
+    <string name="touch_music_play_pause_title">সঙ্গীত চালু / বিরতি / থামান</string>
+    <string name="touch_music_skip_previous_title">সঙ্গীত চালু, আগের গান</string>
+    <string name="touch_music_skip_next_title">সঙ্গীত চালু, পরের গান</string>
+    <string name="touch_music_headset_only_title">শুধু যখন হেডসেট যুক্ত</string>
+    <string name="touch_music_launch">সঙ্গীত চালু করুন</string>
+    <string name="touch_music_volume_up_title">সঙ্গীতের শব্দ বাড়ান</string>
+    <string name="touch_music_volume_down_title">সঙ্গীতের শব্দ কমান</string>
+    <string name="touch_music_track_info_title">গানের তথ্য দেখান</string>
+
+    <string name="touch_time_launch_title">সময় ট্র্যাকিং শুরু করুন</string>
+    <string name="touch_time_launch_type_timer_title">টাইমার</string>
+    <string name="touch_time_launch_type_stopper_title">স্টপওয়াচ</string>
+    <string name="touch_time_launch_type_interval_title">ইন্টারভাল</string>
+    <string name="touch_time_launch_restart">চলমান থাকলে পুনরায় শুরু করুন</string>
+    <string name="touch_time_reminder_title">অবশিষ্ট/অতিবাহিত সময় দেখান</string>
+
+    <string name="touch_google_assistant_title">গুগল অ্যাসিস্ট্যান্ট</string>
+
+    <string name="touch_flashlight_title">ফ্ল্যাশলাইট চালু/বন্ধ</string>
+
+    <string name="touch_camera_title">ছবি তুলুন</string>
+    <string name="touch_camera_front_title">সামনের ক্যামেরা</string>
+    <string name="touch_camera_rear_title">পেছনের ক্যামেরা</string>
+    <string name="touch_camera_install_title">ইনস্টল করুন</string>
+
+    <string name="touch_app_launcher1_title">অ্যাপ চালু করুন</string>
+    <string name="touch_app_launcher_package_no_title">একটি অ্যাপ নির্বাচন করুন</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">শুধু যদি স্ক্রিন লক না থাকে</string>
+
+    <string name="touch_broadcast1_title">ব্রডকাস্ট পাঠান</string>
+    <string name="touch_broadcast1_action_title">ইনটেন্ট অ্যাকশন</string>
+    <string name="touch_broadcast1_package_title">ইনটেন্ট প্যাকেজের নাম</string>
+
+    <string name="touch_http_request1_title">১. HTTP রিকুয়েস্ট</string>
+    <string name="touch_http_request2_title">২. HTTP রিকুয়েস্ট</string>
+    <string name="touch_http_request_url_title">URL</string>
+    <string name="touch_http_request_method_title">মেথড</string>
+    <string name="touch_http_request_body_title">বডি</string>
+    <string name="touch_http_request_show_response_title">রেসপন্স দেখান</string>
+
+    <string name="touch_tasker_launcher1_title">১. টাস্কার টাস্ক চালু করুন</string>
+    <string name="touch_tasker_launcher2_title">২. টাস্কার টাস্ক চালু করুন</string>
+    <string name="touch_tasker_launcher_no_permission_title">প্রথমে Tasker ইনস্টল করুন, Mi Bandage-এর পরে</string>
+    <string name="touch_tasker_launcher_no_access_title">বাহ্যিক অ্যাক্সেস অনুমোদন করুন</string>
+    <string name="touch_tasker_launcher_no_task_title">একটি টাস্ক নির্বাচন করুন</string>
+
+    <string name="touch_testing_title">টাচ পর্যবেক্ষণ</string>
+    <string name="touch_testing_second">সেকেন্ড</string>
+
+    <string name="touch_setting_detection_time_title">টাচ সনাক্তকরণের সময়</string>
+    <string name="touch_setting_detection_time_music_hint">যদি এটি কম হয়, তাহলে মিউজিক স্ক্রিন দ্রুত বন্ধ হবে</string>
+    <string name="touch_setting_detection_time_button_hint">যদি এটি কম হয়, তাহলে বোতামে দ্রুত চাপ দিন</string>
+
+    <string name="touch_setting_detection_method_title">টাচ সনাক্তকরণের পদ্ধতি</string>
+
+    <string name="touch_setting_recognition_start_title">টাচ সনাক্তকরণ শুরু করুন</string>
+    <string name="touch_setting_recognition_start_trigger_title">ট্রিগার</string>
+    <string name="touch_setting_recognition_time_title">সনাক্তকরণের সময়কাল</string>
+
+    <string name="touch_setting_recognition_mi_band_signal_title">%1$s সিগন্যাল</string>
+    <string name="touch_setting_recognition_succeeded_title">সনাক্তযোগ্য টাচ প্যাটার্ন</string>
+    <string name="touch_setting_recognition_failed_title">সনাক্তযোগ্য নয় এমন টাচ প্যাটার্ন</string>
+
+    <string name="info_dialog_touch"><![CDATA[
+    <p>স্ট্যান্ডঅলোন মোডে এটি সঠিকভাবে কাজ করে। আপনি যদি কোঅপারেশন মোড ব্যবহার করেন, তাহলে অফিসিয়াল <app_official/> অ্যাপ্লিকেশন একই ফাংশনগুলো পরিচালনা করবে, ফলে সঠিক কার্যকারিতা নিশ্চিত করা যায় না।</p>
+    <p><b>ফোনের ব্লুটুথ সেটিংস:</b> <device_name/> ইনপুট ডিভাইস নিষ্ক্রিয় করুন</p>
+    <b><u>সনাক্তকৃত টাচ</u></b>
+    <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
+    <br><device_type/> মিউজিক নিয়ন্ত্রণ
+    <p><img src="ic_search">
+    <br><device_type/> আমার ফোনটি খুঁজুন
+    </p>
+    প্রতিটি ফাংশনের জন্য একাধিক টাচ রেকর্ড করা যেতে পারে।
+    ]]></string>
+
+
+    <!-- Weather  -->
+    <string name="weather_tab_weather_forecast">আবহাওয়া</string>
+    <string name="weather_tab_location">অবস্থান</string>
+    <string name="weather_tab_settings">@string/setting_name</string>
+
+    <string name="weather_location_title">অবস্থান</string>
+
+    <string name="weather_forecast_title">আবহাওয়ার পূর্বাভাস</string>
+
+    <string name="weather_setting_provider">আবহাওয়া প্রদানকারী</string>
+    <string name="weather_city_title">শহর</string>
+    <string name="weather_unit_title">তাপমাত্রার একক</string>
+    <string name="weather_unit_metric">মেট্রিক (সেলসিয়াস)</string>
+    <string name="weather_unit_imperial">ইম্পেরিয়াল (ফারেনহাইট)</string>
+    <string name="weather_automatic_update">অ্যাপটি ব্যাকগ্রাউন্ডে থাকলেও স্বয়ংক্রিয়ভাবে অবস্থান আপডেট করুন</string>
+    <string name="weather_automatic_update_title">আপনার অবস্থান ব্যবহার করুন</string>
+    <string name="weather_automatic_update_summary">এই অ্যাপ্লিকেশনটি আপনার বর্তমান অবস্থান অনুযায়ী আবহাওয়া হালনাগাদ করতে ব্যাকগ্রাউন্ডে অবস্থান তথ্য সংগ্রহ করে, এমনকি যখন অ্যাপটি বন্ধ বা নিষ্ক্রিয় থাকে।</string>
+
+    <string name="permission_background_location">%1$s অ্যাপটি বন্ধ বা নিষ্ক্রিয় থাকলেও অবস্থান ডেটা সংগ্রহের অনুমতি পাবে</string>
+    <string name="permission_error_title">%1$s অনুমতি আপডেট করতে পারছে না</string>
+    <string name="permission_error_description">সেটিংসে যান এবং অবস্থান অনুমতির জন্য "%1$s" নির্বাচন করুন।</string>
+    <string name="all_the_time">সবসময়</string>
+
+    <string name="weather_current_title">বর্তমান আবহাওয়া</string>
+    <string name="weather_current_location">বর্তমান অবস্থান</string>
+    <string name="weather_current_temperature">বর্তমান তাপমাত্রা</string>
+
+    <string name="weather_precipitation_rain">বৃষ্টি</string>
+    <string name="weather_precipitation_snow">তুষারপাত</string>
+    <string name="weather_cloud_cover_abbreviation">Cc</string>
+    <string name="weather_cloud_cover">মেঘ</string>
+    <string name="weather_humidity">আর্দ্রতা</string>
+
+    <string name="weather_north">উ</string> <!-- উত্তর -->
+    <string name="weather_east">পূ</string> <!-- পূর্ব -->
+    <string name="weather_south">দ</string> <!-- দক্ষিণ -->
+    <string name="weather_west">প</string> <!-- পশ্চিম -->
+
+
+    <!-- Text customization -->
+    <string name="pref_text_reminder_repeat_interval_title">স্মরণ বার্তা পুনরাবৃত্তির সময়</string>
+    <string name="pref_text_reminder_repeat_interval_summary">বিজ্ঞপ্তি বা স্মরণ বার্তার জন্য এই সময় ব্যবহৃত হয়</string>
+    <string name="pref_text_emoticon_title">ইমোজি রূপান্তর</string>
+    <string name="pref_text_emoticon_summary_on">ইমোজিকে ইমোটিকনে রূপান্তর করুন</string>
+    <string name="pref_text_uppercase_title">বড় হাতের অক্ষর রূপান্তর</string>
+    <string name="pref_text_uppercase_summary_on">ছোট হাতের অক্ষরকে বড় হাতের অক্ষরে রূপান্তর করুন</string>
+    <string name="pref_text_alphanumeric_title">আলফানিউমেরিক ও ASCII অক্ষর</string>
+    <string name="pref_text_alphanumeric_summary_on">শুধুমাত্র আলফানিউমেরিক ও ASCII অক্ষর দেখান</string>
+    <string name="pref_text_transliteration_title">লিপ্যন্তরণ</string>
+    <string name="pref_text_transliteration_summary_on">উচ্চারণভিত্তিক অক্ষরগুলোকে সাধারণ রূপে রূপান্তর করুন</string>
+    <string name="pref_text_line_separator_title">লাইন বিভাজক পরিবর্তন</string>
+    <string name="pref_text_line_separator_summary_on">ডিফল্ট লাইন বিভাজককে অন্য অক্ষরে প্রতিস্থাপন করুন</string>
+    <string name="pref_text_line_separator_value_title">প্রতিস্থাপন ক্যারেক্টার</string>
+    <string name="pref_text_char_replacement_title">অক্ষর, ইমোজি প্রতিস্থাপন</string>
+    <string name="pref_text_char_replacement_summary_on">একটি অক্ষর অন্যটির সাথে প্রতিস্থাপন করুন</string>
+    <string name="pref_text_char_replacement_find">যা খুঁজবেন</string>
+    <string name="pref_text_char_replacement_replace">যা দিয়ে প্রতিস্থাপন করবেন</string>
+
+
+    <!-- Export -->
+    <string name="export_tab_database">ডেটা রপ্তানি</string>
+    <string name="export_start_date">রপ্তানি শুরুর তারিখ</string>
+
+
+    <!-- Theme -->
+    <string name="theme_tab_theme">থিম</string>
+
+    <string name="theme_title">থিম নির্বাচন করুন</string>
+    <string name="theme_background_color_title">পটভূমির রং</string>
+
+    <string name="theme_widget_background_color_title">রং</string>
+    <string name="theme_color_dynamic_color_title">ডায়নামিক রং</string>
+    <string name="theme_color_predefined_colors_title">পূর্বনির্ধারিত রং</string>
+
+    <string name="theme_notification_title">নোটিফিকেশন বার-এ স্ট্যাটাস দেখান</string>
+
+    <string name="theme_cat_color_setting">রং সেটিংস</string>
+
+
+    <!-- Premium mode -->
+    <string name="purchase_advantage_title">প্রিমিয়াম মোডের সুবিধাসমূহ</string>
+    <string name="purchase_advantage"><![CDATA[
+    <p>• উন্নয়নের জন্য আর্থিক সহায়তা</p>
+    <p>• বিজ্ঞাপন ছাড়াই ব্যবহার</p>
+    <p>• অগণিত নোটিফিকেশন সেটিংস</p>
+    <p>• অগণিত কল সেটিংস</p>
+    <p>• প্রতিদিন সীমাহীন ওয়াচ ফেস আপলোড</p>
+    <p>• অগণিত অ্যালার্ম (ঘড়ির সীমাবদ্ধতা প্রযোজ্য হতে পারে)</p>
+    <p>• সীমাহীন ডু নট ডিস্টার্ব মোড</p>
+    <p>• অগণিত টাচ সেটিংস</p>
+    <p>• আরও ঘন ঘন আবহাওয়ার আপডেট, স্বয়ংক্রিয় অবস্থান আপডেট, AccuWeather প্রদানকারী নির্বাচনযোগ্য</p>
+    <p>• বিস্তারিত দৈনিক গ্রাফ</p>
+    • অন্যান্য সব সীমাবদ্ধতা আনলক করুন…
+    ]]></string>
+
+    <string name="purchase_policy_title">প্রিমিয়াম মোড ব্যবহারের শর্তাবলী</string>
+    <string name="purchase_policy"><![CDATA[
+    <p>• আমি অ্যাপটি পরীক্ষা করেছি এবং এটি প্রত্যাশা অনুযায়ী কাজ করে।</p>
+    <p>• আমি বুঝতে পারি যে সিস্টেম পরিবর্তন (যেমন Android সংস্করণ আপডেট), হার্ডওয়্যার পরিবর্তন বা অন্যান্য অ্যাপের সাথে দ্বন্দ্বজনিত সমস্যার কারণে আমি অর্থ ফেরত বা ক্ষতিপূরণ দাবি করতে পারি না।</p>
+    <p>• সব কেনাকাটা চূড়ান্ত এবং ফেরতযোগ্য নয় (Google-এর রিফান্ড নীতির ক্ষেত্রে ব্যতিক্রম হতে পারে)।</p>
+    <p>• এই অ্যাপের সাথে কোনো সরাসরি বা পরোক্ষ ওয়ারেন্টি নেই।</p>
+    <p>• এই অ্যাপ ব্যবহারের সম্পূর্ণ দায়ভার ব্যবহারকারীর। এর ব্যবহারে কোনো তথ্য হারানো বা ক্ষতির জন্য ডেভেলপার দায়ী নয়।</p>
+    <p>• প্রিমিয়াম মোডটি আপনার Google অ্যাকাউন্টের সাথে সংযুক্ত থাকে এবং অ্যাপ পুনঃইনস্টল করলেও সক্রিয় থাকে।</p>
+    <i>ক্রয়ের পরে অ্যাপটি পুনরায় চালু করতে হবে।</i>
+    ]]></string>
+
+    <string name="purchase_google_play_services_not_available">Google Play Services উপলব্ধ নয়</string>
+
+
+    <string name="purchase_agree">আমি শর্তাবলিতে সম্মত</string>
+    <string name="purchase_order_id">অর্ডার আইডি</string>
+    <string name="purchase_order_id_help">এই লিঙ্কগুলি থেকে অনুলিপি করুন:
+        \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+
+    <string name="purchase_info">একবারের মূল্য ・ %1$s</string>
+    <string name="purchase_button_purchase">ক্রয় করুন</string>
+
+    <!-- Feedback -->
+    <string name="action_log_notification">লগ</string>
+
+    <string name="feedback_google_play_title">অ্যাপ রেট দিন</string>
+    <string name="feedback_request_feature_title">ফিচার অনুরোধ, বাগ রিপোর্ট</string>
+    <string name="feedback_request_feature_summary">স্বয়ংক্রিয় ই-মেইল প্রক্রিয়াকরণ, হয়তো উত্তর পাবেন না</string>
+    <string name="feedback_translation_title">%1$s অনুবাদ</string>
+    <string name="feedback_translation_title_summary">অনুবাদে সাহায্য করুন</string>
+
+    <!-- Privacy policy -->
+    <string name="privacy_policy_tab_privacy_policy">গোপনীয়তা নীতি</string>
+    <string name="privacy_policy_tab_user_consent">ব্যবহারকারীর সম্মতি</string>
+    <string name="privacy_policy_tab_eu_consent">EU ও USA সম্মতি</string>
+    <string name="privacy_policy_tab_non_eu_consent">অন্যান্য অঞ্চলের সম্মতি</string>
+
+    <string name="privacy_policy_collect_title">আমরা যে তথ্য সংগ্রহ করি</string>
+    <string name="privacy_policy_collect"><![CDATA[
+    <p>• আমরা শুধুমাত্র বেনামী তথ্য সংগ্রহ করি।</p>
+    <p>• আপনি অ্যাপটি কীভাবে ব্যবহার করেন তার উপর ভিত্তি করে অ্যাপ-লেভেলের তথ্য সংগ্রহ করা হয় (Google Analytics)।</p>
+    <p>• ত্রুটি ও ক্র্যাশ সম্পর্কিত তথ্য সংগ্রহ করি উন্নয়নের উদ্দেশ্যে (Firebase Crashlytics)।</p>
+    <p>• পারফরম্যান্স সংক্রান্ত তথ্য সংগ্রহ করি (Firebase Performance Monitoring)।</p>
+    <p>• Google Firebase প্ল্যাটফর্ম বেনামীভাবে তথ্য সংগ্রহ করে এবং ব্যবহারকারীর পরিচয় প্রকাশ না করেই প্রবণতা জানায়। সংগ্রহকৃত তথ্যের মধ্যে রয়েছে: Firebase ইনস্টলেশন আইডি, অ্যাপ স্টেট, ডিভাইসের মেটাডেটা (মডেল, CPU, RAM, ডিস্ক, OS, ভাষা, দেশ), পারফরম্যান্স মেট্রিক্স, অ্যাপ চালুর সময়, নেটওয়ার্ক লেটেন্সি, প্রায়বর্তী IP ইত্যাদি।</p>
+    <p>• আবহাওয়া আপডেটের জন্য আপনার বর্তমান অবস্থান সংগ্রহ করা হয় (ঐচ্ছিক)।</p>
+    • এই তথ্য সংগ্রহ ও প্রক্রিয়াকরণের আইনি ভিত্তি হলো আমাদের বৈধ স্বার্থ: অ্যাপের কার্যকারিতা, স্থায়িত্ব ও ব্যবহারযোগ্যতা উন্নত করা।
+    ]]></string>
+
+    <string name="privacy_policy_cookies_title">কুকিজ ও অনুরূপ প্রযুক্তি</string>
+    <string name="privacy_policy_cookies"><![CDATA[
+    • কিছু তৃতীয় পক্ষের পরিষেবা যেমন AdMob ব্যক্তিগতকৃত বিজ্ঞাপন প্রদর্শনের জন্য কুকিজ বা অনুরূপ প্রযুক্তি ব্যবহার করতে পারে। আপনি আপনার Google অ্যাকাউন্ট সেটিংস থেকে বিজ্ঞাপন ব্যক্তিগতকরণ পরিচালনা করতে পারেন।
+    ]]></string>
+
+    <string name="privacy_policy_retention_title">তথ্য সংরক্ষণ</string>
+    <string name="privacy_policy_retention"><![CDATA[
+    • সংগ্রহ করা তথ্য Google Firebase তার নিজস্ব নীতিমালার ভিত্তিতে সংরক্ষণ করে এবং শুধুমাত্র বিশ্লেষণ, ত্রুটি নির্ণয় ও কর্মক্ষমতা উন্নয়নের উদ্দেশ্যে যতদিন প্রয়োজন ততদিন রাখা হয়।
+    ]]></string>
+
+    <string name="privacy_policy_not_collect_title">যে তথ্য আমরা সংগ্রহ করি না</string>
+    <string name="privacy_policy_not_collect"><![CDATA[
+    <p>• আমরা আপনার কোনো ব্যক্তিগতভাবে শনাক্তযোগ্য তথ্য সংগ্রহ করি না। যেমন: আপনার নাম, ঠিকানা, ফোন নম্বর, ইমেইল বা MAC ঠিকানা।</p>
+    • আমরা ব্যক্তিগত স্বাস্থ্য তথ্য, যোগাযোগ তালিকা বা আপনার ডিভাইসে প্রদর্শিত নোটিফিকেশনের বিষয়বস্তু সংগ্রহ করি না।
+    ]]></string>
+
+    <string name="privacy_policy_share_title">আমরা যেসব তথ্য শেয়ার করি</string>
+    <string name="privacy_policy_share"><![CDATA[
+    • আমরা কোনো কোম্পানি বা সংস্থার সঙ্গে ডেটা শেয়ার করি না, Google এবং বিজ্ঞাপন প্রদানকারীদের ব্যতীত।
+    ]]></string>
+
+    <string name="privacy_policy_use_title">ব্যক্তিগত ও সংবেদনশীল ডেটা যা আমরা ব্যবহার করি</string>
+    <string name="privacy_policy_use"><![CDATA[
+    • আমরা কেবল আবহাওয়ার তথ্য হালনাগাদ করার জন্য অবস্থান সংক্রান্ত ডেটা ব্যবহার করি, এবং এটি কেবল তখনই যখন আপনি এই ফিচারটি সক্রিয় করেন।
+    ]]></string>
+
+    <string name="privacy_policy_rights_title">আপনার অধিকার</string>
+    <string name="privacy_policy_rights"><![CDATA[
+    <p>• বিশ্লেষণ, ক্র্যাশ ও পারফরম্যান্স ডেটা সম্পূর্ণরূপে বেনামী এবং কারো পরিচয় শনাক্তের জন্য ব্যবহার করা যায় না। তাই, এগুলো ব্যক্তিগত তথ্য হিসেবে বিবেচিত হয় না এবং GDPR অনুযায়ী অ্যাক্সেস, সংশোধন বা মুছে ফেলার অধিকার প্রযোজ্য নয়।</p>
+    <p>• আপনি অ্যাপটি আনইনস্টল করে বা Google অ্যাকাউন্ট/ডিভাইস সেটিংস থেকে গোপনীয়তা নিয়ন্ত্রণ করে ডেটা সংগ্রহ বন্ধ করতে পারেন।</p>
+    • তথ্য ব্যবহারের বা গোপনীয়তা সংক্রান্ত প্রশ্নের জন্য অনুগ্রহ করে অ্যাপের সাপোর্ট চ্যানেলের মাধ্যমে আমাদের সাথে যোগাযোগ করুন।
+    ]]></string>
+
+    <string name="privacy_policy_links_title">তৃতীয় পক্ষের গোপনীয়তা নীতি</string>
+    <string name="privacy_policy_links"><![CDATA[
+    <p><a href="https://policies.google.com/privacy">Google গোপনীয়তা নীতি (Google Play Services সহ)</a></p>
+    <p><a href="https://policies.google.com/technologies/ads">AdMob ডেটা ব্যবহার</a></p>
+    <p><a href="https://support.google.com/analytics/answer/6004245">Google Analytics ডেটা ব্যবহার</a></p>
+    <p><a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics শর্তাবলি</a></p>
+    <a href="https://firebase.google.com/support/privacy">Firebase গোপনীয়তা ও সুরক্ষা (Performance Monitoring সহ)</a>
+    ]]></string>
+
+    <string name="privacy_policy_eu_consent_title">অবস্থা</string>
+    <string name="privacy_policy_eu_consent_title_obtained">অনুমতি প্রাপ্ত হয়েছে</string>
+    <string name="privacy_policy_eu_consent_title_personalized">ব্যক্তিগতকৃত, প্রাসঙ্গিক বিজ্ঞাপন</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">অব্যক্তিগতকৃত বিজ্ঞাপন (কম প্রাসঙ্গিক)</string>
+    <string name="privacy_policy_eu_consent_title_unknown">অজানা</string>
+
+    <string name="privacy_policy_eu_consent_setting">সেটিং</string>
+
+
+    <!-- Custom vibration dialog -->
+    <string name="custom_vibration_title">ভাইব্রেশন সেটিং</string>
+
+
+    <!-- Shortcuts -->
+    <string name="shortcut">শর্টকাট</string>
+    <string name="shortcut_visible_items">দৃশ্যমান শর্টকাট আইটেম</string>
+    <string name="shortcut_hidden_items">গোপন শর্টকাট আইটেম</string>
+
+    <string name="shortcut_status">অবস্থা</string>
+    <string name="shortcut_heart_rate">হার্ট রেট</string>
+    <string name="shortcut_blood_oxygen">রক্তে অক্সিজেন</string>
+    <string name="shortcut_sleep">ঘুম</string>
+    <string name="shortcut_breathing">শ্বাস-প্রশ্বাস</string>
+    <string name="shortcut_weather">আবহাওয়া</string>
+    <string name="shortcut_stress">স্ট্রেস</string>
+
+
+    <!-- Actions  -->
+    <string name="tab_daily_charts">দৈনিক চার্ট</string>
+    <string name="tab_weekly_charts">সাপ্তাহিক চার্ট</string>
+    <string name="tab_monthly_charts">মাসিক চার্ট</string>
+    <string name="tab_yearly_charts">বার্ষিক চার্ট</string>
+
+    <string name="ad_attribution">বিজ্ঞাপন</string>
+    <string name="on">চালু</string>
+    <string name="off">বন্ধ</string>
+    <string name="none">কোনোটি না</string>
+    <string name="heart_rate_bpm">বিপিএম</string>
+    <string name="heart_rate_mhr">সর্বাধিক হার্ট রেট (MHR)</string>
+    <string name="date">তারিখ</string>
+    <string name="time">সময়</string>
+    <string name="time_start">শুরুর সময়</string>
+    <string name="time_end">শেষ সময়</string>
+    <string name="ringer_mode_vibrate">ভাইব্রেট</string>
+    <string name="ringer_mode_silent">নিঃশব্দ</string>
+    <string name="ringer_mode_dnd_priority_only">বিরক্ত না করুন (শুধু অগ্রাধিকার)</string>
+    <string name="ringer_mode_dnd_alarms_only">বিরক্ত না করুন (শুধু অ্যালার্ম)</string>
+    <string name="ringer_mode_dnd_total_silence">বিরক্ত না করুন (সম্পূর্ণ নীরবতা)</string>
+    <string name="unknown">অজানা</string>
+    <string name="maximum">সর্বাধিক</string>
+    <string name="all_day">সারা দিন</string>
+    <string name="timed">সময় নির্ধারিত</string>
+    <string name="file_name">ফাইলের নাম</string>
+    <string name="default_">ডিফল্ট</string>
+    <string name="default_by_phone">ডিফল্ট (ফোন অনুযায়ী)</string>
+    <string name="custom">কাস্টম</string>
+    <string name="invalid_setting">অবৈধ সেটিং</string>
+    <string name="ringtone">রিংটোন</string>
+    <string name="ringtone_chooser">রিংটোন বাছাইকারী</string>
+    <string name="uninstalled">আনইনস্টল করা হয়েছে</string>
+    <string name="value">মান</string>
+    <string name="downloads">ডাউনলোড</string>
+    <string name="share">শেয়ার করুন</string>
+    <string name="send">পাঠান</string>
+    <string name="narrow">সংকীর্ণ</string>
+    <string name="short_">সংক্ষিপ্ত</string>
+    <string name="medium">মাঝারি</string>
+    <string name="long_">দীর্ঘ</string>
+    <string name="full">পূর্ণ</string>
+    <string name="alignment_left">বামে সাজান</string>
+    <string name="alignment_center">মাঝে সাজান</string>
+    <string name="alignment_right">ডানে সাজান</string>
+    <string name="visible">দৃশ্যমান</string>
+    <string name="invisible">অদৃশ্য</string>
+    <string name="placeholder">প্লেসহোল্ডার</string>
+    <string name="image_scale_fit">ফিট করুন</string>
+    <string name="image_scale_crop">ক্রপ করুন</string>
+    <string name="image_scale_stretch">স্ট্রেচ করুন</string>
+    <string name="resource_manager">রিসোর্স ম্যানেজার</string>
+
+    <string name="action_premium_mode">প্রিমিয়াম মোড</string>
+    <string name="action_dismiss">বাতিল করুন</string>
+    <string name="action_setting">সেটিংস</string>
+    <string name="action_delete">মুছুন</string>
+    <string name="action_rename">নাম পরিবর্তন</string>
+    <string name="action_export">রপ্তানি করুন</string>
+    <string name="action_synchronization">সিঙ্ক করুন</string>
+    <string name="action_download">ডাউনলোড</string>
+    <string name="action_upload">আপলোড</string>
+    <string name="action_backup">ব্যাকআপ</string>
+    <string name="action_restore">পুনরুদ্ধার</string>
+    <string name="action_filter_no">ফিল্টার নেই</string>
+    <string name="action_bluetooth">ব্লুটুথ</string>
+    <string name="action_favorite">প্রিয়</string>
+    <string name="action_save">সংরক্ষণ করুন</string>
+    <string name="action_test">পরীক্ষা করুন</string>
+    <string name="action_discard">বাতিল করুন</string>
+    <string name="action_keep_editing">সম্পাদনা চালিয়ে যান</string>
+    <string name="action_new">নতুন</string>
+    <string name="action_new_file_extension">নতুন %1$s</string>
+    <string name="action_edit">সম্পাদনা করুন</string>
+    <string name="action_start_stop">শুরু / বন্ধ করুন</string>
+    <string name="action_contacts">যোগাযোগ</string>
+    <string name="action_single_selection">একক নির্বাচন</string>
+    <string name="action_multiple_selection">একাধিক নির্বাচন</string>
+    <string name="action_selection_boundaries">নির্বাচনের সীমা</string>
+    <string name="action_object_boundaries">অবজেক্ট সীমা</string>
+    <string name="action_select">নির্বাচন</string>
+    <string name="action_select_all">সব নির্বাচন করুন</string>
+    <string name="action_select_texts">লিখা নির্বাচন করুন</string>
+    <string name="action_select_images">ছবি নির্বাচন করুন</string>
+    <string name="action_deselect_all">সব নির্বাচন বাতিল করুন</string>
+    <string name="synchronized_from_watch">ঘড়ি থেকে সিঙ্ক হয়েছে</string>
+    <string name="synchronization_succeeded">সিঙ্ক সফল হয়েছে</string>
+    <string name="synchronization_failed">সিঙ্ক ব্যর্থ হয়েছে</string>
+
+    <string name="action_chart">চার্ট</string>
+    <string name="action_zoom_in">জুম</string>
+    <string name="action_chart_normalize_raw_data">পরিমাপকৃত মান (প্রতি মিনিট)</string>
+    <string name="action_chart_normalize_quarter_hourly">১৫ মিনিটে একবার</string>
+    <string name="action_chart_normalize_half_hourly">৩০ মিনিটে একবার</string>
+    <string name="action_chart_normalize_hourly">ঘণ্টায় একবার</string>
+    <string name="action_chart_sort_time_asc">সময় অনুযায়ী (ছোট থেকে বড়)</string>
+    <string name="action_chart_sort_time_desc">সময় অনুযায়ী (বড় থেকে ছোট)</string>
+    <string name="action_chart_sort_step_asc">পদক্ষেপ অনুযায়ী (ছোট থেকে বড়)</string>
+    <string name="action_chart_sort_step_desc">পদক্ষেপ অনুযায়ী (বড় থেকে ছোট)</string>
+    <string name="action_chart_sort_duration_asc">সময়কাল অনুযায়ী (ছোট থেকে বড়)</string>
+    <string name="action_chart_sort_duration_desc">সময়কাল অনুযায়ী (বড় থেকে ছোট)</string>
+    <string name="action_chart_sort_heart_rate_asc">পালস অনুযায়ী (ছোট থেকে বড়)</string>
+    <string name="action_chart_sort_heart_rate_desc">পালস অনুযায়ী (বড় থেকে ছোট)</string>
+    <string name="action_chart_sort_spo2_asc">SpO2 অনুযায়ী (ছোট থেকে বড়)</string>
+    <string name="action_chart_sort_spo2_desc">SpO2 অনুযায়ী (বড় থেকে ছোট)</string>
+    <string name="action_chart_sort_pressure_asc">চাপ অনুযায়ী (ছোট থেকে বড়)</string>
+    <string name="action_chart_sort_pressure_desc">চাপ অনুযায়ী (বড় থেকে ছোট)</string>
+    <string name="action_chart_monthly_calendar">ক্যালেন্ডার</string>
+    <string name="action_chart_monthly_compact">সংক্ষিপ্ত</string>
+
+    <string name="activity_progress_title_prepare">সিঙ্ক করার প্রস্তুতি চলছে…</string>
+    <string name="activity_progress_title_sync">ডেটা সিঙ্ক করা হচ্ছে…</string>
+    <string name="activity_progress_title_save">ডেটা সংরক্ষণ করা হচ্ছে…</string>
+
+    <string name="required_value">আবশ্যক</string>
+
+    <string name="percent_0">০%</string>
+    <string name="percent_10">১০%</string>
+    <string name="percent_20">২০%</string>
+    <string name="percent_30">৩০%</string>
+    <string name="percent_40">৪০%</string>
+    <string name="percent_50">৫০%</string>
+    <string name="percent_60">৬০%</string>
+    <string name="percent_70">৭০%</string>
+    <string name="percent_80">৮০%</string>
+    <string name="percent_90">৯০%</string>
+    <string name="percent_100">১০০%</string>
+
+    <!-- Constants -->
+    <string name="const_day_of_week_sunday">রবিবার</string>
+    <string name="const_day_of_week_monday">সোমবার</string>
+    <string name="const_day_of_week_tuesday">মঙ্গলবার</string>
+    <string name="const_day_of_week_wednesday">বুধবার</string>
+    <string name="const_day_of_week_thursday">বৃহস্পতিবার</string>
+    <string name="const_day_of_week_friday">শুক্রবার</string>
+    <string name="const_day_of_week_saturday">শনিবার</string>
+
+    <string name="const_time_abbreviation_day">দিন</string>
+    <string name="const_time_abbreviation_hour">ঘ</string>
+    <string name="const_time_abbreviation_minute">মি</string>
+    <string name="const_time_abbreviation_sec">সে</string>
+    <string name="const_time_abbreviation_milli_sec">মি.সে</string>
+
+    <string name="const_number">%1$,d</string>
+    <string name="const_number_float">%,.2f</string>
+    <string name="const_number_float_1_precision">%,.1f</string>
+    <string name="const_percentage">%1$,d%%</string>
+    <string name="const_percent_sign">%</string>
+
+    <string name="const_unit_kilometer">কিমি</string>
+    <string name="const_unit_meter">মিটার</string>
+    <string name="const_unit_centimeter">সেমি</string>
+    <string name="const_unit_mile">মাইল</string>
+    <string name="const_unit_kilogram">কেজি</string>
+    <string name="const_unit_kcal">ক্যালোরি</string>
+    <string name="const_unit_dbm">dBm</string>
+
+    <plurals name="plural_time_hour">
+        <item quantity="one">%d ঘণ্টা</item>
+        <item quantity="other">%d ঘণ্টা</item>
+    </plurals>
+
+    <plurals name="plural_time_minute">
+        <item quantity="one">%d মিনিট</item>
+        <item quantity="other">%d মিনিট</item>
+    </plurals>
+
+    <plurals name="plural_time_second">
+        <item quantity="one">%d সেকেন্ড</item>
+        <item quantity="other">%d সেকেন্ড</item>
+    </plurals>
+
+</resources>

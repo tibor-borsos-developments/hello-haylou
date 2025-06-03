@@ -1,12 +1,11 @@
 ﻿<?xml version="1.0"?>
 
 <resources xmlns:tools="http://schemas.android.com/tools" tools:locale="nl">
-    <string name="menu_nav_home">@string/device_name</string>
     <string name="menu_nav_notification">Melding</string>
     <string name="menu_nav_call">Bellen</string>
     <string name="menu_nav_step">Activiteit</string>
     <string name="menu_nav_sleep">Slapen</string>
-    <string name="menu_nav_pulse">Hartslag</string>
+    <string name="menu_nav_heart_rate">Hartslag</string>
     <string name="menu_nav_blood_oxygen">Zuurstof in het bloed</string>
     <string name="menu_nav_blood_pressure">Bloeddruk</string>
     <string name="menu_nav_workout">Training</string>
@@ -17,26 +16,24 @@
     <string name="menu_nav_weather">Weer</string>
     <string name="menu_nav_touch">Beheer instellingen</string>
     <string name="menu_nav_more">Meer</string>
-    <string name="menu_nav_text_display">Tekst scherm</string>
+    <string name="menu_nav_text_customization">Tekst scherm</string>
     <string name="menu_nav_export">Export</string>
     <string name="menu_nav_premium_mode">Premium mode</string>
     <string name="menu_nav_feedback">Terugkoppeling</string>
     <string name="menu_nav_privacy_policy">Privacybeleid</string>
     <string name="menu_nav_theme">Thema</string>
-<!--    <string name="menu_nav_settings" type="string">@string/settings_name</string>-->
 
     <string name="setting_name">Instellingen</string>
     <string name="settings_name">Instellingen</string>
     <string name="info_name">Informatie</string>
     <string name="more_name">Meer</string>
 
-<!--    <string name="mi_band_tracker_title">Stappen・afstand・calorieën・doel・hartslag</string>-->
-    <string name="main_tracker_title">Stappen・doel</string>
-<!--    <string name="mi_band_battery">Batterij niveau・vorige laadtijd・geschatte resterende tijd</string>-->
-    <string name="device_battery">Batterij niveau・vorige laadtijd</string>
-    <string name="device_state_connected_disconnected_last_time">Vorige verbonden  en niet verbonden tijd</string>
-    <string name="device_alarm">Volgend alarm</string>
-    <string name="device_reminder">Volgende herinnering</string>
+    <string name="main_item_activity_title">Stappen・doel</string>
+    <string name="main_item_battery">Batterij niveau・vorige laadtijd</string>
+    <string name="main_item_connect_and_disconnect_last_time">Vorige verbonden  en niet verbonden tijd</string>
+    <string name="main_item_next_alarm">Volgend alarm</string>
+    <string name="main_item_next_reminder">Volgende herinnering</string>
+    <string name="main_item_call_and_notification_control">Oproepen en meldingen</string>
 
     <string name="device_search">%1$s search</string> <!-- %1$s = Watch name -->
     <string name="device_setting">%1$s setting</string> <!-- %1$s = Watch name -->
@@ -49,14 +46,11 @@
     <string name="device_state_bonded">Gekoppeld Apparaat</string>
     <string name="device_state_not_bonded">Niet gekoppeld Apparaat</string>
 
-    <string name="pref_dnd_title">Niet Storen mode</string>
-
     <string name="error_title">Oeps! Er is iets misgegaan</string>
     <string name="error_message">Werk de app bij naar de nieuwste versie</string>
 
 
-    <!-- Haylou setting -->
-    <string name="mi_band_setting_button_title">%1$s settings・Profiel・Tekst・Bellen・Menu</string>
+    <!-- Watch connection and setting -->
     <string name="mi_band_setting_title">%1$s settings</string>
 
     <string name="mi_band_setting_menu_connection">Verbinding</string>
@@ -68,7 +62,7 @@
     <string name="mi_band_setting_auth_mi_fit">%1$s cooperation</string> <!-- Haylou Fit-->
     <string name="mi_band_setting_auth_mi_fit_hint">%3$s requires the installation of the %1$s app on the same phone. At first you have to pair %2$s in %1$s app, then you can use %3$s. If you want to use %1$s application, choose this.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
     <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the %3$s to work. After the pairing, uninstall the %1$s app or unpair the smartwatch. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the %3$s to work. After the pairing, uninstall the %1$s app or unpair the smartwatch. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. Make sure the %2$s screen is turned on during pairing operations.</string>
     <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
 
     <string name="mi_band_setting_auth_key">Authenticatiesleutel</string>
@@ -77,21 +71,21 @@
     <string name="mi_band_setting_auth_pair">Koppelen</string>
     <string name="mi_band_setting_auth_unpair">Ontkoppelen</string>
 
-    <string name="message_auth_request">It is paired, if you do not know the key, use the unpair</string>
+    <string name="message_auth_request">Your device is already paired. If you don\'t know the key, please unpair it.</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Watch name -->
-    <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
-    <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
-    <string name="message_mi_band_setting_auth_key_invalid">Invalid authentication key</string>
+    <string name="message_mi_band_setting_auth_press_band_button">Druk op de knop op je %1$s om te koppelen</string>
+    <string name="message_mi_band_setting_auth_success">%1$s succesvol gekoppeld</string>
+    <string name="message_mi_band_setting_auth_fail">Koppelen met %1$s is mislukt</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Ongeldige verificatiesleutel</string>
 
     <string name="pref_disconnect_device">Ontkoppeling</string>
 
-    <string name="mi_band_setting_connection_problem_title">In case of connection problem</string>
+    <string name="mi_band_setting_connection_problem_title">Als je problemen hebt met verbinden</string>
     <string name="mi_band_setting_connection_problem_hint"><![CDATA[
-    - Unpair the watch in the phone\'s Bluetooth settings
-    <br>- Turn Bluetooth off and on
-    <br>- Force close the Application or restart the phone
-    <br>- Pair your watch again on the main screen
+    - Koppel het horloge los in de Bluetooth-instellingen van je telefoon<br>
+    - Schakel Bluetooth uit en weer in<br>
+    - Forceer het afsluiten van de app of herstart je telefoon<br>
+    - Probeer het horloge opnieuw te koppelen vanaf het hoofdscherm
     ]]></string>
 
     <string name="mi_band_setting_dial">Klokscherm</string>
@@ -101,14 +95,14 @@
     <string name="mi_band_setting_lift_wrist">Beweeg de pols omhoog om info te bekijken</string>
     <string name="mi_band_setting_screen_on_duration">Screen on duration</string>
     <string name="mi_band_setting_idle_alert">Inactiviteitsmeldingen</string>
-    <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
+    <string name="mi_band_setting_idle_alert_duration">Inactivity time</string>
     <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest (12:00-14:00)</string>
 
     <string name="pref_synchronization">Synchronisatie</string>
     <string name="pref_synchronization_fetch_interval">Synchronization frequency</string>
     <string name="pref_synchronization_summary">Select the data to be automatically synchronised in the background. If you do not need any of the data, turn it off for better performance. Data can still be synchronised manually on the home screen or in the appropriate menus (by sweeping down).</string>
 
-    <string name="mi_band_setting_profile">This data is needed to correctly calculate the number of steps, distance, and burned calories.</string>
+    <string name="mi_band_setting_profile">Deze gegevens helpen bij een nauwkeurigere berekening van je stappen, afstand en verbrande calorieën.</string>
     <string name="mi_band_setting_gender">Geslacht</string>
     <string name="mi_band_setting_gender_male">Man</string>
     <string name="mi_band_setting_gender_female">Vrouw</string>
@@ -123,21 +117,17 @@
     <!-- Battery -->
     <string name="battery_details">Energie verbruik</string>
 
-    <string name="mi_band_battery_settings">Batterij instellingen</string>
-    <string name="mi_band_battery_notification">Melding laag batterijniveau</string>
-    <string name="mi_band_battery_notification_level">Batterijniveau drempel</string>
-    <string name="mi_band_battery_notification_repeat_interval">Herhaal interval</string>
-    <string name="mi_band_battery_notification_shade">Meldingen op telefoon</string>
-    <string name="mi_band_battery_notification_shade_error">Notification display permission is restricted</string>
-    <string name="mi_band_battery_notification_shade_ongoing">Aanhoudende meldingen</string>
-    <string name="mi_band_battery_notification_shade_message">Laag Batterijniveau: %1$,d%%</string>
-    <string name="mi_band_battery_notification_mi_band">Berichten op armband</string>
-    <string name="mi_band_battery_notification_mi_band_message">Batterij: %1$,d%%</string>
+    <string name="battery_settings">Batterij instellingen</string>
+    <string name="battery_settings_notification">Melding laag batterijniveau</string>
+    <string name="battery_settings_notification_level">Batterijniveau drempel</string>
+    <string name="battery_settings_notification_repeat_interval">Herhaal interval</string>
+    <string name="battery_settings_notification_on_phone">Meldingen op telefoon</string>
+    <string name="battery_settings_notification_on_phone_ongoing">Aanhoudende meldingen</string>
+    <string name="battery_settings_notification_on_phone_message">Laag Batterijniveau: %1$,d%%</string>
+    <string name="battery_settings_notification_on_device">Berichten op armband</string>
+    <string name="battery_settings_notification_on_device_message">Batterij: %1$,d%%</string>
 
-    <!-- PreferenceScreen -->
-    <string name="pref_connected_have_notif_interval_title">Herinnering interval herhaling</string>
-    <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
-
+    <!-- Preference screens -->
     <string name="pref_battery_phone">Telefoonbatterij</string>
     <string name="pref_battery_phone_summary">Meldingen leeg en vol van het batterijniveau</string>
     <string name="pref_cat_battery_phone_low">Laag batterijniveau</string>
@@ -257,15 +247,15 @@
     <string name="notification_group_monitoring">Meldingen volgen</string>
     <string name="notification_group_monitoring_disabled">Meldingen uitschakelen (laat de app meldingen niet zien)</string>
     <string name="notification_group_alert_title">%1$s signal</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
-    <string name="notification_group_text">Tekst scherm</string>
+    <string name="notification_group_text_customization">Tekst scherm</string>
     <string name="notification_group_text_app_name">App naam</string>
     <string name="notification_group_text_name">Naam</string>
     <string name="notification_group_text_title">Titel</string>
     <string name="notification_group_text_content">Content</string>
     <string name="notification_group_text_big_content">Full content</string>
     <string name="notification_group_text_content_slice_title">De tekstlengte</string>
-    <string name="notification_group_display_time_title">Tijd weergeven</string>
-    <string name="notification_group_display_notification_title">Display notification</string>
+    <string name="notification_group_display_duration_title">Tijd weergeven</string>
+    <string name="notification_group_show_notification_title">Display notification</string>
     <string name="notification_group_immediate">Als melding is ontvangen, direct signaal</string>
     <string name="notification_group_connecting">bij het verbinden met de telefoon</string>
     <string name="notification_group_reminder">Herinnering signaal</string>
@@ -306,34 +296,32 @@
     Bij publicatie en grafisch ontwerpen is lorem ipsum een opvultekst van griekse tekst die vaak wordt gebruikt om de tekstuele elementen van een grafisch document of visuele presentatie te demonstreren.
         \nDoor het tekstelement hiervan te voorzien kan de ontwerper vooraf het element alvast vormgeven voordat het daadwerklijke gebruikt word.
     </string>
-    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> icon: Om de titel/inhoud van de melding te tonen activeer dit pictogram.]]></string>
 
 
-    <!-- Call -->
+    <!-- Incoming call alert -->
     <string name="call_tab_call">Binnenkomend gesprek</string>
     <string name="call_tab_contacts">Contacten</string>
 
-    <string name="pref_cat_call">Binnenkomend gesprek</string>
-    <string name="pref_call_summary_on">Vergeet niet om waarschuwingen voor inkomende oproepen uit te schakelen op de %1$s app</string> <!-- %1$s = official app name -->
-    <string name="pref_call_text_title">Toon beller ID</string>
+    <string name="call_incoming">Binnenkomend gesprek</string>
+    <string name="call_incoming_summary_on">Vergeet niet om waarschuwingen voor inkomende oproepen uit te schakelen op de %1$s app</string> <!-- %1$s = official app name -->
+    <string name="call_incoming_caller_id">Toon beller ID</string>
 
     <string name="pref_call_notification_rejected">Show notification about rejected call</string>
     <string name="pref_call_notification_rejected_message">Rejected call</string>
     <string name="pref_call_notification_rejected_action">Call</string>
 
-    <string name="pref_call_net_text_title">Inkomend internet oproep signaal</string>
+    <string name="call_incoming_net_alert_title">Inkomend internet oproep signaal</string>
 
-    <string name="pref_cat_call_missed">Gemiste oproep</string>
-    <string name="pref_call_missed_title">Gemiste oproep signaal</string>
-
-    <string name="pref_call_missed_alert_title">%1$s signal</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="call_missed_title">Gemiste oproep signaal</string>
+    <string name="call_missed_chooser_title">%1$s signal</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="call_missed_notification">Gemiste oproep</string>
 
     <string name="call_reject_button_action">Reject knop</string>
 
     <string name="touch_call_answer_title">Oproep beantwoorden</string>
     <string name="touch_call_answer_speakerphone_title">Telefoon luidspreker</string>
 
-    <string name="touch_call_end_title">Oproep weigeren, beëindigen</string>
+    <string name="call_end_title">Oproep weigeren, beëindigen</string>
 
     <string name="touch_call_mute_title">Oproep dempenregeling</string>
     <string name="touch_call_mute_only_call_state_ringing_title">Alleen als je een inkomende oproep hebt</string>
@@ -377,10 +365,10 @@
     <string name="sleep_rem">REM</string>
 
 
-    <!-- Pulse -->
-    <string name="pulse_details">Hartslag details</string>
+    <!-- Heart rate -->
+    <string name="heart_rate_details">Hartslag details</string>
 
-    <string name="pulse_continuous_title">Continue hartslagmeeting</string>
+    <string name="heart_rate_continuous_title">Continue hartslagmeeting</string>
 
     <string name="heart_rate_warning_title">Hartslagwaarschuwing</string>
     <string name="low_and_high_heart_rates">Hartslagdrempels</string>
@@ -427,7 +415,7 @@
     <string name="message_reminder_disabled">Herinnering uitgeschakeld</string>
 
     <string name="reminder_repeat">Uurlijkse herhaling</string>
-    <string name="reminder_notification_shade">Melding op de telefoon</string>
+    <string name="reminder_notification_on_phone">Melding op de telefoon</string>
 
     <string name="message_time_reminder_free_counter">Tot 1 herinnering kan worden gebruikt in de gratis modus</string>
 
@@ -460,7 +448,7 @@
     <string name="watch_face_upload_prepare">Preparing for the upload…</string>
     <string name="watch_face_upload_progress">Uploading %1$,d%%</string>
 
-    <string name="watch_face_invalid_firmware">%1$s firmware does not support uploading the watch face, update the firmware in the official application</string> <!-- %1$s = Haylou Smart watch ... -->
+    <string name="watch_face_invalid_firmware">Firmware %1$s is onbekend of ondersteunt het uploaden van wijzerplaten niet. Werk de firmware bij met de officiële app. Als de officiële app het uploaden van wijzerplaten ondersteunt, laat het ons dan weten via het Feedback-menu.</string>
     <string name="watch_face_invalid_auth">Use in standalone mode, when using cooperation mode, the official application may block the watch face upload</string>
     <string name="watch_face_invalid_free">In de gratis modus kunnen vandaag geen extra wijzerplaten worden geüpload</string>
     <string name="watch_face_watch_rewarded_ads">Bekijk een video om door te gaan</string>
@@ -540,8 +528,8 @@
     <string name="watch_face_edit_icon">Icon</string>
     <string name="watch_face_edit_image_size">Afbeeldingsgrootte</string>
 
-    <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
-    <string name="watch_face_custom_watch_face_under_development_title">The ability to upload custom watch faces is currently in development and may be available in the future, but it is not yet confirmed</string>
+    <string name="watch_face_custom_watch_face_not_supported_title">Dit horloge ondersteunt geen aangepaste wijzerplaatuploads</string>
+    <string name="watch_face_custom_watch_face_under_development_title">De functie voor het uploaden van aangepaste wijzerplaten is momenteel in ontwikkeling en kan in de toekomst beschikbaar komen, maar dit is nog niet bevestigd.</string>
 
     <!-- Touch monitoring -->
     <string name="touch_tab_function">Function</string>
@@ -675,7 +663,7 @@
 
     <string name="weather_forecast_title">Weersverwachting</string>
 
-    <string name="weather_setting_provider">Weather provider</string>
+    <string name="weather_setting_provider">Weeraanbieder</string>
     <string name="weather_city_title">Plaats</string>
     <string name="weather_unit_title">Eenheid</string>
     <string name="weather_unit_metric">Metrisch (Celsius)</string>
@@ -693,8 +681,6 @@
     <string name="weather_current_location">Current location</string>
     <string name="weather_current_temperature">Huidige temperatuur</string>
 
-    <string name="weather_display">Scherm</string>
-
     <string name="weather_precipitation_rain">Regen</string>
     <string name="weather_precipitation_snow">Sneeuw</string>
     <string name="weather_cloud_cover_abbreviation">Cc</string>
@@ -707,7 +693,9 @@
     <string name="weather_west">W</string>
 
 
-    <!-- Text display -->
+    <!-- Text customization -->
+    <string name="pref_text_reminder_repeat_interval_title">Herinnering interval herhaling</string>
+    <string name="pref_text_reminder_repeat_interval_summary">Notification/reminder alert function uses this timing</string>
     <string name="pref_text_emoticon_title">Emoji-conversie</string>
     <string name="pref_text_emoticon_summary_on">Converteer emoji naar emoticon</string>
     <string name="pref_text_uppercase_title">Hoofdletterconversie</string>
@@ -729,8 +717,6 @@
     <string name="app_chooser">App Kiezer</string>
     <string name="action_search">Zoeken</string>
     <string name="action_filter_notification">Meldings filter</string>
-
-    <string name="main_control">Beheren</string>
 
 
     <!-- Export -->
@@ -754,37 +740,40 @@
 
 
     <!-- Premium mode -->
-    <string name="purchase_advantage_title">Voordelen Premium modus</string>
+    <string name="purchase_advantage_title">Voordelen van de premium modus</string>
     <string name="purchase_advantage"><![CDATA[
-        <p>• financial support for development</p>
-        <p>• no ads</p>
-        <p>• notification setting is not limited</p>
-        <p>• call setting is not limited</p>
-        <p>• the number of alarms is not limited (the number of alarms is limited by the clock)</p>
-        <p>• do not disturb mode is not limited</p>
-        <p>• more frequent weather synchronization, location can be updated automatically, AccuWeather provider can be set</p>
-        <p>• touch setting is not limited</p>
-        <p>• detailed daily graphs</p>
-        • removing other restrictions…
+    <p>• financiële steun voor de ontwikkeling</p>
+    <p>• geen advertenties</p>
+    <p>• onbeperkte meldingsinstellingen</p>
+    <p>• onbeperkte belinstellingen</p>
+    <p>• onbeperkt dagelijks uploaden van wijzerplaten</p>
+    <p>• onbeperkt aantal alarmen (beperkt door het horloge)</p>
+    <p>• onbeperkte modus ‘Niet storen’</p>
+    <p>• onbeperkte aanraakinstellingen</p>
+    <p>• frequentere weerupdates, automatische locatie-updates, optie om AccuWeather te gebruiken</p>
+    <p>• gedetailleerde dagelijkse grafieken</p>
+    • ontgrendel alle andere functielimieten…
     ]]></string>
-    <string name="purchase_policy_title">Voorwaarden van de Premium-modus</string>
+
+    <string name="purchase_policy_title">Voorwaarden voor de premium modus</string>
     <string name="purchase_policy"><![CDATA[
-    <p>• Ik heb de app getest en deze werkt correct.</p>
-    <p>• Ik ben me ervan bewust dat ik geen compensatie of terugbetaling kan eisen vanwege bugs of softwarefouten veroorzaakt door wijzigingen in de software- of hardwareomgeving of het gebruik van andere applicaties.</p>
-    <p>• Alle verkopen zijn definitief en kunnen niet worden terugbetaald (behalve volgens het restitutiebeleid van Google).</p>
-    <p>• Er wordt geen garantie gegeven.</p>
-    <p>• Deze app wordt op eigen risico gebruikt, en de ontwikkelaar sluit alle aanvullende garanties uit, inclusief enige directe of indirecte aansprakelijkheid voor schade of gegevensverlies als gevolg van het gebruik ervan.</p>
-    <i>Na aankoop moet u de app opnieuw starten.</i>
+    <p>• Ik heb de app getest en vastgesteld dat deze naar verwachting werkt.</p>
+    <p>• Ik begrijp dat ik geen restitutie of compensatie kan vragen voor problemen veroorzaakt door systeemwijzigingen (zoals Android-updates), hardware of conflicten met andere apps.</p>
+    <p>• Alle aankopen zijn definitief en niet restitueerbaar (behalve zoals toegestaan volgens Google\'s restitutiebeleid).</p>
+    <p>• Deze app wordt geleverd zonder enige expliciete of impliciete garantie.</p>
+    <p>• Het gebruik van deze app is op eigen risico. De ontwikkelaar is niet aansprakelijk voor directe of indirecte schade of verlies van gegevens als gevolg van gebruik.</p>
+    <p>• De premium modus is gekoppeld aan je Google-account en blijft actief na herinstallatie van de app.</p>
+    <i>De app moet opnieuw worden gestart na aankoop.</i>
     ]]></string>
 
     <string name="purchase_google_play_services_not_available">Google Play Services zijn niet beschikbaar</string>
 
-    <!--<string name="purchase_price">Prijs:</string>-->
     <string name="purchase_agree">Ik ga akkoord met de algemene voorwaarden.</string>
     <string name="purchase_order_id">Order ID</string>
     <string name="purchase_order_id_help">Copie van:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+
     <string name="purchase_info">Eenmalige vergoeding ・ %1$s</string> <!-- %1$s = price</string>-->
     <string name="purchase_button_purchase">Kopen</string>
 
@@ -803,41 +792,58 @@
     <string name="privacy_policy_tab_eu_consent">Gebruikersinstemming voor EU en VS</string>
     <string name="privacy_policy_tab_non_eu_consent">Gebruikersinstemming voor Andere Regio\'s</string>
 
-    <string name="privacy_policy_collect_title">Informatie die we verzamelen</string>
+    <string name="privacy_policy_collect_title">Informatie die wij verzamelen</string>
     <string name="privacy_policy_collect"><![CDATA[
-        <p>• We verzamelen alleen anonieme informatie.</p>
-        <p>• We verzamelen informatie op applicatieniveau over de services die u gebruikt en hoe u ze gebruikt (Google Analytics).</p>
-        <p>• We verzamelen informatie op applicatieniveau zoals bugs, fouten en crashes om verbeteringen aan te brengen (Firebase Crashlytics).</p>
-        <p>• We collect information at the application level about the performance (Firebase Performance Monitoring).</p>
-        <p>• Google Firebase Platform verzamelt informatie anoniem. Het rapporteert trends zonder individuele gebruikers te identificeren.
-        The Firebase Platform collects data such as Firebase installation ID, application state, relevant device metadata (device model, CPU architecture, RAM and disk size, OS, screen orientation, country, locale/language), stack traces, performance metrics (including app start time and network request latency, network URLs), CPU/memory usage, IP address …
-        </p>
-        • We collect location data to update the weather based on your current location (optional).
+    <p>• Wij verzamelen alleen anonieme informatie.</p>
+    <p>• Wij verzamelen op applicatieniveau informatie over welke diensten u gebruikt en hoe u deze gebruikt (Google Analytics).</p>
+    <p>• Wij verzamelen informatie over bugs, fouten en crashes op applicatieniveau om verbeteringen aan te brengen (Firebase Crashlytics).</p>
+    <p>• Wij verzamelen prestatiegegevens van de app (Firebase Performance Monitoring).</p>
+    <p>• Het Google Firebase-platform verzamelt gegevens op anonieme wijze. Het rapporteert trends zonder individuele gebruikers te identificeren.
+    De verzamelde gegevens kunnen onder andere het Firebase-installatie-ID, de status van de app, relevante apparaatgegevens (zoals apparaattype, CPU-architectuur, RAM- en opslagcapaciteit, besturingssysteem, schermoriëntatie, land, taal/locale), foutopsporingsgegevens (stack traces), prestatiestatistieken (inclusief opstarttijd van de app en netwerklatentie, URL\'s), CPU-/geheugengebruik en het geschatte IP-adres omvatten.</p>
+    <p>• Wij verzamelen locatiegegevens om het weer te kunnen bijwerken op basis van uw huidige locatie (optioneel).</p>
+    • De wettelijke grondslag voor het verzamelen en verwerken van deze gegevens is ons gerechtvaardigd belang bij het verbeteren van de functionaliteit en prestaties van de app, evenals het waarborgen van de stabiliteit en bruikbaarheid ervan.
     ]]></string>
 
-    <string name="privacy_policy_not_collect_title">Informatie die we niet verzamelen</string>
+    <string name="privacy_policy_cookies_title">Cookies en vergelijkbare technologieën</string>
+    <string name="privacy_policy_cookies"><![CDATA[
+    • Sommige diensten van derden, zoals AdMob, kunnen cookies of vergelijkbare technologieën gebruiken om gepersonaliseerde advertenties te tonen. U kunt gepersonaliseerde advertenties beheren via uw Google-accountinstellingen.
+    ]]></string>
+
+    <string name="privacy_policy_retention_title">Bewaartermijn van gegevens</string>
+    <string name="privacy_policy_retention"><![CDATA[
+    • Verzamelde gegevens worden door Google Firebase bewaard in overeenstemming met hun beleid en alleen zo lang als nodig is voor analyse, diagnose en prestatieverbeteringen.
+    ]]></string>
+
+    <string name="privacy_policy_not_collect_title">Informatie die wij niet verzamelen</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-    <p>• We verzamelen geen persoonlijk identificeerbare informatie over u. Dit betekent dat we bijvoorbeeld geen persoonlijke gegevens verzamelen zoals uw naam, adres, telefoonnummer, e-mailadres of MAC-adres.</p>
-    • We verzamelen geen persoonlijke gezondheidsgegevens, contacten of de inhoud van telefoonmeldingen.
+    <p>• Wij verzamelen geen persoonlijk identificeerbare informatie. Dat betekent dat wij geen gegevens verzamelen zoals uw naam, adres, telefoonnummer, e-mailadres of MAC-adres.</p>
+    • Wij verzamelen geen persoonlijke gezondheidsgegevens, contactpersonen of de inhoud van meldingen die op uw apparaat worden weergegeven.
     ]]></string>
 
-    <string name="privacy_policy_share_title">Informatie die we delen</string>
+    <string name="privacy_policy_share_title">Informatie die wij delen</string>
     <string name="privacy_policy_share"><![CDATA[
-    • We delen geen gegevens met bedrijven of organisaties anders dan Google en advertentieproviders.
+    • Wij delen geen gegevens met andere bedrijven of organisaties, behalve met Google en advertentieproviders.
     ]]></string>
 
-    <string name="privacy_policy_use_title">Persoonlijke en gevoelige gebruikersgegevens die we gebruiken</string>
+    <string name="privacy_policy_use_title">Persoonlijke en gevoelige gegevens die wij gebruiken</string>
     <string name="privacy_policy_use"><![CDATA[
-    • We gebruiken locatiegegevens alleen om de weersinformatie bij te werken, en alleen als u deze functie inschakelt.
+    • Wij gebruiken locatiegegevens alleen om weerinformatie bij te werken, en alleen als u deze functie heeft ingeschakeld.
     ]]></string>
 
-    <string name="privacy_policy_links_title">Privacybeleid van externe serviceproviders</string>
+    <string name="privacy_policy_rights_title">Uw rechten</string>
+    <string name="privacy_policy_rights"><![CDATA[
+    <p>• De verzamelde analyse-, crash- en prestatiegegevens zijn volledig anoniem en kunnen niet worden gebruikt om een individu te identificeren. Daarom worden deze gegevens niet beschouwd als persoonsgegevens onder de toepasselijke wetgeving inzake gegevensbescherming (zoals de AVG) en vallen ze niet onder het recht op inzage, correctie of verwijdering.</p>
+    <p>• U kunt zich afmelden voor gegevensverzameling door de app te verwijderen of uw privacy-instellingen in uw Google-account of op uw apparaat aan te passen.</p>
+    • Voor vragen over het gebruik van gegevens of uw privacyrechten kunt u contact met ons opnemen via de ondersteuningskanalen van de app.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">Privacybeleid van externe dienstverleners</string>
     <string name="privacy_policy_links"><![CDATA[
-        <a href="https://policies.google.com/privacy">Google Play Services</a>
-        <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
-        <p><a href="https://www.google.com/analytics/terms">Google Analytics</a></p>
-        <p><a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a></p>
-        <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>
+    <p><a href="https://policies.google.com/privacy">Privacybeleid van Google (inclusief Google Play Services)</a></p>
+    <p><a href="https://policies.google.com/technologies/ads">AdMob-gegevensgebruik</a></p>
+    <p><a href="https://support.google.com/analytics/answer/6004245">Google Analytics-gegevensgebruik</a></p>
+    <p><a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics-voorwaarden</a></p>
+    <a href="https://firebase.google.com/support/privacy">Firebase privacy en beveiliging (inclusief Performance Monitoring)</a>
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Status</string>
@@ -861,7 +867,7 @@
     <string name="shortcut_status">Status</string>
     <string name="shortcut_heart_rate">Hartslag</string>
     <string name="shortcut_blood_oxygen">Zuurstof in het bloed</string>
-    <string name="shortcut_Sleep">Slapen</string>
+    <string name="shortcut_sleep">Slapen</string>
     <string name="shortcut_breathing">Breathing</string>
     <string name="shortcut_weather">Weer</string>
     <string name="shortcut_stress">Stress</string>
@@ -958,7 +964,7 @@
 
     <string name="action_chart">Tabel</string>
     <string name="action_zoom_in">Zoom</string>
-    <string name="action_chart_normalize_minute">Gemeten waarden</string>
+    <string name="action_chart_normalize_raw_data">Gemeten waarden</string>
     <string name="action_chart_normalize_quarter_hourly">Kwartier waarden</string>
     <string name="action_chart_normalize_half_hourly">Halfuur waarden</string>
     <string name="action_chart_normalize_hourly">Uur waarden</string>
@@ -968,8 +974,8 @@
     <string name="action_chart_sort_step_desc">Stappen aflopend</string>
     <string name="action_chart_sort_duration_asc">Duration ascending</string>
     <string name="action_chart_sort_duration_desc">Duration descending</string>
-    <string name="action_chart_sort_pulse_asc">Hartslag oplopend</string>
-    <string name="action_chart_sort_pulse_desc">Hartslag aflopend</string>
+    <string name="action_chart_sort_heart_rate_asc">Hartslag oplopend</string>
+    <string name="action_chart_sort_heart_rate_desc">Hartslag aflopend</string>
     <string name="action_chart_sort_spo2_asc">SpO2 oplopend</string>
     <string name="action_chart_sort_spo2_desc">SpO2 aflopend</string>
     <string name="action_chart_sort_pressure_asc">Pressure ascending</string>
@@ -995,7 +1001,7 @@
     <string name="percent_90">90%</string>
     <string name="percent_100">100%</string>
 
-    <!-- Constante -->
+    <!-- Constants -->
     <string name="const_day_of_week_sunday">Zondag</string>
     <string name="const_day_of_week_monday">Maandag</string>
     <string name="const_day_of_week_tuesday">Dinsdag</string>
@@ -1024,29 +1030,17 @@
     <string name="const_unit_dbm">dBm</string>
 
     <plurals name="plural_time_hour">
-        <item quantity="zero">%d uur</item>
         <item quantity="one">%d uur</item>
-        <item quantity="two">%d uren</item>
-        <item quantity="few">%d uur</item>
-        <item quantity="many">%d uren</item>
-        <item quantity="other">%d uren</item>
+        <item quantity="other">%d uur</item>
     </plurals>
 
     <plurals name="plural_time_minute">
-        <item quantity="zero">%d minuten</item>
         <item quantity="one">%d minuut</item>
-        <item quantity="two">%d minuten</item>
-        <item quantity="few">%d minuten</item>
-        <item quantity="many">%d minuten</item>
         <item quantity="other">%d minuten</item>
     </plurals>
 
     <plurals name="plural_time_second">
-        <item quantity="zero">%d seconden</item>
         <item quantity="one">%d seconde</item>
-        <item quantity="two">%d seconden</item>
-        <item quantity="few">%d seconden</item>
-        <item quantity="many">%d seconden</item>
         <item quantity="other">%d seconden</item>
     </plurals>
 

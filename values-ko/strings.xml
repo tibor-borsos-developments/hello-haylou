@@ -1,12 +1,11 @@
 <?xml version="1.0"?>
 
 <resources xmlns:tools="http://schemas.android.com/tools" tools:locale="ko">
-    <string name="menu_nav_home">@string/device_name</string>
     <string name="menu_nav_notification">알림</string>
     <string name="menu_nav_call">수신 전화 알림</string>
     <string name="menu_nav_step">활동</string>
     <string name="menu_nav_sleep">수면</string>
-    <string name="menu_nav_pulse">심박수</string>
+    <string name="menu_nav_heart_rate">심박수</string>
     <string name="menu_nav_blood_oxygen">혈중 산소</string>
     <string name="menu_nav_blood_pressure">혈압</string>
     <string name="menu_nav_workout">연습</string>
@@ -17,26 +16,24 @@
     <string name="menu_nav_weather">날씨</string>
     <string name="menu_nav_touch">터치</string>
     <string name="menu_nav_more">더</string>
-    <string name="menu_nav_text_display">텍스트 표시</string>
+    <string name="menu_nav_text_customization">텍스트 표시</string>
     <string name="menu_nav_export">내보내기</string>
     <string name="menu_nav_premium_mode">프리미엄 모드</string>
     <string name="menu_nav_feedback">피드백</string>
     <string name="menu_nav_privacy_policy">개인 정보 정책</string>
     <string name="menu_nav_theme">테마</string>
-<!--    <string name="menu_nav_settings" type="string">@string/settings_name</string>-->
 
     <string name="setting_name">설정</string>
     <string name="settings_name">설정</string>
     <string name="info_name">정보</string>
     <string name="more_name">더</string>
 
-<!--    <string name="mi_band_tracker_title">걸음수・거리・칼로리・목표・심박수</string>-->
-    <string name="main_tracker_title">걸음수・목표</string>
-<!--    <string name="mi_band_battery">배터리 잔량・마지막 충전 시간・예상 잔여 시간</string>-->
-    <string name="device_battery">배터리 잔량・마지막 충전 시간</string>
-    <string name="device_state_connected_disconnected_last_time">마지막 연결 및 연결 해제 시간</string>
-    <string name="device_alarm">다음 알람</string>
-    <string name="device_reminder">다음 알림</string>
+    <string name="main_item_activity_title">걸음수・목표</string>
+    <string name="main_item_battery">배터리 잔량・마지막 충전 시간</string>
+    <string name="main_item_connect_and_disconnect_last_time">마지막 연결 및 연결 해제 시간</string>
+    <string name="main_item_next_alarm">다음 알람</string>
+    <string name="main_item_next_reminder">다음 알림</string>
+    <string name="main_item_call_and_notification_control">통화 및 알림</string>
 
     <string name="device_search">%1$s 검색</string> <!-- %1$s = Watch name -->
     <string name="device_setting">%1$s 설정</string> <!-- %1$s = Watch name -->
@@ -49,14 +46,11 @@
     <string name="device_state_bonded">페어링</string>
     <string name="device_state_not_bonded">언페어링</string>
 
-    <string name="pref_dnd_title">방해 금지 모드</string>
-
     <string name="error_title">아차! 문제가 발생했습니다</string>
     <string name="error_message">앱을 최신 버전으로 업데이트하십시오</string>
 
 
     <!--Haylou setting -->
-    <string name="mi_band_setting_button_title">%1$s 설정・프로필・본문・수신 전화 알림・메뉴</string>
     <string name="mi_band_setting_title">%1$s 설정</string>
 
     <string name="mi_band_setting_menu_connection">연결</string>
@@ -68,7 +62,7 @@
     <string name="mi_band_setting_auth_mi_fit">%1$s(와)과 함께 사용하기</string> <!-- Haylou Fit-->
     <string name="mi_band_setting_auth_mi_fit_hint">%3$s(은)는 같은 폰에 %1$s 앱의 설치를 요구합니다. 먼저 %1$s(을)를 %2$s 애플리케이션에 연결해야, %3$s(을)를 사용할 수 있습니다. %1$s 앱을 사용하고 싶으면, 이것을 선택하세요.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
     <string name="mi_band_setting_auth_standalone">독립</string>
-    <string name="mi_band_setting_auth_standalone_hint">%3$s(이)가 작동하기 위해 %1$s앱이 요구되지 않습니다. 페어링 후에, %1$s 앱을 삭제하. %1$s(와)과 함께 사용하기를 복원할 때, %2$s(을)를 %1$s 애플리케이션에 다시 연결해야 합니다. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
+    <string name="mi_band_setting_auth_standalone_hint">%3$s(이)가 작동하기 위해 %1$s앱이 요구되지 않습니다. 페어링 후에, %1$s 앱을 삭제하. %1$s(와)과 함께 사용하기를 복원할 때, %2$s(을)를 %1$s 애플리케이션에 다시 연결해야 합니다. If you use the unpair function, the data on the smartwatch will be deleted. Make sure the %2$s screen is turned on during pairing operations.</string>
     <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
 
     <string name="mi_band_setting_auth_key">인증 키</string>
@@ -79,19 +73,19 @@
 
     <string name="message_auth_request">만약 이미 페어링이 되어 있지만, 인증키를 모른다면 언페어링를 사용하세요</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">페어링하려면 %1$s 버튼을 누르세요</string> <!-- %1$s = Watch name -->
-    <string name="message_mi_band_setting_auth_success">%1$s 페어링 성공</string>
+    <string name="message_mi_band_setting_auth_press_band_button">%1$s의 버튼을 눌러 페어링하세요</string>
+    <string name="message_mi_band_setting_auth_success">%1$s 페어링 완료됨</string>
     <string name="message_mi_band_setting_auth_fail">%1$s 페어링 실패</string>
-    <string name="message_mi_band_setting_auth_key_invalid">유효하지 않은 인증 키</string>
+    <string name="message_mi_band_setting_auth_key_invalid">인증 키가 잘못되었습니다</string>
 
     <string name="pref_disconnect_device">연결 해제</string>
 
-    <string name="mi_band_setting_connection_problem_title">In case of connection problem</string>
+    <string name="mi_band_setting_connection_problem_title">연결에 문제가 있는 경우</string>
     <string name="mi_band_setting_connection_problem_hint"><![CDATA[
-    - Unpair the watch in the phone\'s Bluetooth settings
-    <br>- Turn Bluetooth off and on
-    <br>- Force close the Application or restart the phone
-    <br>- Pair your watch again on the main screen
+    - 휴대폰의 Bluetooth 설정에서 시계의 페어링을 해제하세요<br>
+    - Bluetooth를 껐다가 다시 켜세요<br>
+    - 앱을 강제 종료하거나 휴대폰을 재시작하세요<br>
+    - 메인 화면에서 시계를 다시 페어링해 보세요
     ]]></string>
 
     <string name="mi_band_setting_dial">디스플레이</string>
@@ -101,14 +95,14 @@
     <string name="mi_band_setting_lift_wrist">손목을 들어올리면 화면 밝히기</string>
     <string name="mi_band_setting_screen_on_duration">회면 켜짐 시간</string>
     <string name="mi_band_setting_idle_alert">오래 앉음 경고</string>
-    <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
+    <string name="mi_band_setting_idle_alert_duration">Inactivity time</string>
     <string name="mi_band_setting_idle_alert_dnd">방해금지 (12:00-14:00)</string>
 
     <string name="pref_synchronization">동기화</string>
     <string name="pref_synchronization_fetch_interval">동기화 주기</string>
     <string name="pref_synchronization_summary">Select the data to be automatically synchronised in the background. If you do not need any of the data, turn it off for better performance. Data can still be synchronised manually on the home screen or in the appropriate menus (by sweeping down).</string>
 
-    <string name="mi_band_setting_profile">이 데이터는 걸음 수, 거리 및 소모 된 칼로리를 정확하게 계산하는 데 필요합니다.</string>
+    <string name="mi_band_setting_profile">이 정보는 걸음 수, 거리, 소모 칼로리를 보다 정확하게 계산하는 데 도움이 됩니다.</string>
     <string name="mi_band_setting_gender">성별</string>
     <string name="mi_band_setting_gender_male">남성</string>
     <string name="mi_band_setting_gender_female">여성</string>
@@ -123,21 +117,17 @@
     <!-- Battery -->
     <string name="battery_details">배터리 사용량</string>
 
-    <string name="mi_band_battery_settings">배터리 설정</string>
-    <string name="mi_band_battery_notification">배터리 부족 알림</string>
-    <string name="mi_band_battery_notification_level">배터리 부족을 알려줄 잔량</string>
-    <string name="mi_band_battery_notification_repeat_interval">반복 주기</string>
-    <string name="mi_band_battery_notification_shade">폰에 알려주기</string>
-    <string name="mi_band_battery_notification_shade_error">Notification display permission is restricted</string>
-    <string name="mi_band_battery_notification_shade_ongoing">반복 알람</string>
-    <string name="mi_band_battery_notification_shade_message">배터리 부족: %1$,d%%</string>
-    <string name="mi_band_battery_notification_mi_band">팔찌에 알려주기</string>
-    <string name="mi_band_battery_notification_mi_band_message">배터리: %1$,d%%</string>
+    <string name="battery_settings">배터리 설정</string>
+    <string name="battery_settings_notification">배터리 부족 알림</string>
+    <string name="battery_settings_notification_level">배터리 부족을 알려줄 잔량</string>
+    <string name="battery_settings_notification_repeat_interval">반복 주기</string>
+    <string name="battery_settings_notification_on_phone">폰에 알려주기</string>
+    <string name="battery_settings_notification_on_phone_ongoing">반복 알람</string>
+    <string name="battery_settings_notification_on_phone_message">배터리 부족: %1$,d%%</string>
+    <string name="battery_settings_notification_on_device">팔찌에 알려주기</string>
+    <string name="battery_settings_notification_on_device_message">배터리: %1$,d%%</string>
 
-    <!-- PreferenceScreen -->
-    <string name="pref_connected_have_notif_interval_title">알림 반복 간격</string>
-    <string name="pref_connected_have_notif_interval_summary">알림 반복신호 기능은 이 타이밍을 사용합니다.g</string>
-
+    <!-- Preference screens -->
     <string name="pref_battery_phone">폰 배터리</string>
     <string name="pref_battery_phone_summary">낮고 높은 배터리 잔량 알림</string>
     <string name="pref_cat_battery_phone_low">배터리 부족</string>
@@ -256,15 +246,15 @@
     <string name="notification_group_monitoring">알람 모니터링</string>
     <string name="notification_group_monitoring_disabled">알림 사용 안 함(어플리케이션 알림 표시 안 함)</string>
     <string name="notification_group_alert_title">%1$s 신호</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
-    <string name="notification_group_text">텍스트 표시</string>
+    <string name="notification_group_text_customization">텍스트 표시</string>
     <string name="notification_group_text_app_name">앱 이름</string>
     <string name="notification_group_text_name">이름</string>
     <string name="notification_group_text_title">제목</string>
     <string name="notification_group_text_content">내용</string>
     <string name="notification_group_text_big_content">전체 내용</string>
     <string name="notification_group_text_content_slice_title">텍스트 길이</string>
-    <string name="notification_group_display_time_title">표시 시간</string>
-    <string name="notification_group_display_notification_title">알림 표시</string>
+    <string name="notification_group_display_duration_title">표시 시간</string>
+    <string name="notification_group_show_notification_title">알림 표시</string>
     <string name="notification_group_immediate">알림이 수신되면 즉시 신호</string>
     <string name="notification_group_connecting">전화에 연결할 때</string>
     <string name="notification_group_reminder">리마인더 신호</string>
@@ -305,34 +295,32 @@
         출판 및 그래픽 디자인에서 로렘 입숨(loremipsum)은 그래픽 문서 또는 시각적 표현의 텍스트 요소를 보여주기 위해 일반적으로 사용되는 필러 텍스트 또는 그릭입니다.
         \n 의미있는 콘텐츠를 입력힌트 텍스트로 바꾸면 디자이너가 콘텐츠 자체를 제작하기 전에 콘텐츠 형식을 디자인 할 수 있습니다.
     </string>
-    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> icon: choose this icon to show the notifications title/content.]]></string>
 
 
-    <!-- Call -->
+    <!-- Incoming call alert -->
     <string name="call_tab_call">수신 전화</string>
     <string name="call_tab_contacts">콘택트 렌즈</string>
 
-    <string name="pref_cat_call">수신 전화</string>
-    <string name="pref_call_summary_on">활성화 (반드시 %1$s 앱에서 수신 전화를 끄세요)</string> <!-- %1$s = official app name -->
-    <string name="pref_call_text_title">발신자 번호 표시</string>
+    <string name="call_incoming">수신 전화</string>
+    <string name="call_incoming_summary_on">활성화 (반드시 %1$s 앱에서 수신 전화를 끄세요)</string> <!-- %1$s = official app name -->
+    <string name="call_incoming_caller_id">발신자 번호 표시</string>
 
     <string name="pref_call_notification_rejected">거절된 전화에 대한 알림 표시</string>
     <string name="pref_call_notification_rejected_message">거절된 전화</string>
     <string name="pref_call_notification_rejected_action">전화</string>
 
-    <string name="pref_call_net_text_title">인터넷 전화로 받은 신호</string>
+    <string name="call_incoming_net_alert_title">인터넷 전화로 받은 신호</string>
 
-    <string name="pref_cat_call_missed">부재중 전화</string>
-    <string name="pref_call_missed_title">부재중 전화 신호</string>
-
-    <string name="pref_call_missed_alert_title">%1$s 신호</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="call_missed_title">부재중 전화 신호</string>
+    <string name="call_missed_chooser_title">%1$s 신호</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="call_missed_notification">부재중 전화</string>
 
     <string name="call_reject_button_action">거절 버튼</string>
 
     <string name="touch_call_answer_title">전화 회신</string>
     <string name="touch_call_answer_speakerphone_title">스피커폰</string>
 
-    <string name="touch_call_end_title">전화 거절, 종료</string>
+    <string name="call_end_title">전화 거절, 종료</string>
 
     <string name="touch_call_mute_title">전화 음소거</string>
     <string name="touch_call_mute_only_call_state_ringing_title">수신 전화가 왔을 때만</string>
@@ -355,7 +343,6 @@
     <string name="action_search">검색</string>
     <string name="action_filter_notification">알림 필터</string>
 
-    <string name="main_control">제어</string>
 
     <!-- Activity -->
     <string name="step_details">활동내역</string>
@@ -374,10 +361,10 @@
     <string name="step_goal_default_title">기본 목표</string>
 
 
-    <!-- Pulse -->
-    <string name="pulse_details">심박상세</string>
+    <!-- Heart rate -->
+    <string name="heart_rate_details">심박상세</string>
 
-    <string name="pulse_continuous_title">연속 심박 측정</string>
+    <string name="heart_rate_continuous_title">연속 심박 측정</string>
 
     <string name="heart_rate_warning_title">심박수 경고</string>
     <string name="low_and_high_heart_rates">심박수 임계값</string>
@@ -433,7 +420,7 @@
     <string name="message_reminder_disabled">Reminder disabled</string>
 
     <string name="reminder_repeat">매시간 반복</string>
-    <string name="reminder_notification_shade">폰에 알림</string>
+    <string name="reminder_notification_on_phone">폰에 알림</string>
 
     <string name="message_time_reminder_free_counter">무료 모드에서 최대 1개의 알림을 사용할 수 있습니다</string>
 
@@ -466,7 +453,7 @@
     <string name="watch_face_upload_prepare">업로드 준비 중…</string>
     <string name="watch_face_upload_progress">%1$,d%% 업로드 중</string>
 
-    <string name="watch_face_invalid_firmware">%1$s는 펌웨어가 워치페이스 업로드를 지원하지 않습니다. 공식 애플리케이션에서 펌웨어를 업데이트하십시오</string> <!-- %1$s = Haylou Smart watch ... -->
+    <string name="watch_face_invalid_firmware">%1$s 펌웨어는 알려지지 않았거나 워치 페이스 업로드를 지원하지 않습니다. 공식 앱을 사용하여 펌웨어를 업데이트하세요. 공식 앱이 워치 페이스 업로드를 지원하는 경우, 피드백 메뉴를 통해 알려주세요.</string>
     <string name="watch_face_invalid_auth">협력 모드를 사용할 때, 공식 응용 프로그램이 워치페이스 업로드를 차단할 수 있습니다</string>
     <string name="watch_face_invalid_free">무료 모드에서는 오늘 더 이상 다이얼을 업로드할 수 없습니다</string>
     <string name="watch_face_watch_rewarded_ads">계속하려면 동영상을 시청하세요</string>
@@ -546,8 +533,8 @@
     <string name="watch_face_edit_icon">Icon</string>
     <string name="watch_face_edit_image_size">이미지 크기</string>
 
-    <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
-    <string name="watch_face_custom_watch_face_under_development_title">The ability to upload custom watch faces is currently in development and may be available in the future, but it is not yet confirmed</string>
+    <string name="watch_face_custom_watch_face_not_supported_title">이 시계는 사용자 정의 워치 페이스 업로드를 지원하지 않습니다</string>
+    <string name="watch_face_custom_watch_face_under_development_title">맞춤형 워치 페이스 업로드 기능은 현재 개발 중이며, 향후 제공될 수 있지만 아직 확정되지 않았습니다.</string>
 
     <!-- Touch monitoring -->
     <string name="touch_tab_function">기능</string>
@@ -699,8 +686,6 @@
     <string name="weather_current_location">현재 지역</string>
     <string name="weather_current_temperature">현재 온도</string>
 
-    <string name="weather_display">디스플레이</string>
-
     <string name="weather_precipitation_rain">비</string>
     <string name="weather_precipitation_snow">눈</string>
     <string name="weather_cloud_cover_abbreviation">Cc</string>
@@ -713,7 +698,9 @@
     <string name="weather_west">서</string>
 
 
-    <!-- Text display -->
+    <!-- Text customization -->
+    <string name="pref_text_reminder_repeat_interval_title">알림 반복 간격</string>
+    <string name="pref_text_reminder_repeat_interval_summary">알림 반복신호 기능은 이 타이밍을 사용합니다.g</string>
     <string name="pref_text_emoticon_title">이모티콘 변환</string>
     <string name="pref_text_emoticon_summary_on">이모지를 이모티콘으로 변환</string>
     <string name="pref_text_uppercase_title">대문자 변환</string>
@@ -752,37 +739,41 @@
 
 
     <!-- Premium mode -->
-    <string name="purchase_advantage_title">프리미엄 모드 혜택</string>
+    <string name="purchase_advantage_title">프리미엄 모드의 혜택</string>
     <string name="purchase_advantage"><![CDATA[
-        <p>• financial support for development</p>
-        <p>• no ads</p>
-        <p>• notification setting is not limited</p>
-        <p>• call setting is not limited</p>
-        <p>• the number of alarms is not limited (the number of alarms is limited by the clock)</p>
-        <p>• do not disturb mode is not limited</p>
-        <p>• more frequent weather synchronization, location can be updated automatically, AccuWeather provider can be set</p>
-        <p>• touch setting is not limited</p>
-        <p>• detailed daily graphs</p>
-        • removing other restrictions…
+    <p>• 개발을 위한 재정 지원</p>
+    <p>• 광고 없음</p>
+    <p>• 무제한 알림 설정</p>
+    <p>• 무제한 통화 설정</p>
+    <p>• 매일 무제한 워치 페이스 업로드</p>
+    <p>• 알람 개수 무제한 (워치에 따라 제한될 수 있음)</p>
+    <p>• 무제한 방해 금지 모드</p>
+    <p>• 무제한 터치 설정</p>
+    <p>• 더 자주 업데이트되는 날씨 정보, 자동 위치 업데이트, AccuWeather 사용 가능</p>
+    <p>• 상세한 일일 그래프</p>
+    • 모든 다른 기능 제한 해제…
     ]]></string>
+
     <string name="purchase_policy_title">프리미엄 모드 이용 약관</string>
     <string name="purchase_policy"><![CDATA[
-    <p>• 앱을 테스트했으며 정상적으로 작동합니다.</p>
-    <p>• 소프트웨어 또는 하드웨어 환경의 변경이나 다른 애플리케이션 사용으로 인해 발생하는 버그나 소프트웨어 오류에 대해 보상이나 환불을 요구할 수 없음을 인지하고 있습니다.</p>
-    <p>• 모든 판매는 최종적이며 환불되지 않습니다(단, Google 환불 정책은 예외입니다).</p>
-    <p>• 보증이 포함되어 있지 않습니다.</p>
-    <p>• 이 앱은 사용자의 책임 하에 사용되며, 개발자는 사용으로 인해 발생한 손해나 데이터 손실에 대한 직접적 또는 간접적인 책임을 포함한 모든 추가 보증을 제외합니다.</p>
+    <p>• 앱을 테스트해보았으며 정상적으로 작동함을 확인했습니다.</p>
+    <p>• 시스템 업데이트(Android 버전 등), 하드웨어 문제 또는 다른 앱과의 충돌로 인한 문제에 대해서는 환불이나 보상을 요청할 수 없음을 이해합니다.</p>
+    <p>• 모든 구매는 최종적이며 환불되지 않습니다 (Google\'s 환불 정책에 따라 허용되는 경우 제외).</p>
+    <p>• 이 앱은 명시적이거나 묵시적인 어떠한 보증도 제공하지 않습니다.</p>
+    <p>• 앱 사용은 사용자 본인의 책임입니다. 사용으로 인해 발생하는 직접적 또는 간접적인 손해나 데이터 손실에 대해 개발자는 책임지지 않습니다.</p>
+    <p>• 프리미엄 모드는 Google 계정에 연결되며 앱을 다시 설치해도 계속 활성화 상태를 유지합니다.</p>
     <i>구매 후 앱을 재시작해야 합니다.</i>
     ]]></string>
 
+
     <string name="purchase_google_play_services_not_available">Google Play 서비스는 사용할 수 없습니다</string>
 
-    <!--<string name="purchase_price">Price:</string>-->
     <string name="purchase_agree">이용 약관에 동의합니다.</string>
     <string name="purchase_order_id">주문 ID</string>
     <string name="purchase_order_id_help">아래에서 복사하세요:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+
     <string name="purchase_info">일회성 요금 ・ %1$s</string> <!-- %1$s = price</string>-->
     <string name="purchase_button_purchase">구매</string>
 
@@ -803,39 +794,56 @@
 
     <string name="privacy_policy_collect_title">수집하는 정보</string>
     <string name="privacy_policy_collect"><![CDATA[
-        <p>• 저희는 익명 정보만 수집합니다.</p>
-        <p>• 저희는 애플리케이션 레벨에서 당신이 사용하는 서비스와 그것들을 어떻게 사용하는 지에 대한 정보를 수집합니다 (Google Analytics).</p>
-        <p>• 저희는 개선을 제공하기 위해 애플리케이션 레벨에서 버그, 오류 및 크래쉬와 같은 정보를 수집합니다 (Firebase Crashlytics).</p>
-        <p>• We collect information at the application level about the performance (Firebase Performance Monitoring).</p>
-        <p>• Google Firebase Platform collects information anonymously. It reports trends without identifying individual users.
-        The Firebase Platform collects data such as Firebase installation ID, application state, relevant device metadata (device model, CPU architecture, RAM and disk size, OS, screen orientation, country, locale/language), stack traces, performance metrics (including app start time and network request latency, network URLs), CPU/memory usage, IP address …
-        </p>
-        • We collect location data to update the weather based on your current location (optional).
+    <p>• 저희는 익명 정보를 수집합니다.</p>
+    <p>• Google 애널리틱스를 통해 사용자가 어떤 서비스를 어떻게 사용하는지에 대한 앱 수준의 정보를 수집합니다.</p>
+    <p>• Firebase Crashlytics를 통해 버그, 오류 및 앱 충돌 관련 정보를 수집하여 앱을 개선합니다.</p>
+    <p>• Firebase Performance Monitoring을 통해 앱 성능에 대한 데이터를 수집합니다.</p>
+    <p>• Google Firebase 플랫폼은 정보를 익명으로 수집하며, 개인을 식별하지 않고 트렌드만 보고합니다.
+    수집되는 정보에는 Firebase 설치 ID, 앱 상태, 관련 기기 메타데이터(기기 모델, CPU 아키텍처, RAM 및 저장 공간, 운영 체제, 화면 방향, 국가, 언어/로케일), 오류 로그, 성능 지표(앱 시작 시간, 네트워크 요청 지연, 네트워크 URL 포함), CPU/메모리 사용량, 대략적인 IP 주소 등이 포함됩니다.</p>
+    <p>• 현재 위치를 기준으로 날씨 정보를 업데이트하기 위해 위치 데이터를 수집할 수 있습니다 (선택 사항).</p>
+    • 이 데이터의 수집 및 처리는 앱의 기능과 성능 개선, 안정성 및 사용성 유지를 위한 당사의 정당한 이익을 법적 근거로 합니다.
+    ]]></string>
+
+    <string name="privacy_policy_cookies_title">쿠키 및 유사 기술</string>
+    <string name="privacy_policy_cookies"><![CDATA[
+    • AdMob과 같은 일부 제3자 서비스는 맞춤형 광고를 표시하기 위해 쿠키 또는 유사한 기술을 사용할 수 있습니다. Google 계정 설정에서 광고 맞춤설정을 관리할 수 있습니다.
+    ]]></string>
+
+    <string name="privacy_policy_retention_title">데이터 보관 기간</string>
+    <string name="privacy_policy_retention"><![CDATA[
+    • 수집된 데이터는 Google Firebase의 정책에 따라 보관되며, 분석, 진단 및 성능 향상을 위한 목적으로 필요한 기간 동안만 유지됩니다.
     ]]></string>
 
     <string name="privacy_policy_not_collect_title">수집하지 않는 정보</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-    <p>• 당사는 귀하에 대한 개인 식별 정보를 수집하지 않습니다. 즉, 이름, 주소, 전화번호, 이메일 주소 또는 MAC 주소와 같은 개인 데이터를 수집하지 않습니다.</p>
-    • 당사는 개인 건강 데이터, 연락처 또는 전화 알림 내용을 수집하지 않습니다.
+    <p>• 당사는 사용자를 식별할 수 있는 개인 정보를 수집하지 않습니다. 예를 들어, 이름, 주소, 전화번호, 이메일 주소 또는 MAC 주소는 수집하지 않습니다.</p>
+    • 건강 정보, 연락처, 기기에 표시되는 알림 내용 등도 수집하지 않습니다.
     ]]></string>
 
     <string name="privacy_policy_share_title">공유하는 정보</string>
     <string name="privacy_policy_share"><![CDATA[
-    • 당사는 Google 및 광고 제공업체를 제외한 회사나 조직과 데이터를 공유하지 않습니다.
+    • Google 및 광고 제공업체를 제외하고, 다른 회사나 조직과 어떠한 데이터도 공유하지 않습니다.
     ]]></string>
 
-    <string name="privacy_policy_use_title">사용하는 개인 및 민감한 사용자 데이터</string>
+    <string name="privacy_policy_use_title">사용하는 개인 및 민감한 데이터</string>
     <string name="privacy_policy_use"><![CDATA[
-    • 당사는 위치 데이터를 날씨 정보를 업데이트하는 데만 사용하며, 이 기능을 활성화한 경우에만 사용합니다.
+    • 위치 정보는 날씨 정보를 업데이트하기 위한 목적으로만 사용되며, 해당 기능을 사용자가 활성화한 경우에만 수집됩니다.
     ]]></string>
 
-    <string name="privacy_policy_links_title">제3자 서비스 제공업체의 개인정보 보호정책</string>
+    <string name="privacy_policy_rights_title">사용자의 권리</string>
+    <string name="privacy_policy_rights"><![CDATA[
+    <p>• 수집되는 분석, 오류 및 성능 데이터는 완전히 익명 처리되어 있으며, 개별 사용자를 식별할 수 없습니다. 따라서 해당 데이터는 관련 개인정보 보호법(GDPR 등)에 따른 개인정보로 간주되지 않으며, 열람, 수정 또는 삭제 권한의 대상이 아닙니다.</p>
+    <p>• 앱을 삭제하거나 Google 계정 또는 기기의 개인정보 설정을 관리하여 데이터 수집을 거부할 수 있습니다.</p>
+    • 데이터 사용 또는 개인정보 보호 권리에 대한 문의는 앱의 지원 채널을 통해 연락해 주세요.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">제3자 서비스 제공업체의 개인정보처리방침</string>
     <string name="privacy_policy_links"><![CDATA[
-        <a href="https://policies.google.com/privacy">Google Play Services</a>
-        <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
-        <p><a href="https://www.google.com/analytics/terms">Google Analytics</a></p>
-        <p><a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a></p>
-        <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>
+    <p><a href="https://policies.google.com/privacy">Google 개인정보처리방침 (Google Play 서비스 포함)</a></p>
+    <p><a href="https://policies.google.com/technologies/ads">AdMob 데이터 사용</a></p>
+    <p><a href="https://support.google.com/analytics/answer/6004245">Google 애널리틱스 데이터 사용</a></p>
+    <p><a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics 약관</a></p>
+    <a href="https://firebase.google.com/support/privacy">Firebase 개인정보 보호 및 보안 (Performance Monitoring 포함)</a>
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">상태</string>
@@ -859,7 +867,7 @@
     <string name="shortcut_status">상태</string>
     <string name="shortcut_heart_rate">심박수</string>
     <string name="shortcut_blood_oxygen">혈중 산소</string>
-    <string name="shortcut_Sleep">수면</string>
+    <string name="shortcut_sleep">수면</string>
     <string name="shortcut_breathing">Breathing</string>
     <string name="shortcut_weather">날씨</string>
     <string name="shortcut_stress">Stress</string>
@@ -956,7 +964,7 @@
 
     <string name="action_chart">차트</string>
     <string name="action_zoom_in">확대</string>
-    <string name="action_chart_normalize_minute">측정된 값</string>
+    <string name="action_chart_normalize_raw_data">측정된 값</string>
     <string name="action_chart_normalize_quarter_hourly">15분 단위 값</string>
     <string name="action_chart_normalize_half_hourly">30분 단위 값</string>
     <string name="action_chart_normalize_hourly">1시간 단위 값</string>
@@ -966,8 +974,8 @@
     <string name="action_chart_sort_step_desc">내림차순(걸음수)</string>
     <string name="action_chart_sort_duration_asc">오름차순(기간)</string>
     <string name="action_chart_sort_duration_desc">오내림순(기간)</string>
-    <string name="action_chart_sort_pulse_asc">오름차순(심박수)</string>
-    <string name="action_chart_sort_pulse_desc">내림차순(심박수)</string>
+    <string name="action_chart_sort_heart_rate_asc">오름차순(심박수)</string>
+    <string name="action_chart_sort_heart_rate_desc">내림차순(심박수)</string>
     <string name="action_chart_sort_spo2_asc">SpO2 ascending</string>
     <string name="action_chart_sort_spo2_desc">SpO2 descending</string>
     <string name="action_chart_sort_pressure_asc">Pressure ascending</string>
@@ -993,7 +1001,7 @@
     <string name="percent_90">90%</string>
     <string name="percent_100">100%</string>
 
-    <!-- Constante -->
+    <!-- Constants -->
     <string name="const_day_of_week_sunday">일요일</string>
     <string name="const_day_of_week_monday">월요일</string>
     <string name="const_day_of_week_tuesday">화요일</string>
@@ -1022,29 +1030,14 @@
     <string name="const_unit_dbm">dBm</string>
 
     <plurals name="plural_time_hour">
-        <item quantity="zero">%d시간</item>
-        <item quantity="one">%d시간</item>
-        <item quantity="two">%d시간</item>
-        <item quantity="few">%d시간</item>
-        <item quantity="many">%d시간</item>
         <item quantity="other">%d시간</item>
     </plurals>
 
     <plurals name="plural_time_minute">
-        <item quantity="zero">%d분</item>
-        <item quantity="one">%d분</item>
-        <item quantity="two">%d분</item>
-        <item quantity="few">%d분</item>
-        <item quantity="many">%d분</item>
         <item quantity="other">%d분</item>
     </plurals>
 
     <plurals name="plural_time_second">
-        <item quantity="zero">%d초</item>
-        <item quantity="one">%d초</item>
-        <item quantity="two">%d초</item>
-        <item quantity="few">%d초</item>
-        <item quantity="many">%d초</item>
         <item quantity="other">%d초</item>
     </plurals>
 </resources>

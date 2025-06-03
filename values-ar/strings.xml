@@ -1,0 +1,1049 @@
+<?xml version="1.0"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="ar">
+    <string name="menu_nav_notification">إشعار</string>
+    <string name="menu_nav_call">المكالمات</string>
+    <string name="menu_nav_step">النشاط</string>
+    <string name="menu_nav_sleep">النوم</string>
+    <string name="menu_nav_heart_rate">النبض</string>
+    <string name="menu_nav_blood_oxygen">أكسجين الدم</string>
+    <string name="menu_nav_blood_pressure">ضغط الدم</string>
+    <string name="menu_nav_workout">التمارين</string>
+    <string name="menu_nav_alarm">المنبه</string>
+    <string name="menu_nav_reminder">تذكير بالحدث</string>
+    <string name="menu_nav_dnd">وضع عدم الإزعاج</string>
+    <string name="menu_nav_watch_face">واجهة الساعة</string>
+    <string name="menu_nav_weather">الطقس</string>
+    <string name="menu_nav_touch">اللمس</string>
+    <string name="menu_nav_more">المزيد</string>
+    <string name="menu_nav_text_customization">تخصيص النص</string>
+    <string name="menu_nav_export">تصدير</string>
+    <string name="menu_nav_premium_mode">الوضع المميز</string>
+    <string name="menu_nav_feedback">ملاحظات</string>
+    <string name="menu_nav_privacy_policy">سياسة الخصوصية</string>
+    <string name="menu_nav_theme">السمة</string>
+
+    <string name="setting_name">الإعداد</string>
+    <string name="settings_name">الإعدادات</string>
+    <string name="info_name">معلومات</string>
+    <string name="more_name">المزيد</string>
+
+    <string name="main_item_activity_title">الخطوات・الهدف</string>
+    <string name="main_item_battery">مستوى البطارية・آخر وقت للشحن</string>
+    <string name="main_item_connect_and_disconnect_last_time">آخر وقت اتصال/انفصال</string>
+    <string name="main_item_next_alarm">المنبه التالي</string>
+    <string name="main_item_next_reminder">التذكير التالي</string>
+    <string name="main_item_call_and_notification_control">المكالمات والإشعارات</string>
+
+    <string name="device_search">بحث %1$s</string> <!-- %1$s = Watch name -->
+    <string name="device_setting">إعدادات %1$s</string> <!-- %1$s = Watch name -->
+
+    <string name="device_mac_address">عنوان MAC</string>
+    <string name="device_mac_address_invalid">عنوان MAC غير صالح</string>
+
+    <string name="device_state_connected">متصل</string>
+    <string name="device_state_disconnected">غير متصل</string>
+    <string name="device_state_bonded">جهاز مقترن</string>
+    <string name="device_state_not_bonded">جهاز غير مقترن</string>
+
+    <string name="error_title">عذراً! حدث خطأ ما</string>
+    <string name="error_message">يرجى تحديث التطبيق إلى أحدث إصدار</string>
+
+
+    <!-- Watch connection and setting -->
+    <string name="mi_band_setting_title">إعدادات %1$s</string>
+
+    <string name="mi_band_setting_menu_connection">الاتصال</string>
+    <!--    <string name="mi_band_setting_menu_setting">@string/setting_name</string>-->
+    <string name="mi_band_setting_menu_profile">الملف الشخصي</string>
+    <string name="mi_band_setting_menu_text">النص</string>
+    <string name="mi_band_setting_menu_call">المكالمات</string>
+
+    <string name="mi_band_setting_auth_mi_fit">التكامل مع %1$s</string> <!-- Haylou Fit-->
+    <string name="mi_band_setting_auth_mi_fit_hint">يتطلب %3$s تثبيت تطبيق %1$s على نفس الهاتف. يجب أولاً إقران %2$s في تطبيق %1$s، ثم يمكنك استخدام %3$s. إذا كنت تريد استخدام تطبيق %1$s، اختر هذا الخيار.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
+    <string name="mi_band_setting_auth_standalone">مستقل</string>
+    <string name="mi_band_setting_auth_standalone_hint">لا يتطلب تطبيق %1$s لتشغيل %3$s. بعد الإقران، يمكنك إلغاء تثبيت تطبيق %1$s أو إلغاء إقران الساعة. عند استعادة التكامل مع %1$s، يجب إعادة إقران %2$s عبر تطبيق %1$s. عند استخدام وظيفة الإلغاء، سيتم حذف البيانات من الساعة. تأكد من أن شاشة %2$s مفعّلة أثناء عملية الإقران.</string>
+    <string name="mi_band_standalone_sync_error">لا يمكن مزامنة البيانات في وضع التكامل، لأن ذلك قد يؤدي إلى حذف البيانات من الساعة وعرض معلومات غير صحيحة في كلا التطبيقين.</string>
+
+    <string name="mi_band_setting_auth_key">مفتاح المصادقة</string>
+    <string name="mi_band_setting_auth_key_help">أدخل أي رقم مكوّن من 4 أرقام</string>
+    <string name="mi_band_setting_auth_request">طلب مفتاح</string>
+    <string name="mi_band_setting_auth_pair">إقران</string>
+    <string name="mi_band_setting_auth_unpair">إلغاء الإقران</string>
+
+    <string name="message_auth_request">جهازك مقترن بالفعل. إذا لم تكن تعرف المفتاح، يرجى إلغاء الإقران.</string>
+
+    <string name="message_mi_band_setting_auth_press_band_button">اضغط على الزر في %1$s لبدء الإقران</string> <!-- %1$s = Watch name -->
+    <string name="message_mi_band_setting_auth_success">تم إقران %1$s بنجاح</string>
+    <string name="message_mi_band_setting_auth_fail">فشل في إقران %1$s</string>
+    <string name="message_mi_band_setting_auth_key_invalid">مفتاح المصادقة غير صالح</string>
+
+    <string name="pref_disconnect_device">قطع الاتصال</string>
+
+    <string name="mi_band_setting_connection_problem_title">هل تواجه مشكلة في الاتصال؟</string>
+    <string name="mi_band_setting_connection_problem_hint"><![CDATA[
+    - قم بإلغاء إقران الساعة من إعدادات البلوتوث في هاتفك<br>
+    - أوقف تشغيل البلوتوث ثم أعد تشغيله<br>
+    - أغلق التطبيق بالقوة أو أعد تشغيل الهاتف<br>
+    - حاول إقران الساعة مرة أخرى من الشاشة الرئيسية
+    ]]></string>
+
+    <string name="mi_band_setting_dial">واجهة الاتصال</string>
+    <string name="mi_band_setting_language">اللغة</string>
+    <string name="mi_band_setting_time_24h">تنسيق الوقت 24 ساعة</string>
+    <string name="mi_band_setting_distance_unit">وحدة المسافة</string>
+    <string name="mi_band_setting_screen_on_duration">مدة تشغيل الشاشة</string>
+    <string name="mi_band_setting_lift_wrist">تشغيل الشاشة عند رفع المعصم</string>
+    <string name="mi_band_setting_idle_alert">تنبيه الجلوس الطويل</string>
+    <string name="mi_band_setting_idle_alert_duration">مدة الخمول</string>
+    <string name="mi_band_setting_idle_alert_dnd">عدم الإزعاج أثناء الراحة (12:00–14:00)</string>
+
+    <string name="pref_synchronization">المزامنة</string>
+    <string name="pref_synchronization_fetch_interval">تكرار المزامنة</string>
+    <string name="pref_synchronization_summary">اختر البيانات التي تريد مزامنتها تلقائيًا في الخلفية. إذا لم تكن بحاجة إليها، قم بإيقاف تشغيلها لتحسين الأداء. يمكن أيضًا المزامنة يدويًا من الشاشة الرئيسية أو القوائم المناسبة (عبر السحب للأسفل).</string>
+
+    <string name="mi_band_setting_profile">تساعد هذه التفاصيل في حساب خطواتك، المسافة، والسعرات الحرارية المحروقة بدقة أكبر.</string>
+    <string name="mi_band_setting_gender">الجنس</string>
+    <string name="mi_band_setting_gender_male">ذكر</string>
+    <string name="mi_band_setting_gender_female">أنثى</string>
+    <string name="mi_band_setting_birthday">تاريخ الميلاد</string>
+    <string name="mi_band_setting_height">الطول</string>
+    <string name="mi_band_setting_weight">الوزن</string>
+    <string name="mi_band_setting_wearing_place">مكان ارتداء الساعة</string>
+    <string name="mi_band_setting_wearing_place_left_wrist">اليد اليسرى</string>
+    <string name="mi_band_setting_wearing_place_right_wrist">اليد اليمنى</string>
+
+
+    <!-- Battery -->
+    <string name="battery_details">استخدام البطارية</string>
+
+    <string name="battery_settings">إعدادات البطارية</string>
+    <string name="battery_settings_notification">إشعار انخفاض البطارية</string>
+    <string name="battery_settings_notification_level">عتبة مستوى البطارية</string>
+    <string name="battery_settings_notification_repeat_interval">فاصل التكرار</string>
+    <string name="battery_settings_notification_on_phone">إشعار على الهاتف</string>
+    <string name="battery_settings_notification_on_phone_ongoing">إشعار دائم</string>
+    <string name="battery_settings_notification_on_phone_message">مستوى البطارية منخفض: %1$,d%%</string>
+    <string name="battery_settings_notification_on_device">إشعار على الساعة الذكية</string>
+    <string name="battery_settings_notification_on_device_message">البطارية: %1$,d%%</string>
+
+    <!-- Preference screens -->
+    <string name="pref_battery_phone">بطارية الهاتف</string>
+    <string name="pref_battery_phone_summary">إشعارات انخفاض واكتمال الشحن</string>
+    <string name="pref_cat_battery_phone_low">مستوى البطارية المنخفض</string>
+    <string name="pref_battery_phone_low_title">إشعار البطارية المنخفضة</string>
+    <string name="pref_battery_phone_low_level_title">عتبة مستوى البطارية</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">فاصل التكرار</string>
+    <string name="pref_cat_battery_phone_full">مستوى البطارية الكامل</string>
+    <string name="pref_battery_phone_full_title">إشعار البطارية الممتلئة</string>
+    <string name="pref_battery_phone_full_plugged_ac">مصدر طاقة شاحن التيار المتردد</string>
+    <string name="pref_battery_phone_full_plugged_usb">مصدر طاقة منفذ USB</string>
+    <string name="pref_battery_phone_full_plugged_wireless">مصدر طاقة لاسلكي</string>
+
+    <string name="pref_battery_phone_message">بطارية الهاتف:\n %1$,d%%</string>
+
+    <string name="pref_language">اللغة</string>
+    <string name="pref_cat_language">التطبيق</string>
+    <string name="pref_language_title">اللغة</string>
+
+    <string name="pref_menu">القائمة</string>
+    <string name="pref_cat_menu">تخصيص القائمة الرئيسية</string>
+    <string name="pref_menu_item_2">العنصر الثاني في القائمة</string>
+    <string name="pref_menu_item_3">العنصر الثالث في القائمة</string>
+
+    <string name="pref_diagnostic">تشخيص</string>
+    <string name="pref_cat_diagnostic_closing_protection">الحماية من الإغلاق</string>
+    <string name="pref_diagnostic_battery_optimisation">إيقاف تحسين البطارية</string>
+    <string name="pref_diagnostic_companion_device">إقران جهاز مساعد</string>
+    <string name="pref_diagnostic_bluetooth_pairing">إقران البلوتوث</string>
+    <string name="pref_diagnostic_autostart">تشغيل تلقائي</string>
+    <string name="pref_diagnostic_autostart_summary">تمكين التطبيق من إعادة التشغيل تلقائيًا من خلال مدير التشغيل التلقائي في الهاتف</string>
+    <string name="pref_diagnostic_info">معلومات إضافية</string>
+    <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
+
+    <string name="pref_cat_diagnostic_permissions">الصلاحيات</string>
+    <string name="pref_diagnostic_permission_allow_notification_access_settings">السماح بالوصول إلى الإشعارات</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">جدولة منبه دقيق</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">يتطلب هذا الإذن جدولة المهام في وقت دقيق.</string>
+    <string name="pref_diagnostic_permission_post_notifications">عرض الإشعارات</string>
+    <string name="pref_diagnostic_permission_post_notifications_summary">يتطلب هذا الإذن لعرض الإشعارات</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">وصول إلى وضع عدم الإزعاج</string>
+
+
+    <!-- Snackbar Messages -->
+    <string name="message_enable_bluetooth">يرجى تفعيل البلوتوث وتقريب الساعة الذكية من الهاتف</string>
+    <string name="message_discover_device">%1$s غير مضبوط، يرجى الاتصال</string>
+    <string name="message_discovering_device">يتم اكتشاف %1$s (قد يستغرق دقيقة واحدة)…</string>
+    <string name="message_discover_device_succeeded">تم الاتصال بـ %1$s بنجاح</string>
+    <string name="message_discover_device_failed">فشل الاتصال بـ %1$s</string>
+    <string name="message_discover_device_not_found">إذا لم يتم العثور على %1$s، فعّل: %1$s رياضة/تشغيل/وضع الاكتشاف أو قم بالإقران من إعدادات البلوتوث على الهاتف</string>
+    <string name="message_enable_notification_listener_access">قم بتفعيل إذن الوصول إلى الإشعارات: الهاتف/الإعدادات/الوصول إلى الإشعارات</string>
+    <string name="message_enable_notification_listener_access_4_4">قم بتفعيل إذن الوصول إلى الإشعارات: الإعدادات/الأمان/الوصول إلى الإشعارات</string>
+
+    <string name="message_deleted">تم الحذف</string>
+    <string name="message_undo">تراجع</string>
+
+    <string name="message_app_chooser_no_selected">اختر تطبيقًا</string>
+
+    <string name="message_free_counter">يمكن استخدام إعداد واحد فقط في الوضع المجاني</string>
+    <string name="message_free_counters">يمكن استخدام حتى %1$,d إعدادات في الوضع المجاني</string>
+
+    <string name="message_notification_free_groups">يمكن استخدام حتى %1$,d مجموعات في الوضع المجاني</string>
+    <string name="message_notification_free_app">يمكن اختيار تطبيق واحد فقط في الوضع المجاني</string>
+    <string name="message_notification_free_apps">يمكن اختيار حتى %1$,d تطبيقات في الوضع المجاني</string>
+
+    <string name="message_notification_free_text">يمكن تسجيل نص واحد فقط في الوضع المجاني</string>
+
+    <string name="message_time_alarm_free_counter">يمكن استخدام منبه واحد فقط في الوضع المجاني</string>
+    <string name="message_time_alarm_max_counter">يمكن استخدام حتى %1$d منبهات</string>
+    <string name="message_time_alarm_enabled">تم تفعيل المنبه</string>
+    <string name="message_time_alarm_disabled">تم تعطيل المنبه</string>
+    <string name="message_time_alarm_off">المنبه مغلق</string>
+
+    <string name="message_touch_pattern_error">النمط المحدد مشابه لوظيفة أخرى، يرجى تسجيل نمط مختلف</string>
+    <string name="message_touch_free_patterns">لا يمكنك استخدام أكثر من %1$,d عناصر تحكم في الوضع المجاني</string>
+    <string name="message_touch_record_help">استخدم وظائف %1$s مثل التحكم بالموسيقى/العثور على الهاتف</string> <!-- %1$s = smartwatch -->
+
+    <string name="message_premium_mode_only">هذه الميزة متاحة فقط في الإصدار المميز</string>
+    <string name="message_feature_is_not_supported">%1$s لا يدعم هذه الميزة</string>
+    <string name="message_general_error">فشل الإعداد (فُقد الاتصال)، حاول مرة أخرى</string>
+    <string name="message_internet_error">لا يوجد اتصال بالإنترنت</string>
+    <string name="message_internet_traffic_blocked">تم حظر حركة الإنترنت</string>
+    <string name="message_internet_ads_blocked">تم حظر الإعلانات</string>
+    <string name="message_gps_enable">قم بتفعيل GPS</string>
+    <string name="message_location_enable">فعّل إذن الوصول إلى الموقع</string>
+
+    <string name="message_in_progress">جارٍ التنفيذ…</string>
+    <string name="message_no_data">لا توجد بيانات متاحة</string>
+
+    <string name="message_rewarded_error">فشل تحميل الفيديو</string>
+
+    <string name="message_new_message">تم استلام رسالة جديدة، تحقق منها على الهاتف.</string>
+
+    <string name="message_permission_not_granted">لم يتم منح الإذن: %1$s</string> <!-- %1$s = permission name -->
+
+    <!-- Dialog -->
+    <string name="dialog_welcome_title">مرحبًا!</string>
+    <string name="dialog_welcome_message"><![CDATA[
+    الأجهزة المدعومة:
+    <watch_types/>
+    <p>يتطلب <app_name/> تثبيت تطبيق <device_type/> الرسمي على نفس الهاتف. أولاً، يجب إقران ساعتك الذكية في تطبيق <device_type/>، ثم يمكنك استخدام هذا التطبيق.</p>
+    <p>إذا لم يتم العثور على <device_type/>، يمكنك إدخال عنوان MAC يدويًا عند الاكتشاف.</p>
+    <b>إذا واجهت مشكلة في الاتصال:</b>
+    <br>- من شاشة التطبيقات الأخيرة: قم بقفل <app_name/> (اسحب التطبيق لأسفل وانقر على رمز القفل).
+    <br>- تحسين الهاتف/البطارية: اضبط التطبيق <app_name/> على "غير محسّن".
+    <br>- الهاتف/التطبيقات: امسح بيانات "مشاركة البلوتوث" والتطبيقات الأخرى المرتبطة بالبلوتوث.
+    <br>- لمزيد من المعلومات: https://dontkillmyapp.com
+    <br><br><small>هذا المنتج وميزاته غير مخصصة للأغراض الطبية، ولا تهدف إلى التنبؤ أو التشخيص أو الوقاية أو العلاج من أي مرض. جميع البيانات والقياسات هي لأغراض مرجعية شخصية فقط، ولا ينبغي استخدامها كأساس للتشخيص أو العلاج.</small>
+    ]]></string>
+
+
+    <!-- Notification Dialog -->
+    <string name="notification_group_nav_setting">الإعداد</string>
+    <string name="notification_group_nav_filter">تصفية</string>
+    <string name="notification_group_nav_correction">تصحيح</string>
+
+    <string name="notification_group_name">الاسم</string>
+    <string name="notification_group_monitoring">مراقبة الإشعارات</string>
+    <string name="notification_group_monitoring_disabled">تعطيل الإشعارات (عدم عرض إشعارات التطبيق)</string>
+    <string name="notification_group_alert_title">إشارة %1$s</string> <!-- %1$s = Haylou Smart Watch -->
+    <string name="notification_group_text_customization">تخصيص النص</string>
+    <string name="notification_group_text_app_name">اسم التطبيق</string>
+    <string name="notification_group_text_name">الاسم</string>
+    <string name="notification_group_text_title">العنوان</string>
+    <string name="notification_group_text_content">المحتوى</string>
+    <string name="notification_group_text_big_content">كامل المحتوى</string>
+    <string name="notification_group_text_content_slice_title">طول النص</string>
+    <string name="notification_group_display_duration_title">مدة العرض</string>
+    <string name="notification_group_show_notification_title">عرض الإشعار</string>
+    <string name="notification_group_immediate">إشارة فورية عند استلام الإشعار</string>
+    <string name="notification_group_connecting">عند الاتصال بالهاتف</string>
+    <string name="notification_group_reminder">تنبيه التذكير</string>
+    <string name="notification_group_ongoing">إشارة للإشعارات المستمرة</string>
+    <string name="notification_group_screen_off">الإشارة فقط عند إيقاف تشغيل الشاشة</string>
+    <string name="notification_group_repeat_title">تكرار الإشارات</string>
+    <string name="notification_group_wakelock">تشغيل شاشة الهاتف</string>
+    <string name="notification_group_grouped_display_title">إعداد عرض إشعارات المجموعة</string>
+    <string name="notification_group_grouped_sort_order_title">ترتيب إشعارات المجموعة</string>
+
+    <string name="notification_group_filter">تصفية الإشعار</string>
+    <string name="notification_group_filter_title">تصفية العنوان</string>
+    <string name="notification_group_filter_content">تصفية المحتوى</string>
+    <string name="notification_group_filter_regex">تعبير منتظم</string>
+    <string name="notification_group_filter_hint">تنبيه فقط إذا تطابق عنوان أو محتوى الإشعار (بدون حساسية لحالة الأحرف)</string>
+    <string name="notification_group_filter_contains">يتضمن أي من العبارات</string>
+    <string name="notification_group_filter_not_contains">لا يتضمن العبارات</string>
+
+    <string name="notification_group_sample_sms">رسالة قصيرة</string>
+    <string name="notification_group_sample_facebook">ماسنجر</string>
+    <string name="notification_group_sample_whatsapp">واتساب</string>
+
+    <string name="notification_group_correction">تصحيح النص</string>
+    <string name="notification_group_correction_title">تصحيح العنوان</string>
+    <string name="notification_group_correction_content">تصحيح المحتوى</string>
+    <string name="notification_group_correction_regex">تعبير منتظم</string>
+    <string name="notification_group_correction_hint">بدون حساسية لحالة الأحرف</string>
+    <string name="notification_group_correction_items">النصوص المطلوب تصحيحها</string>
+    <string name="notification_group_correction_find">بحث</string>
+    <string name="notification_group_correction_replace">استبدال بـ</string>
+
+    <string name="notification_regex_hint">الأحرف غير الأبجدية الرقمية لها معنى خاص، إذا لم تكن تعرف التعبير المنتظم فلا تفعّله</string>
+
+    <string name="notification_confirm_close">هل أنت متأكد أنك تريد تجاهل التغييرات؟</string>
+
+    <string name="notification_edit_play_text_title">عنوان الإشعار</string>
+    <string name="notification_edit_play_text_content">محتوى الإشعار</string>
+
+
+    <!-- Incoming call alert -->
+    <string name="call_tab_call">مكالمة واردة</string>
+    <string name="call_tab_contacts">جهات الاتصال</string>
+
+    <string name="call_incoming">مكالمة واردة</string>
+    <string name="call_incoming_summary_on">لا تنسَ إيقاف تنبيهات المكالمات الواردة في تطبيق %1$s</string> <!-- %1$s = official app name -->
+    <string name="call_incoming_caller_id">عرض اسم المتصل</string>
+
+    <string name="pref_call_notification_rejected">عرض إشعار عند رفض المكالمة</string>
+    <string name="pref_call_notification_rejected_message">تم رفض المكالمة</string>
+    <string name="pref_call_notification_rejected_action">اتصال</string>
+
+    <string name="call_incoming_net_alert_title">إشارة مكالمة الإنترنت الواردة</string>
+
+    <string name="call_missed_title">تنبيه المكالمة الفائتة</string>
+    <string name="call_missed_chooser_title">إشارة %1$s</string> <!-- Haylou Smart Watch -->
+    <string name="call_missed_notification">مكالمة فائتة</string>
+
+    <string name="call_reject_button_action">إجراء زر إنهاء المكالمة</string>
+
+    <string name="touch_call_answer_title">الرد على المكالمة</string>
+    <string name="touch_call_answer_speakerphone_title">تشغيل مكبر الصوت</string>
+
+    <string name="call_end_title">رفض/إنهاء المكالمة</string>
+
+    <string name="touch_call_mute_title">كتم صوت المكالمة</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">فقط إذا كانت هناك مكالمة واردة</string>
+    <string name="touch_call_mute_recognition_title">عند وجود مكالمة واردة</string>
+
+    <string name="call_contact_edit_contact">جهة الاتصال</string>
+    <string name="call_contact_edit_name">الاسم</string>
+    <string name="call_contact_edit_phone_number">رقم الهاتف</string>
+
+    <string name="call_contact_edit_setting_name_order">ترتيب الاسم</string>
+    <string name="call_contact_edit_setting_default">@string/default_</string>
+    <string name="call_contact_edit_setting_first_name">الاسم الأول</string>
+    <string name="call_contact_edit_setting_last_name">اسم العائلة</string>
+
+    <string name="message_call_contacts_free_counter">يمكن استخدام حتى %1$d جهة اتصال في الوضع المجاني</string>
+    <string name="message_call_contacts_max_counter">يمكن استخدام حتى %1$d جهة اتصال</string>
+
+
+    <!-- App chooser dialog -->
+    <string name="app_chooser">اختيار التطبيق</string>
+    <string name="action_search">بحث</string>
+    <string name="action_filter_notification">تصفية الإشعارات</string>
+
+    <!-- Activity -->
+    <string name="step_details">تفاصيل النشاط</string>
+
+    <string name="mi_band_tracker_step_title">%1$,d خطوة</string>
+    <string name="mi_band_tracker_distance_meter_title">%1$,d م</string>
+    <string name="mi_band_tracker_distance_kilometer_title">%,.2f كم</string>
+    <string name="mi_band_tracker_distance_mile_title">%,.2f ميل</string>
+    <string name="mi_band_tracker_calorie_title">%1$,d سعرة حرارية</string>
+
+    <string name="action_tracker_step">الخطوات</string>
+    <string name="action_tracker_distance">المسافة</string>
+    <string name="action_tracker_calorie">السعرات الحرارية</string>
+    <string name="action_tracker_duration">مدة التمرين</string>
+
+    <string name="step_goal_default_title">الهدف الافتراضي</string>
+
+
+    <!-- Sleep monitoring -->
+    <string name="sleep_details">تفاصيل النوم</string>
+
+    <string name="sleep_awake">استيقاظ</string>
+    <string name="sleep_light">نوم خفيف</string>
+    <string name="sleep_deep">نوم عميق</string>
+    <string name="sleep_rem">نوم REM</string>
+
+
+    <!-- Heart rate -->
+    <string name="heart_rate_details">تفاصيل النبض</string>
+
+    <string name="heart_rate_continuous_title">قياس النبض المستمر</string>
+
+    <string name="heart_rate_warning_title">تنبيه معدل ضربات القلب</string>
+    <string name="low_and_high_heart_rates">حدود معدل ضربات القلب</string>
+    <string name="low_heart_rate">معدل ضربات قلب منخفض</string>
+    <string name="high_heart_rate">معدل ضربات قلب مرتفع</string>
+
+    <!-- Blood oxygen -->
+    <string name="blood_oxygen_details">تفاصيل مستوى الأوكسجين في الدم</string>
+
+    <string name="blood_oxygen_level_measurement">قياس مستوى الأوكسجين في الدم</string>
+    <string name="measurement_interval">فاصل القياس</string>
+
+    <!-- Blood pressure -->
+    <string name="blood_pressure_details">تفاصيل قياس الضغط</string>
+
+    <string name="blood_pressure_level_measurement">قياس مستوى الضغط</string>
+
+    <string name="blood_pressure_systolic_abbreviation">انق</string>
+    <string name="blood_pressure_diastolic_abbreviation">انب</string>
+    <string name="blood_pressure_unit">ملم زئبق</string>
+
+
+    <!-- Workout -->
+    <string name="workout_details">تفاصيل التمرين</string>
+
+    <!-- Alarm -->
+    <string name="action_time_alarm_sort_state_asc">الحالة تصاعديًا</string>
+    <string name="action_time_alarm_sort_watch_asc">الساعة تصاعديًا</string>
+    <string name="action_time_alarm_sort_name_asc">الاسم تصاعديًا</string>
+
+    <string name="message_time_alarm_sync">مزامنة %1$s منبه (سيتم حذف وضبط المنبهات على ساعتك الذكية)</string>
+
+    <string name="info_dialog_alarm"><![CDATA[
+    <p>عند استخدام وضع التعاون، يمكن لإعدادات التطبيق الرسمي وتطبيق <app_name/> أن تحل محل بعضها البعض أو تحذفها.</p>
+    الإعداد الأخير المُجرى هو الذي يسري مفعوله.
+]]></string>
+
+    <!-- Reminder -->
+    <string name="message_reminder_enabled">تم تفعيل التذكير</string>
+    <string name="message_reminder_disabled">تم إيقاف التذكير</string>
+
+    <string name="reminder_repeat">تكرار كل ساعة</string>
+    <string name="reminder_notification_on_phone">إعلامي على الهاتف</string>
+
+    <string name="message_time_reminder_free_counter">يمكن استخدام تذكير واحد فقط في الوضع المجاني</string>
+
+    <string name="info_dialog_reminder"><![CDATA[
+    يتطلب عرض التذكير اتصالًا عبر البلوتوث.
+    ]]></string>
+
+
+    <!-- Do not disturb -->
+    <string name="pref_dnd_summary">حالة عناصر التحكم في وضع عدم الإزعاج</string>
+    <string name="pref_dnd_enable_bluetooth">عند بدء وضع عدم الإزعاج، يتم إيقاف البلوتوث، وعند الانتهاء يتم تشغيله</string>
+
+    <string name="info_dialog_dnd"><![CDATA[
+    إذا كنت تستخدم وضع التعاون، فيجب أن يكون وضع عدم الإزعاج (DnD) في تطبيق <device_type/> الرسمي بين 00:00 و23:59، ويجب أن يكون غير مفعّل.
+    ]]></string>
+
+
+    <!-- Watch face -->
+    <string name="watch_face_tab_watch_faces">واجهات الساعة</string>
+    <string name="watch_face_tab_watch_face_custom">ملفات مخصصة</string>
+    <string name="watch_face_tab_watch_face_editor">المحرر</string>
+
+    <string name="watch_face_download_title">تنزيل واجهة الساعة</string>
+    <string name="watch_face_upload_title">تحميل واجهة الساعة</string>
+    <string name="watch_face_tool_title">أدوات</string>
+
+    <string name="watch_face_share_content">يمكنك مشاركة واجهة الساعة التي أنشأتها مع الآخرين. أرسل عبر البريد الإلكتروني ملفات واجهة الساعة والمعاينة، واملأ المعلومات التالية: اسم المؤلف، اسم واجهة الساعة (بحد أقصى ٣٠ حرفًا)، ولغة واجهة الساعة. ننشر فقط الواجهات عالية الجودة.</string>
+
+    <string name="watch_face_upload_prepare">جارٍ التحضير للتحميل…</string>
+    <string name="watch_face_upload_progress">جارٍ التحميل %1$,d%%</string>
+
+    <string name="watch_face_invalid_firmware">إصدار البرنامج الثابت %1$s غير معروف أو لا يدعم تحميل واجهات الساعة. يرجى تحديث البرنامج باستخدام التطبيق الرسمي. إذا كان التطبيق الرسمي يدعم التحميل، يرجى إبلاغنا عبر قائمة الملاحظات.</string>
+    <string name="watch_face_invalid_auth">استخدم في الوضع المستقل، حيث قد يمنع التطبيق الرسمي تحميل الواجهة في وضع التعاون</string>
+    <string name="watch_face_invalid_free">في الوضع المجاني، لا يمكن تحميل المزيد من الواجهات اليوم</string>
+    <string name="watch_face_watch_rewarded_ads">شاهد فيديو للمتابعة</string>
+    <string name="watch_face_watch_rewarded_ads_uploading">شاهد فيديو لمتابعة التحميل</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">جارٍ تشغيل الفيديو…</string>
+
+    <string name="watch_face_upload_method_title">طريقة التحميل</string>
+    <string name="watch_face_upload_method_default">@string/default_</string>
+    <string name="watch_face_upload_method_alternative">بديل</string>
+
+    <string name="watch_face_upload_speed_title">سرعة التحميل</string>
+    <string name="watch_face_upload_invalid_speed_hint">اضبط سرعة أقل إذا تم مقاطعة عملية التحميل</string>
+    <string name="watch_face_upload_invalid_size_hint">حجم الملف غير صالح. قلّل جودة الواجهة أو احذف بعض العناصر</string>
+    <string name="watch_face_upload_invalid_battery_hint">بطارية الساعة منخفضة. يُرجى شحن الساعة</string>
+
+    <string name="watch_face_tbwf_quality_title">إعداد جودة واجهة .tbwf</string>
+    <string name="watch_face_tbwf_quality_hint">يمكن تقليل حجم الملف إذا كانت الساعة تدعم ذلك</string>
+
+    <string name="watch_face_tbwf_locale_title">إعداد اللغة والمنطقة لواجهة .tbwf</string>
+    <string name="watch_face_tbwf_locale_hint">أيام الأسبوع، فاصل الأشهر، وفاصل الكسور العشرية</string>
+
+    <string name="message_watch_face_file_invalid">ملف واجهة غير صالح</string>
+    <string name="message_watch_face_file_invalid_size">حجم ملف واجهة غير صالح</string>
+    <string name="message_watch_face_file_invalid_battery">بطارية الساعة منخفضة</string>
+    <string name="message_watch_face_image_file_error">ملف صورة غير صالح</string>
+    <string name="message_watch_face_font_file_error">ملف خط غير صالح</string>
+
+    <string name="action_chart_layout_2_columns">عرض بعمودين</string>
+    <string name="action_chart_layout_3_columns">عرض بثلاثة أعمدة</string>
+
+    <string name="watch_face_edit_dial">قرص الساعة</string>
+    <string name="watch_face_edit_preview">معاينة</string>
+    <string name="watch_face_edit_hour_digital">الساعة</string>
+    <string name="watch_face_edit_minute_digital">الدقيقة</string>
+    <string name="watch_face_edit_second_digital">الثانية</string>
+    <string name="watch_face_edit_am_pm">مؤشر AM/PM</string>
+    <string name="watch_face_edit_am">ص</string>
+    <string name="watch_face_edit_pm">م</string>
+    <string name="watch_face_edit_hour_analog">عقرب الساعة</string>
+    <string name="watch_face_edit_minute_analog">عقرب الدقيقة</string>
+    <string name="watch_face_edit_second_analog">عقرب الثانية</string>
+    <string name="watch_face_edit_axis">محور الدوران</string>
+    <string name="watch_face_edit_hour_minute_separator">فاصل بين الساعة والدقيقة</string>
+    <string name="watch_face_edit_year">السنة</string>
+    <string name="watch_face_edit_year_month_separator">فاصل السنة والشهر</string>
+    <string name="watch_face_edit_month">الشهر</string>
+    <string name="watch_face_edit_month_name">اسم الشهر</string>
+    <string name="watch_face_edit_month_day_separator">فاصل الشهر واليوم</string>
+    <string name="watch_face_edit_day">اليوم</string>
+    <string name="watch_face_edit_dayOfWeek">يوم الأسبوع</string>
+    <string name="watch_face_edit_battery_level">مستوى البطارية</string>
+    <string name="watch_face_edit_battery_level_percent_sign">نسبة البطارية %</string>
+    <string name="watch_face_edit_battery_level_image">صورة البطارية</string>
+    <string name="watch_face_edit_weather_temperature">درجة الحرارة</string>
+    <string name="watch_face_edit_weather_temperature_unit_sign">وحدة الحرارة °</string>
+    <string name="watch_face_edit_weather_image">صورة الطقس</string>
+    <string name="watch_face_edit_connection_indicator_image">رمز الاتصال</string>
+    <string name="watch_face_edit_connected">متصل</string>
+    <string name="watch_face_edit_disconnected">غير متصل</string>
+    <string name="watch_face_edit_steps">الخطوات</string>
+    <string name="watch_face_edit_steps_image">رمز الخطوات</string>
+    <string name="watch_face_edit_steps_goal_progress">تقدم الهدف</string>
+    <string name="watch_face_edit_distance">المسافة</string>
+    <string name="watch_face_edit_distance_image">رمز المسافة</string>
+    <string name="watch_face_edit_calories">السعرات الحرارية</string>
+    <string name="watch_face_edit_calories_image">رمز السعرات</string>
+    <string name="watch_face_edit_heart_rate">معدل ضربات القلب</string>
+    <string name="watch_face_edit_heart_rate_image">رمز معدل القلب</string>
+
+    <string name="watch_face_edit_color">اللون</string>
+    <string name="watch_face_edit_font_family">نوع الخط</string>
+    <string name="watch_face_edit_character">حرف</string>
+    <string name="watch_face_edit_font_size">حجم الخط</string>
+    <string name="watch_face_edit_image">صورة</string>
+    <string name="watch_face_edit_image_png_jpeg">صورة (.png, .jpeg)</string>
+    <string name="watch_face_edit_image_png">صورة (.png)</string>
+    <string name="watch_face_edit_image_size">حجم الصورة</string>
+    <string name="watch_face_edit_icon">أيقونة</string>
+
+    <string name="watch_face_custom_watch_face_not_supported_title">هذه الساعة لا تدعم تحميل واجهات مخصصة</string>
+    <string name="watch_face_custom_watch_face_under_development_title">ميزة تحميل واجهات مخصصة قيد التطوير حاليًا وقد تصبح متاحة في المستقبل، لكن لم يتم تأكيد ذلك بعد.</string>
+
+    <!-- Touch monitoring -->
+    <string name="touch_tab_function">الوظيفة</string>
+    <string name="touch_tab_control">التحكم</string>
+    <string name="touch_tab_testing">الاختبار</string>
+    <string name="touch_tab_setting">@string/setting_name</string>
+
+    <string name="touch_function_summary">قم بضبط هذه الميزات إذا كنت تستخدم الوضع المستقل أو إذا لم تتم إدارتها بشكل صحيح عبر Mi Fit</string>
+    <string name="touch_function">وظيفة %1$s</string> <!-- %1$s = اسم الساعة -->
+    <string name="touch_function_as_touch">استخدم الوظيفة كلمسة في قائمة التحكم</string>
+
+    <string name="touch_headline_incoming_call_title">مكالمة واردة</string>
+    <string name="touch_headline_other_function_title">وظائف أخرى</string>
+    <string name="touch_headline_call_title">التحكم في المكالمات</string>
+    <string name="touch_headline_music_title">التحكم في الموسيقى</string>
+    <string name="touch_headline_time_title">التحكم في المؤقت/الساعة</string>
+    <string name="touch_headline_other_title">عناصر تحكم أخرى</string>
+
+    <string name="touch_device_location_title">العثور على هاتفي</string>
+    <string name="touch_device_location_not_muted_only_title">يصدر صوتًا فقط إذا لم يكن صامتًا أو في وضع عدم الإزعاج</string>
+
+    <string name="touch_mute_toggle_title">تبديل كتم الصوت في الهاتف</string>
+    <string name="touch_mute_toggle_ringer_mode_title">وضع الكتم</string>
+    <string name="touch_mute_toggle_mute_off_title">إلغاء الكتم</string>
+
+    <string name="touch_music_title">الموسيقى</string>
+    <string name="touch_music_function_launch">ابدأ تشغيل الموسيقى بزر التشغيل إذا لم يتم اكتشاف أي مشغل</string>
+    <string name="touch_music_function_mi_band_message_launch">ابدأ الموسيقى بزر التشغيل</string>
+    <string name="touch_music_function_mi_band_message_no_track_title">لا يمكن الحصول على اسم الأغنية</string>
+
+    <string name="touch_call_out_title">الاتصال</string>
+    <string name="touch_call_out_no_contact">اختر جهة اتصال</string>
+    <string name="touch_call_out_summary">اضغط مرتين للرد على المكالمة</string>
+    <string name="touch_call_out_summary_support_call_display_button">اضغط على الزر للرد على المكالمة</string>
+    <string name="touch_call_out_speakerphone_title">مكبر الصوت</string>
+    <string name="touch_call_out_call_text">الاتصال بـ: %1$s</string>
+
+    <string name="touch_weather_title">توقعات الطقس</string>
+    <string name="touch_weather_location">تحديث الموقع</string>
+    <string name="touch_weather_precipitation">الهطول</string>
+    <string name="touch_weather_cloud_cover">الغيوم</string>
+    <string name="touch_weather_wind">الرياح</string>
+
+    <string name="touch_repeat_notif_title">تكرار الإشعارات</string>
+    <string name="touch_repeat_notif_clear_all">مسح جميع الإشعارات بعد التكرار</string>
+
+    <string name="touch_clear_notif_title">مسح الإشعارات من الهاتف</string>
+
+    <string name="touch_music_play_pause_title">تشغيل/إيقاف/استئناف الموسيقى</string>
+    <string name="touch_music_skip_previous_title">تشغيل الموسيقى، الأغنية السابقة</string>
+    <string name="touch_music_skip_next_title">تشغيل الموسيقى، الأغنية التالية</string>
+    <string name="touch_music_headset_only_title">فقط إذا تم توصيل سماعة الرأس</string>
+    <string name="touch_music_launch">بدء تشغيل الموسيقى</string>
+    <string name="touch_music_volume_up_title">رفع مستوى الصوت</string>
+    <string name="touch_music_volume_down_title">خفض مستوى الصوت</string>
+    <string name="touch_music_track_info_title">عرض معلومات المسار الموسيقي</string>
+
+    <string name="touch_time_launch_title">بدء مراقبة الوقت</string>
+    <string name="touch_time_launch_type_timer_title">مؤقت</string>
+    <string name="touch_time_launch_type_stopper_title">ساعة توقيت</string>
+    <string name="touch_time_launch_type_interval_title">فاصل زمني</string>
+    <string name="touch_time_launch_restart">إعادة التشغيل إذا كان قيد التشغيل</string>
+    <string name="touch_time_reminder_title">عرض الوقت المتبقي/المنقضي</string>
+
+    <string name="touch_google_assistant_title">مساعد Google</string>
+
+    <string name="touch_flashlight_title">تشغيل/إيقاف المصباح</string>
+
+    <string name="touch_camera_title">التقاط صورة</string>
+    <string name="touch_camera_front_title">أمامي</string>
+    <string name="touch_camera_rear_title">خلفي</string>
+    <string name="touch_camera_install_title">تثبيت</string>
+
+    <string name="touch_app_launcher1_title">تشغيل التطبيق</string>
+    <string name="touch_app_launcher_package_no_title">اختر تطبيقًا</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">فقط إذا لم تكن الشاشة مقفلة</string>
+
+    <string name="touch_broadcast1_title">إرسال بث</string>
+    <string name="touch_broadcast1_action_title">إجراء Intent</string>
+    <string name="touch_broadcast1_package_title">اسم حزمة Intent</string>
+
+    <string name="touch_http_request1_title">1. طلب HTTP</string>
+    <string name="touch_http_request2_title">2. طلب HTTP</string>
+    <string name="touch_http_request_url_title">رابط URL</string>
+    <string name="touch_http_request_method_title">الطريقة</string>
+    <string name="touch_http_request_body_title">المحتوى</string>
+    <string name="touch_http_request_show_response_title">عرض الاستجابة</string>
+
+    <string name="touch_tasker_launcher1_title">1. تشغيل مهمة Tasker</string>
+    <string name="touch_tasker_launcher2_title">2. تشغيل مهمة Tasker</string>
+    <string name="touch_tasker_launcher_no_permission_title">يجب تثبيت Tasker أولًا بعد Mi Bandage</string>
+    <string name="touch_tasker_launcher_no_access_title">اسمح بالوصول الخارجي</string>
+    <string name="touch_tasker_launcher_no_task_title">اختر مهمة</string>
+
+    <string name="touch_testing_title">مراقبة اللمس</string>
+    <string name="touch_testing_second">ثانية</string>
+
+    <string name="touch_setting_detection_time_title">مدة اكتشاف اللمس</string>
+    <string name="touch_setting_detection_time_music_hint">إذا كانت القيمة أقل، فسيتم إغلاق شاشة الموسيقى بشكل أسرع</string>
+    <string name="touch_setting_detection_time_button_hint">إذا كانت القيمة أقل، اضغط على الزر بشكل أسرع</string>
+
+    <string name="touch_setting_detection_method_title">طريقة اكتشاف اللمس</string>
+
+    <string name="touch_setting_recognition_start_title">بدء التعرف على اللمس</string>
+    <string name="touch_setting_recognition_start_trigger_title">المُحفِّز</string>
+    <string name="touch_setting_recognition_time_title">مدة التعرف</string>
+
+    <string name="touch_setting_recognition_mi_band_signal_title">إشارة %1$s</string> <!-- %1$s = Watch name -->
+    <string name="touch_setting_recognition_succeeded_title">نمط لمس يمكن التعرف عليه</string>
+    <string name="touch_setting_recognition_failed_title">نمط لمس غير معروف</string>
+
+    <string name="info_dialog_touch"><![CDATA[
+    <p>يعمل بشكل صحيح في الوضع المستقل. إذا كنت تستخدم وضع التعاون، فإن تطبيق <app_official/> الرسمي سيتعامل أيضًا مع هذه الوظائف، لذلك لا يمكن ضمان التشغيل الصحيح.</p>
+    <p><b>إعدادات البلوتوث في الهاتف:</b> <device_name/> تعطيل جهاز الإدخال</p>
+    <b><u>اللمسات المعترف بها</u></b>
+    <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
+    <br>التحكم في الموسيقى من <device_type/>
+    <p><img src="ic_search">
+    <br>العثور على هاتفي عبر <device_type/>
+    </p>
+    يمكن تسجيل عدة لمسات لكل وظيفة.
+    ]]></string>
+
+
+    <!-- Weather  -->
+    <string name="weather_tab_weather_forecast">الطقس</string>
+    <string name="weather_tab_location">الموقع</string>
+    <string name="weather_tab_settings">@string/setting_name</string>
+
+    <string name="weather_location_title">الموقع</string>
+
+    <string name="weather_forecast_title">توقعات الطقس</string>
+
+    <string name="weather_setting_provider">مزود معلومات الطقس</string>
+    <string name="weather_city_title">المدينة</string>
+    <string name="weather_unit_title">الوحدة</string>
+    <string name="weather_unit_metric">متري (سيلسيوس)</string>
+    <string name="weather_unit_imperial">إنجليزي (فهرنهايت)</string>
+    <string name="weather_automatic_update">تحديث الموقع تلقائيًا في الخلفية</string>
+    <string name="weather_automatic_update_title">استخدم موقعك</string>
+    <string name="weather_automatic_update_summary">يقوم هذا التطبيق بجمع بيانات الموقع لتحديث الطقس في موقعك الحالي، حتى عند إغلاق التطبيق أو عدم استخدامه.</string>
+
+    <string name="permission_background_location">سيتم منح %1$s إذنًا لجمع بيانات الموقع حتى عند إغلاق التطبيق أو عدم استخدامه</string>
+    <string name="permission_error_title">تعذر على %1$s تحديث الأذونات</string>
+    <string name="permission_error_description">افتح الإعدادات واختر الخيار "%1$s" لتفعيل أذونات الموقع</string>
+    <string name="all_the_time">دائمًا</string>
+
+    <string name="weather_current_title">الطقس الحالي</string>
+    <string name="weather_current_location">الموقع الحالي</string>
+    <string name="weather_current_temperature">درجة الحرارة الحالية</string>
+
+    <string name="weather_precipitation_rain">أمطار</string>
+    <string name="weather_precipitation_snow">ثلوج</string>
+    <string name="weather_cloud_cover_abbreviation">غيوم</string>
+    <string name="weather_cloud_cover">الغيوم</string>
+    <string name="weather_humidity">الرطوبة</string>
+
+    <string name="weather_north">ش</string>
+    <string name="weather_east">ق</string>
+    <string name="weather_south">ج</string>
+    <string name="weather_west">غ</string>
+
+
+    <!-- Text customization -->
+    <string name="pref_text_reminder_repeat_interval_title">فاصل تكرار التذكير</string>
+    <string name="pref_text_reminder_repeat_interval_summary">توقيت تنبيهات الإشعارات/التذكيرات</string>
+    <string name="pref_text_emoticon_title">تحويل الرموز التعبيرية</string>
+    <string name="pref_text_emoticon_summary_on">تحويل الرموز التعبيرية إلى رموز نصية</string>
+    <string name="pref_text_uppercase_title">تحويل إلى أحرف كبيرة</string>
+    <string name="pref_text_uppercase_summary_on">تحويل الأحرف الصغيرة إلى كبيرة</string>
+    <string name="pref_text_alphanumeric_title">أحرف وأرقام ASCII</string>
+    <string name="pref_text_alphanumeric_summary_on">عرض الأحرف والأرقام بنمط ASCII فقط</string>
+    <string name="pref_text_transliteration_title">تحويل الحروف</string>
+    <string name="pref_text_transliteration_summary_on">تحويل الأحرف المشكّلة إلى غير مشكّلة</string>
+    <string name="pref_text_line_separator_title">استبدال فاصل الأسطر</string>
+    <string name="pref_text_line_separator_summary_on">استبدال فاصل السطر الافتراضي بأحرف أخرى</string>
+    <string name="pref_text_line_separator_value_title">أحرف الاستبدال</string>
+    <string name="pref_text_char_replacement_title">استبدال الحروف/الرموز التعبيرية</string>
+    <string name="pref_text_char_replacement_summary_on">استبدال حرف بحرف آخر</string>
+    <string name="pref_text_char_replacement_find">بحث</string>
+    <string name="pref_text_char_replacement_replace">استبدال بـ</string>
+
+    <!-- Export -->
+    <string name="export_tab_database">تصدير البيانات</string>
+    <string name="export_start_date">تاريخ بدء التصدير</string>
+
+    <!-- Theme -->
+    <string name="theme_tab_theme">السمة</string>
+
+    <string name="theme_title">اختر سمة</string>
+    <string name="theme_background_color_title">لون الخلفية</string>
+
+    <string name="theme_widget_background_color_title">اللون</string>
+    <string name="theme_color_dynamic_color_title">لون ديناميكي</string>
+    <string name="theme_color_predefined_colors_title">ألوان مُحددة مسبقًا</string>
+
+    <string name="theme_notification_title">عرض الحالة في شريط الإشعارات</string>
+
+    <string name="theme_cat_color_setting">إعدادات اللون</string>
+
+
+    <!-- Premium mode -->
+    <string name="purchase_advantage_title">مزايا الوضع المميز</string>
+    <string name="purchase_advantage"><![CDATA[
+    <p>• دعم مالي لتطوير التطبيق</p>
+    <p>• استخدام بدون إعلانات</p>
+    <p>• إعدادات إشعارات غير محدودة</p>
+    <p>• إعدادات المكالمات غير محدودة</p>
+    <p>• تحميل واجهات الساعة يوميًا بدون حد</p>
+    <p>• عدد غير محدود من المنبهات (قد يكون محدودًا من قِبل الساعة)</p>
+    <p>• وضع عدم الإزعاج غير محدود</p>
+    <p>• إعدادات اللمس غير محدودة</p>
+    <p>• تحديثات طقس أكثر تكرارًا، تحديثات الموقع التلقائية، إمكانية اختيار مزود AccuWeather</p>
+    <p>• رسوم بيانية يومية مفصلة</p>
+    • فتح جميع القيود الأخرى للوظائف…
+    ]]></string>
+
+    <string name="purchase_policy_title">شروط وأحكام الوضع المميز</string>
+    <string name="purchase_policy"><![CDATA[
+    <p>• لقد جربت التطبيق ووجدته يعمل كما هو متوقع.</p>
+    <p>• أفهم أنه لا يمكنني طلب تعويض أو استرداد بسبب مشاكل ناتجة عن تغييرات في النظام (مثل تحديثات إصدار Android)، أو تغييرات في الأجهزة، أو تعارضات مع تطبيقات أخرى.</p>
+    <p>• جميع المشتريات نهائية وغير قابلة للاسترداد (إلا إذا سمحت بذلك سياسة استرداد Google).</p>
+    <p>• لا يأتي هذا التطبيق مع أي ضمان، صريحًا أو ضمنيًا.</p>
+    <p>• استخدام هذا التطبيق على مسؤوليتك الخاصة. المطوّر غير مسؤول عن أي ضرر مباشر أو غير مباشر أو فقدان للبيانات ناتج عن استخدامه.</p>
+    <p>• الوضع المميز مرتبط بحساب Google الخاص بك ويظل نشطًا بعد إعادة تثبيت التطبيق.</p>
+    <i>يجب إعادة تشغيل التطبيق بعد الشراء.</i>
+    ]]></string>
+
+    <string name="purchase_google_play_services_not_available">خدمات Google Play غير متوفرة</string>
+    <string name="purchase_agree">أوافق على الشروط والأحكام.</string>
+    <string name="purchase_order_id">معرّف الطلب</string>
+    <string name="purchase_order_id_help">انسخ من:
+        \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+
+    <string name="purchase_info">دفعة لمرة واحدة ・ %1$s</string> <!-- %1$s = price -->
+    <string name="purchase_button_purchase">شراء</string>
+
+    <!-- Feedback -->
+    <string name="action_log_notification">السجل</string>
+
+    <string name="feedback_google_play_title">قيّم هذا التطبيق</string>
+    <string name="feedback_request_feature_title">طلب ميزة أو الإبلاغ عن خطأ</string>
+    <string name="feedback_request_feature_summary">معالجة بريد إلكتروني تلقائية، قد لا تتلقى ردًا</string>
+    <string name="feedback_translation_title">ترجمة %1$s</string> <!-- %1$s = App name -->
+    <string name="feedback_translation_title_summary">يرجى المساعدة في الترجمة</string>
+
+    <!-- Privacy policy -->
+    <string name="privacy_policy_tab_privacy_policy">سياسة الخصوصية</string>
+    <string name="privacy_policy_tab_user_consent">إدارة موافقة المستخدم</string>
+    <string name="privacy_policy_tab_eu_consent">موافقة مستخدمي الاتحاد الأوروبي والولايات المتحدة</string>
+    <string name="privacy_policy_tab_non_eu_consent">موافقة المستخدمين من مناطق أخرى</string>
+
+    <string name="privacy_policy_collect_title">المعلومات التي نجمعها</string>
+    <string name="privacy_policy_collect"><![CDATA[
+    <p>• نقوم بجمع معلومات مجهولة الهوية فقط.</p>
+    <p>• نجمع معلومات على مستوى التطبيق حول الخدمات التي تستخدمها وكيفية استخدامها (Google Analytics).</p>
+    <p>• نجمع معلومات على مستوى التطبيق مثل الأخطاء والأعطال لتحسين الأداء (Firebase Crashlytics).</p>
+    <p>• نجمع معلومات على مستوى التطبيق تتعلق بالأداء (Firebase Performance Monitoring).</p>
+    <p>• تقوم منصة Google Firebase بجمع المعلومات بشكل مجهول. يتم الإبلاغ عن الاتجاهات دون تحديد هوية المستخدمين الفرديين.
+    تجمع المنصة بيانات مثل معرف تثبيت Firebase، حالة التطبيق، بيانات الجهاز ذات الصلة (طراز الجهاز، بنية وحدة المعالجة المركزية، حجم الذاكرة والتخزين، نظام التشغيل، اتجاه الشاشة، البلد، اللغة/الإعدادات المحلية)، تتبعات الأعطال، مقاييس الأداء (بما في ذلك وقت بدء التطبيق وزمن استجابة الشبكة، عناوين URL)، استخدام وحدة المعالجة المركزية/الذاكرة، وعنوان IP التقريبي…</p>
+    <p>• نقوم بجمع بيانات الموقع لتحديث حالة الطقس بناءً على موقعك الحالي (اختياري).</p>
+    • الأساس القانوني لجمع ومعالجة هذه البيانات هو مصلحتنا المشروعة في تحسين وظائف التطبيق وأدائه، وضمان استقراره وقابليته للاستخدام.
+    ]]></string>
+
+    <string name="privacy_policy_cookies_title">ملفات تعريف الارتباط والتقنيات المماثلة</string>
+    <string name="privacy_policy_cookies"><![CDATA[
+    • قد تستخدم بعض الخدمات الخارجية مثل AdMob ملفات تعريف الارتباط أو تقنيات مماثلة لعرض الإعلانات المخصصة. يمكنك إدارة تخصيص الإعلانات من خلال إعدادات حسابك في Google.
+    ]]></string>
+
+    <string name="privacy_policy_retention_title">الاحتفاظ بالبيانات</string>
+    <string name="privacy_policy_retention"><![CDATA[
+    • يتم الاحتفاظ بالبيانات التي يتم جمعها من قبل Google Firebase وفقًا لسياساتها، وللفترة اللازمة فقط لأغراض التحليلات والتشخيص وتحسين الأداء.
+    ]]></string>
+
+    <string name="privacy_policy_not_collect_title">المعلومات التي لا نجمعها</string>
+    <string name="privacy_policy_not_collect"><![CDATA[
+    <p>• لا نقوم بجمع معلومات تعريف شخصية عنك. وهذا يشمل عدم جمع اسمك أو عنوانك أو رقم هاتفك أو بريدك الإلكتروني أو عنوان MAC الخاص بك.</p>
+    • لا نقوم بجمع بيانات صحية شخصية أو جهات الاتصال أو محتوى الإشعارات المعروضة على جهازك.
+    ]]></string>
+
+    <string name="privacy_policy_share_title">المعلومات التي نشاركها</string>
+    <string name="privacy_policy_share"><![CDATA[
+    • لا نشارك أي بيانات مع شركات أو جهات خارجية، باستثناء Google ومزودي الإعلانات.
+    ]]></string>
+
+    <string name="privacy_policy_use_title">البيانات الشخصية والحساسة التي نستخدمها</string>
+    <string name="privacy_policy_use"><![CDATA[
+    • نستخدم بيانات الموقع فقط لتحديث معلومات الطقس، وذلك فقط إذا قمت بتمكين هذه الميزة.
+    ]]></string>
+
+    <string name="privacy_policy_rights_title">حقوقك</string>
+    <string name="privacy_policy_rights"><![CDATA[
+    <p>• إن البيانات المتعلقة بالتحليلات والأخطاء والأداء التي يتم جمعها مجهولة الهوية بالكامل، ولا يمكن استخدامها لتحديد هوية أي فرد. لذلك، فهي لا تُعد بيانات شخصية بموجب قوانين حماية البيانات المعمول بها (مثل اللائحة العامة لحماية البيانات - GDPR)، ولا تخضع لحقوق الوصول أو التصحيح أو الحذف.</p>
+    <p>• يمكنك إيقاف جمع البيانات عن طريق إلغاء تثبيت التطبيق أو إدارة إعدادات الخصوصية في حسابك على Google أو على جهازك.</p>
+    • لأي استفسارات تتعلق باستخدام البيانات أو حقوق الخصوصية الخاصة بك، يرجى التواصل معنا من خلال قنوات الدعم المتاحة داخل التطبيق.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">سياسات الخصوصية لمزودي الخدمات الخارجيين</string>
+    <string name="privacy_policy_links"><![CDATA[
+    <p><a href="https://policies.google.com/privacy">سياسة خصوصية Google (تشمل خدمات Google Play)</a></p>
+    <p><a href="https://policies.google.com/technologies/ads">استخدام البيانات في AdMob</a></p>
+    <p><a href="https://support.google.com/analytics/answer/6004245">استخدام البيانات في Google Analytics</a></p>
+    <p><a href="https://firebase.google.com/terms/crashlytics">شروط Firebase Crashlytics</a></p>
+    <a href="https://firebase.google.com/support/privacy">الخصوصية والأمان في Firebase (يشمل مراقبة الأداء)</a>
+    ]]></string>
+
+    <string name="privacy_policy_eu_consent_title">الحالة</string>
+    <string name="privacy_policy_eu_consent_title_obtained">تم الحصول على الموافقة</string>
+    <string name="privacy_policy_eu_consent_title_personalized">إعلانات مخصصة وذات صلة</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">إعلانات غير مخصصة وأقل صلة</string>
+    <string name="privacy_policy_eu_consent_title_unknown">غير معروف</string>
+
+    <string name="privacy_policy_eu_consent_setting">الإعداد</string>
+
+
+    <!-- Custom vibration dialog -->
+    <string name="custom_vibration_title">إعداد الاهتزاز</string>
+
+
+    <!-- Shortcuts -->
+    <string name="shortcut">اختصار</string>
+    <string name="shortcut_visible_items">عناصر الاختصار الظاهرة</string>
+    <string name="shortcut_hidden_items">عناصر الاختصار المخفية</string>
+
+    <string name="shortcut_status">الحالة</string>
+    <string name="shortcut_heart_rate">معدل ضربات القلب</string>
+    <string name="shortcut_blood_oxygen">أوكسجين الدم</string>
+    <string name="shortcut_sleep">النوم</string>
+    <string name="shortcut_breathing">التنفس</string>
+    <string name="shortcut_weather">الطقس</string>
+    <string name="shortcut_stress">الضغط</string>
+
+
+    <!-- Others -->
+    <string name="tab_daily_charts">مخططات يومية</string>
+    <string name="tab_weekly_charts">مخططات أسبوعية</string>
+    <string name="tab_monthly_charts">مخططات شهرية</string>
+    <string name="tab_yearly_charts">مخططات سنوية</string>
+
+    <string name="ad_attribution">إعلان</string>
+    <string name="on">تشغيل</string>
+    <string name="off">إيقاف</string>
+    <string name="none">لا شيء</string>
+    <string name="heart_rate_bpm">نبضة/دقيقة</string>
+    <string name="heart_rate_mhr">الحد الأقصى</string>
+    <string name="date">التاريخ</string>
+    <string name="time">الوقت</string>
+    <string name="time_start">وقت البدء</string>
+    <string name="time_end">وقت الانتهاء</string>
+    <string name="ringer_mode_vibrate">اهتزاز</string>
+    <string name="ringer_mode_silent">صامت</string>
+    <string name="ringer_mode_dnd_priority_only">عدم الإزعاج (أولوية فقط)</string>
+    <string name="ringer_mode_dnd_alarms_only">عدم الإزعاج (المنبه فقط)</string>
+    <string name="ringer_mode_dnd_total_silence">عدم الإزعاج (صمت تام)</string>
+    <string name="unknown">غير معروف</string>
+    <string name="maximum">الحد الأقصى</string>
+    <string name="all_day">طوال اليوم</string>
+    <string name="timed">مؤقت</string>
+    <string name="file_name">اسم الملف</string>
+    <string name="default_">افتراضي</string>
+    <string name="default_by_phone">افتراضي (حسب الهاتف)</string>
+    <string name="custom">مخصص</string>
+    <string name="invalid_setting">إعداد غير صالح</string>
+    <string name="ringtone">نغمة الرنين</string>
+    <string name="ringtone_chooser">اختيار نغمة</string>
+    <string name="uninstalled">تم إلغاء التثبيت</string>
+    <string name="value">القيمة</string>
+    <string name="downloads">التنزيلات</string>
+    <string name="share">مشاركة</string>
+    <string name="send">إرسال</string>
+    <string name="narrow">ضيق</string>
+    <string name="short_">قصير</string>
+    <string name="medium">متوسط</string>
+    <string name="long_">طويل</string>
+    <string name="full">كامل</string>
+    <string name="alignment_left">محاذاة لليسار</string>
+    <string name="alignment_center">محاذاة للوسط</string>
+    <string name="alignment_right">محاذاة لليمين</string>
+    <string name="visible">مرئي</string>
+    <string name="invisible">غير مرئي</string>
+    <string name="placeholder">نص افتراضي</string>
+    <string name="image_scale_fit">ملاءمة</string>
+    <string name="image_scale_crop">اقتصاص</string>
+    <string name="image_scale_stretch">تمديد</string>
+    <string name="resource_manager">مدير الموارد</string>
+
+    <string name="action_premium_mode">الوضع المميز</string>
+    <string name="action_dismiss">تجاهل</string>
+    <string name="action_setting">الإعداد</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_rename">إعادة التسمية</string>
+    <string name="action_export">تصدير</string>
+    <string name="action_synchronization">المزامنة</string>
+    <string name="action_download">تنزيل</string>
+    <string name="action_upload">تحميل</string>
+    <string name="action_backup">نسخ احتياطي</string>
+    <string name="action_restore">استعادة</string>
+    <string name="action_filter_no">بدون فلتر</string>
+    <string name="action_bluetooth">بلوتوث</string>
+    <string name="action_favorite">المفضلة</string>
+    <string name="action_save">حفظ</string>
+    <string name="action_test">اختبار</string>
+    <string name="action_discard">إلغاء</string>
+    <string name="action_keep_editing">الاستمرار في التحرير</string>
+    <string name="action_new">جديد</string>
+    <string name="action_new_file_extension">ملف جديد %1$s</string>
+    <string name="action_edit">تحرير</string>
+    <string name="action_start_stop">بدء/إيقاف</string>
+    <string name="action_contacts">جهات الاتصال</string>
+    <string name="action_single_selection">اختيار واحد</string>
+    <string name="action_multiple_selection">اختيار متعدد</string>
+    <string name="action_selection_boundaries">حدود الاختيار</string>
+    <string name="action_object_boundaries">حدود العنصر</string>
+    <string name="action_select">اختيار</string>
+    <string name="action_select_all">تحديد الكل</string>
+    <string name="action_select_texts">تحديد النصوص</string>
+    <string name="action_select_images">تحديد الصور</string>
+    <string name="action_deselect_all">إلغاء تحديد الكل</string>
+    <string name="synchronized_from_watch">تمت المزامنة من الساعة</string>
+    <string name="synchronization_succeeded">تمت المزامنة بنجاح</string>
+    <string name="synchronization_failed">فشلت المزامنة</string>
+
+    <!-- Chart -->
+    <string name="action_chart">مخطط</string>
+    <string name="action_zoom_in">تكبير</string>
+    <string name="action_chart_normalize_raw_data">القيم المقاسة</string>
+    <string name="action_chart_normalize_quarter_hourly">قيم كل ربع ساعة</string>
+    <string name="action_chart_normalize_half_hourly">قيم كل نصف ساعة</string>
+    <string name="action_chart_normalize_hourly">قيم كل ساعة</string>
+    <string name="action_chart_sort_time_asc">الوقت تصاعدي</string>
+    <string name="action_chart_sort_time_desc">الوقت تنازلي</string>
+    <string name="action_chart_sort_step_asc">الخطوات تصاعدي</string>
+    <string name="action_chart_sort_step_desc">الخطوات تنازلي</string>
+    <string name="action_chart_sort_duration_asc">معدل النبض تصاعدي</string>
+    <string name="action_chart_sort_duration_desc">المدة تنازلي</string>
+    <string name="action_chart_sort_heart_rate_asc">النبض تصاعدي</string>
+    <string name="action_chart_sort_heart_rate_desc">معدل النبض تنازلي</string>
+    <string name="action_chart_sort_spo2_asc">SpO2 تصاعدي</string>
+    <string name="action_chart_sort_spo2_desc">SpO2 تنازلي</string>
+    <string name="action_chart_sort_pressure_asc">الضغط تصاعدي</string>
+    <string name="action_chart_sort_pressure_desc">الضغط تنازلي</string>
+    <string name="action_chart_monthly_calendar">التقويم</string>
+    <string name="action_chart_monthly_compact">مُدمج</string>
+
+    <string name="activity_progress_title_prepare">جاري التحضير للمزامنة…</string>
+    <string name="activity_progress_title_sync">جاري مزامنة البيانات…</string>
+    <string name="activity_progress_title_save">جاري حفظ البيانات…</string>
+
+    <string name="required_value">مطلوب</string>
+
+    <string name="percent_0">٠٪</string>
+    <string name="percent_10">١٠٪</string>
+    <string name="percent_20">٢٠٪</string>
+    <string name="percent_30">٣٠٪</string>
+    <string name="percent_40">٤٠٪</string>
+    <string name="percent_50">٥٠٪</string>
+    <string name="percent_60">٦٠٪</string>
+    <string name="percent_70">٧٠٪</string>
+    <string name="percent_80">٨٠٪</string>
+    <string name="percent_90">٩٠٪</string>
+    <string name="percent_100">١٠٠٪</string>
+
+    <!-- Constants -->
+    <string name="const_day_of_week_sunday">الأحد</string>
+    <string name="const_day_of_week_monday">الاثنين</string>
+    <string name="const_day_of_week_tuesday">الثلاثاء</string>
+    <string name="const_day_of_week_wednesday">الأربعاء</string>
+    <string name="const_day_of_week_thursday">الخميس</string>
+    <string name="const_day_of_week_friday">الجمعة</string>
+    <string name="const_day_of_week_saturday">السبت</string>
+
+    <string name="const_time_abbreviation_day">ي</string>
+    <string name="const_time_abbreviation_hour">س</string>
+    <string name="const_time_abbreviation_minute">د</string>
+    <string name="const_time_abbreviation_sec">ث</string>
+    <string name="const_time_abbreviation_milli_sec">م.ث</string>
+
+    <string name="const_number">%1$,d</string>
+    <string name="const_number_float">%,.2f</string>
+    <string name="const_number_float_1_precision">%,.1f</string>
+    <string name="const_percentage">%1$,d%%</string>
+    <string name="const_percent_sign">٪</string>
+    <string name="const_unit_kilometer">كم</string>
+    <string name="const_unit_meter">م</string>
+    <string name="const_unit_centimeter">سم</string>
+    <string name="const_unit_mile">ميل</string>
+    <string name="const_unit_kilogram">كغ</string>
+    <string name="const_unit_kcal">س.حرارية</string>
+    <string name="const_unit_dbm">ديسيبل</string>
+
+    <!-- Plurals -->
+    <plurals name="plural_time_hour">
+        <item quantity="zero">٠ ساعة</item>
+        <item quantity="one">ساعة واحدة</item>
+        <item quantity="two">ساعتان</item>
+        <item quantity="few">%d ساعات</item>
+        <item quantity="many">%d ساعة</item>
+        <item quantity="other">%d ساعة</item>
+    </plurals>
+
+    <plurals name="plural_time_minute">
+        <item quantity="zero">٠ دقيقة</item>
+        <item quantity="one">دقيقة واحدة</item>
+        <item quantity="two">دقيقتان</item>
+        <item quantity="few">%d دقائق</item>
+        <item quantity="many">%d دقيقة</item>
+        <item quantity="other">%d دقيقة</item>
+    </plurals>
+
+    <plurals name="plural_time_second">
+        <item quantity="zero">٠ ثانية</item>
+        <item quantity="one">ثانية واحدة</item>
+        <item quantity="two">ثانيتان</item>
+        <item quantity="few">%d ثوانٍ</item>
+        <item quantity="many">%d ثانية</item>
+        <item quantity="other">%d ثانية</item>
+    </plurals>
+</resources>
