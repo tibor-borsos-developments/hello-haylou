@@ -1,6 +1,8 @@
 <?xml version="1.0"?>
 
 <resources xmlns:tools="http://schemas.android.com/tools" tools:locale="hu">
+
+    <!--  Navigation  -->
     <string name="menu_nav_notification">Értesítés</string>
     <string name="menu_nav_call">Hívás</string>
     <string name="menu_nav_step">Aktivitás</string>
@@ -238,7 +240,6 @@
     <br><br><small>Ez a termék és annak funkciói nem szolgálnak gyógyászati célokat, és nem alkalmasak betegségek előrejelzésére, diagnosztizálására, megelőzésére vagy gyógyítására. Az összes adat és mérés kizárólag személyes tájékoztatást szolgál, és nem használható fel diagnózis vagy orvosi kezelés alapjául.</small>
     ]]></string>
 
-
     <!-- Notification Dialog -->
     <string name="notification_group_nav_setting">Beállítás</string>
     <string name="notification_group_nav_filter">Szűrés</string>
@@ -355,7 +356,6 @@
     <string name="action_search">Keresés</string>
     <string name="action_filter_notification">Értesítés szűrő</string>
 
-
     <!-- Activity -->
     <string name="step_details">Aktivitás részletek</string>
 
@@ -380,24 +380,21 @@
     <string name="sleep_deep">Mély</string>
     <string name="sleep_rem">REM</string>
 
-
     <!-- Heart rate -->
     <string name="heart_rate_details">Pulzus részletek</string>
 
-    <string name="heart_rate_continuous_title">Folyamatos pulzusmérés</string>
+    <string name="heart_rate_continuous_measurement_title">Folyamatos pulzusmérés</string>
 
-    <string name="heart_rate_warning_title">Pulzusszám figyelmeztetés</string>
-    <string name="low_and_high_heart_rates">Alacsony és magas pulzusszám értékek</string>
+    <string name="heart_rate_alert_title">Pulzusszám figyelmeztetés</string>
+    <string name="heart_rate_thresholds">Alacsony és magas pulzusszám értékek</string>
     <string name="low_heart_rate">Alacsony pulzusszám</string>
     <string name="high_heart_rate">Magas pulzusszám</string>
-
 
     <!-- Blood Oxygen -->
     <string name="blood_oxygen_details">Véroxigén részletek</string>
 
     <string name="blood_oxygen_level_measurement">Véroxigén szint mérés</string>
     <string name="measurement_interval">Mérési gyakoriság</string>
-
 
     <!-- Blood pressure -->
     <string name="blood_pressure_details">Vérnyomás részletek</string>
@@ -408,10 +405,8 @@
     <string name="blood_pressure_diastolic_abbreviation">Dia</string>
     <string name="blood_pressure_unit">Hgmm</string>
 
-
     <!-- Workout -->
     <string name="workout_details">Edzés részletek</string>
-
 
     <!-- Alarm -->
     <string name="action_time_alarm_sort_state_asc">Állapot növekvő</string>
@@ -425,7 +420,6 @@
         Az utoljára végrehajtott művelet lesz érvényben.
     ]]></string>
 
-
     <!-- Reminder -->
     <string name="reminder_repeat">Ismétlés óránként</string>
     <string name="reminder_notification_on_phone">Értesítés a telefonon</string>
@@ -438,9 +432,7 @@
 
     <string name="info_dialog_reminder"><![CDATA[
         Az emlékeztető megjelenítéséhez Bluetooth kapcsolat szükséges.
-        ]]>
-    </string>
-
+    ]]></string>
 
     <!-- Do not disturb -->
     <string name="pref_dnd_summary">Vezérlők állapota ne zavarj módban</string>
@@ -730,11 +722,9 @@
     <string name="pref_text_char_replacement_find">Keresett karakter</string>
     <string name="pref_text_char_replacement_replace">Csere erre</string>
 
-
     <!-- Export -->
     <string name="export_tab_database">Adatexport</string>
     <string name="export_start_date">Export kezdetének dátuma</string>
-
 
     <!-- Theme -->
     <string name="theme_tab_theme">Téma</string>
@@ -754,7 +744,7 @@
     <!-- Premium mode -->
     <string name="purchase_advantage_title">Prémium mód előnyei</string>
     <string name="purchase_advantage"><![CDATA[
-         <p>• pénzügyi támogatás a fejlesztéshez</p>
+        <p>• pénzügyi támogatás a fejlesztéshez</p>
         <p>• reklámmentes használat</p>
         <p>• értesítések beállítása korlátozás nélkül</p>
         <p>• hívásbeállítások korlátozás nélkül</p>
@@ -827,18 +817,18 @@
 
     <string name="privacy_policy_not_collect_title">Nem gyűjtött információk</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>• Nem gyűjtünk személyazonosításra alkalmas adatokat Önről. Ez azt jelenti, hogy nem gyűjtünk például olyan adatokat, mint az Ön neve, címe, telefonszáma, e-mail címe vagy MAC címe.</p>
-        • Nem gyűjtünk személyes egészségügyi adatokat, névjegyeket vagy az Ön eszközén megjelenő értesítések tartalmát.
+    <p>• Nem gyűjtünk személyazonosításra alkalmas adatokat Önről. Ez azt jelenti, hogy nem gyűjtünk például olyan adatokat, mint az Ön neve, címe, telefonszáma, e-mail címe vagy MAC címe.</p>
+    • Nem gyűjtünk személyes egészségügyi adatokat, névjegyeket vagy az Ön eszközén megjelenő értesítések tartalmát.
     ]]></string>
 
     <string name="privacy_policy_share_title">Adatmegosztás</string>
     <string name="privacy_policy_share"><![CDATA[
-        • Nem osztunk meg semmilyen adatot más cégekkel vagy szervezetekkel, kivéve a Google-t és a hirdetésszolgáltató partnereit.
+    • Nem osztunk meg semmilyen adatot más cégekkel vagy szervezetekkel, kivéve a Google-t és a hirdetésszolgáltató partnereit.
     ]]></string>
 
     <string name="privacy_policy_use_title">Felhasznált személyes és érzékeny felhasználói adatok</string>
     <string name="privacy_policy_use"><![CDATA[
-        • Helymeghatározási adatokat kizárólag az aktuális időjárási információk frissítésére használunk, és csak akkor, ha ezt a funkciót Ön kifejezetten engedélyezte.
+    • Helymeghatározási adatokat kizárólag az aktuális időjárási információk frissítésére használunk, és csak akkor, ha ezt a funkciót Ön kifejezetten engedélyezte.
     ]]></string>
 
     <string name="privacy_policy_rights_title">Felhasználói jogok</string>
@@ -882,7 +872,6 @@
     <string name="shortcut_breathing">Légzés</string>
     <string name="shortcut_weather">Időjárás</string>
     <string name="shortcut_stress">Stressz</string>
-
 
     <!-- Others -->
     <string name="tab_daily_charts">Napi graf.</string>

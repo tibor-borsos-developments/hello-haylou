@@ -1,0 +1,1031 @@
+<?xml version="1.0"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="th">
+
+    <!--  Navigation  -->
+    <string name="menu_nav_notification">การแจ้งเตือน</string>
+    <string name="menu_nav_call">การโทร</string>
+    <string name="menu_nav_step">กิจกรรม</string>
+    <string name="menu_nav_sleep">การนอน</string>
+    <string name="menu_nav_heart_rate">อัตราการเต้นของหัวใจ</string>
+    <string name="menu_nav_blood_oxygen">ออกซิเจนในเลือด</string>
+    <string name="menu_nav_blood_pressure">ความดันโลหิต</string>
+    <string name="menu_nav_workout">ออกกำลังกาย</string>
+    <string name="menu_nav_alarm">นาฬิกาปลุก</string>
+    <string name="menu_nav_reminder">ตัวเตือน</string>
+    <string name="menu_nav_dnd">โหมดห้ามรบกวน</string>
+    <string name="menu_nav_watch_face">หน้าปัดนาฬิกา</string>
+    <string name="menu_nav_weather">สภาพอากาศ</string>
+    <string name="menu_nav_touch">การควบคุมด้วยการสัมผัส</string>
+    <string name="menu_nav_more">เพิ่มเติม</string>
+    <string name="menu_nav_text_customization">ปรับแต่งข้อความ</string>
+    <string name="menu_nav_export">ส่งออก</string>
+    <string name="menu_nav_premium_mode">โหมดพรีเมียม</string>
+    <string name="menu_nav_feedback">ข้อเสนอแนะ</string>
+    <string name="menu_nav_privacy_policy">นโยบายความเป็นส่วนตัว</string>
+    <string name="menu_nav_theme">ธีม</string>
+
+    <string name="setting_name">การตั้งค่า</string>
+    <string name="settings_name">การตั้งค่าทั้งหมด</string>
+    <string name="info_name">ข้อมูล</string>
+    <string name="more_name">เพิ่มเติม</string>
+
+    <string name="main_item_activity_title">จำนวนก้าว・เป้าหมาย</string>
+    <string name="main_item_battery">แบตเตอรี่・เวลาชาร์จล่าสุด</string>
+    <string name="main_item_connect_and_disconnect_last_time">การเชื่อมต่อและตัดการเชื่อมต่อล่าสุด</string>
+    <string name="main_item_next_alarm">นาฬิกาปลุกถัดไป</string>
+    <string name="main_item_next_reminder">ตัวเตือนถัดไป</string>
+    <string name="main_item_call_and_notification_control">การโทรและการแจ้งเตือน</string>
+
+    <!-- Pairing Bluetooth device -->
+    <string name="device_search">ค้นหา %1$s</string>
+    <string name="device_setting">การตั้งค่า %1$s</string>
+
+    <string name="device_mac_address">ที่อยู่ MAC</string>
+    <string name="device_mac_address_invalid">ที่อยู่ MAC ไม่ถูกต้อง</string>
+
+    <string name="device_state_connected">เชื่อมต่อแล้ว</string>
+    <string name="device_state_disconnected">ไม่ได้เชื่อมต่อ</string>
+    <string name="device_state_bonded">อุปกรณ์ที่จับคู่แล้ว</string>
+    <string name="device_state_not_bonded">ยังไม่ได้จับคู่อุปกรณ์</string>
+
+    <string name="error_title">ขออภัย! มีบางอย่างผิดพลาด</string>
+    <string name="error_message">กรุณาอัปเดตแอปเป็นเวอร์ชันล่าสุด</string>
+
+
+    <!-- Watch connection and setting -->
+    <string name="mi_band_setting_title">การตั้งค่า %1$s</string>
+
+    <string name="mi_band_setting_menu_connection">การเชื่อมต่อ</string>
+    <string name="mi_band_setting_menu_setting">@string/setting_name</string>
+    <string name="mi_band_setting_menu_profile">โปรไฟล์</string>
+    <string name="mi_band_setting_menu_text">ข้อความ</string>
+    <string name="mi_band_setting_menu_call">การโทร</string>
+
+    <string name="mi_band_setting_auth_mi_fit">การทำงานร่วมกับ %1$s</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">%3$s ต้องติดตั้งแอป %1$s บนโทรศัพท์เครื่องนี้ก่อน ต้องจับคู่ %2$s ในแอป %1$s ก่อนใช้งาน หากคุณต้องการใช้แอป %1$s ร่วมด้วย ให้เลือกตัวเลือกนี้</string>
+    <string name="mi_band_setting_auth_standalone">โหมดเดี่ยว</string>
+    <string name="mi_band_setting_auth_standalone_hint">ไม่จำเป็นต้องใช้แอป %1$s ในการใช้งาน %3$s หลังจากจับคู่แล้ว คุณสามารถลบแอป %1$s หรือยกเลิกการจับคู่นาฬิกาได้ หากต้องการกลับไปใช้ร่วมกับ %1$s อีกครั้ง คุณต้องจับคู่ %2$s ใหม่ในแอป %1$s การยกเลิกการจับคู่จะลบข้อมูลจากนาฬิกา โปรดตรวจสอบว่า %2$s เปิดหน้าจออยู่ระหว่างการดำเนินการ</string>
+    <string name="mi_band_standalone_sync_error">เพื่อป้องกันข้อมูลสูญหายและให้ข้อมูลแม่นยำ การซิงค์จะถูกปิดใช้งานในโหมดร่วมกัน การซิงค์จะลบข้อมูลในนาฬิกาและอาจทำให้ข้อมูลในทั้งสองแอปผิดพลาด</string>
+    <string name="mi_band_setting_auth_key">รหัสยืนยัน</string>
+    <string name="mi_band_setting_auth_key_help">ใส่ตัวเลข 4 หลักใดก็ได้</string>
+    <string name="mi_band_setting_auth_request">ขอรหัส</string>
+    <string name="mi_band_setting_auth_pair">จับคู่</string>
+    <string name="mi_band_setting_auth_unpair">ยกเลิกการจับคู่</string>
+
+    <string name="message_auth_request">อุปกรณ์นี้จับคู่แล้ว หากคุณไม่ทราบรหัส กรุณายกเลิกการจับคู่</string>
+
+    <string name="message_mi_band_setting_auth_press_band_button">กดปุ่มบน %1$s เพื่อจับคู่</string>
+    <string name="message_mi_band_setting_auth_success">จับคู่กับ %1$s สำเร็จแล้ว</string>
+    <string name="message_mi_band_setting_auth_fail">จับคู่กับ %1$s ไม่สำเร็จ</string>
+    <string name="message_mi_band_setting_auth_key_invalid">รหัสยืนยันไม่ถูกต้อง</string>
+
+    <string name="pref_disconnect_device">ตัดการเชื่อมต่อ</string>
+
+    <string name="mi_band_setting_connection_problem_title">หากคุณมีปัญหาในการเชื่อมต่อ</string>
+    <string name="mi_band_setting_connection_problem_hint"><![CDATA[
+    - ยกเลิกการจับคู่นาฬิกาในการตั้งค่า Bluetooth ของโทรศัพท์<br>
+    - ปิดแล้วเปิด Bluetooth ใหม่<br>
+    - ปิดแอปหรือรีสตาร์ทโทรศัพท์<br>
+    - ลองจับคู่นาฬิกาใหม่จากหน้าหลัก
+    ]]></string>
+
+    <string name="mi_band_setting_dial">หน้าปัด</string>
+    <string name="mi_band_setting_language">ภาษา</string>
+    <string name="mi_band_setting_time_24h">รูปแบบเวลา 24 ชั่วโมง</string>
+    <string name="mi_band_setting_distance_unit">หน่วยระยะทาง</string>
+    <string name="mi_band_setting_screen_on_duration">ระยะเวลาหน้าจอสว่าง</string>
+    <string name="mi_band_setting_lift_wrist">เปิดหน้าจอเมื่อยกข้อมือ</string>
+    <string name="mi_band_setting_idle_alert">ตัวเตือนเมื่อไม่เคลื่อนไหว</string>
+    <string name="mi_band_setting_idle_alert_duration">ระยะเวลาไม่มีการเคลื่อนไหว</string>
+    <string name="mi_band_setting_idle_alert_dnd">ห้ามรบกวนขณะพักผ่อน (12:00–14:00)</string>
+
+    <string name="pref_synchronization">การซิงค์</string>
+    <string name="pref_synchronization_fetch_interval">ความถี่ในการซิงค์</string>
+    <string name="pref_synchronization_summary">เลือกข้อมูลที่คุณต้องการให้ซิงค์อัตโนมัติในพื้นหลัง หากไม่ต้องการข้อมูลบางอย่าง ปิดเพื่อเพิ่มประสิทธิภาพ คุณยังสามารถซิงค์ด้วยตนเองได้จากหน้าหลักหรือเมนูที่เกี่ยวข้อง (ปัดลง)</string>
+
+    <string name="mi_band_setting_profile">กรอกข้อมูลเพื่อให้การคำนวณจำนวนก้าว ระยะทาง และแคลอรีแม่นยำยิ่งขึ้น</string>
+    <string name="mi_band_setting_gender">เพศ</string>
+    <string name="mi_band_setting_gender_male">ชาย</string>
+    <string name="mi_band_setting_gender_female">หญิง</string>
+    <string name="mi_band_setting_birthday">วันเกิด</string>
+    <string name="mi_band_setting_height">ส่วนสูง</string>
+    <string name="mi_band_setting_weight">น้ำหนัก</string>
+    <string name="mi_band_setting_wearing_place">ข้อมือที่สวม</string>
+    <string name="mi_band_setting_wearing_place_left_wrist">มือซ้าย</string>
+    <string name="mi_band_setting_wearing_place_right_wrist">มือขวา</string>
+
+    <!-- Battery -->
+    <string name="battery_details">การใช้แบตเตอรี่</string>
+
+    <string name="battery_settings">การตั้งค่าแบตเตอรี่</string>
+    <string name="battery_settings_notification">แจ้งเตือนเมื่อแบตเตอรี่ต่ำ</string>
+    <string name="battery_settings_notification_level">ระดับแบตเตอรี่ที่ต้องแจ้งเตือน</string>
+    <string name="battery_settings_notification_repeat_interval">ช่วงเวลาในการแจ้งเตือนซ้ำ</string>
+    <string name="battery_settings_notification_on_phone">แจ้งเตือนบนโทรศัพท์</string>
+    <string name="battery_settings_notification_on_phone_ongoing">การแจ้งเตือนคงอยู่</string>
+    <string name="battery_settings_notification_on_phone_message">ระดับแบตเตอรี่ต่ำ: %1$,d%%</string>
+    <string name="battery_settings_notification_on_device">แจ้งเตือนบนสมาร์ทวอทช์</string>
+    <string name="battery_settings_notification_on_device_message">แบตเตอรี่: %1$,d%%</string>
+
+    <!-- Preference screens -->
+    <string name="pref_battery_phone">แบตเตอรี่โทรศัพท์</string>
+    <string name="pref_battery_phone_summary">แจ้งเตือนเมื่อแบตเตอรี่ต่ำหรือชาร์จเต็ม</string>
+    <string name="pref_cat_battery_phone_low">แบตเตอรี่ต่ำ</string>
+    <string name="pref_battery_phone_low_title">แจ้งเตือนแบตเตอรี่ต่ำ</string>
+    <string name="pref_battery_phone_low_level_title">ระดับแบตเตอรี่ที่แจ้งเตือน</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">ช่วงเวลาในการแจ้งเตือนซ้ำ</string>
+    <string name="pref_cat_battery_phone_full">แบตเตอรี่เต็ม</string>
+    <string name="pref_battery_phone_full_title">แจ้งเตือนเมื่อชาร์จเต็ม</string>
+    <string name="pref_battery_phone_full_plugged_ac">แหล่งจ่ายไฟจากอะแดปเตอร์</string>
+    <string name="pref_battery_phone_full_plugged_usb">แหล่งจ่ายไฟจากพอร์ต USB</string>
+    <string name="pref_battery_phone_full_plugged_wireless">แหล่งจ่ายไฟแบบไร้สาย</string>
+
+    <string name="pref_battery_phone_message">แบตเตอรี่โทรศัพท์:\n %1$,d%%</string>
+
+    <string name="pref_language">ภาษา</string>
+    <string name="pref_cat_language">แอปพลิเคชัน</string>
+    <string name="pref_language_title">ภาษา</string>
+
+    <string name="pref_menu">เมนู</string>
+    <string name="pref_cat_menu">ปรับแต่งเมนูหลัก</string>
+    <string name="pref_menu_item_2">เมนูที่สอง</string>
+    <string name="pref_menu_item_3">เมนูที่สาม</string>
+
+    <string name="pref_diagnostic">การวินิจฉัย</string>
+    <string name="pref_cat_diagnostic_closing_protection">ป้องกันการปิดแอป</string>
+    <string name="pref_diagnostic_battery_optimisation">ปิดการเพิ่มประสิทธิภาพแบตเตอรี่</string>
+    <string name="pref_diagnostic_companion_device">การจับคู่อุปกรณ์ร่วม</string>
+    <string name="pref_diagnostic_bluetooth_pairing">การจับคู่ Bluetooth</string>
+    <string name="pref_diagnostic_autostart">เริ่มต้นอัตโนมัติ</string>
+    <string name="pref_diagnostic_autostart_summary">เปิดใช้งานการเริ่มต้นอัตโนมัติในตัวจัดการแอปของโทรศัพท์</string>
+    <string name="pref_diagnostic_info">ข้อมูลเพิ่มเติม</string>
+    <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
+
+    <string name="pref_cat_diagnostic_permissions">สิทธิ์การเข้าถึง</string>
+    <string name="pref_diagnostic_permission_allow_notification_access_settings">อนุญาตการเข้าถึงการแจ้งเตือน</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">ตั้งปลุกแบบเจาะจงเวลา</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">ต้องการสิทธิ์เพิ่มเติมเพื่อกำหนดเวลาการแจ้งเตือนอย่างแม่นยำ</string>
+    <string name="pref_diagnostic_permission_post_notifications">แสดงการแจ้งเตือน</string>
+    <string name="pref_diagnostic_permission_post_notifications_summary">ต้องการสิทธิ์เพิ่มเติมเพื่อแสดงการแจ้งเตือน</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">เข้าถึงโหมดห้ามรบกวน</string>
+
+
+    <!-- Snackbar messages -->
+    <string name="message_enable_bluetooth">โปรดเปิด Bluetooth และวางนาฬิกาไว้ใกล้โทรศัพท์</string>
+    <string name="message_discover_device">%1$s ยังไม่ได้ตั้งค่า กรุณาเชื่อมต่อ</string>
+    <string name="message_discovering_device">กำลังค้นหา %1$s (อาจใช้เวลาถึง 1 นาที) …</string>
+    <string name="message_discover_device_succeeded">%1$s เชื่อมต่อสำเร็จ</string>
+    <string name="message_discover_device_failed">ไม่สามารถเชื่อมต่อกับ %1$s ได้</string>
+    <string name="message_discover_device_not_found">หากไม่พบ %1$s ให้เปิดโหมด Sport/Play/Discoverable หรือจับคู่ผ่านการตั้งค่า Bluetooth ของโทรศัพท์</string>
+    <string name="message_enable_notification_listener_access">เปิดสิทธิ์เข้าถึงการแจ้งเตือน: โทรศัพท์/การตั้งค่า/การเข้าถึงการแจ้งเตือน</string>
+    <string name="message_enable_notification_listener_access_4_4">เปิดสิทธิ์เข้าถึงการแจ้งเตือน: การตั้งค่า/ความปลอดภัย/การเข้าถึงการแจ้งเตือน</string>
+
+    <string name="message_deleted">ลบแล้ว</string>
+    <string name="message_undo">เลิกทำ</string>
+
+    <string name="message_app_chooser_no_selected">เลือกแอปพลิเคชัน</string>
+
+    <string name="message_free_counter">สามารถใช้งานได้เพียง 1 การตั้งค่าในโหมดฟรี</string>
+    <string name="message_free_counters">สามารถใช้งานได้สูงสุด %1$,d การตั้งค่าในโหมดฟรี</string>
+
+    <string name="message_notification_free_groups">สามารถใช้งานได้สูงสุด %1$,d กลุ่มในโหมดฟรี</string>
+    <string name="message_notification_free_app">เลือกได้เพียง 1 แอปในโหมดฟรี</string>
+    <string name="message_notification_free_apps">สามารถเลือกได้สูงสุด %1$,d แอปในโหมดฟรี</string>
+
+    <string name="message_notification_free_text">สามารถบันทึกข้อความได้เพียง 1 ข้อความในโหมดฟรี</string>
+
+    <string name="message_time_alarm_free_counter">สามารถใช้งานนาฬิกาปลุกได้เพียง 1 รายการในโหมดฟรี</string>
+    <string name="message_time_alarm_max_counter">สามารถใช้งานนาฬิกาปลุกได้สูงสุด %1$d รายการ</string>
+    <string name="message_time_alarm_enabled">เปิดใช้งานนาฬิกาปลุกแล้ว</string>
+    <string name="message_time_alarm_disabled">ปิดการใช้งานนาฬิกาปลุก</string>
+    <string name="message_time_alarm_off">นาฬิกาปลุกปิดอยู่</string>
+
+    <string name="message_touch_pattern_error">รูปแบบที่เลือกคล้ายกับฟังก์ชันอื่น โปรดเลือกแบบใหม่</string>
+    <string name="message_touch_free_patterns">ควบคุมได้สูงสุด %1$,d รูปแบบในโหมดฟรี</string>
+    <string name="message_touch_record_help">ใช้ฟังก์ชันควบคุมเพลง/ค้นหาโทรศัพท์ของ %1$s</string>
+
+    <string name="message_premium_mode_only">ฟีเจอร์นี้มีเฉพาะในโหมดพรีเมียม</string>
+    <string name="message_feature_is_not_supported">%1$s ไม่รองรับฟีเจอร์นี้</string>
+    <string name="message_general_error">ตั้งค่าไม่สำเร็จ (การเชื่อมต่อหลุด) กรุณาลองใหม่</string>
+    <string name="message_internet_error">ไม่มีการเชื่อมต่ออินเทอร์เน็ต</string>
+    <string name="message_internet_traffic_blocked">การรับส่งข้อมูลเครือข่ายถูกบล็อก</string>
+    <string name="message_internet_ads_blocked">โฆษณาถูกบล็อก</string>
+    <string name="message_gps_enable">เปิด GPS</string>
+    <string name="message_location_enable">อนุญาตการเข้าถึงตำแหน่ง</string>
+
+    <string name="message_in_progress">กำลังดำเนินการ…</string>
+    <string name="message_no_data">ไม่มีข้อมูล</string>
+
+    <string name="message_rewarded_error">ไม่สามารถโหลดวิดีโอได้</string>
+
+    <string name="message_new_message">มีข้อความใหม่ ดูได้ที่โทรศัพท์ของคุณ</string>
+
+    <string name="message_permission_not_granted">ไม่ได้รับสิทธิ์: %1$s</string>
+
+    <!-- Welcome dialog -->
+    <string name="dialog_welcome_title">ยินดีต้อนรับ!</string>
+    <string name="dialog_welcome_message"><![CDATA[อุปกรณ์ที่รองรับ:
+    <watch_types/>
+    <p><app_name/> ต้องติดตั้งแอป <device_type/> อย่างเป็นทางการในโทรศัพท์เดียวกัน ก่อนอื่นคุณต้องจับคู่นาฬิกาภายในแอป <device_type/> จากนั้นจึงสามารถใช้แอปนี้ได้</p>
+    <p>หากไม่พบ <device_type/> ขณะค้นหา คุณสามารถใส่ที่อยู่ MAC ด้วยตนเองได้</p>
+    <b>การแก้ปัญหาการเชื่อมต่อ:</b>
+    <br>- หน้าจอแอปล่าสุด: ล็อก <app_name/> (ปัดลงแล้วเลือก \'ล็อก\' หรือเมนูที่คล้ายกัน)
+    <br>- การเพิ่มประสิทธิภาพแบตเตอรี่: ตั้งค่าให้ <app_name/> ไม่ถูกจำกัด
+    <br>- โทรศัพท์/แอป: ล้างข้อมูล Bluetooth Share และแอปที่เกี่ยวข้องกับ Bluetooth อื่น ๆ
+    <br>- ข้อมูลเพิ่มเติม: https://dontkillmyapp.com
+    <br><br><small>ผลิตภัณฑ์และฟีเจอร์นี้ไม่ได้ออกแบบมาเพื่อใช้ทางการแพทย์ ไม่ได้มีวัตถุประสงค์ในการวินิจฉัย ป้องกัน หรือรักษาโรคใด ๆ ข้อมูลทั้งหมดใช้เพื่อการอ้างอิงส่วนบุคคลเท่านั้น และไม่ควรใช้แทนคำแนะนำทางการแพทย์</small>
+    ]]></string>
+
+    <!-- Notification  -->
+    <string name="notification_group_nav_setting">การตั้งค่า</string>
+    <string name="notification_group_nav_filter">ตัวกรอง</string>
+    <string name="notification_group_nav_correction">การแก้ไขข้อความ</string>
+
+    <string name="notification_group_name">ชื่อ</string>
+    <string name="notification_group_monitoring">การตรวจสอบการแจ้งเตือน</string>
+    <string name="notification_group_monitoring_disabled">ยกเว้นการแจ้งเตือน (ไม่แสดงการแจ้งเตือนของแอปนี้)</string>
+    <string name="notification_group_alert_title">การแจ้งเตือนจาก %1$s</string>
+    <string name="notification_group_text_customization">การปรับแต่งข้อความ</string>
+    <string name="notification_group_text_app_name">ชื่อแอป</string>
+    <string name="notification_group_text_name">ชื่อ</string>
+    <string name="notification_group_text_title">หัวข้อ</string>
+    <string name="notification_group_text_content">เนื้อหา</string>
+    <string name="notification_group_text_big_content">เนื้อหาเต็ม</string>
+    <string name="notification_group_text_content_slice_title">ความยาวข้อความ</string>
+    <string name="notification_group_display_duration_title">ระยะเวลาการแสดงผล</string>
+    <string name="notification_group_show_notification_title">แสดงการแจ้งเตือน</string>
+    <string name="notification_group_immediate">แจ้งเตือนทันทีเมื่อได้รับ</string>
+    <string name="notification_group_connecting">แจ้งเตือนเมื่อเชื่อมต่อ</string>
+    <string name="notification_group_reminder">แจ้งเตือนตามกำหนด</string>
+    <string name="notification_group_ongoing">แจ้งเตือนต่อเนื่อง (ไม่สามารถลบได้)</string>
+    <string name="notification_group_screen_off">แจ้งเตือนเมื่อหน้าจอดับเท่านั้น</string>
+    <string name="notification_group_repeat_title">การแจ้งเตือนซ้ำ</string>
+    <string name="notification_group_wakelock">ปลุกหน้าจอโทรศัพท์</string>
+    <string name="notification_group_grouped_display_title">การแสดงผลแบบกลุ่ม</string>
+    <string name="notification_group_grouped_sort_order_title">ลำดับการจัดเรียงในแบบกลุ่ม</string>
+
+    <string name="notification_group_filter">ตัวกรองการแจ้งเตือน</string>
+    <string name="notification_group_filter_title">กรองตามหัวข้อ</string>
+    <string name="notification_group_filter_content">กรองตามเนื้อหา</string>
+    <string name="notification_group_filter_regex">Regex</string>
+    <string name="notification_group_filter_hint">แจ้งเตือนเฉพาะเมื่อหัวข้อหรือเนื้อหาตรงกับเงื่อนไข (ไม่คำนึงถึงตัวพิมพ์เล็ก/ใหญ่)</string>
+    <string name="notification_group_filter_contains">มีคำเหล่านี้</string>
+    <string name="notification_group_filter_not_contains">ไม่มีคำเหล่านี้</string>
+
+    <string name="notification_group_sample_sms">SMS</string>
+    <string name="notification_group_sample_facebook">Messenger</string>
+    <string name="notification_group_sample_whatsapp">WhatsApp</string>
+
+    <string name="notification_group_correction">การแก้ไขข้อความการแจ้งเตือน</string>
+    <string name="notification_group_correction_title">แก้ไขหัวข้อ</string>
+    <string name="notification_group_correction_content">แก้ไขเนื้อหา</string>
+    <string name="notification_group_correction_regex">Regex</string>
+    <string name="notification_group_correction_hint">ไม่คำนึงถึงตัวพิมพ์เล็ก/ใหญ่</string>
+    <string name="notification_group_correction_items">ข้อความที่ต้องแก้ไข</string>
+    <string name="notification_group_correction_find">ค้นหา</string>
+    <string name="notification_group_correction_replace">แทนที่ด้วย</string>
+
+    <string name="notification_regex_hint">อักขระพิเศษอาจมีความหมายเฉพาะ หากคุณไม่แน่ใจในการใช้ Regex กรุณาไม่เลือกตัวเลือกนี้</string>
+
+    <string name="notification_confirm_close">คุณแน่ใจหรือไม่ว่าต้องการยกเลิกการเปลี่ยนแปลง?</string>
+
+    <string name="notification_edit_play_text_title">หัวข้อการแจ้งเตือน</string>
+    <string name="notification_edit_play_text_content"><![CDATA[เนื้อหาการแจ้งเตือน:
+    ]]></string>
+
+
+    <!-- Incoming call alert -->
+    <string name="call_tab_call">สายเรียกเข้า</string>
+    <string name="call_tab_contacts">รายชื่อ</string>
+
+    <string name="call_incoming">สายเรียกเข้า</string>
+    <string name="call_incoming_summary_on">อย่าลืมปิดการแจ้งเตือนสายเรียกเข้าในแอป %1$s</string>
+    <string name="call_incoming_caller_id">แสดงชื่อผู้โทร</string>
+
+    <string name="pref_call_notification_rejected">แจ้งเตือนเมื่อปฏิเสธสายเรียกเข้า</string>
+    <string name="pref_call_notification_rejected_message">สายเรียกเข้าถูกปฏิเสธ</string>
+    <string name="pref_call_notification_rejected_action">โทร</string>
+
+    <string name="call_incoming_net_alert_title">แจ้งเตือนสายเรียกเข้าผ่านอินเทอร์เน็ต</string>
+
+    <string name="call_missed_title">แจ้งเตือนสายที่ไม่ได้รับ</string>
+    <string name="call_missed_chooser_title">การแจ้งเตือนจาก %1$s</string>
+    <string name="call_missed_notification">สายที่ไม่ได้รับ</string>
+
+    <string name="call_reject_button_action">การกระทำเมื่อกดปุ่มปฏิเสธ</string>
+
+    <string name="touch_call_answer_title">รับสาย</string>
+    <string name="touch_call_answer_speakerphone_title">ลำโพง</string>
+
+    <string name="call_end_title">วางสาย</string>
+
+    <string name="touch_call_mute_title">ปิดเสียงสาย</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">เฉพาะเมื่อมีสายเข้า</string>
+    <string name="touch_call_mute_recognition_title">เมื่อมีสายเรียกเข้า</string>
+
+    <string name="call_contact_edit_contact">รายชื่อ</string>
+    <string name="call_contact_edit_name">ชื่อ</string>
+    <string name="call_contact_edit_phone_number">หมายเลขโทรศัพท์</string>
+
+    <string name="call_contact_edit_setting_name_order">ลำดับการแสดงชื่อ</string>
+    <string name="call_contact_edit_setting_default">@string/default_</string>
+    <string name="call_contact_edit_setting_first_name">ชื่อ</string>
+    <string name="call_contact_edit_setting_last_name">นามสกุล</string>
+
+    <string name="message_call_contacts_free_counter">ใช้รายชื่อได้สูงสุด %1$d รายการในโหมดฟรี</string>
+    <string name="message_call_contacts_max_counter">ใช้รายชื่อได้สูงสุด %1$d รายการ</string>
+
+    <!-- App chooser dialog -->
+    <string name="app_chooser">ตัวเลือกแอป</string>
+    <string name="action_search">ค้นหา</string>
+    <string name="action_filter_notification">ตัวกรองการแจ้งเตือน</string>
+
+    <!-- Activity -->
+    <string name="step_details">รายละเอียดกิจกรรม</string>
+
+    <string name="mi_band_tracker_step_title">%1$,d</string>
+    <string name="mi_band_tracker_distance_meter_title">%1$,d ม.</string>
+    <string name="mi_band_tracker_distance_kilometer_title">%,.2f กม.</string>
+    <string name="mi_band_tracker_distance_mile_title">%,.2f ไมล์</string>
+    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string>
+
+    <string name="action_tracker_step">จำนวนก้าว</string>
+    <string name="action_tracker_distance">ระยะทาง</string>
+    <string name="action_tracker_calorie">แคลอรี</string>
+    <string name="action_tracker_duration">ระยะเวลาออกกำลังกาย</string>
+
+    <string name="step_goal_default_title">เป้าหมายเริ่มต้น</string>
+
+    <!-- Sleep monitoring -->
+    <string name="sleep_details">รายละเอียดการนอน</string>
+
+    <string name="sleep_awake">ตื่น</string>
+    <string name="sleep_light">หลับตื้น</string>
+    <string name="sleep_deep">หลับลึก</string>
+    <string name="sleep_rem">REM</string>
+
+    <!-- Heart rate -->
+    <string name="heart_rate_details">รายละเอียดอัตราการเต้นของหัวใจ</string>
+
+    <string name="heart_rate_continuous_measurement_title">วัดอัตราการเต้นของหัวใจแบบต่อเนื่อง</string>
+
+    <string name="heart_rate_alert_title">การแจ้งเตือนอัตราการเต้นของหัวใจ</string>
+    <string name="heart_rate_thresholds">ค่าต่ำสุดและสูงสุดของอัตราการเต้นของหัวใจ</string>
+    <string name="low_heart_rate">อัตราการเต้นของหัวใจต่ำ</string>
+    <string name="high_heart_rate">อัตราการเต้นของหัวใจสูง</string>
+
+    <!-- Blood oxygen -->
+    <string name="blood_oxygen_details">รายละเอียดระดับออกซิเจนในเลือด</string>
+
+    <string name="blood_oxygen_level_measurement">การวัดระดับออกซิเจนในเลือด</string>
+    <string name="measurement_interval">ช่วงเวลาการวัด</string>
+
+    <!-- Blood pressure -->
+    <string name="blood_pressure_details">รายละเอียดความดันโลหิต</string>
+
+    <string name="blood_pressure_level_measurement">การวัดระดับความดันโลหิต</string>
+
+    <string name="blood_pressure_systolic_abbreviation">ซิส</string>
+    <string name="blood_pressure_diastolic_abbreviation">ไดแอส</string>
+    <string name="blood_pressure_unit">มม.ปรอท</string>
+
+    <!-- Workout -->
+    <string name="workout_details">รายละเอียดการออกกำลังกาย</string>
+
+
+    <!-- Alarm -->
+    <string name="action_time_alarm_sort_state_asc">เรียงตามสถานะจากน้อยไปมาก</string>
+    <string name="action_time_alarm_sort_watch_asc">เรียงตามอุปกรณ์จากน้อยไปมาก</string>
+    <string name="action_time_alarm_sort_name_asc">เรียงตามชื่อจาก ก ถึง ฮ</string>
+
+    <string name="message_time_alarm_sync">กำลังซิงค์นาฬิกาปลุก %1$s (จะลบนาฬิกาปลุกที่มีอยู่และตั้งค่าใหม่บนสมาร์ทวอทช์ของคุณ)</string>
+
+    <string name="info_dialog_alarm"><![CDATA[
+        <p>เมื่อใช้โหมดร่วมกัน การตั้งค่าในแอปอย่างเป็นทางการและแอป <app_name/> อาจเขียนทับหรือลบกันและกัน</p>
+        การกระทำล่าสุดจะมีผลบังคับใช้
+    ]]></string>
+
+
+    <!-- Reminder -->
+    <string name="message_reminder_enabled">เปิดใช้งานตัวเตือนแล้ว</string>
+    <string name="message_reminder_disabled">ปิดใช้งานตัวเตือน</string>
+
+    <string name="reminder_repeat">แจ้งเตือนทุกชั่วโมง</string>
+    <string name="reminder_notification_on_phone">แจ้งเตือนบนโทรศัพท์</string>
+
+    <string name="message_time_reminder_free_counter">สามารถใช้งานตัวเตือนได้เพียง 1 รายการในโหมดฟรี</string>
+
+    <string name="info_dialog_reminder"><![CDATA[
+        ต้องเชื่อมต่อผ่าน Bluetooth เพื่อแสดงตัวเตือน
+    ]]></string>
+
+
+    <!-- Do not disturb -->
+    <string name="pref_dnd_summary">สถานะของการควบคุมในโหมดห้ามรบกวน</string>
+    <string name="pref_dnd_enable_bluetooth">เมื่อเริ่มโหมดห้ามรบกวน ปิด Bluetooth, เมื่อสิ้นสุดให้เปิดใหม่</string>
+
+    <string name="info_dialog_dnd"><![CDATA[
+        หากคุณใช้โหมดร่วมกัน ในแอป <device_type/> อย่างเป็นทางการ ต้องตั้งค่าโหมดห้ามรบกวนให้เป็นเวลา 00:00 ถึง 23:59 และต้องปิดการทำงานไว้
+    ]]></string>
+
+
+    <!-- Watch face -->
+    <string name="watch_face_tab_watch_faces">หน้าปัด</string>
+    <string name="watch_face_tab_watch_face_custom">ไฟล์กำหนดเอง</string>
+    <string name="watch_face_tab_watch_face_editor">ตัวแก้ไข</string>
+
+    <string name="watch_face_download_title">ดาวน์โหลดหน้าปัด</string>
+    <string name="watch_face_upload_title">อัปโหลดหน้าปัด</string>
+    <string name="watch_face_tool_title">เครื่องมือ</string>
+
+    <string name="watch_face_share_content">คุณสามารถแชร์หน้าปัดที่คุณสร้างให้ผู้อื่นได้ ส่งไฟล์หน้าปัดและตัวอย่างทางอีเมล พร้อมข้อมูล: ชื่อผู้สร้าง, ชื่อหน้าปัด (ไม่เกิน 30 ตัวอักษร), และภาษา จะเผยแพร่เฉพาะหน้าปัดคุณภาพสูงเท่านั้น</string>
+
+    <string name="watch_face_upload_prepare">กำลังเตรียมอัปโหลด…</string>
+    <string name="watch_face_upload_progress">กำลังอัปโหลด %1$,d%%</string>
+
+    <string name="watch_face_invalid_firmware">เฟิร์มแวร์ %1$s ไม่รู้จักหรือไม่รองรับการอัปโหลดหน้าปัด กรุณาอัปเดตผ่านแอปทางการ หากแอปทางการรองรับการอัปโหลด โปรดแจ้งเราผ่านเมนูข้อเสนอแนะ</string>
+    <string name="watch_face_invalid_auth">ใช้โหมดเดี่ยวเท่านั้น เมื่อใช้โหมดร่วม แอปทางการอาจป้องกันการอัปโหลดหน้าปัด</string>
+    <string name="watch_face_invalid_free">วันนี้คุณไม่สามารถอัปโหลดหน้าปัดเพิ่มเติมในโหมดฟรี</string>
+    <string name="watch_face_watch_rewarded_ads">ดูวิดีโอเพื่อดำเนินการต่อ</string>
+    <string name="watch_face_watch_rewarded_ads_uploading">ดูวิดีโอเพื่ออัปโหลดต่อ</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">กำลังเริ่มวิดีโอ…</string>
+
+    <string name="watch_face_upload_method_title">วิธีการ</string>
+    <string name="watch_face_upload_method_default">@string/default_</string>
+    <string name="watch_face_upload_method_alternative">ทางเลือก</string>
+
+    <string name="watch_face_upload_speed_title">ความเร็วในการอัปโหลด</string>
+    <string name="watch_face_upload_invalid_speed_hint">หากการอัปโหลดล้มเหลว ให้ลดความเร็วลง</string>
+    <string name="watch_face_upload_invalid_size_hint">ขนาดไฟล์หน้าปัดไม่ถูกต้อง ลดคุณภาพหรือลบองค์ประกอบ</string>
+    <string name="watch_face_upload_invalid_battery_hint">แบตเตอรี่นาฬิกาต่ำ โปรดชาร์จให้เพียงพอ</string>
+
+    <string name="watch_face_tbwf_quality_title">การตั้งค่าคุณภาพหน้าปัด .tbwf</string>
+    <string name="watch_face_tbwf_quality_hint">สามารถลดขนาดไฟล์ได้ หากนาฬิการองรับ</string>
+
+    <string name="watch_face_tbwf_locale_title">การตั้งค่าภาษาและภูมิภาคสำหรับ .tbwf</string>
+    <string name="watch_face_tbwf_locale_hint">ชื่อวันในสัปดาห์, ตัวแบ่งเดือน, สัญลักษณ์ทศนิยม</string>
+
+    <string name="message_watch_face_file_invalid">ไฟล์หน้าปัดไม่ถูกต้อง</string>
+    <string name="message_watch_face_file_invalid_size">ขนาดไฟล์หน้าปัดไม่ถูกต้อง</string>
+    <string name="message_watch_face_file_invalid_battery">แบตเตอรี่นาฬิกาต่ำ</string>
+    <string name="message_watch_face_image_file_error">ไฟล์ภาพไม่ถูกต้อง</string>
+    <string name="message_watch_face_font_file_error">ไฟล์ฟอนต์ไม่ถูกต้อง</string>
+
+    <string name="action_chart_layout_2_columns">เลย์เอาต์ 2 คอลัมน์</string>
+    <string name="action_chart_layout_3_columns">เลย์เอาต์ 3 คอลัมน์</string>
+
+    <string name="watch_face_edit_dial">หน้าปัด</string>
+    <string name="watch_face_edit_preview">ตัวอย่าง</string>
+    <string name="watch_face_edit_hour_digital">ชั่วโมง (ดิจิทัล)</string>
+    <string name="watch_face_edit_minute_digital">นาที (ดิจิทัล)</string>
+    <string name="watch_face_edit_second_digital">วินาที (ดิจิทัล)</string>
+    <string name="watch_face_edit_am_pm">ตัวบ่งชี้ AM/PM</string>
+    <string name="watch_face_edit_am">AM</string>
+    <string name="watch_face_edit_pm">PM</string>
+    <string name="watch_face_edit_hour_analog">เข็มชั่วโมง</string>
+    <string name="watch_face_edit_minute_analog">เข็มนาที</string>
+    <string name="watch_face_edit_second_analog">เข็มวินาที</string>
+    <string name="watch_face_edit_axis">จุดหมุน</string>
+    <string name="watch_face_edit_hour_minute_separator">ตัวแบ่งชั่วโมงและนาที</string>
+    <string name="watch_face_edit_year">ปี</string>
+    <string name="watch_face_edit_year_month_separator">ตัวแบ่งปีและเดือน</string>
+    <string name="watch_face_edit_month">เดือน (ตัวเลข)</string>
+    <string name="watch_face_edit_month_name">ชื่อเดือน</string>
+    <string name="watch_face_edit_month_day_separator">ตัวแบ่งเดือนและวัน</string>
+    <string name="watch_face_edit_day">วัน</string>
+    <string name="watch_face_edit_dayOfWeek">วันในสัปดาห์</string>
+    <string name="watch_face_edit_battery_level">ระดับแบตเตอรี่</string>
+    <string name="watch_face_edit_battery_level_percent_sign">แบตเตอรี่ %</string>
+    <string name="watch_face_edit_battery_level_image">รูปภาพแบตเตอรี่</string>
+    <string name="watch_face_edit_weather_temperature">อุณหภูมิ</string>
+    <string name="watch_face_edit_weather_temperature_unit_sign">หน่วยอุณหภูมิ °</string>
+    <string name="watch_face_edit_weather_image">ภาพสภาพอากาศ</string>
+    <string name="watch_face_edit_connection_indicator_image">ภาพแสดงสถานะการเชื่อมต่อ</string>
+    <string name="watch_face_edit_connected">เชื่อมต่อแล้ว</string>
+    <string name="watch_face_edit_disconnected">ไม่ได้เชื่อมต่อ</string>
+    <string name="watch_face_edit_steps">จำนวนก้าว</string>
+    <string name="watch_face_edit_steps_image">รูปภาพจำนวนก้าว</string>
+    <string name="watch_face_edit_steps_goal_progress">ความคืบหน้าเป้าหมายจำนวนก้าว</string>
+    <string name="watch_face_edit_distance">ระยะทาง</string>
+    <string name="watch_face_edit_distance_image">ภาพระยะทาง</string>
+    <string name="watch_face_edit_calories">แคลอรี</string>
+    <string name="watch_face_edit_calories_image">ภาพแคลอรี</string>
+    <string name="watch_face_edit_heart_rate">อัตราการเต้นของหัวใจ</string>
+    <string name="watch_face_edit_heart_rate_image">ภาพอัตราการเต้นของหัวใจ</string>
+
+    <string name="watch_face_edit_color">สี</string>
+    <string name="watch_face_edit_font_family">แบบอักษร</string>
+    <string name="watch_face_edit_character">ตัวอักษร</string>
+    <string name="watch_face_edit_font_size">ขนาดฟอนต์</string>
+    <string name="watch_face_edit_image">ภาพ</string>
+    <string name="watch_face_edit_image_png_jpeg">ภาพ (.png, .jpeg)</string>
+    <string name="watch_face_edit_image_png">ภาพ (.png)</string>
+    <string name="watch_face_edit_image_size">ขนาดภาพ</string>
+    <string name="watch_face_edit_icon">ไอคอน</string>
+
+    <string name="watch_face_custom_watch_face_not_supported_title">นาฬิการุ่นนี้ไม่รองรับการอัปโหลดหน้าปัดแบบกำหนดเอง</string>
+    <string name="watch_face_custom_watch_face_under_development_title">ฟีเจอร์อัปโหลดหน้าปัดแบบกำหนดเองกำลังอยู่ระหว่างการพัฒนา อาจเปิดใช้งานในอนาคต แต่ยังไม่ยืนยันแน่ชัด</string>
+
+    <!-- Touch monitoring -->
+    <string name="touch_tab_function">ฟังก์ชัน</string>
+    <string name="touch_tab_control">การควบคุม</string>
+    <string name="touch_tab_testing">การทดสอบ</string>
+    <string name="touch_tab_setting">@string/setting_name</string>
+
+    <string name="touch_function_summary">ตั้งค่าฟังก์ชันเหล่านี้หากคุณใช้โหมดเดี่ยว หรือหาก Mi Fit จัดการได้ไม่สมบูรณ์</string>
+    <string name="touch_function">%1$s ฟังก์ชัน</string>
+    <string name="touch_function_as_touch">ใช้ฟังก์ชันนี้ในเมนูควบคุมแบบสัมผัส</string>
+
+    <string name="touch_headline_incoming_call_title">สายเรียกเข้า</string>
+    <string name="touch_headline_other_function_title">ฟังก์ชันอื่น ๆ</string>
+    <string name="touch_headline_call_title">การควบคุมสายโทรเข้า</string>
+    <string name="touch_headline_music_title">การควบคุมเพลง</string>
+    <string name="touch_headline_time_title">ตัวจับเวลา / นาฬิกาจับเวลา</string>
+    <string name="touch_headline_other_title">การควบคุมอื่น ๆ</string>
+
+    <string name="touch_device_location_title">ค้นหาโทรศัพท์ของฉัน</string>
+    <string name="touch_device_location_not_muted_only_title">ส่งเสียงเฉพาะเมื่อไม่ได้ปิดเสียงหรืออยู่ในโหมดห้ามรบกวน</string>
+
+    <string name="touch_mute_toggle_title">สลับโหมดเงียบของโทรศัพท์</string>
+    <string name="touch_mute_toggle_ringer_mode_title">โหมดเงียบ</string>
+    <string name="touch_mute_toggle_mute_off_title">ปิดโหมดเงียบ</string>
+
+    <string name="touch_music_title">เพลง</string>
+    <string name="touch_music_function_launch">เริ่มเล่นเพลงเมื่อไม่มีเครื่องเล่นเพลงที่รู้จัก</string>
+    <string name="touch_music_function_mi_band_message_launch">กดปุ่มเล่นเพื่อเริ่มเพลง</string>
+    <string name="touch_music_function_mi_band_message_no_track_title">ไม่สามารถดึงชื่อเพลงได้</string>
+
+    <string name="touch_call_out_title">โทรออก</string>
+    <string name="touch_call_out_no_contact">เลือกผู้ติดต่อ</string>
+    <string name="touch_call_out_summary">กดสองครั้งเพื่อรับสาย</string>
+    <string name="touch_call_out_summary_support_call_display_button">กดปุ่มเพื่อรับสาย</string>
+    <string name="touch_call_out_speakerphone_title">เปิดลำโพง</string>
+    <string name="touch_call_out_call_text">โทรออก: %1$s</string>
+
+    <string name="touch_weather_title">พยากรณ์อากาศ</string>
+    <string name="touch_weather_location">อัปเดตตำแหน่ง</string>
+    <string name="touch_weather_precipitation">ปริมาณน้ำฝน</string>
+    <string name="touch_weather_cloud_cover">เมฆ</string>
+    <string name="touch_weather_wind">ลม</string>
+
+    <string name="touch_repeat_notif_title">แจ้งเตือนซ้ำ</string>
+    <string name="touch_repeat_notif_clear_all">ล้างการแจ้งเตือนทั้งหมดหลังจากซ้ำแล้ว</string>
+
+    <string name="touch_clear_notif_title">ลบการแจ้งเตือนจากโทรศัพท์</string>
+
+    <string name="touch_music_play_pause_title">เริ่ม/หยุดเพลงชั่วคราว</string>
+    <string name="touch_music_skip_previous_title">เล่นเพลงก่อนหน้า</string>
+    <string name="touch_music_skip_next_title">เล่นเพลงถัดไป</string>
+    <string name="touch_music_headset_only_title">เฉพาะเมื่อมีการเชื่อมต่อหูฟัง</string>
+    <string name="touch_music_launch">เริ่มเล่นเพลง</string>
+    <string name="touch_music_volume_up_title">เพิ่มระดับเสียงเพลง</string>
+    <string name="touch_music_volume_down_title">ลดระดับเสียงเพลง</string>
+    <string name="touch_music_track_info_title">แสดงข้อมูลเพลง</string>
+
+    <string name="touch_time_launch_title">เริ่มจับเวลา</string>
+    <string name="touch_time_launch_type_timer_title">ตัวจับเวลา</string>
+    <string name="touch_time_launch_type_stopper_title">นาฬิกาจับเวลา</string>
+    <string name="touch_time_launch_type_interval_title">ช่วงเวลา</string>
+    <string name="touch_time_launch_restart">เริ่มใหม่หากกำลังทำงานอยู่</string>
+    <string name="touch_time_reminder_title">แสดงเวลาที่เหลือ/ผ่านไป</string>
+
+    <string name="touch_google_assistant_title">Google Assistant</string>
+
+    <string name="touch_flashlight_title">เปิด/ปิดไฟฉาย</string>
+
+    <string name="touch_camera_title">ถ่ายภาพ</string>
+    <string name="touch_camera_front_title">กล้องหน้า</string>
+    <string name="touch_camera_rear_title">กล้องหลัง</string>
+    <string name="touch_camera_install_title">ติดตั้ง</string>
+
+    <string name="touch_app_launcher1_title">ตัวเรียกใช้แอป</string>
+    <string name="touch_app_launcher_package_no_title">เลือกแอปพลิเคชัน</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">เฉพาะเมื่อหน้าจอไม่ได้ล็อก</string>
+
+    <string name="touch_broadcast1_title">ส่ง Broadcast</string>
+    <string name="touch_broadcast1_action_title">Intent action</string>
+    <string name="touch_broadcast1_package_title">ชื่อแพ็กเกจของ Intent</string>
+
+    <string name="touch_http_request1_title">1. คำขอ HTTP</string>
+    <string name="touch_http_request2_title">2. คำขอ HTTP</string>
+    <string name="touch_http_request_url_title">URL</string>
+    <string name="touch_http_request_method_title">เมธอด</string>
+    <string name="touch_http_request_body_title">เนื้อหา</string>
+    <string name="touch_http_request_show_response_title">แสดงผลลัพธ์</string>
+
+    <string name="touch_tasker_launcher1_title">1. เรียกใช้ Tasker</string>
+    <string name="touch_tasker_launcher2_title">2. เรียกใช้ Tasker</string>
+    <string name="touch_tasker_launcher_no_permission_title">คุณต้องติดตั้ง Tasker หลังจากติดตั้ง Mi Bandage</string>
+    <string name="touch_tasker_launcher_no_access_title">อนุญาตการเข้าถึงจากภายนอก</string>
+    <string name="touch_tasker_launcher_no_task_title">เลือกงาน</string>
+
+    <string name="touch_testing_title">ตรวจสอบการสัมผัส</string>
+    <string name="touch_testing_second">วินาที</string>
+
+    <string name="touch_setting_detection_time_title">เวลาตรวจจับการสัมผัส</string>
+    <string name="touch_setting_detection_time_music_hint">ค่าที่ต่ำกว่าจะปิดหน้าจอเพลงได้เร็วขึ้น</string>
+    <string name="touch_setting_detection_time_button_hint">ค่าที่ต่ำกว่าจะกดปุ่มได้เร็วขึ้น</string>
+
+    <string name="touch_setting_detection_method_title">วิธีตรวจจับการสัมผัส</string>
+
+    <string name="touch_setting_recognition_start_title">เริ่มการรับรู้การสัมผัส</string>
+    <string name="touch_setting_recognition_start_trigger_title">ทริกเกอร์</string>
+    <string name="touch_setting_recognition_time_title">ระยะเวลาการรับรู้</string>
+
+    <string name="touch_setting_recognition_mi_band_signal_title">สัญญาณของ %1$s</string>
+    <string name="touch_setting_recognition_succeeded_title">รูปแบบการสัมผัสที่รู้จำได้</string>
+    <string name="touch_setting_recognition_failed_title">รูปแบบการสัมผัสที่ไม่รู้จำได้</string>
+
+    <string name="info_dialog_touch"><![CDATA[
+        <p>ใช้งานได้ดีในโหมดเดี่ยว หากคุณใช้โหมดร่วม แอปอย่างเป็นทางการ <app_official/> อาจควบคุมฟังก์ชันเหล่านี้ด้วย ทำให้ไม่สามารถรับประกันการทำงานที่ถูกต้องได้</p>
+        <p><b>การตั้งค่า Bluetooth บนโทรศัพท์:</b> ปิดการใช้งาน <device_name/> เป็นอุปกรณ์ป้อนข้อมูล</p>
+        <b><u>รูปแบบการสัมผัสที่รู้จำได้</u></b>
+        <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
+        <br>ควบคุมเพลงของ <device_type/>
+        <p><img src="ic_search">
+        <br>ค้นหาโทรศัพท์ของคุณด้วย <device_type/>
+        </p>
+        สามารถบันทึกการสัมผัสได้หลายรูปแบบต่อฟังก์ชันหนึ่ง
+    ]]></string>
+
+
+    <!-- Weather  -->
+    <string name="weather_tab_weather_forecast">สภาพอากาศ</string>
+    <string name="weather_tab_location">ตำแหน่ง</string>
+    <string name="weather_tab_settings">@string/setting_name</string>
+
+    <string name="weather_location_title">ตำแหน่ง</string>
+
+    <string name="weather_forecast_title">พยากรณ์อากาศ</string>
+
+    <string name="weather_setting_provider">ผู้ให้บริการข้อมูลอากาศ</string>
+    <string name="weather_city_title">เมือง</string>
+    <string name="weather_unit_title">หน่วยวัด</string>
+    <string name="weather_unit_metric">เมตริก (เซลเซียส)</string>
+    <string name="weather_unit_imperial">อิมพีเรียล (ฟาเรนไฮต์)</string>
+    <string name="weather_automatic_update">อัปเดตตำแหน่งอัตโนมัติในพื้นหลัง</string>
+    <string name="weather_automatic_update_title">ใช้ตำแหน่งปัจจุบัน</string>
+    <string name="weather_automatic_update_summary">แอปนี้จะเก็บข้อมูลตำแหน่งเพื่อตรวจสอบสภาพอากาศ ณ ตำแหน่งปัจจุบัน แม้ว่าแอปจะปิดหรือไม่ได้ใช้งานอยู่</string>
+
+    <string name="permission_background_location">%1$s จะได้รับสิทธิ์ในการเก็บข้อมูลตำแหน่ง แม้ว่าแอปจะปิดหรือไม่ได้ใช้งาน</string>
+    <string name="permission_error_title">%1$s ไม่สามารถอัปเดตสิทธิ์ได้</string>
+    <string name="permission_error_description">เปิดการตั้งค่าแล้วเลือกตัวเลือก ”%1$s” สำหรับสิทธิ์การเข้าถึงตำแหน่ง</string>
+    <string name="all_the_time">ตลอดเวลา</string>
+
+    <string name="weather_current_title">สภาพอากาศปัจจุบัน</string>
+    <string name="weather_current_location">ตำแหน่งปัจจุบัน</string>
+    <string name="weather_current_temperature">อุณหภูมิปัจจุบัน</string>
+
+    <string name="weather_precipitation_rain">ฝน</string>
+    <string name="weather_precipitation_snow">หิมะ</string>
+    <string name="weather_cloud_cover_abbreviation">Cc</string>
+    <string name="weather_cloud_cover">เมฆ</string>
+    <string name="weather_humidity">ความชื้น</string>
+
+    <string name="weather_north">N</string>
+    <string name="weather_east">E</string>
+    <string name="weather_south">S</string>
+    <string name="weather_west">W</string>
+
+
+    <!-- Text customization -->
+    <string name="pref_text_reminder_repeat_interval_title">ช่วงเวลาแจ้งเตือนซ้ำ</string>
+    <string name="pref_text_reminder_repeat_interval_summary">ใช้เวลานี้สำหรับการแจ้งเตือนหรือเตือนความจำ</string>
+    <string name="pref_text_emoticon_title">การแปลงอีโมจิ</string>
+    <string name="pref_text_emoticon_summary_on">แปลงอีโมจิเป็นอีโมติคอน</string>
+    <string name="pref_text_uppercase_title">การแปลงเป็นตัวพิมพ์ใหญ่</string>
+    <string name="pref_text_uppercase_summary_on">แปลงตัวพิมพ์เล็กเป็นตัวพิมพ์ใหญ่</string>
+    <string name="pref_text_alphanumeric_title">อักขระตัวอักษรและตัวเลข</string>
+    <string name="pref_text_alphanumeric_summary_on">แสดงเฉพาะอักขระตัวอักษร ตัวเลข และ ASCII</string>
+    <string name="pref_text_transliteration_title">การถอดเสียง</string>
+    <string name="pref_text_transliteration_summary_on">แปลงอักขระที่มีวรรณยุกต์เป็นแบบไม่มีวรรณยุกต์</string>
+    <string name="pref_text_line_separator_title">การแทนที่ตัวแบ่งบรรทัด</string>
+    <string name="pref_text_line_separator_summary_on">แทนที่ตัวแบ่งบรรทัดเริ่มต้นด้วยอักขระอื่น</string>
+    <string name="pref_text_line_separator_value_title">อักขระที่ใช้แทน</string>
+    <string name="pref_text_char_replacement_title">การแทนที่อักขระหรืออีโมจิ</string>
+    <string name="pref_text_char_replacement_summary_on">แทนที่อักขระหนึ่งด้วยอีกอักขระหนึ่ง</string>
+    <string name="pref_text_char_replacement_find">ค้นหา</string>
+    <string name="pref_text_char_replacement_replace">แทนที่ด้วย</string>
+
+    <!-- Export -->
+    <string name="export_tab_database">การส่งออกข้อมูล</string>
+    <string name="export_start_date">วันที่เริ่มต้นการส่งออก</string>
+
+    <!-- Theme -->
+    <string name="theme_tab_theme">ธีม</string>
+
+    <string name="theme_title">เลือกธีม</string>
+    <string name="theme_background_color_title">สีพื้นหลัง</string>
+
+    <string name="theme_widget_background_color_title">สี</string>
+    <string name="theme_color_dynamic_color_title">สีไดนามิก</string>
+    <string name="theme_color_predefined_colors_title">สีที่กำหนดไว้ล่วงหน้า</string>
+
+    <string name="theme_notification_title">แสดงสถานะในแถบการแจ้งเตือน</string>
+
+    <string name="theme_cat_color_setting">การตั้งค่าสี</string>
+
+
+    <!-- Premium mode -->
+    <string name="purchase_advantage_title">สิทธิประโยชน์โหมดพรีเมียม</string>
+    <string name="purchase_advantage"><![CDATA[
+        <p>• สนับสนุนการพัฒนาแอปทางการเงิน</p>
+        <p>• ไม่มีโฆษณา</p>
+        <p>• ตั้งค่าการแจ้งเตือนได้ไม่จำกัด</p>
+        <p>• ตั้งค่าสายโทรเข้าได้ไม่จำกัด</p>
+        <p>• อัปโหลดหน้าปัดนาฬิกาได้ไม่จำกัดในแต่ละวัน</p>
+        <p>• ตั้งปลุกได้ไม่จำกัด (ขึ้นอยู่กับขีดจำกัดของนาฬิกา)</p>
+        <p>• โหมดห้ามรบกวนแบบไม่จำกัด</p>
+        <p>• ตั้งค่าการสัมผัสได้ไม่จำกัด</p>
+        <p>• อัปเดตสภาพอากาศถี่ขึ้น, ระบุตำแหน่งอัตโนมัติ, เลือกใช้ AccuWeather ได้</p>
+        <p>• กราฟข้อมูลรายวันแบบละเอียด</p>
+        • ปลดล็อกข้อจำกัดของฟีเจอร์ทั้งหมด…
+    ]]></string>
+    <string name="purchase_policy_title">ข้อกำหนดและเงื่อนไขของโหมดพรีเมียม</string>
+    <string name="purchase_policy"><![CDATA[
+        <p>• ฉันได้ทดสอบแอปแล้วและพบว่าทำงานได้ตามคาด</p>
+        <p>• ฉันเข้าใจว่าไม่สามารถขอคืนเงินหรือชดเชยในกรณีที่เกิดปัญหาเนื่องจากการเปลี่ยนแปลงของระบบ (เช่น การอัปเดต Android), ฮาร์ดแวร์ หรือแอปอื่น ๆ</p>
+        <p>• การซื้อทั้งหมดถือว่าเป็นที่สิ้นสุดและไม่สามารถคืนเงินได้ (ยกเว้นตามนโยบายของ Google)</p>
+        <p>• แอปนี้ไม่มีการรับประกันไม่ว่าจะโดยชัดแจ้งหรือโดยนัย</p>
+        <p>• การใช้งานแอปเป็นความเสี่ยงของผู้ใช้เอง นักพัฒนาไม่รับผิดชอบต่อความเสียหายหรือการสูญเสียข้อมูลโดยตรงหรือโดยอ้อม</p>
+        <p>• โหมดพรีเมียมจะเชื่อมโยงกับบัญชี Google ของคุณและยังคงใช้งานได้หลังจากติดตั้งแอปใหม่</p>
+        <i>ต้องรีสตาร์ทแอปหลังจากการซื้อ</i>
+    ]]></string>
+
+    <string name="purchase_google_play_services_not_available">ไม่สามารถใช้บริการ Google Play ได้</string>
+
+    <string name="purchase_agree">ฉันยอมรับข้อกำหนดและเงื่อนไข</string>
+    <string name="purchase_order_id">หมายเลขคำสั่งซื้อ</string>
+    <string name="purchase_order_id_help">คัดลอกจาก:
+        \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+
+    <string name="purchase_info">ชำระครั้งเดียว ・ %1$s</string>
+    <string name="purchase_button_purchase">ซื้อ</string>
+
+    <!-- Feedback -->
+    <string name="action_log_notification">บันทึก</string>
+
+    <string name="feedback_google_play_title">ให้คะแนนแอปนี้</string>
+    <string name="feedback_request_feature_title">ขอฟีเจอร์/รายงานข้อผิดพลาด</string>
+    <string name="feedback_request_feature_summary">ประมวลผลอีเมลอัตโนมัติ อาจไม่ได้รับการตอบกลับ</string>
+    <string name="feedback_translation_title">การแปลภาษา %1$s</string>
+    <string name="feedback_translation_title_summary">กรุณาช่วยปรับปรุงการแปลภาษา</string>
+
+    <!-- Privacy policy -->
+    <string name="privacy_policy_tab_privacy_policy">นโยบายความเป็นส่วนตัว</string>
+    <string name="privacy_policy_tab_user_consent">การจัดการความยินยอมของผู้ใช้</string>
+    <string name="privacy_policy_tab_eu_consent">ความยินยอมของผู้ใช้ในสหภาพยุโรปและสหรัฐอเมริกา</string>
+    <string name="privacy_policy_tab_non_eu_consent">ความยินยอมของผู้ใช้ในภูมิภาคอื่น</string>
+
+    <string name="privacy_policy_collect_title">ข้อมูลที่เรารวบรวม</string>
+    <string name="privacy_policy_collect"><![CDATA[
+        <p>• เรารวบรวมเฉพาะข้อมูลที่ไม่สามารถระบุตัวตนได้</p>
+        <p>• เรารวบรวมข้อมูลในระดับแอปเกี่ยวกับบริการที่คุณใช้และวิธีการใช้งาน (Google Analytics)</p>
+        <p>• เรารวบรวมข้อผิดพลาดและบั๊กเพื่อปรับปรุงแอป (Firebase Crashlytics)</p>
+        <p>• เรารวบรวมข้อมูลประสิทธิภาพของแอป (Firebase Performance Monitoring)</p>
+        <p>• แพลตฟอร์ม Google Firebase จะรวบรวมข้อมูลโดยไม่ระบุตัวตน และรายงานในรูปแบบที่ไม่สามารถระบุถึงผู้ใช้รายบุคคลได้
+        Firebase อาจรวบรวมข้อมูล เช่น รหัสติดตั้ง สถานะแอป ข้อมูลอุปกรณ์ (รุ่น ซีพียู หน่วยความจำ ระบบปฏิบัติการ ความละเอียดหน้าจอ ประเทศ ภาษา) บันทึก stack ข้อมูลประสิทธิภาพ (รวมถึงเวลาเริ่มแอป, ความล่าช้าในการเชื่อมต่อ) การใช้ CPU/RAM และที่อยู่ IP โดยประมาณ</p>
+        <p>• เรารวบรวมข้อมูลตำแหน่งเพื่ออัปเดตสภาพอากาศตามตำแหน่งของคุณ (โดยคุณต้องเปิดใช้งาน)</p>
+        • ฐานทางกฎหมายในการเก็บข้อมูลนี้คือผลประโยชน์อันชอบธรรมในการปรับปรุงการทำงานและประสิทธิภาพของแอป และเพื่อให้มั่นใจถึงความเสถียรและความสามารถในการใช้งาน
+    ]]></string>
+
+    <string name="privacy_policy_cookies_title">คุกกี้และเทคโนโลยีที่คล้ายกัน</string>
+    <string name="privacy_policy_cookies"><![CDATA[
+        • บริการของบุคคลที่สาม เช่น AdMob อาจใช้คุกกี้หรือเทคโนโลยีที่คล้ายกันเพื่อแสดงโฆษณาที่ปรับให้เหมาะกับคุณ คุณสามารถจัดการการตั้งค่าโฆษณาในบัญชี Google ของคุณ
+    ]]></string>
+
+    <string name="privacy_policy_retention_title">การเก็บรักษาข้อมูล</string>
+    <string name="privacy_policy_retention"><![CDATA[
+        • ข้อมูลที่ถูกรวบรวมจะถูกจัดเก็บโดย Google Firebase ตามนโยบายของพวกเขา และเฉพาะระยะเวลาที่จำเป็นเพื่อการวิเคราะห์ การตรวจวินิจฉัย และปรับปรุงประสิทธิภาพเท่านั้น
+    ]]></string>
+
+    <string name="privacy_policy_not_collect_title">ข้อมูลที่เราไม่รวบรวม</string>
+    <string name="privacy_policy_not_collect"><![CDATA[
+        <p>• เราไม่รวบรวมข้อมูลส่วนบุคคลที่สามารถระบุตัวตนของคุณได้ เช่น ชื่อ ที่อยู่ หมายเลขโทรศัพท์ อีเมล หรือ MAC address</p>
+        • เราไม่รวบรวมข้อมูลสุขภาพ รายชื่อผู้ติดต่อ หรือเนื้อหาของการแจ้งเตือนที่แสดงบนอุปกรณ์ของคุณ
+    ]]></string>
+
+    <string name="privacy_policy_share_title">ข้อมูลที่เราแบ่งปัน</string>
+    <string name="privacy_policy_share"><![CDATA[
+        • เราไม่แบ่งปันข้อมูลกับบุคคลภายนอก ยกเว้น Google และผู้ให้บริการโฆษณา
+    ]]></string>
+
+    <string name="privacy_policy_use_title">ข้อมูลผู้ใช้ส่วนบุคคลที่เราใช้</string>
+    <string name="privacy_policy_use"><![CDATA[
+        • เราใช้ข้อมูลตำแหน่งเฉพาะเพื่ออัปเดตข้อมูลสภาพอากาศ และเฉพาะเมื่อคุณอนุญาตเท่านั้น
+    ]]></string>
+
+    <string name="privacy_policy_rights_title">สิทธิของคุณ</string>
+    <string name="privacy_policy_rights"><![CDATA[
+        <p>• ข้อมูลการวิเคราะห์ ข้อมูลข้อผิดพลาด และข้อมูลประสิทธิภาพที่ถูกรวบรวมจะไม่สามารถระบุตัวตนได้ และไม่ถือเป็นข้อมูลส่วนบุคคลตามกฎหมายคุ้มครองข้อมูล (เช่น GDPR) จึงไม่มีสิทธิ์ในการเข้าถึง แก้ไข หรือลบ</p>
+        <p>• คุณสามารถเลือกไม่ให้รวบรวมข้อมูลได้โดยการถอนการติดตั้งแอป หรือจัดการการตั้งค่าความเป็นส่วนตัวในบัญชี Google หรืออุปกรณ์ของคุณ</p>
+        • หากคุณมีคำถามเกี่ยวกับการใช้ข้อมูลหรือสิทธิความเป็นส่วนตัว กรุณาติดต่อเราผ่านช่องทางสนับสนุนของแอป
+    ]]></string>
+
+    <string name="privacy_policy_links_title">นโยบายความเป็นส่วนตัวของผู้ให้บริการภายนอก</string>
+    <string name="privacy_policy_links"><![CDATA[
+        <p><a href="https://policies.google.com/privacy">นโยบายความเป็นส่วนตัวของ Google (รวมถึง Google Play Services)</a></p>
+        <p><a href="https://policies.google.com/technologies/ads">การใช้ข้อมูลของ AdMob</a></p>
+        <p><a href="https://support.google.com/analytics/answer/6004245">การใช้ข้อมูลของ Google Analytics</a></p>
+        <p><a href="https://firebase.google.com/terms/crashlytics">ข้อกำหนดของ Firebase Crashlytics</a></p>
+        <a href="https://firebase.google.com/support/privacy">ความเป็นส่วนตัวและความปลอดภัยของ Firebase (รวม Performance Monitoring)</a>
+    ]]></string>
+
+    <string name="privacy_policy_eu_consent_title">สถานะ</string>
+    <string name="privacy_policy_eu_consent_title_obtained">ได้รับความยินยอมแล้ว</string>
+    <string name="privacy_policy_eu_consent_title_personalized">โฆษณาแบบปรับให้เหมาะกับผู้ใช้</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">โฆษณาทั่วไปที่ไม่ปรับตามผู้ใช้</string>
+    <string name="privacy_policy_eu_consent_title_unknown">ไม่ทราบ</string>
+
+    <string name="privacy_policy_eu_consent_setting">การตั้งค่า</string>
+
+
+    <!-- Custom vibration dialog -->
+    <string name="custom_vibration_title">การตั้งค่าการสั่น</string>
+
+
+    <!-- Shortcuts -->
+    <string name="shortcut">ทางลัด</string>
+    <string name="shortcut_visible_items">รายการทางลัดที่แสดง</string>
+    <string name="shortcut_hidden_items">รายการทางลัดที่ซ่อนอยู่</string>
+
+    <string name="shortcut_status">สถานะ</string>
+    <string name="shortcut_heart_rate">อัตราการเต้นของหัวใจ</string>
+    <string name="shortcut_blood_oxygen">ออกซิเจนในเลือด</string>
+    <string name="shortcut_sleep">การนอนหลับ</string>
+    <string name="shortcut_breathing">การหายใจ</string>
+    <string name="shortcut_weather">สภาพอากาศ</string>
+    <string name="shortcut_stress">ความเครียด</string>
+
+
+    <!-- Actions -->
+    <string name="tab_daily_charts">กราฟรายวัน</string>
+    <string name="tab_weekly_charts">กราฟรายสัปดาห์</string>
+    <string name="tab_monthly_charts">กราฟรายเดือน</string>
+    <string name="tab_yearly_charts">กราฟรายปี</string>
+
+    <string name="ad_attribution">โฆษณา</string>
+    <string name="on">เปิด</string>
+    <string name="off">ปิด</string>
+    <string name="none">ไม่มี</string>
+    <string name="heart_rate_bpm">bpm</string>
+    <string name="heart_rate_mhr">MHR</string>
+    <string name="date">วันที่</string>
+    <string name="time">เวลา</string>
+    <string name="time_start">เวลาเริ่มต้น</string>
+    <string name="time_end">เวลาสิ้นสุด</string>
+    <string name="ringer_mode_vibrate">สั่น</string>
+    <string name="ringer_mode_silent">เงียบ</string>
+    <string name="ringer_mode_dnd_priority_only">ห้ามรบกวน (เฉพาะสิ่งสำคัญ)</string>
+    <string name="ringer_mode_dnd_alarms_only">ห้ามรบกวน (เฉพาะนาฬิกาปลุก)</string>
+    <string name="ringer_mode_dnd_total_silence">ห้ามรบกวน (เงียบทั้งหมด)</string>
+    <string name="unknown">ไม่ทราบ</string>
+    <string name="maximum">สูงสุด</string>
+    <string name="all_day">ตลอดทั้งวัน</string>
+    <string name="timed">ระยะเวลา</string>
+    <string name="file_name">ชื่อไฟล์</string>
+    <string name="default_">ค่าเริ่มต้น</string>
+    <string name="default_by_phone">ค่าเริ่มต้น (ตามโทรศัพท์)</string>
+    <string name="custom">กำหนดเอง</string>
+    <string name="invalid_setting">การตั้งค่าไม่ถูกต้อง</string>
+    <string name="ringtone">เสียงเรียกเข้า</string>
+    <string name="ringtone_chooser">ตัวเลือกเสียงเรียกเข้า</string>
+    <string name="uninstalled">ถอนการติดตั้งแล้ว</string>
+    <string name="value">ค่า</string>
+    <string name="downloads">การดาวน์โหลด</string>
+    <string name="share">แชร์</string>
+    <string name="send">ส่ง</string>
+    <string name="narrow">แคบ</string>
+    <string name="short_">สั้น</string>
+    <string name="medium">ปานกลาง</string>
+    <string name="long_">ยาว</string>
+    <string name="full">เต็ม</string>
+    <string name="alignment_left">จัดชิดซ้าย</string>
+    <string name="alignment_center">จัดกึ่งกลาง</string>
+    <string name="alignment_right">จัดชิดขวา</string>
+    <string name="visible">มองเห็น</string>
+    <string name="invisible">ไม่มองเห็น</string>
+    <string name="placeholder">ตัวยึดตำแหน่ง</string>
+    <string name="image_scale_fit">พอดี</string>
+    <string name="image_scale_crop">ครอบตัด</string>
+    <string name="image_scale_stretch">ยืด</string>
+    <string name="resource_manager">ตัวจัดการทรัพยากร</string>
+
+    <string name="action_premium_mode">โหมดพรีเมียม</string>
+    <string name="action_dismiss">ปิด</string>
+    <string name="action_setting">การตั้งค่า</string>
+    <string name="action_delete">ลบ</string>
+    <string name="action_rename">เปลี่ยนชื่อ</string>
+    <string name="action_export">ส่งออก</string>
+    <string name="action_synchronization">ซิงค์</string>
+    <string name="action_download">ดาวน์โหลด</string>
+    <string name="action_upload">อัปโหลด</string>
+    <string name="action_backup">สำรองข้อมูล</string>
+    <string name="action_restore">กู้คืน</string>
+    <string name="action_filter_no">ไม่มีตัวกรอง</string>
+    <string name="action_bluetooth">บลูทูธ</string>
+    <string name="action_favorite">รายการโปรด</string>
+    <string name="action_save">บันทึก</string>
+    <string name="action_test">ทดสอบ</string>
+    <string name="action_discard">ละทิ้ง</string>
+    <string name="action_keep_editing">แก้ไขต่อ</string>
+    <string name="action_new">ใหม่</string>
+    <string name="action_new_file_extension">%1$s ใหม่</string>
+    <string name="action_edit">แก้ไข</string>
+    <string name="action_start_stop">เริ่ม/หยุด</string>
+    <string name="action_contacts">รายชื่อ</string>
+    <string name="action_single_selection">เลือกเดียว</string>
+    <string name="action_multiple_selection">เลือกหลายรายการ</string>
+    <string name="action_selection_boundaries">ขอบเขตการเลือก</string>
+    <string name="action_object_boundaries">ขอบเขตวัตถุ</string>
+    <string name="action_select">เลือก</string>
+    <string name="action_select_all">เลือกทั้งหมด</string>
+    <string name="action_select_texts">เลือกข้อความ</string>
+    <string name="action_select_images">เลือกรูปภาพ</string>
+    <string name="action_deselect_all">ยกเลิกการเลือกทั้งหมด</string>
+    <string name="synchronized_from_watch">ซิงค์จากนาฬิกาแล้ว</string>
+    <string name="synchronization_succeeded">ซิงค์สำเร็จ</string>
+    <string name="synchronization_failed">ซิงค์ล้มเหลว</string>
+
+    <string name="action_chart">กราฟ</string>
+    <string name="action_zoom_in">ซูม</string>
+    <string name="action_chart_normalize_raw_data">ค่าที่วัดได้</string>
+    <string name="action_chart_normalize_quarter_hourly">ทุก 15 นาที</string>
+    <string name="action_chart_normalize_half_hourly">ทุก 30 นาที</string>
+    <string name="action_chart_normalize_hourly">รายชั่วโมง</string>
+    <string name="action_chart_sort_time_asc">เวลา น้อย → มาก</string>
+    <string name="action_chart_sort_time_desc">เวลา มาก → น้อย</string>
+    <string name="action_chart_sort_step_asc">ก้าว น้อย → มาก</string>
+    <string name="action_chart_sort_step_desc">ก้าว มาก → น้อย</string>
+    <string name="action_chart_sort_duration_asc">ระยะเวลา น้อย → มาก</string>
+    <string name="action_chart_sort_duration_desc">ระยะเวลา มาก → น้อย</string>
+    <string name="action_chart_sort_heart_rate_asc">หัวใจ น้อย → มาก</string>
+    <string name="action_chart_sort_heart_rate_desc">หัวใจ มาก → น้อย</string>
+    <string name="action_chart_sort_spo2_asc">SpO₂ น้อย → มาก</string>
+    <string name="action_chart_sort_spo2_desc">SpO₂ มาก → น้อย</string>
+    <string name="action_chart_sort_pressure_asc">ความดัน น้อย → มาก</string>
+    <string name="action_chart_sort_pressure_desc">ความดัน มาก → น้อย</string>
+    <string name="action_chart_monthly_calendar">ปฏิทิน</string>
+    <string name="action_chart_monthly_compact">กระชับ</string>
+
+    <string name="activity_progress_title_prepare">กำลังเตรียมการซิงค์…</string>
+    <string name="activity_progress_title_sync">กำลังซิงค์ข้อมูล…</string>
+    <string name="activity_progress_title_save">กำลังบันทึกข้อมูล…</string>
+
+    <string name="required_value">จำเป็น</string>
+
+    <string name="percent_0">0%</string>
+    <string name="percent_10">10%</string>
+    <string name="percent_20">20%</string>
+    <string name="percent_30">30%</string>
+    <string name="percent_40">40%</string>
+    <string name="percent_50">50%</string>
+    <string name="percent_60">60%</string>
+    <string name="percent_70">70%</string>
+    <string name="percent_80">80%</string>
+    <string name="percent_90">90%</string>
+    <string name="percent_100">100%</string>
+
+    <!-- Constants -->
+    <string name="const_day_of_week_sunday">วันอาทิตย์</string>
+    <string name="const_day_of_week_monday">วันจันทร์</string>
+    <string name="const_day_of_week_tuesday">วันอังคาร</string>
+    <string name="const_day_of_week_wednesday">วันพุธ</string>
+    <string name="const_day_of_week_thursday">วันพฤหัสบดี</string>
+    <string name="const_day_of_week_friday">วันศุกร์</string>
+    <string name="const_day_of_week_saturday">วันเสาร์</string>
+
+    <string name="const_time_abbreviation_day">ว</string> <!-- ว = วัน -->
+    <string name="const_time_abbreviation_hour">ชม.</string> <!-- ชั่วโมง -->
+    <string name="const_time_abbreviation_minute">นาที</string>
+    <string name="const_time_abbreviation_sec">วิ</string> <!-- วินาที -->
+    <string name="const_time_abbreviation_milli_sec">มิลลิวินาที</string>
+
+    <string name="const_number">%1$,d</string>
+    <string name="const_number_float">%,.2f</string>
+    <string name="const_number_float_1_precision">%,.1f</string>
+    <string name="const_percentage">%1$,d%%</string>
+    <string name="const_percent_sign">%</string>
+    <string name="const_unit_kilometer">กม.</string>
+    <string name="const_unit_meter">ม.</string>
+    <string name="const_unit_centimeter">ซม.</string>
+    <string name="const_unit_mile">ไมล์</string>
+    <string name="const_unit_kilogram">กก.</string>
+    <string name="const_unit_kcal">กิโลแคลอรี</string>
+    <string name="const_unit_dbm">dBm</string>
+
+    <plurals name="plural_time_hour">
+        <item quantity="other">%d ชั่วโมง</item>
+    </plurals>
+
+    <plurals name="plural_time_minute">
+        <item quantity="other">%d นาที</item>
+    </plurals>
+
+    <plurals name="plural_time_second">
+        <item quantity="other">%d วินาที</item>
+    </plurals>
+
+</resources>
