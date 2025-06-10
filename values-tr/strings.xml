@@ -3,53 +3,54 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:locale="tr">
 
     <!--  Navigation  -->
-    <string name="menu_nav_notification">Bildirimler</string>
+    <string name="menu_nav_notification">Bildirim</string>
     <string name="menu_nav_call">Arama</string>
-    <string name="menu_nav_step">Adım sayar</string>
-    <string name="menu_nav_sleep">Uyku takibi</string>
-    <string name="menu_nav_heart_rate">Nabız ölçer</string>
-    <string name="menu_nav_blood_oxygen">Kan Oksijen</string>
+    <string name="menu_nav_step">Aktivite</string>
+    <string name="menu_nav_sleep">Uyku</string>
+    <string name="menu_nav_heart_rate">Nabız</string>
+    <string name="menu_nav_blood_oxygen">Kandaki oksijen</string>
     <string name="menu_nav_blood_pressure">Tansiyon</string>
     <string name="menu_nav_workout">Egzersiz</string>
     <string name="menu_nav_alarm">Alarm</string>
     <string name="menu_nav_reminder">Etkinlik hatırlatıcı</string>
-    <string name="menu_nav_dnd">Rahatsız etmeyin modu</string>
-    <string name="menu_nav_watch_face">Saat Arayüzü</string>
-    <string name="menu_nav_weather">Hava Durumu</string>
-    <string name="menu_nav_touch">Dokunma ile kontrol</string>
-    <string name="menu_nav_more">Daha</string>
-    <string name="menu_nav_text_customization">Yazı gösterimi</string>
-    <string name="menu_nav_export">Dışarı aktar</string>
+    <string name="menu_nav_dnd">Rahatsız etme modu</string>
+    <string name="menu_nav_watch_face">Saat yüzü</string>
+    <string name="menu_nav_weather">Hava durumu</string>
+    <string name="menu_nav_touch">Dokunmatik kontrol</string>
+    <string name="menu_nav_more">Daha fazla</string>
+    <string name="menu_nav_text_customization">Metin özelleştirme</string>
+    <string name="menu_nav_export">Dışa aktar</string>
     <string name="menu_nav_premium_mode">Premium mod</string>
-    <string name="menu_nav_feedback">Önerileriniz</string>
+    <string name="menu_nav_feedback">Geri bildirim</string>
     <string name="menu_nav_privacy_policy">Gizlilik politikası</string>
     <string name="menu_nav_theme">Tema</string>
 
     <string name="setting_name">Ayar</string>
     <string name="settings_name">Ayarlar</string>
     <string name="info_name">Bilgi</string>
-    <string name="more_name">Daha</string>
+    <string name="more_name">Daha fazla</string>
 
     <string name="main_item_activity_title">Adım・hedef</string>
-    <string name="main_item_battery">Şarj・şarj süresi</string>
-    <string name="main_item_connect_and_disconnect_last_time">Son bağlantı ve kopma zamanı</string>
+    <string name="main_item_battery">Pil seviyesi・son şarj zamanı</string>
+    <string name="main_item_connect_and_disconnect_last_time">Son bağlanma ve kopma zamanı</string>
     <string name="main_item_next_alarm">Sonraki alarm</string>
     <string name="main_item_next_reminder">Sonraki hatırlatıcı</string>
     <string name="main_item_call_and_notification_control">Aramalar ve bildirimler</string>
 
+    <!-- Pairing Bluetooth device -->
     <string name="device_search">%1$s ara</string> <!-- %1$s = Watch name -->
     <string name="device_setting">%1$s ayarları</string> <!-- %1$s = Watch name -->
 
     <string name="device_mac_address">MAC adresi</string>
-    <string name="device_mac_address_invalid">MAC adresi hatalı</string>
+    <string name="device_mac_address_invalid">Geçersiz MAC adresi</string>
 
     <string name="device_state_connected">Bağlı</string>
     <string name="device_state_disconnected">Bağlı değil</string>
     <string name="device_state_bonded">Eşleştirilmiş cihaz</string>
     <string name="device_state_not_bonded">Eşleştirilmemiş cihaz</string>
 
-    <string name="error_title">Hoop! Birşeyler yanlış gitti</string>
-    <string name="error_message">Uygulamayı en son sürüme güncelleyin</string>
+    <string name="error_title">Hay aksi! Bir şeyler yanlış gitti</string>
+    <string name="error_message">Lütfen uygulamayı en son sürüme güncelleyin</string>
 
 
     <!-- Watch connection and setting -->
@@ -58,53 +59,52 @@
     <string name="mi_band_setting_menu_connection">Bağlantı</string>
     <string name="mi_band_setting_menu_setting">@string/setting_name</string>
     <string name="mi_band_setting_menu_profile">Profil</string>
-    <string name="mi_band_setting_menu_text">Gösterim</string>
+    <string name="mi_band_setting_menu_text">Metin</string>
     <string name="mi_band_setting_menu_call">Arama</string>
 
-    <string name="mi_band_setting_auth_mi_fit">%1$s ile birlikte</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">%3$s, resmi %1$s uygulamasıyla beraber kurulmasını gerektirir. İlk önce %2$s\'yi %1$s uygulamasında eşleştirirdikten sonra %3$s\'ı kullanabilirsiniz. Eğer %1$s\'i kullanmak istiyorsanız bunu seçiniz.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
-    <string name="mi_band_setting_auth_standalone">Bağımsız</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$s uygulaması %3$s için gerekli değildir. Eşleştikten sonra, %1$s uygulamasını kaldırabilirsiniz. %1$s ile beraberliğini yeniden kurmak için, %2$s \'i  %1$s uygulamasıyla yeniden eşleşmesi gerekir. Eğer eşleşmeyi kaldır fonksiyonunu kullanırsanız, tüm saat verisi silinir.  %2$s ekranı işlemler yapılırken açık olmalıdır.</string>
-    <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
+    <string name="mi_band_setting_auth_mi_fit">%1$s entegrasyonu</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">%3$s uygulaması, bu telefon üzerinde %1$s uygulamasının kurulu olmasını gerektirir. Öncelikle %1$s uygulamasında %2$s eşleştirmesini yapın. %1$s uygulamasını da kullanmak istiyorsanız bu seçeneği tercih edin.</string>
+    <string name="mi_band_setting_auth_standalone">Bağımsız kullanım</string>
+    <string name="mi_band_setting_auth_standalone_hint">%3$s uygulaması için %1$s gerekmez. Eşleştirme tamamlandıktan sonra %1$s uygulamasını kaldırabilir veya saatin eşlemesini kaldırabilirsiniz. %1$s ile entegrasyonu tekrar sağlamak için %2$s cihazını %1$s uygulamasında yeniden eşleştirmeniz gerekir. Eşleştirmeyi kaldırırsanız saatteki veriler silinir. İşlem sırasında %2$s ekranı açık olmalıdır.</string>
+    <string name="mi_band_standalone_sync_error">Veri kaybını önlemek ve doğru senkronizasyon sağlamak için entegrasyon modunda senkronizasyon devre dışıdır. Senkronizasyon, akıllı saat verilerini silebilir ve her iki uygulamada da yanlış sonuçlara yol açabilir.</string>
 
-    <string name="mi_band_setting_auth_key">Kimlik doğrulama anahtarı</string>
+    <string name="mi_band_setting_auth_key">Doğrulama anahtarı</string>
     <string name="mi_band_setting_auth_key_help">Herhangi bir 4 basamaklı sayı girin</string>
     <string name="mi_band_setting_auth_request">Anahtar iste</string>
     <string name="mi_band_setting_auth_pair">Eşleştir</string>
     <string name="mi_band_setting_auth_unpair">Eşleştirmeyi kaldır</string>
 
-    <string name="message_auth_request">Eşlendi, doğrulama kodunu bilmiyorsanız, eşleşmeyi kaldırın.</string>
-
-    <string name="message_mi_band_setting_auth_press_band_button">%1$s üzerindeki düğmeye basarak eşleştirin</string>
-    <string name="message_mi_band_setting_auth_success">%1$s başarıyla eşlendi</string>
-    <string name="message_mi_band_setting_auth_fail">%1$s ile eşleşme başarısız</string>
-    <string name="message_mi_band_setting_auth_key_invalid">Geçersiz kimlik doğrulama anahtarı</string>
+    <string name="message_auth_request">Cihaz zaten eşleştirilmiş. Anahtarı bilmiyorsanız, lütfen eşleştirmeyi kaldırın.</string>
+    <string name="message_mi_band_setting_auth_press_band_button">%1$s üzerindeki düğmeye basın ve eşleştirin</string>
+    <string name="message_mi_band_setting_auth_success">%1$s başarıyla eşleştirildi</string>
+    <string name="message_mi_band_setting_auth_fail">%1$s eşleştirilemedi</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Geçersiz doğrulama anahtarı</string>
 
     <string name="pref_disconnect_device">Bağlantıyı kes</string>
 
     <string name="mi_band_setting_connection_problem_title">Bağlantı sorunu yaşıyorsanız</string>
     <string name="mi_band_setting_connection_problem_hint"><![CDATA[
-    - Telefonunuzun Bluetooth ayarlarından saatin eşlemesini kaldırın<br>
+    - Telefonunuzun Bluetooth ayarlarından saatin eşleşmesini kaldırın<br>
     - Bluetooth\'u kapatıp tekrar açın<br>
     - Uygulamayı zorla kapatın veya telefonu yeniden başlatın<br>
     - Ana ekrandan saati tekrar eşleştirmeyi deneyin
     ]]></string>
 
-    <string name="mi_band_setting_dial">Kadran </string>
-    <string name="mi_band_setting_language">Aktif dil</string>
-    <string name="mi_band_setting_time_24h">24-hour time format</string>
-    <string name="mi_band_setting_distance_unit">Mesafe birimlerini ayarlayın</string>
-    <string name="mi_band_setting_screen_on_duration">Görüntüleme süresi</string>
-    <string name="mi_band_setting_lift_wrist">Bilgiliyi görüntülemek için bileğinizi kaldırın</string>
-    <string name="mi_band_setting_idle_alert">Oturma uyarıları</string>
-    <string name="mi_band_setting_idle_alert_duration">Hareketsiz süresi</string>
-    <string name="mi_band_setting_idle_alert_dnd">Dinlenirken, rahatsız etmeyin (12:00-14:00)</string>
+    <string name="mi_band_setting_dial">Kadran</string>
+    <string name="mi_band_setting_language">Dil</string>
+    <string name="mi_band_setting_time_24h">24 saatlik zaman formatı</string>
+    <string name="mi_band_setting_distance_unit">Mesafe birimi</string>
+    <string name="mi_band_setting_screen_on_duration">Ekran açık süresi</string>
+    <string name="mi_band_setting_lift_wrist">Bileği kaldırınca ekranı aç</string>
+    <string name="mi_band_setting_idle_alert">Hareketsizlik uyarısı</string>
+    <string name="mi_band_setting_idle_alert_duration">Hareketsizlik süresi</string>
+    <string name="mi_band_setting_idle_alert_dnd">Dinlenme saatlerinde rahatsız etme (12:00-14:00)</string>
 
     <string name="pref_synchronization">Senkronizasyon</string>
-    <string name="pref_synchronization_fetch_interval">Senkronizasyon sıklıgı</string>
-    <string name="pref_synchronization_summary">Select the data to be automatically synchronised in the background. If you do not need any of the data, turn it off for better performance. Data can still be synchronised manually on the home screen or in the appropriate menus (by sweeping down).</string>
+    <string name="pref_synchronization_fetch_interval">Senkronizasyon sıklığı</string>
+    <string name="pref_synchronization_summary">Arka planda otomatik senkronize edilecek verileri seçin. Eğer bazı verilere ihtiyacınız yoksa, performansı artırmak için kapatın. Veriler ana ekranda veya ilgili menülerde (aşağı kaydırarak) manuel olarak da senkronize edilebilir.</string>
 
-    <string name="mi_band_setting_profile">Bu bilgiler, adımlarınızı, mesafeyi ve yakılan kalorileri daha doğru hesaplamaya yardımcı olur.</string>
+    <string name="mi_band_setting_profile">Adım, mesafe ve kalori hesaplamalarının doğruluğu için bu bilgileri girin.</string>
     <string name="mi_band_setting_gender">Cinsiyet</string>
     <string name="mi_band_setting_gender_male">Erkek</string>
     <string name="mi_band_setting_gender_female">Kadın</string>
@@ -116,226 +116,222 @@
     <string name="mi_band_setting_wearing_place_right_wrist">Sağ el</string>
 
 
-     <!-- Battery -->
-    <string name="battery_details">Pil detayları</string>
+    <!-- Battery -->
+    <string name="battery_details">Pil kullanımı</string>
 
-    <string name="battery_settings">Pil seviyesi uyarı ayarları</string>
-    <string name="battery_settings_notification">Düşük pil seviyesi bildirimi</string>
-    <string name="battery_settings_notification_level">Düşük pil seviyesi</string>
+    <string name="battery_settings">Pil ayarları</string>
+    <string name="battery_settings_notification">Düşük pil uyarısı</string>
+    <string name="battery_settings_notification_level">Pil eşiği</string>
     <string name="battery_settings_notification_repeat_interval">Tekrarlama aralığı</string>
     <string name="battery_settings_notification_on_phone">Telefonda bildir</string>
     <string name="battery_settings_notification_on_phone_ongoing">Kalıcı bildirim</string>
-    <string name="battery_settings_notification_on_phone_message">Düşük pil seviyesi %1$,d%%</string>
-    <string name="battery_settings_notification_on_device">Bileklikte bildir</string>
+    <string name="battery_settings_notification_on_phone_message">Düşük pil seviyesi: %1$,d%%</string>
+    <string name="battery_settings_notification_on_device">Saatte bildir</string>
     <string name="battery_settings_notification_on_device_message">Pil: %1$,d%%</string>
 
     <!-- Preference screens -->
-    <string name="pref_battery_phone">Pil</string>
-    <string name="pref_battery_phone_summary">Pil seviyesi düşük veya tam dolu bildirimleri</string>
-    <string name="pref_cat_battery_phone_low">Düşük pil seviyesi</string>
-    <string name="pref_battery_phone_low_title">Düşük pil seviyesi bildirimi</string>
-    <string name="pref_battery_phone_low_level_title">Düşük pil seviyesi</string>
+    <string name="pref_battery_phone">Telefon pili</string>
+    <string name="pref_battery_phone_summary">Düşük ve tam dolu pil seviyeleri için bildirimler</string>
+    <string name="pref_cat_battery_phone_low">Düşük pil</string>
+    <string name="pref_battery_phone_low_title">Düşük pil uyarısı</string>
+    <string name="pref_battery_phone_low_level_title">Pil eşiği</string>
     <string name="pref_battery_phone_low_repeat_interval_title">Tekrarlama aralığı</string>
-    <string name="pref_cat_battery_phone_full">Tam dolu seviyesi</string>
-    <string name="pref_battery_phone_full_title">Tam dolu pil bildirimleri</string>
-    <string name="pref_battery_phone_full_plugged_ac">Adaptörden doluyor</string>
-    <string name="pref_battery_phone_full_plugged_usb">USB \'den doluyor</string>
-    <string name="pref_battery_phone_full_plugged_wireless">Kablosuz doluyor</string>
+    <string name="pref_cat_battery_phone_full">Tam dolu pil</string>
+    <string name="pref_battery_phone_full_title">Tam dolu pil bildirimi</string>
+    <string name="pref_battery_phone_full_plugged_ac">AC adaptörü</string>
+    <string name="pref_battery_phone_full_plugged_usb">USB bağlantısı</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Kablosuz şarj</string>
 
-    <string name="pref_battery_phone_message">Pil:\n %1$,d%%</string>
+    <string name="pref_battery_phone_message">Telefon pili:\n %1$,d%%</string>
 
     <string name="pref_language">Dil</string>
     <string name="pref_cat_language">Uygulama</string>
-    <string name="pref_language_title">Aktif dil</string>
+    <string name="pref_language_title">Dil</string>
 
     <string name="pref_menu">Menü</string>
-    <string name="pref_cat_menu">Ana menü özelleştirme</string>
+    <string name="pref_cat_menu">Ana menüyü özelleştir</string>
     <string name="pref_menu_item_2">İkinci menü öğesi</string>
     <string name="pref_menu_item_3">Üçüncü menü öğesi</string>
 
-    <string name="pref_diagnostic">Arıza tespit</string>
+    <string name="pref_diagnostic">Tanılama</string>
     <string name="pref_cat_diagnostic_closing_protection">Kapanmaya karşı koruma</string>
-    <string name="pref_diagnostic_battery_optimisation">Pil optimizasyonu kapalı</string>
-    <string name="pref_diagnostic_companion_device">Refakatçi Cihaz Eşleştirme</string>
-    <string name="pref_diagnostic_bluetooth_pairing">Bluetooth pairing</string>
-    <string name="pref_diagnostic_autostart">Otomatik başlatma</string>
-    <string name="pref_diagnostic_autostart_summary">Enable the application to restart automatically in the phone\'s Auto-start manager</string>
+    <string name="pref_diagnostic_battery_optimisation">Pil optimizasyonunu devre dışı bırak</string>
+    <string name="pref_diagnostic_companion_device">Eş cihaz eşleştirme</string>
+    <string name="pref_diagnostic_bluetooth_pairing">Bluetooth eşleştirme</string>
+    <string name="pref_diagnostic_autostart">Otomatik başlat</string>
+    <string name="pref_diagnostic_autostart_summary">Uygulamanın telefonun otomatik başlatma yöneticisinde kendini yeniden başlatmasına izin verin</string>
     <string name="pref_diagnostic_info">Daha fazla bilgi</string>
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
 
     <string name="pref_cat_diagnostic_permissions">İzinler</string>
     <string name="pref_diagnostic_permission_allow_notification_access_settings">Bildirim erişimine izin ver</string>
-    <string name="pref_diagnostic_permission_schedule_exact_alarm">Tam alarm planla</string>
-    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Görevi tam zamanında planlamak için ek izin gereklidir.</string>
-    <string name="pref_diagnostic_permission_post_notifications">Bildirim gönder</string>
-    <string name="pref_diagnostic_permission_post_notifications_summary">Bildirim görüntülemek için ek izin gereklidir.</string>
-    <string name="pref_diagnostic_permission_access_notification_policy">Rahatsız Etmeyin erişimi</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">Tam zamanlı alarm planla</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Görevi belirli bir saatte çalıştırmak için ek izin gerekir.</string>
+    <string name="pref_diagnostic_permission_post_notifications">Bildirim gönderme izni</string>
+    <string name="pref_diagnostic_permission_post_notifications_summary">Bildirim göstermek için ek izin gerekir</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">Rahatsız etmeyin erişimi</string>
 
 
     <!-- Snackbar Messages -->
-    <string name="message_enable_bluetooth">Lütfen Bluetooth\'u etkinleştirin ve bilekliği telefona yakın tutun</string>
-    <string name="message_discover_device">%1$s tespit edilemedi, lütfen tekrar deneyin</string>
-    <string name="message_discovering_device">%1$s tespit ediliyor (1 dk sürebilir) &#8230;</string>
-    <string name="message_discover_device_succeeded">%1$s tespit edildi</string>
-    <string name="message_discover_device_failed">%1$s tespit edilemedi</string>
-    <string name="message_discover_device_not_found">Eğer %1$s tespit edilemez ise, Bluetooth ayarlarını kontrol edin</string>
-    <string name="message_enable_notification_listener_access">Bildirim erişimi verin: Ayarlar/Bildirim/Bildirim erişimi</string>
-    <string name="message_enable_notification_listener_access_4_4">Bildirim erişimi verin: Ayarlar/Güvenlik/Bildirim erişimi</string>
+    <string name="message_enable_bluetooth">Lütfen Bluetooth\'u etkinleştirin ve saati telefona yakın tutun</string>
+    <string name="message_discover_device">%1$s henüz ayarlanmadı, lütfen bağlanın</string>
+    <string name="message_discovering_device">%1$s aranıyor (bu işlem 1 dakikaya kadar sürebilir)…</string>
+    <string name="message_discover_device_succeeded">%1$s başarıyla bağlandı</string>
+    <string name="message_discover_device_failed">%1$s bağlanamadı</string>
+    <string name="message_discover_device_not_found">%1$s bulunamazsa, keşfetme modunu etkinleştirin veya telefonun Bluetooth ayarlarından eşleştirin</string>
+    <string name="message_enable_notification_listener_access">Bildirim erişimini etkinleştirin: Telefon > Ayarlar > Bildirim erişimi</string>
+    <string name="message_enable_notification_listener_access_4_4">Bildirim erişimini etkinleştirin: Ayarlar > Güvenlik > Bildirim erişimi</string>
 
     <string name="message_deleted">Silindi</string>
     <string name="message_undo">Geri al</string>
 
     <string name="message_app_chooser_no_selected">Bir uygulama seçin</string>
 
-    <string name="message_free_counter">Ücretsiz modda en fazla 1 ayar kullanılabilir</string>
+    <string name="message_free_counter">Ücretsiz modda yalnızca 1 ayar kullanılabilir</string>
     <string name="message_free_counters">Ücretsiz modda en fazla %1$,d ayar kullanılabilir</string>
 
     <string name="message_notification_free_groups">Ücretsiz modda en fazla %1$,d grup kullanılabilir</string>
-
-    <string name="message_notification_free_app">Ücretsiz modda en fazla 1 uygulama seçilebilir</string>
+    <string name="message_notification_free_app">Ücretsiz modda yalnızca 1 uygulama seçilebilir</string>
     <string name="message_notification_free_apps">Ücretsiz modda en fazla %1$,d uygulama seçilebilir</string>
+    <string name="message_notification_free_text">Ücretsiz modda yalnızca 1 metin kaydedilebilir</string>
 
-    <string name="message_notification_free_text">Ücretsiz modda en fazla 1 metin kaydedilebilir</string>
-
-    <string name="message_time_alarm_free_counter">Ücretsiz modda en fazla 1 alarm kullanılabilir</string>
+    <string name="message_time_alarm_free_counter">Ücretsiz modda yalnızca 1 alarm kullanılabilir</string>
     <string name="message_time_alarm_max_counter">En fazla %1$d alarm kullanılabilir</string>
-    <string name="message_time_alarm_enabled">Alarm aktif</string>
-    <string name="message_time_alarm_disabled">Alarm pasif</string>
+    <string name="message_time_alarm_enabled">Alarm etkin</string>
+    <string name="message_time_alarm_disabled">Alarm devre dışı</string>
     <string name="message_time_alarm_off">Alarm kapalı</string>
 
-    <string name="message_touch_pattern_error">Yaptığınız desen başka bir iş için yaptığınız desen ile nerdeyse aynı, başka bir desen belirleyin</string>
-    <string name="message_touch_free_patterns">Normal modda en fazla %1$,d işlev kullanılabilir</string>
-    <string name="message_touch_record_help">%1$s müzik kontrolü/cihazımı bul özelliklerini kullan</string> <!-- %1$s = smartwatch -->
+    <string name="message_touch_pattern_error">Belirtilen desen başka bir işlevin örneğine benziyor, lütfen farklı bir desen oluşturun</string>
+    <string name="message_touch_free_patterns">Ücretsiz modda en fazla %1$,d kontrol kullanılabilir</string>
+    <string name="message_touch_record_help">%1$s üzerinden müzik kontrolü ya da telefonumu bul özelliğini kullan</string>
 
-    <string name="message_premium_mode_only">Bu özellik yanlız premium mod ile kullanılabilir</string>
+    <string name="message_premium_mode_only">Bu özellik yalnızca Premium modda kullanılabilir</string>
     <string name="message_feature_is_not_supported">%1$s bu özelliği desteklemiyor</string>
-    <string name="message_general_error">İşlem başarısız oldu (bağlantı tutarsız), lütfen tekrar deneyin</string>
-    <string name="message_internet_error">İnternet bağlantınız yok</string>
+    <string name="message_general_error">Ayar başarısız oldu (bağlantı kesildi), lütfen tekrar deneyin</string>
+    <string name="message_internet_error">İnternet bağlantısı yok</string>
     <string name="message_internet_traffic_blocked">Ağ trafiği engellendi</string>
     <string name="message_internet_ads_blocked">Reklamlar engellendi</string>
     <string name="message_gps_enable">GPS\'i etkinleştir</string>
-    <string name="message_location_enable">Konum bilgisine erişim izni ver</string>
+    <string name="message_location_enable">Konum erişimine izin ver</string>
 
-    <string name="message_in_progress">İşleniyor…</string>
+    <string name="message_in_progress">İşlemde…</string>
     <string name="message_no_data">Veri yok</string>
 
     <string name="message_rewarded_error">Video yüklenemedi</string>
 
-    <string name="message_new_message">Yeni bir mesaj alındı, telefondan bakın.</string>
+    <string name="message_new_message">Yeni mesaj alındı. Telefonunuzdan kontrol edin.</string>
 
-    <string name="message_permission_not_granted">İzin verilmedi: %1$s</string> <!-- %1$s = permission name -->
+    <string name="message_permission_not_granted">İzin verilmedi: %1$s</string>
 
-    <!-- Dialog -->
-    <string name="dialog_welcome_title">Hoşgeldiniz!</string>
-    <string name="dialog_welcome_message"><![CDATA[Desteklenen Cihazlar:
+    <!-- Welcome dialog -->
+    <string name="dialog_welcome_title">Hoş geldiniz!</string>
+    <string name="dialog_welcome_message"><![CDATA[Desteklenen cihazlar:
     <watch_types/>
-    <p><app_name/>\'yu kullanmak için resmi uygulamanın da telefonda yüklü olması gerekir. İlk önce <device_type/> uygulaması ile eşlerseniz, uygulamayı kullanabilirsiniz.</p>
-    <p><device_type/> bulunamazsa, ayrıntılar menüsünde MAC adresini manuel olarak ayarlayabilirsiniz.</p>
-    <b>Eğer bağlantı sorunu varsa:</b>
-    <br>- Son uygulamalarda <app_name/> uygulamasını kilitleyin.
-    <br>- <app_name/> uygulamasını pil optimizasyonunu Optimizasyon Etme olarak değiştirin.
-    <br>- Bluetooth uygulaması verileri ve ön belleği temizleyin.
-    <br>- Daha fazla bilgi almak için: https://dontkillmyapp.com
-    <br><br><small>Bu ürün ve özellikleri tıbbi amaçlar için tasarlanmamıştır ve herhangi bir hastalığı tahmin etmek, teşhis etmek, önlemek veya tedavi etmek amacıyla kullanılmamalıdır. Tüm veriler ve ölçümler yalnızca kişisel referans içindir ve teşhis veya tedavi için temel olarak kullanılmamalıdır.</small>
+    <p><app_name/>\'i kullanmak için resmi <device_type/> uygulamasının aynı telefona yüklü olması gerekir. Öncelikle saatinizi <device_type/> uygulaması içinde eşleştirmeniz gerekir, ardından bu uygulamayı kullanabilirsiniz.</p>
+    <p>Eğer <device_type/> bulunamazsa, arama sırasında MAC adresini manuel olarak girebilirsiniz.</p>
+    <b>Bağlantı sorunlarını gidermek için:</b>
+    <br>- Son uygulamalar ekranında: <app_name/> uygulamasını kilitleyin (önizleme ekranında aşağı kaydırın ve \'Kilit\' ya da benzeri seçeneği kullanın).
+    <br>- Telefon/pil optimizasyonu: <app_name/> için pil optimizasyonunu kapatın.
+    <br>- Telefon/uygulamalar: Bluetooth Paylaşımı ve diğer \'Bluetooth\' uygulamalarının verilerini temizleyin.
+    <br>- Daha fazla bilgi için: https://dontkillmyapp.com
+    <br><br><small>Bu ürün ve özellikleri tıbbi amaçlar için tasarlanmamıştır ve herhangi bir hastalığı tahmin etmek, teşhis etmek, önlemek veya tedavi etmek amacıyla kullanılmaz. Tüm veriler ve ölçümler yalnızca kişisel referans içindir ve teşhis veya tedavi amacıyla kullanılmamalıdır.</small>
     ]]></string>
 
 
-    <!-- Notification Dialog -->
-    <string name="notification_group_nav_setting">Ayarlar</string>
-    <string name="notification_group_nav_filter">Bildirimleri filtrele</string>
+    <!-- Notification  -->
+    <string name="notification_group_nav_setting">Ayar</string>
+    <string name="notification_group_nav_filter">Filtre</string>
     <string name="notification_group_nav_correction">Düzeltme</string>
 
-    <string name="notification_group_name">Grup İsmi</string>
-    <string name="notification_group_monitoring">Telefondaki bildirimleri izle</string>
-    <string name="notification_group_monitoring_disabled">Telefondaki bildirimleri izleme kapalı (Telefondaki bildirimler gösterilmez)</string>
-    <string name="notification_group_text_customization">Metin görüntüleme</string>
+    <string name="notification_group_name">Ad</string>
+    <string name="notification_group_monitoring">Bildirim izleme</string>
+    <string name="notification_group_monitoring_disabled">Bildirimleri hariç tut (uygulamanın bildirimleri gösterilmez)</string>
     <string name="notification_group_alert_title">%1$s bildirimi</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
-    <string name="notification_group_text_app_name">Uygulama Adı</string>
-    <string name="notification_group_text_name">İsim</string>
+    <string name="notification_group_text_customization">Metin özelleştirme</string>
+    <string name="notification_group_text_app_name">Uygulama adı</string>
+    <string name="notification_group_text_name">Ad</string>
     <string name="notification_group_text_title">Başlık</string>
     <string name="notification_group_text_content">İçerik</string>
     <string name="notification_group_text_big_content">Tüm içerik</string>
     <string name="notification_group_text_content_slice_title">Metin uzunluğu</string>
     <string name="notification_group_display_duration_title">Görüntüleme süresi</string>
-    <string name="notification_group_show_notification_title">Görüntülenen mesajın başlığı</string>
-    <string name="notification_group_immediate">Anında bildirim göster</string>
-    <string name="notification_group_connecting">Telefona bağlanıca bildirim göster</string>
+    <string name="notification_group_show_notification_title">Bildirim göster</string>
+    <string name="notification_group_immediate">Bildirim alındığında hemen uyar</string>
+    <string name="notification_group_connecting">Bağlantı sırasında uyar</string>
     <string name="notification_group_reminder">Hatırlatma bildirimi</string>
-    <string name="notification_group_ongoing">Sürekli bildirim yapılsın</string>
-    <string name="notification_group_screen_off">Bildirimi sadece telefon ekranı kapalıysa göster</string>
-    <string name="notification_group_repeat_title">Tekrar sinyalleri</string>
-    <string name="notification_group_wakelock">Telefon ekranını aç</string>
-    <string name="notification_group_grouped_display_title">Grup bildirim ayarları</string>
-    <string name="notification_group_grouped_sort_order_title">Mesajların gösterim sırası</string>
+    <string name="notification_group_ongoing">Sürekli (kaldırılamayan) bildirimler için uyar</string>
+    <string name="notification_group_screen_off">Sadece ekran kapalıyken uyar</string>
+    <string name="notification_group_repeat_title">Bildirim tekrarı</string>
+    <string name="notification_group_wakelock">Telefon ekranını uyandır</string>
+    <string name="notification_group_grouped_display_title">Gruplandırılmış bildirimlerin görüntüleme ayarı</string>
+    <string name="notification_group_grouped_sort_order_title">Gruplandırılmış bildirimlerin sıralama düzeni</string>
 
-    <string name="notification_group_filter">Bildirimleri filtrele</string>
+    <string name="notification_group_filter">Bildirim filtresi</string>
     <string name="notification_group_filter_title">Başlık filtresi</string>
     <string name="notification_group_filter_content">İçerik filtresi</string>
-    <string name="notification_group_filter_regex">Düzenli ifade</string>
-    <string name="notification_group_filter_hint">Sadece filtreye uyan bildirimler gösterilir (küçük/büyük harf duyarlı)</string>
-    <string name="notification_group_filter_contains">İçinde geçenler</string>
-    <string name="notification_group_filter_not_contains">İçinde geçmeyenler</string>
+    <string name="notification_group_filter_regex">Regex</string>
+    <string name="notification_group_filter_hint">Sadece başlık veya içerik eşleşirse uyar (büyük/küçük harf duyarsız)</string>
+    <string name="notification_group_filter_contains">Şunlardan herhangi birini içeriyor</string>
+    <string name="notification_group_filter_not_contains">Hiçbirini içermiyor</string>
 
-    <string name="notification_group_sample_sms">Kısa Mesaj</string>
+    <string name="notification_group_sample_sms">SMS</string>
     <string name="notification_group_sample_facebook">Messenger</string>
     <string name="notification_group_sample_whatsapp">WhatsApp</string>
 
-    <string name="notification_group_correction">Yazı düzeltme</string>
+    <string name="notification_group_correction">Bildirim metni düzeltme</string>
     <string name="notification_group_correction_title">Başlık düzeltme</string>
     <string name="notification_group_correction_content">İçerik düzeltme</string>
     <string name="notification_group_correction_regex">Regex</string>
-    <string name="notification_group_correction_hint">Büyük / küçük harf duyarı</string>
-    <string name="notification_group_correction_items">Yazı düzeltildi</string>
-    <string name="notification_group_correction_find">Bul</string>
-    <string name="notification_group_correction_replace">İle değiştir</string>
+    <string name="notification_group_correction_hint">Büyük/küçük harf duyarsız</string>
+    <string name="notification_group_correction_items">Düzeltilecek metinler</string>
+    <string name="notification_group_correction_find">Bulunacak metin</string>
+    <string name="notification_group_correction_replace">Bununla değiştir</string>
 
-    <string name="notification_regex_hint">Alfasayısal olmayan karakterler özel bir anlama sahiptir, Regex\'i bilmiyorsanız, işaretlemeyin</string>
+    <string name="notification_regex_hint">Alfasayısal olmayan karakterlerin özel anlamı vardır. Regex bilmiyorsanız, bu seçeneği işaretlemeyin.</string>
 
     <string name="notification_confirm_close">Değişiklikleri silmek istediğinizden emin misiniz?</string>
 
     <string name="notification_edit_play_text_title">Bildirim başlığı</string>
-    <string name="notification_edit_play_text_content">Bildirim içeriği:
-    Lorem Ipsum, masaüstü yayıncılık ve basın yayın sektöründe kullanılan taklit yazı bloğu olarak tanımlanır. Lipsum, oluşturulacak şablon ve taslaklarda içerik yerine geçerek yazı bloğunu doldurmak için kullanılır.
-    \n Lipsum, 1500\'lerin başlarında bir matbaacının font model kitabı oluşturmak için, bir yazı tipi kütüphanesindeki harflerin sıralamasını bozarak yerleştirdiğinden bu yana endüstri standardı haline gelmiştir.
-    </string>
+    <string name="notification_edit_play_text_content">Bildirim içeriği:</string>
+
 
     <!-- Incoming call alert -->
     <string name="call_tab_call">Gelen çağrı</string>
     <string name="call_tab_contacts">Kişiler</string>
 
-    <string name="call_incoming">Gelen arama</string>
-    <string name="call_incoming_summary_on">%1$s uygulamasında gelen çağrı uyarılarını kapatmayı unutmayın, yoksa çift bildirim gelir</string> <!-- %1$s = official app name -->
-    <string name="call_incoming_caller_id">Arayan bilgisini göster</string>
+    <string name="call_incoming">Gelen çağrı</string>
+    <string name="call_incoming_summary_on">Lütfen %1$s uygulamasında gelen çağrı uyarılarını devre dışı bırakmayı unutmayın</string>
+    <string name="call_incoming_caller_id">Arayan kimliğini göster</string>
 
-    <string name="pref_call_notification_rejected">Reddedilmiş çağrılar içim bildirim göster</string>
-    <string name="pref_call_notification_rejected_message">Reddedilmiş çağrı</string>
+    <string name="pref_call_notification_rejected">Reddedilen çağrılar için bildirim göster</string>
+    <string name="pref_call_notification_rejected_message">Reddedilen çağrı</string>
     <string name="pref_call_notification_rejected_action">Ara</string>
 
-    <string name="call_incoming_net_alert_title">İnternet aramaları bildirimi</string>
+    <string name="call_incoming_net_alert_title">İnternet çağrısı bildirimi</string>
 
-    <string name="call_missed_title">Cevapsız arama bildirimi</string>
-    <string name="call_missed_chooser_title">%1$s sinyali</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
-    <string name="call_missed_notification">Cevapsız arama</string>
+    <string name="call_missed_title">Cevapsız çağrı bildirimi</string>
+    <string name="call_missed_chooser_title">%1$s bildirimi</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="call_missed_notification">Cevapsız çağrı</string>
 
-    <string name="call_reject_button_action">Reddet düğmesi</string>
+    <string name="call_reject_button_action">Çağrı sonlandırma tuşu</string>
 
-    <string name="touch_call_answer_title">Çağrıyı cevapla</string>
-    <string name="touch_call_answer_speakerphone_title">Hoparlör ile</string>
+    <string name="touch_call_answer_title">Çağrıyı yanıtla</string>
+    <string name="touch_call_answer_speakerphone_title">Hoparlör</string>
 
-    <string name="call_end_title">Çağrıyı reddet</string>
+    <string name="call_end_title">Çağrıyı reddet veya sonlandır</string>
 
     <string name="touch_call_mute_title">Çağrıyı sessize al</string>
-    <string name="touch_call_mute_only_call_state_ringing_title">Yalnızca gelen bir aramanız varsa</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Yalnızca gelen çağrı varsa</string>
     <string name="touch_call_mute_recognition_title">Gelen çağrılarda</string>
 
-    <string name="call_contact_edit_contact">Temas etmek</string>
-    <string name="call_contact_edit_name">İsim</string>
+    <string name="call_contact_edit_contact">Kişi</string>
+    <string name="call_contact_edit_name">Ad</string>
     <string name="call_contact_edit_phone_number">Telefon numarası</string>
 
-    <string name="call_contact_edit_setting_name_order">Ad sırası</string>
+    <string name="call_contact_edit_setting_name_order">İsim sıralaması</string>
     <string name="call_contact_edit_setting_default">@string/default_</string>
-    <string name="call_contact_edit_setting_first_name">İlk adı</string>
-    <string name="call_contact_edit_setting_last_name">Soyadı</string>
+    <string name="call_contact_edit_setting_first_name">Ad</string>
+    <string name="call_contact_edit_setting_last_name">Soyad</string>
 
     <string name="message_call_contacts_free_counter">Ücretsiz modda en fazla %1$d kişi kullanılabilir</string>
     <string name="message_call_contacts_max_counter">En fazla %1$d kişi kullanılabilir</string>
@@ -343,200 +339,190 @@
     <!-- App chooser dialog -->
     <string name="app_chooser">Uygulama seçici</string>
     <string name="action_search">Ara</string>
-    <string name="action_filter_notification">Bildirim Filtreleri</string>
-
+    <string name="action_filter_notification">Bildirim filtresi</string>
 
     <!-- Activity -->
-    <string name="step_details">Aktivite detayları</string>
+    <string name="step_details">Aktivite ayrıntıları</string>
 
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
     <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
-    <string name="mi_band_tracker_distance_kilometer_title">%,.2f km</string> <!-- kilometre -->
+    <string name="mi_band_tracker_distance_kilometer_title">%,.2f km</string> <!-- kilometer -->
     <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
 
-    <string name="action_tracker_step">Adım</string>
+    <string name="action_tracker_step">Adımlar</string>
     <string name="action_tracker_distance">Mesafe</string>
     <string name="action_tracker_calorie">Kalori</string>
     <string name="action_tracker_duration">Egzersiz süresi</string>
 
     <string name="step_goal_default_title">Varsayılan hedef</string>
 
-
     <!-- Sleep monitoring -->
-    <string name="sleep_details">Uyku detayları</string>
+    <string name="sleep_details">Uyku ayrıntıları</string>
 
-    <string name="sleep_awake">Uyanık</string>
-    <string name="sleep_light">Hafif</string>
-    <string name="sleep_deep">Derin</string>
-    <string name="sleep_rem">REM</string>
-
+    <string name="sleep_awake_phase_short">Uyanık</string>
+    <string name="sleep_light_phase_short">Hafif</string>
+    <string name="sleep_deep_phase_short">Derin</string>
+    <string name="sleep_rem_phase_short">REM</string>
 
     <!-- Heart rate -->
-    <string name="heart_rate_details">Nabız detayları</string>
+    <string name="heart_rate_details">Nabız ayrıntıları</string>
 
     <string name="heart_rate_continuous_measurement_title">Sürekli nabız ölçümü</string>
 
-    <string name="heart_rate_alert_title">Kalp atış hızı uyarısı</string>
-    <string name="heart_rate_thresholds">Kalp atış hızı eşik değerleri</string>
-    <string name="low_heart_rate">Düşük kalp hızı</string>
-    <string name="high_heart_rate">Yüksek kalp hızı</string>
-
+    <string name="heart_rate_alert_title">Nabız uyarısı</string>
+    <string name="heart_rate_thresholds">Nabız eşik değerleri</string>
+    <string name="low_heart_rate">Düşük nabız</string>
+    <string name="high_heart_rate">Yüksek nabız</string>
 
     <!-- Blood oxygen -->
-    <string name="blood_oxygen_details">Kan oksijen ayrıntıları</string>
+    <string name="blood_oxygen_details">Kandaki oksijen ayrıntıları</string>
 
-    <string name="blood_oxygen_level_measurement">Blood oxygen level measurement</string>
-    <string name="measurement_interval">Measurement interval</string>
-
+    <string name="blood_oxygen_level_measurement">Kandaki oksijen seviyesi ölçümü</string>
+    <string name="measurement_interval">Ölçüm aralığı</string>
 
     <!-- Blood pressure -->
-    <string name="blood_pressure_details">Kan basıncı ayrıntıları</string>
+    <string name="blood_pressure_details">Tansiyon ayrıntıları</string>
 
-    <string name="blood_pressure_level_measurement">Blood pressure level measurement</string>
+    <string name="blood_pressure_level_measurement">Tansiyon seviyesi ölçümü</string>
 
     <string name="blood_pressure_systolic_abbreviation">Sys</string>
     <string name="blood_pressure_diastolic_abbreviation">Dia</string>
     <string name="blood_pressure_unit">mmHg</string>
 
-
     <!-- Workout -->
-    <string name="workout_details">Antrenman detayları</string>
-
+    <string name="workout_details">Antrenman ayrıntıları</string>
 
     <!-- Alarm -->
     <string name="action_time_alarm_sort_state_asc">Duruma göre artan</string>
-    <string name="action_time_alarm_sort_watch_asc">Saate göre artan</string>
+    <string name="action_time_alarm_sort_watch_asc">Saat sırasına göre artan</string>
     <string name="action_time_alarm_sort_name_asc">İsme göre artan</string>
 
-    <string name="message_time_alarm_sync">%1$s alarmlarını senkronize et. (Akıllı saatinizdeki alarmları otomatik siler veya ekler)</string> <!-- %1$s =Haylou Smart Watch ... -->
+    <string name="message_time_alarm_sync">%1$s alarm senkronizasyonu (mevcut alarmlar silinir ve akıllı saate yenileri eklenir)</string>
 
     <string name="info_dialog_alarm"><![CDATA[
-        <p>Partner modunu kullanırken, resmi uygulamanın ve <app_name/> uygulamasının ayarları çakışabilir ve birbirlerinin ayarlarını silebilir.</p>
-        Bu durumda son yapılan işlem geçerli olur.
+    <p>İş birliği modunu kullanırken, resmi uygulama ile <app_name/> uygulamasının ayarları birbirini geçersiz kılabilir veya silebilir.</p>
+    Geçerli olan, en son yapılan işlem olacaktır.
     ]]></string>
 
-
     <!-- Reminder -->
-    <string name="message_reminder_enabled">Hatırlatma aktif</string>
-    <string name="message_reminder_disabled">Hatırlatma pasif</string>
+    <string name="message_reminder_enabled">Hatırlatıcı etkin</string>
+    <string name="message_reminder_disabled">Hatırlatıcı devre dışı</string>
 
     <string name="reminder_repeat">Saatlik tekrar</string>
     <string name="reminder_notification_on_phone">Telefonda bildir</string>
 
-    <string name="message_time_reminder_free_counter">Ücretsiz modda en fazla 1 hatırlatıcı kullanılabilir</string>
+    <string name="message_time_reminder_free_counter">Ücretsiz modda yalnızca 1 hatırlatıcı kullanılabilir</string>
 
     <string name="info_dialog_reminder"><![CDATA[
-        Hatırlatıcıyı görüntülemek için Bluetooth bağlantısı gerekir.
-        ]]>
-    </string>
-
+    Hatırlatıcıların görüntülenmesi için Bluetooth bağlantısı gerekir.
+    ]]></string>
 
     <!-- Do not disturb -->
-    <string name="pref_dnd_summary">Rahatsız etmeyin modunda denetleyicilerin durumu</string>
-    <string name="pref_dnd_enable_bluetooth">Bluetooth\'u başında kapat, sonunda aç</string>
+    <string name="pref_dnd_summary">Rahatsız etmeyin modundaki denetleyici durumu</string>
+    <string name="pref_dnd_enable_bluetooth">Rahatsız etmeyin modu başlarken Bluetooth kapatılır, bitince yeniden açılır</string>
 
     <string name="info_dialog_dnd"><![CDATA[
-        Haylou fit ile birlikte modunu kullanıyorsanız, <device_type/> uygulamasında, rahatsız etmeyin modu (DnD) 00:00 ile 23:59 arasında olmalıdır ve kapalı olmalıdır.
-    ]]></string> <!-- %1$s Haylou fit-->
+    İş birliği modunu kullanıyorsanız, resmi <device_type/> uygulamasında rahatsız etmeyin (DnD) modunun saati 00:00 ile 23:59 arasında olmalı ve durumu kapalı olmalıdır.
+    ]]></string>
 
 
     <!-- Watch face -->
-    <string name="watch_face_tab_watch_faces">Saat Arayüzü</string>
-    <string name="watch_face_tab_watch_face_custom">Özelleştirilmiş dosyalar</string>
-    <string name="watch_face_tab_watch_face_editor">Editör</string>
+    <string name="watch_face_tab_watch_faces">Saat yüzleri</string>
+    <string name="watch_face_tab_watch_face_custom">Özel dosyalar</string>
+    <string name="watch_face_tab_watch_face_editor">Düzenleyici</string>
 
-    <string name="watch_face_download_title">Saat arayüzü indir</string>
-    <string name="watch_face_upload_title">Saat arayüzünü değiştir</string>
+    <string name="watch_face_download_title">Saat yüzünü indir</string>
+    <string name="watch_face_upload_title">Saat yüzü yükle</string>
     <string name="watch_face_tool_title">Araçlar</string>
 
-    <string name="watch_face_share_content">Oluşturdugun saat arayüzünü başkalarıyla paylaşabilirsin. Saat arayüzü ve önizlemesini saat arayüzünün dilini, yazarını, adını (en fazla 30 karakter) bize mail olarak gönder. Sadece kaliteli saat arayüzlerini yayınlıyoruz.</string>
+    <string name="watch_face_share_content">Oluşturduğun saat yüzünü başkalarıyla paylaşabilirsin. Saat yüzü ve önizleme dosyalarını e-posta ile gönder ve aşağıdaki bilgileri ekle: yazar adı, saat yüzü adı (en fazla 30 karakter) ve dil. Sadece yüksek kaliteli saat yüzleri yayınlanacaktır.</string>
 
-    <string name="watch_face_upload_prepare">Yükleme için hazırlanıyor…</string>
+    <string name="watch_face_upload_prepare">Yüklemeye hazırlanılıyor…</string>
     <string name="watch_face_upload_progress">Yükleniyor %1$,d%%</string>
 
-    <string name="watch_face_invalid_firmware">%1$s ürün yazılımı bilinmiyor veya saat yüzü yüklemeyi desteklemiyor. Lütfen resmi uygulamayı kullanarak ürün yazılımını güncelleyin. Resmi uygulama saat yüzü yüklemeyi destekliyorsa, lütfen Geri Bildirim menüsünden bize bildirin.</string>
-    <string name="watch_face_invalid_auth">Bağımsız modda kullanın, eğer diğer uygulama ile birlikte kullanırsanız, resmi uygulama bunu engelleyebilir.</string>
-    <string name="watch_face_invalid_free">Ücretsiz modda bugün daha fazla kadran yüklenemez</string>
+    <string name="watch_face_invalid_firmware">%1$s ürün yazılımı bilinmiyor veya saat yüzü yüklemeyi desteklemiyor. Lütfen resmi uygulamayı kullanarak ürün yazılımını güncelle. Eğer resmi uygulama bu özelliği destekliyorsa, lütfen Geri Bildirim menüsünden bize bildir.</string>
+    <string name="watch_face_invalid_auth">Bağımsız modda kullan. İş birliği modunda resmi uygulama saat yüzü yüklemeyi engelleyebilir.</string>
+    <string name="watch_face_invalid_free">Ücretsiz modda bugün daha fazla saat yüzü yükleyemezsin</string>
     <string name="watch_face_watch_rewarded_ads">Devam etmek için bir video izle</string>
     <string name="watch_face_watch_rewarded_ads_uploading">Yüklemeye devam etmek için bir video izle</string>
-    <string name="watch_face_watch_rewarded_ads_countdown">Video başlıyor…</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">Video başlatılıyor…</string>
 
-    <string name="watch_face_upload_method_title">Method</string>
+    <string name="watch_face_upload_method_title">Yöntem</string>
     <string name="watch_face_upload_method_default">@string/default_</string>
-    <string name="watch_face_upload_method_alternative">Alternative</string>
+    <string name="watch_face_upload_method_alternative">Alternatif</string>
 
     <string name="watch_face_upload_speed_title">Yükleme hızı</string>
-    <string name="watch_face_upload_invalid_speed_hint">Saat yüzü yükleme işlemi kesilirse daha düşük bir hız ayarlayın</string>
-    <string name="watch_face_upload_invalid_size_hint">Geçersiz saat yüzü dosya boyutu — daha düşük saat yüzü kalitesi ayarlayın veya saat yüzünden öğeleri kaldırın</string>
-    <string name="watch_face_upload_invalid_battery_hint">Akıllı saatin pili azaldı, lütfen saati şarj edin</string>
+    <string name="watch_face_upload_invalid_speed_hint">Yükleme işlemi kesiliyorsa daha düşük bir hız ayarla</string>
+    <string name="watch_face_upload_invalid_size_hint">Geçersiz saat yüzü dosya boyutu. Daha düşük kalite seç veya bazı öğeleri kaldır</string>
+    <string name="watch_face_upload_invalid_battery_hint">Akıllı saatin pili zayıf. Lütfen saati şarj et</string>
 
     <string name="watch_face_tbwf_quality_title">.tbwf saat yüzü kalite ayarı</string>
-    <string name="watch_face_tbwf_quality_hint">Saat izin verirse dosya boyutu küçültülebilir</string>
+    <string name="watch_face_tbwf_quality_hint">Saat izin veriyorsa dosya boyutu azaltılabilir</string>
 
-    <string name="watch_face_tbwf_locale_title">.tbwf saat yüzü dil ve ülke ayarı</string>
-    <string name="watch_face_tbwf_locale_hint">Haftanın günü, ay ayırıcı ve ondalık ayırıcı</string>
+    <string name="watch_face_tbwf_locale_title">.tbwf dil ve bölge ayarları</string>
+    <string name="watch_face_tbwf_locale_hint">Gün adları, ay ayırıcı ve ondalık simge</string>
 
-    <string name="message_watch_face_file_invalid">Geçersiz saat tema dosyası</string>
+    <string name="message_watch_face_file_invalid">Geçersiz saat yüzü dosyası</string>
     <string name="message_watch_face_file_invalid_size">Geçersiz saat yüzü dosya boyutu</string>
-    <string name="message_watch_face_file_invalid_battery">Akıllı saatin pili neredeyse bitmek üzere</string>
+    <string name="message_watch_face_file_invalid_battery">Akıllı saatin pili az</string>
     <string name="message_watch_face_image_file_error">Geçersiz resim dosyası</string>
     <string name="message_watch_face_font_file_error">Geçersiz yazı tipi dosyası</string>
 
-    <string name="action_chart_layout_2_columns">2-sütunluk tasarım</string>
-    <string name="action_chart_layout_3_columns">3-sütunluk tasarım</string>
+    <string name="action_chart_layout_2_columns">2 sütunlu düzen</string>
+    <string name="action_chart_layout_3_columns">3 sütunlu düzen</string>
 
     <string name="watch_face_edit_dial">Kadran</string>
     <string name="watch_face_edit_preview">Önizleme</string>
     <string name="watch_face_edit_hour_digital">Saat</string>
     <string name="watch_face_edit_minute_digital">Dakika</string>
     <string name="watch_face_edit_second_digital">Saniye</string>
-    <string name="watch_face_edit_am_pm">AM/PM indicator</string>
+    <string name="watch_face_edit_am_pm">AM/PM göstergesi</string>
     <string name="watch_face_edit_am">AM</string>
     <string name="watch_face_edit_pm">PM</string>
-    <string name="watch_face_edit_hour_analog">Saat kolu</string>
-    <string name="watch_face_edit_minute_analog">Dakika kolu</string>
-    <string name="watch_face_edit_second_analog">Saniye kolu</string>
-    <string name="watch_face_edit_axis">Axis of rotation</string>
+    <string name="watch_face_edit_hour_analog">Saat ibresi</string>
+    <string name="watch_face_edit_minute_analog">Dakika ibresi</string>
+    <string name="watch_face_edit_second_analog">Saniye ibresi</string>
+    <string name="watch_face_edit_axis">Dönme ekseni</string>
     <string name="watch_face_edit_hour_minute_separator">Saat ve dakika ayırıcı</string>
     <string name="watch_face_edit_year">Yıl</string>
     <string name="watch_face_edit_year_month_separator">Yıl ve ay ayırıcı</string>
     <string name="watch_face_edit_month">Ay</string>
-    <string name="watch_face_edit_month_name">Ayın adı</string>
+    <string name="watch_face_edit_month_name">Ay ismi</string>
     <string name="watch_face_edit_month_day_separator">Ay ve gün ayırıcı</string>
     <string name="watch_face_edit_day">Gün</string>
     <string name="watch_face_edit_dayOfWeek">Haftanın günü</string>
-    <string name="watch_face_edit_battery_level">Şarj</string>
-    <string name="watch_face_edit_battery_level_percent_sign">Şarj %</string>
-    <string name="watch_face_edit_battery_level_image">Pil resmi</string>
+    <string name="watch_face_edit_battery_level">Pil seviyesi</string>
+    <string name="watch_face_edit_battery_level_percent_sign">Pil seviyesi %</string>
+    <string name="watch_face_edit_battery_level_image">Pil simgesi</string>
     <string name="watch_face_edit_weather_temperature">Sıcaklık</string>
     <string name="watch_face_edit_weather_temperature_unit_sign">Sıcaklık birimi °</string>
     <string name="watch_face_edit_weather_image">Hava durumu simgesi</string>
     <string name="watch_face_edit_connection_indicator_image">Bağlantı simgesi</string>
     <string name="watch_face_edit_connected">Bağlı</string>
-    <string name="watch_face_edit_disconnected">Bağlı değil</string>
+    <string name="watch_face_edit_disconnected">Bağlantı yok</string>
     <string name="watch_face_edit_steps">Adım</string>
-    <string name="watch_face_edit_steps_image">Adım resmi</string>
-    <string name="watch_face_edit_steps_goal_progress">Adım hedef ilerlemesi</string>
+    <string name="watch_face_edit_steps_image">Adım simgesi</string>
+    <string name="watch_face_edit_steps_goal_progress">Adım hedefi ilerlemesi</string>
     <string name="watch_face_edit_distance">Mesafe</string>
-    <string name="watch_face_edit_distance_image">Mesafe resmi</string>
+    <string name="watch_face_edit_distance_image">Mesafe simgesi</string>
     <string name="watch_face_edit_calories">Kalori</string>
-    <string name="watch_face_edit_calories_image">Kalori resmi</string>
-    <string name="watch_face_edit_heart_rate">Kalp ritmi</string>
-    <string name="watch_face_edit_heart_rate_image">Kalp ritmi resmi</string>
+    <string name="watch_face_edit_calories_image">Kalori simgesi</string>
+    <string name="watch_face_edit_heart_rate">Kalp atış hızı</string>
+    <string name="watch_face_edit_heart_rate_image">Kalp hızı simgesi</string>
 
     <string name="watch_face_edit_color">Renk</string>
     <string name="watch_face_edit_font_family">Yazı tipi</string>
-    <string name="watch_face_edit_font_size">Yazı Boyutu</string>
     <string name="watch_face_edit_character">Karakter</string>
-    <string name="watch_face_edit_image">Görüntü</string>
-    <string name="watch_face_edit_image_png_jpeg">Görüntü (.png, .jpeg)</string>
-    <string name="watch_face_edit_image_png">Görüntü (.png)</string>
-    <string name="watch_face_edit_icon">İkon</string>
-    <string name="watch_face_edit_image_size">Görüntü boyutu</string>
+    <string name="watch_face_edit_font_size">Yazı tipi boyutu</string>
+    <string name="watch_face_edit_image">Görsel</string>
+    <string name="watch_face_edit_image_png_jpeg">Görsel (.png, .jpeg)</string>
+    <string name="watch_face_edit_image_png">Görsel (.png)</string>
+    <string name="watch_face_edit_image_size">Görsel boyutu</string>
+    <string name="watch_face_edit_icon">Simge</string>
 
-    <string name="watch_face_custom_watch_face_not_supported_title">Bu saat özel saat yüzü yüklemelerini desteklemiyor</string>
-    <string name="watch_face_custom_watch_face_under_development_title">Özel saat yüzü yükleme özelliği şu anda geliştirme aşamasındadır ve gelecekte kullanılabilir olabilir, ancak bu henüz kesinleşmemiştir.</string>
+    <string name="watch_face_custom_watch_face_not_supported_title">Bu saat özel saat yüzü yüklemeyi desteklemiyor</string>
+    <string name="watch_face_custom_watch_face_under_development_title">Özel saat yüzü yükleme özelliği geliştirme aşamasındadır ve gelecekte sunulabilir, ancak henüz kesinleşmemiştir.</string>
 
     <!-- Touch monitoring -->
     <string name="touch_tab_function">Fonksiyon</string>
@@ -544,154 +530,154 @@
     <string name="touch_tab_testing">Test</string>
     <string name="touch_tab_setting">@string/setting_name</string>
 
-    <string name="touch_function_summary">Bu seçenekleri Mi Bandage uygulamasını tek başına kullanıyorsanız veya Mi Fit tarafından düzgün yönetilmiyorsa seçiniz</string>
-    <string name="touch_function">%1$s özelliği</string> <!-- %1$s = Watch name -->
-    <string name="touch_function_as_touch">Kontrol menüsünde dokunma özelliği olarak kullan</string>
+    <string name="touch_function_summary">Tek başına mod kullanıyorsan veya Mi Fit düzgün şekilde yönetmiyorsa bu özellikleri ayarla</string>
+    <string name="touch_function">%1$s fonksiyonu</string>
+    <string name="touch_function_as_touch">Kontrol menüsünde dokunmatik olarak kullan</string>
 
-    <string name="touch_headline_incoming_call_title">Gelen çağrı</string>
-    <string name="touch_headline_other_function_title">Diğer özellikler</string>
-    <string name="touch_headline_call_title">Çağrı</string>
-    <string name="touch_headline_music_title">Müzik</string>
-    <string name="touch_headline_time_title">Alarm/Saat</string>
-    <string name="touch_headline_other_title">Diğer</string>
+    <string name="touch_headline_incoming_call_title">Gelen arama</string>
+    <string name="touch_headline_other_function_title">Diğer fonksiyonlar</string>
+    <string name="touch_headline_call_title">Arama kontrolü</string>
+    <string name="touch_headline_music_title">Müzik kontrolü</string>
+    <string name="touch_headline_time_title">Zamanlayıcı / kronometre</string>
+    <string name="touch_headline_other_title">Diğer kontroller</string>
 
     <string name="touch_device_location_title">Telefonumu bul</string>
-    <string name="touch_device_location_not_muted_only_title">Rahatsız etmeyin modunda ve telefon zaten sessizde değilse</string>
+    <string name="touch_device_location_not_muted_only_title">Yalnızca sessizde değilse veya rahatsız etmeyin modu kapalıysa ses çal</string>
 
-    <string name="touch_mute_toggle_title">Çağrıyı sessize al</string>
+    <string name="touch_mute_toggle_title">Telefon sessize alma</string>
     <string name="touch_mute_toggle_ringer_mode_title">Sessiz modu</string>
-    <string name="touch_mute_toggle_mute_off_title">Sesi aç</string>
+    <string name="touch_mute_toggle_mute_off_title">Sessiz kapalı</string>
 
     <string name="touch_music_title">Müzik</string>
-    <string name="touch_music_function_launch">Herhangi bir müzik tanımlanmamışsa Oynat tuşuna basıp müziği başlat</string>
+    <string name="touch_music_function_launch">Müzik oynatıcı algılanmazsa oynat tuşuyla müziği başlat</string>
     <string name="touch_music_function_mi_band_message_launch">Oynat tuşu ile müziği başlat</string>
-    <string name="touch_music_function_mi_band_message_no_track_title">Şarkı ismine ulaşılamıyor</string>
+    <string name="touch_music_function_mi_band_message_no_track_title">Şarkı adı alınamıyor</string>
 
-    <string name="touch_call_out_title">Arama</string>
-    <string name="touch_call_out_no_contact">Kişi seç</string>
-    <string name="touch_call_out_summary">Çağrıyı cevaplamak için çift tıkla</string>
-    <string name="touch_call_out_summary_support_call_display_button">Çağrıyı cevaplamak için düğmeye bas</string>
-    <string name="touch_call_out_speakerphone_title">Hoparlör ile</string>
+    <string name="touch_call_out_title">Arama başlat</string>
+    <string name="touch_call_out_no_contact">Bir kişi seç</string>
+    <string name="touch_call_out_summary">Aramayı başlatmak için iki kez dokun</string>
+    <string name="touch_call_out_summary_support_call_display_button">Aramayı başlatmak için düğmeye bas</string>
+    <string name="touch_call_out_speakerphone_title">Hoparlör</string>
     <string name="touch_call_out_call_text">Arama: %1$s</string>
 
-    <string name="touch_weather_title">Hava Durumu Tahmini</string>
-    <string name="touch_weather_location">Yer</string>
+    <string name="touch_weather_title">Hava durumu</string>
+    <string name="touch_weather_location">Konum güncelle</string>
     <string name="touch_weather_precipitation">Yağış</string>
-    <string name="touch_weather_cloud_cover">Bulutlu</string>
+    <string name="touch_weather_cloud_cover">Bulut örtüsü</string>
     <string name="touch_weather_wind">Rüzgar</string>
 
-    <string name="touch_repeat_notif_title">Bildirimleri tekrarla</string>
-    <string name="touch_repeat_notif_clear_all">Tekrardan sonra tüm bildirimleri temizle</string>
+    <string name="touch_repeat_notif_title">Bildirimleri tekrar et</string>
+    <string name="touch_repeat_notif_clear_all">Tekrardan sonra tüm bildirimleri sil</string>
 
-    <string name="touch_clear_notif_title">Bildirimleri temizle</string>
+    <string name="touch_clear_notif_title">Telefon bildirimlerini sil</string>
 
-    <string name="touch_music_play_pause_title">Müzik aç, başla, durakla</string>
-    <string name="touch_music_skip_previous_title">Müzik aç, önceki şarkı</string>
-    <string name="touch_music_skip_next_title">Müzik aç, sonraki şarkı</string>
-    <string name="touch_music_headset_only_title">Yanlız kulaklık takılı ise</string>
+    <string name="touch_music_play_pause_title">Müzik başlat, oynat, duraklat</string>
+    <string name="touch_music_skip_previous_title">Müzik başlat, önceki şarkı</string>
+    <string name="touch_music_skip_next_title">Müzik başlat, sonraki şarkı</string>
+    <string name="touch_music_headset_only_title">Yalnızca kulaklık bağlıysa</string>
     <string name="touch_music_launch">Müziği başlat</string>
-    <string name="touch_music_volume_up_title">Müzik sesini yükselt</string>
-    <string name="touch_music_volume_down_title">Müzik sesi kıs</string>
-    <string name="touch_music_track_info_title">Çalan şarkı bilgisi.</string>
+    <string name="touch_music_volume_up_title">Müzik sesi artır</string>
+    <string name="touch_music_volume_down_title">Müzik sesi azalt</string>
+    <string name="touch_music_track_info_title">Parça bilgisini göster</string>
 
-    <string name="touch_time_launch_title">Zaman izleme</string>
-    <string name="touch_time_launch_type_timer_title">Kronometre</string>
-    <string name="touch_time_launch_type_stopper_title">Zamanlama</string>
+    <string name="touch_time_launch_title">Zaman izlemeyi başlat</string>
+    <string name="touch_time_launch_type_timer_title">Zamanlayıcı</string>
+    <string name="touch_time_launch_type_stopper_title">Kronometre</string>
     <string name="touch_time_launch_type_interval_title">Aralık</string>
-    <string name="touch_time_launch_restart">İşlem devam ediyorsa yeniden başlatın</string>
+    <string name="touch_time_launch_restart">Devam ediyorsa yeniden başlat</string>
     <string name="touch_time_reminder_title">Kalan/geçen süreyi göster</string>
 
-    <string name="touch_google_assistant_title">Google Asistanı</string>
+    <string name="touch_google_assistant_title">Google Asistan</string>
 
-    <string name="touch_flashlight_title">Feneri aç/kapat</string>
+    <string name="touch_flashlight_title">Fener aç/kapat</string>
 
-    <string name="touch_camera_title">Resim çek</string>
+    <string name="touch_camera_title">Fotoğraf çek</string>
     <string name="touch_camera_front_title">Ön kamera</string>
     <string name="touch_camera_rear_title">Arka kamera</string>
-    <string name="touch_camera_install_title">Kurulum</string>
+    <string name="touch_camera_install_title">Yükle</string>
 
     <string name="touch_app_launcher1_title">Uygulama başlatıcı</string>
-    <string name="touch_app_launcher_package_no_title">Bir uygulama seçin</string>
-    <string name="touch_app_launcher1_not_wakelock_only_title">Telefon ekranı kapalı değilse çalışır</string>
+    <string name="touch_app_launcher_package_no_title">Bir uygulama seç</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">Sadece ekran kilitli değilse</string>
 
-    <string name="touch_broadcast1_title">Yayını gönder</string>
-    <string name="touch_broadcast1_action_title">Kasıtlı eylem</string>
-    <string name="touch_broadcast1_package_title">Eylem adı</string>
+    <string name="touch_broadcast1_title">Yayın gönder</string>
+    <string name="touch_broadcast1_action_title">Intent eylemi</string>
+    <string name="touch_broadcast1_package_title">Intent paket adı</string>
 
-    <string name="touch_http_request1_title">1. HTTP talebi</string>
-    <string name="touch_http_request2_title">2. HTTP talebi</string>
+    <string name="touch_http_request1_title">1. HTTP isteği</string>
+    <string name="touch_http_request2_title">2. HTTP isteği</string>
     <string name="touch_http_request_url_title">URL</string>
-    <string name="touch_http_request_method_title">Metod</string>
-    <string name="touch_http_request_body_title">Gövde</string>
+    <string name="touch_http_request_method_title">Yöntem</string>
+    <string name="touch_http_request_body_title">İçerik</string>
     <string name="touch_http_request_show_response_title">Yanıtı göster</string>
 
-    <string name="touch_tasker_launcher1_title">1. görev başlatıcı</string>
-    <string name="touch_tasker_launcher2_title">2. görev başlatıcı</string>
-    <string name="touch_tasker_launcher_no_permission_title">Önce Tasker kurulmalı, ardından Mi Bandage kurulmalıdır.</string>
-    <string name="touch_tasker_launcher_no_access_title">Harici erişimi izin ver</string>
-    <string name="touch_tasker_launcher_no_task_title">Bir görev seçin</string>
+    <string name="touch_tasker_launcher1_title">1. Tasker görev başlatıcı</string>
+    <string name="touch_tasker_launcher2_title">2. Tasker görev başlatıcı</string>
+    <string name="touch_tasker_launcher_no_permission_title">Önce Tasker, majd Mi Bandage yüklenmelidir</string>
+    <string name="touch_tasker_launcher_no_access_title">Harici erişime izin ver</string>
+    <string name="touch_tasker_launcher_no_task_title">Bir görev seç</string>
 
     <string name="touch_testing_title">Dokunma izleme</string>
     <string name="touch_testing_second">sn.</string>
 
     <string name="touch_setting_detection_time_title">Dokunma algılama süresi</string>
-    <string name="touch_setting_detection_time_music_hint">Eğer düşük bir değerse, müzik ekranı daha çabuk kapanır</string>
-    <string name="touch_setting_detection_time_button_hint">Eğer düşük bir değerse, düğmeye daha seri basın</string>
+    <string name="touch_setting_detection_time_music_hint">Değer düşükse, müzik ekranı daha hızlı kapanmalıdır</string>
+    <string name="touch_setting_detection_time_button_hint">Değer düşükse, düğmeye daha hızlı basılmalıdır</string>
 
-    <string name="touch_setting_detection_method_title">Dokunma algılama metodu</string>
+    <string name="touch_setting_detection_method_title">Dokunma algılama yöntemi</string>
 
-    <string name="touch_setting_recognition_start_title">Dokunmatik tanımayı başlat</string>
-    <string name="touch_setting_recognition_start_trigger_title">Tetikleme</string>
-    <string name="touch_setting_recognition_time_title">Tanımlanan süre</string>
+    <string name="touch_setting_recognition_start_title">Dokunma tanımayı başlat</string>
+    <string name="touch_setting_recognition_start_trigger_title">Tetikleyici</string>
+    <string name="touch_setting_recognition_time_title">Tanıma süresi</string>
 
-    <string name="touch_setting_recognition_mi_band_signal_title">%1$s bildirimi</string> <!-- %1$s = Watch name -->
-    <string name="touch_setting_recognition_succeeded_title">Tanınabilir dokunmatik desen</string>
+    <string name="touch_setting_recognition_mi_band_signal_title">%1$s sinyali</string>
+    <string name="touch_setting_recognition_succeeded_title">Tanımlanabilir dokunma deseni</string>
     <string name="touch_setting_recognition_failed_title">Tanımlanamayan dokunma deseni</string>
 
     <string name="info_dialog_touch"><![CDATA[
-        <p>Bağımsız modda çalışır. İşbirliği modu kullanıyorsanız, resmi <app_official/> uygulaması bu fonksiyonları engelleyebilir, bu yüzden çalışacağını garanti edemiyoruz.</p>
-        <p><b>Phones Bluetooth settings:</b> <device_name/> disable input device</p>
-        <b><u>Tanınan dokunmalar</u></b>
-        <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
-        <br><device_type/> müzik kontrolü
-        <p><img src="ic_search">
-        <br><device_type/> telefonu bul
-        </p>
-        Çoklu dokunmalar bir fonksiyon olarak kaydedilebilir.
+    <p>Bağımsız modda düzgün çalışır. İş birliği modunda, resmi <app_official/> uygulaması da bu işlevleri yönetebilir, bu nedenle doğru çalışması garanti edilemez.</p>
+    <p><b>Telefon Bluetooth ayarları:</b> <device_name/> giriş cihazını devre dışı bırak</p>
+    <b><u>Tanımlanan dokunmalar</u></b>
+    <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
+    <br><device_type/> müzik kontrolü
+    <p><img src="ic_search">
+    <br><device_type/> telefonumu bul
+    </p>
+    Her fonksiyon için birden fazla dokunma kaydedilebilir.
     ]]></string>
 
 
     <!-- Weather  -->
-    <string name="weather_tab_weather_forecast">Hava Durumu</string>
-    <string name="weather_tab_location">Yer</string>
+    <string name="weather_tab_weather_forecast">Hava durumu</string>
+    <string name="weather_tab_location">Konum</string>
     <string name="weather_tab_settings">@string/setting_name</string>
 
-    <string name="weather_location_title">Yer</string>
+    <string name="weather_location_title">Konum</string>
 
-    <string name="weather_forecast_title">Hava Durumu Tahmini</string>
+    <string name="weather_forecast_title">Hava durumu tahmini</string>
 
     <string name="weather_setting_provider">Hava durumu sağlayıcısı</string>
     <string name="weather_city_title">Şehir</string>
     <string name="weather_unit_title">Birim</string>
-    <string name="weather_unit_metric">Metrik sistem (Celsius)</string>
-    <string name="weather_unit_imperial">Emperyal sistem (Fahrenheit)</string>
-    <string name="weather_automatic_update">Otomatik güncelle</string>
-    <string name="weather_automatic_update_title">Konumunu kullan</string>
-    <string name="weather_automatic_update_summary">Bu uygulama, kapalı ya da kullanılmıyor olsa dahi mevcut konumdaki hava durumunu güncellemek için konum bilginizi toplar.</string>
+    <string name="weather_unit_metric">Metrik (Celsius)</string>
+    <string name="weather_unit_imperial">İngiliz sistemi (Fahrenheit)</string>
+    <string name="weather_automatic_update">Arka planda konumu otomatik güncelle</string>
+    <string name="weather_automatic_update_title">Mevcut konumu kullan</string>
+    <string name="weather_automatic_update_summary">Bu uygulama, uygulama kapalı veya kullanılmıyor olsa bile mevcut konuma göre hava durumunu güncellemek için konum verilerini toplar.</string>
 
-    <string name="permission_background_location">%1$s , uygulama kapalıyken veya kullanımda değilken bile konum verilerini toplama iznine sahip olacaktır</string>
+    <string name="permission_background_location">%1$s, uygulama kapalıyken veya kullanılmıyorken bile konum verilerini toplama iznine sahip olacaktır</string>
     <string name="permission_error_title">%1$s izinleri güncelleyemiyor</string>
-    <string name="permission_error_description">Ayarlar\'ı açın ve konum izinleri için “%1$s“</string>
+    <string name="permission_error_description">Ayarlar\'ı açın ve konum izinleri için ”%1$s” seçeneğini belirleyin</string>
     <string name="all_the_time">Her zaman</string>
 
-    <string name="weather_current_title">Şu anki hava durumu</string>
-    <string name="weather_current_location">Şuanki konum</string>
-    <string name="weather_current_temperature">Mevcut sıcaklık</string>
+    <string name="weather_current_title">Güncel hava durumu</string>
+    <string name="weather_current_location">Mevcut konum</string>
+    <string name="weather_current_temperature">Güncel sıcaklık</string>
 
-    <string name="weather_precipitation_rain">Yağmurlu</string>
-    <string name="weather_precipitation_snow">Kar Yağışlı</string>
-    <string name="weather_cloud_cover_abbreviation">Parçalı Bulutlu</string>
-    <string name="weather_cloud_cover">Bulutlu</string>
+    <string name="weather_precipitation_rain">Yağmur</string>
+    <string name="weather_precipitation_snow">Kar</string>
+    <string name="weather_cloud_cover_abbreviation">Bk</string>
+    <string name="weather_cloud_cover">Bulut</string>
     <string name="weather_humidity">Nem</string>
 
     <string name="weather_north">K</string>
@@ -701,41 +687,39 @@
 
 
     <!-- Text customization -->
-    <string name="pref_text_reminder_repeat_interval_title">Hangi aralıkta hatırlatma bildirimi tekrarlansın</string>
-    <string name="pref_text_reminder_repeat_interval_summary">Bildirimler/hatırlatıcılar bu zamanlamayı kullanır</string>
+    <string name="pref_text_reminder_repeat_interval_title">Hatırlatma bildirimi tekrar aralığı</string>
+    <string name="pref_text_reminder_repeat_interval_summary">Bildirim > Hatırlatma uyarısı bu zamanlamayı kullanır</string>
     <string name="pref_text_emoticon_title">Emoji dönüştürme</string>
-    <string name="pref_text_emoticon_summary_on">Emojiyi emotikona dönüştür</string>
-    <string name="pref_text_uppercase_title">Büyük harf dönüşümü</string>
+    <string name="pref_text_emoticon_summary_on">Emojileri emotikona dönüştür</string>
+    <string name="pref_text_uppercase_title">Büyük harfe dönüştürme</string>
     <string name="pref_text_uppercase_summary_on">Küçük harfleri büyük harfe dönüştür</string>
     <string name="pref_text_alphanumeric_title">Alfanümerik ve ASCII karakterler</string>
-    <string name="pref_text_alphanumeric_summary_on">Sadece alfanümerik ve ASCII karakterleri göster</string>
+    <string name="pref_text_alphanumeric_summary_on">Yalnızca alfanümerik ve ASCII karakterleri göster</string>
     <string name="pref_text_transliteration_title">Transliterasyon</string>
-    <string name="pref_text_transliteration_summary_on">Vurgu işaretli harfleri vurgu işaretsiz harflere dönüştür</string>
+    <string name="pref_text_transliteration_summary_on">Aksanlı harfleri aksansız harflerle değiştir</string>
     <string name="pref_text_line_separator_title">Satır ayırıcı değiştirme</string>
-    <string name="pref_text_line_separator_summary_on">Varsayılan satır ayırıcıyı başka karakterlerle değiştir</string>
-    <string name="pref_text_line_separator_value_title">Değiştirici karakterler</string>
+    <string name="pref_text_line_separator_summary_on">Varsayılan satır ayırıcısını başka karakterlerle değiştir</string>
+    <string name="pref_text_line_separator_value_title">Değiştirilecek karakterler</string>
     <string name="pref_text_char_replacement_title">Karakter ve emoji değiştirme</string>
-    <string name="pref_text_char_replacement_summary_on">Bir karakteri başka bir karakterle değiştir</string>
+    <string name="pref_text_char_replacement_summary_on">Bir karakteri başka biriyle değiştir</string>
     <string name="pref_text_char_replacement_find">Bul</string>
     <string name="pref_text_char_replacement_replace">Şununla değiştir</string>
 
-
     <!-- Export -->
-    <string name="export_tab_database">Veri Dışa Aktarımı</string>
-    <string name="export_start_date">Dışa Aktarım Başlangıç Tarihi</string>
-
+    <string name="export_tab_database">Veri dışa aktarma</string>
+    <string name="export_start_date">Dışa aktarma başlangıç tarihi</string>
 
     <!-- Theme -->
     <string name="theme_tab_theme">Tema</string>
 
-    <string name="theme_title">Aktif tema</string>
+    <string name="theme_title">Tema seç</string>
     <string name="theme_background_color_title">Arka plan rengi</string>
 
     <string name="theme_widget_background_color_title">Renk</string>
     <string name="theme_color_dynamic_color_title">Dinamik renk</string>
     <string name="theme_color_predefined_colors_title">Önceden tanımlı renkler</string>
 
-    <string name="theme_notification_title">Bildirim çubuğunda durum gösterilsin</string>
+    <string name="theme_notification_title">Bildirim panelinde durumu göster</string>
 
     <string name="theme_cat_color_setting">Renk ayarları</string>
 
@@ -783,10 +767,10 @@
     <string name="action_log_notification">Kayıt</string>
 
     <string name="feedback_google_play_title">Uygulamayı değerlendir</string>
-    <string name="feedback_request_feature_title">İstekleriniz, hata bildirimleri</string>
-    <string name="feedback_request_feature_summary">E-postanız otomatik işlenir, yanıt alamayabilirsiniz</string>
-    <string name="feedback_translation_title">%1$s Çeviri</string> <!-- %1$s = App name -->
-    <string name="feedback_translation_title_summary">Türkçe çeviri Samet Sunman tarafından yapılmıştır. Siz de çeviriye katkıda bulunun. </string>
+    <string name="feedback_request_feature_title">Özellik isteği, hata bildirimi</string>
+    <string name="feedback_request_feature_summary">E-postalar otomatik işlenir, yanıt alamayabilirsiniz</string>
+    <string name="feedback_translation_title">%1$s çeviri</string> <!-- %1$s = App name -->
+    <string name="feedback_translation_title_summary">Lütfen çeviriye siz de katkıda bulunun</string>
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Gizlilik Politikası</string>
@@ -858,28 +842,26 @@
 
 
     <!-- Custom vibration dialog -->
-    <string name="custom_vibration_title">Titreşim ayarları</string>
-
+    <string name="custom_vibration_title">Titreşim ayarı</string>
 
     <!-- Shortcuts -->
-    <string name="shortcut">Shortcut</string>
-    <string name="shortcut_visible_items">Kısayol itemleri</string>
-    <string name="shortcut_hidden_items">Gizlenmiş kısayol itemleri</string>
+    <string name="shortcut">Kısayol</string>
+    <string name="shortcut_visible_items">Görünür kısayol öğeleri</string>
+    <string name="shortcut_hidden_items">Gizli kısayol öğeleri</string>
 
     <string name="shortcut_status">Durum</string>
     <string name="shortcut_heart_rate">Nabız</string>
-    <string name="shortcut_blood_oxygen">Kan Oksijen</string>
-    <string name="shortcut_sleep">Uyku takibi</string>
-    <string name="shortcut_breathing">Breathing</string>
-    <string name="shortcut_weather">Hava</string>
-    <string name="shortcut_stress">Stress</string>
+    <string name="shortcut_blood_oxygen">Kandaki oksijen</string>
+    <string name="shortcut_sleep">Uyku</string>
+    <string name="shortcut_breathing">Nefes</string>
+    <string name="shortcut_weather">Hava durumu</string>
+    <string name="shortcut_stress">Stres</string>
 
-
-    <!-- Others -->
-    <string name="tab_daily_charts">Günlük graf.</string>
-    <string name="tab_weekly_charts">Haftalık graf.</string>
-    <string name="tab_monthly_charts">Aylık graf.</string>
-    <string name="tab_yearly_charts">Yıllık graf.</string>
+    <!-- Actions -->
+    <string name="tab_daily_charts">Günlük grafik</string>
+    <string name="tab_weekly_charts">Haftalık grafik</string>
+    <string name="tab_monthly_charts">Aylık grafik</string>
+    <string name="tab_yearly_charts">Yıllık grafik</string>
 
     <string name="ad_attribution">Reklam</string>
     <string name="on">Açık</string>
@@ -888,26 +870,26 @@
     <string name="heart_rate_bpm">bpm</string>
     <string name="heart_rate_mhr">MHR</string>
     <string name="date">Tarih</string>
-    <string name="time">Zaman</string>
-    <string name="time_start">Başlangıç</string>
-    <string name="time_end">Bitiş</string>
+    <string name="time">Saat</string>
+    <string name="time_start">Başlangıç saati</string>
+    <string name="time_end">Bitiş saati</string>
     <string name="ringer_mode_vibrate">Titreşim</string>
     <string name="ringer_mode_silent">Sessiz</string>
-    <string name="ringer_mode_dnd_priority_only">Rahatsız etme (yalnızca öncelik)</string>
-    <string name="ringer_mode_dnd_alarms_only">Rahatsız etme (yalnızca alarmlar)</string>
-    <string name="ringer_mode_dnd_total_silence">Rahatsız etme (tamamen sessiz)</string>
-    <string name="unknown">Bilinmeyen</string>
+    <string name="ringer_mode_dnd_priority_only">Rahatsız etme (sadece öncelikli)</string>
+    <string name="ringer_mode_dnd_alarms_only">Rahatsız etme (sadece alarmlar)</string>
+    <string name="ringer_mode_dnd_total_silence">Rahatsız etme (tam sessizlik)</string>
+    <string name="unknown">Bilinmiyor</string>
     <string name="maximum">Maksimum</string>
     <string name="all_day">Tüm gün</string>
-    <string name="timed">Zaman ayarlandı</string>
+    <string name="timed">Zamanlı</string>
     <string name="file_name">Dosya adı</string>
     <string name="default_">Varsayılan</string>
-    <string name="default_by_phone">Varsayılan (telefonla)</string>
-    <string name="custom">Özelleştirme</string>
-    <string name="invalid_setting">Yanlış ayar</string>
-    <string name="ringtone">Zil sesi çal</string>
-    <string name="ringtone_chooser">Ringtone chooser</string>
-    <string name="uninstalled">Yüklenmedi</string>
+    <string name="default_by_phone">Varsayılan (telefona göre)</string>
+    <string name="custom">Özel</string>
+    <string name="invalid_setting">Geçersiz ayar</string>
+    <string name="ringtone">Zil sesi</string>
+    <string name="ringtone_chooser">Zil sesi seçici</string>
+    <string name="uninstalled">Kaldırıldı</string>
     <string name="value">Değer</string>
     <string name="downloads">İndirilenler</string>
     <string name="share">Paylaş</string>
@@ -917,77 +899,77 @@
     <string name="medium">Orta</string>
     <string name="long_">Uzun</string>
     <string name="full">Tam</string>
-    <string name="alignment_left">Hizalama kaldı</string>
-    <string name="alignment_center">Merkeze hizalama</string>
-    <string name="alignment_right">Hizalama hakkı</string>
-    <string name="visible">Gözle görülür</string>
+    <string name="alignment_left">Sola hizala</string>
+    <string name="alignment_center">Ortaya hizala</string>
+    <string name="alignment_right">Sağa hizala</string>
+    <string name="visible">Görünür</string>
     <string name="invisible">Görünmez</string>
-    <string name="placeholder">Placeholder</string>
-    <string name="image_scale_fit">Fit</string>
-    <string name="image_scale_crop">Crop</string>
-    <string name="image_scale_stretch">Stretch</string>
-    <string name="resource_manager">Resource manager</string>
+    <string name="placeholder">Yer tutucu</string>
+    <string name="image_scale_fit">Sığdır</string>
+    <string name="image_scale_crop">Kırp</string>
+    <string name="image_scale_stretch">Genişlet</string>
+    <string name="resource_manager">Kaynak yöneticisi</string>
 
     <string name="action_premium_mode">Premium modu</string>
-    <string name="action_dismiss">Vazgeç</string>
-    <string name="action_setting">Ayarlar</string>
+    <string name="action_dismiss">Kapat</string>
+    <string name="action_setting">Ayar</string>
     <string name="action_delete">Sil</string>
-    <string name="action_rename">Yeniden isimlendirmek</string>
-    <string name="action_export">Dışarı aktar</string>
+    <string name="action_rename">Yeniden adlandır</string>
+    <string name="action_export">Dışa aktar</string>
     <string name="action_synchronization">Senkronizasyon</string>
     <string name="action_download">İndir</string>
     <string name="action_upload">Yükle</string>
     <string name="action_backup">Yedekle</string>
-    <string name="action_restore">Geri Yükle</string>
-    <string name="action_filter_no">Tümü</string>
+    <string name="action_restore">Geri yükle</string>
+    <string name="action_filter_no">Filtre yok</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_favorite">Favori</string>
     <string name="action_save">Kaydet</string>
     <string name="action_test">Test et</string>
-    <string name="action_discard">Sil</string>
+    <string name="action_discard">Vazgeç</string>
     <string name="action_keep_editing">Düzenlemeye devam et</string>
     <string name="action_new">Yeni</string>
     <string name="action_new_file_extension">Yeni %1$s</string>
-    <string name="action_edit">Upraviť</string>
-    <string name="action_start_stop">Başla/Dur</string>
+    <string name="action_edit">Düzenle</string>
+    <string name="action_start_stop">Başlat/Durdur</string>
     <string name="action_contacts">Kişiler</string>
-    <string name="action_single_selection">Tek seçim</string>
+    <string name="action_single_selection">Tekli seçim</string>
     <string name="action_multiple_selection">Çoklu seçim</string>
-    <string name="action_selection_boundaries">Selection boundaries</string>
-    <string name="action_object_boundaries">Object boundaries</string>
-    <string name="action_select">Seçim</string>
+    <string name="action_selection_boundaries">Seçim sınırları</string>
+    <string name="action_object_boundaries">Nesne sınırları</string>
+    <string name="action_select">Seç</string>
     <string name="action_select_all">Tümünü seç</string>
     <string name="action_select_texts">Metinleri seç</string>
     <string name="action_select_images">Görselleri seç</string>
     <string name="action_deselect_all">Tümünü kaldır</string>
-    <string name="synchronized_from_watch">Saatten senkronize et</string>
+    <string name="synchronized_from_watch">Saatten senkronize edildi</string>
     <string name="synchronization_succeeded">Senkronizasyon başarılı</string>
-    <string name="synchronization_failed">Senkronizasyon başarısız oldu</string>
+    <string name="synchronization_failed">Senkronizasyon başarısız</string>
 
     <string name="action_chart">Grafik</string>
     <string name="action_zoom_in">Yakınlaştır</string>
-    <string name="action_chart_normalize_raw_data">Anlık değerler</string>
-    <string name="action_chart_normalize_quarter_hourly">Çeyrek saatlik değerler</string>
-    <string name="action_chart_normalize_half_hourly">Yarım saatlik değerler</string>
-    <string name="action_chart_normalize_hourly">Saatlik ortalama</string>
-    <string name="action_chart_sort_time_asc">Artan zaman</string>
-    <string name="action_chart_sort_time_desc">Azalan Zaman</string>
-    <string name="action_chart_sort_step_asc">Artan adım</string>
-    <string name="action_chart_sort_step_desc">Azalan adım</string>
-    <string name="action_chart_sort_duration_asc">Duration ascending</string>
-    <string name="action_chart_sort_duration_desc">Duration descending</string>
-    <string name="action_chart_sort_heart_rate_asc">Artan nabız</string>
-    <string name="action_chart_sort_heart_rate_desc">Azalan nabız</string>
-    <string name="action_chart_sort_spo2_asc">SpO2 ascending</string>
-    <string name="action_chart_sort_spo2_desc">SpO2 descending</string>
-    <string name="action_chart_sort_pressure_asc">Pressure ascending</string>
-    <string name="action_chart_sort_pressure_desc">Pressure descending</string>
+    <string name="action_chart_normalize_raw_data">Ölçülen değerler</string>
+    <string name="action_chart_normalize_quarter_hourly">15 dakikalık değerler</string>
+    <string name="action_chart_normalize_half_hourly">30 dakikalık değerler</string>
+    <string name="action_chart_normalize_hourly">Saatlik değerler</string>
+    <string name="action_chart_sort_time_asc">Zamana göre artan</string>
+    <string name="action_chart_sort_time_desc">Zamana göre azalan</string>
+    <string name="action_chart_sort_step_asc">Adım sayısı artan</string>
+    <string name="action_chart_sort_step_desc">Adım sayısı azalan</string>
+    <string name="action_chart_sort_duration_asc">Süre artan</string>
+    <string name="action_chart_sort_duration_desc">Süre azalan</string>
+    <string name="action_chart_sort_heart_rate_asc">Nabız artan</string>
+    <string name="action_chart_sort_heart_rate_desc">Nabız azalan</string>
+    <string name="action_chart_sort_spo2_asc">SpO2 artan</string>
+    <string name="action_chart_sort_spo2_desc">SpO2 azalan</string>
+    <string name="action_chart_sort_pressure_asc">Basınç artan</string>
+    <string name="action_chart_sort_pressure_desc">Basınç azalan</string>
     <string name="action_chart_monthly_calendar">Takvim</string>
-    <string name="action_chart_monthly_compact">Sıkıştır</string>
+    <string name="action_chart_monthly_compact">Kompakt</string>
 
-    <string name="activity_progress_title_prepare">Veri aktarımı hazırlanıyor…</string>
-    <string name="activity_progress_title_sync">Veri aktarılıyor…</string>
-    <string name="activity_progress_title_save">Veri kaydediliyor…</string>
+    <string name="activity_progress_title_prepare">Senkronizasyona hazırlanılıyor…</string>
+    <string name="activity_progress_title_sync">Veriler senkronize ediliyor…</string>
+    <string name="activity_progress_title_save">Veriler kaydediliyor…</string>
 
     <string name="required_value">Gerekli</string>
 
@@ -1012,11 +994,11 @@
     <string name="const_day_of_week_friday">Cuma</string>
     <string name="const_day_of_week_saturday">Cumartesi</string>
 
-    <string name="const_time_abbreviation_day">g</string>
-    <string name="const_time_abbreviation_hour">s</string>
-    <string name="const_time_abbreviation_minute">dk</string>
-    <string name="const_time_abbreviation_sec">sn</string>
-    <string name="const_time_abbreviation_milli_sec">ms</string>
+    <string name="const_time_abbreviation_day">g</string> <!-- gün -->
+    <string name="const_time_abbreviation_hour">s</string> <!-- saat -->
+    <string name="const_time_abbreviation_minute">dk</string> <!-- dakika -->
+    <string name="const_time_abbreviation_sec">sn</string> <!-- saniye -->
+    <string name="const_time_abbreviation_milli_sec">ms</string> <!-- milisaniye -->
 
     <string name="const_number">%1$,d</string>
     <string name="const_number_float">%,.2f</string>

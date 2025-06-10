@@ -7,53 +7,54 @@
     <string name="menu_nav_call">Hovor</string>
     <string name="menu_nav_step">Aktivita</string>
     <string name="menu_nav_sleep">Spánok</string>
-    <string name="menu_nav_heart_rate">Tep</string>
-    <string name="menu_nav_blood_oxygen">Kyslík vkrvi</string>
+    <string name="menu_nav_heart_rate">Tepová frekvencia</string>
+    <string name="menu_nav_blood_oxygen">Kyslík v krvi</string>
     <string name="menu_nav_blood_pressure">Krvný tlak</string>
-    <string name="menu_nav_workout">Posilovať</string>
+    <string name="menu_nav_workout">Tréning</string>
     <string name="menu_nav_alarm">Budík</string>
-    <string name="menu_nav_reminder">Напоминания</string>
-    <string name="menu_nav_dnd">Režim nerušit (DnD)</string>
-    <string name="menu_nav_watch_face">Štyl ciferníku</string>
+    <string name="menu_nav_reminder">Pripomienka</string>
+    <string name="menu_nav_dnd">Režim nerušiť</string>
+    <string name="menu_nav_watch_face">Ciferník</string>
     <string name="menu_nav_weather">Počasie</string>
-    <string name="menu_nav_touch">Dotyk</string>
+    <string name="menu_nav_touch">Dotykové ovládanie</string>
     <string name="menu_nav_more">Viac</string>
-    <string name="menu_nav_text_customization">Textové ikony</string>
+    <string name="menu_nav_text_customization">Prispôsobenie textu</string>
     <string name="menu_nav_export">Export</string>
     <string name="menu_nav_premium_mode">Prémiový režim</string>
     <string name="menu_nav_feedback">Spätná väzba</string>
-    <string name="menu_nav_privacy_policy">Zásady ochrany sukromia</string>
-    <string name="menu_nav_theme">Štyly</string>
+    <string name="menu_nav_privacy_policy">Zásady ochrany osobných údajov</string>
+    <string name="menu_nav_theme">Téma</string>
 
-    <string name="setting_name">Nastavenia</string>
+    <string name="setting_name">Nastavenie</string>
     <string name="settings_name">Nastavenia</string>
-    <string name="info_name">Informacie</string>
+    <string name="info_name">Informácie</string>
     <string name="more_name">Viac</string>
 
-    <string name="main_item_activity_title">Kroky・ciel</string>
-    <string name="main_item_battery">Úroveň baterie・čas nabíjania</string>
-    <string name="main_item_connect_and_disconnect_last_time">Poslední čas připojenia a odpojenia</string>
-    <string name="main_item_next_alarm">Další alarm</string>
-    <string name="main_item_next_reminder">Ďalšia pripomienka</string>
-    <string name="main_item_call_and_notification_control">Hovory a upozornenia</string>
+    <string name="main_item_activity_title">Kroky・cieľ</string>
+    <string name="main_item_battery">Úroveň batérie・čas posledného nabíjania</string>
+    <string name="main_item_connect_and_disconnect_last_time">Posledné pripojenie a odpojenie</string>
+    <string name="main_item_next_alarm">Najbližší budík</string>
+    <string name="main_item_next_reminder">Najbližšia pripomienka</string>
+    <string name="main_item_call_and_notification_control">Hovory a oznámenia</string>
 
-    <string name="device_search">%1$s search</string> <!-- %1$s = Watch name -->
+    <!-- Pairing Bluetooth device -->
+    <string name="device_search">Hľadanie %1$s</string> <!-- %1$s = Watch name -->
     <string name="device_setting">Nastavenie %1$s</string> <!-- %1$s = Watch name -->
 
     <string name="device_mac_address">MAC adresa</string>
-    <string name="device_mac_address_invalid">MAC adresa je neplatná</string>
+    <string name="device_mac_address_invalid">Neplatná MAC adresa</string>
 
     <string name="device_state_connected">Pripojené</string>
     <string name="device_state_disconnected">Odpojené</string>
     <string name="device_state_bonded">Spárované zariadenie</string>
-    <string name="device_state_not_bonded">Nie je spárováné zariadenie</string>
+    <string name="device_state_not_bonded">Nespárované zariadenie</string>
 
-    <string name="error_title">"Och! Niečo sa pokazilo"</string>
+    <string name="error_title">Ups! Niečo sa pokazilo</string>
     <string name="error_message">Aktualizujte aplikáciu na najnovšiu verziu</string>
 
 
     <!-- Watch connection and setting -->
-    <string name="mi_band_setting_title">Nastavenie %1$s</string>
+    <string name="mi_band_setting_title">Nastavenia %1$s</string>
 
     <string name="mi_band_setting_menu_connection">Pripojenie</string>
     <string name="mi_band_setting_menu_setting">@string/setting_name</string>
@@ -61,91 +62,90 @@
     <string name="mi_band_setting_menu_text">Text</string>
     <string name="mi_band_setting_menu_call">Hovor</string>
 
-    <string name="mi_band_setting_auth_mi_fit">Spolupráca s %1$s</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">%3$s vyžaduje inštalaciu oficiálnej aplikacie %1$s na rovnakom zariadení. Najprv musíte spárovat %2$s v aplikacii %1$s, potom môžete použít aplikaciu %3$s Zvolťe túto možnost, pokiaľ chcete použít %1$s.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
-    <string name="mi_band_setting_auth_standalone">Samostatný</string>
-    <string name="mi_band_setting_auth_standalone_hint">Aplikacia %1$s nie je  nutná pre prácu %3$s. Po párování odinštalujte aplikaciu %1$s alebo odpojte zariadenie. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. Make sure the %2$s screen is turned on during pairing operations.</string>
-    <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
+    <string name="mi_band_setting_auth_mi_fit">%1$s spolupráca</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">%3$s vyžaduje, aby bola aplikácia %1$s nainštalovaná v tomto telefóne. Najskôr spárujte %2$s v aplikácii %1$s. Túto možnosť vyberte, ak chcete používať aj aplikáciu %1$s.</string>
+    <string name="mi_band_setting_auth_standalone">Samostatné používanie</string>
+    <string name="mi_band_setting_auth_standalone_hint">Na fungovanie %3$s nie je potrebná aplikácia %1$s. Po spárovaní môžete aplikáciu %1$s odinštalovať alebo hodinky odpárovať. Pri obnovení spolupráce so %1$s je potrebné znova spárovať %2$s v aplikácii %1$s. Ak použijete funkciu odpárovania, údaje z hodiniek sa vymažú. Uistite sa, že obrazovka %2$s je počas párovania zapnutá.</string>
+    <string name="mi_band_standalone_sync_error">Aby sa predišlo strate údajov a zabezpečila presnosť, synchronizácia v režime spolupráce je zakázaná. Synchronizácia by vymazala údaje z hodiniek a spôsobila nepresné výsledky v oboch aplikáciách.</string>
 
-    <string name="mi_band_setting_auth_key">Overovací kľúč</string>
-    <string name="mi_band_setting_auth_key_help">Zadajte ľubovoľné 4-miestne číslo</string>
-    <string name="mi_band_setting_auth_request">Požiadať o kľúč</string>
+    <string name="mi_band_setting_auth_key">Overovací kód</string>
+    <string name="mi_band_setting_auth_key_help">Zadajte ľubovoľné 4-ciferné číslo</string>
+    <string name="mi_band_setting_auth_request">Vyžiadať kód</string>
     <string name="mi_band_setting_auth_pair">Spárovať</string>
-    <string name="mi_band_setting_auth_unpair">Odpojiť</string>
+    <string name="mi_band_setting_auth_unpair">Odpárovať</string>
 
-    <string name="message_auth_request">Your device is already paired. If you don\'t know the key, please unpair it.</string>
+    <string name="message_auth_request">Zariadenie je už spárované. Ak nepoznáte kód, odpárujte ho.</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">Stlačte tlačidlo na %1$s pre spárovanie</string>
+    <string name="message_mi_band_setting_auth_press_band_button">Na spárovanie stlačte tlačidlo na %1$s</string>
     <string name="message_mi_band_setting_auth_success">%1$s bol úspešne spárovaný</string>
-    <string name="message_mi_band_setting_auth_fail">Spárovanie s %1$s zlyhalo</string>
-    <string name="message_mi_band_setting_auth_key_invalid">Neplatný overovací kľúč</string>
+    <string name="message_mi_band_setting_auth_fail">Spárovanie %1$s zlyhalo</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Neplatný overovací kód</string>
 
-    <string name="pref_disconnect_device">Odpojenie</string>
+    <string name="pref_disconnect_device">Odpojiť</string>
 
     <string name="mi_band_setting_connection_problem_title">Ak máte problém s pripojením</string>
     <string name="mi_band_setting_connection_problem_hint"><![CDATA[
     - Zrušte párovanie hodiniek v nastaveniach Bluetooth telefónu<br>
     - Vypnite a znova zapnite Bluetooth<br>
-    - Násilne zatvorte aplikáciu alebo reštartujte telefón<br>
-    - Znova spárujte hodinky z hlavnej obrazovky
+    - Vynútene zatvorte aplikáciu alebo reštartujte telefón<br>
+    - Skúste hodinky spárovať znova z hlavnej obrazovky
     ]]></string>
 
-    <string name="mi_band_setting_dial">Štýl ciferníka</string>
+    <string name="mi_band_setting_dial">Ciferník</string>
     <string name="mi_band_setting_language">Jazyk</string>
-    <string name="mi_band_setting_time_24h">24hodinový formát času</string>
-    <string name="mi_band_setting_distance_unit">Nastavit jednotky vzdiálenosťi</string>
-    <string name="mi_band_setting_lift_wrist">Zdvihnuťie zápästia pre zobrazenie informacíí</string>
-    <string name="mi_band_setting_screen_on_duration">Screen on duration</string>
-    <string name="mi_band_setting_idle_alert">Oznámenie o nečinnosti</string>
-    <string name="mi_band_setting_idle_alert_duration">Čas nečinnosťi</string>
-    <string name="mi_band_setting_idle_alert_dnd">Nevyrušovať, keď odpočívám (12:00-14:00)</string>
+    <string name="mi_band_setting_time_24h">Formát 24 hodín</string>
+    <string name="mi_band_setting_distance_unit">Jednotka vzdialenosti</string>
+    <string name="mi_band_setting_screen_on_duration">Doba zapnutia obrazovky</string>
+    <string name="mi_band_setting_lift_wrist">Zapnúť obrazovku pri zdvihnutí zápästia</string>
+    <string name="mi_band_setting_idle_alert">Upozornenie na neaktivitu</string>
+    <string name="mi_band_setting_idle_alert_duration">Trvanie neaktivity</string>
+    <string name="mi_band_setting_idle_alert_dnd">Nevyrušovať počas odpočinku (12:00–14:00)</string>
 
-    <string name="pref_synchronization">Synchronization</string>
-    <string name="pref_synchronization_fetch_interval">Synchronization frequency</string>
-    <string name="pref_synchronization_summary">Select the data to be automatically synchronised in the background. If you do not need any of the data, turn it off for better performance. Data can still be synchronised manually on the home screen or in the appropriate menus (by sweeping down).</string>
+    <string name="pref_synchronization">Synchronizácia</string>
+    <string name="pref_synchronization_fetch_interval">Frekvencia synchronizácie</string>
+    <string name="pref_synchronization_summary">Vyberte údaje, ktoré sa majú automaticky synchronizovať na pozadí. Ak niektoré údaje nepotrebujete, vypnite ich pre lepší výkon. Údaje môžete synchronizovať aj manuálne na domovskej obrazovke alebo v príslušných ponukách (potiahnutím nadol).</string>
 
-    <string name="mi_band_setting_profile">Tieto údaje pomáhajú presnejšie vypočítať počet krokov, vzdialenosť a spálené kalórie.</string>
+    <string name="mi_band_setting_profile">Zadaním týchto údajov sa spresní výpočet krokov, vzdialenosti a spálených kalórií.</string>
     <string name="mi_band_setting_gender">Pohlavie</string>
     <string name="mi_band_setting_gender_male">Muž</string>
     <string name="mi_band_setting_gender_female">Žena</string>
     <string name="mi_band_setting_birthday">Dátum narodenia</string>
     <string name="mi_band_setting_height">Výška</string>
-    <string name="mi_band_setting_weight">Váha</string>
+    <string name="mi_band_setting_weight">Hmotnosť</string>
     <string name="mi_band_setting_wearing_place">Miesto nosenia</string>
-    <string name="mi_band_setting_wearing_place_left_wrist">Ľavá ruka</string>
-    <string name="mi_band_setting_wearing_place_right_wrist">Pravá ruka</string>
-
+    <string name="mi_band_setting_wearing_place_left_wrist">Ľavé zápästie</string>
+    <string name="mi_band_setting_wearing_place_right_wrist">Pravé zápästie</string>
 
     <!-- Battery -->
-    <string name="battery_details">Detaily batérie</string>
+    <string name="battery_details">Využitie batérie</string>
 
-    <string name="battery_settings">Nastavenie batérie</string>
-    <string name="battery_settings_notification">Oznámenie nízkéj úrovňe batérie</string>
-    <string name="battery_settings_notification_level">Nastavení hodnoty nízkéj úrovňe batérie</string>
-    <string name="battery_settings_notification_repeat_interval">Interval opakovánia</string>
-    <string name="battery_settings_notification_on_phone">Upozornenie na zariadení</string>
-    <string name="battery_settings_notification_on_phone_ongoing">Trvalé (prebiehajúce) upozornenia</string>
-    <string name="battery_settings_notification_on_phone_message">Úroveň batérie je nižšia ako %1$,d%%</string>
-    <string name="battery_settings_notification_on_device">Upozornenie na náramku</string>
+    <string name="battery_settings">Nastavenia batérie</string>
+    <string name="battery_settings_notification">Upozornenie na nízku úroveň batérie</string>
+    <string name="battery_settings_notification_level">Prah úrovne batérie</string>
+    <string name="battery_settings_notification_repeat_interval">Interval opakovania</string>
+    <string name="battery_settings_notification_on_phone">Upozorniť na telefóne</string>
+    <string name="battery_settings_notification_on_phone_ongoing">Trvalé upozornenie (neodstrániteľné)</string>
+    <string name="battery_settings_notification_on_phone_message">Nízka úroveň batérie: %1$,d%%</string>
+    <string name="battery_settings_notification_on_device">Upozorniť na hodinkách</string>
     <string name="battery_settings_notification_on_device_message">Batéria: %1$,d%%</string>
 
     <!-- Preference screens -->
-    <string name="pref_battery_phone">Batéria zariadenia</string>
-    <string name="pref_battery_phone_summary">Oznámenie nabitej a vybitej baterie</string>
-    <string name="pref_cat_battery_phone_low">Nízká úroveň batérie</string>
-    <string name="pref_battery_phone_low_title">Oznámenie pri nízkéj úrovni batérie</string>
-    <string name="pref_battery_phone_low_level_title">Úroveň nabitéj batérie</string>
-    <string name="pref_battery_phone_low_repeat_interval_title">Interval opakovánia oznámenia</string>
-    <string name="pref_cat_battery_phone_full">Nabitá batéria</string>
-    <string name="pref_battery_phone_full_title">Oznámenie plňe nabitéj batérie</string>
-    <string name="pref_battery_phone_full_plugged_ac">Nabíjačka</string>
-    <string name="pref_battery_phone_full_plugged_usb">USB port</string>
-    <string name="pref_battery_phone_full_plugged_wireless">Bezdrotový zdroj napätia</string>
+    <string name="pref_battery_phone">Batéria telefónu</string>
+    <string name="pref_battery_phone_summary">Upozornenia pri nízkej a plnej úrovni batérie</string>
+    <string name="pref_cat_battery_phone_low">Nízka úroveň batérie</string>
+    <string name="pref_battery_phone_low_title">Upozornenie na nízku batériu</string>
+    <string name="pref_battery_phone_low_level_title">Hranica batérie</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">Interval opakovania</string>
+    <string name="pref_cat_battery_phone_full">Plne nabitá batéria</string>
+    <string name="pref_battery_phone_full_title">Upozornenie na plnú batériu</string>
+    <string name="pref_battery_phone_full_plugged_ac">Nabíjanie zo siete (AC)</string>
+    <string name="pref_battery_phone_full_plugged_usb">Nabíjanie cez USB</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Bezdrôtové nabíjanie</string>
 
-    <string name="pref_battery_phone_message">Batéria zariadenia:\n %1$,d%%</string>
+    <string name="pref_battery_phone_message">Batéria telefónu:\n %1$,d%%</string>
 
     <string name="pref_language">Jazyk</string>
-    <string name="pref_cat_language">Aplikacia</string>
+    <string name="pref_cat_language">Aplikácia</string>
     <string name="pref_language_title">Jazyk</string>
 
     <string name="pref_menu">Menu</string>
@@ -153,184 +153,179 @@
     <string name="pref_menu_item_2">Druhá položka menu</string>
     <string name="pref_menu_item_3">Tretia položka menu</string>
 
-    <string name="pref_diagnostic">Diagnostic</string>
-    <string name="pref_cat_diagnostic_closing_protection">Protection against closing</string>
-    <string name="pref_diagnostic_battery_optimisation">Battery optimisation off</string>
-    <string name="pref_diagnostic_companion_device">Spárovanie sprievodných zariadení</string>
-    <string name="pref_diagnostic_bluetooth_pairing">Bluetooth pairing</string>
-    <string name="pref_diagnostic_autostart">Autostart</string>
-    <string name="pref_diagnostic_autostart_summary">Enable the application to restart automatically in the phone\'s Auto-start manager</string>
+    <string name="pref_diagnostic">Diagnostika</string>
+    <string name="pref_cat_diagnostic_closing_protection">Ochrana pred ukončením</string>
+    <string name="pref_diagnostic_battery_optimisation">Vypnutie optimalizácie batérie</string>
+    <string name="pref_diagnostic_companion_device">Párovanie sprievodného zariadenia</string>
+    <string name="pref_diagnostic_bluetooth_pairing">Bluetooth párovanie</string>
+    <string name="pref_diagnostic_autostart">Automatické spustenie</string>
+    <string name="pref_diagnostic_autostart_summary">Povoľte automatické spustenie aplikácie v správcovi automatického štartu telefónu</string>
     <string name="pref_diagnostic_info">Viac informácií</string>
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
 
     <string name="pref_cat_diagnostic_permissions">Povolenia</string>
     <string name="pref_diagnostic_permission_allow_notification_access_settings">Povoliť prístup k oznámeniam</string>
-    <string name="pref_diagnostic_permission_schedule_exact_alarm">Naplánovať presný alarm</string>
-    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Na naplánovanie úlohy na presný čas je potrebné ďalšie povolenie.</string>
-    <string name="pref_diagnostic_permission_post_notifications">Zobrazovať oznámenia</string>
-    <string name="pref_diagnostic_permission_post_notifications_summary">Na zobrazenie oznámenia je potrebné ďalšie povolenie.</string>
-    <string name="pref_diagnostic_permission_access_notification_policy">Prístup k režimu Nerušiť</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">Plánovanie presného budíka</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Na naplánovanie úlohy v presnom čase je potrebné ďalšie povolenie.</string>
+    <string name="pref_diagnostic_permission_post_notifications">Zobrazenie oznámení</string>
+    <string name="pref_diagnostic_permission_post_notifications_summary">Na zobrazenie oznámení je potrebné dodatočné povolenie.</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">Prístup k režimu „Nerušiť“</string>
 
 
     <!-- Snackbar Messages -->
-    <string name="message_enable_bluetooth">Prosím aktivujte Bluetooth a dajte náramok blížšie k telefónu</string>
-    <string name="message_discover_device">%1$s nie je nastavené, pripojte ho, prosím</string>
-    <string name="message_discovering_device">Hľadanie náramku (môže trvať pár minút) &#8230;</string>
-    <string name="message_discover_device_succeeded">%1$s pripojené</string>
-    <string name="message_discover_device_failed">Spojenie %1$s zlyhalo</string>
-    <string name="message_discover_device_not_found">Pokiaľ nebol náramok nájdení, zapniťe: Haylou Sport/Play/Objavťe alebo spárujťe náramok s Bluetooth Vašho zariadenia</string>
-    <string name="message_enable_notification_listener_access">Povolte přístup k oznámení: Nastavenie/oznámenia/prístup k oznámeniam</string>
-    <string name="message_enable_notification_listener_access_4_4">Povolte přístup k oznámení: Nastavenie/zabezpečenia/prístup k oznámeniam</string>
+    <string name="message_enable_bluetooth">Zapnite Bluetooth a držte hodinky blízko telefónu</string>
+    <string name="message_discover_device">%1$s nie je nastavené, pripojte ho</string>
+    <string name="message_discovering_device">Prebieha hľadanie %1$s (môže to trvať až 1 minútu)…</string>
+    <string name="message_discover_device_succeeded">%1$s bolo úspešne pripojené</string>
+    <string name="message_discover_device_failed">Pripojenie k %1$s zlyhalo</string>
+    <string name="message_discover_device_not_found">Ak %1$s nebolo nájdené, zapnite režim viditeľnosti alebo ho spárujte cez nastavenia Bluetooth telefónu</string>
+    <string name="message_enable_notification_listener_access">Povoľte prístup k oznámeniam: Telefón > Nastavenia > Prístup k oznámeniam</string>
+    <string name="message_enable_notification_listener_access_4_4">Povoľte prístup k oznámeniam: Nastavenia > Zabezpečenie > Prístup k oznámeniam</string>
 
-    <string name="message_deleted">Vymazať</string>
-    <string name="message_undo">Vráťiť</string>
+    <string name="message_deleted">Odstránené</string>
+    <string name="message_undo">Späť</string>
 
-    <string name="message_app_chooser_no_selected">Vyberťe aplikaciu</string>
+    <string name="message_app_chooser_no_selected">Vyberte aplikáciu</string>
 
-    <string name="message_free_counter">Až 1 nastavenie môže byť použité v bezplatnom režime</string>
-    <string name="message_free_counters">Až %1$,d nastavení môže byť použitých v bezplatnom režime</string>
+    <string name="message_free_counter">Iba 1 nastavenie je dostupné v bezplatnom režime</string>
+    <string name="message_free_counters">V bezplatnom režime je možné použiť až %1$,d nastavení</string>
 
-    <string name="message_notification_free_groups">Až %1$,d skupín môže byť použitých v bezplatnom režime</string>
+    <string name="message_notification_free_groups">V bezplatnom režime je možné použiť až %1$,d skupín</string>
+    <string name="message_notification_free_app">Iba 1 aplikácia je dostupná v bezplatnom režime</string>
+    <string name="message_notification_free_apps">V bezplatnom režime je možné vybrať až %1$,d aplikácií</string>
+    <string name="message_notification_free_text">V bezplatnom režime je možné nahrať iba 1 text</string>
 
-    <string name="message_notification_free_app">Až 1 aplikácia môže byť vybraná v bezplatnom režime</string>
-    <string name="message_notification_free_apps">Až %1$,d aplikácií môže byť vybraných v bezplatnom režime</string>
+    <string name="message_time_alarm_free_counter">Iba 1 budík je dostupný v bezplatnom režime</string>
+    <string name="message_time_alarm_max_counter">Je možné použiť až %1$d budíkov</string>
+    <string name="message_time_alarm_enabled">Budík je zapnutý</string>
+    <string name="message_time_alarm_disabled">Budík je vypnutý</string>
+    <string name="message_time_alarm_off">Budík je vypnutý</string>
 
-    <string name="message_notification_free_text">Až 1 text môže byť zaznamenaný v bezplatnom režime</string>
+    <string name="message_touch_pattern_error">Zadaný vzor sa podobá na iný, prosím zadajte iný</string>
+    <string name="message_touch_free_patterns">V bezplatnom režime je možné použiť až %1$,d ovládacích gest</string>
+    <string name="message_touch_record_help">Použite funkcie %1$s na ovládanie hudby alebo hľadanie telefónu</string>
 
-    <string name="message_time_alarm_free_counter">Až 1 budík môže byť použitý v bezplatnom režime</string>
-    <string name="message_time_alarm_max_counter">Až %1$d budíkov môže byť použitých</string>
-    <string name="message_time_alarm_enabled">Budík povolený</string>
-    <string name="message_time_alarm_disabled">Budík zakázáný</string>
-    <string name="message_time_alarm_off">Budík vypnutý</string>
-
-    <string name="message_touch_pattern_error">Zadaný vzorec je podobný vzorcu inéj funkcie, zaznamenajťe inú</string>
-    <string name="message_touch_free_patterns">V normálnom režime sa da použíť až %1$,d funkcie</string>
-    <string name="message_touch_record_help">Use the %1$s music control/find my phone features</string> <!-- %1$s = smartwatch -->
-
-    <string name="message_premium_mode_only">Táto funkcia je k dispozicií iba v prémiovom režime</string>
-    <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
-    <string name="message_general_error">Nastavenie se nepodarilo (spojenie bolo stratené), zkusťe to znova</string>
-    <string name="message_internet_error">Nemáťe pripojenie k internetu</string>
-    <string name="message_internet_traffic_blocked">Sieťová prevádzka je zablokovaná</string>
-    <string name="message_internet_ads_blocked">Reklamy sú blokované</string>
-    <string name="message_gps_enable">Enable the GPS</string>
-    <string name="message_location_enable">Enable the location info permission</string>
+    <string name="message_premium_mode_only">Táto funkcia je dostupná iba v prémiovom režime</string>
+    <string name="message_feature_is_not_supported">%1$s túto funkciu nepodporuje</string>
+    <string name="message_general_error">Nastavenie zlyhalo (stratilo sa pripojenie), skúste to znova</string>
+    <string name="message_internet_error">Nie je pripojenie na internet</string>
+    <string name="message_internet_traffic_blocked">Sieťová prevádzka je blokovaná</string>
+    <string name="message_internet_ads_blocked">Reklamy sú zablokované</string>
+    <string name="message_gps_enable">Zapnite GPS</string>
+    <string name="message_location_enable">Povoľte prístup k polohe</string>
 
     <string name="message_in_progress">Prebieha…</string>
-    <string name="message_no_data">Žiádne údaje niesú k dispozicií</string>
+    <string name="message_no_data">Nie sú dostupné žiadne údaje</string>
 
-    <string name="message_rewarded_error">Failed to load video</string>
+    <string name="message_rewarded_error">Nepodarilo sa načítať video</string>
 
-    <string name="message_new_message">Prišla nová správa, zobrazíte ju na telefóne.</string>
+    <string name="message_new_message">Prišla nová správa. Skontrolujte ju v telefóne.</string>
 
     <string name="message_permission_not_granted">Povolenie nebolo udelené: %1$s</string> <!-- %1$s = permission name -->
 
-    <!-- Dialog -->
-    <string name="dialog_welcome_title">Vítajťe!</string>
+    <!-- Welcome dialog -->
+    <string name="dialog_welcome_title">Vitaj!</string>
     <string name="dialog_welcome_message"><![CDATA[Podporované zariadenia:
     <watch_types/>
-    <p><app_name/> requires the installation of the official <device_type/> app on the same phone. At first you have to pair your smart watch in the <device_type/> app, then you can use this app.</p>
-    <p>Pokiaľ nieje najdený smart náramok, môžete nastaviť MAC adresu ručne v ponuke podrobnosťi.</p>
-    <b>Pokiaľ máte problém s pripojením, postupujte podľa inštrukcií uvedených nížšie:</b>
-    <br>- Obrazovka prehľiadu aplikacií (recent apps screen): Uzavriťe aplikaciu <app_name/> (potiahniťe smerom preč z obrazovky, alebo klikniťe na ikonu křížika).
-    <br>- Nastavenie/batérie/optimalizácia výdrž batérie: zvolťe aplikaciu <app_name/> a vyberťe neoptimalizovať.
-    <br>- Nastavenie/aplikacie: vymažte dáta aplikacie Zdielanie Bluetooth a ostatních Bluetooth aplikacií.
+    <p>Na používanie aplikácie <app_name/> je potrebné nainštalovať oficiálnu aplikáciu <device_type/> na rovnaký telefón. Najskôr spárujte hodinky v aplikácii <device_type/>, potom môžete používať túto aplikáciu.</p>
+    <p>Ak sa nepodarí nájsť <device_type/>, môžete počas vyhľadávania zadať MAC adresu manuálne.</p>
+    <b>Riešenie problémov s pripojením:</b>
+    <br>- Obrazovka nedávnych aplikácií: uzamknite aplikáciu <app_name/> (potiahnite náhľad aplikácie nadol a vyberte možnosť „Zamknúť“ alebo ekvivalent).
+    <br>- Optimalizácia batérie: nastavte aplikáciu <app_name/> ako neoptimalizovanú.
+    <br>- Telefón/aplikácie: vymažte dáta aplikácie Bluetooth Share a iných aplikácií so slovom „Bluetooth“.
     <br>- Viac informácií: https://dontkillmyapp.com
-    <br><br><small>Tento produkt a jeho funkcie nie sú určené na lekárske účely a nie sú určené na predpovedanie, diagnostikovanie, prevenciu alebo liečbu akýchkoľvek chorôb. Všetky údaje a merania slúžia len na osobnú informáciu a nesmú sa používať ako základ pre diagnostiku alebo liečbu.</small>
+    <br><br><small>Tento produkt a jeho funkcie nie sú určené na lekárske účely a neslúžia na predpovedanie, diagnostikovanie, prevenciu ani liečbu žiadnych ochorení. Všetky údaje a merania slúžia len na osobné informácie a nesmú sa používať ako základ pre diagnostiku alebo liečbu.</small>
     ]]></string>
 
 
-    <!-- Notification Dialog -->
+    <!-- Notification  -->
     <string name="notification_group_nav_setting">Nastavenie</string>
-    <string name="notification_group_nav_filter">Filtrovánie oznámení</string>
-    <string name="notification_group_nav_correction">Oprava</string>
+    <string name="notification_group_nav_filter">Filtrovanie</string>
+    <string name="notification_group_nav_correction">Úprava textu</string>
 
-    <string name="notification_group_name">Meno</string>
-    <string name="notification_group_monitoring">Zobrazovánie oznámenia</string>
-    <string name="notification_group_monitoring_disabled">Zakázať oznámenia (nezobrazovať oznámenia aplikacie)</string>
-    <string name="notification_group_alert_title">Oznámenie na %1$s</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
-    <string name="notification_group_text_customization">Text obrazovky</string>
-    <string name="notification_group_text_app_name">Názov aplikacie</string>
-    <string name="notification_group_text_name">Meno</string>
-    <string name="notification_group_text_title">Názov</string>
+    <string name="notification_group_name">Názov</string>
+    <string name="notification_group_monitoring">Sledovanie oznámení</string>
+    <string name="notification_group_monitoring_disabled">Vylúčiť oznámenia (neukazovať oznámenia tejto aplikácie)</string>
+    <string name="notification_group_alert_title">Upozornenie %1$s</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="notification_group_text_customization">Prispôsobenie textu</string>
+    <string name="notification_group_text_app_name">Názov aplikácie</string>
+    <string name="notification_group_text_name">Názov</string>
+    <string name="notification_group_text_title">Titulok</string>
     <string name="notification_group_text_content">Obsah</string>
     <string name="notification_group_text_big_content">Celý obsah</string>
-    <string name="notification_group_text_content_slice_title">Dlžka textu</string>
-    <string name="notification_group_display_duration_title">Čas zobrazenia</string>
-    <string name="notification_group_show_notification_title">Display notification</string>
-    <string name="notification_group_immediate">Okamžité oznámenie pri prijati notifikacie</string>
-    <string name="notification_group_connecting">Pri pripojení k zariadeniu</string>
-    <string name="notification_group_reminder">Pripomenutie oznámenia</string>
-    <string name="notification_group_ongoing">Prebiehajúce (trvalé) oznámenia notifikacií</string>
-    <string name="notification_group_screen_off">Oznámenie iba, vtedy keď je obrazovka vypnutá</string>
-    <string name="notification_group_repeat_title">Opakujte signály</string>
-    <string name="notification_group_wakelock">Prebudiť obrazovku zariadenia</string>
-    <string name="notification_group_grouped_display_title">Display setting for the group notifications</string>
-    <string name="notification_group_grouped_sort_order_title">Sort order for the group notifications</string>
+    <string name="notification_group_text_content_slice_title">Dĺžka textu</string>
+    <string name="notification_group_display_duration_title">Doba zobrazenia</string>
+    <string name="notification_group_show_notification_title">Zobraziť oznámenie</string>
+    <string name="notification_group_immediate">Ihneď upozorniť pri prijatí oznámenia</string>
+    <string name="notification_group_connecting">Upozorniť pri pripojení</string>
+    <string name="notification_group_reminder">Pripomienka upozornenia</string>
+    <string name="notification_group_ongoing">Upozorniť na trvalé (neodstrániteľné) oznámenia</string>
+    <string name="notification_group_screen_off">Upozorniť iba pri vypnutej obrazovke</string>
+    <string name="notification_group_repeat_title">Opakované upozornenia</string>
+    <string name="notification_group_wakelock">Prebudiť obrazovku</string>
+    <string name="notification_group_grouped_display_title">Nastavenie zobrazenia pre zoskupené oznámenia</string>
+    <string name="notification_group_grouped_sort_order_title">Poradie triedenia pre zoskupené oznámenia</string>
 
-    <string name="notification_group_filter">Filtrovánie oznámení</string>
-    <string name="notification_group_filter_title">Názov filtra</string>
-    <string name="notification_group_filter_content">Obsah filtra</string>
+    <string name="notification_group_filter">Filtrovanie oznámení</string>
+    <string name="notification_group_filter_title">Filtrovanie podľa titulku</string>
+    <string name="notification_group_filter_content">Filtrovanie podľa obsahu</string>
     <string name="notification_group_filter_regex">Regex</string>
-    <string name="notification_group_filter_hint">Oznámenia iba v prípadě, že názov alebo obsah oznámenia(malé a veľké písmena)</string>
-    <string name="notification_group_filter_contains">Obsahuje frázu</string>
-    <string name="notification_group_filter_not_contains">Neobsahuje frázu</string>
+    <string name="notification_group_filter_hint">Upozorniť iba vtedy, ak titulok alebo obsah oznámenia zodpovedá (nerozlišujú sa veľké a malé písmená)</string>
+    <string name="notification_group_filter_contains">Obsahuje niektoré z týchto</string>
+    <string name="notification_group_filter_not_contains">Neobsahuje žiadne z týchto</string>
 
     <string name="notification_group_sample_sms">SMS</string>
     <string name="notification_group_sample_facebook">Messenger</string>
     <string name="notification_group_sample_whatsapp">WhatsApp</string>
 
-    <string name="notification_group_correction">Text correction</string>
-    <string name="notification_group_correction_title">Title correction</string>
-    <string name="notification_group_correction_content">Content correction</string>
+    <string name="notification_group_correction">Úprava textu oznámenia</string>
+    <string name="notification_group_correction_title">Úprava titulku</string>
+    <string name="notification_group_correction_content">Úprava obsahu</string>
     <string name="notification_group_correction_regex">Regex</string>
-    <string name="notification_group_correction_hint">Case insensitive</string>
-    <string name="notification_group_correction_items">Texts to be corrected</string>
-    <string name="notification_group_correction_find">Find</string>
-    <string name="notification_group_correction_replace">Replace with</string>
+    <string name="notification_group_correction_hint">Bez rozlíšenia veľkých a malých písmen</string>
+    <string name="notification_group_correction_items">Texty na úpravu</string>
+    <string name="notification_group_correction_find">Vyhľadať</string>
+    <string name="notification_group_correction_replace">Nahradiť</string>
 
-    <string name="notification_regex_hint">Non-alphanumeric characters have a special meaning, if you don\'t know the Regex, do not tick it</string>
+    <string name="notification_regex_hint">Nepísmenové znaky majú špeciálny význam. Ak nepoznáte Regex, nechajte toto pole nezačiarknuté.</string>
 
-    <string name="notification_confirm_close">Naozaj chcete zmeny vyradiť?</string>
+    <string name="notification_confirm_close">Naozaj chcete zahodiť vykonané zmeny?</string>
 
-    <string name="notification_edit_play_text_title">Názov oznámení</string>
-    <string name="notification_edit_play_text_content">Obsah oznámení:
-    Lorem ipsum (Skratenéc lipsum) je označenie pre štandardní pseudolatinský text používaný v grafickom designu a navrhování ako demonštrativní výplňovací text pri vytváraní pracovnéj úkažky grafických návrhov (napr. fontov alebo rozvrhnutie časopisov či HTML stránok).
-        \nLipsum tak pracovne znázorňuje text v ukážkových maketách (tzv. mock-up) predtím, než buďe do hotového návrhu vložený zmysluplný obsah.
-    </string>
+    <string name="notification_edit_play_text_title">Titulok oznámenia</string>
+    <string name="notification_edit_play_text_content">Obsah oznámenia:</string>
 
 
     <!-- Incoming call alert -->
-    <string name="call_tab_call">Príchadzajúcí hovor</string>
+    <string name="call_tab_call">Prichádzajúci hovor</string>
     <string name="call_tab_contacts">Kontakty</string>
 
-    <string name="call_incoming">Príchadzajúcí hovor</string>
-    <string name="call_incoming_summary_on">Nezabudniťe vypnuť upozornenia na príchadzajúcí hovor v aplikacií %1$s</string> <!-- %1$s = official app name -->
-    <string name="call_incoming_caller_id">Zobrazťe ID volajucého</string>
+    <string name="call_incoming">Prichádzajúci hovor</string>
+    <string name="call_incoming_summary_on">Nezabudnite vypnúť upozornenia na prichádzajúci hovor v aplikácii %1$s</string>
+    <string name="call_incoming_caller_id">Zobraziť identitu volajúceho</string>
 
-    <string name="pref_call_notification_rejected">Show notification about rejected call</string>
-    <string name="pref_call_notification_rejected_message">Rejected call</string>
-    <string name="pref_call_notification_rejected_action">Call</string>
+    <string name="pref_call_notification_rejected">Zobraziť upozornenie o odmietnutom hovore</string>
+    <string name="pref_call_notification_rejected_message">Odmietnutý hovor</string>
+    <string name="pref_call_notification_rejected_action">Volanie</string>
 
-    <string name="call_incoming_net_alert_title">Oznámenie príchadzajúceho internetového volánia</string>
+    <string name="call_incoming_net_alert_title">Upozornenie na prichádzajúci internetový hovor</string>
 
-    <string name="call_missed_title">Oznámenie zmeškaného hovoru</string>
-    <string name="call_missed_chooser_title">Oznámení na %1$s</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="call_missed_title">Upozornenie na zmeškaný hovor</string>
+    <string name="call_missed_chooser_title">Upozornenie %1$s</string>
     <string name="call_missed_notification">Zmeškaný hovor</string>
 
-    <string name="call_reject_button_action">Tlačítko odmietnuť</string>
+    <string name="call_reject_button_action">Akcia tlačidla na odmietnutie</string>
 
-    <string name="touch_call_answer_title">Spätné volánie</string>
-    <string name="touch_call_answer_speakerphone_title">Hlasité volánie</string>
+    <string name="touch_call_answer_title">Prijať hovor</string>
+    <string name="touch_call_answer_speakerphone_title">Reproduktor</string>
 
-    <string name="call_end_title">Odmítnutie hovoru, ukončenie</string>
+    <string name="call_end_title">Odmietnutie a ukončenie hovoru</string>
 
-    <string name="touch_call_mute_title">Zavolám</string>
-    <string name="touch_call_mute_only_call_state_ringing_title">Iba pokiaľ máte příchadzajúcí hovor</string>
-    <string name="touch_call_mute_recognition_title">Pri příchadzajúcom hovore</string>
+    <string name="touch_call_mute_title">Stlmiť hovor</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Iba pri prichádzajúcom hovore</string>
+    <string name="touch_call_mute_recognition_title">Pri prichádzajúcom hovore</string>
 
     <string name="call_contact_edit_contact">Kontakt</string>
-    <string name="call_contact_edit_name">Názov</string>
+    <string name="call_contact_edit_name">Meno</string>
     <string name="call_contact_edit_phone_number">Telefónne číslo</string>
 
     <string name="call_contact_edit_setting_name_order">Poradie mien</string>
@@ -338,398 +333,387 @@
     <string name="call_contact_edit_setting_first_name">Krstné meno</string>
     <string name="call_contact_edit_setting_last_name">Priezvisko</string>
 
-    <string name="message_call_contacts_free_counter">Až %1$d kontaktov je možné použiť v bezplatnom režime</string>
-    <string name="message_call_contacts_max_counter">Až %1$d kontaktov je možné použiť</string>
+    <string name="message_call_contacts_free_counter">V bezplatnom režime je možné použiť až %1$d kontaktov</string>
+    <string name="message_call_contacts_max_counter">Je možné použiť až %1$d kontaktov</string>
 
     <!-- App chooser dialog -->
-    <string name="app_chooser">Výber aplikací</string>
-    <string name="action_search">Vyhľiadavanie</string>
-    <string name="action_filter_notification">Filter oznámenia</string>
-
+    <string name="app_chooser">Výber aplikácie</string>
+    <string name="action_search">Hľadať</string>
+    <string name="action_filter_notification">Filter oznámení</string>
 
     <!-- Activity -->
-    <string name="step_details">Podrobnosťi aktivít</string>
+    <string name="step_details">Podrobnosti aktivity</string>
 
-    <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
-    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
-    <string name="mi_band_tracker_distance_kilometer_title">%,.2f km</string> <!-- kilometre -->
-    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
-    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
+    <string name="mi_band_tracker_step_title">%1$,d</string>
+    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string>
+    <string name="mi_band_tracker_distance_kilometer_title">%,.2f km</string>
+    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string>
+    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string>
 
     <string name="action_tracker_step">Kroky</string>
-    <string name="action_tracker_distance">Vzdiálenost</string>
-    <string name="action_tracker_calorie">Kalorie</string>
+    <string name="action_tracker_distance">Vzdialenosť</string>
+    <string name="action_tracker_calorie">Kalórie</string>
     <string name="action_tracker_duration">Trvanie cvičenia</string>
 
-    <string name="step_goal_default_title">Východzí cieľ</string>
-
+    <string name="step_goal_default_title">Predvolený cieľ</string>
 
     <!-- Sleep monitoring -->
-    <string name="sleep_details">Podrobnosťi o spánku</string>
+    <string name="sleep_details">Podrobnosti o spánku</string>
 
-    <string name="sleep_awake">Prebudený</string>
-    <string name="sleep_light">Ľahký</string>
-    <string name="sleep_deep">Hlboký</string>
-    <string name="sleep_rem">REM</string>
-
+    <string name="sleep_awake_phase_short">Bdenie</string>
+    <string name="sleep_light_phase_short">Ľahký</string>
+    <string name="sleep_deep_phase_short">Hlboký</string>
+    <string name="sleep_rem_phase_short">REM</string>
 
     <!-- Heart rate -->
-    <string name="heart_rate_details">Podrobnosťi ťepu</string>
+    <string name="heart_rate_details">Podrobnosti o srdcovom tepe</string>
 
-    <string name="heart_rate_continuous_measurement_title">Nepřetržité meranie tepu</string>
+    <string name="heart_rate_continuous_measurement_title">Nepretržité meranie tepu</string>
 
     <string name="heart_rate_alert_title">Upozornenie na srdcový tep</string>
-    <string name="heart_rate_thresholds">Hranice srdcového tepu</string>
+    <string name="heart_rate_thresholds">Hodnoty srdcového tepu</string>
     <string name="low_heart_rate">Nízky srdcový tep</string>
     <string name="high_heart_rate">Vysoký srdcový tep</string>
 
 
     <!-- Blood oxygen -->
-    <string name="blood_oxygen_details">Podrobnosti o krvnom kyslíkus</string>
+    <string name="blood_oxygen_details">Podrobnosti o okysličení krvi</string>
 
-    <string name="blood_oxygen_level_measurement">Blood oxygen level measurement</string>
-    <string name="measurement_interval">Measurement interval</string>
-
+    <string name="blood_oxygen_level_measurement">Meranie hladiny okysličenia krvi</string>
+    <string name="measurement_interval">Interval merania</string>
 
     <!-- Blood pressure -->
     <string name="blood_pressure_details">Podrobnosti o krvnom tlaku</string>
 
-    <string name="blood_pressure_level_measurement">Blood pressure level measurement</string>
+    <string name="blood_pressure_level_measurement">Meranie krvného tlaku</string>
 
     <string name="blood_pressure_systolic_abbreviation">Sys</string>
     <string name="blood_pressure_diastolic_abbreviation">Dia</string>
     <string name="blood_pressure_unit">mmHg</string>
 
-
     <!-- Workout -->
-    <string name="workout_details">Podrobnosti o cvičení</string>
-
+    <string name="workout_details">Podrobnosti o tréningu</string>
 
     <!-- Alarm -->
-    <string name="action_time_alarm_sort_state_asc">State ascending</string>
-    <string name="action_time_alarm_sort_watch_asc">Watch ascending</string>
-    <string name="action_time_alarm_sort_name_asc">Name ascending</string>
+    <string name="action_time_alarm_sort_state_asc">Podľa stavu vzostupne</string>
+    <string name="action_time_alarm_sort_watch_asc">Podľa hodiniek vzostupne</string>
+    <string name="action_time_alarm_sort_name_asc">Podľa názvu vzostupne</string>
 
-    <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Haylou Smart Watch ... -->
+    <string name="message_time_alarm_sync">Synchronizovať budíky zariadenia %1$s (odstráni existujúce a nastaví nové budíky na hodinkách)</string>
 
     <string name="info_dialog_alarm"><![CDATA[
-        <p>When using cooperation mode, the settings of the official application and the <app_name/> application can overwrite and delete each other\'s settings.</p>
-        The last operation performed will take effect.
+    <p>Pri používaní režimu spolupráce môžu nastavenia oficiálnej aplikácie a aplikácie <app_name/> prepísať alebo vymazať navzájom svoje nastavenia.</p>
+    Platné bude posledné vykonané nastavenie.
+    ]]></string>
+
+    <!-- Reminder -->
+    <string name="message_reminder_enabled">Pripomienka zapnutá</string>
+    <string name="message_reminder_disabled">Pripomienka vypnutá</string>
+
+    <string name="reminder_repeat">Opakovanie každú hodinu</string>
+    <string name="reminder_notification_on_phone">Upozorniť na telefóne</string>
+
+    <string name="message_time_reminder_free_counter">V bezplatnom režime je možné použiť iba 1 pripomienku</string>
+
+    <string name="info_dialog_reminder"><![CDATA[
+    Na zobrazenie pripomienky je potrebné Bluetooth pripojenie.
+    ]]></string>
+
+    <!-- Do not disturb -->
+    <string name="pref_dnd_summary">Stav ovládačov v režime nerušiť</string>
+    <string name="pref_dnd_enable_bluetooth">Na začiatku režimu DnD vypnúť Bluetooth, na konci ho znovu zapnúť</string>
+
+    <string name="info_dialog_dnd"><![CDATA[
+    Ak používate režim spolupráce, v oficiálnej aplikácii <device_type/> musí byť režim nerušiť (DnD) nastavený medzi 00:00 a 23:59 a jeho stav musí byť vypnutý.
     ]]></string>
 
 
-    <!-- Reminder -->
-    <string name="message_reminder_enabled">Připomenutí povolen</string>
-    <string name="message_reminder_disabled">Připomenutí zakázáno</string>
-
-    <string name="reminder_repeat">Hodinové opakovanie</string>
-    <string name="reminder_notification_on_phone">Upozornění na zařízení</string>
-
-    <string name="message_time_reminder_free_counter">Až 1 pripomienka môže byť použitá v bezplatnom režime</string>
-
-    <string name="info_dialog_reminder"><![CDATA[
-        Bluetooth connection is required to display the reminder.
-        ]]>
-    </string>
-
-
-    <!-- Do not disturb -->
-    <string name="pref_dnd_summary">Nastavenie v režime nerušiť</string>
-    <string name="pref_dnd_enable_bluetooth">Na začiatku režima DnD vypniťe Bluetooth, na konci Bluetooth zapniťe</string>
-
-    <string name="info_dialog_dnd"><![CDATA[
-        If you are using cooperation mode, in the official <device_type/> application the do not disturb (DnD) mode must be between 00:00 and 23:59 and its status must be turned off.
-    ]]></string> <!-- %1$s Haylou fit-->
-
-
     <!-- Watch face -->
-    <string name="watch_face_tab_watch_faces">Štýl ciferníka</string>
-    <string name="watch_face_tab_watch_face_custom">Custom files</string>
+    <string name="watch_face_tab_watch_faces">Ciferníky</string>
+    <string name="watch_face_tab_watch_face_custom">Vlastné súbory</string>
     <string name="watch_face_tab_watch_face_editor">Editor</string>
 
-    <string name="watch_face_download_title">Download watch face</string>
-    <string name="watch_face_upload_title">Upload watch face</string>
-    <string name="watch_face_tool_title">Tools</string>
+    <string name="watch_face_download_title">Stiahnutie ciferníka</string>
+    <string name="watch_face_upload_title">Nahratie ciferníka</string>
+    <string name="watch_face_tool_title">Nástroje</string>
 
-    <string name="watch_face_share_content">You can share the watch face you have created with others. E-mail the watch face and preview files and enter the following information: author, watch face name (max. 30 characters in total) and the watch face language. We only publish high quality watch faces.</string>
+    <string name="watch_face_share_content">Svoj vytvorený ciferník môžeš zdieľať s ostatnými. Pošli ciferník a jeho náhľad e-mailom a uveď nasledujúce údaje: meno autora, názov ciferníka (max. 30 znakov) a jazyk ciferníka. Zverejňujeme iba kvalitné ciferníky.</string>
 
-    <string name="watch_face_upload_prepare">Preparing for the upload…</string>
-    <string name="watch_face_upload_progress">Uploading %1$,d%%</string>
+    <string name="watch_face_upload_prepare">Príprava na nahratie…</string>
+    <string name="watch_face_upload_progress">Nahrávanie %1$,d%%</string>
 
-    <string name="watch_face_invalid_firmware">Firmware %1$s nie je známy alebo nepodporuje nahrávanie ciferníkov. Aktualizujte firmware pomocou oficiálnej aplikácie. Ak oficiálna aplikácia podporuje nahrávanie ciferníkov, dajte nám vedieť prostredníctvom ponuky Spätná väzba.</string>
-    <string name="watch_face_invalid_auth">Use in standalone mode, when using cooperation mode, the official application may block the watch face upload</string>
-    <string name="watch_face_invalid_free">Vo voľnom režime dnes nemožno nahrať ďalšie ciferníky</string>
-    <string name="watch_face_watch_rewarded_ads">Pozrite si video, aby ste mohli pokračovať</string>
-    <string name="watch_face_watch_rewarded_ads_uploading">Pozrite si video, aby ste mohli pokračovať v nahrávaní</string>
-    <string name="watch_face_watch_rewarded_ads_countdown">Video sa spúšťa…</string>
+    <string name="watch_face_invalid_firmware">Firmware %1$s nie je rozpoznaný alebo nepodporuje nahrávanie ciferníkov. Aktualizuj firmware cez oficiálnu aplikáciu. Ak oficiálna aplikácia podporuje nahrávanie ciferníkov, daj nám o tom vedieť cez menu Spätná väzba.</string>
+    <string name="watch_face_invalid_auth">Používaj v samostatnom režime – pri spolupráci s oficiálnou aplikáciou môže byť nahrávanie ciferníkov zablokované</string>
+    <string name="watch_face_invalid_free">Vo voľnom režime dnes už nie je možné nahrať ďalšie ciferníky</string>
+    <string name="watch_face_watch_rewarded_ads">Pozri si video na pokračovanie</string>
+    <string name="watch_face_watch_rewarded_ads_uploading">Pozri si video na pokračovanie nahrávania</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">Spúšťa sa video…</string>
 
-    <string name="watch_face_upload_method_title">Method</string>
+    <string name="watch_face_upload_method_title">Režim</string>
     <string name="watch_face_upload_method_default">@string/default_</string>
-    <string name="watch_face_upload_method_alternative">Alternative</string>
+    <string name="watch_face_upload_method_alternative">Alternatíva</string>
 
     <string name="watch_face_upload_speed_title">Rýchlosť nahrávania</string>
-    <string name="watch_face_upload_invalid_speed_hint">Ak je proces nahrávania ciferníka prerušený, nastavte nižšiu rýchlosť</string>
-    <string name="watch_face_upload_invalid_size_hint">Neplatná veľkosť súboru ciferníka — nastavte nižšiu kvalitu ciferníka alebo odstráňte položky z ciferníka</string>
-    <string name="watch_face_upload_invalid_battery_hint">Batéria inteligentných hodiniek sa vybíja, prosím, nabite hodinky</string>
+    <string name="watch_face_upload_invalid_speed_hint">Ak sa nahrávanie ciferníka prerušuje, nastav nižšiu rýchlosť</string>
+    <string name="watch_face_upload_invalid_size_hint">Neplatná veľkosť ciferníka — zníž kvalitu alebo odstráň prvky z ciferníka</string>
+    <string name="watch_face_upload_invalid_battery_hint">Batéria hodiniek je takmer vybitá, prosím, nabi hodinky</string>
 
-    <string name="watch_face_tbwf_quality_title">Nastavenie kvality ciferníka .tbwf</string>
-    <string name="watch_face_tbwf_quality_hint">Veľkosť súboru je možné znížiť, ak to hodinky umožňujú</string>
+    <string name="watch_face_tbwf_quality_title">Nastavenie kvality ciferníka (.tbwf)</string>
+    <string name="watch_face_tbwf_quality_hint">Ak to hodinky umožňujú, veľkosť súboru sa dá zmenšiť</string>
 
-    <string name="watch_face_tbwf_locale_title">Nastavenie jazyka a krajiny ciferníka .tbwf</string>
-    <string name="watch_face_tbwf_locale_hint">Deň v týždni, oddeľovač mesiacov a desatinný oddeľovač</string>
+    <string name="watch_face_tbwf_locale_title">Nastavenie jazyka a oblasti ciferníka (.tbwf)</string>
+    <string name="watch_face_tbwf_locale_hint">Názvy dní v týždni, oddeľovač mesiacov a desatinný znak</string>
 
     <string name="message_watch_face_file_invalid">Neplatný súbor ciferníka</string>
     <string name="message_watch_face_file_invalid_size">Neplatná veľkosť súboru ciferníka</string>
-    <string name="message_watch_face_file_invalid_battery">Batéria inteligentných hodiniek je takmer vybitá</string>
-    <string name="message_watch_face_image_file_error">Neplatný súbor s obrázkom</string>
+    <string name="message_watch_face_file_invalid_battery">Batéria hodiniek je takmer vybitá</string>
+    <string name="message_watch_face_image_file_error">Neplatný obrazový súbor</string>
     <string name="message_watch_face_font_file_error">Neplatný súbor písma</string>
 
-    <string name="action_chart_layout_2_columns">Rozloženie s 2 stĺpcami</string>
-    <string name="action_chart_layout_3_columns">Rozloženie s 3 stĺpcami</string>
+    <string name="action_chart_layout_2_columns">Rozloženie na 2 stĺpce</string>
+    <string name="action_chart_layout_3_columns">Rozloženie na 3 stĺpce</string>
 
     <string name="watch_face_edit_dial">Ciferník</string>
     <string name="watch_face_edit_preview">Náhľad</string>
     <string name="watch_face_edit_hour_digital">Hodina</string>
     <string name="watch_face_edit_minute_digital">Minúta</string>
-    <string name="watch_face_edit_second_digital">Druhý</string>
-    <string name="watch_face_edit_am_pm">AM/PM indicator</string>
-    <string name="watch_face_edit_am">AM</string>
-    <string name="watch_face_edit_pm">PM</string>
+    <string name="watch_face_edit_second_digital">Sekunda</string>
+    <string name="watch_face_edit_am_pm">Indikátor dop./pop.</string>
+    <string name="watch_face_edit_am">dop.</string>
+    <string name="watch_face_edit_pm">pop.</string>
     <string name="watch_face_edit_hour_analog">Hodinová ručička</string>
     <string name="watch_face_edit_minute_analog">Minútová ručička</string>
     <string name="watch_face_edit_second_analog">Sekundová ručička</string>
-    <string name="watch_face_edit_axis">Axis of rotation</string>
-    <string name="watch_face_edit_hour_minute_separator">Hodinu a minútu separátor</string>
+    <string name="watch_face_edit_axis">Osi otáčania</string>
+    <string name="watch_face_edit_hour_minute_separator">Oddeľovač hodín a minút</string>
     <string name="watch_face_edit_year">Rok</string>
     <string name="watch_face_edit_year_month_separator">Oddeľovač roka a mesiaca</string>
     <string name="watch_face_edit_month">Mesiac</string>
-    <string name="watch_face_edit_month_name">Mesačný menom</string>
+    <string name="watch_face_edit_month_name">Názov mesiaca</string>
     <string name="watch_face_edit_month_day_separator">Oddeľovač mesiaca a dňa</string>
-    <string name="watch_face_edit_day">Dňom</string>
+    <string name="watch_face_edit_day">Deň</string>
     <string name="watch_face_edit_dayOfWeek">Deň v týždni</string>
-    <string name="watch_face_edit_battery_level">Úroveň baterie</string>
-    <string name="watch_face_edit_battery_level_percent_sign">Úroveň baterie %</string>
+    <string name="watch_face_edit_battery_level">Úroveň batérie</string>
+    <string name="watch_face_edit_battery_level_percent_sign">Úroveň batérie %</string>
     <string name="watch_face_edit_battery_level_image">Obrázok batérie</string>
     <string name="watch_face_edit_weather_temperature">Teplota</string>
-    <string name="watch_face_edit_weather_temperature_unit_sign">Teplotná jednotka °</string>
+    <string name="watch_face_edit_weather_temperature_unit_sign">Jednotka teploty °</string>
     <string name="watch_face_edit_weather_image">Obrázok počasia</string>
-    <string name="watch_face_edit_connection_indicator_image">Obrázok indikátora pripojenia</string>
+    <string name="watch_face_edit_connection_indicator_image">Obrázok pripojenia</string>
     <string name="watch_face_edit_connected">Pripojené</string>
     <string name="watch_face_edit_disconnected">Odpojené</string>
     <string name="watch_face_edit_steps">Kroky</string>
-    <string name="watch_face_edit_steps_image">Krokový obrázok</string>
-    <string name="watch_face_edit_steps_goal_progress">Pokrok cieľa krokov</string>
-    <string name="watch_face_edit_distance">Vzdiálenost</string>
+    <string name="watch_face_edit_steps_image">Obrázok krokov</string>
+    <string name="watch_face_edit_steps_goal_progress">Postup k cieľu krokov</string>
+    <string name="watch_face_edit_distance">Vzdialenosť</string>
     <string name="watch_face_edit_distance_image">Obrázok vzdialenosti</string>
-    <string name="watch_face_edit_calories">Kalorie</string>
+    <string name="watch_face_edit_calories">Kalórie</string>
     <string name="watch_face_edit_calories_image">Obrázok kalórií</string>
-    <string name="watch_face_edit_heart_rate">Srdcová frekvencia</string>
-    <string name="watch_face_edit_heart_rate_image">Obrázok srdcovej frekvencie</string>
+    <string name="watch_face_edit_heart_rate">Tepová frekvencia</string>
+    <string name="watch_face_edit_heart_rate_image">Obrázok tepu</string>
 
     <string name="watch_face_edit_color">Farba</string>
-    <string name="watch_face_edit_font_family">Font</string>
+    <string name="watch_face_edit_font_family">Písmo</string>
     <string name="watch_face_edit_font_size">Veľkosť písma</string>
-    <string name="watch_face_edit_character">Character</string>
-    <string name="watch_face_edit_image">Obraz</string>
-    <string name="watch_face_edit_image_png_jpeg">Obraz (.png, .jpeg)</string>
-    <string name="watch_face_edit_image_png">Obraz (.png)</string>
-    <string name="watch_face_edit_icon">Icon</string>
-    <string name="watch_face_edit_image_size">Veľkosť obrazu</string>
+    <string name="watch_face_edit_character">Znak</string>
+    <string name="watch_face_edit_image">Obrázok</string>
+    <string name="watch_face_edit_image_png_jpeg">Obrázok (.png, .jpeg)</string>
+    <string name="watch_face_edit_image_png">Obrázok (.png)</string>
+    <string name="watch_face_edit_icon">Ikona</string>
+    <string name="watch_face_edit_image_size">Veľkosť obrázka</string>
 
     <string name="watch_face_custom_watch_face_not_supported_title">Tieto hodinky nepodporujú nahrávanie vlastných ciferníkov</string>
-    <string name="watch_face_custom_watch_face_under_development_title">Funkcia nahrávania vlastných ciferníkov je momentálne vo vývoji a v budúcnosti môže byť dostupná, ale zatiaľ nie je potvrdená.</string>
+    <string name="watch_face_custom_watch_face_under_development_title">Funkcia nahrávania vlastných ciferníkov je momentálne vo vývoji a v budúcnosti môže byť dostupná, ale zatiaľ to nie je potvrdené.</string>
 
     <!-- Touch monitoring -->
-    <string name="touch_tab_function">Function</string>
+    <string name="touch_tab_function">Funkcia</string>
     <string name="touch_tab_control">Ovládanie</string>
-    <string name="touch_tab_testing">Testovánie</string>
+    <string name="touch_tab_testing">Testovanie</string>
     <string name="touch_tab_setting">@string/setting_name</string>
 
-    <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
-    <string name="touch_function">%1$s function</string> <!-- %1$s = Watch name -->
-    <string name="touch_function_as_touch">Use function as a touch in the control menu</string>
+    <string name="touch_function_summary">Nastavte tieto funkcie, ak používate samostatný režim alebo ak ich Mi Fit nespravuje správne</string>
+    <string name="touch_function">%1$s funkcia</string>
+    <string name="touch_function_as_touch">Použiť funkciu ako dotyk v ovládacom menu</string>
 
-    <string name="touch_headline_incoming_call_title">Incoming call</string>
-    <string name="touch_headline_other_function_title">Other functions</string>
+    <string name="touch_headline_incoming_call_title">Prichádzajúci hovor</string>
+    <string name="touch_headline_other_function_title">Iné funkcie</string>
     <string name="touch_headline_call_title">Ovládanie hovoru</string>
     <string name="touch_headline_music_title">Ovládanie hudby</string>
-    <string name="touch_headline_time_title">Ovládanie časovača/stopek</string>
-    <string name="touch_headline_other_title">Dalšie ovládacie prvky</string>
+    <string name="touch_headline_time_title">Ovládanie časovača/stopiek</string>
+    <string name="touch_headline_other_title">Iné ovládacie prvky</string>
 
-    <string name="touch_device_location_title">Najsť zariadenie</string>
-    <string name="touch_device_location_not_muted_only_title">Zvuk iba v prípade, pokiaľ nieje ztlmený alebo v režime DnD</string>
+    <string name="touch_device_location_title">Nájsť telefón</string>
+    <string name="touch_device_location_not_muted_only_title">Zvuk len ak nie je stíšený alebo v režime „Nerušiť”</string>
 
-    <string name="touch_mute_toggle_title">Přepínač ztlmenia hovoru</string>
-    <string name="touch_mute_toggle_ringer_mode_title">Mute mode</string>
-    <string name="touch_mute_toggle_mute_off_title">Mute off</string>
+    <string name="touch_mute_toggle_title">Prepínač stíšenia telefónu</string>
+    <string name="touch_mute_toggle_ringer_mode_title">Režim stíšenia</string>
+    <string name="touch_mute_toggle_mute_off_title">Stíšenie vypnuté</string>
 
     <string name="touch_music_title">Hudba</string>
-    <string name="touch_music_function_launch">Start music with the play button if no music player is recognized</string>
-    <string name="touch_music_function_mi_band_message_launch">Start music with the play button</string>
-    <string name="touch_music_function_mi_band_message_no_track_title">Can\'t get the song name</string>
+    <string name="touch_music_function_launch">Spustenie hudby pomocou tlačidla prehrávania, ak sa nenašiel hudobný prehrávač</string>
+    <string name="touch_music_function_mi_band_message_launch">Spustenie hudby pomocou tlačidla prehrávania</string>
+    <string name="touch_music_function_mi_band_message_no_track_title">Názov skladby nie je dostupný</string>
 
     <string name="touch_call_out_title">Zavolať</string>
-    <string name="touch_call_out_no_contact">Zvoliť kontakt</string>
-    <string name="touch_call_out_summary">Dvojklik pre prijaťie hovora</string>
-    <string name="touch_call_out_summary_support_call_display_button">Stlačíť tlačítko pre prijaťie hovora</string>
-    <string name="touch_call_out_speakerphone_title">Hlasité volánie</string>
-    <string name="touch_call_out_call_text">Zavolat: %1$s</string>
+    <string name="touch_call_out_no_contact">Vyberte kontakt</string>
+    <string name="touch_call_out_summary">Dvojitým stlačením odpoviete na hovor</string>
+    <string name="touch_call_out_summary_support_call_display_button">Stlačte tlačidlo pre prijatie hovoru</string>
+    <string name="touch_call_out_speakerphone_title">Reproduktor</string>
+    <string name="touch_call_out_call_text">Hovor: %1$s</string>
 
-    <string name="touch_weather_title">Predpověď počasia</string>
-    <string name="touch_weather_location">Umiestenie</string>
+    <string name="touch_weather_title">Predpoveď počasia</string>
+    <string name="touch_weather_location">Aktualizácia polohy</string>
     <string name="touch_weather_precipitation">Zrážky</string>
-    <string name="touch_weather_cloud_cover">Oblačnost</string>
+    <string name="touch_weather_cloud_cover">Oblačnosť</string>
     <string name="touch_weather_wind">Vietor</string>
 
-    <string name="touch_repeat_notif_title">Opakovať oznámenia</string>
-    <string name="touch_repeat_notif_clear_all">Vymazať všetky notifikaceie po opakování</string>
+    <string name="touch_repeat_notif_title">Opakovať upozornenia</string>
+    <string name="touch_repeat_notif_clear_all">Vymazať všetky upozornenia po opakovaní</string>
 
-    <string name="touch_clear_notif_title">Vymazat notofikacie z telefóna</string>
+    <string name="touch_clear_notif_title">Vymazať upozornenia z telefónu</string>
 
-    <string name="touch_music_play_pause_title">Zapnutie hudby, prehráť, pauza</string>
-    <string name="touch_music_skip_previous_title">Zapnutie hudby, predchodzia skladba</string>
-    <string name="touch_music_skip_next_title">Zapnutie hudby, dalšia skladba</string>
-    <string name="touch_music_headset_only_title">Len keď sú sluchátka  pripojené</string>
-    <string name="touch_music_launch">Zapnutie hudby</string>
+    <string name="touch_music_play_pause_title">Spustiť hudbu, prehrávať, pozastaviť</string>
+    <string name="touch_music_skip_previous_title">Spustiť hudbu, predchádzajúca skladba</string>
+    <string name="touch_music_skip_next_title">Spustiť hudbu, nasledujúca skladba</string>
+    <string name="touch_music_headset_only_title">Len ak sú pripojené slúchadlá</string>
+    <string name="touch_music_launch">Spustiť hudbu</string>
     <string name="touch_music_volume_up_title">Zvýšiť hlasitosť hudby</string>
-    <string name="touch_music_volume_down_title">Znížit hlasitost hudby</string>
-    <string name="touch_music_track_info_title">Zobraziť informacie o hudebnej skladbe.</string>
+    <string name="touch_music_volume_down_title">Znížiť hlasitosť hudby</string>
+    <string name="touch_music_track_info_title">Zobraziť informácie o skladbe</string>
 
-    <string name="touch_time_launch_title">Monitorovanie počiatočného času</string>
+    <string name="touch_time_launch_title">Spustiť meranie času</string>
     <string name="touch_time_launch_type_timer_title">Časovač</string>
     <string name="touch_time_launch_type_stopper_title">Stopky</string>
     <string name="touch_time_launch_type_interval_title">Interval</string>
-    <string name="touch_time_launch_restart">ReŠtartovať (pokiaľ běží)</string>
-    <string name="touch_time_reminder_title">Zobraziť zostavjúcí/uplynulý čas</string>
+    <string name="touch_time_launch_restart">Reštartovať, ak už prebieha</string>
+    <string name="touch_time_reminder_title">Zobraziť zostávajúci/ubehnutý čas</string>
 
-    <string name="touch_google_assistant_title">Google Assistant</string>
+    <string name="touch_google_assistant_title">Google Asistent</string>
 
-    <string name="touch_flashlight_title">Flashlight toggle</string>
+    <string name="touch_flashlight_title">Zapnúť/vypnúť baterku</string>
 
-    <string name="touch_camera_title">Urobiť fotku</string>
-    <string name="touch_camera_front_title">Prední</string>
-    <string name="touch_camera_rear_title">Zadní</string>
+    <string name="touch_camera_title">Odfotiť</string>
+    <string name="touch_camera_front_title">Predná</string>
+    <string name="touch_camera_rear_title">Zadná</string>
     <string name="touch_camera_install_title">Inštalovať</string>
 
-    <string name="touch_app_launcher1_title">Spúštač aplikacií</string>
-    <string name="touch_app_launcher_package_no_title">Vyberťe aplikaciu</string>
-    <string name="touch_app_launcher1_not_wakelock_only_title"> iba pokiaľ obrazovka nie je zamknutá</string>
+    <string name="touch_app_launcher1_title">Spúšťač aplikácií</string>
+    <string name="touch_app_launcher_package_no_title">Vyberte aplikáciu</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">Len ak obrazovka nie je uzamknutá</string>
 
-    <string name="touch_broadcast1_title">Send Broadcast</string>
-    <string name="touch_broadcast1_action_title">Intent action</string>
-    <string name="touch_broadcast1_package_title">Intent package name</string>
+    <string name="touch_broadcast1_title">Odoslať Broadcast</string>
+    <string name="touch_broadcast1_action_title">Akcia intentu</string>
+    <string name="touch_broadcast1_package_title">Názov balíka intentu</string>
 
-    <string name="touch_http_request1_title">1. HTTP request</string>
-    <string name="touch_http_request2_title">2. HTTP request</string>
+    <string name="touch_http_request1_title">1. HTTP požiadavka</string>
+    <string name="touch_http_request2_title">2. HTTP požiadavka</string>
     <string name="touch_http_request_url_title">URL</string>
-    <string name="touch_http_request_method_title">Method</string>
-    <string name="touch_http_request_body_title">Body</string>
-    <string name="touch_http_request_show_response_title">Show the response</string>
+    <string name="touch_http_request_method_title">Metóda</string>
+    <string name="touch_http_request_body_title">Telo</string>
+    <string name="touch_http_request_show_response_title">Zobraziť odpoveď</string>
 
-    <string name="touch_tasker_launcher1_title">1. Spúštač úloh Tasker</string>
-    <string name="touch_tasker_launcher2_title">2. Spúštač úloh  Tasker</string>
-    <string name="touch_tasker_launcher_no_permission_title">Najprv musíťe nainštalovat Tasker, potom Mi Bandage</string>
-    <string name="touch_tasker_launcher_no_access_title">Povoliť externí prístup</string>
-    <string name="touch_tasker_launcher_no_task_title">Zvoliť úlohu</string>
+    <string name="touch_tasker_launcher1_title">1. Spúšťač úloh Tasker</string>
+    <string name="touch_tasker_launcher2_title">2. Spúšťač úloh Tasker</string>
+    <string name="touch_tasker_launcher_no_permission_title">Najskôr nainštalujte Tasker, potom Mi Bandage</string>
+    <string name="touch_tasker_launcher_no_access_title">Povoliť externý prístup</string>
+    <string name="touch_tasker_launcher_no_task_title">Vyberte úlohu</string>
 
-    <string name="touch_testing_title">Záznam dotyku</string>
+    <string name="touch_testing_title">Sledovanie dotyku</string>
     <string name="touch_testing_second">sek.</string>
 
-    <string name="touch_setting_detection_time_title">Touch detection time</string>
-    <string name="touch_setting_detection_time_music_hint">If it has a lower value, the music screen should be closed faster</string>
-    <string name="touch_setting_detection_time_button_hint">If it has a lower value, press the button faster</string>
+    <string name="touch_setting_detection_time_title">Čas detekcie dotyku</string>
+    <string name="touch_setting_detection_time_music_hint">Pri nižšej hodnote sa obrazovka hudby zatvorí rýchlejšie</string>
+    <string name="touch_setting_detection_time_button_hint">Pri nižšej hodnote treba stlačiť tlačidlo rýchlejšie</string>
 
     <string name="touch_setting_detection_method_title">Metóda detekcie dotyku</string>
 
-    <string name="touch_setting_recognition_start_title">Spusťite rozpoznánie dotyku</string>
+    <string name="touch_setting_recognition_start_title">Spustiť rozpoznávanie dotyku</string>
     <string name="touch_setting_recognition_start_trigger_title">Spúšť</string>
-    <string name="touch_setting_recognition_time_title">Doba rozpoznávánia</string>
+    <string name="touch_setting_recognition_time_title">Čas rozpoznávania</string>
 
-    <string name="touch_setting_recognition_mi_band_signal_title">Oznámenie na %1$s</string> <!-- %1$s = Watch name -->
-    <string name="touch_setting_recognition_succeeded_title">Rozpoznatelný dotyk</string>
-    <string name="touch_setting_recognition_failed_title">Nerozpoznatelný dotyk</string>
+    <string name="touch_setting_recognition_mi_band_signal_title">Signál z %1$s</string>
+    <string name="touch_setting_recognition_succeeded_title">Rozpoznaný vzor dotyku</string>
+    <string name="touch_setting_recognition_failed_title">Nerozpoznaný vzor dotyku</string>
 
     <string name="info_dialog_touch"><![CDATA[
-        <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
-        <p><b>Phones Bluetooth settings:</b> <device_name/> disable input device</p>
-        <b><u>Recognised touches</u></b>
-        <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
-        <br><device_type/> music control
-        <p><img src="ic_search">
-        <br><device_type/> find my phone
-        </p>
-        Multiple touches can be recorded for each function.
+    <p>Správne funguje v samostatnom režime. Ak používate režim spolupráce, oficiálna aplikácia <app_official/> bude tiež spracovávať tieto funkcie, takže správne fungovanie nemusí byť zaručené.</p>
+    <p><b>Nastavenia Bluetooth telefónu:</b> <device_name/> zakázať vstupné zariadenie</p>
+    <b><u>Rozpoznané dotyky</u></b>
+    <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
+    <br>Ovládanie hudby zariadením <device_type/>
+    <p><img src="ic_search">
+    <br>Vyhľadanie telefónu zariadením <device_type/>
+    </p>
+    Pre každú funkciu je možné zaznamenať viacero dotykov.
     ]]></string>
 
 
     <!-- Weather  -->
     <string name="weather_tab_weather_forecast">Počasie</string>
-    <string name="weather_tab_location">Umiestňenie</string>
+    <string name="weather_tab_location">Poloha</string>
     <string name="weather_tab_settings">@string/setting_name</string>
 
-    <string name="weather_location_title">Umiestňenie</string>
+    <string name="weather_location_title">Poloha</string>
 
-    <string name="weather_forecast_title">Predpověď počasia</string>
+    <string name="weather_forecast_title">Predpoveď počasia</string>
 
     <string name="weather_setting_provider">Poskytovateľ počasia</string>
     <string name="weather_city_title">Mesto</string>
     <string name="weather_unit_title">Jednotka</string>
-    <string name="weather_unit_metric">Metrický (Celsia)</string>
-    <string name="weather_unit_imperial">Imperial (Fahrenheita)</string>
-    <string name="weather_automatic_update">Automatically update location in the background</string>
-    <string name="weather_automatic_update_title">Použijte vaši polohu</string>
-    <string name="weather_automatic_update_summary">This application collects location data to update the weather for the current location, even when the app is closed or not in use.</string>
+    <string name="weather_unit_metric">Metrická (Celsius)</string>
+    <string name="weather_unit_imperial">Imperiálna (Fahrenheit)</string>
+    <string name="weather_automatic_update">Automatická aktualizácia polohy na pozadí</string>
+    <string name="weather_automatic_update_title">Použiť aktuálnu polohu</string>
+    <string name="weather_automatic_update_summary">Táto aplikácia zhromažďuje údaje o polohe na aktualizáciu predpovede počasia aj v prípade, že nie je spustená alebo aktívne používaná.</string>
 
-    <string name="permission_background_location">Uživatel %1$s bude mít oprávnění shromažďovat údaje o poloze, i když je aplikace uzavřena nebo není používána</string>
-    <string name="permission_error_title">%1$s nemůže aktualizovat oprávnění</string>
-    <string name="permission_error_description">Otevřete nastavení a vyberte možnost „%1$s“ pro oprávnění k umístění</string>
-    <string name="all_the_time">Celý čas</string>
+    <string name="permission_background_location">%1$s bude mať povolenie zhromažďovať údaje o polohe aj v prípade, že aplikácia nie je spustená alebo používaná</string>
+    <string name="permission_error_title">%1$s nemôže aktualizovať oprávnenia</string>
+    <string name="permission_error_description">Otvorte nastavenia a vyberte možnosť „%1$s“ pre oprávnenia k polohe</string>
+    <string name="all_the_time">Vždy</string>
 
-    <string name="weather_current_title">Súčasné počasie</string>
-    <string name="weather_current_location">Súčasná poloha</string>
-    <string name="weather_current_temperature">Sučasná teplota</string>
+    <string name="weather_current_title">Aktuálne počasie</string>
+    <string name="weather_current_location">Aktuálna poloha</string>
+    <string name="weather_current_temperature">Aktuálna teplota</string>
 
-    <string name="weather_precipitation_rain">Dážd</string>
+    <string name="weather_precipitation_rain">Dážď</string>
     <string name="weather_precipitation_snow">Sneh</string>
-    <string name="weather_cloud_cover_abbreviation">Vl</string>
-    <string name="weather_cloud_cover">Vlhkosť</string>
-    <string name="weather_humidity">Mrak</string>
+    <string name="weather_cloud_cover_abbreviation">Ob</string>
+    <string name="weather_cloud_cover">Oblačnosť</string>
+    <string name="weather_humidity">Vlhkosť</string>
 
-    <string name="weather_north">N</string>
-    <string name="weather_east">E</string>
-    <string name="weather_south">S</string>
-    <string name="weather_west">W</string>
+    <string name="weather_north">S</string>
+    <string name="weather_east">V</string>
+    <string name="weather_south">J</string>
+    <string name="weather_west">Z</string>
 
 
     <!-- Text customization -->
-    <string name="pref_text_reminder_repeat_interval_title">Interval opakovania pripomenutí</string>
-    <string name="pref_text_reminder_repeat_interval_summary">Notification/reminder alert function uses this timing</string>
+    <string name="pref_text_reminder_repeat_interval_title">Interval opakovania pripomienky</string>
+    <string name="pref_text_reminder_repeat_interval_summary">Funkcia Upozornenie > Pripomienka používa tento interval</string>
     <string name="pref_text_emoticon_title">Konverzia emoji</string>
-    <string name="pref_text_emoticon_summary_on">Konvertovať emoji na emotikony</string>
-    <string name="pref_text_uppercase_title">Konverzia na veľké písmená</string>
-    <string name="pref_text_uppercase_summary_on">Konvertovať malé písmená na veľké</string>
+    <string name="pref_text_emoticon_summary_on">Previesť emoji na emotikony</string>
+    <string name="pref_text_uppercase_title">Prevod na veľké písmená</string>
+    <string name="pref_text_uppercase_summary_on">Previesť malé písmená na veľké</string>
     <string name="pref_text_alphanumeric_title">Alfanumerické a ASCII znaky</string>
-    <string name="pref_text_alphanumeric_summary_on">Zobraziť iba alfanumerické a ASCII znaky</string>
+    <string name="pref_text_alphanumeric_summary_on">Zobrazovať iba alfanumerické a ASCII znaky</string>
     <string name="pref_text_transliteration_title">Transliterácia</string>
-    <string name="pref_text_transliteration_summary_on">Konvertovať písmená s diakritikou na bez diakritiky</string>
-    <string name="pref_text_line_separator_title">Nahradenie oddeľovača riadkov</string>
-    <string name="pref_text_line_separator_summary_on">Nahradiť predvolený oddeľovač riadkov inými znakmi</string>
-    <string name="pref_text_line_separator_value_title">Nahradzujúce znaky</string>
+    <string name="pref_text_transliteration_summary_on">Nahradiť písmená s diakritikou za bez diakritiky</string>
+    <string name="pref_text_line_separator_title">Náhrada oddeľovača riadkov</string>
+    <string name="pref_text_line_separator_summary_on">Nahradiť predvolený oddeľovač iným znakom</string>
+    <string name="pref_text_line_separator_value_title">Náhradné znaky</string>
     <string name="pref_text_char_replacement_title">Nahradenie znakov a emoji</string>
-    <string name="pref_text_char_replacement_summary_on">Nahradiť jeden znak iným</string>
+    <string name="pref_text_char_replacement_summary_on">Nahradiť znak iným</string>
     <string name="pref_text_char_replacement_find">Nájsť</string>
     <string name="pref_text_char_replacement_replace">Nahradiť za</string>
-
 
     <!-- Export -->
     <string name="export_tab_database">Export údajov</string>
     <string name="export_start_date">Dátum začiatku exportu</string>
 
-
     <!-- Theme -->
-    <string name="theme_tab_theme">Štýly</string>
+    <string name="theme_tab_theme">Téma</string>
 
-    <string name="theme_title">Vyberťe štýl</string>
+    <string name="theme_title">Vybrať tému</string>
     <string name="theme_background_color_title">Farba pozadia</string>
 
     <string name="theme_widget_background_color_title">Farba</string>
@@ -781,13 +765,13 @@
     <string name="purchase_button_purchase">Kúpit</string>
 
     <!-- Feedback -->
-    <string name="action_log_notification">Log</string>
+    <string name="action_log_notification">Záznam</string>
 
-    <string name="feedback_google_play_title">Ohodnoťte tuto aplikaci</string>
-    <string name="feedback_request_feature_title">Požiadavka na funkciu, hlásenie o chybe</string>
-    <string name="feedback_request_feature_summary">Automatické zpracovánie e-mailu, nemusíte dostať odpoveď</string>
-    <string name="feedback_translation_title">%1$s translation</string> <!-- %1$s = App name -->
-    <string name="feedback_translation_title_summary">Please help in translation</string>
+    <string name="feedback_google_play_title">Ohodnoťte túto aplikáciu</string>
+    <string name="feedback_request_feature_title">Požiadavka na funkciu, nahlásenie chyby</string>
+    <string name="feedback_request_feature_summary">E-maily sú spracovávané automaticky, odpoveď nemusí byť zaručená</string>
+    <string name="feedback_translation_title">Preklad aplikácie %1$s</string>
+    <string name="feedback_translation_title_summary">Pomôžte nám s prekladom, prosím</string>
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Zásady Ochrany Osobných Údajov</string>
@@ -858,138 +842,136 @@
     <string name="privacy_policy_eu_consent_setting">Nastavenia</string>
 
     <!-- Custom vibration dialog -->
-    <string name="custom_vibration_title">Nastavenie vibracií</string>
-
+    <string name="custom_vibration_title">Nastavenie vibrácií</string>
 
     <!-- Shortcuts -->
-    <string name="shortcut">Shortcut</string>
-    <string name="shortcut_visible_items">Shortcut items</string>
-    <string name="shortcut_hidden_items">Hidden shortcut items</string>
+    <string name="shortcut">Skratka</string>
+    <string name="shortcut_visible_items">Položky skratiek</string>
+    <string name="shortcut_hidden_items">Skryté položky skratiek</string>
 
-    <string name="shortcut_status">Status</string>
-    <string name="shortcut_heart_rate">Tep</string>
-    <string name="shortcut_blood_oxygen">Kyslík vkrvi</string>
+    <string name="shortcut_status">Stav</string>
+    <string name="shortcut_heart_rate">Tepová frekvencia</string>
+    <string name="shortcut_blood_oxygen">Kyslík v krvi</string>
     <string name="shortcut_sleep">Spánok</string>
-    <string name="shortcut_breathing">Breathing</string>
+    <string name="shortcut_breathing">Dýchanie</string>
     <string name="shortcut_weather">Počasie</string>
-    <string name="shortcut_stress">Stress</string>
-
+    <string name="shortcut_stress">Stres</string>
 
     <!-- Others -->
     <string name="tab_daily_charts">Denné grafy</string>
     <string name="tab_weekly_charts">Týždenné grafy</string>
     <string name="tab_monthly_charts">Mesačné grafy</string>
-    <string name="tab_yearly_charts">Ročný grafy</string>
+    <string name="tab_yearly_charts">Ročné grafy</string>
 
     <string name="ad_attribution">Reklama</string>
     <string name="on">Zapnuté</string>
     <string name="off">Vypnuté</string>
-    <string name="none">Žiaden</string>
+    <string name="none">Žiadne</string>
     <string name="heart_rate_bpm">bpm</string>
     <string name="heart_rate_mhr">MHR</string>
     <string name="date">Dátum</string>
     <string name="time">Čas</string>
-    <string name="time_start">Čas zahájenia</string>
+    <string name="time_start">Čas začiatku</string>
     <string name="time_end">Čas ukončenia</string>
-    <string name="ringer_mode_vibrate">Vibracie</string>
-    <string name="ringer_mode_silent">Ztlmiť</string>
-    <string name="ringer_mode_dnd_priority_only">Nerušiť (iba budíky)</string>
-    <string name="ringer_mode_dnd_alarms_only">Nerušiť (iba prioritnie)</string>
+    <string name="ringer_mode_vibrate">Vibrovanie</string>
+    <string name="ringer_mode_silent">Tichý režim</string>
+    <string name="ringer_mode_dnd_priority_only">Nerušiť (iba priorita)</string>
+    <string name="ringer_mode_dnd_alarms_only">Nerušiť (iba budíky)</string>
     <string name="ringer_mode_dnd_total_silence">Nerušiť (úplné ticho)</string>
-    <string name="unknown">Neznámý</string>
+    <string name="unknown">Neznáme</string>
     <string name="maximum">Maximum</string>
     <string name="all_day">Celý deň</string>
-    <string name="timed">Timed</string>
+    <string name="timed">Na čas</string>
     <string name="file_name">Názov súboru</string>
-    <string name="default_">Predvolený</string>
-    <string name="default_by_phone">Východzie nastavenia (telefonicky)</string>
-    <string name="custom">Custom</string>
-    <string name="invalid_setting">Invalid setting</string>
-    <string name="ringtone">Vyzváňanie</string>
-    <string name="ringtone_chooser">Ringtone chooser</string>
-    <string name="uninstalled">Uninstalled</string>
-    <string name="value">Value</string>
-    <string name="downloads">Downloads</string>
-    <string name="share">Share</string>
+    <string name="default_">Predvolené</string>
+    <string name="default_by_phone">Predvolené (podľa telefónu)</string>
+    <string name="custom">Vlastné</string>
+    <string name="invalid_setting">Neplatné nastavenie</string>
+    <string name="ringtone">Zvonenie</string>
+    <string name="ringtone_chooser">Výber zvonenia</string>
+    <string name="uninstalled">Odinštalované</string>
+    <string name="value">Hodnota</string>
+    <string name="downloads">Stiahnuté</string>
+    <string name="share">Zdieľať</string>
     <string name="send">Odoslať</string>
-    <string name="narrow">Úzky</string>
-    <string name="short_">Krátky</string>
-    <string name="medium">Stredný</string>
-    <string name="long_">Dlhý</string>
-    <string name="full">Plný</string>
+    <string name="narrow">Úzke</string>
+    <string name="short_">Krátke</string>
+    <string name="medium">Stredné</string>
+    <string name="long_">Dlhé</string>
+    <string name="full">Celé</string>
     <string name="alignment_left">Zarovnanie vľavo</string>
-    <string name="alignment_center">Zarovnanie do centra</string>
-    <string name="alignment_right">Zarovnanie správne</string>
-    <string name="visible">Viditeľný</string>
-    <string name="invisible">Neviditeľný</string>
-    <string name="placeholder">Placeholder</string>
-    <string name="image_scale_fit">Fit</string>
-    <string name="image_scale_crop">Crop</string>
-    <string name="image_scale_stretch">Stretch</string>
-    <string name="resource_manager">Resource manager</string>
+    <string name="alignment_center">Zarovnanie na stred</string>
+    <string name="alignment_right">Zarovnanie vpravo</string>
+    <string name="visible">Viditeľné</string>
+    <string name="invisible">Neviditeľné</string>
+    <string name="placeholder">Zástupný text</string>
+    <string name="image_scale_fit">Prispôsobiť</string>
+    <string name="image_scale_crop">Orezať</string>
+    <string name="image_scale_stretch">Roztiahnuť</string>
+    <string name="resource_manager">Správca zdrojov</string>
 
-    <string name="action_premium_mode">Prémiový Účet</string>
-    <string name="action_dismiss">Odmietnuť</string>
-    <string name="action_setting">Nastavenia</string>
-    <string name="action_delete">Vymazať</string>
+    <string name="action_premium_mode">Prémiový režim</string>
+    <string name="action_dismiss">Zavrieť</string>
+    <string name="action_setting">Nastavenie</string>
+    <string name="action_delete">Odstrániť</string>
     <string name="action_rename">Premenovať</string>
-    <string name="action_export">Export</string>
-    <string name="action_synchronization">Synchronization</string>
+    <string name="action_export">Exportovať</string>
+    <string name="action_synchronization">Synchronizácia</string>
     <string name="action_download">Stiahnuť</string>
     <string name="action_upload">Nahrať</string>
-    <string name="action_backup">Záloha</string>
+    <string name="action_backup">Zálohovať</string>
     <string name="action_restore">Obnoviť</string>
-    <string name="action_filter_no">Žiadný filtr</string>
+    <string name="action_filter_no">Bez filtra</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_favorite">Obľúbené</string>
-    <string name="action_save">Uložit</string>
+    <string name="action_save">Uložiť</string>
     <string name="action_test">Test</string>
-    <string name="action_discard">Zahodit</string>
-    <string name="action_keep_editing">Daľej upravovať</string>
+    <string name="action_discard">Zahodiť</string>
+    <string name="action_keep_editing">Pokračovať v úpravách</string>
     <string name="action_new">Nový</string>
     <string name="action_new_file_extension">Nový %1$s</string>
     <string name="action_edit">Upraviť</string>
     <string name="action_start_stop">Spustiť/Zastaviť</string>
     <string name="action_contacts">Kontakty</string>
-    <string name="action_single_selection">Jednotlivý výber</string>
+    <string name="action_single_selection">Jednoduchý výber</string>
     <string name="action_multiple_selection">Viacnásobný výber</string>
-    <string name="action_selection_boundaries">Selection boundaries</string>
-    <string name="action_object_boundaries">Object boundaries</string>
+    <string name="action_selection_boundaries">Hranice výberu</string>
+    <string name="action_object_boundaries">Hranice objektu</string>
     <string name="action_select">Výber</string>
     <string name="action_select_all">Vybrať všetko</string>
     <string name="action_select_texts">Vybrať texty</string>
     <string name="action_select_images">Vybrať obrázky</string>
     <string name="action_deselect_all">Zrušiť výber</string>
-    <string name="synchronized_from_watch">Synchronized from watch</string>
+    <string name="synchronized_from_watch">Synchronizované z hodiniek</string>
     <string name="synchronization_succeeded">Synchronizácia bola úspešná</string>
     <string name="synchronization_failed">Synchronizácia zlyhala</string>
 
     <string name="action_chart">Graf</string>
-    <string name="action_zoom_in">Zoom</string>
-    <string name="action_chart_normalize_raw_data">Namerané hodnoty</string>
-    <string name="action_chart_normalize_quarter_hourly">Štvrthodinové hodnoty</string>
+    <string name="action_zoom_in">Priblížiť</string>
+    <string name="action_chart_normalize_raw_data">Namarané hodnoty</string>
+    <string name="action_chart_normalize_quarter_hourly">Štvrťhodinové hodnoty</string>
     <string name="action_chart_normalize_half_hourly">Polhodinové hodnoty</string>
     <string name="action_chart_normalize_hourly">Hodinové hodnoty</string>
-    <string name="action_chart_sort_time_asc">Čas stupajúcí</string>
-    <string name="action_chart_sort_time_desc">Čas klesajúcí</string>
-    <string name="action_chart_sort_step_asc">Krok stupajúcí</string>
-    <string name="action_chart_sort_step_desc">Krok klesajúcí</string>
-    <string name="action_chart_sort_duration_asc">Duration ascending</string>
-    <string name="action_chart_sort_duration_desc">Duration descending</string>
-    <string name="action_chart_sort_heart_rate_asc">Tlak stupajúcí</string>
-    <string name="action_chart_sort_heart_rate_desc">Tlak klesajúcí</string>
-    <string name="action_chart_sort_spo2_asc">SpO2 stupajúcí</string>
-    <string name="action_chart_sort_spo2_desc">SpO2 klesajúcí</string>
-    <string name="action_chart_sort_pressure_asc">Pressure ascending</string>
-    <string name="action_chart_sort_pressure_desc">Pressure descending</string>
-    <string name="action_chart_monthly_calendar">Kalendar</string>
-    <string name="action_chart_monthly_compact">Compact</string>
+    <string name="action_chart_sort_time_asc">Čas vzostupne</string>
+    <string name="action_chart_sort_time_desc">Čas zostupne</string>
+    <string name="action_chart_sort_step_asc">Kroky vzostupne</string>
+    <string name="action_chart_sort_step_desc">Kroky zostupne</string>
+    <string name="action_chart_sort_duration_asc">Trvanie vzostupne</string>
+    <string name="action_chart_sort_duration_desc">Trvanie zostupne</string>
+    <string name="action_chart_sort_heart_rate_asc">Tep vzostupne</string>
+    <string name="action_chart_sort_heart_rate_desc">Tep zostupne</string>
+    <string name="action_chart_sort_spo2_asc">SpO2 vzostupne</string>
+    <string name="action_chart_sort_spo2_desc">SpO2 zostupne</string>
+    <string name="action_chart_sort_pressure_asc">Tlak vzostupne</string>
+    <string name="action_chart_sort_pressure_desc">Tlak zostupne</string>
+    <string name="action_chart_monthly_calendar">Kalendár</string>
+    <string name="action_chart_monthly_compact">Kompaktné</string>
 
     <string name="activity_progress_title_prepare">Príprava na synchronizáciu…</string>
-    <string name="activity_progress_title_sync">Synchronizácia dát…</string>
-    <string name="activity_progress_title_save">Ukládánie dát…</string>
+    <string name="activity_progress_title_sync">Synchronizujú sa dáta…</string>
+    <string name="activity_progress_title_save">Ukladanie dát…</string>
 
-    <string name="required_value">Požiadováné</string>
+    <string name="required_value">Povinné</string>
 
     <string name="percent_0">0%</string>
     <string name="percent_10">10%</string>

@@ -1,0 +1,1028 @@
+<?xml version="1.0"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="ta">
+
+    <!--  Navigation  -->
+    <string name="menu_nav_notification">அறிவிப்பு</string>
+    <string name="menu_nav_call">அழைப்பு</string>
+    <string name="menu_nav_step">செயல்பாடு</string>
+    <string name="menu_nav_sleep">உறக்கம்</string>
+    <string name="menu_nav_heart_rate">இதயத் துடிப்பு</string>
+    <string name="menu_nav_blood_oxygen">இரத்த ஆக்ஸிஜன்</string>
+    <string name="menu_nav_blood_pressure">இரத்த அழுத்தம்</string>
+    <string name="menu_nav_workout">உடற்பயிற்சி</string>
+    <string name="menu_nav_alarm">அலாரம்</string>
+    <string name="menu_nav_reminder">நிகழ்வு நினைவூட்டல்</string>
+    <string name="menu_nav_dnd">தடையில்லா பயன்முறை</string>
+    <string name="menu_nav_watch_face">கணிகை வடிவம்</string>
+    <string name="menu_nav_weather">வானிலை</string>
+    <string name="menu_nav_touch">தொடுதல் கட்டுப்பாடு</string>
+    <string name="menu_nav_more">மேலும்</string>
+    <string name="menu_nav_text_customization">உரை அமைவுகள்</string>
+    <string name="menu_nav_export">ஏற்றுமதி</string>
+    <string name="menu_nav_premium_mode">பிரீமியம் பயன்முறை</string>
+    <string name="menu_nav_feedback">கருத்து தெரிவி</string>
+    <string name="menu_nav_privacy_policy">தனியுரிமைக் கொள்கை</string>
+    <string name="menu_nav_theme">தீம்</string>
+
+    <string name="setting_name">அமைப்பு</string>
+    <string name="settings_name">அமைப்புகள்</string>
+    <string name="info_name">தகவல்</string>
+    <string name="more_name">மேலும்</string>
+
+    <string name="main_item_activity_title">அடிகள்・இலக்கு</string>
+    <string name="main_item_battery">மின்கலம்・கடைசி சார்ஜ் நேரம்</string>
+    <string name="main_item_connect_and_disconnect_last_time">கடைசி இணைப்பு மற்றும் துண்டிப்பு</string>
+    <string name="main_item_next_alarm">அடுத்த அலாரம்</string>
+    <string name="main_item_next_reminder">அடுத்த நினைவூட்டல்</string>
+    <string name="main_item_call_and_notification_control">அழைப்புகள் மற்றும் அறிவிப்புகள்</string>
+
+    <!-- Pairing Bluetooth device -->
+    <string name="device_search">%1$s தேடல்</string> <!-- %1$s = Watch name -->
+    <string name="device_setting">%1$s அமைப்பு</string> <!-- %1$s = Watch name -->
+
+    <string name="device_mac_address">MAC முகவரி</string>
+    <string name="device_mac_address_invalid">தவறான MAC முகவரி</string>
+
+    <string name="device_state_connected">இணைக்கப்பட்டது</string>
+    <string name="device_state_disconnected">இணைக்கப்படவில்லை</string>
+    <string name="device_state_bonded">ஃபேர் செய்யப்பட்ட சாதனம்</string>
+    <string name="device_state_not_bonded">ஃபேர் செய்யப்படாத சாதனம்</string>
+
+    <string name="error_title">அய்யோ! ஏதோ தவறு ஏற்பட்டுள்ளது</string>
+    <string name="error_message">பயன்பாட்டை சமீபத்திய பதிப்பிற்கு புதுப்பிக்கவும்</string>
+
+
+    <!-- Watch connection and setting -->
+    <string name="mi_band_setting_title">%1$s அமைப்புகள்</string>
+
+    <string name="mi_band_setting_menu_connection">இணைப்பு</string>
+    <string name="mi_band_setting_menu_setting">@string/setting_name</string>
+    <string name="mi_band_setting_menu_profile">சுயவிவரம்</string>
+    <string name="mi_band_setting_menu_text">உரை</string>
+    <string name="mi_band_setting_menu_call">அழைப்பு</string>
+
+    <string name="mi_band_setting_auth_mi_fit">%1$s ஒருங்கிணைப்பு</string> <!-- Haylou Fit-->
+    <string name="mi_band_setting_auth_mi_fit_hint">%3$s செயலிக்கு %1$s பயன்பாட்டை இந்த தொலைபேசியில் நிறுவ வேண்டும். முதலில் %1$s பயன்பாட்டில் %2$s ஐ ஃபேர் செய்யவும். %1$s பயன்பாட்டையும் பயன்படுத்த விருப்பமிருந்தால் இதைத் தேர்ந்தெடுக்கவும்.</string>
+    <string name="mi_band_setting_auth_standalone">தனிப்பட்ட பயன்முறை</string>
+    <string name="mi_band_setting_auth_standalone_hint">%3$s வேலை செய்ய %1$s பயன்பாடு தேவையில்லை. ஃபேர் செய்த பின், %1$s பயன்பாட்டை அகற்றலாம் அல்லது ஸ்மார்ட் வாட்சை பிணைவை நீக்கலாம். %1$s உடன் ஒருங்கிணைப்பை மீட்டமைக்க %2$s ஐ மீண்டும் %1$s பயன்பாட்டில் ஃபேர் செய்ய வேண்டும். பிணைவை நீக்கினால், வாட்சில் உள்ள தரவு அழிக்கப்படும். %2$s திரை இயக்கத்தில் இருக்க வேண்டும்.</string>
+    <string name="mi_band_standalone_sync_error">தரவு இழப்பை தவிர்க்கவும் மற்றும் துல்லியமான அளவீடுகளை உறுதி செய்யவும், ஒருங்கிணைப்பு பயன்முறையில் முடக்கப்பட்டுள்ளது. சின்க் செய்வது வாட்சிலுள்ள தரவை அழிக்கும் மற்றும் தவறான தகவல்களை ஏற்படுத்தும்.</string>
+    <string name="mi_band_setting_auth_key">அங்கீகாரக் குறியீடு</string>
+    <string name="mi_band_setting_auth_key_help">எந்தவொரு 4 இலக்க எண்ணையும் உள்ளிடவும்</string>
+    <string name="mi_band_setting_auth_request">குறியீடு கோரல்</string>
+    <string name="mi_band_setting_auth_pair">ஃபேர் செய்</string>
+    <string name="mi_band_setting_auth_unpair">பிணைவை நீக்கு</string>
+
+    <string name="message_auth_request">உங்கள் சாதனம் ஏற்கனவே ஃபேர் செய்யப்பட்டிருக்கிறது. குறியீட்டை அறியவில்லை என்றால், பிணைவை நீக்கவும்.</string>
+
+    <string name="message_mi_band_setting_auth_press_band_button">%1$s இல் உள்ள பொத்தானை அழுத்தி ஃபேர் செய்யவும்</string> <!-- %1$s = Watch name -->
+    <string name="message_mi_band_setting_auth_success">%1$s வெற்றிகரமாக ஃபேர் செய்யப்பட்டது</string>
+    <string name="message_mi_band_setting_auth_fail">%1$s ஃபேர் செய்யப்படவில்லை</string>
+    <string name="message_mi_band_setting_auth_key_invalid">தவறான அங்கீகாரக் குறியீடு</string>
+
+    <string name="pref_disconnect_device">இணைப்பை துண்டி</string>
+
+    <string name="mi_band_setting_connection_problem_title">இணைப்பு சிக்கல்கள் இருந்தால்</string>
+    <string name="mi_band_setting_connection_problem_hint"><![CDATA[
+    - உங்கள் தொலைபேசியின் ப்ளூடூத் அமைப்புகளில் வாட்சை பிணைவை நீக்கவும்<br>
+    - ப்ளூடூத்தை அணைத்து மீண்டும் இயக்கவும்<br>
+    - பயன்பாட்டை கட்டாயமாக மூடவும் அல்லது தொலைபேசியை மறுதொடக்கம் செய்யவும்<br>
+    - முகப்புப் பக்கத்திலிருந்து வாட்சை மீண்டும் ஃபேர் செய்ய முயலவும்
+    ]]></string>
+
+    <string name="mi_band_setting_dial">முகப்பக்க அமைப்பு</string>
+    <string name="mi_band_setting_language">மொழி</string>
+    <string name="mi_band_setting_time_24h">24 மணி நேர வடிவம்</string>
+    <string name="mi_band_setting_distance_unit">தூர அளவீட்டு அலகு</string>
+    <string name="mi_band_setting_screen_on_duration">திரை ஆன நேரம்</string>
+    <string name="mi_band_setting_lift_wrist">கை முடிக்கையில் திரையை இயக்கவும்</string>
+    <string name="mi_band_setting_idle_alert">இயக்கமின்மை நினைவூட்டல்</string>
+    <string name="mi_band_setting_idle_alert_duration">இயக்கமின்மை காலம்</string>
+    <string name="mi_band_setting_idle_alert_dnd">பொழுதுபோக்கு நேரத்தில் அறிவிக்க வேண்டாம் (12:00–14:00)</string>
+
+    <string name="pref_synchronization">ஒத்திசைவு</string>
+    <string name="pref_synchronization_fetch_interval">ஒத்திசைவு இடைவெளி</string>
+    <string name="pref_synchronization_summary">தானாக பின்னணியில் ஒத்திசைக்க வேண்டிய தரவை தேர்ந்தெடுக்கவும். தேவையற்றவை முடக்கினால் செயல்திறன் மேம்படும். முகப்புப் பக்கம் அல்லது தொடர்புடைய மெனுக்களில் கை இடைநிறுத்தி (swipe down) கைமுறையாகவும் ஒத்திசைக்கலாம்.</string>
+
+    <string name="mi_band_setting_profile">அடிகள், தூரம் மற்றும் கலோரி கணிப்புகளை மேலும் துல்லியமாக்க இந்த விவரங்களை உள்ளிடவும்.</string>
+    <string name="mi_band_setting_gender">பாலினம்</string>
+    <string name="mi_band_setting_gender_male">ஆண்</string>
+    <string name="mi_band_setting_gender_female">பெண்</string>
+    <string name="mi_band_setting_birthday">பிறந்த தேதி</string>
+    <string name="mi_band_setting_height">உயரம்</string>
+    <string name="mi_band_setting_weight">எடை</string>
+    <string name="mi_band_setting_wearing_place">அணிவது எங்கே</string>
+    <string name="mi_band_setting_wearing_place_left_wrist">இடது கை</string>
+    <string name="mi_band_setting_wearing_place_right_wrist">வலது கை</string>
+
+    <!-- Battery -->
+    <string name="battery_details">மின்கல பயன்முறை</string>
+
+    <string name="battery_settings">மின்கல அமைப்புகள்</string>
+    <string name="battery_settings_notification">மின்கல குறைந்த நிலை எச்சரிக்கை</string>
+    <string name="battery_settings_notification_level">மின்கல அளவு எல்லை</string>
+    <string name="battery_settings_notification_repeat_interval">மீண்டும் அறிவிக்க நேர இடைவெளி</string>
+    <string name="battery_settings_notification_on_phone">தொலைபேசியில் அறிவிக்கவும்</string>
+    <string name="battery_settings_notification_on_phone_ongoing">நிலையான அறிவிப்பு (நீக்க முடியாது)</string>
+    <string name="battery_settings_notification_on_phone_message">மின்கல நிலை: %1$,d%%</string>
+    <string name="battery_settings_notification_on_device">ஸ்மார்ட் வாட்சில் அறிவிக்கவும்</string>
+    <string name="battery_settings_notification_on_device_message">மின்கலம்: %1$,d%%</string>
+
+    <!-- Preference screens -->
+    <string name="pref_battery_phone">தொலைபேசி மின்கலம்</string>
+    <string name="pref_battery_phone_summary">குறைவான மற்றும் முழு மின்கல நிலைக்கான அறிவிப்புகள்</string>
+    <string name="pref_cat_battery_phone_low">குறைந்த மின்கலம்</string>
+    <string name="pref_battery_phone_low_title">மின்கலம் குறைவாக உள்ளது அறிவிப்பு</string>
+    <string name="pref_battery_phone_low_level_title">மின்கலம் எல்லை மதிப்பு</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">மீள அறிவிப்பு இடைவெளி</string>
+    <string name="pref_cat_battery_phone_full">முழு மின்கலம்</string>
+    <string name="pref_battery_phone_full_title">முழு மின்கலம் அறிவிப்பு</string>
+    <string name="pref_battery_phone_full_plugged_ac">மின் இணைப்பு மூலம் சார்ஜ்</string>
+    <string name="pref_battery_phone_full_plugged_usb">USB மூலம் சார்ஜ்</string>
+    <string name="pref_battery_phone_full_plugged_wireless">வயர்லெஸ் சார்ஜ்</string>
+
+    <string name="pref_battery_phone_message">தொலைபேசி மின்கலம்:\n %1$,d%%</string>
+
+    <string name="pref_language">மொழி</string>
+    <string name="pref_cat_language">பயன்பாடு</string>
+    <string name="pref_language_title">மொழி</string>
+
+    <string name="pref_menu">மெனு</string>
+    <string name="pref_cat_menu">முதன்மை மெனுவை தனிப்பயனாக்கம்</string>
+    <string name="pref_menu_item_2">இரண்டாவது மெனு உருப்படி</string>
+    <string name="pref_menu_item_3">மூன்றாவது மெனு உருப்படி</string>
+
+    <string name="pref_diagnostic">டயக்னோஸ்டிக்ஸ்</string>
+    <string name="pref_cat_diagnostic_closing_protection">மூடல் எதிர்ப்பு பாதுகாப்பு</string>
+    <string name="pref_diagnostic_battery_optimisation">மின்கல மேலாண்மையை முடக்கு</string>
+    <string name="pref_diagnostic_companion_device">உதவி சாதனம் ஃபேர் செய்தல்</string>
+    <string name="pref_diagnostic_bluetooth_pairing">ப்ளூடூத் ஃபேர் செய்தல்</string>
+    <string name="pref_diagnostic_autostart">தானாக தொடங்கும்</string>
+    <string name="pref_diagnostic_autostart_summary">தொலைபேசியின் தானாகத் தொடங்கும் மேலாளியில் பயன்பாடு தானாக மீண்டும் துவங்க அனுமதிக்கவும்</string>
+    <string name="pref_diagnostic_info">மேலும் தகவல்</string>
+    <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
+
+    <string name="pref_cat_diagnostic_permissions">அனுமதிகள்</string>
+    <string name="pref_diagnostic_permission_allow_notification_access_settings">அறிவிப்பு அணுகலை அனுமதி</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">துல்லிய அலாரத்தை திட்டமிடு</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">துல்லிய நேரத்தில் செயலை இயக்க கூடுதல் அனுமதி தேவை.</string>
+    <string name="pref_diagnostic_permission_post_notifications">அறிவிப்புகளை காட்டு</string>
+    <string name="pref_diagnostic_permission_post_notifications_summary">அறிவிப்பை காட்சிப்படுத்த கூடுதல் அனுமதி தேவை</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">தடையில்லா பயன்முறை அணுகல்</string>
+
+
+    <!-- Snackbar messages -->
+    <string name="message_enable_bluetooth">ப்ளூடூத்தை இயக்கவும் மற்றும் கடிகாரத்தை தொலைபேசிக்கு அருகில் வைத்திருங்கள்</string>
+    <string name="message_discover_device">%1$s அமைக்கப்படவில்லை, தயவுசெய்து இணைக்கவும்</string>
+    <string name="message_discovering_device">%1$s கண்டறிகிறது (இது 1 நிமிடம் வரை ஆகலாம்)…</string>
+    <string name="message_discover_device_succeeded">%1$s வெற்றிகரமாக இணைக்கப்பட்டது</string>
+    <string name="message_discover_device_failed">%1$s இணைப்பு தோல்வியடைந்தது</string>
+    <string name="message_discover_device_not_found">%1$s கிடைக்கவில்லை என்றால், அதன் கண்டறிதல் முறையை இயக்கவும் அல்லது Bluetooth அமைப்புகளில் ஜோடிக்கவும்</string>
+    <string name="message_enable_notification_listener_access">அறிவிப்பு அணுகலை இயக்கவும்: தொலைபேசி > அமைப்புகள் > அறிவிப்பு அணுகல்</string>
+    <string name="message_enable_notification_listener_access_4_4">அறிவிப்பு அணுகலை இயக்கவும்: அமைப்புகள் > பாதுகாப்பு > அறிவிப்பு அணுகல்</string>
+
+    <string name="message_deleted">அழிக்கப்பட்டது</string>
+    <string name="message_undo">மீளச் செய்</string>
+
+    <string name="message_app_chooser_no_selected">ஒரு செயலியைத் தேர்ந்தெடுக்கவும்</string>
+
+    <string name="message_free_counter">இலவச முறையில் ஒரே ஒரு அமைப்பை மட்டுமே பயன்படுத்தலாம்</string>
+    <string name="message_free_counters">இலவச முறையில் அதிகபட்சம் %1$,d அமைப்புகளை பயன்படுத்தலாம்</string>
+
+    <string name="message_notification_free_groups">இலவச முறையில் அதிகபட்சம் %1$,d குழுக்கள் பயன்படுத்தலாம்</string>
+    <string name="message_notification_free_app">இலவச முறையில் ஒரே ஒரு செயலி தேர்வு செய்யலாம்</string>
+    <string name="message_notification_free_apps">இலவச முறையில் அதிகபட்சம் %1$,d செயலிகள் தேர்வு செய்யலாம்</string>
+    <string name="message_notification_free_text">இலவச முறையில் ஒரே ஒரு உரை மட்டுமே பதிவுசெய்யலாம்</string>
+
+    <string name="message_time_alarm_free_counter">இலவச முறையில் ஒரே ஒரு அலாரம் பயன்படுத்தலாம்</string>
+    <string name="message_time_alarm_max_counter">அதிகபட்சம் %1$d அலாரங்கள் பயன்படுத்தலாம்</string>
+    <string name="message_time_alarm_enabled">அலாரம் இயக்கப்பட்டது</string>
+    <string name="message_time_alarm_disabled">அலாரம் முடக்கப்பட்டது</string>
+    <string name="message_time_alarm_off">அலாரம் நிறுத்தப்பட்டது</string>
+
+    <string name="message_touch_pattern_error">தெரிவிக்கப்பட்ட மாதிரி வேறு ஒரு செயலின் மாதிரிக்கு ஒத்துள்ளது, வேறொன்றை பதிவுசெய்யவும்</string>
+    <string name="message_touch_free_patterns">இலவச முறையில் அதிகபட்சம் %1$,d கட்டுப்பாடுகள் பயன்படுத்தலாம்</string>
+    <string name="message_touch_record_help">%1$s இல் இசை கட்டுப்பாடு/தொலைபேசியைக் கண்டறிதல் அம்சங்களை பயன்படுத்தவும்</string>
+
+    <string name="message_premium_mode_only">இந்த அம்சம் பிரீமியம் முறையில் மட்டுமே கிடைக்கும்</string>
+    <string name="message_feature_is_not_supported">%1$s இந்த அம்சத்தை ஆதரிக்கவில்லை</string>
+    <string name="message_general_error">அமைப்பு தோல்வியடைந்தது (இணைப்பு துண்டிக்கப்பட்டது), தயவுசெய்து மீண்டும் முயற்சிக்கவும்</string>
+    <string name="message_internet_error">இணைய இணைப்பு இல்லை</string>
+    <string name="message_internet_traffic_blocked">பிணைய போக்குவரத்து தடுக்கப்பட்டது</string>
+    <string name="message_internet_ads_blocked">விளம்பரங்கள் தடுக்கப்பட்டுள்ளன</string>
+    <string name="message_gps_enable">GPS ஐ இயக்கவும்</string>
+    <string name="message_location_enable">இருப்பிட அணுகலை அனுமதிக்கவும்</string>
+
+    <string name="message_in_progress">செயலில் உள்ளது…</string>
+    <string name="message_no_data">தகவல் இல்லை</string>
+
+    <string name="message_rewarded_error">வீடியோ ஏற்ற முடியவில்லை</string>
+
+    <string name="message_new_message">புதிய செய்தி வந்துள்ளது. அதை உங்கள் தொலைபேசியில் பார்வையிடவும்.</string>
+
+    <string name="message_permission_not_granted">அனுமதி வழங்கப்படவில்லை: %1$s</string>
+
+    <!-- Welcome dialog -->
+    <string name="dialog_welcome_title">நல்வரவு!</string>
+    <string name="dialog_welcome_message"><![CDATA[ஆதரிக்கப்படும் சாதனங்கள்:
+    <watch_types/>
+    <p><app_name/> பயன்படுத்த, அதே தொலைபேசியில் அதிகாரப்பூர்வமான <device_type/> பயன்பாட்டை நிறுவ வேண்டும். முதலில் <device_type/> பயன்பாட்டில் உங்கள் கடிகாரத்தை ஜோடிக்க வேண்டும், பின்னர் இந்த பயன்பாட்டை பயன்படுத்தலாம்.</p>
+    <p><device_type/> தேடல் தோல்வியடையும் நிலையில், தேடும்போது MAC முகவரியை கைமுறையாக உள்ளிடலாம்.</p>
+    <b>இணைப்பு சிக்கல்களைத் தீர்க்க:</b>
+    <br>- சமீபத்திய பயன்பாடுகள் திரை: <app_name/>ஐ பூட்டு (பார்வை முன்காட்சியில் கீழ் இழுத்து \'பூட்டு\' அல்லது அதற்குச் சமமான விருப்பத்தைத் தேர்ந்தெடுக்கவும்).
+    <br>- தொலைபேசி/மின்கலம் மேம்பாடு: <app_name/> பயன்பாட்டை மேம்படுத்தப்படாததாக அமைக்கவும்.
+    <br>- தொலைபேசி/பயன்பாடுகள்: Bluetooth Share மற்றும் பிற \'Bluetooth\' பயன்பாடுகளின் தரவுகளை அழிக்கவும்.
+    <br>- மேலும் தகவல்: https://dontkillmyapp.com
+    <br><br><small>இந்த தயாரிப்பு மற்றும் அதன் அம்சங்கள் மருத்துவ நோக்கங்களுக்காக வடிவமைக்கப்படவில்லை, மேலும் நோய்களை கணிக்க, பரிசோதிக்க, தடுக்கும் அல்லது குணப்படுத்தும் நோக்கங்களுக்காக அல்ல. எல்லா தரவுகளும் மற்றும் அளவீடுகளும் தனிப்பட்ட பயன்பாட்டிற்காக மட்டுமே, அவை மருத்துவ ஆலோசனை அல்லது சிகிச்சைக்கான அடிப்படையாக பயன்படுத்தக்கூடாது.</small>
+    ]]></string>
+
+    <!-- Notification  -->
+    <string name="notification_group_nav_setting">அமைப்பு</string>
+    <string name="notification_group_nav_filter">வடிகட்டி</string>
+    <string name="notification_group_nav_correction">உரை திருத்தம்</string>
+
+    <string name="notification_group_name">பெயர்</string>
+    <string name="notification_group_monitoring">அறிவிப்பு கண்காணிப்பு</string>
+    <string name="notification_group_monitoring_disabled">அறிவிப்புகளை தவிர் (பயன்பாட்டு அறிவிப்புகளை காட்ட வேண்டாம்)</string>
+    <string name="notification_group_alert_title">%1$s எச்சரிக்கை</string>
+    <string name="notification_group_text_customization">உரை அமைப்புகள்</string>
+    <string name="notification_group_text_app_name">பயன்பாட்டு பெயர்</string>
+    <string name="notification_group_text_name">பெயர்</string>
+    <string name="notification_group_text_title">தலைப்பு</string>
+    <string name="notification_group_text_content">உள்ளடக்கம்</string>
+    <string name="notification_group_text_big_content">முழு உள்ளடக்கம்</string>
+    <string name="notification_group_text_content_slice_title">உரையின் நீளம்</string>
+    <string name="notification_group_display_duration_title">காட்சியின் கால அளவு</string>
+    <string name="notification_group_show_notification_title">அறிவிப்பை காட்டு</string>
+    <string name="notification_group_immediate">அறிவிப்பு வந்தவுடன் உடனடியாக எச்சரிக்கை</string>
+    <string name="notification_group_connecting">இணைக்கும் போது எச்சரிக்கை</string>
+    <string name="notification_group_reminder">நினைவூட்டல் எச்சரிக்கை</string>
+    <string name="notification_group_ongoing">நிரந்தர அறிவிப்புகளுக்கான எச்சரிக்கை (நீக்க முடியாதவை)</string>
+    <string name="notification_group_screen_off">திரை அணைந்திருக்கும் போதே எச்சரிக்கை</string>
+    <string name="notification_group_repeat_title">எச்சரிக்கைகள் மீளச்செயல்</string>
+    <string name="notification_group_wakelock">தொலைபேசி திரையை விழிப்பாக்கு</string>
+    <string name="notification_group_grouped_display_title">குழுவாக்கப்பட்ட அறிவிப்புகளுக்கான காட்சி அமைப்பு</string>
+    <string name="notification_group_grouped_sort_order_title">குழுவாக்கப்பட்ட அறிவிப்புகளின் வரிசை</string>
+
+    <string name="notification_group_filter">அறிவிப்பை வடிகட்டு</string>
+    <string name="notification_group_filter_title">தலைப்பை வடிகட்டு</string>
+    <string name="notification_group_filter_content">உள்ளடக்கத்தை வடிகட்டு</string>
+    <string name="notification_group_filter_regex">Regex</string>
+    <string name="notification_group_filter_hint">தலைப்பு அல்லது உள்ளடக்கம் பொருந்தினால் மட்டும் எச்சரிக்கையை காட்டு (பெரிய/சிறிய எழுத்து வேறுபாடின்றி)</string>
+    <string name="notification_group_filter_contains">இவை எதையாவது கொண்டிருக்க வேண்டும்</string>
+    <string name="notification_group_filter_not_contains">இவை எதையும் கொண்டிருக்கக்கூடாது</string>
+
+    <string name="notification_group_sample_sms">எஸ்எம்எஸ்</string>
+    <string name="notification_group_sample_facebook">Messenger</string>
+    <string name="notification_group_sample_whatsapp">WhatsApp</string>
+
+    <string name="notification_group_correction">அறிவிப்பு உரை திருத்தம்</string>
+    <string name="notification_group_correction_title">தலைப்பு திருத்தம்</string>
+    <string name="notification_group_correction_content">உள்ளடக்கம் திருத்தம்</string>
+    <string name="notification_group_correction_regex">Regex</string>
+    <string name="notification_group_correction_hint">பெரிய/சிறிய எழுத்து வேறுபாடின்றி</string>
+    <string name="notification_group_correction_items">திருத்த வேண்டிய உரைகள்</string>
+    <string name="notification_group_correction_find">தேடும் உரை</string>
+    <string name="notification_group_correction_replace">மாற்றம் செய்ய</string>
+
+    <string name="notification_regex_hint">அல்பான்யூமெரிக் அல்லாத எழுத்துகள் சிறப்பு அர்த்தம் கொண்டவை. Regex பற்றி தெரியவில்லை என்றால், இதை தேர்வு செய்ய வேண்டாம்.</string>
+
+    <string name="notification_confirm_close">மாற்றங்களை மறுக்க விரும்புகிறீர்களா?</string>
+
+    <string name="notification_edit_play_text_title">அறிவிப்பு தலைப்பு</string>
+    <string name="notification_edit_play_text_content">அறிவிப்பு உள்ளடக்கம்:</string>
+
+
+    <!-- Incoming call alert -->
+    <string name="call_tab_call">உள்நுழையும் அழைப்பு</string>
+    <string name="call_tab_contacts">தொடர்பு நபர்கள்</string>
+
+    <string name="call_incoming">உள்நுழையும் அழைப்பு</string>
+    <string name="call_incoming_summary_on">%1$s பயன்பாட்டில் உள்நுழையும் அழைப்புக்கான அறிவிப்புகளை அணைக்க மறக்க வேண்டாம்</string>
+    <string name="call_incoming_caller_id">அழைப்பாளர் ஐடியை காண்பி</string>
+
+    <string name="pref_call_notification_rejected">நிராகரிக்கப்பட்ட அழைப்புக்கு அறிவிப்பை காண்பி</string>
+    <string name="pref_call_notification_rejected_message">அழைப்பு நிராகரிக்கப்பட்டது</string>
+    <string name="pref_call_notification_rejected_action">அழைப்பு</string>
+
+    <string name="call_incoming_net_alert_title">இணையத்தின் வழியாக உள்ளீடு செய்யும் அழைப்புக்கான அறிவிப்பு</string>
+
+    <string name="call_missed_title">தவறவிடப்பட்ட அழைப்பு அறிவிப்பு</string>
+    <string name="call_missed_chooser_title">%1$s அறிவிப்பு</string>
+    <string name="call_missed_notification">தவறவிடப்பட்ட அழைப்பு</string>
+
+    <string name="call_reject_button_action">அழைப்பு முடிக்கும் பொத்தானின் செயல்</string>
+
+    <string name="touch_call_answer_title">அழைப்பை ஏற்கும் செயலி</string>
+    <string name="touch_call_answer_speakerphone_title">ஸ்பீக்கர் போன்</string>
+
+    <string name="call_end_title">அழைப்பை முடித்தல் அல்லது நிராகரித்தல்</string>
+
+    <string name="touch_call_mute_title">அழைப்பை மவுனமாக்கு</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">அழைப்பு வரும் போது மட்டும்</string>
+    <string name="touch_call_mute_recognition_title">உள்நுழையும் அழைப்பின் போது</string>
+
+    <string name="call_contact_edit_contact">தொடர்பு நபர்</string>
+    <string name="call_contact_edit_name">பெயர்</string>
+    <string name="call_contact_edit_phone_number">தொலைபேசி எண்</string>
+
+    <string name="call_contact_edit_setting_name_order">பெயர் வரிசை</string>
+    <string name="call_contact_edit_setting_default">@string/default_</string>
+    <string name="call_contact_edit_setting_first_name">முதல் பெயர்</string>
+    <string name="call_contact_edit_setting_last_name">இறுதி பெயர்</string>
+
+    <string name="message_call_contacts_free_counter">இலவச பயன்முறையில் அதிகபட்சம் %1$d தொடர்புகள் பயன்படுத்தலாம்</string>
+    <string name="message_call_contacts_max_counter">அதிகபட்சம் %1$d தொடர்புகள் பயன்படுத்தலாம்</string>
+
+    <!-- App chooser dialog -->
+    <string name="app_chooser">பயன்பாடு தேர்வி</string>
+    <string name="action_search">தேடு</string>
+    <string name="action_filter_notification">அறிவிப்பு வடிகட்டும்</string>
+
+    <!-- Activity -->
+    <string name="step_details">செயல்பாட்டு விவரங்கள்</string>
+
+    <string name="mi_band_tracker_step_title">%1$,d</string>
+    <string name="mi_band_tracker_distance_meter_title">%1$,d மீ</string>
+    <string name="mi_band_tracker_distance_kilometer_title">%,.2f கிமீ</string>
+    <string name="mi_band_tracker_distance_mile_title">%,.2f மைல்</string>
+    <string name="mi_band_tracker_calorie_title">%1$,d கிலோகாலரி</string>
+
+    <string name="action_tracker_step">அடிகள்</string>
+    <string name="action_tracker_distance">தூரம்</string>
+    <string name="action_tracker_calorie">காலோரி</string>
+    <string name="action_tracker_duration">உடற்பயிற்சி நேரம்</string>
+
+    <string name="step_goal_default_title">இயல்புநிலை இலக்கு</string>
+
+    <!-- Sleep monitoring -->
+    <string name="sleep_details">தூக்க விவரங்கள்</string>
+
+    <string name="sleep_awake_phase_short">தூக்கம் இல்லை</string>
+    <string name="sleep_light_phase_short">லேசான</string>
+    <string name="sleep_deep_phase_short">ஆழமான</string>
+    <string name="sleep_rem_phase_short">REM</string>
+
+    <!-- Heart rate -->
+    <string name="heart_rate_details">இதயதுடிப்பு விவரங்கள்</string>
+
+    <string name="heart_rate_continuous_measurement_title">தொடர்ந்த இதயதுடிப்பு அளவீடு</string>
+
+    <string name="heart_rate_alert_title">இதயதுடிப்பு எச்சரிக்கை</string>
+    <string name="heart_rate_thresholds">இதயதுடிப்பு வரம்புகள்</string>
+    <string name="low_heart_rate">குறைந்த இதயதுடிப்பு</string>
+    <string name="high_heart_rate">அதிக இதயதுடிப்பு</string>
+
+    <!-- Blood oxygen -->
+    <string name="blood_oxygen_details">ரத்த ஆக்சிஜன் விவரங்கள்</string>
+
+    <string name="blood_oxygen_level_measurement">ரத்த ஆக்சிஜன் அளவீடு</string>
+    <string name="measurement_interval">அளவீட்டு இடைவெளி</string>
+
+    <!-- Blood pressure -->
+    <string name="blood_pressure_details">ரத்த அழுத்த விவரங்கள்</string>
+
+    <string name="blood_pressure_level_measurement">ரத்த அழுத்த அளவீடு</string>
+
+    <string name="blood_pressure_systolic_abbreviation">Sys</string>
+    <string name="blood_pressure_diastolic_abbreviation">Dia</string>
+    <string name="blood_pressure_unit">mmHg</string>
+
+    <!-- Workout -->
+    <string name="workout_details">உடற்பயிற்சி விவரங்கள்</string>
+
+    <!-- Alarm -->
+    <string name="action_time_alarm_sort_state_asc">நிலை உயரும் வரிசை</string>
+    <string name="action_time_alarm_sort_watch_asc">ஓர் உயரும் வரிசை</string>
+    <string name="action_time_alarm_sort_name_asc">பெயர் உயரும் வரிசை</string>
+
+    <string name="message_time_alarm_sync">%1$s அலாரங்களை ஒத்திசைக்கவும் (இது ஏற்கனவே உள்ள அலாரங்களை நீக்கி, புதியவற்றை உங்கள் ஸ்மார்ட் வாட்சில் அமைக்கும்)</string>
+
+    <string name="info_dialog_alarm"><![CDATA[
+    <p>ஒத்துழைப்பு பயன்முறையைப் பயன்படுத்தும் போது, அதிகாரப்பூர்வ பயன்பாடு மற்றும் <app_name/> பயன்பாட்டின் அமைப்புகள் ஒன்றையொன்று மீறி மாற்றப்படலாம் அல்லது நீக்கப்படலாம்.</p>
+    கடைசியாக செய்யப்பட்ட செயல் தான் செல்லுபடியாகும்.
+    ]]></string>
+
+    <!-- Reminder -->
+    <string name="reminder_repeat">மணிநேரத்திற்கு ஒருமுறை மீளச் செயல்</string>
+    <string name="reminder_notification_on_phone">தொலைபேசியில் எனக்கு அறிவிக்கவும்</string>
+
+    <string name="message_reminder_enabled">நினைவூட்டல் இயக்கப்பட்டது</string>
+    <string name="message_reminder_disabled">நினைவூட்டல் முடக்கப்பட்டது</string>
+
+    <string name="message_time_reminder_free_counter">இலவச பயன்முறையில் 1 நினைவூட்டல் மட்டுமே பயன்படுத்த முடியும்</string>
+
+    <string name="info_dialog_reminder"><![CDATA[
+    நினைவூட்டலைக் காண்பிக்க Bluetooth இணைப்பு தேவை.
+    ]]></string>
+
+    <!-- Do not disturb -->
+    <string name="pref_dnd_summary">சங்கிலி கட்டுப்பாடுகள் "தடையுறாதிரு" முறையில் உள்ள நிலை</string>
+    <string name="pref_dnd_enable_bluetooth">DnD முறை தொடங்கும் போது Bluetooth ஐ அணைத்து, முடிந்ததும் மீண்டும் இயக்கவும்</string>
+
+    <string name="info_dialog_dnd"><![CDATA[
+    நீங்கள் ஒத்துழைப்பு பயன்முறையைப் பயன்படுத்தினால், அதிகாரப்பூர்வ <device_type/> பயன்பாட்டில் DnD (தடையுறாதிரு) முறை 00:00 முதல் 23:59 வரை இருக்க வேண்டும் மற்றும் அதன் நிலை முடக்கப்பட்டதாக இருக்க வேண்டும்.
+    ]]></string>
+
+
+    <!-- Watch face -->
+    <string name="watch_face_tab_watch_faces">முகப்பக்கங்கள்</string>
+    <string name="watch_face_tab_watch_face_custom">தனிப்பயன் கோப்புகள்</string>
+    <string name="watch_face_tab_watch_face_editor">தொகுப்பாளர்</string>
+
+    <string name="watch_face_download_title">முகப்பக்கத்தை பதிவிறக்கு</string>
+    <string name="watch_face_upload_title">முகப்பக்கத்தை பதிவேற்று</string>
+    <string name="watch_face_tool_title">கருவிகள்</string>
+
+    <string name="watch_face_share_content">நீங்கள் உருவாக்கிய முகப்பக்கத்தை பிறருடன் பகிரலாம். முகப்பக்க மற்றும் முன்னோட்டக் கோப்புகளை மின்னஞ்சலாக அனுப்பவும். மேலும், எழுத்தாளரின் பெயர், முகப்பக்கத்தின் பெயர் (அதிகபட்சம் 30 எழுத்துகள்), மற்றும் மொழி ஆகியவற்றையும் சேர்க்கவும். சிறந்த தரம் கொண்ட முகப்பக்கங்களே வெளியிடப்படும்.</string>
+
+    <string name="watch_face_upload_prepare">பதிவேற்றத்திற்கு தயாராகிறது…</string>
+    <string name="watch_face_upload_progress">%1$,d%% பதிவேற்றப்படுகிறது</string>
+
+    <string name="watch_face_invalid_firmware">%1$s ன் ஃபார்ம்வேர் அறியப்படாதது அல்லது முகப்பக்க பதிவேற்றத்தை ஆதரிக்கவில்லை. அதிகாரப்பூர்வ பயன்பாட்டைப் பயன்படுத்தி ஃபார்ம்வேரைப் புதுப்பிக்கவும். முகப்பக்க பதிவேற்றத்தை அதிகாரப்பூர்வ பயன்பாடு ஆதரிக்குமானால், கருத்து கூறு மெனுவில் எங்களை தொடர்புகொள்ளவும்.</string>
+    <string name="watch_face_invalid_auth">தனிச்செயல் பயன்முறையில் பயன்படுத்தவும். ஒத்துழைப்பு பயன்முறையில், முகப்பக்க பதிவேற்றத்தை அதிகாரப்பூர்வ பயன்பாடு தடுக்கக்கூடும்</string>
+    <string name="watch_face_invalid_free">இலவச பயன்முறையில் இன்று மேலும் முகப்பக்கங்களை பதிவேற்ற முடியாது</string>
+    <string name="watch_face_watch_rewarded_ads">தொடர ஒரு வீடியோவைப் பாருங்கள்</string>
+    <string name="watch_face_watch_rewarded_ads_uploading">பதிவேற்றத்தைத் தொடர ஒரு வீடியோவைப் பாருங்கள்</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">வீடியோ தொடங்குகிறது…</string>
+
+    <string name="watch_face_upload_method_title">முறை</string>
+    <string name="watch_face_upload_method_default">@string/default_</string>
+    <string name="watch_face_upload_method_alternative">மாற்று</string>
+
+    <string name="watch_face_upload_speed_title">பதிவேற்ற வேகம்</string>
+    <string name="watch_face_upload_invalid_speed_hint">முகப்பக்க பதிவேற்றம் தடைபட்டால், குறைந்த வேகத்தை அமைக்கவும்</string>
+    <string name="watch_face_upload_invalid_size_hint">தவறான முகப்பக்கக் கோப்பின் அளவு, தரத்தை குறைக்கவும் அல்லது உருப்படிகளை அகற்றவும்</string>
+    <string name="watch_face_upload_invalid_battery_hint">ஸ்மார்ட்வாட்ச் பேட்டரி குறைவாக உள்ளது, தயவுசெய்து அதனை சார்ஜ் செய்யவும்</string>
+
+    <string name="watch_face_tbwf_quality_title">.tbwf முகப்பக்க தர அமைப்பு</string>
+    <string name="watch_face_tbwf_quality_hint">முகப்பக்கத்தை குறைந்த அளவில் சேமிக்கலாம், உங்கள் வாட்ச் இதை அனுமதித்தால்</string>
+
+    <string name="watch_face_tbwf_locale_title">.tbwf மொழி மற்றும் பிராந்திய அமைப்புகள்</string>
+    <string name="watch_face_tbwf_locale_hint">வார நாட்களின் பெயர்கள், மாதப்பிரிப்பு மற்றும் தசமப்புள்ளி குறி</string>
+
+    <string name="message_watch_face_file_invalid">தவறான முகப்பக்கக் கோப்பு</string>
+    <string name="message_watch_face_file_invalid_size">தவறான முகப்பக்கக் கோப்பின் அளவு</string>
+    <string name="message_watch_face_file_invalid_battery">ஸ்மார்ட்வாட்ச் பேட்டரி குறைவாக உள்ளது</string>
+    <string name="message_watch_face_image_file_error">தவறான படக் கோப்பு</string>
+    <string name="message_watch_face_font_file_error">தவறான எழுத்துரு கோப்பு</string>
+
+    <string name="action_chart_layout_2_columns">2 நெடுவரிசை வடிவமைப்பு</string>
+    <string name="action_chart_layout_3_columns">3 நெடுவரிசை வடிவமைப்பு</string>
+
+    <string name="watch_face_edit_dial">அழைப்பலகை</string>
+    <string name="watch_face_edit_preview">முன்னோட்டம்</string>
+    <string name="watch_face_edit_hour_digital">மணிநேரம்</string>
+    <string name="watch_face_edit_minute_digital">நிமிடம்</string>
+    <string name="watch_face_edit_second_digital">விநாடி</string>
+    <string name="watch_face_edit_am_pm">முற்பகல்/பிற்பகல் குறிகாட்டி</string>
+    <string name="watch_face_edit_am">AM</string>
+    <string name="watch_face_edit_pm">PM</string>
+    <string name="watch_face_edit_hour_analog">மணிமூடியின் மணிக்குரிய கையும்</string>
+    <string name="watch_face_edit_minute_analog">நிமிடக் கை</string>
+    <string name="watch_face_edit_second_analog">விநாடிக் கை</string>
+    <string name="watch_face_edit_axis">சுழற்சி அச்சு</string>
+    <string name="watch_face_edit_hour_minute_separator">மணிநேரம் மற்றும் நிமிடம் பிரிப்பான்</string>
+    <string name="watch_face_edit_year">ஆண்டு</string>
+    <string name="watch_face_edit_year_month_separator">ஆண்டு மற்றும் மாத பிரிப்பான்</string>
+    <string name="watch_face_edit_month">மாதம்</string>
+    <string name="watch_face_edit_month_name">மாதத்தின் பெயர்</string>
+    <string name="watch_face_edit_month_day_separator">மாதம் மற்றும் நாள் பிரிப்பான்</string>
+    <string name="watch_face_edit_day">நாள்</string>
+    <string name="watch_face_edit_dayOfWeek">வாரத்தின் நாள்</string>
+    <string name="watch_face_edit_battery_level">மின்கலன் நிலை</string>
+    <string name="watch_face_edit_battery_level_percent_sign">மின்கலன் நிலை %</string>
+    <string name="watch_face_edit_battery_level_image">மின்கலன் படம்</string>
+    <string name="watch_face_edit_weather_temperature">வானிலை வெப்பநிலை</string>
+    <string name="watch_face_edit_weather_temperature_unit_sign">வெப்பநிலை அலகு °</string>
+    <string name="watch_face_edit_weather_image">வானிலை படம்</string>
+    <string name="watch_face_edit_connection_indicator_image">இணைப்பு குறிகாட்டி படம்</string>
+    <string name="watch_face_edit_connected">இணைக்கப்பட்டது</string>
+    <string name="watch_face_edit_disconnected">துண்டிக்கப்பட்டது</string>
+    <string name="watch_face_edit_steps">அடிகள்</string>
+    <string name="watch_face_edit_steps_image">அடிகள் படம்</string>
+    <string name="watch_face_edit_steps_goal_progress">அடிக்கோல் முன்னேற்றம்</string>
+    <string name="watch_face_edit_distance">தூரம்</string>
+    <string name="watch_face_edit_distance_image">தூரப்படம்</string>
+    <string name="watch_face_edit_calories">கலோரி</string>
+    <string name="watch_face_edit_calories_image">கலோரி படம்</string>
+    <string name="watch_face_edit_heart_rate">இதயதுடிப்பு</string>
+    <string name="watch_face_edit_heart_rate_image">இதயதுடிப்பு படம்</string>
+
+    <string name="watch_face_edit_color">நிறம்</string>
+    <string name="watch_face_edit_font_family">எழுத்துரு குடும்பம்</string>
+    <string name="watch_face_edit_character">அகராதி எழுத்து</string>
+    <string name="watch_face_edit_font_size">எழுத்துரு அளவு</string>
+    <string name="watch_face_edit_image">படம்</string>
+    <string name="watch_face_edit_image_png_jpeg">படம் (.png, .jpeg)</string>
+    <string name="watch_face_edit_image_png">படம் (.png)</string>
+    <string name="watch_face_edit_image_size">படத்தின் அளவு</string>
+    <string name="watch_face_edit_icon">அடையாளம்</string>
+
+    <string name="watch_face_custom_watch_face_not_supported_title">இந்த கடிகாரம் தனிப்பயன் முகப்பக்கத்தைப் பதிவேற்ற ஆதரிக்காது</string>
+    <string name="watch_face_custom_watch_face_under_development_title">தனிப்பயன் முகப்பக்க பதிவேற்ற அம்சம் தற்போது மேம்பாட்டில் உள்ளது, எதிர்காலத்தில் கிடைக்கக்கூடும், ஆனால் இது உறுதி செய்யப்படவில்லை.</string>
+
+    <!-- Touch monitoring -->
+    <string name="touch_tab_function">செயல்பாடு</string>
+    <string name="touch_tab_control">கட்டுப்பாடு</string>
+    <string name="touch_tab_testing">சோதனை</string>
+    <string name="touch_tab_setting">@string/setting_name</string>
+
+    <string name="touch_function_summary">தனித்தன்மை பயன்முறையை பயன்படுத்துகிறாய் அல்லது Mi Fit சரியாக செயல்படவில்லை என்றால் இந்த அம்சங்களை அமைக்கவும்</string>
+    <string name="touch_function">%1$s செயல்பாடு</string>
+    <string name="touch_function_as_touch">கட்டுப்பாடு பட்டியில் தொடுதலாக பயன்படுத்தவும்</string>
+
+    <string name="touch_headline_incoming_call_title">அளவிலான அழைப்பு</string>
+    <string name="touch_headline_other_function_title">பிற செயல்கள்</string>
+    <string name="touch_headline_call_title">அழைப்பு கட்டுப்பாடு</string>
+    <string name="touch_headline_music_title">இசை கட்டுப்பாடு</string>
+    <string name="touch_headline_time_title">டைமர்/நேரக் கணிப்பான் கட்டுப்பாடு</string>
+    <string name="touch_headline_other_title">பிற கட்டுப்பாடுகள்</string>
+
+    <string name="touch_device_location_title">என் தொலைபேசியைக் கண்டுபிடி</string>
+    <string name="touch_device_location_not_muted_only_title">நிமிடமில்லை அல்லது DnD நிலையில் இல்லாவிட்டால் மட்டும் சத்தம்</string>
+
+    <string name="touch_mute_toggle_title">தொலைபேசி மவுன் மாற்றி</string>
+    <string name="touch_mute_toggle_ringer_mode_title">மவுன் பயன்முறை</string>
+    <string name="touch_mute_toggle_mute_off_title">மவுன் அகற்றப்பட்டது</string>
+
+    <string name="touch_music_title">இசை</string>
+    <string name="touch_music_function_launch">இசை இயக்கியில் ஏதுமில்லை என்றால், பிளே பொத்தானால் இசையைத் தொடங்கவும்</string>
+    <string name="touch_music_function_mi_band_message_launch">பிளே பொத்தானால் இசையைத் தொடங்கவும்</string>
+    <string name="touch_music_function_mi_band_message_no_track_title">பாடல் பெயர் பெற முடியவில்லை</string>
+
+    <string name="touch_call_out_title">அழைப்பு செயல்</string>
+    <string name="touch_call_out_no_contact">ஒரு தொடர்பைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="touch_call_out_summary">அழைப்பை எடுக்க இரு முறை அழுத்தவும்</string>
+    <string name="touch_call_out_summary_support_call_display_button">அழைப்பை எடுக்க பொத்தானை அழுத்தவும்</string>
+    <string name="touch_call_out_speakerphone_title">மொழிபெயர்ப்பாளர்</string>
+    <string name="touch_call_out_call_text">அழைப்பு செயல்: %1$s</string>
+
+    <string name="touch_weather_title">வானிலை முன்னறிவு</string>
+    <string name="touch_weather_location">இருப்பிடம் புதுப்பிப்பு</string>
+    <string name="touch_weather_precipitation">மழை</string>
+    <string name="touch_weather_cloud_cover">மேகங்கள்</string>
+    <string name="touch_weather_wind">காற்று</string>
+
+    <string name="touch_repeat_notif_title">அறிவிப்புகளை மீண்டும் அனுப்பு</string>
+    <string name="touch_repeat_notif_clear_all">மீளச்செய்தியுடன் அனைத்தையும் அகற்று</string>
+
+    <string name="touch_clear_notif_title">தொலைபேசியிலிருந்து அறிவிப்புகளை அகற்று</string>
+
+    <string name="touch_music_play_pause_title">இசை தொடங்கு, இயக்கு, இடைநிறுத்து</string>
+    <string name="touch_music_skip_previous_title">இசை தொடங்கு, முந்தைய பாடல்</string>
+    <string name="touch_music_skip_next_title">இசை தொடங்கு, அடுத்த பாடல்</string>
+    <string name="touch_music_headset_only_title">காது காதணி இணைக்கப்பட்டால் மட்டும்</string>
+    <string name="touch_music_launch">இசையை தொடங்கு</string>
+    <string name="touch_music_volume_up_title">இசை ஒலி அதிகரிப்பு</string>
+    <string name="touch_music_volume_down_title">இசை ஒலி குறைப்பு</string>
+    <string name="touch_music_track_info_title">பாடல் தகவலைக் காட்டு</string>
+
+    <string name="touch_time_launch_title">நேர கண்காணிப்பை தொடங்கு</string>
+    <string name="touch_time_launch_type_timer_title">டைமர்</string>
+    <string name="touch_time_launch_type_stopper_title">நேரக் கணிப்பான்</string>
+    <string name="touch_time_launch_type_interval_title">இடைவெளி</string>
+    <string name="touch_time_launch_restart">நடந்து கொண்டிருந்தால் மறுதொடக்கம்</string>
+    <string name="touch_time_reminder_title">மீதமுள்ள/கழிந்த நேரம் காட்டு</string>
+
+    <string name="touch_google_assistant_title">Google உதவியாளர்</string>
+
+    <string name="touch_flashlight_title">ஒளிக்காட்சி மாற்றி</string>
+
+    <string name="touch_camera_title">புகைப்படம் எடு</string>
+    <string name="touch_camera_front_title">முன்புறம்</string>
+    <string name="touch_camera_rear_title">பின்புறம்</string>
+    <string name="touch_camera_install_title">நிறுவு</string>
+
+    <string name="touch_app_launcher1_title">பயன்பாட்டை தொடங்கு</string>
+    <string name="touch_app_launcher_package_no_title">ஒரு பயன்பாட்டை தேர்வு செய்</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">திரை பூட்டப்படவில்லை என்றால் மட்டும்</string>
+
+    <string name="touch_broadcast1_title">ஒளிபரப்பு அனுப்பு</string>
+    <string name="touch_broadcast1_action_title">Intent செயல்</string>
+    <string name="touch_broadcast1_package_title">Intent தொகுப்பு பெயர்</string>
+
+    <string name="touch_http_request1_title">1. HTTP கோரிக்கை</string>
+    <string name="touch_http_request2_title">2. HTTP கோரிக்கை</string>
+    <string name="touch_http_request_url_title">URL</string>
+    <string name="touch_http_request_method_title">முறை</string>
+    <string name="touch_http_request_body_title">உட்பொருள்</string>
+    <string name="touch_http_request_show_response_title">பதிலை காட்டு</string>
+
+    <string name="touch_tasker_launcher1_title">1. Tasker பணியை தொடங்கு</string>
+    <string name="touch_tasker_launcher2_title">2. Tasker பணியை தொடங்கு</string>
+    <string name="touch_tasker_launcher_no_permission_title">முதலில் Tasker ஐ நிறுவுங்கள், பிறகு Mi Bandage ஐ நிறுவுங்கள்</string>
+    <string name="touch_tasker_launcher_no_access_title">வெளி அணுகலை அனுமதிக்கவும்</string>
+    <string name="touch_tasker_launcher_no_task_title">ஒரு பணியைத் தேர்வுசெய்க</string>
+
+    <string name="touch_testing_title">தொட்டு கண்காணிப்பு</string>
+    <string name="touch_testing_second">நொ.</string>
+
+    <string name="touch_setting_detection_time_title">தொட்டு கண்டறிதல் நேரம்</string>
+    <string name="touch_setting_detection_time_music_hint">மிகக் குறைந்த மதிப்பாக இருந்தால், இசைத் திரையை வேகமாக மூட வேண்டும்</string>
+    <string name="touch_setting_detection_time_button_hint">மிகக் குறைந்த மதிப்பாக இருந்தால், பட்டனை விரைவாக அழுத்த வேண்டும்</string>
+
+    <string name="touch_setting_detection_method_title">தொட்டு கண்டறிதல் முறை</string>
+
+    <string name="touch_setting_recognition_start_title">தொட்டு அடையாளம் காண்தலை தொடங்கு</string>
+    <string name="touch_setting_recognition_start_trigger_title">தூண்டி</string>
+    <string name="touch_setting_recognition_time_title">அடையாளம் காணும் நேரம்</string>
+
+    <string name="touch_setting_recognition_mi_band_signal_title">%1$s சிக்னல்</string>
+    <string name="touch_setting_recognition_succeeded_title">அடையாளம் காணப்பட்ட தொட்டு முறை</string>
+    <string name="touch_setting_recognition_failed_title">அடையாளம் காணப்படாத தொட்டு முறை</string>
+
+    <string name="info_dialog_touch"><![CDATA[
+    <p>சுயேச்சை முறையில் சிறப்பாக இயங்கும். கூட்டுச் செயல்பாட்டு முறையைப் பயன்படுத்தினால், <app_official/> அதிகாரப்பூர்வ பயன்பாட்டும் இந்த அம்சங்களை கையாளும், எனவே சரியான செயல்பாடு உறுதி செய்ய முடியாது.</p>
+    <p><b>தொலைபேசி Bluetooth அமைப்புகள்:</b> <device_name/> உள்ளீட்டு சாதனத்தை முடக்கு</p>
+    <b><u>அடையாளம் காணப்பட்ட தொடுகள்</u></b>
+    <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
+    <br><device_type/> இசை கட்டுப்பாடு
+    <p><img src="ic_search">
+    <br><device_type/> எனது கைபேசியை கண்டுபிடி
+    </p>
+    ஒவ்வொரு செயலுக்கும் பல தொடுகள் பதிவுசெய்யப்படலாம்.
+    ]]></string>
+
+
+    <!-- Weather  -->
+    <string name="weather_tab_weather_forecast">வானிலை</string>
+    <string name="weather_tab_location">இருப்பிடம்</string>
+    <string name="weather_tab_settings">@string/setting_name</string>
+
+    <string name="weather_location_title">இருப்பிடம்</string>
+
+    <string name="weather_forecast_title">வானிலை முன்னறிவிப்பு</string>
+
+    <string name="weather_setting_provider">வானிலை சேவையகம்</string>
+    <string name="weather_city_title">நகரம்</string>
+    <string name="weather_unit_title">அலகு</string>
+    <string name="weather_unit_metric">மெட்ரிக் (செல்சியஸ்)</string>
+    <string name="weather_unit_imperial">இம்பீரியல் (ஃபாரன்ஹீட்)</string>
+    <string name="weather_automatic_update">பின்புலத்தில் இருப்பிடத்தை தானாகப் புதுப்பிக்கவும்</string>
+    <string name="weather_automatic_update_title">தற்போதைய இருப்பிடத்தை பயன்படுத்தவும்</string>
+    <string name="weather_automatic_update_summary">இந்த பயன்பாடு நீங்கள் பயன்பாட்டை மூடினாலும் அல்லது பயன்படுத்தவில்லை என்றாலும் தற்போதைய இருப்பிடம் அடிப்படையில் வானிலையை புதுப்பிக்க இருப்பிடத் தரவுகளை சேகரிக்கிறது.</string>
+
+    <string name="permission_background_location">%1$s பயன்பாடு மூடப்பட்டிருந்தாலும் அல்லது பயன்படுத்தப்படவில்லை என்றாலும், இருப்பிடத் தரவுகளை சேகரிக்க அனுமதியளிக்கப்படும்</string>
+    <string name="permission_error_title">%1$s அனுமதிகளை புதுப்பிக்க முடியவில்லை</string>
+    <string name="permission_error_description">அனுமதிகளுக்கான „%1$s” தேர்வைத் தேர்ந்தெடுக்க அமைப்புகளைத் திறக்கவும்</string>
+    <string name="all_the_time">எப்போதும்</string>
+
+    <string name="weather_current_title">தற்போதைய வானிலை</string>
+    <string name="weather_current_location">தற்போதைய இருப்பிடம்</string>
+    <string name="weather_current_temperature">தற்போதைய வெப்பநிலை</string>
+
+    <string name="weather_precipitation_rain">மழை</string>
+    <string name="weather_precipitation_snow">பனியழிவு</string>
+    <string name="weather_cloud_cover_abbreviation">மே</string>
+    <string name="weather_cloud_cover">மேகம்</string>
+    <string name="weather_humidity">ஈரப்பதம்</string>
+
+    <string name="weather_north">வட</string>
+    <string name="weather_east">கிழ</string>
+    <string name="weather_south">தென்</string>
+    <string name="weather_west">மே</string>
+
+
+    <!-- Text customization -->
+    <string name="pref_text_reminder_repeat_interval_title">நினைவூட்டல் இடைவெளி</string>
+    <string name="pref_text_reminder_repeat_interval_summary">அறிவிப்பு > நினைவூட்டல் செயல்பாடு இந்த நேரத்தைப் பயன்படுத்துகிறது</string>
+    <string name="pref_text_emoticon_title">எமோஜி மாற்றம்</string>
+    <string name="pref_text_emoticon_summary_on">எமோஜிகளை உணர்ச்சிகாட்டிகளாக மாற்று</string>
+    <string name="pref_text_uppercase_title">பெரிய எழுத்து மாற்றம்</string>
+    <string name="pref_text_uppercase_summary_on">சிறிய எழுத்துகளை பெரிய எழுத்துகளாக மாற்று</string>
+    <string name="pref_text_alphanumeric_title">எழுத்து மற்றும் எண் எழுத்துக்கள்</string>
+    <string name="pref_text_alphanumeric_summary_on">எழுத்து மற்றும் ASCII எழுத்துகளை மட்டும் காண்பி</string>
+    <string name="pref_text_transliteration_title">ஒலிபெயர்ப்பு</string>
+    <string name="pref_text_transliteration_summary_on">உயிரெழுத்துகள் மற்றும் குறியீடுகளை சாதாரண எழுத்துகளாக மாற்று</string>
+    <string name="pref_text_line_separator_title">வரி பிரிப்பான் மாற்றம்</string>
+    <string name="pref_text_line_separator_summary_on">இயல்புநிலை வரி பிரிப்பானை வேறு எழுத்தால் மாற்று</string>
+    <string name="pref_text_line_separator_value_title">மாற்ற Characters</string>
+    <string name="pref_text_char_replacement_title">எழுத்து, எமோஜி மாற்றம்</string>
+    <string name="pref_text_char_replacement_summary_on">ஒரு எழுத்தை மற்றொன்றால் மாற்று</string>
+    <string name="pref_text_char_replacement_find">தேட வேண்டியது</string>
+    <string name="pref_text_char_replacement_replace">மாற்ற வேண்டியது</string>
+
+    <!-- Export -->
+    <string name="export_tab_database">தரவுத் தோராய்வு</string>
+    <string name="export_start_date">தேர்வுத் தொடக்க தேதி</string>
+
+    <!-- Theme -->
+    <string name="theme_tab_theme">தீம்</string>
+
+    <string name="theme_title">தீமை தேர்ந்தெடு</string>
+    <string name="theme_background_color_title">பின்புல நிறம்</string>
+
+    <string name="theme_widget_background_color_title">நிறம்</string>
+    <string name="theme_color_dynamic_color_title">மாற்றும் நிறம்</string>
+    <string name="theme_color_predefined_colors_title">முன்னிருப்பிடப்பட்ட நிறங்கள்</string>
+
+    <string name="theme_notification_title">அறிவிப்புப் பட்டையில் நிலையை காண்பி</string>
+
+    <string name="theme_cat_color_setting">நிற அமைப்புகள்</string>
+
+
+    <!-- Premium mode -->
+    <string name="purchase_advantage_title">பிரீமியம் பயன்முறையின் நன்மைகள்</string>
+    <string name="purchase_advantage"><![CDATA[
+    <p>• பயன்பாட்டின் மேம்பாட்டிற்கான நிதி ஆதரவு</p>
+    <p>• விளம்பரமின்றி பயன்பாடு</p>
+    <p>• அறிவிப்புகளை வரையறையின்றி அமைத்தல்</p>
+    <p>• அழைப்பு அமைப்புகள் வரையறையின்றி</p>
+    <p>• நாளொன்றுக்கு எத்தனை முறை வேண்டுமானாலும் வாட்ச் ஃபெஸ் பதிவேற்றம்</p>
+    <p>• எழுப்பிகள் எண்ணிக்கைக்கு வரம்பில்லை (மணி வரம்பிட்டால் மட்டும்)</p>
+    <p>• தொந்தரவு செய்ய வேண்டாம் பயன்முறை வரையறையின்றி</p>
+    <p>• தொடுதல் அமைப்புகள் வரையறையின்றி</p>
+    <p>• அதிகப்படியான வானிலை புதுப்பிப்புகள், தானாக இடம் புதுப்பிப்பு, AccuWeather தேர்வு விருப்பம்</p>
+    <p>• விரிவான தினசரி வரிசைப்படங்கள்</p>
+    • அனைத்து பிற அம்ச வரம்புகளும் திறக்கப்படுகின்றன…
+    ]]></string>
+
+    <string name="purchase_policy_title">பிரீமியம் பயன்முறை விதிமுறைகள் மற்றும் நிபந்தனைகள்</string>
+    <string name="purchase_policy"><![CDATA[
+    <p>• நான் பயன்பாட்டைப் பரிசோதித்தேன் மற்றும் அது எதிர்பார்த்தபடி செயல்படுகிறது என்பதை உறுதிப்படுத்தினேன்.</p>
+    <p>• கணினி அமைப்பு (எ.கா. Android பதிப்பு மேம்பாடு), சாதனம் அல்லது பிற செயலிகளுடன் முரண்பாடு போன்ற காரணிகளால் ஏற்படும் சிக்கல்களுக்கு நான் மீட்பு அல்லது இழப்பீடு கோர முடியாது என்பதை புரிந்துகொள்கிறேன்.</p>
+    <p>• அனைத்து கொள்முதல்களும் இறுதியானவை மற்றும் மீட்பு வழங்கப்படமாட்டாது (Google\'s மீட்பு கொள்கையின் கீழ் அனுமதிக்கப்பட்டால் தவிர).</p>
+    <p>• இந்த பயன்பாட்டிற்கு எதுவொரு நேரடி அல்லது மறைமுக உத்தரவாதமும் இல்லை.</p>
+    <p>• பயன்பாட்டைப் பயன்படுத்துவது உங்களது சொந்த பொறுப்பில் இருக்கும். அதன் பயன்பாட்டால் நேரிடையானவையாகவோ மறைமுகமானவையாகவோ ஏற்படும் சேதம் அல்லது தரவிழப்பிற்காக உருவாக்குநர் பொறுப்பற்றவர்.</p>
+    <p>• பிரீமியம் பயன்முறை உங்கள் Google கணக்குடன் இணைக்கப்பட்டுள்ளது மற்றும் பயன்பாட்டை மீண்டும் நிறுவினாலும் செயல்பாட்டிலேயே இருக்கும்.</p>
+    <i>வாங்கிய பின் பயன்பாட்டை மீள்துவக்க வேண்டியது அவசியம்.</i>
+    ]]></string>
+
+    <string name="purchase_google_play_services_not_available">Google Play சேவைகள் கிடைக்கவில்லை</string>
+
+    <string name="purchase_agree">நிபந்தனைகளையும் விதிமுறைகளையும் ஏற்கிறேன்.</string>
+    <string name="purchase_order_id">வாங்கல் அடையாள எண்</string>
+    <string name="purchase_order_id_help">இங்கு நகலெடுக்கவும்:
+    \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+    \n<a href="https://payments.google.com">https://payments.google.com</a>
+    </string>
+
+    <string name="purchase_info">ஒரே கட்டணம் ・ %1$s</string>
+    <string name="purchase_button_purchase">வாங்கு</string>
+
+    <!-- Feedback -->
+    <string name="action_log_notification">பதிவு</string>
+
+    <string name="feedback_google_play_title">இந்த பயன்பாட்டை மதிப்பீடு செய்க</string>
+    <string name="feedback_request_feature_title">அம்ச கோரிக்கை, பிழை அறிக்கை</string>
+    <string name="feedback_request_feature_summary">தானியங்கி மின்னஞ்சல் செயலாக்கம்; பதில் கிடைக்காமல் போகலாம்</string>
+    <string name="feedback_translation_title">%1$s மொழிபெயர்ப்பு</string>
+    <string name="feedback_translation_title_summary">மொழிபெயர்ப்பில் உதவுங்கள்</string>
+
+    <!-- Privacy policy -->
+    <string name="privacy_policy_tab_privacy_policy">தனியுரிமைக் கொள்கை</string>
+    <string name="privacy_policy_tab_user_consent">பயனர் ஒப்புதலின் மேலாண்மை</string>
+    <string name="privacy_policy_tab_eu_consent">ஐரோப்பா மற்றும் அமெரிக்க பயனர் ஒப்புதல்</string>
+    <string name="privacy_policy_tab_non_eu_consent">பிற பகுதிகளின் பயனர் ஒப்புதல்</string>
+
+    <string name="privacy_policy_collect_title">எங்களால் சேகரிக்கப்படும் தகவல்கள்</string>
+    <string name="privacy_policy_collect"><![CDATA[
+    <p>• நாங்கள் பெயரறியாத (அநாமதேய) தகவல்களை மட்டுமே சேகரிக்கின்றோம்.</p>
+    <p>• நீங்கள் பயன்பாட்டை எவ்வாறு பயன்படுத்துகிறீர்கள் என்பதைப் போன்ற சேவைகளைக் குறித்த பயன்பாட்டு மட்டத்திலான தகவல்களை நாங்கள் சேகரிக்கிறோம் (Google Analytics).</p>
+    <p>• பயன்பாட்டின் பிழைகள், தவறுகள் மற்றும் திடீர் முறிவுகள் பற்றிய தகவல்களையும் சேகரித்து, மேம்பாடுகள் செய்ய பயன்படுகிறது (Firebase Crashlytics).</p>
+    <p>• செயல்திறனைப் பற்றிய தகவல்களையும் Firebase Performance Monitoring மூலம் சேகரிக்கிறோம்.</p>
+    <p>• Google Firebase தளத்தின் மூலம் சேகரிக்கப்படும் அனைத்து தகவல்களும் பெயரறியாதவையாக உள்ளன. இது தனிநபர்களை அடையாளம் காணாது. இதில் Firebase installation ID, பயன்பாட்டின் நிலை, சாதன தகவல்கள் (சாதன மாடல், CPU கட்டமைப்பு, RAM மற்றும் நினைவகம், OS, திரை திசைமை, நாடு, மொழி/பகுதி), stack traces, செயல்திறன் அளவீடுகள் (அப்பைத் துவக்கும் நேரம், வலைவழி கோரிக்கைகள்), CPU/நினைவக பயன்பாடு, மற்றும் தோராயமான IP முகவரி போன்றவை அடங்கும்…</p>
+    <p>• தற்போதைய இருப்பிடத்தினைப் பொருத்து வானிலைப் புதுப்பிக்க மட்டுமே இருப்பிட தரவுகள் சேகரிக்கப்படுகின்றன (ஐச்சிகை அம்சம்).</p>
+    • இத்தகவல்களை சேகரிக்கும் மற்றும் செயலாக்கும் சட்டப்பூர்வ அடிப்படை, பயன்பாட்டின் செயல்திறனை மற்றும் நிலைத்தன்மையை மேம்படுத்த எங்களுடைய உரிமையான நலனாகும்.
+    ]]></string>
+
+    <string name="privacy_policy_cookies_title">குக்கீகள் மற்றும் அதே போன்ற தொழில்நுட்பங்கள்</string>
+    <string name="privacy_policy_cookies"><![CDATA[
+    • AdMob போன்ற மூன்றாம் தரப்பினர் தனிப்பயனாக்கப்பட்ட விளம்பரங்களை வழங்க குக்கீக்கள் அல்லது ஒத்த தொழில்நுட்பங்களைப் பயன்படுத்தலாம். உங்கள் Google கணக்கின் அமைப்புகளில் இந்த விருப்பங்களை நிர்வகிக்கலாம்.
+    ]]></string>
+
+    <string name="privacy_policy_retention_title">தரவுப் பதிந்து வைக்கும் காலம்</string>
+    <string name="privacy_policy_retention"><![CDATA[
+    • சேகரிக்கப்பட்ட தரவுகள் Google Firebase கொள்கைகளின்படி சேமிக்கப்படும், மேலும் பகுப்பாய்வு, வழுகல் கண்டறிதல் மற்றும் செயல்திறன் மேம்படுத்தல் நோக்கங்களுக்கே பயன்படுத்தப்படும்.
+    ]]></string>
+
+    <string name="privacy_policy_not_collect_title">நாங்கள் சேகரிக்காத தகவல்கள்</string>
+    <string name="privacy_policy_not_collect"><![CDATA[
+    <p>• நாங்கள் உங்களை அடையாளம் காணக்கூடிய எந்தவொரு தனிப்பட்ட தகவலையும் சேகரிப்பதில்லை. எடுத்துக்காட்டாக, உங்கள் பெயர், முகவரி, தொலைபேசி எண், மின்னஞ்சல் முகவரி அல்லது MAC முகவரி போன்றவை சேகரிக்கப்படுவதில்லை.</p>
+    • நாங்கள் உங்கள் சுகாதாரத் தரவுகள், தொடர்புகள் அல்லது சாதனத்தில் காட்டப்படும் அறிவிப்புகளின் உள்ளடக்கம் போன்றவற்றை சேகரிப்பதில்லை.
+    ]]></string>
+
+    <string name="privacy_policy_share_title">பகிரப்படும் தகவல்கள்</string>
+    <string name="privacy_policy_share"><![CDATA[
+    • நாங்கள் எந்த நிறுவனங்களுடனும் அல்லது அமைப்புகளுடனும் தரவுகளைப் பகிர்வதில்லை, Google மற்றும் விளம்பர சேவை வழங்குநர்கள் தவிர.
+    ]]></string>
+
+    <string name="privacy_policy_use_title">நாங்கள் பயன்படுத்தும் தனிப்பட்ட மற்றும் சென்சிட்டிவ் பயனர் தரவுகள்</string>
+    <string name="privacy_policy_use"><![CDATA[
+    • வானிலைப் புதுப்பிப்பதற்காக மட்டுமே உங்கள் இருப்பிடத் தரவை நாங்கள் பயன்படுத்துகிறோம், மேலும் நீங்கள் இவ்விருப்பத்தை இயக்கினாலே அது செயல்படும்.
+    ]]></string>
+
+    <string name="privacy_policy_rights_title">உங்கள் உரிமைகள்</string>
+    <string name="privacy_policy_rights"><![CDATA[
+    <p>• சேகரிக்கப்படும் பகுப்பாய்வு, பிழை மற்றும் செயல்திறன் தரவுகள் அனைத்தும் பெயரற்றவை, எனவே இவை தனிநபரை அடையாளம் காண இயலாது. எனவே, இவை GDPR போன்ற சட்டங்களின்படி தனிப்பட்ட தரவுகளாகப் பார்க்கப்படாது, மற்றும் அணுகல், திருத்தம் அல்லது நீக்கம் போன்ற உரிமைகள் பொருந்தாது.</p>
+    <p>• நீங்கள் பயன்பாட்டை அணinstால் அல்லது உங்கள் Google கணக்கின் தனியுரிமை அமைப்புகளில் கட்டுப்படுத்துவதன் மூலம் தரவுச் சேகரிப்பிலிருந்து விலக முடியும்.</p>
+    • தரவுகளின் பயன்பாடு அல்லது தனியுரிமை உரிமைகள் குறித்து கேள்விகள் இருப்பின், பயன்பாட்டில் உள்ள ஆதரவு சேனல்களின் மூலம் எங்களைத் தொடர்பு கொள்ளலாம்.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">மூன்றாம் தரப்பு சேவையகங்களின் தனியுரிமைக் கொள்கைகள்</string>
+    <string name="privacy_policy_links"><![CDATA[
+    <p><a href="https://policies.google.com/privacy">Google தனியுரிமைக் கொள்கை (Google Play Services உட்பட)</a></p>
+    <p><a href="https://policies.google.com/technologies/ads">AdMob தரவுப் பயன்பாடு</a></p>
+    <p><a href="https://support.google.com/analytics/answer/6004245">Google Analytics – தரவுப் பயன்பாடு</a></p>
+    <p><a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics விதிமுறைகள்</a></p>
+    <a href="https://firebase.google.com/support/privacy">Firebase தனியுரிமை மற்றும் பாதுகாப்பு (Performance Monitoring உட்பட)</a>
+    ]]></string>
+
+    <string name="privacy_policy_eu_consent_title">நிலை</string>
+    <string name="privacy_policy_eu_consent_title_obtained">ஒப்புதல் பெறப்பட்டது</string>
+    <string name="privacy_policy_eu_consent_title_personalized">தனிப்பயனாக்கப்பட்ட, தொடர்புடைய விளம்பரங்கள்</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">தனிப்பயனாக்கப்படாத, குறைவான தொடர்புடைய விளம்பரங்கள்</string>
+    <string name="privacy_policy_eu_consent_title_unknown">தெரியாதது</string>
+
+    <string name="privacy_policy_eu_consent_setting">அமைப்புகள்</string>
+
+
+    <!-- Custom vibration dialog -->
+    <string name="custom_vibration_title">அதிர்வு அமைப்பு</string>
+
+    <!-- Shortcuts -->
+    <string name="shortcut">குறுக்கு வழி</string>
+    <string name="shortcut_visible_items">காணக்கூடிய குறுக்கு வழிகள்</string>
+    <string name="shortcut_hidden_items">மறைக்கப்பட்ட குறுக்கு வழிகள்</string>
+
+    <string name="shortcut_status">நிலை</string>
+    <string name="shortcut_heart_rate">இதய துடிப்பு</string>
+    <string name="shortcut_blood_oxygen">இரத்த ஆக்சிஜன்</string>
+    <string name="shortcut_sleep">தூக்கம்</string>
+    <string name="shortcut_breathing">மூச்சுவிடுதல்</string>
+    <string name="shortcut_weather">வானிலை</string>
+    <string name="shortcut_stress">மன அழுத்தம்</string>
+
+    <!-- Actions  -->
+    <string name="tab_daily_charts">தினசரி வரைபடங்கள்</string>
+    <string name="tab_weekly_charts">வாராந்திர வரைபடங்கள்</string>
+    <string name="tab_monthly_charts">மாதந்தோறும் வரைபடங்கள்</string>
+    <string name="tab_yearly_charts">வருடந்தோறும் வரைபடங்கள்</string>
+
+    <string name="ad_attribution">விளம்பரம்</string>
+    <string name="on">இயக்கு</string>
+    <string name="off">நிறுத்து</string>
+    <string name="none">இல்லை</string>
+    <string name="heart_rate_bpm">bpm</string>
+    <string name="heart_rate_mhr">MHR</string>
+    <string name="date">தேதி</string>
+    <string name="time">நேரம்</string>
+    <string name="time_start">தொடக்க நேரம்</string>
+    <string name="time_end">முடிவு நேரம்</string>
+    <string name="ringer_mode_vibrate">அதிர்வு</string>
+    <string name="ringer_mode_silent">அமைதியான</string>
+    <string name="ringer_mode_dnd_priority_only">தடையுறாதீர்கள் (முக்கியவை மட்டும்)</string>
+    <string name="ringer_mode_dnd_alarms_only">தடையுறாதீர்கள் (அலாரம் மட்டும்)</string>
+    <string name="ringer_mode_dnd_total_silence">தடையுறாதீர்கள் (முழு அமைதி)</string>
+    <string name="unknown">தெரியாதது</string>
+    <string name="maximum">அதிகபட்சம்</string>
+    <string name="all_day">முழு நாள்</string>
+    <string name="timed">நேரம் அமைக்கப்பட்டது</string>
+    <string name="file_name">கோப்பு பெயர்</string>
+    <string name="default_">இயல்புநிலை</string>
+    <string name="default_by_phone">இயல்புநிலை (தொலைபேசி அடிப்படையில்)</string>
+    <string name="custom">தனிப்பயன்</string>
+    <string name="invalid_setting">தவறான அமைப்பு</string>
+    <string name="ringtone">அழைப்பு ஒலி</string>
+    <string name="ringtone_chooser">அழைப்பு ஒலி தேர்வி</string>
+    <string name="uninstalled">நீக்கப்பட்டது</string>
+    <string name="value">மதிப்பு</string>
+    <string name="downloads">பதிவிறக்கங்கள்</string>
+    <string name="share">பகிர்</string>
+    <string name="send">அனுப்பு</string>
+    <string name="narrow">குறுகிய</string>
+    <string name="short_">குறுகிய</string>
+    <string name="medium">மிதமான</string>
+    <string name="long_">நீண்ட</string>
+    <string name="full">முழு</string>
+    <string name="alignment_left">இடது ஒழுங்கு</string>
+    <string name="alignment_center">மைய ஒழுங்கு</string>
+    <string name="alignment_right">வலது ஒழுங்கு</string>
+    <string name="visible">காணக்கூடியது</string>
+    <string name="invisible">காணாதது</string>
+    <string name="placeholder">தற்காலிக இடம்</string>
+    <string name="image_scale_fit">பொருந்தும்</string>
+    <string name="image_scale_crop">வெட்டு</string>
+    <string name="image_scale_stretch">நீட்டு</string>
+    <string name="resource_manager">வள மேலாளர்</string>
+
+    <string name="action_premium_mode">பிரீமியம் பயன்முறை</string>
+    <string name="action_dismiss">மூடு</string>
+    <string name="action_setting">அமைப்பு</string>
+    <string name="action_delete">நீக்கு</string>
+    <string name="action_rename">பெயர் மாற்று</string>
+    <string name="action_export">ஏற்றுமதி</string>
+    <string name="action_synchronization">ஒத்திசைவு</string>
+    <string name="action_download">பதிவிறக்கு</string>
+    <string name="action_upload">பதிவேற்று</string>
+    <string name="action_backup">காப்புப்பிரதி</string>
+    <string name="action_restore">மீட்டமை</string>
+    <string name="action_filter_no">வடிகட்டல் இல்லை</string>
+    <string name="action_bluetooth">ப்ளூடூத்</string>
+    <string name="action_favorite">விருப்பமானது</string>
+    <string name="action_save">சேமி</string>
+    <string name="action_test">சோதனை</string>
+    <string name="action_discard">நிராகரி</string>
+    <string name="action_keep_editing">திருத்தத்தை தொடரு</string>
+    <string name="action_new">புதியது</string>
+    <string name="action_new_file_extension">புதிய %1$s</string>
+    <string name="action_edit">திருத்து</string>
+    <string name="action_start_stop">தொடங்கு/நிறுத்து</string>
+    <string name="action_contacts">தொடர்புகள்</string>
+    <string name="action_single_selection">தனிப்பட்ட தேர்வு</string>
+    <string name="action_multiple_selection">பல தேர்வுகள்</string>
+    <string name="action_selection_boundaries">தேர்வின் எல்லைகள்</string>
+    <string name="action_object_boundaries">பொருள் எல்லைகள்</string>
+    <string name="action_select">தேர்வு</string>
+    <string name="action_select_all">அனைத்தையும் தேர்வு செய்</string>
+    <string name="action_select_texts">உரைகளைத் தேர்வு செய்</string>
+    <string name="action_select_images">படங்களைத் தேர்வு செய்</string>
+    <string name="action_deselect_all">தேர்வுகளை நீக்கு</string>
+    <string name="synchronized_from_watch">நாடியிலிருந்து ஒத்திசைக்கப்பட்டது</string>
+    <string name="synchronization_succeeded">ஒத்திசைவு வெற்றிகரமாக முடிந்தது</string>
+    <string name="synchronization_failed">ஒத்திசைவு தோல்வியடைந்தது</string>
+
+    <string name="action_chart">வரைப்படம்</string>
+    <string name="action_zoom_in">பெரிதாக்கு</string>
+    <string name="action_chart_normalize_raw_data">அளவிடப்பட்ட மதிப்புகள்</string>
+    <string name="action_chart_normalize_quarter_hourly">15 நிமிட அளவுகள்</string>
+    <string name="action_chart_normalize_half_hourly">30 நிமிட அளவுகள்</string>
+    <string name="action_chart_normalize_hourly">மணிநேர அளவுகள்</string>
+    <string name="action_chart_sort_time_asc">நேரம் (ஏறும் வரிசை)</string>
+    <string name="action_chart_sort_time_desc">நேரம் (இறங்கும் வரிசை)</string>
+    <string name="action_chart_sort_step_asc">அடிகள் (ஏறும் வரிசை)</string>
+    <string name="action_chart_sort_step_desc">அடிகள் (இறங்கும் வரிசை)</string>
+    <string name="action_chart_sort_duration_asc">கால அவகாசம் (ஏறும் வரிசை)</string>
+    <string name="action_chart_sort_duration_desc">கால அவகாசம் (இறங்கும் வரிசை)</string>
+    <string name="action_chart_sort_heart_rate_asc">இதயதுடிப்பு (ஏறும் வரிசை)</string>
+    <string name="action_chart_sort_heart_rate_desc">இதயதுடிப்பு (இறங்கும் வரிசை)</string>
+    <string name="action_chart_sort_spo2_asc">SpO2 (ஏறும் வரிசை)</string>
+    <string name="action_chart_sort_spo2_desc">SpO2 (இறங்கும் வரிசை)</string>
+    <string name="action_chart_sort_pressure_asc">மருத்துவ அழுத்தம் (ஏறும் வரிசை)</string>
+    <string name="action_chart_sort_pressure_desc">மருத்துவ அழுத்தம் (இறங்கும் வரிசை)</string>
+    <string name="action_chart_monthly_calendar">காலண்டர்</string>
+    <string name="action_chart_monthly_compact">சுருக்கமானது</string>
+
+    <string name="activity_progress_title_prepare">ஒத்திசைவைத் தயார் செய்கிறது…</string>
+    <string name="activity_progress_title_sync">தரவு ஒத்திசைக்கப்படுகிறது…</string>
+    <string name="activity_progress_title_save">தரவு சேமிக்கப்படுகிறது…</string>
+
+    <string name="required_value">கட்டாயமாக உள்ளிடவும்</string>
+
+    <string name="percent_0">0%</string>
+    <string name="percent_10">10%</string>
+    <string name="percent_20">20%</string>
+    <string name="percent_30">30%</string>
+    <string name="percent_40">40%</string>
+    <string name="percent_50">50%</string>
+    <string name="percent_60">60%</string>
+    <string name="percent_70">70%</string>
+    <string name="percent_80">80%</string>
+    <string name="percent_90">90%</string>
+    <string name="percent_100">100%</string>
+
+    <!-- Constants -->
+    <string name="const_day_of_week_sunday">ஞாயிறு</string>
+    <string name="const_day_of_week_monday">திங்கள்</string>
+    <string name="const_day_of_week_tuesday">செவ்வாய்</string>
+    <string name="const_day_of_week_wednesday">புதன்</string>
+    <string name="const_day_of_week_thursday">வியாழன்</string>
+    <string name="const_day_of_week_friday">வெள்ளி</string>
+    <string name="const_day_of_week_saturday">சனி</string>
+
+    <string name="const_time_abbreviation_day">நா</string>
+    <string name="const_time_abbreviation_hour">ம</string>
+    <string name="const_time_abbreviation_minute">நி</string>
+    <string name="const_time_abbreviation_sec">வி</string>
+    <string name="const_time_abbreviation_milli_sec">மி.வி</string>
+
+    <string name="const_number">%1$,d</string>
+    <string name="const_number_float">%,.2f</string>
+    <string name="const_number_float_1_precision">%,.1f</string>
+    <string name="const_percentage">%1$,d%%</string>
+    <string name="const_percent_sign">%</string>
+    <string name="const_unit_kilometer">கிமீ</string>
+    <string name="const_unit_meter">மீ</string>
+    <string name="const_unit_centimeter">செமீ</string>
+    <string name="const_unit_mile">மைல்</string>
+    <string name="const_unit_kilogram">கிலோ</string>
+    <string name="const_unit_kcal">கிகேல்</string>
+    <string name="const_unit_dbm">dBm</string>
+
+    <plurals name="plural_time_hour">
+        <item quantity="one">%d மணி</item>
+        <item quantity="other">%d மணி</item>
+    </plurals>
+
+    <plurals name="plural_time_minute">
+        <item quantity="one">%d நிமிடம்</item>
+        <item quantity="other">%d நிமிடங்கள்</item>
+    </plurals>
+
+    <plurals name="plural_time_second">
+        <item quantity="one">%d விநாடி</item>
+        <item quantity="other">%d விநாடிகள்</item>
+    </plurals>
+
+</resources>

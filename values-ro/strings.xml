@@ -3,22 +3,22 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:locale="ro">
 
     <!--  Navigation  -->
-    <string name="menu_nav_notification">Notificări</string>
+    <string name="menu_nav_notification">Notificare</string>
     <string name="menu_nav_call">Apel</string>
-    <string name="menu_nav_step">Activități</string>
+    <string name="menu_nav_step">Activitate</string>
     <string name="menu_nav_sleep">Somn</string>
-    <string name="menu_nav_heart_rate">Puls</string>
+    <string name="menu_nav_heart_rate">Ritm cardiac</string>
     <string name="menu_nav_blood_oxygen">Oxigen din sânge</string>
     <string name="menu_nav_blood_pressure">Tensiune arterială</string>
     <string name="menu_nav_workout">Antrenament</string>
     <string name="menu_nav_alarm">Alarmă</string>
-    <string name="menu_nav_reminder">Reamintire evenimente</string>
-    <string name="menu_nav_dnd">Mod nu deranja</string>
-    <string name="menu_nav_watch_face">Față de ceas</string>
-    <string name="menu_nav_weather">Vremea</string>
+    <string name="menu_nav_reminder">Memento</string>
+    <string name="menu_nav_dnd">Mod Nu Deranja</string>
+    <string name="menu_nav_watch_face">Temă ceas</string>
+    <string name="menu_nav_weather">Vreme</string>
     <string name="menu_nav_touch">Control tactil</string>
     <string name="menu_nav_more">Mai multe</string>
-    <string name="menu_nav_text_customization">Afișare text</string>
+    <string name="menu_nav_text_customization">Personalizare text</string>
     <string name="menu_nav_export">Export</string>
     <string name="menu_nav_premium_mode">Mod premium</string>
     <string name="menu_nav_feedback">Feedback</string>
@@ -30,25 +30,26 @@
     <string name="info_name">Informații</string>
     <string name="more_name">Mai multe</string>
 
-    <string name="main_item_activity_title">Pași・țintă</string>
-    <string name="main_item_battery">Nivelul bateriei・data ultimei încărcări</string>
-    <string name="main_item_connect_and_disconnect_last_time">Data ultimei conectări și deconectări</string>
-    <string name="main_item_next_alarm">Alarma următoare</string>
-    <string name="main_item_next_reminder">Următorul memento</string>
+    <string name="main_item_activity_title">Pași・obiectiv</string>
+    <string name="main_item_battery">Nivel baterie・ultima încărcare</string>
+    <string name="main_item_connect_and_disconnect_last_time">Ultima conectare și deconectare</string>
+    <string name="main_item_next_alarm">Alarmă următoare</string>
+    <string name="main_item_next_reminder">Memento următor</string>
     <string name="main_item_call_and_notification_control">Apeluri și notificări</string>
 
-    <string name="device_search">%1$s search</string> <!-- %1$s = Watch name -->
-    <string name="device_setting">Setări %1$s</string> <!-- %1$s = Watch name -->
+    <!-- Pairing Bluetooth device -->
+    <string name="device_search">Căutare %1$s</string>
+    <string name="device_setting">Setări %1$s</string>
 
     <string name="device_mac_address">Adresa MAC</string>
-    <string name="device_mac_address_invalid">Adresa MAC este invalidă</string>
+    <string name="device_mac_address_invalid">Adresă MAC invalidă</string>
 
     <string name="device_state_connected">Conectat</string>
     <string name="device_state_disconnected">Deconectat</string>
-    <string name="device_state_bonded">Dispozitiv împerecheat</string>
-    <string name="device_state_not_bonded">Dispozitiv neîmperecheat</string>
+    <string name="device_state_bonded">Dispozitiv asociat</string>
+    <string name="device_state_not_bonded">Dispozitiv neasociat</string>
 
-    <string name="error_title">Ups! Ceva a mers prost</string>
+    <string name="error_title">Ups! Ceva n-a funcționat</string>
     <string name="error_message">Actualizați aplicația la cea mai recentă versiune</string>
 
 
@@ -61,11 +62,11 @@
     <string name="mi_band_setting_menu_text">Text</string>
     <string name="mi_band_setting_menu_call">Apel</string>
 
-    <string name="mi_band_setting_auth_mi_fit">%1$s cooperation</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">%3$s necesită instalarea aplicației oficiale %1$s pe același telefon. La început trebuie să împerechezi %2$s în aplicația %1$s, apoi poți folosi %3$s. If you want to use %1$s, choose this.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
-    <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the %3$s to work. After the pairing, uninstall the %1$s app or unpair the smartwatch. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. Make sure the %2$s screen is turned on during pairing operations.</string>
-    <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
+    <string name="mi_band_setting_auth_mi_fit">%1$s în cooperare</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">%3$s necesită instalarea aplicației %1$s pe acest telefon. Mai întâi, împerechează %2$s în aplicația %1$s. Alege această opțiune dacă dorești să folosești și aplicația %1$s.</string>
+    <string name="mi_band_setting_auth_standalone">Mod independent</string>
+    <string name="mi_band_setting_auth_standalone_hint">Aplicația %1$s nu este necesară pentru ca %3$s să funcționeze. După împerechere, poți dezinstala aplicația %1$s sau dezasocia ceasul inteligent. Pentru a restabili cooperarea cu %1$s, va trebui să reîmperechezi %2$s în aplicația %1$s. Dacă folosești funcția de dezasociere, datele de pe ceas vor fi șterse. Asigură-te că ecranul %2$s este pornit în timpul împerecherii.</string>
+    <string name="mi_band_standalone_sync_error">Sincronizarea datelor nu este posibilă în modul de cooperare, deoarece sincronizarea ar duce la ștergerea datelor de pe ceasul inteligent și la afișarea incorectă a datelor în ambele aplicații.</string>
 
     <string name="mi_band_setting_auth_key">Cheie de autentificare</string>
     <string name="mi_band_setting_auth_key_help">Introduceți orice număr de 4 cifre</string>
@@ -73,74 +74,73 @@
     <string name="mi_band_setting_auth_pair">Asociază</string>
     <string name="mi_band_setting_auth_unpair">Dezasociază</string>
 
-    <string name="message_auth_request">Your device is already paired. If you don\'t know the key, please unpair it.</string>
+    <string name="message_auth_request">Dispozitivul este deja asociat. Dacă nu cunoști cheia, dezasociază-l.</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">Apasă butonul de pe %1$s pentru asociere</string>
+    <string name="message_mi_band_setting_auth_press_band_button">Apasă butonul de pe %1$s pentru a asocia</string>
     <string name="message_mi_band_setting_auth_success">%1$s a fost asociat cu succes</string>
     <string name="message_mi_band_setting_auth_fail">Asocierea cu %1$s a eșuat</string>
     <string name="message_mi_band_setting_auth_key_invalid">Cheie de autentificare invalidă</string>
 
     <string name="pref_disconnect_device">Deconectare</string>
 
-    <string name="mi_band_setting_connection_problem_title">Dacă întâmpini probleme de conectare</string>
+    <string name="mi_band_setting_connection_problem_title">Dacă ai probleme de conectare</string>
     <string name="mi_band_setting_connection_problem_hint"><![CDATA[
-    - Anulează împerecherea ceasului în setările Bluetooth ale telefonului<br>
-    - Dezactivează și reactivează Bluetooth<br>
+    - Dezasociază ceasul din setările Bluetooth ale telefonului<br>
+    - Dezactivează și reactivează Bluetooth-ul<br>
     - Închide forțat aplicația sau repornește telefonul<br>
-    - Încearcă să împerechezi din nou ceasul de pe ecranul principal
+    - Încearcă să împerechezi din nou ceasul din ecranul principal
     ]]></string>
 
     <string name="mi_band_setting_dial">Față de ceas</string>
     <string name="mi_band_setting_language">Limbă</string>
-    <string name="mi_band_setting_time_24h">Formatul de 24 de ore</string>
-    <string name="mi_band_setting_distance_unit">Setați unitățile pentru distanță</string>
-    <string name="mi_band_setting_lift_wrist">Ridică încheietura mâinii pentru a vedea informații</string>
-    <string name="mi_band_setting_screen_on_duration">Screen on duration</string>
-    <string name="mi_band_setting_idle_alert">Alerte de inactivitate</string>
-    <string name="mi_band_setting_idle_alert_duration">Inactivity time</string>
-    <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest (12:00-14:00)</string>
+    <string name="mi_band_setting_time_24h">Format orar 24 de ore</string>
+    <string name="mi_band_setting_distance_unit">Unitate de măsură pentru distanță</string>
+    <string name="mi_band_setting_screen_on_duration">Durata iluminării ecranului</string>
+    <string name="mi_band_setting_lift_wrist">Activează ecranul la ridicarea încheieturii</string>
+    <string name="mi_band_setting_idle_alert">Alertă de inactivitate</string>
+    <string name="mi_band_setting_idle_alert_duration">Durată inactivitate</string>
+    <string name="mi_band_setting_idle_alert_dnd">Nu deranja în timpul pauzei (12:00–14:00)</string>
 
-    <string name="pref_synchronization">Sincronizează</string>
-    <string name="pref_synchronization_fetch_interval">Synchronization frequency</string>
-    <string name="pref_synchronization_summary">Select the data to be automatically synchronised in the background. If you do not need any of the data, turn it off for better performance. Data can still be synchronised manually on the home screen or in the appropriate menus (by sweeping down).</string>
+    <string name="pref_synchronization">Sincronizare</string>
+    <string name="pref_synchronization_fetch_interval">Frecvență de sincronizare</string>
+    <string name="pref_synchronization_summary">Selectează datele care să fie sincronizate automat în fundal. Dacă nu ai nevoie de anumite date, dezactivează-le pentru o performanță mai bună. Poți oricând sincroniza manual din ecranul principal sau din meniurile corespunzătoare (prin glisare în jos).</string>
 
-    <string name="mi_band_setting_profile">Aceste date ajută la calcularea mai precisă a pașilor, distanței și caloriilor arse.</string>
-    <string name="mi_band_setting_gender">Sex</string>
-    <string name="mi_band_setting_gender_male">Masculin</string>
-    <string name="mi_band_setting_gender_female">Feminin</string>
-    <string name="mi_band_setting_birthday">Data naşterii</string>
-    <string name="mi_band_setting_height">Înălţime</string>
+    <string name="mi_band_setting_profile">Aceste informații ajută la calcularea mai precisă a pașilor, distanței și caloriilor arse.</string>
+    <string name="mi_band_setting_gender">Gen</string>
+    <string name="mi_band_setting_gender_male">Bărbat</string>
+    <string name="mi_band_setting_gender_female">Femeie</string>
+    <string name="mi_band_setting_birthday">Data nașterii</string>
+    <string name="mi_band_setting_height">Înălțime</string>
     <string name="mi_band_setting_weight">Greutate</string>
-    <string name="mi_band_setting_wearing_place">Loc de purtare</string>
+    <string name="mi_band_setting_wearing_place">Mână purtată</string>
     <string name="mi_band_setting_wearing_place_left_wrist">Mâna stângă</string>
     <string name="mi_band_setting_wearing_place_right_wrist">Mâna dreaptă</string>
 
-
     <!-- Battery -->
-    <string name="battery_details">Utilizarea bateriei</string>
+    <string name="battery_details">Utilizare baterie</string>
 
     <string name="battery_settings">Setări baterie</string>
-    <string name="battery_settings_notification">Notificare nivel scăzut baterie</string>
-    <string name="battery_settings_notification_level">Prag nivel baterie</string>
-    <string name="battery_settings_notification_repeat_interval">Interval repetare</string>
+    <string name="battery_settings_notification">Alertă baterie descărcată</string>
+    <string name="battery_settings_notification_level">Prag de alertă baterie</string>
+    <string name="battery_settings_notification_repeat_interval">Interval de repetare</string>
     <string name="battery_settings_notification_on_phone">Anunță-mă pe telefon</string>
-    <string name="battery_settings_notification_on_phone_ongoing">Notificare persistentă (continuă)</string>
-    <string name="battery_settings_notification_on_phone_message">Nivelul bateriei este scăzut: %1$,d%%</string>
-    <string name="battery_settings_notification_on_device">Anunță-mă pe brățară</string>
+    <string name="battery_settings_notification_on_phone_ongoing">Notificare permanentă</string>
+    <string name="battery_settings_notification_on_phone_message">Nivel baterie scăzut: %1$,d%%</string>
+    <string name="battery_settings_notification_on_device">Anunță-mă pe ceas</string>
     <string name="battery_settings_notification_on_device_message">Baterie: %1$,d%%</string>
 
     <!-- Preference screens -->
-    <string name="pref_battery_phone">Bateria telefonului</string>
-    <string name="pref_battery_phone_summary">Notificări nivel baterie scăzut și complet</string>
-    <string name="pref_cat_battery_phone_low">Nivel scăzut al bateriei</string>
-    <string name="pref_battery_phone_low_title">Notificare nivel scăzut al bateriei</string>
-    <string name="pref_battery_phone_low_level_title">Prag pentru nivelul bateriei</string>
-    <string name="pref_battery_phone_low_repeat_interval_title">Interval repetare</string>
-    <string name="pref_cat_battery_phone_full">Nivel complet al bateriei</string>
-    <string name="pref_battery_phone_full_title">Notificare nivel complet al bateriei</string>
-    <string name="pref_battery_phone_full_plugged_ac">Sursă de alimentare AC</string>
-    <string name="pref_battery_phone_full_plugged_usb">Sursă de alimentare port USB</string>
-    <string name="pref_battery_phone_full_plugged_wireless">Sursă de alimentare fără fir</string>
+    <string name="pref_battery_phone">Baterie telefon</string>
+    <string name="pref_battery_phone_summary">Notificări pentru nivel scăzut și complet al bateriei</string>
+    <string name="pref_cat_battery_phone_low">Baterie descărcată</string>
+    <string name="pref_battery_phone_low_title">Alertă baterie descărcată</string>
+    <string name="pref_battery_phone_low_level_title">Prag nivel baterie</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">Interval de repetare</string>
+    <string name="pref_cat_battery_phone_full">Baterie complet încărcată</string>
+    <string name="pref_battery_phone_full_title">Alertă baterie încărcată</string>
+    <string name="pref_battery_phone_full_plugged_ac">Încărcare prin priză</string>
+    <string name="pref_battery_phone_full_plugged_usb">Încărcare prin USB</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Încărcare wireless</string>
 
     <string name="pref_battery_phone_message">Baterie telefon:\n %1$,d%%</string>
 
@@ -154,149 +154,144 @@
     <string name="pref_menu_item_3">Al treilea element de meniu</string>
 
     <string name="pref_diagnostic">Diagnostic</string>
-    <string name="pref_cat_diagnostic_closing_protection">Protecția împotriva închiderii</string>
-    <string name="pref_diagnostic_battery_optimisation">Optimizarea bateriei dezactivată</string>
-    <string name="pref_diagnostic_companion_device">Împerecherea dispozitivului însoțitor</string>
-    <string name="pref_diagnostic_bluetooth_pairing">Bluetooth pairing</string>
-    <string name="pref_diagnostic_autostart">Autostart</string>
-    <string name="pref_diagnostic_autostart_summary">Enable the application to restart automatically in the phone\'s Auto-start manager</string>
-    <string name="pref_diagnostic_info">Mai multe informatii</string>
+    <string name="pref_cat_diagnostic_closing_protection">Protecție la închidere</string>
+    <string name="pref_diagnostic_battery_optimisation">Dezactivează optimizarea bateriei</string>
+    <string name="pref_diagnostic_companion_device">Împerechere dispozitiv însoțitor</string>
+    <string name="pref_diagnostic_bluetooth_pairing">Împerechere Bluetooth</string>
+    <string name="pref_diagnostic_autostart">Pornire automată</string>
+    <string name="pref_diagnostic_autostart_summary">Permite aplicației să pornească automat din managerul Auto-start al telefonului</string>
+    <string name="pref_diagnostic_info">Mai multe informații</string>
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
 
     <string name="pref_cat_diagnostic_permissions">Permisiuni</string>
     <string name="pref_diagnostic_permission_allow_notification_access_settings">Permite accesul la notificări</string>
-    <string name="pref_diagnostic_permission_schedule_exact_alarm">Programează o alarmă exactă</string>
-    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Este necesară o permisiune suplimentară pentru a programa sarcina la o oră exactă.</string>
-    <string name="pref_diagnostic_permission_post_notifications">Afișează notificări</string>
-    <string name="pref_diagnostic_permission_post_notifications_summary">Este necesară o permisiune suplimentară pentru a afișa notificarea.</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">Programează alarmă exactă</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Este necesară o permisiune suplimentară pentru a programa alarma la o oră exactă.</string>
+    <string name="pref_diagnostic_permission_post_notifications">Afișare notificări</string>
+    <string name="pref_diagnostic_permission_post_notifications_summary">Este necesară o permisiune suplimentară pentru a afișa notificările.</string>
     <string name="pref_diagnostic_permission_access_notification_policy">Acces la modul Nu deranja</string>
 
 
     <!-- Snackbar Messages -->
-    <string name="message_enable_bluetooth">Vă rugăm să activați Bluetooth și să apropiați ceasul inteligent de telefon</string>
-    <string name="message_discover_device">%1$s nu este setat, vă rugăm să vă conectați</string>
-    <string name="message_discovering_device">Detectează brățara (poate dura un minut) &#8230;</string>
-    <string name="message_discover_device_succeeded">Conectarea cu %1$s a reușit</string>
-    <string name="message_discover_device_failed">Conexiunea %1$s a eșuat</string>
-    <string name="message_discover_device_not_found">Dacă brățara nu a fost găsită, activează: Haylou Sport/ Play /Detectabil sau împerechează în setările Bluetooth ale telefonului</string>
-    <string name="message_enable_notification_listener_access">Activează accesul la notificări: Setări/ Notificări/ Acces notificare</string>
-    <string name="message_enable_notification_listener_access_4_4">Activează accesul la notificări: Setări/ Securitate/ Acces notificare</string>
+    <string name="message_enable_bluetooth">Activează Bluetooth și ține ceasul aproape de telefon</string>
+    <string name="message_discover_device">%1$s nu este setat, te rugăm să te conectezi</string>
+    <string name="message_discovering_device">%1$s este în curs de detectare (poate dura până la 1 minut)…</string>
+    <string name="message_discover_device_succeeded">%1$s s-a conectat cu succes</string>
+    <string name="message_discover_device_failed">Conectarea cu %1$s a eșuat</string>
+    <string name="message_discover_device_not_found">Dacă %1$s nu a fost găsit, activează modul vizibil pe dispozitiv sau încearcă împerecherea din setările Bluetooth ale telefonului</string>
+    <string name="message_enable_notification_listener_access">Activează accesul la notificări: Telefon > Setări > Acces notificări</string>
+    <string name="message_enable_notification_listener_access_4_4">Activează accesul la notificări: Setări > Securitate > Acces notificări</string>
 
     <string name="message_deleted">Șters</string>
-    <string name="message_undo">Anulare modificări</string>
+    <string name="message_undo">Anulează</string>
 
     <string name="message_app_chooser_no_selected">Selectează o aplicație</string>
 
-    <string name="message_free_counter">Până la 1 setare poate fi utilizată în modul gratuit</string>
-    <string name="message_free_counters">Până la %1$,d setări pot fi utilizate în modul gratuit</string>
+    <string name="message_free_counter">Doar 1 setare este disponibilă în modul gratuit</string>
+    <string name="message_free_counters">Până la %1$,d setări sunt disponibile în modul gratuit</string>
 
-    <string name="message_notification_free_groups">Până la %1$,d grupuri pot fi utilizate în modul gratuit</string>
-
-    <string name="message_notification_free_app">Până la 1 aplicație poate fi selectată în modul gratuit</string>
+    <string name="message_notification_free_groups">Până la %1$,d grupuri sunt disponibile în modul gratuit</string>
+    <string name="message_notification_free_app">Doar 1 aplicație poate fi selectată în modul gratuit</string>
     <string name="message_notification_free_apps">Până la %1$,d aplicații pot fi selectate în modul gratuit</string>
+    <string name="message_notification_free_text">Doar 1 text poate fi salvat în modul gratuit</string>
 
-    <string name="message_notification_free_text">Până la 1 text poate fi înregistrat în modul gratuit</string>
-
-    <string name="message_time_alarm_free_counter">Până la 1 alarmă poate fi utilizată în modul gratuit</string>
-    <string name="message_time_alarm_max_counter">Până la %1$d alarme pot fi utilizate</string>
+    <string name="message_time_alarm_free_counter">Doar 1 alarmă poate fi folosită în modul gratuit</string>
+    <string name="message_time_alarm_max_counter">Până la %1$d alarme pot fi folosite</string>
     <string name="message_time_alarm_enabled">Alarmă activată</string>
     <string name="message_time_alarm_disabled">Alarmă dezactivată</string>
     <string name="message_time_alarm_off">Alarmă oprită</string>
 
-    <string name="message_touch_pattern_error">Modelul specificat este similar cu o bucată a altei funcții, înregistrează altul</string>
-    <string name="message_touch_free_patterns">Nu poți folosi mai mult de %1$,d funcții în modul normal</string>
-    <string name="message_touch_record_help">Use the %1$s music control/find my phone features</string> <!-- %1$s = smartwatch -->
+    <string name="message_touch_pattern_error">Modelul introdus este similar cu unul deja folosit. Înregistrează un model diferit</string>
+    <string name="message_touch_free_patterns">Până la %1$,d gesturi pot fi folosite în modul gratuit</string>
+    <string name="message_touch_record_help">Folosește funcțiile de control muzică sau găsire telefon de pe %1$s</string>
 
-    <string name="message_premium_mode_only">Această funcție este disponibilă numai în modul premium</string>
-    <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
+    <string name="message_premium_mode_only">Această funcție este disponibilă doar în modul Premium</string>
+    <string name="message_feature_is_not_supported">%1$s nu acceptă această funcție</string>
     <string name="message_general_error">Setarea a eșuat (conexiunea s-a pierdut), încearcă din nou</string>
-    <string name="message_internet_error">Lipsă conexiune la internet</string>
-    <string name="message_internet_traffic_blocked">Traficul în rețea este blocat</string>
+    <string name="message_internet_error">Fără conexiune la internet</string>
+    <string name="message_internet_traffic_blocked">Traficul de rețea este blocat</string>
     <string name="message_internet_ads_blocked">Reclamele sunt blocate</string>
     <string name="message_gps_enable">Activează GPS</string>
-    <string name="message_location_enable">Enable the location info permission</string>
+    <string name="message_location_enable">Permite accesul la locație</string>
 
-    <string name="message_in_progress">În curs…</string>
+    <string name="message_in_progress">Se procesează…</string>
     <string name="message_no_data">Nu sunt date disponibile</string>
 
-    <string name="message_rewarded_error">Încărcarea clipului a eșuat</string>
+    <string name="message_rewarded_error">Încărcarea videoclipului a eșuat</string>
 
-    <string name="message_new_message">Se primește un mesaj nou, vezi pe telefon.</string>
+    <string name="message_new_message">Ai primit un mesaj nou. Verifică-l pe telefon.</string>
 
-    <string name="message_permission_not_granted">Permisiunea nu a fost acordată: %1$s</string> <!-- %1$s = permission name -->
+    <string name="message_permission_not_granted">Permisiune neacordată: %1$s</string>
 
-    <!-- Dialog -->
+    <!-- Welcome dialog -->
     <string name="dialog_welcome_title">Bun venit!</string>
     <string name="dialog_welcome_message"><![CDATA[Dispozitive acceptate:
     <watch_types/>
-    <p><app_name/> requires the installation of the official <device_type/> app on the same phone. At first you have to pair your smartwatch in the <device_type/> app, then you can use this app.</p>
-    <p>Dacă brățara nu este găsită, poți seta manual adresa MAC atunci când o detectezi.</p>
-    <b>Dacă ai probleme de conectare:</b>
-    <br>- Ecranul aplicațiilor recente: blochează <app_name/> (trage în jos aplicația și apasă pe pictograma blocare).
-    <br>- Optimizarea telefonului/ bateriei: setează aplicația <app_name/> pentru a nu fi optimizată.
-    <br>- Telefon/ aplicații: șterge datele aplicației Bluetooth Share și a altor aplicații \'Bluetooth\'.
-    <br>- Mai multe informatii: https://dontkillmyapp.com
-    <br><br><small>Acest produs și funcțiile sale nu sunt concepute pentru scopuri medicale și nu sunt destinate să prezică, diagnosticheze, prevină sau trateze vreo boală. Toate datele și măsurătorile sunt doar pentru referință personală și nu trebuie utilizate ca bază pentru diagnostic sau tratament.</small>
+    <p>Pentru a folosi <app_name/>, este necesară instalarea aplicației oficiale <device_type/> pe același telefon. Mai întâi trebuie să împerechezi ceasul în aplicația <device_type/>, apoi poți folosi această aplicație.</p>
+    <p>Dacă nu găsești <device_type/>, poți introduce manual adresa MAC în timpul căutării.</p>
+    <b>Soluții pentru probleme de conectare:</b>
+    <br>- Ecranul aplicațiilor recente: blochează aplicația <app_name/> (glisează în jos pe previzualizarea aplicației și selectează „Blocare” sau echivalentul).
+    <br>- Optimizare baterie/telefon: setează aplicația <app_name/> să nu fie optimizată.
+    <br>- Telefon / Aplicații: șterge datele aplicației Bluetooth Share și ale altor aplicații cu denumirea „Bluetooth”.
+    <br>- Mai multe informații: https://dontkillmyapp.com
+    <br><br><small>Acest produs și funcțiile sale nu sunt destinate utilizării medicale și nu au rolul de a prezice, diagnostica, preveni sau trata vreo afecțiune. Toate datele și măsurătorile sunt doar pentru uz personal și nu trebuie utilizate ca bază pentru diagnostic sau tratament.</small>
     ]]></string>
 
-    <!-- Notification Dialog -->
-    <string name="notification_group_nav_setting">Setări</string>
-    <string name="notification_group_nav_filter">Filtru</string>
-    <string name="notification_group_nav_correction">Corecție</string>
+    <!-- Notification  -->
+    <string name="notification_group_nav_setting">Setare</string>
+    <string name="notification_group_nav_filter">Filtrare</string>
+    <string name="notification_group_nav_correction">Corectare text</string>
 
-    <string name="notification_group_name">Nume</string>
+    <string name="notification_group_name">Denumire</string>
     <string name="notification_group_monitoring">Monitorizare notificări</string>
-    <string name="notification_group_monitoring_disabled">Dezactivează notificările (nu se afișează notificările aplicației)</string>
-    <string name="notification_group_alert_title">Semnal %1$s</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
-    <string name="notification_group_text_customization">Afișare text</string>
+    <string name="notification_group_monitoring_disabled">Exclude notificările (nu afișa notificările aplicației)</string>
+    <string name="notification_group_alert_title">Alerta %1$s</string>
+    <string name="notification_group_text_customization">Personalizare text</string>
     <string name="notification_group_text_app_name">Nume aplicație</string>
-    <string name="notification_group_text_name">Nume</string>
+    <string name="notification_group_text_name">Denumire</string>
     <string name="notification_group_text_title">Titlu</string>
     <string name="notification_group_text_content">Conținut</string>
     <string name="notification_group_text_big_content">Conținut complet</string>
     <string name="notification_group_text_content_slice_title">Lungime text</string>
-    <string name="notification_group_display_duration_title">Timp de afișare</string>
-    <string name="notification_group_show_notification_title">Display notification</string>
-    <string name="notification_group_immediate">Semnal imediat când este primită notificarea</string>
-    <string name="notification_group_connecting">Când se conectează la telefon</string>
-    <string name="notification_group_reminder">Semnal reamintire</string>
-    <string name="notification_group_ongoing">Semnal persistent de notificare (continuu)</string>
-    <string name="notification_group_screen_off">Semnal numai când ecranul este oprit</string>
-    <string name="notification_group_repeat_title">Repeată semnale</string>
-    <string name="notification_group_wakelock">Aprinde ecranul telefonului</string>
-    <string name="notification_group_grouped_display_title">Display setting for the group notifications</string>
-    <string name="notification_group_grouped_sort_order_title">Sort order for the group notifications</string>
+    <string name="notification_group_display_duration_title">Durată afișare</string>
+    <string name="notification_group_show_notification_title">Afișează notificarea</string>
+    <string name="notification_group_immediate">Alertează imediat la primirea notificării</string>
+    <string name="notification_group_connecting">Alertează la conectare</string>
+    <string name="notification_group_reminder">Alertă de reamintire</string>
+    <string name="notification_group_ongoing">Alertă pentru notificări permanente (care nu pot fi închise)</string>
+    <string name="notification_group_screen_off">Alertează doar când ecranul este oprit</string>
+    <string name="notification_group_repeat_title">Repetă alerta</string>
+    <string name="notification_group_wakelock">Activează ecranul telefonului</string>
+    <string name="notification_group_grouped_display_title">Setări de afișare pentru notificări grupate</string>
+    <string name="notification_group_grouped_sort_order_title">Ordine de sortare pentru notificări grupate</string>
 
-    <string name="notification_group_filter">Filtrează notificări</string>
-    <string name="notification_group_filter_title">Titlul filtrului</string>
-    <string name="notification_group_filter_content">Conținutul filtrului</string>
+    <string name="notification_group_filter">Filtrare notificări</string>
+    <string name="notification_group_filter_title">Filtrare după titlu</string>
+    <string name="notification_group_filter_content">Filtrare după conținut</string>
     <string name="notification_group_filter_regex">Regex</string>
-    <string name="notification_group_filter_hint">Semnal numai atunci când titlul sau conținutul notificării (case insensitive)</string>
-    <string name="notification_group_filter_contains">Conține oricare din expresiile</string>
-    <string name="notification_group_filter_not_contains">Nu conține niciuna din expresiile</string>
+    <string name="notification_group_filter_hint">Afișează alerta doar dacă titlul sau conținutul notificării se potrivește (fără diferență între majuscule și minuscule)</string>
+    <string name="notification_group_filter_contains">Conține oricare dintre acestea</string>
+    <string name="notification_group_filter_not_contains">Nu conține niciuna dintre acestea</string>
 
     <string name="notification_group_sample_sms">SMS</string>
     <string name="notification_group_sample_facebook">Messenger</string>
     <string name="notification_group_sample_whatsapp">WhatsApp</string>
 
-    <string name="notification_group_correction">Corectare text</string>
+    <string name="notification_group_correction">Corectare text notificare</string>
     <string name="notification_group_correction_title">Corectare titlu</string>
     <string name="notification_group_correction_content">Corectare conținut</string>
     <string name="notification_group_correction_regex">Regex</string>
-    <string name="notification_group_correction_hint">Case insensitive</string>
-    <string name="notification_group_correction_items">Textul de corectat</string>
-    <string name="notification_group_correction_find">Caută</string>
+    <string name="notification_group_correction_hint">Fără diferențiere între majuscule și minuscule</string>
+    <string name="notification_group_correction_items">Texte de corectat</string>
+    <string name="notification_group_correction_find">Text de căutat</string>
     <string name="notification_group_correction_replace">Înlocuiește cu</string>
 
-    <string name="notification_regex_hint">Caracterele non-alfanumerice au un înțeles special, dacă nu cunoști Regex-ul, nu îl bifa</string>
+    <string name="notification_regex_hint">Caracterele non-alfanumerice au semnificații speciale. Dacă nu știi cum se folosește Regex, lasă această opțiune debifată.</string>
 
     <string name="notification_confirm_close">Sigur dorești să renunți la modificări?</string>
 
-    <string name="notification_edit_play_text_title">Titlu notificări</string>
-    <string name="notification_edit_play_text_content">Conținutul notificării:
-    În publicarea și designul grafic, lorem ipsum este un text de umplutură sau un text folosit în mod obișnuit pentru a demonstra elementele textuale ale unui document grafic sau unei prezentări vizuale.
-        \n Înlocuirea conținutului semnificativ cu textul înlocuitor permite designerilor să proiecteze forma conținutului înainte ca conținutul în sine să fi fost produs.
-    </string>
+    <string name="notification_edit_play_text_title">Titlul notificării</string>
+    <string name="notification_edit_play_text_content">Conținutul notificării:</string>
 
 
     <!-- Incoming call alert -->
@@ -304,31 +299,31 @@
     <string name="call_tab_contacts">Contacte</string>
 
     <string name="call_incoming">Apel primit</string>
-    <string name="call_incoming_summary_on">Nu uita să dezactivezi alertele de apel primit în aplicația %1$s</string> <!-- %1$s = official app name -->
-    <string name="call_incoming_caller_id">Afișează identitatea apelantului</string>
+    <string name="call_incoming_summary_on">Nu uita să dezactivezi alertele de apel primit în aplicația %1$s</string>
+    <string name="call_incoming_caller_id">Afișează numele apelantului</string>
 
-    <string name="pref_call_notification_rejected">Show notification about rejected call</string>
-    <string name="pref_call_notification_rejected_message">Rejected call</string>
-    <string name="pref_call_notification_rejected_action">Call</string>
+    <string name="pref_call_notification_rejected">Afișează notificare pentru apel respins</string>
+    <string name="pref_call_notification_rejected_message">Apel respins</string>
+    <string name="pref_call_notification_rejected_action">Apelează</string>
 
-    <string name="call_incoming_net_alert_title">Semnalul de apel primit pe Internet</string>
+    <string name="call_incoming_net_alert_title">Alertă pentru apel Internet primit</string>
 
-    <string name="call_missed_title">Semnal apel pierdut</string>
-    <string name="call_missed_chooser_title">Semnal %1$s</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
-    <string name="call_missed_notification">Apel pierdut</string>
+    <string name="call_missed_title">Alertă apel nepreluat</string>
+    <string name="call_missed_chooser_title">Alertă %1$s</string>
+    <string name="call_missed_notification">Apel nepreluat</string>
 
-    <string name="call_reject_button_action">Butonul de respingere</string>
+    <string name="call_reject_button_action">Acțiune buton respingere</string>
 
-    <string name="touch_call_answer_title">Răspuns la apel</string>
+    <string name="touch_call_answer_title">Preluare apel</string>
     <string name="touch_call_answer_speakerphone_title">Difuzor</string>
 
-    <string name="call_end_title">Respingere, oprire apel</string>
+    <string name="call_end_title">Respingere sau încheiere apel</string>
 
-    <string name="touch_call_mute_title">Comutator apel silențios</string>
-    <string name="touch_call_mute_only_call_state_ringing_title">Doar dacă primești un apel</string>
-    <string name="touch_call_mute_recognition_title">În timpul unui apel primit</string>
+    <string name="touch_call_mute_title">Comutare silențios apel</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Doar în cazul unui apel primit</string>
+    <string name="touch_call_mute_recognition_title">La apel primit</string>
 
-    <string name="call_contact_edit_contact">A lua legatura</string>
+    <string name="call_contact_edit_contact">Contact</string>
     <string name="call_contact_edit_name">Nume</string>
     <string name="call_contact_edit_phone_number">Număr de telefon</string>
 
@@ -341,403 +336,392 @@
     <string name="message_call_contacts_max_counter">Până la %1$d contacte pot fi utilizate</string>
 
     <!-- App chooser dialog -->
-    <string name="app_chooser">Selector de aplicații</string>
+    <string name="app_chooser">Selector aplicații</string>
     <string name="action_search">Căutare</string>
-    <string name="action_filter_notification">Filtru notificare</string>
-
+    <string name="action_filter_notification">Filtru notificări</string>
 
     <!-- Activity -->
-    <string name="step_details">Detaliile activității</string>
+    <string name="step_details">Detalii activitate</string>
 
-    <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
-    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
-    <string name="mi_band_tracker_distance_kilometer_title">%,.2f km</string> <!-- kilometre -->
-    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
-    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
+    <string name="mi_band_tracker_step_title">%1$,d</string>
+    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string>
+    <string name="mi_band_tracker_distance_kilometer_title">%,.2f km</string>
+    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string>
+    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string>
 
     <string name="action_tracker_step">Pași</string>
     <string name="action_tracker_distance">Distanță</string>
     <string name="action_tracker_calorie">Calorii</string>
-    <string name="action_tracker_duration">Durata antrenamentului</string>
+    <string name="action_tracker_duration">Durată exercițiu</string>
 
     <string name="step_goal_default_title">Obiectiv implicit</string>
-
 
     <!-- Sleep monitoring -->
     <string name="sleep_details">Detalii somn</string>
 
-    <string name="sleep_awake">Trezit</string>
-    <string name="sleep_light">Ușor</string>
-    <string name="sleep_deep">Adânc</string>
-    <string name="sleep_rem">REM</string>
-
+    <string name="sleep_awake_phase_short">Trezit</string>
+    <string name="sleep_light_phase_short">Ușor</string>
+    <string name="sleep_deep_phase_short">Adânc</string>
+    <string name="sleep_rem_phase_short">REM</string>
 
     <!-- Heart rate -->
     <string name="heart_rate_details">Detalii puls</string>
 
     <string name="heart_rate_continuous_measurement_title">Măsurare continuă a pulsului</string>
 
-    <string name="heart_rate_alert_title">Avertizare ritm cardiac</string>
-    <string name="heart_rate_thresholds">Praguri ritm cardiac</string>
-    <string name="low_heart_rate">Ritm cardiac scăzut</string>
-    <string name="high_heart_rate">Ritm cardiac ridicat</string>
+    <string name="heart_rate_alert_title">Avertizare puls</string>
+    <string name="heart_rate_thresholds">Limite puls</string>
+    <string name="low_heart_rate">Puls scăzut</string>
+    <string name="high_heart_rate">Puls ridicat</string>
 
 
     <!-- Blood oxygen -->
-    <string name="blood_oxygen_details">Detalii despre oxigenul din sânge</string>
+    <string name="blood_oxygen_details">Detalii oxigen din sânge</string>
 
-    <string name="blood_oxygen_level_measurement">Blood oxygen level measurement</string>
-    <string name="measurement_interval">Measurement interval</string>
-
+    <string name="blood_oxygen_level_measurement">Măsurare nivel oxigen</string>
+    <string name="measurement_interval">Interval de măsurare</string>
 
     <!-- Blood pressure -->
-    <string name="blood_pressure_details">Detalii despre tensiunea arterială</string>
+    <string name="blood_pressure_details">Detalii tensiune arterială</string>
 
-    <string name="blood_pressure_level_measurement">Blood pressure level measurement</string>
+    <string name="blood_pressure_level_measurement">Măsurare tensiune arterială</string>
 
     <string name="blood_pressure_systolic_abbreviation">Sys</string>
     <string name="blood_pressure_diastolic_abbreviation">Dia</string>
     <string name="blood_pressure_unit">mmHg</string>
 
-
     <!-- Workout -->
     <string name="workout_details">Detalii antrenament</string>
 
-
     <!-- Alarm -->
-    <string name="action_time_alarm_sort_state_asc">State ascending</string>
-    <string name="action_time_alarm_sort_watch_asc">Watch ascending</string>
-    <string name="action_time_alarm_sort_name_asc">Name ascending</string>
+    <string name="action_time_alarm_sort_state_asc">Stare crescător</string>
+    <string name="action_time_alarm_sort_watch_asc">Ceas crescător</string>
+    <string name="action_time_alarm_sort_name_asc">Nume crescător</string>
 
-    <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Haylou Smart Watch ... -->
+    <string name="message_time_alarm_sync">Se sincronizează alarmele %1$s (acestea vor fi șterse și reconfigurate pe ceasul inteligent)</string>
 
     <string name="info_dialog_alarm"><![CDATA[
-        <p>When using cooperation mode, the settings of the official application and the <app_name/> application can overwrite and delete each other\'s settings.</p>
-        The last operation performed will take effect.
+    <p>În modul de cooperare, setările aplicației oficiale și ale aplicației <app_name/> pot să se suprascrie și să se șteargă reciproc.</p>
+    Ultima acțiune efectuată va fi cea aplicată.
     ]]></string>
-
 
     <!-- Reminder -->
     <string name="message_reminder_enabled">Reamintire activată</string>
     <string name="message_reminder_disabled">Reamintire dezactivată</string>
 
-    <string name="reminder_repeat">Repetare orară</string>
-    <string name="reminder_notification_on_phone">Notifică pe telefon</string>
+    <string name="reminder_repeat">Repetare la fiecare oră</string>
+    <string name="reminder_notification_on_phone">Notificare pe telefon</string>
 
-    <string name="message_time_reminder_free_counter">Până la 1 memento poate fi folosit în modul gratuit</string>
+    <string name="message_time_reminder_free_counter">Doar 1 reamintire poate fi folosită în modul gratuit</string>
 
     <string name="info_dialog_reminder"><![CDATA[
-        Pentru a afișa reamintirii este necesară conexiunea Bluetooth.
-        ]]>
-    </string>
-
+    Este necesară o conexiune Bluetooth pentru a afișa reamintirea.
+    ]]></string>
 
     <!-- Do not disturb -->
-    <string name="pref_dnd_summary">Starea controlerelor în modul nu deranja</string>
-    <string name="pref_dnd_enable_bluetooth">La începutul modului DnD oprește Bluetooth, la final pornește Bluetooth</string>
+    <string name="pref_dnd_summary">Starea controalelor în modul „nu deranja”</string>
+    <string name="pref_dnd_enable_bluetooth">La începutul modului DnD dezactivează Bluetooth, iar la final îl reactivează</string>
 
     <string name="info_dialog_dnd"><![CDATA[
-        If you are using cooperation mode, in the official <device_type/> application the do not disturb (DnD) mode must be between 00:00 and 23:59 and its status must be turned off.
-    ]]></string> <!-- %1$s Haylou fit-->
+    Dacă folosești modul de cooperare, în aplicația oficială <device_type/> modul „nu deranja” (DnD) trebuie să fie setat între 00:00 și 23:59, iar starea acestuia să fie dezactivată.
+    ]]></string>
 
 
     <!-- Watch face -->
-    <string name="watch_face_tab_watch_faces">Față de ceas</string>
-    <string name="watch_face_tab_watch_face_custom">Custom files</string>
+    <string name="watch_face_tab_watch_faces">Fețe de ceas</string>
+    <string name="watch_face_tab_watch_face_custom">Fișiere personalizate</string>
     <string name="watch_face_tab_watch_face_editor">Editor</string>
 
-    <string name="watch_face_download_title">Download watch face</string>
-    <string name="watch_face_upload_title">Schimbare față de ceas</string>
-    <string name="watch_face_tool_title">Tools</string>
+    <string name="watch_face_download_title">Descărcare față de ceas</string>
+    <string name="watch_face_upload_title">Încărcare față de ceas</string>
+    <string name="watch_face_tool_title">Unelte</string>
 
-    <string name="watch_face_share_content">You can share the watch face you have created with others. E-mail the watch face and preview files and enter the following information: author, watch face name (max. 30 characters in total) and the watch face language. We only publish high quality watch faces.</string>
+    <string name="watch_face_share_content">Poți partaja fețele de ceas create de tine cu alții. Trimite prin e-mail fișierul feței și fișierul de previzualizare și include următoarele informații: numele autorului, numele feței de ceas (max. 30 de caractere) și limba. Doar fețele de ceas de înaltă calitate vor fi publicate.</string>
 
-    <string name="watch_face_upload_prepare">Preparing for the upload…</string>
-    <string name="watch_face_upload_progress">Uploading %1$,d%%</string>
+    <string name="watch_face_upload_prepare">Se pregătește încărcarea…</string>
+    <string name="watch_face_upload_progress">Se încarcă %1$,d%%</string>
 
-    <string name="watch_face_invalid_firmware">Firmware-ul %1$s este necunoscut sau nu suportă încărcarea fețelor de ceas. Vă rugăm să actualizați firmware-ul folosind aplicația oficială. Dacă aplicația oficială suportă încărcarea fețelor de ceas, vă rugăm să ne anunțați prin meniul Feedback.</string>
-    <string name="watch_face_invalid_auth">Use in standalone mode, when using cooperation mode, the official application may block the watch face upload</string>
-    <string name="watch_face_invalid_free">În modul gratuit, nu se mai pot încărca cadrane astăzi</string>
+    <string name="watch_face_invalid_firmware">Firmware-ul %1$s este necunoscut sau nu acceptă încărcarea fețelor de ceas. Actualizează firmware-ul din aplicația oficială. Dacă aplicația oficială permite încărcarea fețelor de ceas, te rugăm să ne informezi prin meniul Feedback.</string>
+    <string name="watch_face_invalid_auth">Folosește modul independent; în modul de cooperare, aplicația oficială poate bloca încărcarea feței de ceas</string>
+    <string name="watch_face_invalid_free">Nu poți încărca mai multe fețe de ceas astăzi în modul gratuit</string>
     <string name="watch_face_watch_rewarded_ads">Vizionați un videoclip pentru a continua</string>
     <string name="watch_face_watch_rewarded_ads_uploading">Vizionați un videoclip pentru a continua încărcarea</string>
-    <string name="watch_face_watch_rewarded_ads_countdown">Videoclipul începe…</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">Pornire videoclip…</string>
 
-    <string name="watch_face_upload_method_title">Method</string>
+    <string name="watch_face_upload_method_title">Metodă</string>
     <string name="watch_face_upload_method_default">@string/default_</string>
-    <string name="watch_face_upload_method_alternative">Alternative</string>
+    <string name="watch_face_upload_method_alternative">Alternativă</string>
 
-    <string name="watch_face_upload_speed_title">Viteza de încărcare</string>
-    <string name="watch_face_upload_invalid_speed_hint">Setează o viteză mai mică dacă procesul de încărcare a feței ceasului este întrerupt</string>
-    <string name="watch_face_upload_invalid_size_hint">Dimensiune invalidă a fișierului feței ceasului — setează o calitate mai mică sau elimină elemente din fața ceasului</string>
-    <string name="watch_face_upload_invalid_battery_hint">Bateria smartwatch-ului este aproape descărcată, te rugăm să încarci ceasul</string>
+    <string name="watch_face_upload_speed_title">Viteză de încărcare</string>
+    <string name="watch_face_upload_invalid_speed_hint">Setează o viteză mai mică dacă încărcarea feței de ceas este întreruptă</string>
+    <string name="watch_face_upload_invalid_size_hint">Dimensiunea fișierului feței de ceas este invalidă — setează o calitate mai mică sau elimină elemente</string>
+    <string name="watch_face_upload_invalid_battery_hint">Bateria smartwatch-ului este aproape descărcată — încarcă ceasul</string>
 
-    <string name="watch_face_tbwf_quality_title">Setare calitate cadran .tbwf</string>
+    <string name="watch_face_tbwf_quality_title">Setare calitate pentru .tbwf</string>
     <string name="watch_face_tbwf_quality_hint">Dimensiunea fișierului poate fi redusă dacă ceasul permite</string>
 
-    <string name="watch_face_tbwf_locale_title">Setare limbă și țară cadran .tbwf</string>
-    <string name="watch_face_tbwf_locale_hint">Ziua săptămânii, separator lună și separator zecimal</string>
+    <string name="watch_face_tbwf_locale_title">Setări limbă și regiune pentru .tbwf</string>
+    <string name="watch_face_tbwf_locale_hint">Numele zilelor, separator lună și simbolul zecimal</string>
 
-    <string name="message_watch_face_file_invalid">Invalid watch face file</string>
-    <string name="message_watch_face_file_invalid_size">Dimensiune fișier de față de ceas invalidă</string>
+    <string name="message_watch_face_file_invalid">Fișier față de ceas invalid</string>
+    <string name="message_watch_face_file_invalid_size">Dimensiune invalidă a fișierului feței de ceas</string>
     <string name="message_watch_face_file_invalid_battery">Bateria smartwatch-ului este aproape descărcată</string>
-    <string name="message_watch_face_image_file_error">Fișier de imagine invalid</string>
-    <string name="message_watch_face_font_file_error">Fișier de font nevalabil</string>
+    <string name="message_watch_face_image_file_error">Fișier imagine invalid</string>
+    <string name="message_watch_face_font_file_error">Fișier font invalid</string>
 
-    <string name="action_chart_layout_2_columns">Aspect cu 2 coloane</string>
-    <string name="action_chart_layout_3_columns">Aspect cu 3 coloane</string>
+    <string name="action_chart_layout_2_columns">Aspect în 2 coloane</string>
+    <string name="action_chart_layout_3_columns">Aspect în 3 coloane</string>
 
     <string name="watch_face_edit_dial">Cadran</string>
     <string name="watch_face_edit_preview">Previzualizare</string>
-    <string name="watch_face_edit_hour_digital">Ora</string>
+    <string name="watch_face_edit_hour_digital">Oră</string>
     <string name="watch_face_edit_minute_digital">Minut</string>
-    <string name="watch_face_edit_second_digital">Al doilea</string>
-    <string name="watch_face_edit_am_pm">AM/PM indicator</string>
+    <string name="watch_face_edit_second_digital">Secundă</string>
+    <string name="watch_face_edit_am_pm">Indicator AM/PM</string>
     <string name="watch_face_edit_am">AM</string>
     <string name="watch_face_edit_pm">PM</string>
     <string name="watch_face_edit_hour_analog">Acul orei</string>
     <string name="watch_face_edit_minute_analog">Acul minutelor</string>
     <string name="watch_face_edit_second_analog">Acul secundelor</string>
-    <string name="watch_face_edit_axis">Axis of rotation</string>
-    <string name="watch_face_edit_hour_minute_separator">Oră și minut separator</string>
+    <string name="watch_face_edit_axis">Ax de rotație</string>
+    <string name="watch_face_edit_hour_minute_separator">Separator oră și minut</string>
     <string name="watch_face_edit_year">An</string>
-    <string name="watch_face_edit_year_month_separator">Separator de an și lună</string>
+    <string name="watch_face_edit_year_month_separator">Separator an și lună</string>
     <string name="watch_face_edit_month">Lună</string>
-    <string name="watch_face_edit_month_name">Numele lunii.</string>
-    <string name="watch_face_edit_month_day_separator">Separator de luni și zile</string>
+    <string name="watch_face_edit_month_name">Numele lunii</string>
+    <string name="watch_face_edit_month_day_separator">Separator lună și zi</string>
     <string name="watch_face_edit_day">Zi</string>
     <string name="watch_face_edit_dayOfWeek">Ziua săptămânii</string>
-    <string name="watch_face_edit_battery_level">Nivelul bateriei</string>
-    <string name="watch_face_edit_battery_level_percent_sign">Nivelul bateriei %</string>
-    <string name="watch_face_edit_battery_level_image">Imaginea bateriei</string>
-    <string name="watch_face_edit_weather_temperature">Temperatura</string>
-    <string name="watch_face_edit_weather_temperature_unit_sign">Unitate de temperatură °</string>
-    <string name="watch_face_edit_weather_image">Imaginea vremii</string>
+    <string name="watch_face_edit_battery_level">Nivel baterie</string>
+    <string name="watch_face_edit_battery_level_percent_sign">Nivel baterie %</string>
+    <string name="watch_face_edit_battery_level_image">Imagine baterie</string>
+    <string name="watch_face_edit_weather_temperature">Temperatură</string>
+    <string name="watch_face_edit_weather_temperature_unit_sign">Unitate temperatură °</string>
+    <string name="watch_face_edit_weather_image">Imagine vreme</string>
     <string name="watch_face_edit_connection_indicator_image">Imagine indicator conexiune</string>
     <string name="watch_face_edit_connected">Conectat</string>
     <string name="watch_face_edit_disconnected">Deconectat</string>
     <string name="watch_face_edit_steps">Pași</string>
-    <string name="watch_face_edit_steps_image">Imagine de pași</string>
+    <string name="watch_face_edit_steps_image">Imagine pași</string>
     <string name="watch_face_edit_steps_goal_progress">Progres obiectiv pași</string>
     <string name="watch_face_edit_distance">Distanță</string>
     <string name="watch_face_edit_distance_image">Imagine distanță</string>
     <string name="watch_face_edit_calories">Calorii</string>
     <string name="watch_face_edit_calories_image">Imagine calorii</string>
-    <string name="watch_face_edit_heart_rate">Ritmul inimii</string>
+    <string name="watch_face_edit_heart_rate">Ritm cardiac</string>
     <string name="watch_face_edit_heart_rate_image">Imagine ritm cardiac</string>
 
     <string name="watch_face_edit_color">Culoare</string>
-    <string name="watch_face_edit_font_family">Font</string>
-    <string name="watch_face_edit_font_size">Marimea fontului</string>
-    <string name="watch_face_edit_character">Character</string>
+    <string name="watch_face_edit_font_family">Familie font</string>
+    <string name="watch_face_edit_character">Caracter</string>
+    <string name="watch_face_edit_font_size">Dimensiune font</string>
     <string name="watch_face_edit_image">Imagine</string>
     <string name="watch_face_edit_image_png_jpeg">Imagine (.png, .jpeg)</string>
     <string name="watch_face_edit_image_png">Imagine (.png)</string>
-    <string name="watch_face_edit_icon">Icon</string>
-    <string name="watch_face_edit_image_size">Marimea imaginii</string>
+    <string name="watch_face_edit_image_size">Dimensiune imagine</string>
+    <string name="watch_face_edit_icon">Pictogramă</string>
 
-    <string name="watch_face_custom_watch_face_not_supported_title">Acest ceas nu acceptă încărcarea de fețe de ceas personalizate</string>
-    <string name="watch_face_custom_watch_face_under_development_title">Funcția de încărcare a fețelor de ceas personalizate este în curs de dezvoltare și poate deveni disponibilă în viitor, dar nu este încă confirmată.</string>
+    <string name="watch_face_custom_watch_face_not_supported_title">Acest ceas nu acceptă încărcarea fețelor de ceas personalizate</string>
+    <string name="watch_face_custom_watch_face_under_development_title">Funcția de încărcare a fețelor de ceas personalizate este în curs de dezvoltare și ar putea deveni disponibilă în viitor, dar nu este încă confirmată.</string>
 
     <!-- Touch monitoring -->
-    <string name="touch_tab_function">Function</string>
+    <string name="touch_tab_function">Funcție</string>
     <string name="touch_tab_control">Control</string>
     <string name="touch_tab_testing">Testare</string>
     <string name="touch_tab_setting">@string/setting_name</string>
 
-    <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
-    <string name="touch_function">%1$s function</string> <!-- %1$s = Watch name -->
-    <string name="touch_function_as_touch">Use function as a touch in the control menu</string>
+    <string name="touch_function_summary">Configurează aceste funcții dacă folosești modul independent sau dacă Mi Fit nu le gestionează corect</string>
+    <string name="touch_function">Funcția %1$s</string>
+    <string name="touch_function_as_touch">Folosește funcția ca atingere în meniul de control</string>
 
-    <string name="touch_headline_incoming_call_title">Incoming call</string>
-    <string name="touch_headline_other_function_title">Other functions</string>
+    <string name="touch_headline_incoming_call_title">Apel primit</string>
+    <string name="touch_headline_other_function_title">Alte funcții</string>
     <string name="touch_headline_call_title">Control apel</string>
     <string name="touch_headline_music_title">Control muzică</string>
-    <string name="touch_headline_time_title">Control temporizator/ cronometru</string>
+    <string name="touch_headline_time_title">Control timer/cronometru</string>
     <string name="touch_headline_other_title">Alte controale</string>
 
-    <string name="touch_device_location_title">Găsește-mi telefonul</string>
-    <string name="touch_device_location_not_muted_only_title">Sunet numai dacă nu este pe mut sau în modul DnD</string>
+    <string name="touch_device_location_title">Găsește telefonul</string>
+    <string name="touch_device_location_not_muted_only_title">Sunet doar dacă telefonul nu este pe silențios sau în modul Nu deranja</string>
 
-    <string name="touch_mute_toggle_title">Comutator apel silențios</string>
-    <string name="touch_mute_toggle_ringer_mode_title">Mute mode</string>
-    <string name="touch_mute_toggle_mute_off_title">Mute off</string>
+    <string name="touch_mute_toggle_title">Comutare silențios telefon</string>
+    <string name="touch_mute_toggle_ringer_mode_title">Mod silențios</string>
+    <string name="touch_mute_toggle_mute_off_title">Silențios dezactivat</string>
 
     <string name="touch_music_title">Muzică</string>
-    <string name="touch_music_function_launch">Start music with the play button if no music player is recognized</string>
-    <string name="touch_music_function_mi_band_message_launch">Start music with the play button</string>
-    <string name="touch_music_function_mi_band_message_no_track_title">Can\'t get the song name</string>
+    <string name="touch_music_function_launch">Pornește muzica cu butonul play dacă nu este detectat niciun player</string>
+    <string name="touch_music_function_mi_band_message_launch">Pornește muzica cu butonul play</string>
+    <string name="touch_music_function_mi_band_message_no_track_title">Nu se poate obține numele piesei</string>
 
-    <string name="touch_call_out_title">Call out</string>
+    <string name="touch_call_out_title">Inițiază apel</string>
     <string name="touch_call_out_no_contact">Selectează un contact</string>
-    <string name="touch_call_out_summary">Apasă de două ori pentru a răspunde unui apel</string>
-    <string name="touch_call_out_summary_support_call_display_button">Apasă butonul pentru a răspunde unui apel</string>
+    <string name="touch_call_out_summary">Atinge de două ori pentru a răspunde apelului</string>
+    <string name="touch_call_out_summary_support_call_display_button">Apasă butonul pentru a răspunde apelului</string>
     <string name="touch_call_out_speakerphone_title">Difuzor</string>
-    <string name="touch_call_out_call_text">Call out: %1$s</string>
+    <string name="touch_call_out_call_text">Apel către: %1$s</string>
 
-    <string name="touch_weather_title">Prognoza meteo</string>
-    <string name="touch_weather_location">Localitate</string>
-    <string name="touch_weather_precipitation">Precipitare</string>
-    <string name="touch_weather_cloud_cover">Plafon de nori</string>
+    <string name="touch_weather_title">Prognoză meteo</string>
+    <string name="touch_weather_location">Actualizare locație</string>
+    <string name="touch_weather_precipitation">Precipitații</string>
+    <string name="touch_weather_cloud_cover">Acoperire nori</string>
     <string name="touch_weather_wind">Vânt</string>
 
     <string name="touch_repeat_notif_title">Repetare notificări</string>
     <string name="touch_repeat_notif_clear_all">Șterge toate notificările după repetare</string>
 
-    <string name="touch_clear_notif_title">Șterge toate notificările de pe telefon</string>
+    <string name="touch_clear_notif_title">Șterge notificările de pe telefon</string>
 
-    <string name="touch_music_play_pause_title">Muzică start, play, pauză</string>
-    <string name="touch_music_skip_previous_title">Muzică start, cântecul anterior</string>
-    <string name="touch_music_skip_next_title">Muzică start, cântecul următor</string>
-    <string name="touch_music_headset_only_title">Numai dacă sunt conectate căștile</string>
-    <string name="touch_music_launch">Start muzică</string>
-    <string name="touch_music_volume_up_title">Muzică mărește volumul</string>
-    <string name="touch_music_volume_down_title">Muzică scade volumul</string>
-    <string name="touch_music_track_info_title">Afișează informații despre piesele muzicale.</string>
+    <string name="touch_music_play_pause_title">Pornire muzică, redare, pauză</string>
+    <string name="touch_music_skip_previous_title">Pornire muzică, melodie anterioară</string>
+    <string name="touch_music_skip_next_title">Pornire muzică, melodie următoare</string>
+    <string name="touch_music_headset_only_title">Doar dacă sunt conectate căști</string>
+    <string name="touch_music_launch">Pornește muzica</string>
+    <string name="touch_music_volume_up_title">Crește volumul muzicii</string>
+    <string name="touch_music_volume_down_title">Scade volumul muzicii</string>
+    <string name="touch_music_track_info_title">Afișează informațiile piesei</string>
 
-    <string name="touch_time_launch_title">Start monitorizare timp</string>
+    <string name="touch_time_launch_title">Pornire monitorizare timp</string>
     <string name="touch_time_launch_type_timer_title">Temporizator</string>
     <string name="touch_time_launch_type_stopper_title">Cronometru</string>
     <string name="touch_time_launch_type_interval_title">Interval</string>
-    <string name="touch_time_launch_restart">Restartează dacă este în curs de desfășurare</string>
-    <string name="touch_time_reminder_title">Afișează timpul rămas/ scurs</string>
+    <string name="touch_time_launch_restart">Repornire dacă este deja activ</string>
+    <string name="touch_time_reminder_title">Afișează timpul rămas sau scurs</string>
 
-    <string name="touch_google_assistant_title">Google Assistant</string>
+    <string name="touch_google_assistant_title">Asistent Google</string>
 
-    <string name="touch_flashlight_title">Flashlight toggle</string>
+    <string name="touch_flashlight_title">Comutator lanternă</string>
 
-    <string name="touch_camera_title">Fă o poză</string>
+    <string name="touch_camera_title">Fă o fotografie</string>
     <string name="touch_camera_front_title">Față</string>
     <string name="touch_camera_rear_title">Spate</string>
-    <string name="touch_camera_install_title">Instalează</string>
+    <string name="touch_camera_install_title">Instalare</string>
 
-    <string name="touch_app_launcher1_title">Lansator de aplicații</string>
+    <string name="touch_app_launcher1_title">Lansator aplicație</string>
     <string name="touch_app_launcher_package_no_title">Selectează o aplicație</string>
     <string name="touch_app_launcher1_not_wakelock_only_title">Numai dacă ecranul nu este blocat</string>
 
-    <string name="touch_broadcast1_title">Send Broadcast</string>
-    <string name="touch_broadcast1_action_title">Intent action</string>
-    <string name="touch_broadcast1_package_title">Intent package name</string>
+    <string name="touch_broadcast1_title">Trimite Broadcast</string>
+    <string name="touch_broadcast1_action_title">Acțiune intent</string>
+    <string name="touch_broadcast1_package_title">Nume pachet intent</string>
 
-    <string name="touch_http_request1_title">1. HTTP request</string>
-    <string name="touch_http_request2_title">2. HTTP request</string>
+    <string name="touch_http_request1_title">1. Cerere HTTP</string>
+    <string name="touch_http_request2_title">2. Cerere HTTP</string>
     <string name="touch_http_request_url_title">URL</string>
-    <string name="touch_http_request_method_title">Method</string>
-    <string name="touch_http_request_body_title">Body</string>
-    <string name="touch_http_request_show_response_title">Show the response</string>
+    <string name="touch_http_request_method_title">Metodă</string>
+    <string name="touch_http_request_body_title">Conținut</string>
+    <string name="touch_http_request_show_response_title">Afișează răspunsul</string>
 
     <string name="touch_tasker_launcher1_title">1. Lansator sarcină Tasker</string>
     <string name="touch_tasker_launcher2_title">2. Lansator sarcină Tasker</string>
-    <string name="touch_tasker_launcher_no_permission_title">Trebuie întâi să instalezi Tasker, după Mi Bandage</string>
+    <string name="touch_tasker_launcher_no_permission_title">Instalează mai întâi aplicația Tasker, apoi Mi Bandage</string>
     <string name="touch_tasker_launcher_no_access_title">Permite accesul extern</string>
     <string name="touch_tasker_launcher_no_task_title">Selectează o sarcină</string>
 
     <string name="touch_testing_title">Monitorizare atingere</string>
     <string name="touch_testing_second">sec.</string>
 
-    <string name="touch_setting_detection_time_title">Touch detection time</string>
-    <string name="touch_setting_detection_time_music_hint">If it has a lower value, the music screen should be closed faster</string>
-    <string name="touch_setting_detection_time_button_hint">If it has a lower value, press the button faster</string>
+    <string name="touch_setting_detection_time_title">Timp de detectare a atingerii</string>
+    <string name="touch_setting_detection_time_music_hint">Dacă este mai mic, ecranul muzicii se închide mai rapid</string>
+    <string name="touch_setting_detection_time_button_hint">Dacă este mai mic, apasă butonul mai repede</string>
 
-    <string name="touch_setting_detection_method_title">Metoda de detectare a atingerii</string>
+    <string name="touch_setting_detection_method_title">Metodă de detectare a atingerii</string>
 
-    <string name="touch_setting_recognition_start_title">Începe recunoașterea atingerii</string>
+    <string name="touch_setting_recognition_start_title">Pornire recunoaștere atingere</string>
     <string name="touch_setting_recognition_start_trigger_title">Declanșator</string>
-    <string name="touch_setting_recognition_time_title">Timp de recunoaștere</string>
+    <string name="touch_setting_recognition_time_title">Durata recunoașterii</string>
 
-    <string name="touch_setting_recognition_mi_band_signal_title">Semnal %1$s</string> <!-- %1$s = Watch name -->
+    <string name="touch_setting_recognition_mi_band_signal_title">Semnal %1$s</string>
     <string name="touch_setting_recognition_succeeded_title">Model de atingere recunoscut</string>
     <string name="touch_setting_recognition_failed_title">Model de atingere nerecunoscut</string>
 
     <string name="info_dialog_touch"><![CDATA[
-        <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
-        <p><b>Phones Bluetooth settings:</b> <device_name/> disable input device</p>
-        <b><u>Recognised touches</u></b>
-        <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
-        <br><device_type/> music control
-        <p><img src="ic_search">
-        <br><device_type/> find my phone
-        </p>
-        Multiple touches can be recorded for each function.
+    <p>Funcționează corect în modul autonom. Dacă folosești modul de cooperare, aplicația oficială <app_official/> va gestiona și aceste funcții, astfel că funcționarea corectă nu poate fi garantată.</p>
+    <p><b>Setări Bluetooth ale telefonului:</b> <device_name/> dezactivează dispozitivul de intrare</p>
+    <b><u>Atingeri recunoscute</u></b>
+    <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
+    <br>Control muzical <device_type/>
+    <p><img src="ic_search">
+    <br>Găsește telefonul <device_type/>
+    </p>
+    Mai multe atingeri pot fi înregistrate pentru fiecare funcție.
     ]]></string>
 
 
     <!-- Weather  -->
-    <string name="weather_tab_weather_forecast">Vremea</string>
-    <string name="weather_tab_location">Localitate</string>
+    <string name="weather_tab_weather_forecast">Vreme</string>
+    <string name="weather_tab_location">Locație</string>
     <string name="weather_tab_settings">@string/setting_name</string>
 
-    <string name="weather_location_title">Localitate</string>
+    <string name="weather_location_title">Locație</string>
 
     <string name="weather_forecast_title">Prognoza meteo</string>
 
     <string name="weather_setting_provider">Furnizor meteo</string>
     <string name="weather_city_title">Oraș</string>
-    <string name="weather_unit_title">Unități de măsură</string>
+    <string name="weather_unit_title">Unitate</string>
     <string name="weather_unit_metric">Metric (Celsius)</string>
     <string name="weather_unit_imperial">Imperial (Fahrenheit)</string>
-    <string name="weather_automatic_update">Automatically update location in the background</string>
-    <string name="weather_automatic_update_title">Folosește locația ta</string>
-    <string name="weather_automatic_update_summary">This application collects location data to update the weather for the current location, even when the app is closed or not in use.</string>
+    <string name="weather_automatic_update">Actualizează automat locația în fundal</string>
+    <string name="weather_automatic_update_title">Folosește locația curentă</string>
+    <string name="weather_automatic_update_summary">Această aplicație colectează date de locație pentru a actualiza vremea în funcție de locația curentă, chiar și atunci când aplicația este închisă sau nu este utilizată.</string>
 
-    <string name="permission_background_location">%1$s va avea permisiunea de a colecta date de localizare chiar și atunci când aplicația este închisă sau nu este utilizată</string>
+    <string name="permission_background_location">%1$s va avea permisiunea de a colecta date de locație chiar și când aplicația este închisă sau nu este utilizată</string>
     <string name="permission_error_title">%1$s nu poate actualiza permisiunile</string>
-    <string name="permission_error_description">Deschideți setările și selectați opțiunea “%1$s“ pentru permisiunile de localizare</string>
+    <string name="permission_error_description">Deschide setările și selectează opțiunea „%1$s” pentru permisiunile de locație</string>
     <string name="all_the_time">Tot timpul</string>
 
-    <string name="weather_current_title">Starea vremii</string>
-    <string name="weather_current_location">Current location</string>
+    <string name="weather_current_title">Vremea actuală</string>
+    <string name="weather_current_location">Locația actuală</string>
     <string name="weather_current_temperature">Temperatura actuală</string>
 
     <string name="weather_precipitation_rain">Ploaie</string>
     <string name="weather_precipitation_snow">Zăpadă</string>
     <string name="weather_cloud_cover_abbreviation">Cc</string>
-    <string name="weather_cloud_cover">Umidade</string>
+    <string name="weather_cloud_cover">Nor</string>
     <string name="weather_humidity">Umiditate</string>
 
     <string name="weather_north">N</string>
     <string name="weather_east">E</string>
     <string name="weather_south">S</string>
-    <string name="weather_west">W</string>
+    <string name="weather_west">V</string>
 
 
     <!-- Text customization -->
-    <string name="pref_text_reminder_repeat_interval_title">Interval repetare reamintiri</string>
-    <string name="pref_text_reminder_repeat_interval_summary">Notification/reminder alert function uses this timing</string>
+    <string name="pref_text_reminder_repeat_interval_title">Interval de repetare pentru reamintiri</string>
+    <string name="pref_text_reminder_repeat_interval_summary">Funcția de notificare > alertă reamintire folosește acest interval</string>
     <string name="pref_text_emoticon_title">Conversie emoji</string>
-    <string name="pref_text_emoticon_summary_on">Convertește emoji în emoticon</string>
-    <string name="pref_text_uppercase_title">Conversie la majuscule</string>
-    <string name="pref_text_uppercase_summary_on">Convertește litere mici în litere mari</string>
+    <string name="pref_text_emoticon_summary_on">Convertește emoji în emoticoane</string>
+    <string name="pref_text_uppercase_title">Conversie în majuscule</string>
+    <string name="pref_text_uppercase_summary_on">Convertește literele mici în majuscule</string>
     <string name="pref_text_alphanumeric_title">Caractere alfanumerice și ASCII</string>
     <string name="pref_text_alphanumeric_summary_on">Afișează doar caractere alfanumerice și ASCII</string>
     <string name="pref_text_transliteration_title">Transliterare</string>
-    <string name="pref_text_transliteration_summary_on">Convertește literele accentuate în litere neaccentuate</string>
+    <string name="pref_text_transliteration_summary_on">Convertește literele cu accent în variante fără accent</string>
     <string name="pref_text_line_separator_title">Înlocuire separator de linie</string>
     <string name="pref_text_line_separator_summary_on">Înlocuiește separatorul de linie implicit cu alte caractere</string>
     <string name="pref_text_line_separator_value_title">Caractere de înlocuire</string>
-    <string name="pref_text_char_replacement_title">Înlocuire caractere și emoji</string>
+    <string name="pref_text_char_replacement_title">Înlocuire caracter sau emoji</string>
     <string name="pref_text_char_replacement_summary_on">Înlocuiește un caracter cu altul</string>
-    <string name="pref_text_char_replacement_find">Caută</string>
+    <string name="pref_text_char_replacement_find">Caracter de căutat</string>
     <string name="pref_text_char_replacement_replace">Înlocuiește cu</string>
 
-
     <!-- Export -->
-    <string name="export_tab_database">Export de date</string>
+    <string name="export_tab_database">Export date</string>
     <string name="export_start_date">Data de început a exportului</string>
 
-
     <!-- Theme -->
-    <string name="theme_tab_theme">Teme</string>
+    <string name="theme_tab_theme">Temă</string>
 
     <string name="theme_title">Selectează o temă</string>
-    <string name="theme_background_color_title">Culoare de fundal</string>
+    <string name="theme_background_color_title">Culoare fundal</string>
 
     <string name="theme_widget_background_color_title">Culoare</string>
     <string name="theme_color_dynamic_color_title">Culoare dinamică</string>
     <string name="theme_color_predefined_colors_title">Culori predefinite</string>
 
-    <string name="theme_notification_title">Afișează statusul în perdeaua de notificări</string>
+    <string name="theme_notification_title">Afișează statusul în zona de notificări</string>
 
-    <string name="theme_cat_color_setting">Setări culoare</string>
+    <string name="theme_cat_color_setting">Setări de culoare</string>
 
 
     <!-- Premium mode -->
@@ -783,10 +767,10 @@
     <string name="action_log_notification">Jurnal</string>
 
     <string name="feedback_google_play_title">Evaluează această aplicație</string>
-    <string name="feedback_request_feature_title">Solicitare de funcții, raport de erori</string>
-    <string name="feedback_request_feature_summary">Prelucrare automată a poștei electronice, este posibil să nu primiți un răspuns</string>
-    <string name="feedback_translation_title">%1$s translation</string> <!-- %1$s = App name -->
-    <string name="feedback_translation_title_summary">Please help with the translation</string>
+    <string name="feedback_request_feature_title">Solicitare funcții, raportare erori</string>
+    <string name="feedback_request_feature_summary">Procesare automată a e-mailului, este posibil să nu primiți un răspuns</string>
+    <string name="feedback_translation_title">Traducere %1$s</string> <!-- %1$s = App name -->
+    <string name="feedback_translation_title_summary">Vă rugăm să ajutați cu traducerea</string>
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Politica de Confidențialitate</string>
@@ -858,136 +842,134 @@
 
 
     <!-- Custom vibration dialog -->
-    <string name="custom_vibration_title">Setări vibrații</string>
-
+    <string name="custom_vibration_title">Setare vibrație</string>
 
     <!-- Shortcuts -->
-    <string name="shortcut">Shortcut</string>
-    <string name="shortcut_visible_items">Shortcut items</string>
-    <string name="shortcut_hidden_items">Hidden shortcut items</string>
+    <string name="shortcut">Scurtătură</string>
+    <string name="shortcut_visible_items">Elemente vizibile de scurtătură</string>
+    <string name="shortcut_hidden_items">Elemente ascunse de scurtătură</string>
 
     <string name="shortcut_status">Stare</string>
     <string name="shortcut_heart_rate">Puls</string>
-    <string name="shortcut_blood_oxygen">Oxigen din sânge</string>
+    <string name="shortcut_blood_oxygen">Oxigen în sânge</string>
     <string name="shortcut_sleep">Somn</string>
-    <string name="shortcut_breathing">Breathing</string>
+    <string name="shortcut_breathing">Respirație</string>
     <string name="shortcut_weather">Vremea</string>
-    <string name="shortcut_stress">Stress</string>
+    <string name="shortcut_stress">Stres</string>
 
-
-    <!-- Others -->
+    <!-- Actions -->
     <string name="tab_daily_charts">Grafice zilnice</string>
     <string name="tab_weekly_charts">Grafice săptămânale</string>
     <string name="tab_monthly_charts">Grafice lunare</string>
     <string name="tab_yearly_charts">Grafice anuale</string>
 
-    <string name="ad_attribution">Anunț</string>
-    <string name="on">Pornit</string>
-    <string name="off">Oprit</string>
+    <string name="ad_attribution">Reclamă</string>
+    <string name="on">Activat</string>
+    <string name="off">Dezactivat</string>
     <string name="none">Niciuna</string>
     <string name="heart_rate_bpm">bpm</string>
     <string name="heart_rate_mhr">MHR</string>
     <string name="date">Dată</string>
-    <string name="time">Timp</string>
-    <string name="time_start">Timp pornire</string>
-    <string name="time_end">Timp oprire</string>
-    <string name="ringer_mode_vibrate">Vibrații</string>
+    <string name="time">Ora</string>
+    <string name="time_start">Ora de început</string>
+    <string name="time_end">Ora de sfârșit</string>
+    <string name="ringer_mode_vibrate">Vibrație</string>
     <string name="ringer_mode_silent">Mut</string>
-    <string name="ringer_mode_dnd_priority_only">Nu deranja (numai pentru prioritate)</string>
-    <string name="ringer_mode_dnd_alarms_only">Nu deranjați (numai alarmele)</string>
+    <string name="ringer_mode_dnd_priority_only">Nu deranja (doar prioritare)</string>
+    <string name="ringer_mode_dnd_alarms_only">Nu deranja (doar alarme)</string>
     <string name="ringer_mode_dnd_total_silence">Nu deranja (liniște totală)</string>
     <string name="unknown">Necunoscut</string>
     <string name="maximum">Maxim</string>
     <string name="all_day">Toată ziua</string>
-    <string name="timed">Timed</string>
+    <string name="timed">Temporizat</string>
     <string name="file_name">Nume fișier</string>
     <string name="default_">Implicit</string>
-    <string name="default_by_phone">Implicit (a telefonului)</string>
-    <string name="custom">Custom</string>
-    <string name="invalid_setting">Invalid setting</string>
-    <string name="ringtone">Sonerie apel</string>
-    <string name="ringtone_chooser">Ringtone chooser</string>
-    <string name="uninstalled">Uninstalled</string>
+    <string name="default_by_phone">Implicit (după telefon)</string>
+    <string name="custom">Personalizat</string>
+    <string name="invalid_setting">Setare invalidă</string>
+    <string name="ringtone">Ton de apel</string>
+    <string name="ringtone_chooser">Selector ton de apel</string>
+    <string name="uninstalled">Dezinstalat</string>
     <string name="value">Valoare</string>
-    <string name="downloads">Downloads</string>
-    <string name="share">Share</string>
+    <string name="downloads">Descărcări</string>
+    <string name="share">Partajează</string>
     <string name="send">Trimite</string>
     <string name="narrow">Îngust</string>
     <string name="short_">Scurt</string>
     <string name="medium">Mediu</string>
     <string name="long_">Lung</string>
     <string name="full">Complet</string>
-    <string name="alignment_left">Alinierea la stânga</string>
-    <string name="alignment_center">Alinierea la centru</string>
-    <string name="alignment_right">Alinierea dreptului</string>
+    <string name="alignment_left">Aliniere la stânga</string>
+    <string name="alignment_center">Aliniere la centru</string>
+    <string name="alignment_right">Aliniere la dreapta</string>
     <string name="visible">Vizibil</string>
     <string name="invisible">Invizibil</string>
-    <string name="placeholder">Placeholder</string>
-    <string name="image_scale_fit">Fit</string>
-    <string name="image_scale_crop">Crop</string>
-    <string name="image_scale_stretch">Stretch</string>
-    <string name="resource_manager">Resource manager</string>
+    <string name="placeholder">Substituent</string>
+    <string name="image_scale_fit">Potrivește</string>
+    <string name="image_scale_crop">Decupează</string>
+    <string name="image_scale_stretch">Întinde</string>
+    <string name="resource_manager">Manager de resurse</string>
 
     <string name="action_premium_mode">Mod premium</string>
-    <string name="action_dismiss">Înlătură</string>
-    <string name="action_setting">Setări</string>
+    <string name="action_dismiss">Închide</string>
+    <string name="action_setting">Setare</string>
     <string name="action_delete">Șterge</string>
-    <string name="action_rename">Redenumiți</string>
+    <string name="action_rename">Redenumește</string>
     <string name="action_export">Exportă</string>
-    <string name="action_synchronization">Sincronizează</string>
-    <string name="action_download">Descărcare</string>
+    <string name="action_synchronization">Sincronizare</string>
+    <string name="action_download">Descarcă</string>
     <string name="action_upload">Încarcă</string>
     <string name="action_backup">Backup</string>
-    <string name="action_restore">Restaurare</string>
-    <string name="action_filter_no">Niciun filtru</string>
+    <string name="action_restore">Restabilește</string>
+    <string name="action_filter_no">Fără filtru</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_favorite">Favorit</string>
     <string name="action_save">Salvează</string>
     <string name="action_test">Test</string>
     <string name="action_discard">Renunță</string>
-    <string name="action_keep_editing">Editează în continuare</string>
+    <string name="action_keep_editing">Continuă editarea</string>
     <string name="action_new">Nou</string>
     <string name="action_new_file_extension">Nou %1$s</string>
-    <string name="action_edit">Editați</string>
-    <string name="action_start_stop">Pornire/Oprire</string>
+    <string name="action_edit">Editează</string>
+    <string name="action_start_stop">Pornește/Oprește</string>
     <string name="action_contacts">Contacte</string>
     <string name="action_single_selection">Selecție unică</string>
     <string name="action_multiple_selection">Selecție multiplă</string>
-    <string name="action_selection_boundaries">Selection boundaries</string>
-    <string name="action_object_boundaries">Object boundaries</string>
-    <string name="action_select">Selecție</string>
+    <string name="action_selection_boundaries">Limite de selecție</string>
+    <string name="action_object_boundaries">Limite ale obiectului</string>
+    <string name="action_select">Selectare</string>
     <string name="action_select_all">Selectează tot</string>
     <string name="action_select_texts">Selectează textele</string>
     <string name="action_select_images">Selectează imaginile</string>
     <string name="action_deselect_all">Deselectează tot</string>
-    <string name="synchronized_from_watch">Synchronized from watch</string>
-    <string name="synchronization_succeeded">Sincronizarea a reușit</string>
-    <string name="synchronization_failed">Sincronizarea a eșuat</string>
+    <string name="synchronized_from_watch">Sincronizat de la ceas</string>
+    <string name="synchronization_succeeded">Sincronizare reușită</string>
+    <string name="synchronization_failed">Sincronizare eșuată</string>
 
     <string name="action_chart">Grafic</string>
-    <string name="action_zoom_in">Zoom</string>
+    <string name="action_zoom_in">Mărire</string>
     <string name="action_chart_normalize_raw_data">Valori măsurate</string>
-    <string name="action_chart_normalize_quarter_hourly">Valori la sfert de oră</string>
-    <string name="action_chart_normalize_half_hourly">Valori la jumătate de oră</string>
-    <string name="action_chart_normalize_hourly">Valori la fiecare oră</string>
-    <string name="action_chart_sort_time_asc">Timp ascendent</string>
-    <string name="action_chart_sort_time_desc">Timp descendent</string>
-    <string name="action_chart_sort_step_asc">Pași ascendent</string>
-    <string name="action_chart_sort_step_desc">Pași descendent</string>
-    <string name="action_chart_sort_duration_asc">Duration ascending</string>
-    <string name="action_chart_sort_duration_desc">Duration descending</string>
-    <string name="action_chart_sort_heart_rate_asc">Puls ascendent</string>
-    <string name="action_chart_sort_heart_rate_desc">Puls descendent</string>
-    <string name="action_chart_sort_spo2_asc">SpO2 ascendent</string>
-    <string name="action_chart_sort_spo2_desc">SpO2 descendent</string>
-    <string name="action_chart_sort_pressure_asc">Pressure ascending</string>
-    <string name="action_chart_sort_pressure_desc">Pressure descending</string>
+    <string name="action_chart_normalize_quarter_hourly">Valori la fiecare sfert de oră</string>
+    <string name="action_chart_normalize_half_hourly">Valori la fiecare jumătate de oră</string>
+    <string name="action_chart_normalize_hourly">Valori orare</string>
+    <string name="action_chart_sort_time_asc">Timp crescător</string>
+    <string name="action_chart_sort_time_desc">Timp descrescător</string>
+    <string name="action_chart_sort_step_asc">Pași crescători</string>
+    <string name="action_chart_sort_step_desc">Pași descrescători</string>
+    <string name="action_chart_sort_duration_asc">Durată crescătoare</string>
+    <string name="action_chart_sort_duration_desc">Durată descrescătoare</string>
+    <string name="action_chart_sort_heart_rate_asc">Puls crescător</string>
+    <string name="action_chart_sort_heart_rate_desc">Puls descrescător</string>
+    <string name="action_chart_sort_spo2_asc">SpO2 crescător</string>
+    <string name="action_chart_sort_spo2_desc">SpO2 descrescător</string>
+    <string name="action_chart_sort_pressure_asc">Presiune crescătoare</string>
+    <string name="action_chart_sort_pressure_desc">Presiune descrescătoare</string>
     <string name="action_chart_monthly_calendar">Calendar</string>
     <string name="action_chart_monthly_compact">Compact</string>
 
-    <string name="activity_progress_title_prepare">Se pregătește pentru sincronizare …</string>
-    <string name="activity_progress_title_sync">Sincronizarea datelor…</string>
-    <string name="activity_progress_title_save">Salvarea datelor…</string>
+    <string name="activity_progress_title_prepare">Se pregătește pentru sincronizare…</string>
+    <string name="activity_progress_title_sync">Se sincronizează datele…</string>
+    <string name="activity_progress_title_save">Se salvează datele…</string>
 
     <string name="required_value">Obligatoriu</string>
 

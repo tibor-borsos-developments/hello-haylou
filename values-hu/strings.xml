@@ -124,14 +124,14 @@
     <string name="battery_settings_notification_level">Töltöttség küszöbértéke</string>
     <string name="battery_settings_notification_repeat_interval">Értesítés ismétlés időköze</string>
     <string name="battery_settings_notification_on_phone">Értesítés a telefonon</string>
-    <string name="battery_settings_notification_on_phone_ongoing">Állandó értesítés (ami nem törlődik)</string>
+    <string name="battery_settings_notification_on_phone_ongoing">Állandó (nem törölhető) értesítés</string>
     <string name="battery_settings_notification_on_phone_message">Akkumulátor töltöttség: %1$,d%%</string>
     <string name="battery_settings_notification_on_device">Értesítés az órán</string>
     <string name="battery_settings_notification_on_device_message">Akkumulátor: %1$,d%%</string>
 
     <!-- Preference screens -->
     <string name="pref_battery_phone">Telefon akkumulátor</string>
-    <string name="pref_battery_phone_summary">Alacsony töltöttség és a töltés végeztének jelzése</string>
+    <string name="pref_battery_phone_summary">Értesítés alacsony és teljes töltöttség esetén</string>
     <string name="pref_cat_battery_phone_low">Alacsony töltöttség</string>
     <string name="pref_battery_phone_low_title">Alacsony töltöttség jelzése</string>
     <string name="pref_battery_phone_low_level_title">Töltöttség küszöbértéke</string>
@@ -169,18 +169,18 @@
     <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">További engedély szükséges a feladat pontos időpontra történő ütemezéséhez.</string>
     <string name="pref_diagnostic_permission_post_notifications">Értesítések megjelenítése</string>
     <string name="pref_diagnostic_permission_post_notifications_summary">További engedély szükséges az értesítés megjelenítéséhez</string>
-    <string name="pref_diagnostic_permission_access_notification_policy">Hozzáférés a ne zavarjanak funkcióhoz</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">Hozzáférés a Ne zavarjanak funkcióhoz</string>
 
 
     <!-- Snackbar Messages -->
-    <string name="message_enable_bluetooth">Kapcsold be a Bluetooth-ot és tartsd közel az órát</string>
+    <string name="message_enable_bluetooth">Kapcsold be a Bluetooth-t, és tartsd közel az órát a telefonhoz</string>
     <string name="message_discover_device">%1$s még nincs beállítva, csatlakoztasd</string>
-    <string name="message_discovering_device">%1$s keresése folyamatban (1 percig is eltarthat) &#8230;</string>
-    <string name="message_discover_device_succeeded">%1$s csatlakoztatása sikeres</string>
+    <string name="message_discovering_device">%1$s keresése folyamatban (1 percig is eltarthat)…</string>
+    <string name="message_discover_device_succeeded">%1$s sikeresen csatlakozott</string>
     <string name="message_discover_device_failed">%1$s csatlakoztatása nem sikerült</string>
-    <string name="message_discover_device_not_found">Ha %1$s nem található, kapcsold be: Haylou Sport/Értesítések/Felfedezhetőség illetve párosítsd a telefon Bluetooth beállításoknál</string>
-    <string name="message_enable_notification_listener_access">Engedélyezd a hozzáférést az értesítésekhez: Telefon/Beállítások/Hozzáférés értesítésekhez</string>
-    <string name="message_enable_notification_listener_access_4_4">Engedélyezd a hozzáférést az értesítésekhez: Biztonság/Hozzáférés az értesítésekhez</string>
+    <string name="message_discover_device_not_found">Ha %1$s nem található, kapcsold be a felfedezhetőséget vagy párosítsd a telefon Bluetooth beállításoknál</string>
+    <string name="message_enable_notification_listener_access">Engedélyezd a hozzáférést az értesítésekhez: Telefon > Beállítások > Értesítési hozzáférés</string>
+    <string name="message_enable_notification_listener_access_4_4">Engedélyezd a hozzáférést az értesítésekhez: Beállítások > Biztonság > Értesítési hozzáférés</string>
 
     <string name="message_deleted">Törölve</string>
     <string name="message_undo">Visszavonás</string>
@@ -192,26 +192,25 @@
     <string name="message_free_counters">Legfeljebb %1$,d beállítás használható ingyenes módban</string>
 
     <string name="message_notification_free_groups">Legfeljebb %1$,d csoport használható ingyenes módban</string>
-    <string name="message_notification_free_app">Csak 1 applikáció választható ingyenes módban</string>
-    <string name="message_notification_free_apps">Legfeljebb %1$,d applikáció választható ingyenes módban</string>
-
+    <string name="message_notification_free_app">Csak 1 alkalmazás választható ingyenes módban</string>
+    <string name="message_notification_free_apps">Legfeljebb %1$,d alkalmazás választható ingyenes módban</string>
     <string name="message_notification_free_text">Csak 1 szöveg rögzíthető ingyenes módban</string>
 
     <string name="message_time_alarm_free_counter">Csak 1 ébresztő használható ingyenes módban</string>
     <string name="message_time_alarm_max_counter">Legfeljebb %1$d ébresztő használható</string>
     <string name="message_time_alarm_enabled">Ébresztő beállítva</string>
     <string name="message_time_alarm_disabled">Ébresztő letiltva</string>
-    <string name="message_time_alarm_off">Ébresztő ki</string>
+    <string name="message_time_alarm_off">Ébresztő kikapcsolva</string>
 
     <string name="message_touch_pattern_error">A megadott minta hasonlít egy másik funkció mintájához, rögzíts másikat</string>
     <string name="message_touch_free_patterns">Legfeljebb %1$,d vezérlés használható ingyenes módban</string>
-    <string name="message_touch_record_help">Használd a %1$s zene vezérlő/telefon kereső funkciókat</string> <!-- %1$s = smartwatch -->
+    <string name="message_touch_record_help">Használd a %1$s zenevezérlés vagy telefonkeresés funkciót</string>
 
-<!-- Figyelem, ezeket az azonosítókat használom dekódolva a programban nem írható át   -->
+    <!-- Figyelem, ezeket az azonosítókat használom dekódolva a programban nem írható át   -->
     <string name="message_premium_mode_only">A funkció csak prémium módban érhető el</string>
-    <string name="message_feature_is_not_supported">%1$s nem támogatja ezt a funkciót</string> <!-- %1$s = Watch name -->
-    <string name="message_general_error">Beállítás nem sikerült (kapcsolat megszakadt), próbáld újra</string>
-    <string name="message_internet_error">Nincs internet kapcsolat</string>
+    <string name="message_feature_is_not_supported">%1$s nem támogatja ezt a funkciót</string>
+    <string name="message_general_error">Beállítás sikertelen (megszakadt a kapcsolat), próbáld újra</string>
+    <string name="message_internet_error">Nincs internetkapcsolat</string>
     <string name="message_internet_traffic_blocked">A hálózati forgalom le van tiltva</string>
     <string name="message_internet_ads_blocked">A hirdetések le vannak tiltva</string>
     <string name="message_gps_enable">GPS engedélyezése</string>
@@ -226,21 +225,21 @@
 
     <string name="message_permission_not_granted">Jogosultság nincs megadva: %1$s</string> <!-- %1$s = permission name -->
 
-    <!-- Welcome Dialog -->
+    <!-- Welcome dialog -->
     <string name="dialog_welcome_title">Üdvözöllek!</string>
     <string name="dialog_welcome_message"><![CDATA[Támogatott eszközök:
     <watch_types/>
-    <p>A működéséhez szükséges a hivatalos <device_type/> applikáció telepítése ezen a telefonon. Először a <device_type/> applikáción belül kell az óra párosítását elvégezni.</p>
-    <p>Ha a <device_type/> keresése eredménytelen, a MAC cím kézzel is megadható a kereséskor.</p>
-    <b>Kapcsolódási probléma megoldása:</b>
-    <br>- Futó alkalmazások képernyő: zárold az app-ot (lefele seprés az app-on, majd lezárás menü).
-    <br>- Telefon akkumulátor optimalizálása kikapcsolása.
-    <br>- Telefon/alkalmazások: Bluetooth Share és egyéb \'Bluetooth\' app. adatok törlése.
+    <p>A <app_name/> használatához szükség van a hivatalos <device_type/> alkalmazás telepítésére ugyanazon a telefonon. Először a <device_type/> alkalmazáson belül kell párosítani az órát, ezután használható ez az alkalmazás.</p>
+    <p>Ha a <device_type/> keresése sikertelen, a MAC cím manuálisan is megadható a keresés során.</p>
+    <b>Kapcsolódási problémák megoldása:</b>
+    <br>- Legutóbbi alkalmazások képernyő: zárold az alkalmazást (húzd lefelé az előnézeten, majd válaszd a \'Zárolás\' opciót vagy annak megfelelőjét).
+    <br>- Telefon akkumulátor optimalizálása kikapcsolása erre az alkalmazásra.
+    <br>- Telefon/alkalmazások: töröld a Bluetooth Share és más \'Bluetooth\' alkalmazások adatait.
     <br>- További információ: https://dontkillmyapp.com
-    <br><br><small>Ez a termék és annak funkciói nem szolgálnak gyógyászati célokat, és nem alkalmasak betegségek előrejelzésére, diagnosztizálására, megelőzésére vagy gyógyítására. Az összes adat és mérés kizárólag személyes tájékoztatást szolgál, és nem használható fel diagnózis vagy orvosi kezelés alapjául.</small>
+    <br><br><small>Ez a termék és annak funkciói nem szolgálnak gyógyászati célokat, és nem alkalmasak betegségek előrejelzésére, diagnosztizálására, megelőzésére vagy gyógyítására. Az összes adat és mérés kizárólag személyes tájékoztatásra szolgál, és nem használható fel diagnózis vagy orvosi kezelés alapjául.</small>
     ]]></string>
 
-    <!-- Notification Dialog -->
+    <!-- Notification  -->
     <string name="notification_group_nav_setting">Beállítás</string>
     <string name="notification_group_nav_filter">Szűrés</string>
     <string name="notification_group_nav_correction">Szövegjavítás</string>
@@ -375,10 +374,10 @@
     <!-- Sleep monitoring -->
     <string name="sleep_details">Alvás részletek</string>
 
-    <string name="sleep_awake">Ébren</string>
-    <string name="sleep_light">Könnyű</string>
-    <string name="sleep_deep">Mély</string>
-    <string name="sleep_rem">REM</string>
+    <string name="sleep_awake_phase_short">Ébren</string>
+    <string name="sleep_light_phase_short">Könnyű</string>
+    <string name="sleep_deep_phase_short">Mély</string>
+    <string name="sleep_rem_phase_short">REM</string>
 
     <!-- Heart rate -->
     <string name="heart_rate_details">Pulzus részletek</string>
@@ -390,7 +389,7 @@
     <string name="low_heart_rate">Alacsony pulzusszám</string>
     <string name="high_heart_rate">Magas pulzusszám</string>
 
-    <!-- Blood Oxygen -->
+    <!-- Blood oxygen -->
     <string name="blood_oxygen_details">Véroxigén részletek</string>
 
     <string name="blood_oxygen_level_measurement">Véroxigén szint mérés</string>
@@ -440,7 +439,7 @@
 
     <string name="info_dialog_dnd"><![CDATA[
         Ha együttműködési módot használsz, akkor a hivatalos <device_type/> alkalmazásban a ne zavarj mód (DnD) időpontja legyen 00:00-23:59 és az állapota legyen kikapcsolva.
-    ]]></string> <!-- %1$s Haylou fit-->
+    ]]></string> <!-- %1$s Haylou Fun -->
 
 
     <!-- Watch face -->
@@ -664,7 +663,7 @@
     ]]></string>
 
 
-    <!-- Időjárás előrejelzés -->
+    <!-- Weather  -->
     <string name="weather_tab_weather_forecast">Időjárás</string>
     <string name="weather_tab_location">Helymeghatározás</string>
     <string name="weather_tab_settings">@string/setting_name</string>
@@ -705,7 +704,7 @@
 
     <!-- Text customization -->
     <string name="pref_text_reminder_repeat_interval_title">Emlékeztető jelzések ismétlésének időköze</string>
-    <string name="pref_text_reminder_repeat_interval_summary">Értesítés/emlékeztető jelzés funkció használja ezt az időzítést</string>
+    <string name="pref_text_reminder_repeat_interval_summary">Értesítés > Emlékeztető jelzés funkció használja ezt az időzítést</string>
     <string name="pref_text_emoticon_title">Emoji átalakítás</string>
     <string name="pref_text_emoticon_summary_on">Emoji átalakítása hangulatjellé</string>
     <string name="pref_text_uppercase_title">Nagybetűsre átalakítás</string>
@@ -718,7 +717,7 @@
     <string name="pref_text_line_separator_summary_on">Alapértelmezett sorelválasztó helyettesítése más karakterrel</string>
     <string name="pref_text_line_separator_value_title">Helyetesítő karakterek</string>
     <string name="pref_text_char_replacement_title">Karakter, emoji helyettesítés</string>
-    <string name="pref_text_char_replacement_summary_on">Karakter helyettesítése más karakterrel</string>
+    <string name="pref_text_char_replacement_summary_on">Karakter helyettesítése másikkal</string>
     <string name="pref_text_char_replacement_find">Keresett karakter</string>
     <string name="pref_text_char_replacement_replace">Csere erre</string>
 
@@ -756,6 +755,7 @@
         <p>• részletes napi grafikonok</p>
         • minden egyéb funkció korlátozásának feloldása…
     ]]></string>
+
     <string name="purchase_policy_title">Prémium mód megvásárlásának feltételei</string>
     <string name="purchase_policy"><![CDATA[
         <p>• Az alkalmazást kipróbáltam, működését megfelelőnek találtam.</p>
@@ -859,7 +859,6 @@
     <!-- Custom vibration dialog -->
     <string name="custom_vibration_title">Rezgés beállítás</string>
 
-
     <!-- Shortcuts -->
     <string name="shortcut">Parancsikon</string>
     <string name="shortcut_visible_items">Parancsikon elemek</string>
@@ -873,7 +872,7 @@
     <string name="shortcut_weather">Időjárás</string>
     <string name="shortcut_stress">Stressz</string>
 
-    <!-- Others -->
+    <!-- Actions  -->
     <string name="tab_daily_charts">Napi graf.</string>
     <string name="tab_weekly_charts">Heti graf.</string>
     <string name="tab_monthly_charts">Havi graf.</string>

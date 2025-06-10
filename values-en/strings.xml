@@ -178,12 +178,12 @@
     <!-- Snackbar messages -->
     <string name="message_enable_bluetooth">Please enable Bluetooth and keep the watch close to your phone</string>
     <string name="message_discover_device">%1$s is not set, please connect</string>
-    <string name="message_discovering_device">Discovering %1$s (this may take up to 1 minute) …</string>
+    <string name="message_discovering_device">Discovering %1$s (this may take up to 1 minute)…</string>
     <string name="message_discover_device_succeeded">%1$s connected successfully</string>
     <string name="message_discover_device_failed">%1$s connection failed</string>
-    <string name="message_discover_device_not_found">If %1$s was not found, turn on: %1$s Sport/Play/Discoverable or pair at the phone Bluetooth settings</string>
-    <string name="message_enable_notification_listener_access">Enable notification access: Phone/Settings/Notification access</string>
-    <string name="message_enable_notification_listener_access_4_4">Enable notification access: Settings/Security/Notification access</string>
+    <string name="message_discover_device_not_found">If %1$s was not found, turn on %1$s discoverable mode or pair via the phone Bluetooth settings</string>
+    <string name="message_enable_notification_listener_access">Enable notification access: Phone > Settings > Notification access</string>
+    <string name="message_enable_notification_listener_access_4_4">Enable notification access: Settings > Security > Notification access</string>
 
     <string name="message_deleted">Deleted</string>
     <string name="message_undo">Undo</string>
@@ -193,13 +193,12 @@
     <string name="message_free_counter">Only 1 setting can be used in free mode</string>
     <string name="message_free_counters">Up to %1$,d settings can be used in free mode</string> <!-- %1$,d = 3 or more  -->
 
-    <string name="message_notification_free_groups">Up to %1$,d groups can be used in free mode</string>
+    <string name="message_notification_free_groups">Up to %1$,d groups can be used in free mode</string> <!-- %1$,d = 3 or more  -->
     <string name="message_notification_free_app">Only 1 app can be selected in free mode</string>
-    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in free mode</string>   <!-- %1$s = 3 or more  -->
+    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in free mode</string> <!-- %1$s = 3 or more  -->
+    <string name="message_notification_free_text">Only 1 text can be recorded in free mode</string>
 
-    <string name="message_notification_free_text">Only to 1 text can be recorded in free mode</string>
-
-    <string name="message_time_alarm_free_counter">Only to 1 alarm can be used in free mode</string>
+    <string name="message_time_alarm_free_counter">Only 1 alarm can be used in free mode</string>
     <string name="message_time_alarm_max_counter">Up to %1$d alarms can be used</string>
     <string name="message_time_alarm_enabled">Alarm enabled</string>
     <string name="message_time_alarm_disabled">Alarm disabled</string>
@@ -211,19 +210,19 @@
 
     <string name="message_premium_mode_only">This feature is only available in Premium mode</string>
     <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
-    <string name="message_general_error">Setting failed (connection lost), try again</string>
+    <string name="message_general_error">Setting failed (connection lost), please try again</string>
     <string name="message_internet_error">No internet connection</string>
     <string name="message_internet_traffic_blocked">Network traffic is blocked</string>
     <string name="message_internet_ads_blocked">Ads are blocked</string>
-    <string name="message_gps_enable">Enable the GPS</string>
-    <string name="message_location_enable">Enable the location info permission</string>
+    <string name="message_gps_enable">Enable GPS</string>
+    <string name="message_location_enable">Allow location access</string>
 
     <string name="message_in_progress">In progress…</string>
     <string name="message_no_data">No data available</string>
 
     <string name="message_rewarded_error">Failed to load video</string>
 
-    <string name="message_new_message">A new message is received, view it on the phone.</string>
+    <string name="message_new_message">New message received. Check it on your phone.</string>
 
     <string name="message_permission_not_granted">Permission not granted: %1$s</string> <!-- %1$s = permission name -->
 
@@ -368,10 +367,10 @@
     <!-- Sleep monitoring -->
     <string name="sleep_details">Sleep details</string>
 
-    <string name="sleep_awake">Awake</string>
-    <string name="sleep_light">Light</string>
-    <string name="sleep_deep">Deep</string>
-    <string name="sleep_rem">REM</string>
+    <string name="sleep_awake_phase_short">Awake</string>
+    <string name="sleep_light_phase_short">Light</string>
+    <string name="sleep_deep_phase_short">Deep</string>
+    <string name="sleep_rem_phase_short">REM</string>
 
     <!-- Heart rate -->
     <string name="heart_rate_details">Heart rate details</string>
@@ -428,11 +427,11 @@
 
     <!-- Do not disturb -->
     <string name="pref_dnd_summary">State of controllers in do not disturb mode</string>
-    <string name="pref_dnd_enable_bluetooth">At the start of the DnD mode turn Bluetooth off, at the end turn Bluetooth on</string>
+    <string name="pref_dnd_enable_bluetooth">Turn off Bluetooth at the start of DnD mode, and turn it on again at the end</string>
 
     <string name="info_dialog_dnd"><![CDATA[
         If you are using cooperation mode, in the official <device_type/> application the do not disturb (DnD) mode must be between 00:00 and 23:59 and its status should be off.
-    ]]></string> <!-- %1$s Haylou fit-->
+    ]]></string> <!-- %1$s Haylou Fun -->
 
 
     <!-- Watch face -->
@@ -465,10 +464,10 @@
     <string name="watch_face_upload_invalid_size_hint">Invalid watch face file size, set lower watch face quality or remove items from watch face</string>
     <string name="watch_face_upload_invalid_battery_hint">The smartwatch battery is running low, please charge the watch</string>
 
-    <string name="watch_face_tbwf_quality_title">.tbwf watch face quality setting</string>
+    <string name="watch_face_tbwf_quality_title">.tbwf watch face file quality setting</string>
     <string name="watch_face_tbwf_quality_hint">The file size can be reduced if the watch allows it</string>
 
-    <string name="watch_face_tbwf_locale_title">.tbwf watch face language and country setting</string>
+    <string name="watch_face_tbwf_locale_title">.tbwf watch face file language and country setting</string>
     <string name="watch_face_tbwf_locale_hint">Day of week names, month separator and decimal symbol</string>
 
     <string name="message_watch_face_file_invalid">Invalid watch face file</string>
@@ -696,7 +695,7 @@
 
     <!-- Text customization -->
     <string name="pref_text_reminder_repeat_interval_title">Reminder repeat interval</string>
-    <string name="pref_text_reminder_repeat_interval_summary">Notification/reminder alert function uses this timing</string>
+    <string name="pref_text_reminder_repeat_interval_summary">Notification > Reminder alert function uses this timing</string>
     <string name="pref_text_emoticon_title">Emoji conversion</string>
     <string name="pref_text_emoticon_summary_on">Convert emojis to emoticons</string>
     <string name="pref_text_uppercase_title">Uppercase conversion</string>
@@ -706,7 +705,7 @@
     <string name="pref_text_transliteration_title">Transliteration</string>
     <string name="pref_text_transliteration_summary_on">Convert accented letters with non-accented versions</string>
     <string name="pref_text_line_separator_title">Line separator replacement</string>
-    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
+    <string name="pref_text_line_separator_summary_on">Replace the default line separator with other characters</string>
     <string name="pref_text_line_separator_value_title">Replacement characters</string>
     <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
     <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
@@ -747,6 +746,7 @@
         <p>• detailed daily graphs</p>
         • unlock all other feature limits…
     ]]></string>
+
     <string name="purchase_policy_title">Terms and conditions of Premium mode</string>
     <string name="purchase_policy"><![CDATA[
         <p>• I have tested the application and found it works as expected.</p>
@@ -764,7 +764,8 @@
     <string name="purchase_order_id">Order ID</string>
     <string name="purchase_order_id_help">Copy from:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
-        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+        \n<a href="https://payments.google.com">https://payments.google.com</a>
+    </string>
 
     <string name="purchase_info">One-time fee ・ %1$s</string> <!-- %1$s = price</string>-->
     <string name="purchase_button_purchase">Purchase</string>
@@ -791,15 +792,14 @@
         <p>• We collect information at the application level like bugs, errors, and crashes to provide improvements (Firebase Crashlytics).</p>
         <p>• We collect information at the application level about the performance (Firebase Performance Monitoring).</p>
         <p>• Google Firebase Platform collects information anonymously. It reports trends without identifying individual users.
-        The Firebase Platform collects data such as Firebase installation ID, application state, relevant device metadata (device model, CPU architecture, RAM and disk size, OS, screen orientation, country, locale/language), stack traces, performance metrics (including app start time and network request latency, network URLs), CPU/memory usage, Approximate IP address …
-        </p>
+        The Firebase Platform collects data such as Firebase installation ID, application state, relevant device metadata (device model, CPU architecture, RAM and disk size, OS, screen orientation, country, locale/language), stack traces, performance metrics (including app start time and network request latency, network URLs), CPU/memory usage, Approximate IP address …</p>
         <p>• We collect location data to update the weather based on your current location (optional).</p>
         • The legal basis for collecting and processing this data is our legitimate interest in improving the app\'s functionality and performance, as well as maintaining its stability and usability.
     ]]></string>
 
     <string name="privacy_policy_cookies_title">Cookies and similar technologies</string>
     <string name="privacy_policy_cookies"><![CDATA[
-    • Some third-party services like AdMob may use cookies or similar technologies to display personalized ads. You can manage ad personalization in your Google account settings.
+        • Some third-party services like AdMob may use cookies or similar technologies to display personalized ads. You can manage ad personalization in your Google account settings.
     ]]></string>
 
     <string name="privacy_policy_retention_title">Data retention</string>
@@ -815,7 +815,7 @@
 
     <string name="privacy_policy_share_title">Information we share</string>
     <string name="privacy_policy_share"><![CDATA[
-          • We do not share any data with companies or organizations, except Google and advertising providers.
+        • We do not share any data with companies or organizations, except Google and advertising providers.
     ]]></string>
 
     <string name="privacy_policy_use_title">Personal and sensitive user data we use</string>
@@ -825,18 +825,18 @@
 
     <string name="privacy_policy_rights_title">Your rights</string>
     <string name="privacy_policy_rights"><![CDATA[
-    <p>• The analytics, crash, and performance data collected are fully anonymous and cannot be used to identify any individual. As such, they do not constitute personal data under applicable data protection laws (e.g., GDPR), and are not subject to access, correction, or erasure rights.</p>
-    <p>• You can opt out of data collection by uninstalling the app or managing privacy settings in your Google account or device.</p>
-    • For any questions about data usage or your privacy rights, please contact us using the app\'s support channels.
+        <p>• The analytics, crash, and performance data collected are fully anonymous and cannot be used to identify any individual. As such, they do not constitute personal data under applicable data protection laws (e.g., GDPR), and are not subject to access, correction, or erasure rights.</p>
+        <p>• You can opt out of data collection by uninstalling the app or managing privacy settings in your Google account or device.</p>
+        • For any questions about data usage or your privacy rights, please contact us using the app\'s support channels.
     ]]></string>
 
     <string name="privacy_policy_links_title">Privacy policy of third party service providers</string>
     <string name="privacy_policy_links"><![CDATA[
-    <p><a href="https://policies.google.com/privacy">Google Privacy Policy (includes Google Play Services)</a></p>
-    <p><a href="https://policies.google.com/technologies/ads">AdMob data usage</a></p>
-    <p><a href="https://support.google.com/analytics/answer/6004245">Google Analytics data usage</a></p>
-    <p><a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics Terms</a></p>
-    <a href="https://firebase.google.com/support/privacy">Firebase Privacy and Security (includes Performance Monitoring)</a>
+        <p><a href="https://policies.google.com/privacy">Google Privacy Policy (includes Google Play Services)</a></p>
+        <p><a href="https://policies.google.com/technologies/ads">AdMob data usage</a></p>
+        <p><a href="https://support.google.com/analytics/answer/6004245">Google Analytics data usage</a></p>
+        <p><a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics Terms</a></p>
+        <a href="https://firebase.google.com/support/privacy">Firebase Privacy and Security (includes Performance Monitoring)</a>
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Status</string>

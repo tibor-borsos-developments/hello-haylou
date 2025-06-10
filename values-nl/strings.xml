@@ -4,68 +4,69 @@
 
     <!--  Navigation  -->
     <string name="menu_nav_notification">Melding</string>
-    <string name="menu_nav_call">Bellen</string>
+    <string name="menu_nav_call">Oproep</string>
     <string name="menu_nav_step">Activiteit</string>
-    <string name="menu_nav_sleep">Slapen</string>
+    <string name="menu_nav_sleep">Slaap</string>
     <string name="menu_nav_heart_rate">Hartslag</string>
-    <string name="menu_nav_blood_oxygen">Zuurstof in het bloed</string>
+    <string name="menu_nav_blood_oxygen">Bloedzuurstof</string>
     <string name="menu_nav_blood_pressure">Bloeddruk</string>
     <string name="menu_nav_workout">Training</string>
     <string name="menu_nav_alarm">Alarm</string>
-    <string name="menu_nav_reminder">Herinnering evenement</string>
-    <string name="menu_nav_dnd">Niet Storen mode</string>
-    <string name="menu_nav_watch_face">Klokscherm</string>
+    <string name="menu_nav_reminder">Herinnering</string>
+    <string name="menu_nav_dnd">Niet storen-modus</string>
+    <string name="menu_nav_watch_face">Wijzerplaat</string>
     <string name="menu_nav_weather">Weer</string>
-    <string name="menu_nav_touch">Beheer instellingen</string>
+    <string name="menu_nav_touch">Aanraakbediening</string>
     <string name="menu_nav_more">Meer</string>
-    <string name="menu_nav_text_customization">Tekst scherm</string>
-    <string name="menu_nav_export">Export</string>
-    <string name="menu_nav_premium_mode">Premium mode</string>
-    <string name="menu_nav_feedback">Terugkoppeling</string>
+    <string name="menu_nav_text_customization">Tekst aanpassen</string>
+    <string name="menu_nav_export">Exporteren</string>
+    <string name="menu_nav_premium_mode">Premium-modus</string>
+    <string name="menu_nav_feedback">Feedback</string>
     <string name="menu_nav_privacy_policy">Privacybeleid</string>
     <string name="menu_nav_theme">Thema</string>
 
-    <string name="setting_name">Instellingen</string>
+    <string name="setting_name">Instelling</string>
     <string name="settings_name">Instellingen</string>
     <string name="info_name">Informatie</string>
     <string name="more_name">Meer</string>
 
     <string name="main_item_activity_title">Stappen・doel</string>
-    <string name="main_item_battery">Batterij niveau・vorige laadtijd</string>
-    <string name="main_item_connect_and_disconnect_last_time">Vorige verbonden  en niet verbonden tijd</string>
+    <string name="main_item_battery">Batterijniveau・laatste oplaadtijd</string>
+    <string name="main_item_connect_and_disconnect_last_time">Laatste verbinding en verbreking</string>
     <string name="main_item_next_alarm">Volgend alarm</string>
     <string name="main_item_next_reminder">Volgende herinnering</string>
     <string name="main_item_call_and_notification_control">Oproepen en meldingen</string>
 
-    <string name="device_search">%1$s search</string> <!-- %1$s = Watch name -->
-    <string name="device_setting">%1$s setting</string> <!-- %1$s = Watch name -->
+    <!-- Pairing Bluetooth device -->
+    <string name="device_search">%1$s zoeken</string> <!-- %1$s = Watch name -->
+    <string name="device_setting">%1$s-instellingen</string> <!-- %1$s = Watch name -->
 
-    <string name="device_mac_address">MAC adres</string>
-    <string name="device_mac_address_invalid">MAC adres is onjuist</string>
+    <string name="device_mac_address">MAC-adres</string>
+    <string name="device_mac_address_invalid">Ongeldig MAC-adres</string>
 
     <string name="device_state_connected">Verbonden</string>
     <string name="device_state_disconnected">Niet verbonden</string>
-    <string name="device_state_bonded">Gekoppeld Apparaat</string>
-    <string name="device_state_not_bonded">Niet gekoppeld Apparaat</string>
+    <string name="device_state_bonded">Gekoppeld apparaat</string>
+    <string name="device_state_not_bonded">Niet gekoppeld apparaat</string>
 
     <string name="error_title">Oeps! Er is iets misgegaan</string>
-    <string name="error_message">Werk de app bij naar de nieuwste versie</string>
+    <string name="error_message">Update de app naar de nieuwste versie</string>
 
 
     <!-- Watch connection and setting -->
-    <string name="mi_band_setting_title">%1$s settings</string>
+    <string name="mi_band_setting_title">%1$s-instellingen</string>
 
     <string name="mi_band_setting_menu_connection">Verbinding</string>
     <string name="mi_band_setting_menu_setting">@string/setting_name</string>
     <string name="mi_band_setting_menu_profile">Profiel</string>
     <string name="mi_band_setting_menu_text">Tekst</string>
-    <string name="mi_band_setting_menu_call">Bellen</string>
+    <string name="mi_band_setting_menu_call">Oproep</string>
 
-    <string name="mi_band_setting_auth_mi_fit">%1$s cooperation</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">%3$s requires the installation of the %1$s app on the same phone. At first you have to pair %2$s in %1$s app, then you can use %3$s. If you want to use %1$s application, choose this.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
-    <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the %3$s to work. After the pairing, uninstall the %1$s app or unpair the smartwatch. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. Make sure the %2$s screen is turned on during pairing operations.</string>
-    <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
+    <string name="mi_band_setting_auth_mi_fit">%1$s-koppeling</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">%3$s vereist dat de %1$s-app op deze telefoon is geïnstalleerd. Koppel eerst je %2$s in de %1$s-app. Kies deze optie als je ook de %1$s-app wilt gebruiken.</string>
+    <string name="mi_band_setting_auth_standalone">Zelfstandig gebruik</string>
+    <string name="mi_band_setting_auth_standalone_hint">De %1$s-app is niet nodig voor het gebruik van %3$s. Na het koppelen kun je de %1$s-app verwijderen of de smartwatch ontkoppelen. Om opnieuw te koppelen met %1$s, moet je je %2$s opnieuw koppelen in de %1$s-app. Bij het ontkoppelen worden de gegevens op de smartwatch verwijderd. Zorg ervoor dat het scherm van %2$s is ingeschakeld tijdens het koppelen.</string>
+    <string name="mi_band_standalone_sync_error">Synchronisatie is uitgeschakeld in koppelingsmodus om gegevensverlies en foutieve metingen te voorkomen. Synchroniseren zou gegevens op het horloge wissen en onnauwkeurige gegevens tonen in beide apps.</string>
 
     <string name="mi_band_setting_auth_key">Authenticatiesleutel</string>
     <string name="mi_band_setting_auth_key_help">Voer een willekeurig 4-cijferig nummer in</string>
@@ -73,76 +74,75 @@
     <string name="mi_band_setting_auth_pair">Koppelen</string>
     <string name="mi_band_setting_auth_unpair">Ontkoppelen</string>
 
-    <string name="message_auth_request">Your device is already paired. If you don\'t know the key, please unpair it.</string>
+    <string name="message_auth_request">Je apparaat is al gekoppeld. Als je de sleutel niet weet, ontkoppel het dan eerst.</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">Druk op de knop op je %1$s om te koppelen</string>
-    <string name="message_mi_band_setting_auth_success">%1$s succesvol gekoppeld</string>
+    <string name="message_mi_band_setting_auth_press_band_button">Druk op de knop van je %1$s om te koppelen</string>
+    <string name="message_mi_band_setting_auth_success">%1$s is succesvol gekoppeld</string>
     <string name="message_mi_band_setting_auth_fail">Koppelen met %1$s is mislukt</string>
-    <string name="message_mi_band_setting_auth_key_invalid">Ongeldige verificatiesleutel</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Ongeldige authenticatiesleutel</string>
 
-    <string name="pref_disconnect_device">Ontkoppeling</string>
+    <string name="pref_disconnect_device">Verbinding verbreken</string>
 
-    <string name="mi_band_setting_connection_problem_title">Als je problemen hebt met verbinden</string>
+    <string name="mi_band_setting_connection_problem_title">Bij verbindingsproblemen</string>
     <string name="mi_band_setting_connection_problem_hint"><![CDATA[
-    - Koppel het horloge los in de Bluetooth-instellingen van je telefoon<br>
+    - Ontkoppel het horloge in de Bluetooth-instellingen van je telefoon<br>
     - Schakel Bluetooth uit en weer in<br>
     - Forceer het afsluiten van de app of herstart je telefoon<br>
     - Probeer het horloge opnieuw te koppelen vanaf het hoofdscherm
     ]]></string>
 
-    <string name="mi_band_setting_dial">Klokscherm</string>
+    <string name="mi_band_setting_dial">Wijzerplaat</string>
     <string name="mi_band_setting_language">Taal</string>
     <string name="mi_band_setting_time_24h">24-uurs tijdnotatie</string>
-    <string name="mi_band_setting_distance_unit">Stel afstandseenheden in</string>
-    <string name="mi_band_setting_lift_wrist">Beweeg de pols omhoog om info te bekijken</string>
-    <string name="mi_band_setting_screen_on_duration">Screen on duration</string>
-    <string name="mi_band_setting_idle_alert">Inactiviteitsmeldingen</string>
-    <string name="mi_band_setting_idle_alert_duration">Inactivity time</string>
-    <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest (12:00-14:00)</string>
+    <string name="mi_band_setting_distance_unit">Afstandseenheid</string>
+    <string name="mi_band_setting_screen_on_duration">Scherm aan-tijd</string>
+    <string name="mi_band_setting_lift_wrist">Scherm activeren bij polsbeweging</string>
+    <string name="mi_band_setting_idle_alert">Waarschuwing bij inactiviteit</string>
+    <string name="mi_band_setting_idle_alert_duration">Duur van inactiviteit</string>
+    <string name="mi_band_setting_idle_alert_dnd">Niet storen tijdens rust (12:00–14:00)</string>
 
     <string name="pref_synchronization">Synchronisatie</string>
-    <string name="pref_synchronization_fetch_interval">Synchronization frequency</string>
-    <string name="pref_synchronization_summary">Select the data to be automatically synchronised in the background. If you do not need any of the data, turn it off for better performance. Data can still be synchronised manually on the home screen or in the appropriate menus (by sweeping down).</string>
+    <string name="pref_synchronization_fetch_interval">Synchronisatiefrequentie</string>
+    <string name="pref_synchronization_summary">Selecteer welke gegevens automatisch op de achtergrond worden gesynchroniseerd. Schakel uit wat je niet nodig hebt voor betere prestaties. Je kunt nog steeds handmatig synchroniseren via het startscherm of de juiste menu's (omlaag vegen).</string>
 
-    <string name="mi_band_setting_profile">Deze gegevens helpen bij een nauwkeurigere berekening van je stappen, afstand en verbrande calorieën.</string>
+    <string name="mi_band_setting_profile">Vul deze gegevens in voor een nauwkeurigere berekening van stappen, afstand en calorieverbruik.</string>
     <string name="mi_band_setting_gender">Geslacht</string>
     <string name="mi_band_setting_gender_male">Man</string>
     <string name="mi_band_setting_gender_female">Vrouw</string>
     <string name="mi_band_setting_birthday">Geboortedatum</string>
     <string name="mi_band_setting_height">Lengte</string>
     <string name="mi_band_setting_weight">Gewicht</string>
-    <string name="mi_band_setting_wearing_place">Draaglocatie</string>
+    <string name="mi_band_setting_wearing_place">Draagzijde</string>
     <string name="mi_band_setting_wearing_place_left_wrist">Linkerhand</string>
     <string name="mi_band_setting_wearing_place_right_wrist">Rechterhand</string>
 
-
     <!-- Battery -->
-    <string name="battery_details">Energie verbruik</string>
+    <string name="battery_details">Batterijverbruik</string>
 
-    <string name="battery_settings">Batterij instellingen</string>
-    <string name="battery_settings_notification">Melding laag batterijniveau</string>
-    <string name="battery_settings_notification_level">Batterijniveau drempel</string>
-    <string name="battery_settings_notification_repeat_interval">Herhaal interval</string>
-    <string name="battery_settings_notification_on_phone">Meldingen op telefoon</string>
-    <string name="battery_settings_notification_on_phone_ongoing">Aanhoudende meldingen</string>
-    <string name="battery_settings_notification_on_phone_message">Laag Batterijniveau: %1$,d%%</string>
-    <string name="battery_settings_notification_on_device">Berichten op armband</string>
+    <string name="battery_settings">Batterij-instellingen</string>
+    <string name="battery_settings_notification">Melding bij laag batterijniveau</string>
+    <string name="battery_settings_notification_level">Batterijdrempel</string>
+    <string name="battery_settings_notification_repeat_interval">Herhalingsinterval</string>
+    <string name="battery_settings_notification_on_phone">Melding op telefoon</string>
+    <string name="battery_settings_notification_on_phone_ongoing">Voortdurende melding</string>
+    <string name="battery_settings_notification_on_phone_message">Batterijniveau laag: %1$,d%%</string>
+    <string name="battery_settings_notification_on_device">Melding op smartwatch</string>
     <string name="battery_settings_notification_on_device_message">Batterij: %1$,d%%</string>
 
     <!-- Preference screens -->
     <string name="pref_battery_phone">Telefoonbatterij</string>
-    <string name="pref_battery_phone_summary">Meldingen leeg en vol van het batterijniveau</string>
+    <string name="pref_battery_phone_summary">Meldingen bij laag en volledig batterijniveau</string>
     <string name="pref_cat_battery_phone_low">Laag batterijniveau</string>
-    <string name="pref_battery_phone_low_title">Laag batterijniveau melding</string>
-    <string name="pref_battery_phone_low_level_title">Batterijniveau drempel</string>
-    <string name="pref_battery_phone_low_repeat_interval_title">Interval herhaling</string>
-    <string name="pref_cat_battery_phone_full">Vol batterijniveau</string>
-    <string name="pref_battery_phone_full_title">Vol batterijniveau melding</string>
-    <string name="pref_battery_phone_full_plugged_ac">AC Voedingsbron</string>
-    <string name="pref_battery_phone_full_plugged_usb">Voedingsbron USB poort</string>
-    <string name="pref_battery_phone_full_plugged_wireless">Draadloze voedingsbron</string>
+    <string name="pref_battery_phone_low_title">Melding bij laag batterijpeil</string>
+    <string name="pref_battery_phone_low_level_title">Batterijdrempel</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">Herhalingsinterval</string>
+    <string name="pref_cat_battery_phone_full">Volledig opgeladen</string>
+    <string name="pref_battery_phone_full_title">Melding bij volledig opgeladen batterij</string>
+    <string name="pref_battery_phone_full_plugged_ac">Netstroom (AC)</string>
+    <string name="pref_battery_phone_full_plugged_usb">USB-voeding</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Draadloze voeding</string>
 
-    <string name="pref_battery_phone_message">Phone battery:\n %1$,d%%</string>
+    <string name="pref_battery_phone_message">Telefoonbatterij:\n %1$,d%%</string>
 
     <string name="pref_language">Taal</string>
     <string name="pref_cat_language">App</string>
@@ -153,187 +153,181 @@
     <string name="pref_menu_item_2">Tweede menu-item</string>
     <string name="pref_menu_item_3">Derde menu-item</string>
 
-    <string name="pref_diagnostic">Diagnostisch</string>
-    <string name="pref_cat_diagnostic_closing_protection">Sluiten verhinderen</string>
-    <string name="pref_diagnostic_battery_optimisation">Batterij optimalisatie uit</string>
-    <string name="pref_diagnostic_companion_device">Begeleidende apparaatparen</string>
-    <string name="pref_diagnostic_bluetooth_pairing">Bluetooth pairing</string>
-    <string name="pref_diagnostic_autostart">Autostart</string>
-    <string name="pref_diagnostic_autostart_summary">Enable the application to restart automatically in the phone\'s Auto-start manager</string>
+    <string name="pref_diagnostic">Diagnose</string>
+    <string name="pref_cat_diagnostic_closing_protection">Bescherming tegen afsluiten</string>
+    <string name="pref_diagnostic_battery_optimisation">Batterijoptimalisatie uitschakelen</string>
+    <string name="pref_diagnostic_companion_device">Companion-apparaat koppelen</string>
+    <string name="pref_diagnostic_bluetooth_pairing">Bluetooth-koppeling</string>
+    <string name="pref_diagnostic_autostart">Automatisch opstarten</string>
+    <string name="pref_diagnostic_autostart_summary">Sta toe dat de app automatisch opnieuw wordt gestart via het Auto-startbeheer van de telefoon</string>
     <string name="pref_diagnostic_info">Meer informatie</string>
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
 
     <string name="pref_cat_diagnostic_permissions">Machtigingen</string>
     <string name="pref_diagnostic_permission_allow_notification_access_settings">Toegang tot meldingen toestaan</string>
-    <string name="pref_diagnostic_permission_schedule_exact_alarm">Exacte wekker plannen</string>
-    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Extra toestemming is vereist om de taak op een exact tijdstip te plannen.</string>
-    <string name="pref_diagnostic_permission_post_notifications">Meldingen plaatsen</string>
-    <string name="pref_diagnostic_permission_post_notifications_summary">Extra toestemming is vereist om de melding weer te geven.</string>
-    <string name="pref_diagnostic_permission_access_notification_policy">Toegang Niet storen</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">Exact alarm plannen</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Er is extra toestemming nodig om de taak op een exact tijdstip te plannen.</string>
+    <string name="pref_diagnostic_permission_post_notifications">Meldingen weergeven</string>
+    <string name="pref_diagnostic_permission_post_notifications_summary">Er is extra toestemming nodig om meldingen weer te geven.</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">Toegang tot modus 'Niet storen'</string>
 
 
     <!-- Snackbar Messages -->
-    <string name="message_enable_bluetooth">Schakel Bluetooth in en houd de smartwatch dicht bij de telefoon</string>
-    <string name="message_discover_device">%1$s is niet ingesteld, zoek apparaat</string>
-    <string name="message_discovering_device">%1$s zoeken (kan 1 minuut duren) &#8230;</string>
-    <string name="message_discover_device_succeeded">%1$s verbinden met is gelukt</string>
-    <string name="message_discover_device_failed">%1$s verbinden mislukt</string>
-    <string name="message_discover_device_not_found">Als %1$s niet is gevonden, schakel dan in: Haylou Sport/Play/Zoeken of koppel met de Bluetooth instellingen op de telefoon</string>
-    <string name="message_enable_notification_listener_access">Meldingstoegang inschakelen: Instellingen/Meldingen/Toegang tot meldingen</string>
-    <string name="message_enable_notification_listener_access_4_4">Meldingstoegang inschakelen: Instellingen/Beveiliging/Toegang tot meldingen</string>
+    <string name="message_enable_bluetooth">Schakel Bluetooth in en houd het horloge dicht bij je telefoon</string>
+    <string name="message_discover_device">%1$s is niet ingesteld, maak verbinding</string>
+    <string name="message_discovering_device">%1$s wordt gezocht (kan tot 1 minuut duren)…</string>
+    <string name="message_discover_device_succeeded">%1$s succesvol verbonden</string>
+    <string name="message_discover_device_failed">Verbinding met %1$s is mislukt</string>
+    <string name="message_discover_device_not_found">Als %1$s niet wordt gevonden, schakel de detecteerbare modus in of koppel via de Bluetooth-instellingen van de telefoon</string>
+    <string name="message_enable_notification_listener_access">Meldingstoegang inschakelen: Telefoon > Instellingen > Toegang tot meldingen</string>
+    <string name="message_enable_notification_listener_access_4_4">Meldingstoegang inschakelen: Instellingen > Beveiliging > Toegang tot meldingen</string>
 
     <string name="message_deleted">Verwijderd</string>
     <string name="message_undo">Ongedaan maken</string>
 
-    <string name="message_app_chooser_no_selected">Selecteer een applicatie</string>
+    <string name="message_app_chooser_no_selected">Selecteer een app</string>
 
-    <string name="message_free_counter">In de gratis modus kan maximaal 1 instelling worden gebruikt</string>
+    <string name="message_free_counter">In de gratis modus is slechts 1 instelling beschikbaar</string>
     <string name="message_free_counters">In de gratis modus kunnen maximaal %1$,d instellingen worden gebruikt</string>
 
     <string name="message_notification_free_groups">In de gratis modus kunnen maximaal %1$,d groepen worden gebruikt</string>
+    <string name="message_notification_free_app">In de gratis modus kan slechts 1 app worden geselecteerd</string>
+    <string name="message_notification_free_apps">In de gratis modus kunnen maximaal %1$,d apps worden geselecteerd</string>
+    <string name="message_notification_free_text">In de gratis modus kan slechts 1 tekst worden opgeslagen</string>
 
-    <string name="message_notification_free_app">In de gratis modus kan maximaal 1 applicatie worden geselecteerd</string>
-    <string name="message_notification_free_apps">In de gratis modus kunnen maximaal %1$,d applicaties worden geselecteerd</string>
-
-    <string name="message_notification_free_text">In de gratis modus kan maximaal 1 tekst worden opgenomen</string>
-
-    <string name="message_time_alarm_free_counter">In de gratis modus kan maximaal 1 alarm worden gebruikt</string>
+    <string name="message_time_alarm_free_counter">In de gratis modus is slechts 1 alarm beschikbaar</string>
     <string name="message_time_alarm_max_counter">Maximaal %1$d alarmen kunnen worden gebruikt</string>
     <string name="message_time_alarm_enabled">Alarm ingeschakeld</string>
     <string name="message_time_alarm_disabled">Alarm uitgeschakeld</string>
     <string name="message_time_alarm_off">Alarm uit</string>
 
-    <string name="message_touch_pattern_error">Het opgegeven patroon is vergelijkbaar met een opname van een andere functie, neem een andere op</string>
-    <string name="message_touch_free_patterns">Je kan niet meer dan %1$,d functies in Normale modus gebruiken</string>
-    <string name="message_touch_record_help">Use the %1$s music control/find my phone features</string> <!-- %1$s = smartwatch -->
+    <string name="message_touch_pattern_error">Het opgegeven patroon lijkt op een ander patroon. Neem een ander patroon op</string>
+    <string name="message_touch_free_patterns">Maximaal %1$,d aanraakbedieningen zijn beschikbaar in gratis modus</string>
+    <string name="message_touch_record_help">Gebruik de %1$s-functies voor muziekbediening of telefoon zoeken</string>
 
     <string name="message_premium_mode_only">Deze functie is alleen beschikbaar in premium modus</string>
-    <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
+    <string name="message_feature_is_not_supported">%1$s ondersteunt deze functie niet</string>
     <string name="message_general_error">Instelling mislukt (verbinding verbroken), probeer het opnieuw</string>
     <string name="message_internet_error">Geen internetverbinding</string>
     <string name="message_internet_traffic_blocked">Netwerkverkeer is geblokkeerd</string>
-    <string name="message_internet_ads_blocked">Annonser er blokkert</string>
-    <string name="message_gps_enable">GPS inschakelen</string>
-    <string name="message_location_enable">Enable the location info permission</string>
+    <string name="message_internet_ads_blocked">Advertenties zijn geblokkeerd</string>
+    <string name="message_gps_enable">Schakel GPS in</string>
+    <string name="message_location_enable">Sta toegang tot locatie-informatie toe</string>
 
-    <string name="message_in_progress">Bezig….</string>
+    <string name="message_in_progress">Bezig…</string>
     <string name="message_no_data">Geen gegevens beschikbaar</string>
 
-    <string name="message_rewarded_error">Het starten van de video is mislukt</string>
+    <string name="message_rewarded_error">Video kon niet worden geladen</string>
 
-    <string name="message_new_message">Nieuw bericht ontvangen, bekijk het op de telefoon.</string>
+    <string name="message_new_message">Nieuw bericht ontvangen. Bekijk het op je telefoon</string>
 
     <string name="message_permission_not_granted">Toestemming niet verleend: %1$s</string> <!-- %1$s = permission name -->
 
-    <!-- Dialog -->
+    <!-- Welcome dialog -->
     <string name="dialog_welcome_title">Welkom!</string>
     <string name="dialog_welcome_message"><![CDATA[Ondersteunde apparaten:
     <watch_types/>
-    <p><app_name/> requires the installation of the official <device_type/> app on the same phone. At first you have to pair your smartwatch in the <device_type/> app, then you can use this app.</p>
-    <p>Als <device_type/> niet wordt gevonden kunt u het MAC-adres handmatig instellen, kijk hier.</p>
-    <p><b>Bij verbindingsproblemen:</b>
-    <br>- Vorige app scherm: vergrendel de <app_name/> (klik op de app en klik op het vergrendelpictogram).
-    <br>- Telefoon/batterij optimalisatie: stel <app_name/> app in op niet geoptimaliseerd.
-    <br>- Telefoon/apps: \"Bluetooth delen\" en \"Bluetooth\app gegevens\" wissen.
+    <p>Voor het gebruik van <app_name/> moet de officiële <device_type/>-app op dezelfde telefoon zijn geïnstalleerd. Koppel je horloge eerst in de <device_type/>-app. Daarna kun je deze app gebruiken.</p>
+    <p>Als <device_type/> niet wordt gevonden, kun je het MAC-adres handmatig invoeren tijdens het zoeken.</p>
+    <b>Problemen met verbinden oplossen:</b>
+    <br>- Scherm met recente apps: vergrendel <app_name/> (veeg omlaag op het voorbeeld en kies ‘Vergrendelen’ of iets soortgelijks).
+    <br>- Telefoon/batterijoptimalisatie: stel <app_name/> in als niet geoptimaliseerd.
+    <br>- Telefoon/apps: wis de gegevens van ‘Bluetooth delen’ en andere ‘Bluetooth’-apps.
     <br>- Meer informatie: https://dontkillmyapp.com
-    <br><br><small>Dit product en de bijbehorende functies zijn niet ontworpen voor medische doeleinden en zijn niet bedoeld om ziekten te voorspellen, diagnosticeren, voorkomen of genezen. Alle gegevens en metingen zijn uitsluitend voor persoonlijke referentie en mogen niet worden gebruikt als basis voor diagnose of behandeling.</small>
+    <br><br><small>Dit product en de bijbehorende functies zijn niet bedoeld voor medisch gebruik, en zijn niet bedoeld om ziektes te voorspellen, diagnosticeren, voorkomen of genezen. Alle gegevens en metingen zijn uitsluitend bedoeld voor persoonlijk gebruik en mogen niet worden gebruikt als basis voor diagnose of behandeling.</small>
     ]]></string>
 
 
-    <!-- Notification Dialog -->
-    <string name="notification_group_nav_setting">Instellingen</string>
+    <!-- Notification -->
+    <string name="notification_group_nav_setting">Instelling</string>
     <string name="notification_group_nav_filter">Filter</string>
-    <string name="notification_group_nav_correction">Wijzigen</string>
+    <string name="notification_group_nav_correction">Tekstcorrectie</string>
 
     <string name="notification_group_name">Naam</string>
     <string name="notification_group_monitoring">Meldingen volgen</string>
-    <string name="notification_group_monitoring_disabled">Meldingen uitschakelen (laat de app meldingen niet zien)</string>
-    <string name="notification_group_alert_title">%1$s signal</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
-    <string name="notification_group_text_customization">Tekst scherm</string>
-    <string name="notification_group_text_app_name">App naam</string>
+    <string name="notification_group_monitoring_disabled">Meldingen uitsluiten (app-meldingen niet weergeven)</string>
+    <string name="notification_group_alert_title">%1$s-melding</string>
+    <string name="notification_group_text_customization">Tekst aanpassen</string>
+    <string name="notification_group_text_app_name">App-naam</string>
     <string name="notification_group_text_name">Naam</string>
     <string name="notification_group_text_title">Titel</string>
-    <string name="notification_group_text_content">Content</string>
-    <string name="notification_group_text_big_content">Full content</string>
-    <string name="notification_group_text_content_slice_title">De tekstlengte</string>
-    <string name="notification_group_display_duration_title">Tijd weergeven</string>
-    <string name="notification_group_show_notification_title">Display notification</string>
-    <string name="notification_group_immediate">Als melding is ontvangen, direct signaal</string>
-    <string name="notification_group_connecting">bij het verbinden met de telefoon</string>
-    <string name="notification_group_reminder">Herinnering signaal</string>
-    <string name="notification_group_ongoing">Aanhoudend signaal bij continue meldingen</string>
-    <string name="notification_group_screen_off">Alleen signaal als het scherm uit staat</string>
-    <string name="notification_group_repeat_title">Herhaal signalen</string>
-    <string name="notification_group_wakelock">Tonen telefoonscherm</string>
-    <string name="notification_group_grouped_display_title">Display setting for the group notifications</string>
-    <string name="notification_group_grouped_sort_order_title">Sort order for the group notifications</string>
+    <string name="notification_group_text_content">Inhoud</string>
+    <string name="notification_group_text_big_content">Volledige inhoud</string>
+    <string name="notification_group_text_content_slice_title">Tekstlengte</string>
+    <string name="notification_group_display_duration_title">Weergaveduur</string>
+    <string name="notification_group_show_notification_title">Melding tonen</string>
+    <string name="notification_group_immediate">Meteen waarschuwen bij melding</string>
+    <string name="notification_group_connecting">Waarschuwen bij verbinding</string>
+    <string name="notification_group_reminder">Herinneringsmelding</string>
+    <string name="notification_group_ongoing">Waarschuwing voor voortdurende meldingen (die niet kunnen worden verwijderd)</string>
+    <string name="notification_group_screen_off">Alleen waarschuwen als scherm uit is</string>
+    <string name="notification_group_repeat_title">Melding herhalen</string>
+    <string name="notification_group_wakelock">Telefoonscherm activeren</string>
+    <string name="notification_group_grouped_display_title">Weergave-instelling voor gegroepeerde meldingen</string>
+    <string name="notification_group_grouped_sort_order_title">Sorteervolgorde voor gegroepeerde meldingen</string>
 
-    <string name="notification_group_filter">Meldings Filter</string>
-    <string name="notification_group_filter_title">Titel filter</string>
-    <string name="notification_group_filter_content">Inhoud filter</string>
+    <string name="notification_group_filter">Meldingsfilter</string>
+    <string name="notification_group_filter_title">Titelfilter</string>
+    <string name="notification_group_filter_content">Inhoudsfilter</string>
     <string name="notification_group_filter_regex">Regex</string>
-    <string name="notification_group_filter_hint">Alleen signaal bij titel of inhoud van melding (niet hoofdletter gevoelig)</string>
-    <string name="notification_group_filter_contains">Bevat uitdrukkingen</string>
-    <string name="notification_group_filter_not_contains">Bevat geen uitdrukkingen</string>
+    <string name="notification_group_filter_hint">Alleen waarschuwen als titel of inhoud overeenkomt (hoofdletterongevoelig)</string>
+    <string name="notification_group_filter_contains">Bevat een van deze</string>
+    <string name="notification_group_filter_not_contains">Bevat geen van deze</string>
 
     <string name="notification_group_sample_sms">SMS</string>
     <string name="notification_group_sample_facebook">Messenger</string>
     <string name="notification_group_sample_whatsapp">WhatsApp</string>
 
-    <string name="notification_group_correction">Tekst correctie</string>
-    <string name="notification_group_correction_title">Titel correctie</string>
-    <string name="notification_group_correction_content">Inhoud correctie</string>
+    <string name="notification_group_correction">Meldingstekst corrigeren</string>
+    <string name="notification_group_correction_title">Titelcorrectie</string>
+    <string name="notification_group_correction_content">Inhoudcorrectie</string>
     <string name="notification_group_correction_regex">Regex</string>
-    <string name="notification_group_correction_hint">Hoofdletter gevoelig</string>
-    <string name="notification_group_correction_items">Teksten die gecorrigeerd moeten worden</string>
-    <string name="notification_group_correction_find">Zoeken</string>
-    <string name="notification_group_correction_replace">Vervangen met</string>
+    <string name="notification_group_correction_hint">Hoofdletterongevoelig</string>
+    <string name="notification_group_correction_items">Te corrigeren teksten</string>
+    <string name="notification_group_correction_find">Zoektekst</string>
+    <string name="notification_group_correction_replace">Vervangen door</string>
 
-    <string name="notification_regex_hint">Niet alfanumerieke tekens hebben een speciale betekenis, als u de Regex niet kent, niet aanvinken</string>
+    <string name="notification_regex_hint">Niet-alfanumerieke tekens hebben een speciale betekenis. Als je geen ervaring hebt met Regex, vink dit niet aan</string>
 
-    <string name="notification_confirm_close">Weet je zeker dat je de wijzigingen wilt verwijderen?</string>
+    <string name="notification_confirm_close">Weet je zeker dat je de wijzigingen wilt negeren?</string>
 
     <string name="notification_edit_play_text_title">Meldingstitel</string>
-    <string name="notification_edit_play_text_content">Meldings inhoud:
-    Bij publicatie en grafisch ontwerpen is lorem ipsum een opvultekst van griekse tekst die vaak wordt gebruikt om de tekstuele elementen van een grafisch document of visuele presentatie te demonstreren.
-        \nDoor het tekstelement hiervan te voorzien kan de ontwerper vooraf het element alvast vormgeven voordat het daadwerklijke gebruikt word.
-    </string>
-
+    <string name="notification_edit_play_text_content">Meldingsinhoud:</string>
 
     <!-- Incoming call alert -->
-    <string name="call_tab_call">Binnenkomend gesprek</string>
+    <string name="call_tab_call">Binnenkomende oproep</string>
     <string name="call_tab_contacts">Contacten</string>
 
-    <string name="call_incoming">Binnenkomend gesprek</string>
-    <string name="call_incoming_summary_on">Vergeet niet om waarschuwingen voor inkomende oproepen uit te schakelen op de %1$s app</string> <!-- %1$s = official app name -->
-    <string name="call_incoming_caller_id">Toon beller ID</string>
+    <string name="call_incoming">Binnenkomende oproep</string>
+    <string name="call_incoming_summary_on">Vergeet niet om oproepmeldingen uit te schakelen in de %1$s-app</string>
+    <string name="call_incoming_caller_id">Beller-ID weergeven</string>
 
-    <string name="pref_call_notification_rejected">Show notification about rejected call</string>
-    <string name="pref_call_notification_rejected_message">Rejected call</string>
-    <string name="pref_call_notification_rejected_action">Call</string>
+    <string name="pref_call_notification_rejected">Melding tonen bij geweigerde oproep</string>
+    <string name="pref_call_notification_rejected_message">Geweigerde oproep</string>
+    <string name="pref_call_notification_rejected_action">Oproep</string>
 
-    <string name="call_incoming_net_alert_title">Inkomend internet oproep signaal</string>
+    <string name="call_incoming_net_alert_title">Waarschuwing voor internetoproep</string>
 
-    <string name="call_missed_title">Gemiste oproep signaal</string>
-    <string name="call_missed_chooser_title">%1$s signal</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="call_missed_title">Melding bij gemiste oproep</string>
+    <string name="call_missed_chooser_title">%1$s-melding</string>
     <string name="call_missed_notification">Gemiste oproep</string>
 
-    <string name="call_reject_button_action">Reject knop</string>
+    <string name="call_reject_button_action">Actie bij weigeren van oproep</string>
 
     <string name="touch_call_answer_title">Oproep beantwoorden</string>
-    <string name="touch_call_answer_speakerphone_title">Telefoon luidspreker</string>
+    <string name="touch_call_answer_speakerphone_title">Luidspreker</string>
 
-    <string name="call_end_title">Oproep weigeren, beëindigen</string>
+    <string name="call_end_title">Oproep weigeren of beëindigen</string>
 
-    <string name="touch_call_mute_title">Oproep dempenregeling</string>
-    <string name="touch_call_mute_only_call_state_ringing_title">Alleen als je een inkomende oproep hebt</string>
+    <string name="touch_call_mute_title">Oproep dempen</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Alleen bij inkomende oproep</string>
     <string name="touch_call_mute_recognition_title">Bij inkomende oproep</string>
 
     <string name="call_contact_edit_contact">Contact</string>
     <string name="call_contact_edit_name">Naam</string>
     <string name="call_contact_edit_phone_number">Telefoonnummer</string>
 
-    <string name="call_contact_edit_setting_name_order">Naam volgorde</string>
+    <string name="call_contact_edit_setting_name_order">Volgorde van naam</string>
     <string name="call_contact_edit_setting_default">@string/default_</string>
     <string name="call_contact_edit_setting_first_name">Voornaam</string>
     <string name="call_contact_edit_setting_last_name">Achternaam</string>
@@ -341,318 +335,315 @@
     <string name="message_call_contacts_free_counter">Tot %1$d contacten kunnen worden gebruikt in de gratis modus</string>
     <string name="message_call_contacts_max_counter">Tot %1$d contacten kunnen worden gebruikt</string>
 
-    <!-- Activity -->
-    <string name="step_details">Details Activiteiten</string>
+    <!-- App chooser dialog -->
+    <string name="app_chooser">Appkiezer</string>
+    <string name="action_search">Zoeken</string>
+    <string name="action_filter_notification">Meldingsfilter</string>
 
-    <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
-    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
-    <string name="mi_band_tracker_distance_kilometer_title">%,.2f km</string> <!-- kilometre -->
-    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
-    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
+    <!-- Activity -->
+    <string name="step_details">Activiteitsdetails</string>
+
+    <string name="mi_band_tracker_step_title">%1$,d</string>
+    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string>
+    <string name="mi_band_tracker_distance_kilometer_title">%,.2f km</string>
+    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string>
+    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string>
 
     <string name="action_tracker_step">Stappen</string>
     <string name="action_tracker_distance">Afstand</string>
     <string name="action_tracker_calorie">Calorieën</string>
     <string name="action_tracker_duration">Trainingsduur</string>
 
-    <string name="step_goal_default_title">Standaard doel</string>
-
+    <string name="step_goal_default_title">Standaarddoel</string>
 
     <!-- Sleep monitoring -->
-    <string name="sleep_details">Slaap details</string>
+    <string name="sleep_details">Slaapgegevens</string>
 
-    <string name="sleep_awake">Wakker</string>
-    <string name="sleep_light">Licht</string>
-    <string name="sleep_deep">Diep</string>
-    <string name="sleep_rem">REM</string>
-
+    <string name="sleep_awake_phase_short">Wakker</string>
+    <string name="sleep_light_phase_short">Licht</string>
+    <string name="sleep_deep_phase_short">Diep</string>
+    <string name="sleep_rem_phase_short">REM</string>
 
     <!-- Heart rate -->
-    <string name="heart_rate_details">Hartslag details</string>
+    <string name="heart_rate_details">Hartslaggegevens</string>
 
-    <string name="heart_rate_continuous_measurement_title">Continue hartslagmeeting</string>
+    <string name="heart_rate_continuous_measurement_title">Continue hartslagmeting</string>
 
     <string name="heart_rate_alert_title">Hartslagwaarschuwing</string>
     <string name="heart_rate_thresholds">Hartslagdrempels</string>
     <string name="low_heart_rate">Lage hartslag</string>
     <string name="high_heart_rate">Hoge hartslag</string>
 
-
     <!-- Blood oxygen -->
-    <string name="blood_oxygen_details">Bloed zuurstof details</string>
+    <string name="blood_oxygen_details">Bloedzuurstofgegevens</string>
 
-    <string name="blood_oxygen_level_measurement">Blood oxygen level measurement</string>
-    <string name="measurement_interval">Measurement interval</string>
-
+    <string name="blood_oxygen_level_measurement">Bloedzuurstofmeting</string>
+    <string name="measurement_interval">Meetinterval</string>
 
     <!-- Blood pressure -->
     <string name="blood_pressure_details">Bloeddrukgegevens</string>
 
-    <string name="blood_pressure_level_measurement">Blood pressure level measurement</string>
+    <string name="blood_pressure_level_measurement">Bloeddrukmeting</string>
 
     <string name="blood_pressure_systolic_abbreviation">Sys</string>
     <string name="blood_pressure_diastolic_abbreviation">Dia</string>
     <string name="blood_pressure_unit">mmHg</string>
 
-
     <!-- Workout -->
-    <string name="workout_details">Trainingsdetails</string>
+    <string name="workout_details">Trainingsgegevens</string>
 
 
     <!-- Alarm -->
-    <string name="action_time_alarm_sort_state_asc">State ascending</string>
-    <string name="action_time_alarm_sort_watch_asc">Watch ascending</string>
-    <string name="action_time_alarm_sort_name_asc">Name ascending</string>
+    <string name="action_time_alarm_sort_state_asc">Status oplopend</string>
+    <string name="action_time_alarm_sort_watch_asc">Horloge oplopend</string>
+    <string name="action_time_alarm_sort_name_asc">Naam oplopend</string>
 
-    <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Haylou Smart Watch ... -->
+    <string name="message_time_alarm_sync">%1$s alarmen synchroniseren (dit verwijdert bestaande alarmen en stelt nieuwe in op je smartwatch)</string>
 
     <string name="info_dialog_alarm"><![CDATA[
-        <p>When using cooperation mode, the settings of the official application and the <app_name/> application can overwrite and delete each other\'s settings.</p>
-        The last operation performed will take effect.
+    <p>Wanneer je de samenwerkingsmodus gebruikt, kunnen de instellingen van de officiële app en van <app_name/> elkaar overschrijven en verwijderen.</p>
+    De laatst uitgevoerde actie is van kracht.
     ]]></string>
-
 
     <!-- Reminder -->
     <string name="message_reminder_enabled">Herinnering ingeschakeld</string>
     <string name="message_reminder_disabled">Herinnering uitgeschakeld</string>
 
-    <string name="reminder_repeat">Uurlijkse herhaling</string>
+    <string name="reminder_repeat">Elk uur herhalen</string>
     <string name="reminder_notification_on_phone">Melding op de telefoon</string>
 
-    <string name="message_time_reminder_free_counter">Tot 1 herinnering kan worden gebruikt in de gratis modus</string>
+    <string name="message_time_reminder_free_counter">Slechts 1 herinnering kan worden gebruikt in de gratis modus</string>
 
     <string name="info_dialog_reminder"><![CDATA[
-        Bluetooth verbinding is vereist om de herinnering weer te geven.
-        ]]>
-    </string>
-
+    Een Bluetooth-verbinding is vereist om de herinnering weer te geven.
+    ]]></string>
 
     <!-- Do not disturb -->
-    <string name="pref_dnd_summary">Controle instellingen tijdens Niet Storen modus</string>
-    <string name="pref_dnd_enable_bluetooth">Aan het begin van de NS modus Bluetooth uitschakelen, bij einde Bluetooth inschakelen</string>
+    <string name="pref_dnd_summary">Status van besturingselementen in Niet storen-modus</string>
+    <string name="pref_dnd_enable_bluetooth">Bluetooth uitschakelen bij start van Niet storen, en weer inschakelen aan het einde</string>
 
     <string name="info_dialog_dnd"><![CDATA[
-        If you are using cooperation mode, in the official <device_type/> application the do not disturb (DnD) mode must be between 00:00 and 23:59 and its status must be turned off.
-    ]]></string> <!-- %1$s Haylou fit-->
+    Als je de samenwerkingsmodus gebruikt, moet in de officiële <device_type/> app de Niet storen (DnD) tijd worden ingesteld van 00:00 tot 23:59 en de status moet uitgeschakeld zijn.
+    ]]></string>
 
 
     <!-- Watch face -->
-    <string name="watch_face_tab_watch_faces">Klokscherm</string>
-    <string name="watch_face_tab_watch_face_custom">Custom files</string>
+    <string name="watch_face_tab_watch_faces">Wijzerplaten</string>
+    <string name="watch_face_tab_watch_face_custom">Aangepaste bestanden</string>
     <string name="watch_face_tab_watch_face_editor">Editor</string>
 
-    <string name="watch_face_download_title">Download watch face</string>
-    <string name="watch_face_upload_title">Klokthema\'s</string>
-    <string name="watch_face_tool_title">Tools</string>
+    <string name="watch_face_download_title">Wijzerplaat downloaden</string>
+    <string name="watch_face_upload_title">Wijzerplaat uploaden</string>
+    <string name="watch_face_tool_title">Hulpmiddelen</string>
 
-    <string name="watch_face_share_content">You can share the watch face you have created with others. E-mail the watch face and preview files and enter the following information: author, watch face name (max. 30 characters in total) and the watch face language. We only publish high quality watch faces.</string>
+    <string name="watch_face_share_content">Je kunt de door jou gemaakte wijzerplaat delen met anderen. Stuur de wijzerplaat- en voorbeeldbestanden via e-mail en vermeld de volgende gegevens: naam van de auteur, naam van de wijzerplaat (max. 30 tekens) en de taal. Alleen wijzerplaten van hoge kwaliteit worden gepubliceerd.</string>
 
-    <string name="watch_face_upload_prepare">Preparing for the upload…</string>
-    <string name="watch_face_upload_progress">Uploading %1$,d%%</string>
+    <string name="watch_face_upload_prepare">Voorbereiden op uploaden…</string>
+    <string name="watch_face_upload_progress">Uploaden %1$,d%%</string>
 
-    <string name="watch_face_invalid_firmware">Firmware %1$s is onbekend of ondersteunt het uploaden van wijzerplaten niet. Werk de firmware bij met de officiële app. Als de officiële app het uploaden van wijzerplaten ondersteunt, laat het ons dan weten via het Feedback-menu.</string>
-    <string name="watch_face_invalid_auth">Use in standalone mode, when using cooperation mode, the official application may block the watch face upload</string>
-    <string name="watch_face_invalid_free">In de gratis modus kunnen vandaag geen extra wijzerplaten worden geüpload</string>
+    <string name="watch_face_invalid_firmware">Firmware %1$s is onbekend of ondersteunt geen wijzerplaat-upload. Werk de firmware bij via de officiële app. Als de officiële app het uploaden van wijzerplaten ondersteunt, laat het ons weten via het menu Feedback.</string>
+    <string name="watch_face_invalid_auth">Gebruik deze functie in de zelfstandige modus. Bij gebruik van samenwerkingsmodus kan de officiële app het uploaden blokkeren.</string>
+    <string name="watch_face_invalid_free">Je kunt vandaag geen extra wijzerplaten uploaden in de gratis modus</string>
     <string name="watch_face_watch_rewarded_ads">Bekijk een video om door te gaan</string>
     <string name="watch_face_watch_rewarded_ads_uploading">Bekijk een video om het uploaden voort te zetten</string>
-    <string name="watch_face_watch_rewarded_ads_countdown">Video start…</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">Video wordt gestart…</string>
 
-    <string name="watch_face_upload_method_title">Method</string>
+    <string name="watch_face_upload_method_title">Methode</string>
     <string name="watch_face_upload_method_default">@string/default_</string>
-    <string name="watch_face_upload_method_alternative">Alternative</string>
+    <string name="watch_face_upload_method_alternative">Alternatief</string>
 
     <string name="watch_face_upload_speed_title">Uploadsnelheid</string>
-    <string name="watch_face_upload_invalid_speed_hint">Stel een lagere snelheid in als het uploadproces van de wijzerplaat wordt onderbroken</string>
-    <string name="watch_face_upload_invalid_size_hint">Ongeldige bestandsgrootte van de wijzerplaat — stel een lagere kwaliteit in of verwijder items van de wijzerplaat</string>
-    <string name="watch_face_upload_invalid_battery_hint">De batterij van de smartwatch is bijna leeg, laad de horloge op</string>
+    <string name="watch_face_upload_invalid_speed_hint">Stel een lagere uploadsnelheid in als het uploaden van de wijzerplaat wordt onderbroken</string>
+    <string name="watch_face_upload_invalid_size_hint">Ongeldige bestandsgrootte. Stel een lagere kwaliteit in of verwijder elementen van de wijzerplaat</string>
+    <string name="watch_face_upload_invalid_battery_hint">De batterij van het horloge is bijna leeg. Laad het horloge op</string>
 
-    <string name="watch_face_tbwf_quality_title">.tbwf wijzerplaat kwaliteitsinstelling</string>
-    <string name="watch_face_tbwf_quality_hint">De bestandsgrootte kan worden verkleind als het horloge dit toestaat</string>
+    <string name="watch_face_tbwf_quality_title">.tbwf-kwaliteitsinstelling</string>
+    <string name="watch_face_tbwf_quality_hint">De bestandsgrootte kan worden verkleind als het horloge dit ondersteunt</string>
 
-    <string name="watch_face_tbwf_locale_title">.tbwf wijzerplaat taal- en landinstelling</string>
-    <string name="watch_face_tbwf_locale_hint">Dag van de week, maand scheidingsteken en decimaal scheidingsteken</string>
+    <string name="watch_face_tbwf_locale_title">.tbwf-taal- en regiovoorkeuren</string>
+    <string name="watch_face_tbwf_locale_hint">Dagen van de week, maandseparator en decimaalteken</string>
 
-    <string name="message_watch_face_file_invalid">Invalid watch face file</string>
+    <string name="message_watch_face_file_invalid">Ongeldig wijzerplaatbestand</string>
     <string name="message_watch_face_file_invalid_size">Ongeldige bestandsgrootte van de wijzerplaat</string>
-    <string name="message_watch_face_file_invalid_battery">De batterij van de smartwatch is bijna leeg</string>
+    <string name="message_watch_face_file_invalid_battery">De batterij van het horloge is bijna leeg</string>
     <string name="message_watch_face_image_file_error">Ongeldig afbeeldingsbestand</string>
     <string name="message_watch_face_font_file_error">Ongeldig lettertypebestand</string>
 
-    <string name="action_chart_layout_2_columns">2-kolomsindeling</string>
-    <string name="action_chart_layout_3_columns">3-kolomsindeling</string>
+    <string name="action_chart_layout_2_columns">Indeling met 2 kolommen</string>
+    <string name="action_chart_layout_3_columns">Indeling met 3 kolommen</string>
 
     <string name="watch_face_edit_dial">Wijzerplaat</string>
     <string name="watch_face_edit_preview">Voorbeeld</string>
     <string name="watch_face_edit_hour_digital">Uur</string>
     <string name="watch_face_edit_minute_digital">Minuut</string>
-    <string name="watch_face_edit_second_digital">Tweede</string>
-    <string name="watch_face_edit_am_pm">AM/PM indicator</string>
+    <string name="watch_face_edit_second_digital">Seconde</string>
+    <string name="watch_face_edit_am_pm">AM/PM-indicator</string>
     <string name="watch_face_edit_am">AM</string>
     <string name="watch_face_edit_pm">PM</string>
     <string name="watch_face_edit_hour_analog">Uurwijzer</string>
     <string name="watch_face_edit_minute_analog">Minutenwijzer</string>
     <string name="watch_face_edit_second_analog">Secondenwijzer</string>
-    <string name="watch_face_edit_axis">Axis of rotation</string>
-    <string name="watch_face_edit_hour_minute_separator">Uren en minuten separator</string>
+    <string name="watch_face_edit_axis">Rotatieas</string>
+    <string name="watch_face_edit_hour_minute_separator">Scheidingsteken tussen uur en minuut</string>
     <string name="watch_face_edit_year">Jaar</string>
-    <string name="watch_face_edit_year_month_separator">Jaar en maand separator</string>
+    <string name="watch_face_edit_year_month_separator">Scheidingsteken tussen jaar en maand</string>
     <string name="watch_face_edit_month">Maand</string>
     <string name="watch_face_edit_month_name">Maandnaam</string>
-    <string name="watch_face_edit_month_day_separator">Maand en dag scheidingsteken</string>
+    <string name="watch_face_edit_month_day_separator">Scheidingsteken tussen maand en dag</string>
     <string name="watch_face_edit_day">Dag</string>
-    <string name="watch_face_edit_dayOfWeek">De dag van de week</string>
-    <string name="watch_face_edit_battery_level">Batterij niveau</string>
-    <string name="watch_face_edit_battery_level_percent_sign">Batterij niveau %</string>
-    <string name="watch_face_edit_battery_level_image">Batterij afbeelding</string>
+    <string name="watch_face_edit_dayOfWeek">Dag van de week</string>
+    <string name="watch_face_edit_battery_level">Batterijniveau</string>
+    <string name="watch_face_edit_battery_level_percent_sign">Batterijniveau %</string>
+    <string name="watch_face_edit_battery_level_image">Batterij-afbeelding</string>
     <string name="watch_face_edit_weather_temperature">Temperatuur</string>
     <string name="watch_face_edit_weather_temperature_unit_sign">Temperatuureenheid °</string>
     <string name="watch_face_edit_weather_image">Weerafbeelding</string>
-    <string name="watch_face_edit_connection_indicator_image">Verbindingsindicator afbeelding</string>
+    <string name="watch_face_edit_connection_indicator_image">Verbindingsindicator-afbeelding</string>
     <string name="watch_face_edit_connected">Verbonden</string>
     <string name="watch_face_edit_disconnected">Niet verbonden</string>
     <string name="watch_face_edit_steps">Stappen</string>
-    <string name="watch_face_edit_steps_image">Stappen afbeelding</string>
+    <string name="watch_face_edit_steps_image">Stappenafbeelding</string>
     <string name="watch_face_edit_steps_goal_progress">Voortgang stappendoel</string>
     <string name="watch_face_edit_distance">Afstand</string>
-    <string name="watch_face_edit_distance_image">Afstand afbeelding</string>
+    <string name="watch_face_edit_distance_image">Afstandafbeelding</string>
     <string name="watch_face_edit_calories">Calorieën</string>
-    <string name="watch_face_edit_calories_image">Calorie afbeelding</string>
+    <string name="watch_face_edit_calories_image">Calorieafbeelding</string>
     <string name="watch_face_edit_heart_rate">Hartslag</string>
-    <string name="watch_face_edit_heart_rate_image">Hartslag afbeelding</string>
+    <string name="watch_face_edit_heart_rate_image">Hartslagafbeelding</string>
 
     <string name="watch_face_edit_color">Kleur</string>
-    <string name="watch_face_edit_font_family">Doopvont</string>
-    <string name="watch_face_edit_font_size">Lettertypegrootte</string>
-    <string name="watch_face_edit_character">Character</string>
+    <string name="watch_face_edit_font_family">Lettertype</string>
+    <string name="watch_face_edit_font_size">Lettergrootte</string>
+    <string name="watch_face_edit_character">Teken</string>
     <string name="watch_face_edit_image">Afbeelding</string>
     <string name="watch_face_edit_image_png_jpeg">Afbeelding (.png, .jpeg)</string>
     <string name="watch_face_edit_image_png">Afbeelding (.png)</string>
-    <string name="watch_face_edit_icon">Icon</string>
     <string name="watch_face_edit_image_size">Afbeeldingsgrootte</string>
+    <string name="watch_face_edit_icon">Pictogram</string>
 
-    <string name="watch_face_custom_watch_face_not_supported_title">Dit horloge ondersteunt geen aangepaste wijzerplaatuploads</string>
-    <string name="watch_face_custom_watch_face_under_development_title">De functie voor het uploaden van aangepaste wijzerplaten is momenteel in ontwikkeling en kan in de toekomst beschikbaar komen, maar dit is nog niet bevestigd.</string>
+    <string name="watch_face_custom_watch_face_not_supported_title">Dit horloge ondersteunt geen aangepaste wijzerplaten</string>
+    <string name="watch_face_custom_watch_face_under_development_title">De mogelijkheid om aangepaste wijzerplaten te uploaden is nog in ontwikkeling en kan in de toekomst beschikbaar komen, maar dit is nog niet bevestigd.</string>
 
     <!-- Touch monitoring -->
-    <string name="touch_tab_function">Function</string>
-    <string name="touch_tab_control">Beheren</string>
+    <string name="touch_tab_function">Functie</string>
+    <string name="touch_tab_control">Bediening</string>
     <string name="touch_tab_testing">Testen</string>
     <string name="touch_tab_setting">@string/setting_name</string>
 
-    <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
-    <string name="touch_function">%1$s function</string> <!-- %1$s = Watch name -->
-    <string name="touch_function_as_touch">Use function as a touch in the control menu</string>
+    <string name="touch_function_summary">Stel deze functies in als je de zelfstandige modus gebruikt of als Mi Fit deze niet correct beheert</string>
+    <string name="touch_function">%1$s-functie</string>
+    <string name="touch_function_as_touch">Gebruik de functie als aanraking in het bedieningsmenu</string>
 
-    <string name="touch_headline_incoming_call_title">Incoming call</string>
-    <string name="touch_headline_other_function_title">Other functions</string>
-    <string name="touch_headline_call_title">Bellen beheren</string>
-    <string name="touch_headline_music_title">Muziek beheren</string>
-    <string name="touch_headline_time_title">Timer/stopwatch beheren</string>
-    <string name="touch_headline_other_title">Anders beheer</string>
+    <string name="touch_headline_incoming_call_title">Inkomende oproep</string>
+    <string name="touch_headline_other_function_title">Overige functies</string>
+    <string name="touch_headline_call_title">Oproepbediening</string>
+    <string name="touch_headline_music_title">Muziekbediening</string>
+    <string name="touch_headline_time_title">Timer/stopwatch bediening</string>
+    <string name="touch_headline_other_title">Overige bediening</string>
 
-    <string name="touch_device_location_title">vind mijn telefoon</string>
-    <string name="touch_device_location_not_muted_only_title">Alleen geluid als het niet is gedempt of in NS mode</string>
+    <string name="touch_device_location_title">Telefoon zoeken</string>
+    <string name="touch_device_location_not_muted_only_title">Alleen geluid als niet gedempt of in Niet storen-modus</string>
 
-    <string name="touch_mute_toggle_title">Oproep dempenregeling</string>
-    <string name="touch_mute_toggle_ringer_mode_title">Mute mode</string>
-    <string name="touch_mute_toggle_mute_off_title">Mute off</string>
+    <string name="touch_mute_toggle_title">Telefoon dempen in-/uitschakelen</string>
+    <string name="touch_mute_toggle_ringer_mode_title">Dempmode</string>
+    <string name="touch_mute_toggle_mute_off_title">Dempen uit</string>
 
     <string name="touch_music_title">Muziek</string>
-    <string name="touch_music_function_launch">Start music with the play button if no music player is recognized</string>
-    <string name="touch_music_function_mi_band_message_launch">Start music with the play button</string>
-    <string name="touch_music_function_mi_band_message_no_track_title">Can\'t get the song name</string>
+    <string name="touch_music_function_launch">Start muziek met de afspeelknop als er geen muziekspeler is herkend</string>
+    <string name="touch_music_function_mi_band_message_launch">Start muziek met de afspeelknop</string>
+    <string name="touch_music_function_mi_band_message_no_track_title">Kan de naam van het nummer niet ophalen</string>
 
-    <string name="touch_call_out_title">Oproepen</string>
-    <string name="touch_call_out_no_contact">Een contact kiezen</string>
-    <string name="touch_call_out_summary">Druk tweemaal om de oproep te beantwoorden</string>
-    <string name="touch_call_out_summary_support_call_display_button">Druk knop om de oproep te beantwoorden</string>
-    <string name="touch_call_out_speakerphone_title">Telefoon luidspreker</string>
-    <string name="touch_call_out_call_text">Oproepen: %1$s</string>
+    <string name="touch_call_out_title">Oproep starten</string>
+    <string name="touch_call_out_no_contact">Selecteer een contactpersoon</string>
+    <string name="touch_call_out_summary">Dubbel tikken om de oproep te beantwoorden</string>
+    <string name="touch_call_out_summary_support_call_display_button">Druk op de knop om de oproep te beantwoorden</string>
+    <string name="touch_call_out_speakerphone_title">Luidspreker</string>
+    <string name="touch_call_out_call_text">Oproep starten: %1$s</string>
 
-    <string name="touch_weather_title">Weersverwachting</string>
-    <string name="touch_weather_location">Locatie</string>
+    <string name="touch_weather_title">Weersvoorspelling</string>
+    <string name="touch_weather_location">Locatie-update</string>
     <string name="touch_weather_precipitation">Neerslag</string>
     <string name="touch_weather_cloud_cover">Bewolking</string>
     <string name="touch_weather_wind">Wind</string>
 
-    <string name="touch_repeat_notif_title">Herhalings meldingen</string>
+    <string name="touch_repeat_notif_title">Meldingen herhalen</string>
     <string name="touch_repeat_notif_clear_all">Wis alle meldingen na herhaling</string>
 
-    <string name="touch_clear_notif_title">Meldingen van telefoon wissen</string>
+    <string name="touch_clear_notif_title">Meldingen van telefoon verwijderen</string>
 
-    <string name="touch_music_play_pause_title">Muziek start, afspelen, pauze</string>
-    <string name="touch_music_skip_previous_title">Muziek start, vorig nummer</string>
-    <string name="touch_music_skip_next_title">Muziek start, volgend nummer</string>
+    <string name="touch_music_play_pause_title">Muziek starten, afspelen, pauzeren</string>
+    <string name="touch_music_skip_previous_title">Muziek starten, vorig nummer</string>
+    <string name="touch_music_skip_next_title">Muziek starten, volgend nummer</string>
     <string name="touch_music_headset_only_title">Alleen als de hoofdtelefoon is aangesloten</string>
-    <string name="touch_music_launch">Start muziek</string>
-    <string name="touch_music_volume_up_title">Muziek volume ophoog</string>
-    <string name="touch_music_volume_down_title">Muziek volume omlaag</string>
-    <string name="touch_music_track_info_title">Toon muziek nummer info.</string>
+    <string name="touch_music_launch">Muziek starten</string>
+    <string name="touch_music_volume_up_title">Muziek harder zetten</string>
+    <string name="touch_music_volume_down_title">Muziek zachter zetten</string>
+    <string name="touch_music_track_info_title">Toon informatie over het nummer</string>
 
-    <string name="touch_time_launch_title">Start tijd controle</string>
+    <string name="touch_time_launch_title">Tijdregistratie starten</string>
     <string name="touch_time_launch_type_timer_title">Timer</string>
     <string name="touch_time_launch_type_stopper_title">Stopwatch</string>
     <string name="touch_time_launch_type_interval_title">Interval</string>
-    <string name="touch_time_launch_restart">Herstart indien in gebruik</string>
-    <string name="touch_time_reminder_title">Resterende/verstreken tijd weergeven</string>
+    <string name="touch_time_launch_restart">Opnieuw starten indien actief</string>
+    <string name="touch_time_reminder_title">Toon resterende/verstreken tijd</string>
 
-    <string name="touch_google_assistant_title">Google Assistant</string>
+    <string name="touch_google_assistant_title">Google Assistent</string>
 
-    <string name="touch_flashlight_title">Flashlight toggle</string>
+    <string name="touch_flashlight_title">Zaklamp in-/uitschakelen</string>
 
-    <string name="touch_camera_title">Maak foto</string>
-    <string name="touch_camera_front_title">Voorzijde</string>
-    <string name="touch_camera_rear_title">Achterzijde</string>
+    <string name="touch_camera_title">Foto maken</string>
+    <string name="touch_camera_front_title">Voorcamera</string>
+    <string name="touch_camera_rear_title">Achtercamera</string>
     <string name="touch_camera_install_title">Installeren</string>
 
-    <string name="touch_app_launcher1_title">App starter</string>
+    <string name="touch_app_launcher1_title">App-starter</string>
     <string name="touch_app_launcher_package_no_title">Selecteer een app</string>
     <string name="touch_app_launcher1_not_wakelock_only_title">Alleen als het scherm niet is vergrendeld</string>
 
-    <string name="touch_broadcast1_title">Send Broadcast</string>
-    <string name="touch_broadcast1_action_title">Intent action</string>
-    <string name="touch_broadcast1_package_title">Intent package name</string>
+    <string name="touch_broadcast1_title">Broadcast verzenden</string>
+    <string name="touch_broadcast1_action_title">Intent-actie</string>
+    <string name="touch_broadcast1_package_title">Intent-pakketnaam</string>
 
-    <string name="touch_http_request1_title">1. HTTP request</string>
-    <string name="touch_http_request2_title">2. HTTP request</string>
+    <string name="touch_http_request1_title">1. HTTP-verzoek</string>
+    <string name="touch_http_request2_title">2. HTTP-verzoek</string>
     <string name="touch_http_request_url_title">URL</string>
-    <string name="touch_http_request_method_title">Method</string>
-    <string name="touch_http_request_body_title">Body</string>
-    <string name="touch_http_request_show_response_title">Show the response</string>
+    <string name="touch_http_request_method_title">Methode</string>
+    <string name="touch_http_request_body_title">Inhoud</string>
+    <string name="touch_http_request_show_response_title">Toon de respons</string>
 
-    <string name="touch_tasker_launcher1_title">1. Taken taak starter</string>
-    <string name="touch_tasker_launcher2_title">2. Taken taak starter</string>
-    <string name="touch_tasker_launcher_no_permission_title">Taken direct instellen na Mi Bandage</string>
-    <string name="touch_tasker_launcher_no_access_title">Externe toegang toestaan</string>
+    <string name="touch_tasker_launcher1_title">1. Tasker-taakstarter</string>
+    <string name="touch_tasker_launcher2_title">2. Tasker-taakstarter</string>
+    <string name="touch_tasker_launcher_no_permission_title">Installeer eerst Tasker, daarna Mi Bandage</string>
+    <string name="touch_tasker_launcher_no_access_title">Sta externe toegang toe</string>
     <string name="touch_tasker_launcher_no_task_title">Selecteer een taak</string>
 
-    <string name="touch_testing_title">Aanraak beheer</string>
+    <string name="touch_testing_title">Aanraakbewaking</string>
     <string name="touch_testing_second">sec.</string>
 
-    <string name="touch_setting_detection_time_title">Touch detection time</string>
-    <string name="touch_setting_detection_time_music_hint">If it has a lower value, the music screen should be closed faster</string>
-    <string name="touch_setting_detection_time_button_hint">If it has a lower value, press the button faster</string>
+    <string name="touch_setting_detection_time_title">Tijd voor aanraakdetectie</string>
+    <string name="touch_setting_detection_time_music_hint">Bij een lagere waarde wordt het muziekscherm sneller gesloten</string>
+    <string name="touch_setting_detection_time_button_hint">Bij een lagere waarde moet de knop sneller worden ingedrukt</string>
 
-    <string name="touch_setting_detection_method_title">Aanraak detectie methode</string>
+    <string name="touch_setting_detection_method_title">Aanraakdetectiemethode</string>
 
-    <string name="touch_setting_recognition_start_title">Start de aanraakherkenning</string>
-    <string name="touch_setting_recognition_start_trigger_title">Oorzaak</string>
-    <string name="touch_setting_recognition_time_title">herkenningstijd</string>
+    <string name="touch_setting_recognition_start_title">Aanraakherkenning starten</string>
+    <string name="touch_setting_recognition_start_trigger_title">Trigger</string>
+    <string name="touch_setting_recognition_time_title">Herkenningstijd</string>
 
-    <string name="touch_setting_recognition_mi_band_signal_title">%1$s signaal</string> <!-- %1$s = Watch name -->
+    <string name="touch_setting_recognition_mi_band_signal_title">%1$s-signaal</string>
     <string name="touch_setting_recognition_succeeded_title">Herkenbaar aanraakpatroon</string>
-    <string name="touch_setting_recognition_failed_title">Niet Herkent aanraakpatroon</string>
+    <string name="touch_setting_recognition_failed_title">Niet-herkenbaar aanraakpatroon</string>
 
     <string name="info_dialog_touch"><![CDATA[
-        <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
-        <p><b>Phones Bluetooth settings:</b> <device_name/> disable input device</p>
-        <b><u>Recognised touches</u></b>
-        <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
-        <br><device_type/> music control
-        <p><img src="ic_search">
-        <br><device_type/> find my phone
-        </p>
-        Multiple touches can be recorded for each function.
+    <p>Werkt correct in zelfstandige modus. Bij gebruik van samenwerkingsmodus zal de officiële <app_official/> app deze functies ook beheren, waardoor correcte werking niet kan worden gegarandeerd.</p>
+    <p><b>Bluetooth-instellingen van de telefoon:</b> <device_name/> invoerapparaat uitschakelen</p>
+    <b><u>Herkenbare aanrakingen</u></b>
+    <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
+    <br><device_type/> muziekbediening
+    <p><img src="ic_search">
+    <br><device_type/> telefoon zoeken
+    </p>
+    Meerdere aanrakingen kunnen per functie worden geregistreerd.
     ]]></string>
 
 
@@ -670,73 +661,65 @@
     <string name="weather_unit_title">Eenheid</string>
     <string name="weather_unit_metric">Metrisch (Celsius)</string>
     <string name="weather_unit_imperial">Imperiaal (Fahrenheit)</string>
-    <string name="weather_automatic_update">Automatically update location in the background</string>
-    <string name="weather_automatic_update_title">Gebruik je locatie</string>
-    <string name="weather_automatic_update_summary">This application collects location data to update the weather for the current location, even when the app is closed or not in use.</string>
+    <string name="weather_automatic_update">Locatie automatisch bijwerken op de achtergrond</string>
+    <string name="weather_automatic_update_title">Huidige locatie gebruiken</string>
+    <string name="weather_automatic_update_summary">Deze app verzamelt locatiegegevens om het weer op je huidige locatie bij te werken, zelfs wanneer de app gesloten is of niet wordt gebruikt.</string>
 
-    <string name="permission_background_location">%1$s zal toestemming hebben om locatiegegevens te verzamelen, zelfs als de app is gesloten of niet in gebruik is</string>
-    <string name="permission_error_title">%1$s kan rechten niet bijwerken</string>
-    <string name="permission_error_description">Open Instellingen en selecteer de optie “%1$s“ voor locatiemachtigingen</string>
-    <string name="all_the_time">De hele tijd</string>
+    <string name="permission_background_location">%1$s krijgt toestemming om locatiegegevens te verzamelen, zelfs wanneer de app is gesloten of niet wordt gebruikt</string>
+    <string name="permission_error_title">%1$s kan de machtigingen niet bijwerken</string>
+    <string name="permission_error_description">Open Instellingen en selecteer de optie “%1$s” voor locatietoegang</string>
+    <string name="all_the_time">Altijd toestaan</string>
 
     <string name="weather_current_title">Huidig weer</string>
-    <string name="weather_current_location">Current location</string>
+    <string name="weather_current_location">Huidige locatie</string>
     <string name="weather_current_temperature">Huidige temperatuur</string>
 
     <string name="weather_precipitation_rain">Regen</string>
     <string name="weather_precipitation_snow">Sneeuw</string>
-    <string name="weather_cloud_cover_abbreviation">Cc</string>
-    <string name="weather_cloud_cover">Wolk</string>
-    <string name="weather_humidity">Vochtigheid</string>
+    <string name="weather_cloud_cover_abbreviation">Be</string>
+    <string name="weather_cloud_cover">Bewolking</string>
+    <string name="weather_humidity">Luchtvochtigheid</string>
 
     <string name="weather_north">N</string>
-    <string name="weather_east">E</string>
-    <string name="weather_south">S</string>
+    <string name="weather_east">O</string>
+    <string name="weather_south">Z</string>
     <string name="weather_west">W</string>
 
 
     <!-- Text customization -->
-    <string name="pref_text_reminder_repeat_interval_title">Herinnering interval herhaling</string>
-    <string name="pref_text_reminder_repeat_interval_summary">Notification/reminder alert function uses this timing</string>
+    <string name="pref_text_reminder_repeat_interval_title">Herinnering herhalingsinterval</string>
+    <string name="pref_text_reminder_repeat_interval_summary">De melding > herinneringsfunctie gebruikt dit tijdsinterval</string>
     <string name="pref_text_emoticon_title">Emoji-conversie</string>
-    <string name="pref_text_emoticon_summary_on">Converteer emoji naar emoticon</string>
+    <string name="pref_text_emoticon_summary_on">Emoji\'s omzetten naar emoticons</string>
     <string name="pref_text_uppercase_title">Hoofdletterconversie</string>
-    <string name="pref_text_uppercase_summary_on">Converteer kleine letters naar hoofdletters</string>
+    <string name="pref_text_uppercase_summary_on">Kleine letters omzetten naar hoofdletters</string>
     <string name="pref_text_alphanumeric_title">Alfanumerieke en ASCII-tekens</string>
     <string name="pref_text_alphanumeric_summary_on">Toon alleen alfanumerieke en ASCII-tekens</string>
     <string name="pref_text_transliteration_title">Transliteratie</string>
-    <string name="pref_text_transliteration_summary_on">Converteer geaccentueerde letters naar niet-geaccentueerde</string>
-    <string name="pref_text_line_separator_title">Regelafscheiding vervangen</string>
-    <string name="pref_text_line_separator_summary_on">Vervang de standaard regelafscheiding door andere tekens</string>
+    <string name="pref_text_transliteration_summary_on">Geaccentueerde letters omzetten naar niet-geaccentueerde</string>
+    <string name="pref_text_line_separator_title">Regelscheiding vervangen</string>
+    <string name="pref_text_line_separator_summary_on">Standaard regelscheiding vervangen door andere tekens</string>
     <string name="pref_text_line_separator_value_title">Vervangende tekens</string>
-    <string name="pref_text_char_replacement_title">Tekens en emoji vervangen</string>
+    <string name="pref_text_char_replacement_title">Teken- en emoji-vervanging</string>
     <string name="pref_text_char_replacement_summary_on">Vervang één teken door een ander</string>
-    <string name="pref_text_char_replacement_find">Zoeken</string>
+    <string name="pref_text_char_replacement_find">Zoek</string>
     <string name="pref_text_char_replacement_replace">Vervangen door</string>
-
-
-    <!-- App chooser dialog -->
-    <string name="app_chooser">App Kiezer</string>
-    <string name="action_search">Zoeken</string>
-    <string name="action_filter_notification">Meldings filter</string>
-
 
     <!-- Export -->
     <string name="export_tab_database">Gegevens exporteren</string>
     <string name="export_start_date">Begindatum export</string>
 
-
     <!-- Theme -->
     <string name="theme_tab_theme">Thema</string>
 
-    <string name="theme_title">Selecteer een thema</string>
-    <string name="theme_background_color_title">Achtergrond kleur</string>
+    <string name="theme_title">Kies een thema</string>
+    <string name="theme_background_color_title">Achtergrondkleur</string>
 
     <string name="theme_widget_background_color_title">Kleur</string>
     <string name="theme_color_dynamic_color_title">Dynamische kleur</string>
     <string name="theme_color_predefined_colors_title">Voorgedefinieerde kleuren</string>
 
-    <string name="theme_notification_title">Toon status in meldings balk</string>
+    <string name="theme_notification_title">Toon status in meldingen</string>
 
     <string name="theme_cat_color_setting">Kleurinstellingen</string>
 
@@ -780,13 +763,13 @@
     <string name="purchase_button_purchase">Kopen</string>
 
     <!-- Feedback -->
-    <string name="action_log_notification">Log</string>
+    <string name="action_log_notification">Logboek</string>
 
-    <string name="feedback_google_play_title">Beoordeel dezes app</string>
-    <string name="feedback_request_feature_title">Functie aanvulling, bugrapport</string>
-    <string name="feedback_request_feature_summary">Automatische e-mailverwerking, u krijgt mogelijk geen reactie</string>
-    <string name="feedback_translation_title">%1$s translation</string> <!-- %1$s = App name -->
-    <string name="feedback_translation_title_summary">Please help with the translation</string>
+    <string name="feedback_google_play_title">Beoordeel deze app</string>
+    <string name="feedback_request_feature_title">Functieaanvraag, bugmelding</string>
+    <string name="feedback_request_feature_summary">Automatische e-mailverwerking, mogelijk ontvangt u geen antwoord</string>
+    <string name="feedback_translation_title">%1$s vertaling</string> <!-- %1$s = App name -->
+    <string name="feedback_translation_title_summary">Help alstublieft met de vertaling</string>
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Privacybeleid</string>
@@ -858,28 +841,26 @@
 
 
     <!-- Custom vibration dialog -->
-    <string name="custom_vibration_title">Trilling instelling</string>
-
+    <string name="custom_vibration_title">Trilinstelling</string>
 
     <!-- Shortcuts -->
-    <string name="shortcut">Shortcut</string>
-    <string name="shortcut_visible_items">Shortcut items</string>
-    <string name="shortcut_hidden_items">Hidden shortcut items</string>
+    <string name="shortcut">Snelkoppeling</string>
+    <string name="shortcut_visible_items">Zichtbare snelkoppelingen</string>
+    <string name="shortcut_hidden_items">Verborgen snelkoppelingen</string>
 
     <string name="shortcut_status">Status</string>
     <string name="shortcut_heart_rate">Hartslag</string>
-    <string name="shortcut_blood_oxygen">Zuurstof in het bloed</string>
-    <string name="shortcut_sleep">Slapen</string>
-    <string name="shortcut_breathing">Breathing</string>
+    <string name="shortcut_blood_oxygen">Bloedzuurstof</string>
+    <string name="shortcut_sleep">Slaap</string>
+    <string name="shortcut_breathing">Ademhaling</string>
     <string name="shortcut_weather">Weer</string>
     <string name="shortcut_stress">Stress</string>
 
-
-    <!-- Others -->
-    <string name="tab_daily_charts">Dag tabel</string>
-    <string name="tab_weekly_charts">Week tabel</string>
-    <string name="tab_monthly_charts">Maand tabel</string>
-    <string name="tab_yearly_charts">Jaarlijkse tabel</string>
+    <!-- Actions -->
+    <string name="tab_daily_charts">Dagelijkse grafiek</string>
+    <string name="tab_weekly_charts">Wekelijkse grafiek</string>
+    <string name="tab_monthly_charts">Maandelijkse grafiek</string>
+    <string name="tab_yearly_charts">Jaarlijkse grafiek</string>
 
     <string name="ad_attribution">Advertentie</string>
     <string name="on">Aan</string>
@@ -889,51 +870,51 @@
     <string name="heart_rate_mhr">MHR</string>
     <string name="date">Datum</string>
     <string name="time">Tijd</string>
-    <string name="time_start">Start tijd</string>
-    <string name="time_end">Eind tijd</string>
+    <string name="time_start">Starttijd</string>
+    <string name="time_end">Eindtijd</string>
     <string name="ringer_mode_vibrate">Trillen</string>
-    <string name="ringer_mode_silent">Dempen</string>
-    <string name="ringer_mode_dnd_priority_only">Niet Storen (alleen prioriteit)</string>
-    <string name="ringer_mode_dnd_alarms_only">Niet Storen (alleen meldingen)</string>
-    <string name="ringer_mode_dnd_total_silence">Niet Storen (totale stilte)</string>
+    <string name="ringer_mode_silent">Stil</string>
+    <string name="ringer_mode_dnd_priority_only">Niet storen (alleen prioriteit)</string>
+    <string name="ringer_mode_dnd_alarms_only">Niet storen (alleen alarmen)</string>
+    <string name="ringer_mode_dnd_total_silence">Niet storen (volledige stilte)</string>
     <string name="unknown">Onbekend</string>
     <string name="maximum">Maximaal</string>
-    <string name="all_day">Hele-dag</string>
-    <string name="timed">Timed</string>
+    <string name="all_day">Hele dag</string>
+    <string name="timed">Getimed</string>
     <string name="file_name">Bestandsnaam</string>
     <string name="default_">Standaard</string>
-    <string name="default_by_phone">Standaard (by phone)</string>
-    <string name="custom">Custom</string>
-    <string name="invalid_setting">Invalid setting</string>
-    <string name="ringtone">Beltone</string>
-    <string name="ringtone_chooser">Ringtone chooser</string>
-    <string name="uninstalled">Uninstalled</string>
+    <string name="default_by_phone">Standaard (via telefoon)</string>
+    <string name="custom">Aangepast</string>
+    <string name="invalid_setting">Ongeldige instelling</string>
+    <string name="ringtone">Beltoon</string>
+    <string name="ringtone_chooser">Beltoonkiezer</string>
+    <string name="uninstalled">Verwijderd</string>
     <string name="value">Waarde</string>
     <string name="downloads">Downloads</string>
     <string name="share">Delen</string>
     <string name="send">Verzenden</string>
-    <string name="narrow">Smals</string>
+    <string name="narrow">Smal</string>
     <string name="short_">Kort</string>
     <string name="medium">Gemiddeld</string>
     <string name="long_">Lang</string>
     <string name="full">Volledig</string>
     <string name="alignment_left">Uitlijning links</string>
-    <string name="alignment_center">Uitlijning om te centreren</string>
-    <string name="alignment_right">Uitlijning</string>
+    <string name="alignment_center">Uitlijning midden</string>
+    <string name="alignment_right">Uitlijning rechts</string>
     <string name="visible">Zichtbaar</string>
     <string name="invisible">Onzichtbaar</string>
-    <string name="placeholder">Placeholder</string>
-    <string name="image_scale_fit">Fit</string>
-    <string name="image_scale_crop">Crop</string>
-    <string name="image_scale_stretch">Stretch</string>
-    <string name="resource_manager">Resource manager</string>
+    <string name="placeholder">Plaatshouder</string>
+    <string name="image_scale_fit">Passend</string>
+    <string name="image_scale_crop">Bijsnijden</string>
+    <string name="image_scale_stretch">Uitrekken</string>
+    <string name="resource_manager">Bronbeheer</string>
 
-    <string name="action_premium_mode">Premium mode</string>
-    <string name="action_dismiss">Afwijzen</string>
-    <string name="action_setting">Instellingen</string>
-    <string name="action_delete">Verwijder</string>
+    <string name="action_premium_mode">Premiummodus</string>
+    <string name="action_dismiss">Sluiten</string>
+    <string name="action_setting">Instelling</string>
+    <string name="action_delete">Verwijderen</string>
     <string name="action_rename">Hernoemen</string>
-    <string name="action_export">Export</string>
+    <string name="action_export">Exporteren</string>
     <string name="action_synchronization">Synchronisatie</string>
     <string name="action_download">Downloaden</string>
     <string name="action_upload">Uploaden</string>
@@ -941,55 +922,55 @@
     <string name="action_restore">Herstellen</string>
     <string name="action_filter_no">Geen filter</string>
     <string name="action_bluetooth">Bluetooth</string>
-    <string name="action_favorite">Favoriete</string>
-    <string name="action_save">Bewaar</string>
-    <string name="action_test">Test</string>
-    <string name="action_discard">Afwijzen</string>
-    <string name="action_keep_editing">Bewerking bewaren</string>
+    <string name="action_favorite">Favoriet</string>
+    <string name="action_save">Opslaan</string>
+    <string name="action_test">Testen</string>
+    <string name="action_discard">Verwerpen</string>
+    <string name="action_keep_editing">Doorgaan met bewerken</string>
     <string name="action_new">Nieuw</string>
     <string name="action_new_file_extension">Nieuw %1$s</string>
-    <string name="action_edit">Bewerking</string>
+    <string name="action_edit">Bewerken</string>
     <string name="action_start_stop">Start/Stop</string>
     <string name="action_contacts">Contacten</string>
     <string name="action_single_selection">Enkele selectie</string>
-    <string name="action_multiple_selection">Meerdere selecties</string>
-    <string name="action_selection_boundaries">Selection boundaries</string>
-    <string name="action_object_boundaries">Object boundaries</string>
-    <string name="action_select">Selectie</string>
+    <string name="action_multiple_selection">Meervoudige selectie</string>
+    <string name="action_selection_boundaries">Selectiegrenzen</string>
+    <string name="action_object_boundaries">Objectgrenzen</string>
+    <string name="action_select">Selecteren</string>
     <string name="action_select_all">Alles selecteren</string>
     <string name="action_select_texts">Teksten selecteren</string>
     <string name="action_select_images">Afbeeldingen selecteren</string>
     <string name="action_deselect_all">Alles deselecteren</string>
-    <string name="synchronized_from_watch">Synchronized from watch</string>
-    <string name="synchronization_succeeded">Synchronisatie is gelukt</string>
+    <string name="synchronized_from_watch">Gesynchroniseerd vanaf horloge</string>
+    <string name="synchronization_succeeded">Synchronisatie geslaagd</string>
     <string name="synchronization_failed">Synchronisatie mislukt</string>
 
-    <string name="action_chart">Tabel</string>
-    <string name="action_zoom_in">Zoom</string>
+    <string name="action_chart">Grafiek</string>
+    <string name="action_zoom_in">Inzoomen</string>
     <string name="action_chart_normalize_raw_data">Gemeten waarden</string>
-    <string name="action_chart_normalize_quarter_hourly">Kwartier waarden</string>
-    <string name="action_chart_normalize_half_hourly">Halfuur waarden</string>
-    <string name="action_chart_normalize_hourly">Uur waarden</string>
+    <string name="action_chart_normalize_quarter_hourly">Kwartierwaarden</string>
+    <string name="action_chart_normalize_half_hourly">Halfuurwaarden</string>
+    <string name="action_chart_normalize_hourly">Uurwaarden</string>
     <string name="action_chart_sort_time_asc">Tijd oplopend</string>
     <string name="action_chart_sort_time_desc">Tijd aflopend</string>
     <string name="action_chart_sort_step_asc">Stappen oplopend</string>
     <string name="action_chart_sort_step_desc">Stappen aflopend</string>
-    <string name="action_chart_sort_duration_asc">Duration ascending</string>
-    <string name="action_chart_sort_duration_desc">Duration descending</string>
+    <string name="action_chart_sort_duration_asc">Duur oplopend</string>
+    <string name="action_chart_sort_duration_desc">Duur aflopend</string>
     <string name="action_chart_sort_heart_rate_asc">Hartslag oplopend</string>
     <string name="action_chart_sort_heart_rate_desc">Hartslag aflopend</string>
     <string name="action_chart_sort_spo2_asc">SpO2 oplopend</string>
     <string name="action_chart_sort_spo2_desc">SpO2 aflopend</string>
-    <string name="action_chart_sort_pressure_asc">Pressure ascending</string>
-    <string name="action_chart_sort_pressure_desc">Pressure descending</string>
-    <string name="action_chart_monthly_calendar">Calendar</string>
+    <string name="action_chart_sort_pressure_asc">Druk oplopend</string>
+    <string name="action_chart_sort_pressure_desc">Druk aflopend</string>
+    <string name="action_chart_monthly_calendar">Kalender</string>
     <string name="action_chart_monthly_compact">Compact</string>
 
     <string name="activity_progress_title_prepare">Voorbereiden op synchronisatie…</string>
-    <string name="activity_progress_title_sync">Data synchronisatie…</string>
-    <string name="activity_progress_title_save">Data opslaan…</string>
+    <string name="activity_progress_title_sync">Gegevens synchroniseren…</string>
+    <string name="activity_progress_title_save">Gegevens opslaan…</string>
 
-    <string name="required_value">Benodigd</string>
+    <string name="required_value">Vereist</string>
 
     <string name="percent_0">0%</string>
     <string name="percent_10">10%</string>
