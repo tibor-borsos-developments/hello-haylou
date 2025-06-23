@@ -67,7 +67,6 @@
     <string name="mi_band_setting_auth_standalone">Önálló működés</string>
     <string name="mi_band_setting_auth_standalone_hint">Nincs szükség a %1$s applikációra a működéshez. Párosítás után töröld a %1$s applikációt vagy szüntesd meg az okosóra párosítását. %1$s együttműködés visszaállításakor a %2$s újra párosítását el kell végezni a %1$s applikációban. Leválasztáskor az okosóra adatai törlődnek. %2$s képernyő legyen bekapcsolva a műveletek végrehajtása közben.</string>
     <string name="mi_band_standalone_sync_error">Az adatok szinkronizálása együttműködési módban nem lehetséges, mivel a szinkronizálás eredményeként az adatok törlődnek az okosóráról, és mindkét alkalmazásban helytelen adatok jelennének meg.</string>
-
     <string name="mi_band_setting_auth_key">Hitelesítési kulcs</string>
     <string name="mi_band_setting_auth_key_help">Adj meg egy tetszőleges 4 jegyű számot</string>
     <string name="mi_band_setting_auth_request">Kulcskérés</string>
@@ -637,8 +636,7 @@
     <string name="touch_testing_second">mp.</string>
 
     <string name="touch_setting_detection_time_title">Érintés érzékelési idő</string>
-    <string name="touch_setting_detection_time_music_hint">Ha alacsonyabb értéke van, akkor a zene képernyőt gyorsabban kell zárni</string>
-    <string name="touch_setting_detection_time_button_hint">Ha alacsonyabb értéke van, akkor a gombot gyorsabban kell nyomni</string>
+    <string name="touch_setting_detection_time_button_hint">Alacsonyabb érték esetén gyorsabban kell egymás után megérinteni a gombot a műveletekhez</string>
 
     <string name="touch_setting_detection_method_title">Érintés érzékelési módszer</string>
 
@@ -739,6 +737,14 @@
 
     <string name="theme_cat_color_setting">Színbeállítások</string>
 
+    <!-- Feedback -->
+    <string name="action_log_notification">Napló</string>
+
+    <string name="feedback_google_play_title">Alkalmazás értékelés</string>
+    <string name="feedback_request_feature_title">Funkció kérés, hiba bejelentés</string>
+    <string name="feedback_request_feature_summary">Automatikus e-mail feldolgozás, nem biztos, hogy fogsz választ kapni</string>
+    <string name="feedback_translation_title">%1$s fordítás</string> <!-- %1$s = App name -->
+    <string name="feedback_translation_title_summary">Kérlek segíts a fordításban</string>
 
     <!-- Premium mode -->
     <string name="purchase_advantage_title">Prémium mód előnyei</string>
@@ -773,19 +779,11 @@
     <string name="purchase_order_id">Tranzakcióazonosító</string>
     <string name="purchase_order_id_help">Megtalálható:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
-        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+        \n<a href="https://payments.google.com">https://payments.google.com</a>
+    </string>
 
     <string name="purchase_info">Egyszeri díj ・ %1$s</string> <!-- %1$s = price</string>-->
     <string name="purchase_button_purchase">Vásárlás</string>
-
-    <!-- Feedback -->
-    <string name="action_log_notification">Napló</string>
-
-    <string name="feedback_google_play_title">Alkalmazás értékelés</string>
-    <string name="feedback_request_feature_title">Funkció kérés, hiba bejelentés</string>
-    <string name="feedback_request_feature_summary">Automatikus e-mail feldolgozás, nem biztos, hogy fogsz választ kapni</string>
-    <string name="feedback_translation_title">%1$s fordítás</string> <!-- %1$s = App name -->
-    <string name="feedback_translation_title_summary">Kérlek segíts a fordításban</string>
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Adatvédelmi irányelvek</string>
@@ -848,7 +846,7 @@
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Státusz</string>
-    <string name="privacy_policy_eu_consent_title_obtained">Beleegyezés megadva</string>
+    <string name="privacy_policy_eu_consent_title_obtained">Hozzájárulás megadva</string>
     <string name="privacy_policy_eu_consent_title_personalized">Személyre szabott, releváns hirdetések</string>
     <string name="privacy_policy_eu_consent_title_non_personalized">Nem személyre szabott, kevésbé releváns hirdetések</string>
     <string name="privacy_policy_eu_consent_title_unknown">Nem ismert</string>
@@ -977,8 +975,8 @@
     <string name="action_chart_sort_heart_rate_desc">Pulzus csökkenő</string>
     <string name="action_chart_sort_spo2_asc">SpO2 növekvő</string>
     <string name="action_chart_sort_spo2_desc">SpO2 csökkenő</string>
-    <string name="action_chart_sort_pressure_asc">Nyomás növekvő</string>
-    <string name="action_chart_sort_pressure_desc">Nyomás csökkenő</string>
+    <string name="action_chart_sort_blood_pressure_asc">Vérnyomás növekvő</string>
+    <string name="action_chart_sort_blood_pressure_desc">Vérnyomás csökkenő</string>
     <string name="action_chart_monthly_calendar">Naptár</string>
     <string name="action_chart_monthly_compact">Kompakt</string>
 

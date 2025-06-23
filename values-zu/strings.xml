@@ -1,0 +1,1024 @@
+<?xml version="1.0"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="zu">
+
+    <!--  Navigation  -->
+    <string name="menu_nav_notification">Isaziso</string>
+    <string name="menu_nav_call">Ucingo</string>
+    <string name="menu_nav_step">Umsebenzi</string>
+    <string name="menu_nav_sleep">Ukulala</string>
+    <string name="menu_nav_heart_rate">Ijubane lenhliziyo</string>
+    <string name="menu_nav_blood_oxygen">I-oxygen egazini</string>
+    <string name="menu_nav_blood_pressure">Ingcindezi yegazi</string>
+    <string name="menu_nav_workout">Ukuqina komzimba</string>
+    <string name="menu_nav_alarm">I-alamu</string>
+    <string name="menu_nav_reminder">Isikhumbuzi</string>
+    <string name="menu_nav_dnd">Imodi yokungaphazanyiswa</string>
+    <string name="menu_nav_watch_face">Ubuso bewashi</string>
+    <string name="menu_nav_weather">Isimo sezulu</string>
+    <string name="menu_nav_touch">Ukulawula ngokuthinta</string>
+    <string name="menu_nav_more">Okuningi</string>
+    <string name="menu_nav_text_customization">Ukwenza umbhalo ngendlela oyifisayo</string>
+    <string name="menu_nav_export">Thumela ngaphandle</string>
+    <string name="menu_nav_premium_mode">Imodi ye-premium</string>
+    <string name="menu_nav_feedback">Impendulo</string>
+    <string name="menu_nav_privacy_policy">Inqubomgomo yobumfihlo</string>
+    <string name="menu_nav_theme">Itimu</string>
+
+    <string name="setting_name">Isilungiselelo</string>
+    <string name="settings_name">Izilungiselelo</string>
+    <string name="info_name">Ulwazi</string>
+    <string name="more_name">Okuningi</string>
+
+    <string name="main_item_activity_title">Izinyathelo・umgomo</string>
+    <string name="main_item_battery">Izinga lebhethri・isikhathi sokugcina sokushaja</string>
+    <string name="main_item_connect_and_disconnect_last_time">Ukuxhumeka kokugcina nokuhlukanisa</string>
+    <string name="main_item_next_alarm">I-alamu elandelayo</string>
+    <string name="main_item_next_reminder">Isikhumbuzi esilandelayo</string>
+    <string name="main_item_call_and_notification_control">Izicingo nezaziso</string>
+
+    <!-- Pairing Bluetooth device -->
+    <string name="device_search">%1$s usesho</string> <!-- %1$s = Watch name -->
+    <string name="device_setting">%1$s isilungiselelo</string> <!-- %1$s = Watch name -->
+
+    <string name="device_mac_address">Ikheli le-MAC</string>
+    <string name="device_mac_address_invalid">Ikheli le-MAC elingavumelekile</string>
+
+    <string name="device_state_connected">Kuxhunyiwe</string>
+    <string name="device_state_disconnected">Akuxhunyiwe</string>
+    <string name="device_state_bonded">Idivayisi exhunyiwe</string>
+    <string name="device_state_not_bonded">Idivayisi engaxhunyiwe</string>
+
+    <string name="error_title">Yho! Kukhona okungahambanga kahle</string>
+    <string name="error_message">Sicela uvuselele uhlelo lokusebenza lube lwakamuva</string>
+
+
+    <!-- Watch connection and setting -->
+    <string name="mi_band_setting_title">%1$s izilungiselelo</string>
+
+    <string name="mi_band_setting_menu_connection">Uxhumano</string>
+    <string name="mi_band_setting_menu_setting">@string/setting_name</string>
+    <string name="mi_band_setting_menu_profile">Iphrofayela</string>
+    <string name="mi_band_setting_menu_text">Umbhalo</string>
+    <string name="mi_band_setting_menu_call">Ucingo</string>
+
+    <string name="mi_band_setting_auth_mi_fit">%1$s ukubambisana</string> <!-- Haylou Fit-->
+    <string name="mi_band_setting_auth_mi_fit_hint">%3$s idinga ukuthi uhlelo lokusebenza %1$s lufakwe kule foni. Okokuqala, xhumanisa u-%2$s kuhlelo lokusebenza %1$s. Khetha le nketho uma ufuna ukusebenzisa uhlelo lokusebenza %1$s futhi.</string>
+    <string name="mi_band_setting_auth_standalone">Okuzimele</string>
+    <string name="mi_band_setting_auth_standalone_hint">Uhlelo lokusebenza %1$s aludingiwa ukuthi %3$s lusebenza. Ngemva kokuxhumanisa, ungakhipha uhlelo lokusebenza %1$s noma uhlukanise isongo. Ukubuyisela ukubambisana no-%1$s, kuzodingeka uxhumanise kabusha u-%2$s kuhlelo lokusebenza %1$s. Uma usebenzisa umsebenzi wokuhlukanisa, idatha esesongweni izosuswa. Qinisekisa ukuthi isikrini sika-%2$s sivuliwe ngesikhathi sokuxhumanisa.</string>
+    <string name="mi_band_standalone_sync_error">Ukuze kugwenywe ukulahleka kwedatha nokunemba kwedatha, ukuvumelanisa kukhutshaziwe ngemodi yokubambisana. Ukuvumelanisa kuzokususa idatha yesongo bese kuholela emiphumeleni engalungile kuzo zombili izinhlelo zokusebenza.</string>
+    <string name="mi_band_setting_auth_key">Ukhiye wokuqinisekisa</string>
+    <string name="mi_band_setting_auth_key_help">Faka noma yiliphi inombolo enamadijithi angu-4</string>
+    <string name="mi_band_setting_auth_request">Cela ukhiye</string>
+    <string name="mi_band_setting_auth_pair">Xhumanisa</string>
+    <string name="mi_band_setting_auth_unpair">Hlukanisa</string>
+
+    <string name="message_auth_request">Idivayisi yakho seyixhunyiwe. Uma ungawazi ukhiye, sicela uhlukanise kuqala.</string>
+
+    <string name="message_mi_band_setting_auth_press_band_button">Cindezela inkinobho ku-%1$s ukuze uxhumanise</string>
+    <string name="message_mi_band_setting_auth_success">%1$s uxhumaniswe ngempumelelo</string>
+    <string name="message_mi_band_setting_auth_fail">Yehlulekile ukuxhumanisa u-%1$s</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Ukhiye wokuqinisekisa awuvumelekile</string>
+
+    <string name="pref_disconnect_device">Hlukanisa</string>
+
+    <string name="mi_band_setting_connection_problem_title">Uma unenkinga yoxhumano</string>
+    <string name="mi_band_setting_connection_problem_hint"><![CDATA[
+    - Hlukanisa isongo kuzilungiselelo ze-Bluetooth zefoni yakho<br>
+    - Cisha i-Bluetooth bese uyivula futhi<br>
+    - Vala uhlelo lokusebenza ngokuphoqelela noma uqale kabusha ifoni<br>
+    - Zama futhi ukuxhumanisa isongo kusukela ekhasini eliyisiqalo
+    ]]></string>
+
+    <string name="mi_band_setting_dial">Isibuko sewashi</string>
+    <string name="mi_band_setting_language">Ulimi</string>
+    <string name="mi_band_setting_time_24h">Ifomethi yesikhathi sehora eli-24</string>
+    <string name="mi_band_setting_distance_unit">Iyunithi yebanga</string>
+    <string name="mi_band_setting_screen_on_duration">Isikhathi sokukhanya kwesikrini</string>
+    <string name="mi_band_setting_lift_wrist">Vula isikrini uma uphakamisa isihlakala</string>
+    <string name="mi_band_setting_idle_alert">Isikhumbuzi sokunganyakazi</string>
+    <string name="mi_band_setting_idle_alert_duration">Isikhathi sokunganyakazi</string>
+    <string name="mi_band_setting_idle_alert_dnd">Ungaphazamisi ngesikhathi sokuphumula (12:00-14:00)</string>
+
+    <string name="pref_synchronization">Ukuvumelanisa</string>
+    <string name="pref_synchronization_fetch_interval">Imvamisa yokuvumelanisa</string>
+    <string name="pref_synchronization_summary">Khetha ukuthi iyiphi idatha okufanele ivumelaniswe ngokuzenzakalelayo ngemuva. Uma ungayidingi, cisha ukuze uthuthukise ukusebenza. Usengavumelanisa ngesandla kusikrini sokuqala noma kumamenyu afanele (hudulela phansi).</string>
+
+    <string name="mi_band_setting_profile">Faka le datha ukuthuthukisa ukunemba kwezinyathelo, ibanga namakhalori okubalwa.</string>
+    <string name="mi_band_setting_gender">Ubulili</string>
+    <string name="mi_band_setting_gender_male">Owesilisa</string>
+    <string name="mi_band_setting_gender_female">Owesifazane</string>
+    <string name="mi_band_setting_birthday">Usuku lokuzalwa</string>
+    <string name="mi_band_setting_height">Ubude</string>
+    <string name="mi_band_setting_weight">Isisindo</string>
+    <string name="mi_band_setting_wearing_place">Indawo yokugqoka</string>
+    <string name="mi_band_setting_wearing_place_left_wrist">Isandla sobunxele</string>
+    <string name="mi_band_setting_wearing_place_right_wrist">Isandla sobunene</string>
+
+    <!-- Battery -->
+    <string name="battery_details">Ukusetshenziswa kwebhethri</string>
+
+    <string name="battery_settings">Izilungiselelo zebhethri</string>
+    <string name="battery_settings_notification">Isaziso sebhethri eliphansi</string>
+    <string name="battery_settings_notification_level">Izinga eliphansi lebhethri</string>
+    <string name="battery_settings_notification_repeat_interval">Isikhathi sokuphindaphinda</string>
+    <string name="battery_settings_notification_on_phone">Ngazise kufoni</string>
+    <string name="battery_settings_notification_on_phone_ongoing">Isaziso esiqhubekayo (esingasuswa)</string>
+    <string name="battery_settings_notification_on_phone_message">Izinga lebhethri liphansi: %1$,d%%</string>
+    <string name="battery_settings_notification_on_device">Ngazise ku-smartwatch</string>
+    <string name="battery_settings_notification_on_device_message">Ibhethri: %1$,d%%</string>
+
+    <!-- Preference screens -->
+    <string name="pref_battery_phone">Ibhethri yefoni</string>
+    <string name="pref_battery_phone_summary">Izaziso zamazinga aphezulu naphansi ebhethri</string>
+    <string name="pref_cat_battery_phone_low">Izinga eliphansi lebhethri</string>
+    <string name="pref_battery_phone_low_title">Isixwayiso sebhethri eliphansi</string>
+    <string name="pref_battery_phone_low_level_title">Izinga lebhethri eliphansi</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">Isikhathi sokuphinda izaziso</string>
+    <string name="pref_cat_battery_phone_full">Ibhethri eligcwele</string>
+    <string name="pref_battery_phone_full_title">Isixwayiso sokugcwala kwebhethri</string>
+    <string name="pref_battery_phone_full_plugged_ac">Umthombo wamandla we-AC</string>
+    <string name="pref_battery_phone_full_plugged_usb">Umthombo wamandla we-USB</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Umthombo wamandla ongenazintambo</string>
+
+    <string name="pref_battery_phone_message">Ibhethri yefoni:\n %1$,d%%</string>
+
+    <string name="pref_language">Ulimi</string>
+    <string name="pref_cat_language">Uhlelo lokusebenza</string>
+    <string name="pref_language_title">Ulimi</string>
+
+    <string name="pref_menu">Imenyu</string>
+    <string name="pref_cat_menu">Ukwenza imenyu enkulu ngendlela oyifisayo</string>
+    <string name="pref_menu_item_2">Into yesibili yemenyu</string>
+    <string name="pref_menu_item_3">Into yesithathu yemenyu</string>
+
+    <string name="pref_diagnostic">Ukuxilongwa</string>
+    <string name="pref_cat_diagnostic_closing_protection">Ukuvikelwa ekuvalweni</string>
+    <string name="pref_diagnostic_battery_optimisation">Khubaza ukuthuthukiswa kwebhethri</string>
+    <string name="pref_diagnostic_companion_device">Ukuhlanganiswa kwedivayisi ehlanganyelayo</string>
+    <string name="pref_diagnostic_bluetooth_pairing">Ukuhlanganiswa kwe-Bluetooth</string>
+    <string name="pref_diagnostic_autostart">Ukuqala ngokuzenzakalelayo</string>
+    <string name="pref_diagnostic_autostart_summary">Vumela uhlelo lokusebenza luqale kabusha ngokuzenzakalelayo ku-Auto-start manager yefoni</string>
+    <string name="pref_diagnostic_info">Ulwazi olwengeziwe</string>
+    <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
+
+    <string name="pref_cat_diagnostic_permissions">Izimvume</string>
+    <string name="pref_diagnostic_permission_allow_notification_access_settings">Vumela ukufinyelela kwizaziso</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">Hlela i-alamu ngokunembile</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Kudingeka imvume eyengeziwe ukuze kuhlelwe umsebenzi ngesikhathi esithile.</string>
+    <string name="pref_diagnostic_permission_post_notifications">Shicilela izaziso</string>
+    <string name="pref_diagnostic_permission_post_notifications_summary">Kudingeka imvume eyengeziwe ukuze kuboniswe izaziso</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">Ukufinyelela imodi ethi \'Ungaphazamisi\'</string>
+
+    <!-- Snackbar messages -->
+    <string name="message_enable_bluetooth">Sicela uvule i-Bluetooth bese ubeka iwashi eduze nefonini yakho</string>
+    <string name="message_discover_device">%1$s ayikasethwa, sicela uxhume</string>
+    <string name="message_discovering_device">Kutholakala %1$s (kungathatha kuze kufike emizuzwini engu-1)…</string>
+    <string name="message_discover_device_succeeded">%1$s ixhunywe ngempumelelo</string>
+    <string name="message_discover_device_failed">%1$s yehlulekile ukuxhunywa</string>
+    <string name="message_discover_device_not_found">Uma %1$s ingatholakali, vula imodi yokutholakala noma uyixhume ngezilungiselelo ze-Bluetooth zefoni</string>
+    <string name="message_enable_notification_listener_access">Vumela ukufinyelela kwezaziso: Ifoni > Izilungiselelo > Ukufinyelela kwezaziso</string>
+    <string name="message_enable_notification_listener_access_4_4">Vumela ukufinyelela kwezaziso: Izilungiselelo > Ezokuphepha > Ukufinyelela kwezaziso</string>
+
+    <string name="message_deleted">Kususwe</string>
+    <string name="message_undo">Khansela</string>
+
+    <string name="message_app_chooser_no_selected">Khetha uhlelo lokusebenza</string>
+
+    <string name="message_free_counter">Kusetshenziswa kuphela usethaphu olulodwa kuhlelo lwasimahla</string>
+    <string name="message_free_counters">Kufika ku-%1$,d usethaphu kungenziwa kuhlelo lwasimahla</string>
+
+    <string name="message_notification_free_groups">Kufika ku-%1$,d amaqembu asetshenziswa kuhlelo lwasimahla</string>
+    <string name="message_notification_free_app">Uhlelo olulodwa kuphela lungakhethwa kuhlelo lwasimahla</string>
+    <string name="message_notification_free_apps">Kufika ku-%1$,d izinhlelo zokusebenza zingakhethwa kuhlelo lwasimahla</string>
+    <string name="message_notification_free_text">Umbhalo owodwa kuphela ungarekhodwa kuhlelo lwasimahla</string>
+
+    <string name="message_time_alarm_free_counter">I-alamu eyodwa kuphela ingasetshenziswa kuhlelo lwasimahla</string>
+    <string name="message_time_alarm_max_counter">Kufika ku-%1$d ama-alamu angasetshenziswa</string>
+    <string name="message_time_alarm_enabled">I-alamu ivuliwe</string>
+    <string name="message_time_alarm_disabled">I-alamu ivaliwe</string>
+    <string name="message_time_alarm_off">I-alamu icishiwe</string>
+
+    <string name="message_touch_pattern_error">Iphethini enikeziwe ifana nesezinye izici, sicela usebenzise ehlukile</string>
+    <string name="message_touch_free_patterns">Kufika ku-%1$,d izilawuli zingasetshenziswa kuhlelo lwasimahla</string>
+    <string name="message_touch_record_help">Sebenzisa imisebenzi ye-%1$s yokulawula umculo/nokuthola ifoni</string>
+
+    <string name="message_premium_mode_only">Lesi sici sitholakala kuphela kuhlelo lwePremium</string>
+    <string name="message_feature_is_not_supported">%1$s ayisekeli lesi sici</string>
+    <string name="message_general_error">Ukusetha kwehlulekile (uxhumo luphazamisekile), zama futhi</string>
+    <string name="message_internet_error">Awekho uxhumano lwe-inthanethi</string>
+    <string name="message_internet_traffic_blocked">Izokuxhumana zivinjiwe</string>
+    <string name="message_internet_ads_blocked">Izikhangiso zivinjiwe</string>
+    <string name="message_gps_enable">Vumela i-GPS</string>
+    <string name="message_location_enable">Vumela ukufinyelela endaweni</string>
+
+    <string name="message_in_progress">Kuyaqhubeka…</string>
+    <string name="message_no_data">Azikho idatha etholakalayo</string>
+
+    <string name="message_rewarded_error">Ividiyo yehlulekile ukulayisha</string>
+
+    <string name="message_new_message">Kutholwe umlayezo omusha. Bheka efonini yakho.</string>
+
+    <string name="message_permission_not_granted">Imvume ayinikeziwe: %1$s</string>
+
+    <!-- Welcome dialog -->
+    <string name="dialog_welcome_title">Siyakwamukela!</string>
+    <string name="dialog_welcome_message"><![CDATA[Amadivayisi asesekelwayo:
+    <watch_types/>
+    <p>Ukuze usebenzise i-<app_name/>, kufanele ufake uhlelo olusemthethweni lwe-<device_type/> kule foni efanayo. Qala ngokuxhuma iwashi lakho kuhlelo lwe-<device_type/>, bese usebenzisa lolu hlelo.</p>
+    <p>Uma usesha i-<device_type/> ungaphumeleli, ungafaka ikheli le-MAC ngesandla ngesikhathi sokusesha.</p>
+    <b>Izindlela zokuxazulula izinkinga zoxhumo:</b>
+    <br>- Isikrini sezinhlelo zakamuva: vala i-<app_name/> (hudula phansi ku-preyivyu ye-app bese ukhetha i-\'Lock\' noma okufanayo).
+    <br>- Ukuthuthukiswa kwebhethri: shintsha i-<app_name/> ukuze ingathuthukiswa.
+    <br>- Ifoni/izinhlelo zokusebenza: cisha idatha ye-Bluetooth Share nezinye izinhlelo ze-\'Bluetooth\'.
+    <br>- Ulwazi olwengeziwe: https://dontkillmyapp.com
+    <br><br><small>Lo mkhiqizo nezici zawo azihloselwe ukusetshenziswa kwezokwelapha, futhi awuhloselwe ukubikezela, ukuthola, ukuvimbela, noma ukwelapha izifo. Yonke idatha nezilinganiso zenzelwe ukusetshenziswa komuntu siqu kuphela, futhi akufanele isetshenziswe njengesizathu sokuxilongwa noma ukwelashwa.</small>
+    ]]></string>
+
+    <!-- Notification  -->
+    <string name="notification_group_nav_setting">Izilungiselelo</string>
+    <string name="notification_group_nav_filter">Isihlungi</string>
+    <string name="notification_group_nav_correction">Ukulungiswa kombhalo</string>
+
+    <string name="notification_group_name">Igama</string>
+    <string name="notification_group_monitoring">Ukuqapha izaziso</string>
+    <string name="notification_group_monitoring_disabled">Susa izaziso (ungabonisi izaziso zohlelo lokusebenza)</string>
+    <string name="notification_group_alert_title">%1$s isexwayiso</string>
+    <string name="notification_group_text_customization">Ukuhlela kombhalo</string>
+    <string name="notification_group_text_app_name">Igama lohlelo lokusebenza</string>
+    <string name="notification_group_text_name">Igama</string>
+    <string name="notification_group_text_title">Isihloko</string>
+    <string name="notification_group_text_content">Okuqukethwe</string>
+    <string name="notification_group_text_big_content">Okuqukethwe okuphelele</string>
+    <string name="notification_group_text_content_slice_title">Ubude bombhalo</string>
+    <string name="notification_group_display_duration_title">Isikhathi sokubonisa</string>
+    <string name="notification_group_show_notification_title">Bonisa isaziso</string>
+    <string name="notification_group_immediate">Xwayisa ngokushesha uma isaziso sitholakele</string>
+    <string name="notification_group_connecting">Xwayisa ngesikhathi sokuxhuma</string>
+    <string name="notification_group_reminder">Isikhumbuzi</string>
+    <string name="notification_group_ongoing">Xwayisa ngezaziso ezihlala njalo (ezingasuswa)</string>
+    <string name="notification_group_screen_off">Xwayisa kuphela uma isikrini sivalekile</string>
+    <string name="notification_group_repeat_title">Phinda izaziso</string>
+    <string name="notification_group_wakelock">Vusa isikrini sefoni</string>
+    <string name="notification_group_grouped_display_title">Izilungiselelo zokubonisa izaziso ezihlangene</string>
+    <string name="notification_group_grouped_sort_order_title">Uhlelo lokuhlunga lwezaziso ezihlangene</string>
+
+    <string name="notification_group_filter">Hlunga izaziso</string>
+    <string name="notification_group_filter_title">Hlunga isihloko</string>
+    <string name="notification_group_filter_content">Hlunga okuqukethwe</string>
+    <string name="notification_group_filter_regex">Regex</string>
+    <string name="notification_group_filter_hint">Xwayisa kuphela uma isihloko noma okuqukethwe kufana (akubheki amacala ombhalo)</string>
+    <string name="notification_group_filter_contains">Liqukethe noma yiliphi kulezi</string>
+    <string name="notification_group_filter_not_contains">Aliqukethe lutho kulawa</string>
+
+    <string name="notification_group_sample_sms">SMS</string>
+    <string name="notification_group_sample_facebook">Messenger</string>
+    <string name="notification_group_sample_whatsapp">WhatsApp</string>
+
+    <string name="notification_group_correction">Ukulungiswa kombhalo wesaziso</string>
+    <string name="notification_group_correction_title">Ukulungiswa kwesihloko</string>
+    <string name="notification_group_correction_content">Ukulungiswa kokuqukethwe</string>
+    <string name="notification_group_correction_regex">Regex</string>
+    <string name="notification_group_correction_hint">Akubheki amacala ombhalo</string>
+    <string name="notification_group_correction_items">Imibhalo ezolungiswa</string>
+    <string name="notification_group_correction_find">Thola umbhalo</string>
+    <string name="notification_group_correction_replace">Buyisela ngo</string>
+
+    <string name="notification_regex_hint">Izimpawu ezingezona izinhlamvu nezinombolo zinemisebenzi ekhethekile. Uma ungazi ukuthi i-Regex isetshenziswa kanjani, ungakukhethi lokhu.</string>
+
+    <string name="notification_confirm_close">Uqinisekile ukuthi ufuna ukulahla izinguquko?</string>
+
+    <string name="notification_edit_play_text_title">Isihloko sesaziso</string>
+    <string name="notification_edit_play_text_content">Okuqukethwe kwesaziso:</string>
+
+
+    <!-- Incoming call alert -->
+    <string name="call_tab_call">Ucingo olungenayo</string>
+    <string name="call_tab_contacts">Oxhumana nabo</string>
+
+    <string name="call_incoming">Ucingo olungenayo</string>
+    <string name="call_incoming_summary_on">Ungakhohlwa ukuvala izaziso zocingo olungenayo kuhlelo lokusebenza lwe-%1$s</string>
+    <string name="call_incoming_caller_id">Bonisa igama lomshayeli</string>
+
+    <string name="pref_call_notification_rejected">Bonisa isaziso socingo olwenqatshelwe</string>
+    <string name="pref_call_notification_rejected_message">Ucingo olwenqatshelwe</string>
+    <string name="pref_call_notification_rejected_action">Shayela</string>
+
+    <string name="call_incoming_net_alert_title">Isaziso socingo lwe-inthanethi olungenayo</string>
+
+    <string name="call_missed_title">Isaziso socingo oluphuthwe</string>
+    <string name="call_missed_chooser_title">%1$s isaziso</string>
+    <string name="call_missed_notification">Ucingo oluphuthwe</string>
+
+    <string name="call_reject_button_action">Isenzo senkinobho yokwenqaba ucingo</string>
+
+    <string name="touch_call_answer_title">Ukuphendula ucingo</string>
+    <string name="touch_call_answer_speakerphone_title">Isipikha</string>
+
+    <string name="call_end_title">Ukunqaba ucingo, ukuphetha</string>
+
+    <string name="touch_call_mute_title">Thulisa ucingo</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Kuphela uma ucingo lungenayo</string>
+    <string name="touch_call_mute_recognition_title">Uma ucingo lungenayo</string>
+
+    <string name="call_contact_edit_contact">Oxhumana naye</string>
+    <string name="call_contact_edit_name">Igama</string>
+    <string name="call_contact_edit_phone_number">Inombolo yocingo</string>
+
+    <string name="call_contact_edit_setting_name_order">Uhlelo lwegama</string>
+    <string name="call_contact_edit_setting_default">@string/default_</string>
+    <string name="call_contact_edit_setting_first_name">Igama lokuqala</string>
+    <string name="call_contact_edit_setting_last_name">Isibongo</string>
+
+    <string name="message_call_contacts_free_counter">Kufika ku-%1$d oxhumana nabo bangasetshenziswa kumodi yamahhala</string>
+    <string name="message_call_contacts_max_counter">Kufika ku-%1$d oxhumana nabo bangasetshenziswa</string>
+
+    <!-- App chooser dialog -->
+    <string name="app_chooser">Ukukhetha uhlelo lokusebenza</string>
+    <string name="action_search">Sesha</string>
+    <string name="action_filter_notification">Isihlungi sezaziso</string>
+
+    <!-- Activity -->
+    <string name="step_details">Imininingwane yomsebenzi</string>
+
+    <string name="mi_band_tracker_step_title">%1$,d</string>
+    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string>
+    <string name="mi_band_tracker_distance_kilometer_title">%,.2f km</string>
+    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string>
+    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string>
+
+    <string name="action_tracker_step">Izinyathelo</string>
+    <string name="action_tracker_distance">Ibanga</string>
+    <string name="action_tracker_calorie">Amakhalori</string>
+    <string name="action_tracker_duration">Isikhathi sokuzivocavoca</string>
+
+    <string name="step_goal_default_title">Inhloso ezenzakalelayo</string>
+
+    <!-- Sleep monitoring -->
+    <string name="sleep_details">Imininingwane yokulala</string>
+
+    <string name="sleep_awake_phase_short">Uvukile</string>
+    <string name="sleep_light_phase_short">Ubuthongo obulula</string>
+    <string name="sleep_deep_phase_short">Ubuthongo obujulile</string>
+    <string name="sleep_rem_phase_short">REM</string>
+
+    <!-- Heart rate -->
+    <string name="heart_rate_details">Imininingwane yesilinganiso senhliziyo</string>
+
+    <string name="heart_rate_continuous_measurement_title">Ukulinganisa okungapheli kwenhliziyo</string>
+
+    <string name="heart_rate_alert_title">Isaziso sesilinganiso senhliziyo</string>
+    <string name="heart_rate_thresholds">Imingcele yesilinganiso senhliziyo</string>
+    <string name="low_heart_rate">Isilinganiso senhliziyo esiphansi</string>
+    <string name="high_heart_rate">Isilinganiso senhliziyo esiphezulu</string>
+
+    <!-- Blood oxygen -->
+    <string name="blood_oxygen_details">Imininingwane yegazi-mpilo</string>
+
+    <string name="blood_oxygen_level_measurement">Ukulinganisa amazinga egazi-mpilo</string>
+    <string name="measurement_interval">Isikhawu sokulinganisa</string>
+
+    <!-- Blood pressure -->
+    <string name="blood_pressure_details">Imininingwane yengcindezi yegazi</string>
+
+    <string name="blood_pressure_level_measurement">Ukulinganisa ingcindezi yegazi</string>
+
+    <string name="blood_pressure_systolic_abbreviation">Sys</string>
+    <string name="blood_pressure_diastolic_abbreviation">Dia</string>
+    <string name="blood_pressure_unit">mmHg</string>
+
+    <!-- Workout -->
+    <string name="workout_details">Imininingwane yokuzivocavoca</string>
+
+    <!-- Alarm -->
+    <string name="action_time_alarm_sort_state_asc">Isimo ngokukhuphuka</string>
+    <string name="action_time_alarm_sort_watch_asc">Iwashi ngokukhuphuka</string>
+    <string name="action_time_alarm_sort_name_asc">Igama ngokukhuphuka</string>
+
+    <string name="message_time_alarm_sync">Ukuvumelanisa ama-alamu e-%1$s (lokhu kuzokhipha ama-alamu akhona bese kufakwa amasha kuwashi)</string>
+
+    <string name="info_dialog_alarm"><![CDATA[
+    <p>Lapho usebenzisa imodi yokubambisana, izilungiselelo zohlelo lokusebenza olusemthethweni nolwe-<app_name/> zingaqeda noma zifihle izilungiselelo zomunye nomunye.</p>
+    Isenzo sokugcina sizoba esisebenzayo.
+    ]]></string>
+
+    <!-- Reminder -->
+    <string name="message_reminder_enabled">Isikhumbuzi sivuliwe</string>
+    <string name="message_reminder_disabled">Isikhumbuzi sivalwe</string>
+
+    <string name="reminder_repeat">Phinda njalo ngehora</string>
+    <string name="reminder_notification_on_phone">Ngazise kufoni</string>
+
+    <string name="message_time_reminder_free_counter">Isikhumbuzi esisodwa kuphela siyatholakala kumodi yamahhala</string>
+
+    <string name="info_dialog_reminder"><![CDATA[
+    Ukuze kuboniswe isikhumbuzi, kudingeka uxhumano lwe-Bluetooth.
+    ]]></string>
+
+    <!-- Do not disturb -->
+    <string name="pref_dnd_summary">Isimo sokulawula ngesikhathi semodi ethi \'ungaphazamiseki\'</string>
+    <string name="pref_dnd_enable_bluetooth">Cisha i-Bluetooth ekuqaleni kwe-DnD, bese uyivula ekupheleni</string>
+
+    <string name="info_dialog_dnd"><![CDATA[
+    Uma usebenzisa imodi yokubambisana, kuhlelo lokusebenza lwe-<device_type/> olusemthethweni, imodi ye-DnD kumele ibe phakathi kuka-00:00 no-23:59 futhi isimo sayo kufanele sibe sevaliwe.
+    ]]></string>
+
+
+    <!-- Watch face -->
+    <string name="watch_face_tab_watch_faces">Ubuso bewashi</string>
+    <string name="watch_face_tab_watch_face_custom">Amafayela enziwe wena</string>
+    <string name="watch_face_tab_watch_face_editor">Umhleli</string>
+
+    <string name="watch_face_download_title">Landa ubuso bewashi</string>
+    <string name="watch_face_upload_title">Layisha ubuso bewashi</string>
+    <string name="watch_face_tool_title">Amathuluzi</string>
+
+    <string name="watch_face_share_content">Ungabelana ngobuso bewashi owenze lona nabanye. Thumela ubuso bewashi namafayela okubuka kuqala nge-imeyili, bese ufaka imininingwane elandelayo: igama lombhali, igama lobuso bewashi (okungaba semkhawulweni wama-30 abalingiswa), nolimi. Sishicilela kuphela ubuso bewashi obusezingeni eliphezulu.</string>
+
+    <string name="watch_face_upload_prepare">Kulungiselelwa ukulayishwa…</string>
+    <string name="watch_face_upload_progress">Kulayishwa %1$,d%%</string>
+
+    <string name="watch_face_invalid_firmware">I-firmware %1$s ayaziwa noma ayisekeli ukulayishwa kobuso bewashi. Sicela uvuselele i-firmware usebenzisa uhlelo lokusebenza olusemthethweni. Uma uhlelo olusemthethweni lusekela ukulayisha, sicela usazise ngeMenyu Yokubuyisela Impendulo.</string>
+    <string name="watch_face_invalid_auth">Sebenzisa imodi ezimele, ngoba uma usebenzisa imodi yokubambisana, uhlelo olusemthethweni lungavimba ukulayishwa kobuso bewashi</string>
+    <string name="watch_face_invalid_free">Awukwazi ukulayisha ubuso bewashi obengeziwe namuhla kumodi yamahhala</string>
+    <string name="watch_face_watch_rewarded_ads">Buka ividiyo ukuze uqhubeke</string>
+    <string name="watch_face_watch_rewarded_ads_uploading">Buka ividiyo ukuze uqhubeke nokulayisha</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">Ividiyo iyaqala…</string>
+
+    <string name="watch_face_upload_method_title">Indlela</string>
+    <string name="watch_face_upload_method_default">@string/default_</string>
+    <string name="watch_face_upload_method_alternative">Enye indlela</string>
+
+    <string name="watch_face_upload_speed_title">Isivinini sokulayisha</string>
+    <string name="watch_face_upload_invalid_speed_hint">Beka isivinini esiphansi uma ukulayishwa kobuso bewashi kuphazamiseka</string>
+    <string name="watch_face_upload_invalid_size_hint">Usayizi wefayela lobuso bewashi awusebenzi, yehlisa ikhwalithi noma susa izinto ebusweni bewashi</string>
+    <string name="watch_face_upload_invalid_battery_hint">Ibhethri lewashi seliseduze ukuphela, sicela ulishaje</string>
+
+    <string name="watch_face_tbwf_quality_title">Izilungiselelo zekhwalithi yefayela le-.tbwf</string>
+    <string name="watch_face_tbwf_quality_hint">Usayizi wefayela ungancishiswa uma iwashi likuvumela</string>
+
+    <string name="watch_face_tbwf_locale_title">Izilungiselelo zolimi nezwe zefayela le-.tbwf</string>
+    <string name="watch_face_tbwf_locale_hint">Amagama ezinsuku, uhlukaniso lwenyanga kanye nophawu lwedesimali</string>
+
+    <string name="message_watch_face_file_invalid">Ifayela lobuso bewashi alisebenzi</string>
+    <string name="message_watch_face_file_invalid_size">Usayizi wefayela lobuso bewashi awusebenzi</string>
+    <string name="message_watch_face_file_invalid_battery">Ibhethri lewashi seliphansi</string>
+    <string name="message_watch_face_image_file_error">Ifayela lesithombe alisebenzi</string>
+    <string name="message_watch_face_font_file_error">Ifayela lefoni alisebenzi</string>
+
+    <string name="action_chart_layout_2_columns">Uhlaka lwamakholomu angu-2</string>
+    <string name="action_chart_layout_3_columns">Uhlaka lwamakholomu angu-3</string>
+
+    <string name="watch_face_edit_dial">Idayali</string>
+    <string name="watch_face_edit_preview">Ukuqala ukubuka</string>
+    <string name="watch_face_edit_hour_digital">Ihora</string>
+    <string name="watch_face_edit_minute_digital">Iminithi</string>
+    <string name="watch_face_edit_second_digital">Isekhondi</string>
+    <string name="watch_face_edit_am_pm">Inkomba ye-AM/PM</string>
+    <string name="watch_face_edit_am">AM</string>
+    <string name="watch_face_edit_pm">PM</string>
+    <string name="watch_face_edit_hour_analog">Umlobokazi weholo</string>
+    <string name="watch_face_edit_minute_analog">Umlobokazi weminithi</string>
+    <string name="watch_face_edit_second_analog">Umlobokazi wesekhondi</string>
+    <string name="watch_face_edit_axis">I-eksisi yokujikeleza</string>
+    <string name="watch_face_edit_hour_minute_separator">Umehlukanisi weholo neminithi</string>
+    <string name="watch_face_edit_year">Unyaka</string>
+    <string name="watch_face_edit_year_month_separator">Umehlukanisi wonyaka nenyanga</string>
+    <string name="watch_face_edit_month">Inyanga</string>
+    <string name="watch_face_edit_month_name">Igama lenyanga</string>
+    <string name="watch_face_edit_month_day_separator">Umehlukanisi wenyanga nosuku</string>
+    <string name="watch_face_edit_day">Usuku</string>
+    <string name="watch_face_edit_dayOfWeek">Usuku lweviki</string>
+    <string name="watch_face_edit_battery_level">Izinga lebhethri</string>
+    <string name="watch_face_edit_battery_level_percent_sign">Izinga lebhethri %</string>
+    <string name="watch_face_edit_battery_level_image">Isithombe sebhethri</string>
+    <string name="watch_face_edit_weather_temperature">Izinga lokushisa</string>
+    <string name="watch_face_edit_weather_temperature_unit_sign">Iyunithi lokushisa °</string>
+    <string name="watch_face_edit_weather_image">Isithombe sezulu</string>
+    <string name="watch_face_edit_connection_indicator_image">Isithombe sesikhombi sokuxhumana</string>
+    <string name="watch_face_edit_connected">Kuxhunyiwe</string>
+    <string name="watch_face_edit_disconnected">Akuxhunyiwe</string>
+    <string name="watch_face_edit_steps">Izinyathelo</string>
+    <string name="watch_face_edit_steps_image">Isithombe sezinyathelo</string>
+    <string name="watch_face_edit_steps_goal_progress">Inqubekelaphambili yehlelo lezinyathelo</string>
+    <string name="watch_face_edit_distance">Ibanga</string>
+    <string name="watch_face_edit_distance_image">Isithombe sebanga</string>
+    <string name="watch_face_edit_calories">Amakhalori</string>
+    <string name="watch_face_edit_calories_image">Isithombe samakhalori</string>
+    <string name="watch_face_edit_heart_rate">Isilinganiso senhliziyo</string>
+    <string name="watch_face_edit_heart_rate_image">Isithombe senhliziyo</string>
+
+    <string name="watch_face_edit_color">Umbala</string>
+    <string name="watch_face_edit_font_family">Umndeni wefonti</string>
+    <string name="watch_face_edit_character">Uhlamvu</string>
+    <string name="watch_face_edit_font_size">Usayizi wefonti</string>
+    <string name="watch_face_edit_image">Isithombe</string>
+    <string name="watch_face_edit_image_png_jpeg">Isithombe (.png, .jpeg)</string>
+    <string name="watch_face_edit_image_png">Isithombe (.png)</string>
+    <string name="watch_face_edit_image_size">Usayizi wesithombe</string>
+    <string name="watch_face_edit_icon">I-icon</string>
+
+    <string name="watch_face_custom_watch_face_not_supported_title">Le washi ayisekeli ukulayishwa kobuso bewashi obenziwe wena</string>
+    <string name="watch_face_custom_watch_face_under_development_title">Izici zokulayisha ubuso bewashi obenziwe wena zisathuthukiswa futhi zingase zitholakale esikhathini esizayo, kodwa lokhu akukakaqinisekiswa.</string>
+
+    <!-- Touch monitoring -->
+    <string name="touch_tab_function">Umsebenzi</string>
+    <string name="touch_tab_control">Ukulawula</string>
+    <string name="touch_tab_testing">Ukuhlola</string>
+    <string name="touch_tab_setting">@string/setting_name</string>
+
+    <string name="touch_function_summary">Setha le misebenzi uma usebenzisa imodi ezimele noma uma i-Mi Fit ingayilawuli kahle</string>
+    <string name="touch_function">%1$s umsebenzi</string>
+    <string name="touch_function_as_touch">Sebenzisa umsebenzi njengokuthinta kumenyu yokulawula</string>
+
+    <string name="touch_headline_incoming_call_title">Ucingo olungenayo</string>
+    <string name="touch_headline_other_function_title">Ezinye izici</string>
+    <string name="touch_headline_call_title">Ukulawula izingcingo</string>
+    <string name="touch_headline_music_title">Ukulawula umculo</string>
+    <string name="touch_headline_time_title">Ukulawula isibali sikhathi/stopwatch</string>
+    <string name="touch_headline_other_title">Okunye ukulawula</string>
+
+    <string name="touch_device_location_title">Thola ifoni yami</string>
+    <string name="touch_device_location_not_muted_only_title">Umsindo kuphela uma ingathulisiwe noma ingekho ku-DnD</string>
+
+    <string name="touch_mute_toggle_title">Inkinobho yokuthulisa ifoni</string>
+    <string name="touch_mute_toggle_ringer_mode_title">Imodi ethulisiwe</string>
+    <string name="touch_mute_toggle_mute_off_title">Thulisa kuvaliwe</string>
+
+    <string name="touch_music_title">Umculo</string>
+    <string name="touch_music_function_launch">Qala umculo ngenkinobho yokudlala uma umdlali womculo engaziwa</string>
+    <string name="touch_music_function_mi_band_message_launch">Qala umculo ngenkinobho yokudlala</string>
+    <string name="touch_music_function_mi_band_message_no_track_title">Alikwazi ukuthola igama lencwadi yomculo</string>
+
+    <string name="touch_call_out_title">Shayela</string>
+    <string name="touch_call_out_no_contact">Khetha oxhumana naye</string>
+    <string name="touch_call_out_summary">Cindezela kabili ukuphendula ucingo</string>
+    <string name="touch_call_out_summary_support_call_display_button">Cindezela inkinobho ukuphendula ucingo</string>
+    <string name="touch_call_out_speakerphone_title">Ikhishwe ngomsindo</string>
+    <string name="touch_call_out_call_text">Ukushayela: %1$s</string>
+
+    <string name="touch_weather_title">Isibikezelo sezulu</string>
+    <string name="touch_weather_location">Ukuvuselela indawo</string>
+    <string name="touch_weather_precipitation">Imvula</string>
+    <string name="touch_weather_cloud_cover">Ifu elisibekelayo</string>
+    <string name="touch_weather_wind">Umoya</string>
+
+    <string name="touch_repeat_notif_title">Phinda izaziso</string>
+    <string name="touch_repeat_notif_clear_all">Susa zonke izaziso ngemuva kokuphinda</string>
+
+    <string name="touch_clear_notif_title">Susa izaziso efoni</string>
+
+    <string name="touch_music_play_pause_title">Umculo: qala, dlala, nquma</string>
+    <string name="touch_music_skip_previous_title">Umculo: qala, ingoma edlule</string>
+    <string name="touch_music_skip_next_title">Umculo: qala, ingoma elandelayo</string>
+    <string name="touch_music_headset_only_title">Kusebenza kuphela uma i-headset ixhunywe</string>
+    <string name="touch_music_launch">Qala umculo</string>
+    <string name="touch_music_volume_up_title">Yandisa ivolumu yomculo</string>
+    <string name="touch_music_volume_down_title">Yehlisa ivolumu yomculo</string>
+    <string name="touch_music_track_info_title">Bonisa ulwazi lwegama lengoma</string>
+
+    <string name="touch_time_launch_title">Qala ukuqapha isikhathi</string>
+    <string name="touch_time_launch_type_timer_title">Isibali sikhathi</string>
+    <string name="touch_time_launch_type_stopper_title">Istopwatch</string>
+    <string name="touch_time_launch_type_interval_title">Isikhawu</string>
+    <string name="touch_time_launch_restart">Qala kabusha uma kuqhubeka</string>
+    <string name="touch_time_reminder_title">Bonisa isikhathi esisele/esidlulile</string>
+
+    <string name="touch_google_assistant_title">Usizo lukaGoogle</string>
+
+    <string name="touch_flashlight_title">Ukukhanyisa (flashlight) vula/vala</string>
+
+    <string name="touch_camera_title">Thatha isithombe</string>
+    <string name="touch_camera_front_title">Ngaphambili</string>
+    <string name="touch_camera_rear_title">Ngemuva</string>
+    <string name="touch_camera_install_title">Faka</string>
+
+    <string name="touch_app_launcher1_title">Isiqalisi sohlelo lokusebenza</string>
+    <string name="touch_app_launcher_package_no_title">Khetha uhlelo lokusebenza</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">Kuphela uma isikrini singavalwanga</string>
+
+    <string name="touch_broadcast1_title">Thumela i-Broadcast</string>
+    <string name="touch_broadcast1_action_title">Isenzo se-Intent</string>
+    <string name="touch_broadcast1_package_title">Igama lephakheji ye-Intent</string>
+
+    <string name="touch_http_request1_title">1. Isicelo se-HTTP</string>
+    <string name="touch_http_request2_title">2. Isicelo se-HTTP</string>
+    <string name="touch_http_request_url_title">URL</string>
+    <string name="touch_http_request_method_title">Indlela</string>
+    <string name="touch_http_request_body_title">Umzimba</string>
+    <string name="touch_http_request_show_response_title">Bonisa impendulo</string>
+
+    <string name="touch_tasker_launcher1_title">1. Umsebenzi we-Tasker</string>
+    <string name="touch_tasker_launcher2_title">2. Umsebenzi we-Tasker</string>
+    <string name="touch_tasker_launcher_no_permission_title">Faka uhlelo lokusebenza lwe-Tasker kuqala, bese i-Mi Bandage</string>
+    <string name="touch_tasker_launcher_no_access_title">Vumela ukufinyelela kwangaphandle</string>
+    <string name="touch_tasker_launcher_no_task_title">Khetha umsebenzi</string>
+
+    <string name="touch_testing_title">Ukuqapha kokuthinta</string>
+    <string name="touch_testing_second">sec.</string>
+
+    <string name="touch_setting_detection_time_title">Isikhathi sokuqaphela ukuthinta</string>
+    <string name="touch_setting_detection_time_button_hint">Inani eliphansi lisho ukuthi izinkinobho kufanele zichofozwe ngokushesha okulandelanayo</string>
+
+    <string name="touch_setting_detection_method_title">Indlela yokuqaphela ukuthinta</string>
+
+    <string name="touch_setting_recognition_start_title">Qala ukuqashelwa kokuthinta</string>
+    <string name="touch_setting_recognition_start_trigger_title">Isiqalisi</string>
+    <string name="touch_setting_recognition_time_title">Isikhathi sokuqashelwa</string>
+
+    <string name="touch_setting_recognition_mi_band_signal_title">%1$s isignali</string>
+    <string name="touch_setting_recognition_succeeded_title">Iphethini yokuthinta ebonwe</string>
+    <string name="touch_setting_recognition_failed_title">Ayiboniwe iphethini yokuthinta</string>
+
+    <string name="info_dialog_touch"><![CDATA[
+    <p>Kusebenza kahle kwimodi ezimele. Uma usebenzisa imodi yokubambisana, uhlelo olusemthethweni <app_official/> nalo luzolawula le misebenzi, ngakho ukusebenza kahle akunakuqinisekiswa.</p>
+    <p><b>Izilungiselelo ze-Bluetooth zefoni:</b> <device_name/> khubaza idivayisi yokufaka</p>
+    <b><u>Ukuthinta okubonawe</u></b>
+    <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
+    <br><device_type/> ukulawula umculo
+    <p><img src="ic_search">
+    <br><device_type/> thola ifoni yami
+    </p>
+    Ukuthinta okuningi kungarekhodwa ngomsebenzi ngamunye.
+    ]]></string>
+
+
+    <!-- Weather  -->
+    <string name="weather_tab_weather_forecast">Isimo sezulu</string>
+    <string name="weather_tab_location">Indawo</string>
+    <string name="weather_tab_settings">@string/setting_name</string>
+
+    <string name="weather_location_title">Indawo</string>
+
+    <string name="weather_forecast_title">Isibikezelo sezulu</string>
+
+    <string name="weather_setting_provider">Umhlinzeki wesimo sezulu</string>
+    <string name="weather_city_title">Idolobha</string>
+    <string name="weather_unit_title">Iyunithi</string>
+    <string name="weather_unit_metric">Metric (Celsius)</string>
+    <string name="weather_unit_imperial">Imperial (Fahrenheit)</string>
+    <string name="weather_automatic_update">Buyekeza indawo ngokuzenzakalelayo</string>
+    <string name="weather_automatic_update_title">Sebenzisa indawo yamanje</string>
+    <string name="weather_automatic_update_summary">Lolu hlelo lokusebenza luqoqa idatha yendawo ukuze luhlale luvuselela isimo sezulu, noma uhlelo lufakwe noma lungasetshenziswa.</string>
+
+    <string name="permission_background_location">%1$s uzothola imvume yokuqoqa idatha yendawo noma ngabe uhlelo alusebenzi noma alusetshenziswa</string>
+    <string name="permission_error_title">%1$s awukwazi ukuvuselela izimvume</string>
+    <string name="permission_error_description">Vula Izilungiselelo bese ukhetha inketho ethi ”%1$s” yezimvume zendawo</string>
+    <string name="all_the_time">Ngaso sonke isikhathi</string>
+
+    <string name="weather_current_title">Isimo sezulu samanje</string>
+    <string name="weather_current_location">Indawo yamanje</string>
+    <string name="weather_current_temperature">Izinga lokushisa lamanje</string>
+
+    <string name="weather_precipitation_rain">Imvula</string>
+    <string name="weather_precipitation_snow">Iqhwa</string>
+    <string name="weather_cloud_cover_abbreviation">Ifu</string>
+    <string name="weather_cloud_cover">Amafu</string>
+    <string name="weather_humidity">Umswakama</string>
+
+    <string name="weather_north">N</string>
+    <string name="weather_east">E</string>
+    <string name="weather_south">S</string>
+    <string name="weather_west">W</string>
+
+    <!-- Text customization -->
+    <string name="pref_text_reminder_repeat_interval_title">Isikhawu sokuphindaphinda isikhumbuzo</string>
+    <string name="pref_text_reminder_repeat_interval_summary">Isexwayiso > Umsebenzi wesikhumbuzo usebenzisa lesi sikhathi</string>
+    <string name="pref_text_emoticon_title">Uguquko lwe-emoji</string>
+    <string name="pref_text_emoticon_summary_on">Guqula ama-emoji abe ama-emoticon</string>
+    <string name="pref_text_uppercase_title">Ukuguqula kube zincwadi ezinkulu</string>
+    <string name="pref_text_uppercase_summary_on">Guqula izinhlamvu ezincane zibe ezinkulu</string>
+    <string name="pref_text_alphanumeric_title">Izimpawu ze-alphanumeric ne-ASCII</string>
+    <string name="pref_text_alphanumeric_summary_on">Khombisa kuphela izimpawu ze-alphanumeric ne-ASCII</string>
+    <string name="pref_text_transliteration_title">Uguquko lwezinhlamvu</string>
+    <string name="pref_text_transliteration_summary_on">Guqula izinhlamvu ezinezinhlamvu ezinezimpawu zibe ngaphandle kwezimpawu</string>
+    <string name="pref_text_line_separator_title">Ukushintsha umhlukanisi womugqa</string>
+    <string name="pref_text_line_separator_summary_on">Shintsha umhlukanisi womugqa ojwayelekile ngeminye imifanekiso</string>
+    <string name="pref_text_line_separator_value_title">Izimpawu zokushintsha</string>
+    <string name="pref_text_char_replacement_title">Ushintsho lwezinhlamvu, ama-emoji</string>
+    <string name="pref_text_char_replacement_summary_on">Shintsha uhlamvu olulodwa ngolunye</string>
+    <string name="pref_text_char_replacement_find">Thola</string>
+    <string name="pref_text_char_replacement_replace">Shintsha ngo</string>
+
+    <!-- Export -->
+    <string name="export_tab_database">Ukuthekelisa idatha</string>
+    <string name="export_start_date">Usuku lokuqala lokuthekelisa</string>
+
+    <!-- Theme -->
+    <string name="theme_tab_theme">Itimu</string>
+
+    <string name="theme_title">Khetha itimu</string>
+    <string name="theme_background_color_title">Umbala wangemuva</string>
+
+    <string name="theme_widget_background_color_title">Umbala</string>
+    <string name="theme_color_dynamic_color_title">Umbala oguqukayo</string>
+    <string name="theme_color_predefined_colors_title">Imibala echaziwe</string>
+
+    <string name="theme_notification_title">Bonisa isimo kumthunzi wesaziso</string>
+
+    <string name="theme_cat_color_setting">Izilungiselelo zombala</string>
+
+    <!-- Feedback -->
+    <string name="action_log_notification">Ilogi</string>
+
+    <string name="feedback_google_play_title">Linganisa lolu hlelo lokusebenza</string>
+    <string name="feedback_request_feature_title">Isicelo somsebenzi, ukubika iphutha</string>
+    <string name="feedback_request_feature_summary">Ukwenza ngokuzenzakalelayo nge-imeyili, kungenzeka ungatholi impendulo</string>
+    <string name="feedback_translation_title">%1$s ukuhumusha</string>
+    <string name="feedback_translation_title_summary">Sicela usize ekuhumusheni</string>
+
+    <!-- Premium mode -->
+    <string name="purchase_advantage_title">Izinzuzo zendlela yePremium</string>
+    <string name="purchase_advantage"><![CDATA[
+    <p>• ukwesekwa kwezezimali ekuthuthukisweni kohlelo</p>
+    <p>• akukho zikhangiso</p>
+    <p>• izilungiselelo zezaziso ezingapheli</p>
+    <p>• izilungiselelo zokushayela ezingapheli</p>
+    <p>• ukulayishwa kobuso bewashi nsuku zonke ngaphandle komkhawulo</p>
+    <p>• inani elingenamkhawulo lama-alamu (kuncike ekuxhasweni iwashi)</p>
+    <p>• imodi ethi Ungaphazanyiswa engenamkhawulo</p>
+    <p>• izilungiselelo zokuthinta ezingapheli</p>
+    <p>• izibuyekezo zesimo sezulu ezivamile, izibuyekezo ezizenzakalelayo zendawo, inketho yokusebenzisa i-AccuWeather</p>
+    <p>• amashadi anemininingwane yanamuhla</p>
+    • ukuvuleka kwemikhawulo yonke yezinye izici…
+    ]]></string>
+
+    <string name="purchase_policy_title">Imigomo nemibandela yendlela yePremium</string>
+    <string name="purchase_policy"><![CDATA[
+    <p>• Ngizame uhlelo lokusebenza futhi ngathola ukuthi lusebenza ngendlela ebengilindele.</p>
+    <p>• Ngiyakuqonda ukuthi angikwazi ukufuna ukubuyiselwa kwemali noma isinxephezelo ngezinkinga ezibangelwa izinguquko ohlelweni (njengokubuyekezwa kwe-Android), okokusebenza, noma ukungqubuzana nezinye izinhlelo zokusebenza.</p>
+    <p>• Zonke izinkokhelo zokuthenga ziyi-final futhi azibuyiselwa imali (ngaphandle kokuthi umthetho kaGoogle wokubuyiselwa kwemali ukuvumela).</p>
+    <p>• Lolu hlelo aluqinisekisiwe nganoma iyiphi indlela, kungaba ngokusobala noma ngokucatshangelwa.</p>
+    <p>• Ukusetshenziswa kohlelo lokusebenza kwenzeka ngomthwalo wakho siqu. Umthuthukisi akanasibopho noma yimuphi umonakalo oqondile noma ongathí sina, noma ukulahleka kwedatha okubangelwa ukusetshenziswa kwalo.</p>
+    <p>• Imodi yePremium ixhunywe ku-akhawunti yakho ye-Google futhi iyaqhubeka nokusebenza ngisho nangemva kokuphinda ulande uhlelo.</p>
+    <i>Ngemva kokuthenga, uhlelo lokusebenza kumele luqalwe kabusha.</i>
+    ]]></string>
+
+    <string name="purchase_google_play_services_not_available">Izinsiza ze-Google Play azitholakali</string>
+
+    <string name="purchase_agree">Ngiyavuma imigomo nemibandela.</string>
+    <string name="purchase_order_id">Inombolo ye-oda</string>
+    <string name="purchase_order_id_help">Kopisha kusuka:
+    \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+    \n<a href="https://payments.google.com">https://payments.google.com</a>
+    </string>
+
+    <string name="purchase_info">Inkokhelo kanye ・ %1$s</string>
+    <string name="purchase_button_purchase">Thenga</string>
+
+    <!-- Privacy policy -->
+    <string name="privacy_policy_tab_privacy_policy">Inqubomgomo yobumfihlo</string>
+    <string name="privacy_policy_tab_user_consent">Ukuphathwa kwemvume yomsebenzisi</string>
+    <string name="privacy_policy_tab_eu_consent">Imvume ye-EU ne-USA</string>
+    <string name="privacy_policy_tab_non_eu_consent">Imvume yezindawo ezingekho ngaphansi kwe-EU</string>
+
+    <string name="privacy_policy_collect_title">Ulwazi esiluqoqa</string>
+    <string name="privacy_policy_collect"><![CDATA[
+    <p>• Siqoqa kuphela imininingwane engaziwa.</p>
+    <p>• Siqoqa izibalo zokusebenzisa ezingeni lesicelo (Google Analytics).</p>
+    <p>• Siqoqa imininingwane yeziphazamiso, amaphutha, nezinhlekelele ukuze sithuthukise (Firebase Crashlytics).</p>
+    <p>• Siqoqa imininingwane yokusebenza kohlelo ukuze sithuthukise ukusebenza (Firebase Performance Monitoring).</p>
+    <p>• I-Google Firebase iqoqa imininingwane ngokungaziwa. Ihlaziya izinto ezithrendayo ngaphandle kokuqonda umuntu ngamunye.<br/>
+    Idatha eqoqwayo ifaka: i-Firebase installation ID, isimo sesicelo, ulwazi lwedivayisi (imodeli, i-CPU, i-RAM ne-hard disk, uhlelo lokusebenza, izilungiselelo zesikrini, izwe, ulimi), amabhulogi wamaphutha, izilinganiso zokusebenza ( isikhathi sokuvula uhlelo, ubude bokuphendula kwezicelo zenethiwekhi, amakheli e-URL, ukusetshenziswa kwe-CPU/RAM, ikheli le-IP elilinganiselwe…) </p>
+    <p>• Siqoqa indawo yakho kuphela uma uvuma, ukuze sibuyekeze isimo sezulu sedolobha lakho.</p>
+    • Izizathu zomthetho zokuqoqwa kwedatha yimizamo yethu esemthethweni yokwenza uhlelo lusebenza kangcono, lusebenze kahle futhi luhlale lusebenziseka.
+    ]]></string>
+
+    <string name="privacy_policy_cookies_title">Amakhukhi nezinye izindlela ezifana nawo</string>
+    <string name="privacy_policy_cookies"><![CDATA[
+    • Abanye abahlinzeki besithathu, njengokuthi AdMob, bangase basebenzise amakhukhi noma izindlela ezifanayo ukuthumela izikhangiso ezenziwe ngokwezifiso. Ungalawula ukwenza ngezifiso izikhangiso kusethaphu ye-akhawunti yakho ye-Google.
+    ]]></string>
+
+    <string name="privacy_policy_retention_title">Ukugcinwa kwedatha</string>
+    <string name="privacy_policy_retention"><![CDATA[
+    • Idatha eqoqiwe igcinwa yi-Google Firebase ngokuvumelana nemigomo yayo futhi kuphela isikhathi esidingekayo ukwenza ukuhlaziywa, ukuhlonza amaphutha, nokuthuthukisa ukusebenza kohlelo.
+    ]]></string>
+
+    <string name="privacy_policy_not_collect_title">Ulwazi esingaluqoqi</string>
+    <string name="privacy_policy_not_collect"><![CDATA[
+    <p>• Asikhohlwa imininingwane ezokwaziwa ngomuntu siqu. Lokhu kusho ukuthi asiquqi imininingwane efana negama lakho, ikheli, inombolo yocingo, i-imeyili noma i-MAC address.</p>
+    • Asiquqi imininingwane yomuntu ngesimo sempilo, oxhumana naye, noma okuqukethwe kwezaziso ezinsizeni zakho.
+    ]]></string>
+
+    <string name="privacy_policy_share_title">Ulwazi esiwabelanayo</string>
+    <string name="privacy_policy_share"><![CDATA[
+    • Asabelani nganoma yimuphi ulwazi nezinye izinkampani noma izinhlangano ngaphandle kwe-Google nabahlinzeki bezikhangiso.
+    ]]></string>
+
+    <string name="privacy_policy_use_title">Ulwazi lomuntu siqu noluyimfihlo esilusebenzisa</string>
+    <string name="privacy_policy_use"><![CDATA[
+    • Si sebenzisa indawo kuphela uma wethula isici sezulu futhi kuphela uma uvume.
+    ]]></string>
+
+    <string name="privacy_policy_rights_title">Amalungelo akho</string>
+    <string name="privacy_policy_rights"><![CDATA[
+    <p>• Idatha ye-analytics, yokuhlola amaphutha kanye nokusebenza eqoqwa ngeke ikwazi ukukwenza ungaziwa. Akuyona imininingwane yomuntu siqu ngaphansi kwemithetho efana ne-GDPR, futhi awukwazi ukufuna ukufinyelela, ukulungisa noma ukususa yona.</p>
+    <p>• Ungayeka ukuqoqwa kwedatha nganoma yisiphi isikhathi ngokususa uhlelo noma ngokulawula izilungiselelo zobumfihlo ku-Google noma kudivayisi yakho.</p>
+    • Uma unemibuzo nge-data noma amalungelo akho obumfihlo, sicela uxhumane nathi kusizo lwe-app.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">Inqubomgomo yobumfihlo yamanye amahhovisi</string>
+    <string name="privacy_policy_links"><![CDATA[
+    <p><a href="https://policies.google.com/privacy">Inqubomgomo yobumfihlo ye-Google (kuhlanganisa ne-Google Play Services)</a></p>
+    <p><a href="https://policies.google.com/technologies/ads">AdMob – Ukusetshenziswa kwedatha</a></p>
+    <p><a href="https://support.google.com/analytics/answer/6004245">Google Analytics – Ukusetshenziswa kwedatha</a></p>
+    <p><a href="https://firebase.google.com/terms/crashlytics">Imigomo ye-Firebase Crashlytics</a></p>
+    <a href="https://firebase.google.com/support/privacy">Inqubomgomo yobumfihlo ne-Security yezinhlelo ze-Firebase (kuhlanganisa ne-Performance Monitoring)</a>
+    ]]></string>
+
+    <string name="privacy_policy_eu_consent_title">Isimo</string>
+    <string name="privacy_policy_eu_consent_title_obtained">Imvume itholakale</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Izikhangiso ezenziwe ngokwezifiso, ezifanele</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Izikhangiso ezingezona ezomuntu siqu, ezingasebenzi kahle kakhulu</string>
+    <string name="privacy_policy_eu_consent_title_unknown">Asaziwa</string>
+
+    <string name="privacy_policy_eu_consent_setting">Isilungiselelo</string>
+
+    <!-- Custom vibration dialog -->
+    <string name="custom_vibration_title">Izilungiselelo zokudlidliza</string>
+
+    <!-- Shortcuts -->
+    <string name="shortcut">Umfushanisi</string>
+    <string name="shortcut_visible_items">Izinto ezibonakalayo zabaMfushanisi</string>
+    <string name="shortcut_hidden_items">Izinto ezifihliwe zabaMfushanisi</string>
+
+    <string name="shortcut_status">Isimo</string>
+    <string name="shortcut_heart_rate">Isilinganiso senhliziyo</string>
+    <string name="shortcut_blood_oxygen">I-oksijeni egazini</string>
+    <string name="shortcut_sleep">Ukulala</string>
+    <string name="shortcut_breathing">Ukuphefumula</string>
+    <string name="shortcut_weather">Isimo sezulu</string>
+    <string name="shortcut_stress">Ingcindezi</string>
+
+    <!-- Actions  -->
+    <string name="tab_daily_charts">Amashadi wansuku zonke</string>
+    <string name="tab_weekly_charts">Amashadi eviki</string>
+    <string name="tab_monthly_charts">Amashadi enyanga</string>
+    <string name="tab_yearly_charts">Amashadi onyaka</string>
+
+    <string name="ad_attribution">Isikhangiso</string>
+    <string name="on">Vuliwe</string>
+    <string name="off">Cishiwe</string>
+    <string name="none">Akukho</string>
+    <string name="heart_rate_bpm">bpm</string>
+    <string name="heart_rate_mhr">MHR</string>
+    <string name="date">Usuku</string>
+    <string name="time">Isikhathi</string>
+    <string name="time_start">Isikhathi sokuqala</string>
+    <string name="time_end">Isikhathi sokuphela</string>
+    <string name="ringer_mode_vibrate">Ukudlidliza</string>
+    <string name="ringer_mode_silent">Thulile</string>
+    <string name="ringer_mode_dnd_priority_only">Ungaphazanyiswa (okubalulekile kuphela)</string>
+    <string name="ringer_mode_dnd_alarms_only">Ungaphazanyiswa (ama-alamu kuphela)</string>
+    <string name="ringer_mode_dnd_total_silence">Ungaphazanyiswa (uthule ngokuphelele)</string>
+    <string name="unknown">Akwaziwa</string>
+    <string name="maximum">Okukhulu kakhulu</string>
+    <string name="all_day">Usuku lonke</string>
+    <string name="timed">Ngesikhathi</string>
+    <string name="file_name">Igama lefayela</string>
+    <string name="default_">Okuzenzakalelayo</string>
+    <string name="default_by_phone">Okuzenzakalelayo (ngomakhalekhukhwini)</string>
+    <string name="custom">Okokwezifiso</string>
+    <string name="invalid_setting">Izilungiselelo ezingavumelekile</string>
+    <string name="ringtone">Ingoma yocingo</string>
+    <string name="ringtone_chooser">Umsizi wokukhetha ingoma</string>
+    <string name="uninstalled">Kususwe</string>
+    <string name="value">Inani</string>
+    <string name="downloads">Ukulanda</string>
+    <string name="share">Yabelana</string>
+    <string name="send">Thumela</string>
+    <string name="narrow">Mncane</string>
+    <string name="short_">Mfushane</string>
+    <string name="medium">Maphakathi</string>
+    <string name="long_">Mude</string>
+    <string name="full">Okugcwele</string>
+    <string name="alignment_left">Ukuqondanisa kwesobunxele</string>
+    <string name="alignment_center">Ukuqondanisa phakathi</string>
+    <string name="alignment_right">Ukuqondanisa kwesokudla</string>
+    <string name="visible">Kubonakala</string>
+    <string name="invisible">Akubonakali</string>
+    <string name="placeholder">Isibambi</string>
+    <string name="image_scale_fit">Lingana</string>
+    <string name="image_scale_crop">Sika</string>
+    <string name="image_scale_stretch">Nweba</string>
+    <string name="resource_manager">Umphathi wezinsiza</string>
+
+    <string name="action_premium_mode">Imodi ye-premium</string>
+    <string name="action_dismiss">Valelisa</string>
+    <string name="action_setting">Isilungiselelo</string>
+    <string name="action_delete">Susa</string>
+    <string name="action_rename">Qamba kabusha</string>
+    <string name="action_export">Thumela ngaphandle</string>
+    <string name="action_synchronization">Ukuvumelanisa</string>
+    <string name="action_download">Landa</string>
+    <string name="action_upload">Layisha</string>
+    <string name="action_backup">Ikhophi yokusekelayo</string>
+    <string name="action_restore">Buyisela</string>
+    <string name="action_filter_no">Akukho hluzo</string>
+    <string name="action_bluetooth">I-Bluetooth</string>
+    <string name="action_favorite">Ozithandayo</string>
+    <string name="action_save">Londoloza</string>
+    <string name="action_test">Hlola</string>
+    <string name="action_discard">Lahla</string>
+    <string name="action_keep_editing">Qhubeka uhlela</string>
+    <string name="action_new">Okusha</string>
+    <string name="action_new_file_extension">%1$s entsha</string>
+    <string name="action_edit">Hlela</string>
+    <string name="action_start_stop">Qala/Misa</string>
+    <string name="action_contacts">Oxhumana nabo</string>
+    <string name="action_single_selection">Ukukhetha okukodwa</string>
+    <string name="action_multiple_selection">Ukukhetha okuningi</string>
+    <string name="action_selection_boundaries">Imingcele yokukhetha</string>
+    <string name="action_object_boundaries">Imingcele yento</string>
+    <string name="action_select">Khetha</string>
+    <string name="action_select_all">Khetha konke</string>
+    <string name="action_select_texts">Khetha imibhalo</string>
+    <string name="action_select_images">Khetha izithombe</string>
+    <string name="action_deselect_all">Susa ukukhetha konke</string>
+    <string name="synchronized_from_watch">Kuvumelanisiwe kusuka kuwashi</string>
+    <string name="synchronization_succeeded">Ukuvumelanisa kuphumelele</string>
+    <string name="synchronization_failed">Ukuvumelanisa kwehlulekile</string>
+
+    <string name="action_chart">Ishadi</string>
+    <string name="action_zoom_in">Sondeza</string>
+    <string name="action_chart_normalize_raw_data">Amanani akalwe</string>
+    <string name="action_chart_normalize_quarter_hourly">Amanani emizuzu engu-15</string>
+    <string name="action_chart_normalize_half_hourly">Amanani emizuzu engu-30</string>
+    <string name="action_chart_normalize_hourly">Amanani wehora</string>
+    <string name="action_chart_sort_time_asc">Isikhathi esikhulayo</string>
+    <string name="action_chart_sort_time_desc">Isikhathi esehla</string>
+    <string name="action_chart_sort_step_asc">Izinyathelo ezikhulayo</string>
+    <string name="action_chart_sort_step_desc">Izinyathelo ezincipha</string>
+    <string name="action_chart_sort_duration_asc">Isikhathi esikhulayo</string>
+    <string name="action_chart_sort_duration_desc">Isikhathi esincipha</string>
+    <string name="action_chart_sort_heart_rate_asc">Izinga lenhliziyo elikhulayo</string>
+    <string name="action_chart_sort_heart_rate_desc">Izinga lenhliziyo elincipha</string>
+    <string name="action_chart_sort_spo2_asc">SpO2 ekhuphukayo</string>
+    <string name="action_chart_sort_spo2_desc">SpO2 ehlelayo</string>
+    <string name="action_chart_sort_blood_pressure_asc">Ingcindezi yegazi ekhuphukayo</string>
+    <string name="action_chart_sort_blood_pressure_desc">Ingcindezi yegazi ehlelayo</string>
+    <string name="action_chart_monthly_calendar">Ikhalenda</string>
+    <string name="action_chart_monthly_compact">Ihlangene</string>
+
+    <string name="activity_progress_title_prepare">Kulungiselela ukuvumelanisa…</string>
+    <string name="activity_progress_title_sync">Ukuvumelanisa idatha…</string>
+    <string name="activity_progress_title_save">Kulondoloza idatha…</string>
+
+    <string name="required_value">Kuyadingeka</string>
+
+    <string name="percent_0">0%</string>
+    <string name="percent_10">10%</string>
+    <string name="percent_20">20%</string>
+    <string name="percent_30">30%</string>
+    <string name="percent_40">40%</string>
+    <string name="percent_50">50%</string>
+    <string name="percent_60">60%</string>
+    <string name="percent_70">70%</string>
+    <string name="percent_80">80%</string>
+    <string name="percent_90">90%</string>
+    <string name="percent_100">100%</string>
+
+    <!-- Constants -->
+    <string name="const_day_of_week_sunday">Sonto</string>
+    <string name="const_day_of_week_monday">Msombuluko</string>
+    <string name="const_day_of_week_tuesday">Lwesibili</string>
+    <string name="const_day_of_week_wednesday">Lwesithathu</string>
+    <string name="const_day_of_week_thursday">Lwesine</string>
+    <string name="const_day_of_week_friday">Lwesihlanu</string>
+    <string name="const_day_of_week_saturday">Mgqibelo</string>
+
+    <string name="const_time_abbreviation_day">d</string>
+    <string name="const_time_abbreviation_hour">h</string>
+    <string name="const_time_abbreviation_minute">m</string>
+    <string name="const_time_abbreviation_sec">s</string>
+    <string name="const_time_abbreviation_milli_sec">ms</string>
+
+    <string name="const_number">%1$,d</string>
+    <string name="const_number_float">%,.2f</string>
+    <string name="const_number_float_1_precision">%,.1f</string>
+    <string name="const_percentage">%1$,d%%</string>
+    <string name="const_percent_sign">%</string>
+    <string name="const_unit_kilometer">km</string>
+    <string name="const_unit_meter">m</string>
+    <string name="const_unit_centimeter">cm</string>
+    <string name="const_unit_mile">mi</string>
+    <string name="const_unit_kilogram">kg</string>
+    <string name="const_unit_kcal">kcal</string>
+    <string name="const_unit_dbm">dBm</string>
+
+    <plurals name="plural_time_hour">
+        <item quantity="one">%d ihora</item>
+        <item quantity="other">%d amahora</item>
+    </plurals>
+
+    <plurals name="plural_time_minute">
+        <item quantity="one">%d umzuzu</item>
+        <item quantity="other">%d amaminithi</item>
+    </plurals>
+
+    <plurals name="plural_time_second">
+        <item quantity="one">%d umzuzwana</item>
+        <item quantity="other">%d imizuzwana</item>
+    </plurals>
+
+</resources>

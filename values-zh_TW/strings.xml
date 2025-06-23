@@ -4,24 +4,24 @@
 
     <!--  Navigation  -->
     <string name="menu_nav_notification">通知</string>
-    <string name="menu_nav_call">電話</string>
+    <string name="menu_nav_call">通話</string>
     <string name="menu_nav_step">活動</string>
     <string name="menu_nav_sleep">睡眠</string>
     <string name="menu_nav_heart_rate">心率</string>
     <string name="menu_nav_blood_oxygen">血氧</string>
     <string name="menu_nav_blood_pressure">血壓</string>
-    <string name="menu_nav_workout">鍛煉</string>
+    <string name="menu_nav_workout">運動</string>
     <string name="menu_nav_alarm">鬧鐘</string>
-    <string name="menu_nav_reminder">事件提醒</string>
-    <string name="menu_nav_dnd">勿擾模式</string>
-    <string name="menu_nav_watch_face">表盘</string>
+    <string name="menu_nav_reminder">提醒事項</string>
+    <string name="menu_nav_dnd">請勿打擾模式</string>
+    <string name="menu_nav_watch_face">錶盤</string>
     <string name="menu_nav_weather">天氣</string>
-    <string name="menu_nav_touch">觸碰</string>
+    <string name="menu_nav_touch">觸控操作</string>
     <string name="menu_nav_more">更多</string>
-    <string name="menu_nav_text_customization">訊息顯示</string>
-    <string name="menu_nav_export">輸出</string>
-    <string name="menu_nav_premium_mode">進階功能</string>
-    <string name="menu_nav_feedback">反饋</string>
+    <string name="menu_nav_text_customization">文字自訂</string>
+    <string name="menu_nav_export">匯出</string>
+    <string name="menu_nav_premium_mode">進階模式</string>
+    <string name="menu_nav_feedback">意見回饋</string>
     <string name="menu_nav_privacy_policy">隱私權政策</string>
     <string name="menu_nav_theme">主題</string>
 
@@ -31,80 +31,81 @@
     <string name="more_name">更多</string>
 
     <string name="main_item_activity_title">步數・目標</string>
-    <string name="main_item_battery">電池量・最後一次充電時間</string>
-    <string name="main_item_connect_and_disconnect_last_time">最後連接和斷開時間</string>
+    <string name="main_item_battery">電池電量・上次充電時間</string>
+    <string name="main_item_connect_and_disconnect_last_time">最近連接與斷開時間</string>
     <string name="main_item_next_alarm">下一個鬧鐘</string>
     <string name="main_item_next_reminder">下一個提醒</string>
-    <string name="main_item_call_and_notification_control">通話與通知</string>
+    <string name="main_item_call_and_notification_control">通話與通知管理</string>
 
-    <string name="device_search">尋找 %1$s</string> <!-- %1$s = Watch name -->
-    <string name="device_setting">%1$s 設定</string> <!-- %1$s = Watch name -->
+    <!-- Pairing Bluetooth device -->
+    <string name="device_search">搜尋 %1$s</string>
+    <string name="device_setting">%1$s 設定</string>
 
-    <string name="device_mac_address">MAC 地址</string>
-    <string name="device_mac_address_invalid">MAC 地址錯誤</string>
+    <string name="device_mac_address">MAC 位址</string>
+    <string name="device_mac_address_invalid">無效的 MAC 位址</string>
 
-    <string name="device_state_connected">已連結</string>
-    <string name="device_state_disconnected">已斷開連結</string>
+    <string name="device_state_connected">已連線</string>
+    <string name="device_state_disconnected">未連線</string>
     <string name="device_state_bonded">已配對裝置</string>
     <string name="device_state_not_bonded">未配對裝置</string>
 
-    <string name="error_title">哎呀！出事了</string>
-    <string name="error_message">將應用更新為最新版本</string>
+    <string name="error_title">哎呀！發生錯誤</string>
+    <string name="error_message">請將應用程式更新至最新版本</string>
 
 
     <!-- Watch connection and setting -->
     <string name="mi_band_setting_title">%1$s 設定</string>
 
-    <string name="mi_band_setting_menu_connection">連接</string>
+    <string name="mi_band_setting_menu_connection">連線</string>
     <string name="mi_band_setting_menu_setting">@string/setting_name</string>
     <string name="mi_band_setting_menu_profile">個人資料</string>
     <string name="mi_band_setting_menu_text">文字</string>
-    <string name="mi_band_setting_menu_call">電話</string>
+    <string name="mi_band_setting_menu_call">通話</string>
 
-    <string name="mi_band_setting_auth_mi_fit">%1$s 協作</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">%3$s 需要在同一部裝置上安裝 %1$s 應用程式。 您需要在 %1$s 程式內先配對 %2$s 後才能使用 %3$s。若您希望使用 %1$s 程式，請選擇此項。</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
-    <string name="mi_band_setting_auth_standalone">獨立模式</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$s 應用程序對於%3$s來說不是必需的。 配對裝置後請解除安裝 %1$s 程式。若要重新使用 %1$s ，您必須在 %1$s 程式內重新配對 %2$s。 若使用解除配對功能，資料將被清除。 在進行設定的過程中，%2$s 程式畫面必須開啟。</string>
-    <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
+    <string name="mi_band_setting_auth_mi_fit">%1$s 搭配使用</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">%3$s 需要在本裝置上安裝 %1$s 應用程式。請先在 %1$s 中配對 %2$s，才能使用 %3$s。若您想同時使用 %1$s，請選擇此項。</string>
+    <string name="mi_band_setting_auth_standalone">獨立使用</string>
+    <string name="mi_band_setting_auth_standalone_hint">%3$s 不需搭配 %1$s 應用程式即可運作。配對後可解除安裝 %1$s，或解除手錶配對。若日後需要再次搭配使用，請重新在 %1$s 中配對 %2$s。使用解除配對功能會清除手錶資料，並請確保操作期間 %2$s 螢幕為開啟狀態。</string>
+    <string name="mi_band_standalone_sync_error">為避免資料遺失與確保準確性，搭配使用模式下無法進行同步。同步會導致智慧手錶資料遺失，並在兩個應用中出現錯誤資料。</string>
 
-    <string name="mi_band_setting_auth_key">驗證金鑰</string>
-    <string name="mi_band_setting_auth_key_help">請輸入任意4位數字</string>
-    <string name="mi_band_setting_auth_request">請求金鑰</string>
+    <string name="mi_band_setting_auth_key">驗證碼</string>
+    <string name="mi_band_setting_auth_key_help">請輸入任意 4 位數字</string>
+    <string name="mi_band_setting_auth_request">請求驗證碼</string>
     <string name="mi_band_setting_auth_pair">配對</string>
-    <string name="mi_band_setting_auth_unpair">取消配對</string>
+    <string name="mi_band_setting_auth_unpair">解除配對</string>
 
-    <string name="message_auth_request">裝置已經配對，如果您不知道認證碼，請使用解除配對</string>
+    <string name="message_auth_request">裝置已配對。如您不知道驗證碼，請使用解除配對。</string>
 
     <string name="message_mi_band_setting_auth_press_band_button">請按下 %1$s 的按鈕以進行配對</string>
     <string name="message_mi_band_setting_auth_success">%1$s 配對成功</string>
-    <string name="message_mi_band_setting_auth_fail">與 %1$s 配對失敗</string>
-    <string name="message_mi_band_setting_auth_key_invalid">無效的驗證金鑰</string>
+    <string name="message_mi_band_setting_auth_fail">%1$s 配對失敗</string>
+    <string name="message_mi_band_setting_auth_key_invalid">無效的驗證碼</string>
 
-    <string name="pref_disconnect_device">裝置斷開</string>
+    <string name="pref_disconnect_device">斷開裝置</string>
 
-    <string name="mi_band_setting_connection_problem_title">如果您連接時遇到問題</string>
+    <string name="mi_band_setting_connection_problem_title">若遇到連線問題</string>
     <string name="mi_band_setting_connection_problem_hint"><![CDATA[
-    - 在手機的藍牙設定中取消手錶配對<br>
-    - 關閉再重新開啟藍牙<br>
-    - 強制關閉應用程式或重新啟動手機<br>
-    - 從主畫面重新配對手錶
+    - 前往手機藍牙設定取消配對手錶<br>
+    - 關閉並重新開啟藍牙<br>
+    - 強制關閉應用程式，或重新啟動手機<br>
+    - 回到主畫面重新配對手錶
     ]]></string>
 
-    <string name="mi_band_setting_dial">撥號</string>
+    <string name="mi_band_setting_dial">錶盤</string>
     <string name="mi_band_setting_language">語言</string>
-    <string name="mi_band_setting_time_24h">24小時制</string>
-    <string name="mi_band_setting_distance_unit">设置长度单位</string>
+    <string name="mi_band_setting_time_24h">24 小時制</string>
+    <string name="mi_band_setting_distance_unit">距離單位</string>
     <string name="mi_band_setting_screen_on_duration">螢幕亮起時間</string>
-    <string name="mi_band_setting_lift_wrist">抬起手腕以查看訊息</string>
+    <string name="mi_band_setting_lift_wrist">抬手亮螢幕</string>
     <string name="mi_band_setting_idle_alert">久坐提醒</string>
-    <string name="mi_band_setting_idle_alert_duration">空閑時間</string>
-    <string name="mi_band_setting_idle_alert_dnd">在我休息時不要提醒我 (12:00-14:00)</string>
+    <string name="mi_band_setting_idle_alert_duration">久坐時間</string>
+    <string name="mi_band_setting_idle_alert_dnd">休息時間不提醒 (12:00-14:00)</string>
 
     <string name="pref_synchronization">同步</string>
-    <string name="pref_synchronization_fetch_interval">Synchronization frequency</string>
-    <string name="pref_synchronization_summary">Select the data to be automatically synchronised in the background. If you do not need any of the data, turn it off for better performance. Data can still be synchronised manually on the home screen or in the appropriate menus (by sweeping down).</string>
+    <string name="pref_synchronization_fetch_interval">同步頻率</string>
+    <string name="pref_synchronization_summary">選擇哪些資料要在背景自動同步。如不需要，可關閉以提升效能。您仍可在主畫面或相關選單中手動同步（下拉刷新）。</string>
 
-    <string name="mi_band_setting_profile">這些資料有助於更準確地計算您的步數、距離和燃燒的卡路里。</string>
+    <string name="mi_band_setting_profile">請輸入以下資訊以提升步數、距離與卡路里計算的準確度。</string>
     <string name="mi_band_setting_gender">性別</string>
     <string name="mi_band_setting_gender_male">男性</string>
     <string name="mi_band_setting_gender_female">女性</string>
@@ -115,31 +116,30 @@
     <string name="mi_band_setting_wearing_place_left_wrist">左手</string>
     <string name="mi_band_setting_wearing_place_right_wrist">右手</string>
 
-
     <!-- Battery -->
-    <string name="battery_details">電池使用情況</string>
+    <string name="battery_details">電池使用情形</string>
 
-    <string name="battery_settings">電量設定</string>
-    <string name="battery_settings_notification">低電量提醒</string>
-    <string name="battery_settings_notification_level">電量閾值</string>
-    <string name="battery_settings_notification_repeat_interval">重複間隔</string>
+    <string name="battery_settings">電池設定</string>
+    <string name="battery_settings_notification">低電量通知</string>
+    <string name="battery_settings_notification_level">電量門檻</string>
+    <string name="battery_settings_notification_repeat_interval">重複提醒間隔</string>
     <string name="battery_settings_notification_on_phone">在手機上通知</string>
-    <string name="battery_settings_notification_on_phone_ongoing">持續（不斷的）通知</string>
-    <string name="battery_settings_notification_on_phone_message">電量低於： %1$,d%%</string>
-    <string name="battery_settings_notification_on_device">在手環上通知</string>
-    <string name="battery_settings_notification_on_device_message">電量： %1$,d%%</string>
+    <string name="battery_settings_notification_on_phone_ongoing">持續顯示通知</string>
+    <string name="battery_settings_notification_on_phone_message">電量過低：%1$,d%%</string>
+    <string name="battery_settings_notification_on_device">在智慧手錶上通知</string>
+    <string name="battery_settings_notification_on_device_message">電量：%1$,d%%</string>
 
     <!-- Preference screens -->
-    <string name="pref_battery_phone">手機電量</string>
-    <string name="pref_battery_phone_summary">低電量或充滿電時通知</string>
+    <string name="pref_battery_phone">手機電池</string>
+    <string name="pref_battery_phone_summary">低電量與充飽電時通知</string>
     <string name="pref_cat_battery_phone_low">低電量</string>
-    <string name="pref_battery_phone_low_title">低電量通知</string>
-    <string name="pref_battery_phone_low_level_title">電量閾值</string>
-    <string name="pref_battery_phone_low_repeat_interval_title">重複間隔</string>
-    <string name="pref_cat_battery_phone_full">充滿電</string>
-    <string name="pref_battery_phone_full_title">充滿電通知</string>
-    <string name="pref_battery_phone_full_plugged_ac">AC交流電源</string>
-    <string name="pref_battery_phone_full_plugged_usb">USB直流電源</string>
+    <string name="pref_battery_phone_low_title">低電量提醒</string>
+    <string name="pref_battery_phone_low_level_title">電量門檻</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">重複提醒間隔</string>
+    <string name="pref_cat_battery_phone_full">充飽電</string>
+    <string name="pref_battery_phone_full_title">充飽電提醒</string>
+    <string name="pref_battery_phone_full_plugged_ac">交流電源充電</string>
+    <string name="pref_battery_phone_full_plugged_usb">USB 充電</string>
     <string name="pref_battery_phone_full_plugged_wireless">無線充電</string>
 
     <string name="pref_battery_phone_message">手機電量：\n %1$,d%%</string>
@@ -153,217 +153,210 @@
     <string name="pref_menu_item_2">第二個選單項目</string>
     <string name="pref_menu_item_3">第三個選單項目</string>
 
-    <string name="pref_diagnostic">诊断</string>
-    <string name="pref_cat_diagnostic_closing_protection">防止关闭</string>
-    <string name="pref_diagnostic_battery_optimisation">电池优化关闭</string>
-    <string name="pref_diagnostic_companion_device">伴侶設備配對</string>
-    <string name="pref_diagnostic_bluetooth_pairing">Bluetooth pairing</string>
-    <string name="pref_diagnostic_autostart">自动启动</string>
-    <string name="pref_diagnostic_autostart_summary">Enable the application to restart automatically in the phone\'s Auto-start manager</string>
-    <string name="pref_diagnostic_info">更多信息</string>
+    <string name="pref_diagnostic">診斷</string>
+    <string name="pref_cat_diagnostic_closing_protection">防止被關閉</string>
+    <string name="pref_diagnostic_battery_optimisation">停用電池最佳化</string>
+    <string name="pref_diagnostic_companion_device">配件裝置配對</string>
+    <string name="pref_diagnostic_bluetooth_pairing">藍牙配對</string>
+    <string name="pref_diagnostic_autostart">自動啟動</string>
+    <string name="pref_diagnostic_autostart_summary">允許應用程式在手機的「自動啟動管理」中自動重新啟動</string>
+    <string name="pref_diagnostic_info">更多資訊</string>
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
 
-    <string name="pref_cat_diagnostic_permissions">权限</string>
-    <string name="pref_diagnostic_permission_allow_notification_access_settings">允许通知访问</string>
-    <string name="pref_diagnostic_permission_schedule_exact_alarm">安排精确闹钟</string>
-    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">安排任务在准确时间需要额外权限。</string>
-    <string name="pref_diagnostic_permission_post_notifications">发送通知</string>
-    <string name="pref_diagnostic_permission_post_notifications_summary">显示通知需要额外权限。</string>
-    <string name="pref_diagnostic_permission_access_notification_policy">勿扰模式访问权限</string>
-
+    <string name="pref_cat_diagnostic_permissions">權限</string>
+    <string name="pref_diagnostic_permission_allow_notification_access_settings">允許通知存取</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">排程精確鬧鐘</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">需額外權限才能在指定時間執行任務。</string>
+    <string name="pref_diagnostic_permission_post_notifications">顯示通知</string>
+    <string name="pref_diagnostic_permission_post_notifications_summary">需要額外權限才能顯示通知。</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">存取「請勿打擾」功能</string>
 
     <!-- Snackbar Messages -->
-    <string name="message_enable_bluetooth">請打開藍牙並將手環靠近手機</string>
-    <string name="message_discover_device">%1$s 未設置，請連接</string>
-    <string name="message_discovering_device">正在尋找 %1$s 手環 (可能需要1分鐘) …</string>
-    <string name="message_discover_device_succeeded">%1$s 連結成功</string>
-    <string name="message_discover_device_failed">%1$s 連線失敗</string>
-    <string name="message_discover_device_not_found">如果未找到%1$s，請打開：Haylou Sport / Play / Discoverable或與手機藍牙設置配對</string>
-    <string name="message_enable_notification_listener_access">啟用通知存取：電話/設定/通知存取</string>
-    <string name="message_enable_notification_listener_access_4_4">啟用通知存取：電話/設定/通知存取</string>
+    <string name="message_enable_bluetooth">請開啟藍牙並將手錶靠近手機</string>
+    <string name="message_discover_device">%1$s 尚未設定，請連接</string>
+    <string name="message_discovering_device">正在搜尋 %1$s（最多可能需要 1 分鐘）…</string>
+    <string name="message_discover_device_succeeded">%1$s 已成功連接</string>
+    <string name="message_discover_device_failed">%1$s 無法連接</string>
+    <string name="message_discover_device_not_found">若找不到 %1$s，請啟用裝置的可被搜尋模式，或在手機藍牙設定中配對</string>
+    <string name="message_enable_notification_listener_access">啟用通知存取：手機 > 設定 > 通知存取</string>
+    <string name="message_enable_notification_listener_access_4_4">啟用通知存取：設定 > 安全性 > 通知存取</string>
 
-    <string name="message_deleted">刪除</string>
-    <string name="message_undo">取消</string>
+    <string name="message_deleted">已刪除</string>
+    <string name="message_undo">復原</string>
 
-    <string name="message_app_chooser_no_selected">選擇應用程式</string>
+    <string name="message_app_chooser_no_selected">請選擇應用程式</string>
 
-    <string name="message_free_counter">在免費模式下最多可使用 1 個設定</string>
-    <string name="message_free_counters">在免費模式下最多可使用 %1$,d 個設定</string>
+    <string name="message_free_counter">免費模式僅限使用 1 項設定</string>
+    <string name="message_free_counters">免費模式最多可使用 %1$,d 項設定</string>
 
-    <string name="message_notification_free_groups">在免費模式下最多可使用 %1$,d 個群組</string>
-    <string name="message_notification_free_app">在免費模式下最多可選擇 1 個應用程式</string>
-    <string name="message_notification_free_apps">在免費模式下最多可選擇 %1$,d 個應用程式</string>
-    <string name="message_notification_free_text">在免費模式下最多可記錄 1 則文字</string>
+    <string name="message_notification_free_groups">免費模式最多可使用 %1$,d 個群組</string>
+    <string name="message_notification_free_app">免費模式僅可選擇 1 個應用程式</string>
+    <string name="message_notification_free_apps">免費模式最多可選擇 %1$,d 個應用程式</string>
+    <string name="message_notification_free_text">免費模式僅可記錄 1 則文字</string>
 
-    <string name="message_time_alarm_free_counter">在免費模式下最多可使用 1 個鬧鐘</string>
-    <string name="message_time_alarm_max_counter">最多可使用 %1$d 個鬧鐘</string>
-    <string name="message_time_alarm_enabled">啟用鬧鐘</string>
-    <string name="message_time_alarm_disabled">禁用鬧鐘</string>
-    <string name="message_time_alarm_off">關閉鬧鐘</string>
+    <string name="message_time_alarm_free_counter">免費模式僅可設定 1 個鬧鐘</string>
+    <string name="message_time_alarm_max_counter">最多可設定 %1$d 個鬧鐘</string>
+    <string name="message_time_alarm_enabled">鬧鐘已啟用</string>
+    <string name="message_time_alarm_disabled">鬧鐘已停用</string>
+    <string name="message_time_alarm_off">鬧鐘已關閉</string>
 
-    <string name="message_touch_pattern_error">記錄模式已被使用，請重新再試</string>
-    <string name="message_touch_free_patterns">普通模式下您不能使用超過 %1$,d 個控制項</string>
-    <string name="message_touch_record_help">Use the %1$s music control/find my phone features</string> <!-- %1$s = smartwatch -->
+    <string name="message_touch_pattern_error">所設定的圖樣與其他功能相似，請重新錄製</string>
+    <string name="message_touch_free_patterns">免費模式最多可使用 %1$,d 項觸控控制</string>
+    <string name="message_touch_record_help">使用 %1$s 的音樂控制或尋找手機功能</string>
 
-    <string name="message_premium_mode_only">此功能僅在高級模式下可用</string>
+    <string name="message_premium_mode_only">此功能僅限進階模式使用</string>
     <string name="message_feature_is_not_supported">%1$s 不支援此功能</string>
-    <string name="message_general_error">設定失敗（失去連接），請重新再試</string>
-    <string name="message_internet_error">沒有網路連結</string>
-    <string name="message_internet_traffic_blocked">網路流量被阻止</string>
-    <string name="message_internet_ads_blocked">廣告被封鎖</string>
-    <string name="message_gps_enable">開啟GPS</string>
-    <string name="message_location_enable">Enable the location info permission</string>
+    <string name="message_general_error">設定失敗（連線中斷），請再試一次</string>
+    <string name="message_internet_error">無網路連線</string>
+    <string name="message_internet_traffic_blocked">網路流量已被封鎖</string>
+    <string name="message_internet_ads_blocked">廣告已被封鎖</string>
+    <string name="message_gps_enable">請開啟 GPS</string>
+    <string name="message_location_enable">請允許定位存取權限</string>
 
     <string name="message_in_progress">處理中…</string>
-    <string name="message_no_data">沒有可用的訊息</string>
+    <string name="message_no_data">沒有可用資料</string>
 
-    <string name="message_rewarded_error">无法加载视频</string>
+    <string name="message_rewarded_error">無法載入影片</string>
 
-    <string name="message_new_message">收到訊息，請在手機上查看。</string>
+    <string name="message_new_message">您收到新訊息，請在手機查看。</string>
 
-    <string name="message_permission_not_granted">未授予權限：%1$s</string> <!-- %1$s = permission name -->
+    <string name="message_permission_not_granted">未授權的權限：%1$s</string>
 
     <!-- Dialog -->
-    <string name="dialog_welcome_title">歡迎!</string>
-    <string name="dialog_welcome_message"><![CDATA[支援裝置:
+    <string name="dialog_welcome_title">歡迎！</string>
+    <string name="dialog_welcome_message"><![CDATA[支援裝置：
     <watch_types/>
-    <p><app_name/> 需要在同一部裝置上安裝官方版本的<device_type/>應用程式。 您必須先在<device_type/>應用中和智能手錶配對，然後才能使用此程式。</p>
-    <p>如果未找到<device_type/>，可以嘗試手動設定MAC地址。</p>
-    <b>如果您有連接上的問題：</b>
-    <br>- Recent apps 畫面: 鎖定<app_name/>（拉下應用程序並點擊鎖定圖示）。
-    <br>- 手機/電池優化：將 \'<app_name/>\' 應用設置為未優化。
-    <br>- 手機/應用程式：清除 \'藍牙共享\' 和其他 \'藍牙\' 應用程式資料。
-    <br>- 更多信息: https://dontkillmyapp.com
-    <br><br><small>本產品及其功能並非為醫療目的而設計，不用於預測、診斷、預防或治療任何疾病。所有數據和測量僅供個人參考，不應作為診斷或治療的依據。</small>
+    <p>要使用 <app_name/>，需在同一支手機上安裝官方的 <device_type/> 應用程式。請先在該應用中完成手錶配對，之後即可使用本應用程式。</p>
+    <p>若無法搜尋到 <device_type/>，可於搜尋時手動輸入 MAC 位址。</p>
+    <b>連線問題排解建議：</b>
+    <br>- 最近使用的應用程式畫面：將 <app_name/> 鎖定（下拉預覽畫面並選擇「鎖定」）。
+    <br>- 手機／電池最佳化：將 <app_name/> 設為不受限制。
+    <br>- 手機／應用程式：清除藍牙共享與其他藍牙應用的資料。
+    <br>- 更多資訊： https://dontkillmyapp.com
+    <br><br><small>本產品及其功能並非為醫療用途設計，亦無法預測、診斷、預防或治療任何疾病。所有數據與測量僅供個人參考，不應作為診斷或治療之依據。</small>
     ]]></string>
 
+    <!-- Notification -->
+    <string name="notification_group_nav_setting">設定</string>
+    <string name="notification_group_nav_filter">通知篩選</string>
+    <string name="notification_group_nav_correction">通知修正</string>
+
+    <string name="notification_group_name">名稱</string>
+    <string name="notification_group_monitoring">通知監控</string>
+    <string name="notification_group_monitoring_disabled">排除通知（不顯示該應用程式的通知）</string>
+    <string name="notification_group_alert_title">%1$s 通知提醒</string>
+
+    <string name="notification_group_text_customization">文字自訂</string>
+    <string name="notification_group_text_app_name">應用程式名稱</string>
+    <string name="notification_group_text_name">名稱</string>
+    <string name="notification_group_text_title">標題</string>
+    <string name="notification_group_text_content">內容</string>
+    <string name="notification_group_text_big_content">完整內容</string>
+    <string name="notification_group_text_content_slice_title">文字長度</string>
+    <string name="notification_group_display_duration_title">顯示時長</string>
+    <string name="notification_group_show_notification_title">顯示通知</string>
+    <string name="notification_group_immediate">收到通知時立即提醒</string>
+    <string name="notification_group_connecting">連線時提醒</string>
+    <string name="notification_group_reminder">提醒通知</string>
+    <string name="notification_group_ongoing">針對無法清除的常駐通知發出提醒</string>
+    <string name="notification_group_screen_off">僅在螢幕關閉時提醒</string>
+    <string name="notification_group_repeat_title">重複提醒</string>
+    <string name="notification_group_wakelock">喚醒手機螢幕</string>
+    <string name="notification_group_grouped_display_title">群組通知顯示設定</string>
+    <string name="notification_group_grouped_sort_order_title">群組通知排序順序</string>
+
+    <string name="notification_group_filter">通知篩選</string>
+    <string name="notification_group_filter_title">標題篩選</string>
+    <string name="notification_group_filter_content">內容篩選</string>
+    <string name="notification_group_filter_regex">正則表達式</string>
+    <string name="notification_group_filter_hint">僅當通知標題或內容符合條件時提醒（不區分大小寫）</string>
+    <string name="notification_group_filter_contains">包含下列任一內容</string>
+    <string name="notification_group_filter_not_contains">不包含下列任何內容</string>
+
+    <string name="notification_group_sample_sms">簡訊</string>
+    <string name="notification_group_sample_facebook">Messenger</string>
+    <string name="notification_group_sample_whatsapp">WhatsApp</string>
+
+    <string name="notification_group_correction">通知文字修正</string>
+    <string name="notification_group_correction_title">標題修正</string>
+    <string name="notification_group_correction_content">內容修正</string>
+    <string name="notification_group_correction_regex">正則表達式</string>
+    <string name="notification_group_correction_hint">不區分大小寫</string>
+    <string name="notification_group_correction_items">待修正的文字</string>
+    <string name="notification_group_correction_find">尋找文字</string>
+    <string name="notification_group_correction_replace">取代為</string>
+
+    <string name="notification_regex_hint">非英數字元具有特殊意義。如果您不熟悉正則表達式，請不要啟用此選項。</string>
+
+    <string name="notification_confirm_close">確定要放棄變更嗎？</string>
+
+    <string name="notification_edit_play_text_title">通知標題</string>
+    <string name="notification_edit_play_text_content">通知內容：</string>
 
     <!-- Incoming call alert -->
     <string name="call_tab_call">來電</string>
-    <string name="call_tab_contacts">聯絡方式</string>
+    <string name="call_tab_contacts">聯絡人</string>
 
     <string name="call_incoming">來電</string>
-    <string name="call_incoming_summary_on">（開）不要忘記在%1$s應用程式上關閉來電通知</string> <!-- %1$s = official app name -->
-    <string name="call_incoming_caller_id">來電顯示</string>
+    <string name="call_incoming_summary_on">請勿忘記在 %1$s 應用程式中關閉來電提醒</string>
+    <string name="call_incoming_caller_id">顯示來電者資訊</string>
 
     <string name="pref_call_notification_rejected">顯示拒接來電的通知</string>
     <string name="pref_call_notification_rejected_message">拒接來電</string>
     <string name="pref_call_notification_rejected_action">通話</string>
 
-    <string name="call_incoming_net_alert_title">網路電話通知</string>
+    <string name="call_incoming_net_alert_title">網路來電提醒</string>
 
-    <string name="call_missed_title">未接來電通知</string>
-    <string name="call_missed_chooser_title">%1$s 通知</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="call_missed_title">未接來電提醒</string>
+    <string name="call_missed_chooser_title">%1$s 通知</string>
     <string name="call_missed_notification">未接來電</string>
 
-    <string name="call_reject_button_action">拒接按鈕</string>
+    <string name="call_reject_button_action">拒接來電按鈕動作</string>
 
     <string name="touch_call_answer_title">接聽來電</string>
-    <string name="touch_call_answer_speakerphone_title">手機喇叭</string>
+    <string name="touch_call_answer_speakerphone_title">免持聽筒</string>
 
-    <string name="call_end_title">通話拒接，結束</string>
+    <string name="call_end_title">拒接通話</string>
 
-    <string name="touch_call_mute_title">通話靜音</string>
-    <string name="touch_call_mute_only_call_state_ringing_title">僅當有來電時</string>
+    <string name="touch_call_mute_title">靜音通話</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">僅在來電時</string>
     <string name="touch_call_mute_recognition_title">來電時</string>
 
-    <string name="call_contact_edit_contact">接觸</string>
+    <string name="call_contact_edit_contact">聯絡人</string>
     <string name="call_contact_edit_name">姓名</string>
     <string name="call_contact_edit_phone_number">電話號碼</string>
 
-    <string name="call_contact_edit_setting_name_order">姓名順序</string>
+    <string name="call_contact_edit_setting_name_order">姓名顯示順序</string>
     <string name="call_contact_edit_setting_default">@string/default_</string>
-    <string name="call_contact_edit_setting_first_name">名</string>
-    <string name="call_contact_edit_setting_last_name">姓</string>
+    <string name="call_contact_edit_setting_first_name">名字</string>
+    <string name="call_contact_edit_setting_last_name">姓氏</string>
 
-    <string name="message_call_contacts_free_counter">免費模式下最多可使用 %1$d 個聯絡人</string>
-    <string name="message_call_contacts_max_counter">最多可使用 %1$d 個聯絡人</string>
-
-    <!-- Notification Dialog -->
-    <string name="notification_group_nav_setting">設定</string>
-    <string name="notification_group_nav_filter">通知過濾</string>
-    <string name="notification_group_nav_correction">通知修正</string>
-
-    <string name="notification_group_name">名稱</string>
-    <string name="notification_group_monitoring">監控通知</string>
-    <string name="notification_group_monitoring_disabled">禁用通知（不顯示該程式的通知）</string>
-    <string name="notification_group_alert_title">%1$s signal</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
-    <string name="notification_group_text_customization">文字顯示</string>
-    <string name="notification_group_text_app_name">程式名稱</string>
-    <string name="notification_group_text_name">名稱</string>
-    <string name="notification_group_text_title">標題</string>
-    <string name="notification_group_text_content">內容</string>
-    <string name="notification_group_text_big_content">全部內容</string>
-    <string name="notification_group_text_content_slice_title">文字長度</string>
-    <string name="notification_group_display_duration_title">顯示時間</string>
-    <string name="notification_group_show_notification_title">顯示通知</string>
-    <string name="notification_group_immediate">收到消息時立刻通知</string>
-    <string name="notification_group_connecting">連結到手機時</string>
-    <string name="notification_group_reminder">提醒信號</string>
-    <string name="notification_group_ongoing">持續（不斷的）通知</string>
-    <string name="notification_group_screen_off">僅在螢幕關閉時通知</string>
-    <string name="notification_group_repeat_title">重複信號</string>
-    <string name="notification_group_wakelock">喚醒手機螢幕</string>
-    <string name="notification_group_grouped_display_title">群組通知顯示設定</string>
-    <string name="notification_group_grouped_sort_order_title">群組通知排序</string>
-
-    <string name="notification_group_filter">通知過濾</string>
-    <string name="notification_group_filter_title">標題過濾</string>
-    <string name="notification_group_filter_content">內容過濾</string>
-    <string name="notification_group_filter_regex">正則表達式</string>
-    <string name="notification_group_filter_hint">僅在通知的標題或內容時（不區分大小寫）發出通知</string>
-    <string name="notification_group_filter_contains">Contains any phrases</string>
-    <string name="notification_group_filter_not_contains">Contains none phrases</string>
-
-    <string name="notification_group_sample_sms">SMS</string>
-    <string name="notification_group_sample_facebook">Messenger</string>
-    <string name="notification_group_sample_whatsapp">WhatsApp</string>
-
-    <string name="notification_group_correction">文字修正</string>
-    <string name="notification_group_correction_title">標題修正</string>
-    <string name="notification_group_correction_content">內容修正</string>
-    <string name="notification_group_correction_regex">正則表達式</string>
-    <string name="notification_group_correction_hint">不區分大小寫</string>
-    <string name="notification_group_correction_items">需要修正的內容</string>
-    <string name="notification_group_correction_find">尋找</string>
-    <string name="notification_group_correction_replace">替換成</string>
-
-    <string name="notification_regex_hint">非字母數字字符具有特殊含義，如果您不知道正則表達式，請不要勾選</string>
-
-    <string name="notification_confirm_close">您確定要放棄更改嗎？</string>
-
-    <string name="notification_edit_play_text_title">通知標題</string>
-    <string name="notification_edit_play_text_content">通知內容:
-    In publishing and graphic design, lorem ipsum is a filler text or greeking commonly used to demonstrate the textual elements of a graphic document or visual presentation.
-        \nReplacing meaningful content with placeholder text allows designers to design the form of the content before the content itself has been produced.
-    </string>
-
+    <string name="message_call_contacts_free_counter">免費模式下最多可使用 %1$d 筆聯絡人</string>
+    <string name="message_call_contacts_max_counter">最多可使用 %1$d 筆聯絡人</string>
 
     <!-- App chooser dialog -->
-    <string name="app_chooser">選擇程式</string>
-    <string name="action_search">尋找</string>
-    <string name="action_filter_notification">過濾通知</string>
-
+    <string name="app_chooser">選擇應用程式</string>
+    <string name="action_search">搜尋</string>
+    <string name="action_filter_notification">通知篩選</string>
 
     <!-- Activity -->
-    <string name="step_details">活動資訊</string>
+    <string name="step_details">活動詳情</string>
 
-    <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
-    <string name="mi_band_tracker_distance_meter_title">%1$,d 公尺</string> <!-- meter -->
-    <string name="mi_band_tracker_distance_kilometer_title">%,.2f km</string> <!-- kilometre -->
-    <string name="mi_band_tracker_distance_mile_title">%,.2f 英里</string> <!-- mile -->
-    <string name="mi_band_tracker_calorie_title">%1$,d 大卡</string> <!-- kilo calorie -->
+    <string name="mi_band_tracker_step_title">%1$,d</string>
+    <string name="mi_band_tracker_distance_meter_title">%1$,d 公尺</string>
+    <string name="mi_band_tracker_distance_kilometer_title">%,.2f 公里</string>
+    <string name="mi_band_tracker_distance_mile_title">%,.2f 英里</string>
+    <string name="mi_band_tracker_calorie_title">%1$,d 卡路里</string>
 
     <string name="action_tracker_step">步數</string>
     <string name="action_tracker_distance">距離</string>
     <string name="action_tracker_calorie">卡路里</string>
-    <string name="action_tracker_duration">鍛煉時間</string>
+    <string name="action_tracker_duration">運動時間</string>
 
     <string name="step_goal_default_title">預設目標</string>
 
-
     <!-- Sleep monitoring -->
-    <string name="sleep_details">睡眠详情</string>
+    <string name="sleep_details">睡眠資訊</string>
 
     <string name="sleep_awake_phase_short">清醒</string>
     <string name="sleep_light_phase_short">淺眠</string>
@@ -371,12 +364,12 @@
     <string name="sleep_rem_phase_short">REM</string>
 
     <!-- Heart rate -->
-    <string name="heart_rate_details">心率資訊</string>
+    <string name="heart_rate_details">心率詳情</string>
 
     <string name="heart_rate_continuous_measurement_title">持續測量心率</string>
 
     <string name="heart_rate_alert_title">心率警示</string>
-    <string name="heart_rate_thresholds">心率閾值</string>
+    <string name="heart_rate_thresholds">心率範圍</string>
     <string name="low_heart_rate">低心率</string>
     <string name="high_heart_rate">高心率</string>
 
@@ -384,138 +377,129 @@
     <!-- Blood oxygen -->
     <string name="blood_oxygen_details">血氧詳情</string>
 
-    <string name="blood_oxygen_level_measurement">Blood oxygen level measurement</string>
-    <string name="measurement_interval">Measurement interval</string>
-
+    <string name="blood_oxygen_level_measurement">血氧濃度測量</string>
+    <string name="measurement_interval">測量間隔</string>
 
     <!-- Blood pressure -->
     <string name="blood_pressure_details">血壓詳情</string>
 
-    <string name="blood_pressure_level_measurement">Blood pressure level measurement</string>
+    <string name="blood_pressure_level_measurement">血壓測量</string>
 
-    <string name="blood_pressure_systolic_abbreviation">Sys</string>
-    <string name="blood_pressure_diastolic_abbreviation">Dia</string>
+    <string name="blood_pressure_systolic_abbreviation">收</string>
+    <string name="blood_pressure_diastolic_abbreviation">舒</string>
     <string name="blood_pressure_unit">mmHg</string>
 
-
     <!-- Workout -->
-    <string name="workout_details">鍛煉細節</string>
-
+    <string name="workout_details">運動詳情</string>
 
     <!-- Alarm -->
-    <string name="action_time_alarm_sort_state_asc">State ascending</string>
-    <string name="action_time_alarm_sort_watch_asc">Watch ascending</string>
-    <string name="action_time_alarm_sort_name_asc">Name ascending</string>
+    <string name="action_time_alarm_sort_state_asc">依狀態排序</string>
+    <string name="action_time_alarm_sort_watch_asc">依手錶排序</string>
+    <string name="action_time_alarm_sort_name_asc">依名稱排序</string>
 
-    <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Haylou Smart Watch ... -->
+    <string name="message_time_alarm_sync">同步 %1$s 鬧鐘（將刪除現有鬧鐘並設定新鬧鐘至手錶）</string>
 
     <string name="info_dialog_alarm"><![CDATA[
-        <p>使用協作模式時，原始應用程序和<app_name/>應用程序的設置可以覆蓋和刪除彼此的設置。</p>
-        最後執行的操作將生效。
+    <p>使用協作模式時，官方應用程式與 <app_name/> 應用程式的設定可能會互相覆蓋或刪除。</p>
+    最後執行的操作將會生效。
+    ]]></string>
+
+    <!-- Reminder -->
+    <string name="message_reminder_enabled">提醒已啟用</string>
+    <string name="message_reminder_disabled">提醒已停用</string>
+    <string name="reminder_repeat">每小時重複</string>
+    <string name="reminder_notification_on_phone">在手機上通知</string>
+    <string name="message_time_reminder_free_counter">免費模式僅可使用 1 個提醒</string>
+
+    <string name="info_dialog_reminder"><![CDATA[
+    顯示提醒需連接藍牙。
+    ]]></string>
+
+    <!-- Do not disturb -->
+    <string name="pref_dnd_summary">勿擾模式下的控制項狀態</string>
+    <string name="pref_dnd_enable_bluetooth">啟動勿擾模式時關閉藍牙，結束時重新開啟</string>
+
+    <string name="info_dialog_dnd"><![CDATA[
+    若使用協作模式，請確保在官方 <device_type/> 應用程式中，勿擾模式的時間範圍設定為 00:00 至 23:59，且狀態為關閉。
     ]]></string>
 
 
-    <!-- Reminder -->
-    <string name="message_reminder_enabled">提醒已启用</string>
-    <string name="message_reminder_disabled">提醒已禁用</string>
-
-    <string name="reminder_repeat">每小時重複</string>
-    <string name="reminder_notification_on_phone">在手机上通知</string>
-
-    <string name="message_time_reminder_free_counter">免費模式下最多可使用1個提醒</string>
-
-    <string name="info_dialog_reminder"><![CDATA[
-        显示提醒需要蓝牙连接
-        ]]>
-    </string>
-
-
-    <!-- Do not disturb -->
-    <string name="pref_dnd_summary">勿擾模式狀態</string>
-    <string name="pref_dnd_enable_bluetooth">在勿擾模式開始時關閉藍牙,結束後再打開藍牙</string>
-
-    <string name="info_dialog_dnd"><![CDATA[
-        If you are using cooperation mode, in the official <device_type/> application the do not disturb (DnD) mode must be between 00:00 and 23:59 and its status must be turned off.
-    ]]></string> <!-- %1$s Haylou fit-->
-
-
     <!-- Watch face -->
-    <string name="watch_face_tab_watch_faces">表盘</string>
-    <string name="watch_face_tab_watch_face_custom">Custom files</string>
-    <string name="watch_face_tab_watch_face_editor">編輯</string>
+    <string name="watch_face_tab_watch_faces">錶面</string>
+    <string name="watch_face_tab_watch_face_custom">自訂檔案</string>
+    <string name="watch_face_tab_watch_face_editor">編輯器</string>
 
-    <string name="watch_face_download_title">下载表盘</string>
-    <string name="watch_face_upload_title">更换表盘</string>
-    <string name="watch_face_tool_title">Tools</string>
+    <string name="watch_face_download_title">下載錶面</string>
+    <string name="watch_face_upload_title">上傳錶面</string>
+    <string name="watch_face_tool_title">工具</string>
 
-    <string name="watch_face_share_content">You can share the watch face you have created with others. E-mail the watch face and preview files and enter the following information: author, watch face name (max. 30 characters in total) and the watch face language. We only publish high quality watch faces.</string>
+    <string name="watch_face_share_content">您可以將自己設計的錶面與他人分享。請透過電子郵件寄送錶面及預覽檔案，並提供以下資訊：作者名稱、錶面名稱（最多 30 個字元）、語言。僅會發布高品質錶面。</string>
 
-    <string name="watch_face_upload_prepare">正在准备上传…</string>
-    <string name="watch_face_upload_progress">上传中… %1$,d%%</string>
+    <string name="watch_face_upload_prepare">正在準備上傳…</string>
+    <string name="watch_face_upload_progress">上傳中 %1$,d%%</string>
 
-    <string name="watch_face_invalid_firmware">%1$s 韌體未知或不支援上傳錶面。請使用官方應用程式更新韌體。如果官方應用程式支援上傳錶面，請透過反饋選單告知我們。</string>
-    <string name="watch_face_invalid_auth">Use in standalone mode, when using cooperation mode, the official application may block the watch face upload</string>
-    <string name="watch_face_invalid_free">在免費模式下，今天無法再上傳更多錶盤</string>
+    <string name="watch_face_invalid_firmware">%1$s 韌體未知或不支援上傳錶面。請使用官方應用程式更新韌體。如果支援此功能，請透過「意見回饋」功能通知我們。</string>
+    <string name="watch_face_invalid_auth">請使用獨立模式；若使用協作模式，官方應用程式可能會阻擋錶面上傳</string>
+    <string name="watch_face_invalid_free">免費模式下今日已達上傳次數上限</string>
     <string name="watch_face_watch_rewarded_ads">觀看影片以繼續</string>
     <string name="watch_face_watch_rewarded_ads_uploading">觀看影片以繼續上傳</string>
-    <string name="watch_face_watch_rewarded_ads_countdown">影片開始中…</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">正在播放影片…</string>
 
-    <string name="watch_face_upload_method_title">Method</string>
+    <string name="watch_face_upload_method_title">模式</string>
     <string name="watch_face_upload_method_default">@string/default_</string>
-    <string name="watch_face_upload_method_alternative">Alternative</string>
+    <string name="watch_face_upload_method_alternative">替代方式</string>
 
     <string name="watch_face_upload_speed_title">上傳速度</string>
-    <string name="watch_face_upload_invalid_speed_hint">如果錶面上傳過程中斷，請設定較低的速度</string>
-    <string name="watch_face_upload_invalid_size_hint">無效的錶面檔案大小 — 請設定較低的錶面品質或從錶面中移除項目</string>
-    <string name="watch_face_upload_invalid_battery_hint">智慧手錶電量不足，請為手錶充電</string>
+    <string name="watch_face_upload_invalid_speed_hint">若上傳過程中斷，請設定較低的上傳速度</string>
+    <string name="watch_face_upload_invalid_size_hint">錶面檔案大小無效，請降低品質或移除部分內容</string>
+    <string name="watch_face_upload_invalid_battery_hint">智慧手錶電量過低，請先充電</string>
 
     <string name="watch_face_tbwf_quality_title">.tbwf 錶面品質設定</string>
-    <string name="watch_face_tbwf_quality_hint">如果手錶允許，可減少檔案大小</string>
+    <string name="watch_face_tbwf_quality_hint">若手錶支援，可壓縮檔案大小</string>
 
-    <string name="watch_face_tbwf_locale_title">.tbwf 錶面語言與國家設定</string>
-    <string name="watch_face_tbwf_locale_hint">星期幾、月份分隔符號與小數點分隔符號</string>
+    <string name="watch_face_tbwf_locale_title">.tbwf 語言與地區設定</string>
+    <string name="watch_face_tbwf_locale_hint">包含星期名稱、月份分隔符號、小數點符號</string>
 
-    <string name="message_watch_face_file_invalid">无效的表盘文件</string>
-    <string name="message_watch_face_file_invalid_size">無效的錶面檔案大小</string>
+    <string name="message_watch_face_file_invalid">錶面檔案無效</string>
+    <string name="message_watch_face_file_invalid_size">錶面檔案大小無效</string>
     <string name="message_watch_face_file_invalid_battery">智慧手錶電量不足</string>
-    <string name="message_watch_face_image_file_error">无效的图像文件</string>
-    <string name="message_watch_face_font_file_error">无效的字体文件</string>
+    <string name="message_watch_face_image_file_error">圖片檔案無效</string>
+    <string name="message_watch_face_font_file_error">字型檔案無效</string>
 
     <string name="action_chart_layout_2_columns">兩欄佈局</string>
     <string name="action_chart_layout_3_columns">三欄佈局</string>
 
-
     <string name="watch_face_edit_dial">錶盤</string>
     <string name="watch_face_edit_preview">預覽</string>
-    <string name="watch_face_edit_hour_digital">小時</string>
-    <string name="watch_face_edit_minute_digital">分鐘</string>
-    <string name="watch_face_edit_second_digital">第二</string>
-    <string name="watch_face_edit_am_pm">AM/PM indicator</string>
-    <string name="watch_face_edit_am">AM</string>
-    <string name="watch_face_edit_pm">PM</string>
+    <string name="watch_face_edit_hour_digital">時</string>
+    <string name="watch_face_edit_minute_digital">分</string>
+    <string name="watch_face_edit_second_digital">秒</string>
+    <string name="watch_face_edit_am_pm">上午／下午指示</string>
+    <string name="watch_face_edit_am">上午</string>
+    <string name="watch_face_edit_pm">下午</string>
     <string name="watch_face_edit_hour_analog">時針</string>
     <string name="watch_face_edit_minute_analog">分針</string>
     <string name="watch_face_edit_second_analog">秒針</string>
-    <string name="watch_face_edit_axis">Axis of rotation</string>
-    <string name="watch_face_edit_hour_minute_separator">小時和分鐘分隔符</string>
+    <string name="watch_face_edit_axis">旋轉中心</string>
+    <string name="watch_face_edit_hour_minute_separator">時分分隔符</string>
     <string name="watch_face_edit_year">年</string>
-    <string name="watch_face_edit_year_month_separator">年和月分隔符</string>
+    <string name="watch_face_edit_year_month_separator">年月分隔符</string>
     <string name="watch_face_edit_month">月</string>
     <string name="watch_face_edit_month_name">月份名稱</string>
-    <string name="watch_face_edit_month_day_separator">月和日分隔符</string>
+    <string name="watch_face_edit_month_day_separator">月日分隔符</string>
     <string name="watch_face_edit_day">日</string>
-    <string name="watch_face_edit_dayOfWeek">一周中的一天</string>
-    <string name="watch_face_edit_battery_level">電池量</string>
-    <string name="watch_face_edit_battery_level_percent_sign">電池量 %</string>
-    <string name="watch_face_edit_battery_level_image">電池圖片</string>
+    <string name="watch_face_edit_dayOfWeek">星期</string>
+    <string name="watch_face_edit_battery_level">電池電量</string>
+    <string name="watch_face_edit_battery_level_percent_sign">電池電量 %</string>
+    <string name="watch_face_edit_battery_level_image">電池圖像</string>
     <string name="watch_face_edit_weather_temperature">溫度</string>
     <string name="watch_face_edit_weather_temperature_unit_sign">溫度單位 °</string>
-    <string name="watch_face_edit_weather_image">天氣圖片</string>
-    <string name="watch_face_edit_connection_indicator_image">連線指示器圖像</string>
-    <string name="watch_face_edit_connected">已連結</string>
-    <string name="watch_face_edit_disconnected">已斷開連結</string>
+    <string name="watch_face_edit_weather_image">天氣圖像</string>
+    <string name="watch_face_edit_connection_indicator_image">連線狀態圖像</string>
+    <string name="watch_face_edit_connected">已連線</string>
+    <string name="watch_face_edit_disconnected">未連線</string>
     <string name="watch_face_edit_steps">步數</string>
-    <string name="watch_face_edit_steps_image">步驟圖片</string>
+    <string name="watch_face_edit_steps_image">步數圖像</string>
     <string name="watch_face_edit_steps_goal_progress">步數目標進度</string>
     <string name="watch_face_edit_distance">距離</string>
     <string name="watch_face_edit_distance_image">距離圖像</string>
@@ -525,17 +509,17 @@
     <string name="watch_face_edit_heart_rate_image">心率圖像</string>
 
     <string name="watch_face_edit_color">顏色</string>
-    <string name="watch_face_edit_font_family">字形</string>
+    <string name="watch_face_edit_font_family">字型</string>
     <string name="watch_face_edit_font_size">字體大小</string>
-    <string name="watch_face_edit_character">Character</string>
-    <string name="watch_face_edit_image">圖片</string>
-    <string name="watch_face_edit_image_png_jpeg">圖片 (.png, .jpeg)</string>
-    <string name="watch_face_edit_image_png">圖片 (.png)</string>
-    <string name="watch_face_edit_icon">Icon</string>
-    <string name="watch_face_edit_image_size">圖片尺寸</string>
+    <string name="watch_face_edit_character">字元</string>
+    <string name="watch_face_edit_image">圖像</string>
+    <string name="watch_face_edit_image_png_jpeg">圖像（.png, .jpeg）</string>
+    <string name="watch_face_edit_image_png">圖像（.png）</string>
+    <string name="watch_face_edit_image_size">圖像尺寸</string>
+    <string name="watch_face_edit_icon">圖示</string>
 
     <string name="watch_face_custom_watch_face_not_supported_title">此手錶不支援上傳自訂錶面</string>
-    <string name="watch_face_custom_watch_face_under_development_title">自訂錶面上傳功能目前正在開發中，未來可能會提供，但尚未確認。</string>
+    <string name="watch_face_custom_watch_face_under_development_title">自訂錶面上傳功能仍在開發中，未來可能提供，但尚未確認。</string>
 
     <!-- Touch monitoring -->
     <string name="touch_tab_function">功能</string>
@@ -543,154 +527,153 @@
     <string name="touch_tab_testing">測試</string>
     <string name="touch_tab_setting">@string/setting_name</string>
 
-    <string name="touch_function_summary">如果您使用獨立模式或未由Mi Fit妥善管理，請設定這些功能</string>
-    <string name="touch_function">%1$s 功能</string> <!-- %1$s = Watch name -->
-    <string name="touch_function_as_touch">在控制選單中使用功能進行觸摸</string>
+    <string name="touch_function_summary">如果您使用獨立模式，或 Mi Fit 無法正確管理，請設定這些功能</string>
+    <string name="touch_function">%1$s 功能</string>
+    <string name="touch_function_as_touch">在控制選單中作為觸控功能使用</string>
 
-    <string name="touch_headline_incoming_call_title">通話</string>
+    <string name="touch_headline_incoming_call_title">來電</string>
     <string name="touch_headline_other_function_title">其他功能</string>
     <string name="touch_headline_call_title">通話控制</string>
     <string name="touch_headline_music_title">音樂控制</string>
-    <string name="touch_headline_time_title">計時器/倒數計時 控制</string>
+    <string name="touch_headline_time_title">計時器／碼錶控制</string>
     <string name="touch_headline_other_title">其他控制</string>
 
     <string name="touch_device_location_title">尋找手機</string>
-    <string name="touch_device_location_not_muted_only_title">僅當未靜音或處於勿擾模式模式時才發出聲音</string>
+    <string name="touch_device_location_not_muted_only_title">僅在未靜音或未啟用勿擾模式時發出聲音</string>
 
-    <string name="touch_mute_toggle_title">開啟靜音</string>
+    <string name="touch_mute_toggle_title">切換靜音</string>
     <string name="touch_mute_toggle_ringer_mode_title">靜音模式</string>
-    <string name="touch_mute_toggle_mute_off_title">解除靜音</string>
+    <string name="touch_mute_toggle_mute_off_title">取消靜音</string>
 
     <string name="touch_music_title">音樂</string>
-    <string name="touch_music_function_launch">如果未識別音樂播放器，請使用“播放”按鈕開始音樂</string>
-    <string name="touch_music_function_mi_band_message_launch">使用播放按鈕開始音樂</string>
+    <string name="touch_music_function_launch">如果未偵測到音樂播放器，請使用播放鍵啟動音樂</string>
+    <string name="touch_music_function_mi_band_message_launch">使用播放鍵啟動音樂</string>
     <string name="touch_music_function_mi_band_message_no_track_title">無法取得歌曲名稱</string>
 
-    <string name="touch_call_out_title">致電</string>
+    <string name="touch_call_out_title">撥打電話</string>
     <string name="touch_call_out_no_contact">選擇聯絡人</string>
-    <string name="touch_call_out_summary">按兩下即可接聽電話</string>
-    <string name="touch_call_out_summary_support_call_display_button">按下按鈕接聽電話</string>
-    <string name="touch_call_out_speakerphone_title">手機喇叭</string>
-    <string name="touch_call_out_call_text">致電: %1$s</string>
+    <string name="touch_call_out_summary">雙擊即可接聽來電</string>
+    <string name="touch_call_out_summary_support_call_display_button">按下按鈕接聽來電</string>
+    <string name="touch_call_out_speakerphone_title">免持聽筒</string>
+    <string name="touch_call_out_call_text">撥打電話：%1$s</string>
 
     <string name="touch_weather_title">天氣預報</string>
-    <string name="touch_weather_location">更新位置</string>
-    <string name="touch_weather_precipitation">Precipitation</string>
-    <string name="touch_weather_cloud_cover">Cloud cover</string>
-    <string name="touch_weather_wind">風</string>
+    <string name="touch_weather_location">位置更新</string>
+    <string name="touch_weather_precipitation">降雨量</string>
+    <string name="touch_weather_cloud_cover">雲量</string>
+    <string name="touch_weather_wind">風速</string>
 
     <string name="touch_repeat_notif_title">重複通知</string>
     <string name="touch_repeat_notif_clear_all">重複後清除所有通知</string>
 
-    <string name="touch_clear_notif_title">清除手機上的通知</string>
+    <string name="touch_clear_notif_title">從手機清除通知</string>
 
-    <string name="touch_music_play_pause_title">音樂開始，播放，暫停</string>
-    <string name="touch_music_skip_previous_title">音樂開始，上一首歌</string>
-    <string name="touch_music_skip_next_title">音樂開始，下一首歌</string>
-    <string name="touch_music_headset_only_title">僅在連接耳機的情況下</string>
-    <string name="touch_music_launch">播放音樂</string>
-    <string name="touch_music_volume_up_title">音樂音量調高</string>
-    <string name="touch_music_volume_down_title">音樂音量降低</string>
-    <string name="touch_music_track_info_title">顯示音樂曲目資訊。</string>
+    <string name="touch_music_play_pause_title">播放／暫停音樂</string>
+    <string name="touch_music_skip_previous_title">播放上一首</string>
+    <string name="touch_music_skip_next_title">播放下一首</string>
+    <string name="touch_music_headset_only_title">僅在連接耳機時執行</string>
+    <string name="touch_music_launch">啟動音樂</string>
+    <string name="touch_music_volume_up_title">音量加大</string>
+    <string name="touch_music_volume_down_title">音量降低</string>
+    <string name="touch_music_track_info_title">顯示曲目信息</string>
 
     <string name="touch_time_launch_title">開始時間監控</string>
     <string name="touch_time_launch_type_timer_title">計時器</string>
-    <string name="touch_time_launch_type_stopper_title">倒數計時</string>
+    <string name="touch_time_launch_type_stopper_title">碼錶</string>
     <string name="touch_time_launch_type_interval_title">間隔</string>
     <string name="touch_time_launch_restart">若正在進行則重新啟動</string>
-    <string name="touch_time_reminder_title">顯示剩餘/已用時間</string>
+    <string name="touch_time_reminder_title">顯示剩餘／已用時間</string>
 
-    <string name="touch_google_assistant_title">Google Assistant</string>
+    <string name="touch_google_assistant_title">Google 助理</string>
 
-    <string name="touch_flashlight_title">開啟手電筒</string>
+    <string name="touch_flashlight_title">手電筒切換</string>
 
     <string name="touch_camera_title">拍照</string>
-    <string name="touch_camera_front_title">前置鏡頭</string>
-    <string name="touch_camera_rear_title">後置鏡頭</string>
+    <string name="touch_camera_front_title">前鏡頭</string>
+    <string name="touch_camera_rear_title">後鏡頭</string>
     <string name="touch_camera_install_title">安裝</string>
 
-    <string name="touch_app_launcher1_title">程式啟動器</string>
+    <string name="touch_app_launcher1_title">應用程式啟動器</string>
     <string name="touch_app_launcher_package_no_title">選擇應用程式</string>
-    <string name="touch_app_launcher1_not_wakelock_only_title">僅當螢幕未鎖定時</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">僅在螢幕未鎖定時</string>
 
-    <string name="touch_broadcast1_title">Send Broadcast</string>
-    <string name="touch_broadcast1_action_title">Intent action</string>
-    <string name="touch_broadcast1_package_title">Intent package name</string>
+    <string name="touch_broadcast1_title">傳送廣播</string>
+    <string name="touch_broadcast1_action_title">Intent 動作</string>
+    <string name="touch_broadcast1_package_title">Intent 套件名稱</string>
 
-    <string name="touch_http_request1_title">1. HTTP request</string>
-    <string name="touch_http_request2_title">2. HTTP request</string>
+    <string name="touch_http_request1_title">1. HTTP 請求</string>
+    <string name="touch_http_request2_title">2. HTTP 請求</string>
     <string name="touch_http_request_url_title">URL</string>
-    <string name="touch_http_request_method_title">Method</string>
-    <string name="touch_http_request_body_title">Body</string>
-    <string name="touch_http_request_show_response_title">Show the response</string>
+    <string name="touch_http_request_method_title">方法</string>
+    <string name="touch_http_request_body_title">內容</string>
+    <string name="touch_http_request_show_response_title">顯示回應</string>
 
     <string name="touch_tasker_launcher1_title">1. Tasker 任務啟動器</string>
     <string name="touch_tasker_launcher2_title">2. Tasker 任務啟動器</string>
-    <string name="touch_tasker_launcher_no_permission_title">您必須先安裝Tasker 在 Mi Bandage 之後</string>
+    <string name="touch_tasker_launcher_no_permission_title">請先安裝 Tasker，再安裝 Mi Bandage</string>
     <string name="touch_tasker_launcher_no_access_title">允許外部存取</string>
     <string name="touch_tasker_launcher_no_task_title">選擇任務</string>
 
     <string name="touch_testing_title">觸控監測</string>
-    <string name="touch_testing_second">秒.</string>
+    <string name="touch_testing_second">秒</string>
 
-    <string name="touch_setting_detection_time_title">觸控檢測時間</string>
-    <string name="touch_setting_detection_time_music_hint">如果值較低，則音樂螢幕會更快關閉</string>
-    <string name="touch_setting_detection_time_button_hint">如果值較低，則更快地按按鈕</string>
+    <string name="touch_setting_detection_time_title">觸控偵測時間</string>
+    <string name="touch_setting_detection_time_button_hint">較低的數值需更快連續點擊以觸發按鍵操作</string>
 
-    <string name="touch_setting_detection_method_title">Touch detection method</string>
+    <string name="touch_setting_detection_method_title">觸控偵測方法</string>
 
     <string name="touch_setting_recognition_start_title">開始觸控識別</string>
-    <string name="touch_setting_recognition_start_trigger_title">觸發器</string>
+    <string name="touch_setting_recognition_start_trigger_title">觸發條件</string>
     <string name="touch_setting_recognition_time_title">識別時間</string>
 
-    <string name="touch_setting_recognition_mi_band_signal_title">%1$s 通知</string> <!-- %1$s = Watch name -->
+    <string name="touch_setting_recognition_mi_band_signal_title">%1$s 訊號</string>
     <string name="touch_setting_recognition_succeeded_title">可識別的觸控模式</string>
-    <string name="touch_setting_recognition_failed_title">不可識別的觸控模式</string>
+    <string name="touch_setting_recognition_failed_title">無法識別的觸控模式</string>
 
     <string name="info_dialog_touch"><![CDATA[
-        <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
-        <p><b>Phones Bluetooth settings:</b> <device_name/> disable input device</p>
-        <b><u>Recognised touches</u></b>
-        <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
-        <br><device_type/> music control
-        <p><img src="ic_search">
-        <br><device_type/> find my phone
-        </p>
-        Multiple touches can be recorded for each function.
+    <p>在獨立模式下可正常運作。若您使用協同模式，官方的 <app_official/> 應用程式也會處理這些功能，因此無法保證操作正確。</p>
+    <p><b>手機藍牙設定：</b> <device_name/> 請停用輸入裝置</p>
+    <b><u>已識別的觸控</u></b>
+    <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
+    <br><device_type/> 音樂控制
+    <p><img src="ic_search">
+    <br><device_type/> 尋找手機
+    </p>
+    每個功能可記錄多個觸控操作。
     ]]></string>
 
 
     <!-- Weather  -->
     <string name="weather_tab_weather_forecast">天氣</string>
-    <string name="weather_tab_location">地點</string>
+    <string name="weather_tab_location">位置</string>
     <string name="weather_tab_settings">@string/setting_name</string>
 
-    <string name="weather_location_title">地點</string>
+    <string name="weather_location_title">位置</string>
 
-    <string name="weather_forecast_title">天氣預測</string>
+    <string name="weather_forecast_title">天氣預報</string>
 
-    <string name="weather_setting_provider">天氣服務提供者</string>
+    <string name="weather_setting_provider">天氣資料提供者</string>
     <string name="weather_city_title">城市</string>
     <string name="weather_unit_title">單位</string>
-    <string name="weather_unit_metric">攝氏 (Celsius)</string>
-    <string name="weather_unit_imperial">華氏 (Fahrenheit)</string>
-    <string name="weather_automatic_update">自動更新</string>
-    <string name="weather_automatic_update_title">使用您的位置</string>
-    <string name="weather_automatic_update_summary">This application collects location data to update the weather for the current location, even when the app is closed or not in use.</string>
+    <string name="weather_unit_metric">公制（攝氏）</string>
+    <string name="weather_unit_imperial">英制（華氏）</string>
+    <string name="weather_automatic_update">背景自動更新位置</string>
+    <string name="weather_automatic_update_title">使用目前位置</string>
+    <string name="weather_automatic_update_summary">即使應用程式已關閉或未使用，本應用仍會收集位置資料以更新當前地點的天氣。</string>
 
-    <string name="permission_background_location">即使應用程序關閉或未使用， %1$s</string>
+    <string name="permission_background_location">%1$s 將獲得權限，在應用程式關閉或未使用時也能收集位置資料</string>
     <string name="permission_error_title">%1$s 無法更新權限</string>
-    <string name="permission_error_description">打開設置並為位置權限”%1$s”</string>
-    <string name="all_the_time">每時每刻</string>
+    <string name="permission_error_description">請開啟設定並選取「%1$s」以調整位置權限</string>
+    <string name="all_the_time">始終允許</string>
 
     <string name="weather_current_title">目前天氣</string>
     <string name="weather_current_location">目前位置</string>
     <string name="weather_current_temperature">目前氣溫</string>
 
-    <string name="weather_precipitation_rain">下雨</string>
-    <string name="weather_precipitation_snow">下雪</string>
-    <string name="weather_cloud_cover_abbreviation">雲蓋</string>
-    <string name="weather_cloud_cover">雲</string>
+    <string name="weather_precipitation_rain">降雨</string>
+    <string name="weather_precipitation_snow">降雪</string>
+    <string name="weather_cloud_cover_abbreviation">雲量</string>
+    <string name="weather_cloud_cover">雲層</string>
     <string name="weather_humidity">濕度</string>
 
     <string name="weather_north">北</string>
@@ -700,29 +683,27 @@
 
 
     <!-- Text customization -->
-    <string name="pref_text_reminder_repeat_interval_title">重複提醒間隔</string>
-    <string name="pref_text_reminder_repeat_interval_summary">通知 / 提醒 使用此定時</string>
+    <string name="pref_text_reminder_repeat_interval_title">提醒重複間隔</string>
+    <string name="pref_text_reminder_repeat_interval_summary">通知 > 提醒功能使用此時間間隔</string>
     <string name="pref_text_emoticon_title">表情符號轉換</string>
     <string name="pref_text_emoticon_summary_on">將表情符號轉換為顏文字</string>
-    <string name="pref_text_uppercase_title">大寫轉換</string>
+    <string name="pref_text_uppercase_title">轉換為大寫</string>
     <string name="pref_text_uppercase_summary_on">將小寫字母轉換為大寫字母</string>
-    <string name="pref_text_alphanumeric_title">字母數字及ASCII字元</string>
-    <string name="pref_text_alphanumeric_summary_on">僅顯示字母數字及ASCII字元</string>
-    <string name="pref_text_transliteration_title">音譯</string>
-    <string name="pref_text_transliteration_summary_on">將帶重音字母轉換為無重音字母</string>
-    <string name="pref_text_line_separator_title">行分隔符替換</string>
+    <string name="pref_text_alphanumeric_title">英數與 ASCII 字元</string>
+    <string name="pref_text_alphanumeric_summary_on">僅顯示英數與 ASCII 字元</string>
+    <string name="pref_text_transliteration_title">音譯轉換</string>
+    <string name="pref_text_transliteration_summary_on">將有重音的字母轉換為無重音字母</string>
+    <string name="pref_text_line_separator_title">行分隔符替代</string>
     <string name="pref_text_line_separator_summary_on">將預設行分隔符替換為其他字元</string>
-    <string name="pref_text_line_separator_value_title">替換字元</string>
-    <string name="pref_text_char_replacement_title">字元和表情符號替換</string>
-    <string name="pref_text_char_replacement_summary_on">將一個字元替換為另一個字元</string>
-    <string name="pref_text_char_replacement_find">尋找</string>
-    <string name="pref_text_char_replacement_replace">替換為</string>
-
+    <string name="pref_text_line_separator_value_title">替代字元</string>
+    <string name="pref_text_char_replacement_title">字元與表情符號替換</string>
+    <string name="pref_text_char_replacement_summary_on">將某個字元替換為其他字元</string>
+    <string name="pref_text_char_replacement_find">尋找字元</string>
+    <string name="pref_text_char_replacement_replace">替換成</string>
 
     <!-- Export -->
     <string name="export_tab_database">資料匯出</string>
     <string name="export_start_date">匯出開始日期</string>
-
 
     <!-- Theme -->
     <string name="theme_tab_theme">主題</string>
@@ -734,10 +715,18 @@
     <string name="theme_color_dynamic_color_title">動態顏色</string>
     <string name="theme_color_predefined_colors_title">預設顏色</string>
 
-    <string name="theme_notification_title">在通知欄顯示狀態</string>
+    <string name="theme_notification_title">在通知欄中顯示狀態</string>
 
     <string name="theme_cat_color_setting">顏色設定</string>
 
+    <!-- Feedback -->
+    <string name="action_log_notification">日誌</string>
+
+    <string name="feedback_google_play_title">為此應用程式評分</string>
+    <string name="feedback_request_feature_title">功能建議與錯誤回報</string>
+    <string name="feedback_request_feature_summary">此為自動電子郵件處理，可能不會收到回覆</string>
+    <string name="feedback_translation_title">%1$s 翻譯</string> <!-- %1$s = App name -->
+    <string name="feedback_translation_title_summary">歡迎協助我們改進翻譯</string>
 
     <!-- Premium mode -->
     <string name="purchase_advantage_title">高級模式的優點</string>
@@ -766,25 +755,17 @@
     <i>購買完成後，請重新啟動應用程式。</i>
     ]]></string>
 
-    <string name="purchase_google_play_services_not_available">谷歌游戏服务不可用</string>
+    <string name="purchase_google_play_services_not_available">無法使用 Google Play 服務</string>
 
-    <string name="purchase_agree">我同意這條款和條件。</string>
-    <string name="purchase_order_id">訂單ID</string>
-    <string name="purchase_order_id_help">Copy from:
-        \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
-        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <string name="purchase_agree">我同意這些條款和條件。</string>
+    <string name="purchase_order_id">訂單 ID</string>
+    <string name="purchase_order_id_help">可從以下網站複製：
+    \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+    \n<a href="https://payments.google.com">https://payments.google.com</a>
+    </string>
 
-    <string name="purchase_info">One-time fee ・ %1$s</string> <!-- %1$s = price</string>-->
-    <string name="purchase_button_purchase">一次費用</string>
-
-    <!-- Feedback -->
-    <string name="action_log_notification">日誌記錄</string>
-
-    <string name="feedback_google_play_title">為此應用程式評分</string>
-    <string name="feedback_request_feature_title">功能要求，錯誤報告</string>
-    <string name="feedback_request_feature_summary">Automatic e-mail processing, you may not get an response</string>
-    <string name="feedback_translation_title">%1$s 翻譯</string> <!-- %1$s = App name -->
-    <string name="feedback_translation_title_summary">請協助翻譯</string>
+    <string name="purchase_info">一次性費用・%1$s</string>
+    <string name="purchase_button_purchase">購買</string>
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">隱私政策</string>
@@ -856,24 +837,22 @@
 
 
     <!-- Custom vibration dialog -->
-    <string name="custom_vibration_title">震動模式</string>
-
+    <string name="custom_vibration_title">震動設定</string>
 
     <!-- Shortcuts -->
-    <string name="shortcut">Shortcut</string>
-    <string name="shortcut_visible_items">Shortcut items</string>
-    <string name="shortcut_hidden_items">Hidden shortcut items</string>
+    <string name="shortcut">捷徑</string>
+    <string name="shortcut_visible_items">可見捷徑項目</string>
+    <string name="shortcut_hidden_items">隱藏的捷徑項目</string>
 
-    <string name="shortcut_status">状态</string>
+    <string name="shortcut_status">狀態</string>
     <string name="shortcut_heart_rate">心率</string>
     <string name="shortcut_blood_oxygen">血氧</string>
     <string name="shortcut_sleep">睡眠</string>
-    <string name="shortcut_breathing">Breathing</string>
-    <string name="shortcut_weather">天气</string>
-    <string name="shortcut_stress">Stress</string>
+    <string name="shortcut_breathing">呼吸</string>
+    <string name="shortcut_weather">天氣</string>
+    <string name="shortcut_stress">壓力</string>
 
-
-    <!-- Others -->
+    <!-- Actions -->
     <string name="tab_daily_charts">每日圖表</string>
     <string name="tab_weekly_charts">每週圖表</string>
     <string name="tab_monthly_charts">每月圖表</string>
@@ -882,112 +861,112 @@
     <string name="ad_attribution">廣告</string>
     <string name="on">開啟</string>
     <string name="off">關閉</string>
-    <string name="none">None</string>
+    <string name="none">無</string>
     <string name="heart_rate_bpm">bpm</string>
-    <string name="heart_rate_mhr">MHR</string>
+    <string name="heart_rate_mhr">最大心率</string>
     <string name="date">日期</string>
     <string name="time">時間</string>
     <string name="time_start">開始時間</string>
     <string name="time_end">結束時間</string>
     <string name="ringer_mode_vibrate">震動</string>
     <string name="ringer_mode_silent">靜音</string>
-    <string name="ringer_mode_dnd_priority_only">勿擾模式（僅優先）</string>
-    <string name="ringer_mode_dnd_alarms_only">勿擾模式（僅鬧鐘）</string>
-    <string name="ringer_mode_dnd_total_silence">勿擾模式（完全靜音）</string>
+    <string name="ringer_mode_dnd_priority_only">請勿打擾（僅限優先）</string>
+    <string name="ringer_mode_dnd_alarms_only">請勿打擾（僅限鬧鐘）</string>
+    <string name="ringer_mode_dnd_total_silence">請勿打擾（完全靜音）</string>
     <string name="unknown">未知</string>
-    <string name="maximum">最大值</string>
+    <string name="maximum">最大</string>
     <string name="all_day">全天</string>
     <string name="timed">定時</string>
     <string name="file_name">檔案名稱</string>
     <string name="default_">預設</string>
-    <string name="default_by_phone">裝置預設</string>
-    <string name="custom">Custom</string>
-    <string name="invalid_setting">設定錯誤</string>
+    <string name="default_by_phone">依手機預設</string>
+    <string name="custom">自訂</string>
+    <string name="invalid_setting">無效設定</string>
     <string name="ringtone">鈴聲</string>
-    <string name="ringtone_chooser">Ringtone chooser</string>
+    <string name="ringtone_chooser">選擇鈴聲</string>
     <string name="uninstalled">已解除安裝</string>
     <string name="value">值</string>
-    <string name="downloads">Downloads</string>
+    <string name="downloads">下載</string>
     <string name="share">分享</string>
     <string name="send">傳送</string>
     <string name="narrow">窄</string>
     <string name="short_">短</string>
-    <string name="medium">中等</string>
+    <string name="medium">中</string>
     <string name="long_">長</string>
     <string name="full">完整</string>
-    <string name="alignment_left">對齊左</string>
-    <string name="alignment_center">對準中心</string>
-    <string name="alignment_right">對齊對齊</string>
-    <string name="visible">可見的</string>
-    <string name="invisible">無形的</string>
-    <string name="placeholder">Placeholder</string>
-    <string name="image_scale_fit">Fit</string>
-    <string name="image_scale_crop">Crop</string>
-    <string name="image_scale_stretch">Stretch</string>
-    <string name="resource_manager">Resource manager</string>
+    <string name="alignment_left">靠左對齊</string>
+    <string name="alignment_center">置中對齊</string>
+    <string name="alignment_right">靠右對齊</string>
+    <string name="visible">可見</string>
+    <string name="invisible">隱藏</string>
+    <string name="placeholder">佔位符</string>
+    <string name="image_scale_fit">適應</string>
+    <string name="image_scale_crop">裁切</string>
+    <string name="image_scale_stretch">拉伸</string>
+    <string name="resource_manager">資源管理器</string>
 
-    <string name="action_premium_mode">進階功能</string>
+    <string name="action_premium_mode">進階模式</string>
     <string name="action_dismiss">關閉</string>
     <string name="action_setting">設定</string>
     <string name="action_delete">刪除</string>
-    <string name="action_rename">改名</string>
-    <string name="action_export">輸出</string>
+    <string name="action_rename">重新命名</string>
+    <string name="action_export">匯出</string>
     <string name="action_synchronization">同步</string>
-    <string name="action_download">下载</string>
-    <string name="action_upload">上传</string>
+    <string name="action_download">下載</string>
+    <string name="action_upload">上傳</string>
     <string name="action_backup">備份</string>
     <string name="action_restore">還原</string>
     <string name="action_filter_no">無過濾器</string>
-    <string name="action_bluetooth">藍芽</string>
-    <string name="action_favorite">最喜歡的</string>
-    <string name="action_save">保存</string>
+    <string name="action_bluetooth">藍牙</string>
+    <string name="action_favorite">我的最愛</string>
+    <string name="action_save">儲存</string>
     <string name="action_test">測試</string>
     <string name="action_discard">放棄</string>
     <string name="action_keep_editing">繼續編輯</string>
-    <string name="action_new">新</string>
-    <string name="action_new_file_extension">新 %1$s</string>
+    <string name="action_new">新增</string>
+    <string name="action_new_file_extension">新增 %1$s</string>
     <string name="action_edit">編輯</string>
-    <string name="action_start_stop">開始/停止</string>
+    <string name="action_start_stop">開始／停止</string>
     <string name="action_contacts">聯絡人</string>
     <string name="action_single_selection">單選</string>
     <string name="action_multiple_selection">多選</string>
-    <string name="action_selection_boundaries">Selection boundaries</string>
-    <string name="action_object_boundaries">Object boundaries</string>
-    <string name="action_select">選擇</string>
-    <string name="action_select_all">全選</string>
-    <string name="action_select_texts">選擇文字</string>
-    <string name="action_select_images">選擇圖片</string>
+    <string name="action_selection_boundaries">選取範圍邊界</string>
+    <string name="action_object_boundaries">物件邊界</string>
+    <string name="action_select">選取</string>
+    <string name="action_select_all">全部選取</string>
+    <string name="action_select_texts">選取文字</string>
+    <string name="action_select_images">選取圖片</string>
     <string name="action_deselect_all">取消全選</string>
-    <string name="synchronized_from_watch">與手錶同步</string>
+    <string name="synchronized_from_watch">已從手錶同步</string>
     <string name="synchronization_succeeded">同步成功</string>
     <string name="synchronization_failed">同步失敗</string>
 
     <string name="action_chart">圖表</string>
     <string name="action_zoom_in">放大</string>
-    <string name="action_chart_normalize_raw_data">測量值</string>
-    <string name="action_chart_normalize_quarter_hourly">每25分鐘測量值</string>
-    <string name="action_chart_normalize_half_hourly">每半小時測量值</string>
-    <string name="action_chart_normalize_hourly">每小時測量值</string>
-    <string name="action_chart_sort_time_asc">時間 升序</string>
-    <string name="action_chart_sort_time_desc">時間 降序</string>
-    <string name="action_chart_sort_step_asc">步數 升序</string>
-    <string name="action_chart_sort_step_desc">步數 降序</string>
-    <string name="action_chart_sort_duration_asc">Duration ascending</string>
-    <string name="action_chart_sort_duration_desc">Duration descending</string>
-    <string name="action_chart_sort_heart_rate_asc">心率 升序</string>
-    <string name="action_chart_sort_heart_rate_desc">心率 降序</string>
-    <string name="action_chart_sort_spo2_asc">SpO2 ascending</string>
-    <string name="action_chart_sort_spo2_desc">SpO2 descending</string>
-    <string name="action_chart_sort_pressure_asc">Pressure ascending</string>
-    <string name="action_chart_sort_pressure_desc">Pressure descending</string>
-    <string name="action_chart_monthly_calendar">日歷</string>
-    <string name="action_chart_monthly_compact">袖珍的</string>
+    <string name="action_chart_normalize_raw_data">原始數據</string>
+    <string name="action_chart_normalize_quarter_hourly">每15分鐘數據</string>
+    <string name="action_chart_normalize_half_hourly">每30分鐘數據</string>
+    <string name="action_chart_normalize_hourly">每小時數據</string>
+    <string name="action_chart_sort_time_asc">時間（升冪）</string>
+    <string name="action_chart_sort_time_desc">時間（降冪）</string>
+    <string name="action_chart_sort_step_asc">步數（升冪）</string>
+    <string name="action_chart_sort_step_desc">步數（降冪）</string>
+    <string name="action_chart_sort_duration_asc">持續時間（升冪）</string>
+    <string name="action_chart_sort_duration_desc">持續時間（降冪）</string>
+    <string name="action_chart_sort_heart_rate_asc">心率（升冪）</string>
+    <string name="action_chart_sort_heart_rate_desc">心率（降冪）</string>
+    <string name="action_chart_sort_spo2_asc">血氧（升冪）</string>
+    <string name="action_chart_sort_spo2_desc">血氧（降冪）</string>
+    <string name="action_chart_sort_blood_pressure_asc">血壓（升冪）</string>
+    <string name="action_chart_sort_blood_pressure_desc">血壓（降冪）</string>
+    <string name="action_chart_monthly_calendar">月曆</string>
+    <string name="action_chart_monthly_compact">簡潔模式</string>
 
-    <string name="activity_progress_title_prepare">準備同步資料…</string>
-    <string name="activity_progress_title_sync">資料同步中…</string>
-    <string name="activity_progress_title_save">資料儲存中…</string>
+    <string name="activity_progress_title_prepare">正在準備同步…</string>
+    <string name="activity_progress_title_sync">正在同步資料…</string>
+    <string name="activity_progress_title_save">正在儲存資料…</string>
 
-    <string name="required_value">必要</string>
+    <string name="required_value">必填</string>
 
     <string name="percent_0">0%</string>
     <string name="percent_10">10%</string>
@@ -1014,30 +993,30 @@
     <string name="const_time_abbreviation_hour">時</string>
     <string name="const_time_abbreviation_minute">分</string>
     <string name="const_time_abbreviation_sec">秒</string>
-    <string name="const_time_abbreviation_milli_sec">微秒</string>
+    <string name="const_time_abbreviation_milli_sec">毫秒</string>
 
     <string name="const_number">%1$,d</string>
     <string name="const_number_float">%,.2f</string>
     <string name="const_number_float_1_precision">%,.1f</string>
     <string name="const_percentage">%1$,d%%</string>
     <string name="const_percent_sign">%</string>
-    <string name="const_unit_kilometer">km</string>
+    <string name="const_unit_kilometer">公里</string>
     <string name="const_unit_meter">公尺</string>
     <string name="const_unit_centimeter">公分</string>
     <string name="const_unit_mile">英里</string>
     <string name="const_unit_kilogram">公斤</string>
-    <string name="const_unit_kcal">大卡</string>
-    <string name="const_unit_dbm">分貝</string>
+    <string name="const_unit_kcal">千卡</string>
+    <string name="const_unit_dbm">dBm</string>
 
     <plurals name="plural_time_hour">
-        <item quantity="other">%d小時</item>
+        <item quantity="other">%d 小時</item>
     </plurals>
 
     <plurals name="plural_time_minute">
-        <item quantity="other">%d分鐘</item>
+        <item quantity="other">%d 分鐘</item>
     </plurals>
 
     <plurals name="plural_time_second">
-        <item quantity="other">%d秒</item>
+        <item quantity="other">%d 秒</item>
     </plurals>
 </resources>

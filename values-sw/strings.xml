@@ -1,0 +1,1025 @@
+<?xml version="1.0"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="sw">
+
+    <!--  Navigation  -->
+    <string name="menu_nav_notification">Arifa</string>
+    <string name="menu_nav_call">Simu</string>
+    <string name="menu_nav_step">Shughuli</string>
+    <string name="menu_nav_sleep">Usingizi</string>
+    <string name="menu_nav_heart_rate">Mapigo ya moyo</string>
+    <string name="menu_nav_blood_oxygen">Oksijeni ya damu</string>
+    <string name="menu_nav_blood_pressure">Shinikizo la damu</string>
+    <string name="menu_nav_workout">Mazoezi</string>
+    <string name="menu_nav_alarm">Kengele</string>
+    <string name="menu_nav_reminder">Kumbusho</string>
+    <string name="menu_nav_dnd">Hali ya kutosumbuliwa</string>
+    <string name="menu_nav_watch_face">Sura ya saa</string>
+    <string name="menu_nav_weather">Hali ya hewa</string>
+    <string name="menu_nav_touch">Udhibiti wa mguso</string>
+    <string name="menu_nav_more">Zaidi</string>
+    <string name="menu_nav_text_customization">Ugeuzaji maandishi</string>
+    <string name="menu_nav_export">Hamisha</string>
+    <string name="menu_nav_premium_mode">Hali ya premium</string>
+    <string name="menu_nav_feedback">Maoni</string>
+    <string name="menu_nav_privacy_policy">Sera ya faragha</string>
+    <string name="menu_nav_theme">Mandhari</string>
+
+    <string name="setting_name">Kipendeleo</string>
+    <string name="settings_name">Mipangilio</string>
+    <string name="info_name">Taarifa</string>
+    <string name="more_name">Zaidi</string>
+
+    <string name="main_item_activity_title">Hatua・lengo</string>
+    <string name="main_item_battery">Kiwango cha betri・muda wa kuchaji mwisho</string>
+    <string name="main_item_connect_and_disconnect_last_time">Muunganisho na kukatika mara ya mwisho</string>
+    <string name="main_item_next_alarm">Kengele inayofuata</string>
+    <string name="main_item_next_reminder">Kumbusho linalofuata</string>
+    <string name="main_item_call_and_notification_control">Simu na arifa</string>
+
+    <!-- Pairing Bluetooth device -->
+    <string name="device_search">Utafutaji wa %1$s</string> <!-- %1$s = Watch name -->
+    <string name="device_setting">Mipangilio ya %1$s</string> <!-- %1$s = Watch name -->
+
+    <string name="device_mac_address">Anwani ya MAC</string>
+    <string name="device_mac_address_invalid">Anwani ya MAC si sahihi</string>
+
+    <string name="device_state_connected">Imeunganishwa</string>
+    <string name="device_state_disconnected">Haijaunganishwa</string>
+    <string name="device_state_bonded">Kifaa kimeunganishwa</string>
+    <string name="device_state_not_bonded">Kifaa hakijaunganishwa</string>
+
+    <string name="error_title">Pole! Hitilafu imetokea</string>
+    <string name="error_message">Tafadhali sasisha programu hadi toleo jipya zaidi</string>
+
+
+    <!-- Watch connection and setting -->
+    <string name="mi_band_setting_title">Mipangilio ya %1$s</string>
+
+    <string name="mi_band_setting_menu_connection">Muunganisho</string>
+    <string name="mi_band_setting_menu_setting">@string/setting_name</string>
+    <string name="mi_band_setting_menu_profile">Profaili</string>
+    <string name="mi_band_setting_menu_text">Maandishi</string>
+    <string name="mi_band_setting_menu_call">Simu</string>
+
+    <string name="mi_band_setting_auth_mi_fit">Ushirikiano na %1$s</string> <!-- Haylou Fit -->
+    <string name="mi_band_setting_auth_mi_fit_hint">%3$s inahitaji programu ya %1$s iwe imewekwa kwenye simu hii. Kwanza, oana %2$s ndani ya programu ya %1$s. Chagua chaguo hili ikiwa unataka pia kutumia programu ya %1$s.</string>
+    <string name="mi_band_setting_auth_standalone">Hali huru</string>
+    <string name="mi_band_setting_auth_standalone_hint">Programu ya %1$s si lazima ili %3$s ifanye kazi. Baada ya kuoanisha, unaweza kuondoa programu ya %1$s au kuvunja uhusiano wa saa. Ili kurejesha ushirikiano na %1$s, oana tena %2$s katika programu ya %1$s. Ukitumia kazi ya kuvunja uhusiano, data zote za saa zitafutwa. Hakikisha skrini ya %2$s iko wazi wakati wa mchakato wa kuoanisha.</string>
+    <string name="mi_band_standalone_sync_error">Ili kuepuka kupotea kwa data na kuhakikisha usahihi, usawazishaji umezimwa katika hali ya ushirikiano. Kusawazisha kutafuta data ya saa na kusababisha taarifa zisizo sahihi kwenye programu zote mbili.</string>
+    <string name="mi_band_setting_auth_key">Nenosiri la uthibitisho</string>
+    <string name="mi_band_setting_auth_key_help">Weka nambari yoyote ya tarakimu 4</string>
+    <string name="mi_band_setting_auth_request">Omba nenosiri</string>
+    <string name="mi_band_setting_auth_pair">Oanisha</string>
+    <string name="mi_band_setting_auth_unpair">Vunja uhusiano</string>
+
+    <string name="message_auth_request">Kifaa tayari kimeoanisha. Usipojua nenosiri, tafadhali vunja uhusiano.</string>
+
+    <string name="message_mi_band_setting_auth_press_band_button">Bonyeza kitufe kwenye %1$s yako ili kuoanisha</string>
+    <string name="message_mi_band_setting_auth_success">%1$s imeoanisha kwa mafanikio</string>
+    <string name="message_mi_band_setting_auth_fail">Imeshindikana kuoanisha %1$s</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Nenosiri la uthibitisho si sahihi</string>
+
+    <string name="pref_disconnect_device">Katiza muunganisho</string>
+
+    <string name="mi_band_setting_connection_problem_title">Iwapo una matatizo ya muunganisho</string>
+    <string name="mi_band_setting_connection_problem_hint"><![CDATA[
+    - Vunja uhusiano wa saa kupitia mipangilio ya Bluetooth ya simu yako<br>
+    - Zima kisha washa tena Bluetooth<br>
+    - Funga programu kwa nguvu au anzisha upya simu<br>
+    - Jaribu kuoanisha tena saa kutoka skrini kuu
+    ]]></string>
+
+    <string name="mi_band_setting_dial">Sura ya saa</string>
+    <string name="mi_band_setting_language">Lugha</string>
+    <string name="mi_band_setting_time_24h">Muundo wa saa wa saa 24</string>
+    <string name="mi_band_setting_distance_unit">Kipimo cha umbali</string>
+    <string name="mi_band_setting_screen_on_duration">Muda wa skrini kuwaka</string>
+    <string name="mi_band_setting_lift_wrist">Washa skrini unapoinua mkono</string>
+    <string name="mi_band_setting_idle_alert">Kumbusho la kutokutembea</string>
+    <string name="mi_band_setting_idle_alert_duration">Muda wa kutotenda</string>
+    <string name="mi_band_setting_idle_alert_dnd">Usitoe kumbusho wakati wa mapumziko (12:00-14:00)</string>
+
+    <string name="pref_synchronization">Usawazishaji</string>
+    <string name="pref_synchronization_fetch_interval">Muda wa usawazishaji</string>
+    <string name="pref_synchronization_summary">Chagua data itakayosawazishwa kiotomatiki kwa usuli. Ikiwa hutumii baadhi ya data, zima ili kuboresha utendaji. Bado unaweza kusawazisha kwa mikono kwenye skrini kuu au kupitia menyu husika (buruta chini).</string>
+
+    <string name="mi_band_setting_profile">Jaza taarifa hizi ili kuboresha usahihi wa hatua, umbali na hesabu ya kalori.</string>
+    <string name="mi_band_setting_gender">Jinsia</string>
+    <string name="mi_band_setting_gender_male">Mwanaume</string>
+    <string name="mi_band_setting_gender_female">Mwanamke</string>
+    <string name="mi_band_setting_birthday">Tarehe ya kuzaliwa</string>
+    <string name="mi_band_setting_height">Urefu</string>
+    <string name="mi_band_setting_weight">Uzito</string>
+    <string name="mi_band_setting_wearing_place">Sehemu ya kuvaa</string>
+    <string name="mi_band_setting_wearing_place_left_wrist">Mkono wa kushoto</string>
+    <string name="mi_band_setting_wearing_place_right_wrist">Mkono wa kulia</string>
+
+    <!-- Battery -->
+    <string name="battery_details">Matumizi ya betri</string>
+
+    <string name="battery_settings">Mipangilio ya betri</string>
+    <string name="battery_settings_notification">Arifa ya kiwango cha chini cha betri</string>
+    <string name="battery_settings_notification_level">Kizingiti cha kiwango cha betri</string>
+    <string name="battery_settings_notification_repeat_interval">Muda wa kurudia arifa</string>
+    <string name="battery_settings_notification_on_phone">Nijulishe kwenye simu</string>
+    <string name="battery_settings_notification_on_phone_ongoing">Arifa ya kudumu (haiwezi kufutwa)</string>
+    <string name="battery_settings_notification_on_phone_message">Kiwango cha betri ni kidogo: %1$,d%%</string>
+    <string name="battery_settings_notification_on_device">Nijulishe kwenye saa janja</string>
+    <string name="battery_settings_notification_on_device_message">Betri: %1$,d%%</string>
+
+    <!-- Preference screens -->
+    <string name="pref_battery_phone">Betri ya simu</string>
+    <string name="pref_battery_phone_summary">Arifa kwa kiwango cha chini na cha juu cha betri</string>
+    <string name="pref_cat_battery_phone_low">Kiwango cha chini cha betri</string>
+    <string name="pref_battery_phone_low_title">Arifa ya betri kuwa chini</string>
+    <string name="pref_battery_phone_low_level_title">Kizingiti cha kiwango cha betri</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">Muda wa kurudia arifa</string>
+    <string name="pref_cat_battery_phone_full">Kiwango cha juu cha betri</string>
+    <string name="pref_battery_phone_full_title">Arifa ya betri kuwa imejaa</string>
+    <string name="pref_battery_phone_full_plugged_ac">Chanzo cha umeme cha AC</string>
+    <string name="pref_battery_phone_full_plugged_usb">Chanzo cha USB</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Chanzo cha umeme wa bila waya</string>
+
+    <string name="pref_battery_phone_message">Betri ya simu:\n %1$,d%%</string>
+
+    <string name="pref_language">Lugha</string>
+    <string name="pref_cat_language">Programu</string>
+    <string name="pref_language_title">Lugha</string>
+
+    <string name="pref_menu">Menyu</string>
+    <string name="pref_cat_menu">Urekebishaji wa menyu kuu</string>
+    <string name="pref_menu_item_2">Kipengee cha pili cha menyu</string>
+    <string name="pref_menu_item_3">Kipengee cha tatu cha menyu</string>
+
+    <string name="pref_diagnostic">Uchunguzi</string>
+    <string name="pref_cat_diagnostic_closing_protection">Ulinzi dhidi ya kufunga</string>
+    <string name="pref_diagnostic_battery_optimisation">Zima uboreshaji wa betri</string>
+    <string name="pref_diagnostic_companion_device">Kuoanisha kifaa cha nyongeza</string>
+    <string name="pref_diagnostic_bluetooth_pairing">Kuoanisha Bluetooth</string>
+    <string name="pref_diagnostic_autostart">Kuanza kiotomatiki</string>
+    <string name="pref_diagnostic_autostart_summary">Washa programu ianze upya kiotomatiki kupitia msimamizi wa kuanza wa simu</string>
+    <string name="pref_diagnostic_info">Maelezo zaidi</string>
+    <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
+
+    <string name="pref_cat_diagnostic_permissions">Ruhusa</string>
+    <string name="pref_diagnostic_permission_allow_notification_access_settings">Ruhusu ufikiaji wa arifa</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">Ratibu kengele kwa muda maalum</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Ruhusa ya ziada inahitajika ili kupanga kazi kwa muda maalum.</string>
+    <string name="pref_diagnostic_permission_post_notifications">Onyesha arifa</string>
+    <string name="pref_diagnostic_permission_post_notifications_summary">Ruhusa ya ziada inahitajika ili kuonyesha arifa</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">Ufikiaji wa hali ya kutosumbuliwa</string>
+
+
+    <!-- Snackbar messages -->
+    <string name="message_enable_bluetooth">Tafadhali wezesha Bluetooth na uweke saa karibu na simu yako</string>
+    <string name="message_discover_device">%1$s haijasanidiwa, tafadhali ungana</string>
+    <string name="message_discovering_device">Inatafuta %1$s (inaweza kuchukua hadi dakika 1)…</string>
+    <string name="message_discover_device_succeeded">%1$s imeunganishwa kwa mafanikio</string>
+    <string name="message_discover_device_failed">Imeshindwa kuunganisha %1$s</string>
+    <string name="message_discover_device_not_found">Ikiwa %1$s haikupatikana, washa hali ya kuonekana au unganisha kupitia mipangilio ya Bluetooth ya simu</string>
+    <string name="message_enable_notification_listener_access">Washa ruhusa ya arifa: Simu > Mipangilio > Ufikiaji wa arifa</string>
+    <string name="message_enable_notification_listener_access_4_4">Washa ruhusa ya arifa: Mipangilio > Usalama > Ufikiaji wa arifa</string>
+
+    <string name="message_deleted">Imefutwa</string>
+    <string name="message_undo">Tengua</string>
+
+    <string name="message_app_chooser_no_selected">Chagua programu</string>
+
+    <string name="message_free_counter">Ni mipangilio 1 tu inayoweza kutumika katika hali ya bure</string>
+    <string name="message_free_counters">Hadi mipangilio %1$,d inaweza kutumika katika hali ya bure</string>
+
+    <string name="message_notification_free_groups">Hadi vikundi %1$,d vinaweza kutumika katika hali ya bure</string>
+    <string name="message_notification_free_app">Programu 1 tu inaweza kuchaguliwa katika hali ya bure</string>
+    <string name="message_notification_free_apps">Hadi programu %1$,d zinaweza kuchaguliwa katika hali ya bure</string>
+    <string name="message_notification_free_text">Maandishi 1 tu yanaweza kurekodiwa katika hali ya bure</string>
+
+    <string name="message_time_alarm_free_counter">Kengele 1 tu inaweza kutumika katika hali ya bure</string>
+    <string name="message_time_alarm_max_counter">Hadi kengele %1$d zinaweza kutumika</string>
+    <string name="message_time_alarm_enabled">Kengele imewezeshwa</string>
+    <string name="message_time_alarm_disabled">Kengele imezimwa</string>
+    <string name="message_time_alarm_off">Kengele imezima</string>
+
+    <string name="message_touch_pattern_error">Muundo uliowekwa unafanana na mwingine, tafadhali rekodi muundo tofauti</string>
+    <string name="message_touch_free_patterns">Hadi vidhibiti %1$,d vinaweza kutumika katika hali ya bure</string>
+    <string name="message_touch_record_help">Tumia %1$s kudhibiti muziki au kupata simu yako</string>
+
+    <string name="message_premium_mode_only">Kipengele hiki kinapatikana tu katika hali ya Premium</string>
+    <string name="message_feature_is_not_supported">%1$s haina msaada wa kipengele hiki</string>
+    <string name="message_general_error">Imeshindwa kuhifadhi (muunganisho umepotea), tafadhali jaribu tena</string>
+    <string name="message_internet_error">Hakuna muunganisho wa intaneti</string>
+    <string name="message_internet_traffic_blocked">Mawasiliano ya mtandao yamezuiwa</string>
+    <string name="message_internet_ads_blocked">Matangazo yamezuiwa</string>
+    <string name="message_gps_enable">Washa GPS</string>
+    <string name="message_location_enable">Ruhusu ufikiaji wa eneo</string>
+
+    <string name="message_in_progress">Inaendelea…</string>
+    <string name="message_no_data">Hakuna data</string>
+
+    <string name="message_rewarded_error">Imeshindwa kupakia video</string>
+
+    <string name="message_new_message">Ujumbe mpya umepokelewa. Angalia kwenye simu yako.</string>
+
+    <string name="message_permission_not_granted">Ruhusa haijatolewa: %1$s</string>
+
+    <!-- Welcome dialog -->
+    <string name="dialog_welcome_title">Karibu!</string>
+    <string name="dialog_welcome_message"><![CDATA[Vifaa vinavyosaidiwa:
+    <watch_types/>
+    <p><app_name/> inahitaji usakinishaji wa programu rasmi ya <device_type/> kwenye simu hiyo hiyo. Kwanza, unganisha saa yako ndani ya programu ya <device_type/>, kisha unaweza kutumia programu hii.</p>
+    <p>Ikitokea utafutaji wa <device_type/> umeshindikana, unaweza kuweka anwani ya MAC kwa mkono wakati wa utafutaji.</p>
+    <b>Utatatuzi wa matatizo ya muunganisho:</b>
+    <br>- Skrini ya programu za hivi karibuni: funga <app_name/> (telezesha chini kwenye hakikisho la programu na uchague \'Funga\' au kifananacho).
+    <br>- Uboreshaji wa betri ya simu: weka <app_name/> kuwa haiboreshwi.
+    <br>- Simu/programu: futa data ya Bluetooth Share na programu nyingine za \'Bluetooth\'.
+    <br>- Maelezo zaidi: https://dontkillmyapp.com
+    <br><br><small>Bidhaa hii na vipengele vyake havijakusudiwa kwa matumizi ya kitabibu, wala havikusudiwi kutabiri, kugundua, kuzuia au kutibu magonjwa yoyote. Takwimu zote na vipimo ni kwa marejeleo ya kibinafsi pekee na hazifai kutumika kama msingi wa uchunguzi au matibabu.</small>
+    ]]></string>
+
+    <!-- Notification  -->
+    <string name="notification_group_nav_setting">Mipangilio</string>
+    <string name="notification_group_nav_filter">Kichujio</string>
+    <string name="notification_group_nav_correction">Marekebisho ya maandishi</string>
+
+    <string name="notification_group_name">Jina</string>
+    <string name="notification_group_monitoring">Ufuatiliaji wa arifa</string>
+    <string name="notification_group_monitoring_disabled">Ondoa arifa (usiionyeshe arifa za programu)</string>
+    <string name="notification_group_alert_title">Arifa ya %1$s</string>
+    <string name="notification_group_text_customization">Urekebishaji wa maandishi</string>
+    <string name="notification_group_text_app_name">Jina la programu</string>
+    <string name="notification_group_text_name">Jina</string>
+    <string name="notification_group_text_title">Kichwa</string>
+    <string name="notification_group_text_content">Maudhui</string>
+    <string name="notification_group_text_big_content">Maudhui kamili</string>
+    <string name="notification_group_text_content_slice_title">Urefu wa maandishi</string>
+    <string name="notification_group_display_duration_title">Muda wa kuonyesha</string>
+    <string name="notification_group_show_notification_title">Onyesha arifa</string>
+    <string name="notification_group_immediate">Arifu mara moja arifa inapopokelewa</string>
+    <string name="notification_group_connecting">Arifu wakati wa kuunganisha</string>
+    <string name="notification_group_reminder">Arifa ya ukumbusho</string>
+    <string name="notification_group_ongoing">Arifa kwa arifa endelevu (zisizoweza kufutwa)</string>
+    <string name="notification_group_screen_off">Arifu tu ikiwa skrini imezimwa</string>
+    <string name="notification_group_repeat_title">Rudia arifa</string>
+    <string name="notification_group_wakelock">Washa skrini ya simu</string>
+    <string name="notification_group_grouped_display_title">Onyesho la arifa zilizo pangwa pamoja</string>
+    <string name="notification_group_grouped_sort_order_title">Mpangilio wa arifa zilizo pangwa pamoja</string>
+
+    <string name="notification_group_filter">Chuja arifa</string>
+    <string name="notification_group_filter_title">Kuchuja kichwa</string>
+    <string name="notification_group_filter_content">Kuchuja maudhui</string>
+    <string name="notification_group_filter_regex">Regex</string>
+    <string name="notification_group_filter_hint">Arifu tu ikiwa kichwa au maudhui yanalingana (haijalishi herufi kubwa/ndogo)</string>
+    <string name="notification_group_filter_contains">Inajumuisha mojawapo ya haya</string>
+    <string name="notification_group_filter_not_contains">Haijumuishi yoyote ya haya</string>
+
+    <string name="notification_group_sample_sms">SMS</string>
+    <string name="notification_group_sample_facebook">Messenger</string>
+    <string name="notification_group_sample_whatsapp">WhatsApp</string>
+
+    <string name="notification_group_correction">Marekebisho ya maandishi ya arifa</string>
+    <string name="notification_group_correction_title">Marekebisho ya kichwa</string>
+    <string name="notification_group_correction_content">Marekebisho ya maudhui</string>
+    <string name="notification_group_correction_regex">Regex</string>
+    <string name="notification_group_correction_hint">Haijalishi herufi kubwa/ndogo</string>
+    <string name="notification_group_correction_items">Maandishi ya kurekebisha</string>
+    <string name="notification_group_correction_find">Tafuta maandishi</string>
+    <string name="notification_group_correction_replace">Badilisha na</string>
+
+    <string name="notification_regex_hint">Wahusika wasiokuwa alfanumeriki wana maana maalum. Ikiwa hujui kutumia Regex, acha bila kuchaguliwa.</string>
+
+    <string name="notification_confirm_close">Una uhakika unataka kufuta mabadiliko?</string>
+
+    <string name="notification_edit_play_text_title">Kichwa cha arifa</string>
+    <string name="notification_edit_play_text_content">Maudhui ya arifa:</string>
+
+
+    <!-- Incoming call alert -->
+    <string name="call_tab_call">Simu inayoingia</string>
+    <string name="call_tab_contacts">Wasiliani</string>
+
+    <string name="call_incoming">Simu inayoingia</string>
+    <string name="call_incoming_summary_on">Usisahau kuzima arifa za simu ndani ya programu ya %1$s</string>
+    <string name="call_incoming_caller_id">Onyesha namba ya mpigaji</string>
+
+    <string name="pref_call_notification_rejected">Onyesha arifa kuhusu simu iliyokataliwa</string>
+    <string name="pref_call_notification_rejected_message">Simu iliyokataliwa</string>
+    <string name="pref_call_notification_rejected_action">Piga simu</string>
+
+    <string name="call_incoming_net_alert_title">Arifa ya simu ya mtandaoni</string>
+
+    <string name="call_missed_title">Arifa ya simu iliyokosa</string>
+    <string name="call_missed_chooser_title">Arifa ya %1$s</string>
+    <string name="call_missed_notification">Simu iliyokosa</string>
+
+    <string name="call_reject_button_action">Kitendo cha kitufe cha kukataa simu</string>
+
+    <string name="touch_call_answer_title">Jibu simu</string>
+    <string name="touch_call_answer_speakerphone_title">Spika ya nje</string>
+
+    <string name="call_end_title">Simu imekatwa au kumalizika</string>
+
+    <string name="touch_call_mute_title">Nyamazisha simu</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Tu ikiwa kuna simu inayoingia</string>
+    <string name="touch_call_mute_recognition_title">Wakati simu inaingia</string>
+
+    <string name="call_contact_edit_contact">Mwasiliani</string>
+    <string name="call_contact_edit_name">Jina</string>
+    <string name="call_contact_edit_phone_number">Namba ya simu</string>
+
+    <string name="call_contact_edit_setting_name_order">Mpangilio wa jina</string>
+    <string name="call_contact_edit_setting_default">@string/default_</string>
+    <string name="call_contact_edit_setting_first_name">Jina la kwanza</string>
+    <string name="call_contact_edit_setting_last_name">Jina la mwisho</string>
+
+    <string name="message_call_contacts_free_counter">Hadi wasiliani %1$d wanaweza kutumika kwenye hali ya bure</string>
+    <string name="message_call_contacts_max_counter">Hadi wasiliani %1$d wanaweza kutumika</string>
+
+    <!-- App chooser dialog -->
+    <string name="app_chooser">Chagua programu</string>
+    <string name="action_search">Tafuta</string>
+    <string name="action_filter_notification">Kichujio cha arifa</string>
+
+    <!-- Activity -->
+    <string name="step_details">Maelezo ya shughuli</string>
+
+    <string name="mi_band_tracker_step_title">%1$,d</string>
+    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string>
+    <string name="mi_band_tracker_distance_kilometer_title">%,.2f km</string>
+    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string>
+    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string>
+
+    <string name="action_tracker_step">Hatua</string>
+    <string name="action_tracker_distance">Umbali</string>
+    <string name="action_tracker_calorie">Kalori</string>
+    <string name="action_tracker_duration">Muda wa mazoezi</string>
+
+    <string name="step_goal_default_title">Lengo chaguomsingi</string>
+
+    <!-- Sleep monitoring -->
+    <string name="sleep_details">Maelezo ya usingizi</string>
+
+    <string name="sleep_awake_phase_short">Macho</string>
+    <string name="sleep_light_phase_short">Laini</string>
+    <string name="sleep_deep_phase_short">Nzito</string>
+    <string name="sleep_rem_phase_short">REM</string>
+
+    <!-- Heart rate -->
+    <string name="heart_rate_details">Maelezo ya mapigo ya moyo</string>
+
+    <string name="heart_rate_continuous_measurement_title">Upimaji wa mapigo ya moyo wa mara kwa mara</string>
+
+    <string name="heart_rate_alert_title">Arifa ya mapigo ya moyo</string>
+    <string name="heart_rate_thresholds">Viwango vya juu na vya chini vya mapigo ya moyo</string>
+    <string name="low_heart_rate">Mapigo ya moyo ya chini</string>
+    <string name="high_heart_rate">Mapigo ya moyo ya juu</string>
+
+    <!-- Blood oxygen -->
+    <string name="blood_oxygen_details">Maelezo ya oksijeni ya damu</string>
+
+    <string name="blood_oxygen_level_measurement">Upimaji wa kiwango cha oksijeni ya damu</string>
+    <string name="measurement_interval">Muda kati ya vipimo</string>
+
+    <!-- Blood pressure -->
+    <string name="blood_pressure_details">Maelezo ya shinikizo la damu</string>
+
+    <string name="blood_pressure_level_measurement">Upimaji wa shinikizo la damu</string>
+
+    <string name="blood_pressure_systolic_abbreviation">Sys</string>
+    <string name="blood_pressure_diastolic_abbreviation">Dia</string>
+    <string name="blood_pressure_unit">mmHg</string>
+
+    <!-- Workout -->
+    <string name="workout_details">Maelezo ya mazoezi</string>
+
+    <!-- Alarm -->
+    <string name="action_time_alarm_sort_state_asc">Hali kwa mpangilio wa juu</string>
+    <string name="action_time_alarm_sort_watch_asc">Saa kwa mpangilio wa juu</string>
+    <string name="action_time_alarm_sort_name_asc">Jina kwa mpangilio wa juu</string>
+
+    <string name="message_time_alarm_sync">Sambaza kengele za %1$s (hii itafuta kengele zilizopo na kuweka mpya kwenye saa yako ya mkononi)</string>
+
+    <string name="info_dialog_alarm"><![CDATA[
+    <p>Unapotumia hali ya ushirikiano, mipangilio ya programu rasmi na programu ya <app_name/> inaweza kufutwa au kufutiana.</p>
+    Hatua ya mwisho iliyofanyika ndiyo itatumika.
+    ]]></string>
+
+    <!-- Reminder -->
+    <string name="message_reminder_enabled">Kumbusho imewezeshwa</string>
+    <string name="message_reminder_disabled">Kumbusho imelemazwa</string>
+
+    <string name="reminder_repeat">Rudia kila saa</string>
+    <string name="reminder_notification_on_phone">Nijulishe kwenye simu</string>
+
+    <string name="message_time_reminder_free_counter">Kumbusho 1 pekee inaweza kutumika katika hali ya bure</string>
+
+    <string name="info_dialog_reminder"><![CDATA[
+    Muunganisho wa Bluetooth unahitajika ili kuonyesha kumbusho.
+    ]]></string>
+
+    <!-- Do not disturb -->
+    <string name="pref_dnd_summary">Hali ya vidhibiti katika hali ya usisumbue</string>
+    <string name="pref_dnd_enable_bluetooth">Zima Bluetooth mwanzoni mwa hali ya Usisumbue, na uiwashe tena mwisho wake</string>
+
+    <string name="info_dialog_dnd"><![CDATA[
+    Ikiwa unatumia hali ya ushirikiano, katika programu rasmi ya <device_type/> hali ya Usisumbue (DnD) inapaswa kuwa kati ya 00:00 na 23:59 na iwe imezimwa.
+    ]]></string>
+
+
+    <!-- Watch face -->
+    <string name="watch_face_tab_watch_faces">Nyuso za saa</string>
+    <string name="watch_face_tab_watch_face_custom">Faili maalum</string>
+    <string name="watch_face_tab_watch_face_editor">Kihariri</string>
+
+    <string name="watch_face_download_title">Pakua uso wa saa</string>
+    <string name="watch_face_upload_title">Pakia uso wa saa</string>
+    <string name="watch_face_tool_title">Zana</string>
+
+    <string name="watch_face_share_content">Unaweza kushiriki uso wa saa uliotengeneza na wengine. Tuma faili za uso wa saa na hakikisho kupitia barua pepe, na ujulishe: jina la mwandishi, jina la uso wa saa (karakteri nyingi zaidi 30), na lugha. Ni nyuso za saa zenye ubora wa juu pekee zitakazochapishwa.</string>
+
+    <string name="watch_face_upload_prepare">Inajiandaa kupakia…</string>
+    <string name="watch_face_upload_progress">Inapakia %1$,d%%</string>
+
+    <string name="watch_face_invalid_firmware">Firmware %1$s haijulikani au haiungi mkono upakiaji wa uso wa saa. Tafadhali sasisha firmware kupitia programu rasmi. Ikiwa programu rasmi inaunga mkono upakiaji, tafadhali tujulishe kupitia menyu ya Maoni.</string>
+    <string name="watch_face_invalid_auth">Tumia katika hali ya kujitegemea, programu rasmi inaweza kuzuia upakiaji wa uso wa saa katika hali ya ushirikiano</string>
+    <string name="watch_face_invalid_free">Huwezi kupakia nyuso zaidi za saa leo katika hali ya bure</string>
+    <string name="watch_face_watch_rewarded_ads">Tazama video ili kuendelea</string>
+    <string name="watch_face_watch_rewarded_ads_uploading">Tazama video ili kuendelea kupakia</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">Video inaanza…</string>
+
+    <string name="watch_face_upload_method_title">Njia</string>
+    <string name="watch_face_upload_method_default">@string/default_</string>
+    <string name="watch_face_upload_method_alternative">Njia mbadala</string>
+
+    <string name="watch_face_upload_speed_title">Kasi ya upakiaji</string>
+    <string name="watch_face_upload_invalid_speed_hint">Weka kasi ya chini ikiwa upakiaji wa uso wa saa unakatika</string>
+    <string name="watch_face_upload_invalid_size_hint">Ukubwa wa faili si sahihi, punguza ubora au ondoa vipengele kutoka kwa uso wa saa</string>
+    <string name="watch_face_upload_invalid_battery_hint">Betri ya saa ya mkononi inakaribia kuisha, tafadhali ichaji</string>
+
+    <string name="watch_face_tbwf_quality_title">Mpangilio wa ubora wa faili ya uso wa saa (.tbwf)</string>
+    <string name="watch_face_tbwf_quality_hint">Ukubwa wa faili unaweza kupunguzwa ikiwa saa inaruhusu</string>
+
+    <string name="watch_face_tbwf_locale_title">Mipangilio ya lugha na eneo ya faili ya uso wa saa (.tbwf)</string>
+    <string name="watch_face_tbwf_locale_hint">Majina ya siku za wiki, kitenganishi cha mwezi na alama ya desimali</string>
+
+    <string name="message_watch_face_file_invalid">Faili ya uso wa saa si sahihi</string>
+    <string name="message_watch_face_file_invalid_size">Ukubwa wa faili ya uso wa saa si sahihi</string>
+    <string name="message_watch_face_file_invalid_battery">Betri ya saa ya mkononi karibu kuisha</string>
+    <string name="message_watch_face_image_file_error">Faili ya picha si sahihi</string>
+    <string name="message_watch_face_font_file_error">Faili ya fonti si sahihi</string>
+
+    <string name="action_chart_layout_2_columns">Mpangilio wa safu 2</string>
+    <string name="action_chart_layout_3_columns">Mpangilio wa safu 3</string>
+
+    <string name="watch_face_edit_dial">Kipima saa</string>
+    <string name="watch_face_edit_preview">Hakikisho</string>
+    <string name="watch_face_edit_hour_digital">Saa</string>
+    <string name="watch_face_edit_minute_digital">Dakika</string>
+    <string name="watch_face_edit_second_digital">Sekunde</string>
+    <string name="watch_face_edit_am_pm">Kielelezo cha AM/PM</string>
+    <string name="watch_face_edit_am">AM</string>
+    <string name="watch_face_edit_pm">PM</string>
+    <string name="watch_face_edit_hour_analog">Mkono wa saa</string>
+    <string name="watch_face_edit_minute_analog">Mkono wa dakika</string>
+    <string name="watch_face_edit_second_analog">Mkono wa sekunde</string>
+    <string name="watch_face_edit_axis">Mhimili wa mzunguko</string>
+    <string name="watch_face_edit_hour_minute_separator">Kitenganishi cha saa na dakika</string>
+    <string name="watch_face_edit_year">Mwaka</string>
+    <string name="watch_face_edit_year_month_separator">Kitenganishi cha mwaka na mwezi</string>
+    <string name="watch_face_edit_month">Mwezi</string>
+    <string name="watch_face_edit_month_name">Jina la mwezi</string>
+    <string name="watch_face_edit_month_day_separator">Kitenganishi cha mwezi na siku</string>
+    <string name="watch_face_edit_day">Siku</string>
+    <string name="watch_face_edit_dayOfWeek">Siku ya wiki</string>
+    <string name="watch_face_edit_battery_level">Kiwango cha betri</string>
+    <string name="watch_face_edit_battery_level_percent_sign">Kiwango cha betri %</string>
+    <string name="watch_face_edit_battery_level_image">Picha ya betri</string>
+    <string name="watch_face_edit_weather_temperature">Joto</string>
+    <string name="watch_face_edit_weather_temperature_unit_sign">Kipimo cha joto °</string>
+    <string name="watch_face_edit_weather_image">Picha ya hali ya hewa</string>
+    <string name="watch_face_edit_connection_indicator_image">Picha ya kiashiria cha muunganisho</string>
+    <string name="watch_face_edit_connected">Imeunganishwa</string>
+    <string name="watch_face_edit_disconnected">Haijaunganishwa</string>
+    <string name="watch_face_edit_steps">Hatua</string>
+    <string name="watch_face_edit_steps_image">Picha ya hatua</string>
+    <string name="watch_face_edit_steps_goal_progress">Maendeleo ya lengo la hatua</string>
+    <string name="watch_face_edit_distance">Umbali</string>
+    <string name="watch_face_edit_distance_image">Picha ya umbali</string>
+    <string name="watch_face_edit_calories">Kalori</string>
+    <string name="watch_face_edit_calories_image">Picha ya kalori</string>
+    <string name="watch_face_edit_heart_rate">Mapigo ya moyo</string>
+    <string name="watch_face_edit_heart_rate_image">Picha ya mapigo ya moyo</string>
+
+    <string name="watch_face_edit_color">Rangi</string>
+    <string name="watch_face_edit_font_family">Aina ya fonti</string>
+    <string name="watch_face_edit_character">Herufi</string>
+    <string name="watch_face_edit_font_size">Ukubwa wa fonti</string>
+    <string name="watch_face_edit_image">Picha</string>
+    <string name="watch_face_edit_image_png_jpeg">Picha (.png, .jpeg)</string>
+    <string name="watch_face_edit_image_png">Picha (.png)</string>
+    <string name="watch_face_edit_image_size">Ukubwa wa picha</string>
+    <string name="watch_face_edit_icon">Ikoni</string>
+
+    <string name="watch_face_custom_watch_face_not_supported_title">Saa hii haiungi mkono upakiaji wa uso wa saa wa kawaida</string>
+    <string name="watch_face_custom_watch_face_under_development_title">Kipengele cha kupakia uso wa saa wa kawaida bado kinatengenezwa na huenda kikapatikana baadaye, lakini bado haijathibitishwa.</string>
+
+    <!-- Touch monitoring -->
+    <string name="touch_tab_function">Kazi</string>
+    <string name="touch_tab_control">Udhibiti</string>
+    <string name="touch_tab_testing">Jaribio</string>
+    <string name="touch_tab_setting">@string/setting_name</string>
+
+    <string name="touch_function_summary">Weka vipengele hivi ikiwa unatumia hali huru au ikiwa Mi Fit haisimamii ipasavyo</string>
+    <string name="touch_function">%1$s kazi</string>
+    <string name="touch_function_as_touch">Tumia kazi kama mguso kwenye menyu ya udhibiti</string>
+
+    <string name="touch_headline_incoming_call_title">Simu inayoingia</string>
+    <string name="touch_headline_other_function_title">Vipengele vingine</string>
+    <string name="touch_headline_call_title">Udhibiti wa simu</string>
+    <string name="touch_headline_music_title">Udhibiti wa muziki</string>
+    <string name="touch_headline_time_title">Udhibiti wa muda/kipima saa</string>
+    <string name="touch_headline_other_title">Udhibiti mwingine</string>
+
+    <string name="touch_device_location_title">Tafuta simu yangu</string>
+    <string name="touch_device_location_not_muted_only_title">Sauti tu ikiwa haijazimwa au haipo katika hali ya DnD</string>
+
+    <string name="touch_mute_toggle_title">Badilisha hali ya kimya ya simu</string>
+    <string name="touch_mute_toggle_ringer_mode_title">Hali ya kimya</string>
+    <string name="touch_mute_toggle_mute_off_title">Kimya kimezimwa</string>
+
+    <string name="touch_music_title">Muziki</string>
+    <string name="touch_music_function_launch">Anzisha muziki kwa kubofya kitufe cha kucheza ikiwa hakuna kichezaji muziki kilichotambuliwa</string>
+    <string name="touch_music_function_mi_band_message_launch">Anzisha muziki kwa kubofya kitufe cha kucheza</string>
+    <string name="touch_music_function_mi_band_message_no_track_title">Jina la wimbo halipatikani</string>
+
+    <string name="touch_call_out_title">Piga simu</string>
+    <string name="touch_call_out_no_contact">Chagua jina la mawasiliano</string>
+    <string name="touch_call_out_summary">Bonyeza mara mbili ili kujibu simu</string>
+    <string name="touch_call_out_summary_support_call_display_button">Bonyeza kitufe ili kujibu simu</string>
+    <string name="touch_call_out_speakerphone_title">Spika</string>
+    <string name="touch_call_out_call_text">Piga simu: %1$s</string>
+
+    <string name="touch_weather_title">Utabiri wa hali ya hewa</string>
+    <string name="touch_weather_location">Sasisha eneo</string>
+    <string name="touch_weather_precipitation">Mvua</string>
+    <string name="touch_weather_cloud_cover">Mawingu</string>
+    <string name="touch_weather_wind">Upepo</string>
+
+    <string name="touch_repeat_notif_title">Rudia arifa</string>
+    <string name="touch_repeat_notif_clear_all">Futa arifa zote baada ya kurudiwa</string>
+
+    <string name="touch_clear_notif_title">Futa arifa kutoka kwenye simu</string>
+
+    <string name="touch_music_play_pause_title">Anza, cheza, sitisha muziki</string>
+    <string name="touch_music_skip_previous_title">Anza muziki, wimbo uliopita</string>
+    <string name="touch_music_skip_next_title">Anza muziki, wimbo unaofuata</string>
+    <string name="touch_music_headset_only_title">Tu ikiwa kichwa cha sauti kimeunganishwa</string>
+    <string name="touch_music_launch">Anzisha muziki</string>
+    <string name="touch_music_volume_up_title">Ongeza sauti ya muziki</string>
+    <string name="touch_music_volume_down_title">Punguza sauti ya muziki</string>
+    <string name="touch_music_track_info_title">Onyesha maelezo ya wimbo</string>
+
+    <string name="touch_time_launch_title">Anzisha ufuatiliaji wa muda</string>
+    <string name="touch_time_launch_type_timer_title">Kipima muda</string>
+    <string name="touch_time_launch_type_stopper_title">Saa ya kuhesabu</string>
+    <string name="touch_time_launch_type_interval_title">Kipindi</string>
+    <string name="touch_time_launch_restart">Anzisha tena ikiwa inaendelea</string>
+    <string name="touch_time_reminder_title">Wakati uliobaki/uliopita</string>
+
+    <string name="touch_google_assistant_title">Msaidizi wa Google</string>
+
+    <string name="touch_flashlight_title">Geuza tochi</string>
+
+    <string name="touch_camera_title">Piga picha</string>
+    <string name="touch_camera_front_title">Mbele</string>
+    <string name="touch_camera_rear_title">Nyuma</string>
+    <string name="touch_camera_install_title">Sakinisha</string>
+
+    <string name="touch_app_launcher1_title">Kizinduzi cha programu</string>
+    <string name="touch_app_launcher_package_no_title">Chagua programu</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">Tu ikiwa skrini haijafungwa</string>
+
+    <string name="touch_broadcast1_title">Tuma matangazo (Broadcast)</string>
+    <string name="touch_broadcast1_action_title">Kitendo cha intent</string>
+    <string name="touch_broadcast1_package_title">Jina la kifurushi cha intent</string>
+
+    <string name="touch_http_request1_title">Ombi la HTTP 1</string>
+    <string name="touch_http_request2_title">Ombi la HTTP 2</string>
+    <string name="touch_http_request_url_title">URL</string>
+    <string name="touch_http_request_method_title">Njia</string>
+    <string name="touch_http_request_body_title">Mwili wa maombi</string>
+    <string name="touch_http_request_show_response_title">Onyesha majibu</string>
+
+    <string name="touch_tasker_launcher1_title">Kizinduzi cha kazi ya Tasker 1</string>
+    <string name="touch_tasker_launcher2_title">Kizinduzi cha kazi ya Tasker 2</string>
+    <string name="touch_tasker_launcher_no_permission_title">Sakinisha Tasker kwanza, kisha Mi Bandage</string>
+    <string name="touch_tasker_launcher_no_access_title">Ruhusu ufikiaji wa nje</string>
+    <string name="touch_tasker_launcher_no_task_title">Chagua kazi</string>
+
+    <string name="touch_testing_title">Ufuatiliaji wa mguso</string>
+    <string name="touch_testing_second">sek.</string>
+
+    <string name="touch_setting_detection_time_title">Muda wa kugundua mguso</string>
+    <string name="touch_setting_detection_time_button_hint">Thamani ndogo inahitaji miguso ya haraka mfululizo kwa vitendo vya kitufe</string>
+
+    <string name="touch_setting_detection_method_title">Njia ya kugundua mguso</string>
+
+    <string name="touch_setting_recognition_start_title">Anzisha utambuzi wa mguso</string>
+    <string name="touch_setting_recognition_start_trigger_title">Kichochezi</string>
+    <string name="touch_setting_recognition_time_title">Muda wa utambuzi</string>
+
+    <string name="touch_setting_recognition_mi_band_signal_title">Ishara ya %1$s</string>
+    <string name="touch_setting_recognition_succeeded_title">Muundo wa mguso umetambulika</string>
+    <string name="touch_setting_recognition_failed_title">Muundo wa mguso haujatambulika</string>
+
+    <string name="info_dialog_touch"><![CDATA[
+    <p>Inafanya kazi vizuri katika hali huru. Ukitumia hali ya ushirikiano, programu rasmi ya <app_official/> pia itashughulikia vipengele hivi, hivyo uendeshaji sahihi hauwezi kuhakikishiwa.</p>
+    <p><b>Mipangilio ya Bluetooth ya simu:</b> Zima kifaa cha kuingiza kwa <device_name/></p>
+    <b><u>Miguso iliyotambuliwa</u></b>
+    <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
+    <br>Udhibiti wa muziki kwa <device_type/>
+    <p><img src="ic_search">
+    <br><device_type/> tafuta simu yangu
+    </p>
+    Miguso mingi inaweza kurekodiwa kwa kila kipengele.
+    ]]></string>
+
+
+    <!-- Weather  -->
+    <string name="weather_tab_weather_forecast">Hali ya hewa</string>
+    <string name="weather_tab_location">Eneo</string>
+    <string name="weather_tab_settings">@string/setting_name</string>
+
+    <string name="weather_location_title">Eneo</string>
+
+    <string name="weather_forecast_title">Utabiri wa hali ya hewa</string>
+
+    <string name="weather_setting_provider">Mtoa huduma wa hali ya hewa</string>
+    <string name="weather_city_title">Jiji</string>
+    <string name="weather_unit_title">Kipimo</string>
+    <string name="weather_unit_metric">Metriki (Celsius)</string>
+    <string name="weather_unit_imperial">Imperial (Fahrenheit)</string>
+    <string name="weather_automatic_update">Sasisha kiotomatiki eneo kwa usuli</string>
+    <string name="weather_automatic_update_title">Tumia eneo la sasa</string>
+    <string name="weather_automatic_update_summary">Programu hii hukusanya data ya eneo ili kusasisha hali ya hewa kwa eneo la sasa, hata ikiwa programu imefungwa au haitumiki.</string>
+
+    <string name="permission_background_location">%1$s itapata ruhusa ya kukusanya data ya eneo hata kama programu imefungwa au haitumiki</string>
+    <string name="permission_error_title">%1$s haiwezi kusasisha ruhusa</string>
+    <string name="permission_error_description">Fungua Mipangilio na uchague chaguo “%1$s” kwa ruhusa za eneo</string>
+    <string name="all_the_time">Kila wakati</string>
+
+    <string name="weather_current_title">Hali ya hewa ya sasa</string>
+    <string name="weather_current_location">Eneo la sasa</string>
+    <string name="weather_current_temperature">Joto la sasa</string>
+
+    <string name="weather_precipitation_rain">Mvua</string>
+    <string name="weather_precipitation_snow">Theluji</string>
+    <string name="weather_cloud_cover_abbreviation">Cc</string>
+    <string name="weather_cloud_cover">Mawingu</string>
+    <string name="weather_humidity">Unyevu</string>
+
+    <string name="weather_north">K</string>
+    <string name="weather_east">M</string>
+    <string name="weather_south">Kus</string>
+    <string name="weather_west">Mag</string>
+
+    <!-- Text customization -->
+    <string name="pref_text_reminder_repeat_interval_title">Muda wa kurudia ukumbusho</string>
+    <string name="pref_text_reminder_repeat_interval_summary">Arifa > Kazi ya ukumbusho hutumia muda huu</string>
+    <string name="pref_text_emoticon_title">Ugeuzaji wa emoji</string>
+    <string name="pref_text_emoticon_summary_on">Geuza emoji kuwa alama za hisia</string>
+    <string name="pref_text_uppercase_title">Ugeuzaji kuwa herufi kubwa</string>
+    <string name="pref_text_uppercase_summary_on">Geuza herufi ndogo kuwa kubwa</string>
+    <string name="pref_text_alphanumeric_title">Herufi za alfanumeriki na ASCII</string>
+    <string name="pref_text_alphanumeric_summary_on">Onyesha tu herufi za alfanumeriki na ASCII</string>
+    <string name="pref_text_transliteration_title">Uandikaji kwa maandishi ya kawaida</string>
+    <string name="pref_text_transliteration_summary_on">Geuza herufi zenye irabu kuwa bila irabu</string>
+    <string name="pref_text_line_separator_title">Badilisha mgawanyaji wa mistari</string>
+    <string name="pref_text_line_separator_summary_on">Badilisha mgawanyaji wa mstari wa chaguomsingi na herufi nyingine</string>
+    <string name="pref_text_line_separator_value_title">Herufi mbadala</string>
+    <string name="pref_text_char_replacement_title">Badilisha herufi, emoji</string>
+    <string name="pref_text_char_replacement_summary_on">Badilisha herufi moja na nyingine</string>
+    <string name="pref_text_char_replacement_find">Tafuta</string>
+    <string name="pref_text_char_replacement_replace">Badilisha na</string>
+
+    <!-- Export -->
+    <string name="export_tab_database">Hamisha data</string>
+    <string name="export_start_date">Tarehe ya kuanza kusafirisha</string>
+
+    <!-- Theme -->
+    <string name="theme_tab_theme">Mandhari</string>
+
+    <string name="theme_title">Chagua mandhari</string>
+    <string name="theme_background_color_title">Rangi ya mandharinyuma</string>
+
+    <string name="theme_widget_background_color_title">Rangi</string>
+    <string name="theme_color_dynamic_color_title">Rangi inayobadilika</string>
+    <string name="theme_color_predefined_colors_title">Rangi zilizotanguliwa</string>
+
+    <string name="theme_notification_title">Onyesha hali kwenye sehemu ya arifa</string>
+
+    <string name="theme_cat_color_setting">Mipangilio ya rangi</string>
+
+    <!-- Feedback -->
+    <string name="action_log_notification">Kumbukumbu</string>
+
+    <string name="feedback_google_play_title">Kadiria programu hii</string>
+    <string name="feedback_request_feature_title">Ombi la kipengele, ripoti ya hitilafu</string>
+    <string name="feedback_request_feature_summary">Uchakataji wa barua pepe kiotomatiki, huenda usipokee majibu</string>
+    <string name="feedback_translation_title">%1$s tafsiri</string> <!-- %1$s = App name -->
+    <string name="feedback_translation_title_summary">Tafadhali saidia katika tafsiri</string>
+
+    <!-- Premium mode -->
+    <string name="purchase_advantage_title">Faida za hali ya Premium</string>
+    <string name="purchase_advantage"><![CDATA[
+    <p>• msaada wa kifedha kwa maendeleo</p>
+    <p>• hakuna matangazo</p>
+    <p>• mipangilio ya arifa bila kikomo</p>
+    <p>• mipangilio ya simu bila kikomo</p>
+    <p>• kupakia mandhari za saa bila kikomo kila siku</p>
+    <p>• idadi isiyo na kikomo ya alamu (inaweza kuzuiwa na saa)</p>
+    <p>• hali ya "Usisumbue" bila kikomo</p>
+    <p>• mipangilio ya kugusa bila kikomo</p>
+    <p>• masasisho ya hali ya hewa mara kwa mara, masasisho ya mahali kiotomatiki, chaguo la kutumia AccuWeather</p>
+    <p>• grafu za kila siku za kina</p>
+    • fungua vizuizi vyote vya vipengele vingine…
+    ]]></string>
+
+    <string name="purchase_policy_title">Masharti ya hali ya Premium</string>
+    <string name="purchase_policy"><![CDATA[
+    <p>• Nimejaribu programu na nimegundua kuwa inafanya kazi kama inavyotarajiwa.</p>
+    <p>• Ninaelewa kuwa siwezi kudai kurejeshewa pesa au fidia kwa matatizo yanayosababishwa na mabadiliko katika mfumo (kama vile masasisho ya toleo la Android), vifaa au migongano na programu nyingine.</p>
+    <p>• Manunuzi yote ni ya mwisho na hayarejeshwi (isipokuwa kama sera ya kurejesha ya Google inaruhusu).</p>
+    <p>• Programu hii haina dhamana yoyote, iwe ya wazi au ya kudhaniwa.</p>
+    <p>• Matumizi ya programu hii ni kwa hatari yako mwenyewe. Msanidi programu hayawajibikii uharibifu wa moja kwa moja au usio wa moja kwa moja au upotevu wa data kutokana na matumizi yake.</p>
+    <p>• Hali ya Premium inahusishwa na akaunti yako ya Google na hubaki hai hata baada ya kusakinisha upya programu.</p>
+    <i>Lazima uanzishe upya programu baada ya kununua.</i>
+    ]]></string>
+
+    <string name="purchase_google_play_services_not_available">Huduma za Google Play hazipatikani</string>
+
+    <string name="purchase_agree">Nakubaliana na masharti ya matumizi.</string>
+    <string name="purchase_order_id">Kitambulisho cha agizo</string>
+    <string name="purchase_order_id_help">Nakili kutoka:
+    \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+    \n<a href="https://payments.google.com">https://payments.google.com</a>
+    </string>
+
+    <string name="purchase_info">Malipo moja ・ %1$s</string>
+    <string name="purchase_button_purchase">Nunua</string>
+
+    <!-- Privacy policy -->
+    <string name="privacy_policy_tab_privacy_policy">Sera ya faragha</string>
+    <string name="privacy_policy_tab_user_consent">Usimamizi wa ridhaa ya mtumiaji</string>
+    <string name="privacy_policy_tab_eu_consent">Ridhaa ya watumiaji wa EU na Marekani</string>
+    <string name="privacy_policy_tab_non_eu_consent">Ridhaa ya watumiaji wa maeneo mengine</string>
+
+    <string name="privacy_policy_collect_title">Taarifa tunazokusanya</string>
+    <string name="privacy_policy_collect"><![CDATA[
+    <p>• Tunakusanya tu taarifa zisizotambulisha mtu binafsi.</p>
+    <p>• Tunakusanya taarifa kuhusu huduma unazotumia na jinsi unavyotumia programu (Google Analytics).</p>
+    <p>• Tunakusanya taarifa kuhusu hitilafu na ajali za programu ili kuboresha huduma (Firebase Crashlytics).</p>
+    <p>• Tunakusanya taarifa kuhusu utendaji wa programu (Firebase Performance Monitoring).</p>
+    <p>• Jukwaa la Google Firebase hukusanya taarifa kwa njia ya faragha, bila kumtambua mtumiaji binafsi. Linakusanya data kama vile kitambulisho cha usakinishaji wa Firebase, hali ya programu, taarifa za kifaa (mfano: mfano wa kifaa, usanifu wa CPU, RAM na diski, OS, mwelekeo wa skrini, nchi, lugha), rekodi za hitilafu, vipimo vya utendaji (muda wa kuwasha programu, ucheleweshaji wa maombi ya mtandao, anwani za URL), matumizi ya CPU/RAM, anwani ya IP ya kukadiria …</p>
+    <p>• Tunakusanya data ya eneo lako kwa hiari yako tu, kwa madhumuni ya kusasisha hali ya hewa kulingana na eneo la sasa.</p>
+    • Msingi wa kisheria wa ukusanyaji na uchakataji wa data hii ni maslahi halali ya kuboresha utendakazi wa programu na kuhakikisha utulivu na matumizi bora.
+    ]]></string>
+
+    <string name="privacy_policy_cookies_title">Vidakuzi na teknolojia zinazofanana</string>
+    <string name="privacy_policy_cookies"><![CDATA[
+    • Baadhi ya huduma za wahusika wengine kama vile AdMob zinaweza kutumia vidakuzi au teknolojia sawa ili kuonyesha matangazo yaliyobinafsishwa. Unaweza kudhibiti hii kupitia mipangilio ya akaunti yako ya Google.
+    ]]></string>
+
+    <string name="privacy_policy_retention_title">Hifadhi ya data</string>
+    <string name="privacy_policy_retention"><![CDATA[
+    • Data iliyokusanywa huhifadhiwa na Google Firebase kwa muda unaohitajika kulingana na sera zao, kwa madhumuni ya uchambuzi, utambuzi wa matatizo na uboreshaji wa utendaji.
+    ]]></string>
+
+    <string name="privacy_policy_not_collect_title">Taarifa ambazo hatukusanyi</string>
+    <string name="privacy_policy_not_collect"><![CDATA[
+    <p>• Hatukusanyi taarifa za kibinafsi zinazoweza kukutambulisha, kama vile jina lako, anwani, namba ya simu, barua pepe au anwani ya MAC.</p>
+    • Hatukusanyi taarifa za kiafya, wawasiliani, wala maudhui ya arifa kwenye kifaa chako.
+    ]]></string>
+
+    <string name="privacy_policy_share_title">Taarifa tunazoshiriki</string>
+    <string name="privacy_policy_share"><![CDATA[
+    • Hatushiriki data yoyote na kampuni au mashirika mengine, isipokuwa Google na watoa huduma wa matangazo.
+    ]]></string>
+
+    <string name="privacy_policy_use_title">Data ya kibinafsi na nyeti tunayoyatumia</string>
+    <string name="privacy_policy_use"><![CDATA[
+    • Tunatumia data ya eneo lako kwa ajili ya kusasisha hali ya hewa tu, na hii hufanyika tu ikiwa utawezesha huduma hii.
+    ]]></string>
+
+    <string name="privacy_policy_rights_title">Haki zako</string>
+    <string name="privacy_policy_rights"><![CDATA[
+    <p>• Data ya uchambuzi, hitilafu, na utendaji tunayokusanya ni ya faragha kabisa na haiwezi kutumika kumtambua mtu binafsi. Kwa hiyo, haitambuliki kama data ya kibinafsi kwa mujibu wa sheria za ulinzi wa data kama vile GDPR, na haina haki ya kufikiwa, kurekebishwa au kufutwa.</p>
+    <p>• Unaweza kujiondoa kwenye ukusanyaji wa data kwa kufuta programu au kwa kutumia mipangilio ya faragha ya akaunti yako ya Google au kifaa chako.</p>
+    • Kwa maswali yoyote kuhusu matumizi ya data au haki zako za faragha, tafadhali wasiliana nasi kupitia njia za msaada ndani ya programu.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">Sera za faragha za watoa huduma wengine</string>
+    <string name="privacy_policy_links"><![CDATA[
+    <p><a href="https://policies.google.com/privacy">Sera ya faragha ya Google (ikijumuisha Google Play Services)</a></p>
+    <p><a href="https://policies.google.com/technologies/ads">Matumizi ya data na AdMob</a></p>
+    <p><a href="https://support.google.com/analytics/answer/6004245">Matumizi ya data na Google Analytics</a></p>
+    <p><a href="https://firebase.google.com/terms/crashlytics">Masharti ya Firebase Crashlytics</a></p>
+    <a href="https://firebase.google.com/support/privacy">Faragha na usalama wa Firebase (ikiwemo Performance Monitoring)</a>
+    ]]></string>
+
+    <string name="privacy_policy_eu_consent_title">Hali</string>
+    <string name="privacy_policy_eu_consent_title_obtained">Ridhaa imetolewa</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Matangazo ya kibinafsi, husika</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Matangazo yasiyobinafsishwa, yasiyo husika</string>
+    <string name="privacy_policy_eu_consent_title_unknown">Haijulikani</string>
+
+    <string name="privacy_policy_eu_consent_setting">Mipangilio</string>
+
+
+    <!-- Custom vibration dialog -->
+    <string name="custom_vibration_title">Mipangilio ya mtetemo</string>
+
+    <!-- Shortcuts -->
+    <string name="shortcut">Kipito</string>
+    <string name="shortcut_visible_items">Vipengele vinavyoonekana</string>
+    <string name="shortcut_hidden_items">Vipengele vilivyofichwa</string>
+
+    <string name="shortcut_status">Hali</string>
+    <string name="shortcut_heart_rate">Mapigo ya moyo</string>
+    <string name="shortcut_blood_oxygen">Oksijeni ya damu</string>
+    <string name="shortcut_sleep">Usingizi</string>
+    <string name="shortcut_breathing">Kupumua</string>
+    <string name="shortcut_weather">Hali ya hewa</string>
+    <string name="shortcut_stress">Msongo</string>
+
+    <!-- Actions  -->
+    <string name="tab_daily_charts">Grafu za kila siku</string>
+    <string name="tab_weekly_charts">Grafu za kila wiki</string>
+    <string name="tab_monthly_charts">Grafu za kila mwezi</string>
+    <string name="tab_yearly_charts">Grafu za kila mwaka</string>
+
+    <string name="ad_attribution">Tangazo</string>
+    <string name="on">Wazi</string>
+    <string name="off">Zima</string>
+    <string name="none">Hakuna</string>
+    <string name="heart_rate_bpm">bpm</string>
+    <string name="heart_rate_mhr">MHR</string>
+    <string name="date">Tarehe</string>
+    <string name="time">Muda</string>
+    <string name="time_start">Muda wa kuanza</string>
+    <string name="time_end">Muda wa mwisho</string>
+    <string name="ringer_mode_vibrate">Mtetemo</string>
+    <string name="ringer_mode_silent">Kimya</string>
+    <string name="ringer_mode_dnd_priority_only">Usisumbuliwe (vipaumbele tu)</string>
+    <string name="ringer_mode_dnd_alarms_only">Usisumbuliwe (alama pekee)</string>
+    <string name="ringer_mode_dnd_total_silence">Usisumbuliwe (kimya kabisa)</string>
+    <string name="unknown">Haijulikani</string>
+    <string name="maximum">Kiwango cha juu</string>
+    <string name="all_day">Siku nzima</string>
+    <string name="timed">Kwa muda maalum</string>
+    <string name="file_name">Jina la faili</string>
+    <string name="default_">Chaguomsingi</string>
+    <string name="default_by_phone">Chaguomsingi (kutoka kwa simu)</string>
+    <string name="custom">Maalum</string>
+    <string name="invalid_setting">Mpangilio batili</string>
+    <string name="ringtone">Mlio wa simu</string>
+    <string name="ringtone_chooser">Chagua mlio wa simu</string>
+    <string name="uninstalled">Imesafishwa</string>
+    <string name="value">Thamani</string>
+    <string name="downloads">Vipakuliwa</string>
+    <string name="share">Shiriki</string>
+    <string name="send">Tuma</string>
+    <string name="narrow">Nyembamba</string>
+    <string name="short_">Fupi</string>
+    <string name="medium">Wastani</string>
+    <string name="long_">Ndefu</string>
+    <string name="full">Kamili</string>
+    <string name="alignment_left">Mpangilio kushoto</string>
+    <string name="alignment_center">Mpangilio katikati</string>
+    <string name="alignment_right">Mpangilio kulia</string>
+    <string name="visible">Inaonekana</string>
+    <string name="invisible">Haionekani</string>
+    <string name="placeholder">Kishikilia nafasi</string>
+    <string name="image_scale_fit">Linganisha</string>
+    <string name="image_scale_crop">Kata</string>
+    <string name="image_scale_stretch">Nyosha</string>
+    <string name="resource_manager">Msimamizi wa rasilimali</string>
+
+    <string name="action_premium_mode">Hali ya premium</string>
+    <string name="action_dismiss">Funga</string>
+    <string name="action_setting">Mpangilio</string>
+    <string name="action_delete">Futa</string>
+    <string name="action_rename">Badilisha jina</string>
+    <string name="action_export">Hamisha</string>
+    <string name="action_synchronization">Usawazishaji</string>
+    <string name="action_download">Pakua</string>
+    <string name="action_upload">Pakia</string>
+    <string name="action_backup">Hifadhi nakala</string>
+    <string name="action_restore">Rejesha</string>
+    <string name="action_filter_no">Hakuna kichujio</string>
+    <string name="action_bluetooth">Bluetooth</string>
+    <string name="action_favorite">Kipendwa</string>
+    <string name="action_save">Hifadhi</string>
+    <string name="action_test">Jaribu</string>
+    <string name="action_discard">Tupa</string>
+    <string name="action_keep_editing">Endelea kuhariri</string>
+    <string name="action_new">Mpya</string>
+    <string name="action_new_file_extension">Mpya %1$s</string>
+    <string name="action_edit">Hariri</string>
+    <string name="action_start_stop">Anza/Komesha</string>
+    <string name="action_contacts">Wasiliani</string>
+    <string name="action_single_selection">Uteuzi mmoja</string>
+    <string name="action_multiple_selection">Uteuzi mwingi</string>
+    <string name="action_selection_boundaries">Mipaka ya uteuzi</string>
+    <string name="action_object_boundaries">Mipaka ya kitu</string>
+    <string name="action_select">Chagua</string>
+    <string name="action_select_all">Chagua zote</string>
+    <string name="action_select_texts">Chagua maandishi</string>
+    <string name="action_select_images">Chagua picha</string>
+    <string name="action_deselect_all">Ondoa uteuzi wote</string>
+    <string name="synchronized_from_watch">Zimesawazishwa kutoka kwa saa</string>
+    <string name="synchronization_succeeded">Usawazishaji umefanikiwa</string>
+    <string name="synchronization_failed">Usawazishaji umeshindikana</string>
+
+    <string name="action_chart">Chati</string>
+    <string name="action_zoom_in">Zidisha</string>
+    <string name="action_chart_normalize_raw_data">Thamani zilizopimwa</string>
+    <string name="action_chart_normalize_quarter_hourly">Thamani za kila robo saa</string>
+    <string name="action_chart_normalize_half_hourly">Thamani za kila nusu saa</string>
+    <string name="action_chart_normalize_hourly">Thamani za kila saa</string>
+    <string name="action_chart_sort_time_asc">Muda kwa mpangilio wa kuongezeka</string>
+    <string name="action_chart_sort_time_desc">Muda kwa mpangilio wa kupungua</string>
+    <string name="action_chart_sort_step_asc">Hatua kwa mpangilio wa kuongezeka</string>
+    <string name="action_chart_sort_step_desc">Hatua kwa mpangilio wa kupungua</string>
+    <string name="action_chart_sort_duration_asc">Muda kwa mpangilio wa kuongezeka</string>
+    <string name="action_chart_sort_duration_desc">Muda kwa mpangilio wa kupungua</string>
+    <string name="action_chart_sort_heart_rate_asc">Mapigo ya moyo kuongezeka</string>
+    <string name="action_chart_sort_heart_rate_desc">Mapigo ya moyo kupungua</string>
+    <string name="action_chart_sort_spo2_asc">SpO2 kuongezeka</string>
+    <string name="action_chart_sort_spo2_desc">SpO2 kupungua</string>
+    <string name="action_chart_sort_blood_pressure_asc">Shinikizo la damu kuongezeka</string>
+    <string name="action_chart_sort_blood_pressure_desc">Shinikizo la damu kupungua</string>
+    <string name="action_chart_monthly_calendar">Kalenda</string>
+    <string name="action_chart_monthly_compact">Iliyoshikana</string>
+
+    <string name="activity_progress_title_prepare">Inaandaa kwa ajili ya usawazishaji…</string>
+    <string name="activity_progress_title_sync">Inasawazisha data…</string>
+    <string name="activity_progress_title_save">Inaokoa data…</string>
+
+    <string name="required_value">Inahitajika</string>
+
+    <string name="percent_0">0%</string>
+    <string name="percent_10">10%</string>
+    <string name="percent_20">20%</string>
+    <string name="percent_30">30%</string>
+    <string name="percent_40">40%</string>
+    <string name="percent_50">50%</string>
+    <string name="percent_60">60%</string>
+    <string name="percent_70">70%</string>
+    <string name="percent_80">80%</string>
+    <string name="percent_90">90%</string>
+    <string name="percent_100">100%</string>
+
+    <!-- Constants -->
+    <string name="const_day_of_week_sunday">Jumapili</string>
+    <string name="const_day_of_week_monday">Jumatatu</string>
+    <string name="const_day_of_week_tuesday">Jumanne</string>
+    <string name="const_day_of_week_wednesday">Jumatano</string>
+    <string name="const_day_of_week_thursday">Alhamisi</string>
+    <string name="const_day_of_week_friday">Ijumaa</string>
+    <string name="const_day_of_week_saturday">Jumamosi</string>
+
+    <string name="const_time_abbreviation_day">s</string> <!-- siku -->
+    <string name="const_time_abbreviation_hour">saa</string>
+    <string name="const_time_abbreviation_minute">dak</string>
+    <string name="const_time_abbreviation_sec">sek</string>
+    <string name="const_time_abbreviation_milli_sec">ms</string>
+
+    <string name="const_number">%1$,d</string>
+    <string name="const_number_float">%,.2f</string>
+    <string name="const_number_float_1_precision">%,.1f</string>
+    <string name="const_percentage">%1$,d%%</string>
+    <string name="const_percent_sign">%</string>
+    <string name="const_unit_kilometer">km</string>
+    <string name="const_unit_meter">m</string>
+    <string name="const_unit_centimeter">cm</string>
+    <string name="const_unit_mile">mi</string>
+    <string name="const_unit_kilogram">kg</string>
+    <string name="const_unit_kcal">kcal</string>
+    <string name="const_unit_dbm">dBm</string>
+
+    <plurals name="plural_time_hour">
+        <item quantity="one">%d saa</item>
+        <item quantity="other">%d saa</item>
+    </plurals>
+
+    <plurals name="plural_time_minute">
+        <item quantity="one">%d dakika</item>
+        <item quantity="other">%d dakika</item>
+    </plurals>
+
+    <plurals name="plural_time_second">
+        <item quantity="one">%d sekunde</item>
+        <item quantity="other">%d sekunde</item>
+    </plurals>
+
+</resources>

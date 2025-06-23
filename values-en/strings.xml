@@ -162,7 +162,7 @@
     <string name="pref_diagnostic_companion_device">Companion device pairing</string>
     <string name="pref_diagnostic_bluetooth_pairing">Bluetooth pairing</string>
     <string name="pref_diagnostic_autostart">Autostart</string>
-    <string name="pref_diagnostic_autostart_summary">Enable the application to restart automatically in the phone\'s Auto-start manager</string>
+    <string name="pref_diagnostic_autostart_summary">Allow the app to restart automatically in the phone\'s Auto-start manager</string>
     <string name="pref_diagnostic_info">More information</string>
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
 
@@ -443,7 +443,7 @@
     <string name="watch_face_upload_title">Upload watch face</string>
     <string name="watch_face_tool_title">Tools</string>
 
-    <string name="watch_face_share_content">You can share the watch face you have created with others. Send the watch face and preview files by email, and include the following information: author name, watch face name (max. 30 characters), and language. Only high-quality watch faces will be published</string>
+    <string name="watch_face_share_content">You can share the watch face you have created with others. Send the watch face and preview files by email, and include the following information: author name, watch face name (max. 30 characters), and language. We only publish high-quality watch faces.</string>
 
     <string name="watch_face_upload_prepare">Preparing for the upload…</string>
     <string name="watch_face_upload_progress">Uploading %1$,d%%</string>
@@ -628,8 +628,7 @@
     <string name="touch_testing_second">sec.</string>
 
     <string name="touch_setting_detection_time_title">Touch detection time</string>
-    <string name="touch_setting_detection_time_music_hint">If it has a lower value, the music screen should be closed faster</string>
-    <string name="touch_setting_detection_time_button_hint">If it has a lower value, press the button faster</string>
+    <string name="touch_setting_detection_time_button_hint">A lower value requires faster consecutive taps for button actions</string>
 
     <string name="touch_setting_detection_method_title">Touch detection method</string>
 
@@ -730,6 +729,14 @@
 
     <string name="theme_cat_color_setting">Color settings</string>
 
+    <!-- Feedback -->
+    <string name="action_log_notification">Log</string>
+
+    <string name="feedback_google_play_title">Rate this app</string>
+    <string name="feedback_request_feature_title">Feature request, bug report</string>
+    <string name="feedback_request_feature_summary">Automatic e-mail processing, you may not get an response</string>
+    <string name="feedback_translation_title">%1$s translation</string> <!-- %1$s = App name -->
+    <string name="feedback_translation_title_summary">Please help with the translation</string>
 
     <!-- Premium mode -->
     <string name="purchase_advantage_title">Premium mode advantages</string>
@@ -769,15 +776,6 @@
 
     <string name="purchase_info">One-time fee ・ %1$s</string> <!-- %1$s = price</string>-->
     <string name="purchase_button_purchase">Purchase</string>
-
-    <!-- Feedback -->
-    <string name="action_log_notification">Log</string>
-
-    <string name="feedback_google_play_title">Rate this app</string>
-    <string name="feedback_request_feature_title">Feature request, bug report</string>
-    <string name="feedback_request_feature_summary">Automatic e-mail processing, you may not get an response</string>
-    <string name="feedback_translation_title">%1$s translation</string> <!-- %1$s = App name -->
-    <string name="feedback_translation_title_summary">Please help with the translation</string>
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Privacy policy</string>
@@ -969,8 +967,8 @@
     <string name="action_chart_sort_heart_rate_desc">Heart rate descending</string>
     <string name="action_chart_sort_spo2_asc">SpO2 ascending</string>
     <string name="action_chart_sort_spo2_desc">SpO2 descending</string>
-    <string name="action_chart_sort_pressure_asc">Pressure ascending</string>
-    <string name="action_chart_sort_pressure_desc">Pressure descending</string>
+    <string name="action_chart_sort_blood_pressure_asc">Blood pressure ascending</string>
+    <string name="action_chart_sort_blood_pressure_desc">Blood pressure descending</string>
     <string name="action_chart_monthly_calendar">Calendar</string>
     <string name="action_chart_monthly_compact">Compact</string>
 

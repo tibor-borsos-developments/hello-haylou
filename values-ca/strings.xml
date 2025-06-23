@@ -1,0 +1,1030 @@
+<?xml version="1.0"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="ca">
+
+    <!--  Navigation  -->
+    <string name="menu_nav_notification">Notificació</string>
+    <string name="menu_nav_call">Trucada</string>
+    <string name="menu_nav_step">Activitat</string>
+    <string name="menu_nav_sleep">Son</string>
+    <string name="menu_nav_heart_rate">Freqüència cardíaca</string>
+    <string name="menu_nav_blood_oxygen">Oxigen en sang</string>
+    <string name="menu_nav_blood_pressure">Pressió arterial</string>
+    <string name="menu_nav_workout">Entrenament</string>
+    <string name="menu_nav_alarm">Alarma</string>
+    <string name="menu_nav_reminder">Recordatori</string>
+    <string name="menu_nav_dnd">Mode no molestar</string>
+    <string name="menu_nav_watch_face">Esfera</string>
+    <string name="menu_nav_weather">Temps</string>
+    <string name="menu_nav_touch">Control tàctil</string>
+    <string name="menu_nav_more">Més</string>
+    <string name="menu_nav_text_customization">Personalització del text</string>
+    <string name="menu_nav_export">Exportació</string>
+    <string name="menu_nav_premium_mode">Mode premium</string>
+    <string name="menu_nav_feedback">Comentaris</string>
+    <string name="menu_nav_privacy_policy">Política de privacitat</string>
+    <string name="menu_nav_theme">Tema</string>
+
+    <string name="setting_name">Configuració</string>
+    <string name="settings_name">Configuracions</string>
+    <string name="info_name">Informació</string>
+    <string name="more_name">Més</string>
+
+    <string name="main_item_activity_title">Passos・objectiu</string>
+    <string name="main_item_battery">Nivell de bateria・última càrrega</string>
+    <string name="main_item_connect_and_disconnect_last_time">Última connexió i desconnexió</string>
+    <string name="main_item_next_alarm">Propera alarma</string>
+    <string name="main_item_next_reminder">Proper recordatori</string>
+    <string name="main_item_call_and_notification_control">Trucades i notificacions</string>
+
+    <!-- Pairing Bluetooth device -->
+    <string name="device_search">Cerca de %1$s</string> <!-- %1$s = Watch name -->
+    <string name="device_setting">Configuració de %1$s</string> <!-- %1$s = Watch name -->
+
+    <string name="device_mac_address">Adreça MAC</string>
+    <string name="device_mac_address_invalid">Adreça MAC no vàlida</string>
+
+    <string name="device_state_connected">Connectat</string>
+    <string name="device_state_disconnected">Desconnectat</string>
+    <string name="device_state_bonded">Dispositiu emparellat</string>
+    <string name="device_state_not_bonded">Dispositiu no emparellat</string>
+
+    <string name="error_title">Ups! Alguna cosa ha fallat</string>
+    <string name="error_message">Actualitza l\'aplicació a la darrera versió</string>
+
+
+    <!-- Watch connection and setting -->
+    <string name="mi_band_setting_title">Configuració de %1$s</string>
+
+    <string name="mi_band_setting_menu_connection">Connexió</string>
+    <string name="mi_band_setting_menu_setting">@string/setting_name</string>
+    <string name="mi_band_setting_menu_profile">Perfil</string>
+    <string name="mi_band_setting_menu_text">Text</string>
+    <string name="mi_band_setting_menu_call">Trucada</string>
+
+    <string name="mi_band_setting_auth_mi_fit">Col·laboració amb %1$s</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">%3$s requereix que l\'aplicació %1$s estigui instal·lada en aquest telèfon. Primer, emparella el dispositiu %2$s dins de l\'aplicació %1$s. Tria aquesta opció si també vols utilitzar l\'aplicació %1$s.</string>
+    <string name="mi_band_setting_auth_standalone">Mode autònom</string>
+    <string name="mi_band_setting_auth_standalone_hint">No cal l\'aplicació %1$s per fer servir %3$s. Un cop emparellat, pots desinstal·lar l\'aplicació %1$s o desemparellar el rellotge intel·ligent. Per restablir la col·laboració amb %1$s, hauràs de tornar a emparellar %2$s des de l\'aplicació %1$s. Si utilitzes la funció de desemparellament, s\'esborraran les dades del rellotge. Assegura\'t que la pantalla de %2$s estigui encesa durant el procés d\'emparellament.</string>
+    <string name="mi_band_standalone_sync_error">Per evitar la pèrdua de dades i garantir-ne l\'exactitud, la sincronització està desactivada en mode de col·laboració. Sincronitzar esborraria les dades del rellotge i provocaria valors incorrectes a les dues aplicacions.</string>
+    <string name="mi_band_setting_auth_key">Clau d\'autenticació</string>
+    <string name="mi_band_setting_auth_key_help">Introdueix qualsevol número de 4 dígits</string>
+    <string name="mi_band_setting_auth_request">Sol·licitar clau</string>
+    <string name="mi_band_setting_auth_pair">Emparella</string>
+    <string name="mi_band_setting_auth_unpair">Desemparella</string>
+
+    <string name="message_auth_request">El dispositiu ja està emparellat. Si no saps la clau, desemparella\'l.</string>
+
+    <string name="message_mi_band_setting_auth_press_band_button">Prem el botó de %1$s per emparellar</string>
+    <string name="message_mi_band_setting_auth_success">%1$s emparellat correctament</string>
+    <string name="message_mi_band_setting_auth_fail">Error en emparellar %1$s</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Clau d\'autenticació no vàlida</string>
+
+    <string name="pref_disconnect_device">Desconnectar</string>
+
+    <string name="mi_band_setting_connection_problem_title">Si tens problemes de connexió</string>
+    <string name="mi_band_setting_connection_problem_hint"><![CDATA[
+    - Desemparella el rellotge als ajustos de Bluetooth del telèfon<br>
+    - Apaga i torna a encendre el Bluetooth<br>
+    - Tanca l\'aplicació forçosament o reinicia el telèfon<br>
+    - Torna a emparellar el rellotge des de la pantalla principal
+    ]]></string>
+
+    <string name="mi_band_setting_dial">Esfera</string>
+    <string name="mi_band_setting_language">Idioma</string>
+    <string name="mi_band_setting_time_24h">Format de 24 hores</string>
+    <string name="mi_band_setting_distance_unit">Unitat de distància</string>
+    <string name="mi_band_setting_screen_on_duration">Durada de la pantalla encesa</string>
+    <string name="mi_band_setting_lift_wrist">Encendre la pantalla en girar el canell</string>
+    <string name="mi_band_setting_idle_alert">Recordatori de sedentarisme</string>
+    <string name="mi_band_setting_idle_alert_duration">Durada de la inactivitat</string>
+    <string name="mi_band_setting_idle_alert_dnd">No molestar durant el descans (12:00-14:00)</string>
+
+    <string name="pref_synchronization">Sincronització</string>
+    <string name="pref_synchronization_fetch_interval">Freqüència de sincronització</string>
+    <string name="pref_synchronization_summary">Selecciona les dades que vols sincronitzar automàticament en segon pla. Si no necessites alguna dada, desactiva-la per millorar el rendiment. Encara pots sincronitzar manualment des de la pantalla d\'inici o els menús corresponents (estirant cap avall).</string>
+
+    <string name="mi_band_setting_profile">Introdueix aquestes dades per millorar la precisió del recompte de passos, distància i calories.</string>
+    <string name="mi_band_setting_gender">Gènere</string>
+    <string name="mi_band_setting_gender_male">Home</string>
+    <string name="mi_band_setting_gender_female">Dona</string>
+    <string name="mi_band_setting_birthday">Data de naixement</string>
+    <string name="mi_band_setting_height">Alçada</string>
+    <string name="mi_band_setting_weight">Pes</string>
+    <string name="mi_band_setting_wearing_place">Posició de l\'ús</string>
+    <string name="mi_band_setting_wearing_place_left_wrist">Canell esquerre</string>
+    <string name="mi_band_setting_wearing_place_right_wrist">Canell dret</string>
+
+    <!-- Battery -->
+    <string name="battery_details">Ús de la bateria</string>
+
+    <string name="battery_settings">Ajustos de bateria</string>
+    <string name="battery_settings_notification">Avís de bateria baixa</string>
+    <string name="battery_settings_notification_level">Llindar de bateria</string>
+    <string name="battery_settings_notification_repeat_interval">Interval de repetició</string>
+    <string name="battery_settings_notification_on_phone">Notificació al telèfon</string>
+    <string name="battery_settings_notification_on_phone_ongoing">Notificació persistent</string>
+    <string name="battery_settings_notification_on_phone_message">Nivell de bateria baix: %1$,d%%</string>
+    <string name="battery_settings_notification_on_device">Notificació al rellotge</string>
+    <string name="battery_settings_notification_on_device_message">Bateria: %1$,d%%</string>
+
+    <!-- Preference screens -->
+    <string name="pref_battery_phone">Bateria del telèfon</string>
+    <string name="pref_battery_phone_summary">Notificacions per a nivells baixos o complets de bateria</string>
+    <string name="pref_cat_battery_phone_low">Bateria baixa</string>
+    <string name="pref_battery_phone_low_title">Avís de bateria baixa</string>
+    <string name="pref_battery_phone_low_level_title">Llindar de bateria</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">Interval de repetició</string>
+    <string name="pref_cat_battery_phone_full">Bateria plena</string>
+    <string name="pref_battery_phone_full_title">Avís de càrrega completa</string>
+    <string name="pref_battery_phone_full_plugged_ac">Font d\'alimentació CA</string>
+    <string name="pref_battery_phone_full_plugged_usb">Font USB</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Càrrega sense fils</string>
+
+    <string name="pref_battery_phone_message">Bateria del telèfon:\n %1$,d%%</string>
+
+    <string name="pref_language">Idioma</string>
+    <string name="pref_cat_language">Aplicació</string>
+    <string name="pref_language_title">Idioma</string>
+
+    <string name="pref_menu">Menú</string>
+    <string name="pref_cat_menu">Personalització del menú principal</string>
+    <string name="pref_menu_item_2">Segon element del menú</string>
+    <string name="pref_menu_item_3">Tercer element del menú</string>
+
+    <string name="pref_diagnostic">Diagnòstic</string>
+    <string name="pref_cat_diagnostic_closing_protection">Protecció contra el tancament</string>
+    <string name="pref_diagnostic_battery_optimisation">Desactivar l\'optimització de bateria</string>
+    <string name="pref_diagnostic_companion_device">Emparellament amb dispositiu complementari</string>
+    <string name="pref_diagnostic_bluetooth_pairing">Emparellament Bluetooth</string>
+    <string name="pref_diagnostic_autostart">Inici automàtic</string>
+    <string name="pref_diagnostic_autostart_summary">Permet que l\'aplicació es reiniciï automàticament des del gestor d\'inici automàtic del telèfon</string>
+    <string name="pref_diagnostic_info">Més informació</string>
+    <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
+
+    <string name="pref_cat_diagnostic_permissions">Permisos</string>
+    <string name="pref_diagnostic_permission_allow_notification_access_settings">Permet l\'accés a les notificacions</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">Programar alarma exacta</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Es requereix permís addicional per programar una tasca en un moment exacte.</string>
+    <string name="pref_diagnostic_permission_post_notifications">Mostrar notificacions</string>
+    <string name="pref_diagnostic_permission_post_notifications_summary">Es requereix permís addicional per mostrar la notificació</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">Accés a No molestar</string>
+
+
+    <!-- Snackbar Messages -->
+    <string name="message_enable_bluetooth">Activa el Bluetooth i mantingues el rellotge a prop del telèfon</string>
+    <string name="message_discover_device">%1$s no està configurat, si us plau connecta\'l</string>
+    <string name="message_discovering_device">Cercant %1$s (pot trigar fins a 1 minut)…</string>
+    <string name="message_discover_device_succeeded">%1$s s\'ha connectat correctament</string>
+    <string name="message_discover_device_failed">No s\'ha pogut connectar %1$s</string>
+    <string name="message_discover_device_not_found">Si no es troba %1$s, activa el mode visible o fes l\'emparellament des dels ajustos de Bluetooth del telèfon</string>
+    <string name="message_enable_notification_listener_access">Activa l\'accés a notificacions: Telèfon > Ajustos > Accés a notificacions</string>
+    <string name="message_enable_notification_listener_access_4_4">Activa l\'accés a notificacions: Ajustos > Seguretat > Accés a notificacions</string>
+
+    <string name="message_deleted">Eliminat</string>
+    <string name="message_undo">Desfer</string>
+
+    <string name="message_app_chooser_no_selected">Selecciona una aplicació</string>
+
+    <string name="message_free_counter">Només es pot usar 1 ajust en mode gratuït</string>
+    <string name="message_free_counters">Fins a %1$,d ajustos es poden usar en mode gratuït</string>
+
+    <string name="message_notification_free_groups">Fins a %1$,d grups es poden usar en mode gratuït</string>
+    <string name="message_notification_free_app">Només 1 aplicació es pot seleccionar en mode gratuït</string>
+    <string name="message_notification_free_apps">Fins a %1$,d aplicacions es poden seleccionar en mode gratuït</string>
+    <string name="message_notification_free_text">Només 1 text es pot enregistrar en mode gratuït</string>
+
+    <string name="message_time_alarm_free_counter">Només 1 alarma es pot usar en mode gratuït</string>
+    <string name="message_time_alarm_max_counter">Fins a %1$d alarmes es poden usar</string>
+    <string name="message_time_alarm_enabled">Alarma activada</string>
+    <string name="message_time_alarm_disabled">Alarma desactivada</string>
+    <string name="message_time_alarm_off">Alarma apagada</string>
+
+    <string name="message_touch_pattern_error">El patró especificat és similar al d\'una altra funció, grava\'n un de diferent</string>
+    <string name="message_touch_free_patterns">Fins a %1$,d controls es poden usar en mode gratuït</string>
+    <string name="message_touch_record_help">Utilitza les funcions de control de música o trobar telèfon de %1$s</string>
+
+    <string name="message_premium_mode_only">Aquesta funció només està disponible en mode Premium</string>
+    <string name="message_feature_is_not_supported">%1$s no admet aquesta funció</string>
+    <string name="message_general_error">Error en la configuració (connexió perduda), torna-ho a intentar</string>
+    <string name="message_internet_error">No hi ha connexió a Internet</string>
+    <string name="message_internet_traffic_blocked">El trànsit de xarxa està blocat</string>
+    <string name="message_internet_ads_blocked">Els anuncis estan blocats</string>
+    <string name="message_gps_enable">Activa el GPS</string>
+    <string name="message_location_enable">Permet l\'accés a la ubicació</string>
+
+    <string name="message_in_progress">En procés…</string>
+    <string name="message_no_data">No hi ha dades disponibles</string>
+
+    <string name="message_rewarded_error">No s\'ha pogut carregar el vídeo</string>
+
+    <string name="message_new_message">Nou missatge rebut. Consulta\'l al telèfon.</string>
+
+    <string name="message_permission_not_granted">Permís no atorgat: %1$s</string>
+
+    <!-- Welcome dialog -->
+    <string name="dialog_welcome_title">Benvingut!</string>
+    <string name="dialog_welcome_message"><![CDATA[Dispositius compatibles:
+    <watch_types/>
+    <p><app_name/> requereix la instal·lació de l\'aplicació oficial <device_type/> al mateix telèfon. Primer, has d\'emparellar el teu rellotge dins l\'aplicació <device_type/>, i després podràs usar aquesta aplicació.</p>
+    <p>Si no es troba <device_type/>, pots introduir manualment l\'adreça MAC durant la cerca.</p>
+    <b>Solució de problemes de connexió:</b>
+    <br>- Pantalla d\'apps recents: bloqueja <app_name/> (deslisa cap avall a la vista prèvia de l\'app i selecciona \'Bloquejar\' o similar).
+    <br>- Optimització de bateria del telèfon: configura <app_name/> com a no optimitzada.
+    <br>- Telèfon/apps: esborra les dades de Bluetooth Share i altres apps amb \'Bluetooth\'.
+    <br>- Més informació: https://dontkillmyapp.com
+    <br><br><small>Aquest producte i les seves funcions no estan dissenyats per a usos mèdics i no tenen la finalitat de predir, diagnosticar, prevenir ni curar cap malaltia. Totes les dades i mesures són només per a referència personal i no han de servir com a base per a diagnòstics ni tractaments mèdics.</small>
+    ]]></string>
+
+    <!-- Notification  -->
+    <string name="notification_group_nav_setting">Configuració</string>
+    <string name="notification_group_nav_filter">Filtre</string>
+    <string name="notification_group_nav_correction">Correcció de text</string>
+
+    <string name="notification_group_name">Nom</string>
+    <string name="notification_group_monitoring">Supervisió de notificacions</string>
+    <string name="notification_group_monitoring_disabled">Excloure notificacions (no mostrar les notificacions de l\'aplicació)</string>
+    <string name="notification_group_alert_title">Avís de %1$s</string>
+    <string name="notification_group_text_customization">Personalització del text</string>
+    <string name="notification_group_text_app_name">Nom de l\'app</string>
+    <string name="notification_group_text_name">Nom</string>
+    <string name="notification_group_text_title">Títol</string>
+    <string name="notification_group_text_content">Contingut</string>
+    <string name="notification_group_text_big_content">Contingut complet</string>
+    <string name="notification_group_text_content_slice_title">Longitud del text</string>
+    <string name="notification_group_display_duration_title">Duració de la visualització</string>
+    <string name="notification_group_show_notification_title">Mostrar notificació</string>
+    <string name="notification_group_immediate">Avisar immediatament quan s\'arriba una notificació</string>
+    <string name="notification_group_connecting">Avís en connectar-se</string>
+    <string name="notification_group_reminder">Avís de recordatori</string>
+    <string name="notification_group_ongoing">Avís per a notificacions permanents (que no es poden descartar)</string>
+    <string name="notification_group_screen_off">Avisar només si la pantalla està apagada</string>
+    <string name="notification_group_repeat_title">Repetir avisos</string>
+    <string name="notification_group_wakelock">Despertar la pantalla del telèfon</string>
+    <string name="notification_group_grouped_display_title">Opcions de visualització per notificacions agrupades</string>
+    <string name="notification_group_grouped_sort_order_title">Ordre de classificació per notificacions agrupades</string>
+
+    <string name="notification_group_filter">Filtrar notificació</string>
+    <string name="notification_group_filter_title">Filtrar per títol</string>
+    <string name="notification_group_filter_content">Filtrar per contingut</string>
+    <string name="notification_group_filter_regex">Regex</string>
+    <string name="notification_group_filter_hint">Avisar només si el títol o el contingut coincideix (sense distingir majúscules/minúscules)</string>
+    <string name="notification_group_filter_contains">Conté algun d\'aquests</string>
+    <string name="notification_group_filter_not_contains">No conté cap d\'aquests</string>
+
+    <string name="notification_group_sample_sms">SMS</string>
+    <string name="notification_group_sample_facebook">Messenger</string>
+    <string name="notification_group_sample_whatsapp">WhatsApp</string>
+
+    <string name="notification_group_correction">Correcció del text de la notificació</string>
+    <string name="notification_group_correction_title">Correcció del títol</string>
+    <string name="notification_group_correction_content">Correcció del contingut</string>
+    <string name="notification_group_correction_regex">Regex</string>
+    <string name="notification_group_correction_hint">Sense distingir majúscules/minúscules</string>
+    <string name="notification_group_correction_items">Textos a corregir</string>
+    <string name="notification_group_correction_find">Text a cercar</string>
+    <string name="notification_group_correction_replace">Substituir per</string>
+
+    <string name="notification_regex_hint">Els caràcters no alfanumèrics tenen significat especial. Si no saps usar Regex, deixa\'l sense marcar.</string>
+
+    <string name="notification_confirm_close">Segur que vols descartar els canvis?</string>
+
+    <string name="notification_edit_play_text_title">Títol de la notificació</string>
+    <string name="notification_edit_play_text_content">Contingut de la notificació:</string>
+
+
+    <!-- Incoming call alert -->
+    <string name="call_tab_call">Trucada entrant</string>
+    <string name="call_tab_contacts">Contactes</string>
+
+    <string name="call_incoming">Trucada entrant</string>
+    <string name="call_incoming_summary_on">No oblidis desactivar les alertes de trucades entrants a l\'aplicació %1$s</string>
+    <string name="call_incoming_caller_id">Mostrar identificador de trucada</string>
+
+    <string name="pref_call_notification_rejected">Mostrar notificació de trucada rebutjada</string>
+    <string name="pref_call_notification_rejected_message">Trucada rebutjada</string>
+    <string name="pref_call_notification_rejected_action">Trucar</string>
+
+    <string name="call_incoming_net_alert_title">Alerta de trucada per internet entrant</string>
+
+    <string name="call_missed_title">Alerta de trucada perduda</string>
+    <string name="call_missed_chooser_title">Avís de %1$s</string>
+    <string name="call_missed_notification">Trucada perduda</string>
+
+    <string name="call_reject_button_action">Acció del botó de rebutjar trucada</string>
+
+    <string name="touch_call_answer_title">Respondre trucada</string>
+    <string name="touch_call_answer_speakerphone_title">Altaveu</string>
+
+    <string name="call_end_title">Rebuig o finalització de trucada</string>
+
+    <string name="touch_call_mute_title">Silenciar trucada</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Només si hi ha una trucada entrant</string>
+    <string name="touch_call_mute_recognition_title">Quan hi ha una trucada entrant</string>
+
+    <string name="call_contact_edit_contact">Contacte</string>
+    <string name="call_contact_edit_name">Nom</string>
+    <string name="call_contact_edit_phone_number">Número de telèfon</string>
+
+    <string name="call_contact_edit_setting_name_order">Ordre del nom</string>
+    <string name="call_contact_edit_setting_default">@string/default_</string>
+    <string name="call_contact_edit_setting_first_name">Nom</string>
+    <string name="call_contact_edit_setting_last_name">Cognom</string>
+
+    <string name="message_call_contacts_free_counter">Es poden utilitzar fins a %1$d contactes en mode gratuït</string>
+    <string name="message_call_contacts_max_counter">Es poden utilitzar fins a %1$d contactes</string>
+
+    <!-- App chooser dialog -->
+    <string name="app_chooser">Selector d\'app</string>
+    <string name="action_search">Cerca</string>
+    <string name="action_filter_notification">Filtre de notificacions</string>
+
+    <!-- Activity -->
+    <string name="step_details">Detalls de l\'activitat</string>
+
+    <string name="mi_band_tracker_step_title">%1$,d</string>
+    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string>
+    <string name="mi_band_tracker_distance_kilometer_title">%,.2f km</string>
+    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string>
+    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string>
+
+    <string name="action_tracker_step">Passos</string>
+    <string name="action_tracker_distance">Distància</string>
+    <string name="action_tracker_calorie">Calories</string>
+    <string name="action_tracker_duration">Durada de l\'exercici</string>
+
+    <string name="step_goal_default_title">Objectiu per defecte</string>
+
+    <!-- Sleep monitoring -->
+    <string name="sleep_details">Detalls del son</string>
+
+    <string name="sleep_awake_phase_short">Despert</string>
+    <string name="sleep_light_phase_short">Lleuger</string>
+    <string name="sleep_deep_phase_short">Profund</string>
+    <string name="sleep_rem_phase_short">REM</string>
+
+    <!-- Heart rate -->
+    <string name="heart_rate_details">Detalls de la freqüència cardíaca</string>
+
+    <string name="heart_rate_continuous_measurement_title">Mesura contínua de la freqüència cardíaca</string>
+
+    <string name="heart_rate_alert_title">Alerta de freqüència cardíaca</string>
+    <string name="heart_rate_thresholds">Límits de freqüència cardíaca</string>
+    <string name="low_heart_rate">Freqüència cardíaca baixa</string>
+    <string name="high_heart_rate">Freqüència cardíaca alta</string>
+
+    <!-- Blood oxygen -->
+    <string name="blood_oxygen_details">Detalls de l\'oxigen a la sang</string>
+
+    <string name="blood_oxygen_level_measurement">Mesura del nivell d\'oxigen a la sang</string>
+    <string name="measurement_interval">Interval de mesura</string>
+
+    <!-- Blood pressure -->
+    <string name="blood_pressure_details">Detalls de la pressió arterial</string>
+
+    <string name="blood_pressure_level_measurement">Mesura de la pressió arterial</string>
+
+    <string name="blood_pressure_systolic_abbreviation">Sis</string>
+    <string name="blood_pressure_diastolic_abbreviation">Dia</string>
+    <string name="blood_pressure_unit">mmHg</string>
+
+    <!-- Workout -->
+    <string name="workout_details">Detalls de l\'entrenament</string>
+
+    <!-- Alarm -->
+    <string name="action_time_alarm_sort_state_asc">Estat ascendent</string>
+    <string name="action_time_alarm_sort_watch_asc">Rellotge ascendent</string>
+    <string name="action_time_alarm_sort_name_asc">Nom ascendent</string>
+
+    <string name="message_time_alarm_sync">Sincronització d\'alarmes de %1$s (es suprimiran les alarmes existents i se\'n configuraran de noves al rellotge intel·ligent)</string>
+
+    <string name="info_dialog_alarm"><![CDATA[
+    <p>Quan s\'utilitza el mode de cooperació, la configuració de l\'aplicació oficial i de <app_name/> pot sobreescriure o eliminar la de l\'altra.</p>
+    L\'última acció realitzada serà la vàlida.
+    ]]></string>
+
+    <!-- Reminder -->
+    <string name="message_reminder_enabled">Recordatori activat</string>
+    <string name="message_reminder_disabled">Recordatori desactivat</string>
+
+    <string name="reminder_repeat">Repetir cada hora</string>
+    <string name="reminder_notification_on_phone">Notifica\'m al telèfon</string>
+
+    <string name="message_time_reminder_free_counter">Només es pot utilitzar un recordatori en el mode gratuït</string>
+
+    <string name="info_dialog_reminder"><![CDATA[
+    Es requereix connexió Bluetooth per mostrar el recordatori.
+    ]]></string>
+
+    <!-- Do not disturb -->
+    <string name="pref_dnd_summary">Estat dels controls en mode no molestar</string>
+    <string name="pref_dnd_enable_bluetooth">Desactivar Bluetooth a l\'inici del mode DnD i tornar-lo a activar al final</string>
+
+    <string name="info_dialog_dnd"><![CDATA[
+    Si utilitzes el mode de cooperació, en l\'aplicació oficial <device_type/> el mode no molestar (DnD) ha d\'estar establert entre les 00:00 i les 23:59, i el seu estat ha d\'estar desactivat.
+    ]]></string>
+
+
+    <!-- Watch face -->
+    <string name="watch_face_tab_watch_faces">Esferes del rellotge</string>
+    <string name="watch_face_tab_watch_face_custom">Fitxers personalitzats</string>
+    <string name="watch_face_tab_watch_face_editor">Editor</string>
+
+    <string name="watch_face_download_title">Descarregar esfera</string>
+    <string name="watch_face_upload_title">Pujar esfera</string>
+    <string name="watch_face_tool_title">Eines</string>
+
+    <string name="watch_face_share_content">Pots compartir l\'esfera que has creat amb altres usuaris. Envia per correu electrònic els fitxers de l\'esfera i la seva vista prèvia, i inclou la següent informació: nom de l\'autor, nom de l\'esfera (màxim 30 caràcters) i idioma. Només publiquem esferes d\'alta qualitat.</string>
+
+    <string name="watch_face_upload_prepare">Preparant la pujada…</string>
+    <string name="watch_face_upload_progress">Pujant %1$,d%%</string>
+
+    <string name="watch_face_invalid_firmware">El firmware %1$s no es coneix o no admet la pujada d\'esferes. Actualitza el firmware amb l\'aplicació oficial. Si l\'aplicació oficial permet la pujada d\'esferes, fes-nos-ho saber mitjançant el menú Comentaris.</string>
+    <string name="watch_face_invalid_auth">Fes servir el mode independent; si utilitzes el mode de cooperació, l\'aplicació oficial pot bloquejar la pujada d\'esferes</string>
+    <string name="watch_face_invalid_free">Avui no pots pujar més esferes en el mode gratuït</string>
+    <string name="watch_face_watch_rewarded_ads">Mira un vídeo per continuar</string>
+    <string name="watch_face_watch_rewarded_ads_uploading">Mira un vídeo per continuar la pujada</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">S\'està iniciant el vídeo…</string>
+
+    <string name="watch_face_upload_method_title">Mètode</string>
+    <string name="watch_face_upload_method_default">@string/default_</string>
+    <string name="watch_face_upload_method_alternative">Alternatiu</string>
+
+    <string name="watch_face_upload_speed_title">Velocitat de pujada</string>
+    <string name="watch_face_upload_invalid_speed_hint">Estableix una velocitat més baixa si la pujada de l\'esfera es talla</string>
+    <string name="watch_face_upload_invalid_size_hint">Mida de fitxer d\'esfera no vàlida; redueix la qualitat o elimina elements</string>
+    <string name="watch_face_upload_invalid_battery_hint">La bateria del rellotge intel·ligent és baixa, si us plau carrega\'l</string>
+
+    <string name="watch_face_tbwf_quality_title">Configuració de qualitat de l\'arxiu d\'esfera .tbwf</string>
+    <string name="watch_face_tbwf_quality_hint">La mida del fitxer es pot reduir si el rellotge ho permet</string>
+
+    <string name="watch_face_tbwf_locale_title">Configuració d\'idioma i regió de l\'arxiu .tbwf</string>
+    <string name="watch_face_tbwf_locale_hint">Noms dels dies, separador de mesos i símbol decimal</string>
+
+    <string name="message_watch_face_file_invalid">Fitxer d\'esfera no vàlid</string>
+    <string name="message_watch_face_file_invalid_size">Mida del fitxer d\'esfera no vàlida</string>
+    <string name="message_watch_face_file_invalid_battery">La bateria del rellotge intel·ligent és baixa</string>
+    <string name="message_watch_face_image_file_error">Fitxer d\'imatge no vàlid</string>
+    <string name="message_watch_face_font_file_error">Fitxer de lletra no vàlid</string>
+
+    <string name="action_chart_layout_2_columns">Disseny de 2 columnes</string>
+    <string name="action_chart_layout_3_columns">Disseny de 3 columnes</string>
+
+    <string name="watch_face_edit_dial">Esfera</string>
+    <string name="watch_face_edit_preview">Vista prèvia</string>
+    <string name="watch_face_edit_hour_digital">Hora</string>
+    <string name="watch_face_edit_minute_digital">Minut</string>
+    <string name="watch_face_edit_second_digital">Segon</string>
+    <string name="watch_face_edit_am_pm">Indicador AM/PM</string>
+    <string name="watch_face_edit_am">AM</string>
+    <string name="watch_face_edit_pm">PM</string>
+    <string name="watch_face_edit_hour_analog">Agulla de les hores</string>
+    <string name="watch_face_edit_minute_analog">Agulla dels minuts</string>
+    <string name="watch_face_edit_second_analog">Agulla dels segons</string>
+    <string name="watch_face_edit_axis">Eix de rotació</string>
+    <string name="watch_face_edit_hour_minute_separator">Separador d\'hores i minuts</string>
+    <string name="watch_face_edit_year">Any</string>
+    <string name="watch_face_edit_year_month_separator">Separador d\'any i mes</string>
+    <string name="watch_face_edit_month">Mes</string>
+    <string name="watch_face_edit_month_name">Nom del mes</string>
+    <string name="watch_face_edit_month_day_separator">Separador de mes i dia</string>
+    <string name="watch_face_edit_day">Dia</string>
+    <string name="watch_face_edit_dayOfWeek">Dia de la setmana</string>
+    <string name="watch_face_edit_battery_level">Nivell de bateria</string>
+    <string name="watch_face_edit_battery_level_percent_sign">Nivell de bateria %</string>
+    <string name="watch_face_edit_battery_level_image">Imatge de bateria</string>
+    <string name="watch_face_edit_weather_temperature">Temperatura</string>
+    <string name="watch_face_edit_weather_temperature_unit_sign">Unitat de temperatura °</string>
+    <string name="watch_face_edit_weather_image">Imatge del temps</string>
+    <string name="watch_face_edit_connection_indicator_image">Imatge d\'indicador de connexió</string>
+    <string name="watch_face_edit_connected">Connectat</string>
+    <string name="watch_face_edit_disconnected">Desconnectat</string>
+    <string name="watch_face_edit_steps">Passos</string>
+    <string name="watch_face_edit_steps_image">Imatge de passos</string>
+    <string name="watch_face_edit_steps_goal_progress">Progrés de l\'objectiu de passos</string>
+    <string name="watch_face_edit_distance">Distància</string>
+    <string name="watch_face_edit_distance_image">Imatge de distància</string>
+    <string name="watch_face_edit_calories">Calories</string>
+    <string name="watch_face_edit_calories_image">Imatge de calories</string>
+    <string name="watch_face_edit_heart_rate">Ritme cardíac</string>
+    <string name="watch_face_edit_heart_rate_image">Imatge del ritme cardíac</string>
+
+    <string name="watch_face_edit_color">Color</string>
+    <string name="watch_face_edit_font_family">Tipus de lletra</string>
+    <string name="watch_face_edit_character">Caràcter</string>
+    <string name="watch_face_edit_font_size">Mida de lletra</string>
+    <string name="watch_face_edit_image">Imatge</string>
+    <string name="watch_face_edit_image_png_jpeg">Imatge (.png, .jpeg)</string>
+    <string name="watch_face_edit_image_png">Imatge (.png)</string>
+    <string name="watch_face_edit_image_size">Mida de la imatge</string>
+    <string name="watch_face_edit_icon">Icona</string>
+
+    <string name="watch_face_custom_watch_face_not_supported_title">Aquest rellotge no admet la pujada d\'esferes personalitzades</string>
+    <string name="watch_face_custom_watch_face_under_development_title">La funció de pujar esferes personalitzades està en desenvolupament i podria estar disponible en el futur, però encara no està confirmada.</string>
+
+    <!-- Touch monitoring -->
+    <string name="touch_tab_function">Funció</string>
+    <string name="touch_tab_control">Control</string>
+    <string name="touch_tab_testing">Prova</string>
+    <string name="touch_tab_setting">@string/setting_name</string>
+
+    <string name="touch_function_summary">Configura aquestes funcions si utilitzes el mode autònom o si Mi Fit no les gestiona correctament</string>
+    <string name="touch_function">Funció de %1$s</string>
+    <string name="touch_function_as_touch">Utilitza la funció com a toc al menú de control</string>
+
+    <string name="touch_headline_incoming_call_title">Trucada entrant</string>
+    <string name="touch_headline_other_function_title">Altres funcions</string>
+    <string name="touch_headline_call_title">Control de trucades</string>
+    <string name="touch_headline_music_title">Control de música</string>
+    <string name="touch_headline_time_title">Control del temporitzador/cronòmetre</string>
+    <string name="touch_headline_other_title">Altres controls</string>
+
+    <string name="touch_device_location_title">Localitza el telèfon</string>
+    <string name="touch_device_location_not_muted_only_title">Només si no està silenciat o en mode No molestar</string>
+
+    <string name="touch_mute_toggle_title">Alternança de silenci del telèfon</string>
+    <string name="touch_mute_toggle_ringer_mode_title">Mode de silenci</string>
+    <string name="touch_mute_toggle_mute_off_title">Silenci desactivat</string>
+
+    <string name="touch_music_title">Música</string>
+    <string name="touch_music_function_launch">Inicia la música amb el botó de reproducció si no es reconeix cap reproductor</string>
+    <string name="touch_music_function_mi_band_message_launch">Inicia la música amb el botó de reproducció</string>
+    <string name="touch_music_function_mi_band_message_no_track_title">No es pot obtenir el nom de la cançó</string>
+
+    <string name="touch_call_out_title">Realitzar trucada</string>
+    <string name="touch_call_out_no_contact">Selecciona un contacte</string>
+    <string name="touch_call_out_summary">Prem dues vegades per respondre la trucada</string>
+    <string name="touch_call_out_summary_support_call_display_button">Prem el botó per respondre la trucada</string>
+    <string name="touch_call_out_speakerphone_title">Altaveu</string>
+    <string name="touch_call_out_call_text">Trucada a: %1$s</string>
+
+    <string name="touch_weather_title">Previsió del temps</string>
+    <string name="touch_weather_location">Actualització de la ubicació</string>
+    <string name="touch_weather_precipitation">Precipitació</string>
+    <string name="touch_weather_cloud_cover">Cobertura de núvols</string>
+    <string name="touch_weather_wind">Vent</string>
+
+    <string name="touch_repeat_notif_title">Repetició de notificacions</string>
+    <string name="touch_repeat_notif_clear_all">Esborra totes les notificacions després de repetir-les</string>
+
+    <string name="touch_clear_notif_title">Esborra les notificacions del telèfon</string>
+
+    <string name="touch_music_play_pause_title">Iniciar, reproduir, pausar música</string>
+    <string name="touch_music_skip_previous_title">Iniciar música, cançó anterior</string>
+    <string name="touch_music_skip_next_title">Iniciar música, cançó següent</string>
+    <string name="touch_music_headset_only_title">Només si els auriculars estan connectats</string>
+    <string name="touch_music_launch">Iniciar música</string>
+    <string name="touch_music_volume_up_title">Augmentar volum de la música</string>
+    <string name="touch_music_volume_down_title">Disminuir volum de la música</string>
+    <string name="touch_music_track_info_title">Mostrar informació de la cançó</string>
+
+    <string name="touch_time_launch_title">Inici del control del temps</string>
+    <string name="touch_time_launch_type_timer_title">Temporitzador</string>
+    <string name="touch_time_launch_type_stopper_title">Cronòmetre</string>
+    <string name="touch_time_launch_type_interval_title">Interval</string>
+    <string name="touch_time_launch_restart">Reinicia si està en curs</string>
+    <string name="touch_time_reminder_title">Temps restant/transcorregut</string>
+
+    <string name="touch_google_assistant_title">Google Assistant</string>
+
+    <string name="touch_flashlight_title">Alternança de llanterna</string>
+
+    <string name="touch_camera_title">Fer una foto</string>
+    <string name="touch_camera_front_title">Frontal</string>
+    <string name="touch_camera_rear_title">Posterior</string>
+    <string name="touch_camera_install_title">Instal·lar</string>
+
+    <string name="touch_app_launcher1_title">Llançador d\'aplicacions</string>
+    <string name="touch_app_launcher_package_no_title">Selecciona una aplicació</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">Només si la pantalla no està bloquejada</string>
+
+    <string name="touch_broadcast1_title">Enviar difusió (broadcast)</string>
+    <string name="touch_broadcast1_action_title">Acció d\'intent</string>
+    <string name="touch_broadcast1_package_title">Nom del paquet d\'intent</string>
+
+    <string name="touch_http_request1_title">1. Sol·licitud HTTP</string>
+    <string name="touch_http_request2_title">2. Sol·licitud HTTP</string>
+    <string name="touch_http_request_url_title">URL</string>
+    <string name="touch_http_request_method_title">Mètode</string>
+    <string name="touch_http_request_body_title">Cos</string>
+    <string name="touch_http_request_show_response_title">Mostra la resposta</string>
+
+    <string name="touch_tasker_launcher1_title">1. Llançador de tasques Tasker</string>
+    <string name="touch_tasker_launcher2_title">2. Llançador de tasques Tasker</string>
+    <string name="touch_tasker_launcher_no_permission_title">Has d\'instal·lar Tasker abans de Mi Bandage</string>
+    <string name="touch_tasker_launcher_no_access_title">Permet l\'accés extern</string>
+    <string name="touch_tasker_launcher_no_task_title">Selecciona una tasca</string>
+
+    <string name="touch_testing_title">Monitoratge del toc</string>
+    <string name="touch_testing_second">seg.</string>
+
+    <string name="touch_setting_detection_time_title">Temps de detecció del toc</string>
+    <string name="touch_setting_detection_time_button_hint">Un valor més baix requereix tocs consecutius més ràpids per a les accions de botó</string>
+
+    <string name="touch_setting_detection_method_title">Mètode de detecció del toc</string>
+
+    <string name="touch_setting_recognition_start_title">Inici del reconeixement del toc</string>
+    <string name="touch_setting_recognition_start_trigger_title">Activador</string>
+    <string name="touch_setting_recognition_time_title">Temps de reconeixement</string>
+
+    <string name="touch_setting_recognition_mi_band_signal_title">Senyal de %1$s</string>
+    <string name="touch_setting_recognition_succeeded_title">Patró de toc reconegut</string>
+    <string name="touch_setting_recognition_failed_title">Patró de toc no reconegut</string>
+
+    <string name="info_dialog_touch"><![CDATA[
+    <p>Funciona correctament en mode autònom. Si utilitzes el mode de cooperació, l\'aplicació oficial <app_official/> també gestionarà aquestes funcions, per tant, no es pot garantir el funcionament correcte.</p>
+    <p><b>Configuració de Bluetooth del telèfon:</b> <device_name/> desactiva el dispositiu d\'entrada</p>
+    <b><u>Tocs reconeguts</u></b>
+    <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
+    <br>Control de música de <device_type/>
+    <p><img src="ic_search">
+    <br>Localitza el telèfon amb <device_type/>
+    </p>
+    Es poden enregistrar múltiples tocs per a cada funció.
+    ]]></string>
+
+
+    <!-- Weather  -->
+    <string name="weather_tab_weather_forecast">Temps</string>
+    <string name="weather_tab_location">Ubicació</string>
+    <string name="weather_tab_settings">@string/setting_name</string>
+
+    <string name="weather_location_title">Ubicació</string>
+
+    <string name="weather_forecast_title">Previsió del temps</string>
+
+    <string name="weather_setting_provider">Proveïdor del temps</string>
+    <string name="weather_city_title">Ciutat</string>
+    <string name="weather_unit_title">Unitat</string>
+    <string name="weather_unit_metric">Mètric (Celsius)</string>
+    <string name="weather_unit_imperial">Imperial (Fahrenheit)</string>
+    <string name="weather_automatic_update">Actualitza automàticament la ubicació en segon pla</string>
+    <string name="weather_automatic_update_title">Utilitza la ubicació actual</string>
+    <string name="weather_automatic_update_summary">Aquesta aplicació recopila dades de localització per actualitzar el temps segons la ubicació actual, fins i tot quan l\'aplicació està tancada o no s\'està utilitzant.</string>
+
+    <string name="permission_background_location">%1$s tindrà permís per recopilar dades de localització fins i tot quan l\'aplicació estigui tancada o no s\'utilitzi</string>
+    <string name="permission_error_title">%1$s no pot actualitzar els permisos</string>
+    <string name="permission_error_description">Obre Configuració i selecciona l\'opció ”%1$s” per als permisos de localització</string>
+    <string name="all_the_time">Sempre</string>
+
+    <string name="weather_current_title">Temps actual</string>
+    <string name="weather_current_location">Ubicació actual</string>
+    <string name="weather_current_temperature">Temperatura actual</string>
+
+    <string name="weather_precipitation_rain">Pluja</string>
+    <string name="weather_precipitation_snow">Neu</string>
+    <string name="weather_cloud_cover_abbreviation">Nb</string> <!-- 'Nb' per 'núvols baixos' (cloud cover) -->
+    <string name="weather_cloud_cover">Núvol</string>
+    <string name="weather_humidity">Humitat</string>
+
+    <string name="weather_north">N</string>
+    <string name="weather_east">E</string>
+    <string name="weather_south">S</string>
+    <string name="weather_west">O</string>
+
+
+    <!-- Text customization -->
+    <string name="pref_text_reminder_repeat_interval_title">Interval de repetició del recordatori</string>
+    <string name="pref_text_reminder_repeat_interval_summary">Notificació > La funció d\'alerta de recordatori utilitza aquest temps</string>
+    <string name="pref_text_emoticon_title">Conversió d\'emoji</string>
+    <string name="pref_text_emoticon_summary_on">Converteix emojis en emoticones</string>
+    <string name="pref_text_uppercase_title">Conversió a majúscules</string>
+    <string name="pref_text_uppercase_summary_on">Converteix lletres minúscules en majúscules</string>
+    <string name="pref_text_alphanumeric_title">Caràcters alfanumèrics i ASCII</string>
+    <string name="pref_text_alphanumeric_summary_on">Mostra només caràcters alfanumèrics i ASCII</string>
+    <string name="pref_text_transliteration_title">Transliteració</string>
+    <string name="pref_text_transliteration_summary_on">Converteix lletres accentuades en versions sense accent</string>
+    <string name="pref_text_line_separator_title">Substitució de separador de línia</string>
+    <string name="pref_text_line_separator_summary_on">Substitueix el separador de línia per defecte per altres caràcters</string>
+    <string name="pref_text_line_separator_value_title">Caràcters de substitució</string>
+    <string name="pref_text_char_replacement_title">Substitució de caràcters o emoji</string>
+    <string name="pref_text_char_replacement_summary_on">Substitueix un caràcter per un altre</string>
+    <string name="pref_text_char_replacement_find">Cercar</string>
+    <string name="pref_text_char_replacement_replace">Substituir per</string>
+
+    <!-- Export -->
+    <string name="export_tab_database">Exportació de dades</string>
+    <string name="export_start_date">Data d\'inici de l\'exportació</string>
+
+    <!-- Theme -->
+    <string name="theme_tab_theme">Tema</string>
+
+    <string name="theme_title">Selecciona un tema</string>
+    <string name="theme_background_color_title">Color de fons</string>
+
+    <string name="theme_widget_background_color_title">Color</string>
+    <string name="theme_color_dynamic_color_title">Color dinàmic</string>
+    <string name="theme_color_predefined_colors_title">Colors predefinits</string>
+
+    <string name="theme_notification_title">Mostra l\'estat a la barra de notificacions</string>
+
+    <string name="theme_cat_color_setting">Configuració de color</string>
+
+    <!-- Feedback -->
+    <string name="action_log_notification">Registre</string>
+
+    <string name="feedback_google_play_title">Valora aquesta aplicació</string>
+    <string name="feedback_request_feature_title">Sol·licitud de funció, informe d\'error</string>
+    <string name="feedback_request_feature_summary">Processament automàtic del correu, pot ser que no rebis cap resposta</string>
+    <string name="feedback_translation_title">Traducció de %1$s</string> <!-- %1$s = App name -->
+    <string name="feedback_translation_title_summary">Si us plau, ajuda\'ns amb la traducció</string>
+
+    <!-- Premium mode -->
+    <string name="purchase_advantage_title">Avantatges del mode Premium</string>
+    <string name="purchase_advantage"><![CDATA[
+    <p>• suport econòmic per al desenvolupament</p>
+    <p>• sense anuncis</p>
+    <p>• configuració d\'avisos sense límits</p>
+    <p>• configuració de trucades sense límits</p>
+    <p>• càrrega il·limitada de dissenys de pantalla per dia</p>
+    <p>• nombre il·limitat d\'alarmas (limitació segons el rellotge)</p>
+    <p>• mode No molestar sense límits</p>
+    <p>• configuracions tàctils sense límits</p>
+    <p>• actualitzacions meteorològiques més freqüents, localització automàtica, opció d\'utilitzar AccuWeather</p>
+    <p>• gràfics detallats del dia</p>
+    • desbloqueig de totes les altres limitacions de funcions…
+    ]]></string>
+
+    <string name="purchase_policy_title">Termes i condicions del mode Premium</string>
+    <string name="purchase_policy"><![CDATA[
+    <p>• He provat l\'aplicació i he comprovat que funciona correctament.</p>
+    <p>• Entenc que no puc sol·licitar cap reemborsament ni compensació per errors derivats de canvis en el sistema (com actualitzacions d\'Android), del maquinari o de conflictes amb altres aplicacions.</p>
+    <p>• Totes les compres són definitives i no reemborsables (excepte segons la política de reemborsament de Google).</p>
+    <p>• Aquesta aplicació es proporciona sense cap garantia, explícita o implícita.</p>
+    <p>• L\'ús d\'aquesta aplicació és sota la teva pròpia responsabilitat. El desenvolupador no es fa responsable de cap dany directe o indirecte, ni de pèrdues de dades derivades del seu ús.</p>
+    <p>• El mode Premium està vinculat al teu compte de Google i continua actiu després de reinstal·lar l\'aplicació.</p>
+    <i>Cal reiniciar l\'aplicació després de la compra.</i>
+    ]]></string>
+
+    <string name="purchase_google_play_services_not_available">Els serveis de Google Play no estan disponibles</string>
+
+    <string name="purchase_agree">Accepto els termes i condicions de compra.</string>
+    <string name="purchase_order_id">ID de comanda</string>
+    <string name="purchase_order_id_help">Copia-ho des de:
+    \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+    \n<a href="https://payments.google.com">https://payments.google.com</a>
+    </string>
+
+    <string name="purchase_info">Pagament únic ・ %1$s</string>
+    <string name="purchase_button_purchase">Comprar</string>
+
+    <!-- Privacy policy -->
+    <string name="privacy_policy_tab_privacy_policy">Política de privacitat</string>
+    <string name="privacy_policy_tab_user_consent">Gestió del consentiment de l\'usuari</string>
+    <string name="privacy_policy_tab_eu_consent">Consentiment d\'usuaris de la UE i EUA</string>
+    <string name="privacy_policy_tab_non_eu_consent">Consentiment d\'usuaris d\'altres regions</string>
+
+    <string name="privacy_policy_collect_title">Informació que recopilem</string>
+    <string name="privacy_policy_collect"><![CDATA[
+    <p>• Només recopilem informació anònima.</p>
+    <p>• Recopilem informació a nivell d\'aplicació sobre els serveis que utilitzes i com els utilitzes (Google Analytics).</p>
+    <p>• Recopilem dades d\'errors, fallades i problemes de rendiment per millorar el servei (Firebase Crashlytics).</p>
+    <p>• Recopilem dades sobre el rendiment de l\'aplicació per optimitzar-ne el funcionament (Firebase Performance Monitoring).</p>
+    <p>• La plataforma Google Firebase recopila informació de manera anònima i mostra tendències sense identificar usuaris individuals.
+    Pot incloure dades com l\'ID d\'instal·lació de Firebase, estat de l\'aplicació, metadades del dispositiu (model, arquitectura de CPU, memòria RAM i espai d\'emmagatzematge, sistema operatiu, orientació de la pantalla, país, idioma), traçats d\'errors, mètriques de rendiment (temps d\'inici de l\'app, latència de sol·licituds de xarxa, URL de xarxa), ús de CPU/memòria, adreça IP aproximada…</p>
+    <p>• Recopilem dades de localització per actualitzar la informació meteorològica segons la teva ubicació (opcional).</p>
+    • La base legal per a la recopilació i el tractament d\'aquestes dades és l\'interès legítim en millorar la funcionalitat i el rendiment de l\'aplicació, així com garantir-ne l\'estabilitat i la usabilitat.
+    ]]></string>
+
+    <string name="privacy_policy_cookies_title">Galetes i tecnologies similars</string>
+    <string name="privacy_policy_cookies"><![CDATA[
+    • Alguns serveis de tercers, com AdMob, poden utilitzar galetes o tecnologies similars per mostrar anuncis personalitzats. Pots gestionar la personalització dels anuncis a la configuració del teu compte de Google.
+    ]]></string>
+
+    <string name="privacy_policy_retention_title">Conservació de dades</string>
+    <string name="privacy_policy_retention"><![CDATA[
+    • Les dades recopilades són conservades per Google Firebase segons les seves polítiques i només durant el temps necessari per a fins d\'anàlisi, diagnòstic i millora del rendiment.
+    ]]></string>
+
+    <string name="privacy_policy_not_collect_title">Informació que no recopilem</string>
+    <string name="privacy_policy_not_collect"><![CDATA[
+    <p>• No recopilem dades que permetin identificar-te personalment. Això inclou el teu nom, adreça, número de telèfon, adreça de correu electrònic o adreça MAC.</p>
+    • No recopilem dades de salut, contactes ni el contingut de les notificacions que es mostren al teu dispositiu.
+    ]]></string>
+
+    <string name="privacy_policy_share_title">Informació que compartim</string>
+    <string name="privacy_policy_share"><![CDATA[
+    • No compartim cap dada amb empreses o organitzacions, excepte amb Google i proveïdors de publicitat.
+    ]]></string>
+
+    <string name="privacy_policy_use_title">Dades personals i sensibles que fem servir</string>
+    <string name="privacy_policy_use"><![CDATA[
+    • Utilitzem dades de localització exclusivament per actualitzar la informació meteorològica, i només si has activat aquesta funció.
+    ]]></string>
+
+    <string name="privacy_policy_rights_title">Els teus drets</string>
+    <string name="privacy_policy_rights"><![CDATA[
+    <p>• Les dades d\'anàlisi, errors i rendiment recopilades són totalment anònimes i no poden ser utilitzades per identificar cap persona. Per tant, no es consideren dades personals segons les lleis de protecció de dades aplicables (com el RGPD) i no estan subjectes als drets d\'accés, rectificació o supressió.</p>
+    <p>• Pots revocar el teu consentiment per a la recopilació de dades desinstal·lant l\'aplicació o gestionant la privacitat al teu compte de Google o dispositiu.</p>
+    • Per a qualsevol dubte sobre l\'ús de dades o els teus drets de privacitat, contacta\'ns a través dels canals de suport de l\'aplicació.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">Polítiques de privacitat dels proveïdors de serveis de tercers</string>
+    <string name="privacy_policy_links"><![CDATA[
+    <p><a href="https://policies.google.com/privacy">Política de privacitat de Google (inclou Google Play Services)</a></p>
+    <p><a href="https://policies.google.com/technologies/ads">Ús de dades per part d\'AdMob</a></p>
+    <p><a href="https://support.google.com/analytics/answer/6004245">Ús de dades per part de Google Analytics</a></p>
+    <p><a href="https://firebase.google.com/terms/crashlytics">Condicions d\'ús de Firebase Crashlytics</a></p>
+    <a href="https://firebase.google.com/support/privacy">Privacitat i seguretat de Firebase (inclou Performance Monitoring)</a>
+    ]]></string>
+
+    <string name="privacy_policy_eu_consent_title">Estat</string>
+    <string name="privacy_policy_eu_consent_title_obtained">Consentiment obtingut</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Anuncis personalitzats i rellevants</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Anuncis no personalitzats, menys rellevants</string>
+    <string name="privacy_policy_eu_consent_title_unknown">Desconegut</string>
+
+    <string name="privacy_policy_eu_consent_setting">Configuració</string>
+
+
+    <!-- Custom vibration dialog -->
+    <string name="custom_vibration_title">Ajust de vibració</string>
+
+    <!-- Shortcuts -->
+    <string name="shortcut">Drecera</string>
+    <string name="shortcut_visible_items">Elements visibles de drecera</string>
+    <string name="shortcut_hidden_items">Elements de drecera ocults</string>
+
+    <string name="shortcut_status">Estat</string>
+    <string name="shortcut_heart_rate">Ritme cardíac</string>
+    <string name="shortcut_blood_oxygen">Oxigen en sang</string>
+    <string name="shortcut_sleep">Son</string>
+    <string name="shortcut_breathing">Respiració</string>
+    <string name="shortcut_weather">Temps</string>
+    <string name="shortcut_stress">Estrès</string>
+
+    <!-- Actions  -->
+    <string name="tab_daily_charts">Gràfics diaris</string>
+    <string name="tab_weekly_charts">Gràfics setmanals</string>
+    <string name="tab_monthly_charts">Gràfics mensuals</string>
+    <string name="tab_yearly_charts">Gràfics anuals</string>
+
+    <string name="ad_attribution">Anunci</string>
+    <string name="on">Activat</string>
+    <string name="off">Desactivat</string>
+    <string name="none">Cap</string>
+    <string name="heart_rate_bpm">bpm</string>
+    <string name="heart_rate_mhr">FMC</string>
+    <string name="date">Data</string>
+    <string name="time">Hora</string>
+    <string name="time_start">Hora d\'inici</string>
+    <string name="time_end">Hora de finalització</string>
+    <string name="ringer_mode_vibrate">Vibració</string>
+    <string name="ringer_mode_silent">Silenciós</string>
+    <string name="ringer_mode_dnd_priority_only">No molestar (només prioritats)</string>
+    <string name="ringer_mode_dnd_alarms_only">No molestar (només alarmes)</string>
+    <string name="ringer_mode_dnd_total_silence">No molestar (silenci total)</string>
+    <string name="unknown">Desconegut</string>
+    <string name="maximum">Màxim</string>
+    <string name="all_day">Tot el dia</string>
+    <string name="timed">Temporitzat</string>
+    <string name="file_name">Nom del fitxer</string>
+    <string name="default_">Per defecte</string>
+    <string name="default_by_phone">Per defecte (segons el telèfon)</string>
+    <string name="custom">Personalitzat</string>
+    <string name="invalid_setting">Configuració no vàlida</string>
+    <string name="ringtone">To de trucada</string>
+    <string name="ringtone_chooser">Selector de to</string>
+    <string name="uninstalled">Desinstal·lat</string>
+    <string name="value">Valor</string>
+    <string name="downloads">Baixades</string>
+    <string name="share">Compartir</string>
+    <string name="send">Enviar</string>
+    <string name="narrow">Estret</string>
+    <string name="short_">Curt</string>
+    <string name="medium">Mitjà</string>
+    <string name="long_">Llarg</string>
+    <string name="full">Complet</string>
+    <string name="alignment_left">Alineació esquerra</string>
+    <string name="alignment_center">Alineació centrada</string>
+    <string name="alignment_right">Alineació dreta</string>
+    <string name="visible">Visible</string>
+    <string name="invisible">Invisible</string>
+    <string name="placeholder">Marcador de posició</string>
+    <string name="image_scale_fit">Ajustar</string>
+    <string name="image_scale_crop">Retallar</string>
+    <string name="image_scale_stretch">Estirar</string>
+    <string name="resource_manager">Gestor de recursos</string>
+
+    <string name="action_premium_mode">Mode premium</string>
+    <string name="action_dismiss">Tanca</string>
+    <string name="action_setting">Configuració</string>
+    <string name="action_delete">Suprimeix</string>
+    <string name="action_rename">Reanomena</string>
+    <string name="action_export">Exporta</string>
+    <string name="action_synchronization">Sincronització</string>
+    <string name="action_download">Descarrega</string>
+    <string name="action_upload">Puja</string>
+    <string name="action_backup">Còpia de seguretat</string>
+    <string name="action_restore">Restaura</string>
+    <string name="action_filter_no">Sense filtre</string>
+    <string name="action_bluetooth">Bluetooth</string>
+    <string name="action_favorite">Preferit</string>
+    <string name="action_save">Desa</string>
+    <string name="action_test">Prova</string>
+    <string name="action_discard">Descarta</string>
+    <string name="action_keep_editing">Continua editant</string>
+    <string name="action_new">Nou</string>
+    <string name="action_new_file_extension">Nou %1$s</string>
+    <string name="action_edit">Edita</string>
+    <string name="action_start_stop">Inicia/Atura</string>
+    <string name="action_contacts">Contactes</string>
+    <string name="action_single_selection">Selecció única</string>
+    <string name="action_multiple_selection">Selecció múltiple</string>
+    <string name="action_selection_boundaries">Límits de selecció</string>
+    <string name="action_object_boundaries">Límits de l\'objecte</string>
+    <string name="action_select">Selecció</string>
+    <string name="action_select_all">Selecciona tot</string>
+    <string name="action_select_texts">Selecciona textos</string>
+    <string name="action_select_images">Selecciona imatges</string>
+    <string name="action_deselect_all">Deselecciona tot</string>
+    <string name="synchronized_from_watch">Sincronitzat des del rellotge</string>
+    <string name="synchronization_succeeded">Sincronització correcta</string>
+    <string name="synchronization_failed">Sincronització fallida</string>
+
+    <string name="action_chart">Gràfic</string>
+    <string name="action_zoom_in">Zoom</string>
+    <string name="action_chart_normalize_raw_data">Valors mesurats</string>
+    <string name="action_chart_normalize_quarter_hourly">Valors cada 15 min</string>
+    <string name="action_chart_normalize_half_hourly">Valors cada 30 min</string>
+    <string name="action_chart_normalize_hourly">Valors cada hora</string>
+    <string name="action_chart_sort_time_asc">Hora ascendent</string>
+    <string name="action_chart_sort_time_desc">Hora descendent</string>
+    <string name="action_chart_sort_step_asc">Passos ascendents</string>
+    <string name="action_chart_sort_step_desc">Passos descendents</string>
+    <string name="action_chart_sort_duration_asc">Durada ascendent</string>
+    <string name="action_chart_sort_duration_desc">Durada descendent</string>
+    <string name="action_chart_sort_heart_rate_asc">Ritme cardíac ascendent</string>
+    <string name="action_chart_sort_heart_rate_desc">Ritme cardíac descendent</string>
+    <string name="action_chart_sort_spo2_asc">SpO2 ascendent</string>
+    <string name="action_chart_sort_spo2_desc">SpO2 descendent</string>
+    <string name="action_chart_sort_blood_pressure_asc">Pressió arterial ascendent</string>
+    <string name="action_chart_sort_blood_pressure_desc">Pressió arterial descendent</string>
+    <string name="action_chart_monthly_calendar">Calendari</string>
+    <string name="action_chart_monthly_compact">Compacte</string>
+
+    <string name="activity_progress_title_prepare">Preparant la sincronització…</string>
+    <string name="activity_progress_title_sync">Sincronitzant dades…</string>
+    <string name="activity_progress_title_save">Desant dades…</string>
+
+    <string name="required_value">Obligatori</string>
+
+    <string name="percent_0">0%</string>
+    <string name="percent_10">10%</string>
+    <string name="percent_20">20%</string>
+    <string name="percent_30">30%</string>
+    <string name="percent_40">40%</string>
+    <string name="percent_50">50%</string>
+    <string name="percent_60">60%</string>
+    <string name="percent_70">70%</string>
+    <string name="percent_80">80%</string>
+    <string name="percent_90">90%</string>
+    <string name="percent_100">100%</string>
+
+    <!-- Constants -->
+    <string name="const_day_of_week_sunday">Diumenge</string>
+    <string name="const_day_of_week_monday">Dilluns</string>
+    <string name="const_day_of_week_tuesday">Dimarts</string>
+    <string name="const_day_of_week_wednesday">Dimecres</string>
+    <string name="const_day_of_week_thursday">Dijous</string>
+    <string name="const_day_of_week_friday">Divendres</string>
+    <string name="const_day_of_week_saturday">Dissabte</string>
+
+    <string name="const_time_abbreviation_day">d</string>
+    <string name="const_time_abbreviation_hour">h</string>
+    <string name="const_time_abbreviation_minute">m</string>
+    <string name="const_time_abbreviation_sec">s</string>
+    <string name="const_time_abbreviation_milli_sec">ms</string>
+
+    <string name="const_number">%1$,d</string>
+    <string name="const_number_float">%,.2f</string>
+    <string name="const_number_float_1_precision">%,.1f</string>
+    <string name="const_percentage">%1$,d%%</string>
+    <string name="const_percent_sign">%</string>
+    <string name="const_unit_kilometer">km</string>
+    <string name="const_unit_meter">m</string>
+    <string name="const_unit_centimeter">cm</string>
+    <string name="const_unit_mile">mi</string>
+    <string name="const_unit_kilogram">kg</string>
+    <string name="const_unit_kcal">kcal</string>
+    <string name="const_unit_dbm">dBm</string>
+
+    <plurals name="plural_time_hour">
+        <item quantity="one">%d hora</item>
+        <item quantity="many">%d hores</item>
+        <item quantity="other">%d hores</item>
+    </plurals>
+
+    <plurals name="plural_time_minute">
+        <item quantity="one">%d minut</item>
+        <item quantity="many">%d minuts</item>
+        <item quantity="other">%d minuts</item>
+    </plurals>
+
+    <plurals name="plural_time_second">
+        <item quantity="one">%d segon</item>
+        <item quantity="many">%d segons</item>
+        <item quantity="other">%d segons</item>
+    </plurals>
+
+</resources>

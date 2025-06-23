@@ -1,0 +1,1031 @@
+<?xml version="1.0"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="sl">
+
+    <!--  Navigation  -->
+    <string name="menu_nav_notification">Obvestilo</string>
+    <string name="menu_nav_call">Klic</string>
+    <string name="menu_nav_step">Aktivnost</string>
+    <string name="menu_nav_sleep">Spanje</string>
+    <string name="menu_nav_heart_rate">Srčni utrip</string>
+    <string name="menu_nav_blood_oxygen">Kisik v krvi</string>
+    <string name="menu_nav_blood_pressure">Krvni tlak</string>
+    <string name="menu_nav_workout">Vadba</string>
+    <string name="menu_nav_alarm">Budilka</string>
+    <string name="menu_nav_reminder">Opomnik</string>
+    <string name="menu_nav_dnd">Način ne moti</string>
+    <string name="menu_nav_watch_face">Številčnica ure</string>
+    <string name="menu_nav_weather">Vreme</string>
+    <string name="menu_nav_touch">Upravljanje z dotikom</string>
+    <string name="menu_nav_more">Več</string>
+    <string name="menu_nav_text_customization">Prilagoditev besedila</string>
+    <string name="menu_nav_export">Izvoz</string>
+    <string name="menu_nav_premium_mode">Premium način</string>
+    <string name="menu_nav_feedback">Povratne informacije</string>
+    <string name="menu_nav_privacy_policy">Politika zasebnosti</string>
+    <string name="menu_nav_theme">Tema</string>
+
+    <string name="setting_name">Nastavitev</string>
+    <string name="settings_name">Nastavitve</string>
+    <string name="info_name">Informacije</string>
+    <string name="more_name">Več</string>
+
+    <string name="main_item_activity_title">Koraki・cilj</string>
+    <string name="main_item_battery">Stanje baterije・čas polnjenja</string>
+    <string name="main_item_connect_and_disconnect_last_time">Zadnja povezava in prekinitev</string>
+    <string name="main_item_next_alarm">Naslednja budilka</string>
+    <string name="main_item_next_reminder">Naslednji opomnik</string>
+    <string name="main_item_call_and_notification_control">Klici in obvestila</string>
+
+    <!-- Pairing Bluetooth device -->
+    <string name="device_search">Iskanje %1$s</string> <!-- %1$s = Watch name -->
+    <string name="device_setting">Nastavitev %1$s</string> <!-- %1$s = Watch name -->
+
+    <string name="device_mac_address">MAC naslov</string>
+    <string name="device_mac_address_invalid">Neveljaven MAC naslov</string>
+
+    <string name="device_state_connected">Povezano</string>
+    <string name="device_state_disconnected">Ni povezave</string>
+    <string name="device_state_bonded">Seznanjena naprava</string>
+    <string name="device_state_not_bonded">Ni seznanjeno</string>
+
+    <string name="error_title">Ups! Nekaj je šlo narobe</string>
+    <string name="error_message">Prosimo, posodobi aplikacijo na najnovejšo različico</string>
+
+
+    <!-- Watch connection and setting -->
+    <string name="mi_band_setting_title">Nastavitve %1$s</string>
+
+    <string name="mi_band_setting_menu_connection">Povezava</string>
+    <string name="mi_band_setting_menu_setting">@string/setting_name</string>
+    <string name="mi_band_setting_menu_profile">Profil</string>
+    <string name="mi_band_setting_menu_text">Besedilo</string>
+    <string name="mi_band_setting_menu_call">Klic</string>
+
+    <string name="mi_band_setting_auth_mi_fit">%1$s sodelovanje</string> <!-- Haylou Fit -->
+    <string name="mi_band_setting_auth_mi_fit_hint">%3$s zahteva nameščeno aplikacijo %1$s na tem telefonu. Najprej seznani %2$s v aplikaciji %1$s. To možnost izberi, če želiš uporabljati tudi aplikacijo %1$s.</string>
+    <string name="mi_band_setting_auth_standalone">Samostojni način</string>
+    <string name="mi_band_setting_auth_standalone_hint">Za delovanje %3$s aplikacije ni potrebna %1$s aplikacija. Po seznanitvi lahko odstraniš aplikacijo %1$s ali prekineš povezavo z uro. Za ponovno vzpostavitev sodelovanja z %1$s je treba %2$s ponovno seznaniti v aplikaciji %1$s. Če izbereš prekinitev povezave, bodo podatki na uri izbrisani. Zaslon %2$s naj bo med postopkom vklopljen.</string>
+    <string name="mi_band_standalone_sync_error">Za preprečevanje izgube podatkov in zagotavljanje točnosti je sinhronizacija onemogočena v načinu sodelovanja. Sinhronizacija bi izbrisala podatke z ure in povzročila netočne podatke v obeh aplikacijah.</string>
+    <string name="mi_band_setting_auth_key">Avtentikacijska koda</string>
+    <string name="mi_band_setting_auth_key_help">Vnesi poljubno 4-mestno številko</string>
+    <string name="mi_band_setting_auth_request">Zahtevaj kodo</string>
+    <string name="mi_band_setting_auth_pair">Seznani</string>
+    <string name="mi_band_setting_auth_unpair">Prekini povezavo</string>
+
+    <string name="message_auth_request">Naprava je že seznanjena. Če ne poznaš kode, prekini povezavo.</string>
+
+    <string name="message_mi_band_setting_auth_press_band_button">Pritisni gumb na napravi %1$s za seznanitev</string> <!-- %1$s = Watch name -->
+    <string name="message_mi_band_setting_auth_success">%1$s uspešno seznanjena</string>
+    <string name="message_mi_band_setting_auth_fail">Seznanitev naprave %1$s ni uspela</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Neveljavna avtentikacijska koda</string>
+
+    <string name="pref_disconnect_device">Prekini povezavo</string>
+
+    <string name="mi_band_setting_connection_problem_title">Če imaš težave s povezavo</string>
+    <string name="mi_band_setting_connection_problem_hint"><![CDATA[
+    - V Bluetooth nastavitvah telefona prekini povezavo z uro<br>
+    - Izklopi in nato znova vklopi Bluetooth<br>
+    - Zapri aplikacijo ali znova zaženi telefon<br>
+    - Poskusi ponovno seznaniti uro na začetnem zaslonu
+    ]]></string>
+
+    <string name="mi_band_setting_dial">Številčnica ure</string>
+    <string name="mi_band_setting_language">Jezik</string>
+    <string name="mi_band_setting_time_24h">24-urni format časa</string>
+    <string name="mi_band_setting_distance_unit">Enota razdalje</string>
+    <string name="mi_band_setting_screen_on_duration">Trajanje osvetlitve zaslona</string>
+    <string name="mi_band_setting_lift_wrist">Vklop zaslona ob zasuku zapestja</string>
+    <string name="mi_band_setting_idle_alert">Opomnik neaktivnosti</string>
+    <string name="mi_band_setting_idle_alert_duration">Čas neaktivnosti</string>
+    <string name="mi_band_setting_idle_alert_dnd">Ne opozarjaj med počitkom (12:00–14:00)</string>
+
+    <string name="pref_synchronization">Sinhronizacija</string>
+    <string name="pref_synchronization_fetch_interval">Pogostost sinhronizacije</string>
+    <string name="pref_synchronization_summary">Izberi podatke za samodejno sinhronizacijo v ozadju. Če določenih podatkov ne potrebuješ, jih izklopi za boljše delovanje. Ročna sinhronizacija je še vedno možna na začetnem zaslonu ali v ustreznih menijih (poteg navzdol).</string>
+
+    <string name="mi_band_setting_profile">Vnesi podatke za natančnejši izračun korakov, razdalje in kalorij.</string>
+    <string name="mi_band_setting_gender">Spol</string>
+    <string name="mi_band_setting_gender_male">Moški</string>
+    <string name="mi_band_setting_gender_female">Ženska</string>
+    <string name="mi_band_setting_birthday">Datum rojstva</string>
+    <string name="mi_band_setting_height">Višina</string>
+    <string name="mi_band_setting_weight">Teža</string>
+    <string name="mi_band_setting_wearing_place">Mesto nošenja</string>
+    <string name="mi_band_setting_wearing_place_left_wrist">Leva roka</string>
+    <string name="mi_band_setting_wearing_place_right_wrist">Desna roka</string>
+
+    <!-- Battery -->
+    <string name="battery_details">Poraba baterije</string>
+
+    <string name="battery_settings">Nastavitve baterije</string>
+    <string name="battery_settings_notification">Opozorilo o nizki ravni baterije</string>
+    <string name="battery_settings_notification_level">Prag ravni baterije</string>
+    <string name="battery_settings_notification_repeat_interval">Interval ponovitve</string>
+    <string name="battery_settings_notification_on_phone">Obvestilo na telefonu</string>
+    <string name="battery_settings_notification_on_phone_ongoing">Stalno (neodstranljivo) obvestilo</string>
+    <string name="battery_settings_notification_on_phone_message">Raven baterije je nizka: %1$,d%%</string>
+    <string name="battery_settings_notification_on_device">Obvestilo na pametni uri</string>
+    <string name="battery_settings_notification_on_device_message">Baterija: %1$,d%%</string>
+
+    <!-- Preference screens -->
+    <string name="pref_battery_phone">Baterija telefona</string>
+    <string name="pref_battery_phone_summary">Obvestila za nizko in polno baterijo</string>
+    <string name="pref_cat_battery_phone_low">Nizka raven baterije</string>
+    <string name="pref_battery_phone_low_title">Opozorilo o nizki bateriji</string>
+    <string name="pref_battery_phone_low_level_title">Prag ravni baterije</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">Interval ponovitve</string>
+    <string name="pref_cat_battery_phone_full">Polna baterija</string>
+    <string name="pref_battery_phone_full_title">Obvestilo o polni bateriji</string>
+    <string name="pref_battery_phone_full_plugged_ac">Napajanje prek AC polnilca</string>
+    <string name="pref_battery_phone_full_plugged_usb">Napajanje prek USB priključka</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Brezžično napajanje</string>
+
+    <string name="pref_battery_phone_message">Baterija telefona:\n %1$,d%%</string>
+
+    <string name="pref_language">Jezik</string>
+    <string name="pref_cat_language">Aplikacija</string>
+    <string name="pref_language_title">Jezik</string>
+
+    <string name="pref_menu">Meni</string>
+    <string name="pref_cat_menu">Prilagoditev glavnega menija</string>
+    <string name="pref_menu_item_2">Druga postavka menija</string>
+    <string name="pref_menu_item_3">Tretja postavka menija</string>
+
+    <string name="pref_diagnostic">Diagnostika</string>
+    <string name="pref_cat_diagnostic_closing_protection">Zaščita pred zapiranjem</string>
+    <string name="pref_diagnostic_battery_optimisation">Onemogoči optimizacijo baterije</string>
+    <string name="pref_diagnostic_companion_device">Seznanjanje spremljevalne naprave</string>
+    <string name="pref_diagnostic_bluetooth_pairing">Bluetooth seznanjanje</string>
+    <string name="pref_diagnostic_autostart">Samodejni zagon</string>
+    <string name="pref_diagnostic_autostart_summary">Omogoči samodejni zagon aplikacije v upravljalniku samodejnega zagona telefona</string>
+    <string name="pref_diagnostic_info">Več informacij</string>
+    <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
+
+    <string name="pref_cat_diagnostic_permissions">Dovoljenja</string>
+    <string name="pref_diagnostic_permission_allow_notification_access_settings">Dovoli dostop do obvestil</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">Nastavi natančen alarm</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Za nastavitev naloge ob točno določenem času je potrebno dodatno dovoljenje.</string>
+    <string name="pref_diagnostic_permission_post_notifications">Prikaži obvestila</string>
+    <string name="pref_diagnostic_permission_post_notifications_summary">Za prikaz obvestila je potrebno dodatno dovoljenje</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">Dostop do funkcije »ne moti«</string>
+
+
+    <!-- Snackbar messages -->
+    <string name="message_enable_bluetooth">Vklopite Bluetooth in približajte uro telefonu</string>
+    <string name="message_discover_device">%1$s ni nastavljena, povežite se</string>
+    <string name="message_discovering_device">Iskanje naprave %1$s (lahko traja do 1 minute)…</string>
+    <string name="message_discover_device_succeeded">%1$s uspešno povezana</string>
+    <string name="message_discover_device_failed">%1$s povezava ni uspela</string>
+    <string name="message_discover_device_not_found">Če %1$s ni bila najdena, omogočite način odkrivanja ali seznanite prek Bluetooth nastavitev telefona</string>
+    <string name="message_enable_notification_listener_access">Omogočite dostop do obvestil: Telefon > Nastavitve > Dostop do obvestil</string>
+    <string name="message_enable_notification_listener_access_4_4">Omogočite dostop do obvestil: Nastavitve > Varnost > Dostop do obvestil</string>
+
+    <string name="message_deleted">Izbrisano</string>
+    <string name="message_undo">Razveljavi</string>
+
+    <string name="message_app_chooser_no_selected">Izberite aplikacijo</string>
+
+    <string name="message_free_counter">V brezplačnem načinu je omogočena le 1 nastavitev</string>
+    <string name="message_free_counters">V brezplačnem načinu je omogočenih do %1$,d nastavitev</string>
+
+    <string name="message_notification_free_groups">V brezplačnem načinu je omogočenih do %1$,d skupin</string>
+    <string name="message_notification_free_app">V brezplačnem načinu je omogočena le 1 aplikacija</string>
+    <string name="message_notification_free_apps">V brezplačnem načinu je omogočenih do %1$,d aplikacij</string>
+    <string name="message_notification_free_text">V brezplačnem načinu je mogoče vnesti le 1 besedilo</string>
+
+    <string name="message_time_alarm_free_counter">V brezplačnem načinu je omogočena le 1 budilka</string>
+    <string name="message_time_alarm_max_counter">Omogočenih je do %1$d budilk</string>
+    <string name="message_time_alarm_enabled">Budilka omogočena</string>
+    <string name="message_time_alarm_disabled">Budilka onemogočena</string>
+    <string name="message_time_alarm_off">Budilka izklopljena</string>
+
+    <string name="message_touch_pattern_error">Zapisani vzorec je podoben vzorcu druge funkcije, izberite drugačnega</string>
+    <string name="message_touch_free_patterns">V brezplačnem načinu je omogočenih do %1$,d kontrol</string>
+    <string name="message_touch_record_help">Uporabite %1$s za upravljanje glasbe ali iskanje telefona</string>
+
+    <string name="message_premium_mode_only">Ta funkcija je na voljo samo v načinu Premium</string>
+    <string name="message_feature_is_not_supported">%1$s ne podpira te funkcije</string>
+    <string name="message_general_error">Nastavitev ni uspela (povezava prekinjena), poskusite znova</string>
+    <string name="message_internet_error">Ni internetne povezave</string>
+    <string name="message_internet_traffic_blocked">Omrežni promet je blokiran</string>
+    <string name="message_internet_ads_blocked">Oglasi so blokirani</string>
+    <string name="message_gps_enable">Omogočite GPS</string>
+    <string name="message_location_enable">Omogočite dostop do lokacije</string>
+
+    <string name="message_in_progress">V teku…</string>
+    <string name="message_no_data">Ni podatkov</string>
+
+    <string name="message_rewarded_error">Nalaganje videa ni uspelo</string>
+
+    <string name="message_new_message">Prejeto novo sporočilo. Preverite na telefonu.</string>
+
+    <string name="message_permission_not_granted">Dovoljenje ni odobreno: %1$s</string>
+
+    <!-- Welcome dialog -->
+    <string name="dialog_welcome_title">Dobrodošli!</string>
+    <string name="dialog_welcome_message"><![CDATA[Podprte naprave:
+    <watch_types/>
+    <p>Za uporabo aplikacije <app_name/> morate na istem telefonu namestiti uradno aplikacijo <device_type/>. Najprej uro seznanite v aplikaciji <device_type/>, nato lahko uporabljate to aplikacijo.</p>
+    <p>Če iskanje naprave <device_type/> ni uspešno, lahko med iskanjem ročno vnesete naslov MAC.</p>
+    <b>Reševanje težav s povezavo:</b>
+    <br>- Nedavne aplikacije: zaklenite <app_name/> (potegnite predogled navzdol in izberite \'Zakleni\' ali podobno).
+    <br>- Optimizacija baterije telefona: izključite za aplikacijo <app_name/>.
+    <br>- Telefon/aplikacije: izbrišite podatke za »Bluetooth Share« in druge aplikacije »Bluetooth«.
+    <br>- Več informacij: https://dontkillmyapp.com
+    <br><br><small>Ta izdelek in njegove funkcije niso namenjene za medicinsko uporabo in niso namenjene za napovedovanje, diagnosticiranje, preprečevanje ali zdravljenje bolezni. Vsi podatki in meritve so zgolj informativne narave in niso osnova za postavljanje diagnoz ali zdravljenje.</small>
+    ]]></string>
+
+    <!-- Notification  -->
+    <string name="notification_group_nav_setting">Nastavitev</string>
+    <string name="notification_group_nav_filter">Filter</string>
+    <string name="notification_group_nav_correction">Popravek besedila</string>
+
+    <string name="notification_group_name">Ime</string>
+    <string name="notification_group_monitoring">Spremljanje obvestil</string>
+    <string name="notification_group_monitoring_disabled">Izključi obvestila (ne prikazuj obvestil aplikacije)</string>
+    <string name="notification_group_alert_title">Opozorilo za %1$s</string>
+    <string name="notification_group_text_customization">Prilagoditev besedila</string>
+    <string name="notification_group_text_app_name">Ime aplikacije</string>
+    <string name="notification_group_text_name">Ime</string>
+    <string name="notification_group_text_title">Naslov</string>
+    <string name="notification_group_text_content">Vsebina</string>
+    <string name="notification_group_text_big_content">Celotna vsebina</string>
+    <string name="notification_group_text_content_slice_title">Dolžina besedila</string>
+    <string name="notification_group_display_duration_title">Čas prikaza</string>
+    <string name="notification_group_show_notification_title">Prikaži obvestilo</string>
+    <string name="notification_group_immediate">Takoj opozori ob prejemu obvestila</string>
+    <string name="notification_group_connecting">Opozori ob povezavi</string>
+    <string name="notification_group_reminder">Opomnik</string>
+    <string name="notification_group_ongoing">Opozori na trajna (neodstranljiva) obvestila</string>
+    <string name="notification_group_screen_off">Opozori samo, ko je zaslon izklopljen</string>
+    <string name="notification_group_repeat_title">Ponovi opozorila</string>
+    <string name="notification_group_wakelock">Prebudi zaslon telefona</string>
+    <string name="notification_group_grouped_display_title">Nastavitev prikaza za združena obvestila</string>
+    <string name="notification_group_grouped_sort_order_title">Vrstni red za združena obvestila</string>
+
+    <string name="notification_group_filter">Filtriraj obvestila</string>
+    <string name="notification_group_filter_title">Filtriranje po naslovu</string>
+    <string name="notification_group_filter_content">Filtriranje po vsebini</string>
+    <string name="notification_group_filter_regex">Regex</string>
+    <string name="notification_group_filter_hint">Opozori samo, če naslov ali vsebina ustreza (neobčutljivo na velikost črk)</string>
+    <string name="notification_group_filter_contains">Vsebuje katero od teh</string>
+    <string name="notification_group_filter_not_contains">Ne vsebuje nobene od teh</string>
+
+    <string name="notification_group_sample_sms">SMS</string>
+    <string name="notification_group_sample_facebook">Messenger</string>
+    <string name="notification_group_sample_whatsapp">WhatsApp</string>
+
+    <string name="notification_group_correction">Popravek besedila obvestila</string>
+    <string name="notification_group_correction_title">Popravek naslova</string>
+    <string name="notification_group_correction_content">Popravek vsebine</string>
+    <string name="notification_group_correction_regex">Regex</string>
+    <string name="notification_group_correction_hint">Neobčutljivo na velikost črk</string>
+    <string name="notification_group_correction_items">Besedila za popraviti</string>
+    <string name="notification_group_correction_find">Najdi besedilo</string>
+    <string name="notification_group_correction_replace">Zamenjaj z</string>
+
+    <string name="notification_regex_hint">Posebni znaki imajo poseben pomen. Če ne poznate Regex-a, pustite to možnost izklopljeno.</string>
+
+    <string name="notification_confirm_close">Ste prepričani, da želite zavreči spremembe?</string>
+
+    <string name="notification_edit_play_text_title">Naslov obvestila</string>
+    <string name="notification_edit_play_text_content">Vsebina obvestila:</string>
+
+
+    <!-- Incoming call alert -->
+    <string name="call_tab_call">Dohodni klic</string>
+    <string name="call_tab_contacts">Stiki</string>
+
+    <string name="call_incoming">Dohodni klic</string>
+    <string name="call_incoming_summary_on">Ne pozabi izklopiti opozorila za dohodne klice v aplikaciji %1$s</string>
+    <string name="call_incoming_caller_id">Prikaži ID klicatelja</string>
+
+    <string name="pref_call_notification_rejected">Pokaži obvestilo o zavrnjenem klicu</string>
+    <string name="pref_call_notification_rejected_message">Klic zavrnjen</string>
+    <string name="pref_call_notification_rejected_action">Klic</string>
+
+    <string name="call_incoming_net_alert_title">Opozorilo za dohodni internetni klic</string>
+
+    <string name="call_missed_title">Opozorilo za zgrešen klic</string>
+    <string name="call_missed_chooser_title">%1$s opozorilo</string>
+    <string name="call_missed_notification">Zgrešen klic</string>
+
+    <string name="call_reject_button_action">Dejanje gumba za zavrnitev</string>
+
+    <string name="touch_call_answer_title">Sprejem klica</string>
+    <string name="touch_call_answer_speakerphone_title">Zvočnik</string>
+
+    <string name="call_end_title">Zavrnitev ali končanje klica</string>
+
+    <string name="touch_call_mute_title">Utišaj klic</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Samo ob dohodnem klicu</string>
+    <string name="touch_call_mute_recognition_title">Ob dohodnem klicu</string>
+
+    <string name="call_contact_edit_contact">Stik</string>
+    <string name="call_contact_edit_name">Ime</string>
+    <string name="call_contact_edit_phone_number">Telefonska številka</string>
+
+    <string name="call_contact_edit_setting_name_order">Vrstni red imena</string>
+    <string name="call_contact_edit_setting_default">@string/default_</string>
+    <string name="call_contact_edit_setting_first_name">Ime</string>
+    <string name="call_contact_edit_setting_last_name">Priimek</string>
+
+    <string name="message_call_contacts_free_counter">Do %1$d stikov je na voljo v brezplačnem načinu</string>
+    <string name="message_call_contacts_max_counter">Do %1$d stikov je na voljo</string>
+
+    <!-- App chooser dialog -->
+    <string name="app_chooser">Izbirnik aplikacij</string>
+    <string name="action_search">Iskanje</string>
+    <string name="action_filter_notification">Filter obvestil</string>
+
+    <!-- Activity -->
+    <string name="step_details">Podrobnosti aktivnosti</string>
+
+    <string name="mi_band_tracker_step_title">%1$,d</string>
+    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string>
+    <string name="mi_band_tracker_distance_kilometer_title">%,.2f km</string>
+    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string>
+    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string>
+
+    <string name="action_tracker_step">Koraki</string>
+    <string name="action_tracker_distance">Razdalja</string>
+    <string name="action_tracker_calorie">Kalorije</string>
+    <string name="action_tracker_duration">Trajanje vadbe</string>
+
+    <string name="step_goal_default_title">Privzeti cilj</string>
+
+    <!-- Sleep monitoring -->
+    <string name="sleep_details">Podrobnosti spanja</string>
+
+    <string name="sleep_awake_phase_short">Budno</string>
+    <string name="sleep_light_phase_short">Lahko</string>
+    <string name="sleep_deep_phase_short">Globoko</string>
+    <string name="sleep_rem_phase_short">REM</string>
+
+    <!-- Heart rate -->
+    <string name="heart_rate_details">Podrobnosti srčnega utripa</string>
+
+    <string name="heart_rate_continuous_measurement_title">Neprekinjeno merjenje utripa</string>
+
+    <string name="heart_rate_alert_title">Opozorilo srčnega utripa</string>
+    <string name="heart_rate_thresholds">Mejne vrednosti srčnega utripa</string>
+    <string name="low_heart_rate">Nizek srčni utrip</string>
+    <string name="high_heart_rate">Visok srčni utrip</string>
+
+    <!-- Blood oxygen -->
+    <string name="blood_oxygen_details">Podrobnosti kisika v krvi</string>
+
+    <string name="blood_oxygen_level_measurement">Merjenje ravni kisika v krvi</string>
+    <string name="measurement_interval">Interval merjenja</string>
+
+    <!-- Blood pressure -->
+    <string name="blood_pressure_details">Podrobnosti krvnega tlaka</string>
+
+    <string name="blood_pressure_level_measurement">Merjenje krvnega tlaka</string>
+
+    <string name="blood_pressure_systolic_abbreviation">Sis</string>
+    <string name="blood_pressure_diastolic_abbreviation">Dia</string>
+    <string name="blood_pressure_unit">mmHg</string>
+
+    <!-- Workout -->
+    <string name="workout_details">Podrobnosti vadbe</string>
+
+    <!-- Alarm -->
+    <string name="action_time_alarm_sort_state_asc">Stanje naraščajoče</string>
+    <string name="action_time_alarm_sort_watch_asc">Ura naraščajoče</string>
+    <string name="action_time_alarm_sort_name_asc">Ime naraščajoče</string>
+
+    <string name="message_time_alarm_sync">Sinhronizacija %1$s budilk (obstoječe bodo izbrisane in nove nastavljene na uri)</string>
+
+    <string name="info_dialog_alarm"><![CDATA[
+    <p>Če uporabljaš način sodelovanja, lahko uradna aplikacija in aplikacija <app_name/> prepišeta ali izbrišeta nastavitve druga druge.</p>
+    Veljavna bo zadnja izvedena dejanja.
+    ]]></string>
+
+    <!-- Reminder -->
+    <string name="message_reminder_enabled">Opomnik omogočen</string>
+    <string name="message_reminder_disabled">Opomnik onemogočen</string>
+
+    <string name="reminder_repeat">Ponavljaj vsako uro</string>
+    <string name="reminder_notification_on_phone">Obvesti me na telefonu</string>
+
+    <string name="message_time_reminder_free_counter">V brezplačnem načinu je mogoče uporabiti samo 1 opomnik</string>
+
+    <string name="info_dialog_reminder"><![CDATA[
+    Za prikaz opomnika je potrebna povezava Bluetooth.
+    ]]></string>
+
+    <!-- Do not disturb -->
+    <string name="pref_dnd_summary">Stanje kontrolnikov v načinu Ne moti</string>
+    <string name="pref_dnd_enable_bluetooth">Ob začetku načina Ne moti izklopi Bluetooth, ob koncu ga znova vklopi</string>
+
+    <string name="info_dialog_dnd"><![CDATA[
+    Če uporabljaš način sodelovanja, mora biti v uradni aplikaciji <device_type/> način Ne moti nastavljen med 00:00 in 23:59 ter mora biti izklopljen.
+    ]]></string>
+
+
+    <!-- Watch face -->
+    <string name="watch_face_tab_watch_faces">Številčnice ure</string>
+    <string name="watch_face_tab_watch_face_custom">Lastne datoteke</string>
+    <string name="watch_face_tab_watch_face_editor">Urejevalnik</string>
+
+    <string name="watch_face_download_title">Prenos številčnice</string>
+    <string name="watch_face_upload_title">Nalaganje številčnice</string>
+    <string name="watch_face_tool_title">Orodja</string>
+
+    <string name="watch_face_share_content">Ustvarjeno številčnico lahko deliš z drugimi. Pošlji številčnico in predogled po e-pošti ter dodaj naslednje podatke: ime avtorja, ime številčnice (največ 30 znakov) in jezik. Objavljene bodo samo visokokakovostne številčnice.</string>
+
+    <string name="watch_face_upload_prepare">Priprava na nalaganje…</string>
+    <string name="watch_face_upload_progress">Nalagam %1$,d%%</string>
+
+    <string name="watch_face_invalid_firmware">Firmware %1$s ni prepoznan ali ne podpira nalaganja številčnic. Posodobi firmware z uradno aplikacijo. Če uradna aplikacija podpira nalaganje številčnic, nas o tem obvesti prek menija Povratne informacije.</string>
+    <string name="watch_face_invalid_auth">Uporabi samostojni način; pri uporabi načina sodelovanja lahko uradna aplikacija prepreči nalaganje številčnic</string>
+    <string name="watch_face_invalid_free">Danes v brezplačnem načinu ne moreš več nalagati številčnic</string>
+    <string name="watch_face_watch_rewarded_ads">Za nadaljevanje si oglej video</string>
+    <string name="watch_face_watch_rewarded_ads_uploading">Za nadaljevanje nalaganja si oglej video</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">Zaganjam video…</string>
+
+    <string name="watch_face_upload_method_title">Način</string>
+    <string name="watch_face_upload_method_default">@string/default_</string>
+    <string name="watch_face_upload_method_alternative">Alternativni</string>
+
+    <string name="watch_face_upload_speed_title">Hitrost nalaganja</string>
+    <string name="watch_face_upload_invalid_speed_hint">Če pride do prekinitve, nastavi nižjo hitrost nalaganja</string>
+    <string name="watch_face_upload_invalid_size_hint">Neveljavna velikost datoteke. Zmanjšaj kakovost številčnice ali odstrani elemente</string>
+    <string name="watch_face_upload_invalid_battery_hint">Baterija pametne ure je skoraj prazna, prosimo napolni uro</string>
+
+    <string name="watch_face_tbwf_quality_title">Nastavitev kakovosti datoteke .tbwf</string>
+    <string name="watch_face_tbwf_quality_hint">Velikost datoteke se lahko zmanjša, če ura to podpira</string>
+
+    <string name="watch_face_tbwf_locale_title">Jezikovne in regijske nastavitve datoteke .tbwf</string>
+    <string name="watch_face_tbwf_locale_hint">Imena dni v tednu, ločilo za mesec in decimalni simbol</string>
+
+    <string name="message_watch_face_file_invalid">Neveljavna številčnica</string>
+    <string name="message_watch_face_file_invalid_size">Neveljavna velikost številčnice</string>
+    <string name="message_watch_face_file_invalid_battery">Baterija pametne ure je skoraj prazna</string>
+    <string name="message_watch_face_image_file_error">Neveljavna slikovna datoteka</string>
+    <string name="message_watch_face_font_file_error">Neveljavna datoteka pisave</string>
+
+    <string name="action_chart_layout_2_columns">Razporeditev v 2 stolpcih</string>
+    <string name="action_chart_layout_3_columns">Razporeditev v 3 stolpcih</string>
+
+    <string name="watch_face_edit_dial">Številčnica</string>
+    <string name="watch_face_edit_preview">Predogled</string>
+    <string name="watch_face_edit_hour_digital">Ura</string>
+    <string name="watch_face_edit_minute_digital">Minuta</string>
+    <string name="watch_face_edit_second_digital">Sekunda</string>
+    <string name="watch_face_edit_am_pm">Kazalnik dop./pop.</string>
+    <string name="watch_face_edit_am">dop.</string>
+    <string name="watch_face_edit_pm">pop.</string>
+    <string name="watch_face_edit_hour_analog">Kazalec ure</string>
+    <string name="watch_face_edit_minute_analog">Kazalec minute</string>
+    <string name="watch_face_edit_second_analog">Kazalec sekunde</string>
+    <string name="watch_face_edit_axis">Os vrtenja</string>
+    <string name="watch_face_edit_hour_minute_separator">Ločilo ure in minute</string>
+    <string name="watch_face_edit_year">Leto</string>
+    <string name="watch_face_edit_year_month_separator">Ločilo leta in meseca</string>
+    <string name="watch_face_edit_month">Mesec</string>
+    <string name="watch_face_edit_month_name">Ime meseca</string>
+    <string name="watch_face_edit_month_day_separator">Ločilo meseca in dneva</string>
+    <string name="watch_face_edit_day">Dan</string>
+    <string name="watch_face_edit_dayOfWeek">Dan v tednu</string>
+    <string name="watch_face_edit_battery_level">Raven baterije</string>
+    <string name="watch_face_edit_battery_level_percent_sign">Raven baterije %</string>
+    <string name="watch_face_edit_battery_level_image">Slika baterije</string>
+    <string name="watch_face_edit_weather_temperature">Temperatura</string>
+    <string name="watch_face_edit_weather_temperature_unit_sign">Enota temperature °</string>
+    <string name="watch_face_edit_weather_image">Ikona vremena</string>
+    <string name="watch_face_edit_connection_indicator_image">Ikona povezave</string>
+    <string name="watch_face_edit_connected">Povezano</string>
+    <string name="watch_face_edit_disconnected">Ni povezave</string>
+    <string name="watch_face_edit_steps">Koraki</string>
+    <string name="watch_face_edit_steps_image">Ikona korakov</string>
+    <string name="watch_face_edit_steps_goal_progress">Napredek cilja korakov</string>
+    <string name="watch_face_edit_distance">Razdalja</string>
+    <string name="watch_face_edit_distance_image">Ikona razdalje</string>
+    <string name="watch_face_edit_calories">Kalorije</string>
+    <string name="watch_face_edit_calories_image">Ikona kalorij</string>
+    <string name="watch_face_edit_heart_rate">Srčni utrip</string>
+    <string name="watch_face_edit_heart_rate_image">Ikona srčnega utripa</string>
+
+    <string name="watch_face_edit_color">Barva</string>
+    <string name="watch_face_edit_font_family">Pisava</string>
+    <string name="watch_face_edit_character">Znak</string>
+    <string name="watch_face_edit_font_size">Velikost pisave</string>
+    <string name="watch_face_edit_image">Slika</string>
+    <string name="watch_face_edit_image_png_jpeg">Slika (.png, .jpeg)</string>
+    <string name="watch_face_edit_image_png">Slika (.png)</string>
+    <string name="watch_face_edit_image_size">Velikost slike</string>
+    <string name="watch_face_edit_icon">Ikona</string>
+
+    <string name="watch_face_custom_watch_face_not_supported_title">Ta ura ne podpira nalaganja lastnih številčnic</string>
+    <string name="watch_face_custom_watch_face_under_development_title">Funkcija za nalaganje lastnih številčnic je trenutno v razvoju in morda bo na voljo v prihodnosti, vendar to še ni potrjeno.</string>
+
+    <!-- Touch monitoring -->
+    <string name="touch_tab_function">Funkcija</string>
+    <string name="touch_tab_control">Nadzor</string>
+    <string name="touch_tab_testing">Testiranje</string>
+    <string name="touch_tab_setting">@string/setting_name</string>
+
+    <string name="touch_function_summary">Nastavite te funkcije, če uporabljate samostojni način ali če aplikacija Mi Fit ne deluje pravilno</string>
+    <string name="touch_function">%1$s funkcija</string>
+    <string name="touch_function_as_touch">Uporabi funkcijo kot dotik v meniju za nadzor</string>
+
+    <string name="touch_headline_incoming_call_title">Dohodni klic</string>
+    <string name="touch_headline_other_function_title">Druge funkcije</string>
+    <string name="touch_headline_call_title">Nadzor klicev</string>
+    <string name="touch_headline_music_title">Nadzor glasbe</string>
+    <string name="touch_headline_time_title">Nadzor štoparice/časovnika</string>
+    <string name="touch_headline_other_title">Drugi nadzori</string>
+
+    <string name="touch_device_location_title">Najdi moj telefon</string>
+    <string name="touch_device_location_not_muted_only_title">Zvok samo, če ni utišan ali v načinu Ne moti</string>
+
+    <string name="touch_mute_toggle_title">Preklop utišanja telefona</string>
+    <string name="touch_mute_toggle_ringer_mode_title">Način zvonjenja</string>
+    <string name="touch_mute_toggle_mute_off_title">Utišanje izklopljeno</string>
+
+    <string name="touch_music_title">Glasba</string>
+    <string name="touch_music_function_launch">Zaženi predvajanje z gumbom, če ni zaznanega predvajalnika</string>
+    <string name="touch_music_function_mi_band_message_launch">Zaženi glasbo z gumbom za predvajanje</string>
+    <string name="touch_music_function_mi_band_message_no_track_title">Ni mogoče pridobiti naslova skladbe</string>
+
+    <string name="touch_call_out_title">Začetek klica</string>
+    <string name="touch_call_out_no_contact">Izberi stik</string>
+    <string name="touch_call_out_summary">Dvojni pritisk za odgovor na klic</string>
+    <string name="touch_call_out_summary_support_call_display_button">Pritisni gumb za odgovor na klic</string>
+    <string name="touch_call_out_speakerphone_title">Zvočnik</string>
+    <string name="touch_call_out_call_text">Klicanje: %1$s</string>
+
+    <string name="touch_weather_title">Vremenska napoved</string>
+    <string name="touch_weather_location">Posodobitev lokacije</string>
+    <string name="touch_weather_precipitation">Padavine</string>
+    <string name="touch_weather_cloud_cover">Oblačnost</string>
+    <string name="touch_weather_wind">Veter</string>
+
+    <string name="touch_repeat_notif_title">Ponavljanje obvestil</string>
+    <string name="touch_repeat_notif_clear_all">Po ponovitvi izbriši vsa obvestila</string>
+
+    <string name="touch_clear_notif_title">Izbriši obvestila iz telefona</string>
+
+    <string name="touch_music_play_pause_title">Začetek/predvajanje/premor glasbe</string>
+    <string name="touch_music_skip_previous_title">Predvajaj, prejšnja skladba</string>
+    <string name="touch_music_skip_next_title">Predvajaj, naslednja skladba</string>
+    <string name="touch_music_headset_only_title">Samo če so slušalke povezane</string>
+    <string name="touch_music_launch">Zaženi glasbo</string>
+    <string name="touch_music_volume_up_title">Povečaj glasnost</string>
+    <string name="touch_music_volume_down_title">Zmanjšaj glasnost</string>
+    <string name="touch_music_track_info_title">Prikaži podatke o skladbi</string>
+
+    <string name="touch_time_launch_title">Zagon merjenja časa</string>
+    <string name="touch_time_launch_type_timer_title">Časovnik</string>
+    <string name="touch_time_launch_type_stopper_title">Štoparica</string>
+    <string name="touch_time_launch_type_interval_title">Interval</string>
+    <string name="touch_time_launch_restart">Ponovni zagon, če je v teku</string>
+    <string name="touch_time_reminder_title">Preostali/pretekli čas</string>
+
+    <string name="touch_google_assistant_title">Google Pomočnik</string>
+
+    <string name="touch_flashlight_title">Preklop svetilke</string>
+
+    <string name="touch_camera_title">Posnemi fotografijo</string>
+    <string name="touch_camera_front_title">Sprednja</string>
+    <string name="touch_camera_rear_title">Zadnja</string>
+    <string name="touch_camera_install_title">Namesti</string>
+
+    <string name="touch_app_launcher1_title">Zaganjalnik aplikacij</string>
+    <string name="touch_app_launcher_package_no_title">Izberi aplikacijo</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">Samo, če zaslon ni zaklenjen</string>
+
+    <string name="touch_broadcast1_title">Pošlji Broadcast</string>
+    <string name="touch_broadcast1_action_title">Dejanje (Intent)</string>
+    <string name="touch_broadcast1_package_title">Ime paketa (Intent)</string>
+
+    <string name="touch_http_request1_title">1. HTTP zahteva</string>
+    <string name="touch_http_request2_title">2. HTTP zahteva</string>
+    <string name="touch_http_request_url_title">URL naslov</string>
+    <string name="touch_http_request_method_title">Metoda</string>
+    <string name="touch_http_request_body_title">Vsebina</string>
+    <string name="touch_http_request_show_response_title">Prikaži odgovor</string>
+
+    <string name="touch_tasker_launcher1_title">1. Tasker zaganjalnik</string>
+    <string name="touch_tasker_launcher2_title">2. Tasker zaganjalnik</string>
+    <string name="touch_tasker_launcher_no_permission_title">Najprej namesti aplikacijo Tasker, nato Mi Bandage</string>
+    <string name="touch_tasker_launcher_no_access_title">Dovoli zunanji dostop</string>
+    <string name="touch_tasker_launcher_no_task_title">Izberi nalogo</string>
+
+    <string name="touch_testing_title">Sledenje dotikom</string>
+    <string name="touch_testing_second">sek.</string>
+
+    <string name="touch_setting_detection_time_title">Čas zaznave dotika</string>
+    <string name="touch_setting_detection_time_button_hint">Nižja vrednost zahteva hitrejše zaporedne dotike za izvajanje dejanj</string>
+
+    <string name="touch_setting_detection_method_title">Metoda zaznavanja dotika</string>
+
+    <string name="touch_setting_recognition_start_title">Začetek prepoznavanja dotika</string>
+    <string name="touch_setting_recognition_start_trigger_title">Sprožilec</string>
+    <string name="touch_setting_recognition_time_title">Čas prepoznavanja</string>
+
+    <string name="touch_setting_recognition_mi_band_signal_title">%1$s signal</string>
+    <string name="touch_setting_recognition_succeeded_title">Prepoznan vzorec dotika</string>
+    <string name="touch_setting_recognition_failed_title">Neprepoznan vzorec dotika</string>
+
+    <string name="info_dialog_touch"><![CDATA[
+    <p>Deluje pravilno v samostojnem načinu. Če uporabljate način sodelovanja, bo tudi uradna aplikacija <app_official /> upravljala te funkcije, zato ni zagotovljeno pravilno delovanje.</p>
+    <p><b>Nastavitve Bluetooth telefona:</b> <device_name/> onemogoči vhodno napravo</p>
+    <b><u>Prepoznani dotiki</u></b>
+    <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
+    <br><device_type/> nadzor glasbe
+    <p><img src="ic_search">
+    <br><device_type/> poišči moj telefon
+    </p>
+    Vsaki funkciji je mogoče dodeliti več dotikov.
+    ]]></string>
+
+
+    <!-- Weather  -->
+    <string name="weather_tab_weather_forecast">Vreme</string>
+    <string name="weather_tab_location">Lokacija</string>
+    <string name="weather_tab_settings">@string/setting_name</string>
+
+    <string name="weather_location_title">Lokacija</string>
+
+    <string name="weather_forecast_title">Vremenska napoved</string>
+
+    <string name="weather_setting_provider">Ponudnik vremenskih podatkov</string>
+    <string name="weather_city_title">Mesto</string>
+    <string name="weather_unit_title">Enota</string>
+    <string name="weather_unit_metric">Metrična (Celsius)</string>
+    <string name="weather_unit_imperial">Imperialna (Fahrenheit)</string>
+    <string name="weather_automatic_update">Samodejna posodobitev lokacije v ozadju</string>
+    <string name="weather_automatic_update_title">Uporabi trenutno lokacijo</string>
+    <string name="weather_automatic_update_summary">Aplikacija zbira podatke o lokaciji za posodobitev vremena na trenutni lokaciji, tudi ko je aplikacija zaprta ali ni v uporabi.</string>
+
+    <string name="permission_background_location">%1$s bo imel dovoljenje za zbiranje lokacijskih podatkov tudi, ko je aplikacija zaprta ali ni v uporabi</string>
+    <string name="permission_error_title">%1$s ne more posodobiti dovoljenj</string>
+    <string name="permission_error_description">Odpri nastavitve in izberi možnost »%1$s« za dovoljenje za lokacijo</string>
+    <string name="all_the_time">Ves čas</string>
+
+    <string name="weather_current_title">Trenutno vreme</string>
+    <string name="weather_current_location">Trenutna lokacija</string>
+    <string name="weather_current_temperature">Trenutna temperatura</string>
+
+    <string name="weather_precipitation_rain">Dež</string>
+    <string name="weather_precipitation_snow">Sneg</string>
+    <string name="weather_cloud_cover_abbreviation">Ob</string>
+    <string name="weather_cloud_cover">Oblaki</string>
+    <string name="weather_humidity">Vlažnost</string>
+
+    <string name="weather_north">S</string>
+    <string name="weather_east">V</string>
+    <string name="weather_south">J</string>
+    <string name="weather_west">Z</string>
+
+    <!-- Text customization -->
+    <string name="pref_text_reminder_repeat_interval_title">Interval ponovitve opomnika</string>
+    <string name="pref_text_reminder_repeat_interval_summary">Funkcija obvestila > opomnik uporablja ta časovni interval</string>
+    <string name="pref_text_emoticon_title">Pretvorba emojijev</string>
+    <string name="pref_text_emoticon_summary_on">Pretvori emojije v emotikone</string>
+    <string name="pref_text_uppercase_title">Pretvorba v velike črke</string>
+    <string name="pref_text_uppercase_summary_on">Pretvori male črke v velike</string>
+    <string name="pref_text_alphanumeric_title">Alfanumerični in ASCII znaki</string>
+    <string name="pref_text_alphanumeric_summary_on">Prikaži samo alfanumerične in ASCII znake</string>
+    <string name="pref_text_transliteration_title">Transliteracija</string>
+    <string name="pref_text_transliteration_summary_on">Pretvori črke z naglasi v običajne črke</string>
+    <string name="pref_text_line_separator_title">Zamenjava ločila vrstic</string>
+    <string name="pref_text_line_separator_summary_on">Zamenjaj privzeto ločilo vrstic z drugim znakom</string>
+    <string name="pref_text_line_separator_value_title">Nadomestni znaki</string>
+    <string name="pref_text_char_replacement_title">Zamenjava znakov ali emojijev</string>
+    <string name="pref_text_char_replacement_summary_on">Zamenjaj en znak z drugim</string>
+    <string name="pref_text_char_replacement_find">Poišči</string>
+    <string name="pref_text_char_replacement_replace">Zamenjaj z</string>
+
+    <!-- Export -->
+    <string name="export_tab_database">Izvoz podatkov</string>
+    <string name="export_start_date">Začetni datum izvoza</string>
+
+    <!-- Theme -->
+    <string name="theme_tab_theme">Tema</string>
+
+    <string name="theme_title">Izberi temo</string>
+    <string name="theme_background_color_title">Barva ozadja</string>
+
+    <string name="theme_widget_background_color_title">Barva</string>
+    <string name="theme_color_dynamic_color_title">Dinamična barva</string>
+    <string name="theme_color_predefined_colors_title">Vnaprej določene barve</string>
+
+    <string name="theme_notification_title">Prikaz stanja v vrstici z obvestili</string>
+
+    <string name="theme_cat_color_setting">Nastavitve barv</string>
+
+    <!-- Feedback -->
+    <string name="action_log_notification">Dnevnik</string>
+
+    <string name="feedback_google_play_title">Ocenite aplikacijo</string>
+    <string name="feedback_request_feature_title">Predlog funkcije, prijava napake</string>
+    <string name="feedback_request_feature_summary">Samodejna obdelava e-pošte, morda ne boste prejeli odgovora</string>
+    <string name="feedback_translation_title">%1$s prevod</string> <!-- %1$s = App name -->
+    <string name="feedback_translation_title_summary">Prosimo, pomagajte pri prevajanju</string>
+
+    <!-- Premium mode -->
+    <string name="purchase_advantage_title">Prednosti načina Premium</string>
+    <string name="purchase_advantage"><![CDATA[
+    <p>• finančna podpora za razvoj</p>
+    <p>• brez oglasov</p>
+    <p>• neomejene nastavitve obvestil</p>
+    <p>• neomejene nastavitve klicev</p>
+    <p>• neomejeno dnevno nalaganje številčnic</p>
+    <p>• neomejeno število alarmov (omejeno z uro)</p>
+    <p>• neomejen način »Ne moti«</p>
+    <p>• neomejene nastavitve dotika</p>
+    <p>• pogostejše vremenske posodobitve, samodejne lokacijske posodobitve, možnost uporabe AccuWeather</p>
+    <p>• podrobni dnevni grafi</p>
+    • odklenjene vse druge omejitve funkcij…
+    ]]></string>
+
+    <string name="purchase_policy_title">Pogoji za nakup načina Premium</string>
+    <string name="purchase_policy"><![CDATA[
+    <p>• Preizkusil(a) sem aplikacijo in ugotovil(a), da deluje po pričakovanjih.</p>
+    <p>• Zavedam se, da ne morem zahtevati vračila ali odškodnine za težave, ki jih povzročijo spremembe v sistemu (npr. posodobitve Androida), strojni opremi ali konflikti z drugimi aplikacijami.</p>
+    <p>• Vsi nakupi so dokončni in nepovratni (razen če Google omogoča vračilo v skladu s svojo politiko).</p>
+    <p>• Aplikacija je na voljo brez kakršnega koli jamstva, izrecnega ali implicitnega.</p>
+    <p>• Uporaba aplikacije je na lastno odgovornost. Razvijalec ne odgovarja za neposredno ali posredno škodo ali izgubo podatkov zaradi njene uporabe.</p>
+    <p>• Način Premium je povezan z vašim računom Google in ostane aktiven tudi po ponovni namestitvi aplikacije.</p>
+    <i>Aplikacijo je treba po nakupu ponovno zagnati.</i>
+    ]]></string>
+
+    <string name="purchase_google_play_services_not_available">Google Play storitve niso na voljo</string>
+
+    <string name="purchase_agree">Strinjam se s pogoji nakupa.</string>
+    <string name="purchase_order_id">ID naročila</string>
+    <string name="purchase_order_id_help">Kopiraj iz:
+    \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+    \n<a href="https://payments.google.com">https://payments.google.com</a>
+    </string>
+
+    <string name="purchase_info">Enkratno plačilo ・ %1$s</string>
+    <string name="purchase_button_purchase">Nakup</string>
+
+    <!-- Privacy policy -->
+    <string name="privacy_policy_tab_privacy_policy">Pravilnik o zasebnosti</string>
+    <string name="privacy_policy_tab_user_consent">Upravljanje soglasja uporabnika</string>
+    <string name="privacy_policy_tab_eu_consent">Soglasje uporabnikov iz EU in ZDA</string>
+    <string name="privacy_policy_tab_non_eu_consent">Soglasje uporabnikov iz drugih regij</string>
+
+    <string name="privacy_policy_collect_title">Zbrani podatki</string>
+    <string name="privacy_policy_collect"><![CDATA[
+    <p>• Zbiramo izključno anonimne podatke.</p>
+    <p>• Na ravni aplikacije zbiramo podatke o tem, katere storitve uporabljate in kako jih uporabljate (Google Analytics).</p>
+    <p>• Na ravni aplikacije zbiramo informacije o napakah, zrušitvah in drugih nepravilnostih za izboljšanje delovanja (Firebase Crashlytics).</p>
+    <p>• Zbiramo tudi podatke o zmogljivosti za optimizacijo delovanja aplikacije (Firebase Performance Monitoring).</p>
+    <p>• Platforma Google Firebase zbira podatke anonimno in brez identifikacije posameznikov. Zbrani podatki vključujejo statistiko, kot so: ID namestitve Firebase, stanje aplikacije, metapodatki o napravi (model, arhitektura procesorja, RAM in pomnilnik, OS, orientacija zaslona, država, jezik/regija), sledovi napak, meritve zmogljivosti (čas zagona, zakasnitve omrežja, URL-ji), poraba CPU/pomnilnika, približen IP-naslov …</p>
+    <p>• Podatke o lokaciji zbiramo samo za posodabljanje vremenskih informacij glede na vašo trenutno lokacijo (neobvezno).</p>
+    • Pravna podlaga za zbiranje in obdelavo teh podatkov je naš zakoniti interes za izboljšanje funkcionalnosti, zmogljivosti in stabilnosti aplikacije.
+    ]]></string>
+
+    <string name="privacy_policy_cookies_title">Piškotki in podobne tehnologije</string>
+    <string name="privacy_policy_cookies"><![CDATA[
+    • Nekateri zunanji ponudniki storitev, kot je AdMob, lahko uporabljajo piškotke ali podobne tehnologije za prikaz prilagojenih oglasov. Prilagajanje oglasov lahko upravljate v nastavitvah svojega Google računa.
+    ]]></string>
+
+    <string name="privacy_policy_retention_title">Hramba podatkov</string>
+    <string name="privacy_policy_retention"><![CDATA[
+    • Zbrane podatke hrani Google Firebase v skladu s svojo politiko in samo toliko časa, kolikor je potrebno za analitiko, diagnostiko in izboljšanje zmogljivosti.
+    ]]></string>
+
+    <string name="privacy_policy_not_collect_title">Podatki, ki jih ne zbiramo</string>
+    <string name="privacy_policy_not_collect"><![CDATA[
+    <p>• Ne zbiramo osebnih podatkov, s katerimi bi vas bilo mogoče neposredno identificirati (npr. ime, naslov, telefonska številka, e-pošta ali MAC-naslov).</p>
+    • Ne zbiramo podatkov o vašem zdravju, seznamu stikov ali vsebini obvestil, prikazanih na vaši napravi.
+    ]]></string>
+
+    <string name="privacy_policy_share_title">Deljenje podatkov</string>
+    <string name="privacy_policy_share"><![CDATA[
+    • Podatkov ne delimo z nobenimi podjetji ali organizacijami, razen z Googlom in ponudniki oglaševanja.
+    ]]></string>
+
+    <string name="privacy_policy_use_title">Uporaba osebnih in občutljivih podatkov</string>
+    <string name="privacy_policy_use"><![CDATA[
+    • Podatke o lokaciji uporabljamo izključno za posodabljanje vremenskih informacij, in to le, če funkcijo sami omogočite.
+    ]]></string>
+
+    <string name="privacy_policy_rights_title">Vaše pravice</string>
+    <string name="privacy_policy_rights"><![CDATA[
+    <p>• Zbrani podatki za analitiko, poročila o napakah in zmogljivost so popolnoma anonimni in ne omogočajo identifikacije posameznika. Zato ti podatki ne štejejo za osebne podatke po veljavni zakonodaji (npr. GDPR) in zanje ne veljajo pravice dostopa, popravka ali izbrisa.</p>
+    <p>• Iz zbiranja podatkov se lahko kadarkoli izključite z odstranitvijo aplikacije ali z upravljanjem nastavitev zasebnosti v svojem Google računu ali napravi.</p>
+    • Za vprašanja v zvezi z uporabo podatkov ali uveljavljanjem svojih pravic nas kontaktirajte prek podpornih kanalov v aplikaciji.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">Pravilniki o zasebnosti tretjih oseb</string>
+    <string name="privacy_policy_links"><![CDATA[
+    <p><a href="https://policies.google.com/privacy">Google – Pravilnik o zasebnosti (vključuje Google Play storitve)</a></p>
+    <p><a href="https://policies.google.com/technologies/ads">AdMob – Uporaba podatkov</a></p>
+    <p><a href="https://support.google.com/analytics/answer/6004245">Google Analytics – Uporaba podatkov</a></p>
+    <p><a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics – Pogoji uporabe</a></p>
+    <a href="https://firebase.google.com/support/privacy">Firebase – Zasebnost in varnost (vključuje tudi Performance Monitoring)</a>
+    ]]></string>
+
+    <string name="privacy_policy_eu_consent_title">Stanje</string>
+    <string name="privacy_policy_eu_consent_title_obtained">Soglasje pridobljeno</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Prilagojeni, ustrezni oglasi</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Neprilagojeni, manj ustrezni oglasi</string>
+    <string name="privacy_policy_eu_consent_title_unknown">Neznano</string>
+
+    <string name="privacy_policy_eu_consent_setting">Nastavitev</string>
+
+
+    <!-- Custom vibration dialog -->
+    <string name="custom_vibration_title">Nastavitev vibracij</string>
+
+    <!-- Shortcuts -->
+    <string name="shortcut">Bližnjica</string>
+    <string name="shortcut_visible_items">Elementi bližnjice</string>
+    <string name="shortcut_hidden_items">Skriti elementi bližnjice</string>
+
+    <string name="shortcut_status">Stanje</string>
+    <string name="shortcut_heart_rate">Srčni utrip</string>
+    <string name="shortcut_blood_oxygen">Kisik v krvi</string>
+    <string name="shortcut_sleep">Spanje</string>
+    <string name="shortcut_breathing">Dihanje</string>
+    <string name="shortcut_weather">Vreme</string>
+    <string name="shortcut_stress">Stres</string>
+
+    <!-- Actions  -->
+    <string name="tab_daily_charts">Dnevni grafikoni</string>
+    <string name="tab_weekly_charts">Tedenski grafikoni</string>
+    <string name="tab_monthly_charts">Mesečni grafikoni</string>
+    <string name="tab_yearly_charts">Letni grafikoni</string>
+
+    <string name="ad_attribution">Oglas</string>
+    <string name="on">Vklopljeno</string>
+    <string name="off">Izklopljeno</string>
+    <string name="none">Brez</string>
+    <string name="heart_rate_bpm">utr/min</string>
+    <string name="heart_rate_mhr">MHR</string>
+    <string name="date">Datum</string>
+    <string name="time">Čas</string>
+    <string name="time_start">Začetni čas</string>
+    <string name="time_end">Končni čas</string>
+    <string name="ringer_mode_vibrate">Vibracija</string>
+    <string name="ringer_mode_silent">Tiho</string>
+    <string name="ringer_mode_dnd_priority_only">Ne moti (samo prednostno)</string>
+    <string name="ringer_mode_dnd_alarms_only">Ne moti (samo alarmi)</string>
+    <string name="ringer_mode_dnd_total_silence">Ne moti (popolna tišina)</string>
+    <string name="unknown">Neznano</string>
+    <string name="maximum">Maksimum</string>
+    <string name="all_day">Cel dan</string>
+    <string name="timed">Časovno</string>
+    <string name="file_name">Ime datoteke</string>
+    <string name="default_">Privzeto</string>
+    <string name="default_by_phone">Privzeto (po telefonu)</string>
+    <string name="custom">Po meri</string>
+    <string name="invalid_setting">Neveljavna nastavitev</string>
+    <string name="ringtone">Zvonec</string>
+    <string name="ringtone_chooser">Izbirnik zvonjenja</string>
+    <string name="uninstalled">Odstranjeno</string>
+    <string name="value">Vrednost</string>
+    <string name="downloads">Prenosi</string>
+    <string name="share">Deli</string>
+    <string name="send">Pošlji</string>
+    <string name="narrow">Ozko</string>
+    <string name="short_">Kratko</string>
+    <string name="medium">Srednje</string>
+    <string name="long_">Dolgo</string>
+    <string name="full">Polno</string>
+    <string name="alignment_left">Poravnava levo</string>
+    <string name="alignment_center">Poravnava na sredino</string>
+    <string name="alignment_right">Poravnava desno</string>
+    <string name="visible">Vidno</string>
+    <string name="invisible">Nevidno</string>
+    <string name="placeholder">Označevalec mesta</string>
+    <string name="image_scale_fit">Prilagodi</string>
+    <string name="image_scale_crop">Obreži</string>
+    <string name="image_scale_stretch">Raztegni</string>
+    <string name="resource_manager">Upravljalnik virov</string>
+
+    <string name="action_premium_mode">Premium način</string>
+    <string name="action_dismiss">Elimi­ni­raj</string>
+    <string name="action_setting">Nastavitev</string>
+    <string name="action_delete">Izbriši</string>
+    <string name="action_rename">Preimenuj</string>
+    <string name="action_export">Izvozi</string>
+    <string name="action_synchronization">Sinhronizacija</string>
+    <string name="action_download">Prenesi</string>
+    <string name="action_upload">Naloži</string>
+    <string name="action_backup">Varnostna kopija</string>
+    <string name="action_restore">Obnovi</string>
+    <string name="action_filter_no">Brez filtra</string>
+    <string name="action_bluetooth">Bluetooth</string>
+    <string name="action_favorite">Priljubljeno</string>
+    <string name="action_save">Shrani</string>
+    <string name="action_test">Preizkusi</string>
+    <string name="action_discard">Zavrzi</string>
+    <string name="action_keep_editing">Nadaljuj z urejanjem</string>
+    <string name="action_new">Novo</string>
+    <string name="action_new_file_extension">Novo %1$s</string>
+    <string name="action_edit">Uredi</string>
+    <string name="action_start_stop">Zaženi/ustavi</string>
+    <string name="action_contacts">Stiki</string>
+    <string name="action_single_selection">Enojni izbor</string>
+    <string name="action_multiple_selection">Večkratni izbor</string>
+    <string name="action_selection_boundaries">Meje izbora</string>
+    <string name="action_object_boundaries">Meje objekta</string>
+    <string name="action_select">Izberi</string>
+    <string name="action_select_all">Izberi vse</string>
+    <string name="action_select_texts">Izberi besedila</string>
+    <string name="action_select_images">Izberi slike</string>
+    <string name="action_deselect_all">Počisti izbor</string>
+    <string name="synchronized_from_watch">Sinhronizirano iz ure</string>
+    <string name="synchronization_succeeded">Sinhronizacija uspešna</string>
+    <string name="synchronization_failed">Sinhronizacija ni uspela</string>
+
+    <string name="action_chart">Grafikon</string>
+    <string name="action_zoom_in">Povečava</string>
+    <string name="action_chart_normalize_raw_data">Izmerjene vrednosti</string>
+    <string name="action_chart_normalize_quarter_hourly">Vrednosti na četrt ure</string>
+    <string name="action_chart_normalize_half_hourly">Vrednosti na pol ure</string>
+    <string name="action_chart_normalize_hourly">Vrednosti na uro</string>
+    <string name="action_chart_sort_time_asc">Čas naraščajoče</string>
+    <string name="action_chart_sort_time_desc">Čas padajoče</string>
+    <string name="action_chart_sort_step_asc">Koraki naraščajoče</string>
+    <string name="action_chart_sort_step_desc">Koraki padajoče</string>
+    <string name="action_chart_sort_duration_asc">Trajanje naraščajoče</string>
+    <string name="action_chart_sort_duration_desc">Trajanje padajoče</string>
+    <string name="action_chart_sort_heart_rate_asc">Srčni utrip naraščajoče</string>
+    <string name="action_chart_sort_heart_rate_desc">Srčni utrip padajoče</string>
+    <string name="action_chart_sort_spo2_asc">SpO2 naraščajoče</string>
+    <string name="action_chart_sort_spo2_desc">SpO2 padajoče</string>
+    <string name="action_chart_sort_blood_pressure_asc">Krvni tlak naraščajoče</string>
+    <string name="action_chart_sort_blood_pressure_desc">Krvni tlak padajoče</string>
+    <string name="action_chart_monthly_calendar">Koledar</string>
+    <string name="action_chart_monthly_compact">Kompaktno</string>
+
+    <string name="activity_progress_title_prepare">Priprava na sinhronizacijo…</string>
+    <string name="activity_progress_title_sync">Sinhronizacija podatkov…</string>
+    <string name="activity_progress_title_save">Shranjevanje podatkov…</string>
+
+    <string name="required_value">Obvezno polje</string>
+
+    <string name="percent_0">0%</string>
+    <string name="percent_10">10%</string>
+    <string name="percent_20">20%</string>
+    <string name="percent_30">30%</string>
+    <string name="percent_40">40%</string>
+    <string name="percent_50">50%</string>
+    <string name="percent_60">60%</string>
+    <string name="percent_70">70%</string>
+    <string name="percent_80">80%</string>
+    <string name="percent_90">90%</string>
+    <string name="percent_100">100%</string>
+
+    <!-- Constants -->
+    <string name="const_day_of_week_sunday">Nedelja</string>
+    <string name="const_day_of_week_monday">Ponedeljek</string>
+    <string name="const_day_of_week_tuesday">Torek</string>
+    <string name="const_day_of_week_wednesday">Sreda</string>
+    <string name="const_day_of_week_thursday">Četrtek</string>
+    <string name="const_day_of_week_friday">Petek</string>
+    <string name="const_day_of_week_saturday">Sobota</string>
+
+    <string name="const_time_abbreviation_day">d</string>
+    <string name="const_time_abbreviation_hour">h</string>
+    <string name="const_time_abbreviation_minute">m</string>
+    <string name="const_time_abbreviation_sec">s</string>
+    <string name="const_time_abbreviation_milli_sec">ms</string>
+
+    <string name="const_number">%1$,d</string>
+    <string name="const_number_float">%,.2f</string>
+    <string name="const_number_float_1_precision">%,.1f</string>
+    <string name="const_percentage">%1$,d%%</string>
+    <string name="const_percent_sign">%</string>
+    <string name="const_unit_kilometer">km</string>
+    <string name="const_unit_meter">m</string>
+    <string name="const_unit_centimeter">cm</string>
+    <string name="const_unit_mile">mi</string>
+    <string name="const_unit_kilogram">kg</string>
+    <string name="const_unit_kcal">kcal</string>
+    <string name="const_unit_dbm">dBm</string>
+
+    <plurals name="plural_time_hour">
+        <item quantity="one">%d ura</item>
+        <item quantity="two">%d uri</item>
+        <item quantity="few">%d ure</item>
+        <item quantity="other">%d ur</item>
+    </plurals>
+
+    <plurals name="plural_time_minute">
+        <item quantity="one">%d minuta</item>
+        <item quantity="two">%d minuti</item>
+        <item quantity="few">%d minute</item>
+        <item quantity="other">%d minut</item>
+    </plurals>
+
+    <plurals name="plural_time_second">
+        <item quantity="one">%d sekunda</item>
+        <item quantity="two">%d sekundi</item>
+        <item quantity="few">%d sekunde</item>
+        <item quantity="other">%d sekund</item>
+    </plurals>
+
+</resources>

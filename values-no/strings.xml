@@ -3,69 +3,70 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:locale="no">
 
     <!--  Navigation  -->
-    <string name="menu_nav_notification">Notifikasjon</string>
+    <string name="menu_nav_notification">Varsling</string>
     <string name="menu_nav_call">Anrop</string>
     <string name="menu_nav_step">Aktivitet</string>
     <string name="menu_nav_sleep">Søvn</string>
     <string name="menu_nav_heart_rate">Puls</string>
-    <string name="menu_nav_blood_oxygen">Blood oxygen</string>
+    <string name="menu_nav_blood_oxygen">Blodoksygen</string>
     <string name="menu_nav_blood_pressure">Blodtrykk</string>
-    <string name="menu_nav_workout">Trene</string>
+    <string name="menu_nav_workout">Trening</string>
     <string name="menu_nav_alarm">Alarm</string>
-    <string name="menu_nav_reminder">Hendelsespåminnelse</string>
-    <string name="menu_nav_dnd">Ikke forstyrr modus</string>
-    <string name="menu_nav_watch_face">Watch face</string>
+    <string name="menu_nav_reminder">Påminnelse</string>
+    <string name="menu_nav_dnd">Ikke forstyrr-modus</string>
+    <string name="menu_nav_watch_face">Urtavle</string>
     <string name="menu_nav_weather">Vær</string>
-    <string name="menu_nav_touch">Trykk</string>
+    <string name="menu_nav_touch">Berøringskontroll</string>
     <string name="menu_nav_more">Mer</string>
-    <string name="menu_nav_text_customization">Text utseende</string>
-    <string name="menu_nav_export">Exportere</string>
-    <string name="menu_nav_premium_mode">Premium modus</string>
+    <string name="menu_nav_text_customization">Teksttilpasning</string>
+    <string name="menu_nav_export">Eksporter</string>
+    <string name="menu_nav_premium_mode">Premium-modus</string>
     <string name="menu_nav_feedback">Tilbakemelding</string>
-    <string name="menu_nav_privacy_policy">Personvern policy</string>
-    <string name="menu_nav_theme">Stil</string>
+    <string name="menu_nav_privacy_policy">Personvernerklæring</string>
+    <string name="menu_nav_theme">Tema</string>
 
-    <string name="setting_name">Instilling</string>
-    <string name="settings_name">Instillinger</string>
+    <string name="setting_name">Innstilling</string>
+    <string name="settings_name">Innstillinger</string>
     <string name="info_name">Informasjon</string>
     <string name="more_name">Mer</string>
 
     <string name="main_item_activity_title">Skritt・mål</string>
-    <string name="main_item_battery">Batteri-level・siste lade tid</string>
-    <string name="main_item_connect_and_disconnect_last_time">Siste tilkoblings og frakoblings-tid</string>
+    <string name="main_item_battery">Batterinivå・siste lading</string>
+    <string name="main_item_connect_and_disconnect_last_time">Sist tilkoblet/frakoblet</string>
     <string name="main_item_next_alarm">Neste alarm</string>
     <string name="main_item_next_reminder">Neste påminnelse</string>
-    <string name="main_item_call_and_notification_control">Samtaler og varsler</string>
+    <string name="main_item_call_and_notification_control">Anrop og varsler</string>
 
-    <string name="device_search">%1$s search</string>  <!-- %1$s = Watch name -->
-    <string name="device_setting">%1$s-instillinger</string> <!-- %1$s = Watch name -->
+    <!-- Pairing Bluetooth device -->
+    <string name="device_search">%1$s-søk</string> <!-- %1$s = Watch name -->
+    <string name="device_setting">%1$s-innstilling</string> <!-- %1$s = Watch name -->
 
-    <string name="device_mac_address">MAC address</string>
-    <string name="device_mac_address_invalid">MAC-addressen er ubrukelig</string>
+    <string name="device_mac_address">MAC-adresse</string>
+    <string name="device_mac_address_invalid">Ugyldig MAC-adresse</string>
 
     <string name="device_state_connected">Tilkoblet</string>
     <string name="device_state_disconnected">Frakoblet</string>
     <string name="device_state_bonded">Parret enhet</string>
     <string name="device_state_not_bonded">Ikke parret enhet</string>
 
-    <string name="error_title">Oops! Noe gikk galt</string>
-    <string name="error_message">Oppdater appen til den siste versjonen</string>
+    <string name="error_title">Ups! Noe gikk galt</string>
+    <string name="error_message">Oppdater appen til den nyeste versjonen</string>
 
 
     <!-- Watch connection and setting -->
-    <string name="mi_band_setting_title">%1$s-instillinger</string>
+    <string name="mi_band_setting_title">%1$s-innstillinger</string>
 
     <string name="mi_band_setting_menu_connection">Tilkobling</string>
     <string name="mi_band_setting_menu_setting">@string/setting_name</string>
     <string name="mi_band_setting_menu_profile">Profil</string>
-    <string name="mi_band_setting_menu_text">Text</string>
+    <string name="mi_band_setting_menu_text">Tekst</string>
     <string name="mi_band_setting_menu_call">Anrop</string>
 
-    <string name="mi_band_setting_auth_mi_fit">%1$s cooperation</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">%3$s behøver installasjon av den offisielle %1$s appen på den samme telefonen. først må du parre %2$s i %1$s appen, så kan du bruke %3$s. If you want to use %1$s, choose this.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
-    <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the %3$s to work. After the pairing, uninstall the %1$s app or unpair the smartwatch. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. Make sure the %2$s screen is turned on during pairing operations.</string>
-    <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
+    <string name="mi_band_setting_auth_mi_fit">%1$s-samarbeid</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">%3$s krever at appen %1$s er installert på denne telefonen. Først må du pare %2$s i %1$s-appen. Velg dette alternativet hvis du også ønsker å bruke %1$s-appen.</string>
+    <string name="mi_band_setting_auth_standalone">Frittstående</string>
+    <string name="mi_band_setting_auth_standalone_hint">%1$s-appen er ikke nødvendig for å bruke %3$s. Etter paring kan du avinstallere %1$s-appen eller fjerne paringen av smartklokken. For å gjenopprette samarbeidet med %1$s må du pare %2$s på nytt i %1$s-appen. Når du fjerner paringen, slettes dataene fra klokken. Sørg for at skjermen på %2$s er på under paringen.</string>
+    <string name="mi_band_standalone_sync_error">Synkronisering er deaktivert i samarbeidsmodus for å hindre datatap og sikre korrekt informasjon. Synkronisering ville slettet data på smartklokken og gitt feil verdier i begge appene.</string>
 
     <string name="mi_band_setting_auth_key">Autentiseringsnøkkel</string>
     <string name="mi_band_setting_auth_key_help">Skriv inn et valgfritt 4-sifret tall</string>
@@ -73,76 +74,75 @@
     <string name="mi_band_setting_auth_pair">Par</string>
     <string name="mi_band_setting_auth_unpair">Fjern paring</string>
 
-    <string name="message_auth_request">Your device is already paired. If you don\'t know the key, please unpair it.</string>
+    <string name="message_auth_request">Enheten er allerede paret. Hvis du ikke kjenner nøkkelen, vennligst fjern paringen.</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">Trykk på knappen på %1$s for å pare enheten</string>
+    <string name="message_mi_band_setting_auth_press_band_button">Trykk på knappen på %1$s for å pare</string>
     <string name="message_mi_band_setting_auth_success">%1$s ble paret med suksess</string>
-    <string name="message_mi_band_setting_auth_fail">Paring med %1$s mislyktes</string>
+    <string name="message_mi_band_setting_auth_fail">Klarte ikke å pare %1$s</string>
     <string name="message_mi_band_setting_auth_key_invalid">Ugyldig autentiseringsnøkkel</string>
 
-    <string name="pref_disconnect_device">Frakobling</string>
+    <string name="pref_disconnect_device">Koble fra</string>
 
-    <string name="mi_band_setting_connection_problem_title">Hvis du har problemer med tilkoblingen</string>
+    <string name="mi_band_setting_connection_problem_title">Hvis du har tilkoblingsproblemer</string>
     <string name="mi_band_setting_connection_problem_hint"><![CDATA[
-    - Fjern sammenkoblingen av klokken i telefonens Bluetooth-innstillinger<br>
+    - Fjern paringen av klokken i telefonens Bluetooth-innstillinger<br>
     - Slå av og på Bluetooth<br>
     - Tving avslutning av appen eller start telefonen på nytt<br>
-    - Prøv å koble klokken til igjen fra hovedskjermen
+    - Prøv å pare klokken på nytt fra startskjermen
     ]]></string>
 
-    <string name="mi_band_setting_dial">Dial</string>
+    <string name="mi_band_setting_dial">Urtavle</string>
     <string name="mi_band_setting_language">Språk</string>
-    <string name="mi_band_setting_time_24h">24-timers tidsformat</string>
+    <string name="mi_band_setting_time_24h">24-timersformat</string>
     <string name="mi_band_setting_distance_unit">Avstandsenhet</string>
-    <string name="mi_band_setting_lift_wrist">Løft hånda for å vise info</string>
-    <string name="mi_band_setting_screen_on_duration">Screen on duration</string>
-    <string name="mi_band_setting_idle_alert">Sedentary reminder</string>
-    <string name="mi_band_setting_idle_alert_duration">Inactivity time</string>
-    <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest (12:00-14:00)</string>
+    <string name="mi_band_setting_screen_on_duration">Skjermens varighet</string>
+    <string name="mi_band_setting_lift_wrist">Slå på skjerm ved håndbevegelse</string>
+    <string name="mi_band_setting_idle_alert">Varsel ved inaktivitet</string>
+    <string name="mi_band_setting_idle_alert_duration">Varighet av inaktivitet</string>
+    <string name="mi_band_setting_idle_alert_dnd">Ikke varsle i hviletid (12:00–14:00)</string>
 
-    <string name="pref_synchronization">Synchronization</string>
-    <string name="pref_synchronization_fetch_interval">Synchronization frequency</string>
-    <string name="pref_synchronization_summary">Select the data to be automatically synchronised in the background. If you do not need any of the data, turn it off for better performance. Data can still be synchronised manually on the home screen or in the appropriate menus (by sweeping down).</string>
+    <string name="pref_synchronization">Synkronisering</string>
+    <string name="pref_synchronization_fetch_interval">Synkroniseringsfrekvens</string>
+    <string name="pref_synchronization_summary">Velg hvilke data som skal synkroniseres automatisk i bakgrunnen. Deaktiver det du ikke trenger for bedre ytelse. Data kan fortsatt synkroniseres manuelt på startskjermen eller i menyene (dra nedover).</string>
 
-    <string name="mi_band_setting_profile">Disse detaljene hjelper til med å beregne skritt, avstand og forbrente kalorier mer nøyaktig.</string>
+    <string name="mi_band_setting_profile">Oppgi disse detaljene for å forbedre beregningen av skritt, avstand og kaloriforbruk.</string>
     <string name="mi_band_setting_gender">Kjønn</string>
     <string name="mi_band_setting_gender_male">Mann</string>
-    <string name="mi_band_setting_gender_female">Hunn</string>
+    <string name="mi_band_setting_gender_female">Kvinne</string>
     <string name="mi_band_setting_birthday">Fødselsdato</string>
     <string name="mi_band_setting_height">Høyde</string>
     <string name="mi_band_setting_weight">Vekt</string>
     <string name="mi_band_setting_wearing_place">Brukssted</string>
-    <string name="mi_band_setting_wearing_place_left_wrist">Venstre hånd</string>
-    <string name="mi_band_setting_wearing_place_right_wrist">Høyre hånd</string>
-
+    <string name="mi_band_setting_wearing_place_left_wrist">Venstre håndledd</string>
+    <string name="mi_band_setting_wearing_place_right_wrist">Høyre håndledd</string>
 
     <!-- Battery -->
-    <string name="battery_details">Batteri detaljer</string>
+    <string name="battery_details">Batteribruk</string>
 
-    <string name="battery_settings">Batteri-instilling</string>
-    <string name="battery_settings_notification">Lavt batteri-level notifikasjon</string>
-    <string name="battery_settings_notification_level">Igjenværende atteri-level</string>
-    <string name="battery_settings_notification_repeat_interval">Repetere interval</string>
-    <string name="battery_settings_notification_on_phone">Notifiser på telefonen</string>
-    <string name="battery_settings_notification_on_phone_ongoing">Vedværende (pågående) notifikasjon</string>
-    <string name="battery_settings_notification_on_phone_message">Batteri-level er lavere enn %1$,d%%</string>
-    <string name="battery_settings_notification_on_device">Notifiser på armklokka</string>
+    <string name="battery_settings">Batteriinnstillinger</string>
+    <string name="battery_settings_notification">Varsel ved lavt batterinivå</string>
+    <string name="battery_settings_notification_level">Batterinivågrense</string>
+    <string name="battery_settings_notification_repeat_interval">Repetisjonsintervall</string>
+    <string name="battery_settings_notification_on_phone">Varsle på telefon</string>
+    <string name="battery_settings_notification_on_phone_ongoing">Vedvarende varsel</string>
+    <string name="battery_settings_notification_on_phone_message">Batterinivået er lavt: %1$,d%%</string>
+    <string name="battery_settings_notification_on_device">Varsle på smartklokken</string>
     <string name="battery_settings_notification_on_device_message">Batteri: %1$,d%%</string>
 
-    <!-- Skjerm-instilling -->
-    <string name="pref_battery_phone">Telefon batteri</string>
-    <string name="pref_battery_phone_summary">Lavt og fullt batteri level-notifikasjon</string>
-    <string name="pref_cat_battery_phone_low">Lavt batteri-level</string>
-    <string name="pref_battery_phone_low_title">Lavt batteri-notifikasjon</string>
-    <string name="pref_battery_phone_low_level_title">Batteri level avstand</string>
-    <string name="pref_battery_phone_low_repeat_interval_title">Gjentagelses-intervall</string>
-    <string name="pref_cat_battery_phone_full">Fullt batteryi level</string>
-    <string name="pref_battery_phone_full_title">Fullt batteri-notifikasjon</string>
-    <string name="pref_battery_phone_full_plugged_ac">AC lader strøm adapter</string>
-    <string name="pref_battery_phone_full_plugged_usb">USB strøm uttak</string>
-    <string name="pref_battery_phone_full_plugged_wireless">Trådløs strøm mottak</string>
+    <!-- Preference screens -->
+    <string name="pref_battery_phone">Telefonbatteri</string>
+    <string name="pref_battery_phone_summary">Varsel ved lavt og fullt batterinivå</string>
+    <string name="pref_cat_battery_phone_low">Lavt batterinivå</string>
+    <string name="pref_battery_phone_low_title">Varsel ved lavt batteri</string>
+    <string name="pref_battery_phone_low_level_title">Batterinivågrense</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">Repetisjonsintervall</string>
+    <string name="pref_cat_battery_phone_full">Fullt batterinivå</string>
+    <string name="pref_battery_phone_full_title">Varsel ved fulladet batteri</string>
+    <string name="pref_battery_phone_full_plugged_ac">Strømkilde: vegglader</string>
+    <string name="pref_battery_phone_full_plugged_usb">Strømkilde: USB-port</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Strømkilde: trådløs lading</string>
 
-    <string name="pref_battery_phone_message">Telefon batteri:\n %1$,d%%</string>
+    <string name="pref_battery_phone_message">Telefonbatteri:\n %1$,d%%</string>
 
     <string name="pref_language">Språk</string>
     <string name="pref_cat_language">App</string>
@@ -150,181 +150,177 @@
 
     <string name="pref_menu">Meny</string>
     <string name="pref_cat_menu">Tilpass hovedmenyen</string>
-    <string name="pref_menu_item_2">Andre menyelement</string>
-    <string name="pref_menu_item_3">Tredje menyelement</string>
+    <string name="pref_menu_item_2">Andre menypost</string>
+    <string name="pref_menu_item_3">Tredje menypost</string>
 
-    <string name="pref_diagnostic">Diagnositisering</string>
+    <string name="pref_diagnostic">Diagnostikk</string>
     <string name="pref_cat_diagnostic_closing_protection">Beskyttelse mot lukking</string>
-    <string name="pref_diagnostic_battery_optimisation">Batteri optimalisering av</string>
-    <string name="pref_diagnostic_companion_device">Ledsagerenhetsparring</string>
-    <string name="pref_diagnostic_bluetooth_pairing">Bluetooth pairing</string>
-    <string name="pref_diagnostic_autostart">Autostart</string>
-    <string name="pref_diagnostic_autostart_summary">Enable the application to restart automatically in the phone\'s Auto-start manager</string>
+    <string name="pref_diagnostic_battery_optimisation">Deaktiver batterioptimalisering</string>
+    <string name="pref_diagnostic_companion_device">Paring med tilleggsutstyr</string>
+    <string name="pref_diagnostic_bluetooth_pairing">Bluetooth-paring</string>
+    <string name="pref_diagnostic_autostart">Automatisk oppstart</string>
+    <string name="pref_diagnostic_autostart_summary">Tillat at appen starter automatisk via telefonens Autostart-håndtering</string>
     <string name="pref_diagnostic_info">Mer informasjon</string>
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
 
     <string name="pref_cat_diagnostic_permissions">Tillatelser</string>
     <string name="pref_diagnostic_permission_allow_notification_access_settings">Tillat tilgang til varsler</string>
-    <string name="pref_diagnostic_permission_schedule_exact_alarm">Planlegg eksakt alarm</string>
-    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Ytterligere tillatelse kreves for å planlegge oppgaven på et eksakt tidspunkt.</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">Planlegg nøyaktig alarm</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Ekstra tillatelse kreves for å planlegge alarmen nøyaktig.</string>
     <string name="pref_diagnostic_permission_post_notifications">Vis varsler</string>
-    <string name="pref_diagnostic_permission_post_notifications_summary">Ytterligere tillatelse kreves for å vise varselet.</string>
+    <string name="pref_diagnostic_permission_post_notifications_summary">Ekstra tillatelse kreves for å vise varsler</string>
     <string name="pref_diagnostic_permission_access_notification_policy">Tilgang til Ikke forstyrr</string>
 
 
-    <!-- Snackbar Meldinger -->
-    <string name="message_enable_bluetooth">Aktiver Bluetooth og ta smartklokken nær telefonen</string>
-    <string name="message_discover_device">%1$s er ikke funnet, søk etter det</string>
-    <string name="message_discovering_device">Oppdager %1$s (det kan kanskje ta 1 minutt) &#8230;</string>
-    <string name="message_discover_device_succeeded">%1$s tilkobling suksess</string>
-    <string name="message_discover_device_failed">%1$s tilkobling feilet</string>
-    <string name="message_discover_device_not_found">Hvis Banded ikke er funnet, skru på: Haylou Sport/Play/Oppdag tilgjengelighet eller parre på telefonens Bluetooth instilling</string>
-    <string name="message_enable_notification_listener_access">Aktivere notifikasjon rilgang: Instillinger/Notifikasjoner/Notifikasjon tilgang</string>
-    <string name="message_enable_notification_listener_access_4_4">Aktiver notifikasjon tilgang: Instillinger/Sikkerhet/Notifikasjon tilgang</string>
+    <!-- Snackbar Messages -->
+    <string name="message_enable_bluetooth">Aktiver Bluetooth og hold klokken nær telefonen</string>
+    <string name="message_discover_device">%1$s er ikke konfigurert, vennligst koble til</string>
+    <string name="message_discovering_device">Søker etter %1$s (kan ta opptil 1 minutt)…</string>
+    <string name="message_discover_device_succeeded">%1$s koblet til</string>
+    <string name="message_discover_device_failed">Kunne ikke koble til %1$s</string>
+    <string name="message_discover_device_not_found">Hvis %1$s ikke ble funnet, aktiver synlighet eller par via Bluetooth-innstillinger på telefonen</string>
+    <string name="message_enable_notification_listener_access">Aktiver varseltilgang: Telefon > Innstillinger > Varseltilgang</string>
+    <string name="message_enable_notification_listener_access_4_4">Aktiver varseltilgang: Innstillinger > Sikkerhet > Varseltilgang</string>
 
     <string name="message_deleted">Slettet</string>
     <string name="message_undo">Angre</string>
 
-    <string name="message_app_chooser_no_selected">Velg en applikasjon</string>
+    <string name="message_app_chooser_no_selected">Velg en app</string>
 
-    <string name="message_free_counter">Opptil 1 innstilling kan brukes i gratis modus</string>
-    <string name="message_free_counters">Opptil %1$,d innstillinger kan brukes i gratis modus</string>
+    <string name="message_free_counter">Kun 1 innstilling kan brukes i gratisversjonen</string>
+    <string name="message_free_counters">Opptil %1$,d innstillinger kan brukes i gratisversjonen</string>
 
-    <string name="message_notification_free_groups">Opptil %1$,d grupper kan brukes i gratis modus</string>
-    <string name="message_notification_free_app">Opptil 1 applikasjon kan velges i gratis modus</string>
-    <string name="message_notification_free_apps">Opptil %1$,d applikasjoner kan velges i gratis modus</string>
-    <string name="message_notification_free_text">Opptil 1 tekst kan registreres i gratis modus</string>
+    <string name="message_notification_free_groups">Opptil %1$,d grupper kan brukes i gratisversjonen</string>
+    <string name="message_notification_free_app">Kun 1 app kan velges i gratisversjonen</string>
+    <string name="message_notification_free_apps">Opptil %1$,d apper kan velges i gratisversjonen</string>
+    <string name="message_notification_free_text">Kun 1 tekst kan lagres i gratisversjonen</string>
 
-    <string name="message_time_alarm_free_counter">Opptil 1 alarm kan brukes i gratis modus</string>
+    <string name="message_time_alarm_free_counter">Kun 1 alarm kan brukes i gratisversjonen</string>
     <string name="message_time_alarm_max_counter">Opptil %1$d alarmer kan brukes</string>
     <string name="message_time_alarm_enabled">Alarm aktivert</string>
     <string name="message_time_alarm_disabled">Alarm deaktivert</string>
     <string name="message_time_alarm_off">Alarm av</string>
 
-    <string name="message_touch_pattern_error">Det spesifiserte mønsteret ligner for eksempel mønsteret til en annen funksjon, ta opp en annen</string>
-    <string name="message_touch_free_patterns">Du kan ikke bruke mer enn %1$,d funksjoner i normal modus</string>
-    <string name="message_touch_record_help">Use the %1$s music control/find my phone features</string> <!-- %1$s = smartwatch -->
+    <string name="message_touch_pattern_error">Mønsteret ligner på et annet – vennligst ta opp et nytt</string>
+    <string name="message_touch_free_patterns">Opptil %1$,d kontroller kan brukes i gratisversjonen</string>
+    <string name="message_touch_record_help">Bruk %1$s til musikkstyring eller finn telefonen-funksjonen</string>
 
-    <string name="message_premium_mode_only">Denne egenskapen er bare tilgjengelig i premium modusen</string>
-    <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
-    <string name="message_general_error">Itilkobling feilet (tilkobling mistet), prøv igjen</string>
-    <string name="message_internet_error">IInternett feil</string>
-    <string name="message_internet_traffic_blocked">Nettverkstrafikken er blokkert</string>
-    <string name="message_internet_ads_blocked">Reklamy są blokowane</string>
-    <string name="message_gps_enable">Enable the GPS</string>
-    <string name="message_location_enable">Enable the location info permission</string>
+    <string name="message_premium_mode_only">Denne funksjonen er kun tilgjengelig i Premium-modus</string>
+    <string name="message_feature_is_not_supported">%1$s støtter ikke denne funksjonen</string>
+    <string name="message_general_error">Innstilling mislyktes (tilkobling tapt), prøv igjen</string>
+    <string name="message_internet_error">Ingen internettforbindelse</string>
+    <string name="message_internet_traffic_blocked">Nettverkstrafikk er blokkert</string>
+    <string name="message_internet_ads_blocked">Annonser er blokkert</string>
+    <string name="message_gps_enable">Aktiver GPS</string>
+    <string name="message_location_enable">Tillat posisjonstilgang</string>
 
-    <string name="message_in_progress">Under prosess…</string>
+    <string name="message_in_progress">Behandler…</string>
     <string name="message_no_data">Ingen data tilgjengelig</string>
 
-    <string name="message_rewarded_error">Feilet å spille video</string>
+    <string name="message_rewarded_error">Kunne ikke laste inn video</string>
 
-    <string name="message_new_message">En ny melding er motatt, se den på telefonen.</string>
+    <string name="message_new_message">Ny melding mottatt. Sjekk telefonen.</string>
 
-    <string name="message_permission_not_granted">Tillatelse ikke gitt: %1$s</string> <!-- %1$s = permission name -->
+    <string name="message_permission_not_granted">Tillatelse ikke gitt: %1$s</string>
 
-    <!-- Dialog -->
+    <!-- Welcome dialog -->
     <string name="dialog_welcome_title">Velkommen!</string>
-    <string name="dialog_welcome_message"><![CDATA[Supportede enheter:
+    <string name="dialog_welcome_message"><![CDATA[Støttede enheter:
     <watch_types/>
-    <p><app_name/> requires the installation of the official <device_type/> app on the same phone. At first you have to pair your smartwatch in the <device_type/> app, then you can use this app.</p>
-    <p>hvis Bandetvikke er funnet, da kan du sette MAC addressen manuelt når du utforsker.</p>
-    <b>hvis du har et tilkoblings problem:</b>
-    <br>- Seneste app-skjerm: lås <app_name/> (skyv ned appen og trykk på lås ikonet).
-    <br>- Telefon/batteri optimalisering: sett <app_name/> app til å ikke bli optimalisert.
-    <br>- Telefon/apper: rens Bluetooth Deling og andre \'Bluetooth\' app data.
+    <p><app_name/> krever at den offisielle <device_type/>-appen er installert på samme telefon. Først må du pare klokken i <device_type/>-appen, deretter kan du bruke denne appen.</p>
+    <p>Hvis søk etter <device_type/> ikke fungerer, kan du angi MAC-adressen manuelt under søket.</p>
+    <b>Feilsøking av tilkoblingsproblemer:</b>
+    <br>- Nylige apper: lås <app_name/> (sveip ned forhåndsvisningen og trykk på «Lås» eller lignende).
+    <br>- Batterioptimalisering: ekskluder <app_name/> fra optimalisering.
+    <br>- Apper: tøm data for Bluetooth Share og andre Bluetooth-apper.
     <br>- Mer informasjon: https://dontkillmyapp.com
-    <br><br><small>Dette produktet og dets funksjoner er ikke designet for medisinske formål og er ikke ment å forutsi, diagnostisere, forhindre eller kurere noen sykdommer. Alle data og målinger er kun for personlig referanse og skal ikke brukes som grunnlag for diagnose eller behandling.</small>
+    <br><br><small>Dette produktet og funksjonene er ikke ment for medisinsk bruk og skal ikke brukes til å forutsi, diagnostisere, forebygge eller behandle sykdommer. Alle data og målinger er kun til personlig referanse og skal ikke brukes til medisinsk vurdering eller behandling.</small>
     ]]></string>
 
 
-    <!-- Notifikasjon Dialog -->
-    <string name="notification_group_nav_setting">Instillinger</string>
-    <string name="notification_group_nav_filter">Filter notifikasjon</string>
-    <string name="notification_group_nav_correction">Correction</string>
+    <!-- Notification  -->
+    <string name="notification_group_nav_setting">Innstillinger</string>
+    <string name="notification_group_nav_filter">Filter</string>
+    <string name="notification_group_nav_correction">Tekstkorreksjon</string>
 
     <string name="notification_group_name">Navn</string>
-    <string name="notification_group_monitoring">Monitorering notifikasjoner</string>
-    <string name="notification_group_monitoring_disabled">Deaktivert notifikasjoner (ikke vis applikasjon notifikasjoner)</string>
-    <string name="notification_group_alert_title">%1$s signal</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
-    <string name="notification_group_text_customization">Vis Text</string>
-    <string name="notification_group_text_app_name">Programnavn</string>
+    <string name="notification_group_monitoring">Varselovervåking</string>
+    <string name="notification_group_monitoring_disabled">Ekskluder varsler (ikke vis appens varsler)</string>
+    <string name="notification_group_alert_title">%1$s varsel</string>
+    <string name="notification_group_text_customization">Tilpasset tekst</string>
+    <string name="notification_group_text_app_name">Appnavn</string>
     <string name="notification_group_text_name">Navn</string>
     <string name="notification_group_text_title">Tittel</string>
-    <string name="notification_group_text_content">Kontent</string>
-    <string name="notification_group_text_big_content">Full content</string>
-    <string name="notification_group_text_content_slice_title">Text lengde</string>
+    <string name="notification_group_text_content">Innhold</string>
+    <string name="notification_group_text_big_content">Fullt innhold</string>
+    <string name="notification_group_text_content_slice_title">Tekstlengde</string>
     <string name="notification_group_display_duration_title">Visningstid</string>
-    <string name="notification_group_show_notification_title">Display notification</string>
-    <string name="notification_group_immediate">Umiddelbart signal når notifikasjon er mottatt</string>
-    <string name="notification_group_connecting">Tilkobles til telefon</string>
-    <string name="notification_group_reminder">Påminnelse av signal</string>
-    <string name="notification_group_ongoing">Kjørende signal (ennå pågående) notifikasjoner</string>
-    <string name="notification_group_screen_off">Signaler bare når skjermen er av</string>
-    <string name="notification_group_repeat_title">Gjenta signaler</string>
-    <string name="notification_group_wakelock">Vekke opp telefonens skjerm</string>
-    <string name="notification_group_grouped_display_title">Display setting for the group notifications</string>
-    <string name="notification_group_grouped_sort_order_title">Sort order for the group notifications</string>
+    <string name="notification_group_show_notification_title">Vis varsel</string>
+    <string name="notification_group_immediate">Varsle umiddelbart ved mottak</string>
+    <string name="notification_group_connecting">Varsle ved tilkobling</string>
+    <string name="notification_group_reminder">Påminnelsesvarsel</string>
+    <string name="notification_group_ongoing">Varsle ved vedvarende varsler (som ikke kan fjernes)</string>
+    <string name="notification_group_screen_off">Kun varsle når skjermen er av</string>
+    <string name="notification_group_repeat_title">Gjenta varsler</string>
+    <string name="notification_group_wakelock">Vekk telefonens skjerm</string>
+    <string name="notification_group_grouped_display_title">Visningsinnstilling for grupperte varsler</string>
+    <string name="notification_group_grouped_sort_order_title">Sorteringsrekkefølge for grupperte varsler</string>
 
-    <string name="notification_group_filter">Filter notifikasjon</string>
-    <string name="notification_group_filter_title">Tittel filter</string>
-    <string name="notification_group_filter_content">Kontent filter</string>
+    <string name="notification_group_filter">Varslingsfilter</string>
+    <string name="notification_group_filter_title">Tittelfilter</string>
+    <string name="notification_group_filter_content">Innholdsfilter</string>
     <string name="notification_group_filter_regex">Regex</string>
-    <string name="notification_group_filter_hint">Signaler bare når notifikasjon tittelen eller kontenten (ikke bokstav sensitiv)</string>
-    <string name="notification_group_filter_contains">Hver inneholder fraser</string>
-    <string name="notification_group_filter_not_contains">Inneholder ingen frase</string>
+    <string name="notification_group_filter_hint">Varsle kun hvis tittel eller innhold samsvarer (store/små bokstaver ignoreres)</string>
+    <string name="notification_group_filter_contains">Inneholder én eller flere av disse</string>
+    <string name="notification_group_filter_not_contains">Inneholder ingen av disse</string>
 
     <string name="notification_group_sample_sms">SMS</string>
     <string name="notification_group_sample_facebook">Messenger</string>
     <string name="notification_group_sample_whatsapp">WhatsApp</string>
 
-    <string name="notification_group_correction">Tekst korreksjon</string>
-    <string name="notification_group_correction_title">Tittel på korreksjon</string>
-    <string name="notification_group_correction_content">innhold korreksjon</string>
+    <string name="notification_group_correction">Varseltekstkorreksjon</string>
+    <string name="notification_group_correction_title">Tittelkorreksjon</string>
+    <string name="notification_group_correction_content">Innholdskorreksjon</string>
     <string name="notification_group_correction_regex">Regex</string>
-    <string name="notification_group_correction_hint">ikke bokstav sensitiv</string>
-    <string name="notification_group_correction_items">Tekst til å rette på</string>
-    <string name="notification_group_correction_find">Finn</string>
-    <string name="notification_group_correction_replace">Bytte med</string>
+    <string name="notification_group_correction_hint">Store/små bokstaver ignoreres</string>
+    <string name="notification_group_correction_items">Tekster som skal rettes</string>
+    <string name="notification_group_correction_find">Finn tekst</string>
+    <string name="notification_group_correction_replace">Erstatt med</string>
 
-    <string name="notification_regex_hint">Ikke-alphanumretiske karakterer har en spesiell betydning, hvis du ikke vet Regexen, ikke marker det</string>
+    <string name="notification_regex_hint">Tegn som ikke er bokstaver eller tall har spesiell betydning. Hvis du ikke kjenner til Regex, la dette være avkrysset.</string>
 
-    <string name="notification_confirm_close">Er du sikker på at du vil kaste bort endringene?</string>
+    <string name="notification_confirm_close">Er du sikker på at du vil forkaste endringene?</string>
 
-    <string name="notification_edit_play_text_title">Notifikasjon tittel</string>
-    <string name="notification_edit_play_text_content">Notifikasjon kontent:
-    Ved publisering og grafisk design, lorem ipsum er en fyllende text eller greeking som vanligvis pleide å demonstrere de textuelle elementer av et grafisk dokument eller visuell presentasjon.
-        \n Erstatter meningsfull kontent med stedsholder-text muliggjør designere å designe formen av kontentet før kontentet selv har vært produsert.
-    </string>
-
+    <string name="notification_edit_play_text_title">Varseltittel</string>
+    <string name="notification_edit_play_text_content">Varselinnhold:</string>
 
     <!-- Incoming call alert -->
-    <string name="call_tab_call">Inkommende anrop</string>
+    <string name="call_tab_call">Innkommende anrop</string>
     <string name="call_tab_contacts">Kontakter</string>
 
-    <string name="call_incoming">Inkommende anrop</string>
-    <string name="call_incoming_summary_on">Ikke glem å skru av inkommende anrops-varsler på %1$s appen</string> <!-- %1$s = official app name -->
-    <string name="call_incoming_caller_id">Vis alle anrops-IDer</string>
+    <string name="call_incoming">Innkommende anrop</string>
+    <string name="call_incoming_summary_on">Ikke glem å deaktivere anropsvarsler i %1$s-appen</string>
+    <string name="call_incoming_caller_id">Vis anroper-ID</string>
 
-    <string name="pref_call_notification_rejected">Show notification about rejected call</string>
-    <string name="pref_call_notification_rejected_message">Rejected call</string>
-    <string name="pref_call_notification_rejected_action">Call</string>
+    <string name="pref_call_notification_rejected">Vis varsel om avvist anrop</string>
+    <string name="pref_call_notification_rejected_message">Avvist anrop</string>
+    <string name="pref_call_notification_rejected_action">Anrop</string>
 
-    <string name="call_incoming_net_alert_title">Inkommende internett-anrop signal</string>
+    <string name="call_incoming_net_alert_title">Varsel for internett-anrop</string>
 
-    <string name="call_missed_title">Tapt anrop signal</string>
-    <string name="call_missed_chooser_title">%1$s-signal</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
-    <string name="call_missed_notification">Tapt anrop</string>
+    <string name="call_missed_title">Varsel for ubesvart anrop</string>
+    <string name="call_missed_chooser_title">%1$s-varsel</string>
+    <string name="call_missed_notification">Ubesvart anrop</string>
 
-    <string name="call_reject_button_action">Avvis knappen</string>
+    <string name="call_reject_button_action">Handling for avvisningsknapp</string>
 
-    <string name="touch_call_answer_title">Svar på anrop</string>
+    <string name="touch_call_answer_title">Besvar anrop</string>
     <string name="touch_call_answer_speakerphone_title">Høyttaler</string>
 
-    <string name="call_end_title">Avvis anrop, ending</string>
+    <string name="call_end_title">Avvis eller avslutt anrop</string>
 
-    <string name="touch_call_mute_title">Call mute</string>
-    <string name="touch_call_mute_only_call_state_ringing_title">Bare hvis du har et inkommende anrop</string>
+    <string name="touch_call_mute_title">Demp anrop</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Bare ved innkommende anrop</string>
     <string name="touch_call_mute_recognition_title">Ved innkommende anrop</string>
 
     <string name="call_contact_edit_contact">Kontakt</string>
@@ -336,151 +332,141 @@
     <string name="call_contact_edit_setting_first_name">Fornavn</string>
     <string name="call_contact_edit_setting_last_name">Etternavn</string>
 
-    <string name="message_call_contacts_free_counter">Opptil %1$d kontakter kan brukes i gratis modus</string>
+    <string name="message_call_contacts_free_counter">Opptil %1$d kontakter kan brukes i gratisversjonen</string>
     <string name="message_call_contacts_max_counter">Opptil %1$d kontakter kan brukes</string>
 
-    <!-- MiBandage App-velger dialog -->
-    <string name="app_chooser">App-velger</string>
+    <!-- App chooser dialog -->
+    <string name="app_chooser">Appvelger</string>
     <string name="action_search">Søk</string>
-    <string name="action_filter_notification">Notifikasjon filter</string>
-
+    <string name="action_filter_notification">Varslingsfilter</string>
 
     <!-- Activity -->
-    <string name="step_details">Skritt detailer</string>
+    <string name="step_details">Aktivitetsdetaljer</string>
 
-    <string name="mi_band_tracker_step_title">%1$,d</string> <!-- ingen -->
-    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
-    <string name="mi_band_tracker_distance_kilometer_title">%,.2f km</string> <!-- kilometre -->
-    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
-    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo kalori -->
+    <string name="mi_band_tracker_step_title">%1$,d</string>
+    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string>
+    <string name="mi_band_tracker_distance_kilometer_title">%,.2f km</string>
+    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string>
+    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string>
 
     <string name="action_tracker_step">Skritt</string>
     <string name="action_tracker_distance">Distanse</string>
     <string name="action_tracker_calorie">Kalorier</string>
     <string name="action_tracker_duration">Treningsvarighet</string>
 
-    <string name="step_goal_default_title">generelle skritt-mål</string>
+    <string name="step_goal_default_title">Standard mål</string>
 
-
-    <!-- Søvn monitorering -->
-    <string name="sleep_details">Søvn detaljer</string>
+    <!-- Sleep monitoring -->
+    <string name="sleep_details">Søvndetaljer</string>
 
     <string name="sleep_awake_phase_short">Våken</string>
     <string name="sleep_light_phase_short">Lett</string>
     <string name="sleep_deep_phase_short">Dyp</string>
     <string name="sleep_rem_phase_short">REM</string>
 
-
     <!-- Heart rate -->
-    <string name="heart_rate_details">Puls detaljer</string>
+    <string name="heart_rate_details">Pulsdetaljer</string>
 
-    <string name="heart_rate_continuous_measurement_title">Sammenhengende puls measurementering</string>
+    <string name="heart_rate_continuous_measurement_title">Kontinuerlig pulsmåling</string>
 
-    <string name="heart_rate_alert_title">Heart rate warning</string>
-    <string name="heart_rate_thresholds">Low and high heart rate thresholds</string>
-    <string name="low_heart_rate">Low heart rate</string>
-    <string name="high_heart_rate">High heart rate</string>
-
+    <string name="heart_rate_alert_title">Pulsvarsel</string>
+    <string name="heart_rate_thresholds">Pulsterskler</string>
+    <string name="low_heart_rate">Lav puls</string>
+    <string name="high_heart_rate">Høy puls</string>
 
     <!-- Blood oxygen -->
-    <string name="blood_oxygen_details">Blod oksygen detaljer</string>
+    <string name="blood_oxygen_details">Blodoksygendetaljer</string>
 
-    <string name="blood_oxygen_level_measurement">Blood oxygen level measurement</string>
-    <string name="measurement_interval">Measurement interval</string>
-
+    <string name="blood_oxygen_level_measurement">Måling av blodoksygennivå</string>
+    <string name="measurement_interval">Måleintervall</string>
 
     <!-- Blood pressure -->
     <string name="blood_pressure_details">Blodtrykksdetaljer</string>
 
-    <string name="blood_pressure_level_measurement">Blood pressure level measurement</string>
+    <string name="blood_pressure_level_measurement">Måling av blodtrykk</string>
 
     <string name="blood_pressure_systolic_abbreviation">Sys</string>
     <string name="blood_pressure_diastolic_abbreviation">Dia</string>
     <string name="blood_pressure_unit">mmHg</string>
 
-
     <!-- Workout -->
     <string name="workout_details">Treningsdetaljer</string>
 
-
     <!-- Alarm -->
-    <string name="action_time_alarm_sort_state_asc">State ascending</string>
-    <string name="action_time_alarm_sort_watch_asc">Watch ascending</string>
-    <string name="action_time_alarm_sort_name_asc">Name ascending</string>
+    <string name="action_time_alarm_sort_state_asc">Status stigende</string>
+    <string name="action_time_alarm_sort_watch_asc">Klokke stigende</string>
+    <string name="action_time_alarm_sort_name_asc">Navn stigende</string>
 
-    <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Haylou Smart Watch ... -->
+    <string name="message_time_alarm_sync">Synkroniser %1$s alarmer (eksisterende alarmer vil bli slettet og nye satt på smartklokken)</string>
 
     <string name="info_dialog_alarm"><![CDATA[
-        <p>When using cooperation mode, the settings of the official application and the <app_name/> application can overwrite and delete each other\'s settings.</p>
-        The last operation performed will take effect.
+    <p>Ved bruk av samarbeidsmodus kan innstillingene i den offisielle applikasjonen og <app_name/> overskrive og slette hverandres innstillinger.</p>
+    Den siste utførte handlingen vil være den som gjelder.
     ]]></string>
-
 
     <!-- Reminder -->
     <string name="message_reminder_enabled">Påminnelse aktivert</string>
     <string name="message_reminder_disabled">Påminnelse deaktivert</string>
 
-    <string name="reminder_repeat">Timebasert gjentakelse</string>
-    <string name="reminder_notification_on_phone">Notifiser på telefonen</string>
+    <string name="reminder_repeat">Gjenta hver time</string>
+    <string name="reminder_notification_on_phone">Varsle på telefonen</string>
 
-    <string name="message_time_reminder_free_counter">Opptil 1 påminnelse kan brukes i gratis modus</string>
+    <string name="message_time_reminder_free_counter">Kun 1 påminnelse kan brukes i gratisversjonen</string>
 
     <string name="info_dialog_reminder"><![CDATA[
-        Bluetooth connection is required to display the reminder.
-        ]]>
-    </string>
-
+    Bluetooth-tilkobling er nødvendig for å vise påminnelsen.
+    ]]></string>
 
     <!-- Do not disturb -->
-    <string name="pref_dnd_summary">Status på kontroll på ikke forstyrr modus</string>
-    <string name="pref_dnd_enable_bluetooth">I starten av DnD modus skru Bluetooth av, helt til slutt skru Bluetooth på</string>
+    <string name="pref_dnd_summary">Kontrollstatus i Ikke forstyrr-modus</string>
+    <string name="pref_dnd_enable_bluetooth">Slå av Bluetooth ved start av DnD-modus, og på igjen ved slutt</string>
 
     <string name="info_dialog_dnd"><![CDATA[
-        If you are using cooperation mode, in the official <device_type/> application the do not disturb (DnD) mode must be between 00:00 and 23:59 and its status must be turned off.
-    ]]></string> <!-- %1$s Haylou fit-->
+    Hvis du bruker samarbeidsmodus, må Ikke forstyrr (DnD)-modusen i den offisielle <device_type/>-appen være satt fra 00:00 til 23:59 og være deaktivert.
+    ]]></string>
 
 
     <!-- Watch face -->
-    <string name="watch_face_tab_watch_faces">Watch faces</string>
-    <string name="watch_face_tab_watch_face_custom">Custom files</string>
-    <string name="watch_face_tab_watch_face_editor">Redaktør</string>
+    <string name="watch_face_tab_watch_faces">Utskiver</string>
+    <string name="watch_face_tab_watch_face_custom">Egendefinerte filer</string>
+    <string name="watch_face_tab_watch_face_editor">Redigerer</string>
 
-    <string name="watch_face_download_title">Download watch face</string>
-    <string name="watch_face_upload_title">Endre atch face</string>
-    <string name="watch_face_tool_title">Tools</string>
+    <string name="watch_face_download_title">Last ned urskive</string>
+    <string name="watch_face_upload_title">Last opp urskive</string>
+    <string name="watch_face_tool_title">Verktøy</string>
 
-    <string name="watch_face_share_content">You can share the watch face you have created with others. E-mail the watch face and preview files and enter the following information: author, watch face name (max. 30 characters in total) and the watch face language. We only publish high quality watch faces.</string>
+    <string name="watch_face_share_content">Du kan dele urskiven du har laget med andre. Send urskive- og forhåndsvisningsfilene på e-post, og legg ved følgende informasjon: forfatternavn, navn på urskiven (maks. 30 tegn) og språk. Kun urskiver av høy kvalitet vil bli publisert.</string>
 
-    <string name="watch_face_upload_prepare">Preparing for the upload…</string>
-    <string name="watch_face_upload_progress">Uploading %1$,d%%</string>
+    <string name="watch_face_upload_prepare">Forbereder opplasting…</string>
+    <string name="watch_face_upload_progress">Laster opp %1$,d%%</string>
 
-    <string name="watch_face_invalid_firmware">Firmware %1$s er ukjent eller støtter ikke opplasting av urskiver. Oppdater fastvaren ved hjelp av den offisielle appen. Hvis den offisielle appen støtter opplasting av urskiver, gi oss beskjed via Tilbakemeldingsmenyen.</string>
-    <string name="watch_face_invalid_auth">Use in standalone mode, when using cooperation mode, the official application may block the watch face upload</string>
-    <string name="watch_face_invalid_free">I gratismodus kan du ikke laste opp flere urskiver i dag</string>
+    <string name="watch_face_invalid_firmware">Firmware %1$s er ukjent eller støtter ikke opplasting av urskiver. Oppdater firmware via den offisielle appen. Hvis den offisielle appen støtter opplasting, vennligst gi oss beskjed via Tilbakemeldingsmenyen.</string>
+    <string name="watch_face_invalid_auth">Bruk i frittstående modus. Ved samarbeidsmodus kan den offisielle appen blokkere opplasting av urskiver</string>
+    <string name="watch_face_invalid_free">Du kan ikke laste opp flere urskiver i dag i gratismodus</string>
     <string name="watch_face_watch_rewarded_ads">Se en video for å fortsette</string>
     <string name="watch_face_watch_rewarded_ads_uploading">Se en video for å fortsette opplastingen</string>
-    <string name="watch_face_watch_rewarded_ads_countdown">Video starter…</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">Starter video…</string>
 
-    <string name="watch_face_upload_method_title">Method</string>
+    <string name="watch_face_upload_method_title">Metode</string>
     <string name="watch_face_upload_method_default">@string/default_</string>
-    <string name="watch_face_upload_method_alternative">Alternative</string>
+    <string name="watch_face_upload_method_alternative">Alternativ</string>
 
     <string name="watch_face_upload_speed_title">Opplastingshastighet</string>
-    <string name="watch_face_upload_invalid_speed_hint">Sett en lavere hastighet hvis opplastingsprosessen for urskiven blir avbrutt</string>
-    <string name="watch_face_upload_invalid_size_hint">Ugyldig filstørrelse for urskive — sett lavere kvalitet eller fjern elementer fra urskiven</string>
-    <string name="watch_face_upload_invalid_battery_hint">Smartklokkens batteri er nesten tomt, vennligst lad klokken</string>
+    <string name="watch_face_upload_invalid_speed_hint">Sett lavere hastighet hvis opplastingen blir avbrutt</string>
+    <string name="watch_face_upload_invalid_size_hint">Ugyldig filstørrelse. Reduser kvaliteten eller fjern elementer fra urskiven</string>
+    <string name="watch_face_upload_invalid_battery_hint">Smartklokkens batteri er lavt. Vennligst lad opp klokken</string>
 
-    <string name="watch_face_tbwf_quality_title">.tbwf urskive kvalitetsinnstilling</string>
-    <string name="watch_face_tbwf_quality_hint">Filstørrelsen kan reduseres hvis klokken tillater det</string>
+    <string name="watch_face_tbwf_quality_title">.tbwf-urskive kvalitetsinnstilling</string>
+    <string name="watch_face_tbwf_quality_hint">Filstørrelsen kan reduseres hvis klokken støtter det</string>
 
-    <string name="watch_face_tbwf_locale_title">.tbwf urskive språk- og landinnstilling</string>
-    <string name="watch_face_tbwf_locale_hint">Ukedag, månedsskille og desimalskille</string>
+    <string name="watch_face_tbwf_locale_title">.tbwf språk- og landsinnstillinger</string>
+    <string name="watch_face_tbwf_locale_hint">Ukedager, skilletegn for måned og desimalsymbol</string>
 
-    <string name="message_watch_face_file_invalid">Invalid watch face file</string>
-    <string name="message_watch_face_file_invalid_size">Ugyldig filstørrelse for urskive</string>
-    <string name="message_watch_face_file_invalid_battery">Smartklokkens batteri er nesten tomt</string>
+    <string name="message_watch_face_file_invalid">Ugyldig urskivefil</string>
+    <string name="message_watch_face_file_invalid_size">Ugyldig filstørrelse</string>
+    <string name="message_watch_face_file_invalid_battery">Smartklokkens batteri er lavt</string>
     <string name="message_watch_face_image_file_error">Ugyldig bildefil</string>
-    <string name="message_watch_face_font_file_error">Ugyldig fontfil</string>
+    <string name="message_watch_face_font_file_error">Ugyldig skrifttypefil</string>
 
     <string name="action_chart_layout_2_columns">2-kolonneoppsett</string>
     <string name="action_chart_layout_3_columns">3-kolonneoppsett</string>
@@ -490,302 +476,297 @@
     <string name="watch_face_edit_hour_digital">Time</string>
     <string name="watch_face_edit_minute_digital">Minutt</string>
     <string name="watch_face_edit_second_digital">Sekund</string>
-    <string name="watch_face_edit_am_pm">AM/PM indicator</string>
+    <string name="watch_face_edit_am_pm">AM/PM-indikator</string>
     <string name="watch_face_edit_am">AM</string>
     <string name="watch_face_edit_pm">PM</string>
-    <string name="watch_face_edit_hour_analog">Timeviseren</string>
-    <string name="watch_face_edit_minute_analog">Minuttviseren</string>
-    <string name="watch_face_edit_second_analog">Sekundviseren</string>
-    <string name="watch_face_edit_axis">Axis of rotation</string>
-    <string name="watch_face_edit_hour_minute_separator">Time og minutt separator</string>
+    <string name="watch_face_edit_hour_analog">Timeviser</string>
+    <string name="watch_face_edit_minute_analog">Minuttviser</string>
+    <string name="watch_face_edit_second_analog">Sekundviser</string>
+    <string name="watch_face_edit_axis">Rotasjonsakse</string>
+    <string name="watch_face_edit_hour_minute_separator">Skille mellom time og minutt</string>
     <string name="watch_face_edit_year">År</string>
-    <string name="watch_face_edit_year_month_separator">År og måned separator</string>
+    <string name="watch_face_edit_year_month_separator">Skille mellom år og måned</string>
     <string name="watch_face_edit_month">Måned</string>
-    <string name="watch_face_edit_month_name">Månedens navn</string>
-    <string name="watch_face_edit_month_day_separator">Måned og dag skilletegn</string>
+    <string name="watch_face_edit_month_name">Månedsnavn</string>
+    <string name="watch_face_edit_month_day_separator">Skille mellom måned og dag</string>
     <string name="watch_face_edit_day">Dag</string>
-    <string name="watch_face_edit_dayOfWeek">Ukens dag</string>
-    <string name="watch_face_edit_battery_level">Batteri-level</string>
-    <string name="watch_face_edit_battery_level_percent_sign">Batteri-level %</string>
-    <string name="watch_face_edit_battery_level_image">Batteri bilde</string>
+    <string name="watch_face_edit_dayOfWeek">Ukedag</string>
+    <string name="watch_face_edit_battery_level">Batterinivå</string>
+    <string name="watch_face_edit_battery_level_percent_sign">Batterinivå %</string>
+    <string name="watch_face_edit_battery_level_image">Batteribilde</string>
     <string name="watch_face_edit_weather_temperature">Temperatur</string>
-    <string name="watch_face_edit_weather_temperature_unit_sign">Temperaturenheten °</string>
-    <string name="watch_face_edit_weather_image">Værbilde</string>
-    <string name="watch_face_edit_connection_indicator_image">Tilkoblingsindikator bilde</string>
+    <string name="watch_face_edit_weather_temperature_unit_sign">Temperaturenhet °</string>
+    <string name="watch_face_edit_weather_image">Værikon</string>
+    <string name="watch_face_edit_connection_indicator_image">Tilkoblingsikon</string>
     <string name="watch_face_edit_connected">Tilkoblet</string>
     <string name="watch_face_edit_disconnected">Frakoblet</string>
     <string name="watch_face_edit_steps">Skritt</string>
-    <string name="watch_face_edit_steps_image">Trinns bilde</string>
-    <string name="watch_face_edit_steps_goal_progress">Stegmål fremgang</string>
+    <string name="watch_face_edit_steps_image">Skrittikon</string>
+    <string name="watch_face_edit_steps_goal_progress">Fremgang mot mål</string>
     <string name="watch_face_edit_distance">Distanse</string>
-    <string name="watch_face_edit_distance_image">Avstandsbilde</string>
+    <string name="watch_face_edit_distance_image">Distanseikon</string>
     <string name="watch_face_edit_calories">Kalorier</string>
-    <string name="watch_face_edit_calories_image">Kaloribilde</string>
+    <string name="watch_face_edit_calories_image">Kaloriikon</string>
     <string name="watch_face_edit_heart_rate">Puls</string>
-    <string name="watch_face_edit_heart_rate_image">Pulsbilde</string>
+    <string name="watch_face_edit_heart_rate_image">Pulsikon</string>
 
     <string name="watch_face_edit_color">Farge</string>
-    <string name="watch_face_edit_font_family">Font</string>
+    <string name="watch_face_edit_font_family">Skrift</string>
+    <string name="watch_face_edit_character">Tegn</string>
     <string name="watch_face_edit_font_size">Skriftstørrelse</string>
-    <string name="watch_face_edit_character">Character</string>
     <string name="watch_face_edit_image">Bilde</string>
     <string name="watch_face_edit_image_png_jpeg">Bilde (.png, .jpeg)</string>
     <string name="watch_face_edit_image_png">Bilde (.png)</string>
-    <string name="watch_face_edit_icon">Icon</string>
     <string name="watch_face_edit_image_size">Bildestørrelse</string>
+    <string name="watch_face_edit_icon">Ikon</string>
 
-    <string name="watch_face_custom_watch_face_not_supported_title">Denne klokken støtter ikke opplasting av egendefinerte urskiver</string>
-    <string name="watch_face_custom_watch_face_under_development_title">Funksjonen for å laste opp egendefinerte urskiver er under utvikling og kan bli tilgjengelig i fremtiden, men dette er ennå ikke bekreftet.</string>
+    <string name="watch_face_custom_watch_face_not_supported_title">Denne klokken støtter ikke egendefinerte urskiver</string>
+    <string name="watch_face_custom_watch_face_under_development_title">Opplasting av egendefinerte urskiver er under utvikling og kan bli tilgjengelig i fremtiden, men det er ikke bekreftet ennå.</string>
 
     <!-- Touch monitoring -->
-    <string name="touch_tab_function">Function</string>
+    <string name="touch_tab_function">Funksjon</string>
     <string name="touch_tab_control">Kontroll</string>
     <string name="touch_tab_testing">Testing</string>
     <string name="touch_tab_setting">@string/setting_name</string>
 
-    <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
-    <string name="touch_function">%1$s function</string> <!-- %1$s = Watch name -->
-    <string name="touch_function_as_touch">Use function as a touch in the control menu</string>
+    <string name="touch_function_summary">Konfigurer disse funksjonene hvis du bruker frittstående modus, eller hvis Mi Fit ikke håndterer dem riktig</string>
+    <string name="touch_function">%1$s-funksjon</string>
+    <string name="touch_function_as_touch">Bruk funksjonen som berøring i kontrollmenyen</string>
 
-    <string name="touch_headline_incoming_call_title">Incoming call</string>
-    <string name="touch_headline_other_function_title">Other functions</string>
-    <string name="touch_headline_call_title">Ringe kontroll</string>
-    <string name="touch_headline_music_title">Musikk kontroll</string>
-    <string name="touch_headline_time_title">Timer/stoppeklokke kontroll</string>
+    <string name="touch_headline_incoming_call_title">Innkommende anrop</string>
+    <string name="touch_headline_other_function_title">Andre funksjoner</string>
+    <string name="touch_headline_call_title">Anropskontroll</string>
+    <string name="touch_headline_music_title">Musikkontroll</string>
+    <string name="touch_headline_time_title">Timer-/stoppeklokkekontroll</string>
     <string name="touch_headline_other_title">Andre kontroller</string>
 
-    <string name="touch_device_location_title">Finn min telefon</string>
-    <string name="touch_device_location_not_muted_only_title">Lag lyd bare hvis den ikke er på lydsøs eller i DnD mode</string>
+    <string name="touch_device_location_title">Finn telefonen min</string>
+    <string name="touch_device_location_not_muted_only_title">Spill lyd bare hvis ikke dempet eller i «Ikke forstyrr»-modus</string>
 
-    <string name="touch_mute_toggle_title">Call mute toggle</string>
-    <string name="touch_mute_toggle_ringer_mode_title">Mute mode</string>
-    <string name="touch_mute_toggle_mute_off_title">Mute off</string>
+    <string name="touch_mute_toggle_title">Telefonens lydløs-bryter</string>
+    <string name="touch_mute_toggle_ringer_mode_title">Lydløs modus</string>
+    <string name="touch_mute_toggle_mute_off_title">Lyd på</string>
 
     <string name="touch_music_title">Musikk</string>
-    <string name="touch_music_function_launch">Start music with the play button if no music player is recognized</string>
-    <string name="touch_music_function_mi_band_message_launch">Start music with the play button</string>
-    <string name="touch_music_function_mi_band_message_no_track_title">Can\'t get the song name</string>
+    <string name="touch_music_function_launch">Start musikk med avspillingsknappen hvis ingen musikkspiller er registrert</string>
+    <string name="touch_music_function_mi_band_message_launch">Start musikk med avspillingsknappen</string>
+    <string name="touch_music_function_mi_band_message_no_track_title">Kan ikke hente sangnavn</string>
 
-    <string name="touch_call_out_title">Ring ut</string>
+    <string name="touch_call_out_title">Start anrop</string>
     <string name="touch_call_out_no_contact">Velg en kontakt</string>
-    <string name="touch_call_out_summary">Dobbel trykk for å svare på anropet</string>
-    <string name="touch_call_out_summary_support_call_display_button">Trykk på knappen for å svare på anropet</string>
+    <string name="touch_call_out_summary">Dobbelttrykk for å starte anropet</string>
+    <string name="touch_call_out_summary_support_call_display_button">Trykk på knappen for å starte anropet</string>
     <string name="touch_call_out_speakerphone_title">Høyttaler</string>
-    <string name="touch_call_out_call_text">Ringe ut: %1$s</string>
+    <string name="touch_call_out_call_text">Start anrop: %1$s</string>
 
-    <string name="touch_weather_title">Været fremover</string>
-    <string name="touch_weather_location">Plassering</string>
+    <string name="touch_weather_title">Værmelding</string>
+    <string name="touch_weather_location">Posisjonsoppdatering</string>
     <string name="touch_weather_precipitation">Nedbør</string>
     <string name="touch_weather_cloud_cover">Skydekke</string>
     <string name="touch_weather_wind">Vind</string>
 
-    <string name="touch_repeat_notif_title">Repetere notifikasjoner</string>
-    <string name="touch_repeat_notif_clear_all">Rens alle notifikasjoner etter repetisjon</string>
+    <string name="touch_repeat_notif_title">Gjenta varsler</string>
+    <string name="touch_repeat_notif_clear_all">Fjern alle varsler etter gjentakelse</string>
 
-    <string name="touch_clear_notif_title">Rens notifikasjoner fra telefonen</string>
+    <string name="touch_clear_notif_title">Fjern varsler fra telefonen</string>
 
-    <string name="touch_music_play_pause_title">Musikk start, spill, pause</string>
-    <string name="touch_music_skip_previous_title">Musikk start, forrige sang</string>
-    <string name="touch_music_skip_next_title">Musikk start, neste sang</string>
-    <string name="touch_music_headset_only_title">Bare hvis hodesett et tilkoblet</string>
+    <string name="touch_music_play_pause_title">Start, spill av og pause musikk</string>
+    <string name="touch_music_skip_previous_title">Start musikk, forrige spor</string>
+    <string name="touch_music_skip_next_title">Start musikk, neste spor</string>
+    <string name="touch_music_headset_only_title">Kun hvis hodetelefon er tilkoblet</string>
     <string name="touch_music_launch">Start musikk</string>
-    <string name="touch_music_volume_up_title">Musikk volum opp</string>
-    <string name="touch_music_volume_down_title">Musikk volum ned</string>
-    <string name="touch_music_track_info_title">Vis musikk-spor info.</string>
+    <string name="touch_music_volume_up_title">Øk musikkvolum</string>
+    <string name="touch_music_volume_down_title">Senk musikkvolum</string>
+    <string name="touch_music_track_info_title">Vis informasjon om musikkspor</string>
 
-    <string name="touch_time_launch_title">Start tids-monitorering</string>
-    <string name="touch_time_launch_type_timer_title">Timer</string>
+    <string name="touch_time_launch_title">Start tidsovervåking</string>
+    <string name="touch_time_launch_type_timer_title">Tidsur</string>
     <string name="touch_time_launch_type_stopper_title">Stoppeklokke</string>
-    <string name="touch_time_launch_type_interval_title">Interval</string>
-    <string name="touch_time_launch_restart">Restarte hvis den er i prosess</string>
-    <string name="touch_time_reminder_title">Vis gjennværende/utgått tid</string>
+    <string name="touch_time_launch_type_interval_title">Intervall</string>
+    <string name="touch_time_launch_restart">Start på nytt hvis allerede aktiv</string>
+    <string name="touch_time_reminder_title">Vis gjenværende/forløpt tid</string>
 
-    <string name="touch_google_assistant_title">Google Assistant</string>
+    <string name="touch_google_assistant_title">Google Assistent</string>
 
-    <string name="touch_flashlight_title">Flashlight toggle</string>
+    <string name="touch_flashlight_title">Lommelyktbryter</string>
 
-    <string name="touch_camera_title">Ta et bilde</string>
-    <string name="touch_camera_front_title">Front</string>
-    <string name="touch_camera_rear_title">Bak</string>
+    <string name="touch_camera_title">Ta bilde</string>
+    <string name="touch_camera_front_title">Frontkamera</string>
+    <string name="touch_camera_rear_title">Bakkamera</string>
     <string name="touch_camera_install_title">Installer</string>
 
-    <string name="touch_app_launcher1_title">App kjører</string>
-    <string name="touch_app_launcher_package_no_title">Velg en applikasjon</string>
-    <string name="touch_app_launcher1_not_wakelock_only_title">Bare hvis skjermen ikke er låst</string>
+    <string name="touch_app_launcher1_title">Appstarter</string>
+    <string name="touch_app_launcher_package_no_title">Velg en app</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">Kun hvis skjermen ikke er låst</string>
 
-    <string name="touch_broadcast1_title">Send Broadcast</string>
-    <string name="touch_broadcast1_action_title">Intent action</string>
-    <string name="touch_broadcast1_package_title">Intent package name</string>
+    <string name="touch_broadcast1_title">Send kringkasting</string>
+    <string name="touch_broadcast1_action_title">Intent-handling</string>
+    <string name="touch_broadcast1_package_title">Intent-pakkenavn</string>
 
-    <string name="touch_http_request1_title">1. HTTP request</string>
-    <string name="touch_http_request2_title">2. HTTP request</string>
+    <string name="touch_http_request1_title">1. HTTP-forespørsel</string>
+    <string name="touch_http_request2_title">2. HTTP-forespørsel</string>
     <string name="touch_http_request_url_title">URL</string>
-    <string name="touch_http_request_method_title">Method</string>
-    <string name="touch_http_request_body_title">Body</string>
-    <string name="touch_http_request_show_response_title">Show the response</string>
+    <string name="touch_http_request_method_title">Metode</string>
+    <string name="touch_http_request_body_title">Innhold</string>
+    <string name="touch_http_request_show_response_title">Vis svar</string>
 
-    <string name="touch_tasker_launcher1_title">1. Tasker task kjører</string>
-    <string name="touch_tasker_launcher2_title">2. Tasker task kjører</string>
-    <string name="touch_tasker_launcher_no_permission_title">Du må installere Tasker først, Mi Bandage må installeres etter tasker er installert</string>
-    <string name="touch_tasker_launcher_no_access_title">Tildel extern tilgjengelighet</string>
-    <string name="touch_tasker_launcher_no_task_title">Velg et emne</string>
+    <string name="touch_tasker_launcher1_title">1. Tasker-oppgavestarter</string>
+    <string name="touch_tasker_launcher2_title">2. Tasker-oppgavestarter</string>
+    <string name="touch_tasker_launcher_no_permission_title">Installer Tasker før du installerer Mi Bandage</string>
+    <string name="touch_tasker_launcher_no_access_title">Tillat ekstern tilgang</string>
+    <string name="touch_tasker_launcher_no_task_title">Velg en oppgave</string>
 
-    <string name="touch_testing_title">Trykke-monitorering</string>
-    <string name="touch_testing_second">sec.</string>
+    <string name="touch_testing_title">Berøringsovervåking</string>
+    <string name="touch_testing_second">sek.</string>
 
-    <string name="touch_setting_detection_time_title">Touch detection time</string>
-    <string name="touch_setting_detection_time_music_hint">If it has a lower value, the music screen should be closed faster</string>
-    <string name="touch_setting_detection_time_button_hint">If it has a lower value, press the button faster</string>
+    <string name="touch_setting_detection_time_title">Tid for berøringsgjenkjenning</string>
+    <string name="touch_setting_detection_time_button_hint">Lavere verdi krever raskere påfølgende trykk for å utføre handlinger</string>
 
-    <string name="touch_setting_detection_method_title">Touch detection method</string>
+    <string name="touch_setting_detection_method_title">Metode for berøringsgjenkjenning</string>
 
-    <string name="touch_setting_recognition_start_title">Start trykke-gjennkjenning</string>
-    <string name="touch_setting_recognition_start_trigger_title">Trigger</string>
-    <string name="touch_setting_recognition_time_title">Gjennkjennelses-tid</string>
+    <string name="touch_setting_recognition_start_title">Start berøringsgjenkjenning</string>
+    <string name="touch_setting_recognition_start_trigger_title">Utløser</string>
+    <string name="touch_setting_recognition_time_title">Gjenkjenningstid</string>
 
-    <string name="touch_setting_recognition_mi_band_signal_title">%1$s signal</string> <!-- %1$s = Watch name -->
-    <string name="touch_setting_recognition_succeeded_title">Gjenntjenning av trykke-mønster</string>
-    <string name="touch_setting_recognition_failed_title">Ikke gjennkjennbart trykke-mønster</string>
+    <string name="touch_setting_recognition_mi_band_signal_title">%1$s-signal</string>
+    <string name="touch_setting_recognition_succeeded_title">Gjenkjent berøringsmønster</string>
+    <string name="touch_setting_recognition_failed_title">Ikke gjenkjennbart berøringsmønster</string>
 
     <string name="info_dialog_touch"><![CDATA[
-        <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
-        <p><b>Phones Bluetooth settings:</b> <device_name/> disable input device</p>
-        <b><u>Recognised touches</u></b>
-        <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
-        <br><device_type/> music control
-        <p><img src="ic_search">
-        <br><device_type/> find my phone
-        </p>
-        Multiple touches can be recorded for each function.
+    <p>Fungerer best i frittstående modus. Hvis du bruker samarbeidsmodus, håndterer den offisielle <app_official/>-appen også disse funksjonene, og derfor kan korrekt funksjon ikke garanteres.</p>
+    <p><b>Bluetooth-innstillinger på telefonen:</b> Deaktiver inndataenhet for <device_name/></p>
+    <b><u>Gjenkjente berøringer</u></b>
+    <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
+    <br><device_type/> musikkontroll
+    <p><img src="ic_search">
+    <br><device_type/> finn telefonen min
+    </p>
+    Flere berøringer kan registreres for hver funksjon.
     ]]></string>
 
     <!-- Weather -->
     <string name="weather_tab_weather_forecast">Vær</string>
-    <string name="weather_tab_location">Plassering</string>
+    <string name="weather_tab_location">Posisjon</string>
     <string name="weather_tab_settings">@string/setting_name</string>
 
-    <string name="weather_location_title">Plassering</string>
+    <string name="weather_location_title">Posisjon</string>
 
-    <string name="weather_forecast_title">Været fremover</string>
+    <string name="weather_forecast_title">Værmelding</string>
 
     <string name="weather_setting_provider">Værleverandør</string>
     <string name="weather_city_title">By</string>
     <string name="weather_unit_title">Enhet</string>
     <string name="weather_unit_metric">Metrisk (Celsius)</string>
-    <string name="weather_unit_imperial">Imperinal (Fahrenheit)</string>
-    <string name="weather_automatic_update">Automatically update location in the background</string>
-    <string name="weather_automatic_update_title">Bruk din lokasjon</string>
-    <string name="weather_automatic_update_summary">This application collects location data to update the weather for the current location, even when the app is closed or not in use.</string>
+    <string name="weather_unit_imperial">Imperial (Fahrenheit)</string>
+    <string name="weather_automatic_update">Oppdater posisjon automatisk i bakgrunnen</string>
+    <string name="weather_automatic_update_title">Bruk gjeldende posisjon</string>
+    <string name="weather_automatic_update_summary">Denne appen samler inn posisjonsdata for å oppdatere været basert på gjeldende plassering, selv når appen er lukket eller ikke i bruk.</string>
 
-    <string name="permission_background_location">%1$s vil ha tillatelse til å samle posisjonsdata selv når programmet er lukket eller ikke i bruk</string>
+    <string name="permission_background_location">%1$s får tillatelse til å samle posisjonsdata selv når appen er lukket eller ikke er i bruk</string>
     <string name="permission_error_title">%1$s kan ikke oppdatere tillatelser</string>
-    <string name="permission_error_description">Åpne Instillinger og velg alternativets “%1$s“ for posisjonstillatelser</string>
+    <string name="permission_error_description">Åpne Innstillinger og velg «%1$s» under posisjonstillatelser</string>
     <string name="all_the_time">Hele tiden</string>
 
     <string name="weather_current_title">Nåværende vær</string>
-    <string name="weather_current_location">Current location</string>
+    <string name="weather_current_location">Gjeldende posisjon</string>
     <string name="weather_current_temperature">Nåværende temperatur</string>
 
     <string name="weather_precipitation_rain">Regn</string>
     <string name="weather_precipitation_snow">Snø</string>
-    <string name="weather_cloud_cover_abbreviation">Cc</string>
-    <string name="weather_cloud_cover">Sky</string>
+    <string name="weather_cloud_cover_abbreviation">Sd</string> <!-- Cc = Skydekke -->
+    <string name="weather_cloud_cover">Skydekke</string>
     <string name="weather_humidity">Luftfuktighet</string>
 
     <string name="weather_north">N</string>
-    <string name="weather_east">E</string>
+    <string name="weather_east">Ø</string>
     <string name="weather_south">S</string>
-    <string name="weather_west">W</string>
+    <string name="weather_west">V</string>
 
 
     <!-- Text customization -->
-    <string name="pref_text_reminder_repeat_interval_title">Påminnelse gjentakelses-interval</string>
-    <string name="pref_text_reminder_repeat_interval_summary">Notification/reminder alert function uses this timing</string>
+    <string name="pref_text_reminder_repeat_interval_title">Påminnelseintervall</string>
+    <string name="pref_text_reminder_repeat_interval_summary">Varsling > Påminnelsesfunksjonen bruker dette tidsintervallet</string>
     <string name="pref_text_emoticon_title">Emoji-konvertering</string>
     <string name="pref_text_emoticon_summary_on">Konverter emoji til emotikon</string>
-    <string name="pref_text_uppercase_title">Store bokstaver konvertering</string>
-    <string name="pref_text_uppercase_summary_on">Konverter små bokstaver til store bokstaver</string>
+    <string name="pref_text_uppercase_title">Konverter til store bokstaver</string>
+    <string name="pref_text_uppercase_summary_on">Konverter små bokstaver til store</string>
     <string name="pref_text_alphanumeric_title">Alfanumeriske og ASCII-tegn</string>
     <string name="pref_text_alphanumeric_summary_on">Vis kun alfanumeriske og ASCII-tegn</string>
     <string name="pref_text_transliteration_title">Translitterasjon</string>
-    <string name="pref_text_transliteration_summary_on">Konverter aksentuerte bokstaver til ikke-aksentuerte</string>
-    <string name="pref_text_line_separator_title">Linjeavskiller erstatning</string>
-    <string name="pref_text_line_separator_summary_on">Erstatt standard linjeavskiller med andre tegn</string>
+    <string name="pref_text_transliteration_summary_on">Erstatt bokstaver med aksent med bokstaver uten aksent</string>
+    <string name="pref_text_line_separator_title">Erstatning av linjeskiller</string>
+    <string name="pref_text_line_separator_summary_on">Erstatt standard linjeskiller med andre tegn</string>
     <string name="pref_text_line_separator_value_title">Erstatningstegn</string>
-    <string name="pref_text_char_replacement_title">Tegner og emoji-erstatning</string>
+    <string name="pref_text_char_replacement_title">Tegner- og emoji-erstatning</string>
     <string name="pref_text_char_replacement_summary_on">Erstatt ett tegn med et annet</string>
     <string name="pref_text_char_replacement_find">Finn</string>
     <string name="pref_text_char_replacement_replace">Erstatt med</string>
-
 
     <!-- Export -->
     <string name="export_tab_database">Dataeksport</string>
     <string name="export_start_date">Startdato for eksport</string>
 
-
     <!-- Theme -->
-    <string name="theme_tab_theme">Stil</string>
+    <string name="theme_tab_theme">Tema</string>
 
-    <string name="theme_title">Velg en stil</string>
-    <string name="theme_background_color_title">Bakgrunn farge</string>
+    <string name="theme_title">Velg et tema</string>
+    <string name="theme_background_color_title">Bakgrunnsfarge</string>
 
     <string name="theme_widget_background_color_title">Farge</string>
     <string name="theme_color_dynamic_color_title">Dynamisk farge</string>
     <string name="theme_color_predefined_colors_title">Forhåndsdefinerte farger</string>
 
-    <string name="theme_notification_title">Vise status på notifikasjons-hylla</string>
+    <string name="theme_notification_title">Vis status i varslingsfeltet</string>
 
     <string name="theme_cat_color_setting">Fargeinnstillinger</string>
 
+    <!-- Feedback -->
+    <string name="action_log_notification">Logg</string>
 
-    <!-- Premium modus -->
+    <string name="feedback_google_play_title">Vurder denne appen</string>
+    <string name="feedback_request_feature_title">Funksjonsønske, feilrapport</string>
+    <string name="feedback_request_feature_summary">Automatisk e-postbehandling, svar er ikke garantert</string>
+    <string name="feedback_translation_title">%1$s-oversettelse</string> <!-- %1$s = App name -->
+    <string name="feedback_translation_title_summary">Vennligst hjelp til med oversettelsen</string>
+
+    <!-- Premium mode -->
     <string name="purchase_advantage_title">Fordeler med Premium-modus</string>
     <string name="purchase_advantage"><![CDATA[
-    <p>• økonomisk støtte til videreutvikling</p>
+    <p>• økonomisk støtte til videre utvikling</p>
     <p>• ingen annonser</p>
-    <p>• ubegrensede varslingsinnstillinger</p>
+    <p>• ubegrensede innstillinger for varsler</p>
     <p>• ubegrensede innstillinger for samtaler</p>
-    <p>• ubegrenset daglig opplasting av urskiver</p>
+    <p>• ubegrenset antall daglige opplastinger av urskiver</p>
     <p>• ubegrenset antall alarmer (kan være begrenset av klokken)</p>
-    <p>• ubegrenset «Ikke forstyrr»-modus</p>
+    <p>• ubegrenset bruk av «Ikke forstyrr»-modus</p>
     <p>• ubegrensede berøringsinnstillinger</p>
-    <p>• hyppigere værmeldinger, automatisk posisjonsoppdatering, mulighet for å bruke AccuWeather</p>
+    <p>• hyppigere væroppdateringer, automatisk posisjonsoppdatering og mulighet til å bruke AccuWeather</p>
     <p>• detaljerte daglige grafer</p>
-    • lås opp alle andre funksjonsbegrensninger…
+    • låser opp alle andre funksjonsbegrensninger…
     ]]></string>
 
-    <string name="purchase_policy_title">Vilkår for Premium-modus</string>
+    <string name="purchase_policy_title">Vilkår og betingelser for Premium-modus</string>
     <string name="purchase_policy"><![CDATA[
     <p>• Jeg har testet appen og bekrefter at den fungerer som forventet.</p>
-    <p>• Jeg forstår at jeg ikke kan be om refusjon eller kompensasjon for problemer som skyldes systemendringer (som Android-oppdateringer), maskinvare eller konflikter med andre apper.</p>
-    <p>• Alle kjøp er endelige og kan ikke refunderes (med mindre det er tillatt i henhold til Google\'s refusjonspolicy).</p>
-    <p>• Denne appen leveres uten noen form for garanti, verken uttrykt eller underforstått.</p>
-    <p>• Bruk av appen skjer på eget ansvar. Utvikleren er ikke ansvarlig for direkte eller indirekte skader eller tap av data forårsaket av bruken.</p>
-    <p>• Premium-modusen er knyttet til Google-kontoen din og forblir aktiv etter reinstallering av appen.</p>
+    <p>• Jeg forstår at jeg ikke har krav på refusjon eller kompensasjon for problemer som skyldes endringer i systemet (f.eks. Android-oppdateringer), maskinvare eller konflikter med andre apper.</p>
+    <p>• Alle kjøp er endelige og kan ikke refunderes (med mindre det er tillatt i henhold til Googles refusjonspolicy).</p>
+    <p>• Denne appen leveres uten noen garanti, verken uttrykt eller underforstått.</p>
+    <p>• Bruk av appen skjer på eget ansvar. Utvikleren er ikke ansvarlig for direkte eller indirekte skader eller tap av data som følge av bruken.</p>
+    <p>• Premium-modus er knyttet til Google-kontoen din og forblir aktiv selv etter at appen er installert på nytt.</p>
     <i>Appen må startes på nytt etter kjøpet.</i>
     ]]></string>
 
-
     <string name="purchase_google_play_services_not_available">Google Play-tjenester er ikke tilgjengelige</string>
 
-    <!--<string name="kjøp_pris">Pris:</string>-->
-    <string name="purchase_agree">Jeg godtar alle vilkår og betingelser.</string>
-    <string name="purchase_order_id">Kjøps ID</string>
-    <string name="purchase_order_id_help">Kopiere fra:
-        \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
-        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <string name="purchase_agree">Jeg godtar vilkårene og betingelsene.</string>
+    <string name="purchase_order_id">Ordre-ID</string>
+    <string name="purchase_order_id_help">Kopier fra:
+    \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+    \n<a href="https://payments.google.com">https://payments.google.com</a>
+    </string>
 
-    <string name="purchase_info">Engangs avgift ・ %1$s</string> <!-- %1$s = price</string>-->
+    <string name="purchase_info">Engangsbeløp ・ %1$s</string> <!-- %1$s = price -->
     <string name="purchase_button_purchase">Kjøp</string>
-
-    <!-- Feedback -->
-    <string name="action_log_notification">Notifikasjon logg</string>
-
-    <string name="feedback_google_play_title">Bedøm denne appen</string>
-    <string name="feedback_request_feature_title">Egenskaps forespørsel, bug rapport</string>
-    <string name="feedback_request_feature_summary">Automatisk e-mail prossesjon, du får kanskje ikke respons</string>
-    <string name="feedback_translation_title">%1$s translation</string> <!-- %1$s = App name -->
-    <string name="feedback_translation_title_summary">Please help with the translation</string>
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Personvernerklæring</string>
@@ -857,28 +838,26 @@
 
 
     <!-- Custom vibration dialog -->
-    <string name="custom_vibration_title">Vibration setting</string>
-
+    <string name="custom_vibration_title">Vibrasjonsinnstilling</string>
 
     <!-- Shortcuts -->
-    <string name="shortcut">Shortcut</string>
-    <string name="shortcut_visible_items">Shortcut items</string>
-    <string name="shortcut_hidden_items">Hidden shortcut items</string>
+    <string name="shortcut">Snarvei</string>
+    <string name="shortcut_visible_items">Snarveielementer</string>
+    <string name="shortcut_hidden_items">Skjulte snarveielementer</string>
 
     <string name="shortcut_status">Status</string>
     <string name="shortcut_heart_rate">Puls</string>
-    <string name="shortcut_blood_oxygen">Blood oxygen</string>
+    <string name="shortcut_blood_oxygen">Blodoksygen</string>
     <string name="shortcut_sleep">Søvn</string>
-    <string name="shortcut_breathing">Breathing</string>
+    <string name="shortcut_breathing">Pust</string>
     <string name="shortcut_weather">Vær</string>
     <string name="shortcut_stress">Stress</string>
 
-
-    <!-- Others -->
-    <string name="tab_daily_charts">Daglige skritt</string>
-    <string name="tab_weekly_charts">Ukentlige skritt</string>
-    <string name="tab_monthly_charts">Månedlige skritt</string>
-    <string name="tab_yearly_charts">Årlig skritt</string>
+    <!-- Actions -->
+    <string name="tab_daily_charts">Daglige grafer</string>
+    <string name="tab_weekly_charts">Ukentlige grafer</string>
+    <string name="tab_monthly_charts">Månedlige grafer</string>
+    <string name="tab_yearly_charts">Årlige grafer</string>
 
     <string name="ad_attribution">Annonse</string>
     <string name="on">På</string>
@@ -888,54 +867,54 @@
     <string name="heart_rate_mhr">MHR</string>
     <string name="date">Dato</string>
     <string name="time">Tid</string>
-    <string name="time_start">Start tid</string>
-    <string name="time_end">Slutt tid</string>
+    <string name="time_start">Starttid</string>
+    <string name="time_end">Sluttid</string>
     <string name="ringer_mode_vibrate">Vibrering</string>
     <string name="ringer_mode_silent">Lydløs</string>
-    <string name="ringer_mode_dnd_priority_only">Ikke forstyrr (bare prioritet)</string>
-    <string name="ringer_mode_dnd_alarms_only">Ikke forstyrr (bare alarmer)</string>
-    <string name="ringer_mode_dnd_total_silence">Ikke forstyrr (total stillhet)</string>
+    <string name="ringer_mode_dnd_priority_only">Ikke forstyrr (kun prioritet)</string>
+    <string name="ringer_mode_dnd_alarms_only">Ikke forstyrr (kun alarmer)</string>
+    <string name="ringer_mode_dnd_total_silence">Ikke forstyrr (full stillhet)</string>
     <string name="unknown">Ukjent</string>
     <string name="maximum">Maksimum</string>
-    <string name="all_day">Alle-dager</string>
-    <string name="timed">Timed</string>
-    <string name="file_name">Fil navn</string>
-    <string name="default_">Default</string>
-    <string name="default_by_phone">Misligholde (over telefon)</string>
-    <string name="custom">Custom</string>
-    <string name="invalid_setting">Invalid setting</string>
+    <string name="all_day">Hele dagen</string>
+    <string name="timed">Tidsbestemt</string>
+    <string name="file_name">Filnavn</string>
+    <string name="default_">Standard</string>
+    <string name="default_by_phone">Standard (etter telefon)</string>
+    <string name="custom">Tilpasset</string>
+    <string name="invalid_setting">Ugyldig innstilling</string>
     <string name="ringtone">Ringetone</string>
-    <string name="ringtone_chooser">Ringtone chooser</string>
-    <string name="uninstalled">Uninstalled</string>
+    <string name="ringtone_chooser">Velger for ringetone</string>
+    <string name="uninstalled">Avinstallert</string>
     <string name="value">Verdi</string>
-    <string name="downloads">Downloads</string>
-    <string name="share">Share</string>
+    <string name="downloads">Nedlastinger</string>
+    <string name="share">Del</string>
     <string name="send">Send</string>
     <string name="narrow">Smal</string>
     <string name="short_">Kort</string>
-    <string name="medium">Medium</string>
+    <string name="medium">Middels</string>
     <string name="long_">Lang</string>
     <string name="full">Full</string>
-    <string name="alignment_left">Justering venstre</string>
-    <string name="alignment_center">Justering til sentrum</string>
-    <string name="alignment_right">Justering rett</string>
+    <string name="alignment_left">Venstrejustert</string>
+    <string name="alignment_center">Midtjustert</string>
+    <string name="alignment_right">Høyrejustert</string>
     <string name="visible">Synlig</string>
     <string name="invisible">Usynlig</string>
-    <string name="placeholder">Placeholder</string>
-    <string name="image_scale_fit">Fit</string>
-    <string name="image_scale_crop">Crop</string>
-    <string name="image_scale_stretch">Stretch</string>
-    <string name="resource_manager">Resource manager</string>
+    <string name="placeholder">Plassholder</string>
+    <string name="image_scale_fit">Tilpass</string>
+    <string name="image_scale_crop">Beskjær</string>
+    <string name="image_scale_stretch">Strekk</string>
+    <string name="resource_manager">Ressursbehandling</string>
 
-    <string name="action_premium_mode">Premium modus</string>
-    <string name="action_dismiss">Avvis</string>
-    <string name="action_setting">Indtilling</string>
+    <string name="action_premium_mode">Premium-modus</string>
+    <string name="action_dismiss">Lukk</string>
+    <string name="action_setting">Innstilling</string>
     <string name="action_delete">Slett</string>
     <string name="action_rename">Gi nytt navn</string>
-    <string name="action_export">Exportere</string>
-    <string name="action_synchronization">Synchronization</string>
-    <string name="action_download">Nedlastning</string>
-    <string name="action_upload">Laste opp</string>
+    <string name="action_export">Eksporter</string>
+    <string name="action_synchronization">Synkronisering</string>
+    <string name="action_download">Last ned</string>
+    <string name="action_upload">Last opp</string>
     <string name="action_backup">Sikkerhetskopi</string>
     <string name="action_restore">Gjenopprett</string>
     <string name="action_filter_no">Ingen filter</string>
@@ -943,50 +922,50 @@
     <string name="action_favorite">Favoritt</string>
     <string name="action_save">Lagre</string>
     <string name="action_test">Test</string>
-    <string name="action_discard">Forkaste</string>
-    <string name="action_keep_editing">Fortsett å redigere</string>
+    <string name="action_discard">Forkast</string>
+    <string name="action_keep_editing">Fortsett redigering</string>
     <string name="action_new">Ny</string>
     <string name="action_new_file_extension">Ny %1$s</string>
-    <string name="action_edit">Redigere</string>
+    <string name="action_edit">Rediger</string>
     <string name="action_start_stop">Start/Stopp</string>
     <string name="action_contacts">Kontakter</string>
-    <string name="action_single_selection">Enkel valg</string>
-    <string name="action_multiple_selection">Flere valg</string>
-    <string name="action_selection_boundaries">Selection boundaries</string>
-    <string name="action_object_boundaries">Object boundaries</string>
-    <string name="action_select">Valg</string>
-    <string name="action_select_all">Velg alt</string>
+    <string name="action_single_selection">Enkeltvalg</string>
+    <string name="action_multiple_selection">Flervalg</string>
+    <string name="action_selection_boundaries">Utvalgsgrenser</string>
+    <string name="action_object_boundaries">Objektgrenser</string>
+    <string name="action_select">Velg</string>
+    <string name="action_select_all">Velg alle</string>
     <string name="action_select_texts">Velg tekster</string>
     <string name="action_select_images">Velg bilder</string>
     <string name="action_deselect_all">Fjern alle valg</string>
-    <string name="synchronized_from_watch">Synchronized from watch</string>
-    <string name="synchronization_succeeded">Synkroniseringen lyktes</string>
-    <string name="synchronization_failed">Synkronisering mislyktes</string>
+    <string name="synchronized_from_watch">Synkronisert fra klokken</string>
+    <string name="synchronization_succeeded">Synkroniseringen var vellykket</string>
+    <string name="synchronization_failed">Synkroniseringen mislyktes</string>
 
-    <string name="action_chart">Kart</string>
-    <string name="action_zoom_in">Zoom</string>
-    <string name="action_chart_normalize_raw_data">målte valuer</string>
-    <string name="action_chart_normalize_quarter_hourly">Kvartal-timelige valuer</string>
-    <string name="action_chart_normalize_half_hourly">Halv-timelige valuer</string>
-    <string name="action_chart_normalize_hourly">Time valuer</string>
-    <string name="action_chart_sort_time_asc">Tid økende</string>
+    <string name="action_chart">Diagram</string>
+    <string name="action_zoom_in">Zoom inn</string>
+    <string name="action_chart_normalize_raw_data">Målte verdier</string>
+    <string name="action_chart_normalize_quarter_hourly">Kvart-timesverdier</string>
+    <string name="action_chart_normalize_half_hourly">Halvtimesverdier</string>
+    <string name="action_chart_normalize_hourly">Timesverdier</string>
+    <string name="action_chart_sort_time_asc">Tid stigende</string>
     <string name="action_chart_sort_time_desc">Tid synkende</string>
-    <string name="action_chart_sort_step_asc">Skritt økende</string>
-    <string name="action_chart_sort_step_desc">Skritt mindre</string>
-    <string name="action_chart_sort_duration_asc">Duration ascending</string>
-    <string name="action_chart_sort_duration_desc">Duration descending</string>
+    <string name="action_chart_sort_step_asc">Skritt stigende</string>
+    <string name="action_chart_sort_step_desc">Skritt synkende</string>
+    <string name="action_chart_sort_duration_asc">Varighet stigende</string>
+    <string name="action_chart_sort_duration_desc">Varighet synkende</string>
     <string name="action_chart_sort_heart_rate_asc">Puls stigende</string>
     <string name="action_chart_sort_heart_rate_desc">Puls synkende</string>
-    <string name="action_chart_sort_spo2_asc">SpO2 ascending</string>
-    <string name="action_chart_sort_spo2_desc">SpO2 descending</string>
-    <string name="action_chart_sort_pressure_asc">Pressure ascending</string>
-    <string name="action_chart_sort_pressure_desc">Pressure descending</string>
-    <string name="action_chart_monthly_calendar">Calendar</string>
+    <string name="action_chart_sort_spo2_asc">SpO2 stigende</string>
+    <string name="action_chart_sort_spo2_desc">SpO2 synkende</string>
+    <string name="action_chart_sort_blood_pressure_asc">Blodtrykk stigende</string>
+    <string name="action_chart_sort_blood_pressure_desc">Blodtrykk synkende</string>
+    <string name="action_chart_monthly_calendar">Kalender</string>
     <string name="action_chart_monthly_compact">Kompakt</string>
 
-    <string name="activity_progress_title_prepare">Forbereder for synkronisering av aktivitet…</string>
-    <string name="activity_progress_title_sync">Aktivitet-prosess synkronisering…</string>
-    <string name="activity_progress_title_save">Lagring av aktivitets-prosess…</string>
+    <string name="activity_progress_title_prepare">Forbereder synkronisering…</string>
+    <string name="activity_progress_title_sync">Synkroniserer data…</string>
+    <string name="activity_progress_title_save">Lagrer data…</string>
 
     <string name="required_value">Påkrevd</string>
 
@@ -1012,7 +991,7 @@
     <string name="const_day_of_week_saturday">Lørdag</string>
 
     <string name="const_time_abbreviation_day">d</string>
-    <string name="const_time_abbreviation_hour">h</string>
+    <string name="const_time_abbreviation_hour">t</string> <!-- 't' for 'time' (hour) in Bokmål is natural in tech context -->
     <string name="const_time_abbreviation_minute">m</string>
     <string name="const_time_abbreviation_sec">s</string>
     <string name="const_time_abbreviation_milli_sec">ms</string>

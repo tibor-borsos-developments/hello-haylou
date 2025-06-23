@@ -1,0 +1,1023 @@
+<?xml version="1.0"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="mr">
+
+    <!--  Navigation  -->
+    <string name="menu_nav_notification">सूचना</string>
+    <string name="menu_nav_call">कॉल</string>
+    <string name="menu_nav_step">क्रियाकलाप</string>
+    <string name="menu_nav_sleep">झोप</string>
+    <string name="menu_nav_heart_rate">हृदयस्पंदन</string>
+    <string name="menu_nav_blood_oxygen">ऑक्सिजन पातळी</string>
+    <string name="menu_nav_blood_pressure">रक्तदाब</string>
+    <string name="menu_nav_workout">व्यायाम</string>
+    <string name="menu_nav_alarm">अलार्म</string>
+    <string name="menu_nav_reminder">इव्हेंट स्मरण</string>
+    <string name="menu_nav_dnd">डू नॉट डिस्टर्ब</string>
+    <string name="menu_nav_watch_face">वॉच फेस</string>
+    <string name="menu_nav_weather">हवामान</string>
+    <string name="menu_nav_touch">टच नियंत्रण</string>
+    <string name="menu_nav_more">अधिक</string>
+    <string name="menu_nav_text_customization">मजकूर सानुकूलन</string>
+    <string name="menu_nav_export">निर्यात</string>
+    <string name="menu_nav_premium_mode">प्रीमियम मोड</string>
+    <string name="menu_nav_feedback">अभिप्राय</string>
+    <string name="menu_nav_privacy_policy">गोपनीयता धोरण</string>
+    <string name="menu_nav_theme">थीम</string>
+
+    <string name="setting_name">सेटिंग</string>
+    <string name="settings_name">सेटिंग्ज</string>
+    <string name="info_name">माहिती</string>
+    <string name="more_name">अधिक</string>
+
+    <string name="main_item_activity_title">पावले・लक्ष्य</string>
+    <string name="main_item_battery">बॅटरी पातळी・शेवटचा चार्ज</string>
+    <string name="main_item_connect_and_disconnect_last_time">शेवटचा जोडणी व तुटलेला वेळ</string>
+    <string name="main_item_next_alarm">पुढील अलार्म</string>
+    <string name="main_item_next_reminder">पुढील स्मरण</string>
+    <string name="main_item_call_and_notification_control">कॉल व सूचना</string>
+
+    <!-- Pairing Bluetooth device -->
+    <string name="device_search">%1$s शोध</string>
+    <string name="device_setting">%1$s सेटिंग</string>
+
+    <string name="device_mac_address">MAC पत्ता</string>
+    <string name="device_mac_address_invalid">अवैध MAC पत्ता</string>
+
+    <string name="device_state_connected">जोडले</string>
+    <string name="device_state_disconnected">तुटले</string>
+    <string name="device_state_bonded">पेअर केलेले उपकरण</string>
+    <string name="device_state_not_bonded">नपेअर उपकरण</string>
+
+    <string name="error_title">अरे! काहीतरी चुकले</string>
+    <string name="error_message">कृपया अ‍ॅप नवीनतम आवृत्तीत अद्ययावत करा</string>
+
+
+    <!-- Watch connection and setting -->
+    <string name="mi_band_setting_title">%1$s सेटिंग्ज</string>
+
+    <string name="mi_band_setting_menu_connection">कनेक्शन</string>
+    <string name="mi_band_setting_menu_setting">@string/setting_name</string>
+    <string name="mi_band_setting_menu_profile">प्रोफाइल</string>
+    <string name="mi_band_setting_menu_text">मजकूर</string>
+    <string name="mi_band_setting_menu_call">कॉल</string>
+
+    <string name="mi_band_setting_auth_mi_fit">%1$s सहकार्य</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">%3$s वापरण्यासाठी %1$s अ‍ॅप या फोनवर स्थापित करणे आवश्यक आहे. प्रथम, %1$s अ‍ॅपमध्ये %2$s चे पेअरिंग करा. जर तुम्हाला %1$s अ‍ॅप देखील वापरायचे असेल, तर हा पर्याय निवडा.</string>
+    <string name="mi_band_setting_auth_standalone">स्वतंत्र मोड</string>
+    <string name="mi_band_setting_auth_standalone_hint">%3$s साठी %1$s अ‍ॅप आवश्यक नाही. पेअरिंगनंतर %1$s अ‍ॅप अनइंस्टॉल करा किंवा घड्याळाचे पेअरिंग हटवा. %1$s सह पुन्हा सहकार्य करायचे असल्यास, %1$s अ‍ॅपमध्ये %2$s चे पेअरिंग पुन्हा करावे लागेल. डिसकनेक्ट करताना, घड्याळावरील सर्व डेटा हटवला जाईल. कृपया पेअरिंग दरम्यान %2$s स्क्रीन चालू ठेवा.</string>
+    <string name="mi_band_standalone_sync_error">डेटा नुकसान आणि चुकीचे मोजमाप टाळण्यासाठी सहकार्य मोडमध्ये सिंक्रोनायझेशन अक्षम केले आहे. सिंक केल्यास घड्याळातील डेटा हटवला जाईल आणि दोन्ही अ‍ॅपमध्ये चुकीची माहिती दिसेल.</string>
+    <string name="mi_band_setting_auth_key">प्रमाणीकरण की</string>
+    <string name="mi_band_setting_auth_key_help">कोणताही 4 अंकी क्रमांक टाका</string>
+    <string name="mi_band_setting_auth_request">की विनंती</string>
+    <string name="mi_band_setting_auth_pair">पेअर करा</string>
+    <string name="mi_band_setting_auth_unpair">डिसकनेक्ट करा</string>
+
+    <string name="message_auth_request">उपकरण आधीच पेअर आहे. जर तुम्हाला की माहिती नसेल, तर कृपया डिसकनेक्ट करा</string>
+
+    <string name="message_mi_band_setting_auth_press_band_button">%1$s पेअर करण्यासाठी बटण दाबा</string>
+    <string name="message_mi_band_setting_auth_success">%1$s यशस्वीरित्या पेअर झाले</string>
+    <string name="message_mi_band_setting_auth_fail">%1$s पेअर करण्यात अयशस्वी</string>
+    <string name="message_mi_band_setting_auth_key_invalid">अवैध प्रमाणीकरण की</string>
+
+    <string name="pref_disconnect_device">डिसकनेक्ट करा</string>
+
+    <string name="mi_band_setting_connection_problem_title">कनेक्शन समस्या असल्यास</string>
+    <string name="mi_band_setting_connection_problem_hint"><![CDATA[
+    - फोनच्या Bluetooth सेटिंग्जमध्ये घड्याळाचे पेअरिंग काढा<br>
+    - Bluetooth बंद करा आणि पुन्हा चालू करा<br>
+    - अ‍ॅप फोर्स क्लोज करा किंवा फोन रीस्टार्ट करा<br>
+    - मुख्य स्क्रीनवरून घड्याळ पुन्हा पेअर करा
+    ]]></string>
+
+    <string name="mi_band_setting_dial">वॉच फेस</string>
+    <string name="mi_band_setting_language">भाषा</string>
+    <string name="mi_band_setting_time_24h">२४-तास वेळ प्रारूप</string>
+    <string name="mi_band_setting_distance_unit">अंतराची एकक</string>
+    <string name="mi_band_setting_screen_on_duration">स्क्रीन चालू ठेवण्याची वेळ</string>
+    <string name="mi_band_setting_lift_wrist">हात उचलल्यावर स्क्रीन चालू करा</string>
+    <string name="mi_band_setting_idle_alert">अनक्रियाशीलतेची सूचना</string>
+    <string name="mi_band_setting_idle_alert_duration">अनक्रियाशील वेळ</string>
+    <string name="mi_band_setting_idle_alert_dnd">दुपारी विश्रांतीच्या वेळी सूचना टाळा (१२:००–१४:००)</string>
+
+    <string name="pref_synchronization">सिंक</string>
+    <string name="pref_synchronization_fetch_interval">सिंक वारंवारता</string>
+    <string name="pref_synchronization_summary">बॅकग्राउंडमध्ये आपोआप कोणते डेटा सिंक करायचे आहेत ते निवडा. जर काही डेटा नको असेल, तर ते बंद करा म्हणजे कामगिरी सुधारेल. मुख्य स्क्रीन किंवा संबंधित मेनूमधून (खाली स्वाइप करून) मॅन्युअली सिंक करू शकता.</string>
+
+    <string name="mi_band_setting_profile">पावले, अंतर आणि कॅलरीचे अचूक मोजमाप मिळवण्यासाठी ही माहिती प्रविष्ट करा.</string>
+    <string name="mi_band_setting_gender">लिंग</string>
+    <string name="mi_band_setting_gender_male">पुरुष</string>
+    <string name="mi_band_setting_gender_female">स्त्री</string>
+    <string name="mi_band_setting_birthday">जन्मतारीख</string>
+    <string name="mi_band_setting_height">उंची</string>
+    <string name="mi_band_setting_weight">वजन</string>
+    <string name="mi_band_setting_wearing_place">घड्याळ घालण्याचे स्थान</string>
+    <string name="mi_band_setting_wearing_place_left_wrist">डाव्या हातात</string>
+    <string name="mi_band_setting_wearing_place_right_wrist">उजव्या हातात</string>
+
+    <!-- Battery -->
+    <string name="battery_details">बॅटरी वापर</string>
+
+    <string name="battery_settings">बॅटरी सेटिंग्ज</string>
+    <string name="battery_settings_notification">कमी बॅटरी पातळी सूचना</string>
+    <string name="battery_settings_notification_level">सूचनेची बॅटरी मर्यादा</string>
+    <string name="battery_settings_notification_repeat_interval">सूचना पुनरावृत्ती अंतर</string>
+    <string name="battery_settings_notification_on_phone">फोनवर सूचना पाठवा</string>
+    <string name="battery_settings_notification_on_phone_ongoing">स्थायी (काढता न येणारी) सूचना</string>
+    <string name="battery_settings_notification_on_phone_message">बॅटरी पातळी: %1$,d%%</string>
+    <string name="battery_settings_notification_on_device">स्मार्टवॉचवर सूचना पाठवा</string>
+    <string name="battery_settings_notification_on_device_message">बॅटरी: %1$,d%%</string>
+
+    <!-- Preference screens -->
+    <string name="pref_battery_phone">फोन बॅटरी</string>
+    <string name="pref_battery_phone_summary">कमी व पूर्ण चार्ज सूचनांसाठी</string>
+    <string name="pref_cat_battery_phone_low">कमी बॅटरी पातळी</string>
+    <string name="pref_battery_phone_low_title">कमी बॅटरीची सूचना</string>
+    <string name="pref_battery_phone_low_level_title">बॅटरी मर्यादा</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">पुनरावृत्ती वेळ</string>
+    <string name="pref_cat_battery_phone_full">पूर्ण बॅटरी पातळी</string>
+    <string name="pref_battery_phone_full_title">पूर्ण चार्ज सूचना</string>
+    <string name="pref_battery_phone_full_plugged_ac">AC चार्जर</string>
+    <string name="pref_battery_phone_full_plugged_usb">USB पोर्ट</string>
+    <string name="pref_battery_phone_full_plugged_wireless">वायरलेस चार्जर</string>
+
+    <string name="pref_battery_phone_message">फोन बॅटरी:\n %1$,d%%</string>
+
+    <string name="pref_language">भाषा</string>
+    <string name="pref_cat_language">अ‍ॅप</string>
+    <string name="pref_language_title">भाषा</string>
+
+    <string name="pref_menu">मेनू</string>
+    <string name="pref_cat_menu">मुख्य मेनू सानुकूलन</string>
+    <string name="pref_menu_item_2">दुसरी मेनू आयटम</string>
+    <string name="pref_menu_item_3">तिसरी मेनू आयटम</string>
+
+    <string name="pref_diagnostic">डायग्नोस्टिक्स</string>
+    <string name="pref_cat_diagnostic_closing_protection">बंद होण्यापासून संरक्षण</string>
+    <string name="pref_diagnostic_battery_optimisation">बॅटरी ऑप्टिमायझेशन अक्षम करा</string>
+    <string name="pref_diagnostic_companion_device">साथीचे डिव्हाइस पेअरिंग</string>
+    <string name="pref_diagnostic_bluetooth_pairing">Bluetooth पेअरिंग</string>
+    <string name="pref_diagnostic_autostart">स्वयंचलित सुरूवात</string>
+    <string name="pref_diagnostic_autostart_summary">फोनच्या Auto-start व्यवस्थापनामध्ये अ‍ॅपला आपोआप सुरू होण्याची परवानगी द्या</string>
+    <string name="pref_diagnostic_info">अधिक माहिती</string>
+    <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
+
+    <string name="pref_cat_diagnostic_permissions">परवानग्या</string>
+    <string name="pref_diagnostic_permission_allow_notification_access_settings">सूचना प्रवेश परवानगी</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">अचूक अलार्म वेळापत्रक</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">कार्य अचूक वेळेस शेड्युल करण्यासाठी अतिरिक्त परवानगी आवश्यक आहे.</string>
+    <string name="pref_diagnostic_permission_post_notifications">सूचना दाखवा</string>
+    <string name="pref_diagnostic_permission_post_notifications_summary">सूचना दाखवण्यासाठी अतिरिक्त परवानगी आवश्यक आहे</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">\'डू नॉट डिस्टर्ब\' प्रवेश</string>
+
+
+    <!-- Snackbar messages -->
+    <string name="message_enable_bluetooth">कृपया Bluetooth सुरू करा आणि घड्याळ फोनजवळ ठेवा</string>
+    <string name="message_discover_device">%1$s अजून सेट केलेले नाही, कृपया जोडा</string>
+    <string name="message_discovering_device">%1$s शोध घेत आहे (१ मिनिट लागू शकते)…</string>
+    <string name="message_discover_device_succeeded">%1$s यशस्वीरित्या जोडले गेले</string>
+    <string name="message_discover_device_failed">%1$s कनेक्शन अयशस्वी</string>
+    <string name="message_discover_device_not_found">जर %1$s सापडले नाही, तर डिस्कव्हरेबल मोड सुरू करा किंवा फोनच्या Bluetooth सेटिंग्जमधून जोडा</string>
+    <string name="message_enable_notification_listener_access">सूचना प्रवेश सक्षम करा: फोन > सेटिंग्ज > सूचना प्रवेश</string>
+    <string name="message_enable_notification_listener_access_4_4">सूचना प्रवेश सक्षम करा: सेटिंग्ज > सुरक्षा > सूचना प्रवेश</string>
+
+    <string name="message_deleted">हटवले</string>
+    <string name="message_undo">पूर्ववत करा</string>
+
+    <string name="message_app_chooser_no_selected">अ‍ॅप निवडा</string>
+
+    <string name="message_free_counter">मोफत मोडमध्ये फक्त 1 सेटिंग वापरता येते</string>
+    <string name="message_free_counters">मोफत मोडमध्ये जास्तीत जास्त %1$,d सेटिंग्ज वापरता येतात</string>
+
+    <string name="message_notification_free_groups">मोफत मोडमध्ये जास्तीत जास्त %1$,d गट वापरता येतात</string>
+    <string name="message_notification_free_app">मोफत मोडमध्ये फक्त 1 अ‍ॅप निवडता येते</string>
+    <string name="message_notification_free_apps">मोफत मोडमध्ये जास्तीत जास्त %1$,d अ‍ॅप्स निवडता येतात</string>
+    <string name="message_notification_free_text">मोफत मोडमध्ये फक्त 1 मजकूर रेकॉर्ड करता येतो</string>
+
+    <string name="message_time_alarm_free_counter">मोफत मोडमध्ये फक्त 1 अलार्म वापरता येतो</string>
+    <string name="message_time_alarm_max_counter">जास्तीत जास्त %1$d अलार्म वापरता येतात</string>
+    <string name="message_time_alarm_enabled">अलार्म सक्रिय</string>
+    <string name="message_time_alarm_disabled">अलार्म अक्षम</string>
+    <string name="message_time_alarm_off">अलार्म बंद</string>
+
+    <string name="message_touch_pattern_error">दिलेली पॅटर्न दुसऱ्या फंक्शनशी जुळते, कृपया वेगळी निवडा</string>
+    <string name="message_touch_free_patterns">मोफत मोडमध्ये जास्तीत जास्त %1$,d नियंत्रण वापरता येतात</string>
+    <string name="message_touch_record_help">%1$s मध्ये संगीत नियंत्रण किंवा \'फोन शोधा\' वापरा</string>
+
+    <string name="message_premium_mode_only">ही सुविधा फक्त प्रीमियम मोडमध्ये उपलब्ध आहे</string>
+    <string name="message_feature_is_not_supported">%1$s ही फिचर समर्थित नाही</string>
+    <string name="message_general_error">सेटिंग अयशस्वी (कनेक्शन तुटले), कृपया पुन्हा प्रयत्न करा</string>
+    <string name="message_internet_error">इंटरनेट कनेक्शन नाही</string>
+    <string name="message_internet_traffic_blocked">नेटवर्क ट्रॅफिक ब्लॉक आहे</string>
+    <string name="message_internet_ads_blocked">जाहिराती ब्लॉक केलेल्या आहेत</string>
+    <string name="message_gps_enable">GPS सुरू करा</string>
+    <string name="message_location_enable">लोकेशन परवानगी द्या</string>
+
+    <string name="message_in_progress">चालू आहे…</string>
+    <string name="message_no_data">डेटा उपलब्ध नाही</string>
+
+    <string name="message_rewarded_error">व्हिडिओ लोड होऊ शकला नाही</string>
+
+    <string name="message_new_message">नवीन संदेश आला आहे. तो फोनवर तपासा.</string>
+
+    <string name="message_permission_not_granted">परवानगी दिलेली नाही: %1$s</string>
+
+    <!-- Welcome dialog -->
+    <string name="dialog_welcome_title">स्वागत आहे!</string>
+    <string name="dialog_welcome_message"><![CDATA[समर्थित डिव्हाइसेस:
+    <watch_types/>
+    <p><app_name/> वापरण्यासाठी अधिकृत <device_type/> अ‍ॅप त्याच फोनवर स्थापित असणे आवश्यक आहे. प्रथम, <device_type/> अ‍ॅपमध्ये तुमचे घड्याळ पेअर करा, त्यानंतर हे अ‍ॅप वापरता येईल.</p>
+    <p>जर <device_type/> शोधण्यात अयशस्वी ठरले, तर शोध दरम्यान MAC पत्ता मॅन्युअली सेट करू शकता.</p>
+    <b>कनेक्शन समस्यांचे निराकरण:</b>
+    <br>- अलीकडील अ‍ॅप्स स्क्रीनवर <app_name/> ला लॉक करा (अ‍ॅप प्रीव्ह्यूवर खाली स्वाइप करून \'लॉक\' किंवा तत्सम पर्याय निवडा).
+    <br>- फोनच्या बॅटरी सेटिंग्जमध्ये <app_name/> साठी ऑप्टिमायझेशन बंद करा.
+    <br>- फोन/अ‍ॅप्स सेटिंग्जमधून Bluetooth Share आणि इतर \'Bluetooth\' संबंधित डेटा क्लिअर करा.
+    <br>- अधिक माहिती: https://dontkillmyapp.com
+    <br><br><small>हे उत्पादन आणि त्याचे फीचर्स वैद्यकीय उपयोगासाठी डिझाइन केलेले नाहीत. हे कोणत्याही आजाराचे निदान, प्रतिबंध किंवा उपचार करण्यासाठी वापरले जाऊ शकत नाहीत. सर्व मोजमाप आणि डेटा केवळ वैयक्तिक माहितीसाठी आहेत, आणि वैद्यकीय सल्ला किंवा उपचारासाठी वापरू नयेत.</small>
+    ]]></string>
+
+    <!-- Notification  -->
+    <string name="notification_group_nav_setting">सेटिंग</string>
+    <string name="notification_group_nav_filter">फिल्टर</string>
+    <string name="notification_group_nav_correction">दुरुस्ती</string>
+
+    <string name="notification_group_name">नाव</string>
+    <string name="notification_group_monitoring">सूचना निरीक्षण</string>
+    <string name="notification_group_monitoring_disabled">सूचना वगळा (अ‍ॅप्सच्या सूचना दाखवू नका)</string>
+    <string name="notification_group_alert_title">%1$s सूचना</string>
+    <string name="notification_group_text_customization">मजकूर सानुकूलन</string>
+    <string name="notification_group_text_app_name">अ‍ॅपचे नाव</string>
+    <string name="notification_group_text_name">नाव</string>
+    <string name="notification_group_text_title">शीर्षक</string>
+    <string name="notification_group_text_content">मजकूर</string>
+    <string name="notification_group_text_big_content">संपूर्ण मजकूर</string>
+    <string name="notification_group_text_content_slice_title">मजकूर लांबी</string>
+    <string name="notification_group_display_duration_title">दाखवण्याचा कालावधी</string>
+    <string name="notification_group_show_notification_title">सूचना दाखवा</string>
+    <string name="notification_group_immediate">सूचना आल्यानंतर लगेच दाखवा</string>
+    <string name="notification_group_connecting">कनेक्ट होताना सूचना</string>
+    <string name="notification_group_reminder">रिमाइंडर सूचना</string>
+    <string name="notification_group_ongoing">स्थायी सूचना (ज्या हटवता येत नाहीत) दाखवा</string>
+    <string name="notification_group_screen_off">फक्त स्क्रीन बंद असताना सूचना द्या</string>
+    <string name="notification_group_repeat_title">सूचना पुन्हा द्या</string>
+    <string name="notification_group_wakelock">फोन स्क्रीन जागृत करा</string>
+    <string name="notification_group_grouped_display_title">समूहित सूचनांसाठी प्रदर्शन पर्याय</string>
+    <string name="notification_group_grouped_sort_order_title">समूहित सूचनांचे क्रम</string>
+
+    <string name="notification_group_filter">सूचना फिल्टर करा</string>
+    <string name="notification_group_filter_title">शीर्षक फिल्टर करा</string>
+    <string name="notification_group_filter_content">मजकूर फिल्टर करा</string>
+    <string name="notification_group_filter_regex">Regex</string>
+    <string name="notification_group_filter_hint">फक्त शीर्षक किंवा मजकूर जुळल्यास सूचना द्या (case-insensitive)</string>
+    <string name="notification_group_filter_contains">या शब्दांपैकी कोणतेही असावे</string>
+    <string name="notification_group_filter_not_contains">या शब्दांपैकी एकही नसावे</string>
+
+    <string name="notification_group_sample_sms">SMS</string>
+    <string name="notification_group_sample_facebook">Messenger</string>
+    <string name="notification_group_sample_whatsapp">WhatsApp</string>
+
+    <string name="notification_group_correction">सूचना मजकूर दुरुस्ती</string>
+    <string name="notification_group_correction_title">शीर्षक दुरुस्ती</string>
+    <string name="notification_group_correction_content">मजकूर दुरुस्ती</string>
+    <string name="notification_group_correction_regex">Regex</string>
+    <string name="notification_group_correction_hint">केस-इनसेंसिटिव्ह (case insensitive)</string>
+    <string name="notification_group_correction_items">दुरुस्त करायचे मजकूर</string>
+    <string name="notification_group_correction_find">शोधा</string>
+    <string name="notification_group_correction_replace">या मजकुराने बदला</string>
+
+    <string name="notification_regex_hint">नॉन-अल्फान्यूमेरिक चिन्हांना विशेष अर्थ असतो. Regex वापर माहिती नसेल तर हे चिन्ह निवडू नका</string>
+
+    <string name="notification_confirm_close">खात्री आहे का की तुम्ही बदल रद्द करू इच्छिता?</string>
+
+    <string name="notification_edit_play_text_title">सूचनेचे शीर्षक</string>
+    <string name="notification_edit_play_text_content">सूचनेचा मजकूर:</string>
+
+    <!-- Incoming call alert -->
+    <string name="call_tab_call">येणारी कॉल</string>
+    <string name="call_tab_contacts">संपर्क</string>
+
+    <string name="call_incoming">येणारी कॉल</string>
+    <string name="call_incoming_summary_on">%1$s अ‍ॅपमध्ये कॉल सूचना बंद करायला विसरू नका</string>
+    <string name="call_incoming_caller_id">कॉलर ID दाखवा</string>
+
+    <string name="pref_call_notification_rejected">नकार दिलेल्या कॉलची सूचना दाखवा</string>
+    <string name="pref_call_notification_rejected_message">नकार दिलेली कॉल</string>
+    <string name="pref_call_notification_rejected_action">कॉल</string>
+
+    <string name="call_incoming_net_alert_title">इंटरनेट कॉलची येणारी सूचना</string>
+
+    <string name="call_missed_title">मिस्ड कॉलची सूचना</string>
+    <string name="call_missed_chooser_title">%1$s सूचना</string>
+    <string name="call_missed_notification">मिस्ड कॉल</string>
+
+    <string name="call_reject_button_action">कॉल नाकारण्याचे बटण</string>
+
+    <string name="touch_call_answer_title">कॉल उचला</string>
+    <string name="touch_call_answer_speakerphone_title">स्पीकर मोड</string>
+
+    <string name="call_end_title">कॉल नकारा / समाप्त करा</string>
+
+    <string name="touch_call_mute_title">कॉल म्यूट करा</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">फक्त कॉल येत असताना</string>
+    <string name="touch_call_mute_recognition_title">येणाऱ्या कॉलवेळी</string>
+
+    <string name="call_contact_edit_contact">संपर्क</string>
+    <string name="call_contact_edit_name">नाव</string>
+    <string name="call_contact_edit_phone_number">फोन नंबर</string>
+
+    <string name="call_contact_edit_setting_name_order">नाव क्रम</string>
+    <string name="call_contact_edit_setting_default">@string/default_</string>
+    <string name="call_contact_edit_setting_first_name">पहिले नाव</string>
+    <string name="call_contact_edit_setting_last_name">आडनाव</string>
+
+    <string name="message_call_contacts_free_counter">मोफत मोडमध्ये जास्तीत जास्त %1$d संपर्क वापरता येतात</string>
+    <string name="message_call_contacts_max_counter">जास्तीत जास्त %1$d संपर्क वापरता येतात</string>
+
+    <!-- App chooser dialog -->
+    <string name="app_chooser">अ‍ॅप निवडणारा</string>
+    <string name="action_search">शोधा</string>
+    <string name="action_filter_notification">सूचना फिल्टर</string>
+
+    <!-- Activity -->
+    <string name="step_details">क्रियाकलाप तपशील</string>
+
+    <string name="mi_band_tracker_step_title">%1$,d</string>
+    <string name="mi_band_tracker_distance_meter_title">%1$,d मी</string>
+    <string name="mi_band_tracker_distance_kilometer_title">%,.2f कि.मी.</string>
+    <string name="mi_band_tracker_distance_mile_title">%,.2f मैल</string>
+    <string name="mi_band_tracker_calorie_title">%1$,d कॅलोरी</string>
+
+    <string name="action_tracker_step">पावले</string>
+    <string name="action_tracker_distance">अंतर</string>
+    <string name="action_tracker_calorie">कॅलोरी</string>
+    <string name="action_tracker_duration">व्यायाम कालावधी</string>
+
+    <string name="step_goal_default_title">मूलभूत लक्ष्य</string>
+
+    <!-- Sleep monitoring -->
+    <string name="sleep_details">झोप तपशील</string>
+
+    <string name="sleep_awake_phase_short">जागे</string>
+    <string name="sleep_light_phase_short">हलकी झोप</string>
+    <string name="sleep_deep_phase_short">गाढ झोप</string>
+    <string name="sleep_rem_phase_short">REM</string>
+
+    <!-- Heart rate -->
+    <string name="heart_rate_details">हृदयगती तपशील</string>
+
+    <string name="heart_rate_continuous_measurement_title">सतत हृदयगती मोजणी</string>
+
+    <string name="heart_rate_alert_title">हृदयगती सूचना</string>
+    <string name="heart_rate_thresholds">कमी आणि जास्त हृदयगती मर्यादा</string>
+    <string name="low_heart_rate">कमी हृदयगती</string>
+    <string name="high_heart_rate">जास्त हृदयगती</string>
+
+    <!-- Blood oxygen -->
+    <string name="blood_oxygen_details">रक्तातील ऑक्सिजन तपशील</string>
+
+    <string name="blood_oxygen_level_measurement">ऑक्सिजन पातळी मोजणी</string>
+    <string name="measurement_interval">मोजणी अंतर</string>
+
+    <!-- Blood pressure -->
+    <string name="blood_pressure_details">रक्तदाब तपशील</string>
+
+    <string name="blood_pressure_level_measurement">रक्तदाब मोजणी</string>
+
+    <string name="blood_pressure_systolic_abbreviation">सि</string>
+    <string name="blood_pressure_diastolic_abbreviation">डि</string>
+    <string name="blood_pressure_unit">मिमीHg</string>
+
+    <!-- Workout -->
+    <string name="workout_details">वर्कआउट तपशील</string>
+
+    <!-- Alarm -->
+    <string name="action_time_alarm_sort_state_asc">स्थिती वाढत्या क्रमाने</string>
+    <string name="action_time_alarm_sort_watch_asc">घड्याळ वाढत्या क्रमाने</string>
+    <string name="action_time_alarm_sort_name_asc">नाव वाढत्या क्रमाने</string>
+
+    <string name="message_time_alarm_sync">%1$s अलार्म समक्रमित करीत आहे (सर्व अलार्म हटवले जातील आणि घड्याळावर पुन्हा सेट केले जातील)</string>
+
+    <string name="info_dialog_alarm"><![CDATA[
+    <p>सहकार्य मोड वापरत असताना, अधिकृत अ‍ॅप आणि <app_name/> अ‍ॅपच्या सेटिंग्ज एकमेकांवर परिणाम करू शकतात.</p>
+    अंतिम बदल वैध मानला जाईल.
+    ]]></string>
+
+    <!-- Reminder -->
+    <string name="reminder_repeat">प्रत्येक तासाला पुन्हा द्या</string>
+    <string name="reminder_notification_on_phone">फोनवर सूचना पाठवा</string>
+
+    <string name="message_reminder_enabled">रिमाइंडर सक्रिय आहे</string>
+    <string name="message_reminder_disabled">रिमाइंडर अक्षम आहे</string>
+    <string name="message_time_reminder_free_counter">मोफत मोडमध्ये फक्त 1 रिमाइंडर वापरता येतो</string>
+
+    <string name="info_dialog_reminder"><![CDATA[
+    रिमाइंडर दर्शवण्यासाठी Bluetooth कनेक्शन आवश्यक आहे.
+    ]]></string>
+
+    <!-- Do not disturb -->
+    <string name="pref_dnd_summary">डू नॉट डिस्टर्ब मोडमध्ये नियंत्रणांची स्थिती</string>
+    <string name="pref_dnd_enable_bluetooth">डू नॉट डिस्टर्ब सुरू होताना Bluetooth बंद करा, पूर्ण झाल्यावर पुन्हा सुरू करा</string>
+
+    <string name="info_dialog_dnd"><![CDATA[
+    जर तुम्ही सहकार्य मोड वापरत असाल, तर <device_type/> अ‍ॅपमध्ये डू नॉट डिस्टर्ब मोडची वेळ 00:00 ते 23:59 आणि स्थिती बंद असावी.
+    ]]></string>
+
+    <!-- Watch face -->
+    <string name="watch_face_tab_watch_faces">वॉच फेसेस</string>
+    <string name="watch_face_tab_watch_face_custom">सानुकूल फायली</string>
+    <string name="watch_face_tab_watch_face_editor">संपादक</string>
+
+    <string name="watch_face_download_title">वॉच फेस डाउनलोड करा</string>
+    <string name="watch_face_upload_title">वॉच फेस अपलोड करा</string>
+    <string name="watch_face_tool_title">उपयुक्त साधने</string>
+
+    <string name="watch_face_share_content">तुम्ही तयार केलेले वॉच फेस इतरांशी शेअर करू शकता. ईमेलद्वारे वॉच फेस आणि प्रिव्ह्यू फाइल पाठवा, तसेच पुढील माहिती द्या: लेखकाचे नाव, वॉच फेसचे नाव (कमाल 30 अक्षरे) आणि भाषा. फक्त उच्च दर्जाचे वॉच फेस प्रकाशित केले जातील.</string>
+
+    <string name="watch_face_upload_prepare">अपलोडसाठी तयारी…</string>
+    <string name="watch_face_upload_progress">अपलोड %1$,d%%</string>
+
+    <string name="watch_face_invalid_firmware">%1$s फर्मवेअर अज्ञात आहे किंवा वॉच फेस अपलोडला समर्थन देत नाही. कृपया अधिकृत अ‍ॅपद्वारे फर्मवेअर अपडेट करा. जर अधिकृत अ‍ॅपमध्ये वॉच फेस अपलोड उपलब्ध असेल, तर कृपया ते \'अभिप्राय\' विभागात कळवा.</string>
+    <string name="watch_face_invalid_auth">स्वतंत्र मोड वापरा. सहकार्य मोडमध्ये अधिकृत अ‍ॅप अपलोड प्रक्रियेत अडथळा आणू शकतो</string>
+    <string name="watch_face_invalid_free">मोफत मोडमध्ये आज आणखी वॉच फेस अपलोड करू शकत नाही</string>
+    <string name="watch_face_watch_rewarded_ads">पुढे जाण्यासाठी व्हिडिओ बघा</string>
+    <string name="watch_face_watch_rewarded_ads_uploading">अपलोड सुरू ठेवण्यासाठी व्हिडिओ बघा</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">व्हिडिओ सुरू होत आहे…</string>
+
+    <string name="watch_face_upload_method_title">पद्धत</string>
+    <string name="watch_face_upload_method_default">@string/default_</string>
+    <string name="watch_face_upload_method_alternative">पर्यायी</string>
+
+    <string name="watch_face_upload_speed_title">अपलोड वेग</string>
+    <string name="watch_face_upload_invalid_speed_hint">जर अपलोड प्रक्रिया अयशस्वी होत असेल, तर वेग कमी करा</string>
+    <string name="watch_face_upload_invalid_size_hint">वॉच फेस फाइल साईज अवैध आहे. गुणवत्ता कमी करा किंवा घटक हटवा</string>
+    <string name="watch_face_upload_invalid_battery_hint">घड्याळाची बॅटरी कमी आहे, कृपया चार्ज करा</string>
+
+    <string name="watch_face_tbwf_quality_title">.tbwf वॉच फेस गुणवत्ता</string>
+    <string name="watch_face_tbwf_quality_hint">जर घड्याळ समर्थन करत असेल, तर फाइल साईज कमी करता येते</string>
+
+    <string name="watch_face_tbwf_locale_title">.tbwf भाषा व देश सेटिंग</string>
+    <string name="watch_face_tbwf_locale_hint">आठवड्याचे दिवस, महिना विभाजक आणि दशांश चिन्ह</string>
+
+    <string name="message_watch_face_file_invalid">अवैध वॉच फेस फाइल</string>
+    <string name="message_watch_face_file_invalid_size">अवैध वॉच फेस फाइल साईज</string>
+    <string name="message_watch_face_file_invalid_battery">स्मार्टवॉचची बॅटरी कमी आहे</string>
+    <string name="message_watch_face_image_file_error">अवैध प्रतिमा फाइल</string>
+    <string name="message_watch_face_font_file_error">अवैध फॉन्ट फाइल</string>
+
+    <string name="action_chart_layout_2_columns">2-स्तंभ मांडणी</string>
+    <string name="action_chart_layout_3_columns">3-स्तंभ मांडणी</string>
+
+    <string name="watch_face_edit_dial">डायल</string>
+    <string name="watch_face_edit_preview">पूर्वावलोकन</string>
+    <string name="watch_face_edit_hour_digital">तास</string>
+    <string name="watch_face_edit_minute_digital">मिनिट</string>
+    <string name="watch_face_edit_second_digital">सेकंद</string>
+    <string name="watch_face_edit_am_pm">AM/PM निर्देशक</string>
+    <string name="watch_face_edit_am">AM</string>
+    <string name="watch_face_edit_pm">PM</string>
+    <string name="watch_face_edit_hour_analog">तास काटा</string>
+    <string name="watch_face_edit_minute_analog">मिनिट काटा</string>
+    <string name="watch_face_edit_second_analog">सेकंद काटा</string>
+    <string name="watch_face_edit_axis">फिरण्याचा अक्ष</string>
+    <string name="watch_face_edit_hour_minute_separator">तास व मिनिट विभाजक</string>
+    <string name="watch_face_edit_year">वर्ष</string>
+    <string name="watch_face_edit_year_month_separator">वर्ष व महिना विभाजक</string>
+    <string name="watch_face_edit_month">महिना</string>
+    <string name="watch_face_edit_month_name">महिन्याचे नाव</string>
+    <string name="watch_face_edit_month_day_separator">महिना व दिवस विभाजक</string>
+    <string name="watch_face_edit_day">दिवस</string>
+    <string name="watch_face_edit_dayOfWeek">आठवड्याचा दिवस</string>
+    <string name="watch_face_edit_battery_level">बॅटरी पातळी</string>
+    <string name="watch_face_edit_battery_level_percent_sign">बॅटरी पातळी %</string>
+    <string name="watch_face_edit_battery_level_image">बॅटरी प्रतिमा</string>
+    <string name="watch_face_edit_weather_temperature">तापमान</string>
+    <string name="watch_face_edit_weather_temperature_unit_sign">तापमान युनिट °</string>
+    <string name="watch_face_edit_weather_image">हवामान प्रतिमा</string>
+    <string name="watch_face_edit_connection_indicator_image">कनेक्शन निर्देशक प्रतिमा</string>
+    <string name="watch_face_edit_connected">जोडले</string>
+    <string name="watch_face_edit_disconnected">वियोजित</string>
+    <string name="watch_face_edit_steps">पावले</string>
+    <string name="watch_face_edit_steps_image">पावले प्रतिमा</string>
+    <string name="watch_face_edit_steps_goal_progress">पावलांचे लक्ष्य प्रगती</string>
+    <string name="watch_face_edit_distance">अंतर</string>
+    <string name="watch_face_edit_distance_image">अंतर प्रतिमा</string>
+    <string name="watch_face_edit_calories">कॅलोरी</string>
+    <string name="watch_face_edit_calories_image">कॅलोरी प्रतिमा</string>
+    <string name="watch_face_edit_heart_rate">हृदयगती</string>
+    <string name="watch_face_edit_heart_rate_image">हृदयगती प्रतिमा</string>
+
+    <string name="watch_face_edit_color">रंग</string>
+    <string name="watch_face_edit_font_family">फॉन्ट शैली</string>
+    <string name="watch_face_edit_character">अक्षर</string>
+    <string name="watch_face_edit_font_size">फॉन्ट आकार</string>
+    <string name="watch_face_edit_image">प्रतिमा</string>
+    <string name="watch_face_edit_image_png_jpeg">प्रतिमा (.png, .jpeg)</string>
+    <string name="watch_face_edit_image_png">प्रतिमा (.png)</string>
+    <string name="watch_face_edit_image_size">प्रतिमा आकार</string>
+    <string name="watch_face_edit_icon">चिन्ह</string>
+
+    <string name="watch_face_custom_watch_face_not_supported_title">ही घड्याळ एकमेव वॉच फेसेस अपलोडला समर्थन करत नाही</string>
+    <string name="watch_face_custom_watch_face_under_development_title">एकमेव वॉच फेस अपलोड फिचर अजून विकासाधीन आहे आणि भविष्यात उपलब्ध होऊ शकते, पण याची खात्री नाही.</string>
+
+    <!-- Touch monitoring -->
+    <string name="touch_tab_function">कार्य</string>
+    <string name="touch_tab_control">नियंत्रण</string>
+    <string name="touch_tab_testing">चाचणी</string>
+    <string name="touch_tab_setting">@string/setting_name</string>
+
+    <string name="touch_function_summary">स्वतंत्र मोड वापरत असाल किंवा Mi Fit योग्यरित्या व्यवस्थापित करत नसेल तर हे फिचर्स सेट करा</string>
+    <string name="touch_function">%1$s कार्य</string>
+    <string name="touch_function_as_touch">नियंत्रण मेनूमध्ये स्पर्श म्हणून फिचर वापरा</string>
+
+    <string name="touch_headline_incoming_call_title">येणारी कॉल</string>
+    <string name="touch_headline_other_function_title">इतर फिचर्स</string>
+    <string name="touch_headline_call_title">कॉल नियंत्रण</string>
+    <string name="touch_headline_music_title">संगीत नियंत्रण</string>
+    <string name="touch_headline_time_title">टायमर/स्टॉपवॉच नियंत्रण</string>
+    <string name="touch_headline_other_title">इतर नियंत्रण</string>
+
+    <string name="touch_device_location_title">फोन शोधा</string>
+    <string name="touch_device_location_not_muted_only_title">फक्त आवाज असेल तेव्हाच वाजवा (म्यूट/DnD नसेल)</string>
+
+    <string name="touch_mute_toggle_title">फोन म्यूट टॉगल</string>
+    <string name="touch_mute_toggle_ringer_mode_title">म्यूट मोड</string>
+    <string name="touch_mute_toggle_mute_off_title">म्यूट बंद</string>
+
+    <string name="touch_music_title">संगीत</string>
+    <string name="touch_music_function_launch">कोणताही संगीत प्लेअर सापडत नसेल तर प्ले बटणाने संगीत सुरू करा</string>
+    <string name="touch_music_function_mi_band_message_launch">प्ले बटणाने संगीत सुरू करा</string>
+    <string name="touch_music_function_mi_band_message_no_track_title">गाण्याचे नाव मिळू शकले नाही</string>
+
+    <string name="touch_call_out_title">कॉल करा</string>
+    <string name="touch_call_out_no_contact">संपर्क निवडा</string>
+    <string name="touch_call_out_summary">दुहेरी टॅपने कॉल उत्तर द्या</string>
+    <string name="touch_call_out_summary_support_call_display_button">बटण दाबून कॉलला उत्तर द्या</string>
+    <string name="touch_call_out_speakerphone_title">स्पीकरफोन</string>
+    <string name="touch_call_out_call_text">कॉल करा: %1$s</string>
+
+    <string name="touch_weather_title">हवामान अंदाज</string>
+    <string name="touch_weather_location">स्थान अद्यतनित करा</string>
+    <string name="touch_weather_precipitation">पर्जन्य</string>
+    <string name="touch_weather_cloud_cover">ढगांचे प्रमाण</string>
+    <string name="touch_weather_wind">वारा</string>
+
+    <string name="touch_repeat_notif_title">सूचना पुन्हा पाठवा</string>
+    <string name="touch_repeat_notif_clear_all">पुन्हा पाठवल्यावर सर्व सूचना हटवा</string>
+
+    <string name="touch_clear_notif_title">फोनवरील सूचना हटवा</string>
+
+    <string name="touch_music_play_pause_title">संगीत सुरू, थांबवा, खेळवा</string>
+    <string name="touch_music_skip_previous_title">संगीत सुरू, मागील गाणे</string>
+    <string name="touch_music_skip_next_title">संगीत सुरू, पुढील गाणे</string>
+    <string name="touch_music_headset_only_title">फक्त हेडसेट जोडले असेल तर</string>
+    <string name="touch_music_launch">संगीत सुरू करा</string>
+    <string name="touch_music_volume_up_title">संगीत आवाज वाढवा</string>
+    <string name="touch_music_volume_down_title">संगीत आवाज कमी करा</string>
+    <string name="touch_music_track_info_title">संगीत ट्रॅक माहिती दाखवा</string>
+
+    <string name="touch_time_launch_title">वेळ मॉनिटरिंग सुरू करा</string>
+    <string name="touch_time_launch_type_timer_title">टायमर</string>
+    <string name="touch_time_launch_type_stopper_title">स्टॉपवॉच</string>
+    <string name="touch_time_launch_type_interval_title">अंतर</string>
+    <string name="touch_time_launch_restart">प्रक्रियेत असल्यास पुन्हा सुरू करा</string>
+    <string name="touch_time_reminder_title">उरलेला/गेलेला वेळ दाखवा</string>
+
+    <string name="touch_google_assistant_title">Google सहाय्यक</string>
+
+    <string name="touch_flashlight_title">टॉर्च टॉगल</string>
+
+    <string name="touch_camera_title">फोटो काढा</string>
+    <string name="touch_camera_front_title">फ्रंट</string>
+    <string name="touch_camera_rear_title">बॅक</string>
+    <string name="touch_camera_install_title">इंस्टॉल करा</string>
+
+    <string name="touch_app_launcher1_title">अ‍ॅप लाँचर</string>
+    <string name="touch_app_launcher_package_no_title">अ‍ॅप्लिकेशन निवडा</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">फक्त स्क्रीन लॉक नसल्यास</string>
+
+    <string name="touch_broadcast1_title">ब्रॉडकास्ट पाठवा</string>
+    <string name="touch_broadcast1_action_title">इंटेंट अ‍ॅक्शन</string>
+    <string name="touch_broadcast1_package_title">इंटेंट पॅकेज नाव</string>
+
+    <string name="touch_http_request1_title">1. HTTP विनंती</string>
+    <string name="touch_http_request2_title">2. HTTP विनंती</string>
+    <string name="touch_http_request_url_title">URL</string>
+    <string name="touch_http_request_method_title">पद्धत</string>
+    <string name="touch_http_request_body_title">बॉडी</string>
+    <string name="touch_http_request_show_response_title">प्रतिसाद दाखवा</string>
+
+    <string name="touch_tasker_launcher1_title">1. Tasker कार्य लाँचर</string>
+    <string name="touch_tasker_launcher2_title">2. Tasker कार्य लाँचर</string>
+    <string name="touch_tasker_launcher_no_permission_title">Mi Bandage नंतर प्रथम Tasker इंस्टॉल करा</string>
+    <string name="touch_tasker_launcher_no_access_title">बाह्य प्रवेश सक्षम करा</string>
+    <string name="touch_tasker_launcher_no_task_title">कार्य निवडा</string>
+
+    <string name="touch_testing_title">स्पर्श मॉनिटरिंग</string>
+    <string name="touch_testing_second">से.</string>
+
+    <string name="touch_setting_detection_time_title">स्पर्श शोधण्याचा वेळ</string>
+    <string name="touch_setting_detection_time_button_hint">कमी मूल्य असल्यास, बटण क्रियेसाठी जलद टॅप आवश्यक आहे</string>
+
+    <string name="touch_setting_detection_method_title">स्पर्श शोधण्याची पद्धत</string>
+
+    <string name="touch_setting_recognition_start_title">स्पर्श ओळख सुरू करा</string>
+    <string name="touch_setting_recognition_start_trigger_title">ट्रिगर</string>
+    <string name="touch_setting_recognition_time_title">ओळखण्याचा वेळ</string>
+
+    <string name="touch_setting_recognition_mi_band_signal_title">%1$s सिग्नल</string>
+    <string name="touch_setting_recognition_succeeded_title">ओळखलेले स्पर्श पॅटर्न</string>
+    <string name="touch_setting_recognition_failed_title">ओळखता न आलेले स्पर्श पॅटर्न</string>
+
+    <string name="info_dialog_touch"><![CDATA[
+    <p>स्वतंत्र मोडमध्ये योग्यरित्या कार्य करते. सहकार्य मोड वापरत असाल तर अधिकृत <app_official/> अ‍ॅप देखील ही फिचर्स हाताळेल, त्यामुळे अचूक कार्य सुनिश्चित करता येणार नाही.</p>
+    <p><b>फोन Bluetooth सेटिंग्स:</b> <device_name/> इनपुट डिव्हाइस अक्षम करा</p>
+    <b><u>ओळखलेले स्पर्श</u></b>
+    <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
+    <br><device_type/> संगीत नियंत्रण
+    <p><img src="ic_search">
+    <br><device_type/> माझा फोन शोधा
+    </p>
+    प्रत्येक फिचरसाठी एकापेक्षा अधिक स्पर्श रेकॉर्ड होऊ शकतात.
+    ]]></string>
+
+
+    <!-- Weather  -->
+    <string name="weather_tab_weather_forecast">हवामान</string>
+    <string name="weather_tab_location">स्थान</string>
+    <string name="weather_tab_settings">@string/setting_name</string>
+
+    <string name="weather_location_title">स्थान</string>
+
+    <string name="weather_forecast_title">हवामानाचा अंदाज</string>
+
+    <string name="weather_setting_provider">हवामान सेवा प्रदाता</string>
+    <string name="weather_city_title">शहर</string>
+    <string name="weather_unit_title">युनिट</string>
+    <string name="weather_unit_metric">मेट्रिक (सेल्सियस)</string>
+    <string name="weather_unit_imperial">इंपेरियल (फॅरेनहाइट)</string>
+    <string name="weather_automatic_update">पार्श्वभूमीत स्थान आपोआप अपडेट करा</string>
+    <string name="weather_automatic_update_title">सद्याचे स्थान वापरा</string>
+    <string name="weather_automatic_update_summary">हे ॲप्लिकेशन हवामान अपडेटसाठी स्थान डेटा गोळा करते, जरी ॲप बंद असले किंवा वापरात नसले तरीही.</string>
+
+    <string name="permission_background_location">%1$s ला ॲप बंद असतानाही स्थान डेटा गोळा करण्याची परवानगी असेल</string>
+    <string name="permission_error_title">%1$s अनुमती अपडेट करू शकत नाही</string>
+    <string name="permission_error_description">सेटिंग्ज उघडा आणि स्थानाच्या अनुमतीसाठी ”%1$s” पर्याय निवडा</string>
+    <string name="all_the_time">नेहमी</string>
+
+    <string name="weather_current_title">सद्य हवामान</string>
+    <string name="weather_current_location">सद्य स्थान</string>
+    <string name="weather_current_temperature">सद्य तापमान</string>
+
+    <string name="weather_precipitation_rain">पाऊस</string>
+    <string name="weather_precipitation_snow">हिमवर्षाव</string>
+    <string name="weather_cloud_cover_abbreviation">ढक</string>
+    <string name="weather_cloud_cover">ढग</string>
+    <string name="weather_humidity">आर्द्रता</string>
+
+    <string name="weather_north">उ</string>
+    <string name="weather_east">पू</string>
+    <string name="weather_south">द</string>
+    <string name="weather_west">प</string>
+
+    <!-- Text customization -->
+    <string name="pref_text_reminder_repeat_interval_title">स्मरणपत्र पुनरावृत्ती अंतर</string>
+    <string name="pref_text_reminder_repeat_interval_summary">सूचना > स्मरणपत्र चेतावणी फंक्शनसाठी हे वेळापत्रक वापरले जाते</string>
+    <string name="pref_text_emoticon_title">इमोजी रूपांतर</string>
+    <string name="pref_text_emoticon_summary_on">इमोजीना इमोटिकॉनमध्ये रूपांतरित करा</string>
+    <string name="pref_text_uppercase_title">मोठ्या अक्षरात रूपांतर</string>
+    <string name="pref_text_uppercase_summary_on">लहान अक्षरे मोठ्या अक्षरात रूपांतरित करा</string>
+    <string name="pref_text_alphanumeric_title">अल्फान्यूमेरिक आणि ASCII वर्ण</string>
+    <string name="pref_text_alphanumeric_summary_on">फक्त अल्फान्यूमेरिक आणि ASCII वर्ण दाखवा</string>
+    <string name="pref_text_transliteration_title">लिप्यंतरण</string>
+    <string name="pref_text_transliteration_summary_on">उच्चार चिह्न असलेली अक्षरे त्यांच्या साध्या रूपात रूपांतरित करा</string>
+    <string name="pref_text_line_separator_title">ओळ विभाजक बदली</string>
+    <string name="pref_text_line_separator_summary_on">डीफॉल्ट ओळ विभाजक इतर वर्णांनी बदला</string>
+    <string name="pref_text_line_separator_value_title">बदलण्याची अक्षरे</string>
+    <string name="pref_text_char_replacement_title">वर्ण, इमोजी बदल</string>
+    <string name="pref_text_char_replacement_summary_on">एक वर्ण दुसऱ्याने बदला</string>
+    <string name="pref_text_char_replacement_find">शोधा</string>
+    <string name="pref_text_char_replacement_replace">याने बदला</string>
+
+    <!-- Export -->
+    <string name="export_tab_database">डेटा निर्यात</string>
+    <string name="export_start_date">निर्यातीची प्रारंभ तारीख</string>
+
+    <!-- Theme -->
+    <string name="theme_tab_theme">थीम</string>
+
+    <string name="theme_title">थीम निवडा</string>
+    <string name="theme_background_color_title">पार्श्वभूमीचा रंग</string>
+
+    <string name="theme_widget_background_color_title">रंग</string>
+    <string name="theme_color_dynamic_color_title">डायनॅमिक रंग</string>
+    <string name="theme_color_predefined_colors_title">पूर्वनिर्धारित रंग</string>
+
+    <string name="theme_notification_title">सूचना पट्टीत स्थिती दाखवा</string>
+
+    <string name="theme_cat_color_setting">रंग सेटिंग्ज</string>
+
+    <!-- Feedback -->
+    <string name="action_log_notification">नोंद</string>
+
+    <string name="feedback_google_play_title">ॲपला रेट करा</string>
+    <string name="feedback_request_feature_title">वैशिष्ट्य विनंती, बग अहवाल</string>
+    <string name="feedback_request_feature_summary">स्वयंचलित ईमेल प्रक्रिया, उत्तर मिळेलच असे नाही</string>
+    <string name="feedback_translation_title">%1$s भाषांतर</string> <!-- %1$s = App name -->
+    <string name="feedback_translation_title_summary">कृपया भाषांतरात मदत करा</string>
+
+    <!-- Premium mode -->
+    <string name="purchase_advantage_title">प्रीमियम मोडचे फायदे</string>
+    <string name="purchase_advantage"><![CDATA[
+    <p>• विकासासाठी आर्थिक समर्थन</p>
+    <p>• जाहिराती नाहीत</p>
+    <p>• सूचना सेटिंग्जवर कोणतीही मर्यादा नाही</p>
+    <p>• कॉल सेटिंग्जवर कोणतीही मर्यादा नाही</p>
+    <p>• दररोज अमर्याद वॉचफेस अपलोड</p>
+    <p>• अलार्मच्या संख्येवर कोणतीही मर्यादा नाही (घड्याळाची मर्यादा लागू होऊ शकते)</p>
+    <p>• "डिस्टर्ब करू नका" मोड अमर्याद</p>
+    <p>• टच सेटिंग्जवर कोणतीही मर्यादा नाही</p>
+    <p>• अधिक वारंवार हवामान अद्यतने, स्वयंचलित स्थान अद्यतन, AccuWeather पर्याय</p>
+    <p>• तपशीलवार दैनिक आलेख</p>
+    • इतर सर्व वैशिष्ट्यांवरील मर्यादा हटवा…
+    ]]></string>
+
+    <string name="purchase_policy_title">प्रीमियम मोडसाठी अटी व शर्ती</string>
+    <string name="purchase_policy"><![CDATA[
+    <p>• मी ॲप वापरून पाहिले आहे आणि ते अपेक्षेप्रमाणे कार्य करत आहे हे मी मान्य करतो.</p>
+    <p>• प्रणालीमध्ये (उदाहरणार्थ Android अपडेट्स), हार्डवेअरमध्ये किंवा इतर ॲप्समधील बदलांमुळे निर्माण होणाऱ्या त्रुटींकरिता मी परतावा किंवा नुकसानभरपाई मागणार नाही याची मला जाणीव आहे.</p>
+    <p>• सर्व खरेदी अंतिम आहेत आणि त्यावर परतावा नाही (Google च्या परतावा धोरणानुसार परवानगी दिल्यास वगळता).</p>
+    <p>• हे ॲप कोणत्याही प्रकारची (स्पष्ट किंवा अप्रत्यक्ष) हमी देत नाही.</p>
+    <p>• ॲपचा वापर तुमच्या स्वतःच्या जोखमीवर आधारित आहे. ॲपच्या वापरामुळे झालेल्या थेट किंवा अप्रत्यक्ष नुकसानीसाठी किंवा डेटा गमावल्यास डेव्हलपर जबाबदार नाही.</p>
+    <p>• प्रीमियम मोड तुमच्या Google खात्याशी लिंक केला जातो आणि ॲप पुनर्स्थापित केल्यावर देखील कार्यरत राहतो.</p>
+    <i>खरेदी नंतर ॲप पुन्हा सुरू करणे आवश्यक आहे.</i>
+    ]]></string>
+
+    <string name="purchase_google_play_services_not_available">Google Play सेवा उपलब्ध नाहीत</string>
+
+    <string name="purchase_agree">मी अटी व शर्तींना संमती देतो.</string>
+    <string name="purchase_order_id">ऑर्डर आयडी</string>
+    <string name="purchase_order_id_help">येथून कॉपी करा:
+    \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+    \n<a href="https://payments.google.com">https://payments.google.com</a>
+    </string>
+
+    <string name="purchase_info">एकदाच शुल्क ・ %1$s</string> <!-- %1$s = price -->
+    <string name="purchase_button_purchase">खरेदी करा</string>
+
+    <!-- Privacy policy -->
+    <string name="privacy_policy_tab_privacy_policy">गोपनीयता धोरण</string>
+    <string name="privacy_policy_tab_user_consent">वापरकर्त्याच्या संमतीचे व्यवस्थापन</string>
+    <string name="privacy_policy_tab_eu_consent">EU आणि USA वापरकर्ता संमती</string>
+    <string name="privacy_policy_tab_non_eu_consent">इतर क्षेत्रातील वापरकर्ता संमती</string>
+
+    <string name="privacy_policy_collect_title">आम्ही गोळा केलेली माहिती</string>
+    <string name="privacy_policy_collect"><![CDATA[
+    <p>• आम्ही फक्त अज्ञात माहिती गोळा करतो.</p>
+    <p>• आम्ही आपण कोणत्या सेवा वापरता आणि कशा प्रकारे वापरता यासंबंधी अ‍ॅप स्तरावर माहिती गोळा करतो (Google Analytics).</p>
+    <p>• आम्ही बग, त्रुटी आणि क्रॅश यासंबंधी अ‍ॅप स्तरावर माहिती गोळा करतो जेणेकरून सुधारणा करता येतील (Firebase Crashlytics).</p>
+    <p>• आम्ही कार्यक्षमतेविषयी माहिती गोळा करतो जेणेकरून अ‍ॅपचा कार्यप्रदर्शन सुधारता येईल (Firebase Performance Monitoring).</p>
+    <p>• Google Firebase प्लॅटफॉर्म फक्त अज्ञात माहिती गोळा करतो. ही माहिती वैयक्तिक ओळख न करता ट्रेंड्सचा अहवाल सादर करते.
+    Firebase प्लॅटफॉर्म खालील माहिती गोळा करू शकतो: Firebase installation ID, अ‍ॅप स्थिती, डिव्हाइस मेटाडेटा (डिव्हाइस मॉडेल, CPU आर्किटेक्चर, RAM आणि स्टोरेज आकार, OS, स्क्रीन ओरिएंटेशन, देश, भाषा/स्थानिक सेटिंग), स्टॅक ट्रेसेस, कार्यप्रदर्शन मेट्रिक्स (उदा. अ‍ॅप सुरू होण्याचा वेळ, नेटवर्क प्रतिसाद वेळ, नेटवर्क URL), CPU/स्मृती वापर, अंदाजे IP पत्ता …</p>
+    <p>• आम्ही स्थान डेटा फक्त हवामान अद्यतनांसाठी वापरतो, आणि तेही आपण ही सुविधा सक्षम केल्यास.</p>
+    • ही माहिती गोळा व प्रक्रिया करण्याचे कायदेशीर कारण म्हणजे अ‍ॅपची कार्यक्षमता व स्थिरता सुधारण्याचा आमचा वैध हितसंबंध.
+    ]]></string>
+
+    <string name="privacy_policy_cookies_title">कुकीज आणि तत्सम तंत्रज्ञान</string>
+    <string name="privacy_policy_cookies"><![CDATA[
+    • काही तृतीय-पक्ष सेवा जसे की AdMob वैयक्तिकृत जाहिराती दाखवण्यासाठी कुकीज किंवा तत्सम तंत्रज्ञान वापरू शकतात. आपण आपल्या Google खात्याच्या सेटिंगमधून जाहिरात वैयक्तिकरण व्यवस्थापित करू शकता.
+    ]]></string>
+
+    <string name="privacy_policy_retention_title">डेटा साठवणी कालावधी</string>
+    <string name="privacy_policy_retention"><![CDATA[
+    • गोळा केलेली माहिती Google Firebase त्यांच्या धोरणांनुसार साठवते आणि केवळ विश्लेषण, निदान आणि कार्यप्रदर्शन सुधारण्यासाठी आवश्यक कालावधीसाठी ठेवते.
+    ]]></string>
+
+    <string name="privacy_policy_not_collect_title">आम्ही गोळा न करणारी माहिती</string>
+    <string name="privacy_policy_not_collect"><![CDATA[
+    <p>• आम्ही आपली वैयक्तिक ओळख पटवणारी कोणतीही माहिती गोळा करत नाही. म्हणजेच आम्ही आपले नाव, पत्ता, फोन क्रमांक, ईमेल पत्ता किंवा MAC पत्ता गोळा करत नाही.</p>
+    • आम्ही आरोग्यविषयक वैयक्तिक माहिती, संपर्कांची माहिती किंवा आपल्या डिव्हाइसवर प्रदर्शित झालेल्या सूचना यांचे कोणतेही तपशील गोळा करत नाही.
+    ]]></string>
+
+    <string name="privacy_policy_share_title">आम्ही सामायिक केलेली माहिती</string>
+    <string name="privacy_policy_share"><![CDATA[
+    • आम्ही Google आणि जाहिरात सेवा प्रदात्यांव्यतिरिक्त कोणत्याही कंपनी किंवा संस्थेसोबत माहिती सामायिक करत नाही.
+    ]]></string>
+
+    <string name="privacy_policy_use_title">आम्ही वापरत असलेला वैयक्तिक व संवेदनशील डेटा</string>
+    <string name="privacy_policy_use"><![CDATA[
+    • आम्ही स्थान डेटा फक्त हवामान माहिती अद्यतनित करण्यासाठी वापरतो, आणि तेही आपण ही सुविधा सक्षम केल्यास.
+    ]]></string>
+
+    <string name="privacy_policy_rights_title">आपले अधिकार</string>
+    <string name="privacy_policy_rights"><![CDATA[
+    <p>• विश्लेषण, क्रॅश आणि कार्यप्रदर्शन डेटा पूर्णपणे अज्ञात आहे व कोणत्याही व्यक्तीची ओळख पटवण्यासाठी वापरता येत नाही. त्यामुळे हे डेटा वैयक्तिक माहिती म्हणून गणले जात नाहीत आणि GDPRसारख्या कायद्यांनुसार प्रवेश, सुधारणा किंवा वगळण्याच्या अधिकारांखाली येत नाहीत.</p>
+    <p>• आपण अ‍ॅप अनइंस्टॉल करून किंवा Google खाते किंवा डिव्हाइसवरील गोपनीयता सेटिंगद्वारे डेटा गोळा करण्यास नकार देऊ शकता.</p>
+    • आपल्या गोपनीयतेसंबंधी अधिकारांबाबत अधिक माहितीसाठी कृपया अ‍ॅपमधील सपोर्ट चॅनेलचा वापर करून संपर्क साधा.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">तृतीय-पक्ष सेवा पुरवठादारांची गोपनीयता धोरणे</string>
+    <string name="privacy_policy_links"><![CDATA[
+    <p><a href="https://policies.google.com/privacy">Google गोपनीयता धोरण (Google Play Services सह)</a></p>
+    <p><a href="https://policies.google.com/technologies/ads">AdMob डेटा वापर</a></p>
+    <p><a href="https://support.google.com/analytics/answer/6004245">Google Analytics डेटा वापर</a></p>
+    <p><a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics अटी</a></p>
+    <a href="https://firebase.google.com/support/privacy">Firebase गोपनीयता आणि सुरक्षितता (Performance Monitoring सहित)</a>
+    ]]></string>
+
+    <string name="privacy_policy_eu_consent_title">स्थिती</string>
+    <string name="privacy_policy_eu_consent_title_obtained">संमती प्राप्त</string>
+    <string name="privacy_policy_eu_consent_title_personalized">वैयक्तिकृत, सुसंगत जाहिराती</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">गैर-वैयक्तिकृत, कमी सुसंगत जाहिराती</string>
+    <string name="privacy_policy_eu_consent_title_unknown">अज्ञात</string>
+
+    <string name="privacy_policy_eu_consent_setting">सेटिंग</string>
+
+
+    <!-- Custom vibration dialog -->
+    <string name="custom_vibration_title">व्हायब्रेशन सेटिंग</string>
+
+    <!-- Shortcuts -->
+    <string name="shortcut">शॉर्टकट</string>
+    <string name="shortcut_visible_items">शॉर्टकट आयटम्स</string>
+    <string name="shortcut_hidden_items">लपवलेले शॉर्टकट आयटम्स</string>
+
+    <string name="shortcut_status">स्थिती</string>
+    <string name="shortcut_heart_rate">हृदय गती</string>
+    <string name="shortcut_blood_oxygen">रक्तातील ऑक्सिजन</string>
+    <string name="shortcut_sleep">झोप</string>
+    <string name="shortcut_breathing">श्वासोच्छ्वास</string>
+    <string name="shortcut_weather">हवामान</string>
+    <string name="shortcut_stress">तणाव</string>
+
+    <!-- Actions  -->
+    <string name="tab_daily_charts">दैनिक चार्ट्स</string>
+    <string name="tab_weekly_charts">साप्ताहिक चार्ट्स</string>
+    <string name="tab_monthly_charts">मासिक चार्ट्स</string>
+    <string name="tab_yearly_charts">वार्षिक चार्ट्स</string>
+
+    <string name="ad_attribution">जाहिरात</string>
+    <string name="on">चालू</string>
+    <string name="off">बंद</string>
+    <string name="none">काहीही नाही</string>
+    <string name="heart_rate_bpm">bpm</string>
+    <string name="heart_rate_mhr">MHR</string>
+    <string name="date">तारीख</string>
+    <string name="time">वेळ</string>
+    <string name="time_start">सुरुवातीची वेळ</string>
+    <string name="time_end">शेवटची वेळ</string>
+    <string name="ringer_mode_vibrate">व्हायब्रेट</string>
+    <string name="ringer_mode_silent">मूक</string>
+    <string name="ringer_mode_dnd_priority_only">डू नॉट डिस्टर्ब (फक्त प्राधान्य)</string>
+    <string name="ringer_mode_dnd_alarms_only">डू नॉट डिस्टर्ब (फक्त अलार्म)</string>
+    <string name="ringer_mode_dnd_total_silence">डू नॉट डिस्टर्ब (पूर्ण शांतता)</string>
+    <string name="unknown">अज्ञात</string>
+    <string name="maximum">कमाल</string>
+    <string name="all_day">संपूर्ण दिवस</string>
+    <string name="timed">वेळनिश्चित</string>
+    <string name="file_name">फाईलचे नाव</string>
+    <string name="default_">डीफॉल्ट</string>
+    <string name="default_by_phone">डीफॉल्ट (फोननुसार)</string>
+    <string name="custom">सानुकूल</string>
+    <string name="invalid_setting">अवैध सेटिंग</string>
+    <string name="ringtone">रिंगटोन</string>
+    <string name="ringtone_chooser">रिंगटोन निवडक</string>
+    <string name="uninstalled">अनइंस्टॉल केले</string>
+    <string name="value">मूल्य</string>
+    <string name="downloads">डाउनलोड्स</string>
+    <string name="share">शेअर करा</string>
+    <string name="send">पाठवा</string>
+    <string name="narrow">संकुचित</string>
+    <string name="short_">लहान</string>
+    <string name="medium">मध्यम</string>
+    <string name="long_">लांब</string>
+    <string name="full">पूर्ण</string>
+    <string name="alignment_left">डावीकडे संरेखन</string>
+    <string name="alignment_center">मध्यभागी संरेखन</string>
+    <string name="alignment_right">उजवीकडे संरेखन</string>
+    <string name="visible">दृश्यमान</string>
+    <string name="invisible">अदृश्य</string>
+    <string name="placeholder">प्लेसहोल्डर</string>
+    <string name="image_scale_fit">फिट</string>
+    <string name="image_scale_crop">क्रॉप</string>
+    <string name="image_scale_stretch">स्ट्रेच</string>
+    <string name="resource_manager">संसाधन व्यवस्थापक</string>
+
+    <string name="action_premium_mode">प्रिमियम मोड</string>
+    <string name="action_dismiss">बंद करा</string>
+    <string name="action_setting">सेटिंग</string>
+    <string name="action_delete">हटा</string>
+    <string name="action_rename">नाव बदला</string>
+    <string name="action_export">निर्यात करा</string>
+    <string name="action_synchronization">सिंक्रोनायझेशन</string>
+    <string name="action_download">डाउनलोड</string>
+    <string name="action_upload">अपलोड</string>
+    <string name="action_backup">बॅकअप</string>
+    <string name="action_restore">पुनर्संचयित करा</string>
+    <string name="action_filter_no">फिल्टर नाही</string>
+    <string name="action_bluetooth">ब्लूटूथ</string>
+    <string name="action_favorite">आवडते</string>
+    <string name="action_save">सेव्ह करा</string>
+    <string name="action_test">चाचणी</string>
+    <string name="action_discard">वगळा</string>
+    <string name="action_keep_editing">संपादन सुरू ठेवा</string>
+    <string name="action_new">नवीन</string>
+    <string name="action_new_file_extension">नवीन %1$s</string>
+    <string name="action_edit">संपादित करा</string>
+    <string name="action_start_stop">प्रारंभ/थांबवा</string>
+    <string name="action_contacts">संपर्क</string>
+    <string name="action_single_selection">एकेरी निवड</string>
+    <string name="action_multiple_selection">अनेक निवड</string>
+    <string name="action_selection_boundaries">निवडीच्या सीमा</string>
+    <string name="action_object_boundaries">ऑब्जेक्टच्या सीमा</string>
+    <string name="action_select">निवडा</string>
+    <string name="action_select_all">सर्व निवडा</string>
+    <string name="action_select_texts">मजकूर निवडा</string>
+    <string name="action_select_images">प्रतिमा निवडा</string>
+    <string name="action_deselect_all">निवड रद्द करा</string>
+    <string name="synchronized_from_watch">घड्याळावरून समक्रमित</string>
+    <string name="synchronization_succeeded">समक्रमण यशस्वी</string>
+    <string name="synchronization_failed">समक्रमण अयशस्वी</string>
+
+    <string name="action_chart">चार्ट</string>
+    <string name="action_zoom_in">झूम करा</string>
+    <string name="action_chart_normalize_raw_data">मोजलेली मूल्ये</string>
+    <string name="action_chart_normalize_quarter_hourly">प्रत्येक पंधरा मिनिटांची मूल्ये</string>
+    <string name="action_chart_normalize_half_hourly">प्रत्येक अर्ध्या तासाची मूल्ये</string>
+    <string name="action_chart_normalize_hourly">प्रत्येक तासाची मूल्ये</string>
+    <string name="action_chart_sort_time_asc">वेळ वाढत्या क्रमाने</string>
+    <string name="action_chart_sort_time_desc">वेळ कमी होत जाणाऱ्या क्रमाने</string>
+    <string name="action_chart_sort_step_asc">पावले वाढत्या क्रमाने</string>
+    <string name="action_chart_sort_step_desc">पावले कमी होत जाणाऱ्या क्रमाने</string>
+    <string name="action_chart_sort_duration_asc">कालावधी वाढत्या क्रमाने</string>
+    <string name="action_chart_sort_duration_desc">कालावधी कमी होत जाणाऱ्या क्रमाने</string>
+    <string name="action_chart_sort_heart_rate_asc">हृदयगती वाढत्या क्रमाने</string>
+    <string name="action_chart_sort_heart_rate_desc">हृदयगती कमी होत जाणाऱ्या क्रमाने</string>
+    <string name="action_chart_sort_spo2_asc">SpO2 वाढत्या क्रमाने</string>
+    <string name="action_chart_sort_spo2_desc">SpO2 कमी होत जाणाऱ्या क्रमाने</string>
+    <string name="action_chart_sort_blood_pressure_asc">रक्तदाब वाढत्या क्रमाने</string>
+    <string name="action_chart_sort_blood_pressure_desc">रक्तदाब कमी होत जाणाऱ्या क्रमाने</string>
+    <string name="action_chart_monthly_calendar">कॅलेंडर</string>
+    <string name="action_chart_monthly_compact">कॉम्पॅक्ट</string>
+
+    <string name="activity_progress_title_prepare">सिंकसाठी तयारी…</string>
+    <string name="activity_progress_title_sync">डेटा सिंक करत आहे…</string>
+    <string name="activity_progress_title_save">डेटा जतन करत आहे…</string>
+
+    <string name="required_value">आवश्यक</string>
+
+    <string name="percent_0">0%</string>
+    <string name="percent_10">10%</string>
+    <string name="percent_20">20%</string>
+    <string name="percent_30">30%</string>
+    <string name="percent_40">40%</string>
+    <string name="percent_50">50%</string>
+    <string name="percent_60">60%</string>
+    <string name="percent_70">70%</string>
+    <string name="percent_80">80%</string>
+    <string name="percent_90">90%</string>
+    <string name="percent_100">100%</string>
+
+    <!-- Constants -->
+    <string name="const_day_of_week_sunday">रविवार</string>
+    <string name="const_day_of_week_monday">सोमवार</string>
+    <string name="const_day_of_week_tuesday">मंगळवार</string>
+    <string name="const_day_of_week_wednesday">बुधवार</string>
+    <string name="const_day_of_week_thursday">गुरुवार</string>
+    <string name="const_day_of_week_friday">शुक्रवार</string>
+    <string name="const_day_of_week_saturday">शनिवार</string>
+
+    <string name="const_time_abbreviation_day">दि</string>
+    <string name="const_time_abbreviation_hour">ता</string>
+    <string name="const_time_abbreviation_minute">मि</string>
+    <string name="const_time_abbreviation_sec">से</string>
+    <string name="const_time_abbreviation_milli_sec">मि.से.</string>
+
+    <string name="const_number">%1$,d</string>
+    <string name="const_number_float">%,.2f</string>
+    <string name="const_number_float_1_precision">%,.1f</string>
+    <string name="const_percentage">%1$,d%%</string>
+    <string name="const_percent_sign">%</string>
+    <string name="const_unit_kilometer">कि.मी.</string>
+    <string name="const_unit_meter">मी</string>
+    <string name="const_unit_centimeter">से.मी.</string>
+    <string name="const_unit_mile">मैल</string>
+    <string name="const_unit_kilogram">कि.ग्रा.</string>
+    <string name="const_unit_kcal">कॅलोरी</string>
+    <string name="const_unit_dbm">dBm</string>
+
+    <plurals name="plural_time_hour">
+        <item quantity="one">%d तास</item>
+        <item quantity="other">%d तास</item>
+    </plurals>
+
+    <plurals name="plural_time_minute">
+        <item quantity="one">%d मिनिट</item>
+        <item quantity="other">%d मिनिटे</item>
+    </plurals>
+
+    <plurals name="plural_time_second">
+        <item quantity="one">%d सेकंद</item>
+        <item quantity="other">%d सेकंद</item>
+    </plurals>
+
+</resources>

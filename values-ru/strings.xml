@@ -3,144 +3,145 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:locale="ru">
 
     <!--  Navigation  -->
-    <string name="menu_nav_notification">Уведомления</string>
-    <string name="menu_nav_call">Вызов</string>
+    <string name="menu_nav_notification">Уведомление</string>
+    <string name="menu_nav_call">Звонок</string>
     <string name="menu_nav_step">Активность</string>
     <string name="menu_nav_sleep">Сон</string>
     <string name="menu_nav_heart_rate">Пульс</string>
-    <string name="menu_nav_blood_oxygen">Уровень кислорода в крови</string>
-    <string name="menu_nav_blood_pressure">Артериальное давление</string>
-    <string name="menu_nav_workout">Тренировки</string>
+    <string name="menu_nav_blood_oxygen">Кислород в крови</string>
+    <string name="menu_nav_blood_pressure">Давление</string>
+    <string name="menu_nav_workout">Тренировка</string>
     <string name="menu_nav_alarm">Будильник</string>
-    <string name="menu_nav_reminder">Напоминания</string>
-    <string name="menu_nav_dnd">Режим \"Не беспокоить\"</string>
+    <string name="menu_nav_reminder">Напоминание</string>
+    <string name="menu_nav_dnd">Не беспокоить</string>
     <string name="menu_nav_watch_face">Циферблат</string>
     <string name="menu_nav_weather">Погода</string>
-    <string name="menu_nav_touch">Касания</string>
-    <string name="menu_nav_more">Ещё</string>
-    <string name="menu_nav_text_customization">Настройки текста</string>
+    <string name="menu_nav_touch">Управление касанием</string>
+    <string name="menu_nav_more">Дополнительно</string>
+    <string name="menu_nav_text_customization">Настройка текста</string>
     <string name="menu_nav_export">Экспорт</string>
-    <string name="menu_nav_premium_mode">Премиум</string>
+    <string name="menu_nav_premium_mode">Премиум режим</string>
     <string name="menu_nav_feedback">Обратная связь</string>
     <string name="menu_nav_privacy_policy">Политика конфиденциальности</string>
-    <string name="menu_nav_theme">Темы</string>
+    <string name="menu_nav_theme">Тема</string>
 
-    <string name="setting_name">Настройки</string>
+    <string name="setting_name">Настройка</string>
     <string name="settings_name">Настройки</string>
     <string name="info_name">Информация</string>
-    <string name="more_name">Ещё</string>
+    <string name="more_name">Дополнительно</string>
 
     <string name="main_item_activity_title">Шаги・цель</string>
-    <string name="main_item_battery">Уровень заряда・время последней зарядки</string>
-    <string name="main_item_connect_and_disconnect_last_time">Время последнего соединения и его разрыва</string>
+    <string name="main_item_battery">Батарея・время зарядки</string>
+    <string name="main_item_connect_and_disconnect_last_time">Последнее соединение/разрыв</string>
     <string name="main_item_next_alarm">Следующий будильник</string>
     <string name="main_item_next_reminder">Следующее напоминание</string>
     <string name="main_item_call_and_notification_control">Звонки и уведомления</string>
 
+    <!-- Pairing Bluetooth device -->
     <string name="device_search">Поиск %1$s</string> <!-- %1$s = Watch name -->
-    <string name="device_setting">Настройки %1$s</string> <!-- %1$s = Watch name -->
+    <string name="device_setting">Параметры %1$s</string> <!-- %1$s = Watch name -->
 
-    <string name="device_mac_address">MAC адрес</string>
-    <string name="device_mac_address_invalid">Неверный MAC адрес</string>
+    <string name="device_mac_address">MAC-адрес</string>
+    <string name="device_mac_address_invalid">Неверный MAC-адрес</string>
 
-    <string name="device_state_connected">Подключен</string>
-    <string name="device_state_disconnected">Отключен</string>
-    <string name="device_state_bonded">Соединённое устройство</string>
-    <string name="device_state_not_bonded">Не соединённое устройство</string>
+    <string name="device_state_connected">Подключено</string>
+    <string name="device_state_disconnected">Не подключено</string>
+    <string name="device_state_bonded">Спаренное устройство</string>
+    <string name="device_state_not_bonded">Не спарено</string>
 
     <string name="error_title">Упс! Что-то пошло не так</string>
-    <string name="error_message">Обновить приложение до последней версии</string>
+    <string name="error_message">Пожалуйста, обновите приложение до последней версии</string>
 
 
     <!-- Watch connection and setting -->
     <string name="mi_band_setting_title">Настройки %1$s</string>
 
-    <string name="mi_band_setting_menu_connection">Соединение</string>
+    <string name="mi_band_setting_menu_connection">Подключение</string>
     <string name="mi_band_setting_menu_setting">@string/setting_name</string>
     <string name="mi_band_setting_menu_profile">Профиль</string>
     <string name="mi_band_setting_menu_text">Текст</string>
-    <string name="mi_band_setting_menu_call">Вызов</string>
+    <string name="mi_band_setting_menu_call">Звонки</string>
 
-    <string name="mi_band_setting_auth_mi_fit">Взаимодействие с %1$s</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">Для работы %3$s требуется приложение %1$s, установленное на устройстве. Сначала подключите %2$s к %1$s, а потом пользуйтесь %3$s. Выберите этот пункт для совместного использования с %1$s.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
-    <string name="mi_band_setting_auth_standalone">Автономно</string>
-    <string name="mi_band_setting_auth_standalone_hint">Для работы %3$s, приложение %1$s не нужно. После соединения %1$s можно удалить или отвязать браслет от него. Для восстановления работы с %1$s вам нужно заново привязать %2$s к %1$s. Если вы используете функцию отвязки устройства, то все данные на часах будут удалены. Экран %2$s должен быть включен во время выполнения операций.</string>
-    <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
+    <string name="mi_band_setting_auth_mi_fit">Работа с %1$s</string> <!-- Haylou Fit -->
+    <string name="mi_band_setting_auth_mi_fit_hint">%3$s требует установленное приложение %1$s на этом устройстве. Сначала подключите %2$s в приложении %1$s. Выберите этот вариант, если хотите использовать %1$s совместно с %3$s.</string>
+    <string name="mi_band_setting_auth_standalone">Автономный режим</string>
+    <string name="mi_band_setting_auth_standalone_hint">Для работы %3$s приложение %1$s не требуется. После подключения вы можете удалить %1$s или отключить часы. Чтобы снова использовать %1$s, потребуется повторное подключение %2$s через %1$s. При отключении данные на часах будут удалены. Убедитесь, что экран %2$s включён во время выполнения операций.</string>
+    <string name="mi_band_standalone_sync_error">Синхронизация отключена в режиме совместной работы, чтобы избежать потери данных. Включение синхронизации может привести к удалению данных с часов и ошибкам в обоих приложениях.</string>
 
     <string name="mi_band_setting_auth_key">Ключ аутентификации</string>
-    <string name="mi_band_setting_auth_key_help">Введите любую 4-значную цифру</string>
+    <string name="mi_band_setting_auth_key_help">Введите любой 4-значный код</string>
     <string name="mi_band_setting_auth_request">Запросить ключ</string>
     <string name="mi_band_setting_auth_pair">Сопряжение</string>
-    <string name="mi_band_setting_auth_unpair">Разъединить</string>
+    <string name="mi_band_setting_auth_unpair">Отключить</string>
 
-    <string name="message_auth_request">Уже подключено, если вы не знаете ключ, нажмите кнопку отключить</string>
+    <string name="message_auth_request">Устройство уже подключено. Если вы не знаете ключ, отключите сопряжение.</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">Нажмите кнопку на %1$s, чтобы подключиться</string>
-    <string name="message_mi_band_setting_auth_success">%1$s успешно подключен</string>
+    <string name="message_mi_band_setting_auth_press_band_button">Нажмите кнопку на %1$s для сопряжения</string>
+    <string name="message_mi_band_setting_auth_success">%1$s успешно сопряжён</string>
     <string name="message_mi_band_setting_auth_fail">Не удалось подключить %1$s</string>
-    <string name="message_mi_band_setting_auth_key_invalid">Неверный ключ аутентификации</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Неверный ключ</string>
 
-    <string name="pref_disconnect_device">Отключение</string>
+    <string name="pref_disconnect_device">Отключить устройство</string>
 
-    <string name="mi_band_setting_connection_problem_title">Если у вас возникли проблемы с подключением</string>
+    <string name="mi_band_setting_connection_problem_title">Проблемы с подключением</string>
     <string name="mi_band_setting_connection_problem_hint"><![CDATA[
-    - Отмените сопряжение часов в настройках Bluetooth вашего телефона<br>
+    - Удалите сопряжение часов в настройках Bluetooth телефона<br>
     - Выключите и снова включите Bluetooth<br>
     - Принудительно закройте приложение или перезапустите телефон<br>
-    - Попробуйте снова сопрячь часы с главного экрана
+    - Попробуйте снова подключить часы с главного экрана
     ]]></string>
 
-    <string name="mi_band_setting_dial">Отображение</string>
+    <string name="mi_band_setting_dial">Циферблат</string>
     <string name="mi_band_setting_language">Язык</string>
-    <string name="mi_band_setting_time_24h">24-часовой формат</string>
-    <string name="mi_band_setting_distance_unit">Система измерения расстояния</string>
-    <string name="mi_band_setting_lift_wrist">Поворот запястья</string>
-    <string name="mi_band_setting_screen_on_duration">Продолжительность включения экрана</string>
+    <string name="mi_band_setting_time_24h">Формат 24 часа</string>
+    <string name="mi_band_setting_distance_unit">Единицы расстояния</string>
+    <string name="mi_band_setting_screen_on_duration">Время включения экрана</string>
+    <string name="mi_band_setting_lift_wrist">Экран при повороте запястья</string>
     <string name="mi_band_setting_idle_alert">Оповещение о бездействии</string>
-    <string name="mi_band_setting_idle_alert_duration">Время бездействия</string>
-    <string name="mi_band_setting_idle_alert_dnd">Не уведомлять во время отдыха (12:00-14:00)</string>
+    <string name="mi_band_setting_idle_alert_duration">Период бездействия</string>
+    <string name="mi_band_setting_idle_alert_dnd">Не беспокоить во время отдыха (12:00–14:00)</string>
 
     <string name="pref_synchronization">Синхронизация</string>
-    <string name="pref_synchronization_fetch_interval">Интервал синхронизации</string>
-    <string name="pref_synchronization_summary">Select the data to be automatically synchronised in the background. If you do not need any of the data, turn it off for better performance. Data can still be synchronised manually on the home screen or in the appropriate menus (by sweeping down).</string>
+    <string name="pref_synchronization_fetch_interval">Частота синхронизации</string>
+    <string name="pref_synchronization_summary">Выберите данные для автоматической фоновой синхронизации. Для повышения производительности отключите ненужные. Синхронизация вручную доступна на главном экране или в меню (проведите вниз).</string>
 
-    <string name="mi_band_setting_profile">Эти данные помогают точнее рассчитывать шаги, расстояние и сожжённые калории.</string>
+    <string name="mi_band_setting_profile">Введите данные для точного расчёта шагов, расстояния и калорий.</string>
     <string name="mi_band_setting_gender">Пол</string>
     <string name="mi_band_setting_gender_male">Мужской</string>
     <string name="mi_band_setting_gender_female">Женский</string>
     <string name="mi_band_setting_birthday">Дата рождения</string>
     <string name="mi_band_setting_height">Рост</string>
     <string name="mi_band_setting_weight">Вес</string>
-    <string name="mi_band_setting_wearing_place">Место ношения</string>
+    <string name="mi_band_setting_wearing_place">Расположение</string>
     <string name="mi_band_setting_wearing_place_left_wrist">Левая рука</string>
     <string name="mi_band_setting_wearing_place_right_wrist">Правая рука</string>
 
 
     <!-- Battery -->
-    <string name="battery_details">История батареи</string>
+    <string name="battery_details">Использование батареи</string>
 
     <string name="battery_settings">Настройки батареи</string>
     <string name="battery_settings_notification">Уведомление о низком заряде</string>
-    <string name="battery_settings_notification_level">Низкий уровень</string>
-    <string name="battery_settings_notification_repeat_interval">Периодичность</string>
-    <string name="battery_settings_notification_on_phone">Уведомление на устройстве</string>
+    <string name="battery_settings_notification_level">Порог заряда</string>
+    <string name="battery_settings_notification_repeat_interval">Интервал повторения</string>
+    <string name="battery_settings_notification_on_phone">Уведомлять на телефоне</string>
     <string name="battery_settings_notification_on_phone_ongoing">Постоянное уведомление</string>
-    <string name="battery_settings_notification_on_phone_message">Низкий заряд %1$,d%%</string>
-    <string name="battery_settings_notification_on_device">Уведомление на браслете</string>
+    <string name="battery_settings_notification_on_phone_message">Уровень заряда: %1$,d%%</string>
+    <string name="battery_settings_notification_on_device">Уведомлять на смарт-часах</string>
     <string name="battery_settings_notification_on_device_message">Батарея: %1$,d%%</string>
 
     <!-- Preference screens -->
-    <string name="pref_battery_phone">Аккумулятор устройства</string>
-    <string name="pref_battery_phone_summary">Уведомления низкого и полного заряда</string>
-    <string name="pref_cat_battery_phone_low">Низкий уровень заряда</string>
-    <string name="pref_battery_phone_low_title">Уведомление о низком заряде</string>
-    <string name="pref_battery_phone_low_level_title">Значение уровня</string>
-    <string name="pref_battery_phone_low_repeat_interval_title">Периодичность</string>
-    <string name="pref_cat_battery_phone_full">Аккумулятор заряжен</string>
-    <string name="pref_battery_phone_full_title">Уведомление о полном заряде</string>
-    <string name="pref_battery_phone_full_plugged_ac">Зарядка от сети</string>
-    <string name="pref_battery_phone_full_plugged_usb">Зарядка от USB</string>
-    <string name="pref_battery_phone_full_plugged_wireless">Беспроводная зарядка</string>
+    <string name="pref_battery_phone">Батарея телефона</string>
+    <string name="pref_battery_phone_summary">Уведомления при низком и полном заряде</string>
+    <string name="pref_cat_battery_phone_low">Низкий заряд</string>
+    <string name="pref_battery_phone_low_title">Оповещение о низком заряде</string>
+    <string name="pref_battery_phone_low_level_title">Порог заряда</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">Интервал повторения</string>
+    <string name="pref_cat_battery_phone_full">Полный заряд</string>
+    <string name="pref_battery_phone_full_title">Оповещение о полном заряде</string>
+    <string name="pref_battery_phone_full_plugged_ac">Сетевое питание</string>
+    <string name="pref_battery_phone_full_plugged_usb">Питание через USB</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Беспроводное питание</string>
 
     <string name="pref_battery_phone_message">Батарея телефона:\n %1$,d%%</string>
 
@@ -154,87 +155,87 @@
     <string name="pref_menu_item_3">Третий пункт меню</string>
 
     <string name="pref_diagnostic">Диагностика</string>
-    <string name="pref_cat_diagnostic_closing_protection">Поддержка работы в фоновом режиме</string>
-    <string name="pref_diagnostic_battery_optimisation">Отключить оптимизацию энергопотребления</string>
-    <string name="pref_diagnostic_companion_device">Сопутствующее устройство пары</string>
-    <string name="pref_diagnostic_bluetooth_pairing">Bluetooth pairing</string>
-    <string name="pref_diagnostic_autostart">Автозагрузка</string>
-    <string name="pref_diagnostic_autostart_summary">Enable the application to restart automatically in the phone\'s Auto-start manager</string>
+    <string name="pref_cat_diagnostic_closing_protection">Защита от закрытия</string>
+    <string name="pref_diagnostic_battery_optimisation">Отключить оптимизацию батареи</string>
+    <string name="pref_diagnostic_companion_device">Пара сопряжённого устройства</string>
+    <string name="pref_diagnostic_bluetooth_pairing">Сопряжение по Bluetooth</string>
+    <string name="pref_diagnostic_autostart">Автозапуск</string>
+    <string name="pref_diagnostic_autostart_summary">Разрешить приложению автоматически перезапускаться в диспетчере автозапуска телефона</string>
     <string name="pref_diagnostic_info">Дополнительная информация</string>
     <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
 
     <string name="pref_cat_diagnostic_permissions">Разрешения</string>
     <string name="pref_diagnostic_permission_allow_notification_access_settings">Разрешить доступ к уведомлениям</string>
-    <string name="pref_diagnostic_permission_schedule_exact_alarm">Запланировать точный будильник</string>
-    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Требуется дополнительное разрешение для планирования задачи на точное время.</string>
-    <string name="pref_diagnostic_permission_post_notifications">Отправлять уведомления</string>
-    <string name="pref_diagnostic_permission_post_notifications_summary">Требуется дополнительное разрешение для отображения уведомления.</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">Запланировать точное напоминание</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Требуется дополнительное разрешение для выполнения задачи точно по времени.</string>
+    <string name="pref_diagnostic_permission_post_notifications">Показ уведомлений</string>
+    <string name="pref_diagnostic_permission_post_notifications_summary">Требуется разрешение для отображения уведомлений</string>
     <string name="pref_diagnostic_permission_access_notification_policy">Доступ к режиму «Не беспокоить»</string>
 
 
     <!-- Snackbar Messages -->
-    <string name="message_enable_bluetooth">Пожалуйста, включите Bluetooth и поднесите браслет ближе к устройству</string>
-    <string name="message_discover_device">%1$s не установлен, пожалуйста, подключите его</string>
-    <string name="message_discovering_device">Поиск браслета (это может занять около минуты) &#8230;</string>
-    <string name="message_discover_device_succeeded">%1$s подключён</string>
-    <string name="message_discover_device_failed">%1$s соединение не удалось</string>
-    <string name="message_discover_device_not_found">Если браслет не обнаружен, включите: Haylou Sport / Уведомления / Видимость или свяжите через настройки Bluetooth устройства</string>
-    <string name="message_enable_notification_listener_access">Разрешите доступ к уведомлениям</string>
-    <string name="message_enable_notification_listener_access_4_4">Разрешите доступ к уведомлениям</string>
+    <string name="message_enable_bluetooth">Пожалуйста, включите Bluetooth и держите часы рядом с телефоном</string>
+    <string name="message_discover_device">%1$s не настроено, подключите устройство</string>
+    <string name="message_discovering_device">Поиск %1$s (это может занять до 1 минуты)…</string>
+    <string name="message_discover_device_succeeded">%1$s успешно подключено</string>
+    <string name="message_discover_device_failed">Ошибка подключения %1$s</string>
+    <string name="message_discover_device_not_found">Если %1$s не найден, включите режим обнаружения или подключите через настройки Bluetooth телефона</string>
+    <string name="message_enable_notification_listener_access">Разрешите доступ к уведомлениям: Телефон > Настройки > Доступ к уведомлениям</string>
+    <string name="message_enable_notification_listener_access_4_4">Разрешите доступ к уведомлениям: Настройки > Безопасность > Доступ к уведомлениям</string>
 
     <string name="message_deleted">Удалено</string>
-    <string name="message_undo">Отменить</string>
+    <string name="message_undo">Отмена</string>
 
-    <string name="message_app_chooser_no_selected">Выберете приложение</string>
+    <string name="message_app_chooser_no_selected">Выберите приложение</string>
 
-    <string name="message_free_counter">До 1 настройки может быть использовано в бесплатном режиме</string>
-    <string name="message_free_counters">До %1$,d настроек могут быть использованы в бесплатном режиме</string>
+    <string name="message_free_counter">В бесплатном режиме доступна только 1 настройка</string>
+    <string name="message_free_counters">В бесплатном режиме доступно до %1$,d настроек</string>
 
-    <string name="message_notification_free_groups">До %1$,d групп могут быть использованы в бесплатном режиме</string>
-    <string name="message_notification_free_app">До 1 приложения может быть выбрано в бесплатном режиме</string>
-    <string name="message_notification_free_apps">До %1$,d приложений могут быть выбраны в бесплатном режиме</string>
-    <string name="message_notification_free_text">До 1 текста может быть записано в бесплатном режиме</string>
+    <string name="message_notification_free_groups">До %1$,d групп доступно в бесплатном режиме</string>
+    <string name="message_notification_free_app">В бесплатном режиме можно выбрать только 1 приложение</string>
+    <string name="message_notification_free_apps">В бесплатном режиме можно выбрать до %1$,d приложений</string>
+    <string name="message_notification_free_text">В бесплатном режиме можно сохранить только 1 текст</string>
 
-    <string name="message_time_alarm_free_counter">До 1 будильника может быть использовано в бесплатном режиме</string>
-    <string name="message_time_alarm_max_counter">До %1$d будильников могут быть использованы</string>
+    <string name="message_time_alarm_free_counter">В бесплатном режиме доступен только 1 будильник</string>
+    <string name="message_time_alarm_max_counter">Доступно до %1$d будильников</string>
     <string name="message_time_alarm_enabled">Будильник включён</string>
     <string name="message_time_alarm_disabled">Будильник отключён</string>
     <string name="message_time_alarm_off">Будильник выключен</string>
 
-    <string name="message_touch_pattern_error">Указанная последовательнось похожа на заданную для другой функции, попробуйте другую</string>
-    <string name="message_touch_free_patterns">В бесплатном режиме можно использовать не более %1$,d функций</string>
-    <string name="message_touch_record_help">Используйте управление плеером или поиск телефона в %1$s</string> <!-- %1$s = smartwatch -->
+    <string name="message_touch_pattern_error">Указанный шаблон похож на шаблон другой функции, запишите другой</string>
+    <string name="message_touch_free_patterns">До %1$,d элементов управления доступны в бесплатном режиме</string>
+    <string name="message_touch_record_help">Используйте функции управления музыкой или поиска телефона в %1$s</string>
 
-    <string name="message_premium_mode_only">Эта функция доступна только в премиум режиме</string>
+    <string name="message_premium_mode_only">Эта функция доступна только в премиум-режиме</string>
     <string name="message_feature_is_not_supported">%1$s не поддерживает эту функцию</string>
-    <string name="message_general_error">Ошибка (соединение потеряно), попробуйте снова</string>
-    <string name="message_internet_error">Нет подключения к Интернету</string>
+    <string name="message_general_error">Ошибка настройки (соединение потеряно), попробуйте ещё раз</string>
+    <string name="message_internet_error">Нет подключения к интернету</string>
     <string name="message_internet_traffic_blocked">Сетевой трафик заблокирован</string>
     <string name="message_internet_ads_blocked">Реклама заблокирована</string>
-    <string name="message_gps_enable">Включите определение местоположения</string>
-    <string name="message_location_enable">Включите доступ к информации о местоположении</string>
+    <string name="message_gps_enable">Включите GPS</string>
+    <string name="message_location_enable">Разрешите доступ к местоположению</string>
 
     <string name="message_in_progress">В процессе…</string>
     <string name="message_no_data">Нет данных</string>
 
-    <string name="message_rewarded_error">Ошибка отправки сообщения</string>
+    <string name="message_rewarded_error">Не удалось загрузить видео</string>
 
-    <string name="message_new_message">Получено новое сообщение, просмотрите на телефоне.</string>
+    <string name="message_new_message">Получено новое сообщение. Проверьте его на телефоне.</string>
 
-    <string name="message_permission_not_granted">Разрешение не предоставлено: %1$s</string> <!-- %1$s = permission name -->
+    <string name="message_permission_not_granted">Нет разрешения: %1$s</string>
 
-    <!-- Dialog -->
+    <!-- Welcome dialog -->
     <string name="dialog_welcome_title">Добро пожаловать!</string>
     <string name="dialog_welcome_message"><![CDATA[Поддерживаемые устройства:
     <watch_types/>
-    <p><app_name/> требует установки официального приложения <device_type/> на том же телефоне. Сначала вам нужно подключить свои умные часы к приложению <device_type/>, затем вы можете использовать это приложение.</p>
-    <p>Если часы не удалось обнаружить, вы можете вручную установить MAC адрес в настройках.</p>
-    <b>При проблемах с подключением:</b>
-    <br>- Закрепите <app_name/> в окне недавних приложений (потяните приложение вниз и нажмите замок)
-    <br>- Отключите для <app_name/> оптимизацию энергопотребления в настройках аккумулятора/энергосбережения
-    <br>- Удалите сопряжение в приложении Bluetooth и очистите его данные
-    <br>- Дополнительная информация: https://dontkillmyapp.com
-    <br><br><small>Этот продукт и его функции не предназначены для медицинских целей и не предназначены для прогнозирования, диагностики, предотвращения или лечения каких-либо заболеваний. Все данные и измерения предназначены только для личного использования и не должны использоваться в качестве основы для диагностики или лечения.</small>
+    <p>Для работы <app_name/> необходимо установить официальное приложение <device_type/> на этом телефоне. Сначала выполните сопряжение часов в приложении <device_type/>, а затем используйте это приложение.</p>
+    <p>Если не удаётся найти <device_type/>, можно вручную ввести MAC-адрес при поиске.</p>
+    <b>Устранение неполадок подключения:</b>
+    <br>- Последние приложения: заблокируйте <app_name/> (потяните вниз и выберите «Замок» или аналогичное).
+    <br>- Отключите оптимизацию батареи для <app_name/> в настройках.
+    <br>- Очистите данные Bluetooth Share и других приложений с Bluetooth.
+    <br>- Подробнее: https://dontkillmyapp.com
+    <br><br><small>Этот продукт и его функции не предназначены для медицинских целей и не предназначены для диагностики, лечения, предотвращения или прогнозирования заболеваний. Все данные и измерения предназначены только для личного использования и не должны использоваться в медицинских целях.</small>
     ]]></string>
 
 
@@ -243,13 +244,13 @@
     <string name="notification_group_nav_filter">Фильтр</string>
     <string name="notification_group_nav_correction">Преобразование</string>
 
-    <string name="notification_group_name">Название группы</string>
+    <string name="notification_group_name">Название</string>
     <string name="notification_group_monitoring">Управлять уведомлениями</string>
     <string name="notification_group_monitoring_disabled">Исключить уведомления (не отображать уведомления приложений)</string>
-    <string name="notification_group_text_customization">Отображение текста</string>
-    <string name="notification_group_alert_title">Уведомления %1$s</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="notification_group_text_customization">Настройка текста</string>
+    <string name="notification_group_alert_title">Уведомления %1$s</string>
     <string name="notification_group_text_app_name">Название приложения</string>
-    <string name="notification_group_text_name">Название группы</string>
+    <string name="notification_group_text_name">Имя</string>
     <string name="notification_group_text_title">Заголовок</string>
     <string name="notification_group_text_content">Содержимое</string>
     <string name="notification_group_text_big_content">Целиком</string>
@@ -262,7 +263,7 @@
     <string name="notification_group_ongoing">Постоянные уведомления</string>
     <string name="notification_group_screen_off">Уведомлять только при выключенном экране</string>
     <string name="notification_group_repeat_title">Повтор сигналов</string>
-    <string name="notification_group_wakelock">Включать экран устройства</string>
+    <string name="notification_group_wakelock">Включать экран телефона</string>
     <string name="notification_group_grouped_display_title">Отображение групп уведомлений</string>
     <string name="notification_group_grouped_sort_order_title">Порядок уведомлений в группе</string>
 
@@ -271,19 +272,19 @@
     <string name="notification_group_filter_content">Фильтровать содержимое</string>
     <string name="notification_group_filter_regex">Регулярные выражения</string>
     <string name="notification_group_filter_hint">Уведомлять при совпадении без учёта регистра</string>
-    <string name="notification_group_filter_contains">Есть содержит</string>
-    <string name="notification_group_filter_not_contains">Если не содержит</string>
+    <string name="notification_group_filter_contains">Содержит одно из</string>
+    <string name="notification_group_filter_not_contains">Не содержит ни одного из</string>
 
     <string name="notification_group_sample_sms">SMS</string>
     <string name="notification_group_sample_facebook">Messenger</string>
     <string name="notification_group_sample_whatsapp">WhatsApp</string>
 
-    <string name="notification_group_correction">Преобразование текста</string>
+    <string name="notification_group_correction">Коррекция текста</string>
     <string name="notification_group_correction_title">Изменение заголовка</string>
     <string name="notification_group_correction_content">Изменение содержимого</string>
     <string name="notification_group_correction_regex">Регулярные выражения</string>
     <string name="notification_group_correction_hint">Без учёта регистра</string>
-    <string name="notification_group_correction_items">Текст, требующий изменений</string>
+    <string name="notification_group_correction_items">Тексты для замены</string>
     <string name="notification_group_correction_find">Найти</string>
     <string name="notification_group_correction_replace">Заменить на</string>
 
@@ -291,11 +292,8 @@
 
     <string name="notification_confirm_close">Вы действительно хотите отменить изменения?</string>
 
-    <string name="notification_edit_play_text_title">Заголовок уведомл.</string>
-    <string name="notification_edit_play_text_content">Текст уведомления:
-    Lorem ipsum - классическая панграмма, условный, зачастую бессмысленный текст-заполнитель, вставляемый в макет страницы. Используется в качестве заполнителя по крайней мере с XVI века.
-        \nЯвляется искажённым отрывком из философского трактата Марка Туллия Цицерона «О пределах добра и зла», написанного в 45 году до н. э. на латинском языке, обнаружение сходства атрибутируется Ричарду МакКлинтоку.
-    </string>
+    <string name="notification_edit_play_text_title">Заголовок уведомления</string>
+    <string name="notification_edit_play_text_content">Текст уведомления:</string>
 
 
     <!-- Incoming call alert -->
@@ -303,194 +301,186 @@
     <string name="call_tab_contacts">Контакты</string>
 
     <string name="call_incoming">Входящий звонок</string>
-    <string name="call_incoming_summary_on">Включено (не забудьте отключить эти уведомления в %1$s)</string> <!-- %1$s = official app name -->
-    <string name="call_incoming_caller_id">Показывать звонящего</string>
+    <string name="call_incoming_summary_on">Не забудьте отключить оповещения о входящих вызовах в приложении %1$s</string>
+    <string name="call_incoming_caller_id">Показать номер звонящего</string>
 
-    <string name="pref_call_notification_rejected">Уведомление о сброшенном звонке</string>
-    <string name="pref_call_notification_rejected_message">Сброшенный звонок</string>
-    <string name="pref_call_notification_rejected_action">Звонок</string>
+    <string name="pref_call_notification_rejected">Показывать уведомление об отклонённом вызове</string>
+    <string name="pref_call_notification_rejected_message">Отклонённый вызов</string>
+    <string name="pref_call_notification_rejected_action">Позвонить</string>
 
-    <string name="call_incoming_net_alert_title">Входящий интернет-вызов</string>
+    <string name="call_incoming_net_alert_title">Оповещение о входящем интернет-звонке</string>
 
-    <string name="call_missed_title">Уведомление о пропущенном звонке</string>
-    <string name="call_missed_chooser_title">Уведомление %1$s</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
-    <string name="call_missed_notification">Пропущенный звонок</string>
+    <string name="call_missed_title">Оповещение о пропущенном вызове</string>
+    <string name="call_missed_chooser_title">Оповещение %1$s</string>
+    <string name="call_missed_notification">Пропущенный вызов</string>
 
-    <string name="call_reject_button_action">Кнопка отклонения</string>
+    <string name="call_reject_button_action">Действие кнопки отклонения</string>
 
-    <string name="touch_call_answer_title">Ответ на звонок</string>
+    <string name="touch_call_answer_title">Ответ на вызов</string>
     <string name="touch_call_answer_speakerphone_title">Громкая связь</string>
 
-    <string name="call_end_title">Сброс звонка</string>
+    <string name="call_end_title">Отклонение или завершение вызова</string>
 
-    <string name="touch_call_mute_title">Отключение звука звонка</string>
-    <string name="touch_call_mute_only_call_state_ringing_title">Только при входящем звонке</string>
-    <string name="touch_call_mute_recognition_title">При входящем звонке</string>
+    <string name="touch_call_mute_title">Отключить звук вызова</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Только при входящем вызове</string>
+    <string name="touch_call_mute_recognition_title">При входящем вызове</string>
 
     <string name="call_contact_edit_contact">Контакт</string>
     <string name="call_contact_edit_name">Имя</string>
     <string name="call_contact_edit_phone_number">Номер телефона</string>
 
-    <string name="call_contact_edit_setting_name_order">Порядок имен</string>
+    <string name="call_contact_edit_setting_name_order">Порядок отображения имени</string>
     <string name="call_contact_edit_setting_default">@string/default_</string>
     <string name="call_contact_edit_setting_first_name">Имя</string>
     <string name="call_contact_edit_setting_last_name">Фамилия</string>
 
-    <string name="message_call_contacts_free_counter">До %1$d контактов можно использовать в бесплатном режиме</string>
-    <string name="message_call_contacts_max_counter">До %1$d контактов можно использовать</string>
+    <string name="message_call_contacts_free_counter">До %1$d контактов можно использовать в бесплатной версии</string>
+    <string name="message_call_contacts_max_counter">Можно использовать до %1$d контактов</string>
 
     <!-- App chooser dialog -->
     <string name="app_chooser">Выбор приложения</string>
     <string name="action_search">Поиск</string>
-    <string name="action_filter_notification">Активные уведомления</string>
+    <string name="action_filter_notification">Фильтр уведомлений</string>
 
 
     <!-- Activity -->
-    <string name="step_details">Подробнее</string>
+    <string name="step_details">Детали активности</string>
 
-    <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
-    <string name="mi_band_tracker_distance_meter_title">%1$,d м</string> <!-- meter -->
-    <string name="mi_band_tracker_distance_kilometer_title">%,.2f км</string> <!-- kilometer -->
-    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
-    <string name="mi_band_tracker_calorie_title">%1$,d ккал</string> <!-- kilo calorie -->
+    <string name="mi_band_tracker_step_title">%1$,d</string>
+    <string name="mi_band_tracker_distance_meter_title">%1$,d м</string>
+    <string name="mi_band_tracker_distance_kilometer_title">%,.2f км</string>
+    <string name="mi_band_tracker_distance_mile_title">%,.2f миль</string>
+    <string name="mi_band_tracker_calorie_title">%1$,d ккал</string>
 
     <string name="action_tracker_step">Шаги</string>
     <string name="action_tracker_distance">Расстояние</string>
     <string name="action_tracker_calorie">Калории</string>
-    <string name="action_tracker_duration">Продолжительность тренировки</string>
+    <string name="action_tracker_duration">Длительность тренировки</string>
 
-    <string name="step_goal_default_title">Ежедневная цель шагов</string>
-
+    <string name="step_goal_default_title">Цель по умолчанию</string>
 
     <!-- Sleep monitoring -->
-    <string name="sleep_details">Подробнее</string>
+    <string name="sleep_details">Детали сна</string>
 
-    <string name="sleep_awake_phase_short">Просыпался</string>
+    <string name="sleep_awake_phase_short">Бодрствование</string>
     <string name="sleep_light_phase_short">Легкий</string>
     <string name="sleep_deep_phase_short">Глубокий</string>
     <string name="sleep_rem_phase_short">REM</string>
 
-
     <!-- Heart rate -->
-    <string name="heart_rate_details">Подробнее</string>
+    <string name="heart_rate_details">Детали пульса</string>
 
-    <string name="heart_rate_continuous_measurement_title">Постоянное измерение пульса</string>
+    <string name="heart_rate_continuous_measurement_title">Непрерывное измерение пульса</string>
 
-    <string name="heart_rate_alert_title">Предупреждение о пульсе</string>
-    <string name="heart_rate_thresholds">максимальное и минимальное значение пульса</string>
-    <string name="low_heart_rate">Минимальный пульс</string>
-    <string name="high_heart_rate">Максимальный пульс</string>
+    <string name="heart_rate_alert_title">Оповещение о пульсе</string>
+    <string name="heart_rate_thresholds">Пороговые значения пульса</string>
+    <string name="low_heart_rate">Низкий пульс</string>
+    <string name="high_heart_rate">Высокий пульс</string>
 
 
     <!-- Blood oxygen -->
-    <string name="blood_oxygen_details">Детали уровня кислорода в крови</string>
+    <string name="blood_oxygen_details">Детали кислорода в крови</string>
 
     <string name="blood_oxygen_level_measurement">Измерение уровня кислорода в крови</string>
-    <string name="measurement_interval">Интервал измерений</string>
-
+    <string name="measurement_interval">Интервал измерения</string>
 
     <!-- Blood pressure -->
-    <string name="blood_pressure_details">Сведения об артериальном давлении</string>
+    <string name="blood_pressure_details">Детали артериального давления</string>
 
-    <string name="blood_pressure_level_measurement">Измерение уровня артериального давления</string>
+    <string name="blood_pressure_level_measurement">Измерение давления</string>
 
-    <string name="blood_pressure_systolic_abbreviation">сис</string>
-    <string name="blood_pressure_diastolic_abbreviation">диа</string>
+    <string name="blood_pressure_systolic_abbreviation">Сист</string>
+    <string name="blood_pressure_diastolic_abbreviation">Диаст</string>
     <string name="blood_pressure_unit">мм рт. ст.</string>
-
 
     <!-- Workout -->
     <string name="workout_details">Детали тренировки</string>
 
-
     <!-- Alarm -->
-    <string name="action_time_alarm_sort_state_asc">По состоянию</string>
-    <string name="action_time_alarm_sort_watch_asc">По часам</string>
-    <string name="action_time_alarm_sort_name_asc">По имени</string>
+    <string name="action_time_alarm_sort_state_asc">Состояние по возрастанию</string>
+    <string name="action_time_alarm_sort_watch_asc">Устройство по возрастанию</string>
+    <string name="action_time_alarm_sort_name_asc">Имя по возрастанию</string>
 
-    <string name="message_time_alarm_sync">Синхронизация будильников %1$s, (Это удалит записанные в часах будильники и установит новые)</string> <!-- %1$s = Haylou Smart Watch ... -->
+    <string name="message_time_alarm_sync">Синхронизация будильников %1$s (существующие будильники будут удалены и заменены новыми на часах)</string>
 
     <string name="info_dialog_alarm"><![CDATA[
-        <p>При использовании режима совместной работы настройки официального приложения Haylou и приложения <app_name/> могут перезаписывать и удалять настройки друг друга.</p>
-        Только последняя выполненная операция вступит в силу.
+    <p>При использовании режима совместной работы настройки официального приложения и приложения <app_name/> могут перезаписывать друг друга.</p>
+    Последнее выполненное действие будет действительным.
     ]]></string>
-
 
     <!-- Reminder -->
     <string name="message_reminder_enabled">Напоминание включено</string>
     <string name="message_reminder_disabled">Напоминание отключено</string>
 
-    <string name="reminder_repeat">Напоминать каждый час</string>
-    <string name="reminder_notification_on_phone">Уведомление на устройстве</string>
+    <string name="reminder_repeat">Повторять каждый час</string>
+    <string name="reminder_notification_on_phone">Уведомление на телефоне</string>
 
-    <string name="message_time_reminder_free_counter">В бесплатном режиме можно использовать до 1 напоминания</string>
+    <string name="message_time_reminder_free_counter">В бесплатной версии доступно только одно напоминание</string>
 
     <string name="info_dialog_reminder"><![CDATA[
-        Для отображения напоминаний на часах необходимо, чтобы часы были cопряжены по Bluetooth с телефоном.
-        ]]>
-    </string>
-
+    Для отображения напоминаний необходимо Bluetooth-соединение.
+    ]]></string>
 
     <!-- Do not disturb -->
-    <string name="pref_dnd_summary">В режиме \"Не беспокоить\" включать\:</string>
-    <string name="pref_dnd_enable_bluetooth">При включении режима \"Не беспокоить\" выключать Bluetooth.</string>
+    <string name="pref_dnd_summary">Состояние контроллеров в режиме \"Не беспокоить\"</string>
+    <string name="pref_dnd_enable_bluetooth">Отключать Bluetooth в начале режима и включать его в конце</string>
 
     <string name="info_dialog_dnd"><![CDATA[
-        При использовании режима совместной работы, в настройках официального приложения <device_type/>, режим \"Не беспокоить\" должен быть настроен с 00:00 до 23:59 и должен быть выключен.
-    ]]></string> <!-- %1$s Haylou fit-->
+    При использовании режима совместной работы в официальном приложении <device_type/> режим \"Не беспокоить\" должен быть установлен с 00:00 до 23:59 и быть отключён.
+    ]]></string>
 
 
     <!-- Watch face -->
-    <string name="watch_face_tab_watch_faces">Онлайн</string>
-    <string name="watch_face_tab_watch_face_custom">Из файла</string>
+    <string name="watch_face_tab_watch_faces">Циферблаты</string>
+    <string name="watch_face_tab_watch_face_custom">Пользовательские файлы</string>
     <string name="watch_face_tab_watch_face_editor">Редактор</string>
 
     <string name="watch_face_download_title">Загрузка циферблата</string>
-    <string name="watch_face_upload_title">Установить циферблат</string>
-    <string name="watch_face_tool_title">инструменты</string>
+    <string name="watch_face_upload_title">Загрузка циферблата</string>
+    <string name="watch_face_tool_title">Инструменты</string>
 
-    <string name="watch_face_share_content">Вы можете поделиться созданным вами циферблатом с другими. Отправьте по электронной почте файл циферблата и предварительного просмотра и сообщите следующую информацию: автор, имя циферблата (всего не более 30 символов) и язык циферблата. Мы публикуем только высококачественные циферблаты.</string>
+    <string name="watch_face_share_content">Вы можете поделиться созданным вами циферблатом с другими. Отправьте по электронной почте файлы циферблата и его превью, а также укажите: имя автора, название циферблата (до 30 символов) и язык. Мы публикуем только качественные циферблаты.</string>
 
-    <string name="watch_face_upload_prepare">Подготовка к установке…</string>
-    <string name="watch_face_upload_progress">Установка %1$,d%%</string>
+    <string name="watch_face_upload_prepare">Подготовка к загрузке…</string>
+    <string name="watch_face_upload_progress">Загрузка %1$,d%%</string>
 
-    <string name="watch_face_invalid_firmware">Прошивка %1$s неизвестна или не поддерживает загрузку циферблатов. Пожалуйста, обновите прошивку с помощью официального приложения. Если официальное приложение поддерживает загрузку циферблатов, сообщите нам об этом через меню Отзывы.</string>
-    <string name="watch_face_invalid_auth">Используйте функцию в автономном режиме, при использовании совместного режима, официальное приложение может заблокировать загрузку циферблата в часы</string>
-    <string name="watch_face_invalid_free">В бесплатной версии сегодня больше циферблаты загрузить нельзя</string>
+    <string name="watch_face_invalid_firmware">Прошивка %1$s неизвестна или не поддерживает загрузку циферблатов. Обновите прошивку через официальное приложение. Если оно поддерживает загрузку циферблатов, сообщите нам через меню \"Обратная связь\".</string>
+    <string name="watch_face_invalid_auth">Используйте в автономном режиме. В режиме совместной работы официальное приложение может блокировать загрузку циферблата.</string>
+    <string name="watch_face_invalid_free">Сегодня в бесплатной версии вы больше не можете загружать циферблаты</string>
     <string name="watch_face_watch_rewarded_ads">Посмотрите видео, чтобы продолжить</string>
-    <string name="watch_face_watch_rewarded_ads_uploading">Посмотрите видео для продолжения загрузки</string>
+    <string name="watch_face_watch_rewarded_ads_uploading">Посмотрите видео, чтобы продолжить загрузку</string>
     <string name="watch_face_watch_rewarded_ads_countdown">Запуск видео…</string>
 
-    <string name="watch_face_upload_method_title">Method</string>
+    <string name="watch_face_upload_method_title">Метод</string>
     <string name="watch_face_upload_method_default">@string/default_</string>
-    <string name="watch_face_upload_method_alternative">Alternative</string>
+    <string name="watch_face_upload_method_alternative">Альтернативный</string>
 
     <string name="watch_face_upload_speed_title">Скорость загрузки</string>
-    <string name="watch_face_upload_invalid_speed_hint">Установите более низкую скорость, если процесс загрузки циферблата прерывается</string>
-    <string name="watch_face_upload_invalid_size_hint">Недопустимый размер файла циферблата — установите более низкое качество или удалите элементы с циферблата</string>
-    <string name="watch_face_upload_invalid_battery_hint">Батарея смарт-часов разряжается, пожалуйста, зарядите часы</string>
+    <string name="watch_face_upload_invalid_speed_hint">Установите меньшую скорость, если загрузка циферблата прерывается</string>
+    <string name="watch_face_upload_invalid_size_hint">Недопустимый размер файла. Уменьшите качество или удалите элементы с циферблата</string>
+    <string name="watch_face_upload_invalid_battery_hint">Батарея смарт-часов почти разряжена. Зарядите устройство</string>
 
-    <string name="watch_face_tbwf_quality_title">Настройка качества циферблата .tbwf</string>
-    <string name="watch_face_tbwf_quality_hint">Размер файла можно уменьшить, если это поддерживается часами</string>
+    <string name="watch_face_tbwf_quality_title">Качество файла циферблата .tbwf</string>
+    <string name="watch_face_tbwf_quality_hint">Размер файла можно уменьшить, если часы это поддерживают</string>
 
-    <string name="watch_face_tbwf_locale_title">Настройка языка и страны для циферблата .tbwf</string>
-    <string name="watch_face_tbwf_locale_hint">День недели, разделитель месяца и десятичный разделитель</string>
+    <string name="watch_face_tbwf_locale_title">Язык и регион файла .tbwf</string>
+    <string name="watch_face_tbwf_locale_hint">Названия дней недели, разделители месяца и десятичные знаки</string>
 
-    <string name="message_watch_face_file_invalid">Некорректный файл циферблата</string>
-    <string name="message_watch_face_file_invalid_size">Недопустимый размер файла циферблата</string>
+    <string name="message_watch_face_file_invalid">Недопустимый файл циферблата</string>
+    <string name="message_watch_face_file_invalid_size">Недопустимый размер файла</string>
     <string name="message_watch_face_file_invalid_battery">Батарея смарт-часов почти разряжена</string>
-    <string name="message_watch_face_image_file_error">Некорректный файл изображения</string>
-    <string name="message_watch_face_font_file_error">Некорректный файл шрифта</string>
+    <string name="message_watch_face_image_file_error">Недопустимый файл изображения</string>
+    <string name="message_watch_face_font_file_error">Недопустимый файл шрифта</string>
 
-    <string name="action_chart_layout_2_columns">Отображать в 2 колонки</string>
-    <string name="action_chart_layout_3_columns">Отображать в 3 колонки</string>
+    <string name="action_chart_layout_2_columns">2 колонки</string>
+    <string name="action_chart_layout_3_columns">3 колонки</string>
 
-    <string name="watch_face_edit_dial">Фон</string>
+    <string name="watch_face_edit_dial">Циферблат</string>
     <string name="watch_face_edit_preview">Предпросмотр</string>
     <string name="watch_face_edit_hour_digital">Часы</string>
     <string name="watch_face_edit_minute_digital">Минуты</string>
     <string name="watch_face_edit_second_digital">Секунды</string>
-    <string name="watch_face_edit_am_pm">AM/PM indicator</string>
+    <string name="watch_face_edit_am_pm">Индикатор AM/PM</string>
     <string name="watch_face_edit_am">AM</string>
     <string name="watch_face_edit_pm">PM</string>
     <string name="watch_face_edit_hour_analog">Часовая стрелка</string>
@@ -499,164 +489,163 @@
     <string name="watch_face_edit_axis">Ось вращения</string>
     <string name="watch_face_edit_hour_minute_separator">Разделитель часов и минут</string>
     <string name="watch_face_edit_year">Год</string>
-    <string name="watch_face_edit_year_month_separator">Сепаратор года и месяца</string>
+    <string name="watch_face_edit_year_month_separator">Разделитель года и месяца</string>
     <string name="watch_face_edit_month">Месяц</string>
     <string name="watch_face_edit_month_name">Название месяца</string>
-    <string name="watch_face_edit_month_day_separator">Разделитель дня и месяца</string>
+    <string name="watch_face_edit_month_day_separator">Разделитель месяца и дня</string>
     <string name="watch_face_edit_day">День</string>
     <string name="watch_face_edit_dayOfWeek">День недели</string>
-    <string name="watch_face_edit_battery_level">Уровень заряда</string>
-    <string name="watch_face_edit_battery_level_percent_sign">Изображение процента</string>
-    <string name="watch_face_edit_battery_level_image">Изображение батареи</string>
+    <string name="watch_face_edit_battery_level">Уровень заряда батареи</string>
+    <string name="watch_face_edit_battery_level_percent_sign">Уровень заряда (%)</string>
+    <string name="watch_face_edit_battery_level_image">Иконка батареи</string>
     <string name="watch_face_edit_weather_temperature">Температура</string>
-    <string name="watch_face_edit_weather_temperature_unit_sign">Единица измерения температуры °</string>
-    <string name="watch_face_edit_weather_image">Изображение погоды</string>
-    <string name="watch_face_edit_connection_indicator_image">Изображение соединения</string>
-    <string name="watch_face_edit_connected">Подключен</string>
-    <string name="watch_face_edit_disconnected">Отключен</string>
+    <string name="watch_face_edit_weather_temperature_unit_sign">Единица температуры °</string>
+    <string name="watch_face_edit_weather_image">Иконка погоды</string>
+    <string name="watch_face_edit_connection_indicator_image">Иконка подключения</string>
+    <string name="watch_face_edit_connected">Подключено</string>
+    <string name="watch_face_edit_disconnected">Отключено</string>
     <string name="watch_face_edit_steps">Шаги</string>
-    <string name="watch_face_edit_steps_image">Изображение шагов</string>
-    <string name="watch_face_edit_steps_goal_progress">Прогресс цели шагов</string>
+    <string name="watch_face_edit_steps_image">Иконка шагов</string>
+    <string name="watch_face_edit_steps_goal_progress">Прогресс по шагам</string>
     <string name="watch_face_edit_distance">Расстояние</string>
-    <string name="watch_face_edit_distance_image">Изображение расстояния</string>
+    <string name="watch_face_edit_distance_image">Иконка расстояния</string>
     <string name="watch_face_edit_calories">Калории</string>
-    <string name="watch_face_edit_calories_image">Изображение калорий</string>
+    <string name="watch_face_edit_calories_image">Иконка калорий</string>
     <string name="watch_face_edit_heart_rate">Пульс</string>
-    <string name="watch_face_edit_heart_rate_image">Изображение пульса</string>
+    <string name="watch_face_edit_heart_rate_image">Иконка пульса</string>
 
     <string name="watch_face_edit_color">Цвет</string>
     <string name="watch_face_edit_font_family">Шрифт</string>
+    <string name="watch_face_edit_character">Символ</string>
     <string name="watch_face_edit_font_size">Размер шрифта</string>
-    <string name="watch_face_edit_character">Character</string>
     <string name="watch_face_edit_image">Изображение</string>
     <string name="watch_face_edit_image_png_jpeg">Изображение (.png, .jpeg)</string>
     <string name="watch_face_edit_image_png">Изображение (.png)</string>
-    <string name="watch_face_edit_icon">Выберите значек</string>
     <string name="watch_face_edit_image_size">Размер изображения</string>
+    <string name="watch_face_edit_icon">Иконка</string>
 
     <string name="watch_face_custom_watch_face_not_supported_title">Эти часы не поддерживают загрузку пользовательских циферблатов</string>
-    <string name="watch_face_custom_watch_face_under_development_title">Функция загрузки пользовательских циферблатов в настоящее время находится в разработке и может быть доступна в будущем, но это пока не подтверждено.</string>
+    <string name="watch_face_custom_watch_face_under_development_title">Функция загрузки пользовательских циферблатов находится в разработке и может быть доступна в будущем, но это пока не подтверждено.</string>
 
     <!-- Touch monitoring -->
     <string name="touch_tab_function">Функции</string>
-    <string name="touch_tab_control">Касания</string>
+    <string name="touch_tab_control">Управление</string>
     <string name="touch_tab_testing">Тестирование</string>
     <string name="touch_tab_setting">@string/setting_name</string>
 
-    <string name="touch_function_summary">Настройте функции если вы используете автономный режим или не хотите настраивать их в Mi Fit</string>
-    <string name="touch_function">Функция %1$s</string> <!-- %1$s = Watch name -->
-    <string name="touch_function_as_touch">Использовать функции как касания</string>
+    <string name="touch_function_summary">Настройте эти функции, если вы используете автономный режим или Mi Fit работает некорректно</string>
+    <string name="touch_function">Функция %1$s</string>
+    <string name="touch_function_as_touch">Использовать функцию как касание в меню управления</string>
 
-    <string name="touch_headline_incoming_call_title">Входящий звонок</string>
+    <string name="touch_headline_incoming_call_title">Входящий вызов</string>
     <string name="touch_headline_other_function_title">Другие функции</string>
-    <string name="touch_headline_call_title">Звонки</string>
-    <string name="touch_headline_music_title">Плеер</string>
-    <string name="touch_headline_time_title">Таймер/секундомер</string>
-    <string name="touch_headline_other_title">Другое</string>
+    <string name="touch_headline_call_title">Управление звонками</string>
+    <string name="touch_headline_music_title">Управление музыкой</string>
+    <string name="touch_headline_time_title">Управление таймером/секундомером</string>
+    <string name="touch_headline_other_title">Прочие управления</string>
 
-    <string name="touch_device_location_title">Найти устройство</string>
-    <string name="touch_device_location_not_muted_only_title">Не искать в беззвучном режиме</string>
+    <string name="touch_device_location_title">Найти телефон</string>
+    <string name="touch_device_location_not_muted_only_title">Только если звук не выключен или не активен режим «Не беспокоить»</string>
 
-    <string name="touch_mute_toggle_title">Переключение звука звонка</string>
-    <string name="touch_mute_toggle_ringer_mode_title">Выключить звук</string>
-    <string name="touch_mute_toggle_mute_off_title">Включить звук</string>
+    <string name="touch_mute_toggle_title">Переключение беззвучного режима телефона</string>
+    <string name="touch_mute_toggle_ringer_mode_title">Режим без звука</string>
+    <string name="touch_mute_toggle_mute_off_title">Выключить беззвучный режим</string>
 
     <string name="touch_music_title">Музыка</string>
-    <string name="touch_music_function_launch">Включите, для выбора плеера, если он автоматически не распознан.</string>
-    <string name="touch_music_function_mi_band_message_launch">Начните воспроизведение нажав кнопку</string>
-    <string name="touch_music_function_mi_band_message_no_track_title">Нет названия трека</string>
+    <string name="touch_music_function_launch">Запустить музыку кнопкой воспроизведения, если плеер не распознан</string>
+    <string name="touch_music_function_mi_band_message_launch">Запустить музыку кнопкой воспроизведения</string>
+    <string name="touch_music_function_mi_band_message_no_track_title">Не удалось получить название трека</string>
 
-    <string name="touch_call_out_title">Исходящий звонок</string>
+    <string name="touch_call_out_title">Совершить вызов</string>
     <string name="touch_call_out_no_contact">Выберите контакт</string>
-    <string name="touch_call_out_summary">Нажмите дважды, чтобы ответить на звонок</string>
-    <string name="touch_call_out_summary_support_call_display_button">Нажмите кнопку, чтобы ответить на звонок</string>
+    <string name="touch_call_out_summary">Двойное нажатие — ответ на вызов</string>
+    <string name="touch_call_out_summary_support_call_display_button">Нажмите кнопку, чтобы ответить на вызов</string>
     <string name="touch_call_out_speakerphone_title">Громкая связь</string>
-    <string name="touch_call_out_call_text">Исходящий: %1$s</string>
+    <string name="touch_call_out_call_text">Вызов: %1$s</string>
 
     <string name="touch_weather_title">Прогноз погоды</string>
-    <string name="touch_weather_location">Местоположение</string>
+    <string name="touch_weather_location">Обновление местоположения</string>
     <string name="touch_weather_precipitation">Осадки</string>
     <string name="touch_weather_cloud_cover">Облачность</string>
     <string name="touch_weather_wind">Ветер</string>
 
-    <string name="touch_repeat_notif_title">Повторить уведомления</string>
-    <string name="touch_repeat_notif_clear_all">Очистить уведомления после повтора</string>
+    <string name="touch_repeat_notif_title">Повтор уведомлений</string>
+    <string name="touch_repeat_notif_clear_all">Удалить все уведомления после повтора</string>
 
-    <string name="touch_clear_notif_title">Очистить уведомления</string>
+    <string name="touch_clear_notif_title">Удалить уведомления с телефона</string>
 
-    <string name="touch_music_play_pause_title">Воспроизведение - пауза</string>
+    <string name="touch_music_play_pause_title">Воспроизведение / пауза</string>
     <string name="touch_music_skip_previous_title">Предыдущий трек</string>
     <string name="touch_music_skip_next_title">Следующий трек</string>
     <string name="touch_music_headset_only_title">Только при подключённой гарнитуре</string>
-    <string name="touch_music_launch">Начать воспроизведение</string>
-    <string name="touch_music_volume_up_title">Повысить громкость</string>
-    <string name="touch_music_volume_down_title">Понизить громкость</string>
-    <string name="touch_music_track_info_title">Информация о треке</string>
+    <string name="touch_music_launch">Запустить музыку</string>
+    <string name="touch_music_volume_up_title">Увеличить громкость</string>
+    <string name="touch_music_volume_down_title">Уменьшить громкость</string>
+    <string name="touch_music_track_info_title">Показать информацию о треке</string>
 
-    <string name="touch_time_launch_title">Запустить</string>
+    <string name="touch_time_launch_title">Запустить отслеживание времени</string>
     <string name="touch_time_launch_type_timer_title">Таймер</string>
     <string name="touch_time_launch_type_stopper_title">Секундомер</string>
     <string name="touch_time_launch_type_interval_title">Интервал</string>
-    <string name="touch_time_launch_restart">Перезапустить, если включён</string>
-    <string name="touch_time_reminder_title">Оставшееся/прошедшее время</string>
+    <string name="touch_time_launch_restart">Перезапустить, если выполняется</string>
+    <string name="touch_time_reminder_title">Оставшееся / прошедшее время</string>
 
-    <string name="touch_google_assistant_title">Ассистент Google</string>
+    <string name="touch_google_assistant_title">Google Ассистент</string>
 
     <string name="touch_flashlight_title">Фонарик</string>
 
     <string name="touch_camera_title">Сделать фото</string>
     <string name="touch_camera_front_title">Фронтальная</string>
-    <string name="touch_camera_rear_title">Задняя</string>
+    <string name="touch_camera_rear_title">Основная</string>
     <string name="touch_camera_install_title">Установить</string>
 
-    <string name="touch_app_launcher1_title">Запуск приложений</string>
-    <string name="touch_app_launcher_package_no_title">Выберете приложение</string>
-    <string name="touch_app_launcher1_not_wakelock_only_title">Если экран не заблокирован</string>
+    <string name="touch_app_launcher1_title">Запуск приложения</string>
+    <string name="touch_app_launcher_package_no_title">Выберите приложение</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">Только при разблокированном экране</string>
 
-    <string name="touch_broadcast1_title">Отправить Broadcast</string>
+    <string name="touch_broadcast1_title">Отправить широковещательный сигнал</string>
     <string name="touch_broadcast1_action_title">Действие Intent</string>
-    <string name="touch_broadcast1_package_title">Имя компонента Intent</string>
+    <string name="touch_broadcast1_package_title">Имя пакета Intent</string>
 
-    <string name="touch_http_request1_title">1. HTTP запрос</string>
-    <string name="touch_http_request2_title">2. HTTP запрос</string>
+    <string name="touch_http_request1_title">1. HTTP-запрос</string>
+    <string name="touch_http_request2_title">2. HTTP-запрос</string>
     <string name="touch_http_request_url_title">URL</string>
     <string name="touch_http_request_method_title">Метод</string>
     <string name="touch_http_request_body_title">Тело</string>
-    <string name="touch_http_request_show_response_title">Показывать ответ</string>
+    <string name="touch_http_request_show_response_title">Показать ответ</string>
 
-    <string name="touch_tasker_launcher1_title">1. Tasker</string>
-    <string name="touch_tasker_launcher2_title">2. Tasker</string>
-    <string name="touch_tasker_launcher_no_permission_title">Необходимо соблюдать порядок установки для использования. Сначала Tasker, потом Mi Bandage.</string>
-    <string name="touch_tasker_launcher_no_access_title">Разрешить внешний доступ (Allow external access)</string>
-    <string name="touch_tasker_launcher_no_task_title">Выбрать действие</string>
+    <string name="touch_tasker_launcher1_title">1. Запуск задачи Tasker</string>
+    <string name="touch_tasker_launcher2_title">2. Запуск задачи Tasker</string>
+    <string name="touch_tasker_launcher_no_permission_title">Сначала установите Tasker, затем Mi Bandage</string>
+    <string name="touch_tasker_launcher_no_access_title">Разрешить внешний доступ</string>
+    <string name="touch_tasker_launcher_no_task_title">Выберите задачу</string>
 
-    <string name="touch_testing_title">Касания</string>
-    <string name="touch_testing_second">с</string>
+    <string name="touch_testing_title">Контроль касаний</string>
+    <string name="touch_testing_second">сек.</string>
 
-    <string name="touch_setting_detection_time_title">Время распознавания касаний</string>
-    <string name="touch_setting_detection_time_music_hint">Если вы уменьшите значение, экран музыки должен быть закрыт быстрее</string>
-    <string name="touch_setting_detection_time_button_hint">При меньшем значении, нажимайте кнопки чаще</string>
+    <string name="touch_setting_detection_time_title">Время распознавания касания</string>
+    <string name="touch_setting_detection_time_button_hint">Меньшее значение требует более быстрых нажатий для выполнения действий</string>
 
-    <string name="touch_setting_detection_method_title">Способ определения касаний</string>
+    <string name="touch_setting_detection_method_title">Метод распознавания касаний</string>
 
-    <string name="touch_setting_recognition_start_title">Начало распознавания касаний</string>
-    <string name="touch_setting_recognition_start_trigger_title">Последовательность</string>
+    <string name="touch_setting_recognition_start_title">Начать распознавание касаний</string>
+    <string name="touch_setting_recognition_start_trigger_title">Триггер</string>
     <string name="touch_setting_recognition_time_title">Время распознавания</string>
 
-    <string name="touch_setting_recognition_mi_band_signal_title">Уведомления %1$s</string> <!-- %1$s = Watch name -->
-    <string name="touch_setting_recognition_succeeded_title">Последовательность распознана</string>
-    <string name="touch_setting_recognition_failed_title">Последовательность не распознана</string>
+    <string name="touch_setting_recognition_mi_band_signal_title">Сигнал %1$s</string>
+    <string name="touch_setting_recognition_succeeded_title">Распознаваемый шаблон касания</string>
+    <string name="touch_setting_recognition_failed_title">Не распознанный шаблон касания</string>
 
     <string name="info_dialog_touch"><![CDATA[
-        <p>Функция корректно работает в автономном режиме. Если вы используетесовместный режим, официальное приложение <app_official/> также будет обрабатывать эти функции, поэтому правильная работа не может быть гарантирована.</p>
-        <p><b>Настройки Bluetooth телефона:</b> <device_name/> отключите устройство ввода</p>
-        <b><u>Используемые кнопки в последовательности</u></b>
-        <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
-        <br>Управление плеером <device_type/>
-        <p><img src="ic_search">
-        <br>Поиск телефона в <device_type/>
-        </p>
-        Для одной функции можно записать несколько последовательностей касаний.
+    <p>Корректная работа возможна в автономном режиме. В режиме совместной работы официальное приложение <app_official/> также обрабатывает эти функции, поэтому стабильность не гарантируется.</p>
+    <p><b>Настройки Bluetooth телефона:</b> отключите устройство ввода <device_name/></p>
+    <b><u>Распознанные касания</u></b>
+    <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
+    <br>Управление музыкой <device_type/>
+    <p><img src="ic_search">
+    <br>Поиск телефона <device_type/>
+    </p>
+    Для каждой функции можно задать несколько касаний.
     ]]></string>
 
 
@@ -669,19 +658,19 @@
 
     <string name="weather_forecast_title">Прогноз погоды</string>
 
-    <string name="weather_setting_provider">Поставщик погоды</string>
+    <string name="weather_setting_provider">Поставщик данных о погоде</string>
     <string name="weather_city_title">Город</string>
-    <string name="weather_unit_title">Система</string>
-    <string name="weather_unit_metric">Цельсий ℃</string>
-    <string name="weather_unit_imperial">Фаренгейт °F</string>
-    <string name="weather_automatic_update">Автоматическое обновление</string>
-    <string name="weather_automatic_update_title">Используйте ваше местоположение</string>
-    <string name="weather_automatic_update_summary">Это приложение собирает данные о местоположении, чтобы обновить погоду для текущего местоположения, даже когда приложение закрыто или не используется.</string>
+    <string name="weather_unit_title">Единицы измерения</string>
+    <string name="weather_unit_metric">Метрическая (°C)</string>
+    <string name="weather_unit_imperial">Имперская (°F)</string>
+    <string name="weather_automatic_update">Автоматическое обновление местоположения</string>
+    <string name="weather_automatic_update_title">Использовать текущее местоположение</string>
+    <string name="weather_automatic_update_summary">Это приложение собирает данные о местоположении для обновления прогноза, даже если оно закрыто или не используется.</string>
 
-    <string name="permission_background_location">%1$s будет иметь разрешение определения местоположениия, даже если приложение закрыто или не используется</string>
-    <string name="permission_error_title">%1$s не удается обновить разрешения</string>
-    <string name="permission_error_description">Откройте Настройки и выберите опцию „%1$s“ для разрешения местоположения</string>
-    <string name="all_the_time">Все время</string>
+    <string name="permission_background_location">%1$s получит доступ к местоположению даже при закрытом приложении</string>
+    <string name="permission_error_title">Не удалось обновить разрешения для %1$s</string>
+    <string name="permission_error_description">Откройте «Настройки» и выберите «%1$s» в параметрах доступа к местоположению</string>
+    <string name="all_the_time">Всегда</string>
 
     <string name="weather_current_title">Текущая погода</string>
     <string name="weather_current_location">Текущее местоположение</string>
@@ -698,94 +687,89 @@
     <string name="weather_south">Ю</string>
     <string name="weather_west">З</string>
 
-
     <!-- Text customization -->
-    <string name="pref_text_reminder_repeat_interval_title">Интервал повторения уведомлений</string>
-    <string name="pref_text_reminder_repeat_interval_summary">Сигнал уведомлений/напоминаний использует это время</string>
-    <string name="pref_text_emoticon_title">Преобразование Emoji</string>
-    <string name="pref_text_emoticon_summary_on">Преобразование emoji в emoticon</string>
-    <string name="pref_text_uppercase_title">Преобразование в прописные</string>
-    <string name="pref_text_uppercase_summary_on">Преобразование нижнего регистра в верхний</string>
-    <string name="pref_text_alphanumeric_title">Буквенно-цифровые и ASCII символы</string>
-    <string name="pref_text_alphanumeric_summary_on">Отображать только буквы, цифры и символы ASCII</string>
-    <string name="pref_text_transliteration_title">Преобразование символов</string>
-    <string name="pref_text_transliteration_summary_on">Преобразование букв с диакритическими знаками в безударные</string>
+    <string name="pref_text_reminder_repeat_interval_title">Интервал повтора напоминаний</string>
+    <string name="pref_text_reminder_repeat_interval_summary">Функция уведомлений > напоминаний использует этот интервал</string>
+    <string name="pref_text_emoticon_title">Преобразование эмодзи</string>
+    <string name="pref_text_emoticon_summary_on">Преобразовывать emoji в emoticon</string>
+    <string name="pref_text_uppercase_title">Преобразование в верхний регистр</string>
+    <string name="pref_text_uppercase_summary_on">Преобразовывать строчные буквы в прописные</string>
+    <string name="pref_text_alphanumeric_title">Только буквенно-цифровые и ASCII</string>
+    <string name="pref_text_alphanumeric_summary_on">Показывать только буквы, цифры и ASCII-символы</string>
+    <string name="pref_text_transliteration_title">Транслитерация</string>
+    <string name="pref_text_transliteration_summary_on">Заменять символы с диакритикой на обычные</string>
     <string name="pref_text_line_separator_title">Замена разделителя строк</string>
-    <string name="pref_text_line_separator_summary_on">Заменить разделитель строк по умолчанию на другие символы</string>
+    <string name="pref_text_line_separator_summary_on">Заменить стандартный разделитель другим символом</string>
     <string name="pref_text_line_separator_value_title">Символы для замены</string>
-    <string name="pref_text_char_replacement_title">Замена символа или emoji</string>
-    <string name="pref_text_char_replacement_summary_on">Заменить один символ на другой</string>
+    <string name="pref_text_char_replacement_title">Замена символов и эмодзи</string>
+    <string name="pref_text_char_replacement_summary_on">Заменять один символ другим</string>
     <string name="pref_text_char_replacement_find">Найти</string>
-    <string name="pref_text_char_replacement_replace">Заменить</string>
-
+    <string name="pref_text_char_replacement_replace">Заменить на</string>
 
     <!-- Export -->
     <string name="export_tab_database">Экспорт данных</string>
     <string name="export_start_date">Дата начала экспорта</string>
 
-
     <!-- Theme -->
     <string name="theme_tab_theme">Тема</string>
 
-    <string name="theme_title">Выберите тему</string>
+    <string name="theme_title">Выбор темы</string>
     <string name="theme_background_color_title">Цвет фона</string>
 
     <string name="theme_widget_background_color_title">Цвет</string>
     <string name="theme_color_dynamic_color_title">Динамический цвет</string>
     <string name="theme_color_predefined_colors_title">Предустановленные цвета</string>
 
-    <string name="theme_notification_title">Отображение статуса подключения в уведомлении</string>
+    <string name="theme_notification_title">Показывать статус в панели уведомлений</string>
 
     <string name="theme_cat_color_setting">Настройки цвета</string>
 
+    <!-- Feedback -->
+    <string name="action_log_notification">Журнал</string>
+
+    <string name="feedback_google_play_title">Оценить приложение</string>
+    <string name="feedback_request_feature_title">Предложить функцию, сообщить об ошибке</string>
+    <string name="feedback_request_feature_summary">Письма обрабатываются автоматически, ответ может не прийти</string>
+    <string name="feedback_translation_title">Перевод %1$s</string> <!-- %1$s = App name -->
+    <string name="feedback_translation_title_summary">Помогите с переводом</string>
 
     <!-- Premium mode -->
     <string name="purchase_advantage_title">Преимущества режима Premium</string>
     <string name="purchase_advantage"><![CDATA[
     <p>• финансовая поддержка разработки</p>
-    <p>• без рекламы</p>
+    <p>• отсутствие рекламы</p>
     <p>• неограниченные настройки уведомлений</p>
     <p>• неограниченные настройки звонков</p>
-    <p>• неограниченная ежедневная загрузка циферблатов</p>
-    <p>• неограниченное количество будильников (может ограничиваться часами)</p>
-    <p>• неограниченный режим «Не беспокоить»</p>
+    <p>• неограниченное количество ежедневных загрузок циферблатов</p>
+    <p>• неограниченное количество будильников (возможны ограничения со стороны часов)</p>
+    <p>• неограниченное использование режима «Не беспокоить»</p>
     <p>• неограниченные настройки касаний</p>
-    <p>• более частое обновление погоды, автоматическое обновление местоположения, возможность использовать AccuWeather</p>
+    <p>• более частое обновление погоды, автоматическое определение местоположения, возможность использования AccuWeather</p>
     <p>• подробные ежедневные графики</p>
-    • разблокировка всех остальных ограничений функций…
+    • снятие всех других ограничений функций…
     ]]></string>
 
     <string name="purchase_policy_title">Условия использования режима Premium</string>
     <string name="purchase_policy"><![CDATA[
-    <p>• Я протестировал(а) приложение и убедился(ась), что оно работает должным образом.</p>
-    <p>• Я понимаю, что не могу требовать возврат средств или компенсацию за проблемы, вызванные обновлениями системы (например, версия Android), оборудованием или конфликтами с другими приложениями.</p>
-    <p>• Все покупки являются окончательными и не подлежат возврату (за исключением случаев, предусмотренных политикой возврата Google\'а).</p>
+    <p>• Я протестировал(а) приложение и подтвердил(а), что оно работает должным образом.</p>
+    <p>• Я понимаю, что не имею права требовать возврат средств или компенсацию за проблемы, вызванные изменениями в системе (например, обновления Android), оборудовании или конфликтами с другими приложениями.</p>
+    <p>• Все покупки являются окончательными и не подлежат возврату (за исключением случаев, предусмотренных политикой возврата Google).</p>
     <p>• Приложение предоставляется без каких-либо гарантий, явных или подразумеваемых.</p>
-    <p>• Использование приложения осуществляется на ваш страх и риск. Разработчик не несёт ответственности за любой прямой или косвенный ущерб или потерю данных, вызванные его использованием.</p>
-    <p>• Режим Premium привязан к вашей учётной записи Google и остаётся активным после переустановки приложения.</p>
+    <p>• Использование приложения осуществляется на ваш страх и риск. Разработчик не несёт ответственности за любые прямые или косвенные убытки или потерю данных, вызванные его использованием.</p>
+    <p>• Режим Premium привязывается к вашей учётной записи Google и остаётся активным после переустановки приложения.</p>
     <i>После покупки необходимо перезапустить приложение.</i>
     ]]></string>
 
-
     <string name="purchase_google_play_services_not_available">Службы Google Play недоступны</string>
 
-    <string name="purchase_agree">Я согласен с правилами и условиями.</string>
-    <string name="purchase_order_id">ID заказа</string>
-    <string name="purchase_order_id_help">Скопируйте из:
-        \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
-        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <string name="purchase_agree">Я согласен с условиями использования.</string>
+    <string name="purchase_order_id">Идентификатор заказа</string>
+    <string name="purchase_order_id_help">Скопируйте с сайта:
+    \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+    \n<a href="https://payments.google.com">https://payments.google.com</a></string>
 
-    <string name="purchase_info">Единовременная плата ・ %1$s</string> <!-- %1$s = price</string>-->
-    <string name="purchase_button_purchase">Приобрести</string>
-
-    <!-- Feedback -->
-    <string name="action_log_notification">Записывать лог уведомлений</string>
-
-    <string name="feedback_google_play_title">Оцените приложение</string>
-    <string name="feedback_request_feature_title">Есть идеи для новых функций или хотите отправить отчет об ошибке.</string>
-    <string name="feedback_request_feature_summary">Электронная почта обрабатывается автоматически, ответ на отправленное письмо не отправляется (Настоятельно рекомендую писать на Английском языке)</string>
-    <string name="feedback_translation_title">Перевод %1$s</string> <!-- %1$s = App name -->
-    <string name="feedback_translation_title_summary">Можете помочь с переводом</string>
+    <string name="purchase_info">Разово ・ %1$s</string>
+    <string name="purchase_button_purchase">Купить</string>
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Политика конфиденциальности</string>
@@ -859,54 +843,52 @@
     <!-- Custom vibration dialog -->
     <string name="custom_vibration_title">Настройки вибрации</string>
 
-
     <!-- Shortcuts -->
-    <string name="shortcut">Shortcut</string>
-    <string name="shortcut_visible_items">Быстрые элементы</string>
-    <string name="shortcut_hidden_items">Скрытые быстрые элементы</string>
+    <string name="shortcut">Ярлык</string>
+    <string name="shortcut_visible_items">Видимые ярлыки</string>
+    <string name="shortcut_hidden_items">Скрытые ярлыки</string>
 
     <string name="shortcut_status">Статус</string>
     <string name="shortcut_heart_rate">Пульс</string>
-    <string name="shortcut_blood_oxygen">Уровень кислорода в крови</string>
+    <string name="shortcut_blood_oxygen">Кислород в крови</string>
     <string name="shortcut_sleep">Сон</string>
     <string name="shortcut_breathing">Дыхание</string>
     <string name="shortcut_weather">Погода</string>
     <string name="shortcut_stress">Стресс</string>
 
-
-    <!-- Others -->
+    <!-- Actions -->
     <string name="tab_daily_charts">День</string>
     <string name="tab_weekly_charts">Неделя</string>
     <string name="tab_monthly_charts">Месяц</string>
     <string name="tab_yearly_charts">Год</string>
 
     <string name="ad_attribution">Реклама</string>
-    <string name="on">Включено</string>
-    <string name="off">Отключено</string>
+    <string name="on">Вкл</string>
+    <string name="off">Выкл</string>
     <string name="none">Нет</string>
-    <string name="heart_rate_bpm">у/м</string>
+    <string name="heart_rate_bpm">уд/мин</string>
     <string name="heart_rate_mhr">MHR</string>
     <string name="date">Дата</string>
     <string name="time">Время</string>
-    <string name="time_start">Время начала</string>
-    <string name="time_end">Время окончания</string>
+    <string name="time_start">Начало</string>
+    <string name="time_end">Окончание</string>
     <string name="ringer_mode_vibrate">Вибрация</string>
     <string name="ringer_mode_silent">Без звука</string>
     <string name="ringer_mode_dnd_priority_only">Не беспокоить (только приоритет)</string>
     <string name="ringer_mode_dnd_alarms_only">Не беспокоить (только будильник)</string>
-    <string name="ringer_mode_dnd_total_silence">Не беспокоить (совсем)</string>
+    <string name="ringer_mode_dnd_total_silence">Не беспокоить (полная тишина)</string>
     <string name="unknown">Неизвестно</string>
-    <string name="maximum">Полностью</string>
+    <string name="maximum">Максимум</string>
     <string name="all_day">Весь день</string>
     <string name="timed">По времени</string>
     <string name="file_name">Имя файла</string>
     <string name="default_">По умолчанию</string>
-    <string name="default_by_phone">По умолчанию</string>
-    <string name="custom">Свой</string>
-    <string name="invalid_setting">Неверная настройка</string>
+    <string name="default_by_phone">По умолчанию (телефон)</string>
+    <string name="custom">Пользовательский</string>
+    <string name="invalid_setting">Недопустимая настройка</string>
     <string name="ringtone">Рингтон</string>
     <string name="ringtone_chooser">Выбор рингтона</string>
-    <string name="uninstalled">Не установлен</string>
+    <string name="uninstalled">Удалено</string>
     <string name="value">Значение</string>
     <string name="downloads">Загрузки</string>
     <string name="share">Поделиться</string>
@@ -917,12 +899,12 @@
     <string name="long_">Длинный</string>
     <string name="full">Полный</string>
     <string name="alignment_left">Выравнивание влево</string>
-    <string name="alignment_center">Выравнивание к центру</string>
-    <string name="alignment_right">Выравнивание правильно</string>
+    <string name="alignment_center">Выравнивание по центру</string>
+    <string name="alignment_right">Выравнивание вправо</string>
     <string name="visible">Видимый</string>
     <string name="invisible">Невидимый</string>
-    <string name="placeholder">Заполнить</string>
-    <string name="image_scale_fit">Подогнать</string>
+    <string name="placeholder">Заполнитель</string>
+    <string name="image_scale_fit">По размеру</string>
     <string name="image_scale_crop">Обрезать</string>
     <string name="image_scale_stretch">Растянуть</string>
     <string name="resource_manager">Менеджер ресурсов</string>
@@ -944,21 +926,21 @@
     <string name="action_save">Сохранить</string>
     <string name="action_test">Тестировать</string>
     <string name="action_discard">Отменить</string>
-    <string name="action_keep_editing">Продолжить</string>
+    <string name="action_keep_editing">Продолжить редактирование</string>
     <string name="action_new">Новый</string>
     <string name="action_new_file_extension">Новый %1$s</string>
     <string name="action_edit">Редактировать</string>
-    <string name="action_start_stop">Пуск/Пауза</string>
+    <string name="action_start_stop">Старт/Стоп</string>
     <string name="action_contacts">Контакты</string>
-    <string name="action_single_selection">Выбрать один</string>
-    <string name="action_multiple_selection">Выбрать несколько</string>
-    <string name="action_selection_boundaries">Границы выбора</string>
+    <string name="action_single_selection">Одиночный выбор</string>
+    <string name="action_multiple_selection">Множественный выбор</string>
+    <string name="action_selection_boundaries">Границы выделения</string>
     <string name="action_object_boundaries">Границы объекта</string>
     <string name="action_select">Выбор</string>
-    <string name="action_select_all">Выбрать всё</string>
-    <string name="action_select_texts">Выбрать текст</string>
+    <string name="action_select_all">Выбрать все</string>
+    <string name="action_select_texts">Выбрать тексты</string>
     <string name="action_select_images">Выбрать изображения</string>
-    <string name="action_deselect_all">Отменить выбор</string>
+    <string name="action_deselect_all">Снять выделение</string>
     <string name="synchronized_from_watch">Синхронизировано с часов</string>
     <string name="synchronization_succeeded">Синхронизация прошла успешно</string>
     <string name="synchronization_failed">Синхронизация не удалась</string>
@@ -966,21 +948,21 @@
     <string name="action_chart">График</string>
     <string name="action_zoom_in">Приблизить</string>
     <string name="action_chart_normalize_raw_data">Измеренные значения</string>
-    <string name="action_chart_normalize_quarter_hourly">Средние значения (15 м)</string>
-    <string name="action_chart_normalize_half_hourly">Средние значения (30 м)</string>
-    <string name="action_chart_normalize_hourly">Средние значения (1 ч)</string>
-    <string name="action_chart_sort_time_asc">Время, по возрастанию</string>
-    <string name="action_chart_sort_time_desc">Время, по убыванию</string>
-    <string name="action_chart_sort_step_asc">Шаги, по возрастанию</string>
-    <string name="action_chart_sort_step_desc">Шаги, по убыванию</string>
+    <string name="action_chart_normalize_quarter_hourly">Значения за 15 минут</string>
+    <string name="action_chart_normalize_half_hourly">Значения за 30 минут</string>
+    <string name="action_chart_normalize_hourly">Почасовые значения</string>
+    <string name="action_chart_sort_time_asc">Время по возрастанию</string>
+    <string name="action_chart_sort_time_desc">Время по убыванию</string>
+    <string name="action_chart_sort_step_asc">Шаги по возрастанию</string>
+    <string name="action_chart_sort_step_desc">Шаги по убыванию</string>
     <string name="action_chart_sort_duration_asc">Продолжительность по возрастанию</string>
     <string name="action_chart_sort_duration_desc">Продолжительность по убыванию</string>
-    <string name="action_chart_sort_heart_rate_asc">Пульс, по возрастанию</string>
-    <string name="action_chart_sort_heart_rate_desc">Пульс, по убыванию</string>
+    <string name="action_chart_sort_heart_rate_asc">Пульс по возрастанию</string>
+    <string name="action_chart_sort_heart_rate_desc">Пульс по убыванию</string>
     <string name="action_chart_sort_spo2_asc">SpO2 по возрастанию</string>
     <string name="action_chart_sort_spo2_desc">SpO2 по убыванию</string>
-    <string name="action_chart_sort_pressure_asc">Давление по возрастанию</string>
-    <string name="action_chart_sort_pressure_desc">Давление по убыванию</string>
+    <string name="action_chart_sort_blood_pressure_asc">Давление по возрастанию</string>
+    <string name="action_chart_sort_blood_pressure_desc">Давление по убыванию</string>
     <string name="action_chart_monthly_calendar">Календарь</string>
     <string name="action_chart_monthly_compact">Компактно</string>
 
