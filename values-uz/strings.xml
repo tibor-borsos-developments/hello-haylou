@@ -1,0 +1,1025 @@
+<?xml version="1.0"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="uz">
+
+    <!--  Navigation  -->
+    <string name="menu_nav_notification">Bildirishnoma</string>
+    <string name="menu_nav_call">Qo\'ng\'iroq</string>
+    <string name="menu_nav_step">Faollik</string>
+    <string name="menu_nav_sleep">Uyqu</string>
+    <string name="menu_nav_heart_rate">Yurak urishi</string>
+    <string name="menu_nav_blood_oxygen">Qon kislorodi</string>
+    <string name="menu_nav_blood_pressure">Qon bosimi</string>
+    <string name="menu_nav_workout">Mashg\'ulot</string>
+    <string name="menu_nav_alarm">Budilnik</string>
+    <string name="menu_nav_reminder">Eslatma</string>
+    <string name="menu_nav_dnd">Bezovta qilmaslik rejimi</string>
+    <string name="menu_nav_watch_face">Soat ekrani</string>
+    <string name="menu_nav_weather">Ob-havo</string>
+    <string name="menu_nav_touch">Sensorli boshqaruv</string>
+    <string name="menu_nav_more">Boshqalar</string>
+    <string name="menu_nav_text_customization">Matn sozlamalari</string>
+    <string name="menu_nav_export">Eksport</string>
+    <string name="menu_nav_premium_mode">Premium rejim</string>
+    <string name="menu_nav_feedback">Fikr-mulohaza</string>
+    <string name="menu_nav_privacy_policy">Maxfiylik siyosati</string>
+    <string name="menu_nav_theme">Mavzu</string>
+
+    <string name="setting_name">Sozlama</string>
+    <string name="settings_name">Sozlamalar</string>
+    <string name="info_name">Ma\'lumot</string>
+    <string name="more_name">Batafsil</string>
+
+    <string name="main_item_activity_title">Qadamlar・maqsad</string>
+    <string name="main_item_battery">Batareya darajasi・oxirgi quvvatlanish</string>
+    <string name="main_item_connect_and_disconnect_last_time">Oxirgi ulanib uzilgan vaqt</string>
+    <string name="main_item_next_alarm">Keyingi budilnik</string>
+    <string name="main_item_next_reminder">Keyingi eslatma</string>
+    <string name="main_item_call_and_notification_control">Qo\'ng\'iroqlar va bildirishnomalar</string>
+
+    <!-- Pairing Bluetooth device -->
+    <string name="device_search">%1$s qidirilmoqda</string> <!-- %1$s = Watch name -->
+    <string name="device_setting">%1$s sozlamasi</string> <!-- %1$s = Watch name -->
+
+    <string name="device_mac_address">MAC manzili</string>
+    <string name="device_mac_address_invalid">MAC manzili noto\'g\'ri</string>
+
+    <string name="device_state_connected">Ulandi</string>
+    <string name="device_state_disconnected">Ulanmagan</string>
+    <string name="device_state_bonded">Juftlashtirilgan qurilma</string>
+    <string name="device_state_not_bonded">Juftlashtirilmagan qurilma</string>
+
+    <string name="error_title">Xatolik! Nimadir noto\'g\'ri ketdi</string>
+    <string name="error_message">Iltimos, ilovani eng so\'nggi versiyaga yangilang</string>
+
+
+    <!-- Watch connection and setting -->
+    <string name="mi_band_setting_title">%1$s sozlamalari</string>
+
+    <string name="mi_band_setting_menu_connection">Ulanish</string>
+    <string name="mi_band_setting_menu_setting">@string/setting_name</string>
+    <string name="mi_band_setting_menu_profile">Profil</string>
+    <string name="mi_band_setting_menu_text">Matn</string>
+    <string name="mi_band_setting_menu_call">Qo\'ng\'iroq</string>
+
+    <string name="mi_band_setting_auth_mi_fit">%1$s bilan integratsiya</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">%3$s ishlashi uchun bu telefonda %1$s ilovasi o\'rnatilgan bo\'lishi kerak. Avval %1$s ilovasida %2$s qurilmasini juftlang. Agar %1$s ilovasidan ham foydalanmoqchi bo\'lsangiz, ushbu variantni tanlang.</string>
+    <string name="mi_band_setting_auth_standalone">Mustaqil rejim</string>
+    <string name="mi_band_setting_auth_standalone_hint">%3$s ishlashi uchun %1$s ilovasi talab etilmaydi. Juftlashdan so\'ng, %1$s ilovasini o\'chirib tashlashingiz yoki soatni ajratib qo\'yishingiz mumkin. %1$s bilan qayta ishlash uchun, %2$s qurilmasini %1$s ilovasida qayta juftlashingiz kerak bo\'ladi. Agar ajratib qo\'ysangiz, soatdagi barcha ma\'lumotlar o\'chiriladi. Juftlash vaqtida %2$s ekrani yoqilgan bo\'lishi kerak.</string>
+    <string name="mi_band_standalone_sync_error">Ma\'lumotlar yo\'qolishini oldini olish va aniqlikni ta\'minlash uchun integratsiya rejimida sinxronizatsiya o\'chirib qo\'yilgan. Sinxronizatsiya soatdagi ma\'lumotlarni o\'chiradi va ikkala ilovada noto\'g\'ri natijalarga olib keladi.</string>
+    <string name="mi_band_setting_auth_key">Tasdiqlash kodi</string>
+    <string name="mi_band_setting_auth_key_help">Istalgan 4 xonali raqamni kiriting</string>
+    <string name="mi_band_setting_auth_request">Kod so\'rovi</string>
+    <string name="mi_band_setting_auth_pair">Juftlash</string>
+    <string name="mi_band_setting_auth_unpair">Ajratish</string>
+
+    <string name="message_auth_request">Qurilma allaqachon juftlangan. Agar kodni bilmasangiz, ajratib qo\'ying.</string>
+
+    <string name="message_mi_band_setting_auth_press_band_button">%1$s qurilmasidagi tugmani bosing</string>
+    <string name="message_mi_band_setting_auth_success">%1$s muvaffaqiyatli juftlandi</string>
+    <string name="message_mi_band_setting_auth_fail">%1$s juftlash muvaffaqiyatsiz bo\'ldi</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Noto\'g\'ri tasdiqlash kodi</string>
+
+    <string name="pref_disconnect_device">Ajratish</string>
+
+    <string name="mi_band_setting_connection_problem_title">Ulanish muammolari bo\'lsa</string>
+    <string name="mi_band_setting_connection_problem_hint"><![CDATA[
+    - Telefonda Bluetooth sozlamalariga o\'ting va soat juftlashini olib tashlang<br>
+    - Bluetooth-ni o\'chirib, qayta yoqing<br>
+    - Ilovani majburan yoping yoki telefonni qayta yoqing<br>
+    - Soatni bosh ekrandan qayta juftlashga harakat qiling
+    ]]></string>
+
+    <string name="mi_band_setting_dial">Soat ekrani</string>
+    <string name="mi_band_setting_language">Til</string>
+    <string name="mi_band_setting_time_24h">24 soatlik format</string>
+    <string name="mi_band_setting_distance_unit">Masofa birligi</string>
+    <string name="mi_band_setting_screen_on_duration">Ekran yoqilish davomiyligi</string>
+    <string name="mi_band_setting_lift_wrist">Bilak ko\'tarilganda ekran yoqilsin</string>
+    <string name="mi_band_setting_idle_alert">Faollik eslatmasi</string>
+    <string name="mi_band_setting_idle_alert_duration">Harakatsizlik muddati</string>
+    <string name="mi_band_setting_idle_alert_dnd">Dam olish vaqtida bezovta qilmasin (12:00–14:00)</string>
+
+    <string name="pref_synchronization">Sinxronizatsiya</string>
+    <string name="pref_synchronization_fetch_interval">Sinxronizatsiya oralig\'i</string>
+    <string name="pref_synchronization_summary">Fon rejimida avtomatik sinxronizatsiya qilinadigan ma\'lumotlarni tanlang. Agar ayrim ma\'lumotlar kerak bo\'lmasa, unumdorlik uchun o\'chirib qo\'ying. Ma\'lumotlarni qo\'lda ham sinxronizatsiya qilishingiz mumkin: bosh ekranda yoki mos menyularda pastga surib.</string>
+
+    <string name="mi_band_setting_profile">Qadamlar, masofa va kaloriyalarni aniq hisoblash uchun ushbu ma\'lumotlarni kiriting.</string>
+    <string name="mi_band_setting_gender">Jinsi</string>
+    <string name="mi_band_setting_gender_male">Erkak</string>
+    <string name="mi_band_setting_gender_female">Ayol</string>
+    <string name="mi_band_setting_birthday">Tug\'ilgan sana</string>
+    <string name="mi_band_setting_height">Bo\'y</string>
+    <string name="mi_band_setting_weight">Vazn</string>
+    <string name="mi_band_setting_wearing_place">Taqqan joy</string>
+    <string name="mi_band_setting_wearing_place_left_wrist">Chap qo\'l</string>
+    <string name="mi_band_setting_wearing_place_right_wrist">O\'ng qo\'l</string>
+
+    <!-- Battery -->
+    <string name="battery_details">Batareya ishlatilishi</string>
+
+    <string name="battery_settings">Batareya sozlamalari</string>
+    <string name="battery_settings_notification">Kam zaryad ogohlantirishi</string>
+    <string name="battery_settings_notification_level">Zaryad chegarasi</string>
+    <string name="battery_settings_notification_repeat_interval">Takrorlash oraligʻi</string>
+    <string name="battery_settings_notification_on_phone">Telefon orqali ogohlantirish</string>
+    <string name="battery_settings_notification_on_phone_ongoing">Doimiy bildirishnoma</string>
+    <string name="battery_settings_notification_on_phone_message">Batareya darajasi past: %1$,d%%</string>
+    <string name="battery_settings_notification_on_device">Soatda ogohlantir</string>
+    <string name="battery_settings_notification_on_device_message">Batareya: %1$,d%%</string>
+
+    <!-- Preference screens -->
+    <string name="pref_battery_phone">Telefon batareyasi</string>
+    <string name="pref_battery_phone_summary">Kam yoki toʻliq zaryad ogohlantirishai</string>
+    <string name="pref_cat_battery_phone_low">Kam zaryad</string>
+    <string name="pref_battery_phone_low_title">Kam zaryad ogohlantirishi</string>
+    <string name="pref_battery_phone_low_level_title">Zaryad chegarasi</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">Takrorlash oraligʻi</string>
+    <string name="pref_cat_battery_phone_full">Toʻliq zaryad</string>
+    <string name="pref_battery_phone_full_title">Toʻliq zaryad ogohlantirishi</string>
+    <string name="pref_battery_phone_full_plugged_ac">Tok orqali zaryadlash</string>
+    <string name="pref_battery_phone_full_plugged_usb">USB orqali zaryadlash</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Simsiz zaryadlash</string>
+
+    <string name="pref_battery_phone_message">Telefon batareyasi:\n %1$,d%%</string>
+
+    <string name="pref_language">Til</string>
+    <string name="pref_cat_language">Ilova</string>
+    <string name="pref_language_title">Til</string>
+
+    <string name="pref_menu">Menyu</string>
+    <string name="pref_cat_menu">Asosiy menyu sozlamalari</string>
+    <string name="pref_menu_item_2">Ikkinchi menyu elementi</string>
+    <string name="pref_menu_item_3">Uchinchi menyu elementi</string>
+
+    <string name="pref_diagnostic">Diagnostika</string>
+    <string name="pref_cat_diagnostic_closing_protection">Yopilishdan himoya</string>
+    <string name="pref_diagnostic_battery_optimisation">Batareya optimallashtirishni oʻchirish</string>
+    <string name="pref_diagnostic_companion_device">Qoʻshimcha qurilma juftlashuvi</string>
+    <string name="pref_diagnostic_bluetooth_pairing">Bluetooth juftlashuvi</string>
+    <string name="pref_diagnostic_autostart">Avtomatik ishga tushirish</string>
+    <string name="pref_diagnostic_autostart_summary">Ilovani telefonning Avto-ishga tushirish boshqaruvida avtomatik ishga tushirishga ruxsat bering</string>
+    <string name="pref_diagnostic_info">Qoʻshimcha maʼlumot</string>
+    <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
+
+    <string name="pref_cat_diagnostic_permissions">Ruxsatlar</string>
+    <string name="pref_diagnostic_permission_allow_notification_access_settings">Bildirishnomalarga kirishni ruxsat etish</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm">Aniq vaqtli signalni rejalashtirish</string>
+    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Vazifani aniq vaqtda bajarish uchun qoʻshimcha ruxsat talab etiladi.</string>
+    <string name="pref_diagnostic_permission_post_notifications">Bildirishnomalarni koʻrsatish</string>
+    <string name="pref_diagnostic_permission_post_notifications_summary">Bildirishnomani koʻrsatish uchun qoʻshimcha ruxsat talab etiladi</string>
+    <string name="pref_diagnostic_permission_access_notification_policy">«Bezovta qilmaslik» funksiyasiga kirish</string>
+
+
+    <!-- Snackbar messages -->
+    <string name="message_enable_bluetooth">Iltimos, Bluetooth-ni yoqing va soatni telefoningizga yaqin tuting</string>
+    <string name="message_discover_device">%1$s sozlanmagan, iltimos, ulanishingiz kerak</string>
+    <string name="message_discovering_device">%1$s qidirilmoqda (bu 1 daqiqagacha vaqt olishi mumkin)…</string>
+    <string name="message_discover_device_succeeded">%1$s muvaffaqiyatli ulandi</string>
+    <string name="message_discover_device_failed">%1$s ulanishi amalga oshmadi</string>
+    <string name="message_discover_device_not_found">Agar %1$s topilmasa, uni aniqlanish rejimiga o‘tkazing yoki telefon Bluetooth sozlamalaridan juftlang</string>
+    <string name="message_enable_notification_listener_access">Bildirishnoma kirishini yoqing: Telefon > Sozlamalar > Bildirishnoma kirishi</string>
+    <string name="message_enable_notification_listener_access_4_4">Bildirishnoma kirishini yoqing: Sozlamalar > Xavfsizlik > Bildirishnoma kirishi</string>
+
+    <string name="message_deleted">Oʻchirildi</string>
+    <string name="message_undo">Bekor qilish</string>
+
+    <string name="message_app_chooser_no_selected">Ilovani tanlang</string>
+
+    <string name="message_free_counter">Bepul rejimda faqat 1 ta sozlama ishlatilishi mumkin</string>
+    <string name="message_free_counters">Bepul rejimda eng koʻpi bilan %1$,d ta sozlama ishlatilishi mumkin</string>
+
+    <string name="message_notification_free_groups">Bepul rejimda eng koʻpi bilan %1$,d ta guruh ishlatilishi mumkin</string>
+    <string name="message_notification_free_app">Bepul rejimda faqat 1 ta ilova tanlanishi mumkin</string>
+    <string name="message_notification_free_apps">Bepul rejimda eng koʻpi bilan %1$,d ta ilova tanlanishi mumkin</string>
+    <string name="message_notification_free_text">Bepul rejimda faqat 1 ta matn yozilishi mumkin</string>
+
+    <string name="message_time_alarm_free_counter">Bepul rejimda faqat 1 ta signal ishlatilishi mumkin</string>
+    <string name="message_time_alarm_max_counter">Eng koʻpi bilan %1$d ta signal ishlatilishi mumkin</string>
+    <string name="message_time_alarm_enabled">Signal yoqilgan</string>
+    <string name="message_time_alarm_disabled">Signal o‘chirilgan</string>
+    <string name="message_time_alarm_off">Signal oʻchiq</string>
+
+    <string name="message_touch_pattern_error">Kiritilgan andoza boshqa funksiyaga oʻxshash. Boshqa andozani yozing</string>
+    <string name="message_touch_free_patterns">Bepul rejimda eng koʻpi bilan %1$,d ta boshqaruv ishlatilishi mumkin</string>
+    <string name="message_touch_record_help">%1$s soat orqali musiqa boshqaruvi yoki telefon topish funksiyasidan foydalaning</string>
+
+    <string name="message_premium_mode_only">Bu funksiya faqat Premium rejimda mavjud</string>
+    <string name="message_feature_is_not_supported">%1$s bu funksiyani qoʻllab-quvvatlamaydi</string>
+    <string name="message_general_error">Sozlash bajarilmadi (aloqa uzildi), iltimos, qayta urinib koʻring</string>
+    <string name="message_internet_error">Internet ulanmagan</string>
+    <string name="message_internet_traffic_blocked">Tarmoq trafigi bloklangan</string>
+    <string name="message_internet_ads_blocked">Reklamalar bloklangan</string>
+    <string name="message_gps_enable">GPS-ni yoqing</string>
+    <string name="message_location_enable">Joylashuvga kirishni yoqing</string>
+
+    <string name="message_in_progress">Jarayonda…</string>
+    <string name="message_no_data">Maʼlumot yoʻq</string>
+
+    <string name="message_rewarded_error">Video yuklab bo‘lmadi</string>
+
+    <string name="message_new_message">Yangi xabar olindi. Telefoningizdan koʻring.</string>
+
+    <string name="message_permission_not_granted">Ruxsat berilmagan: %1$s</string>
+
+    <!-- Welcome dialog -->
+    <string name="dialog_welcome_title">Xush kelibsiz!</string>
+    <string name="dialog_welcome_message"><![CDATA[Qoʻllab-quvvatlanadigan qurilmalar:
+    <watch_types/>
+    <p><app_name/> ilovasidan foydalanish uchun, shu telefonga rasmiy <device_type/> ilovasini oʻrnatishingiz kerak. Dastlab, <device_type/> ilovasida soatingizni juftlashingiz kerak, soʻngra ushbu ilovadan foydalanishingiz mumkin.</p>
+    <p>Agar <device_type/> topilmasa, qidiruv jarayonida MAC manzilni qoʻlda kiritish mumkin.</p>
+    <b>Ulanish muammolarini hal qilish:</b>
+    <br>- Soʻnggi ilovalar oynasi: <app_name/> ilovasini qulflang (ilova koʻrinishida pastga suring va "Qulflash" yoki shunga oʻxshashni tanlang).
+    <br>- Telefon/batareya optimallashtiruvchisi: <app_name/> ilovasini "optimizatsiya qilinmasin" deb belgilang.
+    <br>- Telefon/ilovalar: Bluetooth Share va boshqa "Bluetooth" ilovalarning maʼlumotlarini tozalang.
+    <br>- Qoʻshimcha maʼlumot: https://dontkillmyapp.com
+    <br><br><small>Ushbu mahsulot va uning funksiyalari tibbiy maqsadlar uchun moʻljallanmagan, kasalliklarni bashorat qilish, aniqlash, oldini olish yoki davolash uchun foydalanilmaydi. Barcha maʼlumotlar va oʻlchovlar shaxsiy foydalanish uchun moʻljallangan va tashxis yoki davolash asosiga aylanmasligi kerak.</small>
+    ]]></string>
+
+    <!-- Notification -->
+    <string name="notification_group_nav_setting">Sozlama</string>
+    <string name="notification_group_nav_filter">Filtr</string>
+    <string name="notification_group_nav_correction">Matnni tuzatish</string>
+
+    <string name="notification_group_name">Nomi</string>
+    <string name="notification_group_monitoring">Bildirishnomalarni kuzatish</string>
+    <string name="notification_group_monitoring_disabled">Bildirishnomalarni istisno qilish (ilovaning bildirishnomalari ko‘rsatilmaydi)</string>
+    <string name="notification_group_alert_title">%1$s ogohlantirishi</string>
+    <string name="notification_group_text_customization">Matnni moslashtirish</string>
+    <string name="notification_group_text_app_name">Ilova nomi</string>
+    <string name="notification_group_text_name">Nomi</string>
+    <string name="notification_group_text_title">Sarlavha</string>
+    <string name="notification_group_text_content">Tarkib</string>
+    <string name="notification_group_text_big_content">To‘liq tarkib</string>
+    <string name="notification_group_text_content_slice_title">Matn uzunligi</string>
+    <string name="notification_group_display_duration_title">Ko‘rsatish davomiyligi</string>
+    <string name="notification_group_show_notification_title">Bildirishnomani ko‘rsatish</string>
+    <string name="notification_group_immediate">Bildirishnoma kelganda darhol ogohlantir</string>
+    <string name="notification_group_connecting">Ulanayotganda ogohlantir</string>
+    <string name="notification_group_reminder">Eslatma ogohlantirishi</string>
+    <string name="notification_group_ongoing">Doimiy (o‘chirib bo‘lmaydigan) bildirishnomalar uchun ogohlantirish</string>
+    <string name="notification_group_screen_off">Faqat ekran o‘chirilganida ogohlantir</string>
+    <string name="notification_group_repeat_title">Ogohlantirishlarni takrorlash</string>
+    <string name="notification_group_wakelock">Telefon ekranini yoqish</string>
+    <string name="notification_group_grouped_display_title">Guruhlangan bildirishnomalar uchun ko‘rsatish sozlamasi</string>
+    <string name="notification_group_grouped_sort_order_title">Guruhlangan bildirishnomalar tartiblanish tartibi</string>
+
+    <string name="notification_group_filter">Bildirishnomani filtrlang</string>
+    <string name="notification_group_filter_title">Sarlavha bo‘yicha filtr</string>
+    <string name="notification_group_filter_content">Tarkib bo‘yicha filtr</string>
+    <string name="notification_group_filter_regex">Regex</string>
+    <string name="notification_group_filter_hint">Faqat sarlavha yoki tarkib mos kelsa ogohlantir (harf registri farqlanmaydi)</string>
+    <string name="notification_group_filter_contains">Quyidagilardan birini o‘z ichiga oladi</string>
+    <string name="notification_group_filter_not_contains">Hech birini o‘z ichiga olmaydi</string>
+
+    <string name="notification_group_sample_sms">SMS</string>
+    <string name="notification_group_sample_facebook">Messenger</string>
+    <string name="notification_group_sample_whatsapp">WhatsApp</string>
+
+    <string name="notification_group_correction">Bildirishnoma matnini tuzatish</string>
+    <string name="notification_group_correction_title">Sarlavhani tuzatish</string>
+    <string name="notification_group_correction_content">Tarkibni tuzatish</string>
+    <string name="notification_group_correction_regex">Regex</string>
+    <string name="notification_group_correction_hint">Harf registri farqlanmaydi</string>
+    <string name="notification_group_correction_items">Tuzatiladigan matnlar</string>
+    <string name="notification_group_correction_find">Topiladigan matn</string>
+    <string name="notification_group_correction_replace">Quyidagiga almashtirish</string>
+
+    <string name="notification_regex_hint">Alfanumerik bo‘lmagan belgilar maxsus ma’noga ega. Agar Regex-dan qanday foydalanishni bilmasangiz, belgini qo‘ymang.</string>
+
+    <string name="notification_confirm_close">Oʻzgarishlarni bekor qilmoqchimisiz?</string>
+
+    <string name="notification_edit_play_text_title">Bildirishnoma sarlavhasi</string>
+    <string name="notification_edit_play_text_content">Bildirishnoma tarkibi:</string>
+
+
+    <!-- Incoming call alert -->
+    <string name="call_tab_call">Kiruvchi qo‘ng‘iroq</string>
+    <string name="call_tab_contacts">Kontaktlar</string>
+
+    <string name="call_incoming">Kiruvchi qo‘ng‘iroq</string>
+    <string name="call_incoming_summary_on">Iltimos, %1$s ilovasida kiruvchi qo‘ng‘iroq ogohlantirishini o‘chirishni unutmang</string>
+    <string name="call_incoming_caller_id">Qo‘ng‘iroq qiluvchining nomini ko‘rsatish</string>
+
+    <string name="pref_call_notification_rejected">Rad etilgan qo‘ng‘iroq haqida bildirishnoma ko‘rsatish</string>
+    <string name="pref_call_notification_rejected_message">Qo‘ng‘iroq rad etildi</string>
+    <string name="pref_call_notification_rejected_action">Qo‘ng‘iroq qilish</string>
+
+    <string name="call_incoming_net_alert_title">Kiruvchi internet qo‘ng‘iroq ogohlantirishi</string>
+
+    <string name="call_missed_title">O‘tkazib yuborilgan qo‘ng‘iroq ogohlantirishi</string>
+    <string name="call_missed_chooser_title">%1$s ogohlantirishi</string>
+    <string name="call_missed_notification">O‘tkazib yuborilgan qo‘ng‘iroq</string>
+
+    <string name="call_reject_button_action">Qo‘ng‘iroqni tugatish tugmasi harakati</string>
+
+    <string name="touch_call_answer_title">Qo‘ng‘iroqni qabul qilish</string>
+    <string name="touch_call_answer_speakerphone_title">Ovoz kuchaytirgich</string>
+
+    <string name="call_end_title">Qo‘ng‘iroqni rad etish yoki tugatish</string>
+
+    <string name="touch_call_mute_title">Qo‘ng‘iroqni o‘chirish</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Faqat kiruvchi qo‘ng‘iroq bo‘lsa</string>
+    <string name="touch_call_mute_recognition_title">Kiruvchi qo‘ng‘iroqda</string>
+
+    <string name="call_contact_edit_contact">Kontakt</string>
+    <string name="call_contact_edit_name">Ism</string>
+    <string name="call_contact_edit_phone_number">Telefon raqami</string>
+
+    <string name="call_contact_edit_setting_name_order">Ism tartibi</string>
+    <string name="call_contact_edit_setting_default">@string/default_</string>
+    <string name="call_contact_edit_setting_first_name">Ism</string>
+    <string name="call_contact_edit_setting_last_name">Familiya</string>
+
+    <string name="message_call_contacts_free_counter">Bepul rejimda %1$d tagacha kontaktdan foydalanish mumkin</string>
+    <string name="message_call_contacts_max_counter">Maksimal %1$d tagacha kontaktdan foydalanish mumkin</string>
+
+    <!-- App chooser dialog -->
+    <string name="app_chooser">Ilova tanlash</string>
+    <string name="action_search">Qidirish</string>
+    <string name="action_filter_notification">Bildirishnoma filtri</string>
+
+    <!-- Activity -->
+    <string name="step_details">Faollik tafsilotlari</string>
+
+    <string name="mi_band_tracker_step_title">%1$,d</string>
+    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string>
+    <string name="mi_band_tracker_distance_kilometer_title">%,.2f km</string>
+    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string>
+    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string>
+
+    <string name="action_tracker_step">Qadamlar</string>
+    <string name="action_tracker_distance">Masofa</string>
+    <string name="action_tracker_calorie">Kaloriyalar</string>
+    <string name="action_tracker_duration">Mashg‘ulot davomiyligi</string>
+
+    <string name="step_goal_default_title">Standart maqsad</string>
+
+    <!-- Sleep monitoring -->
+    <string name="sleep_details">Uyqu tafsilotlari</string>
+
+    <string name="sleep_awake_phase_short">Uyg‘oq</string>
+    <string name="sleep_light_phase_short">Yengil</string>
+    <string name="sleep_deep_phase_short">Chuqur</string>
+    <string name="sleep_rem_phase_short">REM</string>
+
+    <!-- Heart rate -->
+    <string name="heart_rate_details">Yurak urishi tafsilotlari</string>
+
+    <string name="heart_rate_continuous_measurement_title">Doimiy yurak urishi o‘lchovi</string>
+
+    <string name="heart_rate_alert_title">Yurak urishi ogohlantirishi</string>
+    <string name="heart_rate_thresholds">Yurak urish chegaralari</string>
+    <string name="low_heart_rate">Past yurak urishi</string>
+    <string name="high_heart_rate">Yuqori yurak urishi</string>
+
+    <!-- Blood oxygen -->
+    <string name="blood_oxygen_details">Qon kislorodi tafsilotlari</string>
+
+    <string name="blood_oxygen_level_measurement">Qon kislorod darajasini o‘lchash</string>
+    <string name="measurement_interval">O‘lchov oralig‘i</string>
+
+    <!-- Blood pressure -->
+    <string name="blood_pressure_details">Qon bosimi tafsilotlari</string>
+
+    <string name="blood_pressure_level_measurement">Qon bosimini o‘lchash</string>
+
+    <string name="blood_pressure_systolic_abbreviation">Sist</string>
+    <string name="blood_pressure_diastolic_abbreviation">Diast</string>
+    <string name="blood_pressure_unit">mmHg</string>
+
+    <!-- Workout -->
+    <string name="workout_details">Mashg‘ulot tafsilotlari</string>
+
+    <!-- Alarm -->
+    <string name="action_time_alarm_sort_state_asc">Holat bo‘yicha (oshish tartibida)</string>
+    <string name="action_time_alarm_sort_watch_asc">Soat bo‘yicha (oshish tartibida)</string>
+    <string name="action_time_alarm_sort_name_asc">Nomi bo‘yicha (oshish tartibida)</string>
+
+    <string name="message_time_alarm_sync">%1$s signalini sinxronlash (bu mavjud signallarni o‘chiradi va yangilarini soatga o‘rnatadi)</string>
+
+    <string name="info_dialog_alarm"><![CDATA[
+    <p>Agar hamkorlik rejimi ishlatilsa, rasmiy ilova va <app_name/> ilovasi bir-birining sozlamalarini bekor qilishi yoki o‘chirish imkoniyatiga ega.</p>
+    So‘nggi bajarilgan amal amal qiladi.
+    ]]></string>
+
+    <!-- Reminder -->
+    <string name="message_reminder_enabled">Eslatma yoqilgan</string>
+    <string name="message_reminder_disabled">Eslatma o‘chirilgan</string>
+
+    <string name="reminder_repeat">Har soatda takrorlash</string>
+    <string name="reminder_notification_on_phone">Telefon orqali eslatma</string>
+
+    <string name="message_time_reminder_free_counter">Bepul rejimda faqat 1 ta eslatma mavjud</string>
+
+    <string name="info_dialog_reminder"><![CDATA[
+    Eslatmani ko‘rsatish uchun Bluetooth ulanishi kerak.
+    ]]></string>
+
+    <!-- Do not disturb -->
+    <string name="pref_dnd_summary">Bezovta qilinmasin rejimida boshqaruv holati</string>
+    <string name="pref_dnd_enable_bluetooth">DnD boshlanganda Bluetooth o‘chadi, tugaganda yoqiladi</string>
+
+    <string name="info_dialog_dnd"><![CDATA[
+    Agar siz hamkorlik rejimidan foydalanayotgan bo‘lsangiz, rasmiy <device_type/> ilovasida "Bezovta qilinmasin" rejimi 00:00 dan 23:59 gacha bo‘lishi kerak va holati o‘chirilgan bo‘lishi lozim.
+    ]]></string>
+
+
+    <!-- Watch face -->
+    <string name="watch_face_tab_watch_faces">Soat yuzlari</string>
+    <string name="watch_face_tab_watch_face_custom">Maxsus fayllar</string>
+    <string name="watch_face_tab_watch_face_editor">Tahrirlovchi</string>
+
+    <string name="watch_face_download_title">Soat yuzini yuklab olish</string>
+    <string name="watch_face_upload_title">Soat yuzini yuklash</string>
+    <string name="watch_face_tool_title">Asboblar</string>
+
+    <string name="watch_face_share_content">Siz yaratgan soat yuzlarini boshqalar bilan ulashishingiz mumkin. Soat yuzu va ko‘rinish fayllarini elektron pochta orqali yuboring va quyidagi maʼlumotlarni kiriting: muallifning ismi, soat yuzining nomi (maks. 30 belgi) va til. Faqat yuqori sifatli soat yuzlari eʼlon qilinadi.</string>
+
+    <string name="watch_face_upload_prepare">Yuklashga tayyorlanmoqda…</string>
+    <string name="watch_face_upload_progress">Yuklanmoqda %1$,d%%</string>
+
+    <string name="watch_face_invalid_firmware">%1$s firmveri nomaʼlum yoki soat yuzini yuklashni qo‘llab-quvvatlamaydi. Rasmiy ilova orqali firmverni yangilang. Agar rasmiy ilova yuklashni qo‘llab-quvvatlasa, bu haqda Fikr bildirish bo‘limi orqali bizga xabar bering.</string>
+    <string name="watch_face_invalid_auth">Alohida rejimda foydalaning, hamkorlik rejimi paytida rasmiy ilova yuklashga to‘sqinlik qilishi mumkin</string>
+    <string name="watch_face_invalid_free">Bugun bepul rejimda yana soat yuzu yuklab bo‘lmaydi</string>
+    <string name="watch_face_watch_rewarded_ads">Davom ettirish uchun video tomosha qiling</string>
+    <string name="watch_face_watch_rewarded_ads_uploading">Yuklashni davom ettirish uchun video tomosha qiling</string>
+    <string name="watch_face_watch_rewarded_ads_countdown">Video boshlanmoqda…</string>
+
+    <string name="watch_face_upload_method_title">Usul</string>
+    <string name="watch_face_upload_method_default">@string/default_</string>
+    <string name="watch_face_upload_method_alternative">Muqobil</string>
+
+    <string name="watch_face_upload_speed_title">Yuklash tezligi</string>
+    <string name="watch_face_upload_invalid_speed_hint">Agar yuklash to‘xtab qolsa, pastroq yuklash tezligini tanlang</string>
+    <string name="watch_face_upload_invalid_size_hint">Soat yuzu fayl hajmi noto‘g‘ri, sifatni kamaytiring yoki elementlarni olib tashlang</string>
+    <string name="watch_face_upload_invalid_battery_hint">Soat batareyasi kam quvvatda, iltimos soatni zaryadlang</string>
+
+    <string name="watch_face_tbwf_quality_title">.tbwf fayli sifat sozlamasi</string>
+    <string name="watch_face_tbwf_quality_hint">Agar soat ruxsat etsa, fayl hajmini kamaytirish mumkin</string>
+
+    <string name="watch_face_tbwf_locale_title">.tbwf fayli til va hudud sozlamalari</string>
+    <string name="watch_face_tbwf_locale_hint">Hafta kunlari nomi, oy ajratgich va o‘nlik belgisi</string>
+
+    <string name="message_watch_face_file_invalid">Soat yuzu fayli noto‘g‘ri</string>
+    <string name="message_watch_face_file_invalid_size">Soat yuzu fayli hajmi noto‘g‘ri</string>
+    <string name="message_watch_face_file_invalid_battery">Soat batareyasi zaryadsiz holatda</string>
+    <string name="message_watch_face_image_file_error">Rasm fayli noto‘g‘ri</string>
+    <string name="message_watch_face_font_file_error">Shrift fayli noto‘g‘ri</string>
+
+    <string name="action_chart_layout_2_columns">2 ustunli maket</string>
+    <string name="action_chart_layout_3_columns">3 ustunli maket</string>
+
+    <string name="watch_face_edit_dial">Soat yuzi</string>
+    <string name="watch_face_edit_preview">Oldindan ko‘rish</string>
+    <string name="watch_face_edit_hour_digital">Soat</string>
+    <string name="watch_face_edit_minute_digital">Daqiqa</string>
+    <string name="watch_face_edit_second_digital">Soniya</string>
+    <string name="watch_face_edit_am_pm">AM/PM ko‘rsatkichi</string>
+    <string name="watch_face_edit_am">AM</string>
+    <string name="watch_face_edit_pm">PM</string>
+    <string name="watch_face_edit_hour_analog">Soat ko‘rsatkichi</string>
+    <string name="watch_face_edit_minute_analog">Daqiqa ko‘rsatkichi</string>
+    <string name="watch_face_edit_second_analog">Soniya ko‘rsatkichi</string>
+    <string name="watch_face_edit_axis">Aylanish o‘qi</string>
+    <string name="watch_face_edit_hour_minute_separator">Soat va daqiqa ajratuvchisi</string>
+    <string name="watch_face_edit_year">Yil</string>
+    <string name="watch_face_edit_year_month_separator">Yil va oy ajratuvchisi</string>
+    <string name="watch_face_edit_month">Oy</string>
+    <string name="watch_face_edit_month_name">Oy nomi</string>
+    <string name="watch_face_edit_month_day_separator">Oy va kun ajratuvchisi</string>
+    <string name="watch_face_edit_day">Kun</string>
+    <string name="watch_face_edit_dayOfWeek">Hafta kuni</string>
+    <string name="watch_face_edit_battery_level">Batareya darajasi</string>
+    <string name="watch_face_edit_battery_level_percent_sign">Batareya darajasi %</string>
+    <string name="watch_face_edit_battery_level_image">Batareya rasmi</string>
+    <string name="watch_face_edit_weather_temperature">Harorat</string>
+    <string name="watch_face_edit_weather_temperature_unit_sign">Harorat birligi °</string>
+    <string name="watch_face_edit_weather_image">Ob-havo rasmi</string>
+    <string name="watch_face_edit_connection_indicator_image">Ulanish holati belgisi</string>
+    <string name="watch_face_edit_connected">Ulangan</string>
+    <string name="watch_face_edit_disconnected">Ulanmagan</string>
+    <string name="watch_face_edit_steps">Qadamlar</string>
+    <string name="watch_face_edit_steps_image">Qadamlar rasmi</string>
+    <string name="watch_face_edit_steps_goal_progress">Qadam maqsadi holati</string>
+    <string name="watch_face_edit_distance">Masofa</string>
+    <string name="watch_face_edit_distance_image">Masofa rasmi</string>
+    <string name="watch_face_edit_calories">Kaloriya</string>
+    <string name="watch_face_edit_calories_image">Kaloriya rasmi</string>
+    <string name="watch_face_edit_heart_rate">Yurak urishi</string>
+    <string name="watch_face_edit_heart_rate_image">Yurak urishi rasmi</string>
+
+    <string name="watch_face_edit_color">Rang</string>
+    <string name="watch_face_edit_font_family">Shrift oilasi</string>
+    <string name="watch_face_edit_character">Belgilar</string>
+    <string name="watch_face_edit_font_size">Shrift o‘lchami</string>
+    <string name="watch_face_edit_image">Rasm</string>
+    <string name="watch_face_edit_image_png_jpeg">Rasm (.png, .jpeg)</string>
+    <string name="watch_face_edit_image_png">Rasm (.png)</string>
+    <string name="watch_face_edit_image_size">Rasm o‘lchami</string>
+    <string name="watch_face_edit_icon">Belgi</string>
+
+    <string name="watch_face_custom_watch_face_not_supported_title">Bu soat maxsus soat yuzlarini yuklashni qo‘llab-quvvatlamaydi</string>
+    <string name="watch_face_custom_watch_face_under_development_title">Maxsus soat yuzlarini yuklash funksiyasi hozirda ishlab chiqilmoqda va kelajakda mavjud bo‘lishi mumkin, ammo bu hali tasdiqlanmagan.</string>
+
+    <!-- Touch monitoring -->
+    <string name="touch_tab_function">Funktsiya</string>
+    <string name="touch_tab_control">Boshqaruv</string>
+    <string name="touch_tab_testing">Sinov</string>
+    <string name="touch_tab_setting">@string/setting_name</string>
+
+    <string name="touch_function_summary">Agar mustaqil rejimda foydalanayotgan bo‘lsangiz yoki Mi Fit noto‘g‘ri ishlayotgan bo‘lsa, ushbu funksiyalarni sozlang</string>
+    <string name="touch_function">%1$s funksiyasi</string>
+    <string name="touch_function_as_touch">Boshqaruv menyusida tegishli funksiya sifatida ishlatish</string>
+
+    <string name="touch_headline_incoming_call_title">Kiruvchi qo‘ng‘iroq</string>
+    <string name="touch_headline_other_function_title">Boshqa funksiyalar</string>
+    <string name="touch_headline_call_title">Qo‘ng‘iroq boshqaruvi</string>
+    <string name="touch_headline_music_title">Musiqa boshqaruvi</string>
+    <string name="touch_headline_time_title">Taymer/stopwatch boshqaruvi</string>
+    <string name="touch_headline_other_title">Boshqa boshqaruvlar</string>
+
+    <string name="touch_device_location_title">Telefonni topish</string>
+    <string name="touch_device_location_not_muted_only_title">Faqat ovozli rejimda yoki DnD rejimida bo‘lmaganda</string>
+
+    <string name="touch_mute_toggle_title">Telefonni ovozsiz rejimga o‘tkazish</string>
+    <string name="touch_mute_toggle_ringer_mode_title">Ovozsiz rejim</string>
+    <string name="touch_mute_toggle_mute_off_title">Ovozsiz rejim o‘chirildi</string>
+
+    <string name="touch_music_title">Musiqa</string>
+    <string name="touch_music_function_launch">Agar musiqa pleyeri aniqlanmagan bo‘lsa, pleyni bosib musiqani boshlash</string>
+    <string name="touch_music_function_mi_band_message_launch">Play tugmasi bilan musiqani boshlash</string>
+    <string name="touch_music_function_mi_band_message_no_track_title">Qo‘shiq nomi olinmadi</string>
+
+    <string name="touch_call_out_title">Qo‘ng‘iroq qilish</string>
+    <string name="touch_call_out_no_contact">Kontakt tanlang</string>
+    <string name="touch_call_out_summary">Qo‘ng‘iroqni boshlash uchun ikki marta bosing</string>
+    <string name="touch_call_out_summary_support_call_display_button">Qo‘ng‘iroq qilish uchun tugmani bosing</string>
+    <string name="touch_call_out_speakerphone_title">Karnay orqali</string>
+    <string name="touch_call_out_call_text">Qo‘ng‘iroq: %1$s</string>
+
+    <string name="touch_weather_title">Ob-havo prognozi</string>
+    <string name="touch_weather_location">Joylashuvni yangilash</string>
+    <string name="touch_weather_precipitation">Yog‘ingarchilik</string>
+    <string name="touch_weather_cloud_cover">Bulutlilik</string>
+    <string name="touch_weather_wind">Shamol</string>
+
+    <string name="touch_repeat_notif_title">Bildirishnomalarni takrorlash</string>
+    <string name="touch_repeat_notif_clear_all">Takrorlangandan so‘ng barcha bildirishnomalarni tozalash</string>
+
+    <string name="touch_clear_notif_title">Telefon bildirishnomalarini tozalash</string>
+
+    <string name="touch_music_play_pause_title">Musiqa ijrosi, pauza</string>
+    <string name="touch_music_skip_previous_title">Musiqa ijrosi, oldingi qo‘shiq</string>
+    <string name="touch_music_skip_next_title">Musiqa ijrosi, keyingi qo‘shiq</string>
+    <string name="touch_music_headset_only_title">Faqat quloqchin ulangan bo‘lsa</string>
+    <string name="touch_music_launch">Musiqani boshlash</string>
+    <string name="touch_music_volume_up_title">Musiqa balandligini oshirish</string>
+    <string name="touch_music_volume_down_title">Musiqa balandligini kamaytirish</string>
+    <string name="touch_music_track_info_title">Qo‘shiq haqida ma’lumot ko‘rsatish</string>
+
+    <string name="touch_time_launch_title">Vaqt kuzatuvini boshlash</string>
+    <string name="touch_time_launch_type_timer_title">Taymer</string>
+    <string name="touch_time_launch_type_stopper_title">Stopwatch</string>
+    <string name="touch_time_launch_type_interval_title">Interval</string>
+    <string name="touch_time_launch_restart">Agar faol bo‘lsa, qayta ishga tushirish</string>
+    <string name="touch_time_reminder_title">Qolgan/o‘tgan vaqtni ko‘rsatish</string>
+
+    <string name="touch_google_assistant_title">Google Assistant</string>
+
+    <string name="touch_flashlight_title">Fonarni yoqish/o‘chirish</string>
+
+    <string name="touch_camera_title">Rasmga olish</string>
+    <string name="touch_camera_front_title">Old kamera</string>
+    <string name="touch_camera_rear_title">Orqa kamera</string>
+    <string name="touch_camera_install_title">O‘rnatish</string>
+
+    <string name="touch_app_launcher1_title">Ilova ishga tushirgichi</string>
+    <string name="touch_app_launcher_package_no_title">Ilovani tanlang</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">Faqat ekran qulflanmagan bo‘lsa</string>
+
+    <string name="touch_broadcast1_title">Broadcast yuborish</string>
+    <string name="touch_broadcast1_action_title">Intent harakati</string>
+    <string name="touch_broadcast1_package_title">Intent paket nomi</string>
+
+    <string name="touch_http_request1_title">1. HTTP so‘rov</string>
+    <string name="touch_http_request2_title">2. HTTP so‘rov</string>
+    <string name="touch_http_request_url_title">URL</string>
+    <string name="touch_http_request_method_title">Usul</string>
+    <string name="touch_http_request_body_title">Tana</string>
+    <string name="touch_http_request_show_response_title">Javobni ko‘rsatish</string>
+
+    <string name="touch_tasker_launcher1_title">1. Tasker vazifa ishga tushirgichi</string>
+    <string name="touch_tasker_launcher2_title">2. Tasker vazifa ishga tushirgichi</string>
+    <string name="touch_tasker_launcher_no_permission_title">Avval Tasker ilovasini, keyin Mi Bandage ilovasini o‘rnating</string>
+    <string name="touch_tasker_launcher_no_access_title">Tashqi kirishga ruxsat bering</string>
+    <string name="touch_tasker_launcher_no_task_title">Vazifani tanlang</string>
+
+    <string name="touch_testing_title">Tegishni kuzatish</string>
+    <string name="touch_testing_second">sek.</string>
+
+    <string name="touch_setting_detection_time_title">Tegishni aniqlash vaqti</string>
+    <string name="touch_setting_detection_time_button_hint">Pastroq qiymat tugma harakatlari uchun tez-tez bosishni talab qiladi</string>
+
+    <string name="touch_setting_detection_method_title">Tegishni aniqlash usuli</string>
+
+    <string name="touch_setting_recognition_start_title">Tegishni tanib olishni boshlash</string>
+    <string name="touch_setting_recognition_start_trigger_title">Faollashtiruvchi</string>
+    <string name="touch_setting_recognition_time_title">Tanib olish muddati</string>
+
+    <string name="touch_setting_recognition_mi_band_signal_title">%1$s signali</string> <!-- %1$s = Watch name -->
+    <string name="touch_setting_recognition_succeeded_title">Taniqli tegish namunasi</string>
+    <string name="touch_setting_recognition_failed_title">Noma’lum tegish namunasi</string>
+
+    <string name="info_dialog_touch"><![CDATA[
+    <p>Ushbu funksiyalar mustaqil rejimda to‘g‘ri ishlaydi. Agar siz hamkorlik rejimidan foydalansangiz, rasmiy <app_official/> ilova ham ushbu funksiyalarni boshqaradi, shuning uchun to‘liq ishlashi kafolatlanmaydi.</p>
+    <p><b>Telefon Bluetooth sozlamalari:</b> <device_name/> kiritish qurilmasini o‘chiring</p>
+    <b><u>Taninadigan tegishlar</u></b>
+    <br><img src="ic_music_skip_previous"> <img src="ic_music_play_pause"> <img src="ic_music_skip_next">
+    <br><device_type/> musiqa boshqaruvi
+    <p><img src="ic_search">
+    <br><device_type/> telefonni topish
+    </p>
+    Har bir funksiya uchun bir nechta tegishlar yozilishi mumkin.
+    ]]></string>
+
+
+    <!-- Weather  -->
+    <string name="weather_tab_weather_forecast">Ob-havo</string>
+    <string name="weather_tab_location">Joylashuv</string>
+    <string name="weather_tab_settings">@string/setting_name</string>
+
+    <string name="weather_location_title">Joylashuv</string>
+    <string name="weather_forecast_title">Ob-havo bashorati</string>
+
+    <string name="weather_setting_provider">Ob-havo provayderi</string>
+    <string name="weather_city_title">Shahar</string>
+    <string name="weather_unit_title">Birlik</string>
+    <string name="weather_unit_metric">Metrik (Celsius)</string>
+    <string name="weather_unit_imperial">Imperial (Fahrenheit)</string>
+    <string name="weather_automatic_update">Joylashuvni avtomatik yangilash</string>
+    <string name="weather_automatic_update_title">Joriy joylashuvdan foydalanish</string>
+    <string name="weather_automatic_update_summary">Ilova yopiq yoki ishlatilmayotgan bo‘lsa ham, joriy joylashuv asosida ob-havo ma’lumotlarini yangilash uchun joylashuv ma’lumotlarini yig‘adi.</string>
+
+    <string name="permission_background_location">%1$s yopiq yoki ishlatilmayotgan bo‘lsa ham joylashuv ma’lumotlarini yig‘ish huquqiga ega bo‘ladi</string>
+    <string name="permission_error_title">%1$s ruxsatlarni yangilay olmaydi</string>
+    <string name="permission_error_description">Sozlamalarni oching va joylashuv ruxsatlari uchun „%1$s” tanlovini belgilang</string>
+    <string name="all_the_time">Har doim</string>
+
+    <string name="weather_current_title">Joriy ob-havo</string>
+    <string name="weather_current_location">Joriy joylashuv</string>
+    <string name="weather_current_temperature">Joriy harorat</string>
+
+    <string name="weather_precipitation_rain">Yomg‘ir</string>
+    <string name="weather_precipitation_snow">Qor</string>
+    <string name="weather_cloud_cover_abbreviation">Bu</string>
+    <string name="weather_cloud_cover">Bulut</string>
+    <string name="weather_humidity">Namlik</string>
+
+    <string name="weather_north">S</string>
+    <string name="weather_east">Sh</string>
+    <string name="weather_south">J</string>
+    <string name="weather_west">G‘</string>
+
+    <!-- Text customization -->
+    <string name="pref_text_reminder_repeat_interval_title">Eslatma takrori oraliqlari</string>
+    <string name="pref_text_reminder_repeat_interval_summary">Bildirishnoma > Eslatma signali funksiyasi shu vaqtni ishlatadi</string>
+    <string name="pref_text_emoticon_title">Emoji konvertatsiyasi</string>
+    <string name="pref_text_emoticon_summary_on">Emoji belgilarini emotikonlarga aylantirish</string>
+    <string name="pref_text_uppercase_title">Katta harfga aylantirish</string>
+    <string name="pref_text_uppercase_summary_on">Kichik harflarni katta harflarga aylantirish</string>
+    <string name="pref_text_alphanumeric_title">Alfanumerik va ASCII belgilar</string>
+    <string name="pref_text_alphanumeric_summary_on">Faqat alfanumerik va ASCII belgilarni ko‘rsatish</string>
+    <string name="pref_text_transliteration_title">Transliteratsiya</string>
+    <string name="pref_text_transliteration_summary_on">Diakritik belgilarsiz harflarga aylantirish</string>
+    <string name="pref_text_line_separator_title">Qator ajratgichni almashtirish</string>
+    <string name="pref_text_line_separator_summary_on">Standart qator ajratgich o‘rniga boshqa belgilarni ishlatish</string>
+    <string name="pref_text_line_separator_value_title">O‘rnini bosuvchi belgilar</string>
+    <string name="pref_text_char_replacement_title">Belgilar va emoji almashtirish</string>
+    <string name="pref_text_char_replacement_summary_on">Bir belgini boshqasi bilan almashtirish</string>
+    <string name="pref_text_char_replacement_find">Topiladigan belgi</string>
+    <string name="pref_text_char_replacement_replace">Almashtirish belgisi</string>
+
+    <!-- Export -->
+    <string name="export_tab_database">Ma’lumotlarni eksport qilish</string>
+    <string name="export_start_date">Eksport boshlanish sanasi</string>
+
+    <!-- Theme -->
+    <string name="theme_tab_theme">Mavzu</string>
+
+    <string name="theme_title">Mavzuni tanlang</string>
+    <string name="theme_background_color_title">Fon rangi</string>
+
+    <string name="theme_widget_background_color_title">Rang</string>
+    <string name="theme_color_dynamic_color_title">Dinamik rang</string>
+    <string name="theme_color_predefined_colors_title">Oldindan belgilangan ranglar</string>
+
+    <string name="theme_notification_title">Bildirishnoma panelida holatni ko‘rsatish</string>
+
+    <string name="theme_cat_color_setting">Rang sozlamalari</string>
+
+    <!-- Feedback -->
+    <string name="action_log_notification">Jurnal</string>
+
+    <string name="feedback_google_play_title">Ilovani baholash</string>
+    <string name="feedback_request_feature_title">Funktsiya so‘rovi, xatolik haqida xabar</string>
+    <string name="feedback_request_feature_summary">Avtomatik elektron pochta bilan ishlov beriladi, javob olish kafolatlanmaydi</string>
+    <string name="feedback_translation_title">%1$s tarjimasi</string>
+    <string name="feedback_translation_title_summary">Iltimos, tarjimada yordam bering</string>
+
+    <!-- Premium mode -->
+    <string name="purchase_advantage_title">Premium rejim afzalliklari</string>
+    <string name="purchase_advantage"><![CDATA[
+    <p>• ishlab chiqishni moliyaviy qoʻllab-quvvatlash</p>
+    <p>• reklamalarsiz foydalanish</p>
+    <p>• bildirishnoma sozlamalari cheklovlarsiz</p>
+    <p>• qoʻngʻiroq sozlamalari cheklovlarsiz</p>
+    <p>• har kuni cheksiz soat ekranlarini yuklash</p>
+    <p>• cheksiz sonli signal sozlash (soat tomonidan cheklanishi mumkin)</p>
+    <p>• “Bezovta qilinmasin” rejimi cheklovlarsiz</p>
+    <p>• sensorli boshqaruv sozlamalari cheklovlarsiz</p>
+    <p>• tez-tez ob-havo yangilanishi, avtomatik joylashuv yangilanishi, AccuWeatherdan foydalanish imkoni</p>
+    <p>• batafsil kunlik grafiklar</p>
+    • boshqa barcha funksiyalarni toʻliq ochish…
+    ]]></string>
+
+    <string name="purchase_policy_title">Premium rejim xarid qilish shartlari</string>
+    <string name="purchase_policy"><![CDATA[
+    <p>• Ilovani sinab koʻrdim va uning kutilganidek ishlashiga ishonch hosil qildim.</p>
+    <p>• Tushunaman: tizim oʻzgarishlari (masalan, Android versiyasi yangilanishi), qurilma, yoki boshqa ilovalar bilan mos kelmaslik tufayli yuzaga keladigan muammolar uchun kompensatsiya yoki qaytarish talab qila olmayman.</p>
+    <p>• Barcha xaridlar yakuniy hisoblanadi va qaytarilmaydi (Google\'ning qaytarish siyosatiga muvofiq holatlar bundan mustasno).</p>
+    <p>• Ushbu ilova hech qanday toʻliq yoki koʻzda tutilgan kafolat bilan ta\'minlanmaydi.</p>
+    <p>• Ilovadan foydalanish foydalanuvchining oʻz xavfi ostida amalga oshiriladi. Dasturchi hech qanday toʻgʻridan-toʻgʻri yoki bilvosita zarar yoki ma\'lumot yoʻqolishi uchun javobgar emas.</p>
+    <p>• Premium rejim sizning Google hisobingizga bogʻlanadi va ilovani qayta oʻrnatganingizdan keyin ham faol boʻlib qoladi.</p>
+    <i>Xariddan soʻng ilovani qayta ishga tushirish kerak.</i>
+    ]]></string>
+
+    <string name="purchase_google_play_services_not_available">Google Play xizmatlari mavjud emas</string>
+
+    <string name="purchase_agree">Shartlarga roziman.</string>
+    <string name="purchase_order_id">Buyurtma raqami</string>
+    <string name="purchase_order_id_help">Quyidagidan nusxa oling:
+    \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+    \n<a href="https://payments.google.com">https://payments.google.com</a>
+    </string>
+
+    <string name="purchase_info">Yagona toʻlov ・ %1$s</string>
+    <string name="purchase_button_purchase">Xarid qilish</string>
+
+    <!-- Privacy policy -->
+    <string name="privacy_policy_tab_privacy_policy">Maxfiylik siyosati</string>
+    <string name="privacy_policy_tab_user_consent">Foydalanuvchi roziligini boshqarish</string>
+    <string name="privacy_policy_tab_eu_consent">YeI va AQSh foydalanuvchilarining roziligi</string>
+    <string name="privacy_policy_tab_non_eu_consent">Boshqa mintaqalar foydalanuvchilarining roziligi</string>
+
+    <string name="privacy_policy_collect_title">Yigʻiladigan maʼlumotlar</string>
+    <string name="privacy_policy_collect"><![CDATA[
+    <p>• Biz faqat anonim maʼlumotlarni yigʻamiz.</p>
+    <p>• Ilova darajasida siz foydalanayotgan xizmatlar va ularni qanday ishlatayotganingiz haqida maʼlumot yigʻamiz (Google Analytics).</p>
+    <p>• Ilova ishlashidagi xatolar, nosozliklar va qulashlar haqidagi maʼlumotlar yigʻiladi (Firebase Crashlytics) — bu xizmatni yaxshilashga yordam beradi.</p>
+    <p>• Ilovaning ishlash ko‘rsatkichlariga oid ma’lumotlar ham yig‘iladi (Firebase Performance Monitoring).</p>
+    <p>• Google Firebase platformasi maʼlumotlarni anonim tarzda yigʻadi. Bu foydalanuvchini shaxsan aniqlashsiz tendensiyalarni hisobot qiladi.
+    Firebase platformasi quyidagi maʼlumotlarni yigʻishi mumkin: Firebase oʻrnatish identifikatori, ilovaning holati, qurilma modeli, CPU arxitekturasi, RAM va xotira hajmi, operatsion tizim, ekran holati, mamlakat, til/lokal sozlamalari, stek izlari, ish faoliyatiga oid koʻrsatkichlar (ilova ishga tushish vaqti, tarmoq soʻrovlari kechikishi, URL manzillar), CPU/xotira ishlatilishi, taxminiy IP-manzil va boshqalar.</p>
+    <p>• Ob-havoni yangilash uchun joylashuv maʼlumotlari yigʻiladi (faqat siz ushbu funksiyani yoqsangiz).</p>
+    • Ushbu maʼlumotlarni yigʻish va qayta ishlashning huquqiy asosi — ilova funksionalligini va ishlash samaradorligini yaxshilash, shuningdek barqarorlik va qulaylikni taʼminlash boʻyicha bizning qonuniy manfaatlarimizdir.
+    ]]></string>
+
+    <string name="privacy_policy_cookies_title">Cookie-fayllar va shunga oʻxshash texnologiyalar</string>
+    <string name="privacy_policy_cookies"><![CDATA[
+    • AdMob kabi ayrim uchinchi tomon xizmatlari shaxsiylashtirilgan reklamalarni koʻrsatish uchun cookie-fayllar yoki shunga oʻxshash texnologiyalardan foydalanishi mumkin. Siz Google hisobingizdagi reklamalarni shaxsiylashtirish sozlamalari orqali bu parametrlarni boshqarishingiz mumkin.
+    ]]></string>
+
+    <string name="privacy_policy_retention_title">Maʼlumotlarni saqlash</string>
+    <string name="privacy_policy_retention"><![CDATA[
+    • Yigʻilgan maʼlumotlar Google Firebase tomonidan ularning siyosatiga muvofiq saqlanadi va faqat tahlil, diagnostika va ishlashni yaxshilash maqsadlarida zarur boʻlgan muddatgacha saqlanadi.
+    ]]></string>
+
+    <string name="privacy_policy_not_collect_title">Yigʻilmaydigan maʼlumotlar</string>
+    <string name="privacy_policy_not_collect"><![CDATA[
+    <p>• Siz haqingizda shaxsiy identifikatsiya qilinadigan maʼlumotlarni yigʻmaymiz. Bu sizning ismingiz, manzilingiz, telefon raqamingiz, elektron pochta manzilingiz yoki MAC manzilingiz kabi shaxsiy maʼlumotlarni oʻz ichiga olmaydi.</p>
+    • Biz sogʻliq holatingizga oid maʼlumotlar, kontaktlar yoki qurilmangizdagi bildirishnomalar mazmunini yigʻmaymiz.
+    ]]></string>
+
+    <string name="privacy_policy_share_title">Ulashiladigan maʼlumotlar</string>
+    <string name="privacy_policy_share"><![CDATA[
+    • Hech qanday maʼlumotni boshqa kompaniyalar yoki tashkilotlar bilan ulashmaymiz, faqat Google va reklamachilar bundan mustasno.
+    ]]></string>
+
+    <string name="privacy_policy_use_title">Foydalaniladigan shaxsiy va nozik maʼlumotlar</string>
+    <string name="privacy_policy_use"><![CDATA[
+    • Biz joylashuv maʼlumotlaridan faqat ob-havo maʼlumotlarini yangilash uchun foydalanamiz va bu faqat siz ushbu funksiyani yoqganingizda amalga oshiriladi.
+    ]]></string>
+
+    <string name="privacy_policy_rights_title">Sizning huquqlaringiz</string>
+    <string name="privacy_policy_rights"><![CDATA[
+    <p>• Yigʻilgan tahliliy, xatolik va ishlash maʼlumotlari butunlay anonimdir va shaxsni aniqlash uchun ishlatilmaydi. Shu sababli, ular amaldagi maʼlumotlarni himoya qilish qonunlari (masalan, GDPR) doirasida shaxsiy maʼlumot hisoblanmaydi va ularga nisbatan kirish, tuzatish yoki oʻchirish huquqlari qoʻllanilmaydi.</p>
+    <p>• Ilovani oʻchirib tashlash yoki Google hisobingiz/yoki qurilmangizdagi maxfiylik sozlamalari orqali maʼlumot yigʻilishidan voz kechishingiz mumkin.</p>
+    • Maʼlumotlardan foydalanish yoki sizning maxfiylik huquqlaringiz haqida savollaringiz boʻlsa, ilova orqali texnik yordamga murojaat qiling.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">Uchinchi tomon xizmat koʻrsatuvchilarning maxfiylik siyosati</string>
+    <string name="privacy_policy_links"><![CDATA[
+    <p><a href="https://policies.google.com/privacy">Google Maxfiylik Siyosati (Google Play Services-ni oʻz ichiga oladi)</a></p>
+    <p><a href="https://policies.google.com/technologies/ads">AdMob – Maʼlumotlardan foydalanish</a></p>
+    <p><a href="https://support.google.com/analytics/answer/6004245">Google Analytics – Maʼlumotlardan foydalanish</a></p>
+    <p><a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics – Foydalanish shartlari</a></p>
+    <a href="https://firebase.google.com/support/privacy">Firebase maxfiylik va xavfsizlik (shu jumladan Performance Monitoring)</a>
+    ]]></string>
+
+    <string name="privacy_policy_eu_consent_title">Holat</string>
+    <string name="privacy_policy_eu_consent_title_obtained">Rozilik berilgan</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Shaxsiylashtirilgan, dolzarb reklamalar</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Shaxsiylashtirilmagan, kamroq dolzarb reklamalar</string>
+    <string name="privacy_policy_eu_consent_title_unknown">Nomaʼlum</string>
+
+    <string name="privacy_policy_eu_consent_setting">Sozlama</string>
+
+
+    <!-- Custom vibration dialog -->
+    <string name="custom_vibration_title">Vibratsiya sozlamasi</string>
+
+    <!-- Shortcuts -->
+    <string name="shortcut">Tezkor menyu</string>
+    <string name="shortcut_visible_items">Ko‘rinadigan qisqa yo‘llar</string>
+    <string name="shortcut_hidden_items">Yashirin qisqa yo‘llar</string>
+
+    <string name="shortcut_status">Holat</string>
+    <string name="shortcut_heart_rate">Yurak urishi</string>
+    <string name="shortcut_blood_oxygen">Qon kislorodi</string>
+    <string name="shortcut_sleep">Uyqu</string>
+    <string name="shortcut_breathing">Nafas olish</string>
+    <string name="shortcut_weather">Ob-havo</string>
+    <string name="shortcut_stress">Stress</string>
+
+    <!-- Actions  -->
+    <string name="tab_daily_charts">Kundalik grafiklar</string>
+    <string name="tab_weekly_charts">Haftalik grafiklar</string>
+    <string name="tab_monthly_charts">Oylik grafiklar</string>
+    <string name="tab_yearly_charts">Yillik grafiklar</string>
+
+    <string name="ad_attribution">Reklama</string>
+    <string name="on">Yoqilgan</string>
+    <string name="off">O‘chirilgan</string>
+    <string name="none">Yo‘q</string>
+    <string name="heart_rate_bpm">bpm</string>
+    <string name="heart_rate_mhr">MHR</string>
+    <string name="date">Sana</string>
+    <string name="time">Vaqt</string>
+    <string name="time_start">Boshlanish vaqti</string>
+    <string name="time_end">Tugash vaqti</string>
+    <string name="ringer_mode_vibrate">Vibratsiya</string>
+    <string name="ringer_mode_silent">Jim</string>
+    <string name="ringer_mode_dnd_priority_only">Bezovta qilinmasin (faqat ustuvorlar)</string>
+    <string name="ringer_mode_dnd_alarms_only">Bezovta qilinmasin (faqat signal)</string>
+    <string name="ringer_mode_dnd_total_silence">Bezovta qilinmasin (to‘liq jimlik)</string>
+    <string name="unknown">Noma’lum</string>
+    <string name="maximum">Maksimal</string>
+    <string name="all_day">Butun kun</string>
+    <string name="timed">Vaqtli</string>
+    <string name="file_name">Fayl nomi</string>
+    <string name="default_">Standart</string>
+    <string name="default_by_phone">Standart (telefon bo‘yicha)</string>
+    <string name="custom">Moslashtirilgan</string>
+    <string name="invalid_setting">Noto‘g‘ri sozlama</string>
+    <string name="ringtone">Qo‘ng‘iroq ohangi</string>
+    <string name="ringtone_chooser">Ohang tanlash</string>
+    <string name="uninstalled">O‘chirib tashlangan</string>
+    <string name="value">Qiymat</string>
+    <string name="downloads">Yuklab olinganlar</string>
+    <string name="share">Ulashish</string>
+    <string name="send">Yuborish</string>
+    <string name="narrow">Tor</string>
+    <string name="short_">Qisqa</string>
+    <string name="medium">O‘rtacha</string>
+    <string name="long_">Uzoq</string>
+    <string name="full">To‘liq</string>
+    <string name="alignment_left">Chapga tekislash</string>
+    <string name="alignment_center">Markazga tekislash</string>
+    <string name="alignment_right">O‘ngga tekislash</string>
+    <string name="visible">Ko‘rinadigan</string>
+    <string name="invisible">Ko‘rinmaydigan</string>
+    <string name="placeholder">O‘rinbosar</string>
+    <string name="image_scale_fit">Moslashtirish</string>
+    <string name="image_scale_crop">Kesish</string>
+    <string name="image_scale_stretch">Cho‘zish</string>
+    <string name="resource_manager">Resurs boshqaruvchisi</string>
+
+    <string name="action_premium_mode">Premium rejimi</string>
+    <string name="action_dismiss">Yopish</string>
+    <string name="action_setting">Sozlama</string>
+    <string name="action_delete">O‘chirish</string>
+    <string name="action_rename">Nomini o‘zgartirish</string>
+    <string name="action_export">Eksport</string>
+    <string name="action_synchronization">Sinxronizatsiya</string>
+    <string name="action_download">Yuklab olish</string>
+    <string name="action_upload">Yuklash</string>
+    <string name="action_backup">Zaxira nusxa</string>
+    <string name="action_restore">Tiklash</string>
+    <string name="action_filter_no">Filtr yo‘q</string>
+    <string name="action_bluetooth">Bluetooth</string>
+    <string name="action_favorite">Sevimli</string>
+    <string name="action_save">Saqlash</string>
+    <string name="action_test">Sinov</string>
+    <string name="action_discard">Bekor qilish</string>
+    <string name="action_keep_editing">Tahrirlashni davom ettirish</string>
+    <string name="action_new">Yangi</string>
+    <string name="action_new_file_extension">Yangi %1$s</string>
+    <string name="action_edit">Tahrirlash</string>
+    <string name="action_start_stop">Boshlash/To‘xtatish</string>
+    <string name="action_contacts">Kontaktlar</string>
+    <string name="action_single_selection">Bitta tanlov</string>
+    <string name="action_multiple_selection">Ko‘p tanlov</string>
+    <string name="action_selection_boundaries">Tanlov chegaralari</string>
+    <string name="action_object_boundaries">Obyekt chegaralari</string>
+    <string name="action_select">Tanlash</string>
+    <string name="action_select_all">Barchasini tanlash</string>
+    <string name="action_select_texts">Matnlarni tanlash</string>
+    <string name="action_select_images">Rasmlarni tanlash</string>
+    <string name="action_deselect_all">Hammasini bekor qilish</string>
+    <string name="synchronized_from_watch">Soatdan sinxronlashtirildi</string>
+    <string name="synchronization_succeeded">Sinxronizatsiya muvaffaqiyatli</string>
+    <string name="synchronization_failed">Sinxronizatsiya muvaffaqiyatsiz</string>
+
+    <string name="action_chart">Grafik</string>
+    <string name="action_zoom_in">Yaqinlashtirish</string>
+    <string name="action_chart_normalize_raw_data">O‘lchangan qiymatlar</string>
+    <string name="action_chart_normalize_quarter_hourly">15 daqiqalik qiymatlar</string>
+    <string name="action_chart_normalize_half_hourly">30 daqiqalik qiymatlar</string>
+    <string name="action_chart_normalize_hourly">Soatlik qiymatlar</string>
+    <string name="action_chart_sort_time_asc">Vaqt bo‘yicha (o‘sish)</string>
+    <string name="action_chart_sort_time_desc">Vaqt bo‘yicha (kamayish)</string>
+    <string name="action_chart_sort_step_asc">Qadamlar bo‘yicha (o‘sish)</string>
+    <string name="action_chart_sort_step_desc">Qadamlar bo‘yicha (kamayish)</string>
+    <string name="action_chart_sort_duration_asc">Davomiylik (o‘sish)</string>
+    <string name="action_chart_sort_duration_desc">Davomiylik (kamayish)</string>
+    <string name="action_chart_sort_heart_rate_asc">Yurak urishi (o‘sish)</string>
+    <string name="action_chart_sort_heart_rate_desc">Yurak urishi (kamayish)</string>
+    <string name="action_chart_sort_spo2_asc">SpO2 (o‘sish)</string>
+    <string name="action_chart_sort_spo2_desc">SpO2 (kamayish)</string>
+    <string name="action_chart_sort_blood_pressure_asc">Qon bosimi (o‘sish)</string>
+    <string name="action_chart_sort_blood_pressure_desc">Qon bosimi (kamayish)</string>
+    <string name="action_chart_monthly_calendar">Kalendar</string>
+    <string name="action_chart_monthly_compact">Kompakt</string>
+
+    <string name="activity_progress_title_prepare">Sinxronizatsiyaga tayyorlanmoqda…</string>
+    <string name="activity_progress_title_sync">Maʼlumotlar sinxronizatsiyasi…</string>
+    <string name="activity_progress_title_save">Maʼlumotlar saqlanmoqda…</string>
+
+    <string name="required_value">Majburiy</string>
+
+    <string name="percent_0">0%</string>
+    <string name="percent_10">10%</string>
+    <string name="percent_20">20%</string>
+    <string name="percent_30">30%</string>
+    <string name="percent_40">40%</string>
+    <string name="percent_50">50%</string>
+    <string name="percent_60">60%</string>
+    <string name="percent_70">70%</string>
+    <string name="percent_80">80%</string>
+    <string name="percent_90">90%</string>
+    <string name="percent_100">100%</string>
+
+    <!-- Constants -->
+    <string name="const_day_of_week_sunday">Yakshanba</string>
+    <string name="const_day_of_week_monday">Dushanba</string>
+    <string name="const_day_of_week_tuesday">Seshanba</string>
+    <string name="const_day_of_week_wednesday">Chorshanba</string>
+    <string name="const_day_of_week_thursday">Payshanba</string>
+    <string name="const_day_of_week_friday">Juma</string>
+    <string name="const_day_of_week_saturday">Shanba</string>
+
+    <string name="const_time_abbreviation_day">k</string>
+    <string name="const_time_abbreviation_hour">s</string>
+    <string name="const_time_abbreviation_minute">d</string>
+    <string name="const_time_abbreviation_sec">s</string>
+    <string name="const_time_abbreviation_milli_sec">ms</string>
+
+    <string name="const_number">%1$,d</string>
+    <string name="const_number_float">%,.2f</string>
+    <string name="const_number_float_1_precision">%,.1f</string>
+    <string name="const_percentage">%1$,d%%</string>
+    <string name="const_percent_sign">%</string>
+    <string name="const_unit_kilometer">km</string>
+    <string name="const_unit_meter">m</string>
+    <string name="const_unit_centimeter">sm</string>
+    <string name="const_unit_mile">mi</string>
+    <string name="const_unit_kilogram">kg</string>
+    <string name="const_unit_kcal">kkal</string>
+    <string name="const_unit_dbm">dBm</string>
+
+    <plurals name="plural_time_hour">
+        <item quantity="one">%d soat</item>
+        <item quantity="other">%d soat</item>
+    </plurals>
+
+    <plurals name="plural_time_minute">
+        <item quantity="one">%d daqiqa</item>
+        <item quantity="other">%d daqiqa</item>
+    </plurals>
+
+    <plurals name="plural_time_second">
+        <item quantity="one">%d soniya</item>
+        <item quantity="other">%d soniya</item>
+    </plurals>
+
+</resources>
