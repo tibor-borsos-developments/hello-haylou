@@ -11,6 +11,7 @@
 ### Supported devices
 - Haylou Watch S6 (S003)
 - Haylou Iron N1 (LS24)
+- Haylou Solar Ultra (LS23)
 - Haylou Solar Neo (LS21)
 - Haylou Solar 5 (LS20)
 - Haylou RS5 (LS19)
