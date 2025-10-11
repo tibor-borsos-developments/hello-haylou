@@ -66,6 +66,8 @@
 
 # <img src="https://play-lh.googleusercontent.com/dn0iS7KiPmHd6dNuw2Mkl2mWv_AA8fJLzo3k9uoOT6ebpp_ObvhCqZBSYu5MiQD9SA=s48-rw"> Hello Zeblaze
 ### Supported devices
+- Zeblaze Vibe 8
+- Zeblaze Lily 2
 - Zeblaze Ares 3 Plus
 - Zeblaze Ares 3 Pro
 - Zeblaze Btalk 3 Pro
