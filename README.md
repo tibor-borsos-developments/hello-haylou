@@ -42,11 +42,13 @@
 
 # <img src="https://play-lh.googleusercontent.com/sIm_hSJg4qsanVoZRSvH-D7W1VRjskf-Vh75r1uwdmamCBotUNMasdhQBe1vhtjEba9K=s48-rw"> Hello Imilab
 ### Supported devices
-- Imiki D2
-- Imiki TG2
-- Imiki ST2
+- Imiki Frame 2
+- Imiki KW66 Pro / Holo Pro
+- Imiki D2 / Xplorer
+- Imiki ST2 / Frame Lite
+- Imiki ST1 / Frame
+- Imiki TG2 / Holo
 - Imiki TG1
-- Imiki ST1
 - Imiki SF1/SF1E
 - Imiki SE1
 - Imilab W02
