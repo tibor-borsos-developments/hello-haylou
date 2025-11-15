@@ -42,6 +42,8 @@
 
 # <img src="https://play-lh.googleusercontent.com/sIm_hSJg4qsanVoZRSvH-D7W1VRjskf-Vh75r1uwdmamCBotUNMasdhQBe1vhtjEba9K=s48-rw"> Hello Imilab
 ### Supported devices
+- Imiki Holo Ultra
+- Imiki Frame 2 Pro
 - Imiki Frame 2
 - Imiki KW66 Pro / Holo Pro
 - Imiki D2 / Xplorer
